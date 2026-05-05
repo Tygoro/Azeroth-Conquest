@@ -19,7 +19,8 @@ function isValidNode(node: unknown): node is TalentNode {
     n.position !== null &&
     typeof (n.position as Record<string, unknown>).x === 'number' &&
     typeof (n.position as Record<string, unknown>).y === 'number' &&
-    Array.isArray(n.prerequisites)
+    Array.isArray(n.prerequisites) &&
+    ['passive', 'active', 'choice', 'capstone'].includes(n.type as string)
   );
 }
 

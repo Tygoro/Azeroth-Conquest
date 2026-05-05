@@ -1,0 +1,187 @@
+{
+  "class": "Felsworn (Knight of Xoroth)",
+  "leftTree": [
+    {
+      "id": "n1",
+      "name": "Talent n1",
+      "description": "Top-left starting node.",
+      "maxPoints": 1,
+      "prerequisites": [],
+      "position": { "x": 300, "y": 120 },
+      "type": "active"
+    },
+    {
+      "id": "n2",
+      "name": "Talent n2",
+      "description": "Top center node connected to n1.",
+      "maxPoints": 1,
+      "prerequisites": ["n1"],
+      "position": { "x": 420, "y": 120 },
+      "type": "active"
+    },
+    {
+      "id": "n3",
+      "name": "Talent n3",
+      "description": "Top right node connected to n2.",
+      "maxPoints": 1,
+      "prerequisites": ["n2"],
+      "position": { "x": 540, "y": 120 },
+      "type": "active"
+    },
+    {
+      "id": "n4",
+      "name": "Talent n4",
+      "description": "Left branch node below n1.",
+      "maxPoints": 1,
+      "prerequisites": ["n1"],
+      "position": { "x": 260, "y": 220 },
+      "type": "passive"
+    },
+    {
+      "id": "n5",
+      "name": "Talent n5",
+      "description": "Center node below n2.",
+      "maxPoints": 1,
+      "prerequisites": ["n2"],
+      "position": { "x": 420, "y": 220 },
+      "type": "passive"
+    },
+    {
+      "id": "n6",
+      "name": "Talent n6",
+      "description": "Right branch node below n3.",
+      "maxPoints": 1,
+      "prerequisites": ["n3"],
+      "position": { "x": 580, "y": 220 },
+      "type": "passive"
+    },
+    {
+      "id": "n7",
+      "name": "Talent n7",
+      "description": "Mid-tier left node.",
+      "maxPoints": 1,
+      "prerequisites": ["n4"],
+      "position": { "x": 300, "y": 320 },
+      "type": "passive"
+    },
+    {
+      "id": "n8",
+      "name": "Talent n8",
+      "description": "Mid-tier center node.",
+      "maxPoints": 1,
+      "prerequisites": ["n5"],
+      "position": { "x": 420, "y": 320 },
+      "type": "passive"
+    },
+    {
+      "id": "n9",
+      "name": "Talent n9",
+      "description": "Mid-tier right node.",
+      "maxPoints": 1,
+      "prerequisites": ["n6"],
+      "position": { "x": 540, "y": 320 },
+      "type": "passive"
+    },
+    {
+      "id": "n10",
+      "name": "Talent n10",
+      "description": "Bottom capstone node.",
+      "maxPoints": 1,
+      "prerequisites": ["n7", "n8", "n9"],
+      "position": { "x": 420, "y": 420 },
+      "type": "capstone"
+    }
+  ],
+  "rightTree": [
+    {
+      "id": "n11",
+      "name": "Talent n11",
+      "description": "Top starting node of Slayer tree.",
+      "maxPoints": 1,
+      "prerequisites": [],
+      "position": { "x": 1000, "y": 120 },
+      "type": "active"
+    },
+    {
+      "id": "n12",
+      "name": "Talent n12",
+      "description": "Upper left node connected to n11.",
+      "maxPoints": 1,
+      "prerequisites": ["n11"],
+      "position": { "x": 900, "y": 180 },
+      "type": "active"
+    },
+    {
+      "id": "n13",
+      "name": "Talent n13",
+      "description": "Upper right node connected to n11.",
+      "maxPoints": 1,
+      "prerequisites": ["n11"],
+      "position": { "x": 1100, "y": 180 },
+      "type": "active"
+    },
+    {
+      "id": "n14",
+      "name": "Talent n14",
+      "description": "Central node below n11.",
+      "maxPoints": 1,
+      "prerequisites": ["n11"],
+      "position": { "x": 1000, "y": 240 },
+      "type": "passive"
+    },
+    {
+      "id": "n15",
+      "name": "Talent n15",
+      "description": "Mid left branch.",
+      "maxPoints": 1,
+      "prerequisites": ["n12"],
+      "position": { "x": 880, "y": 300 },
+      "type": "passive"
+    },
+    {
+      "id": "n16",
+      "name": "Talent n16",
+      "description": "Mid right branch.",
+      "maxPoints": 1,
+      "prerequisites": ["n13"],
+      "position": { "x": 1120, "y": 300 },
+      "type": "passive"
+    },
+    {
+      "id": "n17",
+      "name": "Talent n17",
+      "description": "Lower central node.",
+      "maxPoints": 1,
+      "prerequisites": ["n14"],
+      "position": { "x": 1000, "y": 340 },
+      "type": "passive"
+    },
+    {
+      "id": "n18",
+      "name": "Talent n18",
+      "description": "Lower left node.",
+      "maxPoints": 1,
+      "prerequisites": ["n15"],
+      "position": { "x": 900, "y": 400 },
+      "type": "passive"
+    },
+    {
+      "id": "n19",
+      "name": "Talent n19",
+      "description": "Lower right node.",
+      "maxPoints": 1,
+      "prerequisites": ["n16"],
+      "position": { "x": 1100, "y": 400 },
+      "type": "passive"
+    },
+    {
+      "id": "n20",
+      "name": "Talent n20",
+      "description": "Bottom capstone node.",
+      "maxPoints": 1,
+      "prerequisites": ["n17", "n18", "n19"],
+      "position": { "x": 1000, "y": 500 },
+      "type": "capstone"
+    }
+  ]
+}

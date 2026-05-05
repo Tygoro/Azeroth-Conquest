@@ -176,7 +176,7 @@ components:
           type: string
         type:
           type: string
-          enum: [passive, active, choice]
+          enum: [passive, active, choice, capstone]
       required:
         - id
         - name

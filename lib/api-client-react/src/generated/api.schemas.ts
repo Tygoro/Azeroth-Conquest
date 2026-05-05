@@ -29,6 +29,7 @@ export const TalentNodeType = {
   passive: "passive",
   active: "active",
   choice: "choice",
+  capstone: "capstone",
 } as const;
 
 export interface TalentNode {

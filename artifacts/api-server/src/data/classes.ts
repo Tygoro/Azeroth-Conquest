@@ -111,8 +111,8 @@ function buildGenericDualTree(
   id: string,
   className: string,
   color: string,
-  leftTalents: Array<{ name: string; description: string; maxPoints: number; type: "passive" | "active" | "choice" }>,
-  rightTalents: Array<{ name: string; description: string; maxPoints: number; type: "passive" | "active" | "choice" }>,
+  leftTalents: Array<{ name: string; description: string; maxPoints: number; type: "passive" | "active" | "choice" | "capstone" }>,
+  rightTalents: Array<{ name: string; description: string; maxPoints: number; type: "passive" | "active" | "choice" | "capstone" }>,
 ): TalentTree {
   // Standard 10-node diamond layout
   const leftPositions = [P(1, 0), P(0, 1), P(2, 1), P(0, 2), P(1, 2), P(2, 2), P(0, 3), P(1, 3), P(2, 3), P(1, 4)];
@@ -148,6 +148,55 @@ function buildGenericDualTree(
       })),
     ),
   };
+}
+
+// ─── KNIGHT OF XOROTH ────────────────────────────────────────────────────────
+// Custom Dragonflight-style layout: 3-column grid converging to a capstone.
+// Left tree (Felsworn path): horizontal root row → 3 parallel columns → capstone
+// Right tree (Xoroth Slayer path): single root → fan-out → converge to capstone
+function buildKnightOfXorothTree(): TalentTree {
+  const C = "#8B0000";
+  const id = "knightofxoroth";
+
+  // Custom position helper — not using P() so we can match the blueprint exactly
+  const LP = (x: number, y: number) => ({ x, y });
+
+  const leftTree: TalentNode[] = nodes([
+    // Top row — sequential chain (n1→n2→n3)
+    { id: "kox_l1", name: "Fel Strike",        description: "Infuse your blade with fel energy, each swing dealing bonus fire damage. Damage +15% per point.",        maxPoints: 3, prerequisites: [],           position: LP(120, 60),  type: "active"   },
+    { id: "kox_l2", name: "Demonic Empowerment",description: "Call upon demonic power for 8s, increasing all damage dealt. Power +10% per point.",                    maxPoints: 2, prerequisites: ["kox_l1"],   position: LP(240, 60),  type: "active"   },
+    { id: "kox_l3", name: "Xorothian Steel",    description: "Your armor is forged in infernal steel, reducing all damage taken. Reduction +5% per point.",           maxPoints: 2, prerequisites: ["kox_l2"],   position: LP(360, 60),  type: "passive"  },
+    // Middle row — each column branches from its root above
+    { id: "kox_l4", name: "Fel Cleave",         description: "A sweeping fel-charged cleave that strikes all enemies in front. Damage +20% per point.",                maxPoints: 3, prerequisites: ["kox_l1"],   position: LP(80,  180), type: "active"   },
+    { id: "kox_l5", name: "Dark Pact",          description: "Sacrifice 15% of your health to massively empower your next ability. Power +15% per point.",             maxPoints: 2, prerequisites: ["kox_l2"],   position: LP(240, 180), type: "active"   },
+    { id: "kox_l6", name: "Infernal Presence",  description: "Your presence radiates searing heat, constantly damaging nearby enemies. DPS +10% per point.",           maxPoints: 3, prerequisites: ["kox_l3"],   position: LP(400, 180), type: "passive"  },
+    // Lower row — flowing from middle
+    { id: "kox_l7", name: "Soul Brand",         description: "Brand an enemy's soul — each action they take deals shadow damage back to them. Damage +10% per point.", maxPoints: 2, prerequisites: ["kox_l4"],   position: LP(80,  300), type: "passive"  },
+    { id: "kox_l8", name: "Chaos Shard",        description: "Hurl a shard of raw chaos energy that bounces between nearby enemies. Hits +1 per point.",               maxPoints: 3, prerequisites: ["kox_l5"],   position: LP(240, 300), type: "active"   },
+    { id: "kox_l9", name: "Fel Storm",          description: "Unleash a vortex of fel energy that tears through all nearby enemies. Damage +20% per point.",           maxPoints: 2, prerequisites: ["kox_l6"],   position: LP(400, 300), type: "active"   },
+    // Capstone — requires all three lower nodes
+    { id: "kox_l10", name: "Felsworn Form",     description: "Transform into a towering Felsworn champion for 20s, dramatically amplifying all fel damage and defense.", maxPoints: 1, prerequisites: ["kox_l7", "kox_l8", "kox_l9"], position: LP(240, 420), type: "capstone" },
+  ]);
+
+  const rightTree: TalentNode[] = nodes([
+    // Single root at center top
+    { id: "kox_r1",  name: "Shadow Brand",      description: "Brand your target with shadow energy, amplifying all damage they take by 15% per point.",               maxPoints: 3, prerequisites: [],                            position: LP(240, 60),  type: "active"   },
+    // Second row — fan out 3 from root
+    { id: "kox_r2",  name: "Demon's Leap",      description: "Leap to a target dealing fel damage and applying Fel Burn for 6s. Damage +20% per point.",              maxPoints: 2, prerequisites: ["kox_r1"],                    position: LP(140, 130), type: "active"   },
+    { id: "kox_r3",  name: "Shadow Rend",        description: "Rend shadow energy from a target, dealing massive burst damage. Damage +25% per point.",                maxPoints: 3, prerequisites: ["kox_r1"],                    position: LP(340, 130), type: "active"   },
+    { id: "kox_r4",  name: "Pit Pact",           description: "Form a pact with the Pit — your health regenerates in combat. Regen +2% max HP per point per 5s.",     maxPoints: 2, prerequisites: ["kox_r1"],                    position: LP(240, 200), type: "passive"  },
+    // Third row — branches from second
+    { id: "kox_r5",  name: "Infernal Descent",   description: "After leaping, your next 3 attacks deal double damage. Duration +1 attack per point.",                  maxPoints: 2, prerequisites: ["kox_r2"],                    position: LP(120, 270), type: "passive"  },
+    { id: "kox_r6",  name: "Void Shred",         description: "Shred a target's defenses, reducing armor and dealing shadow damage. Reduction +10% per point.",        maxPoints: 3, prerequisites: ["kox_r3"],                    position: LP(360, 270), type: "active"   },
+    { id: "kox_r7",  name: "Legion Seal",        description: "The Legion's seal empowers every attack with bonus shadow damage. Damage +8% per point per hit.",       maxPoints: 2, prerequisites: ["kox_r4"],                    position: LP(240, 310), type: "passive"  },
+    // Fourth row — converging
+    { id: "kox_r8",  name: "Fel Sacrifice",      description: "Sacrifice demonic energy to deal a single devastating strike. Damage +30% per point.",                  maxPoints: 2, prerequisites: ["kox_r5"],                    position: LP(140, 380), type: "active"   },
+    { id: "kox_r9",  name: "Doom Pronouncement", description: "Pronounce doom on a target — after 5s they take catastrophic shadow damage. Damage +25% per point.",    maxPoints: 2, prerequisites: ["kox_r6"],                    position: LP(340, 380), type: "active"   },
+    // Capstone — requires center + both outer lower nodes
+    { id: "kox_r10", name: "Knight of Xoroth",   description: "Fully embrace your dark pact — become a true Knight of Xoroth for 30s, unleashing devastating demonic power on all nearby enemies.", maxPoints: 1, prerequisites: ["kox_r7", "kox_r8", "kox_r9"], position: LP(240, 480), type: "capstone" },
+  ]);
+
+  return { class: "Knight of Xoroth", classId: id, maxPoints: 61, color: C, leftTree, rightTree };
 }
 
 const talentTrees: Map<string, TalentTree> = new Map([
@@ -532,32 +581,7 @@ const talentTrees: Map<string, TalentTree> = new Map([
   ],
   [
     "knightofxoroth",
-    buildGenericDualTree("knightofxoroth", "Knight of Xoroth", "#8B0000",
-      [
-        { name: "Fel Blade", description: "Infuse your blade with fel energy. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Xoroth's Blessing", description: "Receive demonic blessing increasing all damage by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Demonic Charge", description: "Charge forward trailing fel fire. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Dark Pact", description: "Sacrifice health for a massive temporary power boost. Power +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Infernal Presence", description: "Your mere presence deals fire damage to nearby enemies. Damage +10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Xorothian Steel", description: "Your armor is made of infernal steel reducing damage taken by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Fel Storm", description: "Unleash a storm of fel energy hitting all nearby enemies. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Soul Brand", description: "Brand an enemy's soul dealing damage whenever they act. Damage +10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Inferno Slash", description: "A mighty slash wrapped in infernal flames. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Xoroth's Wrath", description: "Unleash the full wrath of Xoroth dealing catastrophic damage.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Shadow Blade", description: "Strike from shadows dealing heavy damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Demonic Visage", description: "Reveal your true demon form terrifying nearby enemies. Fear +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Pit Lord's Rage", description: "Channel the rage of the pit lord. Damage +25% per point for 8s.", maxPoints: 3, type: "active" },
-        { name: "Dark Rider", description: "Summon a demonic steed increasing movement and combat. Speed +20% per point.", maxPoints: 2, type: "passive" },
-        { name: "Mark of Xoroth", description: "Mark an enemy; if they fall, their soul is claimed and converts to your aid.", maxPoints: 2, type: "active" },
-        { name: "Chaos Realm", description: "Briefly shift to the chaos realm dealing shadow damage to all. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Infernal Cleave", description: "Cleave through multiple enemies with a fel-infused swing. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Dreadlord's Touch", description: "Your touch causes enemies to lose 5% max health per point per second.", maxPoints: 2, type: "passive" },
-        { name: "Legion's Call", description: "Call down a legion soldier to fight for you. Soldier damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Sargeras's Gaze", description: "Channel the gaze of the dark titan annihilating all enemies in a line.", maxPoints: 1, type: "choice" },
-      ],
-    ),
+    buildKnightOfXorothTree(),
   ],
   [
     "barbarian",

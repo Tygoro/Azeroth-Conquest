@@ -279,7 +279,7 @@ function TalentNodeComponent({
   const isActive    = status === 'active';
   const isMaxed     = status === 'maxed';
 
-  const isCapstone = node.type === 'choice';
+  const isCapstone = node.type === 'choice' || node.type === 'capstone';
   const size = isCapstone ? CAPSTONE_SIZE : NODE_SIZE;
 
   const iconUrl = getNodeIconUrl(node.id, node.name, node.type);

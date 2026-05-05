@@ -169,7 +169,12 @@ const NAMED_ICONS: Record<string, string> = {
 };
 
 // Fallback icon pools per node type
-const FALLBACK_POOLS = {
+const FALLBACK_POOLS: Record<string, string[]> = {
+  capstone: [
+    'ability_demonhunter_metamorphisys', 'spell_holy_divineshield', 'ability_mage_timewarp',
+    'ability_deathknight_lichborne', 'ability_shaman_elementalmastery', 'ability_druid_eclipse',
+    'spell_shadow_demonicfortitude', 'ability_warlock_demonicpower', 'inv_misc_gem_diamond_03',
+  ],
   active: [
     'spell_fire_flamebolt', 'spell_arcane_blast', 'ability_warrior_punishingblow',
     'spell_shadow_shadowbolt', 'spell_nature_earthshock', 'ability_rogue_slicedice',
@@ -197,15 +202,43 @@ function strHash(str: string): number {
   return Math.abs(h);
 }
 
+// Named icons for KoX custom tree
+const KOX_ICONS: Record<string, string> = {
+  'kox_l1':  'spell_fire_flamebolt',
+  'kox_l2':  'ability_warlock_demonicpower',
+  'kox_l3':  'inv_chest_leather_raidbeastpandaria_n_01',
+  'kox_l4':  'ability_warrior_cleave',
+  'kox_l5':  'warlock_summon_darkglare',
+  'kox_l6':  'spell_fire_incinerate',
+  'kox_l7':  'spell_shadow_soulleech_3',
+  'kox_l8':  'spell_shadow_shadowfury',
+  'kox_l9':  'spell_fire_meteorstorm',
+  'kox_l10': 'ability_warlock_demonicpower',
+  'kox_r1':  'spell_shadow_possession',
+  'kox_r2':  'ability_demonhunter_felrush',
+  'kox_r3':  'spell_shadow_shadowrend',
+  'kox_r4':  'spell_shadow_demonicfortitude',
+  'kox_r5':  'ability_demonhunter_chaosstrike',
+  'kox_r6':  'spell_shadow_mindshear',
+  'kox_r7':  'ability_warlock_eradicationpassive',
+  'kox_r8':  'spell_shadow_deathcoil',
+  'kox_r9':  'ability_warlock_empoweredimp',
+  'kox_r10': 'ability_demonhunter_metamorphisys',
+};
+
 export function getNodeIconUrl(nodeId: string, nodeName: string, nodeType: string): string {
-  // 1. Check known names first
+  // 1. Check explicit node ID mapping (highest priority, used for KoX custom tree)
+  const byId = KOX_ICONS[nodeId];
+  if (byId) return `${ZAMIMG}/${byId}.jpg`;
+
+  // 2. Check known names
   const named = NAMED_ICONS[nodeName];
   if (named) return `${ZAMIMG}/${named}.jpg`;
 
-  // 2. Fall back to type-based pool
+  // 3. Fall back to type-based pool
   const pool =
-    nodeType === 'choice'
-      ? FALLBACK_POOLS.choice
+    nodeType === 'capstone' || nodeType === 'choice'
+      ? FALLBACK_POOLS.capstone
       : nodeType === 'passive'
       ? FALLBACK_POOLS.passive
       : FALLBACK_POOLS.active;

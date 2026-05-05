@@ -51,7 +51,7 @@ export const GetClassResponse = zod.object({
         y: zod.number(),
       }),
       icon: zod.string().optional(),
-      type: zod.enum(["passive", "active", "choice"]),
+      type: zod.enum(["passive", "active", "choice", "capstone"]),
     }),
   ),
   rightTree: zod.array(
@@ -67,7 +67,7 @@ export const GetClassResponse = zod.object({
         y: zod.number(),
       }),
       icon: zod.string().optional(),
-      type: zod.enum(["passive", "active", "choice"]),
+      type: zod.enum(["passive", "active", "choice", "capstone"]),
     }),
   ),
 });
