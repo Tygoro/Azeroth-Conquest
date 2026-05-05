@@ -165,26 +165,102 @@ interface SingleTreeProps {
   onNodeContextMenu: (nodeId: string) => void;
 }
 
+// ── Layout constants ─────────────────────────────────────────────────────────
+// Per-spec row counts come from the backend (driven by TREE_ROWS in
+// api-server/src/data/tree-rows.ts). Here we just group nodes by tier and
+// render each tier as a flex row — no fixed grid columns.
+//
+// Each row is absolute-positioned so its center y matches `TIER_Y_VALUES[i]`,
+// keeping the tier-gate strip and the gating logic in `use-talent-tree.ts`
+// visually consistent with the rendered nodes.
+const NODE_GAP = 14;          // horizontal gap inside a row
+const ROW_PAD_X = 16;         // inner horizontal padding so the widest row doesn't kiss the edge
+const TIER_HEIGHT = 60;       // row height (capstones are 60px, regular 48px — use the larger)
+const SVG_PAD = 24;           // padding around the SVG so glow doesn't clip
+const NODE_MAX_W = 60;        // largest node footprint (capstones)
+
+function groupByTier(nodes: TalentNode[]): TalentNode[][] {
+  const tiers: TalentNode[][] = Array.from({ length: TIER_Y_VALUES.length }, () => []);
+  for (const n of nodes) {
+    // Match the node's y to the nearest tier (mirrors getTierIndex in use-talent-tree.ts).
+    let bestIdx = 0;
+    let bestDist = Infinity;
+    for (let i = 0; i < TIER_Y_VALUES.length; i++) {
+      const d = Math.abs(TIER_Y_VALUES[i] - n.position.y);
+      if (d < bestDist) { bestDist = d; bestIdx = i; }
+    }
+    tiers[bestIdx].push(n);
+  }
+  // Within a row, sort by source x so the in-game ordering is preserved.
+  for (const row of tiers) row.sort((a, b) => a.position.x - b.position.x);
+  return tiers;
+}
+
 function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
-  const { width, height } = useMemo(() => {
-    if (!nodes.length) return { width: CANVAS_W, height: CANVAS_H };
-    const xs = nodes.map(n => n.position.x);
-    const ys = nodes.map(n => n.position.y);
-    return {
-      width: Math.max(...xs) + 60,
-      height: Math.max(...ys) + 60,
+  const tiers = useMemo(() => groupByTier(nodes), [nodes]);
+  const maxCols = useMemo(() => tiers.reduce((m, r) => Math.max(m, r.length), 0), [tiers]);
+
+  // Container width is driven by the widest row (no horizontal scroll).
+  // Use the larger node size (60) so capstones never overflow.
+  const width = Math.max(
+    CANVAS_W,
+    ROW_PAD_X * 2 + maxCols * NODE_MAX_W + Math.max(0, maxCols - 1) * NODE_GAP,
+  );
+  // Container height: enough to fit the deepest tier center + half a row + pad.
+  const height = TIER_Y_VALUES[TIER_Y_VALUES.length - 1] + TIER_HEIGHT / 2 + SVG_PAD;
+
+  // ── Refs / centers for SVG connection lines ────────────────────────────────
+  const containerRef = useRef<HTMLDivElement>(null);
+  const nodeRefs = useRef(new Map<string, HTMLDivElement | null>());
+  const [centers, setCenters] = useState<Map<string, { x: number; y: number }>>(new Map());
+
+  // Re-measure whenever the node set or container width changes. We use
+  // `offsetLeft/offsetTop` (layout-space, untransformed coords) instead of
+  // `getBoundingClientRect()` so that wrapping the tree in a CSS-transformed
+  // ScaleStage doesn't drift line endpoints — the SVG is in the same
+  // transformed subtree, so layout-space coords stay correct after scaling.
+  useLayoutEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    const measure = () => {
+      const next = new Map<string, { x: number; y: number }>();
+      nodeRefs.current.forEach((el, id) => {
+        if (!el) return;
+        // Walk up offsetParent chain until we hit the SingleTree container.
+        let x = 0;
+        let y = 0;
+        let cur: HTMLElement | null = el;
+        while (cur && cur !== container) {
+          x += cur.offsetLeft;
+          y += cur.offsetTop;
+          cur = cur.offsetParent as HTMLElement | null;
+        }
+        next.set(id, { x: x + el.offsetWidth / 2, y: y + el.offsetHeight / 2 });
+      });
+      setCenters(next);
     };
-  }, [nodes]);
+    measure();
+    // Window resize covers ScaleStage transform updates (it's driven by
+    // window resize via ResizeObserver on its own parent). A ResizeObserver
+    // on the container catches direct layout changes (font load, etc.).
+    const ro = new ResizeObserver(measure);
+    ro.observe(container);
+    window.addEventListener('resize', measure);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('resize', measure);
+    };
+  }, [nodes, width]);
 
   const colorId = color.replace('#', '');
 
   return (
-    <div className="relative" style={{ width, height }}>
+    <div ref={containerRef} className="relative" style={{ width, height }}>
       {/* SVG connection lines */}
       <svg
         className="absolute inset-0 pointer-events-none"
-        width={width}
-        height={height}
+        width="100%"
+        height="100%"
         style={{ overflow: 'visible' }}
       >
         <defs>
@@ -212,6 +288,9 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
           node.prerequisites.map(prereqId => {
             const prereq = nodes.find(n => n.id === prereqId);
             if (!prereq) return null;
+            const a = centers.get(prereqId);
+            const b = centers.get(node.id);
+            if (!a || !b) return null;
 
             const prereqState = getNodeState(prereqId);
             const nodeState = getNodeState(node.id);
@@ -219,17 +298,12 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
             const isActive = prereqState.status === 'active' || isMaxed;
             const isAvailable = nodeState.status === 'available';
 
-            const x1 = prereq.position.x;
-            const y1 = prereq.position.y;
-            const x2 = node.position.x;
-            const y2 = node.position.y;
-
             return (
               <g key={`${prereqId}-${node.id}`}>
                 {/* Glow layer — only for active/maxed */}
                 {isMaxed && (
                   <line
-                    x1={x1} y1={y1} x2={x2} y2={y2}
+                    x1={a.x} y1={a.y} x2={b.x} y2={b.y}
                     stroke={color}
                     strokeWidth={8}
                     strokeOpacity={0.2}
@@ -238,7 +312,7 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
                 )}
                 {isActive && !isMaxed && (
                   <line
-                    x1={x1} y1={y1} x2={x2} y2={y2}
+                    x1={a.x} y1={a.y} x2={b.x} y2={b.y}
                     stroke={color}
                     strokeWidth={5}
                     strokeOpacity={0.15}
@@ -247,7 +321,7 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
                 )}
                 {/* Main line */}
                 <line
-                  x1={x1} y1={y1} x2={x2} y2={y2}
+                  x1={a.x} y1={a.y} x2={b.x} y2={b.y}
                   stroke={
                     isMaxed ? color
                     : isActive ? `${color}CC`
@@ -265,24 +339,46 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
         )}
       </svg>
 
-      {/* Talent nodes */}
-      {nodes.map(node => {
-        const state = getNodeState(node.id);
-        const selectedOptionId = node.type === 'choice' ? getChoiceSelection(node.id) : undefined;
-        return (
-          <TalentNodeComponent
-            key={node.id}
-            node={node}
-            state={state}
-            color={color}
-            allNodes={nodes}
-            selectedOptionId={selectedOptionId}
-            getNodeState={getNodeState}
-            onClick={() => onNodeClick(node.id)}
-            onContextMenu={() => onNodeContextMenu(node.id)}
-          />
-        );
-      })}
+      {/* One absolute-positioned flex row per tier — center y == TIER_Y_VALUES[i]
+          so the tier-gate strip and gating logic in use-talent-tree.ts stay
+          visually consistent with the rendered nodes. */}
+      {tiers.map((row, rowIdx) => (
+        <div
+          key={rowIdx}
+          className="absolute left-0 right-0 flex justify-center items-center"
+          style={{
+            top: TIER_Y_VALUES[rowIdx],
+            height: TIER_HEIGHT,
+            transform: 'translateY(-50%)',
+            gap: NODE_GAP,
+            paddingLeft: ROW_PAD_X,
+            paddingRight: ROW_PAD_X,
+          }}
+        >
+          {row.map(node => {
+            const state = getNodeState(node.id);
+            const selectedOptionId = node.type === 'choice' ? getChoiceSelection(node.id) : undefined;
+            return (
+              <div
+                key={node.id}
+                ref={el => { nodeRefs.current.set(node.id, el); }}
+                className="flex items-center justify-center"
+              >
+                <TalentNodeComponent
+                  node={node}
+                  state={state}
+                  color={color}
+                  allNodes={nodes}
+                  selectedOptionId={selectedOptionId}
+                  getNodeState={getNodeState}
+                  onClick={() => onNodeClick(node.id)}
+                  onContextMenu={() => onNodeContextMenu(node.id)}
+                />
+              </div>
+            );
+          })}
+        </div>
+      ))}
     </div>
   );
 }
@@ -368,11 +464,8 @@ function TalentNodeComponent({
   return (
     <div
       data-testid={`node-${node.id}`}
-      className="absolute"
+      className="relative"
       style={{
-        left: node.position.x,
-        top: node.position.y,
-        transform: 'translate(-50%, -50%)',
         width: size,
         height: size,
         zIndex: hovered ? 50 : 10,

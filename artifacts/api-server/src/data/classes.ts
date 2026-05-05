@@ -1,111 +1,15 @@
 import type { TalentTree, ClassMeta, ClassDetail, SpecMeta, TalentNode, SidebarNode, ChoiceOption } from "@workspace/api-zod";
+import { generateLayout, getRowsFor, type GeneratedLayout } from "./tree-rows.js";
 
-// ─── 33-NODE TREE LAYOUT (10 TIERS, ASCENSION COA RULES) ────────────────────
-// Density per spec: 1+3+4+5+5+4+4+3+2+2 = 33 nodes per side.
-// Tier gates per side: row 4 starts at 8 points spent in that tree.
+// ─── 10-TIER TREE LAYOUT (ASCENSION COA RULES) ──────────────────────────────
+// Each spec resolves a row pattern via `getRowsFor(classId, specId, side)` —
+// see tree-rows.ts. The default 10-row pattern is [1,3,4,5,5,4,4,3,2,2] = 33
+// nodes per side. Some specs (Sun Cleric, Valkyrie) override this to match
+// the in-game CoA UI exactly. Total node count = sum(rows).
 //
-// Tier 0 (y=40):  1 node              col 2                       — gate:  0pt
-// Tier 1 (y=110): 3 nodes             cols 1, 2, 3                — gate:  0pt
-// Tier 2 (y=180): 4 nodes             cols 0.5, 1.5, 2.5, 3.5     — gate:  0pt
-// Tier 3 (y=250): 5 nodes             cols 0, 1, 2, 3, 4          — gate:  0pt
-// Tier 4 (y=320): 5 nodes             cols 0, 1, 2, 3, 4          — gate:  8pt   ← gate begins
-// Tier 5 (y=390): 4 nodes             cols 0.5, 1.5, 2.5, 3.5     — gate:  8pt
-// Tier 6 (y=460): 4 nodes             cols 0.5, 1.5, 2.5, 3.5     — gate: 20pt
-// Tier 7 (y=530): 3 nodes             cols 1, 2, 3                — gate: 20pt
-// Tier 8 (y=600): 2 nodes             cols 1.5, 2.5               — gate: 30pt
-// Tier 9 (y=670): 2 capstones         cols 1.5, 2.5               — gate: 40pt
-const COL_X = (col: number): number => 48 + col * 78;
-const POS = (col: number, y: number) => ({ x: COL_X(col), y });
-
-const NODE_POSITIONS = [
-  // Tier 0 — 1 root (idx 0)
-  POS(2, 40),
-  // Tier 1 — 3 nodes (idx 1,2,3)
-  POS(1, 110), POS(2, 110), POS(3, 110),
-  // Tier 2 — 4 nodes (idx 4,5,6,7)
-  POS(0.5, 180), POS(1.5, 180), POS(2.5, 180), POS(3.5, 180),
-  // Tier 3 — 5 nodes (idx 8,9,10,11,12)
-  POS(0, 250), POS(1, 250), POS(2, 250), POS(3, 250), POS(4, 250),
-  // Tier 4 — 5 nodes, gate begins (idx 13,14,15,16,17)
-  POS(0, 320), POS(1, 320), POS(2, 320), POS(3, 320), POS(4, 320),
-  // Tier 5 — 4 nodes (idx 18,19,20,21)
-  POS(0.5, 390), POS(1.5, 390), POS(2.5, 390), POS(3.5, 390),
-  // Tier 6 — 4 nodes (idx 22,23,24,25)
-  POS(0.5, 460), POS(1.5, 460), POS(2.5, 460), POS(3.5, 460),
-  // Tier 7 — 3 nodes (idx 26,27,28)
-  POS(1, 530), POS(2, 530), POS(3, 530),
-  // Tier 8 — 2 nodes (idx 29,30)
-  POS(1.5, 600), POS(2.5, 600),
-  // Tier 9 — 2 capstones (idx 31,32)
-  POS(1.5, 670), POS(2.5, 670),
-] as const;
-
-// Prereq DAG. ALL prereqs must be active (>=1 point) to unlock a node.
-// Most nodes have 1 prereq for clean branching; a few converge with 2 prereqs
-// for the dense cluster feel. Strictly backward (prereq idx < dependent idx).
-const NODE_PREREQS: number[][] = [
-  [],                                              // T0  (0)
-  [0], [0], [0],                                   // T1  (1,2,3)
-  [1], [1, 2], [2, 3], [3],                        // T2  (4,5,6,7)
-  [4], [5], [5, 6], [6], [7],                      // T3  (8,9,10,11,12)
-  [8], [9], [10], [11], [12],                      // T4  (13,14,15,16,17)
-  [13, 14], [14, 15], [16], [16, 17],              // T5  (18,19,20,21)
-  [18], [19, 20], [20], [21],                      // T6  (22,23,24,25)
-  [22, 23], [24], [25],                            // T7  (26,27,28)
-  [26, 27], [27, 28],                              // T8  (29,30)
-  [29], [30],                                      // T9 capstones (31,32)
-];
-
-// Visual node type per index — varied so each tier reads distinctly.
-// Choice nodes (octagons) appear at tier-edges/decision points.
-const NODE_TYPES: Array<TalentNode["type"]> = [
-  // T0
-  "active",
-  // T1
-  "passive", "active", "passive",
-  // T2
-  "active", "choice", "passive", "active",
-  // T3
-  "passive", "active", "choice", "active", "passive",
-  // T4 — gate row
-  "active", "passive", "choice", "passive", "active",
-  // T5
-  "passive", "active", "choice", "passive",
-  // T6
-  "active", "passive", "active", "choice",
-  // T7
-  "active", "choice", "active",
-  // T8
-  "active", "passive",
-  // T9 capstones
-  "capstone", "capstone",
-];
-
-// Max points per node — choices/capstones always 1pt, rest mostly 2pt.
-const NODE_MAX_POINTS: number[] = [
-  // T0
-  1,
-  // T1
-  2, 2, 2,
-  // T2
-  2, 1, 2, 2,
-  // T3
-  2, 2, 1, 2, 2,
-  // T4
-  2, 2, 1, 2, 2,
-  // T5
-  2, 2, 1, 2,
-  // T6
-  2, 2, 2, 1,
-  // T7
-  2, 1, 2,
-  // T8
-  2, 2,
-  // T9 capstones
-  1, 1,
-];
-
-const NODE_COUNT = 33;
+// Tier-gate rules from use-talent-tree.ts (TIER_POINT_GATES) require exactly
+// 10 rows; the y of every row is `40 + 70 * rowIdx` so the hook's nearest-y
+// lookup keeps working.
 
 type NodeDef = Omit<TalentNode, "currentPoints">;
 
@@ -144,23 +48,30 @@ function genChoiceOptions(baseName: string, choiceIdx: number, nodeId: string, d
 // ─── DEEP TREE BUILDER ──────────────────────────────────────────────────────
 type TalentDef = { name: string; description: string };
 
-function buildDeepTree(prefix: string, talents: TalentDef[], dmg: string): TalentNode[] {
-  if (talents.length !== NODE_COUNT) {
-    throw new Error(`buildDeepTree: expected ${NODE_COUNT} talents for prefix "${prefix}", got ${talents.length}`);
+function buildDeepTree(
+  prefix: string,
+  talents: TalentDef[],
+  dmg: string,
+  layout: GeneratedLayout,
+): TalentNode[] {
+  if (talents.length !== layout.count) {
+    throw new Error(
+      `buildDeepTree: expected ${layout.count} talents for prefix "${prefix}", got ${talents.length}`,
+    );
   }
   // Index of each choice node within the tree, used to seed CHOICE_PAIRS deterministically.
   let choiceCounter = 0;
   return nodes(
     talents.map((t, i) => {
       const id = `${prefix}_${i + 1}`;
-      const type = NODE_TYPES[i];
+      const type = layout.types[i];
       const node: NodeDef = {
         id,
         name: t.name,
         description: t.description,
-        maxPoints: NODE_MAX_POINTS[i],
-        prerequisites: NODE_PREREQS[i].map((idx) => `${prefix}_${idx + 1}`),
-        position: NODE_POSITIONS[i],
+        maxPoints: layout.maxPoints[i],
+        prerequisites: layout.prereqs[i].map((idx) => `${prefix}_${idx + 1}`),
+        position: layout.positions[i],
         type,
       };
       if (type === "choice") {
@@ -241,13 +152,17 @@ type SpecTheme = {
   capstoneDesc: string; // capstone description
 };
 
-function genTalent(theme: SpecTheme, idx: number, isLeft: boolean): TalentDef {
-  // Slot 0,1,2 = roots (use signature names — first 3 for left, second 3 for right)
-  // Slot 39 = capstone
-  // Others = procedural
-  if (idx === NODE_COUNT - 1) {
+function genTalent(
+  theme: SpecTheme,
+  idx: number,
+  isLeft: boolean,
+  layout: GeneratedLayout,
+): TalentDef {
+  // Last node = capstone (always).
+  if (idx === layout.count - 1) {
     return { name: theme.capstoneName, description: theme.capstoneDesc };
   }
+  // First few nodes = signature ability names (one per "key" slot).
   if (idx < 3 && theme.signature.length >= 3) {
     const sigIdx = idx + (isLeft ? 0 : 3);
     const sig = theme.signature[sigIdx] ?? theme.signature[idx];
@@ -270,7 +185,7 @@ function genTalent(theme: SpecTheme, idx: number, isLeft: boolean): TalentDef {
   else name = `${pre} ${verb}`;
 
   // Description varies by node type
-  const nodeType = NODE_TYPES[idx];
+  const nodeType = layout.types[idx];
   let desc: string;
   if (nodeType === "passive") {
     desc = `Empowers your ${theme.damageType} abilities, increasing their potency. Bonus +5% per point.`;
@@ -293,8 +208,18 @@ function buildSpecTreeFromTheme(
   leftTheme: SpecTheme,
   rightTheme: SpecTheme,
 ): TalentTree {
-  const leftTalents: TalentDef[] = Array.from({ length: NODE_COUNT }, (_, i) => genTalent(leftTheme, i, true));
-  const rightTalents: TalentDef[] = Array.from({ length: NODE_COUNT }, (_, i) => genTalent(rightTheme, i, false));
+  // Per-side row layouts — overridable via TREE_ROWS in tree-rows.ts.
+  const leftLayout = generateLayout(getRowsFor(classId, specId, "l"));
+  const rightLayout = generateLayout(getRowsFor(classId, specId, "r"));
+
+  const leftTalents: TalentDef[] = Array.from(
+    { length: leftLayout.count },
+    (_, i) => genTalent(leftTheme, i, true, leftLayout),
+  );
+  const rightTalents: TalentDef[] = Array.from(
+    { length: rightLayout.count },
+    (_, i) => genTalent(rightTheme, i, false, rightLayout),
+  );
 
   return {
     class: className,
@@ -305,8 +230,8 @@ function buildSpecTreeFromTheme(
     rightTreeName,
     maxPoints: 61,
     color,
-    leftTree: buildDeepTree(`${classId}_${specId}_l`, leftTalents, leftTheme.damageType),
-    rightTree: buildDeepTree(`${classId}_${specId}_r`, rightTalents, rightTheme.damageType),
+    leftTree: buildDeepTree(`${classId}_${specId}_l`, leftTalents, leftTheme.damageType, leftLayout),
+    rightTree: buildDeepTree(`${classId}_${specId}_r`, rightTalents, rightTheme.damageType, rightLayout),
     sidebarTrack: buildSidebarTrack(`${classId}_${specId}`, rightTheme),
   };
 }

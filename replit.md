@@ -27,7 +27,9 @@ Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style tal
 - Build serialization (URL `?data=` and Import/Export) round-trips both `classId` and `specId`
 
 ### Tree layout
-33-node 10-tier Dragonflight-style layout per side: rows of 1 / 3 / 4 / 5 / 5 / 4 / 4 / 3 / 2 / 2 capstones (66 nodes per spec). Tiers 4–8 form a dense AND-DAG with multiple 2-prereq convergence nodes. Node positions, prereq DAG, types and max-points all live in `artifacts/api-server/src/data/classes.ts`.
+10-tier Dragonflight-style layout per side. The default row pattern is `[1,3,4,5,5,4,4,3,2,2]` = 33 nodes. **Per-spec overrides** live in `artifacts/api-server/src/data/tree-rows.ts` via the `TREE_ROWS` map (e.g. `suncleric_valkyrie_l: [3,2,3,3,4,5,5,4,3,3]`, `suncleric_valkyrie_r: [1,1,2,4,3,7,5,4,3,3]`) — both sides must always have exactly 10 rows. `generateLayout(rows)` builds positions, types, max-points and a nearest-neighbor prereq DAG; the default rows return a frozen layout that exactly matches the original hand-tuned data so existing serialized URLs keep working. Node IDs are stable (`${prefix}_${idx+1}`).
+
+The frontend `SingleTree` (`components/talent-tree.tsx`) groups nodes by tier (using `TIER_Y_VALUES` from the hook) and renders each row as `flex justify-center` with `gap`, so wide rows naturally make the container wider without horizontal scroll. SVG connection lines use refs + `useLayoutEffect` + `ResizeObserver` to read each node's center relative to the container — endpoints stay correct under responsive scaling.
 
 ### Tier point gates (per side)
 Each tier unlocks only after enough points are spent **in that tree**. Gates start at row 4:
