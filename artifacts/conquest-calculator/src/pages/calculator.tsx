@@ -9,6 +9,8 @@ import {
 import { useTalentTree } from '@/hooks/use-talent-tree';
 import { TalentTree } from '@/components/talent-tree';
 import { SidebarTrack } from '@/components/sidebar-track';
+import { ScaleStage } from '@/components/scale-stage';
+import { CLASS_BG_GRADIENT } from '@/data/classes/icons';
 import { SpecSelectionScreen } from '@/components/spec-selection-screen';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -213,26 +215,28 @@ export default function Calculator() {
     );
   } else if (treeData) {
     mainContent = (
-      <div className="flex h-full">
-        <div className="flex-1 min-w-0 overflow-auto">
-          <TalentTree
-            tree={treeData}
-            getNodeState={getNodeState}
-            getChoiceSelection={getChoiceSelection}
-            onNodeClick={addPoint}
-            onNodeContextMenu={removePoint}
-            leftSpent={leftSpent}
-            rightSpent={rightSpent}
-          />
+      <ScaleStage baseWidth={1280} baseHeight={820} minScale={0.45} maxScale={1.05}>
+        <div className="absolute inset-0 flex items-stretch">
+          <div className="flex-1 min-w-0 relative">
+            <TalentTree
+              tree={treeData}
+              getNodeState={getNodeState}
+              getChoiceSelection={getChoiceSelection}
+              onNodeClick={addPoint}
+              onNodeContextMenu={removePoint}
+              leftSpent={leftSpent}
+              rightSpent={rightSpent}
+            />
+          </div>
+          {treeData.sidebarTrack && treeData.sidebarTrack.length > 0 && (
+            <SidebarTrack
+              nodes={treeData.sidebarTrack}
+              color={classColor}
+              treeSpent={treeSpent}
+            />
+          )}
         </div>
-        {treeData.sidebarTrack && treeData.sidebarTrack.length > 0 && (
-          <SidebarTrack
-            nodes={treeData.sidebarTrack}
-            color={classColor}
-            treeSpent={treeSpent}
-          />
-        )}
-      </div>
+      </ScaleStage>
     );
   } else {
     mainContent = <TreeErrorState classId={selectedClassId} message="No tree data returned." />;
@@ -387,8 +391,37 @@ export default function Calculator() {
       </header>
 
       {/* ── Main ── */}
-      <main className="flex-1 overflow-auto relative">
-        {mainContent}
+      <main className="flex-1 overflow-hidden relative">
+        {/* Class-themed background — sits behind the scaled stage so it covers
+            the entire viewport including under the sidebar. */}
+        {treeData && (
+          <>
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{
+                background:
+                  CLASS_BG_GRADIENT[treeData.classId] ??
+                  'radial-gradient(ellipse 90% 70% at 50% 0%, #0d0d14 0%, #050508 100%)',
+              }}
+            />
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{
+                background:
+                  'radial-gradient(ellipse 80% 60% at 50% 0%, transparent 0%, rgba(0,0,0,0.55) 100%)',
+              }}
+            />
+            <div
+              className="absolute inset-0 pointer-events-none opacity-[0.03]"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+                backgroundRepeat: 'repeat',
+                backgroundSize: '128px',
+              }}
+            />
+          </>
+        )}
+        <div className="relative w-full h-full">{mainContent}</div>
       </main>
     </div>
   );

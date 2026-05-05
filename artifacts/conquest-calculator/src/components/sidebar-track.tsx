@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { SidebarNode } from '@workspace/api-client-react';
@@ -227,15 +227,34 @@ interface SidebarTooltipProps {
 }
 
 function SidebarTooltip({ node, unlocked, color, treeSpent }: SidebarTooltipProps) {
+  // Edge-flip safety — sidebar opens to the LEFT by default. If the tooltip
+  // would clip the left edge of the viewport (small screens / strong scale),
+  // flip it to the right side of the sidebar node instead. Tooltip lives
+  // inside the scaled stage, so getBoundingClientRect() returns true on-screen
+  // coords after transform: scale().
+  const ref = useRef<HTMLDivElement>(null);
+  const [side, setSide] = useState<'left' | 'right'>('left');
+
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    if (r.left < 8) setSide('right');
+  }, [node.id]);
+
+  const isLeft = side === 'left';
   return (
     <motion.div
-      initial={{ opacity: 0, x: 8, scale: 0.94 }}
+      ref={ref}
+      initial={{ opacity: 0, x: isLeft ? 8 : -8, scale: 0.94 }}
       animate={{ opacity: 1, x: 0, scale: 1 }}
-      exit={{ opacity: 0, x: 8, scale: 0.94 }}
+      exit={{ opacity: 0, x: isLeft ? 8 : -8, scale: 0.94 }}
       transition={{ duration: 0.12 }}
       className="absolute z-[60] pointer-events-none w-64"
       style={{
-        right: 'calc(100% + 14px)',
+        ...(isLeft
+          ? { right: 'calc(100% + 14px)' }
+          : { left: 'calc(100% + 14px)' }),
         top: '50%',
         transform: 'translateY(-50%)',
       }}

@@ -54,9 +54,10 @@ All prereqs use **AND** logic — every listed prereq must have at least 1 point
 
 ### Frontend
 - `artifacts/conquest-calculator` (React + Vite)
-- `pages/calculator.tsx` orchestrates class select → spec select → tree
+- `pages/calculator.tsx` orchestrates class select → spec select → tree; owns the class-themed background layers and wraps the tree+sidebar in `ScaleStage`
 - `components/spec-selection-screen.tsx` — 3-or-4-column responsive grid of spec cards
-- `components/talent-tree.tsx` — auto-sizes to node positions, supports the 33-node layout, choice-node split icon
+- `components/scale-stage.tsx` — game-UI-style centered scaling wrapper. Children render at fixed logical dimensions (1280×820); container uses `ResizeObserver` to compute `scale = clamp(min(W/base, H/base), minScale, maxScale)` and applies `transform: translate(-50%,-50%) scale(s)`. Result: no scrollbars, sidebar always visible, smooth shrink on small screens.
+- `components/talent-tree.tsx` — auto-sizes to node positions, supports the 33-node layout, choice-node split icon. Node shapes by type: passive=circle, active=rounded square, capstone=circle, choice=octagon (clip-path). Tooltip uses `useLayoutEffect` + `getBoundingClientRect` to flip top↔bottom and nudge horizontally to stay inside the viewport.
 - `hooks/use-talent-tree.ts` — point allocation logic, AND-prereq enforcement, choice cycling, serialization including specId + choices
 
 ## Key Commands

@@ -1,9 +1,9 @@
-import { useMemo, useState } from 'react';
+import { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
 import { validateTree } from '@/data/classes/validate';
-import { getNodeIconUrl, CLASS_BG_GRADIENT } from '@/data/classes/icons';
+import { getNodeIconUrl } from '@/data/classes/icons';
 import { TIER_POINT_GATES, TIER_Y_VALUES, type NodeState } from '@/hooks/use-talent-tree';
 
 interface DualTalentTreeProps {
@@ -43,84 +43,57 @@ export function TalentTree({
     );
   }
 
-  const bg = CLASS_BG_GRADIENT[tree.classId] ?? 'radial-gradient(ellipse 90% 70% at 50% 0%, #0d0d14 0%, #050508 100%)';
-
   return (
-    <div className="relative w-full h-full overflow-auto">
-      {/* ── Background layer ── */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{ background: bg }}
-      />
-      {/* Vignette + dark overlay */}
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background: 'radial-gradient(ellipse 80% 60% at 50% 0%, transparent 0%, rgba(0,0,0,0.55) 100%)',
-        }}
-      />
-      {/* Subtle noise texture overlay */}
-      <div
-        className="absolute inset-0 pointer-events-none opacity-[0.03]"
-        style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
-          backgroundRepeat: 'repeat',
-          backgroundSize: '128px',
-        }}
-      />
-
-      {/* ── Trees ── */}
-      <div className="relative flex items-start justify-center gap-6 px-4 py-6 min-w-max mx-auto">
-        {/* Left tree */}
-        <div className="flex flex-col items-center">
-          <TreeLabel label={tree.leftTreeName ?? `Path of ${tree.class}`} color={tree.color} />
-          <div className="flex items-start">
-            <TierGateStrip color={tree.color} sideSpent={leftSpent} side="left" />
-            <SingleTree
-              nodes={tree.leftTree ?? []}
-              color={tree.color}
-              getNodeState={getNodeState}
-              getChoiceSelection={getChoiceSelection}
-              onNodeClick={onNodeClick}
-              onNodeContextMenu={onNodeContextMenu}
-            />
-          </div>
-        </div>
-
-        {/* Center divider */}
-        <div className="flex flex-col items-center self-stretch mt-12 mx-2">
-          {/* Class emblem */}
-          <div
-            className="w-10 h-10 rounded-full flex-none mb-2 flex items-center justify-center text-[9px] font-bold tracking-wider"
-            style={{
-              background: `radial-gradient(circle, ${tree.color}22 0%, transparent 70%)`,
-              border: `1px solid ${tree.color}44`,
-              color: `${tree.color}99`,
-              boxShadow: `0 0 12px ${tree.color}22`,
-            }}
-          >
-            {tree.class.slice(0, 2).toUpperCase()}
-          </div>
-          <div
-            className="flex-1 w-px"
-            style={{ background: `linear-gradient(to bottom, ${tree.color}55, transparent)` }}
+    <div className="relative w-full h-full flex items-start justify-center gap-6 px-4 py-6">
+      {/* Left tree */}
+      <div className="flex flex-col items-center">
+        <TreeLabel label={tree.leftTreeName ?? `Path of ${tree.class}`} color={tree.color} />
+        <div className="flex items-start">
+          <TierGateStrip color={tree.color} sideSpent={leftSpent} side="left" />
+          <SingleTree
+            nodes={tree.leftTree ?? []}
+            color={tree.color}
+            getNodeState={getNodeState}
+            getChoiceSelection={getChoiceSelection}
+            onNodeClick={onNodeClick}
+            onNodeContextMenu={onNodeContextMenu}
           />
         </div>
+      </div>
 
-        {/* Right tree */}
-        <div className="flex flex-col items-center">
-          <TreeLabel label={tree.rightTreeName ?? `Mastery of ${tree.class}`} color={tree.color} />
-          <div className="flex items-start">
-            <SingleTree
-              nodes={tree.rightTree ?? []}
-              color={tree.color}
-              getNodeState={getNodeState}
-              getChoiceSelection={getChoiceSelection}
-              onNodeClick={onNodeClick}
-              onNodeContextMenu={onNodeContextMenu}
-            />
-            <TierGateStrip color={tree.color} sideSpent={rightSpent} side="right" />
-          </div>
+      {/* Center divider */}
+      <div className="flex flex-col items-center self-stretch mt-12 mx-2">
+        {/* Class emblem */}
+        <div
+          className="w-10 h-10 rounded-full flex-none mb-2 flex items-center justify-center text-[9px] font-bold tracking-wider"
+          style={{
+            background: `radial-gradient(circle, ${tree.color}22 0%, transparent 70%)`,
+            border: `1px solid ${tree.color}44`,
+            color: `${tree.color}99`,
+            boxShadow: `0 0 12px ${tree.color}22`,
+          }}
+        >
+          {tree.class.slice(0, 2).toUpperCase()}
+        </div>
+        <div
+          className="flex-1 w-px"
+          style={{ background: `linear-gradient(to bottom, ${tree.color}55, transparent)` }}
+        />
+      </div>
+
+      {/* Right tree */}
+      <div className="flex flex-col items-center">
+        <TreeLabel label={tree.rightTreeName ?? `Mastery of ${tree.class}`} color={tree.color} />
+        <div className="flex items-start">
+          <SingleTree
+            nodes={tree.rightTree ?? []}
+            color={tree.color}
+            getNodeState={getNodeState}
+            getChoiceSelection={getChoiceSelection}
+            onNodeClick={onNodeClick}
+            onNodeContextMenu={onNodeContextMenu}
+          />
+          <TierGateStrip color={tree.color} sideSpent={rightSpent} side="right" />
         </div>
       </div>
     </div>
@@ -358,11 +331,13 @@ function TalentNodeComponent({
     ? getNodeIconUrl(node.id, activeOption?.name ?? choiceOptions[0]?.name ?? node.name, node.type)
     : getNodeIconUrl(node.id, node.name, node.type);
 
-  // Shape: capstones round, passives rounded square, actives octagon, choices octagon-split
+  // Shape per spec: passives circle, actives rounded square, capstones circle, choices octagon
   const shapeStyle: React.CSSProperties =
     isCapstone
       ? { borderRadius: '50%' }
       : node.type === 'passive'
+      ? { borderRadius: '50%' }
+      : node.type === 'active'
       ? { borderRadius: '6px' }
       : { clipPath: 'polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%)' };
 
@@ -410,11 +385,11 @@ function TalentNodeComponent({
       {/* Outer glow ring for maxed */}
       {isMaxed && (
         <motion.div
-          className="absolute inset-0 rounded-full pointer-events-none"
+          className="absolute inset-0 pointer-events-none"
           animate={{ scale: [1, 1.25, 1], opacity: [0.4, 0, 0.4] }}
           transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
           style={{
-            borderRadius: isCapstone ? '50%' : '8px',
+            ...shapeStyle,
             border: `1px solid ${color}`,
             boxShadow: `0 0 20px ${color}`,
           }}
@@ -673,17 +648,48 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
     ? (node.options ?? []).find(o => o.id === selectedOptionId)
     : undefined;
 
+  // Edge-flip safety — measure post-render and reposition if the tooltip would
+  // bleed off the visible viewport. Tooltip lives inside the scaled stage so
+  // getBoundingClientRect() returns its true on-screen rect after the
+  // transform: scale() has been applied.
+  const tooltipRef = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState<{
+    placement: 'top' | 'bottom';
+    nudgeX: number;
+  }>({ placement: 'top', nudgeX: 0 });
+
+  useLayoutEffect(() => {
+    const el = tooltipRef.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const vw = window.innerWidth;
+    const margin = 8;
+
+    let placement: 'top' | 'bottom' = 'top';
+    if (r.top < margin) placement = 'bottom';
+
+    let nudgeX = 0;
+    if (r.left < margin) nudgeX = margin - r.left;
+    else if (r.right > vw - margin) nudgeX = vw - margin - r.right;
+
+    setPos({ placement, nudgeX });
+  }, [node.id]);
+
+  const isTop = pos.placement === 'top';
   return (
     <motion.div
-      initial={{ opacity: 0, y: 8, scale: 0.94 }}
+      ref={tooltipRef}
+      initial={{ opacity: 0, y: isTop ? 8 : -8, scale: 0.94 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: 8, scale: 0.94 }}
+      exit={{ opacity: 0, y: isTop ? 8 : -8, scale: 0.94 }}
       transition={{ duration: 0.12 }}
       className="absolute z-50 pointer-events-none w-64"
       style={{
-        bottom: 'calc(100% + 14px)',
+        ...(isTop
+          ? { bottom: 'calc(100% + 14px)' }
+          : { top: 'calc(100% + 14px)' }),
         left: '50%',
-        transform: 'translateX(-50%)',
+        transform: `translateX(calc(-50% + ${pos.nudgeX}px))`,
       }}
     >
       {/* Main panel */}

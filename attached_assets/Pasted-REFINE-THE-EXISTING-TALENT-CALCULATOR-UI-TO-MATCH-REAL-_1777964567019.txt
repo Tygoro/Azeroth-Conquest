@@ -1,0 +1,266 @@
+REFINE THE EXISTING TALENT CALCULATOR UI TO MATCH REAL COA TALENT TREES (LAYOUT + RESPONSIVENESS + FIDELITY)
+
+DO NOT change core logic.
+FOCUS on layout, scaling, and visual accuracy.
+
+========================================
+1) FIX SCROLL / CUT-OFF ISSUE (CRITICAL)
+========================================
+
+Problem:
+- viewport adds unwanted scrollbars
+- right sidebar gets cut off
+
+Fix:
+
+- Create a full-screen container:
+
+.app-root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+- Header stays fixed height
+- Tree area fills remaining space:
+
+.tree-container {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+- DO NOT allow body scrolling
+- ALL scrolling should be inside controlled container (or none at all)
+
+========================================
+2) CENTERED SCALING SYSTEM (LIKE GAME UI)
+========================================
+
+Instead of overflowing → SCALE the tree.
+
+Wrap both trees + sidebar:
+
+.tree-stage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(VAR_SCALE);
+  transform-origin: center;
+}
+
+Implement dynamic scaling:
+
+const BASE_WIDTH = 1400;
+const BASE_HEIGHT = 900;
+
+const scale = Math.min(
+  window.innerWidth / BASE_WIDTH,
+  window.innerHeight / BASE_HEIGHT
+);
+
+Apply:
+scale = clamp(scale, 0.6, 1);
+
+Result:
+- NO scrollbars
+- EVERYTHING always visible
+- behaves like WoW UI
+
+========================================
+3) TRUE TREE WIDTH (FIX SHALLOW LOOK)
+========================================
+
+Each tier must support up to:
+
+- 7 columns per side
+
+Define:
+
+const COLUMN_SPACING = 110;
+const TIER_SPACING = 100;
+
+Columns range:
+-3, -2, -1, 0, 1, 2, 3
+
+This gives:
+7-wide layout per side
+
+DO NOT center everything symmetrically.
+Allow uneven distribution like real tree.
+
+========================================
+4) TWO TREE LAYOUT (LEFT + RIGHT)
+========================================
+
+Structure:
+
+[ LEFT TREE ]   [ CENTER GAP ]   [ RIGHT TREE ]   [ SIDEBAR ]
+
+Spacing:
+
+.left-tree {
+  position: absolute;
+  left: -450px;
+}
+
+.right-tree {
+  position: absolute;
+  right: -450px;
+}
+
+.center gap holds:
+- background art
+- divider glow
+
+========================================
+5) RIGHT SIDEBAR (FIX CUT-OFF)
+========================================
+
+.sidebar {
+  position: absolute;
+  right: -650px;
+  width: 120px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+Ensure:
+- always inside scaled stage
+- NEVER clipped by viewport
+
+========================================
+6) NODE SHAPES (STRICT RULES)
+========================================
+
+Passive:
+- circle
+
+Active:
+- square
+
+Choice:
+- octagon (clip-path)
+- show left/right arrows overlay
+
+Implement:
+
+.choice-node {
+  clip-path: polygon(...octagon...);
+}
+
+========================================
+7) NODE STATES (VISUAL DEPTH)
+========================================
+
+Locked:
+- grayscale
+- opacity 0.25
+
+Available:
+- subtle glow
+
+Active:
+- gold glow
+- brighter icon
+- connection lines glow
+
+========================================
+8) CONNECTION LINES (IMPORTANT)
+========================================
+
+Use SVG overlay:
+
+- lines connect center → center
+- color:
+  inactive: rgba(255,255,255,0.1)
+  active: gold + glow
+
+Support:
+- diagonal lines
+- multi-parent nodes
+
+========================================
+9) BACKGROUND + DEPTH (MATCH GAME)
+========================================
+
+Add:
+
+- blurred background image (per spec)
+- dark overlay gradient
+- vignette edges
+
+.tree-bg {
+  position: absolute;
+  inset: 0;
+  background: url(...) center/cover no-repeat;
+  filter: blur(10px) brightness(0.4);
+}
+
+.overlay {
+  background: radial-gradient(center, transparent, black 70%);
+}
+
+========================================
+10) FIX SMALL SCREEN BEHAVIOR
+========================================
+
+When width < 1100px:
+
+- reduce COLUMN_SPACING
+- reduce TIER_SPACING
+- reduce node size slightly
+
+DO NOT stack vertically
+DO NOT collapse layout
+
+========================================
+11) NODE SIZE SCALING
+========================================
+
+Base:
+
+width: 64px;
+height: 64px;
+
+Scale with stage automatically via transform.
+
+========================================
+12) TOOLTIP SAFETY (NO CLIPPING)
+========================================
+
+Tooltips must:
+- flip left/right if near edge
+- stay inside viewport
+
+========================================
+13) FINAL RESULT GOAL
+========================================
+
+The app should:
+
+- NEVER show scrollbars
+- ALWAYS show both trees + sidebar
+- SCALE down smoothly on smaller screens
+- SUPPORT 7-column wide tiers
+- LOOK like in-game Valkyrie tree layout
+
+DO NOT SIMPLIFY.
+DO NOT CENTER EVERYTHING EVENLY.
+DO NOT REMOVE DENSITY.
+
+========================================
+OUTPUT:
+========================================
+
+Refactored layout system with:
+- responsive scaling
+- full-width tree
+- visible sidebar
+- correct node shapes
+- no overflow issues
