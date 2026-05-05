@@ -16,8 +16,11 @@ const TRACK_PAD_TOP = 32;
 
 /**
  * Path of Ascension sidebar.
- * Per Ascension CoA rules: AUTO-unlocks at thresholds [10, 20, 30, 40, 50] of
- * total points spent across both trees. NOT clickable — purely visual progression.
+ * Per Ascension CoA rules: AUTO-unlocks at thresholds [0, 10, 20, 30, 40] of
+ * TOTAL points spent across both trees (class + spec, sidebar excluded). The
+ * first node is free at spec selection; the rest unlock every 10 total points.
+ * NOT clickable — purely visual progression. Unlock is tied ONLY to total
+ * points, not to character level and not to per-tree spend.
  */
 export function SidebarTrack({ nodes, color, treeSpent }: SidebarTrackProps) {
   if (!nodes.length) return null;
@@ -311,9 +314,9 @@ function SidebarTooltip({ node, unlocked, color, treeSpent }: SidebarTooltipProp
                 border: '1px solid rgba(255,50,50,0.2)',
               }}
             >
-              <span className="font-bold">Auto-unlocks at</span>{' '}
+              <span className="font-bold">Unlocks at</span>{' '}
               <span className="font-bold">{node.unlockPointsRequired}</span>{' '}
-              points spent in trees ({treeSpent}/{node.unlockPointsRequired})
+              total points ({treeSpent}/{node.unlockPointsRequired})
             </div>
           ) : (
             <div

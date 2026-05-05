@@ -83,9 +83,11 @@ function buildDeepTree(
 }
 
 // ─── SIDEBAR PROGRESSION TRACK ──────────────────────────────────────────────
-// 5 sidebar bonuses that AUTO-UNLOCK as totalPointsSpent in trees reaches
-// the threshold. Not clickable — purely passive progression bonuses.
-const SIDEBAR_UNLOCK_THRESHOLDS = [10, 20, 30, 40, 50];
+// 5 sidebar bonuses that AUTO-UNLOCK as totalPointsSpent (class + spec, NOT
+// per-tree, NOT level) reaches the threshold. Not clickable — purely passive
+// progression bonuses. Node 0 unlocks at 0 (free at spec selection); the
+// remaining nodes unlock every 10 total points spent.
+const SIDEBAR_UNLOCK_THRESHOLDS = [0, 10, 20, 30, 40];
 
 function buildSidebarTrack(specId: string, theme: SpecTheme): SidebarNode[] {
   const tier = (n: number) => ["I", "II", "III", "IV", "V"][n] ?? `${n + 1}`;
