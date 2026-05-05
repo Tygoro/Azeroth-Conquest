@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
 import { validateTree } from '@/data/classes/validate';
+import { getNodeIconUrl, CLASS_BG_GRADIENT } from '@/data/classes/icons';
 
 interface DualTalentTreeProps {
   tree: TalentTreeType;
@@ -10,12 +11,11 @@ interface DualTalentTreeProps {
   onNodeContextMenu: (nodeId: string) => void;
 }
 
-// Canvas dimensions per single tree
 const CANVAS_W = 480;
 const CANVAS_H = 600;
 
 export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu }: DualTalentTreeProps) {
-  // Guard: validate structure before attempting to render
+  // Guard: validate structure before rendering
   const validation = validateTree(tree);
   if (!validation.valid) {
     return (
@@ -28,17 +28,37 @@ export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu 
     );
   }
 
+  const bg = CLASS_BG_GRADIENT[tree.classId] ?? 'radial-gradient(ellipse 90% 70% at 50% 0%, #0d0d14 0%, #050508 100%)';
+
   return (
-    <div className="flex flex-col items-center w-full h-full overflow-auto">
-      <div className="flex items-start justify-center gap-12 px-6 py-4 min-w-max">
-        {/* Left tree label */}
+    <div className="relative w-full h-full overflow-auto">
+      {/* ── Background layer ── */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{ background: bg }}
+      />
+      {/* Vignette + dark overlay */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background: 'radial-gradient(ellipse 80% 60% at 50% 0%, transparent 0%, rgba(0,0,0,0.55) 100%)',
+        }}
+      />
+      {/* Subtle noise texture overlay */}
+      <div
+        className="absolute inset-0 pointer-events-none opacity-[0.03]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+          backgroundRepeat: 'repeat',
+          backgroundSize: '128px',
+        }}
+      />
+
+      {/* ── Trees ── */}
+      <div className="relative flex items-start justify-center gap-10 px-6 py-6 min-w-max mx-auto">
+        {/* Left tree */}
         <div className="flex flex-col items-center">
-          <div
-            className="mb-3 text-xs font-bold uppercase tracking-[0.2em] px-4 py-1 rounded border"
-            style={{ color: tree.color, borderColor: `${tree.color}55`, background: `${tree.color}11` }}
-          >
-            Path of {tree.class}
-          </div>
+          <TreeLabel label={`Path of ${tree.class}`} color={tree.color} />
           <SingleTree
             nodes={tree.leftTree ?? []}
             color={tree.color}
@@ -48,19 +68,29 @@ export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu 
           />
         </div>
 
-        {/* Divider */}
-        <div className="flex flex-col items-center self-stretch mt-10">
-          <div className="flex-1 w-px" style={{ background: `linear-gradient(to bottom, transparent, ${tree.color}66, transparent)` }} />
+        {/* Center divider */}
+        <div className="flex flex-col items-center self-stretch mt-12 mx-2">
+          {/* Class emblem */}
+          <div
+            className="w-10 h-10 rounded-full flex-none mb-2 flex items-center justify-center text-[9px] font-bold tracking-wider"
+            style={{
+              background: `radial-gradient(circle, ${tree.color}22 0%, transparent 70%)`,
+              border: `1px solid ${tree.color}44`,
+              color: `${tree.color}99`,
+              boxShadow: `0 0 12px ${tree.color}22`,
+            }}
+          >
+            {tree.class.slice(0, 2).toUpperCase()}
+          </div>
+          <div
+            className="flex-1 w-px"
+            style={{ background: `linear-gradient(to bottom, ${tree.color}55, transparent)` }}
+          />
         </div>
 
-        {/* Right tree label */}
+        {/* Right tree */}
         <div className="flex flex-col items-center">
-          <div
-            className="mb-3 text-xs font-bold uppercase tracking-[0.2em] px-4 py-1 rounded border"
-            style={{ color: tree.color, borderColor: `${tree.color}55`, background: `${tree.color}11` }}
-          >
-            Mastery of {tree.class}
-          </div>
+          <TreeLabel label={`Mastery of ${tree.class}`} color={tree.color} />
           <SingleTree
             nodes={tree.rightTree ?? []}
             color={tree.color}
@@ -74,6 +104,26 @@ export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu 
   );
 }
 
+// ── Tree label ────────────────────────────────────────────────────────────────
+
+function TreeLabel({ label, color }: { label: string; color: string }) {
+  return (
+    <div
+      className="mb-4 px-5 py-1.5 rounded text-[11px] font-bold uppercase tracking-[0.22em] relative overflow-hidden"
+      style={{
+        color,
+        border: `1px solid ${color}40`,
+        background: `linear-gradient(90deg, ${color}18 0%, ${color}08 100%)`,
+        boxShadow: `0 0 20px ${color}18, inset 0 1px 0 ${color}20`,
+      }}
+    >
+      {label}
+    </div>
+  );
+}
+
+// ── Single tree ───────────────────────────────────────────────────────────────
+
 interface SingleTreeProps {
   nodes: TalentNode[];
   color: string;
@@ -83,22 +133,20 @@ interface SingleTreeProps {
 }
 
 function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
-  // Compute bounding box so the canvas fits the content
   const { width, height } = useMemo(() => {
     if (!nodes.length) return { width: CANVAS_W, height: CANVAS_H };
     const xs = nodes.map(n => n.position.x);
     const ys = nodes.map(n => n.position.y);
     return {
-      width: Math.max(...xs) + 120,
-      height: Math.max(...ys) + 120,
+      width: Math.max(...xs) + 130,
+      height: Math.max(...ys) + 130,
     };
   }, [nodes]);
 
+  const colorId = color.replace('#', '');
+
   return (
-    <div
-      className="relative"
-      style={{ width, height }}
-    >
+    <div className="relative" style={{ width, height }}>
       {/* SVG connection lines */}
       <svg
         className="absolute inset-0 pointer-events-none"
@@ -107,13 +155,23 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
         style={{ overflow: 'visible' }}
       >
         <defs>
-          <filter id="glow-active" x="-30%" y="-30%" width="160%" height="160%">
-            <feGaussianBlur stdDeviation="4" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+          {/* Glow filter for active lines */}
+          <filter id={`line-glow-${colorId}`} x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feFlood floodColor={color} floodOpacity="0.6" result="color" />
+            <feComposite in="color" in2="blur" operator="in" result="glow" />
+            <feMerge>
+              <feMergeNode in="glow" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
           </filter>
-          <filter id="glow-dim" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="2" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+          {/* Dimmer glow for available lines */}
+          <filter id={`line-dim-${colorId}`} x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="1.5" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
           </filter>
         </defs>
 
@@ -123,37 +181,50 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
             if (!prereq) return null;
 
             const prereqState = getNodeState(prereqId);
-            const isActive = prereqState.status === 'maxed' || prereqState.status === 'active';
+            const nodeState = getNodeState(node.id);
             const isMaxed = prereqState.status === 'maxed';
+            const isActive = prereqState.status === 'active' || isMaxed;
+            const isAvailable = nodeState.status === 'available';
 
             const x1 = prereq.position.x;
             const y1 = prereq.position.y;
             const x2 = node.position.x;
             const y2 = node.position.y;
 
-            // Mid-point for curved path
-            const mx = (x1 + x2) / 2;
-            const my = (y1 + y2) / 2;
-
             return (
               <g key={`${prereqId}-${node.id}`}>
-                {/* Glow layer for active connections */}
-                {isActive && (
+                {/* Glow layer — only for active/maxed */}
+                {isMaxed && (
                   <line
                     x1={x1} y1={y1} x2={x2} y2={y2}
                     stroke={color}
-                    strokeWidth={6}
-                    strokeOpacity={0.25}
-                    filter="url(#glow-active)"
+                    strokeWidth={8}
+                    strokeOpacity={0.2}
+                    filter={`url(#line-glow-${colorId})`}
+                  />
+                )}
+                {isActive && !isMaxed && (
+                  <line
+                    x1={x1} y1={y1} x2={x2} y2={y2}
+                    stroke={color}
+                    strokeWidth={5}
+                    strokeOpacity={0.15}
+                    filter={`url(#line-dim-${colorId})`}
                   />
                 )}
                 {/* Main line */}
                 <line
                   x1={x1} y1={y1} x2={x2} y2={y2}
-                  stroke={isMaxed ? color : isActive ? `${color}BB` : '#2a2a3a'}
-                  strokeWidth={isMaxed ? 3 : isActive ? 2 : 1.5}
-                  strokeOpacity={isMaxed ? 1 : isActive ? 0.7 : 0.35}
-                  strokeDasharray={isActive ? 'none' : '6 4'}
+                  stroke={
+                    isMaxed ? color
+                    : isActive ? `${color}CC`
+                    : isAvailable ? `${color}55`
+                    : '#1e1e2e'
+                  }
+                  strokeWidth={isMaxed ? 2.5 : isActive ? 2 : 1.5}
+                  strokeOpacity={isMaxed ? 1 : isActive ? 0.8 : isAvailable ? 0.5 : 0.3}
+                  strokeDasharray={isActive ? undefined : '5 5'}
+                  strokeLinecap="round"
                 />
               </g>
             );
@@ -170,6 +241,8 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
             node={node}
             state={state}
             color={color}
+            allNodes={nodes}
+            getNodeState={getNodeState}
             onClick={() => onNodeClick(node.id)}
             onContextMenu={() => onNodeContextMenu(node.id)}
           />
@@ -179,53 +252,69 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
   );
 }
 
-const NODE_SIZE = 52;
+// ── Talent node ───────────────────────────────────────────────────────────────
+
+const NODE_SIZE = 56;
+const CAPSTONE_SIZE = 68;
 
 interface TalentNodeComponentProps {
   node: TalentNode;
   state: { status: string; currentPoints: number };
   color: string;
+  allNodes: TalentNode[];
+  getNodeState: (nodeId: string) => { status: string; currentPoints: number };
   onClick: () => void;
   onContextMenu: () => void;
 }
 
-function TalentNodeComponent({ node, state, color, onClick, onContextMenu }: TalentNodeComponentProps) {
+function TalentNodeComponent({
+  node, state, color, allNodes, getNodeState, onClick, onContextMenu,
+}: TalentNodeComponentProps) {
   const [hovered, setHovered] = useState(false);
+  const [imgError, setImgError] = useState(false);
   const { status, currentPoints } = state;
 
-  const isLocked = status === 'locked';
+  const isLocked    = status === 'locked';
   const isAvailable = status === 'available';
-  const isActive = status === 'active';
-  const isMaxed = status === 'maxed';
+  const isActive    = status === 'active';
+  const isMaxed     = status === 'maxed';
 
-  const borderColor = isMaxed
-    ? color
-    : isActive
-    ? `${color}CC`
-    : isAvailable
-    ? `${color}66`
-    : '#2a2a3a';
+  const isCapstone = node.type === 'choice';
+  const size = isCapstone ? CAPSTONE_SIZE : NODE_SIZE;
 
-  const bgColor = isMaxed
-    ? `${color}33`
-    : isActive
-    ? `${color}1A`
-    : '#0d0d14';
+  const iconUrl = getNodeIconUrl(node.id, node.name, node.type);
 
-  const glowColor = (isMaxed || isActive) ? color : 'transparent';
-
-  // Shape: passive = rounded square, active = hex-like octagon, choice = circle
-  const borderRadius =
-    node.type === 'choice'
-      ? '50%'
+  // Shape
+  const shapeStyle: React.CSSProperties =
+    isCapstone
+      ? { borderRadius: '50%' }
       : node.type === 'passive'
-      ? '6px'
-      : '4px';
+      ? { borderRadius: '6px' }
+      : { clipPath: 'polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%)' };
 
-  const clipStyle =
-    node.type === 'active'
-      ? { clipPath: 'polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%)' }
-      : {};
+  // State-derived visuals
+  const borderColor =
+    isMaxed     ? color
+    : isActive  ? `${color}DD`
+    : isAvailable ? `${color}77`
+    : '#252535';
+
+  const boxShadow =
+    isMaxed
+      ? `0 0 0 1px ${color}44, 0 0 14px ${color}99, 0 0 40px ${color}44, inset 0 0 12px ${color}33`
+      : isActive
+      ? `0 0 0 1px ${color}33, 0 0 10px ${color}66, 0 0 24px ${color}22`
+      : isAvailable
+      ? `0 0 0 1px ${color}22, 0 0 6px ${color}33`
+      : 'none';
+
+  const bgStyle: React.CSSProperties = {
+    background: isMaxed
+      ? `radial-gradient(circle at 40% 35%, ${color}44 0%, ${color}18 50%, #0d0d18 100%)`
+      : isActive
+      ? `radial-gradient(circle at 40% 35%, ${color}28 0%, #0d0d18 100%)`
+      : `radial-gradient(circle at 40% 35%, #14141f 0%, #0a0a14 100%)`,
+  };
 
   return (
     <div
@@ -235,8 +324,8 @@ function TalentNodeComponent({ node, state, color, onClick, onContextMenu }: Tal
         left: node.position.x,
         top: node.position.y,
         transform: 'translate(-50%, -50%)',
-        width: NODE_SIZE,
-        height: NODE_SIZE,
+        width: size,
+        height: size,
         zIndex: hovered ? 50 : 10,
       }}
       onMouseEnter={() => setHovered(true)}
@@ -244,94 +333,243 @@ function TalentNodeComponent({ node, state, color, onClick, onContextMenu }: Tal
       onClick={onClick}
       onContextMenu={e => { e.preventDefault(); onContextMenu(); }}
     >
+      {/* Outer glow ring for maxed */}
+      {isMaxed && (
+        <motion.div
+          className="absolute inset-0 rounded-full pointer-events-none"
+          animate={{ scale: [1, 1.25, 1], opacity: [0.4, 0, 0.4] }}
+          transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
+          style={{
+            borderRadius: isCapstone ? '50%' : '8px',
+            border: `1px solid ${color}`,
+            boxShadow: `0 0 20px ${color}`,
+          }}
+        />
+      )}
+
       <motion.div
-        whileHover={!isLocked ? { scale: 1.15 } : {}}
-        whileTap={!isLocked ? { scale: 0.9 } : {}}
-        animate={isMaxed ? { scale: [1, 1.05, 1] } : {}}
-        transition={isMaxed ? { duration: 1.5, repeat: Infinity, repeatType: 'mirror' } : {}}
-        className="w-full h-full flex items-center justify-center cursor-pointer relative"
+        whileHover={!isLocked ? { scale: 1.12 } : {}}
+        whileTap={!isLocked ? { scale: 0.88 } : {}}
+        animate={isMaxed ? { scale: [1, 1.03, 1] } : {}}
+        transition={isMaxed
+          ? { duration: 2, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' }
+          : { type: 'spring', stiffness: 300 }
+        }
+        className="w-full h-full relative overflow-hidden cursor-pointer select-none"
         style={{
-          borderRadius,
-          ...clipStyle,
-          background: bgColor,
+          ...shapeStyle,
+          ...bgStyle,
           border: `2px solid ${borderColor}`,
-          boxShadow: (isMaxed || isActive)
-            ? `0 0 12px ${glowColor}88, 0 0 30px ${glowColor}33, inset 0 0 10px ${glowColor}22`
-            : 'inset 0 1px 0 rgba(255,255,255,0.05)',
-          opacity: isLocked ? 0.4 : 1,
-          transition: 'background 0.2s, border-color 0.2s, box-shadow 0.2s, opacity 0.2s',
+          boxShadow,
+          opacity: isLocked ? 0.35 : 1,
+          transition: 'border-color 0.25s, box-shadow 0.25s, opacity 0.25s',
         }}
       >
-        {/* Icon placeholder / initials */}
-        <span
-          className="text-[11px] font-bold text-center leading-tight px-0.5 select-none"
-          style={{ color: isLocked ? '#555' : isMaxed ? color : isActive ? `${color}CC` : '#666' }}
-        >
-          {node.name.split(' ').map(w => w[0]).join('').slice(0, 3)}
-        </span>
-
-        {/* Point pip */}
-        {!isLocked && (
-          <div
-            className="absolute -bottom-3 left-1/2 -translate-x-1/2 text-[9px] font-mono font-bold px-1.5 py-0.5 rounded-full select-none"
+        {/* Icon */}
+        {!imgError ? (
+          <img
+            src={iconUrl}
+            alt={node.name}
+            className="w-full h-full object-cover"
             style={{
-              background: isMaxed ? color : '#111',
-              color: isMaxed ? '#000' : isActive ? color : '#555',
-              border: `1px solid ${isMaxed ? color : isActive ? `${color}66` : '#333'}`,
-              lineHeight: 1,
+              filter: isLocked
+                ? 'grayscale(1) brightness(0.3)'
+                : isMaxed
+                ? `saturate(1.4) brightness(1.1) drop-shadow(0 0 4px ${color}88)`
+                : isActive
+                ? `saturate(1.1) brightness(0.95)`
+                : 'saturate(0.7) brightness(0.6)',
+              transition: 'filter 0.25s',
+            }}
+            onError={() => setImgError(true)}
+            draggable={false}
+          />
+        ) : (
+          /* Fallback: initials if image fails */
+          <div
+            className="w-full h-full flex items-center justify-center text-[10px] font-bold"
+            style={{
+              color: isLocked ? '#444' : isMaxed ? color : isActive ? `${color}CC` : '#555',
             }}
           >
-            {currentPoints}/{node.maxPoints}
+            {node.name.split(' ').map(w => w[0]).join('').slice(0, 3)}
           </div>
+        )}
+
+        {/* Sheen overlay for active/maxed */}
+        {(isActive || isMaxed) && (
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background: `linear-gradient(135deg, ${color}18 0%, transparent 60%)`,
+            }}
+          />
         )}
       </motion.div>
 
-      {/* Tooltip */}
+      {/* Points pip — shown below node when not locked */}
+      {!isLocked && (
+        <div
+          className="absolute -bottom-4 left-1/2 -translate-x-1/2 text-[9px] font-mono font-bold px-1.5 rounded-full select-none whitespace-nowrap"
+          style={{
+            background: isMaxed ? color : '#0d0d18',
+            color: isMaxed ? '#000' : isActive ? color : '#55556a',
+            border: `1px solid ${isMaxed ? color : isActive ? `${color}77` : '#252535'}`,
+            lineHeight: '16px',
+            minWidth: '28px',
+            textAlign: 'center',
+            boxShadow: isMaxed ? `0 0 6px ${color}88` : 'none',
+          }}
+        >
+          {currentPoints}/{node.maxPoints}
+        </div>
+      )}
+
+      {/* WoW-style tooltip */}
       <AnimatePresence>
         {hovered && (
-          <motion.div
-            initial={{ opacity: 0, y: 6, scale: 0.96 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 6, scale: 0.96 }}
-            transition={{ duration: 0.15 }}
-            className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-56 z-50 pointer-events-none rounded-md overflow-hidden"
-            style={{
-              background: 'linear-gradient(135deg, #13131e 0%, #1a1a2e 100%)',
-              border: `1px solid ${color}44`,
-              boxShadow: `0 4px 24px rgba(0,0,0,0.7), 0 0 0 1px ${color}22`,
-            }}
-          >
-            {/* Header */}
-            <div
-              className="px-3 py-2 border-b"
-              style={{ borderColor: `${color}33`, background: `${color}11` }}
-            >
-              <div className="font-bold text-sm" style={{ color }}>{node.name}</div>
-              <div className="text-[10px] mt-0.5 font-mono" style={{ color: `${color}99` }}>
-                {node.type.toUpperCase()} &bull; {currentPoints}/{node.maxPoints} pts
-              </div>
-            </div>
-            {/* Body */}
-            <div className="px-3 py-2">
-              <p className="text-xs leading-relaxed text-[#9999b0]">{node.description}</p>
-              {isLocked && node.prerequisites.length > 0 && (
-                <p className="text-[10px] mt-2 text-[#ff4444]">
-                  Requires prerequisites to be maxed
-                </p>
-              )}
-              {!isLocked && (
-                <p className="text-[10px] mt-2 text-[#555577]">
-                  {isMaxed
-                    ? 'Right-click to refund'
-                    : isActive
-                    ? 'Left-click to add · Right-click to refund'
-                    : 'Left-click to allocate'}
-                </p>
-              )}
-            </div>
-          </motion.div>
+          <WowTooltip
+            node={node}
+            status={status}
+            currentPoints={currentPoints}
+            color={color}
+            allNodes={allNodes}
+            getNodeState={getNodeState}
+          />
         )}
       </AnimatePresence>
     </div>
+  );
+}
+
+// ── WoW-style tooltip ─────────────────────────────────────────────────────────
+
+interface WowTooltipProps {
+  node: TalentNode;
+  status: string;
+  currentPoints: number;
+  color: string;
+  allNodes: TalentNode[];
+  getNodeState: (id: string) => { status: string; currentPoints: number };
+}
+
+function WowTooltip({ node, status, currentPoints, color, allNodes, getNodeState }: WowTooltipProps) {
+  const isLocked  = status === 'locked';
+  const isMaxed   = status === 'maxed';
+  const isActive  = status === 'active';
+
+  const unmetPrereqs = node.prerequisites.filter(pid => {
+    const pNode = allNodes.find(n => n.id === pid);
+    if (!pNode) return false;
+    const pState = getNodeState(pid);
+    return pState.status !== 'maxed';
+  });
+
+  const prereqNames = unmetPrereqs
+    .map(pid => allNodes.find(n => n.id === pid)?.name)
+    .filter(Boolean);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 8, scale: 0.94 }}
+      animate={{ opacity: 1, y: 0, scale: 1 }}
+      exit={{ opacity: 0, y: 8, scale: 0.94 }}
+      transition={{ duration: 0.12 }}
+      className="absolute z-50 pointer-events-none w-64"
+      style={{
+        bottom: 'calc(100% + 14px)',
+        left: '50%',
+        transform: 'translateX(-50%)',
+      }}
+    >
+      {/* Main panel */}
+      <div
+        className="rounded-md overflow-hidden"
+        style={{
+          background: 'linear-gradient(160deg, #12121e 0%, #0a0a16 100%)',
+          border: `1px solid ${color}50`,
+          boxShadow: `0 8px 32px rgba(0,0,0,0.85), 0 0 0 1px ${color}18, 0 0 20px ${color}15`,
+        }}
+      >
+        {/* Title bar */}
+        <div
+          className="px-3 pt-2.5 pb-2"
+          style={{
+            background: `linear-gradient(90deg, ${color}18 0%, ${color}06 100%)`,
+            borderBottom: `1px solid ${color}30`,
+          }}
+        >
+          {/* Talent name — gold, WoW style */}
+          <div
+            className="text-sm font-bold leading-tight tracking-wide"
+            style={{ color: '#ffd100', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
+          >
+            {node.name}
+          </div>
+          {/* Type + rank */}
+          <div className="flex items-center gap-2 mt-0.5">
+            <span
+              className="text-[9px] uppercase tracking-[0.15em] font-bold px-1.5 py-0.5 rounded"
+              style={{
+                background: `${color}22`,
+                color: `${color}CC`,
+                border: `1px solid ${color}33`,
+              }}
+            >
+              {node.type}
+            </span>
+            <span className="text-[10px] font-mono" style={{ color: '#9999b0' }}>
+              {currentPoints} / {node.maxPoints} pts
+            </span>
+          </div>
+        </div>
+
+        {/* Body */}
+        <div className="px-3 py-2.5 space-y-2">
+          {/* Description */}
+          <p className="text-xs leading-relaxed" style={{ color: '#c8c8d8' }}>
+            {node.description}
+          </p>
+
+          {/* Unmet requirements — red */}
+          {isLocked && prereqNames.length > 0 && (
+            <div
+              className="text-[10px] leading-snug px-2 py-1.5 rounded"
+              style={{
+                color: '#ff5050',
+                background: 'rgba(255,50,50,0.08)',
+                border: '1px solid rgba(255,50,50,0.2)',
+              }}
+            >
+              <span className="font-bold">Requires:</span>{' '}
+              {prereqNames.join(', ')} (maxed)
+            </div>
+          )}
+
+          {/* Hint text */}
+          <p className="text-[10px]" style={{ color: '#44445a' }}>
+            {isMaxed
+              ? '⌘ Right-click to refund'
+              : isActive
+              ? 'Left-click to add · Right-click to refund'
+              : isLocked
+              ? 'Complete prerequisites to unlock'
+              : 'Left-click to allocate a point'}
+          </p>
+        </div>
+      </div>
+
+      {/* Tooltip arrow */}
+      <div
+        className="absolute left-1/2 -translate-x-1/2 top-full"
+        style={{
+          width: 0,
+          height: 0,
+          borderLeft: '7px solid transparent',
+          borderRight: '7px solid transparent',
+          borderTop: `7px solid ${color}50`,
+        }}
+      />
+    </motion.div>
   );
 }

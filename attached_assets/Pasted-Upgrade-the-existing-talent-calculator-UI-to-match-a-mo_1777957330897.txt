@@ -1,0 +1,139 @@
+Upgrade the existing talent calculator UI to match a modern WoW Dragonflight-style talent tree with background art and icon-based nodes.
+
+DO NOT change logic or data structure.
+ONLY enhance visuals and presentation.
+
+----------------------------------
+1. BACKGROUND ART SYSTEM
+----------------------------------
+
+Add a background image per class:
+
+- Create folder:
+/public/class-bg/
+
+- Each class uses:
+"/class-bg/{classname}.jpg"
+
+Apply to tree container:
+
+style={{
+  backgroundImage: `url(${bgImage})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  opacity: 0.15,
+  filter: "blur(4px)"
+}}
+
+Wrap with dark overlay:
+
+<div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+
+----------------------------------
+2. NODE ICON SYSTEM
+----------------------------------
+
+Replace text nodes with icon-based nodes.
+
+Each node must support:
+
+{
+  id,
+  name,
+  icon: "/icons/skull.png"
+}
+
+Create folder:
+/public/icons/
+
+Render node:
+
+<div className="w-14 h-14 rounded-full overflow-hidden border">
+  <img src={node.icon} className="w-full h-full object-cover" />
+</div>
+
+----------------------------------
+3. NODE STYLING STATES
+----------------------------------
+
+Apply:
+
+LOCKED:
+- grayscale
+- opacity 0.3
+
+AVAILABLE:
+- slight glow
+
+ACTIVE:
+- bright cyan glow
+- border highlight
+
+MAXED:
+- stronger glow + pulse
+
+Use Tailwind:
+
+shadow-[0_0_15px_rgba(34,211,238,0.7)]
+
+----------------------------------
+4. CONNECTION GLOW
+----------------------------------
+
+Enhance SVG lines:
+
+- inactive: stroke="#444"
+- active: stroke="#22d3ee"
+- strokeWidth: 2–3
+- add glow via filter
+
+----------------------------------
+5. TOOLTIP UI (IMPORTANT)
+----------------------------------
+
+Replace basic tooltip with WoW-style card:
+
+- dark panel
+- gold/yellow title
+- small description text
+- red text for unmet requirements
+
+----------------------------------
+6. NODE SHAPES
+----------------------------------
+
+Support:
+
+- passive = rounded square
+- active = hex (clip-path)
+- capstone = circle (bigger)
+
+----------------------------------
+7. CENTER VISUAL BALANCE
+----------------------------------
+
+Ensure:
+- tree sits center screen
+- background visible but subtle
+- nodes clearly readable
+
+----------------------------------
+8. DO NOT USE AI IMAGE GENERATION AT RUNTIME
+----------------------------------
+
+Instead:
+- use placeholder images from:
+  https://wow.zamimg.com/images/wow/icons/large/
+
+Assign random icons per node for now.
+
+----------------------------------
+GOAL:
+
+Make the UI feel like a real WoW talent calculator:
+- immersive background
+- glowing nodes
+- icon-based talents
+- clean readability
+
+Focus on visuals only.
