@@ -1,4 +1,5 @@
 import { useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
@@ -478,6 +479,17 @@ function TalentNodeComponent({
       : `radial-gradient(circle at 40% 35%, #14141f 0%, #0a0a14 100%)`,
   };
 
+  // Cursor-following tooltip: track the mouse position so the tooltip's arrow
+  // always points at the cursor (not the node center).
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const handleMouseMove = (e: React.MouseEvent) => {
+    setMousePos({ x: e.clientX, y: e.clientY });
+  };
+  const handleMouseEnter = (e: React.MouseEvent) => {
+    setMousePos({ x: e.clientX, y: e.clientY });
+    setHovered(true);
+  };
+
   return (
     <div
       data-testid={`node-${node.id}`}
@@ -487,7 +499,8 @@ function TalentNodeComponent({
         height: size,
         zIndex: hovered ? 50 : 10,
       }}
-      onMouseEnter={() => setHovered(true)}
+      onMouseEnter={handleMouseEnter}
+      onMouseMove={handleMouseMove}
       onMouseLeave={() => setHovered(false)}
       onClick={onClick}
       onContextMenu={e => { e.preventDefault(); onContextMenu(); }}
@@ -606,7 +619,7 @@ function TalentNodeComponent({
         </div>
       )}
 
-      {/* WoW-style tooltip */}
+      {/* WoW-style tooltip — follows the cursor */}
       <AnimatePresence>
         {hovered && (
           <WowTooltip
@@ -616,6 +629,7 @@ function TalentNodeComponent({
             allNodes={allNodes}
             selectedOptionId={selectedOptionId}
             getNodeState={getNodeState}
+            mousePos={mousePos}
           />
         )}
       </AnimatePresence>
@@ -732,9 +746,11 @@ interface WowTooltipProps {
   allNodes: TalentNode[];
   selectedOptionId?: string;
   getNodeState: (id: string) => NodeState;
+  /** Current cursor viewport coords; tooltip follows this and arrow points at it. */
+  mousePos: { x: number; y: number };
 }
 
-function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOptionId }: WowTooltipProps) {
+function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOptionId, mousePos }: WowTooltipProps) {
   const { status, currentPoints, lockReason, tierGateRequired, sideSpent } = state;
   const isLocked  = status === 'locked';
   const isMaxed   = status === 'maxed';
@@ -758,48 +774,65 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
     ? (node.options ?? []).find(o => o.id === selectedOptionId)
     : undefined;
 
-  // Edge-flip safety — measure post-render and reposition if the tooltip would
-  // bleed off the visible viewport. Tooltip lives inside the scaled stage so
-  // getBoundingClientRect() returns its true on-screen rect after the
-  // transform: scale() has been applied.
+  // The tooltip is rendered via a portal to document.body so that
+  // `position: fixed` resolves against the viewport — it would otherwise be
+  // anchored to the CSS-transformed ScaleStage ancestor and drift.
+  //
+  // Layout strategy: cache the rendered tooltip dimensions in state, then
+  // compute placement inline on every cursor move. The cursor sits at
+  // (mousePos.x, mousePos.y); we place the tooltip so its arrow is centered
+  // on that point. Vertical: prefer above cursor, flip below if it would clip
+  // the top edge. Horizontal: center on cursor, then clamp into the viewport
+  // — and decouple the arrow's x from the tooltip's x so the arrow always
+  // points at the cursor even when the tooltip itself is clamped.
   const tooltipRef = useRef<HTMLDivElement>(null);
-  const [pos, setPos] = useState<{
-    placement: 'top' | 'bottom';
-    nudgeX: number;
-  }>({ placement: 'top', nudgeX: 0 });
+  const [dims, setDims] = useState({ w: 256, h: 0 });
 
   useLayoutEffect(() => {
     const el = tooltipRef.current;
     if (!el) return;
     const r = el.getBoundingClientRect();
-    const vw = window.innerWidth;
-    const margin = 8;
+    if (r.width !== dims.w || r.height !== dims.h) {
+      setDims({ w: r.width, h: r.height });
+    }
+  });
 
-    let placement: 'top' | 'bottom' = 'top';
-    if (r.top < margin) placement = 'bottom';
+  const margin = 8;
+  const cursorOffset = 14;
+  const vw = typeof window !== 'undefined' ? window.innerWidth : 1280;
+  const vh = typeof window !== 'undefined' ? window.innerHeight : 720;
+  const w = dims.w;
+  const h = dims.h;
 
-    let nudgeX = 0;
-    if (r.left < margin) nudgeX = margin - r.left;
-    else if (r.right > vw - margin) nudgeX = vw - margin - r.right;
+  let placement: 'top' | 'bottom' = 'top';
+  let top = mousePos.y - h - cursorOffset;
+  if (top < margin) {
+    placement = 'bottom';
+    top = mousePos.y + cursorOffset;
+  }
+  if (top + h > vh - margin) top = Math.max(margin, vh - margin - h);
 
-    setPos({ placement, nudgeX });
-  }, [node.id]);
+  let left = mousePos.x - w / 2;
+  if (left < margin) left = margin;
+  else if (left + w > vw - margin) left = vw - margin - w;
 
-  const isTop = pos.placement === 'top';
-  return (
+  const arrowX = Math.max(10, Math.min(w - 10, mousePos.x - left));
+  const isTop = placement === 'top';
+
+  return createPortal(
     <motion.div
       ref={tooltipRef}
-      initial={{ opacity: 0, y: isTop ? 8 : -8, scale: 0.94 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: isTop ? 8 : -8, scale: 0.94 }}
+      initial={{ opacity: 0, scale: 0.94 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.94 }}
       transition={{ duration: 0.12 }}
-      className="absolute z-50 pointer-events-none w-64"
+      className="fixed z-[100] pointer-events-none w-64"
       style={{
-        ...(isTop
-          ? { bottom: 'calc(100% + 14px)' }
-          : { top: 'calc(100% + 14px)' }),
-        left: '50%',
-        transform: `translateX(calc(-50% + ${pos.nudgeX}px))`,
+        left,
+        top,
+        // Hide on the very first paint (before measure) to avoid a flash at
+        // the cursor's top-left while h is still 0.
+        visibility: h === 0 ? 'hidden' : 'visible',
       }}
     >
       {/* Main panel */}
@@ -963,17 +996,23 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
         </div>
       </div>
 
-      {/* Tooltip arrow */}
+      {/* Tooltip arrow — always centered on the cursor's actual x. */}
       <div
-        className="absolute left-1/2 -translate-x-1/2 top-full"
+        className="absolute"
         style={{
+          left: arrowX,
+          ...(isTop ? { top: '100%' } : { bottom: '100%' }),
+          transform: 'translateX(-50%)',
           width: 0,
           height: 0,
           borderLeft: '7px solid transparent',
           borderRight: '7px solid transparent',
-          borderTop: `7px solid ${color}50`,
+          ...(isTop
+            ? { borderTop: `7px solid ${color}50` }
+            : { borderBottom: `7px solid ${color}50` }),
         }}
       />
-    </motion.div>
+    </motion.div>,
+    document.body,
   );
 }

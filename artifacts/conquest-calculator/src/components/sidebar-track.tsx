@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { SidebarNode } from '@workspace/api-client-react';
@@ -114,6 +115,16 @@ function SidebarNodeComponent({
   node, tierLabel, unlocked, color, top, size, treeSpent,
 }: SidebarNodeComponentProps) {
   const [hovered, setHovered] = useState(false);
+  // Cursor-following tooltip: track viewport-space mouse coords so the arrow
+  // points at the cursor instead of the node center.
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const handleMouseMove = (e: React.MouseEvent) => {
+    setMousePos({ x: e.clientX, y: e.clientY });
+  };
+  const handleMouseEnter = (e: React.MouseEvent) => {
+    setMousePos({ x: e.clientX, y: e.clientY });
+    setHovered(true);
+  };
 
   const borderColor = unlocked ? color : '#252535';
 
@@ -137,7 +148,8 @@ function SidebarNodeComponent({
         height: size,
         zIndex: hovered ? 60 : 20,
       }}
-      onMouseEnter={() => setHovered(true)}
+      onMouseEnter={handleMouseEnter}
+      onMouseMove={handleMouseMove}
       onMouseLeave={() => setHovered(false)}
     >
       {/* Outer animated glow when unlocked */}
@@ -205,7 +217,7 @@ function SidebarNodeComponent({
         {node.unlockPointsRequired}
       </div>
 
-      {/* Tooltip */}
+      {/* Tooltip — follows the cursor */}
       <AnimatePresence>
         {hovered && (
           <SidebarTooltip
@@ -213,6 +225,7 @@ function SidebarNodeComponent({
             unlocked={unlocked}
             color={color}
             treeSpent={treeSpent}
+            mousePos={mousePos}
           />
         )}
       </AnimatePresence>
@@ -227,39 +240,61 @@ interface SidebarTooltipProps {
   unlocked: boolean;
   color: string;
   treeSpent: number;
+  mousePos: { x: number; y: number };
 }
 
-function SidebarTooltip({ node, unlocked, color, treeSpent }: SidebarTooltipProps) {
-  // Edge-flip safety — sidebar opens to the LEFT by default. If the tooltip
-  // would clip the left edge of the viewport (small screens / strong scale),
-  // flip it to the right side of the sidebar node instead. Tooltip lives
-  // inside the scaled stage, so getBoundingClientRect() returns true on-screen
-  // coords after transform: scale().
+function SidebarTooltip({ node, unlocked, color, treeSpent, mousePos }: SidebarTooltipProps) {
+  // Portaled to document.body to escape the CSS-transformed ScaleStage
+  // ancestor (otherwise `position: fixed` would be anchored to the stage).
+  // Layout: prefer above the cursor; flip below if there's no room. Center
+  // horizontally on the cursor, then clamp into the viewport. The arrow's x
+  // is decoupled from the tooltip's x so it always points at the cursor.
   const ref = useRef<HTMLDivElement>(null);
-  const [side, setSide] = useState<'left' | 'right'>('left');
+  const [dims, setDims] = useState({ w: 256, h: 0 });
 
   useLayoutEffect(() => {
     const el = ref.current;
     if (!el) return;
     const r = el.getBoundingClientRect();
-    if (r.left < 8) setSide('right');
-  }, [node.id]);
+    if (r.width !== dims.w || r.height !== dims.h) {
+      setDims({ w: r.width, h: r.height });
+    }
+  });
 
-  const isLeft = side === 'left';
-  return (
+  const margin = 8;
+  const cursorOffset = 14;
+  const vw = typeof window !== 'undefined' ? window.innerWidth : 1280;
+  const vh = typeof window !== 'undefined' ? window.innerHeight : 720;
+  const w = dims.w;
+  const h = dims.h;
+
+  let placement: 'top' | 'bottom' = 'top';
+  let topPx = mousePos.y - h - cursorOffset;
+  if (topPx < margin) {
+    placement = 'bottom';
+    topPx = mousePos.y + cursorOffset;
+  }
+  if (topPx + h > vh - margin) topPx = Math.max(margin, vh - margin - h);
+
+  let leftPx = mousePos.x - w / 2;
+  if (leftPx < margin) leftPx = margin;
+  else if (leftPx + w > vw - margin) leftPx = vw - margin - w;
+
+  const arrowX = Math.max(10, Math.min(w - 10, mousePos.x - leftPx));
+  const isTop = placement === 'top';
+
+  return createPortal(
     <motion.div
       ref={ref}
-      initial={{ opacity: 0, x: isLeft ? 8 : -8, scale: 0.94 }}
-      animate={{ opacity: 1, x: 0, scale: 1 }}
-      exit={{ opacity: 0, x: isLeft ? 8 : -8, scale: 0.94 }}
+      initial={{ opacity: 0, scale: 0.94 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.94 }}
       transition={{ duration: 0.12 }}
-      className="absolute z-[60] pointer-events-none w-64"
+      className="fixed z-[100] pointer-events-none w-64"
       style={{
-        ...(isLeft
-          ? { right: 'calc(100% + 14px)' }
-          : { left: 'calc(100% + 14px)' }),
-        top: '50%',
-        transform: 'translateY(-50%)',
+        left: leftPx,
+        top: topPx,
+        visibility: h === 0 ? 'hidden' : 'visible',
       }}
     >
       <div
@@ -332,6 +367,24 @@ function SidebarTooltip({ node, unlocked, color, treeSpent }: SidebarTooltipProp
           )}
         </div>
       </div>
-    </motion.div>
+
+      {/* Tooltip arrow — always centered on the cursor's actual x. */}
+      <div
+        className="absolute"
+        style={{
+          left: arrowX,
+          ...(isTop ? { top: '100%' } : { bottom: '100%' }),
+          transform: 'translateX(-50%)',
+          width: 0,
+          height: 0,
+          borderLeft: '7px solid transparent',
+          borderRight: '7px solid transparent',
+          ...(isTop
+            ? { borderTop: `7px solid ${color}50` }
+            : { borderBottom: `7px solid ${color}50` }),
+        }}
+      />
+    </motion.div>,
+    document.body,
   );
 }

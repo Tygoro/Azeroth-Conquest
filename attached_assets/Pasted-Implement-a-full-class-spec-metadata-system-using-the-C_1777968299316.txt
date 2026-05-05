@@ -1,0 +1,237 @@
+Implement a full class → spec metadata system using the "Combat Style" sections as source of truth.
+
+==================================================
+GOAL
+==================================================
+
+Every class must have:
+
+- spec names (from Combat Style bullets)
+- spec descriptions (short + long)
+- role tags (damage / tank / healer / support)
+- resources
+- armor type
+
+This replaces any hardcoded Sun Cleric logic.
+
+==================================================
+DATA STRUCTURE
+==================================================
+
+Create a centralized config:
+
+/data/classes.ts
+
+export const CLASSES = {
+  "Sun Cleric": {
+    specs: [
+      {
+        name: "Piety",
+        description: "Wield sanctified flame and holy wrath...",
+      },
+      {
+        name: "Valkyrie",
+        description: "Become the Light's wrath made flesh...",
+      },
+      {
+        name: "Seraphim",
+        description: "Swear a radiant oath...",
+      },
+      {
+        name: "Blessings",
+        description: "Bathe companions in radiant sunlight...",
+      }
+    ]
+  },
+
+  "Necromancer": {
+    specs: [
+      { name: "Death", description: "Plague and undead control..." },
+      { name: "Rime", description: "Frost undead summoning..." },
+      { name: "Animation", description: "Control massive undead armies..." }
+    ]
+  },
+
+  "Pyromancer": {
+    specs: [
+      { name: "Incineration", description: "Direct + DoT fire damage..." },
+      { name: "Flameweaving", description: "Fire-based healing..." },
+      { name: "Draconic", description: "Dragon breath burst damage..." }
+    ]
+  },
+
+  "Cultist": {
+    specs: [
+      { name: "Heretic", description: "Melee + ally shielding..." },
+      { name: "Corruption", description: "Eldritch spellcasting..." },
+      { name: "Godblade", description: "Void melee empowerment..." },
+      { name: "Dreadnought", description: "Tank form with shields..." }
+    ]
+  },
+
+  "Starcaller": {
+    specs: [
+      { name: "Sentinel", description: "Ranged bow magic..." },
+      { name: "Warden", description: "Mana-infused melee..." },
+      { name: "Moon Priest", description: "Healing lunar cycles..." },
+      { name: "Moon Guard", description: "Mana-based tank..." }
+    ]
+  },
+
+  "Tinker": {
+    specs: [
+      { name: "Mechanics", description: "Turrets + mech combat..." },
+      { name: "Invention", description: "Healing gadgets..." },
+      { name: "Demolition", description: "Explosives + rockets..." }
+    ]
+  },
+
+  "Runemaster": {
+    specs: [
+      { name: "Engraver", description: "Elemental melee..." },
+      { name: "Glyphic", description: "Spell glyph casting..." },
+      { name: "Riftblade", description: "Stealth + elemental hybrid..." }
+    ]
+  },
+
+  "Primalist": {
+    specs: [
+      { name: "Grovekeeper", description: "Support + melee..." },
+      { name: "Wildwalker", description: "Spirit companion..." },
+      { name: "Mountain King", description: "Tank AoE..." },
+      { name: "Geomancy", description: "Ranged earth magic..." }
+    ]
+  },
+
+  "Reaper": {
+    specs: [
+      { name: "Soul", description: "Stealth assassin..." },
+      { name: "Harvest", description: "Life-steal DPS..." },
+      { name: "Domination", description: "Tank via souls..." }
+    ]
+  },
+
+  "Venomancer": {
+    specs: [
+      { name: "Fortitude", description: "Tank form..." },
+      { name: "Stalking", description: "Stealth assassin..." },
+      { name: "Rotweaver", description: "Poison DPS..." },
+      { name: "Vizier", description: "Healing/support..." }
+    ]
+  },
+
+  "Chronomancer": {
+    specs: [
+      { name: "Infinite", description: "Chaos damage..." },
+      { name: "Time", description: "Healing + reversal..." },
+      { name: "Artificer", description: "Tech + magic DPS..." }
+    ]
+  },
+
+  "Bloodmage": {
+    specs: [
+      { name: "Fleshweaver", description: "Heal + damage..." },
+      { name: "Sanguine", description: "Life drain DPS..." },
+      { name: "Accursed", description: "Hybrid combat..." },
+      { name: "Eternal", description: "Transform form..." }
+    ]
+  },
+
+  "Guardian": {
+    specs: [
+      { name: "Gladiator", description: "Offensive tank..." },
+      { name: "Inspiration", description: "Support buffs..." },
+      { name: "Vanguard", description: "Defensive tank..." }
+    ]
+  },
+
+  "Stormbringer": {
+    specs: [
+      { name: "Maelstrom", description: "Water AoE..." },
+      { name: "Lightning", description: "Burst damage..." },
+      { name: "Wind", description: "Control + displacement..." }
+    ]
+  },
+
+  "Felsworn": {
+    specs: [
+      { name: "Slaying", description: "Fast melee..." },
+      { name: "Infernal", description: "Fel casting..." },
+      { name: "Tyrant", description: "Tank form..." }
+    ]
+  },
+
+  "Barbarian": {
+    specs: [
+      { name: "Brutality", description: "2H melee..." },
+      { name: "Headhunting", description: "Ranged weapons..." },
+      { name: "Ancestry", description: "Support buffs..." }
+    ]
+  },
+
+  "Witch Doctor": {
+    specs: [
+      { name: "Shadowhunting", description: "Ranged shadow..." },
+      { name: "Voodoo", description: "DoT magic..." },
+      { name: "Brewing", description: "Healing/support..." }
+    ]
+  },
+
+  "Witch Hunter": {
+    specs: [
+      { name: "Boltslinger", description: "Ranged burst..." },
+      { name: "Houndmaster", description: "Pet combat..." },
+      { name: "Inquisition", description: "Hybrid DPS..." },
+      { name: "Black Knight", description: "Tank/support..." }
+    ]
+  },
+
+  "Knight of Xoroth": {
+    specs: [
+      { name: "Hellfire", description: "AoE caster..." },
+      { name: "Defiance", description: "Summon demons..." },
+      { name: "War", description: "2H melee DPS..." }
+    ]
+  },
+
+  "Ranger": {
+    specs: [
+      { name: "Archery", description: "Ranged DPS..." },
+      { name: "Brigand", description: "Stealth melee..." },
+      { name: "Farstrider", description: "Support commander..." }
+    ]
+  },
+
+  "Templar": {
+    specs: [
+      { name: "Oathkeeper", description: "Tank/support..." },
+      { name: "Zealot", description: "Fast DPS..." },
+      { name: "Crusader", description: "AoE DPS..." }
+    ]
+  }
+};
+
+==================================================
+UI REQUIREMENTS
+==================================================
+
+1. Spec selection screen must dynamically render:
+   CLASSES[selectedClass].specs
+
+2. Remove ALL hardcoded spec lists
+
+3. When selecting a spec:
+   - pass spec.name into talent tree
+   - DO NOT change left class tree
+
+4. Add fallback:
+   if no spec exists → show empty state
+
+==================================================
+GOAL
+==================================================
+
+All 21 classes now:
+- have correct spec names
+- dynamically populate UI
+- match in-game structure
