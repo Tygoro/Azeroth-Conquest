@@ -3,57 +3,118 @@ import type { TalentTree, TalentNode } from '@workspace/api-client-react';
 
 export type BuildState = Record<string, number>;
 
-interface UseTalentTreeProps {
-  treeData: TalentTree | undefined;
+// ─── TIER GATING ────────────────────────────────────────────────────────────
+// Mirror of the server-side row Y values. Each tree has 8 tiers gated
+// by the number of points spent **in that tree**. Gates unlock progression
+// down the tree the same way Dragonflight does.
+const TIER_Y_VALUES = [40, 110, 180, 250, 320, 390, 460, 540];
+export const TIER_POINT_GATES = [0, 0, 3, 8, 14, 20, 28, 35];
+
+function getTierIndex(y: number): number {
+  // Snap to nearest tier (tolerate small float deltas)
+  let best = 0;
+  let bestDist = Infinity;
+  for (let i = 0; i < TIER_Y_VALUES.length; i++) {
+    const d = Math.abs(TIER_Y_VALUES[i] - y);
+    if (d < bestDist) {
+      bestDist = d;
+      best = i;
+    }
+  }
+  return best;
 }
 
-// Get all nodes from both trees combined
-function getAllNodes(treeData: TalentTree | undefined): TalentNode[] {
-  if (!treeData) return [];
-  return [...(treeData.leftTree ?? []), ...(treeData.rightTree ?? [])];
+export interface NodeState {
+  status: 'locked' | 'available' | 'active' | 'maxed';
+  currentPoints: number;
+  /** Why a node is locked (only set when status === 'locked') */
+  lockReason?: 'prereq' | 'tier' | 'budget';
+  /** When lockReason === 'tier', the # of points required in this tree */
+  tierGateRequired?: number;
+  /** Current # of points spent in the same tree as this node */
+  sideSpent?: number;
+}
+
+interface UseTalentTreeProps {
+  treeData: TalentTree | undefined;
 }
 
 export function useTalentTree({ treeData }: UseTalentTreeProps) {
   const [points, setPoints] = useState<BuildState>({});
 
   const maxPoints = treeData?.maxPoints ?? 61;
-  const allNodes = useMemo(() => getAllNodes(treeData), [treeData]);
 
-  // Only count points for nodes that exist in the *current* tree.
-  // Prevents stale/imported points (from a different spec) from silently
-  // eating into the 61-point budget.
-  const totalPointsSpent = useMemo(() => {
-    if (!allNodes.length) return 0;
-    let sum = 0;
-    for (const n of allNodes) {
-      sum += points[n.id] ?? 0;
-    }
-    return sum;
-  }, [allNodes, points]);
+  const leftNodes = useMemo(() => treeData?.leftTree ?? [], [treeData]);
+  const rightNodes = useMemo(() => treeData?.rightTree ?? [], [treeData]);
+  const allNodes = useMemo(() => [...leftNodes, ...rightNodes], [leftNodes, rightNodes]);
 
+  // Each node ID is namespaced like `${classId}_${specId}_l_${n}` or `_r_${n}`.
+  // Map node ID → side ('left' | 'right').
+  const nodeSide = useMemo(() => {
+    const m = new Map<string, 'left' | 'right'>();
+    for (const n of leftNodes) m.set(n.id, 'left');
+    for (const n of rightNodes) m.set(n.id, 'right');
+    return m;
+  }, [leftNodes, rightNodes]);
+
+  // Per-side spent points (only counts nodes in current tree — sanitizes
+  // any stale points from a different spec).
+  const leftSpent = useMemo(
+    () => leftNodes.reduce((s, n) => s + (points[n.id] ?? 0), 0),
+    [leftNodes, points],
+  );
+  const rightSpent = useMemo(
+    () => rightNodes.reduce((s, n) => s + (points[n.id] ?? 0), 0),
+    [rightNodes, points],
+  );
+  const totalPointsSpent = leftSpent + rightSpent;
   const canAllocateMore = totalPointsSpent < maxPoints;
 
-  // Determine the visual/interactive state of a node
+  // Determine node state with tier gating + OR-prereq logic
   const getNodeState = useCallback(
-    (nodeId: string): { status: 'locked' | 'available' | 'active' | 'maxed'; currentPoints: number } => {
+    (nodeId: string): NodeState => {
       const node = allNodes.find(n => n.id === nodeId);
       if (!node) return { status: 'locked', currentPoints: 0 };
 
       const currentPoints = points[nodeId] ?? 0;
       const isMaxed = currentPoints >= node.maxPoints;
+      const side = nodeSide.get(nodeId) ?? 'left';
+      const sideSpent = side === 'left' ? leftSpent : rightSpent;
 
-      const prereqsMet = node.prerequisites.every(prereqId => {
-        const prereq = allNodes.find(n => n.id === prereqId);
-        if (!prereq) return true;
-        return (points[prereqId] ?? 0) >= prereq.maxPoints;
-      });
+      // Tier gate check
+      const tierIdx = getTierIndex(node.position.y);
+      const tierGate = TIER_POINT_GATES[tierIdx] ?? 0;
+      const tierGateMet = sideSpent >= tierGate;
 
-      if (!prereqsMet) return { status: 'locked', currentPoints };
-      if (isMaxed) return { status: 'maxed', currentPoints };
-      if (currentPoints > 0) return { status: 'active', currentPoints };
-      return { status: 'available', currentPoints };
+      // Prereq check: ANY prereq maxed (Dragonflight-style branching).
+      // Roots (no prereqs) always satisfy.
+      const prereqsMet =
+        node.prerequisites.length === 0 ||
+        node.prerequisites.some(prereqId => {
+          const prereq = allNodes.find(n => n.id === prereqId);
+          if (!prereq) return false;
+          return (points[prereqId] ?? 0) >= prereq.maxPoints;
+        });
+
+      // If already allocated, never lock — it's always interactable for refund
+      if (isMaxed) return { status: 'maxed', currentPoints, sideSpent };
+      if (currentPoints > 0) return { status: 'active', currentPoints, sideSpent };
+
+      if (!tierGateMet) {
+        return {
+          status: 'locked',
+          currentPoints,
+          lockReason: 'tier',
+          tierGateRequired: tierGate,
+          sideSpent,
+        };
+      }
+      if (!prereqsMet) {
+        return { status: 'locked', currentPoints, lockReason: 'prereq', sideSpent };
+      }
+      return { status: 'available', currentPoints, sideSpent };
     },
-    [allNodes, points]
+    [allNodes, nodeSide, points, leftSpent, rightSpent],
   );
 
   const addPoint = useCallback(
@@ -61,11 +122,11 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
       if (!treeData) return;
       const node = allNodes.find(n => n.id === nodeId);
       if (!node) return;
-      const { status, currentPoints } = getNodeState(nodeId);
-      if (status === 'locked' || status === 'maxed' || !canAllocateMore) return;
-      setPoints(prev => ({ ...prev, [nodeId]: currentPoints + 1 }));
+      const state = getNodeState(nodeId);
+      if (state.status === 'locked' || state.status === 'maxed' || !canAllocateMore) return;
+      setPoints(prev => ({ ...prev, [nodeId]: (prev[nodeId] ?? 0) + 1 }));
     },
-    [treeData, allNodes, getNodeState, canAllocateMore]
+    [treeData, allNodes, getNodeState, canAllocateMore],
   );
 
   const canRemovePoint = useCallback(
@@ -76,17 +137,46 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
       const node = allNodes.find(n => n.id === nodeId);
       if (!node) return false;
 
-      // If removing would un-max this node, check if any dependents rely on it being maxed
+      const side = nodeSide.get(nodeId) ?? 'left';
+      const sideSpent = side === 'left' ? leftSpent : rightSpent;
+      const newSideSpent = sideSpent - 1;
       const wouldBeUnMaxed = currentPoints === node.maxPoints;
+
+      // Sibling-OR prereq check: a dependent stays unlocked if it has at
+      // least one OTHER maxed prereq besides this one.
       if (wouldBeUnMaxed) {
-        const hasDependentsAllocated = allNodes
-          .filter(n => n.prerequisites.includes(nodeId))
-          .some(dep => (points[dep.id] ?? 0) > 0);
-        if (hasDependentsAllocated) return false;
+        const blocked = allNodes.some(dep => {
+          if (!dep.prerequisites.includes(nodeId)) return false;
+          if ((points[dep.id] ?? 0) === 0) return false; // dep not allocated → safe
+          // Does dep have another maxed prereq besides nodeId?
+          const otherMaxed = dep.prerequisites.some(pid => {
+            if (pid === nodeId) return false;
+            const p = allNodes.find(n => n.id === pid);
+            return p ? (points[pid] ?? 0) >= p.maxPoints : false;
+          });
+          return !otherMaxed;
+        });
+        if (blocked) return false;
       }
+
+      // Tier-gate cascade check: removing this point must not cause any
+      // currently-allocated node on the same side to fall below its tier
+      // gate. We check ALL allocated nodes (including the one being
+      // decremented, if it remains > 0 points after the removal).
+      const sameSideNodes = side === 'left' ? leftNodes : rightNodes;
+      const cascadeBlocked = sameSideNodes.some(other => {
+        const ptsBefore = points[other.id] ?? 0;
+        const ptsAfter = other.id === nodeId ? ptsBefore - 1 : ptsBefore;
+        if (ptsAfter <= 0) return false;
+        const otherTier = getTierIndex(other.position.y);
+        const otherGate = TIER_POINT_GATES[otherTier] ?? 0;
+        return newSideSpent < otherGate;
+      });
+      if (cascadeBlocked) return false;
+
       return true;
     },
-    [allNodes, points]
+    [allNodes, nodeSide, points, leftSpent, rightSpent, leftNodes, rightNodes],
   );
 
   const removePoint = useCallback(
@@ -102,12 +192,11 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
         return { ...prev, [nodeId]: cur - 1 };
       });
     },
-    [treeData, canRemovePoint]
+    [treeData, canRemovePoint],
   );
 
   const reset = useCallback(() => setPoints({}), []);
 
-  // Serialize includes specId so the build link can restore both class and spec
   const serializeBuild = useCallback((): string => {
     if (!treeData) return '';
     return btoa(
@@ -123,7 +212,6 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
     (encoded: string): { classId?: string; specId?: string } | undefined => {
       try {
         const decoded = JSON.parse(atob(encoded));
-        // Sanitize: ensure points is a string→number map with safe values.
         if (decoded?.points && typeof decoded.points === 'object') {
           const safe: BuildState = {};
           for (const [k, v] of Object.entries(decoded.points)) {
@@ -148,6 +236,8 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
     points,
     setPoints,
     totalPointsSpent,
+    leftSpent,
+    rightSpent,
     maxPoints,
     canAllocateMore,
     getNodeState,

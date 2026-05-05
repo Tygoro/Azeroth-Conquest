@@ -27,7 +27,19 @@ Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style tal
 - Build serialization (URL `?data=` and Import/Export) round-trips both `classId` and `specId`
 
 ### Tree layout
-22-node hex/diamond layout per side: rows of 3 / 4 / 5 / 4 / 3 / 2 / 1 capstone, with prereq edges connecting each node to the 1–2 above it. Node positions and prereq matrix live in `artifacts/api-server/src/data/classes.ts`.
+30-node 8-tier Dragonflight-style layout per side: rows of 3 / 4 / 5 / 5 / 5 / 4 / 3 / 1 capstone (60 nodes per spec). Mid-tree (tiers 3 and 4) is a dense branchy cluster with 3-prereq nodes that reconnect. Node positions, prereq DAG, types and max-points all live in `artifacts/api-server/src/data/classes.ts`.
+
+### Tier point gates (per side)
+Each tier unlocks only after enough points are spent **in that tree**:
+
+| Tier | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|------|---|---|---|---|---|---|---|---|
+| Gate | 0 | 0 | 3 | 8 | 14 | 20 | 28 | 35 |
+
+Gates are constants (`TIER_POINT_GATES`) in `hooks/use-talent-tree.ts` and rendered as a small indicator strip beside each tree (`TierGateStrip` in `components/talent-tree.tsx`).
+
+### Prereq logic
+Multi-prereq nodes use **OR** logic — ANY one prereq being maxed unlocks the dependent (matches Dragonflight branching/reconnect feel). Refunding a maxed prereq is blocked only when no other maxed sibling prereq covers the dependent, AND only when removing wouldn't drop a higher tier below its gate.
 
 ### Spec data
 - **Sun Cleric** has 4 hand-crafted specs (Piety / Valkyrie / Seraphim / Blessings) matching the in-game UI

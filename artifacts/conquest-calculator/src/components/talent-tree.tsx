@@ -1,20 +1,35 @@
 import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Lock } from 'lucide-react';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
 import { validateTree } from '@/data/classes/validate';
 import { getNodeIconUrl, CLASS_BG_GRADIENT } from '@/data/classes/icons';
+import { TIER_POINT_GATES, type NodeState } from '@/hooks/use-talent-tree';
+
+// Server-side y-positions of each tier (mirrors classes.ts)
+const TIER_Y_VALUES = [40, 110, 180, 250, 320, 390, 460, 540];
 
 interface DualTalentTreeProps {
   tree: TalentTreeType;
-  getNodeState: (nodeId: string) => { status: 'locked' | 'available' | 'active' | 'maxed'; currentPoints: number };
+  getNodeState: (nodeId: string) => NodeState;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
+  /** Per-side spent points — used to render the tier-gate indicator strip */
+  leftSpent: number;
+  rightSpent: number;
 }
 
 const CANVAS_W = 480;
 const CANVAS_H = 600;
 
-export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu }: DualTalentTreeProps) {
+export function TalentTree({
+  tree,
+  getNodeState,
+  onNodeClick,
+  onNodeContextMenu,
+  leftSpent,
+  rightSpent,
+}: DualTalentTreeProps) {
   // Guard: validate structure before rendering
   const validation = validateTree(tree);
   if (!validation.valid) {
@@ -55,17 +70,20 @@ export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu 
       />
 
       {/* ── Trees ── */}
-      <div className="relative flex items-start justify-center gap-10 px-6 py-6 min-w-max mx-auto">
+      <div className="relative flex items-start justify-center gap-6 px-4 py-6 min-w-max mx-auto">
         {/* Left tree */}
         <div className="flex flex-col items-center">
-          <TreeLabel label={`Path of ${tree.class}`} color={tree.color} />
-          <SingleTree
-            nodes={tree.leftTree ?? []}
-            color={tree.color}
-            getNodeState={getNodeState}
-            onNodeClick={onNodeClick}
-            onNodeContextMenu={onNodeContextMenu}
-          />
+          <TreeLabel label={tree.leftTreeName ?? `Path of ${tree.class}`} color={tree.color} />
+          <div className="flex items-start">
+            <TierGateStrip color={tree.color} sideSpent={leftSpent} side="left" />
+            <SingleTree
+              nodes={tree.leftTree ?? []}
+              color={tree.color}
+              getNodeState={getNodeState}
+              onNodeClick={onNodeClick}
+              onNodeContextMenu={onNodeContextMenu}
+            />
+          </div>
         </div>
 
         {/* Center divider */}
@@ -90,14 +108,17 @@ export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu 
 
         {/* Right tree */}
         <div className="flex flex-col items-center">
-          <TreeLabel label={`Mastery of ${tree.class}`} color={tree.color} />
-          <SingleTree
-            nodes={tree.rightTree ?? []}
-            color={tree.color}
-            getNodeState={getNodeState}
-            onNodeClick={onNodeClick}
-            onNodeContextMenu={onNodeContextMenu}
-          />
+          <TreeLabel label={tree.rightTreeName ?? `Mastery of ${tree.class}`} color={tree.color} />
+          <div className="flex items-start">
+            <SingleTree
+              nodes={tree.rightTree ?? []}
+              color={tree.color}
+              getNodeState={getNodeState}
+              onNodeClick={onNodeClick}
+              onNodeContextMenu={onNodeContextMenu}
+            />
+            <TierGateStrip color={tree.color} sideSpent={rightSpent} side="right" />
+          </div>
         </div>
       </div>
     </div>
@@ -122,12 +143,48 @@ function TreeLabel({ label, color }: { label: string; color: string }) {
   );
 }
 
+// ── Tier-gate strip (Dragonflight-style point requirement column) ──────────
+
+function TierGateStrip({ color, sideSpent, side }: { color: string; sideSpent: number; side: 'left' | 'right' }) {
+  return (
+    <div
+      className="relative flex-none"
+      style={{ width: 36, height: TIER_Y_VALUES[TIER_Y_VALUES.length - 1] + 60 }}
+    >
+      {TIER_Y_VALUES.map((y, idx) => {
+        const gate = TIER_POINT_GATES[idx] ?? 0;
+        const met = sideSpent >= gate;
+        // Hide the "0 pts" label for tier 0 — visual noise
+        if (gate === 0) return null;
+        return (
+          <div
+            key={idx}
+            className="absolute flex items-center gap-1 text-[10px] font-mono font-bold whitespace-nowrap"
+            style={{
+              top: y,
+              [side === 'left' ? 'right' : 'left']: 4,
+              transform: 'translateY(-50%)',
+              color: met ? color : '#3a3a4a',
+              opacity: met ? 1 : 0.6,
+              flexDirection: side === 'left' ? 'row' : 'row-reverse',
+            }}
+            title={`Tier ${idx + 1}: ${gate} points required in this tree (${sideSpent}/${gate})`}
+          >
+            {!met && <Lock className="w-2.5 h-2.5" />}
+            <span>{gate}</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 // ── Single tree ───────────────────────────────────────────────────────────────
 
 interface SingleTreeProps {
   nodes: TalentNode[];
   color: string;
-  getNodeState: (nodeId: string) => { status: 'locked' | 'available' | 'active' | 'maxed'; currentPoints: number };
+  getNodeState: (nodeId: string) => NodeState;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
 }
@@ -138,8 +195,8 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
     const xs = nodes.map(n => n.position.x);
     const ys = nodes.map(n => n.position.y);
     return {
-      width: Math.max(...xs) + 130,
-      height: Math.max(...ys) + 130,
+      width: Math.max(...xs) + 60,
+      height: Math.max(...ys) + 60,
     };
   }, [nodes]);
 
@@ -254,15 +311,15 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
 
 // ── Talent node ───────────────────────────────────────────────────────────────
 
-const NODE_SIZE = 56;
-const CAPSTONE_SIZE = 68;
+const NODE_SIZE = 48;
+const CAPSTONE_SIZE = 60;
 
 interface TalentNodeComponentProps {
   node: TalentNode;
-  state: { status: string; currentPoints: number };
+  state: NodeState;
   color: string;
   allNodes: TalentNode[];
-  getNodeState: (nodeId: string) => { status: string; currentPoints: number };
+  getNodeState: (nodeId: string) => NodeState;
   onClick: () => void;
   onContextMenu: () => void;
 }
@@ -430,8 +487,7 @@ function TalentNodeComponent({
         {hovered && (
           <WowTooltip
             node={node}
-            status={status}
-            currentPoints={currentPoints}
+            state={state}
             color={color}
             allNodes={allNodes}
             getNodeState={getNodeState}
@@ -446,24 +502,26 @@ function TalentNodeComponent({
 
 interface WowTooltipProps {
   node: TalentNode;
-  status: string;
-  currentPoints: number;
+  state: NodeState;
   color: string;
   allNodes: TalentNode[];
-  getNodeState: (id: string) => { status: string; currentPoints: number };
+  getNodeState: (id: string) => NodeState;
 }
 
-function WowTooltip({ node, status, currentPoints, color, allNodes, getNodeState }: WowTooltipProps) {
+function WowTooltip({ node, state, color, allNodes, getNodeState }: WowTooltipProps) {
+  const { status, currentPoints, lockReason, tierGateRequired, sideSpent } = state;
   const isLocked  = status === 'locked';
   const isMaxed   = status === 'maxed';
   const isActive  = status === 'active';
 
+  // Prereqs need ANY (not all) maxed — show only if ALL are unmet
   const unmetPrereqs = node.prerequisites.filter(pid => {
     const pNode = allNodes.find(n => n.id === pid);
     if (!pNode) return false;
     const pState = getNodeState(pid);
     return pState.status !== 'maxed';
   });
+  const allPrereqsUnmet = node.prerequisites.length > 0 && unmetPrereqs.length === node.prerequisites.length;
 
   const prereqNames = unmetPrereqs
     .map(pid => allNodes.find(n => n.id === pid)?.name)
@@ -531,8 +589,24 @@ function WowTooltip({ node, status, currentPoints, color, allNodes, getNodeState
             {node.description}
           </p>
 
-          {/* Unmet requirements — red */}
-          {isLocked && prereqNames.length > 0 && (
+          {/* Tier gate not met — red */}
+          {isLocked && lockReason === 'tier' && tierGateRequired !== undefined && (
+            <div
+              className="text-[10px] leading-snug px-2 py-1.5 rounded"
+              style={{
+                color: '#ff5050',
+                background: 'rgba(255,50,50,0.08)',
+                border: '1px solid rgba(255,50,50,0.2)',
+              }}
+            >
+              <span className="font-bold">Tier locked:</span> spend{' '}
+              <span className="font-bold">{tierGateRequired}</span> points in this tree to unlock
+              {sideSpent !== undefined && ` (${sideSpent}/${tierGateRequired})`}
+            </div>
+          )}
+
+          {/* Prereqs unmet — red. With OR logic, only show if ALL unmet. */}
+          {isLocked && lockReason === 'prereq' && allPrereqsUnmet && prereqNames.length > 0 && (
             <div
               className="text-[10px] leading-snug px-2 py-1.5 rounded"
               style={{
@@ -542,7 +616,9 @@ function WowTooltip({ node, status, currentPoints, color, allNodes, getNodeState
               }}
             >
               <span className="font-bold">Requires:</span>{' '}
-              {prereqNames.join(', ')} (maxed)
+              {node.prerequisites.length > 1
+                ? `any of ${prereqNames.join(', ')} (maxed)`
+                : `${prereqNames[0]} (maxed)`}
             </div>
           )}
 

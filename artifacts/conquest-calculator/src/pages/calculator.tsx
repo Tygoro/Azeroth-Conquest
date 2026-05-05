@@ -79,6 +79,8 @@ export default function Calculator() {
 
   const {
     totalPointsSpent,
+    leftSpent,
+    rightSpent,
     maxPoints,
     getNodeState,
     addPoint,
@@ -200,6 +202,8 @@ export default function Calculator() {
         getNodeState={getNodeState}
         onNodeClick={addPoint}
         onNodeContextMenu={removePoint}
+        leftSpent={leftSpent}
+        rightSpent={rightSpent}
       />
     );
   } else {

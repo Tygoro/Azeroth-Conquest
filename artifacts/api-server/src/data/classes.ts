@@ -1,58 +1,90 @@
 import type { TalentTree, ClassMeta, ClassDetail, SpecMeta, TalentNode } from "@workspace/api-zod";
 
-// ─── 22-NODE DEEP TREE LAYOUT (HEX/DIAMOND) ─────────────────────────────────
-// Row 0 (y=50): 3 root nodes at cols 1,2,3
-// Row 1 (y=130): 4 nodes hex-offset at cols 0.5,1.5,2.5,3.5
-// Row 2 (y=210): 5 nodes (widest) at cols 0,1,2,3,4
-// Row 3 (y=290): 4 nodes hex-offset at cols 0.5,1.5,2.5,3.5
-// Row 4 (y=370): 3 nodes at cols 1,2,3
-// Row 5 (y=450): 2 nodes at cols 1.5,2.5
-// Row 6 (y=540): 1 capstone at col 2
-const COL_X = (col: number): number => 60 + col * 90;
-const POS = (col: number, row: number, y: number) => ({ x: COL_X(col), y });
+// ─── 30-NODE DEEP TREE LAYOUT (8 TIERS, BRANCHY, DRAGONFLIGHT-STYLE) ────────
+// Tier 0 (y=40):  3 root nodes      cols 1, 2, 3
+// Tier 1 (y=110): 4 nodes           cols 0.5, 1.5, 2.5, 3.5
+// Tier 2 (y=180): 5 nodes (wide)    cols 0, 1, 2, 3, 4         — gate: 3pt
+// Tier 3 (y=250): 5 nodes (cluster) cols 0, 1, 2, 3, 4         — gate: 8pt
+// Tier 4 (y=320): 5 nodes (cluster) cols 0, 1, 2, 3, 4         — gate: 14pt  ← densest middle
+// Tier 5 (y=390): 4 nodes           cols 0.5, 1.5, 2.5, 3.5    — gate: 20pt
+// Tier 6 (y=460): 3 nodes           cols 1, 2, 3               — gate: 28pt
+// Tier 7 (y=540): 1 capstone        col 2                      — gate: 35pt
+// Tighter spacing (78px col / explicit row Y) for denser feel.
+const COL_X = (col: number): number => 48 + col * 78;
+const POS = (col: number, y: number) => ({ x: COL_X(col), y });
 
 const NODE_POSITIONS = [
-  POS(1, 0, 50),    POS(2, 0, 50),    POS(3, 0, 50),                         // 1,2,3
-  POS(0.5, 1, 130), POS(1.5, 1, 130), POS(2.5, 1, 130), POS(3.5, 1, 130),    // 4,5,6,7
-  POS(0, 2, 210),   POS(1, 2, 210),   POS(2, 2, 210),   POS(3, 2, 210), POS(4, 2, 210), // 8,9,10,11,12
-  POS(0.5, 3, 290), POS(1.5, 3, 290), POS(2.5, 3, 290), POS(3.5, 3, 290),    // 13,14,15,16
-  POS(1, 4, 370),   POS(2, 4, 370),   POS(3, 4, 370),                        // 17,18,19
-  POS(1.5, 5, 450), POS(2.5, 5, 450),                                        // 20,21
-  POS(2, 6, 540),                                                            // 22 capstone
+  // Tier 0 — 3 roots
+  POS(1, 40),   POS(2, 40),   POS(3, 40),
+  // Tier 1 — 4 nodes
+  POS(0.5, 110), POS(1.5, 110), POS(2.5, 110), POS(3.5, 110),
+  // Tier 2 — 5 nodes
+  POS(0, 180),  POS(1, 180),  POS(2, 180),  POS(3, 180),  POS(4, 180),
+  // Tier 3 — 5 nodes (cluster)
+  POS(0, 250),  POS(1, 250),  POS(2, 250),  POS(3, 250),  POS(4, 250),
+  // Tier 4 — 5 nodes (cluster, choice tier)
+  POS(0, 320),  POS(1, 320),  POS(2, 320),  POS(3, 320),  POS(4, 320),
+  // Tier 5 — 4 nodes
+  POS(0.5, 390), POS(1.5, 390), POS(2.5, 390), POS(3.5, 390),
+  // Tier 6 — 3 nodes
+  POS(1, 460),  POS(2, 460),  POS(3, 460),
+  // Tier 7 — capstone
+  POS(2, 540),
 ] as const;
 
-// Prereq chain — each node depends on nearest connected node(s) in row above
+// Prereq DAG. Each node has 1–3 prereqs from the tier above. Multi-prereq
+// nodes are satisfied by ANY prereq being maxed (OR logic — Dragonflight
+// branching). Mid-tree clusters (T3, T4) feature 3-prereq nodes for the
+// dense branching/reconnect feel.
 const NODE_PREREQS: number[][] = [
-  [], [], [],                                  // 1,2,3 roots
-  [0], [0, 1], [1, 2], [2],                    // 4←1; 5←1,2; 6←2,3; 7←3
-  [3], [3, 4], [4, 5], [5, 6], [6],            // 8←4; 9←4,5; 10←5,6; 11←6,7; 12←7
-  [7, 8], [8, 9], [9, 10], [10, 11],           // 13←8,9; 14←9,10; 15←10,11; 16←11,12
-  [12, 13], [13, 14], [14, 15],                // 17←13,14; 18←14,15; 19←15,16
-  [16, 17], [17, 18],                          // 20←17,18; 21←18,19
-  [19, 20],                                    // 22 capstone ← 20,21
+  [], [], [],                                                    // T0  (0,1,2)
+  [0],     [0, 1],     [1, 2],     [2],                          // T1  (3,4,5,6)
+  [3],     [3, 4],     [4, 5],     [5, 6],     [6],              // T2  (7,8,9,10,11)
+  [7, 8],  [7, 8, 9],  [8, 9, 10], [9, 10, 11], [10, 11],        // T3  (12,13,14,15,16)
+  [12],    [12, 13, 14], [13, 14, 15], [14, 15, 16], [16],       // T4  (17,18,19,20,21)
+  [17, 18], [18, 19],  [19, 20],   [20, 21],                     // T5  (22,23,24,25)
+  [22, 23], [23, 24],  [24, 25],                                 // T6  (26,27,28)
+  [26, 27, 28],                                                  // T7 capstone (29) — needs ANY of the 3
 ];
 
-// Default node type assignment by index — visual rhythm of tree
-// Mostly active + passive, with capstone at end and a couple choice nodes
+// Visual node type per index — varied so each tier feels different
 const NODE_TYPES: Array<TalentNode["type"]> = [
-  "active",  "active",  "active",                          // row 0: 3 active roots
-  "passive", "active",  "active",  "passive",              // row 1
-  "passive", "active",  "choice",  "active",  "passive",   // row 2 (choice in middle)
-  "active",  "passive", "passive", "active",               // row 3
-  "active",  "passive", "active",                          // row 4
-  "active",  "active",                                     // row 5
-  "capstone",                                              // row 6
+  // T0
+  "active",  "active",  "active",
+  // T1
+  "passive", "active",  "active",  "passive",
+  // T2
+  "passive", "active",  "active",  "active",  "passive",
+  // T3 — cluster, lots of mixing
+  "active",  "passive", "choice",  "passive", "active",
+  // T4 — choice/active heavy
+  "choice",  "active",  "choice",  "active",  "choice",
+  // T5
+  "passive", "active",  "active",  "passive",
+  // T6
+  "active",  "active",  "active",
+  // T7
+  "capstone",
 ];
 
-// Max points per node — varies for visual variety (1, 2, or 3)
+// Max points per node — choices are always 1pt, capstone 1pt, rest mostly 2pt
 const NODE_MAX_POINTS: number[] = [
-  3, 3, 3,         // roots — 3pt
-  2, 2, 2, 2,      // row 1 — 2pt
-  2, 3, 1, 3, 2,   // row 2 — choice is 1pt
-  2, 2, 2, 2,      // row 3 — 2pt
-  3, 2, 3,         // row 4 — bigger
-  2, 2,            // row 5
-  1,               // capstone — 1pt
+  // T0
+  1, 1, 1,
+  // T1
+  2, 2, 2, 2,
+  // T2
+  2, 2, 2, 2, 2,
+  // T3 (choice in mid is 1pt)
+  2, 2, 1, 2, 2,
+  // T4 (choices = 1pt)
+  1, 2, 1, 2, 1,
+  // T5
+  2, 2, 2, 2,
+  // T6
+  2, 2, 2,
+  // T7
+  1,
 ];
 
 type NodeDef = Omit<TalentNode, "currentPoints">;
@@ -66,8 +98,8 @@ function nodes(defs: NodeDef[]): TalentNode[] {
 type TalentDef = { name: string; description: string };
 
 function buildDeepTree(prefix: string, talents: TalentDef[]): TalentNode[] {
-  if (talents.length !== 22) {
-    throw new Error(`buildDeepTree: expected 22 talents for prefix "${prefix}", got ${talents.length}`);
+  if (talents.length !== 30) {
+    throw new Error(`buildDeepTree: expected 30 talents for prefix "${prefix}", got ${talents.length}`);
   }
   return nodes(
     talents.map((t, i) => ({
@@ -120,26 +152,27 @@ type SpecTheme = {
 };
 
 function genTalent(theme: SpecTheme, idx: number, isLeft: boolean): TalentDef {
-  // Slot 0,1,2 = roots (use signature names)
-  // Slot 21 = capstone
+  // Slot 0,1,2 = roots (use signature names — first 3 for left, second 3 for right)
+  // Slot 29 = capstone
   // Others = procedural
-  if (idx === 21) {
+  if (idx === 29) {
     return { name: theme.capstoneName, description: theme.capstoneDesc };
   }
-  if (idx < 3 && theme.signature[idx]) {
-    const sig = theme.signature[idx + (isLeft ? 0 : 3)] ?? theme.signature[idx];
+  if (idx < 3 && theme.signature.length >= 3) {
+    const sigIdx = idx + (isLeft ? 0 : 3);
+    const sig = theme.signature[sigIdx] ?? theme.signature[idx];
     return {
       name: sig,
       description: `A signature ${theme.damageType.toLowerCase()} ability of this path. Effectiveness +15% per point.`,
     };
   }
 
-  const seed = idx * (isLeft ? 7 : 13);
+  const seed = idx * (isLeft ? 7 : 13) + (isLeft ? 0 : 31);
   const pre = theme.prefix[seed % theme.prefix.length];
   const noun = theme.noun[(seed * 3) % theme.noun.length];
   const verb = theme.verb[(seed * 5) % theme.verb.length];
 
-  // Mix three styles of names
+  // Mix three styles of names so adjacent nodes don't all read the same
   const style = idx % 3;
   let name: string;
   if (style === 0) name = `${pre} ${noun}`;
@@ -170,8 +203,8 @@ function buildSpecTreeFromTheme(
   leftTheme: SpecTheme,
   rightTheme: SpecTheme,
 ): TalentTree {
-  const leftTalents: TalentDef[] = Array.from({ length: 22 }, (_, i) => genTalent(leftTheme, i, true));
-  const rightTalents: TalentDef[] = Array.from({ length: 22 }, (_, i) => genTalent(rightTheme, i, false));
+  const leftTalents: TalentDef[] = Array.from({ length: 30 }, (_, i) => genTalent(leftTheme, i, true));
+  const rightTalents: TalentDef[] = Array.from({ length: 30 }, (_, i) => genTalent(rightTheme, i, false));
 
   return {
     class: className,
