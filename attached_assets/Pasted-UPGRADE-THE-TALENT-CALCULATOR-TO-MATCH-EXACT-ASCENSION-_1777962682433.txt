@@ -1,0 +1,200 @@
+UPGRADE THE TALENT CALCULATOR TO MATCH EXACT ASCENSION COA RULES
+
+Do NOT redesign. Extend current system.
+
+========================================
+CORE RULES (AUTHORITATIVE)
+========================================
+
+1) TREES
+- Each spec has TWO trees (left + right)
+- Each tree has EXACTLY 10 tiers (0–9)
+
+----------------------------------------
+
+2) TIER GATING (CONFIRMED)
+- Row 5 unlock requires 8 points invested in THAT tree
+
+Implement:
+
+const TIER_UNLOCKS = {
+  0: 0,
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 8,   // gate starts here
+  5: 8,
+  6: 20,
+  7: 20,
+  8: 30,
+  9: 40
+};
+
+RULE:
+- Lock nodes if totalPointsSpentInTree < required threshold
+
+----------------------------------------
+
+3) RIGHT SIDEBAR (CONFIRMED)
+- 5 vertical abilities
+- Automatically unlocked (NOT clickable)
+
+Unlock thresholds:
+10, 20, 30, 40, 50 points
+
+Render:
+- active if unlocked
+- grayed out if locked
+
+----------------------------------------
+
+4) NODE TYPES (CRITICAL VISUAL LOGIC)
+
+Circle nodes:
+- passive talents
+
+Square nodes:
+- active abilities
+
+Octagon nodes (with arrows):
+- CHOICE nodes
+- allow selecting ONE of two options
+
+----------------------------------------
+
+5) CHOICE NODE BEHAVIOR (NEW SYSTEM)
+
+Each choice node:
+
+{
+  id,
+  type: "choice",
+  options: [
+    { id: "opt1", name, description },
+    { id: "opt2", name, description }
+  ],
+  selectedOption: null
+}
+
+Rules:
+- clicking opens selection (or toggles)
+- only ONE option active
+- visually show split / arrow indicator
+- prerequisite logic treats node as “active” once one option selected
+
+----------------------------------------
+
+6) LAYOUT SYSTEM (FIX DEPTH ISSUE)
+
+Implement true 10-tier layout:
+
+const TIER_Y_SPACING = 110;
+const COLUMN_X_SPACING = 120;
+
+Each node:
+- tier: 0–9
+- column: -2 to +2 (flexible)
+
+Position:
+x = center + (column * spacing)
+y = tier * spacing
+
+----------------------------------------
+
+7) DENSITY (WHY YOUR APP FEELS WRONG)
+
+Enforce:
+
+Tier 0: 1 node  
+Tier 1: 2–3  
+Tier 2: 3–4  
+Tier 3: 4–5  
+Tier 4: 4–5  
+Tier 5: 3–4  
+Tier 6: 3–4  
+Tier 7: 2–3  
+Tier 8: 1–2  
+Tier 9: 1–2 (capstones)
+
+----------------------------------------
+
+8) CONNECTIONS
+
+- support multiple parents
+- support multiple children
+
+Node unlock requires:
+- ALL prerequisites met
+- tier unlocked
+
+----------------------------------------
+
+9) VISUAL STATES
+
+Locked:
+- grayscale
+- opacity 0.3
+
+Available:
+- subtle glow
+
+Active:
+- gold glow
+- show points
+
+Choice node:
+- split visual
+- highlight selected branch
+
+----------------------------------------
+
+10) TOOLTIPS
+
+Show:
+- name
+- description
+- points (X/Y)
+- “Requires X points in tree” if tier locked
+- “Requires [talents]” if prereq locked
+
+----------------------------------------
+
+11) POINT SYSTEM
+
+- max 61 points total
+- track per-tree separately
+
+----------------------------------------
+
+12) SIDEBAR RENDER
+
+Right side vertical:
+
+[ locked ] (10)
+[ locked ] (20)
+[ locked ] (30)
+[ locked ] (40)
+[ locked ] (50)
+
+Fill progressively as points increase
+
+----------------------------------------
+
+13) PERFORMANCE
+
+- memoize nodes
+- compute connections once
+- avoid full rerender on hover
+
+----------------------------------------
+
+GOAL:
+
+Match in-game behavior EXACTLY:
+- 10 tiers
+- 8-point mid gate
+- sidebar auto unlocks
+- correct node types
+- deep branching
+
+DO NOT SIMPLIFY.

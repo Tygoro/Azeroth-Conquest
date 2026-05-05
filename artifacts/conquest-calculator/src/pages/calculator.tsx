@@ -8,6 +8,7 @@ import {
 } from '@workspace/api-client-react';
 import { useTalentTree } from '@/hooks/use-talent-tree';
 import { TalentTree } from '@/components/talent-tree';
+import { SidebarTrack } from '@/components/sidebar-track';
 import { SpecSelectionScreen } from '@/components/spec-selection-screen';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -79,6 +80,7 @@ export default function Calculator() {
 
   const {
     totalPointsSpent,
+    treeSpent,
     leftSpent,
     rightSpent,
     maxPoints,
@@ -197,14 +199,28 @@ export default function Calculator() {
     );
   } else if (treeData) {
     mainContent = (
-      <TalentTree
-        tree={treeData}
-        getNodeState={getNodeState}
-        onNodeClick={addPoint}
-        onNodeContextMenu={removePoint}
-        leftSpent={leftSpent}
-        rightSpent={rightSpent}
-      />
+      <div className="flex h-full">
+        <div className="flex-1 min-w-0 overflow-auto">
+          <TalentTree
+            tree={treeData}
+            getNodeState={getNodeState}
+            onNodeClick={addPoint}
+            onNodeContextMenu={removePoint}
+            leftSpent={leftSpent}
+            rightSpent={rightSpent}
+          />
+        </div>
+        {treeData.sidebarTrack && treeData.sidebarTrack.length > 0 && (
+          <SidebarTrack
+            nodes={treeData.sidebarTrack}
+            color={classColor}
+            treeSpent={treeSpent}
+            getNodeState={getNodeState}
+            onNodeClick={addPoint}
+            onNodeContextMenu={removePoint}
+          />
+        )}
+      </div>
     );
   } else {
     mainContent = <TreeErrorState classId={selectedClassId} message="No tree data returned." />;

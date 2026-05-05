@@ -4,10 +4,7 @@ import { Lock } from 'lucide-react';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
 import { validateTree } from '@/data/classes/validate';
 import { getNodeIconUrl, CLASS_BG_GRADIENT } from '@/data/classes/icons';
-import { TIER_POINT_GATES, type NodeState } from '@/hooks/use-talent-tree';
-
-// Server-side y-positions of each tier (mirrors classes.ts)
-const TIER_Y_VALUES = [40, 110, 180, 250, 320, 390, 460, 540];
+import { TIER_POINT_GATES, TIER_Y_VALUES, type NodeState } from '@/hooks/use-talent-tree';
 
 interface DualTalentTreeProps {
   tree: TalentTreeType;
@@ -20,7 +17,7 @@ interface DualTalentTreeProps {
 }
 
 const CANVAS_W = 480;
-const CANVAS_H = 600;
+const CANVAS_H = 740;
 
 export function TalentTree({
   tree,

@@ -5,6 +5,7 @@
  * Conquest of Azeroth Talent Calculator API
  * OpenAPI spec version: 0.1.0
  */
+import type { SidebarNode } from "./sidebarNode";
 import type { TalentNode } from "./talentNode";
 
 export interface TalentTree {
@@ -18,4 +19,5 @@ export interface TalentTree {
   color: string;
   leftTree: TalentNode[];
   rightTree: TalentNode[];
+  sidebarTrack?: SidebarNode[];
 }

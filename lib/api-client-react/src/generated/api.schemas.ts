@@ -44,6 +44,16 @@ export interface TalentNode {
   type: TalentNodeType;
 }
 
+export interface SidebarNode {
+  id: string;
+  name: string;
+  description: string;
+  icon?: string;
+  maxPoints: number;
+  currentPoints: number;
+  unlockPointsRequired: number;
+}
+
 export interface TalentTree {
   class: string;
   classId: string;
@@ -55,6 +65,7 @@ export interface TalentTree {
   color: string;
   leftTree: TalentNode[];
   rightTree: TalentNode[];
+  sidebarTrack?: SidebarNode[];
 }
 
 export type SpecMetaRole = (typeof SpecMetaRole)[keyof typeof SpecMetaRole];

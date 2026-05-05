@@ -12,6 +12,7 @@ export * from "./errorResponse";
 export * from "./healthStatus";
 export * from "./saveBuildBody";
 export * from "./savedBuild";
+export * from "./sidebarNode";
 export * from "./specMeta";
 export * from "./specMetaAttribute";
 export * from "./specMetaComplexity";

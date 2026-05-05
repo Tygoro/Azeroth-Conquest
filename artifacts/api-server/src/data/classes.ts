@@ -1,14 +1,16 @@
-import type { TalentTree, ClassMeta, ClassDetail, SpecMeta, TalentNode } from "@workspace/api-zod";
+import type { TalentTree, ClassMeta, ClassDetail, SpecMeta, TalentNode, SidebarNode } from "@workspace/api-zod";
 
-// ─── 30-NODE DEEP TREE LAYOUT (8 TIERS, BRANCHY, DRAGONFLIGHT-STYLE) ────────
-// Tier 0 (y=40):  3 root nodes      cols 1, 2, 3
-// Tier 1 (y=110): 4 nodes           cols 0.5, 1.5, 2.5, 3.5
-// Tier 2 (y=180): 5 nodes (wide)    cols 0, 1, 2, 3, 4         — gate: 3pt
-// Tier 3 (y=250): 5 nodes (cluster) cols 0, 1, 2, 3, 4         — gate: 8pt
-// Tier 4 (y=320): 5 nodes (cluster) cols 0, 1, 2, 3, 4         — gate: 14pt  ← densest middle
-// Tier 5 (y=390): 4 nodes           cols 0.5, 1.5, 2.5, 3.5    — gate: 20pt
-// Tier 6 (y=460): 3 nodes           cols 1, 2, 3               — gate: 28pt
-// Tier 7 (y=540): 1 capstone        col 2                      — gate: 35pt
+// ─── 40-NODE DEEP TREE LAYOUT (10 TIERS, BRANCHY, DRAGONFLIGHT-STYLE) ───────
+// Tier 0 (y=40):  3 root nodes      cols 1, 2, 3                — gate:  0pt
+// Tier 1 (y=110): 4 nodes           cols 0.5, 1.5, 2.5, 3.5     — gate:  0pt
+// Tier 2 (y=180): 5 nodes (wide)    cols 0, 1, 2, 3, 4          — gate:  8pt
+// Tier 3 (y=250): 5 nodes (cluster) cols 0, 1, 2, 3, 4          — gate:  8pt
+// Tier 4 (y=320): 5 nodes (cluster) cols 0, 1, 2, 3, 4          — gate: 20pt   ← dense middle
+// Tier 5 (y=390): 5 nodes (cluster) cols 0, 1, 2, 3, 4          — gate: 20pt   ← dense middle
+// Tier 6 (y=460): 5 nodes           cols 0, 1, 2, 3, 4          — gate: 30pt
+// Tier 7 (y=530): 4 nodes           cols 0.5, 1.5, 2.5, 3.5     — gate: 30pt
+// Tier 8 (y=600): 3 nodes           cols 1, 2, 3                — gate: 40pt
+// Tier 9 (y=670): 1 capstone        col 2                       — gate: 50pt
 // Tighter spacing (78px col / explicit row Y) for denser feel.
 const COL_X = (col: number): number => 48 + col * 78;
 const POS = (col: number, y: number) => ({ x: COL_X(col), y });
@@ -24,27 +26,33 @@ const NODE_POSITIONS = [
   POS(0, 250),  POS(1, 250),  POS(2, 250),  POS(3, 250),  POS(4, 250),
   // Tier 4 — 5 nodes (cluster, choice tier)
   POS(0, 320),  POS(1, 320),  POS(2, 320),  POS(3, 320),  POS(4, 320),
-  // Tier 5 — 4 nodes
-  POS(0.5, 390), POS(1.5, 390), POS(2.5, 390), POS(3.5, 390),
-  // Tier 6 — 3 nodes
-  POS(1, 460),  POS(2, 460),  POS(3, 460),
-  // Tier 7 — capstone
-  POS(2, 540),
+  // Tier 5 — 5 nodes (cluster)
+  POS(0, 390),  POS(1, 390),  POS(2, 390),  POS(3, 390),  POS(4, 390),
+  // Tier 6 — 5 nodes
+  POS(0, 460),  POS(1, 460),  POS(2, 460),  POS(3, 460),  POS(4, 460),
+  // Tier 7 — 4 nodes
+  POS(0.5, 530), POS(1.5, 530), POS(2.5, 530), POS(3.5, 530),
+  // Tier 8 — 3 nodes
+  POS(1, 600),  POS(2, 600),  POS(3, 600),
+  // Tier 9 — capstone
+  POS(2, 670),
 ] as const;
 
-// Prereq DAG. Each node has 1–3 prereqs from the tier above. Multi-prereq
-// nodes are satisfied by ANY prereq being maxed (OR logic — Dragonflight
-// branching). Mid-tree clusters (T3, T4) feature 3-prereq nodes for the
-// dense branching/reconnect feel.
+// Prereq DAG. Multi-prereq nodes are satisfied by ANY prereq being maxed
+// (OR logic — Dragonflight branching). Mid-tree clusters (T3–T6) feature
+// 3-prereq nodes for the dense branching/reconnect feel, with span-edges
+// across the row for additional reconnection paths.
 const NODE_PREREQS: number[][] = [
-  [], [], [],                                                    // T0  (0,1,2)
-  [0],     [0, 1],     [1, 2],     [2],                          // T1  (3,4,5,6)
-  [3],     [3, 4],     [4, 5],     [5, 6],     [6],              // T2  (7,8,9,10,11)
-  [7, 8],  [7, 8, 9],  [8, 9, 10], [9, 10, 11], [10, 11],        // T3  (12,13,14,15,16)
-  [12],    [12, 13, 14], [13, 14, 15], [14, 15, 16], [16],       // T4  (17,18,19,20,21)
-  [17, 18], [18, 19],  [19, 20],   [20, 21],                     // T5  (22,23,24,25)
-  [22, 23], [23, 24],  [24, 25],                                 // T6  (26,27,28)
-  [26, 27, 28],                                                  // T7 capstone (29) — needs ANY of the 3
+  [], [], [],                                                       // T0  (0,1,2)
+  [0],     [0, 1],     [1, 2],     [2],                             // T1  (3,4,5,6)
+  [3],     [3, 4],     [4, 5],     [5, 6],     [6],                 // T2  (7,8,9,10,11)
+  [7, 8],  [7, 8, 9],  [8, 9, 10], [9, 10, 11], [10, 11],           // T3  (12,13,14,15,16)
+  [12],    [12, 13, 14], [13, 14, 15], [14, 15, 16], [16],          // T4  (17,18,19,20,21)
+  [17, 18], [18, 19],  [19, 20],   [20, 21],   [17, 21],            // T5  (22,23,24,25,26) ← span reconnect
+  [22, 23], [23, 24, 25], [24, 25, 26], [25, 26], [22, 26],         // T6  (27,28,29,30,31) ← span reconnect
+  [27, 28], [28, 29],  [29, 30],   [30, 31],                        // T7  (32,33,34,35)
+  [32, 33], [33, 34],  [34, 35],                                    // T8  (36,37,38)
+  [36, 37, 38],                                                     // T9 capstone (39) — needs ANY of the 3
 ];
 
 // Visual node type per index — varied so each tier feels different
@@ -55,15 +63,19 @@ const NODE_TYPES: Array<TalentNode["type"]> = [
   "passive", "active",  "active",  "passive",
   // T2
   "passive", "active",  "active",  "active",  "passive",
-  // T3 — cluster, lots of mixing
+  // T3 — cluster
   "active",  "passive", "choice",  "passive", "active",
   // T4 — choice/active heavy
   "choice",  "active",  "choice",  "active",  "choice",
-  // T5
-  "passive", "active",  "active",  "passive",
-  // T6
-  "active",  "active",  "active",
+  // T5 — branchy mid
+  "passive", "active",  "active",  "passive", "active",
+  // T6 — choice + active mix
+  "active",  "choice",  "passive", "choice",  "active",
   // T7
+  "passive", "active",  "active",  "passive",
+  // T8
+  "active",  "active",  "active",
+  // T9
   "capstone",
 ];
 
@@ -80,12 +92,18 @@ const NODE_MAX_POINTS: number[] = [
   // T4 (choices = 1pt)
   1, 2, 1, 2, 1,
   // T5
-  2, 2, 2, 2,
-  // T6
-  2, 2, 2,
+  2, 2, 2, 2, 2,
+  // T6 (choices = 1pt)
+  2, 1, 2, 1, 2,
   // T7
+  2, 2, 2, 2,
+  // T8
+  2, 2, 2,
+  // T9
   1,
 ];
+
+const NODE_COUNT = 40;
 
 type NodeDef = Omit<TalentNode, "currentPoints">;
 
@@ -98,8 +116,8 @@ function nodes(defs: NodeDef[]): TalentNode[] {
 type TalentDef = { name: string; description: string };
 
 function buildDeepTree(prefix: string, talents: TalentDef[]): TalentNode[] {
-  if (talents.length !== 30) {
-    throw new Error(`buildDeepTree: expected 30 talents for prefix "${prefix}", got ${talents.length}`);
+  if (talents.length !== NODE_COUNT) {
+    throw new Error(`buildDeepTree: expected ${NODE_COUNT} talents for prefix "${prefix}", got ${talents.length}`);
   }
   return nodes(
     talents.map((t, i) => ({
@@ -112,6 +130,42 @@ function buildDeepTree(prefix: string, talents: TalentDef[]): TalentNode[] {
       type: NODE_TYPES[i],
     })),
   );
+}
+
+// ─── SIDEBAR PROGRESSION TRACK ──────────────────────────────────────────────
+// 5 cumulative passive bonuses unlocked as TOTAL points are spent across
+// both trees. Each costs 1 point (max 1) from the same 61-point budget.
+const SIDEBAR_UNLOCK_THRESHOLDS = [8, 16, 24, 35, 48];
+
+function buildSidebarTrack(specId: string, theme: SpecTheme): SidebarNode[] {
+  // 5 generic ascending bonuses themed off the spec's damage type
+  const tier = (n: number) => ["I", "II", "III", "IV", "V"][n] ?? `${n + 1}`;
+  const dmg = theme.damageType;
+  const verbs = theme.verb;
+  const nouns = theme.noun;
+  const baseNames = [
+    `${dmg} Attunement`,
+    `${dmg} Conduit`,
+    `${nouns[0] ?? "Power"} Resonance`,
+    `${verbs[0] ?? "Strike"} Mastery`,
+    `Avatar of ${theme.capstoneName.split(" ").pop()}`,
+  ];
+  const baseDescs = [
+    `Increases your ${dmg} damage and healing by 3%.`,
+    `Reduces the cooldown of your signature abilities by 10%.`,
+    `Critical hits restore 1% of your maximum mana or resource.`,
+    `Your ${verbs[0]?.toLowerCase() ?? "abilities"} have a 15% chance to trigger an additional effect.`,
+    `Unleash your inner power: gain 10% haste and 10% versatility while above 50% health.`,
+  ];
+
+  return SIDEBAR_UNLOCK_THRESHOLDS.map((threshold, i) => ({
+    id: `${specId}_sb_${i + 1}`,
+    name: `${baseNames[i]} ${tier(i)}`,
+    description: baseDescs[i],
+    maxPoints: 1,
+    currentPoints: 0,
+    unlockPointsRequired: threshold,
+  }));
 }
 
 // ─── CLASS METAS ────────────────────────────────────────────────────────────
@@ -153,9 +207,9 @@ type SpecTheme = {
 
 function genTalent(theme: SpecTheme, idx: number, isLeft: boolean): TalentDef {
   // Slot 0,1,2 = roots (use signature names — first 3 for left, second 3 for right)
-  // Slot 29 = capstone
+  // Slot 39 = capstone
   // Others = procedural
-  if (idx === 29) {
+  if (idx === NODE_COUNT - 1) {
     return { name: theme.capstoneName, description: theme.capstoneDesc };
   }
   if (idx < 3 && theme.signature.length >= 3) {
@@ -203,8 +257,8 @@ function buildSpecTreeFromTheme(
   leftTheme: SpecTheme,
   rightTheme: SpecTheme,
 ): TalentTree {
-  const leftTalents: TalentDef[] = Array.from({ length: 30 }, (_, i) => genTalent(leftTheme, i, true));
-  const rightTalents: TalentDef[] = Array.from({ length: 30 }, (_, i) => genTalent(rightTheme, i, false));
+  const leftTalents: TalentDef[] = Array.from({ length: NODE_COUNT }, (_, i) => genTalent(leftTheme, i, true));
+  const rightTalents: TalentDef[] = Array.from({ length: NODE_COUNT }, (_, i) => genTalent(rightTheme, i, false));
 
   return {
     class: className,
@@ -217,6 +271,7 @@ function buildSpecTreeFromTheme(
     color,
     leftTree: buildDeepTree(`${classId}_${specId}_l`, leftTalents),
     rightTree: buildDeepTree(`${classId}_${specId}_r`, rightTalents),
+    sidebarTrack: buildSidebarTrack(`${classId}_${specId}`, rightTheme),
   };
 }
 

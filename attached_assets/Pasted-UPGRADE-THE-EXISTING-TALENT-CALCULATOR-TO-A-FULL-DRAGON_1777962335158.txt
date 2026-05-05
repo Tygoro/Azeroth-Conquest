@@ -1,0 +1,258 @@
+UPGRADE THE EXISTING TALENT CALCULATOR TO A FULL DRAGONFLIGHT-STYLE SYSTEM
+
+Do NOT rebuild from scratch. Refactor the current app to support:
+- 10-tier trees
+- tier gating by points spent
+- dense branching (multiple parents/children)
+- a separate right sidebar progression track
+
+TECH:
+- React + Vite + Tailwind (keep existing)
+- No backend
+- Keep current components where possible; extend them
+
+========================================
+DATA MODEL (extend current JSON)
+========================================
+
+Each node must support:
+
+{
+  id: string | number,
+  name: string,
+  icon: string,
+  description?: string,
+  maxPoints: number,           // support 1–3+
+  points: number,              // current points
+  tier: number,                // 0–9 (10 tiers total)
+  column: number,              // horizontal slot within tier
+  prerequisites: string[],     // ids
+  type: "active" | "passive" | "capstone",
+  tree: "left" | "right"       // main trees
+}
+
+Add a SECOND dataset for sidebar:
+
+{
+  id: string,
+  name: string,
+  icon: string,
+  description?: string,
+  maxPoints: number,
+  points: number,
+  unlockPointsRequired: number // based on total spent in that tree
+}
+
+========================================
+GLOBAL STATE
+========================================
+
+Track:
+- totalPointsSpentPerTree: { left: number, right: number }
+- totalPointsSpentOverall
+- selectedSpec
+- selectedNodes map by id
+
+========================================
+TIER SYSTEM (CRITICAL)
+========================================
+
+Implement 10 tiers (0–9).
+
+Define unlock thresholds:
+
+const TIER_UNLOCKS = {
+  0: 0,
+  1: 0,
+  2: 8,
+  3: 8,
+  4: 20,
+  5: 20,
+  6: 30,
+  7: 30,
+  8: 40,
+  9: 50
+};
+
+Rules:
+- A node is AVAILABLE only if:
+  1) all prerequisites are satisfied
+  2) totalPointsSpentInTree >= TIER_UNLOCKS[node.tier]
+
+- Otherwise node is LOCKED
+
+========================================
+NODE INTERACTION
+========================================
+
+Left click:
+- if AVAILABLE → increment points (up to maxPoints)
+
+Right click:
+- decrement points
+
+On increment/decrement:
+- update totalPointsSpentPerTree
+- re-evaluate availability for all nodes
+
+========================================
+LAYOUT ENGINE (REPLACE GRID)
+========================================
+
+Do NOT use CSS grid.
+
+Use absolute positioning based on tier + column.
+
+Define:
+
+const TIER_Y_SPACING = 110;
+const COLUMN_X_SPACING = 120;
+
+Position:
+
+x = centerOffset + (column * COLUMN_X_SPACING)
+y = tier * TIER_Y_SPACING
+
+Allow:
+- uneven column distribution per tier
+- asymmetric layouts
+- dense middle tiers (3–5 nodes)
+
+Create layout config:
+
+const layout = {
+  left: [
+    { id, tier, column },
+    ...
+  ],
+  right: [...]
+};
+
+========================================
+DENSE BRANCHING (IMPORTANT)
+========================================
+
+Support:
+- 1 → many children
+- many → 1 child
+
+Do NOT assume tree shape is vertical.
+
+========================================
+CONNECTIONS (SVG)
+========================================
+
+Render SVG lines between:
+- each node and its prerequisites
+
+Line states:
+- inactive: gray, low opacity
+- active: gold, glow effect
+
+Support:
+- vertical lines
+- diagonal lines
+
+========================================
+NODE VISUAL STATES
+========================================
+
+Locked:
+- grayscale
+- low opacity
+
+Available:
+- subtle glow border
+
+Active:
+- gold glow
+- show points (e.g. 2/3)
+
+Capstone:
+- larger size
+
+========================================
+RIGHT SIDEBAR TRACK
+========================================
+
+Add vertical sidebar on right side:
+
+- 5 nodes stacked vertically
+- separate from main tree
+
+Unlock rule:
+node.unlockPointsRequired <= totalPointsSpentInTree
+
+Render:
+- vertical progress bar behind nodes
+- nodes unlock progressively
+
+========================================
+UI STRUCTURE
+========================================
+
+Keep / update components:
+
+- TalentTree.jsx
+- TalentNode.jsx
+- ConnectionLines.jsx (NEW)
+- SidebarTrack.jsx (NEW)
+- Tooltip.jsx
+
+========================================
+TOOLTIPS
+========================================
+
+On hover show:
+- name
+- description
+- points (X/Y)
+- “Requires X points in tree” if locked by tier
+- “Requires [talents]” if prereq locked
+
+Style:
+- WoW-style dark panel
+- gold title
+- red requirement text
+
+========================================
+POINT COUNTER
+========================================
+
+Top right:
+- "X / 61 pts"
+
+========================================
+PERFORMANCE
+========================================
+
+- memoize node rendering
+- avoid re-rendering entire tree on hover
+- store connections in a computed map
+
+========================================
+GOAL
+========================================
+
+The final UI must:
+- feel dense and deep (10 tiers)
+- match in-game branching complexity
+- support real progression gating
+- visually resemble WoW talent trees
+
+Do NOT simplify layout or logic.
+
+========================================
+BONUS (if time)
+========================================
+
+- animate node activation
+- smooth line glow transitions
+- zoom/pan support
+
+OUTPUT:
+Refactored working app with:
+- tier gating
+- sidebar system
+- dense branching
+- correct interaction model

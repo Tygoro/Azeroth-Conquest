@@ -217,6 +217,31 @@ components:
         - position
         - type
 
+    SidebarNode:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        icon:
+          type: string
+        maxPoints:
+          type: integer
+        currentPoints:
+          type: integer
+        unlockPointsRequired:
+          type: integer
+      required:
+        - id
+        - name
+        - description
+        - maxPoints
+        - currentPoints
+        - unlockPointsRequired
+
     TalentTree:
       type: object
       properties:
@@ -244,6 +269,10 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/TalentNode"
+        sidebarTrack:
+          type: array
+          items:
+            $ref: "#/components/schemas/SidebarNode"
       required:
         - class
         - classId

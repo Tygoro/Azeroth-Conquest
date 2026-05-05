@@ -107,6 +107,19 @@ export const GetSpecTreeResponse = zod.object({
       type: zod.enum(["passive", "active", "choice", "capstone"]),
     }),
   ),
+  sidebarTrack: zod
+    .array(
+      zod.object({
+        id: zod.string(),
+        name: zod.string(),
+        description: zod.string(),
+        icon: zod.string().optional(),
+        maxPoints: zod.number(),
+        currentPoints: zod.number(),
+        unlockPointsRequired: zod.number(),
+      }),
+    )
+    .optional(),
 });
 
 /**
