@@ -117,11 +117,23 @@ export default function Calculator() {
       setLevel(decodedLevel);
 
       // Sanitize points: positive finite numbers under per-entry cap.
+      // Migrate legacy left-side IDs (`${classId}_${specId}_l_${i}`) to the
+      // new class-stable form (`${classId}_class_l_${i}`). The regex escapes
+      // classId (defensive against future IDs with regex metacharacters) and
+      // uses `[^_]+` for the spec token so digits/hyphens/etc. also match.
+      // It is also idempotent on already-migrated `${classId}_class_l_${i}`.
       const safe: Record<string, number> = {};
+      const decodedClassId = typeof decoded?.classId === 'string' ? decoded.classId : '';
+      const escapedClassId = decodedClassId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const legacyLeft = decodedClassId
+        ? new RegExp(`^${escapedClassId}_[^_]+_l_(\\d+)$`)
+        : null;
       if (decoded?.points && typeof decoded.points === 'object') {
         for (const [k, v] of Object.entries(decoded.points)) {
           if (typeof k === 'string' && typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 99) {
-            safe[k] = Math.floor(v);
+            const m = legacyLeft?.exec(k);
+            const key = m ? `${decodedClassId}_class_l_${m[1]}` : k;
+            safe[key] = Math.floor(v);
           }
         }
       }
@@ -152,10 +164,31 @@ export default function Calculator() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [urlData]);
 
+  /**
+   * Predicate: a node ID belongs to the LEFT (class) tree, which is invariant
+   * per class. These IDs use the literal `_class_l_` segment (vs. the
+   * spec-scoped `_<specId>_r_` for right-side nodes).
+   */
+  const isClassNodeId = (classId: string, nodeId: string): boolean =>
+    nodeId.startsWith(`${classId}_class_l_`);
+
+  /** Keep only class-side allocations; drop spec-side allocations. */
+  const filterToClassOnly = <T,>(
+    map: Record<string, T>,
+    classId: string,
+  ): Record<string, T> => {
+    const next: Record<string, T> = {};
+    for (const [k, v] of Object.entries(map)) {
+      if (isClassNodeId(classId, k)) next[k] = v;
+    }
+    return next;
+  };
+
   const handleClassChange = (val: string) => {
     if (!VALID_CLASS_IDS.has(val)) return;
     setSelectedClassId(val);
     setSelectedSpecId(null);
+    // Class change resets EVERYTHING (different class tree).
     setPoints({});
     setChoices({});
     setLevel(DEFAULT_LEVEL);
@@ -163,16 +196,20 @@ export default function Calculator() {
 
   const handleSpecSelect = (specId: string) => {
     setSelectedSpecId(specId);
-    setPoints({});
-    setChoices({});
-    setLevel(DEFAULT_LEVEL);
+    // Spec change preserves class-side allocations; only spec-side state resets.
+    if (selectedClassId) {
+      setPoints(prev => filterToClassOnly(prev, selectedClassId));
+      setChoices(prev => filterToClassOnly(prev, selectedClassId));
+    }
   };
 
   const handleBackToSpecs = () => {
     setSelectedSpecId(null);
-    setPoints({});
-    setChoices({});
-    setLevel(DEFAULT_LEVEL);
+    // Returning to spec picker also clears spec-side state but keeps class points.
+    if (selectedClassId) {
+      setPoints(prev => filterToClassOnly(prev, selectedClassId));
+      setChoices(prev => filterToClassOnly(prev, selectedClassId));
+    }
   };
 
   /** Block level decrease that would invalidate the current build. */

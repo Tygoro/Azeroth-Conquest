@@ -23,8 +23,17 @@ Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style tal
 ### Class → Spec → Tree flow
 - `GET /api/classes` returns 21 class metas
 - `GET /api/classes/:classId` returns `ClassDetail` with `specs[]` (3–4 SpecMeta per class)
-- `GET /api/classes/:classId/specs/:specId` returns the actual `TalentTree` with 40 left + 40 right nodes plus a 5-node `sidebarTrack`
+- `GET /api/classes/:classId/specs/:specId` returns the actual `TalentTree` with a class-invariant `leftTree` plus a spec-specific `rightTree` and `sidebarTrack`
 - Build serialization (URL `?data=` and Import/Export) round-trips both `classId` and `specId`
+
+### Class-invariant LEFT tree
+The LEFT (class) tree is **byte-identical** across every spec of a given class. This is enforced server-side: a single canonical class-side config (from the class's first spec) is used to build the left tree, the result is cached + deep-frozen per `classId`, and node IDs use the literal `class` token (`${classId}_class_l_${idx}`) instead of the spec id. The right tree keeps spec-scoped IDs (`${classId}_${specId}_r_${idx}`).
+
+Client-side this means:
+- **Spec change** purges only allocations whose IDs do NOT start with `${classId}_class_l_` — class-side points and choices persist into the new spec.
+- **Class change** still resets everything (different class tree).
+- **Legacy URL builds** (which used `${classId}_${specId}_l_${idx}` for left nodes) are auto-migrated to the new IDs at load time so older shared links continue to work.
+- The hook deep-freezes `leftTree`/`rightTree`/`sidebarTrack` in dev mode as a defense-in-depth guard against accidental mutation.
 
 ### Tree layout
 10-tier Dragonflight-style layout per side. The default row pattern is `[1,3,4,5,5,4,4,3,2,2]` = 33 nodes. **Per-spec overrides** live in `artifacts/api-server/src/data/tree-rows.ts` via the `TREE_ROWS` map (e.g. `suncleric_valkyrie_l: [3,2,3,3,4,5,5,4,3,3]`, `suncleric_valkyrie_r: [1,1,2,4,3,7,5,4,3,3]`) — both sides must always have exactly 10 rows. `generateLayout(rows)` builds positions, types, max-points and a nearest-neighbor prereq DAG; the default rows return a frozen layout that exactly matches the original hand-tuned data so existing serialized URLs keep working. Node IDs are stable (`${prefix}_${idx+1}`).

@@ -87,6 +87,24 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
   const sidebarNodes = useMemo(() => treeData?.sidebarTrack ?? [], [treeData]);
   const allNodes = useMemo(() => [...leftNodes, ...rightNodes], [leftNodes, rightNodes]);
 
+  // Dev guard: deep-freeze tree arrays + nodes to catch accidental mutation.
+  // Server already freezes the class (left) tree; this freezes the spec side
+  // and the combined response wrapper as a defense-in-depth measure.
+  if (import.meta.env.DEV && treeData) {
+    if (!Object.isFrozen(leftNodes)) {
+      Object.freeze(leftNodes);
+      for (const n of leftNodes) Object.freeze(n);
+    }
+    if (!Object.isFrozen(rightNodes)) {
+      Object.freeze(rightNodes);
+      for (const n of rightNodes) Object.freeze(n);
+    }
+    if (!Object.isFrozen(sidebarNodes)) {
+      Object.freeze(sidebarNodes);
+      for (const n of sidebarNodes) Object.freeze(n);
+    }
+  }
+
   const nodeSide = useMemo(() => {
     const m = new Map<string, 'left' | 'right'>();
     for (const n of leftNodes) m.set(n.id, 'left');
@@ -296,12 +314,25 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
       try {
         const decoded = JSON.parse(atob(encoded));
 
-        // Sanitize points first (per-entry caps)
+        // Sanitize points first (per-entry caps).
+        // Also migrate legacy left-side IDs (`${classId}_${specId}_l_${i}`)
+        // to the new class-stable form (`${classId}_class_l_${i}`) so older
+        // shared builds still resolve onto the invariant class tree. The
+        // regex escapes classId (defensive against future IDs with regex
+        // metacharacters) and uses `[^_]+` for the spec token so any spec id
+        // (digits/hyphens/etc.) matches. Idempotent on already-migrated keys.
         const safePoints: BuildState = {};
+        const decodedClassId = typeof decoded?.classId === 'string' ? decoded.classId : '';
+        const escapedClassId = decodedClassId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const legacyLeft = decodedClassId
+          ? new RegExp(`^${escapedClassId}_[^_]+_l_(\\d+)$`)
+          : null;
         if (decoded?.points && typeof decoded.points === 'object') {
           for (const [k, v] of Object.entries(decoded.points)) {
             if (typeof k === 'string' && typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 99) {
-              safePoints[k] = Math.floor(v);
+              const m = legacyLeft?.exec(k);
+              const key = m ? `${decodedClassId}_class_l_${m[1]}` : k;
+              safePoints[key] = Math.floor(v);
             }
           }
         }

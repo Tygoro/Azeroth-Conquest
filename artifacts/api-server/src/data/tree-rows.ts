@@ -42,6 +42,18 @@ export function getRowsFor(
   );
 }
 
+/**
+ * Resolve the row layout for a CLASS-side tree (left side). Skips the
+ * spec-level overrides on purpose so the layout is invariant across all specs
+ * of the same class. Resolution order:
+ *   1. `${classId}_l`
+ *   2. `${classId}`
+ *   3. DEFAULT_ROWS
+ */
+export function getClassRowsFor(classId: string): ReadonlyArray<number> {
+  return TREE_ROWS[`${classId}_l`] ?? TREE_ROWS[classId] ?? DEFAULT_ROWS;
+}
+
 // ─── LAYOUT GENERATOR ───────────────────────────────────────────────────────
 // Produces deterministic positions / prereq DAG / node types / max-points for
 // any row pattern. The renderer also derives flex layout from rows, but the

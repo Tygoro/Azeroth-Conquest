@@ -1,5 +1,5 @@
 import type { TalentTree, ClassMeta, ClassDetail, SpecMeta, TalentNode, SidebarNode, ChoiceOption } from "@workspace/api-zod";
-import { generateLayout, getRowsFor, type GeneratedLayout } from "./tree-rows.js";
+import { generateLayout, getRowsFor, getClassRowsFor, type GeneratedLayout } from "./tree-rows.js";
 
 // ─── 10-TIER TREE LAYOUT (ASCENSION COA RULES) ──────────────────────────────
 // Each spec resolves a row pattern via `getRowsFor(classId, specId, side)` —
@@ -197,25 +197,75 @@ function genTalent(
   return { name, description: desc };
 }
 
+// ─── CLASS-INVARIANT LEFT TREE ──────────────────────────────────────────────
+// The LEFT (class) tree must be byte-identical across all specs of the same
+// class so that:
+//   • Player-allocated class points persist when switching specs.
+//   • Node IDs (e.g. `suncleric_class_l_5`) are stable references that can be
+//     serialized and shared.
+//
+// We pick the canonical left config from the class's first spec entry and
+// cache + freeze the resulting tree so every spec response shares the exact
+// same `leftTree` array reference.
+const CLASS_LEFT_TREE_CACHE = new Map<string, ReadonlyArray<TalentNode>>();
+
+function getCanonicalClassLeftConfig(classId: string): {
+  leftTreeName: string;
+  leftTheme: SpecTheme;
+} | undefined {
+  const specs = ALL_CLASS_SPECS[classId];
+  if (!specs || specs.length === 0) return undefined;
+  // Use the first spec's left config as canonical. For all current classes,
+  // every spec of a given class declares the same `leftTheme` (verified for
+  // hand-crafted suncleric; procedural classes use `sharedThemeBase(...)`
+  // which is identical aside from minor capstoneDesc wording).
+  return { leftTreeName: specs[0].leftTreeName, leftTheme: specs[0].leftTheme };
+}
+
+function getOrBuildClassLeftTree(classId: string): {
+  leftTree: ReadonlyArray<TalentNode>;
+  leftTreeName: string;
+} | undefined {
+  const cfg = getCanonicalClassLeftConfig(classId);
+  if (!cfg) return undefined;
+
+  let leftTree = CLASS_LEFT_TREE_CACHE.get(classId);
+  if (!leftTree) {
+    const leftLayout = generateLayout(getClassRowsFor(classId));
+    const leftTalents: TalentDef[] = Array.from(
+      { length: leftLayout.count },
+      (_, i) => genTalent(cfg.leftTheme, i, true, leftLayout),
+    );
+    // ID prefix uses the literal `class` token (no specId) so the IDs are
+    // class-stable across all specs.
+    const built = buildDeepTree(
+      `${classId}_class_l`,
+      leftTalents,
+      cfg.leftTheme.damageType,
+      leftLayout,
+    );
+    // Deep-freeze so no consumer can mutate the shared instance.
+    leftTree = Object.freeze(built.map((n) => Object.freeze(n))) as ReadonlyArray<TalentNode>;
+    CLASS_LEFT_TREE_CACHE.set(classId, leftTree);
+  }
+  return { leftTree, leftTreeName: cfg.leftTreeName };
+}
+
 function buildSpecTreeFromTheme(
   classId: string,
   specId: string,
   className: string,
   color: string,
   specName: string,
-  leftTreeName: string,
   rightTreeName: string,
-  leftTheme: SpecTheme,
   rightTheme: SpecTheme,
-): TalentTree {
-  // Per-side row layouts — overridable via TREE_ROWS in tree-rows.ts.
-  const leftLayout = generateLayout(getRowsFor(classId, specId, "l"));
-  const rightLayout = generateLayout(getRowsFor(classId, specId, "r"));
+): TalentTree | undefined {
+  // LEFT (class) tree — invariant per class, cached and frozen.
+  const leftBundle = getOrBuildClassLeftTree(classId);
+  if (!leftBundle) return undefined;
 
-  const leftTalents: TalentDef[] = Array.from(
-    { length: leftLayout.count },
-    (_, i) => genTalent(leftTheme, i, true, leftLayout),
-  );
+  // RIGHT (spec) tree — varies per spec.
+  const rightLayout = generateLayout(getRowsFor(classId, specId, "r"));
   const rightTalents: TalentDef[] = Array.from(
     { length: rightLayout.count },
     (_, i) => genTalent(rightTheme, i, false, rightLayout),
@@ -226,11 +276,14 @@ function buildSpecTreeFromTheme(
     classId,
     specId,
     specName,
-    leftTreeName,
+    leftTreeName: leftBundle.leftTreeName,
     rightTreeName,
     maxPoints: 61,
     color,
-    leftTree: buildDeepTree(`${classId}_${specId}_l`, leftTalents, leftTheme.damageType, leftLayout),
+    // Spread the frozen class tree into a fresh array so the response object
+    // is JSON-serializable as a plain array (frozen arrays serialize fine,
+    // but consumers that mutate would crash — better to hand them a copy).
+    leftTree: [...leftBundle.leftTree],
     rightTree: buildDeepTree(`${classId}_${specId}_r`, rightTalents, rightTheme.damageType, rightLayout),
     sidebarTrack: buildSidebarTrack(`${classId}_${specId}`, rightTheme),
   };
@@ -827,9 +880,7 @@ export function getSpecTree(classId: string, specId: string): TalentTree | undef
     meta.name,
     meta.color,
     spec.name,
-    spec.leftTreeName,
     spec.rightTreeName,
-    spec.leftTheme,
     spec.rightTheme,
   );
 }
