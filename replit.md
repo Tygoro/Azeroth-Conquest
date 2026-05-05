@@ -4,7 +4,7 @@
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
 
-Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style talent calculator for the Ascension WoW custom server's 21 CoA classes.
+Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style talent calculator for the Ascension WoW custom server's 21 CoA classes (Sun Cleric, Necromancer, Pyromancer, Cultist, Starcaller, Tinker, Runemaster, Primalist, Reaper, Venomancer, Chronomancer, Bloodmage, Guardian, Stormbringer, Felsworn, Barbarian, Witch Doctor, Witch Hunter, Knight of Xoroth, Ranger, Templar).
 
 ## Stack
 
@@ -79,9 +79,10 @@ A right-rail vertical progression track with 5 nodes that **auto-unlock** as **t
 All prereqs use **AND** logic — every listed prereq must have at least 1 point allocated for the dependent to unlock. Refunding a point is blocked when removing it would orphan any direct dependent that still has points, or when it would drop a higher tier below its gate.
 
 ### Spec data
-- **Sun Cleric** has 4 hand-crafted specs (Piety / Valkyrie / Seraphim / Blessings) matching the in-game UI
-- All other classes have 3 procedurally generated specs (Path of Wrath / Bulwark / Mastery) with class-themed talent names driven by `CLASS_FLAVORS` (damage type, signature spells, capstone names per class)
-- Talent names are produced from spec themes (signature names at the top, capstone at the bottom, procedural in between)
+- A single uniform metadata table (`CLASS_FLAVORS` in `artifacts/api-server/src/data/classes.ts`) defines each class's left-tree theme and the full per-spec list (id, name, role, attribute, complexity, description, capstone, theme tokens) — modeled after the in-game CoA "Combat Style" data.
+- All 21 classes (Sun Cleric, Necromancer, Pyromancer, Cultist, Starcaller, Tinker, Runemaster, Primalist, Reaper, Venomancer, Chronomancer, Bloodmage, Guardian, Stormbringer, Felsworn, Barbarian, Witch Doctor, Witch Hunter, Knight of Xoroth, Ranger, Templar) flow through the same `autoBuildSpecsForClass` pipeline — no class-specific special-casing.
+- Spec counts vary by class (3 or 4 specs) just like the in-game UI; `SpecSelectionScreen` renders the API response dynamically with a 3- or 4-column grid and an empty-state fallback when a class has no specs.
+- Talent names are produced from spec themes (signature names at the top, capstone at the bottom, procedural in between).
 
 ### Frontend
 - `artifacts/conquest-calculator` (React + Vite)

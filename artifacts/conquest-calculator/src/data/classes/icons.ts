@@ -6,27 +6,27 @@ const ZAMIMG = 'https://wow.zamimg.com/images/wow/icons/large';
 // ── Class background gradients ────────────────────────────────────────────────
 // Each value is a CSS background string applied behind the talent trees.
 export const CLASS_BG_GRADIENT: Record<string, string> = {
+  suncleric:        'radial-gradient(ellipse 90% 70% at 50% 0%, #1f1700 0%, #090700 100%)',
   necromancer:      'radial-gradient(ellipse 90% 70% at 50% 0%, #071f13 0%, #020a07 100%)',
   pyromancer:       'radial-gradient(ellipse 90% 70% at 50% 0%, #1f0700 0%, #090200 100%)',
   cultist:          'radial-gradient(ellipse 90% 70% at 50% 0%, #120720 0%, #060309 100%)',
   starcaller:       'radial-gradient(ellipse 90% 70% at 50% 0%, #060e2a 0%, #020408 100%)',
-  suncleric:        'radial-gradient(ellipse 90% 70% at 50% 0%, #1f1700 0%, #090700 100%)',
   tinker:           'radial-gradient(ellipse 90% 70% at 50% 0%, #1a1200 0%, #070500 100%)',
   runemaster:       'radial-gradient(ellipse 90% 70% at 50% 0%, #1f0005 0%, #090002 100%)',
   primalist:        'radial-gradient(ellipse 90% 70% at 50% 0%, #071a07 0%, #020602 100%)',
-  chronomancer:     'radial-gradient(ellipse 90% 70% at 50% 0%, #001a1a 0%, #000808 100%)',
   reaper:           'radial-gradient(ellipse 90% 70% at 50% 0%, #0d0d14 0%, #050507 100%)',
+  venomancer:       'radial-gradient(ellipse 90% 70% at 50% 0%, #14071a 0%, #060209 100%)',
+  chronomancer:     'radial-gradient(ellipse 90% 70% at 50% 0%, #001a1a 0%, #000808 100%)',
+  bloodmage:        'radial-gradient(ellipse 90% 70% at 50% 0%, #1f0508 0%, #080203 100%)',
   guardian:         'radial-gradient(ellipse 90% 70% at 50% 0%, #041020 0%, #020609 100%)',
-  monk:             'radial-gradient(ellipse 90% 70% at 50% 0%, #001a0d 0%, #000805 100%)',
-  demonhunter:      'radial-gradient(ellipse 90% 70% at 50% 0%, #1a0020 0%, #090009 100%)',
   stormbringer:     'radial-gradient(ellipse 90% 70% at 50% 0%, #001020 0%, #000409 100%)',
+  felsworn:         'radial-gradient(ellipse 90% 70% at 50% 0%, #0a1f0a 0%, #030803 100%)',
+  barbarian:        'radial-gradient(ellipse 90% 70% at 50% 0%, #1a0505 0%, #080202 100%)',
+  witchdoctor:      'radial-gradient(ellipse 90% 70% at 50% 0%, #001a1a 0%, #000909 100%)',
   witchhunter:      'radial-gradient(ellipse 90% 70% at 50% 0%, #1a1407 0%, #080603 100%)',
   knightofxoroth:   'radial-gradient(ellipse 90% 70% at 50% 0%, #1a0000 0%, #090000 100%)',
-  barbarian:        'radial-gradient(ellipse 90% 70% at 50% 0%, #1a0505 0%, #080202 100%)',
   ranger:           'radial-gradient(ellipse 90% 70% at 50% 0%, #0a1400 0%, #040600 100%)',
-  sonofarugal:      'radial-gradient(ellipse 90% 70% at 50% 0%, #14001a 0%, #060009 100%)',
-  witchdoctor:      'radial-gradient(ellipse 90% 70% at 50% 0%, #001a1a 0%, #000909 100%)',
-  discipleofshadra: 'radial-gradient(ellipse 90% 70% at 50% 0%, #1a1400 0%, #090600 100%)',
+  templar:          'radial-gradient(ellipse 90% 70% at 50% 0%, #1a1a18 0%, #08080a 100%)',
 };
 
 // ── Known node name → zamimg icon slug ───────────────────────────────────────
@@ -117,17 +117,6 @@ const NAMED_ICONS: Record<string, string> = {
   'Iron Wall':          'inv_shield_06',
   'Last Stand':         'spell_holy_ashestoashes',
   'Guardian Form':      'ability_warrior_shieldmastery',
-  // Monk
-  'Tiger Strike':       'ability_warrior_tigersstrike',
-  'Chi Wave':           'ability_monk_chiwave',
-  'Jade Mist':          'ability_monk_touchofdeath',
-  'Storm Roll':         'ability_monk_roll',
-  'Ascension':          'ability_monk_risingsunkick',
-  // Demon Hunter
-  'Chaos Strike':       'ability_demonhunter_chaosstrike',
-  'Fel Rush':           'ability_demonhunter_felrush',
-  'Metamorphosis':      'ability_demonhunter_metamorphisys',
-  'Soul Fragment':      'ability_demonhunter_consumemagic',
   // Stormbringer
   'Chain Lightning (Storm)': 'spell_nature_chainlightning',
   'Tempest':            'spell_nature_callstorm',
@@ -151,21 +140,11 @@ const NAMED_ICONS: Record<string, string> = {
   'Aimed Shot':         'ability_hunter_aimedshot',
   'Camouflage':         'ability_stealth',
   'Track':              'ability_hunter_snipershot',
-  // Son of Arugal
-  'Worgen Form':        'ability_racial_worgenracial',
-  'Howl':               'ability_druid_demoralizingroar',
-  'Feral Lunge':        'ability_druid_feralcharge',
-  'Scent of Blood':     'ability_warrior_bloodnova',
   // Witch Doctor
   'Fetish':             'ability_hunter_beasttaming',
   'Mojo':               'inv_potion_green_01',
   'Voodoo Doll':        'inv_voodoodoll_01',
   'Serpent Ward':       'ability_hunter_pet_serpent',
-  // Disciple of Shadra
-  'Web':                'ability_druid_shred',
-  'Venom':              'ability_rogue_deadlybrew',
-  'Spider Form':        'ability_druid_catform',
-  'Brood Mother':       'ability_hunter_pet_spider',
 };
 
 // Fallback icon pools per node type
@@ -202,40 +181,12 @@ function strHash(str: string): number {
   return Math.abs(h);
 }
 
-// Named icons for KoX custom tree
-const KOX_ICONS: Record<string, string> = {
-  'kox_l1':  'spell_fire_flamebolt',
-  'kox_l2':  'ability_warlock_demonicpower',
-  'kox_l3':  'inv_chest_leather_raidbeastpandaria_n_01',
-  'kox_l4':  'ability_warrior_cleave',
-  'kox_l5':  'warlock_summon_darkglare',
-  'kox_l6':  'spell_fire_incinerate',
-  'kox_l7':  'spell_shadow_soulleech_3',
-  'kox_l8':  'spell_shadow_shadowfury',
-  'kox_l9':  'spell_fire_meteorstorm',
-  'kox_l10': 'ability_warlock_demonicpower',
-  'kox_r1':  'spell_shadow_possession',
-  'kox_r2':  'ability_demonhunter_felrush',
-  'kox_r3':  'spell_shadow_shadowrend',
-  'kox_r4':  'spell_shadow_demonicfortitude',
-  'kox_r5':  'ability_demonhunter_chaosstrike',
-  'kox_r6':  'spell_shadow_mindshear',
-  'kox_r7':  'ability_warlock_eradicationpassive',
-  'kox_r8':  'spell_shadow_deathcoil',
-  'kox_r9':  'ability_warlock_empoweredimp',
-  'kox_r10': 'ability_demonhunter_metamorphisys',
-};
-
 export function getNodeIconUrl(nodeId: string, nodeName: string, nodeType: string): string {
-  // 1. Check explicit node ID mapping (highest priority, used for KoX custom tree)
-  const byId = KOX_ICONS[nodeId];
-  if (byId) return `${ZAMIMG}/${byId}.jpg`;
-
-  // 2. Check known names
+  // 1. Check known names
   const named = NAMED_ICONS[nodeName];
   if (named) return `${ZAMIMG}/${named}.jpg`;
 
-  // 3. Fall back to type-based pool
+  // 2. Fall back to type-based pool
   const pool =
     nodeType === 'capstone' || nodeType === 'choice'
       ? FALLBACK_POOLS.capstone
