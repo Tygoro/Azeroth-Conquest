@@ -1,0 +1,78 @@
+Refactor talent calculator so the LEFT (class) tree is invariant per class
+and ONLY the RIGHT (spec) tree changes on spec selection.
+
+========================================
+SOURCE OF TRUTH
+========================================
+
+const CLASS_TREES: Record<ClassId, TreeDef> = { ... };
+const SPEC_TREES: Record<ClassId, Record<SpecId, TreeDef>> = { ... };
+
+========================================
+STATE
+========================================
+
+const [classId, setClassId] = useState<ClassId>('sunCleric');
+const [specId, setSpecId] = useState<SpecId | null>(null);
+
+const [classAlloc, setClassAlloc] = useState<Record<NodeId, number>>({});
+const [specAlloc, setSpecAlloc] = useState<Record<NodeId, number>>({});
+
+const classTreeDef = useMemo(() => CLASS_TREES[classId], [classId]);
+const specTreeDef  = useMemo(
+  () => (specId ? SPEC_TREES[classId][specId] : null),
+  [classId, specId]
+);
+
+========================================
+SPEC CHANGE HANDLER
+========================================
+
+function onSelectSpec(nextSpec: SpecId) {
+  setSpecId(nextSpec);
+
+  // IMPORTANT:
+  // do NOT modify classTreeDef
+  // do NOT reset classAlloc
+
+  // optionally reset spec allocation ONLY
+  setSpecAlloc({});
+}
+
+========================================
+RENDER
+========================================
+
+<SingleTree
+  treeDef={classTreeDef}
+  allocation={classAlloc}
+  side="class"
+/>
+
+{specTreeDef && (
+  <SingleTree
+    treeDef={specTreeDef}
+    allocation={specAlloc}
+    side="spec"
+  />
+)}
+
+========================================
+GUARDS
+========================================
+
+- Ensure no component mutates treeDef objects (treat as immutable)
+- Deep-freeze in dev to catch accidental mutation
+
+if (process.env.NODE_ENV !== 'production') {
+  Object.freeze(classTreeDef);
+  Object.freeze(specTreeDef);
+}
+
+========================================
+GOAL
+========================================
+
+- Left tree is identical for a given class regardless of spec
+- Right tree swaps based on spec
+- Allocations remain isolated per tree
