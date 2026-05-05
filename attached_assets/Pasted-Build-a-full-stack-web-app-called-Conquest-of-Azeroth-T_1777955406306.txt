@@ -1,0 +1,115 @@
+Build a full-stack web app called “Conquest of Azeroth Talent Calculator” inspired by World of Warcraft Dragonflight-style talent trees (specifically Ascension WoW: Conquest of Azeroth).
+
+GOAL:
+A fast, interactive talent calculator that allows users to allocate points across a visual tree, persist builds, and share them via URL.
+
+TECH STACK:
+- Frontend: React + TypeScript + Vite
+- Styling: TailwindCSS
+- State: Zustand (or simple React context if faster)
+- Backend: Node.js + Express (lightweight)
+- Storage: JSON-based (no DB needed initially)
+- Routing: React Router
+- Icons/UI: Lucide or Heroicons
+
+CORE FEATURES:
+
+1. TALENT TREE UI
+- Render a grid-based talent tree similar to WoW Dragonflight
+- Nodes connected by lines (parent → child dependency)
+- Each node has:
+  - id
+  - name
+  - description
+  - maxPoints
+  - currentPoints
+  - prerequisites (array of node ids)
+  - position (x, y)
+
+- Visual states:
+  - Locked (greyed out)
+  - Available (glowing border)
+  - Active (colored, filled)
+  - Maxed (distinct highlight)
+
+2. INTERACTION
+- Left click: +1 point
+- Right click: -1 point
+- Enforce rules:
+  - Cannot exceed maxPoints
+  - Cannot allocate if prerequisites not met
+  - Optional: require X points in previous row tiers
+
+3. MULTI-CLASS SUPPORT
+- Structure app to support 21 classes
+- Add a dropdown selector for class
+- Each class loads its own JSON talent tree
+
+4. POINT TRACKING
+- Show:
+  - Total points spent
+  - Remaining points (cap at 61 or configurable)
+- Display per-tree totals if split trees are used
+
+5. SAVE + SHARE BUILDS
+- Serialize build into URL (base64 or compressed JSON)
+- Example: /build?data=ENCODED_STRING
+- On load, decode and restore state
+
+6. RESET + IMPORT
+- Reset button clears all points
+- Import field to paste a build string
+
+7. DATA STRUCTURE
+Create sample JSON for 1 class with ~15–20 talents to demonstrate:
+
+{
+  "class": "Example Class",
+  "maxPoints": 61,
+  "nodes": [
+    {
+      "id": "talent_1",
+      "name": "Power Strike",
+      "description": "Increases damage by 5% per point.",
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "prerequisites": [],
+      "position": { "x": 0, "y": 0 }
+    }
+  ]
+}
+
+8. UI/UX DETAILS
+- Dark theme (WoW-style)
+- Smooth hover tooltips
+- Lines/arrows between nodes (SVG)
+- Responsive layout (centered tree)
+
+9. PERFORMANCE
+- No unnecessary re-renders when updating nodes
+- Efficient state updates (mutate only affected nodes)
+
+10. BONUS (IF POSSIBLE)
+- Undo/redo stack
+- LocalStorage autosave
+- Copy build link button
+
+DELIVERABLE:
+- Fully runnable Replit project
+- Clean file structure:
+  /src
+    /components
+    /data
+    /store
+    /utils
+- Include clear comments explaining:
+  - talent logic
+  - dependency validation
+  - URL encoding/decoding
+
+IMPORTANT:
+Focus on FUNCTIONALITY over perfection. The tree must be clickable, enforce rules, and support saving/loading builds.
+
+Do NOT stub features. Implement real working logic.
+
+Generate complete code.

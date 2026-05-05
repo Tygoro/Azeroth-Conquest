@@ -3,13 +3,17 @@ info:
   # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: Conquest of Azeroth Talent Calculator API
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: classes
+    description: Talent class operations
+  - name: builds
+    description: Build save/load operations
 paths:
   /healthz:
     get:
@@ -24,6 +28,95 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /classes:
+    get:
+      operationId: listClasses
+      tags: [classes]
+      summary: List all classes
+      description: Returns metadata for all 21 WoW classes
+      responses:
+        "200":
+          description: List of classes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ClassMeta"
+
+  /classes/{classId}:
+    get:
+      operationId: getClass
+      tags: [classes]
+      summary: Get talent tree for a class
+      description: Returns full talent tree data including all nodes
+      parameters:
+        - name: classId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Class talent tree
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TalentTree"
+        "404":
+          description: Class not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /builds:
+    post:
+      operationId: saveBuild
+      tags: [builds]
+      summary: Save a talent build
+      description: Saves a serialized build and returns a shareable ID
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SaveBuildBody"
+      responses:
+        "201":
+          description: Build saved
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SavedBuild"
+
+  /builds/{buildId}:
+    get:
+      operationId: getBuild
+      tags: [builds]
+      summary: Load a saved build
+      description: Loads a previously saved talent build
+      parameters:
+        - name: buildId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Build loaded
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SavedBuild"
+        "404":
+          description: Build not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
 components:
   schemas:
     HealthStatus:
@@ -34,3 +127,126 @@ components:
       required:
         - status
 
+    ClassMeta:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        icon:
+          type: string
+        color:
+          type: string
+      required:
+        - id
+        - name
+        - description
+        - icon
+        - color
+
+    TalentNode:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        maxPoints:
+          type: integer
+        currentPoints:
+          type: integer
+        prerequisites:
+          type: array
+          items:
+            type: string
+        position:
+          type: object
+          properties:
+            x:
+              type: integer
+            y:
+              type: integer
+          required:
+            - x
+            - y
+        icon:
+          type: string
+        type:
+          type: string
+          enum: [passive, active, choice]
+      required:
+        - id
+        - name
+        - description
+        - maxPoints
+        - currentPoints
+        - prerequisites
+        - position
+        - type
+
+    TalentTree:
+      type: object
+      properties:
+        class:
+          type: string
+        classId:
+          type: string
+        maxPoints:
+          type: integer
+        color:
+          type: string
+        nodes:
+          type: array
+          items:
+            $ref: "#/components/schemas/TalentNode"
+      required:
+        - class
+        - classId
+        - maxPoints
+        - color
+        - nodes
+
+    SaveBuildBody:
+      type: object
+      properties:
+        classId:
+          type: string
+        buildData:
+          type: string
+        name:
+          type: string
+      required:
+        - classId
+        - buildData
+
+    SavedBuild:
+      type: object
+      properties:
+        id:
+          type: string
+        classId:
+          type: string
+        buildData:
+          type: string
+        name:
+          type: string
+        createdAt:
+          type: string
+      required:
+        - id
+        - classId
+        - buildData
+        - createdAt
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+      required:
+        - error

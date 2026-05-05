@@ -6,6 +6,10 @@
  * OpenAPI spec version: 0.1.0
  */
 
-export interface HealthStatus {
-  status: string;
+export interface SavedBuild {
+  id: string;
+  classId: string;
+  buildData: string;
+  name?: string;
+  createdAt: string;
 }
