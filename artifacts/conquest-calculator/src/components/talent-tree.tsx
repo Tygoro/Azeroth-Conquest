@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
+import { validateTree } from '@/data/classes/validate';
 
 interface DualTalentTreeProps {
   tree: TalentTreeType;
@@ -14,6 +15,19 @@ const CANVAS_W = 480;
 const CANVAS_H = 600;
 
 export function TalentTree({ tree, getNodeState, onNodeClick, onNodeContextMenu }: DualTalentTreeProps) {
+  // Guard: validate structure before attempting to render
+  const validation = validateTree(tree);
+  if (!validation.valid) {
+    return (
+      <div className="h-full flex flex-col items-center justify-center gap-3 text-center px-8">
+        <div className="text-xs font-mono text-destructive/60 bg-destructive/10 border border-destructive/20 rounded px-4 py-3 max-w-md">
+          <div className="font-bold mb-1">Tree structure invalid</div>
+          <div className="text-muted-foreground">{validation.reason}</div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col items-center w-full h-full overflow-auto">
       <div className="flex items-start justify-center gap-12 px-6 py-4 min-w-max">

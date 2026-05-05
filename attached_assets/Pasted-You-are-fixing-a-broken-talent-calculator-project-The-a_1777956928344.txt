@@ -1,0 +1,160 @@
+You are fixing a broken talent calculator project.
+
+The app currently has:
+- mixed class systems (CoA + retail WoW)
+- missing JSON files
+- broken tree loading
+- inconsistent data structure
+
+You must FIX consistency across the ENTIRE app.
+
+----------------------------------
+STEP 1 — SINGLE SOURCE OF TRUTH
+----------------------------------
+
+Create a single file:
+
+/src/data/classes/index.ts
+
+Export EXACTLY this list:
+
+export const CLASSES = [
+  "Necromancer",
+  "Pyromancer",
+  "Cultist",
+  "Starcaller",
+  "Sun Cleric",
+  "Tinker",
+  "Runemaster",
+  "Primalist",
+  "Chronomancer",
+  "Reaper",
+  "Guardian",
+  "Monk",
+  "Demon Hunter",
+  "Stormbringer",
+  "Witch Hunter",
+  "Knight of Xoroth",
+  "Barbarian",
+  "Ranger",
+  "Son of Arugal",
+  "Witch Doctor",
+  "Disciple of Shadra"
+];
+
+----------------------------------
+STEP 2 — DELETE INVALID CLASSES
+----------------------------------
+
+REMOVE ALL references to:
+- Warrior
+- Priest
+- Mage
+- Rogue
+- etc
+
+They must not exist ANYWHERE:
+- dropdown
+- state
+- imports
+- routes
+
+----------------------------------
+STEP 3 — GUARANTEE DATA FILES EXIST
+----------------------------------
+
+For EVERY class in CLASSES:
+
+Ensure file exists:
+
+/src/data/classes/{ClassName}.json
+
+If missing:
+→ auto-generate a valid default tree
+
+----------------------------------
+STEP 4 — SAFE LOADING SYSTEM
+----------------------------------
+
+Replace class loading logic with:
+
+- dynamic import OR map lookup
+- fallback if file missing
+
+Example:
+
+if (!classData) {
+  show "Class not implemented yet"
+  DO NOT crash
+}
+
+----------------------------------
+STEP 5 — VALIDATE TREE STRUCTURE
+----------------------------------
+
+Before rendering ANY tree:
+
+Validate:
+
+- leftTree exists
+- rightTree exists
+- nodes array exists
+- each node has:
+  id, position, maxPoints
+
+If invalid:
+→ skip render + show warning
+
+----------------------------------
+STEP 6 — FIX DROPDOWN SOURCE
+----------------------------------
+
+Dropdown MUST use:
+
+CLASSES array ONLY
+
+NOT hardcoded values
+
+----------------------------------
+STEP 7 — GENERATE DEFAULT TREE TEMPLATE
+----------------------------------
+
+Create a reusable generator:
+
+function createDefaultTree(className)
+
+Returns:
+
+- leftTree (10 nodes)
+- rightTree (10 nodes)
+- valid positions
+- valid prerequisites
+
+Use this for ALL missing classes
+
+----------------------------------
+STEP 8 — DO NOT BREAK WORKING TREES
+----------------------------------
+
+If a class already works:
+→ keep its data
+→ do NOT overwrite
+
+----------------------------------
+STEP 9 — RESULT
+----------------------------------
+
+After fix:
+
+- No broken classes
+- No missing files
+- No retail WoW classes
+- Every dropdown option loads a working tree
+- No red error messages
+
+----------------------------------
+
+Focus ONLY on consistency and reliability.
+Do NOT redesign UI.
+Do NOT change layout.
+Fix the system.

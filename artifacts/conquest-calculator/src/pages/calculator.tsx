@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import {
   useListClasses,
   useGetClass,
@@ -9,10 +9,22 @@ import { TalentTree } from '@/components/talent-tree';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { Share2, RefreshCcw, Download, Upload, Copy } from 'lucide-react';
+import { Share2, RefreshCcw, Download, Upload, Copy, AlertTriangle } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { CLASSES, CLASS_IDS, CLASS_COLORS, VALID_CLASS_IDS } from '@/data/classes';
+import { validateAndNarrow } from '@/data/classes/validate';
+
+// Fallback class list derived from the single source of truth.
+// Used when the API hasn't loaded yet or returns unexpected data.
+const FALLBACK_CLASSES = CLASSES.map(name => ({
+  id: CLASS_IDS[name],
+  name,
+  color: CLASS_COLORS[CLASS_IDS[name]] ?? '#aaaaaa',
+  description: '',
+  icon: '',
+}));
 
 export default function Calculator() {
   const { toast } = useToast();
@@ -23,15 +35,27 @@ export default function Calculator() {
   const [selectedClassId, setSelectedClassId] = useState<string | null>(null);
   const [importData, setImportData] = useState('');
 
-  const { data: classes, isLoading: classesLoading } = useListClasses();
+  const { data: apiClasses, isLoading: classesLoading } = useListClasses();
 
-  const { data: treeData, isLoading: treeLoading } = useGetClass(
+  // Only keep classes that are in VALID_CLASS_IDS — filters out any stale retail WoW
+  // classes that might come back from a cached or old API response.
+  const classes = useMemo(() => {
+    const source = apiClasses ?? FALLBACK_CLASSES;
+    return source.filter(c => VALID_CLASS_IDS.has(c.id));
+  }, [apiClasses]);
+
+  const { data: rawTreeData, isLoading: treeLoading, error: treeError } = useGetClass(
     selectedClassId || '',
     { query: { enabled: !!selectedClassId, queryKey: selectedClassId ? getGetClassQueryKey(selectedClassId) : [] } }
   );
 
+  // Validate the tree structure before passing it to the renderer
+  const { tree: treeData, error: treeValidationError } = useMemo(
+    () => validateAndNarrow(rawTreeData),
+    [rawTreeData]
+  );
+
   const {
-    points,
     totalPointsSpent,
     maxPoints,
     getNodeState,
@@ -41,15 +65,22 @@ export default function Calculator() {
     serializeBuild,
     setPoints,
     loadBuild,
-  } = useTalentTree({ treeData });
+  } = useTalentTree({ treeData: treeData ?? undefined });
 
   // Restore build from URL on mount
   useEffect(() => {
     if (!urlData) return;
     try {
       const decoded = JSON.parse(atob(urlData));
-      if (decoded?.classId) setSelectedClassId(decoded.classId);
-      if (decoded?.points) setPoints(decoded.points);
+      if (decoded?.classId) {
+        // Only restore if the classId is valid
+        if (VALID_CLASS_IDS.has(decoded.classId)) {
+          setSelectedClassId(decoded.classId);
+        }
+      }
+      if (decoded?.points && typeof decoded.points === 'object') {
+        setPoints(decoded.points as Record<string, number>);
+      }
     } catch {
       toast({ title: 'Invalid Build', description: 'The build link is corrupted.', variant: 'destructive' });
     }
@@ -57,6 +88,7 @@ export default function Calculator() {
   }, [urlData]);
 
   const handleClassChange = (val: string) => {
+    if (!VALID_CLASS_IDS.has(val)) return; // guard against invalid IDs
     setSelectedClassId(val);
     setPoints({});
   };
@@ -71,26 +103,58 @@ export default function Calculator() {
   };
 
   const handleImport = () => {
-    const classId = loadBuild(importData);
+    const classId = loadBuild(importData.trim());
     if (classId) {
-      setSelectedClassId(classId);
-      toast({ title: 'Build Imported' });
+      if (VALID_CLASS_IDS.has(classId)) {
+        setSelectedClassId(classId);
+        toast({ title: 'Build Imported' });
+      } else {
+        toast({
+          title: 'Invalid Class',
+          description: `"${classId}" is not a valid Conquest of Azeroth class.`,
+          variant: 'destructive',
+        });
+      }
     } else {
       toast({ title: 'Import Failed', description: 'Invalid build string.', variant: 'destructive' });
     }
   };
 
-  // Points bar fill %
   const fillPct = Math.min((totalPointsSpent / maxPoints) * 100, 100);
+  const selectedClass = classes.find(c => c.id === selectedClassId);
+  const classColor = selectedClass?.color ?? CLASS_COLORS[selectedClassId ?? ''] ?? '#aaaaaa';
 
-  const selectedClass = classes?.find(c => c.id === selectedClassId);
+  // Determine main content
+  let mainContent: React.ReactNode;
+  if (!selectedClassId) {
+    mainContent = <EmptyState />;
+  } else if (treeLoading) {
+    mainContent = <LoadingState />;
+  } else if (treeError || treeValidationError) {
+    mainContent = (
+      <TreeErrorState
+        classId={selectedClassId}
+        message={treeValidationError ?? 'Failed to load talent tree data from the server.'}
+      />
+    );
+  } else if (treeData) {
+    mainContent = (
+      <TalentTree
+        tree={treeData}
+        getNodeState={getNodeState}
+        onNodeClick={addPoint}
+        onNodeContextMenu={removePoint}
+      />
+    );
+  } else {
+    mainContent = <TreeErrorState classId={selectedClassId} message="No tree data returned." />;
+  }
 
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-background text-foreground">
       {/* ── Header ── */}
       <header className="flex-none flex items-center justify-between px-5 py-3 border-b border-border bg-card z-20 shadow-lg">
         <div className="flex items-center gap-4">
-          {/* Branding */}
           <div className="leading-none">
             <div className="text-lg font-bold tracking-widest uppercase text-primary">Conquest</div>
             <div className="text-[10px] tracking-[0.18em] text-muted-foreground uppercase">of Azeroth · Talent Calc</div>
@@ -98,17 +162,17 @@ export default function Calculator() {
 
           <div className="h-6 w-px bg-border" />
 
-          {/* Class selector */}
+          {/* Class selector — driven by CLASSES constant filtered through API */}
           <Select value={selectedClassId || ''} onValueChange={handleClassChange}>
             <SelectTrigger
               data-testid="select-class"
-              className="w-52"
-              disabled={classesLoading}
+              className="w-56"
+              disabled={classesLoading && classes.length === 0}
             >
-              <SelectValue placeholder="Select Class" />
+              <SelectValue placeholder={classesLoading ? 'Loading classes…' : 'Select Class'} />
             </SelectTrigger>
             <SelectContent>
-              {classes?.map(c => (
+              {classes.map(c => (
                 <SelectItem key={c.id} value={c.id} data-testid={`class-option-${c.id}`}>
                   <span style={{ color: c.color }} className="font-semibold">{c.name}</span>
                 </SelectItem>
@@ -119,11 +183,12 @@ export default function Calculator() {
 
         {/* Right controls */}
         <div className="flex items-center gap-3">
-          {/* Points counter + progress bar */}
           {treeData && (
             <div className="flex flex-col items-end gap-1">
               <div className="text-xs font-mono text-muted-foreground">
-                <span className="text-primary font-bold text-sm" data-testid="points-spent">{totalPointsSpent}</span>
+                <span className="font-bold text-sm" style={{ color: classColor }} data-testid="points-spent">
+                  {totalPointsSpent}
+                </span>
                 <span> / {maxPoints} pts</span>
               </div>
               <div className="w-36 h-1.5 rounded-full overflow-hidden bg-secondary">
@@ -131,9 +196,7 @@ export default function Calculator() {
                   className="h-full rounded-full transition-all duration-300"
                   style={{
                     width: `${fillPct}%`,
-                    background: selectedClass
-                      ? `linear-gradient(to right, ${selectedClass.color}88, ${selectedClass.color})`
-                      : 'hsl(var(--primary))',
+                    background: `linear-gradient(to right, ${classColor}88, ${classColor})`,
                   }}
                 />
               </div>
@@ -189,7 +252,7 @@ export default function Calculator() {
                   <Textarea
                     value={importData}
                     onChange={e => setImportData(e.target.value)}
-                    placeholder="Paste build string here..."
+                    placeholder="Paste build string here…"
                     className="font-mono text-xs h-16 resize-none"
                   />
                   <Button onClick={handleImport} className="w-full" data-testid="button-import">
@@ -216,31 +279,17 @@ export default function Calculator() {
 
       {/* ── Main ── */}
       <main className="flex-1 overflow-auto relative">
-        {!selectedClassId ? (
-          <EmptyState />
-        ) : treeLoading ? (
-          <LoadingState />
-        ) : treeData ? (
-          <TalentTree
-            tree={treeData}
-            getNodeState={getNodeState}
-            onNodeClick={addPoint}
-            onNodeContextMenu={removePoint}
-          />
-        ) : (
-          <div className="h-full flex items-center justify-center text-destructive text-sm">
-            Failed to load talent tree for this class.
-          </div>
-        )}
+        {mainContent}
       </main>
     </div>
   );
 }
 
+// ── Subcomponents ───────────────────────────────────────────────────────────
+
 function EmptyState() {
   return (
     <div className="h-full flex flex-col items-center justify-center text-center px-8 gap-6">
-      {/* Decorative orb */}
       <div
         className="w-28 h-28 rounded-full flex items-center justify-center"
         style={{
@@ -249,7 +298,13 @@ function EmptyState() {
           boxShadow: '0 0 40px rgba(80,60,180,0.15)',
         }}
       >
-        <div className="w-16 h-16 rounded-full" style={{ background: 'radial-gradient(circle, #2a2a50 0%, #0d0d20 100%)', border: '1px solid #3a3a6a' }} />
+        <div
+          className="w-16 h-16 rounded-full"
+          style={{
+            background: 'radial-gradient(circle, #2a2a50 0%, #0d0d20 100%)',
+            border: '1px solid #3a3a6a',
+          }}
+        />
       </div>
 
       <div>
@@ -259,7 +314,7 @@ function EmptyState() {
         </p>
       </div>
 
-      <div className="flex gap-8 text-xs text-muted-foreground/60 font-mono mt-2">
+      <div className="flex gap-6 text-xs text-muted-foreground/50 font-mono mt-2">
         <span>Left-click to spend</span>
         <span>·</span>
         <span>Right-click to refund</span>
@@ -274,16 +329,34 @@ function LoadingState() {
   return (
     <div className="flex gap-12 justify-center py-10 px-8">
       {[0, 1].map(i => (
-        <div key={i} className="flex flex-col gap-4" style={{ width: 480 }}>
+        <div key={i} className="flex flex-col gap-6" style={{ width: 480 }}>
           {[...Array(5)].map((_, row) => (
-            <div key={row} className="flex gap-8 justify-center">
+            <div key={row} className="flex gap-10 justify-center">
               {[...Array(row % 2 === 0 ? 1 : 2)].map((_, col) => (
-                <Skeleton key={col} className="w-14 h-14 rounded-md" />
+                <Skeleton key={col} className="w-14 h-14 rounded-md opacity-30" />
               ))}
             </div>
           ))}
         </div>
       ))}
+    </div>
+  );
+}
+
+function TreeErrorState({ classId, message }: { classId: string; message: string }) {
+  return (
+    <div className="h-full flex flex-col items-center justify-center gap-4 text-center px-8">
+      <div
+        className="w-16 h-16 rounded-full flex items-center justify-center"
+        style={{ background: '#1a0a0a', border: '2px solid #4a1a1a' }}
+      >
+        <AlertTriangle className="w-7 h-7 text-destructive opacity-70" />
+      </div>
+      <div>
+        <p className="text-sm font-semibold text-destructive/80">Tree Not Available</p>
+        <p className="text-xs text-muted-foreground mt-1 max-w-sm leading-relaxed">{message}</p>
+        <p className="text-[10px] text-muted-foreground/40 mt-3 font-mono">class: {classId}</p>
+      </div>
     </div>
   );
 }
