@@ -1,0 +1,100 @@
+Implement forced alternating talent point allocation between class and spec trees.
+
+========================================
+POINT GENERATION
+========================================
+
+function getAvailablePoints(level: number) {
+  return Math.max(0, level - 9);
+}
+
+========================================
+POINT DISTRIBUTION (CRITICAL)
+========================================
+
+Points must alternate between trees.
+
+Rules:
+
+- Level 10 → Class tree
+- Level 11 → Spec tree
+- Level 12 → Class tree
+- Level 13 → Spec tree
+- etc
+
+Implement:
+
+function getPointDistribution(level: number) {
+  const totalPoints = getAvailablePoints(level);
+
+  let classPoints = 0;
+  let specPoints = 0;
+
+  for (let i = 0; i < totalPoints; i++) {
+    if (i % 2 === 0) {
+      classPoints++;
+    } else {
+      specPoints++;
+    }
+  }
+
+  return { classPoints, specPoints };
+}
+
+========================================
+ENFORCEMENT
+========================================
+
+- Player can ONLY allocate:
+  - classPoints into class tree
+  - specPoints into spec tree
+
+Prevent:
+- putting more than allowed into either tree
+
+========================================
+ROW UNLOCK (PER TREE)
+========================================
+
+const ROW_UNLOCKS = {
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 0,
+  5: 8,
+  6: 16,
+  7: 24,
+  8: 32,
+  9: 40,
+  10: 48,
+};
+
+function isRowUnlocked(rowIndex, treePoints) {
+  return treePoints >= ROW_UNLOCKS[rowIndex];
+}
+
+========================================
+UI REQUIREMENTS
+========================================
+
+Display:
+
+- Level
+- Total Points
+- Class Points (X / allowed)
+- Spec Points (Y / allowed)
+
+Visually:
+
+- disable allocation if tree cap reached
+- show tooltip:
+  "Next point goes to [Class/Spec] tree"
+
+========================================
+GOAL
+========================================
+
+Match real COA behavior where:
+- points are earned per level
+- allocation alternates automatically
+- each tree progresses evenly

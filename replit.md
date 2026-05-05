@@ -32,13 +32,33 @@ Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style tal
 The frontend `SingleTree` (`components/talent-tree.tsx`) groups nodes by tier (using `TIER_Y_VALUES` from the hook) and renders each row as `flex justify-center` with `gap`, so wide rows naturally make the container wider without horizontal scroll. SVG connection lines use refs + `useLayoutEffect` + `ResizeObserver` to read each node's center relative to the container — endpoints stay correct under responsive scaling.
 
 ### Tier point gates (per side)
-Each tier unlocks only after enough points are spent **in that tree**. Gates start at row 4:
+Each tier unlocks only after enough points are spent **in that tree** (left or right, sidebar excluded). Gates use a linear WoW-style progression starting at row 5:
 
-| Tier | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|------|---|---|---|---|---|---|---|---|---|---|
-| Gate | 0 | 0 | 0 | 0 | 8 | 8 | 20 | 20 | 30 | 40 |
+| Row  | 1 | 2 | 3 | 4 | 5 | 6  | 7  | 8  | 9  | 10 |
+|------|---|---|---|---|---|----|----|----|----|----|
+| Gate | 0 | 0 | 0 | 0 | 8 | 16 | 24 | 32 | 40 | 48 |
 
-Gates are constants (`TIER_POINT_GATES`) in `hooks/use-talent-tree.ts` and rendered as a small indicator strip beside each tree (`TierGateStrip` in `components/talent-tree.tsx`).
+`ROW_UNLOCKS` (1-indexed) is the canonical map; `TIER_POINT_GATES` (0-indexed flat array) is the runtime form used by `getNodeState`. Both live in `hooks/use-talent-tree.ts`. The gate strip renders only the non-zero rows beside each tree (`TierGateStrip`). Locked rows are visually dimmed in `SingleTree` via row-level `opacity: 0.78` (combined with per-node 0.35 → effective ~0.27, dim but readable).
+
+### Level-driven point budget (WoW progression)
+The total points a player can spend is driven by character level:
+
+```
+getAvailablePoints(level) = max(0, level - 9)
+```
+
+Level 10 = 1 point, level 70 = 61 points (matches Ascension max), level 80 = 71. The hook accepts a `level` prop (default `DEFAULT_LEVEL = 70`) and computes `maxPoints = min(getAvailablePoints(level), treeData.maxPoints)`. `addPoint` and choice-node clicks both check `canAllocateMore = totalSpent < maxPoints`.
+
+**UI**: Header shows a `LVL [−] N [+]` stepper (clamped 10..80), `Points: X / Y` bar, and a per-tree breakdown `Class: X · Spec: Y` (sidebar nodes auto-unlock and don't count).
+
+**Cap invariant** is enforced at every entry point:
+- Click allocation: blocked when `totalSpent >= maxPoints`
+- Level decrease: blocked with toast when current spend exceeds the new level's budget (user must refund first)
+- URL load: build is rejected with toast if encoded points exceed the level budget
+- Import: same validation; `loadBuild` returns `undefined` on over-cap input
+- Class/spec change: resets level to `DEFAULT_LEVEL` along with points/choices
+
+**Serialization** (`serializeBuild`) now includes `level` so build links preserve the budget context; `loadBuild` restores it (defaulting to `DEFAULT_LEVEL` for backward compatibility with older links).
 
 ### Choice nodes
 Some talents (~6 per side) are **choice nodes** with two mutually exclusive options. They cost 1 point and `maxPoints = 1`. Clicking spends a point and selects option A; clicking again cycles to option B; right-click refunds. The chosen option is persisted in build serialization under `choices`. Visually rendered as a horizontal split-octagon — each half shows one option's icon, with a glowing divider and the active half highlighted. The tooltip lists both options (A/B badges) with descriptions and marks the selected one.

@@ -53,6 +53,7 @@ export function TalentTree({
           <SingleTree
             nodes={tree.leftTree ?? []}
             color={tree.color}
+            sideSpent={leftSpent}
             getNodeState={getNodeState}
             getChoiceSelection={getChoiceSelection}
             onNodeClick={onNodeClick}
@@ -88,6 +89,7 @@ export function TalentTree({
           <SingleTree
             nodes={tree.rightTree ?? []}
             color={tree.color}
+            sideSpent={rightSpent}
             getNodeState={getNodeState}
             getChoiceSelection={getChoiceSelection}
             onNodeClick={onNodeClick}
@@ -159,6 +161,8 @@ function TierGateStrip({ color, sideSpent, side }: { color: string; sideSpent: n
 interface SingleTreeProps {
   nodes: TalentNode[];
   color: string;
+  /** Points spent in THIS tree — drives per-row tier-gate dim treatment. */
+  sideSpent: number;
   getNodeState: (nodeId: string) => NodeState;
   getChoiceSelection: (nodeId: string) => string | undefined;
   onNodeClick: (nodeId: string) => void;
@@ -196,7 +200,7 @@ function groupByTier(nodes: TalentNode[]): TalentNode[][] {
   return tiers;
 }
 
-function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
+function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
   const tiers = useMemo(() => groupByTier(nodes), [nodes]);
   const maxCols = useMemo(() => tiers.reduce((m, r) => Math.max(m, r.length), 0), [tiers]);
 
@@ -341,10 +345,17 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
 
       {/* One absolute-positioned flex row per tier — center y == TIER_Y_VALUES[i]
           so the tier-gate strip and gating logic in use-talent-tree.ts stay
-          visually consistent with the rendered nodes. */}
-      {tiers.map((row, rowIdx) => (
+          visually consistent with the rendered nodes. Locked rows (whose tier
+          gate is not met by this tree's spent points) get a subtle row-level
+          dim on top of the per-node lock styling. */}
+      {tiers.map((row, rowIdx) => {
+        const rowGate = TIER_POINT_GATES[rowIdx] ?? 0;
+        const rowLocked = sideSpent < rowGate;
+        return (
         <div
           key={rowIdx}
+          data-row-index={rowIdx + 1}
+          data-row-locked={rowLocked || undefined}
           className="absolute left-0 right-0 flex justify-center items-center"
           style={{
             top: TIER_Y_VALUES[rowIdx],
@@ -353,6 +364,11 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
             gap: NODE_GAP,
             paddingLeft: ROW_PAD_X,
             paddingRight: ROW_PAD_X,
+            // Subtle row-level dim only — individual locked nodes already dim
+            // themselves to 0.35, so we keep this multiplier near 1 to avoid
+            // an unreadable ~0.19 effective luminance.
+            opacity: rowLocked ? 0.78 : 1,
+            transition: 'opacity 0.25s ease',
           }}
         >
           {row.map(node => {
@@ -378,7 +394,8 @@ function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClic
             );
           })}
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
@@ -891,9 +908,10 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
                 border: '1px solid rgba(255,50,50,0.2)',
               }}
             >
-              <span className="font-bold">Tier locked:</span> spend{' '}
-              <span className="font-bold">{tierGateRequired}</span> points in this tree to unlock
-              {sideSpent !== undefined && ` (${sideSpent}/${tierGateRequired})`}
+              Requires <span className="font-bold">{tierGateRequired}</span> points in this tree
+              {sideSpent !== undefined && (
+                <span className="text-muted-foreground/80"> ({sideSpent}/{tierGateRequired})</span>
+              )}
             </div>
           )}
 

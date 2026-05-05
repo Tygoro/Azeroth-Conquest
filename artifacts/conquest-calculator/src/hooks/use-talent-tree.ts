@@ -6,10 +6,41 @@ export type BuildState = Record<string, number>;
 export type ChoiceSelections = Record<string, string>;
 
 // ─── TIER GATING ────────────────────────────────────────────────────────────
-// Per Ascension CoA rules: 10 tiers (0–9), tier-4 (row 5 in 1-indexed UI)
-// is the first gated row at 8 points. Gates count points spent in THAT tree.
+// WoW-style progression: 10 rows. Rows 1-4 are always open. Row 5 unlocks at 8
+// points, then +8 per row. Gates count points spent in THAT tree only.
+//
+// `ROW_UNLOCKS` is the canonical, 1-indexed table that mirrors the in-game UI.
+// `TIER_POINT_GATES` is the same table flattened to 0-indexed for the row
+// renderer (tiers[0] = row 1, etc.).
 export const TIER_Y_VALUES = [40, 110, 180, 250, 320, 390, 460, 530, 600, 670];
-export const TIER_POINT_GATES = [0, 0, 0, 0, 8, 8, 20, 20, 30, 40];
+
+export const ROW_UNLOCKS: Record<number, number> = {
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 0,
+  5: 8,
+  6: 16,
+  7: 24,
+  8: 32,
+  9: 40,
+  10: 48,
+};
+
+export const TIER_POINT_GATES = [0, 0, 0, 0, 8, 16, 24, 32, 40, 48];
+
+/** Available talent points for a given character level. WoW-style: level - 9. */
+export function getAvailablePoints(level: number): number {
+  return Math.max(0, level - 9);
+}
+
+/** True when the given 1-indexed row is unlocked by this tree's spent points. */
+export function isRowUnlocked(rowIndex1Based: number, treePoints: number): boolean {
+  return treePoints >= (ROW_UNLOCKS[rowIndex1Based] ?? 0);
+}
+
+/** Default character level — gives 61 points (matches Ascension cap). */
+export const DEFAULT_LEVEL = 70;
 
 function getTierIndex(y: number): number {
   let best = 0;
@@ -37,13 +68,19 @@ export interface NodeState {
 
 interface UseTalentTreeProps {
   treeData: TalentTree | undefined;
+  /** Character level. Defaults to 70 (= 61 available points, Ascension max). */
+  level?: number;
 }
 
-export function useTalentTree({ treeData }: UseTalentTreeProps) {
+export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTreeProps) {
   const [points, setPoints] = useState<BuildState>({});
   const [choices, setChoices] = useState<ChoiceSelections>({});
 
-  const maxPoints = treeData?.maxPoints ?? 61;
+  // Available points are derived from the level (level - 9), capped by what
+  // the tree itself can hold (defensive — currently always >= 61).
+  const availablePoints = getAvailablePoints(level);
+  const treeMaxPoints = treeData?.maxPoints ?? 61;
+  const maxPoints = Math.min(availablePoints, treeMaxPoints);
 
   const leftNodes = useMemo(() => treeData?.leftTree ?? [], [treeData]);
   const rightNodes = useMemo(() => treeData?.rightTree ?? [], [treeData]);
@@ -247,25 +284,41 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
       JSON.stringify({
         classId: treeData.classId,
         specId: treeData.specId ?? null,
+        level,
         points,
         choices,
       }),
     );
-  }, [treeData, points, choices]);
+  }, [treeData, points, choices, level]);
 
   const loadBuild = useCallback(
-    (encoded: string): { classId?: string; specId?: string } | undefined => {
+    (encoded: string): { classId?: string; specId?: string; level?: number } | undefined => {
       try {
         const decoded = JSON.parse(atob(encoded));
+
+        // Sanitize points first (per-entry caps)
+        const safePoints: BuildState = {};
         if (decoded?.points && typeof decoded.points === 'object') {
-          const safe: BuildState = {};
           for (const [k, v] of Object.entries(decoded.points)) {
             if (typeof k === 'string' && typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 99) {
-              safe[k] = Math.floor(v);
+              safePoints[k] = Math.floor(v);
             }
           }
-          setPoints(safe);
         }
+
+        // Validate against the level budget — reject if over-cap so we never
+        // silently load an invalid build.
+        const decodedLevel =
+          typeof decoded?.level === 'number' && Number.isFinite(decoded.level)
+            ? Math.max(10, Math.min(80, Math.floor(decoded.level)))
+            : undefined;
+        const effectiveLevel = decodedLevel ?? DEFAULT_LEVEL;
+        const budget = getAvailablePoints(effectiveLevel);
+        const totalSafe = Object.values(safePoints).reduce((s, n) => s + n, 0);
+        if (totalSafe > budget) return undefined;
+
+        setPoints(safePoints);
+
         if (decoded?.choices && typeof decoded.choices === 'object') {
           const safe: ChoiceSelections = {};
           for (const [k, v] of Object.entries(decoded.choices)) {
@@ -278,6 +331,7 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
         return {
           classId: typeof decoded?.classId === 'string' ? decoded.classId : undefined,
           specId: typeof decoded?.specId === 'string' ? decoded.specId : undefined,
+          level: decodedLevel,
         };
       } catch {
         return undefined;
@@ -296,6 +350,7 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
     leftSpent,
     rightSpent,
     maxPoints,
+    availablePoints,
     canAllocateMore,
     getNodeState,
     getChoiceSelection,

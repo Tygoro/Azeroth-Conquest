@@ -6,7 +6,7 @@ import {
   getGetClassQueryKey,
   getGetSpecTreeQueryKey,
 } from '@workspace/api-client-react';
-import { useTalentTree } from '@/hooks/use-talent-tree';
+import { useTalentTree, DEFAULT_LEVEL } from '@/hooks/use-talent-tree';
 import { TalentTree } from '@/components/talent-tree';
 import { SidebarTrack } from '@/components/sidebar-track';
 import { ScaleStage } from '@/components/scale-stage';
@@ -40,6 +40,7 @@ export default function Calculator() {
   const [selectedClassId, setSelectedClassId] = useState<string | null>(null);
   const [selectedSpecId, setSelectedSpecId] = useState<string | null>(null);
   const [importData, setImportData] = useState('');
+  const [level, setLevel] = useState<number>(DEFAULT_LEVEL);
 
   const { data: apiClasses, isLoading: classesLoading } = useListClasses();
 
@@ -95,7 +96,7 @@ export default function Calculator() {
     setPoints,
     setChoices,
     loadBuild,
-  } = useTalentTree({ treeData: treeData ?? undefined });
+  } = useTalentTree({ treeData: treeData ?? undefined, level });
 
   // Restore build from URL on mount
   useEffect(() => {
@@ -108,24 +109,42 @@ export default function Calculator() {
           setSelectedSpecId(decoded.specId);
         }
       }
-      // Sanitize points: only accept positive finite numbers under a sane cap.
+      // Restore level if present (clamped to legal range)
+      const decodedLevel =
+        typeof decoded?.level === 'number' && Number.isFinite(decoded.level)
+          ? Math.max(10, Math.min(80, Math.floor(decoded.level)))
+          : DEFAULT_LEVEL;
+      setLevel(decodedLevel);
+
+      // Sanitize points: positive finite numbers under per-entry cap.
+      const safe: Record<string, number> = {};
       if (decoded?.points && typeof decoded.points === 'object') {
-        const safe: Record<string, number> = {};
         for (const [k, v] of Object.entries(decoded.points)) {
           if (typeof k === 'string' && typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 99) {
             safe[k] = Math.floor(v);
           }
         }
-        setPoints(safe);
       }
+      // Reject builds that exceed the level budget — never silently overspend.
+      const budget = Math.max(0, decodedLevel - 9);
+      const totalSafe = Object.values(safe).reduce((s, n) => s + n, 0);
+      if (totalSafe > budget) {
+        toast({
+          title: 'Invalid Build',
+          description: `Build allocates ${totalSafe} points but level ${decodedLevel} only allows ${budget}.`,
+          variant: 'destructive',
+        });
+        return;
+      }
+      setPoints(safe);
       if (decoded?.choices && typeof decoded.choices === 'object') {
-        const safe: Record<string, string> = {};
+        const safeChoices: Record<string, string> = {};
         for (const [k, v] of Object.entries(decoded.choices)) {
           if (typeof k === 'string' && typeof v === 'string' && v.length < 200) {
-            safe[k] = v;
+            safeChoices[k] = v;
           }
         }
-        setChoices(safe);
+        setChoices(safeChoices);
       }
     } catch {
       toast({ title: 'Invalid Build', description: 'The build link is corrupted.', variant: 'destructive' });
@@ -139,19 +158,41 @@ export default function Calculator() {
     setSelectedSpecId(null);
     setPoints({});
     setChoices({});
+    setLevel(DEFAULT_LEVEL);
   };
 
   const handleSpecSelect = (specId: string) => {
     setSelectedSpecId(specId);
     setPoints({});
     setChoices({});
+    setLevel(DEFAULT_LEVEL);
   };
 
   const handleBackToSpecs = () => {
     setSelectedSpecId(null);
     setPoints({});
     setChoices({});
+    setLevel(DEFAULT_LEVEL);
   };
+
+  /** Block level decrease that would invalidate the current build. */
+  const handleLevelDown = () => {
+    setLevel(l => {
+      const next = Math.max(10, l - 1);
+      const nextBudget = Math.max(0, next - 9);
+      if (totalPointsSpent > nextBudget) {
+        toast({
+          title: 'Cannot lower level',
+          description: `Current build spends ${totalPointsSpent} points; level ${next} only allows ${nextBudget}. Refund points first.`,
+          variant: 'destructive',
+        });
+        return l;
+      }
+      return next;
+    });
+  };
+
+  const handleLevelUp = () => setLevel(l => Math.min(80, l + 1));
 
   const handleCopyLink = () => {
     const built = serializeBuild();
@@ -168,6 +209,7 @@ export default function Calculator() {
       if (VALID_CLASS_IDS.has(result.classId)) {
         setSelectedClassId(result.classId);
         if (result.specId) setSelectedSpecId(result.specId);
+        if (result.level !== undefined) setLevel(result.level);
         toast({ title: 'Build Imported' });
       } else {
         toast({
@@ -177,11 +219,15 @@ export default function Calculator() {
         });
       }
     } else {
-      toast({ title: 'Import Failed', description: 'Invalid build string.', variant: 'destructive' });
+      toast({
+        title: 'Import Failed',
+        description: 'Invalid or over-cap build string (allocates more points than its level allows).',
+        variant: 'destructive',
+      });
     }
   };
 
-  const fillPct = Math.min((totalPointsSpent / maxPoints) * 100, 100);
+  const fillPct = maxPoints > 0 ? Math.min((totalPointsSpent / maxPoints) * 100, 100) : 0;
   const selectedClass = classes.find(c => c.id === selectedClassId);
   const classColor = selectedClass?.color ?? CLASS_COLORS[selectedClassId ?? ''] ?? '#aaaaaa';
   const selectedSpec = classDetail?.specs?.find(s => s.id === selectedSpecId);
@@ -297,23 +343,69 @@ export default function Calculator() {
         {/* Right controls */}
         <div className="flex items-center gap-3">
           {showPointCounter && (
-            <div className="flex flex-col items-end gap-1">
-              <div className="text-xs font-mono text-muted-foreground">
-                <span className="font-bold text-sm" style={{ color: classColor }} data-testid="points-spent">
-                  {totalPointsSpent}
+            <>
+              {/* Level stepper — drives availablePoints = level - 9 */}
+              <div className="flex items-center gap-1.5 px-2 py-1 rounded border border-border bg-background/40">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-muted-foreground">Lvl</span>
+                <button
+                  type="button"
+                  onClick={handleLevelDown}
+                  className="w-5 h-5 flex items-center justify-center rounded text-xs font-bold text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors disabled:opacity-30"
+                  disabled={level <= 10}
+                  aria-label="Decrease level"
+                  data-testid="button-level-down"
+                >
+                  −
+                </button>
+                <span
+                  className="font-bold text-sm font-mono w-7 text-center"
+                  style={{ color: classColor }}
+                  data-testid="text-level"
+                >
+                  {level}
                 </span>
-                <span> / {maxPoints} pts</span>
+                <button
+                  type="button"
+                  onClick={handleLevelUp}
+                  className="w-5 h-5 flex items-center justify-center rounded text-xs font-bold text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors disabled:opacity-30"
+                  disabled={level >= 80}
+                  aria-label="Increase level"
+                  data-testid="button-level-up"
+                >
+                  +
+                </button>
               </div>
-              <div className="w-36 h-1.5 rounded-full overflow-hidden bg-secondary">
-                <div
-                  className="h-full rounded-full transition-all duration-300"
-                  style={{
-                    width: `${fillPct}%`,
-                    background: `linear-gradient(to right, ${classColor}88, ${classColor})`,
-                  }}
-                />
+
+              <div className="flex flex-col items-end gap-1">
+                <div className="text-xs font-mono text-muted-foreground">
+                  <span>Points: </span>
+                  <span className="font-bold text-sm" style={{ color: classColor }} data-testid="points-spent">
+                    {totalPointsSpent}
+                  </span>
+                  <span> / {maxPoints}</span>
+                </div>
+                <div className="w-36 h-1.5 rounded-full overflow-hidden bg-secondary">
+                  <div
+                    className="h-full rounded-full transition-all duration-300"
+                    style={{
+                      width: `${fillPct}%`,
+                      background: `linear-gradient(to right, ${classColor}88, ${classColor})`,
+                    }}
+                  />
+                </div>
+                <div className="text-[10px] font-mono text-muted-foreground/80">
+                  <span>Class: </span>
+                  <span className="font-bold" style={{ color: classColor }} data-testid="text-class-spent">
+                    {leftSpent}
+                  </span>
+                  <span className="mx-1.5 text-muted-foreground/40">·</span>
+                  <span>Spec: </span>
+                  <span className="font-bold" style={{ color: classColor }} data-testid="text-spec-spent">
+                    {rightSpent}
+                  </span>
+                </div>
               </div>
-            </div>
+            </>
           )}
 
           <Button
