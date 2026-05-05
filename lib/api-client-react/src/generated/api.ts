@@ -17,6 +17,7 @@ import type {
 } from "@tanstack/react-query";
 
 import type {
+  ClassDetail,
   ClassMeta,
   ErrorResponse,
   HealthStatus,
@@ -185,7 +186,7 @@ export function useListClasses<
 }
 
 /**
- * @summary Get talent tree for a class
+ * @summary Get class detail with all specs
  */
 export const getGetClassUrl = (classId: string) => {
   return `/api/classes/${classId}`;
@@ -194,8 +195,8 @@ export const getGetClassUrl = (classId: string) => {
 export const getClass = async (
   classId: string,
   options?: RequestInit,
-): Promise<TalentTree> => {
-  return customFetch<TalentTree>(getGetClassUrl(classId), {
+): Promise<ClassDetail> => {
+  return customFetch<ClassDetail>(getGetClassUrl(classId), {
     ...options,
     method: "GET",
   });
@@ -243,7 +244,7 @@ export type GetClassQueryResult = NonNullable<
 export type GetClassQueryError = ErrorType<ErrorResponse>;
 
 /**
- * @summary Get talent tree for a class
+ * @summary Get class detail with all specs
  */
 
 export function useGetClass<
@@ -261,6 +262,97 @@ export function useGetClass<
   },
 ): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
   const queryOptions = getGetClassQueryOptions(classId, options);
+
+  const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
+    queryKey: QueryKey;
+  };
+
+  return { ...query, queryKey: queryOptions.queryKey };
+}
+
+/**
+ * @summary Get talent tree for a specific spec of a class
+ */
+export const getGetSpecTreeUrl = (classId: string, specId: string) => {
+  return `/api/classes/${classId}/specs/${specId}`;
+};
+
+export const getSpecTree = async (
+  classId: string,
+  specId: string,
+  options?: RequestInit,
+): Promise<TalentTree> => {
+  return customFetch<TalentTree>(getGetSpecTreeUrl(classId, specId), {
+    ...options,
+    method: "GET",
+  });
+};
+
+export const getGetSpecTreeQueryKey = (classId: string, specId: string) => {
+  return [`/api/classes/${classId}/specs/${specId}`] as const;
+};
+
+export const getGetSpecTreeQueryOptions = <
+  TData = Awaited<ReturnType<typeof getSpecTree>>,
+  TError = ErrorType<ErrorResponse>,
+>(
+  classId: string,
+  specId: string,
+  options?: {
+    query?: UseQueryOptions<
+      Awaited<ReturnType<typeof getSpecTree>>,
+      TError,
+      TData
+    >;
+    request?: SecondParameter<typeof customFetch>;
+  },
+) => {
+  const { query: queryOptions, request: requestOptions } = options ?? {};
+
+  const queryKey =
+    queryOptions?.queryKey ?? getGetSpecTreeQueryKey(classId, specId);
+
+  const queryFn: QueryFunction<Awaited<ReturnType<typeof getSpecTree>>> = ({
+    signal,
+  }) => getSpecTree(classId, specId, { signal, ...requestOptions });
+
+  return {
+    queryKey,
+    queryFn,
+    enabled: !!(classId && specId),
+    ...queryOptions,
+  } as UseQueryOptions<
+    Awaited<ReturnType<typeof getSpecTree>>,
+    TError,
+    TData
+  > & { queryKey: QueryKey };
+};
+
+export type GetSpecTreeQueryResult = NonNullable<
+  Awaited<ReturnType<typeof getSpecTree>>
+>;
+export type GetSpecTreeQueryError = ErrorType<ErrorResponse>;
+
+/**
+ * @summary Get talent tree for a specific spec of a class
+ */
+
+export function useGetSpecTree<
+  TData = Awaited<ReturnType<typeof getSpecTree>>,
+  TError = ErrorType<ErrorResponse>,
+>(
+  classId: string,
+  specId: string,
+  options?: {
+    query?: UseQueryOptions<
+      Awaited<ReturnType<typeof getSpecTree>>,
+      TError,
+      TData
+    >;
+    request?: SecondParameter<typeof customFetch>;
+  },
+): UseQueryResult<TData, TError> & { queryKey: QueryKey } {
+  const queryOptions = getGetSpecTreeQueryOptions(classId, specId, options);
 
   const query = useQuery(queryOptions) as UseQueryResult<TData, TError> & {
     queryKey: QueryKey;

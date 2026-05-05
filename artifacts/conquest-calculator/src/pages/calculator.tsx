@@ -2,22 +2,24 @@ import { useState, useEffect, useMemo } from 'react';
 import {
   useListClasses,
   useGetClass,
+  useGetSpecTree,
   getGetClassQueryKey,
+  getGetSpecTreeQueryKey,
 } from '@workspace/api-client-react';
 import { useTalentTree } from '@/hooks/use-talent-tree';
 import { TalentTree } from '@/components/talent-tree';
+import { SpecSelectionScreen } from '@/components/spec-selection-screen';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { Share2, RefreshCcw, Download, Upload, Copy, AlertTriangle } from 'lucide-react';
+import { Share2, RefreshCcw, Download, Upload, Copy, AlertTriangle, ChevronLeft } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { CLASSES, CLASS_IDS, CLASS_COLORS, VALID_CLASS_IDS } from '@/data/classes';
 import { validateAndNarrow } from '@/data/classes/validate';
 
-// Fallback class list derived from the single source of truth.
-// Used when the API hasn't loaded yet or returns unexpected data.
+// Fallback class list — used while API hasn't loaded.
 const FALLBACK_CLASSES = CLASSES.map(name => ({
   id: CLASS_IDS[name],
   name,
@@ -33,20 +35,40 @@ export default function Calculator() {
   const urlData = searchParams.get('data');
 
   const [selectedClassId, setSelectedClassId] = useState<string | null>(null);
+  const [selectedSpecId, setSelectedSpecId] = useState<string | null>(null);
   const [importData, setImportData] = useState('');
 
   const { data: apiClasses, isLoading: classesLoading } = useListClasses();
 
-  // Only keep classes that are in VALID_CLASS_IDS — filters out any stale retail WoW
-  // classes that might come back from a cached or old API response.
+  // Filter out invalid IDs (e.g. stale cache)
   const classes = useMemo(() => {
     const source = apiClasses ?? FALLBACK_CLASSES;
     return source.filter(c => VALID_CLASS_IDS.has(c.id));
   }, [apiClasses]);
 
-  const { data: rawTreeData, isLoading: treeLoading, error: treeError } = useGetClass(
+  // Fetch class detail (with specs) when class is selected
+  const { data: classDetail, isLoading: classDetailLoading, error: classDetailError } = useGetClass(
     selectedClassId || '',
-    { query: { enabled: !!selectedClassId, queryKey: selectedClassId ? getGetClassQueryKey(selectedClassId) : [] } }
+    {
+      query: {
+        enabled: !!selectedClassId,
+        queryKey: selectedClassId ? getGetClassQueryKey(selectedClassId) : [],
+      },
+    },
+  );
+
+  // Fetch spec tree when both class and spec are selected
+  const { data: rawTreeData, isLoading: treeLoading, error: treeError } = useGetSpecTree(
+    selectedClassId || '',
+    selectedSpecId || '',
+    {
+      query: {
+        enabled: !!selectedClassId && !!selectedSpecId,
+        queryKey: selectedClassId && selectedSpecId
+          ? getGetSpecTreeQueryKey(selectedClassId, selectedSpecId)
+          : [],
+      },
+    },
   );
 
   // Validate the tree structure before passing it to the renderer
@@ -72,14 +94,21 @@ export default function Calculator() {
     if (!urlData) return;
     try {
       const decoded = JSON.parse(atob(urlData));
-      if (decoded?.classId) {
-        // Only restore if the classId is valid
-        if (VALID_CLASS_IDS.has(decoded.classId)) {
-          setSelectedClassId(decoded.classId);
+      if (decoded?.classId && typeof decoded.classId === 'string' && VALID_CLASS_IDS.has(decoded.classId)) {
+        setSelectedClassId(decoded.classId);
+        if (decoded?.specId && typeof decoded.specId === 'string') {
+          setSelectedSpecId(decoded.specId);
         }
       }
+      // Sanitize points: only accept positive finite numbers under a sane cap.
       if (decoded?.points && typeof decoded.points === 'object') {
-        setPoints(decoded.points as Record<string, number>);
+        const safe: Record<string, number> = {};
+        for (const [k, v] of Object.entries(decoded.points)) {
+          if (typeof k === 'string' && typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 99) {
+            safe[k] = Math.floor(v);
+          }
+        }
+        setPoints(safe);
       }
     } catch {
       toast({ title: 'Invalid Build', description: 'The build link is corrupted.', variant: 'destructive' });
@@ -88,8 +117,19 @@ export default function Calculator() {
   }, [urlData]);
 
   const handleClassChange = (val: string) => {
-    if (!VALID_CLASS_IDS.has(val)) return; // guard against invalid IDs
+    if (!VALID_CLASS_IDS.has(val)) return;
     setSelectedClassId(val);
+    setSelectedSpecId(null);
+    setPoints({});
+  };
+
+  const handleSpecSelect = (specId: string) => {
+    setSelectedSpecId(specId);
+    setPoints({});
+  };
+
+  const handleBackToSpecs = () => {
+    setSelectedSpecId(null);
     setPoints({});
   };
 
@@ -103,15 +143,16 @@ export default function Calculator() {
   };
 
   const handleImport = () => {
-    const classId = loadBuild(importData.trim());
-    if (classId) {
-      if (VALID_CLASS_IDS.has(classId)) {
-        setSelectedClassId(classId);
+    const result = loadBuild(importData.trim());
+    if (result?.classId) {
+      if (VALID_CLASS_IDS.has(result.classId)) {
+        setSelectedClassId(result.classId);
+        if (result.specId) setSelectedSpecId(result.specId);
         toast({ title: 'Build Imported' });
       } else {
         toast({
           title: 'Invalid Class',
-          description: `"${classId}" is not a valid Conquest of Azeroth class.`,
+          description: `"${result.classId}" is not a valid Conquest of Azeroth class.`,
           variant: 'destructive',
         });
       }
@@ -123,11 +164,26 @@ export default function Calculator() {
   const fillPct = Math.min((totalPointsSpent / maxPoints) * 100, 100);
   const selectedClass = classes.find(c => c.id === selectedClassId);
   const classColor = selectedClass?.color ?? CLASS_COLORS[selectedClassId ?? ''] ?? '#aaaaaa';
+  const selectedSpec = classDetail?.specs?.find(s => s.id === selectedSpecId);
 
-  // Determine main content
+  // Determine main content based on selection state
   let mainContent: React.ReactNode;
   if (!selectedClassId) {
     mainContent = <EmptyState />;
+  } else if (!selectedSpecId) {
+    // Class chosen but no spec yet — show spec selection screen
+    if (classDetailLoading) {
+      mainContent = <LoadingState />;
+    } else if (classDetailError || !classDetail) {
+      mainContent = (
+        <TreeErrorState
+          classId={selectedClassId}
+          message="Failed to load class specializations from the server."
+        />
+      );
+    } else {
+      mainContent = <SpecSelectionScreen classDetail={classDetail} onSelectSpec={handleSpecSelect} />;
+    }
   } else if (treeLoading) {
     mainContent = <LoadingState />;
   } else if (treeError || treeValidationError) {
@@ -150,6 +206,9 @@ export default function Calculator() {
     mainContent = <TreeErrorState classId={selectedClassId} message="No tree data returned." />;
   }
 
+  // Show point counter only when we're in the calculator (not on spec select)
+  const showPointCounter = !!treeData && !!selectedSpecId;
+
   return (
     <div className="flex flex-col h-screen overflow-hidden bg-background text-foreground">
       {/* ── Header ── */}
@@ -162,7 +221,7 @@ export default function Calculator() {
 
           <div className="h-6 w-px bg-border" />
 
-          {/* Class selector — driven by CLASSES constant filtered through API */}
+          {/* Class selector */}
           <Select value={selectedClassId || ''} onValueChange={handleClassChange}>
             <SelectTrigger
               data-testid="select-class"
@@ -179,11 +238,29 @@ export default function Calculator() {
               ))}
             </SelectContent>
           </Select>
+
+          {/* Spec breadcrumb / back when spec selected */}
+          {selectedSpecId && selectedSpec && (
+            <>
+              <div className="h-6 w-px bg-border" />
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={handleBackToSpecs}
+                data-testid="button-back-to-specs"
+                className="gap-1 text-xs h-8"
+                style={{ color: classColor }}
+              >
+                <ChevronLeft className="w-3.5 h-3.5" />
+                {selectedSpec.name}
+              </Button>
+            </>
+          )}
         </div>
 
         {/* Right controls */}
         <div className="flex items-center gap-3">
-          {treeData && (
+          {showPointCounter && (
             <div className="flex flex-col items-end gap-1">
               <div className="text-xs font-mono text-muted-foreground">
                 <span className="font-bold text-sm" style={{ color: classColor }} data-testid="points-spent">
@@ -310,7 +387,7 @@ function EmptyState() {
       <div>
         <h2 className="text-2xl font-bold text-foreground tracking-wide">Choose Your Path</h2>
         <p className="mt-2 text-sm text-muted-foreground max-w-sm leading-relaxed">
-          Select a class above to reveal your talent trees and begin forging your legend in the Conquest of Azeroth.
+          Select a class above to see its specializations, then choose a spec to begin forging your build.
         </p>
       </div>
 
@@ -330,9 +407,9 @@ function LoadingState() {
     <div className="flex gap-12 justify-center py-10 px-8">
       {[0, 1].map(i => (
         <div key={i} className="flex flex-col gap-6" style={{ width: 480 }}>
-          {[...Array(5)].map((_, row) => (
+          {[...Array(7)].map((_, row) => (
             <div key={row} className="flex gap-10 justify-center">
-              {[...Array(row % 2 === 0 ? 1 : 2)].map((_, col) => (
+              {[...Array((row % 2 === 0 ? 3 : 4))].map((_, col) => (
                 <Skeleton key={col} className="w-14 h-14 rounded-md opacity-30" />
               ))}
             </div>

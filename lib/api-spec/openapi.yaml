@@ -47,7 +47,7 @@ paths:
     get:
       operationId: getClass
       tags: [classes]
-      summary: Get talent tree for a class
+      summary: Get class detail with all specs
       parameters:
         - name: classId
           in: path
@@ -56,13 +56,43 @@ paths:
             type: string
       responses:
         "200":
-          description: Class talent tree
+          description: Class detail with all available specs
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ClassDetail"
+        "404":
+          description: Class not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /classes/{classId}/specs/{specId}:
+    get:
+      operationId: getSpecTree
+      tags: [classes]
+      summary: Get talent tree for a specific spec of a class
+      parameters:
+        - name: classId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: specId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Talent tree for the spec
           content:
             application/json:
               schema:
                 $ref: "#/components/schemas/TalentTree"
         "404":
-          description: Class not found
+          description: Class or spec not found
           content:
             application/json:
               schema:
@@ -194,6 +224,14 @@ components:
           type: string
         classId:
           type: string
+        specId:
+          type: string
+        specName:
+          type: string
+        leftTreeName:
+          type: string
+        rightTreeName:
+          type: string
         maxPoints:
           type: integer
         color:
@@ -213,6 +251,62 @@ components:
         - color
         - leftTree
         - rightTree
+
+    SpecMeta:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        role:
+          type: string
+          enum: [damage, tank, healer, support]
+        attribute:
+          type: string
+          enum: [strength, agility, intellect, stamina, spirit]
+        complexity:
+          type: string
+          enum: [easy, normal, intermediate, advanced]
+        description:
+          type: string
+        sampleSpells:
+          type: array
+          items:
+            type: string
+      required:
+        - id
+        - name
+        - role
+        - attribute
+        - complexity
+        - description
+        - sampleSpells
+
+    ClassDetail:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        icon:
+          type: string
+        color:
+          type: string
+        specs:
+          type: array
+          items:
+            $ref: "#/components/schemas/SpecMeta"
+      required:
+        - id
+        - name
+        - description
+        - icon
+        - color
+        - specs
 
     SaveBuildBody:
       type: object

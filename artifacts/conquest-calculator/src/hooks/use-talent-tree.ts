@@ -19,10 +19,17 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
   const maxPoints = treeData?.maxPoints ?? 61;
   const allNodes = useMemo(() => getAllNodes(treeData), [treeData]);
 
-  const totalPointsSpent = useMemo(
-    () => Object.values(points).reduce((sum, v) => sum + v, 0),
-    [points]
-  );
+  // Only count points for nodes that exist in the *current* tree.
+  // Prevents stale/imported points (from a different spec) from silently
+  // eating into the 61-point budget.
+  const totalPointsSpent = useMemo(() => {
+    if (!allNodes.length) return 0;
+    let sum = 0;
+    for (const n of allNodes) {
+      sum += points[n.id] ?? 0;
+    }
+    return sum;
+  }, [allNodes, points]);
 
   const canAllocateMore = totalPointsSpent < maxPoints;
 
@@ -100,20 +107,42 @@ export function useTalentTree({ treeData }: UseTalentTreeProps) {
 
   const reset = useCallback(() => setPoints({}), []);
 
+  // Serialize includes specId so the build link can restore both class and spec
   const serializeBuild = useCallback((): string => {
     if (!treeData) return '';
-    return btoa(JSON.stringify({ classId: treeData.classId, points }));
+    return btoa(
+      JSON.stringify({
+        classId: treeData.classId,
+        specId: treeData.specId ?? null,
+        points,
+      }),
+    );
   }, [treeData, points]);
 
-  const loadBuild = useCallback((encoded: string) => {
-    try {
-      const decoded = JSON.parse(atob(encoded));
-      if (decoded?.points) setPoints(decoded.points);
-      return decoded?.classId as string | undefined;
-    } catch {
-      return undefined;
-    }
-  }, []);
+  const loadBuild = useCallback(
+    (encoded: string): { classId?: string; specId?: string } | undefined => {
+      try {
+        const decoded = JSON.parse(atob(encoded));
+        // Sanitize: ensure points is a string→number map with safe values.
+        if (decoded?.points && typeof decoded.points === 'object') {
+          const safe: BuildState = {};
+          for (const [k, v] of Object.entries(decoded.points)) {
+            if (typeof k === 'string' && typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 99) {
+              safe[k] = Math.floor(v);
+            }
+          }
+          setPoints(safe);
+        }
+        return {
+          classId: typeof decoded?.classId === 'string' ? decoded.classId : undefined,
+          specId: typeof decoded?.specId === 'string' ? decoded.specId : undefined,
+        };
+      } catch {
+        return undefined;
+      }
+    },
+    [],
+  );
 
   return {
     points,

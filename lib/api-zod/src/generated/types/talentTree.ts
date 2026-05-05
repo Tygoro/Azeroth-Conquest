@@ -10,6 +10,10 @@ import type { TalentNode } from "./talentNode";
 export interface TalentTree {
   class: string;
   classId: string;
+  specId?: string;
+  specName?: string;
+  leftTreeName?: string;
+  rightTreeName?: string;
   maxPoints: number;
   color: string;
   leftTree: TalentNode[];

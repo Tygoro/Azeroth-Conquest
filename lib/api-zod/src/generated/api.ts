@@ -27,15 +27,52 @@ export const ListClassesResponseItem = zod.object({
 export const ListClassesResponse = zod.array(ListClassesResponseItem);
 
 /**
- * @summary Get talent tree for a class
+ * @summary Get class detail with all specs
  */
 export const GetClassParams = zod.object({
   classId: zod.coerce.string(),
 });
 
 export const GetClassResponse = zod.object({
+  id: zod.string(),
+  name: zod.string(),
+  description: zod.string(),
+  icon: zod.string(),
+  color: zod.string(),
+  specs: zod.array(
+    zod.object({
+      id: zod.string(),
+      name: zod.string(),
+      role: zod.enum(["damage", "tank", "healer", "support"]),
+      attribute: zod.enum([
+        "strength",
+        "agility",
+        "intellect",
+        "stamina",
+        "spirit",
+      ]),
+      complexity: zod.enum(["easy", "normal", "intermediate", "advanced"]),
+      description: zod.string(),
+      sampleSpells: zod.array(zod.string()),
+    }),
+  ),
+});
+
+/**
+ * @summary Get talent tree for a specific spec of a class
+ */
+export const GetSpecTreeParams = zod.object({
+  classId: zod.coerce.string(),
+  specId: zod.coerce.string(),
+});
+
+export const GetSpecTreeResponse = zod.object({
   class: zod.string(),
   classId: zod.string(),
+  specId: zod.string().optional(),
+  specName: zod.string().optional(),
+  leftTreeName: zod.string().optional(),
+  rightTreeName: zod.string().optional(),
   maxPoints: zod.number(),
   color: zod.string(),
   leftTree: zod.array(

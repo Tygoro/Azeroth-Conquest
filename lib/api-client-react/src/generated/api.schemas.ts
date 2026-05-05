@@ -47,10 +47,63 @@ export interface TalentNode {
 export interface TalentTree {
   class: string;
   classId: string;
+  specId?: string;
+  specName?: string;
+  leftTreeName?: string;
+  rightTreeName?: string;
   maxPoints: number;
   color: string;
   leftTree: TalentNode[];
   rightTree: TalentNode[];
+}
+
+export type SpecMetaRole = (typeof SpecMetaRole)[keyof typeof SpecMetaRole];
+
+export const SpecMetaRole = {
+  damage: "damage",
+  tank: "tank",
+  healer: "healer",
+  support: "support",
+} as const;
+
+export type SpecMetaAttribute =
+  (typeof SpecMetaAttribute)[keyof typeof SpecMetaAttribute];
+
+export const SpecMetaAttribute = {
+  strength: "strength",
+  agility: "agility",
+  intellect: "intellect",
+  stamina: "stamina",
+  spirit: "spirit",
+} as const;
+
+export type SpecMetaComplexity =
+  (typeof SpecMetaComplexity)[keyof typeof SpecMetaComplexity];
+
+export const SpecMetaComplexity = {
+  easy: "easy",
+  normal: "normal",
+  intermediate: "intermediate",
+  advanced: "advanced",
+} as const;
+
+export interface SpecMeta {
+  id: string;
+  name: string;
+  role: SpecMetaRole;
+  attribute: SpecMetaAttribute;
+  complexity: SpecMetaComplexity;
+  description: string;
+  sampleSpells: string[];
+}
+
+export interface ClassDetail {
+  id: string;
+  name: string;
+  description: string;
+  icon: string;
+  color: string;
+  specs: SpecMeta[];
 }
 
 export interface SaveBuildBody {

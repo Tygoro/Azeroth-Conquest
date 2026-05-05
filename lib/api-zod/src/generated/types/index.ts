@@ -6,11 +6,16 @@
  * OpenAPI spec version: 0.1.0
  */
 
+export * from "./classDetail";
 export * from "./classMeta";
 export * from "./errorResponse";
 export * from "./healthStatus";
 export * from "./saveBuildBody";
 export * from "./savedBuild";
+export * from "./specMeta";
+export * from "./specMetaAttribute";
+export * from "./specMetaComplexity";
+export * from "./specMetaRole";
 export * from "./talentNode";
 export * from "./talentNodePosition";
 export * from "./talentNodeType";

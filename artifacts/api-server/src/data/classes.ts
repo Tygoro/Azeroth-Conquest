@@ -1,11 +1,59 @@
-import type { TalentTree, ClassMeta, TalentNode } from "@workspace/api-zod";
+import type { TalentTree, ClassMeta, ClassDetail, SpecMeta, TalentNode } from "@workspace/api-zod";
 
-// Pixel position helper: col (0-2) and row (0-6)
-// 3-column layout: x = 80 + col*160, y = 60 + row*120
-const P = (col: number, row: number): { x: number; y: number } => ({
-  x: 80 + col * 160,
-  y: 60 + row * 120,
-});
+// ─── 22-NODE DEEP TREE LAYOUT (HEX/DIAMOND) ─────────────────────────────────
+// Row 0 (y=50): 3 root nodes at cols 1,2,3
+// Row 1 (y=130): 4 nodes hex-offset at cols 0.5,1.5,2.5,3.5
+// Row 2 (y=210): 5 nodes (widest) at cols 0,1,2,3,4
+// Row 3 (y=290): 4 nodes hex-offset at cols 0.5,1.5,2.5,3.5
+// Row 4 (y=370): 3 nodes at cols 1,2,3
+// Row 5 (y=450): 2 nodes at cols 1.5,2.5
+// Row 6 (y=540): 1 capstone at col 2
+const COL_X = (col: number): number => 60 + col * 90;
+const POS = (col: number, row: number, y: number) => ({ x: COL_X(col), y });
+
+const NODE_POSITIONS = [
+  POS(1, 0, 50),    POS(2, 0, 50),    POS(3, 0, 50),                         // 1,2,3
+  POS(0.5, 1, 130), POS(1.5, 1, 130), POS(2.5, 1, 130), POS(3.5, 1, 130),    // 4,5,6,7
+  POS(0, 2, 210),   POS(1, 2, 210),   POS(2, 2, 210),   POS(3, 2, 210), POS(4, 2, 210), // 8,9,10,11,12
+  POS(0.5, 3, 290), POS(1.5, 3, 290), POS(2.5, 3, 290), POS(3.5, 3, 290),    // 13,14,15,16
+  POS(1, 4, 370),   POS(2, 4, 370),   POS(3, 4, 370),                        // 17,18,19
+  POS(1.5, 5, 450), POS(2.5, 5, 450),                                        // 20,21
+  POS(2, 6, 540),                                                            // 22 capstone
+] as const;
+
+// Prereq chain — each node depends on nearest connected node(s) in row above
+const NODE_PREREQS: number[][] = [
+  [], [], [],                                  // 1,2,3 roots
+  [0], [0, 1], [1, 2], [2],                    // 4←1; 5←1,2; 6←2,3; 7←3
+  [3], [3, 4], [4, 5], [5, 6], [6],            // 8←4; 9←4,5; 10←5,6; 11←6,7; 12←7
+  [7, 8], [8, 9], [9, 10], [10, 11],           // 13←8,9; 14←9,10; 15←10,11; 16←11,12
+  [12, 13], [13, 14], [14, 15],                // 17←13,14; 18←14,15; 19←15,16
+  [16, 17], [17, 18],                          // 20←17,18; 21←18,19
+  [19, 20],                                    // 22 capstone ← 20,21
+];
+
+// Default node type assignment by index — visual rhythm of tree
+// Mostly active + passive, with capstone at end and a couple choice nodes
+const NODE_TYPES: Array<TalentNode["type"]> = [
+  "active",  "active",  "active",                          // row 0: 3 active roots
+  "passive", "active",  "active",  "passive",              // row 1
+  "passive", "active",  "choice",  "active",  "passive",   // row 2 (choice in middle)
+  "active",  "passive", "passive", "active",               // row 3
+  "active",  "passive", "active",                          // row 4
+  "active",  "active",                                     // row 5
+  "capstone",                                              // row 6
+];
+
+// Max points per node — varies for visual variety (1, 2, or 3)
+const NODE_MAX_POINTS: number[] = [
+  3, 3, 3,         // roots — 3pt
+  2, 2, 2, 2,      // row 1 — 2pt
+  2, 3, 1, 3, 2,   // row 2 — choice is 1pt
+  2, 2, 2, 2,      // row 3 — 2pt
+  3, 2, 3,         // row 4 — bigger
+  2, 2,            // row 5
+  1,               // capstone — 1pt
+];
 
 type NodeDef = Omit<TalentNode, "currentPoints">;
 
@@ -13,723 +61,726 @@ function nodes(defs: NodeDef[]): TalentNode[] {
   return defs.map((d) => ({ ...d, currentPoints: 0 }));
 }
 
+// ─── DEEP TREE BUILDER ──────────────────────────────────────────────────────
+// Generates a 22-node tree from a list of 22 talent name + description pairs
+type TalentDef = { name: string; description: string };
+
+function buildDeepTree(prefix: string, talents: TalentDef[]): TalentNode[] {
+  if (talents.length !== 22) {
+    throw new Error(`buildDeepTree: expected 22 talents for prefix "${prefix}", got ${talents.length}`);
+  }
+  return nodes(
+    talents.map((t, i) => ({
+      id: `${prefix}_${i + 1}`,
+      name: t.name,
+      description: t.description,
+      maxPoints: NODE_MAX_POINTS[i],
+      prerequisites: NODE_PREREQS[i].map((idx) => `${prefix}_${idx + 1}`),
+      position: NODE_POSITIONS[i],
+      type: NODE_TYPES[i],
+    })),
+  );
+}
+
+// ─── CLASS METAS ────────────────────────────────────────────────────────────
 export const classMetas: ClassMeta[] = [
-  { id: "necromancer", name: "Necromancer", description: "Master of death and the undead arts, raising skeletal armies and draining life.", icon: "skull", color: "#2D9B6E" },
-  { id: "pyromancer", name: "Pyromancer", description: "A living conduit of flame who scorches enemies with infernal fire.", icon: "flame", color: "#FF4500" },
-  { id: "cultist", name: "Cultist", description: "A devotee of forbidden powers who draws strength from dark rituals.", icon: "eye", color: "#9B4DCA" },
-  { id: "starcaller", name: "Starcaller", description: "A celestial channeler who calls down starfire and moonlight to devastate foes.", icon: "star", color: "#4169E1" },
-  { id: "suncleric", name: "Sun Cleric", description: "A devoted healer empowered by solar energy and holy light.", icon: "sun", color: "#FFD700" },
-  { id: "tinker", name: "Tinker", description: "A mechanical genius who builds and deploys powerful gadgets in combat.", icon: "wrench", color: "#B8860B" },
-  { id: "runemaster", name: "Runemaster", description: "An ancient runic scholar who carves magical sigils into reality.", icon: "rune", color: "#DC143C" },
-  { id: "primalist", name: "Primalist", description: "A primal channeler who taps into the raw elemental forces of the world.", icon: "earth", color: "#228B22" },
-  { id: "chronomancer", name: "Chronomancer", description: "A time-bending arcanist who manipulates the flow of time itself.", icon: "clock", color: "#00CED1" },
-  { id: "reaper", name: "Reaper", description: "A swift and deadly harvester who cuts down souls with curved blades.", icon: "scythe", color: "#708090" },
-  { id: "guardian", name: "Guardian", description: "An indomitable protector who shields allies and absorbs punishment.", icon: "shield", color: "#4682B4" },
-  { id: "monk", name: "Monk", description: "A disciplined martial artist who channels chi through precise strikes.", icon: "fist", color: "#00CC7A" },
-  { id: "demonhunter", name: "Demon Hunter", description: "A warrior who consumed demonic essence to gain power beyond mortal limits.", icon: "horn", color: "#A330C9" },
-  { id: "stormbringer", name: "Stormbringer", description: "A tempest incarnate who summons lightning and raging winds.", icon: "bolt", color: "#1E90FF" },
-  { id: "witchhunter", name: "Witch Hunter", description: "A relentless pursuer of heretics trained to counter and destroy dark magic.", icon: "cross", color: "#C8A96E" },
-  { id: "knightofxoroth", name: "Knight of Xoroth", description: "A demonic champion sworn to the Lords of Xoroth, wielding fel and shadow.", icon: "sword", color: "#8B0000" },
-  { id: "barbarian", name: "Barbarian", description: "A ferocious berserker who fights in a blood rage, ignoring pain.", icon: "axe", color: "#CD5C5C" },
-  { id: "ranger", name: "Ranger", description: "A wilderness expert who hunts enemies from a distance with bow and trap.", icon: "bow", color: "#6B8E23" },
-  { id: "sonofarugal", name: "Son of Arugal", description: "A cursed shapeshifter bearing the mark of the wolf, lurking in shadow.", icon: "wolf", color: "#9400D3" },
-  { id: "witchdoctor", name: "Witch Doctor", description: "A tribal spellcaster who hexes enemies and summons spirits of the wild.", icon: "mask", color: "#20B2AA" },
-  { id: "discipleofshadra", name: "Disciple of Shadra", description: "A servant of the spider-goddess Shadra who poisons and ensnares prey.", icon: "spider", color: "#DAA520" },
+  { id: "necromancer", name: "Necromancer", description: "Master of death and the undead arts.", icon: "skull", color: "#2D9B6E" },
+  { id: "pyromancer", name: "Pyromancer", description: "A living conduit of flame.", icon: "flame", color: "#FF4500" },
+  { id: "cultist", name: "Cultist", description: "Devotee of forbidden powers.", icon: "eye", color: "#9B4DCA" },
+  { id: "starcaller", name: "Starcaller", description: "Channels celestial fury.", icon: "star", color: "#4169E1" },
+  { id: "suncleric", name: "Sun Cleric", description: "A devoted servant of An'she's holy light.", icon: "sun", color: "#FFD700" },
+  { id: "tinker", name: "Tinker", description: "A mechanical genius of war.", icon: "wrench", color: "#B8860B" },
+  { id: "runemaster", name: "Runemaster", description: "Carves runic sigils into reality.", icon: "rune", color: "#DC143C" },
+  { id: "primalist", name: "Primalist", description: "A primal channeler of elemental forces.", icon: "earth", color: "#228B22" },
+  { id: "chronomancer", name: "Chronomancer", description: "Time-bending arcanist.", icon: "clock", color: "#00CED1" },
+  { id: "reaper", name: "Reaper", description: "A swift harvester of souls.", icon: "scythe", color: "#708090" },
+  { id: "guardian", name: "Guardian", description: "Indomitable protector.", icon: "shield", color: "#4682B4" },
+  { id: "monk", name: "Monk", description: "Disciplined martial artist.", icon: "fist", color: "#00CC7A" },
+  { id: "demonhunter", name: "Demon Hunter", description: "Wields demonic essence as a weapon.", icon: "horn", color: "#A330C9" },
+  { id: "stormbringer", name: "Stormbringer", description: "Tempest incarnate.", icon: "bolt", color: "#1E90FF" },
+  { id: "witchhunter", name: "Witch Hunter", description: "Trained to destroy dark magic.", icon: "cross", color: "#C8A96E" },
+  { id: "knightofxoroth", name: "Knight of Xoroth", description: "Sworn to the Lords of Xoroth.", icon: "sword", color: "#8B0000" },
+  { id: "barbarian", name: "Barbarian", description: "Ferocious berserker.", icon: "axe", color: "#CD5C5C" },
+  { id: "ranger", name: "Ranger", description: "Wilderness expert with bow and trap.", icon: "bow", color: "#6B8E23" },
+  { id: "sonofarugal", name: "Son of Arugal", description: "Cursed worgen shapeshifter.", icon: "wolf", color: "#9400D3" },
+  { id: "witchdoctor", name: "Witch Doctor", description: "Tribal hexer who summons spirits.", icon: "mask", color: "#20B2AA" },
+  { id: "discipleofshadra", name: "Disciple of Shadra", description: "Servant of the spider goddess.", icon: "spider", color: "#DAA520" },
 ];
 
-// ─── NECROMANCER ────────────────────────────────────────────────────────────
-function buildNecromancerTree(): TalentTree {
-  return {
-    class: "Necromancer",
-    classId: "necromancer",
-    maxPoints: 61,
-    color: "#2D9B6E",
-    leftTree: nodes([
-      { id: "nec_l1", name: "Raise Dead", description: "Raise a fallen enemy as a skeleton warrior to fight for you. Duration +5s per point.", maxPoints: 3, prerequisites: [], position: P(1, 0), type: "active" },
-      { id: "nec_l2", name: "Bone Shield", description: "Surround yourself with orbiting bone fragments that absorb damage. Charges +1 per point.", maxPoints: 3, prerequisites: ["nec_l1"], position: P(0, 1), type: "active" },
-      { id: "nec_l3", name: "Death Coil", description: "Launches a bolt of death energy, dealing shadow damage. Damage +15% per point.", maxPoints: 3, prerequisites: ["nec_l1"], position: P(2, 1), type: "active" },
-      { id: "nec_l4", name: "Corpse Explosion", description: "Detonate a nearby corpse for massive AoE shadow damage. Damage +20% per point.", maxPoints: 3, prerequisites: ["nec_l2"], position: P(0, 2), type: "active" },
-      { id: "nec_l5", name: "Dark Pact", description: "Sacrifice minion health to restore your own. Healing +10% per point.", maxPoints: 2, prerequisites: ["nec_l2", "nec_l3"], position: P(1, 2), type: "active" },
-      { id: "nec_l6", name: "Soul Harvest", description: "Drain the souls of all nearby undead, restoring health. Healing +15% per point.", maxPoints: 3, prerequisites: ["nec_l3"], position: P(2, 2), type: "active" },
-      { id: "nec_l7", name: "Skeletal Army", description: "Raise up to 3 additional skeletons at once. Skeleton damage +10% per point.", maxPoints: 2, prerequisites: ["nec_l4"], position: P(0, 3), type: "passive" },
-      { id: "nec_l8", name: "Undying Will", description: "When you die, you have a 30% chance per point to return as a lich for 10s.", maxPoints: 2, prerequisites: ["nec_l5"], position: P(1, 3), type: "passive" },
-      { id: "nec_l9", name: "Siphon Life", description: "Each of your undead passively drains life from nearby enemies. Drain +5% per point.", maxPoints: 3, prerequisites: ["nec_l6"], position: P(2, 3), type: "passive" },
-      { id: "nec_l10", name: "Lich Form", description: "Transform into a Lich for 20s, empowering all undead and spells massively.", maxPoints: 1, prerequisites: ["nec_l7", "nec_l8"], position: P(0, 4), type: "choice" },
-    ]),
-    rightTree: nodes([
-      { id: "nec_r1", name: "Plague Strike", description: "Infects the target with disease, dealing damage over 12s. Damage +20% per point.", maxPoints: 3, prerequisites: [], position: P(1, 0), type: "active" },
-      { id: "nec_r2", name: "Virulent Plague", description: "Spreads disease to nearby enemies on death of infected target. Radius +5yds per point.", maxPoints: 2, prerequisites: ["nec_r1"], position: P(0, 1), type: "passive" },
-      { id: "nec_r3", name: "Bone Spear", description: "Fires a shard of bone that pierces through multiple enemies. Damage +20% per point.", maxPoints: 3, prerequisites: ["nec_r1"], position: P(2, 1), type: "active" },
-      { id: "nec_r4", name: "Epidemic", description: "Accelerates the spread of your diseases. Duration +3s per point.", maxPoints: 2, prerequisites: ["nec_r2"], position: P(0, 2), type: "passive" },
-      { id: "nec_r5", name: "Frozen Tomb", description: "Encase an enemy in frost, stunning for 3s. Cooldown -2s per point.", maxPoints: 3, prerequisites: ["nec_r2", "nec_r3"], position: P(1, 2), type: "active" },
-      { id: "nec_r6", name: "Bone Prison", description: "Trap an enemy in a cage of bones for 5s. Damage while trapped +15% per point.", maxPoints: 2, prerequisites: ["nec_r3"], position: P(2, 2), type: "active" },
-      { id: "nec_r7", name: "Creeping Death", description: "Your diseases deal damage 20% faster per point.", maxPoints: 2, prerequisites: ["nec_r4"], position: P(0, 3), type: "passive" },
-      { id: "nec_r8", name: "Wither", description: "Permanently reduces an enemy's movement speed by 20% per point.", maxPoints: 2, prerequisites: ["nec_r5"], position: P(1, 3), type: "active" },
-      { id: "nec_r9", name: "Death Nova", description: "Release a wave of death energy in all directions. Damage +25% per point.", maxPoints: 3, prerequisites: ["nec_r6"], position: P(2, 3), type: "active" },
-      { id: "nec_r10", name: "Death and Decay", description: "Desecrate the ground beneath enemies for massive ongoing damage. Duration +3s per point.", maxPoints: 1, prerequisites: ["nec_r8", "nec_r9"], position: P(2, 4), type: "choice" },
-    ]),
-  };
+// ─── PROCEDURAL TALENT NAME GENERATOR ───────────────────────────────────────
+// Each spec defines theme tokens. Talents are generated by combining tokens.
+type SpecTheme = {
+  signature: string[];  // 6 unique signature ability names (one per "key" slot)
+  prefix: string[];     // adjective prefixes ("Improved", "Twin", "Burning")
+  noun: string[];       // theme nouns ("Flame", "Light", "Frost")
+  verb: string[];       // ability verbs ("Strike", "Burst", "Cleave")
+  damageType: string;   // "Holy", "Shadow", "Frost", etc.
+  capstoneName: string; // single capstone name
+  capstoneDesc: string; // capstone description
+};
+
+function genTalent(theme: SpecTheme, idx: number, isLeft: boolean): TalentDef {
+  // Slot 0,1,2 = roots (use signature names)
+  // Slot 21 = capstone
+  // Others = procedural
+  if (idx === 21) {
+    return { name: theme.capstoneName, description: theme.capstoneDesc };
+  }
+  if (idx < 3 && theme.signature[idx]) {
+    const sig = theme.signature[idx + (isLeft ? 0 : 3)] ?? theme.signature[idx];
+    return {
+      name: sig,
+      description: `A signature ${theme.damageType.toLowerCase()} ability of this path. Effectiveness +15% per point.`,
+    };
+  }
+
+  const seed = idx * (isLeft ? 7 : 13);
+  const pre = theme.prefix[seed % theme.prefix.length];
+  const noun = theme.noun[(seed * 3) % theme.noun.length];
+  const verb = theme.verb[(seed * 5) % theme.verb.length];
+
+  // Mix three styles of names
+  const style = idx % 3;
+  let name: string;
+  if (style === 0) name = `${pre} ${noun}`;
+  else if (style === 1) name = `${noun} ${verb}`;
+  else name = `${pre} ${verb}`;
+
+  // Description varies by node type
+  const nodeType = NODE_TYPES[idx];
+  let desc: string;
+  if (nodeType === "passive") {
+    desc = `Empowers your ${theme.damageType} abilities, increasing their potency. Bonus +5% per point.`;
+  } else if (nodeType === "choice") {
+    desc = `Choose to either deal extra ${theme.damageType} damage or reduce damage taken by allies near you.`;
+  } else {
+    desc = `Unleash a ${theme.damageType.toLowerCase()} ${verb.toLowerCase()} on your foes. Damage +10% per point.`;
+  }
+  return { name, description: desc };
 }
 
-// ─── PYROMANCER ─────────────────────────────────────────────────────────────
-function buildPyromancerTree(): TalentTree {
-  return {
-    class: "Pyromancer",
-    classId: "pyromancer",
-    maxPoints: 61,
-    color: "#FF4500",
-    leftTree: nodes([
-      { id: "py_l1", name: "Fireball", description: "Launch a ball of fire dealing heavy damage. Damage +15% per point.", maxPoints: 3, prerequisites: [], position: P(1, 0), type: "active" },
-      { id: "py_l2", name: "Ignite", description: "Burn targets for additional fire damage over 8s. Damage +20% per point.", maxPoints: 3, prerequisites: ["py_l1"], position: P(0, 1), type: "passive" },
-      { id: "py_l3", name: "Molten Armor", description: "Cloak yourself in fire that deals damage to attackers. Damage +10% per point.", maxPoints: 2, prerequisites: ["py_l1"], position: P(2, 1), type: "active" },
-      { id: "py_l4", name: "Pyroclasm", description: "Your fire crits have a chance to launch an additional Fireball. Chance +15% per point.", maxPoints: 3, prerequisites: ["py_l2"], position: P(0, 2), type: "passive" },
-      { id: "py_l5", name: "Scorched Earth", description: "Leave burning ground where you walk for 8s. Damage +15% per point.", maxPoints: 2, prerequisites: ["py_l2", "py_l3"], position: P(1, 2), type: "active" },
-      { id: "py_l6", name: "Phoenix Rising", description: "Once per minute, rise from death with 30% HP. HP bonus +10% per point.", maxPoints: 2, prerequisites: ["py_l3"], position: P(2, 2), type: "passive" },
-      { id: "py_l7", name: "Inferno", description: "Unleash a sustained cone of fire. Damage +20% per point.", maxPoints: 3, prerequisites: ["py_l4"], position: P(0, 3), type: "active" },
-      { id: "py_l8", name: "Heat Wave", description: "Pulse fire in all directions every 3s. Damage +15% per point.", maxPoints: 2, prerequisites: ["py_l5"], position: P(1, 3), type: "active" },
-      { id: "py_l9", name: "Magma Shield", description: "Absorb damage and release it as fire AoE. Absorption +15% per point.", maxPoints: 2, prerequisites: ["py_l6"], position: P(2, 3), type: "active" },
-      { id: "py_l10", name: "Solar Wrath", description: "Call down a pillar of solar fire dealing devastating damage.", maxPoints: 1, prerequisites: ["py_l7", "py_l8"], position: P(0, 4), type: "choice" },
-    ]),
-    rightTree: nodes([
-      { id: "py_r1", name: "Flame Surge", description: "Surge forward leaving a trail of fire. Damage +15% per point.", maxPoints: 3, prerequisites: [], position: P(1, 0), type: "active" },
-      { id: "py_r2", name: "Combustion", description: "Increases critical strike chance for fire spells by 10% per point for 10s.", maxPoints: 3, prerequisites: ["py_r1"], position: P(0, 1), type: "active" },
-      { id: "py_r3", name: "Dragon's Breath", description: "Breathe fire in a wide cone scorching everything. Damage +20% per point.", maxPoints: 3, prerequisites: ["py_r1"], position: P(2, 1), type: "active" },
-      { id: "py_r4", name: "Hot Streak", description: "Two consecutive crits make next fire spell instant. Proc chance +10% per point.", maxPoints: 2, prerequisites: ["py_r2"], position: P(0, 2), type: "passive" },
-      { id: "py_r5", name: "Burning Ember", description: "Build embers through fire spells and consume for massive damage. Damage +25% per point.", maxPoints: 3, prerequisites: ["py_r2", "py_r3"], position: P(1, 2), type: "active" },
-      { id: "py_r6", name: "Lava Burst", description: "Hurl a lava burst guaranteed to crit on burning targets. Damage +20% per point.", maxPoints: 2, prerequisites: ["py_r3"], position: P(2, 2), type: "active" },
-      { id: "py_r7", name: "Searing Bolt", description: "Rapid-fire bolts of fire. Bolt count +1 per point.", maxPoints: 2, prerequisites: ["py_r4"], position: P(0, 3), type: "active" },
-      { id: "py_r8", name: "Firestorm", description: "Drop a storm of fire from above dealing AoE damage. Duration +2s per point.", maxPoints: 3, prerequisites: ["py_r5"], position: P(1, 3), type: "active" },
-      { id: "py_r9", name: "Conflagrate", description: "Instantly consume your Ignite, dealing all remaining damage at once.", maxPoints: 2, prerequisites: ["py_r6"], position: P(2, 3), type: "active" },
-      { id: "py_r10", name: "Meteor", description: "Call down a devastating meteor strike. Damage +30% per point.", maxPoints: 1, prerequisites: ["py_r8", "py_r9"], position: P(2, 4), type: "choice" },
-    ]),
-  };
-}
-
-// ─── GENERIC DUAL-TREE BUILDER ───────────────────────────────────────────────
-// Used for remaining classes with class-themed talent names
-function buildGenericDualTree(
-  id: string,
+function buildSpecTreeFromTheme(
+  classId: string,
+  specId: string,
   className: string,
   color: string,
-  leftTalents: Array<{ name: string; description: string; maxPoints: number; type: "passive" | "active" | "choice" | "capstone" }>,
-  rightTalents: Array<{ name: string; description: string; maxPoints: number; type: "passive" | "active" | "choice" | "capstone" }>,
+  specName: string,
+  leftTreeName: string,
+  rightTreeName: string,
+  leftTheme: SpecTheme,
+  rightTheme: SpecTheme,
 ): TalentTree {
-  // Standard 10-node diamond layout
-  const leftPositions = [P(1, 0), P(0, 1), P(2, 1), P(0, 2), P(1, 2), P(2, 2), P(0, 3), P(1, 3), P(2, 3), P(1, 4)];
-  const leftPrereqs: string[][] = [[], ["l1"], ["l1"], ["l2"], ["l2", "l3"], ["l3"], ["l4"], ["l5"], ["l6"], ["l7", "l8"]];
-  const rightPositions = [P(1, 0), P(0, 1), P(2, 1), P(0, 2), P(1, 2), P(2, 2), P(0, 3), P(1, 3), P(2, 3), P(1, 4)];
-  const rightPrereqs: string[][] = [[], ["r1"], ["r1"], ["r2"], ["r2", "r3"], ["r3"], ["r4"], ["r5"], ["r6"], ["r7", "r8"]];
+  const leftTalents: TalentDef[] = Array.from({ length: 22 }, (_, i) => genTalent(leftTheme, i, true));
+  const rightTalents: TalentDef[] = Array.from({ length: 22 }, (_, i) => genTalent(rightTheme, i, false));
 
   return {
     class: className,
-    classId: id,
+    classId,
+    specId,
+    specName,
+    leftTreeName,
+    rightTreeName,
     maxPoints: 61,
     color,
-    leftTree: nodes(
-      leftTalents.slice(0, 10).map((t, i) => ({
-        id: `${id}_l${i + 1}`,
-        name: t.name,
-        description: t.description,
-        maxPoints: t.maxPoints,
-        prerequisites: leftPrereqs[i].map((p) => `${id}_${p}`),
-        position: leftPositions[i],
-        type: t.type,
-      })),
-    ),
-    rightTree: nodes(
-      rightTalents.slice(0, 10).map((t, i) => ({
-        id: `${id}_r${i + 1}`,
-        name: t.name,
-        description: t.description,
-        maxPoints: t.maxPoints,
-        prerequisites: rightPrereqs[i].map((p) => `${id}_${p}`),
-        position: rightPositions[i],
-        type: t.type,
-      })),
-    ),
+    leftTree: buildDeepTree(`${classId}_${specId}_l`, leftTalents),
+    rightTree: buildDeepTree(`${classId}_${specId}_r`, rightTalents),
   };
 }
 
-// ─── KNIGHT OF XOROTH ────────────────────────────────────────────────────────
-// Custom Dragonflight-style layout: 3-column grid converging to a capstone.
-// Left tree (Felsworn path): horizontal root row → 3 parallel columns → capstone
-// Right tree (Xoroth Slayer path): single root → fan-out → converge to capstone
-function buildKnightOfXorothTree(): TalentTree {
-  const C = "#8B0000";
-  const id = "knightofxoroth";
+// ─── PER-CLASS SPEC CONFIGURATIONS ──────────────────────────────────────────
+type SpecConfig = {
+  id: string;
+  name: string;
+  role: SpecMeta["role"];
+  attribute: SpecMeta["attribute"];
+  complexity: SpecMeta["complexity"];
+  description: string;
+  sampleSpells: string[];
+  leftTreeName: string;
+  rightTreeName: string;
+  leftTheme: SpecTheme;
+  rightTheme: SpecTheme;
+};
 
-  // Custom position helper — not using P() so we can match the blueprint exactly
-  const LP = (x: number, y: number) => ({ x, y });
+// Themed spec templates per class
+const CLASS_SPECS: Record<string, SpecConfig[]> = {
+  // ─── SUN CLERIC ──────────────────────────────────────────────────────────
+  // Hand-crafted from screenshots — has 4 specs as shown in CoA
+  suncleric: [
+    {
+      id: "piety",
+      name: "Piety",
+      role: "damage",
+      attribute: "intellect",
+      complexity: "advanced",
+      description: "Wield sanctified flame and holy wrath in tandem, searing corruption away and reducing enemies into purified ash.",
+      sampleSpells: ["Solar Invocation", "Cleansing Pyre", "Radiant Wrath"],
+      leftTreeName: "Path of Sun Cleric",
+      rightTreeName: "Path of Piety",
+      leftTheme: {
+        signature: ["Solar Invocation: Resplendence", "Illumination", "An'she's Grace", "Sunfire Ward", "Radiant Focus", "Solar Flare"],
+        prefix: ["Radiant", "Sanctified", "Burning", "Inner", "Searing", "Glorious"],
+        noun: ["Light", "Flame", "Sunfire", "Radiance", "Halo", "Pyre"],
+        verb: ["Strike", "Cleanse", "Ignite", "Smite", "Burst", "Rebuke"],
+        damageType: "Holy",
+        capstoneName: "Avatar of An'she",
+        capstoneDesc: "Become an avatar of An'she for 20s. Your spells cost no mana, your critical strike chance increases by 30%, and your healing and damage are increased by 25%. 3 min cooldown.",
+      },
+      rightTheme: {
+        signature: ["Cleansing Pyre", "Sun's Embrace", "Daybreak", "Searing Ray", "Solar Wind", "Pillar of Light"],
+        prefix: ["Pure", "Cleansing", "Daybreak", "Sunlit", "Fervent", "Hallowed"],
+        noun: ["Fire", "Wrath", "Beam", "Flare", "Warmth", "Crucible"],
+        verb: ["Burn", "Purify", "Smite", "Surge", "Ignite", "Banish"],
+        damageType: "Holy",
+        capstoneName: "Eternal Conflagration",
+        capstoneDesc: "Erupt with eternal solar flame for 20s, dealing massive Holy damage to all enemies near you and burning corruption from allies. 3 min cooldown.",
+      },
+    },
+    {
+      id: "valkyrie",
+      name: "Valkyrie",
+      role: "damage",
+      attribute: "strength",
+      complexity: "normal",
+      description: "Become the Light's wrath made flesh, carving through foes with a greatblade in each hand as a storm of merciless holy steel.",
+      sampleSpells: ["Glorious Execution", "Heavenly Charge", "Wings of Light"],
+      leftTreeName: "Path of Sun Cleric",
+      rightTreeName: "Path of Valkyrie",
+      leftTheme: {
+        signature: ["Solar Invocation: Resplendence", "Illumination", "An'she's Grace", "Sunfire Ward", "Radiant Focus", "Solar Flare"],
+        prefix: ["Radiant", "Sanctified", "Burning", "Inner", "Searing", "Glorious"],
+        noun: ["Light", "Flame", "Sunfire", "Radiance", "Halo", "Pyre"],
+        verb: ["Strike", "Cleanse", "Ignite", "Smite", "Burst", "Rebuke"],
+        damageType: "Holy",
+        capstoneName: "Avatar of An'she",
+        capstoneDesc: "Become an avatar of An'she for 20s. Your spells cost no mana, your critical strike chance increases by 30%, and your healing and damage are increased by 25%. 3 min cooldown.",
+      },
+      rightTheme: {
+        signature: ["Glorious Execution", "Greatblade Mastery", "Heavenly Charge", "Wings of Light", "Radiant Cleave", "Holy Onslaught"],
+        prefix: ["Heavenly", "Wrathful", "Soaring", "Brutal", "Crusading", "Final"],
+        noun: ["Greatblade", "Wing", "Verdict", "Cadence", "Onslaught", "Aegis"],
+        verb: ["Charge", "Cleave", "Slash", "Execute", "Smite", "Pronounce"],
+        damageType: "Holy",
+        capstoneName: "Aegis of Heaven",
+        capstoneDesc: "Activate a barrier of pure light, absorbing damage equal to 30% of your max health for 10s, and your next 5 attacks deal Holy damage and heal you. 90 sec cooldown.",
+      },
+    },
+    {
+      id: "seraphim",
+      name: "Seraphim",
+      role: "tank",
+      attribute: "stamina",
+      complexity: "intermediate",
+      description: "Swear a radiant oath to guard your allies — becoming a shield bearer that turns the wrath of the sun into impenetrable defense.",
+      sampleSpells: ["Radiant Oath", "Sun Shield", "Holy Bastion"],
+      leftTreeName: "Path of Sun Cleric",
+      rightTreeName: "Path of Seraphim",
+      leftTheme: {
+        signature: ["Solar Invocation: Resplendence", "Illumination", "An'she's Grace", "Sunfire Ward", "Radiant Focus", "Solar Flare"],
+        prefix: ["Radiant", "Sanctified", "Burning", "Inner", "Searing", "Glorious"],
+        noun: ["Light", "Flame", "Sunfire", "Radiance", "Halo", "Pyre"],
+        verb: ["Strike", "Cleanse", "Ignite", "Smite", "Burst", "Rebuke"],
+        damageType: "Holy",
+        capstoneName: "Avatar of An'she",
+        capstoneDesc: "Become an avatar of An'she for 20s. Your spells cost no mana, your critical strike chance increases by 30%, and your healing and damage are increased by 25%. 3 min cooldown.",
+      },
+      rightTheme: {
+        signature: ["Radiant Oath", "Sun Shield", "Aegis of Faith", "Holy Bastion", "Unwavering Resolve", "Pillar of Conviction"],
+        prefix: ["Stalwart", "Unbreakable", "Hallowed", "Faithful", "Indomitable", "Sanctified"],
+        noun: ["Bastion", "Aegis", "Bulwark", "Shield", "Pillar", "Vow"],
+        verb: ["Guard", "Block", "Endure", "Withstand", "Repel", "Defend"],
+        damageType: "Holy",
+        capstoneName: "Avatar of Faith",
+        capstoneDesc: "Become an unbreakable avatar of faith for 20s — damage taken is reduced by 50%, you cannot be stunned, and reflected damage scales with your missing health. 3 min cooldown.",
+      },
+    },
+    {
+      id: "blessings",
+      name: "Blessings",
+      role: "healer",
+      attribute: "intellect",
+      complexity: "intermediate",
+      description: "Bathe your companions in radiant sunlight, mending grievous wounds and empowering them with steadfast hope and divine blessings.",
+      sampleSpells: ["Sun's Mercy", "Blessing of Dawn", "Resurrection of An'she"],
+      leftTreeName: "Path of Sun Cleric",
+      rightTreeName: "Path of Blessings",
+      leftTheme: {
+        signature: ["Solar Invocation: Resplendence", "Illumination", "An'she's Grace", "Sunfire Ward", "Radiant Focus", "Solar Flare"],
+        prefix: ["Radiant", "Sanctified", "Burning", "Inner", "Searing", "Glorious"],
+        noun: ["Light", "Flame", "Sunfire", "Radiance", "Halo", "Pyre"],
+        verb: ["Strike", "Cleanse", "Ignite", "Smite", "Burst", "Rebuke"],
+        damageType: "Holy",
+        capstoneName: "Avatar of An'she",
+        capstoneDesc: "Become an avatar of An'she for 20s. Your spells cost no mana, your critical strike chance increases by 30%, and your healing and damage are increased by 25%. 3 min cooldown.",
+      },
+      rightTheme: {
+        signature: ["Sun's Mercy", "Blessing of Dawn", "Mending Light", "Sanctuary", "Beacon of Hope", "Resurrection of An'she"],
+        prefix: ["Blessed", "Tender", "Gentle", "Hallowed", "Reverent", "Boundless"],
+        noun: ["Mercy", "Hope", "Sanctuary", "Beacon", "Salve", "Grace"],
+        verb: ["Heal", "Mend", "Restore", "Bless", "Soothe", "Renew"],
+        damageType: "Holy",
+        capstoneName: "Resurrection of An'she",
+        capstoneDesc: "Channel An'she's eternal light. All allies within 40 yards are fully healed, freed of all harmful effects, and gain immunity to fatal damage for 8s. 5 min cooldown.",
+      },
+    },
+  ],
+};
 
-  const leftTree: TalentNode[] = nodes([
-    // Top row — sequential chain (n1→n2→n3)
-    { id: "kox_l1", name: "Fel Strike",        description: "Infuse your blade with fel energy, each swing dealing bonus fire damage. Damage +15% per point.",        maxPoints: 3, prerequisites: [],           position: LP(120, 60),  type: "active"   },
-    { id: "kox_l2", name: "Demonic Empowerment",description: "Call upon demonic power for 8s, increasing all damage dealt. Power +10% per point.",                    maxPoints: 2, prerequisites: ["kox_l1"],   position: LP(240, 60),  type: "active"   },
-    { id: "kox_l3", name: "Xorothian Steel",    description: "Your armor is forged in infernal steel, reducing all damage taken. Reduction +5% per point.",           maxPoints: 2, prerequisites: ["kox_l2"],   position: LP(360, 60),  type: "passive"  },
-    // Middle row — each column branches from its root above
-    { id: "kox_l4", name: "Fel Cleave",         description: "A sweeping fel-charged cleave that strikes all enemies in front. Damage +20% per point.",                maxPoints: 3, prerequisites: ["kox_l1"],   position: LP(80,  180), type: "active"   },
-    { id: "kox_l5", name: "Dark Pact",          description: "Sacrifice 15% of your health to massively empower your next ability. Power +15% per point.",             maxPoints: 2, prerequisites: ["kox_l2"],   position: LP(240, 180), type: "active"   },
-    { id: "kox_l6", name: "Infernal Presence",  description: "Your presence radiates searing heat, constantly damaging nearby enemies. DPS +10% per point.",           maxPoints: 3, prerequisites: ["kox_l3"],   position: LP(400, 180), type: "passive"  },
-    // Lower row — flowing from middle
-    { id: "kox_l7", name: "Soul Brand",         description: "Brand an enemy's soul — each action they take deals shadow damage back to them. Damage +10% per point.", maxPoints: 2, prerequisites: ["kox_l4"],   position: LP(80,  300), type: "passive"  },
-    { id: "kox_l8", name: "Chaos Shard",        description: "Hurl a shard of raw chaos energy that bounces between nearby enemies. Hits +1 per point.",               maxPoints: 3, prerequisites: ["kox_l5"],   position: LP(240, 300), type: "active"   },
-    { id: "kox_l9", name: "Fel Storm",          description: "Unleash a vortex of fel energy that tears through all nearby enemies. Damage +20% per point.",           maxPoints: 2, prerequisites: ["kox_l6"],   position: LP(400, 300), type: "active"   },
-    // Capstone — requires all three lower nodes
-    { id: "kox_l10", name: "Felsworn Form",     description: "Transform into a towering Felsworn champion for 20s, dramatically amplifying all fel damage and defense.", maxPoints: 1, prerequisites: ["kox_l7", "kox_l8", "kox_l9"], position: LP(240, 420), type: "capstone" },
-  ]);
+// ─── PROCEDURAL SPEC FACTORY FOR REMAINING CLASSES ──────────────────────────
+// Generates 3 specs per class: Damage / Defense / Mastery, with class-themed naming
+type ClassFlavor = {
+  damageType: string;
+  damageNoun: string[];   // theme nouns for damage spec
+  damageVerb: string[];
+  defenseNoun: string[];  // theme nouns for defense spec
+  defenseVerb: string[];
+  masteryNoun: string[];  // utility/mastery
+  masteryVerb: string[];
+  signaturesA: string[];  // 6 signature ability names — first spec
+  signaturesB: string[];  // 6 signature ability names — second spec
+  signaturesC: string[];  // 6 signature ability names — third spec
+  capstoneA: string;
+  capstoneB: string;
+  capstoneC: string;
+};
 
-  const rightTree: TalentNode[] = nodes([
-    // Single root at center top
-    { id: "kox_r1",  name: "Shadow Brand",      description: "Brand your target with shadow energy, amplifying all damage they take by 15% per point.",               maxPoints: 3, prerequisites: [],                            position: LP(240, 60),  type: "active"   },
-    // Second row — fan out 3 from root
-    { id: "kox_r2",  name: "Demon's Leap",      description: "Leap to a target dealing fel damage and applying Fel Burn for 6s. Damage +20% per point.",              maxPoints: 2, prerequisites: ["kox_r1"],                    position: LP(140, 130), type: "active"   },
-    { id: "kox_r3",  name: "Shadow Rend",        description: "Rend shadow energy from a target, dealing massive burst damage. Damage +25% per point.",                maxPoints: 3, prerequisites: ["kox_r1"],                    position: LP(340, 130), type: "active"   },
-    { id: "kox_r4",  name: "Pit Pact",           description: "Form a pact with the Pit — your health regenerates in combat. Regen +2% max HP per point per 5s.",     maxPoints: 2, prerequisites: ["kox_r1"],                    position: LP(240, 200), type: "passive"  },
-    // Third row — branches from second
-    { id: "kox_r5",  name: "Infernal Descent",   description: "After leaping, your next 3 attacks deal double damage. Duration +1 attack per point.",                  maxPoints: 2, prerequisites: ["kox_r2"],                    position: LP(120, 270), type: "passive"  },
-    { id: "kox_r6",  name: "Void Shred",         description: "Shred a target's defenses, reducing armor and dealing shadow damage. Reduction +10% per point.",        maxPoints: 3, prerequisites: ["kox_r3"],                    position: LP(360, 270), type: "active"   },
-    { id: "kox_r7",  name: "Legion Seal",        description: "The Legion's seal empowers every attack with bonus shadow damage. Damage +8% per point per hit.",       maxPoints: 2, prerequisites: ["kox_r4"],                    position: LP(240, 310), type: "passive"  },
-    // Fourth row — converging
-    { id: "kox_r8",  name: "Fel Sacrifice",      description: "Sacrifice demonic energy to deal a single devastating strike. Damage +30% per point.",                  maxPoints: 2, prerequisites: ["kox_r5"],                    position: LP(140, 380), type: "active"   },
-    { id: "kox_r9",  name: "Doom Pronouncement", description: "Pronounce doom on a target — after 5s they take catastrophic shadow damage. Damage +25% per point.",    maxPoints: 2, prerequisites: ["kox_r6"],                    position: LP(340, 380), type: "active"   },
-    // Capstone — requires center + both outer lower nodes
-    { id: "kox_r10", name: "Knight of Xoroth",   description: "Fully embrace your dark pact — become a true Knight of Xoroth for 30s, unleashing devastating demonic power on all nearby enemies.", maxPoints: 1, prerequisites: ["kox_r7", "kox_r8", "kox_r9"], position: LP(240, 480), type: "capstone" },
-  ]);
+const CLASS_FLAVORS: Record<string, ClassFlavor> = {
+  necromancer: {
+    damageType: "Shadow",
+    damageNoun: ["Bone", "Plague", "Death", "Soul", "Coffin", "Tomb"],
+    damageVerb: ["Drain", "Strike", "Cast", "Hurl", "Decay", "Curse"],
+    defenseNoun: ["Bone Wall", "Crypt", "Shroud", "Phylactery", "Pact", "Grave"],
+    defenseVerb: ["Ward", "Shield", "Bind", "Anchor", "Resurrect", "Drain"],
+    masteryNoun: ["Lich", "Skeleton", "Familiar", "Apparition", "Pet", "Minion"],
+    masteryVerb: ["Raise", "Command", "Empower", "Summon", "Drain", "Channel"],
+    signaturesA: ["Death Coil", "Bone Spear", "Plague Strike", "Corpse Explosion", "Wither", "Soul Harvest"],
+    signaturesB: ["Bone Shield", "Dark Pact", "Frozen Tomb", "Vampiric Aura", "Death's Embrace", "Crypt Guard"],
+    signaturesC: ["Raise Dead", "Skeletal Army", "Lich Form", "Death and Decay", "Army of the Dead", "Soul Reaper"],
+    capstoneA: "Lich Form",
+    capstoneB: "Bone Sovereign",
+    capstoneC: "Army of the Dead",
+  },
+  pyromancer: {
+    damageType: "Fire",
+    damageNoun: ["Flame", "Ember", "Blaze", "Pyre", "Inferno", "Solar Fire"],
+    damageVerb: ["Burn", "Ignite", "Hurl", "Erupt", "Scorch", "Conflagrate"],
+    defenseNoun: ["Magma Shield", "Ember Aura", "Phoenix", "Cinder Ward", "Heat Aura", "Pyre"],
+    defenseVerb: ["Ward", "Reflect", "Absorb", "Rebirth", "Endure", "Cinder"],
+    masteryNoun: ["Phoenix", "Ember", "Combustion", "Flame Spirit", "Fire Elemental", "Solar Wisp"],
+    masteryVerb: ["Empower", "Channel", "Bind", "Summon", "Awaken", "Ignite"],
+    signaturesA: ["Fireball", "Pyroblast", "Combustion", "Flame Surge", "Lava Burst", "Searing Bolt"],
+    signaturesB: ["Molten Armor", "Phoenix Rising", "Magma Shield", "Cinder Ward", "Heat Wave", "Conflagrate"],
+    signaturesC: ["Inferno", "Meteor", "Solar Wrath", "Firestorm", "Burning Ember", "Dragon's Breath"],
+    capstoneA: "Solar Wrath",
+    capstoneB: "Phoenix Resurrection",
+    capstoneC: "Meteor Storm",
+  },
+  cultist: {
+    damageType: "Shadow",
+    damageNoun: ["Whisper", "Madness", "Tendril", "Void", "Eldritch", "Maw"],
+    damageVerb: ["Whisper", "Madden", "Crush", "Devour", "Curse", "Tear"],
+    defenseNoun: ["Eldritch Ward", "Void Shroud", "Forbidden Pact", "Aura of Dread", "Madness", "Eye"],
+    defenseVerb: ["Ward", "Shroud", "Bind", "Hex", "Drain", "Enthrall"],
+    masteryNoun: ["Cultist", "Tendril", "Apparition", "Familiar", "Brood", "Disciple"],
+    masteryVerb: ["Summon", "Bind", "Command", "Empower", "Sacrifice", "Hex"],
+    signaturesA: ["Shadow Bolt", "Void Grasp", "Soul Drain", "Forbidden Knowledge", "Curse of Weakness", "Wrath of the Old Gods"],
+    signaturesB: ["Eldritch Ward", "Aura of Dread", "Void Shroud", "Binding Chains", "Vile Tendrils", "Enthrall"],
+    signaturesC: ["Dark Ritual", "Madness", "Hex", "Psychic Scream", "The Maw Opens", "Ascendance"],
+    capstoneA: "Ascendance",
+    capstoneB: "Eldritch Pact",
+    capstoneC: "The Maw Opens",
+  },
+  starcaller: {
+    damageType: "Arcane",
+    damageNoun: ["Star", "Comet", "Moonbeam", "Astral", "Constellation", "Eclipse"],
+    damageVerb: ["Strike", "Cast", "Hurl", "Channel", "Ignite", "Pierce"],
+    defenseNoun: ["Astral Shield", "Moonlight", "Star Halo", "Eclipse Veil", "Stellar Aegis", "Veil"],
+    defenseVerb: ["Ward", "Shroud", "Veil", "Reflect", "Absorb", "Bind"],
+    masteryNoun: ["Starlight", "Moonlight", "Eclipse", "Constellation", "Wisp", "Owlbear"],
+    masteryVerb: ["Empower", "Channel", "Awaken", "Summon", "Align", "Bless"],
+    signaturesA: ["Starfall", "Lunar Strike", "Moonbeam", "Nova", "Comet Storm", "Astral Bolt"],
+    signaturesB: ["Astral Form", "Stellar Ward", "Moonlight Veil", "Celestial Alignment", "Star Halo", "Constellation Guard"],
+    signaturesC: ["Eclipse", "Solar Wrath", "Cosmic Rite", "Galactic Form", "Heavenly Tide", "Cosmic Bloom"],
+    capstoneA: "Celestial Alignment",
+    capstoneB: "Stellar Aegis",
+    capstoneC: "Galactic Form",
+  },
+  tinker: {
+    damageType: "Mechanical",
+    damageNoun: ["Rocket", "Flamethrower", "Mortar", "Cannon", "Drone", "Gear"],
+    damageVerb: ["Fire", "Launch", "Detonate", "Crank", "Bombard", "Rivet"],
+    defenseNoun: ["Plate Armor", "Force Field", "Bulwark", "Power Suit", "Engineered", "Repair Kit"],
+    defenseVerb: ["Engineer", "Reinforce", "Power", "Bolt", "Repair", "Plate"],
+    masteryNoun: ["Drone", "Turret", "Robot", "Gadget", "Wrench", "Tool"],
+    masteryVerb: ["Construct", "Deploy", "Activate", "Empower", "Tinker", "Build"],
+    signaturesA: ["Rocket Launch", "Flame Cannon", "Mortar Volley", "Goblin Bomb", "Tinker's Gambit", "Hand Cannon"],
+    signaturesB: ["Power Suit", "Force Bolt", "Repair Bot", "Plated Vanguard", "Auto-Riveter", "Defensive Subroutine"],
+    signaturesC: ["Battle Drone", "Mechanical Squire", "Recombobulator", "Gadget Belt", "Mechanical Mastery", "Steam Surge"],
+    capstoneA: "Mecha-Tank Form",
+    capstoneB: "Engineered Salvation",
+    capstoneC: "Iron Star",
+  },
+  runemaster: {
+    damageType: "Rune",
+    damageNoun: ["Rune", "Sigil", "Glyph", "Stone", "Etching", "Mark"],
+    damageVerb: ["Carve", "Inscribe", "Burn", "Strike", "Etch", "Brand"],
+    defenseNoun: ["Stone Skin", "Rune Shield", "Etched Aegis", "Earthbond", "Granite", "Bedrock"],
+    defenseVerb: ["Inscribe", "Anchor", "Etch", "Reinforce", "Bind", "Stone"],
+    masteryNoun: ["Rune", "Glyph", "Sigil", "Mark", "Etching", "Lore"],
+    masteryVerb: ["Empower", "Channel", "Inscribe", "Awaken", "Activate", "Read"],
+    signaturesA: ["Burning Rune", "Sigil of Wrath", "Etched Strike", "Stone Spear", "Rune Volley", "Mark of Ruin"],
+    signaturesB: ["Stoneskin", "Earthbond", "Granite Aegis", "Sigil Wall", "Etched Aegis", "Anchor Rune"],
+    signaturesC: ["Rune of Mastery", "Glyph of Power", "Sigil of Renewal", "Mark of Vigor", "Lore of the Elders", "Awakened Rune"],
+    capstoneA: "Sigil of Annihilation",
+    capstoneB: "Mountain Form",
+    capstoneC: "Rune Ascendance",
+  },
+  primalist: {
+    damageType: "Nature",
+    damageNoun: ["Thorn", "Vine", "Storm", "Quake", "Tide", "Sap"],
+    damageVerb: ["Strike", "Lash", "Erupt", "Surge", "Crush", "Tear"],
+    defenseNoun: ["Bark", "Stone Skin", "Earthen Aegis", "Tideguard", "Iron Bark", "Wildcall"],
+    defenseVerb: ["Bark", "Anchor", "Heal", "Ward", "Surge", "Renew"],
+    masteryNoun: ["Spirit", "Wolf", "Bear", "Treant", "Wildcall", "Totem"],
+    masteryVerb: ["Summon", "Awaken", "Bond", "Channel", "Empower", "Speak"],
+    signaturesA: ["Thornlash", "Stoneblade", "Tidal Wave", "Quake", "Wind Slash", "Wildfire"],
+    signaturesB: ["Iron Bark", "Earthen Aegis", "Tideguard", "Stone Skin", "Wildcall", "Verdant Pact"],
+    signaturesC: ["Wolf Spirit", "Treant Form", "Spirit Walk", "Bestial Wrath", "Primal Awakening", "Bear Form"],
+    capstoneA: "Avatar of Storm",
+    capstoneB: "Living Mountain",
+    capstoneC: "Primal Ascension",
+  },
+  chronomancer: {
+    damageType: "Arcane",
+    damageNoun: ["Hourglass", "Time", "Past", "Future", "Echo", "Stutter"],
+    damageVerb: ["Rewind", "Echo", "Quicken", "Slow", "Halt", "Erase"],
+    defenseNoun: ["Time Shield", "Echo Veil", "Stasis Field", "Chrono Ward", "Hourglass", "Past Self"],
+    defenseVerb: ["Rewind", "Halt", "Stasis", "Echo", "Veil", "Anchor"],
+    masteryNoun: ["Echo", "Past Self", "Future Self", "Chronoshard", "Hourglass", "Loop"],
+    masteryVerb: ["Echo", "Loop", "Quicken", "Channel", "Anchor", "Rewind"],
+    signaturesA: ["Time Bolt", "Hourglass Strike", "Echo Shot", "Stutter", "Chrono Spear", "Final Echo"],
+    signaturesB: ["Stasis Field", "Time Shield", "Chrono Ward", "Echo Veil", "Past Self", "Hourglass"],
+    signaturesC: ["Time Lord", "Loop", "Echo Form", "Quicken", "Final Hour", "Time Walker"],
+    capstoneA: "Time Lord",
+    capstoneB: "Eternal Stasis",
+    capstoneC: "Recursion",
+  },
+  reaper: {
+    damageType: "Shadow",
+    damageNoun: ["Scythe", "Sickle", "Reap", "Soul", "Harvest", "Black Blade"],
+    damageVerb: ["Reap", "Slash", "Harvest", "Cleave", "Sever", "Behead"],
+    defenseNoun: ["Shroud", "Phantom Cloak", "Veil", "Soul Skin", "Wraith Form", "Phantom"],
+    defenseVerb: ["Veil", "Shroud", "Phase", "Wraith", "Drain", "Phantom"],
+    masteryNoun: ["Wraith", "Soul", "Phantom", "Shade", "Spectre", "Reaping"],
+    masteryVerb: ["Reap", "Empower", "Channel", "Bind", "Harvest", "Awaken"],
+    signaturesA: ["Soul Reap", "Death Slash", "Phantom Strike", "Reaper's Mark", "Black Sickle", "Sever"],
+    signaturesB: ["Wraith Form", "Phantom Veil", "Soul Skin", "Shroud", "Phase Step", "Death Pact"],
+    signaturesC: ["Soul Harvest", "Reap and Sow", "Death's Embrace", "Final Reaping", "Reaper's Call", "Specter"],
+    capstoneA: "Reaper's Embrace",
+    capstoneB: "Wraith Form",
+    capstoneC: "Soul Harvest",
+  },
+  guardian: {
+    damageType: "Holy",
+    damageNoun: ["Hammer", "Shield Bash", "Smite", "Wrath", "Verdict", "Crusader"],
+    damageVerb: ["Bash", "Smite", "Strike", "Hammer", "Cleave", "Pummel"],
+    defenseNoun: ["Bulwark", "Aegis", "Shield Wall", "Bastion", "Sanctuary", "Iron Will"],
+    defenseVerb: ["Guard", "Block", "Withstand", "Defend", "Protect", "Anchor"],
+    masteryNoun: ["Aura", "Blessing", "Sanctuary", "Watch", "Vigil", "Standard"],
+    masteryVerb: ["Bless", "Watch", "Protect", "Anchor", "Inspire", "Lead"],
+    signaturesA: ["Holy Hammer", "Crusader Strike", "Divine Wrath", "Avenger's Verdict", "Glorious Bash", "Smite"],
+    signaturesB: ["Shield Wall", "Bulwark", "Sanctuary", "Iron Will", "Bastion", "Last Stand"],
+    signaturesC: ["Aura of Vigor", "Blessing of Light", "Holy Standard", "Vigilance", "Inspiration", "Watcher's Eye"],
+    capstoneA: "Avenging Wrath",
+    capstoneB: "Eternal Bulwark",
+    capstoneC: "Beacon of Light",
+  },
+  monk: {
+    damageType: "Physical",
+    damageNoun: ["Fist", "Palm", "Roundhouse", "Strike", "Blow", "Chi"],
+    damageVerb: ["Strike", "Punch", "Kick", "Tornado", "Sweep", "Sever"],
+    defenseNoun: ["Stance", "Iron Body", "Bamboo Skin", "Calm Mind", "Steel Frame", "Zen"],
+    defenseVerb: ["Stance", "Endure", "Reflect", "Anchor", "Calm", "Withstand"],
+    masteryNoun: ["Chi", "Spirit", "Tiger", "Crane", "Serpent", "Ox"],
+    masteryVerb: ["Channel", "Awaken", "Embrace", "Empower", "Focus", "Meditate"],
+    signaturesA: ["Tiger Palm", "Rising Sun Kick", "Spinning Crane Kick", "Roundhouse", "Blackout Strike", "Chi Burst"],
+    signaturesB: ["Iron Body", "Stagger", "Zen Meditation", "Diffuse Magic", "Bamboo Skin", "Calm Mind"],
+    signaturesC: ["Way of the Tiger", "Way of the Crane", "Way of the Serpent", "Inner Peace", "Spirit Channeling", "Awakening"],
+    capstoneA: "Storm, Earth, and Fire",
+    capstoneB: "Touch of Death",
+    capstoneC: "Inner Awakening",
+  },
+  demonhunter: {
+    damageType: "Chaos",
+    damageNoun: ["Glaive", "Fel Strike", "Demon's Bite", "Chaos Slash", "Fel Burst", "Eye Beam"],
+    damageVerb: ["Slash", "Bite", "Tear", "Rend", "Burn", "Annihilate"],
+    defenseNoun: ["Demon Skin", "Soul Cloak", "Fel Aegis", "Spectral Sight", "Chaos Veil", "Pit Pact"],
+    defenseVerb: ["Skin", "Veil", "Phase", "Soul", "Anchor", "Endure"],
+    masteryNoun: ["Demon", "Imp", "Fel Spirit", "Soul", "Sigil", "Pact"],
+    masteryVerb: ["Summon", "Bind", "Channel", "Empower", "Awaken", "Consume"],
+    signaturesA: ["Eye Beam", "Chaos Strike", "Annihilation", "Demon's Bite", "Fel Rush", "Vengeful Retreat"],
+    signaturesB: ["Demon Spikes", "Soul Cleave", "Spectral Sight", "Pit Pact", "Fel Aegis", "Bulwark of Fel"],
+    signaturesC: ["Metamorphosis", "Sigil of Chains", "Sigil of Flame", "Sigil of Misery", "Demonic Trample", "Last Resort"],
+    capstoneA: "Metamorphosis",
+    capstoneB: "Fel Devastation",
+    capstoneC: "Demon Form",
+  },
+  stormbringer: {
+    damageType: "Lightning",
+    damageNoun: ["Bolt", "Thunder", "Storm", "Tempest", "Surge", "Squall"],
+    damageVerb: ["Strike", "Bolt", "Crash", "Surge", "Rip", "Shock"],
+    defenseNoun: ["Storm Shield", "Lightning Veil", "Tempest Skin", "Wind Wall", "Squall Veil", "Thunder Aegis"],
+    defenseVerb: ["Surge", "Veil", "Anchor", "Withstand", "Reflect", "Endure"],
+    masteryNoun: ["Storm", "Wind", "Tempest", "Lightning", "Thunder", "Cloud"],
+    masteryVerb: ["Channel", "Empower", "Awaken", "Summon", "Surge", "Embrace"],
+    signaturesA: ["Lightning Bolt", "Chain Lightning", "Thunderstorm", "Tempest Surge", "Squall", "Stormstrike"],
+    signaturesB: ["Storm Shield", "Wind Wall", "Lightning Veil", "Tempest Skin", "Squall Veil", "Thunder Aegis"],
+    signaturesC: ["Stormcaller", "Wind Walker", "Tempest Form", "Master of Storms", "Lightning Lord", "Eye of the Storm"],
+    capstoneA: "Tempest Form",
+    capstoneB: "Living Storm",
+    capstoneC: "Eye of the Storm",
+  },
+  witchhunter: {
+    damageType: "Holy",
+    damageNoun: ["Crossbow", "Pistol", "Silver", "Stake", "Whip", "Hammer"],
+    damageVerb: ["Strike", "Shoot", "Pierce", "Burn", "Sanctify", "Banish"],
+    defenseNoun: ["Plate", "Holy Cloak", "Anti-Magic Veil", "Banishing Skin", "Sanctified Plate", "Pious Aegis"],
+    defenseVerb: ["Reflect", "Banish", "Sanctify", "Anchor", "Endure", "Veil"],
+    masteryNoun: ["Holy Mark", "Stake", "Banishing", "Hex Breaker", "Pure Silver", "Inquisition"],
+    masteryVerb: ["Mark", "Banish", "Empower", "Inscribe", "Awaken", "Channel"],
+    signaturesA: ["Holy Bullet", "Sanctified Crossbow", "Banishing Strike", "Silver Stake", "Pious Hammer", "Inquisition"],
+    signaturesB: ["Sanctified Plate", "Anti-Magic Veil", "Pious Aegis", "Holy Cloak", "Stalwart Faith", "Banishing Skin"],
+    signaturesC: ["Hex Breaker", "Heretic Mark", "Holy Trial", "Inquisitor's Eye", "Banishing Brand", "Sanctified Mark"],
+    capstoneA: "Final Banishing",
+    capstoneB: "Sanctified Bastion",
+    capstoneC: "Inquisitor's Wrath",
+  },
+  knightofxoroth: {
+    damageType: "Fel",
+    damageNoun: ["Fel Strike", "Shadow Brand", "Demon's Leap", "Chaos Shard", "Fel Storm", "Soul Brand"],
+    damageVerb: ["Strike", "Slash", "Burn", "Curse", "Rend", "Tear"],
+    defenseNoun: ["Xorothian Steel", "Pit Pact", "Fel Aegis", "Demon Skin", "Infernal Plate", "Legion Seal"],
+    defenseVerb: ["Pact", "Veil", "Anchor", "Reflect", "Withstand", "Endure"],
+    masteryNoun: ["Felsteed", "Demon", "Imp", "Fel Spirit", "Pit Lord", "Sigil"],
+    masteryVerb: ["Summon", "Bind", "Channel", "Empower", "Awaken", "Consume"],
+    signaturesA: ["Fel Strike", "Shadow Brand", "Demon's Leap", "Chaos Shard", "Fel Cleave", "Doom Pronouncement"],
+    signaturesB: ["Xorothian Steel", "Pit Pact", "Legion Seal", "Infernal Presence", "Fel Aegis", "Demon Skin"],
+    signaturesC: ["Felsworn Form", "Demon Form", "Knight of Xoroth", "Pit Lord's Pact", "Fel Empowerment", "Legion Lord"],
+    capstoneA: "Felsworn Form",
+    capstoneB: "Pit Lord's Bulwark",
+    capstoneC: "Knight of Xoroth",
+  },
+  barbarian: {
+    damageType: "Physical",
+    damageNoun: ["Axe", "Cleaver", "Fury", "Berserker", "Whirlwind", "Carnage"],
+    damageVerb: ["Cleave", "Hew", "Hack", "Whirl", "Rend", "Smash"],
+    defenseNoun: ["Iron Hide", "Battle Trance", "War Stance", "Berserker Skin", "Iron Will", "Bloodlust"],
+    defenseVerb: ["Stance", "Endure", "Withstand", "Anchor", "Bloodlust", "Rage"],
+    masteryNoun: ["Rage", "Fury", "Bloodlust", "War Cry", "Battle Trance", "Bloodthirst"],
+    masteryVerb: ["Channel", "Embrace", "Awaken", "Inspire", "Empower", "Roar"],
+    signaturesA: ["Whirlwind", "Cleave", "Mortal Strike", "Berserker Rage", "Heroic Throw", "Slam"],
+    signaturesB: ["Iron Hide", "Battle Stance", "Berserker Skin", "Iron Will", "Last Stand", "Spell Reflection"],
+    signaturesC: ["Bloodthirst", "War Cry", "Bloodlust", "Heroic Leap", "Avatar", "Recklessness"],
+    capstoneA: "Avatar of War",
+    capstoneB: "Endless Rage",
+    capstoneC: "Bloodbath",
+  },
+  ranger: {
+    damageType: "Physical",
+    damageNoun: ["Arrow", "Volley", "Snipe", "Trap", "Bolt", "Arrow Storm"],
+    damageVerb: ["Shoot", "Snipe", "Volley", "Pierce", "Trap", "Mark"],
+    defenseNoun: ["Camouflage", "Stalker's Veil", "Wild Skin", "Beast Bond", "Trap Mastery", "Hawk Eye"],
+    defenseVerb: ["Veil", "Camouflage", "Phase", "Anchor", "Mark", "Stalk"],
+    masteryNoun: ["Beast", "Hawk", "Wolf", "Cat", "Bear", "Pet"],
+    masteryVerb: ["Tame", "Command", "Empower", "Bond", "Awaken", "Lead"],
+    signaturesA: ["Aimed Shot", "Multi-Shot", "Rapid Fire", "Marked Shot", "Hunter's Mark", "Volley"],
+    signaturesB: ["Camouflage", "Stalker's Veil", "Disengage", "Feign Death", "Wild Skin", "Hawk Eye"],
+    signaturesC: ["Beast Mastery", "Wild Bond", "Pet's Loyalty", "Hunter's Lore", "Beastial Wrath", "Master Trapper"],
+    capstoneA: "Trueshot",
+    capstoneB: "Wild Spirits",
+    capstoneC: "Beast Master",
+  },
+  sonofarugal: {
+    damageType: "Physical",
+    damageNoun: ["Claw", "Fang", "Maul", "Bite", "Pounce", "Howl"],
+    damageVerb: ["Slash", "Maul", "Bite", "Pounce", "Tear", "Rend"],
+    defenseNoun: ["Hide", "Wolf Form", "Pelt", "Stalker", "Worgen Skin", "Pack Bond"],
+    defenseVerb: ["Stalk", "Pelt", "Endure", "Anchor", "Pack", "Howl"],
+    masteryNoun: ["Pack", "Wolf", "Worgen", "Cursed", "Lunar", "Howl"],
+    masteryVerb: ["Bond", "Awaken", "Embrace", "Channel", "Lead", "Howl"],
+    signaturesA: ["Worgen Form", "Slashing Claws", "Maul", "Pounce", "Bite", "Frenzied Strikes"],
+    signaturesB: ["Stalker", "Worgen Skin", "Wolf Pelt", "Pack Bond", "Lunar Hide", "Cursed Endurance"],
+    signaturesC: ["Howling Pack", "Lunar Frenzy", "Pack Leader", "Cursed Form", "Bestial Surge", "Wolf Spirit"],
+    capstoneA: "Worgen Awakening",
+    capstoneB: "Pack Leader",
+    capstoneC: "Lunar Frenzy",
+  },
+  witchdoctor: {
+    damageType: "Nature",
+    damageNoun: ["Hex", "Curse", "Spirit", "Toxin", "Poison", "Voodoo"],
+    damageVerb: ["Hex", "Curse", "Conjure", "Channel", "Poison", "Cripple"],
+    defenseNoun: ["Spirit Veil", "Hex Skin", "Voodoo Ward", "Toxin Bond", "Tribal Aegis", "Mask"],
+    defenseVerb: ["Veil", "Hex", "Anchor", "Bind", "Endure", "Reflect"],
+    masteryNoun: ["Spirit", "Voodoo", "Mask", "Wisp", "Familiar", "Totem"],
+    masteryVerb: ["Summon", "Channel", "Bind", "Awaken", "Empower", "Speak"],
+    signaturesA: ["Hex Bolt", "Spirit Lance", "Toxin Spit", "Poison Cloud", "Cripple Curse", "Voodoo Strike"],
+    signaturesB: ["Spirit Veil", "Hex Skin", "Voodoo Ward", "Tribal Aegis", "Toxin Bond", "Mask of Endurance"],
+    signaturesC: ["Spirit Walker", "Voodoo Mastery", "Tribal Lore", "Wisp Form", "Familiar Bond", "Spirit Channeling"],
+    capstoneA: "Spirit Walker",
+    capstoneB: "Tribal Bulwark",
+    capstoneC: "Voodoo Lord",
+  },
+  discipleofshadra: {
+    damageType: "Nature",
+    damageNoun: ["Web", "Venom", "Fang", "Spider", "Toxin", "Sting"],
+    damageVerb: ["Strike", "Bite", "Sting", "Poison", "Inject", "Cripple"],
+    defenseNoun: ["Silk Veil", "Spider Skin", "Web Bulwark", "Venom Pact", "Shadra's Aegis", "Cocoon"],
+    defenseVerb: ["Veil", "Web", "Anchor", "Cocoon", "Endure", "Reflect"],
+    masteryNoun: ["Spider", "Shadra", "Brood", "Hatchling", "Spawn", "Cocoon"],
+    masteryVerb: ["Summon", "Bind", "Channel", "Awaken", "Empower", "Brood"],
+    signaturesA: ["Web Bolt", "Venom Strike", "Spider Bite", "Toxin Spit", "Poison Cloud", "Cripple Web"],
+    signaturesB: ["Silk Veil", "Spider Skin", "Web Bulwark", "Cocoon", "Shadra's Aegis", "Venom Pact"],
+    signaturesC: ["Brood Mother", "Shadra's Servant", "Spider Lord", "Web Master", "Brood Bond", "Spawn Eternal"],
+    capstoneA: "Avatar of Shadra",
+    capstoneB: "Shadra's Bulwark",
+    capstoneC: "Brood Mother",
+  },
+};
 
-  return { class: "Knight of Xoroth", classId: id, maxPoints: 61, color: C, leftTree, rightTree };
+function autoBuildSpecsForClass(classId: string): SpecConfig[] {
+  const flavor = CLASS_FLAVORS[classId];
+  if (!flavor) {
+    // Generic fallback
+    return [];
+  }
+
+  const sharedThemeBase = (signatures: string[], capstoneName: string, capstoneDesc: string): SpecTheme => ({
+    signature: signatures,
+    prefix: ["Improved", "Twin", "Greater", "Empowered", "Focused", "Honed"],
+    noun: flavor.damageNoun,
+    verb: flavor.damageVerb,
+    damageType: flavor.damageType,
+    capstoneName,
+    capstoneDesc,
+  });
+
+  const damageThemeRight = (sigs: string[], capName: string, capDesc: string): SpecTheme => ({
+    signature: sigs,
+    prefix: ["Improved", "Twin", "Greater", "Empowered", "Focused", "Honed"],
+    noun: flavor.damageNoun,
+    verb: flavor.damageVerb,
+    damageType: flavor.damageType,
+    capstoneName: capName,
+    capstoneDesc: capDesc,
+  });
+
+  const defenseTheme = (sigs: string[], capName: string, capDesc: string): SpecTheme => ({
+    signature: sigs,
+    prefix: ["Stalwart", "Iron", "Hallowed", "Resolute", "Indomitable", "Unyielding"],
+    noun: flavor.defenseNoun,
+    verb: flavor.defenseVerb,
+    damageType: flavor.damageType,
+    capstoneName: capName,
+    capstoneDesc: capDesc,
+  });
+
+  const masteryTheme = (sigs: string[], capName: string, capDesc: string): SpecTheme => ({
+    signature: sigs,
+    prefix: ["Ancient", "Awakened", "Empowered", "Channeled", "Hallowed", "True"],
+    noun: flavor.masteryNoun,
+    verb: flavor.masteryVerb,
+    damageType: flavor.damageType,
+    capstoneName: capName,
+    capstoneDesc: capDesc,
+  });
+
+  return [
+    {
+      id: "wrath",
+      name: "Path of Wrath",
+      role: "damage",
+      attribute: "strength",
+      complexity: "normal",
+      description: `Channel raw destruction through ${flavor.damageType.toLowerCase()} fury — devastating enemies in close quarters with overwhelming damage.`,
+      sampleSpells: flavor.signaturesA.slice(0, 3),
+      leftTreeName: "Class Path",
+      rightTreeName: "Path of Wrath",
+      leftTheme: sharedThemeBase(flavor.signaturesA, flavor.capstoneA, `Unleash ${flavor.capstoneA} — a transformative state for 20s, dramatically empowering all your abilities. 3 min cooldown.`),
+      rightTheme: damageThemeRight(flavor.signaturesA, flavor.capstoneA, `Unleash ${flavor.capstoneA} — a transformative state for 20s, dramatically empowering all your abilities. 3 min cooldown.`),
+    },
+    {
+      id: "bulwark",
+      name: "Path of Bulwark",
+      role: "tank",
+      attribute: "stamina",
+      complexity: "intermediate",
+      description: `Become an unbreakable bulwark — withstand devastating blows and shield your allies with an iron will and ${flavor.damageType.toLowerCase()} resilience.`,
+      sampleSpells: flavor.signaturesB.slice(0, 3),
+      leftTreeName: "Class Path",
+      rightTreeName: "Path of Bulwark",
+      leftTheme: sharedThemeBase(flavor.signaturesA, flavor.capstoneA, `Unleash ${flavor.capstoneA} for 20s, empowering all your abilities. 3 min cooldown.`),
+      rightTheme: defenseTheme(flavor.signaturesB, flavor.capstoneB, `Become ${flavor.capstoneB} for 20s — damage taken is reduced by 50% and you cannot be stunned. 3 min cooldown.`),
+    },
+    {
+      id: "mastery",
+      name: "Path of Mastery",
+      role: "support",
+      attribute: "intellect",
+      complexity: "advanced",
+      description: `Master the ancient lore of your kind — bend the forces of ${flavor.damageType.toLowerCase()} to your will through deep knowledge and channeled power.`,
+      sampleSpells: flavor.signaturesC.slice(0, 3),
+      leftTreeName: "Class Path",
+      rightTreeName: "Path of Mastery",
+      leftTheme: sharedThemeBase(flavor.signaturesA, flavor.capstoneA, `Unleash ${flavor.capstoneA} for 20s, empowering all your abilities. 3 min cooldown.`),
+      rightTheme: masteryTheme(flavor.signaturesC, flavor.capstoneC, `Channel the true mastery of your craft — ${flavor.capstoneC} radiates power to all allies for 20s. 3 min cooldown.`),
+    },
+  ];
 }
 
-const talentTrees: Map<string, TalentTree> = new Map([
-  ["necromancer", buildNecromancerTree()],
-  ["pyromancer", buildPyromancerTree()],
-  [
-    "cultist",
-    buildGenericDualTree("cultist", "Cultist", "#9B4DCA",
-      [
-        { name: "Dark Ritual", description: "Sacrifice health for spell power. Power +5% per point.", maxPoints: 3, type: "active" },
-        { name: "Void Grasp", description: "Grip an enemy in void energy, slowing by 30%. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Forbidden Knowledge", description: "Your spells have a chance to deal double damage. Chance +5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Curse of Weakness", description: "Curse an enemy reducing their damage by 20%. Duration +3s per point.", maxPoints: 2, type: "active" },
-        { name: "Blood Pact", description: "Link your health with an ally, sharing incoming damage. Reduction +5% per point.", maxPoints: 2, type: "active" },
-        { name: "Shadow Bolt", description: "Hurl a bolt of shadow dealing damage and silencing. Silence +0.5s per point.", maxPoints: 3, type: "active" },
-        { name: "Wrath of the Old Gods", description: "Call upon ancient horrors for AoE shadow bursts. Bursts +1 per point.", maxPoints: 2, type: "active" },
-        { name: "Eldritch Ward", description: "Ward yourself against all magic, absorbing 15% per point.", maxPoints: 3, type: "passive" },
-        { name: "Soul Drain", description: "Channel to drain an enemy's soul, restoring your health. Drain +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Ascendance", description: "Transcend mortality for 15s, becoming a conduit of the void.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Hex", description: "Transform an enemy into a critter for 6s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Binding Chains", description: "Root an enemy with shadow chains for 4s. Duration +1s per point.", maxPoints: 3, type: "active" },
-        { name: "Aura of Dread", description: "Enemies near you take 5% more damage per point from all sources.", maxPoints: 3, type: "passive" },
-        { name: "Vile Tendrils", description: "Spawn tendrils that attack nearby enemies. Tendril damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Madness", description: "Drive an enemy mad, causing them to attack their own allies for 6s.", maxPoints: 2, type: "active" },
-        { name: "Ritual Circle", description: "Create a ritual circle empowering your spells while inside. Bonus +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Psychic Scream", description: "Cause all nearby enemies to flee in terror for 4s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Void Shroud", description: "Wrap yourself in void energy, reducing spell damage taken by 10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Enthrall", description: "Take control of an enemy for 8s. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "The Maw Opens", description: "Tear open the void, pulling all enemies to one point and dealing massive damage.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "starcaller",
-    buildGenericDualTree("starcaller", "Starcaller", "#4169E1",
-      [
-        { name: "Starfall", description: "Rain stars down on enemies in an area. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Lunar Strike", description: "Strike with the moon's power dealing AoE damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Astral Form", description: "Project your consciousness granting 10% haste per point.", maxPoints: 2, type: "passive" },
-        { name: "Moonbeam", description: "Channel a beam of moonlight on a target. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Celestial Alignment", description: "Align lunar and solar energies, boosting both schools by 15% per point.", maxPoints: 2, type: "passive" },
-        { name: "Nova", description: "Release a burst of starfire in all directions. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Eclipse", description: "Cycle between Lunar and Solar Eclipse, each empowering different spells.", maxPoints: 3, type: "passive" },
-        { name: "Starlord", description: "Your Moonfire and Sunfire extend Eclipse duration by 1s per point.", maxPoints: 2, type: "passive" },
-        { name: "Shooting Stars", description: "Periodic effects have a chance to summon a falling star. Proc rate +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Celestial Reckoning", description: "Unleash both the sun and moon simultaneously in a cataclysmic blast.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Sunfire", description: "Burn the enemy with solar fire over 14s. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Solar Beam", description: "Silence and damage enemies in a pillar of sunlight. Silence +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Stellar Drift", description: "Your Starfall can now be channeled while moving. Speed +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Cosmic Ray", description: "Fire a ray that arcs between 3 enemies. Jumps +1 per point.", maxPoints: 3, type: "active" },
-        { name: "Zenith", description: "At full Eclipse power, all spells cost 20% less mana per point.", maxPoints: 2, type: "passive" },
-        { name: "Constellation", description: "Mark 3 enemies; when they cluster, they burst in a nova. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Void Bolt", description: "Hurl a bolt from beyond the stars dealing cosmic damage. Damage +25% per point.", maxPoints: 3, type: "active" },
-        { name: "Astral Communion", description: "Instantly reset Eclipse and generate Astral Power.", maxPoints: 2, type: "active" },
-        { name: "Warrior of Elune", description: "Your next 3 Lunar Strikes are instant cast. Charges +1 per point.", maxPoints: 2, type: "passive" },
-        { name: "Fury of Elune", description: "Elune herself blasts the target area for 8s of devastating damage.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "suncleric",
-    buildGenericDualTree("suncleric", "Sun Cleric", "#FFD700",
-      [
-        { name: "Holy Light", description: "Heals a friendly target for a large amount. Healing +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Divine Favor", description: "Makes your next heal instant and increases its healing by 20% per point.", maxPoints: 2, type: "active" },
-        { name: "Radiance", description: "Emit holy light that heals all nearby allies for a moderate amount. Healing +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Aura of Light", description: "Increase healing received by all party members near you by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Solar Infusion", description: "Your heals leave a solar mark that detonates for bonus healing after 3s.", maxPoints: 2, type: "passive" },
-        { name: "Benediction", description: "Reduces mana cost of all healing spells by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Holy Shock", description: "Instantly heal a friendly target or damage an enemy. Effect +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Beacon of Light", description: "Transfer 50% of healing done on others to the Beacon target. Transfer +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Supernova Heal", description: "Heal all allies in a massive burst. Healing +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Solar Apotheosis", description: "Transform into a sun avatar for 20s, empowering all heals massively.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Smite", description: "Hurl a bolt of holy energy dealing damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Holy Fire", description: "Burn the target for holy damage over 10s. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Penance", description: "Fire beams of holy light dealing damage or healing. Effect +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Power Word: Shield", description: "Shield an ally absorbing damage. Absorption +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Atonement", description: "Your damage spells heal a nearby ally for 30% per point of damage dealt.", maxPoints: 2, type: "passive" },
-        { name: "Light of Dawn", description: "Send out a cone of holy light healing allies in its path. Healing +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Rapture", description: "Instantly apply Power Word: Shield to all party members.", maxPoints: 3, type: "active" },
-        { name: "Divine Hymn", description: "Sing a hymn that heals all allies over 8s. Healing +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Spirit of Redemption", description: "On death, continue healing for 15s as a spirit. Duration +3s per point.", maxPoints: 2, type: "passive" },
-        { name: "Holy Nova", description: "Explosive burst of holy energy healing allies and damaging enemies simultaneously.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "tinker",
-    buildGenericDualTree("tinker", "Tinker", "#B8860B",
-      [
-        { name: "Turret Deployment", description: "Deploy a turret that attacks nearby enemies. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Rocket Boots", description: "Boost movement speed by 30% for 8s. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Nitro-Fuel", description: "Increase turret fire rate by 20% per point.", maxPoints: 3, type: "passive" },
-        { name: "Explosive Trap", description: "Deploy a proximity mine dealing AoE damage. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Overclock", description: "Supercharge your gadgets for 10s. All effects +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Shield Generator", description: "Deploy a shield generator protecting nearby allies. Absorption +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Robo-Companion", description: "Summon a mechanical companion to fight beside you. Companion damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Nano-Tech", description: "Your attacks inject nano-bots dealing bonus damage over time. Damage +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Pulse Cannon", description: "Fire a high-energy beam dealing heavy damage. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Mech Suit", description: "Don a mechanized battle suit for 30s, greatly enhancing combat capabilities.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Bomb Toss", description: "Throw a bomb dealing AoE fire damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Net Launcher", description: "Trap an enemy in an electrified net for 5s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Engineering Expertise", description: "Reduce cooldowns of all gadgets by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "EMP Grenade", description: "Stun mechanical enemies and reduce resistances by 15% per point.", maxPoints: 2, type: "active" },
-        { name: "Repair Bot", description: "Deploy a bot that heals you over 10s. Healing +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Flamethrower", description: "Spray fire in a cone dealing continuous burn damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Grappling Hook", description: "Pull an enemy to you or propel yourself to a target. Cooldown -2s per point.", maxPoints: 2, type: "active" },
-        { name: "Adrenaline Injector", description: "Inject yourself with stims, increasing haste by 20% per point for 10s.", maxPoints: 2, type: "passive" },
-        { name: "Chain Lightning Coil", description: "Release arcing lightning that chains between 4 enemies. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Ultimate Weapon X", description: "Unleash a superweapon dealing catastrophic damage in a wide area.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "runemaster",
-    buildGenericDualTree("runemaster", "Runemaster", "#DC143C",
-      [
-        { name: "Rune Inscription", description: "Inscribe runes on your weapons for 10% bonus damage per point.", maxPoints: 3, type: "passive" },
-        { name: "Frost Rune", description: "Inscribe frost runes dealing cold damage and slowing. Slow +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Blood Rune", description: "Inscribe blood runes that heal you for 5% of damage dealt per point.", maxPoints: 2, type: "passive" },
-        { name: "Rune Explosion", description: "Detonate inscribed runes for massive AoE damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Sigil of Power", description: "Place a sigil on the ground empowering allies. Power +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Unholy Rune", description: "Poison enemies with unholy inscriptions. Poison damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Rune Shield", description: "Ward yourself with defensive runes absorbing 20% damage per point.", maxPoints: 2, type: "passive" },
-        { name: "Ancient Script", description: "Activate an ancient runic script dealing massive arcane damage. Damage +25% per point.", maxPoints: 3, type: "active" },
-        { name: "Runic Empowerment", description: "Killing an enemy refreshes a random rune ability. Proc rate +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "World Rune", description: "Inscribe a world-rune of immense power, devastating all enemies in range.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Fire Rune", description: "Inscribe fire runes dealing flame damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Rune Strike", description: "A powerful runic melee strike. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Runic Mastery", description: "All runes recharge 10% faster per point.", maxPoints: 2, type: "passive" },
-        { name: "Thunder Rune", description: "Inscribe lightning runes that shock enemies. Shock chance +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Rune Barrier", description: "Create a runic barrier that reflects 30% of spell damage per point.", maxPoints: 3, type: "passive" },
-        { name: "Void Rune", description: "Inscribe void runes dealing shadow damage over time. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Double Inscription", description: "Inscribe two rune types simultaneously. Effect +15% per point.", maxPoints: 2, type: "passive" },
-        { name: "Runic Overload", description: "Overload all active runes for a massive burst. Damage +30% per point.", maxPoints: 2, type: "active" },
-        { name: "Living Rune", description: "Your body becomes a living rune, pulsing energy periodically. Pulse +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Ragnarok Script", description: "Activate the end-runes, unleashing cataclysmic runic devastation.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "primalist",
-    buildGenericDualTree("primalist", "Primalist", "#228B22",
-      [
-        { name: "Earthen Might", description: "Draw power from the earth increasing physical damage by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Stone Bulwark", description: "Surround yourself with stone reducing damage taken by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Seismic Strike", description: "Slam the ground creating a shockwave stunning enemies for 2s per point.", maxPoints: 2, type: "active" },
-        { name: "Living Stone", description: "Summon a stone guardian to fight by your side. Guardian HP +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Primal Surge", description: "Channel elemental energy to boost all abilities by 15% per point for 10s.", maxPoints: 2, type: "active" },
-        { name: "Wind Slash", description: "Slash with wind blades hitting all enemies in a line. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Gust", description: "Blast enemies with a powerful gust of wind knocking them back. Range +5yd per point.", maxPoints: 2, type: "active" },
-        { name: "Rock Slide", description: "Avalanche of boulders dealing massive AoE damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Nature's Resilience", description: "Regenerate 1% health per point every 5 seconds in combat.", maxPoints: 2, type: "passive" },
-        { name: "Avatar of the Elements", description: "Become a living embodiment of all elements for 20s.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Lightning Strike", description: "Call a lightning bolt dealing heavy damage and chain striking. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Storm Call", description: "Call a storm that continuously strikes random enemies. Duration +3s per point.", maxPoints: 2, type: "active" },
-        { name: "Tidal Wave", description: "Summon a tidal wave knocking enemies down and dealing damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Magma Fist", description: "Punch the ground erupting lava beneath enemies. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Elemental Harmony", description: "Using different elements within 5s of each other grants 10% bonus damage per point.", maxPoints: 3, type: "passive" },
-        { name: "Primal Roar", description: "Roar with primal force increasing all allies' damage by 10% per point for 15s.", maxPoints: 2, type: "active" },
-        { name: "Tornado", description: "Summon a tornado that travels forward pulling and damaging enemies. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Wildfire", description: "Spread uncontrolled fire in an area burning everything. Duration +3s per point.", maxPoints: 2, type: "active" },
-        { name: "Nature's Wrath", description: "Channel the full fury of nature in a devastating beam. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Primal Awakening", description: "Awaken all natural forces simultaneously in a world-shaking cataclysm.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "chronomancer",
-    buildGenericDualTree("chronomancer", "Chronomancer", "#00CED1",
-      [
-        { name: "Time Warp", description: "Accelerate time for your party granting 30% haste. Duration +3s per point.", maxPoints: 2, type: "active" },
-        { name: "Temporal Shift", description: "Briefly step through time becoming untargetable for 1s per point.", maxPoints: 3, type: "active" },
-        { name: "Haste Aura", description: "Increase attack speed of nearby allies by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Time Dilation", description: "Extend the duration of all beneficial effects on the target by 2s per point.", maxPoints: 2, type: "active" },
-        { name: "Rewind", description: "Rewind your target's health to what it was 5s ago. Effect +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Slow", description: "Slow an enemy's time reducing their speed by 30% per point.", maxPoints: 2, type: "active" },
-        { name: "Echo Strike", description: "Your attacks echo in time, striking again 1s later. Damage +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Temporal Anomaly", description: "Create an anomaly that speeds allies and slows enemies in its radius. Radius +3yd per point.", maxPoints: 2, type: "active" },
-        { name: "Chronostasis", description: "Freeze an enemy in time for 4s per point. They take no damage but cannot act.", maxPoints: 2, type: "active" },
-        { name: "Epoch Collapse", description: "Collapse time around all enemies, dealing damage equal to all ticks they avoided.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Time Bolt", description: "Fire a bolt that moves through time, dealing damage on contact and again after 2s.", maxPoints: 3, type: "active" },
-        { name: "Foresight", description: "See 1s into the future, reducing damage taken by 10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Paradox", description: "Create a time paradox dealing massive damage to enemies in range. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Quicken", description: "Reduce the cooldown of a target ability by 5s per point.", maxPoints: 2, type: "active" },
-        { name: "Past Wounds", description: "Deal damage based on 5% of total damage dealt in the last 10s per point.", maxPoints: 3, type: "passive" },
-        { name: "Time Stop", description: "Freeze all enemies in place for 3s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Retrocognition", description: "After dying, roll back to your state 8s prior. Charges 1 per point.", maxPoints: 2, type: "passive" },
-        { name: "Temporal Lash", description: "Whip an enemy with time energy dealing damage and aging them, slowing by 20% per point.", maxPoints: 3, type: "active" },
-        { name: "Timeline Fracture", description: "Split the timeline causing all enemies to take double damage for 6s per point.", maxPoints: 2, type: "active" },
-        { name: "Big Bang", description: "Collapse all alternate timelines into one catastrophic reality-ending explosion.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "reaper",
-    buildGenericDualTree("reaper", "Reaper", "#708090",
-      [
-        { name: "Soul Rend", description: "Tear the soul of an enemy dealing shadow damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Death's Grasp", description: "Pull an enemy toward you from 20 yards. Range +5yd per point.", maxPoints: 2, type: "active" },
-        { name: "Umbral Dash", description: "Dash through shadow, becoming untargetable. Dash speed +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Harvest Soul", description: "Instantly kill a target below 15% health. Threshold +5% per point.", maxPoints: 2, type: "active" },
-        { name: "Shadow Scythe", description: "Sweep a scythe through shadow hitting all enemies nearby. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Wraithwalk", description: "Move through walls for 3s. Duration +1s per point.", maxPoints: 2, type: "passive" },
-        { name: "Dark Harvest", description: "Each kill restores 5% health per point.", maxPoints: 3, type: "passive" },
-        { name: "Veil of Death", description: "Cloak yourself in death rendering you invisible. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Spectral Slash", description: "Slash with spectral blades dealing massive single-target damage. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Reaping", description: "Harvest all souls in range simultaneously dealing catastrophic AoE damage.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Bone Scythe", description: "Fashion a scythe from bone dealing physical damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Graveyard Shift", description: "At night, all abilities deal 15% more damage per point.", maxPoints: 2, type: "passive" },
-        { name: "Soulstone", description: "Capture the soul of a fallen enemy in a stone to summon later. Duration +5s per point.", maxPoints: 3, type: "active" },
-        { name: "Wail of the Dead", description: "Emit a deathly wail that fears enemies for 4s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Mark of Death", description: "Mark a target; if they die within 10s, gain 20% increased damage per point.", maxPoints: 3, type: "passive" },
-        { name: "Life Tap", description: "Convert 10% health to shadow damage dealt. Conversion +5% per point.", maxPoints: 2, type: "active" },
-        { name: "Grim Toll", description: "Your critical strikes reduce the target's armor by 5% per point for 6s.", maxPoints: 2, type: "passive" },
-        { name: "Shear", description: "Cleave through shadow armor reducing all resistances. Reduction +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Ethereal Blade", description: "Strike with a blade of pure death energy bypassing all armor. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "End of All Things", description: "Instantly slay all targets below 30% health within 20 yards.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "guardian",
-    buildGenericDualTree("guardian", "Guardian", "#4682B4",
-      [
-        { name: "Shield Wall", description: "Reduce all damage taken by 10% per point for 12s.", maxPoints: 3, type: "active" },
-        { name: "Taunt", description: "Force all nearby enemies to attack you for 6s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Iron Fortress", description: "Increase armor by 5% per point permanently.", maxPoints: 3, type: "passive" },
-        { name: "Intercept", description: "Rush to an ally's defense, absorbing the next attack targeting them. Absorption +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Bulwark", description: "Create an impenetrable barrier for 5s per point for nearby allies.", maxPoints: 2, type: "active" },
-        { name: "Retribution Aura", description: "Deal 10% of damage received back to attackers per point.", maxPoints: 3, type: "passive" },
-        { name: "Guardian's Oath", description: "While tanking 3+ enemies, gain 5% damage reduction per point.", maxPoints: 2, type: "passive" },
-        { name: "Last Stand", description: "At 20% health, temporarily gain 20% max health per point.", maxPoints: 2, type: "active" },
-        { name: "Shield Slam", description: "Slam enemies with your shield dealing massive damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Unbreakable", description: "Become completely immune to all damage for 8s.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Thunder Clap", description: "Slam the ground creating a shockwave hitting all nearby. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Rally", description: "Boost the morale of all nearby allies increasing damage by 10% per point.", maxPoints: 2, type: "active" },
-        { name: "Fortification", description: "Grant all nearby party members 5% damage reduction per point.", maxPoints: 3, type: "passive" },
-        { name: "Heroic Leap", description: "Leap to a distant location dealing AoE damage on landing. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "War Shout", description: "Increase all allies' attack power by 10% per point for 20s.", maxPoints: 2, type: "active" },
-        { name: "Block", description: "Increase block chance by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Counter-Attack", description: "After blocking, instantly counter-attack. Damage +15% per point.", maxPoints: 2, type: "passive" },
-        { name: "Guardian's Fury", description: "After taking 3 consecutive hits, retaliate in a burst of rage. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Aegis", description: "Create an area of protection that absorbs all incoming projectiles for 6s.", maxPoints: 2, type: "active" },
-        { name: "Immovable Object", description: "Become an immovable fortress, immune to displacement and greatly increasing defense.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "monk",
-    buildGenericDualTree("monk", "Monk", "#00CC7A",
-      [
-        { name: "Jab", description: "A quick punch generating Chi. Damage +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Tiger Palm", description: "Strike with the palm of a tiger ignoring 30% armor. Ignored armor +5% per point.", maxPoints: 3, type: "active" },
-        { name: "Rising Sun Kick", description: "Kick that increases damage enemies take by 10% per point for 8s.", maxPoints: 2, type: "active" },
-        { name: "Chi Wave", description: "Send a wave of Chi bouncing between allies and enemies. Bounce +1 per point.", maxPoints: 2, type: "active" },
-        { name: "Zen Meditation", description: "Meditate reducing all damage taken by 30% per point for 5s.", maxPoints: 2, type: "active" },
-        { name: "Blackout Kick", description: "Kick dealing heavy damage and applying a bleed. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Fortifying Brew", description: "A brew that increases max health by 10% per point for 15s.", maxPoints: 2, type: "active" },
-        { name: "Rushing Jade Wind", description: "Spin striking all nearby enemies continuously. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Chi Torpedo", description: "Roll forward damaging and stunning enemies in your path. Stun +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Storm Earth and Fire", description: "Split into three spirits of storm earth and fire attacking nearby enemies.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Renewing Mist", description: "Apply a mist that heals over 20s. Healing +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Soothing Mist", description: "Channel a healing mist restoring health continuously. Healing +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Uplift", description: "Refresh Renewing Mist on all targets. Healing +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Vivify", description: "A quick targeted heal with bonus AoE component. Healing +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Life Cocoon", description: "Encase an ally in a life cocoon absorbing 30% damage per point.", maxPoints: 2, type: "active" },
-        { name: "Enveloping Mist", description: "Heavy heal over time that also increases other heals by 20% per point.", maxPoints: 3, type: "active" },
-        { name: "Revival", description: "Resurrect all fallen allies within 60 yards. Resurrection HP +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Mana Tea", description: "Rapidly restore mana. Restoration +10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Invoke Yu'lon", description: "Invoke the Jade Serpent to heal nearby allies for 25s. Healing +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Niuzao's Shield", description: "Invoke the Black Ox to absorb massive incoming damage for the entire party.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "demonhunter",
-    buildGenericDualTree("demonhunter", "Demon Hunter", "#A330C9",
-      [
-        { name: "Fel Rush", description: "Charge forward trailing fel energy dealing damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Eye Beam", description: "Shoot a beam of fel energy dealing heavy damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Chaos Strike", description: "Strike with both blades dealing chaotic damage. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Blade Dance", description: "Spin with your glaives hitting all nearby enemies. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Metamorphosis", description: "Transform into a demon form greatly increasing all abilities. Duration +3s per point.", maxPoints: 2, type: "active" },
-        { name: "Consume Magic", description: "Consume a beneficial magic effect gaining Fury. Fury +20 per point.", maxPoints: 2, type: "active" },
-        { name: "Immolation Aura", description: "Surround yourself with fel fire burning nearby enemies. Damage +15% per point.", maxPoints: 3, type: "passive" },
-        { name: "Demon Spikes", description: "Activate demon spikes reducing physical damage taken by 10% per point.", maxPoints: 2, type: "active" },
-        { name: "Soul Cleave", description: "Cleave soul energy from enemies healing yourself. Healing +15% per point.", maxPoints: 2, type: "active" },
-        { name: "The Hunt", description: "Charge a target dealing massive damage and applying a DoT. Damage +25% per point.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Throw Glaive", description: "Throw a glaive that bounces between 3 enemies. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Sigil of Flame", description: "Place a sigil that erupts in fel fire after 2s. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Fracture", description: "Quick dual strike generating a Soul Fragment. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Spirit Bomb", description: "Consume Soul Fragments to detonate in a nova of soul energy. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Shattered Souls", description: "Enemies that die in your AoE spawn Soul Fragments. Fragment HP +5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Fel Devastation", description: "Demolish everything in front of you with fel energy. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Fiery Brand", description: "Brand an enemy reducing their damage done by 20% per point for 8s.", maxPoints: 3, type: "active" },
-        { name: "Demonic Wards", description: "Increase your armor and magic resistance by 5% per point permanently.", maxPoints: 2, type: "passive" },
-        { name: "Glaive Tempest", description: "Launch a torrent of glaives in all directions. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Sinful Brand", description: "Brand all nearby enemies simultaneously amplifying all damage they take.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "stormbringer",
-    buildGenericDualTree("stormbringer", "Stormbringer", "#1E90FF",
-      [
-        { name: "Lightning Bolt", description: "Hurl a bolt of lightning dealing damage and chaining. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Thunder Strike", description: "Strike with thunder dealing damage and deafening enemies. Duration +1s per point.", maxPoints: 3, type: "active" },
-        { name: "Static Field", description: "Charge the air with static electricity dealing continuous damage. Damage +15% per point.", maxPoints: 2, type: "passive" },
-        { name: "Storm Surge", description: "Build storm charges, unleash for massive damage. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Call Lightning", description: "Summon a storm over the target area striking continuously. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Hurricane Force", description: "Gain the speed of the wind increasing movement by 20% per point.", maxPoints: 2, type: "passive" },
-        { name: "Arc Chain", description: "Your lightning arcs between 5 targets. Each jump +10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Squall", description: "Create a localized storm that tracks your target. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Stormcaller's Might", description: "Summon lightning rods that attract and amplify your lightning. Amplification +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Tempest", description: "Become the storm itself dealing continuous lightning damage to all in range.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Gale Strike", description: "Attack with wind-assisted force dealing damage and pushing back. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Cyclone", description: "Trap an enemy in a cyclone rendering them useless for 6s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Stormwall", description: "Erect a wall of wind deflecting ranged attacks. Deflection rate +10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Tornado", description: "Summon a tornado that travels forward pulling enemies in. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Gust of Wind", description: "Launch yourself with a powerful gust. Cooldown -2s per point.", maxPoints: 2, type: "active" },
-        { name: "Tempestuous Fury", description: "During a storm, gain 5% haste per point.", maxPoints: 3, type: "passive" },
-        { name: "Thunderhead", description: "A living storm follows you dealing damage to nearby enemies. Damage +15% per point.", maxPoints: 2, type: "passive" },
-        { name: "Eye of the Storm", description: "Stand in your storm's eye, immune to displacement and dealing damage. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Maelstrom Weapon", description: "Your attacks build Maelstrom allowing instant casts. Threshold -1 stack per point.", maxPoints: 2, type: "passive" },
-        { name: "Cataclysm", description: "Unleash a cataclysmic storm obliterating everything in a wide radius.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "witchhunter",
-    buildGenericDualTree("witchhunter", "Witch Hunter", "#C8A96E",
-      [
-        { name: "Silver Bullet", description: "A specialized shot that deals bonus damage to supernatural targets. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Witch's Bane", description: "Reduce the effectiveness of all dark magic by 10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Dispel", description: "Remove a beneficial magic effect from an enemy. Effect count +1 per point.", maxPoints: 2, type: "active" },
-        { name: "Holy Water", description: "Throw holy water burning undead and demons. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Detect Evil", description: "Sense hidden evil units within 30yds. Range +10yd per point.", maxPoints: 2, type: "passive" },
-        { name: "Heretic's Pyre", description: "Set an area ablaze damaging supernatural enemies extra. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Inquisitor's Mark", description: "Mark a target taking 20% extra damage per point.", maxPoints: 2, type: "active" },
-        { name: "Purge", description: "Cleanse an area of dark magic affecting all enemies in range. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Blessed Armor", description: "Increase your resistance to all magic by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Witch Trial", description: "Put an enemy on trial; if guilty, they are instantly slain.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Crossbow Mastery", description: "Increase crossbow damage by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Poison Bolt", description: "Fire a bolt tipped with deadly poison. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Trap Setting", description: "Set a trap that ensnares supernatural creatures for 8s. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Exorcism", description: "Attempt to exorcise a demonic entity. Damage +25% per point vs demons.", maxPoints: 2, type: "active" },
-        { name: "Steelskin", description: "Toughen your skin against supernatural attacks. Reduction +5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Hunter's Mark", description: "Mark a target increasing all damage they receive by 5% per point.", maxPoints: 2, type: "active" },
-        { name: "Rune Ward", description: "Inscribe protective runes absorbing 20% magic damage per point.", maxPoints: 2, type: "passive" },
-        { name: "Righteous Fury", description: "Channel righteous fury dealing massive holy damage. Damage +30% per point.", maxPoints: 2, type: "active" },
-        { name: "Smoke Bomb", description: "Throw a smoke bomb blinding supernatural creatures for 5s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Grand Purge", description: "Purge all supernatural entities in a massive area instantly.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "knightofxoroth",
-    buildKnightOfXorothTree(),
-  ],
-  [
-    "barbarian",
-    buildGenericDualTree("barbarian", "Barbarian", "#CD5C5C",
-      [
-        { name: "Reckless Assault", description: "Attack wildly dealing 130% damage but reducing defense. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Battle Rage", description: "Enter a rage increasing all damage by 10% per point for 12s.", maxPoints: 3, type: "active" },
-        { name: "Whirlwind", description: "Spin wildly hitting all nearby enemies. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Blood Thirst", description: "Attacks restore 5% health per point on hit.", maxPoints: 2, type: "passive" },
-        { name: "Frenzied Strike", description: "A series of rapid strikes in quick succession. Hit count +1 per point.", maxPoints: 3, type: "active" },
-        { name: "Intimidation", description: "Roar at enemies causing them to flee for 3s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Savage Blow", description: "A crushing blow dealing 200% damage. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Undying Fury", description: "While below 30% health, gain 10% damage reduction per point.", maxPoints: 2, type: "passive" },
-        { name: "Bloodshed", description: "Your attacks cause bleeding for heavy damage over time. Damage +20% per point.", maxPoints: 3, type: "passive" },
-        { name: "Berserker", description: "Enter a berserk state tripling attack speed and ignoring all pain.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Weapon Throw", description: "Hurl your weapon at an enemy dealing damage. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Ground Slam", description: "Slam the ground creating a shockwave. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Primal Instinct", description: "Your combat instincts reduce ability cooldowns by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Cleave", description: "Attack two targets at once dealing full damage to both. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "War Cry", description: "Shout increasing attack speed of all nearby allies by 10% per point.", maxPoints: 2, type: "active" },
-        { name: "Juggernaut", description: "Charge forward unstoppably dealing damage to all in path. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Thick Hide", description: "Your natural toughness reduces physical damage taken by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Rampage", description: "Attack in a furious rampage hitting 4 targets. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Bone Crusher", description: "Shatter an enemy's armor reducing it by 30% per point for 10s.", maxPoints: 2, type: "active" },
-        { name: "Avatar of War", description: "Transform into an avatar of pure warrior fury, devastating everything.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "ranger",
-    buildGenericDualTree("ranger", "Ranger", "#6B8E23",
-      [
-        { name: "Aimed Shot", description: "A carefully aimed shot dealing massive damage. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Multi-Shot", description: "Fire multiple arrows hitting 3 targets. Targets +1 per point.", maxPoints: 3, type: "active" },
-        { name: "Eagle Eye", description: "Increase your critical strike chance with bows by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Hunter's Mark", description: "Mark a target increasing ranged damage against them by 10% per point.", maxPoints: 2, type: "active" },
-        { name: "Rapid Fire", description: "Fire a rapid burst of arrows. Arrow count +2 per point.", maxPoints: 2, type: "active" },
-        { name: "Beast Companion", description: "Tame a beast to fight beside you. Beast damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Camouflage", description: "Blend into surroundings becoming invisible while still. Duration +3s per point.", maxPoints: 2, type: "passive" },
-        { name: "Explosive Shot", description: "Fire an explosive arrow dealing AoE damage. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Sniper Training", description: "Attacks from long range deal 5% more damage per point.", maxPoints: 3, type: "passive" },
-        { name: "Trueshot", description: "The perfect shot dealing devastating damage with perfect accuracy.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Frost Arrow", description: "Fire a frost-tipped arrow slowing the target by 30%. Duration +1s per point.", maxPoints: 3, type: "active" },
-        { name: "Bear Trap", description: "Set a trap that immobilizes an enemy for 8s. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Wilderness Lore", description: "Your knowledge of nature reduces damage from natural sources by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Aspect of the Hawk", description: "Take on the aspect of the hawk increasing attack power by 10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Flare", description: "Illuminate a large area revealing hidden enemies. Area +10yd per point.", maxPoints: 2, type: "active" },
-        { name: "Barrage", description: "Rapid unloading of arrows hitting all enemies in a cone. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Concussive Shot", description: "Shoot an arrow that disorients the target for 4s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Nature's Call", description: "Call upon forest spirits to aid you in combat. Spirit count +1 per point.", maxPoints: 2, type: "active" },
-        { name: "Kill Shot", description: "A killing shot that executes targets below 20% health. Threshold +5% per point.", maxPoints: 2, type: "active" },
-        { name: "Bullseye", description: "Land a perfect bullseye dealing maximum possible damage with no miss chance.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "sonofarugal",
-    buildGenericDualTree("sonofarugal", "Son of Arugal", "#9400D3",
-      [
-        { name: "Wolf Form", description: "Transform into a wolf gaining speed and ferocity. Damage +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Howl", description: "Howl causing nearby enemies to flee in terror for 4s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Feral Bite", description: "Bite an enemy causing damage and disease. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Pack Leader", description: "Summon 2 wolf companions to fight by your side. Companion damage +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Curse of Arugal", description: "Curse an enemy transforming them into a worgen temporarily.", maxPoints: 2, type: "active" },
-        { name: "Shadowmeld", description: "Meld into shadows becoming invisible. Duration +2s per point.", maxPoints: 2, type: "passive" },
-        { name: "Rapid Strike", description: "Attack rapidly with claws dealing damage to nearby foes. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Dark Blood", description: "Your cursed blood reduces incoming damage by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Claw Rend", description: "Deep claw strike causing massive bleeding. Damage +25% per point.", maxPoints: 2, type: "active" },
-        { name: "Arugal's Legacy", description: "Unleash the full curse of Arugal transforming all enemies into worgen.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Shadow Pounce", description: "Leap from shadow onto a target. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Lycanthropic Rage", description: "Enter a lycanthropic frenzy increasing all damage by 15% per point.", maxPoints: 2, type: "active" },
-        { name: "Moonlight Empowerment", description: "Under moonlight gain 5% damage and healing per point.", maxPoints: 3, type: "passive" },
-        { name: "Scatter", description: "Scatter enemies in all directions. Stun +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Blood Drain", description: "Drain blood from an enemy, healing yourself and weakening them. Drain +10% per point.", maxPoints: 2, type: "active" },
-        { name: "Dark Howl", description: "A howl that silences all spellcasters in range for 3s. Duration +1s per point.", maxPoints: 3, type: "active" },
-        { name: "Feral Instinct", description: "Your primal senses reduce all incoming damage by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Ancestral Bite", description: "A powerful bite that inflicts an ancestral curse reducing max health by 5% per point.", maxPoints: 2, type: "active" },
-        { name: "Wraith Form", description: "Take wraith form becoming partially incorporeal for 8s. Damage reduction +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Primal Avatar", description: "Channel both the wolf and the shadow into an unstoppable apex predator form.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "witchdoctor",
-    buildGenericDualTree("witchdoctor", "Witch Doctor", "#20B2AA",
-      [
-        { name: "Hex", description: "Transform an enemy into a frog for 8s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Fetish Army", description: "Summon 5 fetish warriors that leap at enemies. Fetish damage +10% per point.", maxPoints: 3, type: "active" },
-        { name: "Grave Injustice", description: "Nearby enemy deaths restore 1% health per point and reduce cooldowns.", maxPoints: 3, type: "passive" },
-        { name: "Spirit Walk", description: "Enter the spirit world for 2s per point, becoming untargetable.", maxPoints: 2, type: "active" },
-        { name: "Voodoo Doll", description: "Create a doll linked to an enemy; damage you deal to the doll damages them. Damage +20% per point.", maxPoints: 2, type: "active" },
-        { name: "Acid Cloud", description: "Rain acid down on an area dealing damage over 5s per point.", maxPoints: 3, type: "active" },
-        { name: "Piranhas", description: "Summon piranhas in target area that slow by 30% and deal damage. Duration +2s per point.", maxPoints: 2, type: "active" },
-        { name: "Big Bad Voodoo", description: "Cast a voodoo spell that makes nearby allies temporarily immune to death.", maxPoints: 2, type: "active" },
-        { name: "Zombie Dogs", description: "Summon zombie dogs that absorb 10% of incoming damage per point.", maxPoints: 2, type: "passive" },
-        { name: "Haunt", description: "Unleash a terrible haunting that multiplies all your damage for 15s.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Corpse Spiders", description: "Smash a jar of corpse spiders that attack nearby enemies. Damage +15% per point.", maxPoints: 3, type: "active" },
-        { name: "Firebats", description: "Transform mana into bats of fire. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Poison Dart", description: "Fire a poison dart dealing damage over 8s. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Terrify", description: "Frighten an enemy causing them to flee for 3s per point.", maxPoints: 2, type: "active" },
-        { name: "Vision Quest", description: "Enter a trance seeing all hidden enemies within 50 yards. Range +15yd per point.", maxPoints: 2, type: "passive" },
-        { name: "Soul Harvest", description: "Harvest souls increasing your damage by 5% per point for 15s.", maxPoints: 3, type: "active" },
-        { name: "Jinx", description: "Jinx an enemy causing their attacks to backfire for 5s. Backfire damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Ritual Cleanse", description: "Cleanse all negative effects from all allies within range.", maxPoints: 2, type: "active" },
-        { name: "Tribal Totem", description: "Place a totem that amplifies all nearby ally damage by 10% per point.", maxPoints: 2, type: "active" },
-        { name: "Shrunken Head", description: "Activate the shrunken head granting immunity to all debuffs for 15s.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-  [
-    "discipleofshadra",
-    buildGenericDualTree("discipleofshadra", "Disciple of Shadra", "#DAA520",
-      [
-        { name: "Venom Strike", description: "Strike with venom-coated weapons dealing poison damage over 12s. Damage +20% per point.", maxPoints: 3, type: "active" },
-        { name: "Web Spin", description: "Ensnare an enemy in spider webs for 5s. Duration +1s per point.", maxPoints: 3, type: "active" },
-        { name: "Shadra's Blessing", description: "Receive the blessing of Shadra increasing all poison effects by 10% per point.", maxPoints: 2, type: "passive" },
-        { name: "Spider Swarm", description: "Summon a swarm of spiders that overwhelm an enemy. Damage +15% per point.", maxPoints: 2, type: "active" },
-        { name: "Neurotoxin", description: "Apply a neurotoxin that slows an enemy's casting and attack speed by 15% per point.", maxPoints: 2, type: "active" },
-        { name: "Chitinous Hide", description: "Your skin hardens like chitin reducing physical damage by 5% per point.", maxPoints: 3, type: "passive" },
-        { name: "Paralytic Venom", description: "Your venom has a 10% chance per point to paralyze for 2s.", maxPoints: 2, type: "passive" },
-        { name: "Egg Sac", description: "Plant an egg sac that hatches 3 spider hatchlings after 5s.", maxPoints: 2, type: "active" },
-        { name: "Widowmaker", description: "A deadly strike that deals triple damage to webbed targets. Damage +25% per point.", maxPoints: 3, type: "active" },
-        { name: "Avatar of Shadra", description: "Transform into the true form of Shadra, a monstrous spider deity.", maxPoints: 1, type: "choice" },
-      ],
-      [
-        { name: "Acid Spit", description: "Spit acid at an enemy dealing damage and reducing armor. Reduction +5% per point.", maxPoints: 3, type: "active" },
-        { name: "Cling", description: "Cling to a target negating their movement abilities for 4s. Duration +1s per point.", maxPoints: 2, type: "active" },
-        { name: "Entangle Web", description: "Shoot a massive web ensnaring all enemies in an area. Area +5yd per point.", maxPoints: 3, type: "active" },
-        { name: "Exoskeleton", description: "Reinforce your exoskeleton reducing magic damage taken by 5% per point.", maxPoints: 2, type: "passive" },
-        { name: "Molt", description: "Shed your skin removing all debuffs and healing for 15% per point.", maxPoints: 2, type: "active" },
-        { name: "Broodmother", description: "Become a broodmother spawning spiders passively every 5s. Spider damage +10% per point.", maxPoints: 3, type: "passive" },
-        { name: "Lethal Injection", description: "Inject a lethal dose of venom that kills if the target doesn't cleanse within 10s.", maxPoints: 2, type: "active" },
-        { name: "Sense Vibrations", description: "Sense all moving enemies within 30 yards even through walls. Range +10yd per point.", maxPoints: 2, type: "passive" },
-        { name: "Death's Kiss", description: "A bite that curses the target to die if they deal any damage for 4s.", maxPoints: 2, type: "active" },
-        { name: "Shadra's Embrace", description: "Shadra herself descends, wrapping all enemies in divine spider silk.", maxPoints: 1, type: "choice" },
-      ],
-    ),
-  ],
-]);
+// Build the final per-class specs map
+const ALL_CLASS_SPECS: Record<string, SpecConfig[]> = {};
+for (const meta of classMetas) {
+  if (CLASS_SPECS[meta.id]) {
+    ALL_CLASS_SPECS[meta.id] = CLASS_SPECS[meta.id];
+  } else {
+    ALL_CLASS_SPECS[meta.id] = autoBuildSpecsForClass(meta.id);
+  }
+}
 
-export function getClassTree(classId: string): TalentTree | undefined {
-  return talentTrees.get(classId);
+// ─── PUBLIC LOOKUPS ─────────────────────────────────────────────────────────
+export function getClassDetail(classId: string): ClassDetail | undefined {
+  const meta = classMetas.find((c) => c.id === classId);
+  if (!meta) return undefined;
+  const specs = ALL_CLASS_SPECS[classId] ?? [];
+  return {
+    ...meta,
+    specs: specs.map<SpecMeta>((s) => ({
+      id: s.id,
+      name: s.name,
+      role: s.role,
+      attribute: s.attribute,
+      complexity: s.complexity,
+      description: s.description,
+      sampleSpells: s.sampleSpells,
+    })),
+  };
+}
+
+export function getSpecTree(classId: string, specId: string): TalentTree | undefined {
+  const meta = classMetas.find((c) => c.id === classId);
+  if (!meta) return undefined;
+  const specs = ALL_CLASS_SPECS[classId] ?? [];
+  const spec = specs.find((s) => s.id === specId);
+  if (!spec) return undefined;
+  return buildSpecTreeFromTheme(
+    classId,
+    spec.id,
+    meta.name,
+    meta.color,
+    spec.name,
+    spec.leftTreeName,
+    spec.rightTreeName,
+    spec.leftTheme,
+    spec.rightTheme,
+  );
 }
