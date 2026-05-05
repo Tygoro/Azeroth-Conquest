@@ -6,7 +6,7 @@ import {
   getGetClassQueryKey,
   getGetSpecTreeQueryKey,
 } from '@workspace/api-client-react';
-import { useTalentTree, DEFAULT_LEVEL } from '@/hooks/use-talent-tree';
+import { useTalentTree, DEFAULT_LEVEL, MIN_LEVEL, MAX_LEVEL, clampLevel, getAvailablePoints } from '@/hooks/use-talent-tree';
 import { TalentTree } from '@/components/talent-tree';
 import { SidebarTrack } from '@/components/sidebar-track';
 import { ScaleStage } from '@/components/scale-stage';
@@ -109,10 +109,11 @@ export default function Calculator() {
           setSelectedSpecId(decoded.specId);
         }
       }
-      // Restore level if present (clamped to legal range)
+      // Restore level if present (clamped to the in-game [MIN_LEVEL, MAX_LEVEL]
+      // range — older shared builds saved with a wider range collapse here).
       const decodedLevel =
         typeof decoded?.level === 'number' && Number.isFinite(decoded.level)
-          ? Math.max(10, Math.min(80, Math.floor(decoded.level)))
+          ? clampLevel(decoded.level)
           : DEFAULT_LEVEL;
       setLevel(decodedLevel);
 
@@ -138,7 +139,7 @@ export default function Calculator() {
         }
       }
       // Reject builds that exceed the level budget — never silently overspend.
-      const budget = Math.max(0, decodedLevel - 9);
+      const budget = getAvailablePoints(decodedLevel);
       const totalSafe = Object.values(safe).reduce((s, n) => s + n, 0);
       if (totalSafe > budget) {
         toast({
@@ -215,8 +216,9 @@ export default function Calculator() {
   /** Block level decrease that would invalidate the current build. */
   const handleLevelDown = () => {
     setLevel(l => {
-      const next = Math.max(10, l - 1);
-      const nextBudget = Math.max(0, next - 9);
+      const next = clampLevel(l - 1);
+      if (next === l) return l;
+      const nextBudget = getAvailablePoints(next);
       if (totalPointsSpent > nextBudget) {
         toast({
           title: 'Cannot lower level',
@@ -229,7 +231,7 @@ export default function Calculator() {
     });
   };
 
-  const handleLevelUp = () => setLevel(l => Math.min(80, l + 1));
+  const handleLevelUp = () => setLevel(l => clampLevel(l + 1));
 
   const handleCopyLink = () => {
     const built = serializeBuild();
@@ -387,8 +389,8 @@ export default function Calculator() {
                 <button
                   type="button"
                   onClick={handleLevelDown}
-                  className="w-5 h-5 flex items-center justify-center rounded text-xs font-bold text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors disabled:opacity-30"
-                  disabled={level <= 10}
+                  className="w-5 h-5 flex items-center justify-center rounded text-xs font-bold text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                  disabled={level <= MIN_LEVEL}
                   aria-label="Decrease level"
                   data-testid="button-level-down"
                 >
@@ -404,8 +406,8 @@ export default function Calculator() {
                 <button
                   type="button"
                   onClick={handleLevelUp}
-                  className="w-5 h-5 flex items-center justify-center rounded text-xs font-bold text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors disabled:opacity-30"
-                  disabled={level >= 80}
+                  className="w-5 h-5 flex items-center justify-center rounded text-xs font-bold text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+                  disabled={level >= MAX_LEVEL}
                   aria-label="Increase level"
                   data-testid="button-level-up"
                 >
@@ -590,7 +592,7 @@ function EmptyState() {
         <span>·</span>
         <span>Right-click to refund</span>
         <span>·</span>
-        <span>61 total points</span>
+        <span>51 total points</span>
       </div>
     </div>
   );

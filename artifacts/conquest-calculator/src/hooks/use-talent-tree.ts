@@ -39,8 +39,18 @@ export function isRowUnlocked(rowIndex1Based: number, treePoints: number): boole
   return treePoints >= (ROW_UNLOCKS[rowIndex1Based] ?? 0);
 }
 
-/** Default character level — gives 61 points (matches Ascension cap). */
-export const DEFAULT_LEVEL = 70;
+// Conquest of Azeroth level system — clamped to the in-game range. Level 10 is
+// the earliest a character can spend points (1 point); level 60 is the cap and
+// yields 60 - 9 = 51 spendable points (the official Ascension max).
+export const MIN_LEVEL = 10;
+export const MAX_LEVEL = 60;
+export const DEFAULT_LEVEL = MAX_LEVEL;
+
+/** Clamp a level value into the legal in-game range [MIN_LEVEL, MAX_LEVEL]. */
+export function clampLevel(level: number): number {
+  if (!Number.isFinite(level)) return DEFAULT_LEVEL;
+  return Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, Math.floor(level)));
+}
 
 function getTierIndex(y: number): number {
   let best = 0;
@@ -68,7 +78,7 @@ export interface NodeState {
 
 interface UseTalentTreeProps {
   treeData: TalentTree | undefined;
-  /** Character level. Defaults to 70 (= 61 available points, Ascension max). */
+  /** Character level. Defaults to 60 (= 51 available points, Ascension max). */
   level?: number;
 }
 
@@ -338,10 +348,11 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
         }
 
         // Validate against the level budget — reject if over-cap so we never
-        // silently load an invalid build.
+        // silently load an invalid build. Older builds saved with the legacy
+        // wider level range collapse into the new in-game [10, 60] range here.
         const decodedLevel =
           typeof decoded?.level === 'number' && Number.isFinite(decoded.level)
-            ? Math.max(10, Math.min(80, Math.floor(decoded.level)))
+            ? clampLevel(decoded.level)
             : undefined;
         const effectiveLevel = decodedLevel ?? DEFAULT_LEVEL;
         const budget = getAvailablePoints(effectiveLevel);

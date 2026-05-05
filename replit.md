@@ -56,9 +56,9 @@ The total points a player can spend is driven by character level:
 getAvailablePoints(level) = max(0, level - 9)
 ```
 
-Level 10 = 1 point, level 70 = 61 points (matches Ascension max), level 80 = 71. The hook accepts a `level` prop (default `DEFAULT_LEVEL = 70`) and computes `maxPoints = min(getAvailablePoints(level), treeData.maxPoints)`. `addPoint` and choice-node clicks both check `canAllocateMore = totalSpent < maxPoints`.
+Level 10 = 1 point, level 60 = 51 points (Ascension max). The legal range is `[MIN_LEVEL=10, MAX_LEVEL=60]` and `DEFAULT_LEVEL = MAX_LEVEL = 60`, so a fresh load shows `Points: 0 / 51`. The hook accepts a `level` prop and computes `maxPoints = min(getAvailablePoints(level), treeData.maxPoints)`. `addPoint` and choice-node clicks both check `canAllocateMore = totalSpent < maxPoints`. Level changes go through `clampLevel` (the single source of truth for the legal range), and old shared builds saved at level > 60 collapse to 60 on import.
 
-**UI**: Header shows a `LVL [−] N [+]` stepper (clamped 10..80), `Points: X / Y` bar, and a per-tree breakdown `Class: X · Spec: Y` (sidebar nodes auto-unlock and don't count).
+**UI**: Header shows a `LVL [−] N [+]` stepper (clamped to [10, 60]; − disables at 10, + disables at 60), `Points: X / Y` bar, and a per-tree breakdown `Class: X · Spec: Y` (sidebar nodes auto-unlock and don't count).
 
 **Cap invariant** is enforced at every entry point:
 - Click allocation: blocked when `totalSpent >= maxPoints`
