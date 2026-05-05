@@ -12,3 +12,4 @@ export * from "./generated/types/talentNodePosition";
 export * from "./generated/types/talentNodeType";
 export * from "./generated/types/talentTree";
 export * from "./generated/types/sidebarNode";
+export * from "./generated/types/choiceOption";

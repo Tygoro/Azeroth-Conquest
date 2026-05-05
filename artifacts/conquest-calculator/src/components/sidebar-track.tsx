@@ -2,15 +2,11 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { SidebarNode } from '@workspace/api-client-react';
-import type { NodeState } from '@/hooks/use-talent-tree';
 
 interface SidebarTrackProps {
   nodes: SidebarNode[];
   color: string;
   treeSpent: number;
-  getNodeState: (nodeId: string) => NodeState;
-  onNodeClick: (nodeId: string) => void;
-  onNodeContextMenu: (nodeId: string) => void;
 }
 
 const NODE_SIZE = 52;
@@ -18,14 +14,12 @@ const TRACK_GAP = 86;
 const TRACK_WIDTH = 88;
 const TRACK_PAD_TOP = 32;
 
-export function SidebarTrack({
-  nodes,
-  color,
-  treeSpent,
-  getNodeState,
-  onNodeClick,
-  onNodeContextMenu,
-}: SidebarTrackProps) {
+/**
+ * Path of Ascension sidebar.
+ * Per Ascension CoA rules: AUTO-unlocks at thresholds [10, 20, 30, 40, 50] of
+ * total points spent across both trees. NOT clickable — purely visual progression.
+ */
+export function SidebarTrack({ nodes, color, treeSpent }: SidebarTrackProps) {
   if (!nodes.length) return null;
 
   const trackHeight = TRACK_PAD_TOP + (nodes.length - 1) * TRACK_GAP + NODE_SIZE + 20;
@@ -73,19 +67,18 @@ export function SidebarTrack({
 
         {/* Sidebar nodes */}
         {nodes.map((sb, i) => {
-          const state = getNodeState(sb.id);
+          const unlocked = treeSpent >= sb.unlockPointsRequired;
           const top = TRACK_PAD_TOP + i * TRACK_GAP;
           return (
             <SidebarNodeComponent
               key={sb.id}
               node={sb}
-              state={state}
+              tierLabel={['I', 'II', 'III', 'IV', 'V'][i] ?? `${i + 1}`}
+              unlocked={unlocked}
               color={color}
               top={top}
               size={NODE_SIZE}
               treeSpent={treeSpent}
-              onClick={() => onNodeClick(sb.id)}
-              onContextMenu={() => onNodeContextMenu(sb.id)}
             />
           );
         })}
@@ -106,42 +99,28 @@ export function SidebarTrack({
 
 interface SidebarNodeComponentProps {
   node: SidebarNode;
-  state: NodeState;
+  tierLabel: string;
+  unlocked: boolean;
   color: string;
   top: number;
   size: number;
   treeSpent: number;
-  onClick: () => void;
-  onContextMenu: () => void;
 }
 
 function SidebarNodeComponent({
-  node, state, color, top, size, treeSpent, onClick, onContextMenu,
+  node, tierLabel, unlocked, color, top, size, treeSpent,
 }: SidebarNodeComponentProps) {
   const [hovered, setHovered] = useState(false);
-  const { status } = state;
 
-  const isLocked    = status === 'locked';
-  const isAvailable = status === 'available';
-  const isMaxed     = status === 'maxed' || status === 'active';
+  const borderColor = unlocked ? color : '#252535';
 
-  const borderColor =
-    isMaxed     ? color
-    : isAvailable ? `${color}88`
-    : '#252535';
-
-  const boxShadow =
-    isMaxed
-      ? `0 0 0 1px ${color}55, 0 0 18px ${color}AA, 0 0 36px ${color}55, inset 0 0 12px ${color}33`
-      : isAvailable
-      ? `0 0 0 1px ${color}33, 0 0 8px ${color}55`
-      : 'none';
+  const boxShadow = unlocked
+    ? `0 0 0 1px ${color}55, 0 0 18px ${color}AA, 0 0 36px ${color}55, inset 0 0 12px ${color}33`
+    : 'none';
 
   const bgStyle: React.CSSProperties = {
-    background: isMaxed
+    background: unlocked
       ? `radial-gradient(circle at 40% 35%, ${color}55 0%, ${color}18 50%, #0d0d18 100%)`
-      : isAvailable
-      ? `radial-gradient(circle at 40% 35%, ${color}22 0%, #0d0d18 100%)`
       : `radial-gradient(circle at 40% 35%, #14141f 0%, #0a0a14 100%)`,
   };
 
@@ -157,11 +136,9 @@ function SidebarNodeComponent({
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      onClick={onClick}
-      onContextMenu={e => { e.preventDefault(); onContextMenu(); }}
     >
-      {/* Outer animated glow for maxed */}
-      {isMaxed && (
+      {/* Outer animated glow when unlocked */}
+      {unlocked && (
         <motion.div
           className="absolute inset-0 rounded-full pointer-events-none"
           animate={{ scale: [1, 1.3, 1], opacity: [0.5, 0, 0.5] }}
@@ -175,39 +152,36 @@ function SidebarNodeComponent({
       )}
 
       <motion.div
-        whileHover={!isLocked ? { scale: 1.12 } : {}}
-        whileTap={!isLocked ? { scale: 0.9 } : {}}
-        animate={isMaxed ? { scale: [1, 1.04, 1] } : {}}
-        transition={isMaxed
+        animate={unlocked ? { scale: [1, 1.04, 1] } : {}}
+        transition={unlocked
           ? { duration: 2.4, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' }
           : { type: 'spring', stiffness: 300 }
         }
-        className="w-full h-full relative overflow-hidden cursor-pointer select-none flex items-center justify-center"
+        className="w-full h-full relative overflow-hidden select-none flex items-center justify-center"
         style={{
           ...bgStyle,
           borderRadius: '50%',
           border: `2px solid ${borderColor}`,
           boxShadow,
-          opacity: isLocked ? 0.4 : 1,
+          opacity: unlocked ? 1 : 0.45,
           transition: 'border-color 0.25s, box-shadow 0.25s, opacity 0.25s',
         }}
       >
-        {isLocked ? (
+        {!unlocked ? (
           <Lock className="w-4 h-4" style={{ color: `${color}55` }} />
         ) : (
           <span
             className="text-base font-bold"
             style={{
-              color: isMaxed ? '#fff' : color,
-              textShadow: isMaxed ? `0 0 8px ${color}` : 'none',
+              color: '#fff',
+              textShadow: `0 0 8px ${color}`,
             }}
           >
-            {['I', 'II', 'III', 'IV', 'V'][node.unlockPointsRequired === 8 ? 0 : node.unlockPointsRequired === 16 ? 1 : node.unlockPointsRequired === 24 ? 2 : node.unlockPointsRequired === 35 ? 3 : 4] ?? '?'}
+            {tierLabel}
           </span>
         )}
 
-        {/* Sheen overlay for maxed */}
-        {isMaxed && (
+        {unlocked && (
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
@@ -222,7 +196,7 @@ function SidebarNodeComponent({
         className="absolute left-1/2 -translate-x-1/2 text-[9px] font-mono font-bold whitespace-nowrap"
         style={{
           top: size + 4,
-          color: treeSpent >= node.unlockPointsRequired ? color : '#444459',
+          color: unlocked ? color : '#444459',
         }}
       >
         {node.unlockPointsRequired}
@@ -233,7 +207,7 @@ function SidebarNodeComponent({
         {hovered && (
           <SidebarTooltip
             node={node}
-            state={state}
+            unlocked={unlocked}
             color={color}
             treeSpent={treeSpent}
           />
@@ -247,15 +221,12 @@ function SidebarNodeComponent({
 
 interface SidebarTooltipProps {
   node: SidebarNode;
-  state: NodeState;
+  unlocked: boolean;
   color: string;
   treeSpent: number;
 }
 
-function SidebarTooltip({ node, state, color, treeSpent }: SidebarTooltipProps) {
-  const { status, currentPoints } = state;
-  const isLocked = status === 'locked';
-
+function SidebarTooltip({ node, unlocked, color, treeSpent }: SidebarTooltipProps) {
   return (
     <motion.div
       initial={{ opacity: 0, x: 8, scale: 0.94 }}
@@ -302,7 +273,7 @@ function SidebarTooltip({ node, state, color, treeSpent }: SidebarTooltipProps) 
               ascension
             </span>
             <span className="text-[10px] font-mono" style={{ color: '#9999b0' }}>
-              {currentPoints} / {node.maxPoints} pt
+              auto-unlock
             </span>
           </div>
         </div>
@@ -312,7 +283,7 @@ function SidebarTooltip({ node, state, color, treeSpent }: SidebarTooltipProps) 
             {node.description}
           </p>
 
-          {isLocked && (
+          {!unlocked ? (
             <div
               className="text-[10px] leading-snug px-2 py-1.5 rounded"
               style={{
@@ -321,13 +292,11 @@ function SidebarTooltip({ node, state, color, treeSpent }: SidebarTooltipProps) 
                 border: '1px solid rgba(255,50,50,0.2)',
               }}
             >
-              <span className="font-bold">Locked:</span> spend{' '}
+              <span className="font-bold">Auto-unlocks at</span>{' '}
               <span className="font-bold">{node.unlockPointsRequired}</span>{' '}
-              points across both trees to unlock ({treeSpent}/{node.unlockPointsRequired})
+              points spent in trees ({treeSpent}/{node.unlockPointsRequired})
             </div>
-          )}
-
-          {!isLocked && currentPoints === 0 && (
+          ) : (
             <div
               className="text-[10px] leading-snug px-2 py-1.5 rounded"
               style={{
@@ -336,7 +305,7 @@ function SidebarTooltip({ node, state, color, treeSpent }: SidebarTooltipProps) 
                 border: `1px solid ${color}33`,
               }}
             >
-              Click to spend 1 point and unlock this ascension bonus.
+              <span className="font-bold">Active.</span> This bonus is granted automatically.
             </div>
           )}
         </div>

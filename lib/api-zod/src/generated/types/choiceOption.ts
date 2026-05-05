@@ -7,12 +7,11 @@
  */
 
 /**
- * A sidebar progression node that auto-unlocks when totalPointsSpent in trees reaches `unlockPointsRequired`. Not clickable; purely a visual progression bonus.
+ * One of two options on a choice talent node.
  */
-export interface SidebarNode {
+export interface ChoiceOption {
   id: string;
   name: string;
   description: string;
   icon?: string;
-  unlockPointsRequired: number;
 }

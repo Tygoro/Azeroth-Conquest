@@ -9,6 +9,8 @@ import { TIER_POINT_GATES, TIER_Y_VALUES, type NodeState } from '@/hooks/use-tal
 interface DualTalentTreeProps {
   tree: TalentTreeType;
   getNodeState: (nodeId: string) => NodeState;
+  /** Returns the selected option id for a choice node, or undefined */
+  getChoiceSelection: (nodeId: string) => string | undefined;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
   /** Per-side spent points — used to render the tier-gate indicator strip */
@@ -22,6 +24,7 @@ const CANVAS_H = 740;
 export function TalentTree({
   tree,
   getNodeState,
+  getChoiceSelection,
   onNodeClick,
   onNodeContextMenu,
   leftSpent,
@@ -77,6 +80,7 @@ export function TalentTree({
               nodes={tree.leftTree ?? []}
               color={tree.color}
               getNodeState={getNodeState}
+              getChoiceSelection={getChoiceSelection}
               onNodeClick={onNodeClick}
               onNodeContextMenu={onNodeContextMenu}
             />
@@ -111,6 +115,7 @@ export function TalentTree({
               nodes={tree.rightTree ?? []}
               color={tree.color}
               getNodeState={getNodeState}
+              getChoiceSelection={getChoiceSelection}
               onNodeClick={onNodeClick}
               onNodeContextMenu={onNodeContextMenu}
             />
@@ -182,11 +187,12 @@ interface SingleTreeProps {
   nodes: TalentNode[];
   color: string;
   getNodeState: (nodeId: string) => NodeState;
+  getChoiceSelection: (nodeId: string) => string | undefined;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
 }
 
-function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
+function SingleTree({ nodes, color, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
   const { width, height } = useMemo(() => {
     if (!nodes.length) return { width: CANVAS_W, height: CANVAS_H };
     const xs = nodes.map(n => n.position.x);
@@ -289,6 +295,7 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
       {/* Talent nodes */}
       {nodes.map(node => {
         const state = getNodeState(node.id);
+        const selectedOptionId = node.type === 'choice' ? getChoiceSelection(node.id) : undefined;
         return (
           <TalentNodeComponent
             key={node.id}
@@ -296,6 +303,7 @@ function SingleTree({ nodes, color, getNodeState, onNodeClick, onNodeContextMenu
             state={state}
             color={color}
             allNodes={nodes}
+            selectedOptionId={selectedOptionId}
             getNodeState={getNodeState}
             onClick={() => onNodeClick(node.id)}
             onContextMenu={() => onNodeContextMenu(node.id)}
@@ -316,13 +324,14 @@ interface TalentNodeComponentProps {
   state: NodeState;
   color: string;
   allNodes: TalentNode[];
+  selectedOptionId?: string;
   getNodeState: (nodeId: string) => NodeState;
   onClick: () => void;
   onContextMenu: () => void;
 }
 
 function TalentNodeComponent({
-  node, state, color, allNodes, getNodeState, onClick, onContextMenu,
+  node, state, color, allNodes, selectedOptionId, getNodeState, onClick, onContextMenu,
 }: TalentNodeComponentProps) {
   const [hovered, setHovered] = useState(false);
   const [imgError, setImgError] = useState(false);
@@ -333,12 +342,23 @@ function TalentNodeComponent({
   const isActive    = status === 'active';
   const isMaxed     = status === 'maxed';
 
-  const isCapstone = node.type === 'choice' || node.type === 'capstone';
-  const size = isCapstone ? CAPSTONE_SIZE : NODE_SIZE;
+  const isChoice = node.type === 'choice';
+  const isCapstone = node.type === 'capstone';
+  const isLargeNode = isChoice || isCapstone;
+  const size = isLargeNode ? CAPSTONE_SIZE : NODE_SIZE;
 
-  const iconUrl = getNodeIconUrl(node.id, node.name, node.type);
+  // For choice nodes, derive option-specific name/icon for the active half.
+  const choiceOptions = isChoice ? node.options ?? [] : [];
+  const selectedIdx = isChoice
+    ? Math.max(0, choiceOptions.findIndex(o => o.id === selectedOptionId))
+    : -1;
+  const activeOption = isChoice && selectedIdx >= 0 ? choiceOptions[selectedIdx] : undefined;
 
-  // Shape
+  const iconUrl = isChoice
+    ? getNodeIconUrl(node.id, activeOption?.name ?? choiceOptions[0]?.name ?? node.name, node.type)
+    : getNodeIconUrl(node.id, node.name, node.type);
+
+  // Shape: capstones round, passives rounded square, actives octagon, choices octagon-split
   const shapeStyle: React.CSSProperties =
     isCapstone
       ? { borderRadius: '50%' }
@@ -419,8 +439,18 @@ function TalentNodeComponent({
           transition: 'border-color 0.25s, box-shadow 0.25s, opacity 0.25s',
         }}
       >
-        {/* Icon */}
-        {!imgError ? (
+        {/* Icon — choice nodes show split halves, others show single icon */}
+        {isChoice && choiceOptions.length === 2 ? (
+          <ChoiceSplitIcon
+            options={choiceOptions}
+            selectedIdx={activeOption ? selectedIdx : -1}
+            nodeId={node.id}
+            nodeType={node.type}
+            isLocked={isLocked}
+            isActive={isActive || isMaxed}
+            color={color}
+          />
+        ) : !imgError ? (
           <img
             src={iconUrl}
             alt={node.name}
@@ -448,6 +478,18 @@ function TalentNodeComponent({
           >
             {node.name.split(' ').map(w => w[0]).join('').slice(0, 3)}
           </div>
+        )}
+
+        {/* Choice node — vertical divider between halves */}
+        {isChoice && (
+          <div
+            className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 pointer-events-none"
+            style={{
+              width: 1.5,
+              background: isLocked ? '#252535' : `${color}AA`,
+              boxShadow: isActive || isMaxed ? `0 0 4px ${color}` : 'none',
+            }}
+          />
         )}
 
         {/* Sheen overlay for active/maxed */}
@@ -487,10 +529,111 @@ function TalentNodeComponent({
             state={state}
             color={color}
             allNodes={allNodes}
+            selectedOptionId={selectedOptionId}
             getNodeState={getNodeState}
           />
         )}
       </AnimatePresence>
+    </div>
+  );
+}
+
+// ── Choice split icon (two halves, one per option) ──────────────────────────
+
+interface ChoiceSplitIconProps {
+  options: NonNullable<TalentNode['options']>;
+  /** -1 = no selection (both dim) */
+  selectedIdx: number;
+  nodeId: string;
+  nodeType: TalentNode['type'];
+  isLocked: boolean;
+  isActive: boolean;
+  color: string;
+}
+
+function ChoiceSplitIcon({
+  options, selectedIdx, nodeId, nodeType, isLocked, isActive, color,
+}: ChoiceSplitIconProps) {
+  return (
+    <div className="absolute inset-0 flex">
+      {options.map((opt, i) => {
+        const isThisSelected = i === selectedIdx;
+        const isThisDim = !isThisSelected && selectedIdx >= 0;
+        const url = getNodeIconUrl(`${nodeId}_${i}`, opt.name, nodeType);
+        return (
+          <ChoiceHalf
+            key={opt.id}
+            iconUrl={url}
+            altText={opt.name}
+            color={color}
+            isLocked={isLocked}
+            isSelected={isThisSelected && isActive}
+            isDim={isThisDim || (!isActive && selectedIdx < 0)}
+            side={i === 0 ? 'left' : 'right'}
+          />
+        );
+      })}
+    </div>
+  );
+}
+
+interface ChoiceHalfProps {
+  iconUrl: string;
+  altText: string;
+  color: string;
+  isLocked: boolean;
+  isSelected: boolean;
+  isDim: boolean;
+  side: 'left' | 'right';
+}
+
+function ChoiceHalf({ iconUrl, altText, color, isLocked, isSelected, isDim, side }: ChoiceHalfProps) {
+  const [err, setErr] = useState(false);
+  const filter = isLocked
+    ? 'grayscale(1) brightness(0.3)'
+    : isSelected
+    ? `saturate(1.4) brightness(1.1) drop-shadow(0 0 4px ${color}AA)`
+    : isDim
+    ? 'grayscale(0.7) brightness(0.5)'
+    : 'saturate(0.9) brightness(0.85)';
+  const opacity = isLocked ? 0.5 : isDim ? 0.45 : 1;
+  // Each half is 50% wide; we use background-image on the half itself so we can
+  // position the SAME icon offset to "show" the appropriate half of a single icon.
+  // For different per-option icons, we instead show the icon centered in the half.
+  return (
+    <div
+      className="relative h-full overflow-hidden"
+      style={{ width: '50%' }}
+    >
+      {!err ? (
+        <img
+          src={iconUrl}
+          alt={altText}
+          className="absolute top-0 h-full"
+          style={{
+            // Render the option icon at the full node size, but only the
+            // appropriate half is visible thanks to the parent's overflow:hidden
+            width: '200%',
+            left: side === 'left' ? 0 : '-100%',
+            objectFit: 'cover',
+            filter,
+            opacity,
+            transition: 'filter 0.25s, opacity 0.25s',
+          }}
+          onError={() => setErr(true)}
+          draggable={false}
+        />
+      ) : (
+        <div
+          className="absolute inset-0 flex items-center justify-center text-[10px] font-bold"
+          style={{
+            color: isSelected ? color : '#555',
+            opacity,
+          }}
+        >
+          {altText.split(' ').map(w => w[0]).join('').slice(0, 2)}
+        </div>
+      )}
     </div>
   );
 }
@@ -502,27 +645,33 @@ interface WowTooltipProps {
   state: NodeState;
   color: string;
   allNodes: TalentNode[];
+  selectedOptionId?: string;
   getNodeState: (id: string) => NodeState;
 }
 
-function WowTooltip({ node, state, color, allNodes, getNodeState }: WowTooltipProps) {
+function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOptionId }: WowTooltipProps) {
   const { status, currentPoints, lockReason, tierGateRequired, sideSpent } = state;
   const isLocked  = status === 'locked';
   const isMaxed   = status === 'maxed';
   const isActive  = status === 'active';
+  const isChoice  = node.type === 'choice';
 
-  // Prereqs need ANY (not all) maxed — show only if ALL are unmet
+  // Prereqs need ALL (AND logic) to have ≥1 point — show ANY unmet
   const unmetPrereqs = node.prerequisites.filter(pid => {
     const pNode = allNodes.find(n => n.id === pid);
     if (!pNode) return false;
     const pState = getNodeState(pid);
-    return pState.status !== 'maxed';
+    return pState.currentPoints === 0;
   });
-  const allPrereqsUnmet = node.prerequisites.length > 0 && unmetPrereqs.length === node.prerequisites.length;
+  const hasUnmetPrereqs = unmetPrereqs.length > 0;
 
   const prereqNames = unmetPrereqs
     .map(pid => allNodes.find(n => n.id === pid)?.name)
     .filter(Boolean);
+
+  const selectedOption = isChoice
+    ? (node.options ?? []).find(o => o.id === selectedOptionId)
+    : undefined;
 
   return (
     <motion.div
@@ -586,6 +735,53 @@ function WowTooltip({ node, state, color, allNodes, getNodeState }: WowTooltipPr
             {node.description}
           </p>
 
+          {/* Choice node — show both options with selection state */}
+          {isChoice && node.options && node.options.length === 2 && (
+            <div className="space-y-1.5">
+              {node.options.map((opt, i) => {
+                const isSelected = opt.id === selectedOptionId;
+                return (
+                  <div
+                    key={opt.id}
+                    className="text-[11px] leading-snug px-2 py-1.5 rounded"
+                    style={{
+                      color: isSelected ? '#fff' : '#7a7a90',
+                      background: isSelected ? `${color}22` : 'rgba(255,255,255,0.02)',
+                      border: `1px solid ${isSelected ? `${color}66` : '#252535'}`,
+                    }}
+                  >
+                    <div className="flex items-center gap-1.5 mb-0.5">
+                      <span
+                        className="text-[8px] font-bold uppercase tracking-wider px-1 py-px rounded"
+                        style={{
+                          color: isSelected ? color : '#55556a',
+                          background: isSelected ? `${color}11` : 'transparent',
+                          border: `1px solid ${isSelected ? `${color}44` : '#252535'}`,
+                        }}
+                      >
+                        {String.fromCharCode(65 + i)}
+                      </span>
+                      <span className="font-bold" style={{ color: isSelected ? '#ffd100' : '#7a7a90' }}>
+                        {opt.name}
+                      </span>
+                      {isSelected && (
+                        <span className="ml-auto text-[8px]" style={{ color: `${color}AA` }}>● selected</span>
+                      )}
+                    </div>
+                    <div style={{ color: isSelected ? '#c8c8d8' : '#55556a' }}>
+                      {opt.description}
+                    </div>
+                  </div>
+                );
+              })}
+              {currentPoints > 0 && (
+                <p className="text-[10px] italic" style={{ color: `${color}99` }}>
+                  Click to switch between options
+                </p>
+              )}
+            </div>
+          )}
+
           {/* Tier gate not met — red */}
           {isLocked && lockReason === 'tier' && tierGateRequired !== undefined && (
             <div
@@ -602,8 +798,8 @@ function WowTooltip({ node, state, color, allNodes, getNodeState }: WowTooltipPr
             </div>
           )}
 
-          {/* Prereqs unmet — red. With OR logic, only show if ALL unmet. */}
-          {isLocked && lockReason === 'prereq' && allPrereqsUnmet && prereqNames.length > 0 && (
+          {/* Prereqs unmet — red. AND logic: lists every unmet prereq. */}
+          {isLocked && lockReason === 'prereq' && hasUnmetPrereqs && prereqNames.length > 0 && (
             <div
               className="text-[10px] leading-snug px-2 py-1.5 rounded"
               style={{
@@ -614,19 +810,37 @@ function WowTooltip({ node, state, color, allNodes, getNodeState }: WowTooltipPr
             >
               <span className="font-bold">Requires:</span>{' '}
               {node.prerequisites.length > 1
-                ? `any of ${prereqNames.join(', ')} (maxed)`
-                : `${prereqNames[0]} (maxed)`}
+                ? `${prereqNames.join(' AND ')}`
+                : `${prereqNames[0]}`}
+            </div>
+          )}
+
+          {/* Selected option summary (when choice node has selection) */}
+          {isChoice && selectedOption && !isLocked && (
+            <div
+              className="text-[10px] leading-snug px-2 py-1.5 rounded font-bold"
+              style={{
+                color,
+                background: `${color}10`,
+                border: `1px solid ${color}33`,
+              }}
+            >
+              Active: {selectedOption.name}
             </div>
           )}
 
           {/* Hint text */}
           <p className="text-[10px]" style={{ color: '#44445a' }}>
-            {isMaxed
-              ? '⌘ Right-click to refund'
+            {isLocked
+              ? 'Complete prerequisites to unlock'
+              : isChoice && currentPoints > 0
+              ? 'Left-click to switch · Right-click to refund'
+              : isChoice
+              ? 'Left-click to spend 1 point and pick option A'
+              : isMaxed
+              ? 'Right-click to refund'
               : isActive
               ? 'Left-click to add · Right-click to refund'
-              : isLocked
-              ? 'Complete prerequisites to unlock'
               : 'Left-click to allocate a point'}
           </p>
         </div>

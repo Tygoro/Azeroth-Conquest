@@ -5,6 +5,7 @@
  * Conquest of Azeroth Talent Calculator API
  * OpenAPI spec version: 0.1.0
  */
+import type { ChoiceOption } from "./choiceOption";
 import type { TalentNodePosition } from "./talentNodePosition";
 import type { TalentNodeType } from "./talentNodeType";
 
@@ -18,4 +19,6 @@ export interface TalentNode {
   position: TalentNodePosition;
   icon?: string;
   type: TalentNodeType;
+  /** Two options for choice nodes (type='choice'). Always exactly 2 entries when present. */
+  options?: ChoiceOption[];
 }

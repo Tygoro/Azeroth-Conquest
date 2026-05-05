@@ -32,6 +32,16 @@ export const TalentNodeType = {
   capstone: "capstone",
 } as const;
 
+/**
+ * One of two options on a choice talent node.
+ */
+export interface ChoiceOption {
+  id: string;
+  name: string;
+  description: string;
+  icon?: string;
+}
+
 export interface TalentNode {
   id: string;
   name: string;
@@ -42,15 +52,18 @@ export interface TalentNode {
   position: TalentNodePosition;
   icon?: string;
   type: TalentNodeType;
+  /** Two options for choice nodes (type='choice'). Always exactly 2 entries when present. */
+  options?: ChoiceOption[];
 }
 
+/**
+ * A sidebar progression node that auto-unlocks when totalPointsSpent in trees reaches `unlockPointsRequired`. Not clickable; purely a visual progression bonus.
+ */
 export interface SidebarNode {
   id: string;
   name: string;
   description: string;
   icon?: string;
-  maxPoints: number;
-  currentPoints: number;
   unlockPointsRequired: number;
 }
 

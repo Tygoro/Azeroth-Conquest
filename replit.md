@@ -27,22 +27,25 @@ Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style tal
 - Build serialization (URL `?data=` and Import/Export) round-trips both `classId` and `specId`
 
 ### Tree layout
-40-node 10-tier Dragonflight-style layout per side: rows of 3 / 4 / 5 / 5 / 5 / 5 / 5 / 4 / 3 / 1 capstone (80 nodes per spec). Mid-tree (tiers 3–6) is a dense branchy cluster with 3-prereq nodes plus span-edge reconnects in tiers 5 and 6. Node positions, prereq DAG, types and max-points all live in `artifacts/api-server/src/data/classes.ts`.
+33-node 10-tier Dragonflight-style layout per side: rows of 1 / 3 / 4 / 5 / 5 / 4 / 4 / 3 / 2 / 2 capstones (66 nodes per spec). Tiers 4–8 form a dense AND-DAG with multiple 2-prereq convergence nodes. Node positions, prereq DAG, types and max-points all live in `artifacts/api-server/src/data/classes.ts`.
 
 ### Tier point gates (per side)
-Each tier unlocks only after enough points are spent **in that tree**:
+Each tier unlocks only after enough points are spent **in that tree**. Gates start at row 4:
 
 | Tier | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |------|---|---|---|---|---|---|---|---|---|---|
-| Gate | 0 | 0 | 8 | 8 | 20 | 20 | 30 | 30 | 40 | 50 |
+| Gate | 0 | 0 | 0 | 0 | 8 | 8 | 20 | 20 | 30 | 40 |
 
 Gates are constants (`TIER_POINT_GATES`) in `hooks/use-talent-tree.ts` and rendered as a small indicator strip beside each tree (`TierGateStrip` in `components/talent-tree.tsx`).
 
+### Choice nodes
+Some talents (~6 per side) are **choice nodes** with two mutually exclusive options. They cost 1 point and `maxPoints = 1`. Clicking spends a point and selects option A; clicking again cycles to option B; right-click refunds. The chosen option is persisted in build serialization under `choices`. Visually rendered as a horizontal split-octagon — each half shows one option's icon, with a glowing divider and the active half highlighted. The tooltip lists both options (A/B badges) with descriptions and marks the selected one.
+
 ### Path of Ascension sidebar
-A right-rail vertical progression track with 5 nodes that unlock as **total points** are spent across both trees. Thresholds: `[8, 16, 24, 35, 48]`. Each costs 1 point (max 1) from the same 61-point budget. Implemented in `components/sidebar-track.tsx`. The hook returns `treeSpent` (left+right, excludes sidebar) which is what gates the sidebar — buying a sidebar node doesn't immediately satisfy the next threshold.
+A right-rail vertical progression track with 5 nodes that **auto-unlock** as **total tree points** (left + right, excluding sidebar) cross the thresholds `[10, 20, 30, 40, 50]`. Sidebar nodes are **not clickable** and **cost no points** — they are pure milestone rewards. Implemented in `components/sidebar-track.tsx` as a read-only display.
 
 ### Prereq logic
-Multi-prereq nodes use **OR** logic — ANY one prereq being maxed unlocks the dependent (matches Dragonflight branching/reconnect feel). Refunding a maxed prereq is blocked only when no other maxed sibling prereq covers the dependent, AND only when removing wouldn't drop a higher tier below its gate.
+All prereqs use **AND** logic — every listed prereq must have at least 1 point allocated for the dependent to unlock. Refunding a point is blocked when removing it would orphan any direct dependent that still has points, or when it would drop a higher tier below its gate.
 
 ### Spec data
 - **Sun Cleric** has 4 hand-crafted specs (Piety / Valkyrie / Seraphim / Blessings) matching the in-game UI
@@ -53,8 +56,8 @@ Multi-prereq nodes use **OR** logic — ANY one prereq being maxed unlocks the d
 - `artifacts/conquest-calculator` (React + Vite)
 - `pages/calculator.tsx` orchestrates class select → spec select → tree
 - `components/spec-selection-screen.tsx` — 3-or-4-column responsive grid of spec cards
-- `components/talent-tree.tsx` — auto-sizes to node positions, supports the 22-node layout
-- `hooks/use-talent-tree.ts` — point allocation logic + serialization including specId
+- `components/talent-tree.tsx` — auto-sizes to node positions, supports the 33-node layout, choice-node split icon
+- `hooks/use-talent-tree.ts` — point allocation logic, AND-prereq enforcement, choice cycling, serialization including specId + choices
 
 ## Key Commands
 

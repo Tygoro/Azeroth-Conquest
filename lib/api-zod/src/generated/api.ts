@@ -89,6 +89,21 @@ export const GetSpecTreeResponse = zod.object({
       }),
       icon: zod.string().optional(),
       type: zod.enum(["passive", "active", "choice", "capstone"]),
+      options: zod
+        .array(
+          zod
+            .object({
+              id: zod.string(),
+              name: zod.string(),
+              description: zod.string(),
+              icon: zod.string().optional(),
+            })
+            .describe("One of two options on a choice talent node."),
+        )
+        .optional()
+        .describe(
+          "Two options for choice nodes (type='choice'). Always exactly 2 entries when present.",
+        ),
     }),
   ),
   rightTree: zod.array(
@@ -105,19 +120,36 @@ export const GetSpecTreeResponse = zod.object({
       }),
       icon: zod.string().optional(),
       type: zod.enum(["passive", "active", "choice", "capstone"]),
+      options: zod
+        .array(
+          zod
+            .object({
+              id: zod.string(),
+              name: zod.string(),
+              description: zod.string(),
+              icon: zod.string().optional(),
+            })
+            .describe("One of two options on a choice talent node."),
+        )
+        .optional()
+        .describe(
+          "Two options for choice nodes (type='choice'). Always exactly 2 entries when present.",
+        ),
     }),
   ),
   sidebarTrack: zod
     .array(
-      zod.object({
-        id: zod.string(),
-        name: zod.string(),
-        description: zod.string(),
-        icon: zod.string().optional(),
-        maxPoints: zod.number(),
-        currentPoints: zod.number(),
-        unlockPointsRequired: zod.number(),
-      }),
+      zod
+        .object({
+          id: zod.string(),
+          name: zod.string(),
+          description: zod.string(),
+          icon: zod.string().optional(),
+          unlockPointsRequired: zod.number(),
+        })
+        .describe(
+          "A sidebar progression node that auto-unlocks when totalPointsSpent in trees reaches `unlockPointsRequired`. Not clickable; purely a visual progression bonus.",
+        ),
     )
     .optional(),
 });

@@ -6,6 +6,7 @@
  * OpenAPI spec version: 0.1.0
  */
 
+export * from "./choiceOption";
 export * from "./classDetail";
 export * from "./classMeta";
 export * from "./errorResponse";

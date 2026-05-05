@@ -207,6 +207,11 @@ components:
         type:
           type: string
           enum: [passive, active, choice, capstone]
+        options:
+          type: array
+          description: Two options for choice nodes (type='choice'). Always exactly 2 entries when present.
+          items:
+            $ref: "#/components/schemas/ChoiceOption"
       required:
         - id
         - name
@@ -219,6 +224,7 @@ components:
 
     SidebarNode:
       type: object
+      description: A sidebar progression node that auto-unlocks when totalPointsSpent in trees reaches `unlockPointsRequired`. Not clickable; purely a visual progression bonus.
       properties:
         id:
           type: string
@@ -228,19 +234,30 @@ components:
           type: string
         icon:
           type: string
-        maxPoints:
-          type: integer
-        currentPoints:
-          type: integer
         unlockPointsRequired:
           type: integer
       required:
         - id
         - name
         - description
-        - maxPoints
-        - currentPoints
         - unlockPointsRequired
+
+    ChoiceOption:
+      type: object
+      description: One of two options on a choice talent node.
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        icon:
+          type: string
+      required:
+        - id
+        - name
+        - description
 
     TalentTree:
       type: object

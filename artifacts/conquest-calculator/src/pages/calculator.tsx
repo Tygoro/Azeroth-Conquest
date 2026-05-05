@@ -85,11 +85,13 @@ export default function Calculator() {
     rightSpent,
     maxPoints,
     getNodeState,
+    getChoiceSelection,
     addPoint,
     removePoint,
     reset,
     serializeBuild,
     setPoints,
+    setChoices,
     loadBuild,
   } = useTalentTree({ treeData: treeData ?? undefined });
 
@@ -114,6 +116,15 @@ export default function Calculator() {
         }
         setPoints(safe);
       }
+      if (decoded?.choices && typeof decoded.choices === 'object') {
+        const safe: Record<string, string> = {};
+        for (const [k, v] of Object.entries(decoded.choices)) {
+          if (typeof k === 'string' && typeof v === 'string' && v.length < 200) {
+            safe[k] = v;
+          }
+        }
+        setChoices(safe);
+      }
     } catch {
       toast({ title: 'Invalid Build', description: 'The build link is corrupted.', variant: 'destructive' });
     }
@@ -125,16 +136,19 @@ export default function Calculator() {
     setSelectedClassId(val);
     setSelectedSpecId(null);
     setPoints({});
+    setChoices({});
   };
 
   const handleSpecSelect = (specId: string) => {
     setSelectedSpecId(specId);
     setPoints({});
+    setChoices({});
   };
 
   const handleBackToSpecs = () => {
     setSelectedSpecId(null);
     setPoints({});
+    setChoices({});
   };
 
   const handleCopyLink = () => {
@@ -204,6 +218,7 @@ export default function Calculator() {
           <TalentTree
             tree={treeData}
             getNodeState={getNodeState}
+            getChoiceSelection={getChoiceSelection}
             onNodeClick={addPoint}
             onNodeContextMenu={removePoint}
             leftSpent={leftSpent}
@@ -215,9 +230,6 @@ export default function Calculator() {
             nodes={treeData.sidebarTrack}
             color={classColor}
             treeSpent={treeSpent}
-            getNodeState={getNodeState}
-            onNodeClick={addPoint}
-            onNodeContextMenu={removePoint}
           />
         )}
       </div>
