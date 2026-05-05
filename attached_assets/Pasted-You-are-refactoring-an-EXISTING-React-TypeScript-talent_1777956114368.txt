@@ -1,0 +1,238 @@
+You are refactoring an EXISTING React + TypeScript talent calculator app.
+
+The current app is FUNCTIONAL but WRONG in:
+- class data (uses retail WoW classes)
+- layout (grid/flex instead of WoW-style)
+- structure (missing dual-tree system)
+
+You must FIX and UPGRADE — not rebuild.
+
+---------------------------------------
+GOAL
+---------------------------------------
+
+Recreate a Conquest of Azeroth (Ascension WoW) talent calculator that visually and structurally matches Dragonflight-style talent trees:
+
+- Two side-by-side trees (left + right)
+- Absolute positioned nodes
+- SVG connection lines
+- Real CoA class names
+- Clean, centered, scalable layout
+
+---------------------------------------
+STEP 1 — REPLACE CLASS DATA (MANDATORY)
+---------------------------------------
+
+DELETE all existing class names.
+
+Use ONLY this list:
+
+[
+  "Necromancer",
+  "Pyromancer",
+  "Cultist",
+  "Starcaller",
+  "Sun Cleric",
+  "Tinker",
+  "Runemaster",
+  "Primalist",
+  "Chronomancer",
+  "Reaper",
+  "Guardian",
+  "Monk",
+  "Demon Hunter",
+  "Stormbringer",
+  "Witch Hunter",
+  "Knight of Xoroth",
+  "Barbarian",
+  "Ranger",
+  "Son of Arugal",
+  "Witch Doctor",
+  "Disciple of Shadra"
+]
+
+Each class must load from:
+
+/src/data/classes/{className}.json
+
+NO placeholders allowed.
+
+---------------------------------------
+STEP 2 — DATA STRUCTURE (CRITICAL)
+---------------------------------------
+
+Each class JSON must support TWO TREES:
+
+{
+  "class": "Necromancer",
+  "maxPoints": 61,
+  "leftTree": [...],
+  "rightTree": [...]
+}
+
+Each node:
+
+{
+  "id": "n1",
+  "name": "Talent Name",
+  "description": "Effect...",
+  "maxPoints": 3,
+  "points": 0,
+  "prerequisites": ["n0"],
+  "position": { "x": 200, "y": 120 }
+}
+
+---------------------------------------
+STEP 3 — LAYOUT ENGINE (MAJOR FIX)
+---------------------------------------
+
+REMOVE:
+- CSS grid layouts
+- auto positioning
+- flex-based node layouts
+
+REPLACE WITH:
+
+- A fixed canvas container
+- Nodes rendered with absolute positioning
+
+Each node must use:
+
+style={{
+  position: "absolute",
+  left: node.position.x,
+  top: node.position.y,
+  transform: "translate(-50%, -50%)"
+}}
+
+---------------------------------------
+STEP 4 — SIDE-BY-SIDE TREE SYSTEM
+---------------------------------------
+
+Render two trees:
+
+<div className="flex justify-center gap-32 w-full h-full">
+  <Tree data={leftTree} />
+  <Tree data={rightTree} />
+</div>
+
+Each tree:
+- independent node graph
+- shared global points pool
+
+---------------------------------------
+STEP 5 — SVG CONNECTION LINES
+---------------------------------------
+
+Implement an SVG overlay:
+
+- Draw lines between nodes using their x/y positions
+- Use <line> or <path>
+
+Behavior:
+- inactive: dim grey
+- active: glowing cyan
+- smooth transitions
+
+---------------------------------------
+STEP 6 — NODE VISUAL STATES
+---------------------------------------
+
+Each node must support:
+
+LOCKED:
+- dark grey
+- no glow
+
+AVAILABLE:
+- subtle border glow
+
+ACTIVE:
+- cyan/teal glow
+- filled
+
+MAXED:
+- stronger glow + highlight
+
+Use Tailwind or CSS:
+
+---------------------------------------
+STEP 7 — INTERACTION LOGIC
+---------------------------------------
+
+Keep and CLEAN existing logic:
+
+Left click:
++1 point
+
+Right click:
+-1 point
+
+Rules:
+- cannot exceed maxPoints
+- cannot allocate unless prerequisites met
+- total points <= maxPoints (61)
+
+---------------------------------------
+STEP 8 — TOP BAR (KEEP + FIX)
+---------------------------------------
+
+Keep:
+- Points counter
+- Reset button
+- Import/Export
+- Copy Link
+
+Ensure:
+- points update correctly
+- build serialization works
+
+---------------------------------------
+STEP 9 — CENTERING + SCALING FIX
+---------------------------------------
+
+Fix current issues:
+- tree too small
+- not centered
+
+Wrap everything in:
+
+<div className="w-screen h-screen flex items-center justify-center bg-black">
+  <App />
+</div>
+
+---------------------------------------
+STEP 10 — SAMPLE TREE (IMPORTANT)
+---------------------------------------
+
+Generate a PROPER example class with ~15–20 nodes
+that visually resembles a branching WoW tree:
+
+- multiple layers (top → bottom)
+- branching paths
+- symmetrical layout
+- nodes spaced vertically by ~100–140px
+- horizontal spread ~150–250px
+
+---------------------------------------
+STEP 11 — DO NOT REGRESS
+---------------------------------------
+
+DO NOT:
+- switch back to grid
+- simplify layout
+- remove dual-tree system
+- generate fake class names
+
+---------------------------------------
+OUTPUT
+---------------------------------------
+
+Modify the existing project to:
+- use correct class list
+- render dual trees
+- use absolute positioning
+- display clean WoW-style layout
+- keep logic working
+
+Focus on layout accuracy and structure FIRST.

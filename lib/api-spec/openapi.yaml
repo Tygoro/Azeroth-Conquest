@@ -20,7 +20,6 @@ paths:
       operationId: healthCheck
       tags: [health]
       summary: Health check
-      description: Returns server health status
       responses:
         "200":
           description: Healthy
@@ -34,7 +33,6 @@ paths:
       operationId: listClasses
       tags: [classes]
       summary: List all classes
-      description: Returns metadata for all 21 WoW classes
       responses:
         "200":
           description: List of classes
@@ -50,7 +48,6 @@ paths:
       operationId: getClass
       tags: [classes]
       summary: Get talent tree for a class
-      description: Returns full talent tree data including all nodes
       parameters:
         - name: classId
           in: path
@@ -76,7 +73,6 @@ paths:
       operationId: saveBuild
       tags: [builds]
       summary: Save a talent build
-      description: Saves a serialized build and returns a shareable ID
       requestBody:
         required: true
         content:
@@ -96,7 +92,6 @@ paths:
       operationId: getBuild
       tags: [builds]
       summary: Load a saved build
-      description: Loads a previously saved talent build
       parameters:
         - name: buildId
           in: path
@@ -147,6 +142,17 @@ components:
         - icon
         - color
 
+    TalentNodePosition:
+      type: object
+      properties:
+        x:
+          type: integer
+        y:
+          type: integer
+      required:
+        - x
+        - y
+
     TalentNode:
       type: object
       properties:
@@ -165,15 +171,7 @@ components:
           items:
             type: string
         position:
-          type: object
-          properties:
-            x:
-              type: integer
-            y:
-              type: integer
-          required:
-            - x
-            - y
+          $ref: "#/components/schemas/TalentNodePosition"
         icon:
           type: string
         type:
@@ -200,7 +198,11 @@ components:
           type: integer
         color:
           type: string
-        nodes:
+        leftTree:
+          type: array
+          items:
+            $ref: "#/components/schemas/TalentNode"
+        rightTree:
           type: array
           items:
             $ref: "#/components/schemas/TalentNode"
@@ -209,7 +211,8 @@ components:
         - classId
         - maxPoints
         - color
-        - nodes
+        - leftTree
+        - rightTree
 
     SaveBuildBody:
       type: object

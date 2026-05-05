@@ -8,7 +8,6 @@
 import * as zod from "zod";
 
 /**
- * Returns server health status
  * @summary Health check
  */
 export const HealthCheckResponse = zod.object({
@@ -16,7 +15,6 @@ export const HealthCheckResponse = zod.object({
 });
 
 /**
- * Returns metadata for all 21 WoW classes
  * @summary List all classes
  */
 export const ListClassesResponseItem = zod.object({
@@ -29,7 +27,6 @@ export const ListClassesResponseItem = zod.object({
 export const ListClassesResponse = zod.array(ListClassesResponseItem);
 
 /**
- * Returns full talent tree data including all nodes
  * @summary Get talent tree for a class
  */
 export const GetClassParams = zod.object({
@@ -41,7 +38,23 @@ export const GetClassResponse = zod.object({
   classId: zod.string(),
   maxPoints: zod.number(),
   color: zod.string(),
-  nodes: zod.array(
+  leftTree: zod.array(
+    zod.object({
+      id: zod.string(),
+      name: zod.string(),
+      description: zod.string(),
+      maxPoints: zod.number(),
+      currentPoints: zod.number(),
+      prerequisites: zod.array(zod.string()),
+      position: zod.object({
+        x: zod.number(),
+        y: zod.number(),
+      }),
+      icon: zod.string().optional(),
+      type: zod.enum(["passive", "active", "choice"]),
+    }),
+  ),
+  rightTree: zod.array(
     zod.object({
       id: zod.string(),
       name: zod.string(),
@@ -60,7 +73,6 @@ export const GetClassResponse = zod.object({
 });
 
 /**
- * Saves a serialized build and returns a shareable ID
  * @summary Save a talent build
  */
 export const SaveBuildBody = zod.object({
@@ -70,7 +82,6 @@ export const SaveBuildBody = zod.object({
 });
 
 /**
- * Loads a previously saved talent build
  * @summary Load a saved build
  */
 export const GetBuildParams = zod.object({

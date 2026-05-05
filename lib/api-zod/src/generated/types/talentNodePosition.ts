@@ -6,7 +6,7 @@
  * OpenAPI spec version: 0.1.0
  */
 
-export type TalentNodePosition = {
+export interface TalentNodePosition {
   x: number;
   y: number;
-};
+}

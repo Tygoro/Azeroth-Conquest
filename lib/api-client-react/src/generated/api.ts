@@ -35,7 +35,6 @@ type Awaited<O> = O extends AwaitedInput<infer T> ? T : never;
 type SecondParameter<T extends (...args: never) => unknown> = Parameters<T>[1];
 
 /**
- * Returns server health status
  * @summary Health check
  */
 export const getHealthCheckUrl = () => {
@@ -111,7 +110,6 @@ export function useHealthCheck<
 }
 
 /**
- * Returns metadata for all 21 WoW classes
  * @summary List all classes
  */
 export const getListClassesUrl = () => {
@@ -187,7 +185,6 @@ export function useListClasses<
 }
 
 /**
- * Returns full talent tree data including all nodes
  * @summary Get talent tree for a class
  */
 export const getGetClassUrl = (classId: string) => {
@@ -273,7 +270,6 @@ export function useGetClass<
 }
 
 /**
- * Saves a serialized build and returns a shareable ID
  * @summary Save a talent build
  */
 export const getSaveBuildUrl = () => {
@@ -360,7 +356,6 @@ export const useSaveBuild = <
 };
 
 /**
- * Loads a previously saved talent build
  * @summary Load a saved build
  */
 export const getGetBuildUrl = (buildId: string) => {

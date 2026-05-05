@@ -17,10 +17,10 @@ export interface ClassMeta {
   color: string;
 }
 
-export type TalentNodePosition = {
+export interface TalentNodePosition {
   x: number;
   y: number;
-};
+}
 
 export type TalentNodeType =
   (typeof TalentNodeType)[keyof typeof TalentNodeType];
@@ -48,7 +48,8 @@ export interface TalentTree {
   classId: string;
   maxPoints: number;
   color: string;
-  nodes: TalentNode[];
+  leftTree: TalentNode[];
+  rightTree: TalentNode[];
 }
 
 export interface SaveBuildBody {

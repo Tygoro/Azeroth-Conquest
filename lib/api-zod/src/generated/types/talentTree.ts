@@ -12,5 +12,6 @@ export interface TalentTree {
   classId: string;
   maxPoints: number;
   color: string;
-  nodes: TalentNode[];
+  leftTree: TalentNode[];
+  rightTree: TalentNode[];
 }
