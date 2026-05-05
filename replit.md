@@ -21,9 +21,9 @@ Hosts the **Conquest of Azeroth Talent Calculator** — a Dragonflight-style tal
 ## Talent Calculator Architecture
 
 ### Class → Spec → Tree flow
-- `GET /api/classes` returns 21 class metas
-- `GET /api/classes/:classId` returns `ClassDetail` with `specs[]` (3–4 SpecMeta per class)
-- `GET /api/classes/:classId/specs/:specId` returns the actual `TalentTree` with a class-invariant `leftTree` plus a spec-specific `rightTree` and `sidebarTrack`
+- **Frontend is fully standalone** — all class/spec/talent data is generated locally in `artifacts/conquest-calculator/src/data/talent-engine/` (no runtime API calls).
+- `getClasses()` / `getClassDetail(classId)` / `getTalentTree(classId, specId)` in `src/data/static-data.ts` are the public abstraction layer; they return the same shapes as the old REST responses.
+- The api-server (`GET /api/classes`, `/api/classes/:classId`, `/api/classes/:classId/specs/:specId`) is still maintained and returns the same data, but the deployed Vercel frontend does not depend on it.
 - Build serialization (URL `?data=` and Import/Export) round-trips both `classId` and `specId`
 
 ### Class-invariant LEFT tree
@@ -79,7 +79,7 @@ A right-rail vertical progression track with 5 nodes that **auto-unlock** as **t
 All prereqs use **AND** logic — every listed prereq must have at least 1 point allocated for the dependent to unlock. Refunding a point is blocked when removing it would orphan any direct dependent that still has points, or when it would drop a higher tier below its gate.
 
 ### Spec data
-- A single uniform metadata table (`CLASS_FLAVORS` in `artifacts/api-server/src/data/classes.ts`) defines each class's left-tree theme and the full per-spec list (id, name, role, attribute, complexity, description, capstone, theme tokens) — modeled after the in-game CoA "Combat Style" data.
+- A single uniform metadata table (`CLASS_FLAVORS`) defines each class's left-tree theme and the full per-spec list. It lives in **two places** that must be kept in sync: `artifacts/api-server/src/data/classes.ts` (server) and `artifacts/conquest-calculator/src/data/talent-engine/class-engine.ts` (frontend static copy).
 - All 21 classes (Sun Cleric, Necromancer, Pyromancer, Cultist, Starcaller, Tinker, Runemaster, Primalist, Reaper, Venomancer, Chronomancer, Bloodmage, Guardian, Stormbringer, Felsworn, Barbarian, Witch Doctor, Witch Hunter, Knight of Xoroth, Ranger, Templar) flow through the same `autoBuildSpecsForClass` pipeline — no class-specific special-casing.
 - Spec counts vary by class (3 or 4 specs) just like the in-game UI; `SpecSelectionScreen` renders the API response dynamically with a 3- or 4-column grid and an empty-state fallback when a class has no specs.
 - Talent names are produced from spec themes (signature names at the top, capstone at the bottom, procedural in between).

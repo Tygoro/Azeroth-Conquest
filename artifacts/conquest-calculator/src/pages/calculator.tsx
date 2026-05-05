@@ -1,11 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import {
-  useListClasses,
-  useGetClass,
-  useGetSpecTree,
-  getGetClassQueryKey,
-  getGetSpecTreeQueryKey,
-} from '@workspace/api-client-react';
+import { getClasses, getClassDetail, getTalentTree } from '@/data/static-data';
 import { useTalentTree, DEFAULT_LEVEL, MIN_LEVEL, MAX_LEVEL, clampLevel, getAvailablePoints } from '@/hooks/use-talent-tree';
 import { TalentTree } from '@/components/talent-tree';
 import { SidebarTrack } from '@/components/sidebar-track';
@@ -19,17 +13,8 @@ import { Share2, RefreshCcw, Download, Upload, Copy, AlertTriangle, ChevronLeft 
 import { Skeleton } from '@/components/ui/skeleton';
 import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { CLASSES, CLASS_IDS, CLASS_COLORS, VALID_CLASS_IDS } from '@/data/classes';
+import { CLASS_COLORS, VALID_CLASS_IDS } from '@/data/classes';
 import { validateAndNarrow } from '@/data/classes/validate';
-
-// Fallback class list — used while API hasn't loaded.
-const FALLBACK_CLASSES = CLASSES.map(name => ({
-  id: CLASS_IDS[name],
-  name,
-  color: CLASS_COLORS[CLASS_IDS[name]] ?? '#aaaaaa',
-  description: '',
-  icon: '',
-}));
 
 export default function Calculator() {
   const { toast } = useToast();
@@ -42,38 +27,26 @@ export default function Calculator() {
   const [importData, setImportData] = useState('');
   const [level, setLevel] = useState<number>(DEFAULT_LEVEL);
 
-  const { data: apiClasses, isLoading: classesLoading } = useListClasses();
-
-  // Filter out invalid IDs (e.g. stale cache)
-  const classes = useMemo(() => {
-    const source = apiClasses ?? FALLBACK_CLASSES;
-    return source.filter(c => VALID_CLASS_IDS.has(c.id));
-  }, [apiClasses]);
-
-  // Fetch class detail (with specs) when class is selected
-  const { data: classDetail, isLoading: classDetailLoading, error: classDetailError } = useGetClass(
-    selectedClassId || '',
-    {
-      query: {
-        enabled: !!selectedClassId,
-        queryKey: selectedClassId ? getGetClassQueryKey(selectedClassId) : [],
-      },
-    },
+  // All data is local — no API calls needed.
+  const classes = useMemo(
+    () => getClasses().filter(c => VALID_CLASS_IDS.has(c.id)),
+    [],
   );
+  const classesLoading = false;
 
-  // Fetch spec tree when both class and spec are selected
-  const { data: rawTreeData, isLoading: treeLoading, error: treeError } = useGetSpecTree(
-    selectedClassId || '',
-    selectedSpecId || '',
-    {
-      query: {
-        enabled: !!selectedClassId && !!selectedSpecId,
-        queryKey: selectedClassId && selectedSpecId
-          ? getGetSpecTreeQueryKey(selectedClassId, selectedSpecId)
-          : [],
-      },
-    },
+  const classDetail = useMemo(
+    () => (selectedClassId ? getClassDetail(selectedClassId) : undefined),
+    [selectedClassId],
   );
+  const classDetailLoading = false;
+  const classDetailError = selectedClassId && !classDetail ? new Error('Class not found') : null;
+
+  const rawTreeData = useMemo(
+    () => (selectedClassId && selectedSpecId ? getTalentTree(selectedClassId, selectedSpecId) : undefined),
+    [selectedClassId, selectedSpecId],
+  );
+  const treeLoading = false;
+  const treeError = selectedClassId && selectedSpecId && !rawTreeData ? new Error('Tree not found') : null;
 
   // Validate the tree structure before passing it to the renderer
   const { tree: treeData, error: treeValidationError } = useMemo(
