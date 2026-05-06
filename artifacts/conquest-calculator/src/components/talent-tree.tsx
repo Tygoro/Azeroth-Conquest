@@ -5,31 +5,28 @@ import { Lock } from 'lucide-react';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
 import { validateTree } from '@/data/classes/validate';
 import { getNodeIconUrl } from '@/data/classes/icons';
-import { TIER_POINT_GATES, TIER_Y_VALUES, type NodeState } from '@/hooks/use-talent-tree';
+import { TIER_POINT_GATES, type NodeState } from '@/hooks/use-talent-tree';
 
 interface DualTalentTreeProps {
   tree: TalentTreeType;
+  side: 'left' | 'right';
   getNodeState: (nodeId: string) => NodeState;
   /** Returns the selected option id for a choice node, or undefined */
   getChoiceSelection: (nodeId: string) => string | undefined;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
-  /** Per-side spent points — used to render the tier-gate indicator strip */
-  leftSpent: number;
-  rightSpent: number;
+  /** Points spent in this side's tree — drives tier-gate strip */
+  sideSpent: number;
 }
-
-const CANVAS_W = 480;
-const CANVAS_H = 740;
 
 export function TalentTree({
   tree,
+  side,
   getNodeState,
   getChoiceSelection,
   onNodeClick,
   onNodeContextMenu,
-  leftSpent,
-  rightSpent,
+  sideSpent,
 }: DualTalentTreeProps) {
   // Guard: validate structure before rendering
   const validation = validateTree(tree);
@@ -44,60 +41,25 @@ export function TalentTree({
     );
   }
 
+  const nodes = side === 'left' ? (tree.leftTree ?? []) : (tree.rightTree ?? []);
+  const label = side === 'left'
+    ? (tree.leftTreeName ?? `Path of ${tree.class}`)
+    : (tree.rightTreeName ?? `Mastery of ${tree.class}`);
+
   return (
-    <div className="relative w-full h-full flex items-start justify-center gap-6 px-4 py-6">
-      {/* Left tree */}
-      <div className="flex flex-col items-center">
-        <TreeLabel label={tree.leftTreeName ?? `Path of ${tree.class}`} color={tree.color} />
-        <div className="flex items-start">
-          <TierGateStrip color={tree.color} sideSpent={leftSpent} side="left" />
-          <SingleTree
-            nodes={tree.leftTree ?? []}
-            color={tree.color}
-            sideSpent={leftSpent}
-            getNodeState={getNodeState}
-            getChoiceSelection={getChoiceSelection}
-            onNodeClick={onNodeClick}
-            onNodeContextMenu={onNodeContextMenu}
-          />
-        </div>
-      </div>
-
-      {/* Center divider */}
-      <div className="flex flex-col items-center self-stretch mt-12 mx-2">
-        {/* Class emblem */}
-        <div
-          className="w-10 h-10 rounded-full flex-none mb-2 flex items-center justify-center text-[9px] font-bold tracking-wider"
-          style={{
-            background: `radial-gradient(circle, ${tree.color}22 0%, transparent 70%)`,
-            border: `1px solid ${tree.color}44`,
-            color: `${tree.color}99`,
-            boxShadow: `0 0 12px ${tree.color}22`,
-          }}
-        >
-          {tree.class.slice(0, 2).toUpperCase()}
-        </div>
-        <div
-          className="flex-1 w-px"
-          style={{ background: `linear-gradient(to bottom, ${tree.color}55, transparent)` }}
+    <div className="flex flex-col items-center w-full h-full pt-6 px-2">
+      <TreeLabel label={label} color={tree.color} />
+      <div className="flex items-start gap-2">
+        <TierGateStrip color={tree.color} sideSpent={sideSpent} side={side} />
+        <SingleTree
+          nodes={nodes}
+          color={tree.color}
+          sideSpent={sideSpent}
+          getNodeState={getNodeState}
+          getChoiceSelection={getChoiceSelection}
+          onNodeClick={onNodeClick}
+          onNodeContextMenu={onNodeContextMenu}
         />
-      </div>
-
-      {/* Right tree */}
-      <div className="flex flex-col items-center">
-        <TreeLabel label={tree.rightTreeName ?? `Mastery of ${tree.class}`} color={tree.color} />
-        <div className="flex items-start">
-          <SingleTree
-            nodes={tree.rightTree ?? []}
-            color={tree.color}
-            sideSpent={rightSpent}
-            getNodeState={getNodeState}
-            getChoiceSelection={getChoiceSelection}
-            onNodeClick={onNodeClick}
-            onNodeContextMenu={onNodeContextMenu}
-          />
-          <TierGateStrip color={tree.color} sideSpent={rightSpent} side="right" />
-        </div>
       </div>
     </div>
   );
@@ -121,35 +83,45 @@ function TreeLabel({ label, color }: { label: string; color: string }) {
   );
 }
 
-// ── Tier-gate strip (Dragonflight-style point requirement column) ──────────
+// ── Tree gate strip ─────────────────────────────────────────────────────────
+
+const TREE_GATE_ROWS = [
+  { row: 5, required: 8 },
+  { row: 6, required: 16 },
+  { row: 7, required: 24 },
+  { row: 8, required: 32 },
+  { row: 9, required: 40 },
+  { row: 10, required: 48 },
+];
 
 function TierGateStrip({ color, sideSpent, side }: { color: string; sideSpent: number; side: 'left' | 'right' }) {
   return (
     <div
       className="relative flex-none"
-      style={{ width: 36, height: TIER_Y_VALUES[TIER_Y_VALUES.length - 1] + 60 }}
+      style={{ width: 48, height: LATTICE_H }}
     >
-      {TIER_Y_VALUES.map((y, idx) => {
-        const gate = TIER_POINT_GATES[idx] ?? 0;
-        const met = sideSpent >= gate;
-        // Hide the "0 pts" label for tier 0 — visual noise
-        if (gate === 0) return null;
+      {TREE_GATE_ROWS.map(({ row, required }) => {
+        // Gate line sits exactly halfway between the bottom of row (row-1) and top of row (row).
+        const yAbove = latticeToPixel(row - 1, 1).y;
+        const yBelow = latticeToPixel(row, 1).y;
+        const y = (yAbove + yBelow) / 2;
+        const met = sideSpent >= required;
         return (
           <div
-            key={idx}
+            key={row}
             className="absolute flex items-center gap-1 text-[10px] font-mono font-bold whitespace-nowrap"
             style={{
               top: y,
-              [side === 'left' ? 'right' : 'left']: 4,
+              [side === 'left' ? 'right' : 'left']: 8,
               transform: 'translateY(-50%)',
               color: met ? color : '#3a3a4a',
               opacity: met ? 1 : 0.6,
               flexDirection: side === 'left' ? 'row' : 'row-reverse',
             }}
-            title={`Tier ${idx + 1}: ${gate} points required in this tree (${sideSpent}/${gate})`}
+            title={`Spend ${Math.max(required - sideSpent, 0)} more points to unlock this row`}
           >
             {!met && <Lock className="w-2.5 h-2.5" />}
-            <span>{gate}</span>
+            <span>{required}</span>
           </div>
         );
       })}
@@ -170,97 +142,170 @@ interface SingleTreeProps {
   onNodeContextMenu: (nodeId: string) => void;
 }
 
-// ── Layout constants ─────────────────────────────────────────────────────────
-// Per-spec row counts come from the backend (driven by TREE_ROWS in
-// api-server/src/data/tree-rows.ts). Here we just group nodes by tier and
-// render each tier as a flex row — no fixed grid columns.
-//
-// Each row is absolute-positioned so its center y matches `TIER_Y_VALUES[i]`,
-// keeping the tier-gate strip and the gating logic in `use-talent-tree.ts`
-// visually consistent with the rendered nodes.
-const NODE_GAP = 14;          // horizontal gap inside a row
-const ROW_PAD_X = 16;         // inner horizontal padding so the widest row doesn't kiss the edge
-const TIER_HEIGHT = 60;       // row height (capstones are 60px, regular 48px — use the larger)
-const SVG_PAD = 24;           // padding around the SVG so glow doesn't clip
-const NODE_MAX_W = 60;        // largest node footprint (capstones)
+// ── Fixed lattice constants ──────────────────────────────────────────────────
+// CoA trees are always a strict 10-row × 7-column occupancy matrix.
+// Every node must have gridRow (1-10) and gridColumn (1-7) metadata.
+// Empty lattice slots are just unoccupied cells — no inference needed.
+const LATTICE_ROWS = 10;
+const LATTICE_COLS = 7;
+const CELL_W = 72;            // horizontal pitch per column (px)
+const CELL_H = 70;            // vertical pitch per row (px)
+const LATTICE_PAD_X = 36;     // left/right canvas inset before col 1
+const LATTICE_PAD_Y = 40;     // top canvas inset before row 1
+const SVG_PAD = 20;           // extra SVG overflow room for glows
+const NODE_EDGE_PAD = 3;      // edge-attachment inset from node face
+
+// Fixed canvas size — derived from lattice geometry, never from node positions.
+const LATTICE_W = LATTICE_PAD_X * 2 + (LATTICE_COLS - 1) * CELL_W + CELL_W;
+const LATTICE_H = LATTICE_PAD_Y * 2 + (LATTICE_ROWS - 1) * CELL_H + CELL_H;
+
+/** Convert 1-based (row, col) lattice coords to pixel center. */
+function latticeToPixel(row: number, col: number): { x: number; y: number } {
+  return {
+    x: LATTICE_PAD_X + (col - 1) * CELL_W,
+    y: LATTICE_PAD_Y + (row - 1) * CELL_H,
+  };
+}
+
+/** Resolve a node's pixel center, always preferring lattice coords. */
+function nodePixelCenter(node: TalentNode): { x: number; y: number } {
+  const lp = latticePosition(node);
+  if (lp.gridRow && lp.gridColumn) {
+    return latticeToPixel(lp.gridRow, lp.gridColumn);
+  }
+  // Graceful degradation: if lattice metadata is absent fall back to
+  // the stored pixel position so nothing is silently dropped.
+  return { x: node.position.x, y: node.position.y };
+}
+
+const TIER_HEIGHT = CELL_H;   // row-overlay height == cell pitch
+
+function latticePosition(node: TalentNode): { gridRow?: number; gridColumn?: number } {
+  return node.position as TalentNode['position'] & { gridRow?: number; gridColumn?: number };
+}
 
 function groupByTier(nodes: TalentNode[]): TalentNode[][] {
-  const tiers: TalentNode[][] = Array.from({ length: TIER_Y_VALUES.length }, () => []);
+  // Strict lattice grouping: always use gridRow first.
+  // Only fall back to y-proximity for nodes that genuinely lack gridRow metadata
+  // (legacy imports / unresolved placeholders) so nothing is silently dropped.
+  const tiers: TalentNode[][] = Array.from({ length: LATTICE_ROWS }, () => []);
   for (const n of nodes) {
-    // Match the node's y to the nearest tier (mirrors getTierIndex in use-talent-tree.ts).
+    const lp = latticePosition(n);
+    if (lp.gridRow && lp.gridRow >= 1 && lp.gridRow <= LATTICE_ROWS) {
+      tiers[lp.gridRow - 1].push(n);
+      continue;
+    }
+    // Degraded fallback: nearest lattice row center by y-distance.
     let bestIdx = 0;
     let bestDist = Infinity;
-    for (let i = 0; i < TIER_Y_VALUES.length; i++) {
-      const d = Math.abs(TIER_Y_VALUES[i] - n.position.y);
-      if (d < bestDist) { bestDist = d; bestIdx = i; }
+    for (let r = 1; r <= LATTICE_ROWS; r++) {
+      const rowY = latticeToPixel(r, 1).y;
+      const d = Math.abs(rowY - n.position.y);
+      if (d < bestDist) { bestDist = d; bestIdx = r - 1; }
     }
     tiers[bestIdx].push(n);
   }
-  // Within a row, sort by source x so the in-game ordering is preserved.
-  for (const row of tiers) row.sort((a, b) => a.position.x - b.position.x);
+  // Within each row sort by gridColumn (then x as tiebreak).
+  for (const row of tiers) row.sort((a, b) => {
+    const ac = latticePosition(a).gridColumn ?? 999;
+    const bc = latticePosition(b).gridColumn ?? 999;
+    return ac !== bc ? ac - bc : a.position.x - b.position.x;
+  });
   return tiers;
+}
+
+function nodeRadius(node: TalentNode): number {
+  return (node.type === 'choice' || node.type === 'capstone' ? CAPSTONE_SIZE : NODE_SIZE) / 2 + NODE_EDGE_PAD;
+}
+
+function edgePoint(from: { x: number; y: number }, to: { x: number; y: number }, node: TalentNode): { x: number; y: number } {
+  const dx = to.x - from.x;
+  const dy = to.y - from.y;
+  const length = Math.hypot(dx, dy) || 1;
+  const radius = nodeRadius(node);
+  return {
+    x: from.x + (dx / length) * radius,
+    y: from.y + (dy / length) * radius,
+  };
+}
+
+function branchPath(
+  from: { x: number; y: number },
+  to: { x: number; y: number },
+  fromNode: TalentNode,
+  toNode: TalentNode,
+): string {
+  const fl = latticePosition(fromNode);
+  const tl = latticePosition(toNode);
+  const start = edgePoint(from, to, fromNode);
+  const end = edgePoint(to, from, toNode);
+  // Straight line: same column OR missing lattice metadata OR row-gap > 1
+  // (long-range connections should not bezier-curve across rows).
+  const rowDist = (fl.gridRow !== undefined && tl.gridRow !== undefined)
+    ? Math.abs(tl.gridRow - fl.gridRow) : 0;
+  const colDist = (fl.gridColumn !== undefined && tl.gridColumn !== undefined)
+    ? Math.abs(tl.gridColumn - fl.gridColumn) : 0;
+  const useCurve = rowDist === 1 && colDist > 0;
+  if (!useCurve) return `M ${start.x} ${start.y} L ${end.x} ${end.y}`;
+  // Elbow curve: exit vertically from source, arrive vertically at target.
+  const midY = start.y + (end.y - start.y) * 0.5;
+  return `M ${start.x} ${start.y} C ${start.x} ${midY}, ${end.x} ${midY}, ${end.x} ${end.y}`;
+}
+
+function TreeGateBar({ color, sideSpent }: { color: string; sideSpent: number }) {
+  return (
+    <>
+      {TREE_GATE_ROWS.map(({ row, required }) => {
+        const yAbove = latticeToPixel(row - 1, 1).y;
+        const yBelow = latticeToPixel(row, 1).y;
+        const y = (yAbove + yBelow) / 2;
+        const met = sideSpent >= required;
+        return (
+          <div
+            key={row}
+            className="absolute pointer-events-none"
+            style={{
+              left: 28,
+              top: y,
+              width: 96,
+              height: 1,
+              background: `linear-gradient(90deg, transparent 0%, ${met ? `${color}33` : 'rgba(255,70,70,0.24)'} 25%, ${met ? `${color}77` : 'rgba(255,70,70,0.5)'} 50%, ${met ? `${color}33` : 'rgba(255,70,70,0.24)'} 75%, transparent 100%)`,
+              boxShadow: met ? `0 0 6px ${color}22` : '0 0 6px rgba(255,50,50,0.16)',
+              opacity: met ? 0.48 : 0.72,
+              zIndex: 2,
+            }}
+          />
+        );
+      })}
+    </>
+  );
 }
 
 function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
   const tiers = useMemo(() => groupByTier(nodes), [nodes]);
-  const maxCols = useMemo(() => tiers.reduce((m, r) => Math.max(m, r.length), 0), [tiers]);
+  // Fixed canvas size from lattice geometry — never inferred from node positions.
+  const width = LATTICE_W;
+  const height = LATTICE_H;
 
-  // Container width is driven by the widest row (no horizontal scroll).
-  // Use the larger node size (60) so capstones never overflow.
-  const width = Math.max(
-    CANVAS_W,
-    ROW_PAD_X * 2 + maxCols * NODE_MAX_W + Math.max(0, maxCols - 1) * NODE_GAP,
-  );
-  // Container height: enough to fit the deepest tier center + half a row + pad.
-  const height = TIER_Y_VALUES[TIER_Y_VALUES.length - 1] + TIER_HEIGHT / 2 + SVG_PAD;
-
-  // ── Refs / centers for SVG connection lines ────────────────────────────────
-  const containerRef = useRef<HTMLDivElement>(null);
-  const nodeRefs = useRef(new Map<string, HTMLDivElement | null>());
+  // ── Centers for SVG connection lines (pure lattice arithmetic) ───────────
   const [centers, setCenters] = useState<Map<string, { x: number; y: number }>>(new Map());
 
-  // Re-measure whenever the node set or container width changes. We use
-  // `offsetLeft/offsetTop` (layout-space, untransformed coords) instead of
-  // `getBoundingClientRect()` so that wrapping the tree in a CSS-transformed
-  // ScaleStage doesn't drift line endpoints — the SVG is in the same
-  // transformed subtree, so layout-space coords stay correct after scaling.
+  // Since node positions are now computed from fixed lattice coords
+  // (nodePixelCenter), we can derive SVG connection centers directly from
+  // lattice arithmetic rather than measuring DOM layout. This avoids the
+  // offset-walk drift that can occur inside a CSS-transformed ScaleStage.
   useLayoutEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
-    const measure = () => {
-      const next = new Map<string, { x: number; y: number }>();
-      nodeRefs.current.forEach((el, id) => {
-        if (!el) return;
-        // Walk up offsetParent chain until we hit the SingleTree container.
-        let x = 0;
-        let y = 0;
-        let cur: HTMLElement | null = el;
-        while (cur && cur !== container) {
-          x += cur.offsetLeft;
-          y += cur.offsetTop;
-          cur = cur.offsetParent as HTMLElement | null;
-        }
-        next.set(id, { x: x + el.offsetWidth / 2, y: y + el.offsetHeight / 2 });
-      });
-      setCenters(next);
-    };
-    measure();
-    // Window resize covers ScaleStage transform updates (it's driven by
-    // window resize via ResizeObserver on its own parent). A ResizeObserver
-    // on the container catches direct layout changes (font load, etc.).
-    const ro = new ResizeObserver(measure);
-    ro.observe(container);
-    window.addEventListener('resize', measure);
-    return () => {
-      ro.disconnect();
-      window.removeEventListener('resize', measure);
-    };
-  }, [nodes, width]);
+    const next = new Map<string, { x: number; y: number }>();
+    for (const node of nodes) {
+      next.set(node.id, nodePixelCenter(node));
+    }
+    setCenters(next);
+  }, [nodes]);
 
   const colorId = color.replace('#', '');
 
   return (
-    <div ref={containerRef} className="relative" style={{ width, height }}>
+    <div className="relative" style={{ width, height }}>
       {/* SVG connection lines */}
       <svg
         className="absolute inset-0 pointer-events-none"
@@ -307,36 +352,40 @@ function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection,
               <g key={`${prereqId}-${node.id}`}>
                 {/* Glow layer — only for active/maxed */}
                 {isMaxed && (
-                  <line
-                    x1={a.x} y1={a.y} x2={b.x} y2={b.y}
+                  <path
+                    d={branchPath(a, b, prereq, node)}
+                    fill="none"
                     stroke={color}
                     strokeWidth={8}
-                    strokeOpacity={0.2}
+                    strokeOpacity={0.28}
                     filter={`url(#line-glow-${colorId})`}
                   />
                 )}
                 {isActive && !isMaxed && (
-                  <line
-                    x1={a.x} y1={a.y} x2={b.x} y2={b.y}
+                  <path
+                    d={branchPath(a, b, prereq, node)}
+                    fill="none"
                     stroke={color}
-                    strokeWidth={5}
-                    strokeOpacity={0.15}
+                    strokeWidth={6}
+                    strokeOpacity={0.24}
                     filter={`url(#line-dim-${colorId})`}
                   />
                 )}
                 {/* Main line */}
-                <line
-                  x1={a.x} y1={a.y} x2={b.x} y2={b.y}
+                <path
+                  d={branchPath(a, b, prereq, node)}
+                  fill="none"
                   stroke={
                     isMaxed ? color
                     : isActive ? `${color}CC`
-                    : isAvailable ? `${color}55`
-                    : '#1e1e2e'
+                    : isAvailable ? `${color}88`
+                    : '#5c5c72'
                   }
-                  strokeWidth={isMaxed ? 2.5 : isActive ? 2 : 1.5}
-                  strokeOpacity={isMaxed ? 1 : isActive ? 0.8 : isAvailable ? 0.5 : 0.3}
+                  strokeWidth={isMaxed ? 3 : isActive ? 2.5 : 2}
+                  strokeOpacity={isMaxed ? 1 : isActive ? 0.9 : isAvailable ? 0.72 : 0.56}
                   strokeDasharray={isActive ? undefined : '5 5'}
                   strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </g>
             );
@@ -344,57 +393,58 @@ function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection,
         )}
       </svg>
 
-      {/* One absolute-positioned flex row per tier — center y == TIER_Y_VALUES[i]
-          so the tier-gate strip and gating logic in use-talent-tree.ts stay
-          visually consistent with the rendered nodes. Locked rows (whose tier
-          gate is not met by this tree's spent points) get a subtle row-level
-          dim on top of the per-node lock styling. */}
-      {tiers.map((row, rowIdx) => {
+      <TreeGateBar color={color} sideSpent={sideSpent} />
+
+      {/* Lattice row overlays — one per lattice row, y derived from latticeToPixel. */}
+      {Array.from({ length: LATTICE_ROWS }, (_, rowIdx) => {
         const rowGate = TIER_POINT_GATES[rowIdx] ?? 0;
         const rowLocked = sideSpent < rowGate;
+        const rowCenterY = latticeToPixel(rowIdx + 1, 1).y;
         return (
         <div
           key={rowIdx}
           data-row-index={rowIdx + 1}
           data-row-locked={rowLocked || undefined}
-          className="absolute left-0 right-0 flex justify-center items-center"
+          className="absolute left-0 right-0 pointer-events-none"
           style={{
-            top: TIER_Y_VALUES[rowIdx],
+            top: rowCenterY,
             height: TIER_HEIGHT,
             transform: 'translateY(-50%)',
-            gap: NODE_GAP,
-            paddingLeft: ROW_PAD_X,
-            paddingRight: ROW_PAD_X,
             // Subtle row-level dim only — individual locked nodes already dim
             // themselves to 0.35, so we keep this multiplier near 1 to avoid
             // an unreadable ~0.19 effective luminance.
             opacity: rowLocked ? 0.78 : 1,
             transition: 'opacity 0.25s ease',
           }}
-        >
-          {row.map(node => {
-            const state = getNodeState(node.id);
-            const selectedOptionId = node.type === 'choice' ? getChoiceSelection(node.id) : undefined;
-            return (
-              <div
-                key={node.id}
-                ref={el => { nodeRefs.current.set(node.id, el); }}
-                className="flex items-center justify-center"
-              >
-                <TalentNodeComponent
-                  node={node}
-                  state={state}
-                  color={color}
-                  allNodes={nodes}
-                  selectedOptionId={selectedOptionId}
-                  getNodeState={getNodeState}
-                  onClick={() => onNodeClick(node.id)}
-                  onContextMenu={() => onNodeContextMenu(node.id)}
-                />
-              </div>
-            );
-          })}
-        </div>
+        />
+        );
+      })}
+
+      {nodes.map(node => {
+        const state = getNodeState(node.id);
+        const selectedOptionId = node.type === 'choice' ? getChoiceSelection(node.id) : undefined;
+        const { x: px, y: py } = nodePixelCenter(node);
+        return (
+          <div
+            key={node.id}
+            className="absolute flex items-center justify-center"
+            style={{
+              left: px,
+              top: py,
+              transform: 'translate(-50%, -50%)',
+            }}
+          >
+            <TalentNodeComponent
+              node={node}
+              state={state}
+              color={color}
+              allNodes={nodes}
+              selectedOptionId={selectedOptionId}
+              getNodeState={getNodeState}
+              onClick={() => onNodeClick(node.id)}
+              onContextMenu={() => onNodeContextMenu(node.id)}
+            />
+          </div>
         );
       })}
     </div>
@@ -432,6 +482,7 @@ function TalentNodeComponent({
   const isChoice = node.type === 'choice';
   const isCapstone = node.type === 'capstone';
   const isLargeNode = isChoice || isCapstone;
+  const isPlaceholder = node.id.includes('placeholder') || node.name.startsWith('Unresolved');
   const size = isLargeNode ? CAPSTONE_SIZE : NODE_SIZE;
 
   // For choice nodes, derive option-specific name/icon for the active half.
@@ -442,8 +493,8 @@ function TalentNodeComponent({
   const activeOption = isChoice && selectedIdx >= 0 ? choiceOptions[selectedIdx] : undefined;
 
   const iconUrl = isChoice
-    ? getNodeIconUrl(node.id, activeOption?.name ?? choiceOptions[0]?.name ?? node.name, node.type)
-    : getNodeIconUrl(node.id, node.name, node.type);
+    ? getNodeIconUrl(node.id, activeOption?.name ?? choiceOptions[0]?.name ?? node.name, node.type, activeOption?.icon ?? node.icon)
+    : getNodeIconUrl(node.id, node.name, node.type, node.icon);
 
   // Shape per spec: passives circle, actives rounded square, capstones circle, choices octagon
   const shapeStyle: React.CSSProperties =
@@ -460,7 +511,8 @@ function TalentNodeComponent({
     isMaxed     ? color
     : isActive  ? `${color}DD`
     : isAvailable ? `${color}77`
-    : '#252535';
+    : isPlaceholder ? `${color}66`
+    : '#44445a';
 
   const boxShadow =
     isMaxed
@@ -469,14 +521,18 @@ function TalentNodeComponent({
       ? `0 0 0 1px ${color}33, 0 0 10px ${color}66, 0 0 24px ${color}22`
       : isAvailable
       ? `0 0 0 1px ${color}22, 0 0 6px ${color}33`
-      : 'none';
+      : isPlaceholder
+      ? `0 0 0 1px ${color}22, inset 0 0 10px ${color}18`
+      : 'inset 0 0 8px rgba(255,255,255,0.04)';
 
   const bgStyle: React.CSSProperties = {
     background: isMaxed
       ? `radial-gradient(circle at 40% 35%, ${color}44 0%, ${color}18 50%, #0d0d18 100%)`
       : isActive
       ? `radial-gradient(circle at 40% 35%, ${color}28 0%, #0d0d18 100%)`
-      : `radial-gradient(circle at 40% 35%, #14141f 0%, #0a0a14 100%)`,
+      : isPlaceholder
+      ? `radial-gradient(circle at 40% 35%, ${color}1F 0%, #191927 62%, #0f0f1b 100%)`
+      : `radial-gradient(circle at 40% 35%, #222232 0%, #10101c 100%)`,
   };
 
   // Cursor-following tooltip: track the mouse position so the tooltip's arrow
@@ -533,7 +589,7 @@ function TalentNodeComponent({
           ...bgStyle,
           border: `2px solid ${borderColor}`,
           boxShadow,
-          opacity: isLocked ? 0.35 : 1,
+          opacity: isLocked ? (isPlaceholder ? 0.72 : 0.58) : 1,
           transition: 'border-color 0.25s, box-shadow 0.25s, opacity 0.25s',
         }}
       >
@@ -555,12 +611,12 @@ function TalentNodeComponent({
             className="w-full h-full object-cover"
             style={{
               filter: isLocked
-                ? 'grayscale(1) brightness(0.3)'
+                ? `grayscale(1) brightness(${isPlaceholder ? 0.72 : 0.52})`
                 : isMaxed
                 ? `saturate(1.4) brightness(1.1) drop-shadow(0 0 4px ${color}88)`
                 : isActive
                 ? `saturate(1.1) brightness(0.95)`
-                : 'saturate(0.7) brightness(0.6)',
+                : 'saturate(0.8) brightness(0.78)',
               transition: 'filter 0.25s',
             }}
             onError={() => setImgError(true)}
@@ -571,7 +627,7 @@ function TalentNodeComponent({
           <div
             className="w-full h-full flex items-center justify-center text-[10px] font-bold"
             style={{
-              color: isLocked ? '#444' : isMaxed ? color : isActive ? `${color}CC` : '#555',
+              color: isLocked ? (isPlaceholder ? `${color}99` : '#77778c') : isMaxed ? color : isActive ? `${color}CC` : '#8a8aa0',
             }}
           >
             {node.name.split(' ').map(w => w[0]).join('').slice(0, 3)}
@@ -750,6 +806,36 @@ interface WowTooltipProps {
   mousePos: { x: number; y: number };
 }
 
+function cleanTooltipText(text: string): string {
+  return text
+    .replace(/\[?Interface\\[^)\]\s]+]?/gi, '')
+    .replace(/\bInterface\\[^\s]+/gi, '')
+    .replace(/\b[A-Z][A-Za-z]+_[A-Za-z0-9_]+\b/g, '')
+    .replace(/\b[a-z0-9-]+_(class|spec|left|right|l|r|sb)_[a-z0-9_-]+\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function formatTooltipText(text: string): string[] {
+  const cleaned = cleanTooltipText(text);
+  if (!cleaned) return [];
+  return cleaned
+    .replace(/\s+(?=(?:\d+\s+(?:Mana|Energy|Rage|Focus|Runic Power)|Instant cast|Channeled|Passive|Melee Range|Ranged Range|Requires|Cooldown|Recharge|Charges)\b)/gi, '\n')
+    .replace(/\s+(?=(?:\d+(?:\.\d+)?\s*(?:sec|min)\s+(?:cooldown|recharge)|\d+\s+Charges?)\b)/gi, '\n')
+    .replace(/\.\s+(?=[A-Z])/g, '.\n')
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean);
+}
+
+function tooltipLineKind(line: string): 'resource' | 'cast' | 'timing' | 'requirement' | 'description' {
+  if (/^\d+\s+(Mana|Energy|Rage|Focus|Runic Power)\b/i.test(line)) return 'resource';
+  if (/^(Instant cast|Channeled|Passive|Melee Range|Ranged Range)\b/i.test(line)) return 'cast';
+  if (/(cooldown|recharge|charges?)\b/i.test(line)) return 'timing';
+  if (/^(Requires|Spend|Unlocks)\b/i.test(line)) return 'requirement';
+  return 'description';
+}
+
 function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOptionId, mousePos }: WowTooltipProps) {
   const { status, currentPoints, lockReason, tierGateRequired, sideSpent } = state;
   const isLocked  = status === 'locked';
@@ -773,6 +859,7 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
   const selectedOption = isChoice
     ? (node.options ?? []).find(o => o.id === selectedOptionId)
     : undefined;
+  const descriptionLines = formatTooltipText(node.description);
 
   // The tooltip is rendered via a portal to document.body so that
   // `position: fixed` resolves against the viewport — it would otherwise be
@@ -786,7 +873,7 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
   // — and decouple the arrow's x from the tooltip's x so the arrow always
   // points at the cursor even when the tooltip itself is clamped.
   const tooltipRef = useRef<HTMLDivElement>(null);
-  const [dims, setDims] = useState({ w: 256, h: 0 });
+  const [dims, setDims] = useState({ w: 292, h: 0 });
 
   useLayoutEffect(() => {
     const el = tooltipRef.current;
@@ -826,7 +913,7 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.94 }}
       transition={{ duration: 0.12 }}
-      className="fixed z-[100] pointer-events-none w-64"
+      className="fixed z-[100] pointer-events-none w-[292px]"
       style={{
         left,
         top,
@@ -839,14 +926,14 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
       <div
         className="rounded-md overflow-hidden"
         style={{
-          background: 'linear-gradient(160deg, #12121e 0%, #0a0a16 100%)',
-          border: `1px solid ${color}50`,
-          boxShadow: `0 8px 32px rgba(0,0,0,0.85), 0 0 0 1px ${color}18, 0 0 20px ${color}15`,
+          background: 'linear-gradient(160deg, #171421 0%, #090813 100%)',
+          border: `1px solid ${color}55`,
+          boxShadow: `0 12px 38px rgba(0,0,0,0.9), 0 0 0 1px ${color}18, 0 0 24px ${color}18`,
         }}
       >
         {/* Title bar */}
         <div
-          className="px-3 pt-2.5 pb-2"
+          className="px-3.5 pt-3 pb-2.5"
           style={{
             background: `linear-gradient(90deg, ${color}18 0%, ${color}06 100%)`,
             borderBottom: `1px solid ${color}30`,
@@ -854,13 +941,13 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
         >
           {/* Talent name — gold, WoW style */}
           <div
-            className="text-sm font-bold leading-tight tracking-wide"
+            className="text-[15px] font-bold leading-snug tracking-wide"
             style={{ color: '#ffd100', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
           >
             {node.name}
           </div>
           {/* Type + rank */}
-          <div className="flex items-center gap-2 mt-0.5">
+          <div className="flex items-center gap-2 mt-1.5">
             <span
               className="text-[9px] uppercase tracking-[0.15em] font-bold px-1.5 py-0.5 rounded"
               style={{
@@ -871,28 +958,48 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
             >
               {node.type}
             </span>
-            <span className="text-[10px] font-mono" style={{ color: '#9999b0' }}>
-              {currentPoints} / {node.maxPoints} pts
+            <span className="text-[10px]" style={{ color: '#a8a8bd' }}>
+              Rank {currentPoints} / {node.maxPoints}
             </span>
           </div>
         </div>
 
         {/* Body */}
-        <div className="px-3 py-2.5 space-y-2">
-          {/* Description */}
-          <p className="text-xs leading-relaxed" style={{ color: '#c8c8d8' }}>
-            {node.description}
-          </p>
+        <div className="px-3.5 py-3 space-y-3">
+          {descriptionLines.length > 0 && (
+            <div className="space-y-1.5">
+              {descriptionLines.map((line, idx) => {
+                const kind = tooltipLineKind(line);
+                return (
+                  <div
+                    key={`${kind}-${idx}`}
+                    className={kind === 'description' ? 'text-[12px] leading-[1.55]' : 'text-[11px] leading-snug'}
+                    style={{
+                      color:
+                        kind === 'resource' ? '#d8d8ee'
+                        : kind === 'cast' ? '#b8b8cc'
+                        : kind === 'timing' ? '#a8a8bd'
+                        : kind === 'requirement' ? '#ff7070'
+                        : '#d2d2df',
+                      marginTop: idx > 0 && kind === 'description' && tooltipLineKind(descriptionLines[idx - 1]) !== 'description' ? 8 : undefined,
+                    }}
+                  >
+                    {line}
+                  </div>
+                );
+              })}
+            </div>
+          )}
 
           {/* Choice node — show both options with selection state */}
           {isChoice && node.options && node.options.length === 2 && (
-            <div className="space-y-1.5">
+            <div className="pt-1 space-y-2 border-t" style={{ borderColor: `${color}22` }}>
               {node.options.map((opt, i) => {
                 const isSelected = opt.id === selectedOptionId;
                 return (
                   <div
                     key={opt.id}
-                    className="text-[11px] leading-snug px-2 py-1.5 rounded"
+                    className="text-[11px] leading-snug px-2.5 py-2 rounded"
                     style={{
                       color: isSelected ? '#fff' : '#7a7a90',
                       background: isSelected ? `${color}22` : 'rgba(255,255,255,0.02)',
@@ -924,7 +1031,7 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
                 );
               })}
               {currentPoints > 0 && (
-                <p className="text-[10px] italic" style={{ color: `${color}99` }}>
+                <p className="text-[10px] italic pt-0.5" style={{ color: `${color}99` }}>
                   Click to switch between options
                 </p>
               )}
@@ -934,14 +1041,14 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
           {/* Tier gate not met — red */}
           {isLocked && lockReason === 'tier' && tierGateRequired !== undefined && (
             <div
-              className="text-[10px] leading-snug px-2 py-1.5 rounded"
+              className="text-[11px] leading-relaxed px-2.5 py-2 rounded"
               style={{
                 color: '#ff5050',
                 background: 'rgba(255,50,50,0.08)',
                 border: '1px solid rgba(255,50,50,0.2)',
               }}
             >
-              Requires <span className="font-bold">{tierGateRequired}</span> points in this tree
+              Spend <span className="font-bold">{Math.max(tierGateRequired - (sideSpent ?? 0), 0)}</span> more points in this tree to unlock this row
               {sideSpent !== undefined && (
                 <span className="text-muted-foreground/80"> ({sideSpent}/{tierGateRequired})</span>
               )}
@@ -951,14 +1058,14 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
           {/* Prereqs unmet — red. AND logic: lists every unmet prereq. */}
           {isLocked && lockReason === 'prereq' && hasUnmetPrereqs && prereqNames.length > 0 && (
             <div
-              className="text-[10px] leading-snug px-2 py-1.5 rounded"
+              className="text-[11px] leading-relaxed px-2.5 py-2 rounded"
               style={{
                 color: '#ff5050',
                 background: 'rgba(255,50,50,0.08)',
                 border: '1px solid rgba(255,50,50,0.2)',
               }}
             >
-              <span className="font-bold">Requires:</span>{' '}
+              <span className="font-bold">Requires</span>{' '}
               {node.prerequisites.length > 1
                 ? `${prereqNames.join(' AND ')}`
                 : `${prereqNames[0]}`}
@@ -968,7 +1075,7 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
           {/* Selected option summary (when choice node has selection) */}
           {isChoice && selectedOption && !isLocked && (
             <div
-              className="text-[10px] leading-snug px-2 py-1.5 rounded font-bold"
+              className="text-[11px] leading-relaxed px-2.5 py-2 rounded font-bold"
               style={{
                 color,
                 background: `${color}10`,
@@ -980,7 +1087,7 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
           )}
 
           {/* Hint text */}
-          <p className="text-[10px]" style={{ color: '#44445a' }}>
+          <p className="text-[10px] pt-1 border-t" style={{ color: '#5a5a70', borderColor: `${color}18` }}>
             {isLocked
               ? 'Complete prerequisites to unlock'
               : isChoice && currentPoints > 0

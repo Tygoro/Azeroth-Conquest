@@ -131,8 +131,7 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
     () => rightNodes.reduce((s, n) => s + (points[n.id] ?? 0), 0),
     [rightNodes, points],
   );
-  // Sidebar nodes are AUTO-unlock — they don't cost points. So the sidebar
-  // contributes 0 to totalPointsSpent.
+  // Sidebar nodes are level-based auto rewards and do not cost tree points.
   const treeSpent = leftSpent + rightSpent;
   const totalPointsSpent = treeSpent;
   const canAllocateMore = totalPointsSpent < maxPoints;
@@ -140,10 +139,10 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
   // Determine node state with tier gating + AND-prereq logic
   const getNodeState = useCallback(
     (nodeId: string): NodeState => {
-      // Sidebar node? Auto-unlock based on treeSpent. Not clickable.
+      // Sidebar node? Auto-unlock based on character level. Not clickable.
       const sb = sidebarNodes.find(n => n.id === nodeId);
       if (sb) {
-        if (treeSpent >= sb.unlockPointsRequired) {
+        if (level >= sb.unlockPointsRequired) {
           return { status: 'maxed', currentPoints: 1 };
         }
         return {
@@ -151,7 +150,7 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
           currentPoints: 0,
           lockReason: 'tier',
           tierGateRequired: sb.unlockPointsRequired,
-          sideSpent: treeSpent,
+          sideSpent: level,
         };
       }
 
@@ -191,7 +190,7 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
       }
       return { status: 'available', currentPoints, sideSpent };
     },
-    [allNodes, sidebarNodes, nodeSide, points, leftSpent, rightSpent, treeSpent],
+    [allNodes, sidebarNodes, nodeSide, points, leftSpent, rightSpent, level],
   );
 
   /** Get the currently-selected choice option for a choice node (if any). */

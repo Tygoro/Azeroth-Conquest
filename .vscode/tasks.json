@@ -1,0 +1,89 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Frontend Dev Server",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["dev"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "detail": "Launch the talent calculator frontend development server",
+      "icon": "$(play)"
+    },
+    {
+      "label": "Start Frontend Dev Server (Explicit)",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["dev:frontend"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "detail": "Launch the talent calculator frontend development server (explicit)",
+      "icon": "$(rocket)"
+    },
+    {
+      "label": "Build Frontend",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["build:frontend"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": ["$tsc"],
+      "detail": "Build the talent calculator frontend for production",
+      "icon": "$(gear)"
+    },
+    {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["install"],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "detail": "Install all workspace dependencies",
+      "icon": "$(package)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "suncleric",
+  "name": "Sun Cleric",
+  "description": "A devoted servant of An'she's holy light.",
+  "icon": "sun",
+  "color": "#FFD700",
+  "specs": [
+    {
+      "id": "piety",
+      "name": "Piety",
+      "role": "damage",
+      "attribute": "intellect",
+      "complexity": "advanced",
+      "description": "Wield sanctified flame and holy wrath in tandem, searing corruption away and reducing enemies into purified ash.",
+      "sampleSpells": [
+        "Sunfire",
+        "Holy Wrath",
+        "Pious Spark"
+      ]
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "role": "damage",
+      "attribute": "strength",
+      "complexity": "intermediate",
+      "description": "Become the Light's wrath made flesh, carving through foes with a greatblade in each hand as a storm of merciless holy steel.",
+      "sampleSpells": [
+        "Twin Heaven",
+        "Valkyrie's Charge",
+        "Reckoning"
+      ]
+    },
+    {
+      "id": "seraphim",
+      "name": "Seraphim",
+      "role": "tank",
+      "attribute": "stamina",
+      "complexity": "normal",
+      "description": "Swear a radiant oath to guard your allies — becoming a shield bearer that turns the wrath of the sun into impenetrable defense.",
+      "sampleSpells": [
+        "Seraphim's Oath",
+        "Bulwark of Light",
+        "Sacred Shield"
+      ]
+    },
+    {
+      "id": "blessings",
+      "name": "Blessings",
+      "role": "healer",
+      "attribute": "intellect",
+      "complexity": "intermediate",
+      "description": "A radiant healer who weaves blessings of restoration, mending the wounded with golden light and shielding allies from harm.",
+      "sampleSpells": [
+        "Holy Light",
+        "Blessing of Faith",
+        "Sacred Bloom"
+      ]
+    }
+  ]
+}

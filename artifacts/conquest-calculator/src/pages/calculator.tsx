@@ -274,23 +274,40 @@ export default function Calculator() {
   } else if (treeData) {
     mainContent = (
       <ScaleStage baseWidth={1280} baseHeight={820} minScale={0.45} maxScale={1.05}>
-        <div className="absolute inset-0 flex items-stretch">
-          <div className="flex-1 min-w-0 relative">
-            <TalentTree
-              tree={treeData}
-              getNodeState={getNodeState}
-              getChoiceSelection={getChoiceSelection}
-              onNodeClick={addPoint}
-              onNodeContextMenu={removePoint}
-              leftSpent={leftSpent}
-              rightSpent={rightSpent}
-            />
-          </div>
+        <div
+          className="absolute inset-0"
+          style={{
+            display: 'grid',
+            gridTemplateColumns: treeData.sidebarTrack?.length ? '42fr 42fr 16fr' : '1fr 1fr',
+            alignItems: 'start',
+          }}
+        >
+          {/* Column 1 — Class tree (left) */}
+          <TalentTree
+            tree={treeData}
+            side="left"
+            getNodeState={getNodeState}
+            getChoiceSelection={getChoiceSelection}
+            onNodeClick={addPoint}
+            onNodeContextMenu={removePoint}
+            sideSpent={leftSpent}
+          />
+          {/* Column 2 — Spec tree (right) */}
+          <TalentTree
+            tree={treeData}
+            side="right"
+            getNodeState={getNodeState}
+            getChoiceSelection={getChoiceSelection}
+            onNodeClick={addPoint}
+            onNodeContextMenu={removePoint}
+            sideSpent={rightSpent}
+          />
+          {/* Column 3 — Path of Ascension sidebar */}
           {treeData.sidebarTrack && treeData.sidebarTrack.length > 0 && (
             <SidebarTrack
               nodes={treeData.sidebarTrack}
               color={classColor}
-              treeSpent={treeSpent}
+              level={level}
             />
           )}
         </div>

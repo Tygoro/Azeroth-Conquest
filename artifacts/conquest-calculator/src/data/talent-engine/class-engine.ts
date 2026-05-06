@@ -136,7 +136,7 @@ function buildDeepTree(
 
 // ─── SIDEBAR TRACK ───────────────────────────────────────────────────────────
 
-const SIDEBAR_UNLOCK_THRESHOLDS = [0, 10, 20, 30, 40];
+const SIDEBAR_UNLOCK_THRESHOLDS = [10, 20, 30, 40, 50];
 
 function buildSidebarTrack(specId: string, theme: SpecTheme): SidebarNode[] {
   const tier = (n: number) => ['I', 'II', 'III', 'IV', 'V'][n] ?? `${n + 1}`;

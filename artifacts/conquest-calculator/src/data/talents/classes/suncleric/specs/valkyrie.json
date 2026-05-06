@@ -1,0 +1,1214 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "generated-pilot",
+  "classId": "suncleric",
+  "specId": "valkyrie",
+  "specName": "Valkyrie",
+  "tree": {
+    "class": "Sun Cleric",
+    "classId": "suncleric",
+    "specId": "valkyrie",
+    "specName": "Valkyrie",
+    "leftTreeName": "Path of Sun Cleric",
+    "rightTreeName": "Path of Valkyrie",
+    "maxPoints": 61,
+    "color": "#FFD700",
+    "leftTree": [
+      {
+        "id": "suncleric_class_l_1",
+        "name": "Holy Light",
+        "description": "A signature holy ability of this path. Effectiveness +15% per point.",
+        "maxPoints": 2,
+        "prerequisites": [],
+        "position": {
+          "x": 102,
+          "y": 40
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_2",
+        "name": "Sunfire",
+        "description": "A signature holy ability of this path. Effectiveness +15% per point.",
+        "maxPoints": 2,
+        "prerequisites": [],
+        "position": {
+          "x": 180,
+          "y": 40
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_3",
+        "name": "Lay on Hands",
+        "description": "A signature holy ability of this path. Effectiveness +15% per point.",
+        "maxPoints": 2,
+        "prerequisites": [],
+        "position": {
+          "x": 258,
+          "y": 40
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_4",
+        "name": "Solar Prayer",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_2"
+        ],
+        "position": {
+          "x": 141,
+          "y": 110
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_5",
+        "name": "Light Awaken",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_2"
+        ],
+        "position": {
+          "x": 219,
+          "y": 110
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_class_l_5_oA",
+            "name": "Aggressive Light Awaken",
+            "description": "Damage increased by 25%, but cooldown is 30% longer."
+          },
+          {
+            "id": "suncleric_class_l_5_oB",
+            "name": "Reactive Light Awaken",
+            "description": "Cooldown reduced by 30%, but damage is 15% lower."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_6",
+        "name": "Pious Channel",
+        "description": "Unleash a holy channel on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_4"
+        ],
+        "position": {
+          "x": 102,
+          "y": 180
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_7",
+        "name": "Sacred Light",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_4",
+          "suncleric_class_l_5"
+        ],
+        "position": {
+          "x": 180,
+          "y": 180
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_class_l_7_oA",
+            "name": "Burst Sacred Light",
+            "description": "Releases all energy at once for massive Holy damage."
+          },
+          {
+            "id": "suncleric_class_l_7_oB",
+            "name": "Sustain Sacred Light",
+            "description": "Spreads Holy effect over 8s for steady pressure."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_8",
+        "name": "Prayer Sanctify",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_5"
+        ],
+        "position": {
+          "x": 258,
+          "y": 180
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_9",
+        "name": "Hallowed Illuminate",
+        "description": "Unleash a holy illuminate on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_6"
+        ],
+        "position": {
+          "x": 102,
+          "y": 250
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_10",
+        "name": "Solar Prayer",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_7"
+        ],
+        "position": {
+          "x": 180,
+          "y": 250
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_class_l_10_oA",
+            "name": "Lethal Solar Prayer",
+            "description": "Critical hits deal 50% additional Holy damage."
+          },
+          {
+            "id": "suncleric_class_l_10_oB",
+            "name": "Empowered Solar Prayer",
+            "description": "Each successful hit increases your power by 5%, stacking up to 5 times."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_11",
+        "name": "Light Awaken",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_8"
+        ],
+        "position": {
+          "x": 258,
+          "y": 250
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_12",
+        "name": "Pious Channel",
+        "description": "Unleash a holy channel on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_9"
+        ],
+        "position": {
+          "x": 63,
+          "y": 320
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_13",
+        "name": "Sacred Light",
+        "description": "Unleash a holy bless on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_10"
+        ],
+        "position": {
+          "x": 141,
+          "y": 320
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_14",
+        "name": "Prayer Sanctify",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_10"
+        ],
+        "position": {
+          "x": 219,
+          "y": 320
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_class_l_14_oA",
+            "name": "Surging Prayer Sanctify",
+            "description": "Holy abilities have 20% chance to fire twice."
+          },
+          {
+            "id": "suncleric_class_l_14_oB",
+            "name": "Steadfast Prayer Sanctify",
+            "description": "Reduces damage taken by 10% while channeling Holy abilities."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_15",
+        "name": "Hallowed Illuminate",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_11"
+        ],
+        "position": {
+          "x": 297,
+          "y": 320
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_16",
+        "name": "Solar Prayer",
+        "description": "Unleash a holy empower on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_12"
+        ],
+        "position": {
+          "x": 24,
+          "y": 390
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_17",
+        "name": "Light Awaken",
+        "description": "Unleash a holy awaken on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_13"
+        ],
+        "position": {
+          "x": 102,
+          "y": 390
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_18",
+        "name": "Pious Channel",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_13",
+          "suncleric_class_l_14"
+        ],
+        "position": {
+          "x": 180,
+          "y": 390
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_class_l_18_oA",
+            "name": "Ravaging Pious Channel",
+            "description": "Bypass 30% of enemy armor with all Holy attacks."
+          },
+          {
+            "id": "suncleric_class_l_18_oB",
+            "name": "Enduring Pious Channel",
+            "description": "Heals you for 5% of all Holy damage dealt."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_19",
+        "name": "Sacred Light",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_14"
+        ],
+        "position": {
+          "x": 258,
+          "y": 390
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_20",
+        "name": "Prayer Sanctify",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_15"
+        ],
+        "position": {
+          "x": 336,
+          "y": 390
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_21",
+        "name": "Hallowed Illuminate",
+        "description": "Unleash a holy illuminate on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_16"
+        ],
+        "position": {
+          "x": 24,
+          "y": 460
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_22",
+        "name": "Solar Prayer",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_17"
+        ],
+        "position": {
+          "x": 102,
+          "y": 460
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_23",
+        "name": "Light Awaken",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_18"
+        ],
+        "position": {
+          "x": 180,
+          "y": 460
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_class_l_23_oA",
+            "name": "Unleashed Light Awaken",
+            "description": "Activate to enter your ultimate state for 12s. 90s cooldown."
+          },
+          {
+            "id": "suncleric_class_l_23_oB",
+            "name": "Eternal Light Awaken",
+            "description": "Permanent aura of power: 8% to all stats while above 50% health."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_24",
+        "name": "Pious Channel",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_19"
+        ],
+        "position": {
+          "x": 258,
+          "y": 460
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_25",
+        "name": "Sacred Light",
+        "description": "Unleash a holy bless on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_20"
+        ],
+        "position": {
+          "x": 336,
+          "y": 460
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_26",
+        "name": "Prayer Sanctify",
+        "description": "Unleash a holy sanctify on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_22"
+        ],
+        "position": {
+          "x": 63,
+          "y": 530
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_27",
+        "name": "Hallowed Illuminate",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_23"
+        ],
+        "position": {
+          "x": 141,
+          "y": 530
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_28",
+        "name": "Solar Prayer",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_23"
+        ],
+        "position": {
+          "x": 219,
+          "y": 530
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_29",
+        "name": "Light Awaken",
+        "description": "Unleash a holy awaken on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_24"
+        ],
+        "position": {
+          "x": 297,
+          "y": 530
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_30",
+        "name": "Pious Channel",
+        "description": "Unleash a holy channel on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_27"
+        ],
+        "position": {
+          "x": 102,
+          "y": 600
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_31",
+        "name": "Sacred Light",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_27",
+          "suncleric_class_l_28"
+        ],
+        "position": {
+          "x": 180,
+          "y": 600
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_32",
+        "name": "Prayer Sanctify",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_class_l_28"
+        ],
+        "position": {
+          "x": 258,
+          "y": 600
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_33",
+        "name": "Hallowed Illuminate",
+        "description": "Unleash a holy illuminate on your foes. Damage +10% per point.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_30"
+        ],
+        "position": {
+          "x": 102,
+          "y": 670
+        },
+        "type": "capstone",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_34",
+        "name": "Solar Prayer",
+        "description": "Unleash a holy empower on your foes. Damage +10% per point.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_31"
+        ],
+        "position": {
+          "x": 180,
+          "y": 670
+        },
+        "type": "capstone",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_class_l_35",
+        "name": "Avatar of An'she",
+        "description": "For 20 sec, become a vessel of An'she's holy light. Your Holy spells deal 30% increased damage and healing, and your Holy strikes ignite enemies for additional Holy damage. 3 min cooldown.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_class_l_32"
+        ],
+        "position": {
+          "x": 258,
+          "y": 670
+        },
+        "type": "capstone",
+        "currentPoints": 0
+      }
+    ],
+    "rightTree": [
+      {
+        "id": "suncleric_valkyrie_r_1",
+        "name": "Holy Cleave",
+        "description": "A signature holy ability of this path. Effectiveness +15% per point.",
+        "maxPoints": 2,
+        "prerequisites": [],
+        "position": {
+          "x": 258,
+          "y": 40
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_2",
+        "name": "Verdict",
+        "description": "A signature holy ability of this path. Effectiveness +15% per point.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_1"
+        ],
+        "position": {
+          "x": 258,
+          "y": 110
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_valkyrie_r_2_oA",
+            "name": "Aggressive Verdict",
+            "description": "Damage increased by 25%, but cooldown is 30% longer."
+          },
+          {
+            "id": "suncleric_valkyrie_r_2_oB",
+            "name": "Reactive Verdict",
+            "description": "Cooldown reduced by 30%, but damage is 15% lower."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_3",
+        "name": "Wings of Light",
+        "description": "A signature holy ability of this path. Effectiveness +15% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_2"
+        ],
+        "position": {
+          "x": 219,
+          "y": 180
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_4",
+        "name": "Holy Blade",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_2"
+        ],
+        "position": {
+          "x": 297,
+          "y": 180
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_valkyrie_r_4_oA",
+            "name": "Burst Holy Blade",
+            "description": "Releases all energy at once for massive Holy damage."
+          },
+          {
+            "id": "suncleric_valkyrie_r_4_oB",
+            "name": "Sustain Holy Blade",
+            "description": "Spreads Holy effect over 8s for steady pressure."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_5",
+        "name": "Charge Cleave",
+        "description": "Unleash a holy cleave on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_3"
+        ],
+        "position": {
+          "x": 141,
+          "y": 250
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_6",
+        "name": "Vengeful Strike",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_3"
+        ],
+        "position": {
+          "x": 219,
+          "y": 250
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_7",
+        "name": "Wrathful Charge",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_4"
+        ],
+        "position": {
+          "x": 297,
+          "y": 250
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_valkyrie_r_7_oA",
+            "name": "Lethal Wrathful Charge",
+            "description": "Critical hits deal 50% additional Holy damage."
+          },
+          {
+            "id": "suncleric_valkyrie_r_7_oB",
+            "name": "Empowered Wrathful Charge",
+            "description": "Each successful hit increases your power by 5%, stacking up to 5 times."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_8",
+        "name": "Blade Smite",
+        "description": "Unleash a holy smite on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_4"
+        ],
+        "position": {
+          "x": 375,
+          "y": 250
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_9",
+        "name": "Ascendant Soar",
+        "description": "Unleash a holy soar on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_6"
+        ],
+        "position": {
+          "x": 180,
+          "y": 320
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_10",
+        "name": "Holy Blade",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_6",
+          "suncleric_valkyrie_r_7"
+        ],
+        "position": {
+          "x": 258,
+          "y": 320
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_valkyrie_r_10_oA",
+            "name": "Surging Holy Blade",
+            "description": "Holy abilities have 20% chance to fire twice."
+          },
+          {
+            "id": "suncleric_valkyrie_r_10_oB",
+            "name": "Steadfast Holy Blade",
+            "description": "Reduces damage taken by 10% while channeling Holy abilities."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_11",
+        "name": "Charge Cleave",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_7"
+        ],
+        "position": {
+          "x": 336,
+          "y": 320
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_12",
+        "name": "Vengeful Strike",
+        "description": "Unleash a holy strike on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_9"
+        ],
+        "position": {
+          "x": 24,
+          "y": 390
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_13",
+        "name": "Wrathful Charge",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_9"
+        ],
+        "position": {
+          "x": 102,
+          "y": 390
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_14",
+        "name": "Blade Smite",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_9"
+        ],
+        "position": {
+          "x": 180,
+          "y": 390
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_15",
+        "name": "Ascendant Soar",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_10"
+        ],
+        "position": {
+          "x": 258,
+          "y": 390
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_valkyrie_r_15_oA",
+            "name": "Ravaging Ascendant Soar",
+            "description": "Bypass 30% of enemy armor with all Holy attacks."
+          },
+          {
+            "id": "suncleric_valkyrie_r_15_oB",
+            "name": "Enduring Ascendant Soar",
+            "description": "Heals you for 5% of all Holy damage dealt."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_16",
+        "name": "Holy Blade",
+        "description": "Unleash a holy charge on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_11"
+        ],
+        "position": {
+          "x": 336,
+          "y": 390
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_17",
+        "name": "Charge Cleave",
+        "description": "Unleash a holy cleave on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_11"
+        ],
+        "position": {
+          "x": 414,
+          "y": 390
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_18",
+        "name": "Vengeful Strike",
+        "description": "Unleash a holy strike on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_11"
+        ],
+        "position": {
+          "x": 492,
+          "y": 390
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_19",
+        "name": "Wrathful Charge",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_13"
+        ],
+        "position": {
+          "x": 102,
+          "y": 460
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_20",
+        "name": "Blade Smite",
+        "description": "Unleash a holy smite on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_14"
+        ],
+        "position": {
+          "x": 180,
+          "y": 460
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_21",
+        "name": "Ascendant Soar",
+        "description": "Choose to either deal extra Holy damage or reduce damage taken by allies near you.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_15"
+        ],
+        "position": {
+          "x": 258,
+          "y": 460
+        },
+        "type": "choice",
+        "options": [
+          {
+            "id": "suncleric_valkyrie_r_21_oA",
+            "name": "Unleashed Ascendant Soar",
+            "description": "Activate to enter your ultimate state for 12s. 90s cooldown."
+          },
+          {
+            "id": "suncleric_valkyrie_r_21_oB",
+            "name": "Eternal Ascendant Soar",
+            "description": "Permanent aura of power: 8% to all stats while above 50% health."
+          }
+        ],
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_22",
+        "name": "Holy Blade",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_16"
+        ],
+        "position": {
+          "x": 336,
+          "y": 460
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_23",
+        "name": "Charge Cleave",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_17"
+        ],
+        "position": {
+          "x": 414,
+          "y": 460
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_24",
+        "name": "Vengeful Strike",
+        "description": "Unleash a holy strike on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_20"
+        ],
+        "position": {
+          "x": 141,
+          "y": 530
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_25",
+        "name": "Wrathful Charge",
+        "description": "Unleash a holy judge on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_21"
+        ],
+        "position": {
+          "x": 219,
+          "y": 530
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_26",
+        "name": "Blade Smite",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_21"
+        ],
+        "position": {
+          "x": 297,
+          "y": 530
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_27",
+        "name": "Ascendant Soar",
+        "description": "Empowers your Holy abilities, increasing their potency. Bonus +5% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_22"
+        ],
+        "position": {
+          "x": 375,
+          "y": 530
+        },
+        "type": "passive",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_28",
+        "name": "Holy Blade",
+        "description": "Unleash a holy charge on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_25"
+        ],
+        "position": {
+          "x": 180,
+          "y": 600
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_29",
+        "name": "Charge Cleave",
+        "description": "Unleash a holy cleave on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_25",
+          "suncleric_valkyrie_r_26"
+        ],
+        "position": {
+          "x": 258,
+          "y": 600
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_30",
+        "name": "Vengeful Strike",
+        "description": "Unleash a holy strike on your foes. Damage +10% per point.",
+        "maxPoints": 2,
+        "prerequisites": [
+          "suncleric_valkyrie_r_26"
+        ],
+        "position": {
+          "x": 336,
+          "y": 600
+        },
+        "type": "active",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_31",
+        "name": "Wrathful Charge",
+        "description": "Unleash a holy judge on your foes. Damage +10% per point.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_28"
+        ],
+        "position": {
+          "x": 180,
+          "y": 670
+        },
+        "type": "capstone",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_32",
+        "name": "Blade Smite",
+        "description": "Unleash a holy smite on your foes. Damage +10% per point.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_29"
+        ],
+        "position": {
+          "x": 258,
+          "y": 670
+        },
+        "type": "capstone",
+        "currentPoints": 0
+      },
+      {
+        "id": "suncleric_valkyrie_r_33",
+        "name": "Avatar of the Valkyrie",
+        "description": "Take Valkyrie form for 20 sec. Sprout wings of light, dual-wield greatblades, and your auto-attacks cleave for Holy damage. 3 min cooldown.",
+        "maxPoints": 1,
+        "prerequisites": [
+          "suncleric_valkyrie_r_30"
+        ],
+        "position": {
+          "x": 336,
+          "y": 670
+        },
+        "type": "capstone",
+        "currentPoints": 0
+      }
+    ],
+    "sidebarTrack": [
+      {
+        "id": "suncleric_valkyrie_sb_1",
+        "name": "Holy Attunement I",
+        "description": "Increases your Holy damage and healing by 3%.",
+        "unlockPointsRequired": 0
+      },
+      {
+        "id": "suncleric_valkyrie_sb_2",
+        "name": "Holy Conduit II",
+        "description": "Reduces the cooldown of your signature abilities by 10%.",
+        "unlockPointsRequired": 10
+      },
+      {
+        "id": "suncleric_valkyrie_sb_3",
+        "name": "Blade Resonance III",
+        "description": "Critical hits restore 1% of your maximum mana or resource.",
+        "unlockPointsRequired": 20
+      },
+      {
+        "id": "suncleric_valkyrie_sb_4",
+        "name": "Strike Mastery IV",
+        "description": "Your strike have a 15% chance to trigger an additional effect.",
+        "unlockPointsRequired": 30
+      },
+      {
+        "id": "suncleric_valkyrie_sb_5",
+        "name": "Avatar of Valkyrie V",
+        "description": "Unleash your inner power: gain 10% haste and 10% versatility while above 50% health.",
+        "unlockPointsRequired": 40
+      }
+    ]
+  }
+}

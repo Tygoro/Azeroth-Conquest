@@ -181,7 +181,12 @@ function strHash(str: string): number {
   return Math.abs(h);
 }
 
-export function getNodeIconUrl(nodeId: string, nodeName: string, nodeType: string): string {
+export function getNodeIconUrl(nodeId: string, nodeName: string, nodeType: string, extractedIcon?: string): string {
+  if (extractedIcon?.toLowerCase().startsWith('interface\\icons\\')) {
+    const slug = extractedIcon.split('\\').pop()?.toLowerCase();
+    if (slug) return `${ZAMIMG}/${slug}.jpg`;
+  }
+
   // 1. Check known names
   const named = NAMED_ICONS[nodeName];
   if (named) return `${ZAMIMG}/${named}.jpg`;
