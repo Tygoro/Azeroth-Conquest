@@ -50,7 +50,7 @@ export function TalentTree({
     <div className="flex flex-col items-center w-full h-full pt-6 px-2">
       <TreeLabel label={label} color={tree.color} />
       <div className="flex items-start gap-2">
-        <TierGateStrip color={tree.color} sideSpent={sideSpent} side={side} />
+        <TierGateStrip color={tree.color} sideSpent={sideSpent} side={side} nodes={nodes} canvasHeight={computeCanvasBounds(nodes).height} />
         <SingleTree
           nodes={nodes}
           color={tree.color}
@@ -94,16 +94,38 @@ const TREE_GATE_ROWS = [
   { row: 10, required: 48 },
 ];
 
-function TierGateStrip({ color, sideSpent, side }: { color: string; sideSpent: number; side: 'left' | 'right' }) {
+/** Build a map of gridRow → average Y pixel center from actual node positions. */
+function buildRowYMap(nodes: TalentNode[]): Map<number, number> {
+  const rowSums = new Map<number, { total: number; count: number }>();
+  for (const n of nodes) {
+    const lp = latticePosition(n);
+    if (!lp.gridRow) continue;
+    const { y } = nodePixelCenter(n);
+    const entry = rowSums.get(lp.gridRow);
+    if (entry) { entry.total += y; entry.count++; }
+    else rowSums.set(lp.gridRow, { total: y, count: 1 });
+  }
+  const result = new Map<number, number>();
+  for (const [row, { total, count }] of rowSums) {
+    result.set(row, total / count);
+  }
+  return result;
+}
+
+function TierGateStrip({ color, sideSpent, side, nodes, canvasHeight }: {
+  color: string; sideSpent: number; side: 'left' | 'right';
+  nodes: TalentNode[]; canvasHeight: number;
+}) {
+  const rowYMap = useMemo(() => buildRowYMap(nodes), [nodes]);
   return (
     <div
       className="relative flex-none"
-      style={{ width: 48, height: LATTICE_H }}
+      style={{ width: 48, height: canvasHeight }}
     >
       {TREE_GATE_ROWS.map(({ row, required }) => {
-        // Gate line sits exactly halfway between the bottom of row (row-1) and top of row (row).
-        const yAbove = latticeToPixel(row - 1, 1).y;
-        const yBelow = latticeToPixel(row, 1).y;
+        // Gate line sits exactly halfway between the Y of row (row-1) and row.
+        const yAbove = rowYMap.get(row - 1) ?? latticeToPixel(row - 1, 1).y;
+        const yBelow = rowYMap.get(row) ?? latticeToPixel(row, 1).y;
         const y = (yAbove + yBelow) / 2;
         const met = sideSpent >= required;
         return (
@@ -142,12 +164,11 @@ interface SingleTreeProps {
   onNodeContextMenu: (nodeId: string) => void;
 }
 
-// ── Fixed lattice constants ──────────────────────────────────────────────────
-// CoA trees are always a strict 10-row × 7-column occupancy matrix.
-// Every node must have gridRow (1-10) and gridColumn (1-7) metadata.
-// Empty lattice slots are just unoccupied cells — no inference needed.
+// ── Lattice constants for procedurally generated trees ───────────────────────
+// These are ONLY used for non-extracted (generated) trees. Extracted trees use
+// tree-local normalized position.x/y set by the normalizer pipeline.
 const LATTICE_ROWS = 10;
-const LATTICE_COLS = 7;
+const LATTICE_COLS = 10;
 const CELL_W = 72;            // horizontal pitch per column (px)
 const CELL_H = 70;            // vertical pitch per row (px)
 const LATTICE_PAD_X = 36;     // left/right canvas inset before col 1
@@ -155,11 +176,11 @@ const LATTICE_PAD_Y = 40;     // top canvas inset before row 1
 const SVG_PAD = 20;           // extra SVG overflow room for glows
 const NODE_EDGE_PAD = 3;      // edge-attachment inset from node face
 
-// Fixed canvas size — derived from lattice geometry, never from node positions.
+// Fallback fixed canvas size for procedurally generated trees.
 const LATTICE_W = LATTICE_PAD_X * 2 + (LATTICE_COLS - 1) * CELL_W + CELL_W;
 const LATTICE_H = LATTICE_PAD_Y * 2 + (LATTICE_ROWS - 1) * CELL_H + CELL_H;
 
-/** Convert 1-based (row, col) lattice coords to pixel center. */
+/** Convert 1-based (row, col) lattice coords to pixel center (generated trees only). */
 function latticeToPixel(row: number, col: number): { x: number; y: number } {
   return {
     x: LATTICE_PAD_X + (col - 1) * CELL_W,
@@ -167,15 +188,47 @@ function latticeToPixel(row: number, col: number): { x: number; y: number } {
   };
 }
 
-/** Resolve a node's pixel center, always preferring lattice coords. */
+/**
+ * Resolve a node's pixel center.
+ *
+ * For extracted trees: position.x/y are already tree-local normalized + scaled
+ * by normalize-tree.ts, so use them directly.
+ *
+ * For generated trees: fall back to latticeToPixel(gridRow, gridColumn).
+ */
 function nodePixelCenter(node: TalentNode): { x: number; y: number } {
+  // Extracted trees: normalizer has already written tree-local scaled coords
+  // into position.x/y. Detect this by checking if gridRow exists AND x > 0.
+  // position.x/y from the normalizer are always >= TREE_PAD (36/40).
   const lp = latticePosition(node);
+  if (node.position.x > 0 && node.position.y > 0 && lp.gridRow) {
+    return { x: node.position.x, y: node.position.y };
+  }
+  // Generated trees: use fixed lattice mapping.
   if (lp.gridRow && lp.gridColumn) {
     return latticeToPixel(lp.gridRow, lp.gridColumn);
   }
-  // Graceful degradation: if lattice metadata is absent fall back to
-  // the stored pixel position so nothing is silently dropped.
+  // Last resort fallback.
   return { x: node.position.x, y: node.position.y };
+}
+
+/**
+ * Compute data-driven canvas dimensions from actual node positions.
+ * Returns { width, height } that tightly fits all nodes with padding.
+ */
+export function computeCanvasBounds(nodes: TalentNode[]): { width: number; height: number } {
+  if (nodes.length === 0) return { width: LATTICE_W, height: LATTICE_H };
+  let maxX = 0, maxY = 0;
+  for (const n of nodes) {
+    const { x, y } = nodePixelCenter(n);
+    if (x > maxX) maxX = x;
+    if (y > maxY) maxY = y;
+  }
+  // Add padding after the last node so it doesn't sit flush against the edge.
+  return {
+    width: maxX + LATTICE_PAD_X + 24,
+    height: maxY + LATTICE_PAD_Y + 24,
+  };
 }
 
 const TIER_HEIGHT = CELL_H;   // row-overlay height == cell pitch
@@ -185,25 +238,21 @@ function latticePosition(node: TalentNode): { gridRow?: number; gridColumn?: num
 }
 
 function groupByTier(nodes: TalentNode[]): TalentNode[][] {
-  // Strict lattice grouping: always use gridRow first.
-  // Only fall back to y-proximity for nodes that genuinely lack gridRow metadata
-  // (legacy imports / unresolved placeholders) so nothing is silently dropped.
+  // Strict lattice grouping: gridRow is required for correct rendering.
+  // Nodes without gridRow are treated as data integrity failures — they are
+  // still placed (in row 1 as fallback) but a warning is logged.
   const tiers: TalentNode[][] = Array.from({ length: LATTICE_ROWS }, () => []);
   for (const n of nodes) {
     const lp = latticePosition(n);
     if (lp.gridRow && lp.gridRow >= 1 && lp.gridRow <= LATTICE_ROWS) {
       tiers[lp.gridRow - 1].push(n);
-      continue;
+    } else {
+      // Data integrity failure: place in row 1 and warn.
+      if (typeof console !== 'undefined') {
+        console.warn(`[talents] node "${n.name}" (${n.id}) missing gridRow — placed in row 1`);
+      }
+      tiers[0].push(n);
     }
-    // Degraded fallback: nearest lattice row center by y-distance.
-    let bestIdx = 0;
-    let bestDist = Infinity;
-    for (let r = 1; r <= LATTICE_ROWS; r++) {
-      const rowY = latticeToPixel(r, 1).y;
-      const d = Math.abs(rowY - n.position.y);
-      if (d < bestDist) { bestDist = d; bestIdx = r - 1; }
-    }
-    tiers[bestIdx].push(n);
   }
   // Within each row sort by gridColumn (then x as tiebreak).
   for (const row of tiers) row.sort((a, b) => {
@@ -252,12 +301,12 @@ function branchPath(
   return `M ${start.x} ${start.y} C ${start.x} ${midY}, ${end.x} ${midY}, ${end.x} ${end.y}`;
 }
 
-function TreeGateBar({ color, sideSpent }: { color: string; sideSpent: number }) {
+function TreeGateBar({ color, sideSpent, rowYMap }: { color: string; sideSpent: number; rowYMap: Map<number, number> }) {
   return (
     <>
       {TREE_GATE_ROWS.map(({ row, required }) => {
-        const yAbove = latticeToPixel(row - 1, 1).y;
-        const yBelow = latticeToPixel(row, 1).y;
+        const yAbove = rowYMap.get(row - 1) ?? latticeToPixel(row - 1, 1).y;
+        const yBelow = rowYMap.get(row) ?? latticeToPixel(row, 1).y;
         const y = (yAbove + yBelow) / 2;
         const met = sideSpent >= required;
         return (
@@ -283,9 +332,9 @@ function TreeGateBar({ color, sideSpent }: { color: string; sideSpent: number })
 
 function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
   const tiers = useMemo(() => groupByTier(nodes), [nodes]);
-  // Fixed canvas size from lattice geometry — never inferred from node positions.
-  const width = LATTICE_W;
-  const height = LATTICE_H;
+  // Data-driven canvas size from actual node positions.
+  const { width, height } = useMemo(() => computeCanvasBounds(nodes), [nodes]);
+  const rowYMap = useMemo(() => buildRowYMap(nodes), [nodes]);
 
   // ── Centers for SVG connection lines (pure lattice arithmetic) ───────────
   const [centers, setCenters] = useState<Map<string, { x: number; y: number }>>(new Map());
@@ -393,13 +442,13 @@ function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection,
         )}
       </svg>
 
-      <TreeGateBar color={color} sideSpent={sideSpent} />
+      <TreeGateBar color={color} sideSpent={sideSpent} rowYMap={rowYMap} />
 
-      {/* Lattice row overlays — one per lattice row, y derived from latticeToPixel. */}
+      {/* Row overlays — y derived from actual node positions per row. */}
       {Array.from({ length: LATTICE_ROWS }, (_, rowIdx) => {
         const rowGate = TIER_POINT_GATES[rowIdx] ?? 0;
         const rowLocked = sideSpent < rowGate;
-        const rowCenterY = latticeToPixel(rowIdx + 1, 1).y;
+        const rowCenterY = rowYMap.get(rowIdx + 1) ?? latticeToPixel(rowIdx + 1, 1).y;
         return (
         <div
           key={rowIdx}

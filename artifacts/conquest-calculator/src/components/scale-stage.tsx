@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from 'react';
+import { useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 
 interface ScaleStageProps {
   children: ReactNode;
@@ -15,18 +15,20 @@ interface ScaleStageProps {
 }
 
 /**
- * Centered scaling system — fits children of a fixed logical size into the
- * available container by uniformly scaling them via `transform: scale(...)`.
+ * Responsive viewport-fitting scaling system.
  *
- * Mirrors how MMO talent UIs work: never scrolls, never clips, always centered.
+ * Computes a uniform `fitScale` that maps the intrinsic (baseWidth × baseHeight)
+ * content into the available container, then applies it as a CSS transform.
+ * The content is horizontally centered and top-aligned so the tree starts at
+ * the top of the viewport, matching Dragonflight/PoE-style talent panels.
  */
 export function ScaleStage({
   children,
   baseWidth = 1280,
   baseHeight = 820,
   minScale = 0.45,
-  maxScale = 1.1,
-  padding = 16,
+  maxScale = 1.3,
+  padding = 12,
 }: ScaleStageProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
@@ -36,16 +38,34 @@ export function ScaleStage({
     if (!el) return;
 
     const update = () => {
-      const { width, height } = el.getBoundingClientRect();
-      const usableW = Math.max(1, width - padding * 2);
-      const usableH = Math.max(1, height - padding * 2);
-      const next = Math.min(usableW / baseWidth, usableH / baseHeight);
-      setScale(Math.max(minScale, Math.min(maxScale, next)));
+      const { width: vpW, height: vpH } = el.getBoundingClientRect();
+      const usableW = Math.max(1, vpW - padding * 2);
+      const usableH = Math.max(1, vpH - padding * 2);
+      const fitScaleX = usableW / baseWidth;
+      const fitScaleY = usableH / baseHeight;
+      const fitScale = Math.min(fitScaleX, fitScaleY);
+      const clamped = Math.max(minScale, Math.min(maxScale, fitScale));
+
+      // DEV logging: viewport-fit metrics
+      if (process.env.NODE_ENV !== 'production') {
+        console.info('[ScaleStage] viewport fit:', {
+          viewport: { width: Math.round(vpW), height: Math.round(vpH) },
+          intrinsic: { width: baseWidth, height: baseHeight },
+          fitScaleX: +fitScaleX.toFixed(4),
+          fitScaleY: +fitScaleY.toFixed(4),
+          fitScale: +fitScale.toFixed(4),
+          clampedScale: +clamped.toFixed(4),
+          renderedSize: {
+            width: Math.round(baseWidth * clamped),
+            height: Math.round(baseHeight * clamped),
+          },
+        });
+      }
+
+      setScale(clamped);
     };
 
     update();
-    // ResizeObserver alone is sufficient — it fires on container size changes,
-    // including those caused by window resizes.
     const ro = new ResizeObserver(update);
     ro.observe(el);
     return () => ro.disconnect();
@@ -54,12 +74,14 @@ export function ScaleStage({
   return (
     <div ref={containerRef} className="relative w-full h-full overflow-hidden">
       <div
-        className="absolute left-1/2 top-1/2"
         style={{
+          position: 'relative',
           width: baseWidth,
           height: baseHeight,
-          transform: `translate(-50%, -50%) scale(${scale})`,
-          transformOrigin: 'center center',
+          transform: `scale(${scale})`,
+          transformOrigin: 'top center',
+          // Center horizontally within container; top-align vertically.
+          margin: `${padding}px auto 0`,
           willChange: 'transform',
         }}
       >

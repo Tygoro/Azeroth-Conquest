@@ -52,11 +52,18 @@ export function clampLevel(level: number): number {
   return Math.max(MIN_LEVEL, Math.min(MAX_LEVEL, Math.floor(level)));
 }
 
-function getTierIndex(y: number): number {
+/** Resolve 0-indexed tier for a node. Uses gridRow (canonical) when present;
+ *  falls back to nearest-Y matching for generated trees that lack gridRow. */
+function getTierIndex(node: TalentNode): number {
+  const pos = node.position as { x: number; y: number; gridRow?: number };
+  if (pos.gridRow && pos.gridRow >= 1) {
+    return Math.min(pos.gridRow - 1, TIER_Y_VALUES.length - 1);
+  }
+  // Fallback for generated (non-extracted) trees without gridRow.
   let best = 0;
   let bestDist = Infinity;
   for (let i = 0; i < TIER_Y_VALUES.length; i++) {
-    const d = Math.abs(TIER_Y_VALUES[i] - y);
+    const d = Math.abs(TIER_Y_VALUES[i] - node.position.y);
     if (d < bestDist) {
       bestDist = d;
       best = i;
@@ -163,7 +170,7 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
       const sideSpent = side === 'left' ? leftSpent : rightSpent;
 
       // Tier gate check
-      const tierIdx = getTierIndex(node.position.y);
+      const tierIdx = getTierIndex(node);
       const tierGate = TIER_POINT_GATES[tierIdx] ?? 0;
       const tierGateMet = sideSpent >= tierGate;
 
@@ -264,7 +271,7 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
         const ptsBefore = points[other.id] ?? 0;
         const ptsAfter = other.id === nodeId ? ptsBefore - 1 : ptsBefore;
         if (ptsAfter <= 0) return false;
-        const otherTier = getTierIndex(other.position.y);
+        const otherTier = getTierIndex(other);
         const otherGate = TIER_POINT_GATES[otherTier] ?? 0;
         return newSideSpent < otherGate;
       });

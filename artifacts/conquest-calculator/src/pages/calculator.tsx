@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { getClasses, getClassDetail, getTalentTree } from '@/data/static-data';
 import { useTalentTree, DEFAULT_LEVEL, MIN_LEVEL, MAX_LEVEL, clampLevel, getAvailablePoints } from '@/hooks/use-talent-tree';
-import { TalentTree } from '@/components/talent-tree';
+import { TalentTree, computeCanvasBounds } from '@/components/talent-tree';
 import { SidebarTrack } from '@/components/sidebar-track';
 import { ScaleStage } from '@/components/scale-stage';
 import { CLASS_BG_GRADIENT } from '@/data/classes/icons';
@@ -272,8 +272,32 @@ export default function Calculator() {
       />
     );
   } else if (treeData) {
+    // ── Compute intrinsic content dimensions from actual tree data ──
+    const leftNodes = treeData.leftTree ?? [];
+    const rightNodes = treeData.rightTree ?? [];
+    const leftBounds = computeCanvasBounds(leftNodes);
+    const rightBounds = computeCanvasBounds(rightNodes);
+    // Gate strip width (48px each side) + gap between elements (8px each).
+    const gateStripW = 48;
+    const gapW = 8;
+    const sidebarW = treeData.sidebarTrack?.length ? 160 : 0;
+    const treeRegionW = gateStripW + leftBounds.width + gapW
+                      + gateStripW + rightBounds.width + gapW
+                      + sidebarW + 48; // 48px outer breathing room
+    const treeLabelH = 60; // label + padding above each tree
+    const treeRegionH = treeLabelH + Math.max(leftBounds.height, rightBounds.height) + 32;
+
+    if (process.env.NODE_ENV !== 'production') {
+      console.info('[Calculator] tree region intrinsic:', {
+        leftCanvas: leftBounds,
+        rightCanvas: rightBounds,
+        totalIntrinsic: { width: treeRegionW, height: treeRegionH },
+        hasSidebar: !!treeData.sidebarTrack?.length,
+      });
+    }
+
     mainContent = (
-      <ScaleStage baseWidth={1280} baseHeight={820} minScale={0.45} maxScale={1.05}>
+      <ScaleStage baseWidth={treeRegionW} baseHeight={treeRegionH} minScale={0.45} maxScale={1.3}>
         <div
           className="absolute inset-0"
           style={{

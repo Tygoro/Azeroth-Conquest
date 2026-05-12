@@ -10,8 +10,8 @@ export const ChoiceOptionDataSchema = z.object({
 export const TalentNodePositionDataSchema = z.object({
   x: z.number(),
   y: z.number(),
-  gridRow: z.number().int().min(1).max(10).optional(),
-  gridColumn: z.number().int().min(1).max(5).optional(),
+  gridRow: z.number().int().min(1).max(12).optional(),
+  gridColumn: z.number().int().min(1).max(12).optional(),
 });
 
 export const TalentNodeDataSchema = z.object({
