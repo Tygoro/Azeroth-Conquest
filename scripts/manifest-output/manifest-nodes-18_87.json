@@ -1,0 +1,1798 @@
+[
+  {
+    "nodeId": 12431,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Knight's Calling",
+    "description": "Embrace your calling, restoring <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum health and Energy, repeating every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Embrace your calling, restoring 15% of your maximum health and Energy, repeating every 5 sec for 10 seconds.",
+    "iconPath": "interface/icons/custom_paladinskill_32_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504151,
+    "spellIds": [
+      504151
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34414,
+      34419,
+      34421
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504151,
+        "description": "Embrace your calling, restoring <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum health and Energy, repeating every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Embrace your calling, restoring 15% of your maximum health and Energy, repeating every 5 sec for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7786,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Lord of the Arena",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Pulverize</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> now cost <span class=\"item-number\">-5</span> less Energy.",
+    "descriptionText": "Your Pulverize and Broad Sweep now cost -5 less Energy.",
+    "iconPath": "interface/icons/inv_axe_2h_war_b_02_hd",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802290,
+    "spellIds": [
+      802290
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7310
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802290,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Pulverize</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> now cost <span class=\"item-number\">-5</span> less Energy.",
+        "descriptionText": "Your Pulverize and Broad Sweep now cost -5 less Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7310,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Glorious Arena",
+    "description": "Create a <span class=\"item-number\">10</span> yd ring beneath you for <span class=\"item-number\">15</span> seconds. Enemies who stand inside will gain <span style=\"color: #ffffff; display: inline\">Peril</span> every <span class=\"item-number\">1</span> sec.<br /> <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_warriorskill48_border\" /><span class=\"name\">Peril</span></div><span class=\"desc\">Each stack can be consumed by <span style=\"color: #ffffff; display: inline\">Pulverize</span> to deal an additional <span class=\"item-number\">10% AP</span> Physical Damage and reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Arena</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Upon reaching <span class=\"item-number\">5</span> stacks, the stacks are instantly consumed to stun the enemy for <span class=\"item-number\">5</span> seconds.</span></div>",
+    "descriptionText": "Create a 10 yd ring beneath you for 15 seconds. Enemies who stand inside will gain Peril every 1 sec.\n \n\n---\n\nPerilEach stack can be consumed by Pulverize to deal an additional 10% AP Physical Damage and reduce the cooldown of Glorious Arena by 10%.\n\nUpon reaching 5 stacks, the stacks are instantly consumed to stun the enemy for 5 seconds.",
+    "iconPath": "interface/icons/achievement_zone_bladesedgemtns_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300983,
+    "spellIds": [
+      300983
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6364,
+      30433
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300983,
+        "description": "Create a <span class=\"item-number\">10</span> yd ring beneath you for <span class=\"item-number\">15</span> seconds. Enemies who stand inside will gain <span style=\"color: #ffffff; display: inline\">Peril</span> every <span class=\"item-number\">1</span> sec.<br /> <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_warriorskill48_border\" /><span class=\"name\">Peril</span></div><span class=\"desc\">Each stack can be consumed by <span style=\"color: #ffffff; display: inline\">Pulverize</span> to deal an additional <span class=\"item-number\">10% AP</span> Physical Damage and reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Arena</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Upon reaching <span class=\"item-number\">5</span> stacks, the stacks are instantly consumed to stun the enemy for <span class=\"item-number\">5</span> seconds.</span></div>",
+        "descriptionText": "Create a 10 yd ring beneath you for 15 seconds. Enemies who stand inside will gain Peril every 1 sec.\n \n\n---\n\nPerilEach stack can be consumed by Pulverize to deal an additional 10% AP Physical Damage and reduce the cooldown of Glorious Arena by 10%.\n\nUpon reaching 5 stacks, the stacks are instantly consumed to stun the enemy for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7311,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Pit Fighter",
+    "description": "Increases the movement speed slow of your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the movement speed slow of your Standard of Valiance by -15%.",
+    "iconPath": "interface/icons/spell_warrior_gladiatorstance",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802296,
+    "spellIds": [
+      802296
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34421
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 705330,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802296,
+        "description": "Increases the movement speed slow of your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the movement speed slow of your Standard of Valiance by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7320,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Bloodletter",
+    "description": "Parrying an attack now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Arena</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Parrying an attack now reduces the cooldown of Glorious Arena by 10%.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactmagnar_d_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560093,
+    "spellIds": [
+      560093
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7786
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 84232,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560093,
+        "description": "Parrying an attack now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Arena</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Parrying an attack now reduces the cooldown of Glorious Arena by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29427,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Refuse To Die",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Advance</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Raise Shield</span>.",
+    "descriptionText": "Casting Advance now resets the cooldown of Raise Shield.",
+    "iconPath": "interface/icons/sha_ability_rogue_sturdyrecuperate",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804892,
+    "spellIds": [
+      804892
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29970,
+      34404
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804892,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Advance</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Raise Shield</span>.",
+        "descriptionText": "Casting Advance now resets the cooldown of Raise Shield."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29429,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Standard Bearer",
+    "description": "Increases the radius of <span style=\"color: #FFFFFF; display: inline\">Standards</span> by <span class=\"item-number\">10</span> yds and increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Honor</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the radius of Standards by 10 yds and increases the effectiveness of your Honor by 20%.",
+    "iconPath": "interface/icons/inv_banner_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806134,
+    "spellIds": [
+      806134
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6363,
+      30316
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806134,
+        "description": "Increases the radius of <span style=\"color: #FFFFFF; display: inline\">Standards</span> by <span class=\"item-number\">10</span> yds and increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Honor</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the radius of Standards by 10 yds and increases the effectiveness of your Honor by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29430,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Net Throw",
+    "description": "Toss a weighted net at an enemy that roots them for <span class=\"item-number\">4</span> seconds. While active, the target cannot dodge attacks.",
+    "descriptionText": "Toss a weighted net at an enemy that roots them for 4 seconds. While active, the target cannot dodge attacks.",
+    "iconPath": "interface/icons/ability_ensnare",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802304,
+    "spellIds": [
+      802304
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802304,
+        "description": "Toss a weighted net at an enemy that roots them for <span class=\"item-number\">4</span> seconds. While active, the target cannot dodge attacks.",
+        "descriptionText": "Toss a weighted net at an enemy that roots them for 4 seconds. While active, the target cannot dodge attacks."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29431,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Counter Stance",
+    "description": "You automatically parry the next attack against you. Lasts for <span class=\"item-number\">5</span> attacks or <span class=\"item-number\">15</span> seconds.<br /><br />When you expend a charge you deal <span class=\"item-number\">716</span> damage to attackers and heal for <span class=\"item-number\">430</span> + <span class=\"item-number\">100% AP</span> health.",
+    "descriptionText": "You automatically parry the next attack against you. Lasts for 5 attacks or 15 seconds.\n\nWhen you expend a charge you deal 716 damage to attackers and heal for 430 + 100% AP health.",
+    "iconPath": "interface/icons/counterstanceguardian",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802188,
+    "spellIds": [
+      802188
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29971,
+      30316
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802188,
+        "description": "You automatically parry the next attack against you. Lasts for <span class=\"item-number\">5</span> attacks or <span class=\"item-number\">15</span> seconds.<br /><br />When you expend a charge you deal <span class=\"item-number\">716</span> damage to attackers and heal for <span class=\"item-number\">430</span> + <span class=\"item-number\">100% AP</span> health.",
+        "descriptionText": "You automatically parry the next attack against you. Lasts for 5 attacks or 15 seconds.\n\nWhen you expend a charge you deal 716 damage to attackers and heal for 430 + 100% AP health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29639,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Shield Wall",
+    "description": "Increases your Armor contribution from your shield by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor contribution from your shield by 20%.",
+    "iconPath": "interface/icons/ability_defend",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705370,
+    "spellIds": [
+      705370,
+      707814
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6456,
+      6818,
+      34422
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705370,
+        "description": "Increases your Armor contribution from your shield by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from your shield by 20%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707814,
+        "description": "Increases your Armor contribution from your shield by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from your shield by 40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29796,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Standard of Rallying",
+    "description": "Throw down a <span style=\"color: #ffffff; display: inline\">Standard of Rallying</span> for <span class=\"item-number\">5</span> minutes, reducing damage taken by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> and the duration of stun effects on them by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> on all allies within <span class=\"item-number\">30</span> yds.<br /><br />",
+    "descriptionText": "Throw down a Standard of Rallying for 5 minutes, reducing damage taken by -3% and the duration of stun effects on them by -30% on all allies within 30 yds.",
+    "iconPath": "interface/icons/standard_rallying",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500263,
+    "spellIds": [
+      500263
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500263,
+        "description": "Throw down a <span style=\"color: #ffffff; display: inline\">Standard of Rallying</span> for <span class=\"item-number\">5</span> minutes, reducing damage taken by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> and the duration of stun effects on them by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> on all allies within <span class=\"item-number\">30</span> yds.<br /><br />",
+        "descriptionText": "Throw down a Standard of Rallying for 5 minutes, reducing damage taken by -3% and the duration of stun effects on them by -30% on all allies within 30 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29970,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Make Room! I'm Here.",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Standard of Valiance and Broad Sweep by 50%.",
+    "iconPath": "interface/icons/achievement_featsofstrength_gladiator_08",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300543,
+    "spellIds": [
+      300543
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34414
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300543,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Standard of Valiance and Broad Sweep by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29971,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Unstoppable",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Battle Rush</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Battle Rush by -5 sec.",
+    "iconPath": "interface/icons/_d3furiouscharge",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704513,
+    "spellIds": [
+      704513
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6817,
+      7310,
+      29972
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704513,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Battle Rush</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Battle Rush by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29972,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Shrug It Off",
+    "description": "Instantly escape the effects of any root or slow and become immune to movement slowing effects for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Instantly escape the effects of any root or slow and become immune to movement slowing effects for 3 seconds.",
+    "iconPath": "interface/icons/5_warriorskill18_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802198,
+    "spellIds": [
+      802198
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6364,
+      6456
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 9501,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802198,
+        "description": "Instantly escape the effects of any root or slow and become immune to movement slowing effects for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Instantly escape the effects of any root or slow and become immune to movement slowing effects for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29996,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Recuperation",
+    "description": "Taking Physical Damage or blocking a physical attack now restores <span class=\"item-number\">2</span> Energy.",
+    "descriptionText": "Taking Physical Damage or blocking a physical attack now restores 2 Energy.",
+    "iconPath": "interface/icons/ability_skyreach_shielded",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801121,
+    "spellIds": [
+      801121
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6363
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801121,
+        "description": "Taking Physical Damage or blocking a physical attack now restores <span class=\"item-number\">2</span> Energy.",
+        "descriptionText": "Taking Physical Damage or blocking a physical attack now restores 2 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30057,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Brace",
+    "description": "Fortify your defenses, reducing all damage taken by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and gaining immunity to stun effects for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Fortify your defenses, reducing all damage taken by -50% and gaining immunity to stun effects for 10 seconds.",
+    "iconPath": "interface/icons/ability_warrior_safeguard",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800313,
+    "spellIds": [
+      800313
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800313,
+        "description": "Fortify your defenses, reducing all damage taken by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and gaining immunity to stun effects for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Fortify your defenses, reducing all damage taken by -50% and gaining immunity to stun effects for 10 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30059,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Warstopper",
+    "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> by <span class=\"item-number\">-20</span>.",
+    "descriptionText": "Reduces the Energy cost of Standard of Valiance by -20.",
+    "iconPath": "interface/icons/warrior_talent_icon_thunderstruck",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705330,
+    "spellIds": [
+      705330
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34421
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 705330,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705330,
+        "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> by <span class=\"item-number\">-20</span>.",
+        "descriptionText": "Reduces the Energy cost of Standard of Valiance by -20."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30100,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Valiant Warrior",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ram</span> now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to strike again for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Critical strikes with Ram now have a 50% chance to strike again for 100% of the damage dealt.",
+    "iconPath": "interface/icons/ability_skyreach_shielded",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524694,
+    "spellIds": [
+      524694
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29427,
+      34425,
+      34429
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524694,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ram</span> now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to strike again for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Critical strikes with Ram now have a 50% chance to strike again for 100% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34403,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Press the Attack",
+    "description": "Raise your shield and press the attack, dealing <span class=\"item-number\">75</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">101</span> to enemies in front of you and draining <span class=\"item-number\">10</span> Energy every <span class=\"item-number\">1</span> sec. Lasts <span class=\"item-number\">5</span> seconds.<br /><br />While active you gain <span class=\"item-number\">100</span><span class=\"item-number\">%</span> increased block chance and you may block, dodge, and parry while channeling.<br /><br />",
+    "descriptionText": "Raise your shield and press the attack, dealing 75% Weapon Damage plus 101 to enemies in front of you and draining 10 Energy every 1 sec. Lasts 5 seconds.\n\nWhile active you gain 100% increased block chance and you may block, dodge, and parry while channeling.",
+    "iconPath": "interface/icons/novart_physical_ability_(50)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801219,
+    "spellIds": [
+      801219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801219,
+        "description": "Raise your shield and press the attack, dealing <span class=\"item-number\">75</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">101</span> to enemies in front of you and draining <span class=\"item-number\">10</span> Energy every <span class=\"item-number\">1</span> sec. Lasts <span class=\"item-number\">5</span> seconds.<br /><br />While active you gain <span class=\"item-number\">100</span><span class=\"item-number\">%</span> increased block chance and you may block, dodge, and parry while channeling.<br /><br />",
+        "descriptionText": "Raise your shield and press the attack, dealing 75% Weapon Damage plus 101 to enemies in front of you and draining 10 Energy every 1 sec. Lasts 5 seconds.\n\nWhile active you gain 100% increased block chance and you may block, dodge, and parry while channeling."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34404,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Master of Arms",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Turn the Blade</span> now guarantees you to parry <span class=\"item-number\">1</span> additional attack and the duration of its parry window is increased by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Your Turn the Blade now guarantees you to parry 1 additional attack and the duration of its parry window is increased by 1 sec.",
+    "iconPath": "interface/icons/novart_passivemastery_(35)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705315,
+    "spellIds": [
+      705315
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34414
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705315,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Turn the Blade</span> now guarantees you to parry <span class=\"item-number\">1</span> additional attack and the duration of its parry window is increased by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Your Turn the Blade now guarantees you to parry 1 additional attack and the duration of its parry window is increased by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34405,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Thick Shields",
+    "description": "Increases your block value by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your block value by 10%.",
+    "iconPath": "interface/icons/inv_shield_1h_newplayer_a_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807346,
+    "spellIds": [
+      807346
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34421
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807346,
+        "description": "Increases your block value by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your block value by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34407,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Valiance",
+    "description": "<span style=\"color: #ffffff; display: inline\">Reprisal</span> now regenerates <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more of your maximum Energy.",
+    "descriptionText": "Reprisal now regenerates 20% more of your maximum Energy.",
+    "iconPath": "interface/icons/ability_warrior_shockwave",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705324,
+    "spellIds": [
+      705324
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7786,
+      29971
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705324,
+        "description": "<span style=\"color: #ffffff; display: inline\">Reprisal</span> now regenerates <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more of your maximum Energy.",
+        "descriptionText": "Reprisal now regenerates 20% more of your maximum Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34414,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Steel Riposte",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Counter Stance</span> and <span style=\"color: #ffffff; display: inline\">Turn the Blade</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Counter Stance and Turn the Blade by -25%.",
+    "iconPath": "interface/icons/ability_meleedamage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300534,
+    "spellIds": [
+      300534
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29429,
+      29431,
+      29996
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300534,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Counter Stance</span> and <span style=\"color: #ffffff; display: inline\">Turn the Blade</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Counter Stance and Turn the Blade by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34415,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Myrmidon",
+    "description": "Removes the Energy cost of <span style=\"color: #ffffff; display: inline\">Glorious Arena</span> and increases its damage dealt by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Removes the Energy cost of Glorious Arena and increases its damage dealt by 25%.",
+    "iconPath": "interface/icons/ability_warrior_challange",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503532,
+    "spellIds": [
+      503532
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7786
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 84232,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503532,
+        "description": "Removes the Energy cost of <span style=\"color: #ffffff; display: inline\">Glorious Arena</span> and increases its damage dealt by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Removes the Energy cost of Glorious Arena and increases its damage dealt by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34419,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Knight's Advantage",
+    "description": "Increases your damage dealt against Humanoids by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your damage dealt against Humanoids by 6%.",
+    "iconPath": "interface/icons/achievement_legionpvp2tier1",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705378,
+    "spellIds": [
+      705378
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29431
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705378,
+        "description": "Increases your damage dealt against Humanoids by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your damage dealt against Humanoids by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34421,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Energetic",
+    "description": "Restores <span class=\"item-number\">5</span> of your Energy every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Restores 5 of your Energy every 3 sec.",
+    "iconPath": "interface/icons/novart_passivemastery_(8)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705316,
+    "spellIds": [
+      705316
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7320,
+      29431,
+      34407,
+      34415
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705316,
+        "description": "Restores <span class=\"item-number\">5</span> of your Energy every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Restores 5 of your Energy every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34422,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Deflector",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">-5</span> sec and reduces its Energy cost by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Raise Shield by -5 sec and reduces its Energy cost by -10%.",
+    "iconPath": "interface/icons/ability_warrior_shieldreflection",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706336,
+    "spellIds": [
+      706336
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 95021,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706336,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">-5</span> sec and reduces its Energy cost by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Raise Shield by -5 sec and reduces its Energy cost by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34425,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Relentless",
+    "description": "YourPulverizes</span> or <span style=\"color: #ffffff; display: inline\">Rams</span> now ignores <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> of the target's Armor.",
+    "descriptionText": "YourPulverizes or Rams now ignores -15% of the target's Armor.",
+    "iconPath": "interface/icons/garrison_building_salvageyard",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705343,
+    "spellIds": [
+      705343
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7311,
+      34405,
+      30059
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705343,
+        "description": "YourPulverizes</span> or <span style=\"color: #ffffff; display: inline\">Rams</span> now ignores <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> of the target's Armor.",
+        "descriptionText": "YourPulverizes or Rams now ignores -15% of the target's Armor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34426,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Grand Entrance",
+    "description": "Leap into the air, becoming immune to crowd control effects, and then crash back down with incredible speed at your location.<br /><br />Upon landing, deal <span class=\"item-number\">400</span><span class=\"item-number\">%</span> Weapon Damage to enemies in the impact area, plus an additional <span class=\"item-number\">633750</span> + <span class=\"item-number\">77250% AP</span> over <span class=\"item-number\">6</span> seconds, ignoring Armor and knocking them into the air.",
+    "descriptionText": "Leap into the air, becoming immune to crowd control effects, and then crash back down with incredible speed at your location.\n\nUpon landing, deal 400% Weapon Damage to enemies in the impact area, plus an additional 633750 + 77250% AP over 6 seconds, ignoring Armor and knocking them into the air.",
+    "iconPath": "interface/icons/ability_warrior_stalwartprotector",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802870,
+    "spellIds": [
+      802870
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34425
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802870,
+        "description": "Leap into the air, becoming immune to crowd control effects, and then crash back down with incredible speed at your location.<br /><br />Upon landing, deal <span class=\"item-number\">400</span><span class=\"item-number\">%</span> Weapon Damage to enemies in the impact area, plus an additional <span class=\"item-number\">633750</span> + <span class=\"item-number\">77250% AP</span> over <span class=\"item-number\">6</span> seconds, ignoring Armor and knocking them into the air.",
+        "descriptionText": "Leap into the air, becoming immune to crowd control effects, and then crash back down with incredible speed at your location.\n\nUpon landing, deal 400% Weapon Damage to enemies in the impact area, plus an additional 633750 + 77250% AP over 6 seconds, ignoring Armor and knocking them into the air."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34427,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Sturdy",
+    "description": "Increases your maximum health by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum health by 6%.",
+    "iconPath": "interface/icons/novart_shield_(3)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706639,
+    "spellIds": [
+      706639
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30057
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706639,
+        "description": "Increases your maximum health by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34429,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Honorable Demeanor",
+    "description": "Whenever you block an attack your Strength and Stamina are increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Whenever you block an attack your Strength and Stamina are increased by 2% for 10 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/ability_toughness",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705377,
+    "spellIds": [
+      705377
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34405,
+      12431,
+      29970
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705377,
+        "description": "Whenever you block an attack your Strength and Stamina are increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Whenever you block an attack your Strength and Stamina are increased by 2% for 10 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30316,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Heroic Deeds",
+    "description": "Increases the reputation gains of your allies within <span class=\"item-number\">30</span> yds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and reduces damage you take by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the reputation gains of your allies within 30 yds by 5% and reduces damage you take by -3%.",
+    "iconPath": "interface/icons/ability_paladin_touchedbylight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804661,
+    "spellIds": [
+      804661
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6817,
+      29639,
+      29972
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804661,
+        "description": "Increases the reputation gains of your allies within <span class=\"item-number\">30</span> yds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and reduces damage you take by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the reputation gains of your allies within 30 yds by 5% and reduces damage you take by -3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30433,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Light Nets",
+    "description": "Increases the range of your <span style=\"color: #ffffff; display: inline\">Net Throw</span> by <span class=\"item-number\">15</span> yds.",
+    "descriptionText": "Increases the range of your Net Throw by 15 yds.",
+    "iconPath": "interface/icons/hunter_pvp_trackersnet",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704150,
+    "spellIds": [
+      704150
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6362
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704150,
+        "description": "Increases the range of your <span style=\"color: #ffffff; display: inline\">Net Throw</span> by <span class=\"item-number\">15</span> yds.",
+        "descriptionText": "Increases the range of your Net Throw by 15 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6817,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Press the Line!",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Line Formation</span> is active, your movement speed cannot be reduced below <span class=\"item-number\">115</span><span class=\"item-number\">%</span>, but its cost is increased by <span class=\"item-number\">30</span> Energy.",
+    "descriptionText": "While Line Formation is active, your movement speed cannot be reduced below 115%, but its cost is increased by 30 Energy.",
+    "iconPath": "interface/icons/5_archerskill20_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300542,
+    "spellIds": [
+      300542
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6364,
+      6456
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 9501,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300542,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Line Formation</span> is active, your movement speed cannot be reduced below <span class=\"item-number\">115</span><span class=\"item-number\">%</span>, but its cost is increased by <span class=\"item-number\">30</span> Energy.",
+        "descriptionText": "While Line Formation is active, your movement speed cannot be reduced below 115%, but its cost is increased by 30 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6818,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Resolve",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of your Raise Shield by 1 sec.",
+    "iconPath": "interface/icons/warrior_talent_icon_gladiatorsresolve",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706806,
+    "spellIds": [
+      706806
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 95021,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706806,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of your Raise Shield by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6362,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Knightly Demeanor",
+    "description": "Your attack power is increased by <span class=\"item-number\">1</span> for every <span class=\"item-number\">50</span> Armor you have.",
+    "descriptionText": "Your attack power is increased by 1 for every 50 Armor you have.",
+    "iconPath": "interface/icons/custom_sharp_blade_b_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504148,
+    "spellIds": [
+      504148
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504148,
+        "description": "Your attack power is increased by <span class=\"item-number\">1</span> for every <span class=\"item-number\">50</span> Armor you have.",
+        "descriptionText": "Your attack power is increased by 1 for every 50 Armor you have."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6363,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Reflective Shield",
+    "description": "Raise your shield and reflect the next harmful spell cast on you within <span class=\"item-number\">3</span> seconds. <br /><br />While active, being hit by a spell restores <span class=\"item-number\">20</span> Energy.",
+    "descriptionText": "Raise your shield and reflect the next harmful spell cast on you within 3 seconds. \n\nWhile active, being hit by a spell restores 20 Energy.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0003s_0000_fire_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300927,
+    "spellIds": [
+      300927
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29639
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300927,
+        "description": "Raise your shield and reflect the next harmful spell cast on you within <span class=\"item-number\">3</span> seconds. <br /><br />While active, being hit by a spell restores <span class=\"item-number\">20</span> Energy.",
+        "descriptionText": "Raise your shield and reflect the next harmful spell cast on you within 3 seconds. \n\nWhile active, being hit by a spell restores 20 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6364,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Guardbreaker",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Pulverize</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Ram</span>.",
+    "descriptionText": "Damage dealt by Pulverize now has a 20% chance to reset the cooldown of Ram.",
+    "iconPath": "interface/icons/custom_t_burningeyes_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504385,
+    "spellIds": [
+      504385
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6362,
+      6455
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504385,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Pulverize</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Ram</span>.",
+        "descriptionText": "Damage dealt by Pulverize now has a 20% chance to reset the cooldown of Ram."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6455,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Gallant",
+    "description": "Increases your Strength by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">2</span>.",
+    "descriptionText": "Increases your Strength by 4% and expertise by 2.",
+    "iconPath": "interface/icons/inv_chest_plate04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705368,
+    "spellIds": [
+      705368,
+      707813
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29796
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705368,
+        "description": "Increases your Strength by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">2</span>.",
+        "descriptionText": "Increases your Strength by 4% and expertise by 2."
+      },
+      {
+        "rank": 2,
+        "spellId": 707813,
+        "description": "Increases your Strength by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your Strength by 8% and expertise by 4."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6456,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 87,
+    "tabKey": "18:87",
+    "tabName": "Class",
+    "name": "Valiant Effort",
+    "description": "Your auto attacks now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to allow the use of <span style=\"color: #ffffff; display: inline\">Reprisal</span> as if you had recently blocked an attack.",
+    "descriptionText": "Your auto attacks now have a 15% chance to allow the use of Reprisal as if you had recently blocked an attack.",
+    "iconPath": "interface/icons/novart_weapon_(2)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706637,
+    "spellIds": [
+      706637
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6455,
+      34427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706637,
+        "description": "Your auto attacks now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to allow the use of <span style=\"color: #ffffff; display: inline\">Reprisal</span> as if you had recently blocked an attack.",
+        "descriptionText": "Your auto attacks now have a 15% chance to allow the use of Reprisal as if you had recently blocked an attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

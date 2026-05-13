@@ -1,0 +1,1937 @@
+[
+  {
+    "nodeId": 30132,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Windsurf",
+    "description": "Command your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> to windsurf to you, intercepting the next melee or ranged attack made against you, and allowing you to cast <span style=\"color: #ffffff; display: inline\">Shock</span> and <span style=\"color: #ffffff; display: inline\">Call Lightning</span> while moving for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Command your Air Elemental to windsurf to you, intercepting the next melee or ranged attack made against you, and allowing you to cast Shock and Call Lightning while moving for 15 seconds.",
+    "iconPath": "interface/icons/ability_druid_galewinds",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500042,
+    "spellIds": [
+      500042
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6418,
+      29137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500042,
+        "description": "Command your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> to windsurf to you, intercepting the next melee or ranged attack made against you, and allowing you to cast <span style=\"color: #ffffff; display: inline\">Shock</span> and <span style=\"color: #ffffff; display: inline\">Call Lightning</span> while moving for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Command your Air Elemental to windsurf to you, intercepting the next melee or ranged attack made against you, and allowing you to cast Shock and Call Lightning while moving for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30138,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Clearsky Pendant",
+    "description": "Ally movement speed is increased by an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> to allies within your <span style=\"color: #ffffff; display: inline\">Updraft</span>.",
+    "descriptionText": "Ally movement speed is increased by an additional 25% to allies within your Updraft.",
+    "iconPath": "interface/icons/_hearthstone_necklace_mage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705709,
+    "spellIds": [
+      705709
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7186,
+      11949,
+      34949
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705709,
+        "description": "Ally movement speed is increased by an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> to allies within your <span style=\"color: #ffffff; display: inline\">Updraft</span>.",
+        "descriptionText": "Ally movement speed is increased by an additional 25% to allies within your Updraft."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30139,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Evergale",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Call Lightning</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Gale</span>.",
+    "descriptionText": "Casting Call Lightning now refreshes a charge of Gale.",
+    "iconPath": "interface/icons/spell_frost_stun",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705717,
+    "spellIds": [
+      705717
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31267
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704211,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705717,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Call Lightning</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Gale</span>.",
+        "descriptionText": "Casting Call Lightning now refreshes a charge of Gale."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30141,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Power the Elements",
+    "description": "Increases the damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>'s spells by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your Nature Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by your Air Elemental's spells by 10% and your Nature Damage dealt by 2%.",
+    "iconPath": "interface/icons/_book2motif_paladinsamwise",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705721,
+    "spellIds": [
+      705721,
+      707799
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31164
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705721,
+        "description": "Increases the damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>'s spells by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your Nature Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by your Air Elemental's spells by 10% and your Nature Damage dealt by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707799,
+        "description": "Increases the damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>'s spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your Nature Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by your Air Elemental's spells by 20% and your Nature Damage dealt by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30410,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Skyfall",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Command your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>, causing its next instance of damage within <span class=\"item-number\">8</span> seconds to strike an enemy, dealing <span class=\"item-number\">1499</span> + <span class=\"item-number\">100% arcane SP</span> Nature Damage and increasing the movement speed of all nearby allies by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Depletes 40 Static\nCommand your Air Elemental, causing its next instance of damage within 8 seconds to strike an enemy, dealing 1499 + 100% arcane SP Nature Damage and increasing the movement speed of all nearby allies by 30% for 15 seconds.",
+    "iconPath": "interface/icons/inv_tradeskill_81_breath_of_bwonsamdi_raid",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804830,
+    "spellIds": [
+      804830
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7837,
+      31268,
+      34957
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804830,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Command your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>, causing its next instance of damage within <span class=\"item-number\">8</span> seconds to strike an enemy, dealing <span class=\"item-number\">1499</span> + <span class=\"item-number\">100% arcane SP</span> Nature Damage and increasing the movement speed of all nearby allies by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Depletes 40 Static\nCommand your Air Elemental, causing its next instance of damage within 8 seconds to strike an enemy, dealing 1499 + 100% arcane SP Nature Damage and increasing the movement speed of all nearby allies by 30% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34914,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Tailwind",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">20</span> Static</span><br />Tap into the swift winds, increasing your damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and granting all allied players <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased haste for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Depletes 20 Static\nTap into the swift winds, increasing your damage by 10% and granting all allied players 5% increased haste for 15 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/nhi_frozenarm_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804035,
+    "spellIds": [
+      804035
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11940,
+      34940
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 342611,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804035,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">20</span> Static</span><br />Tap into the swift winds, increasing your damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and granting all allied players <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased haste for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Depletes 20 Static\nTap into the swift winds, increasing your damage by 10% and granting all allied players 5% increased haste for 15 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34940,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Focal Point",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Call Lightning</span> now increases the critical strike chance of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Casting Call Lightning now increases the critical strike chance of party and raid members by 5% for 10 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/nhi_magicstorm_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706629,
+    "spellIds": [
+      706629
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4014
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 128464,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706629,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Call Lightning</span> now increases the critical strike chance of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Casting Call Lightning now increases the critical strike chance of party and raid members by 5% for 10 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34941,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Unbound Elementalist",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Unshackle</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Unshackle by 20%.",
+    "iconPath": "interface/icons/achievement_boss_murmur",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705702,
+    "spellIds": [
+      705702
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6425,
+      6427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705702,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Unshackle</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Unshackle by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34943,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Storm Clouds",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Body of Lightning</span> is now automatically cast on you when you cast it on an ally.",
+    "descriptionText": "Your Body of Lightning is now automatically cast on you when you cast it on an ally.",
+    "iconPath": "interface/icons/_stonetablet_shamanair",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705686,
+    "spellIds": [
+      705686
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30132,
+      30138
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705686,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Body of Lightning</span> is now automatically cast on you when you cast it on an ally.",
+        "descriptionText": "Your Body of Lightning is now automatically cast on you when you cast it on an ally."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34948,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Flow",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Invigoration</span> now stacks <span class=\"item-number\">5</span> additional times.",
+    "descriptionText": "Your Invigoration now stacks 5 additional times.",
+    "iconPath": "interface/icons/achievement_bg_dg_master_of_the_deepwind_gorge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570128,
+    "spellIds": [
+      570128
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30141
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570128,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Invigoration</span> now stacks <span class=\"item-number\">5</span> additional times.",
+        "descriptionText": "Your Invigoration now stacks 5 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34949,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Cyclone's Recharge",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Shock</span>, <span style=\"color: #FFFFFF; display: inline\">Gale</span> or <span style=\"color: #ffffff; display: inline\">Electrocute</span> now reduces the remaining cooldown of your <span style=\"color: #FFFFFF; display: inline\">Kiss of the Clouds</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Casting Shock, Gale or Electrocute now reduces the remaining cooldown of your Kiss of the Clouds by -1 sec.",
+    "iconPath": "interface/icons/novart_magicspell_(57)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300827,
+    "spellIds": [
+      300827
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301318,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300827,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Shock</span>, <span style=\"color: #FFFFFF; display: inline\">Gale</span> or <span style=\"color: #ffffff; display: inline\">Electrocute</span> now reduces the remaining cooldown of your <span style=\"color: #FFFFFF; display: inline\">Kiss of the Clouds</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Casting Shock, Gale or Electrocute now reduces the remaining cooldown of your Kiss of the Clouds by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34951,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Raging Zephyr",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Whirlpool</span> into <span style=\"color: #ffffff; display: inline\">Raging Zephyr</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_skyreach_four_wind\" /><span class=\"name\">Raging Zephyr</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">35</span> sec recharge</span><br />Summon a <span style=\"color: #FFFFFF; display: inline\">Raging Zephyr</span> at the targeted location for <span class=\"item-number\">12</span> seconds.<br /><br />Every <span class=\"item-number\">4</span> sec, it will pull all enemies within <span class=\"item-number\">10</span> yds inside of it.</span></div>",
+    "descriptionText": "Transforms your Whirlpool into Raging Zephyr.\n\n---\n\nRaging Zephyr3 Charges, 35 sec recharge\nSummon a Raging Zephyr at the targeted location for 12 seconds.\n\nEvery 4 sec, it will pull all enemies within 10 yds inside of it.",
+    "iconPath": "interface/icons/ability_skyreach_four_wind",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704222,
+    "spellIds": [
+      704222
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29839,
+      30410
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704222,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Whirlpool</span> into <span style=\"color: #ffffff; display: inline\">Raging Zephyr</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_skyreach_four_wind\" /><span class=\"name\">Raging Zephyr</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">35</span> sec recharge</span><br />Summon a <span style=\"color: #FFFFFF; display: inline\">Raging Zephyr</span> at the targeted location for <span class=\"item-number\">12</span> seconds.<br /><br />Every <span class=\"item-number\">4</span> sec, it will pull all enemies within <span class=\"item-number\">10</span> yds inside of it.</span></div>",
+        "descriptionText": "Transforms your Whirlpool into Raging Zephyr.\n\n---\n\nRaging Zephyr3 Charges, 35 sec recharge\nSummon a Raging Zephyr at the targeted location for 12 seconds.\n\nEvery 4 sec, it will pull all enemies within 10 yds inside of it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34955,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Master Airbender",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Gale</span> now reduces the cooldown of abilities that deplete <span style=\"color: #cc99ff; display: inline\">Static</span> by <span class=\"item-number\">-1</span> sec.<br /><br />",
+    "descriptionText": "Casting Gale now reduces the cooldown of abilities that deplete Static by -1 sec.",
+    "iconPath": "interface/icons/inv_pet_pandarenelemental_air",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705719,
+    "spellIds": [
+      705719
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31267
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705719,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Gale</span> now reduces the cooldown of abilities that deplete <span style=\"color: #cc99ff; display: inline\">Static</span> by <span class=\"item-number\">-1</span> sec.<br /><br />",
+        "descriptionText": "Casting Gale now reduces the cooldown of abilities that deplete Static by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34957,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Hurricanes",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unshackle</span> now unshackles you, increasing your damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Casting Unshackle now unshackles you, increasing your damage dealt by 15% for 15 seconds.",
+    "iconPath": "interface/icons/spell_druid_ursolsvortex",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300839,
+    "spellIds": [
+      300839
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34941
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300839,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unshackle</span> now unshackles you, increasing your damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Casting Unshackle now unshackles you, increasing your damage dealt by 15% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29831,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Master Elementalist",
+    "description": "Increases the spell damage scaling of <span style=\"color: #FFFFFF; display: inline\">Shock</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Aeroblast</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell damage scaling of Shock by 10% and Aeroblast by 20%.",
+    "iconPath": "interface/icons/achievement_nazmir_boss_mother",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705662,
+    "spellIds": [
+      705662
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7186,
+      31266
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705662,
+        "description": "Increases the spell damage scaling of <span style=\"color: #FFFFFF; display: inline\">Shock</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Aeroblast</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell damage scaling of Shock by 10% and Aeroblast by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29839,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Wind Gate",
+    "description": "Place a <span style=\"color: #ffffff; display: inline\">Wind Gate</span> at target location for <span class=\"item-number\">1</span> minute. <br /><br />You may cast <span style=\"color: #ffffff; display: inline\">Wind Gate: Evacuate</span> on an ally to pull them to your <span style=\"color: #ffffff; display: inline\">Wind Gate</span>.",
+    "descriptionText": "Place a Wind Gate at target location for 1 minute. \n\nYou may cast Wind Gate: Evacuate on an ally to pull them to your Wind Gate.",
+    "iconPath": "interface/icons/windgate",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504401,
+    "spellIds": [
+      504401
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6426,
+      31268,
+      34943
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504401,
+        "description": "Place a <span style=\"color: #ffffff; display: inline\">Wind Gate</span> at target location for <span class=\"item-number\">1</span> minute. <br /><br />You may cast <span style=\"color: #ffffff; display: inline\">Wind Gate: Evacuate</span> on an ally to pull them to your <span style=\"color: #ffffff; display: inline\">Wind Gate</span>.",
+        "descriptionText": "Place a Wind Gate at target location for 1 minute. \n\nYou may cast Wind Gate: Evacuate on an ally to pull them to your Wind Gate."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30807,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Nimbus",
+    "description": "Instantly resets the cooldown of your <span style=\"color: #ffffff; display: inline\">Evacuate</span>, <span style=\"color: #ffffff; display: inline\">Windsurf</span>, and <span style=\"color: #ffffff; display: inline\">Unshackle</span>.",
+    "descriptionText": "Instantly resets the cooldown of your Evacuate, Windsurf, and Unshackle.",
+    "iconPath": "interface/icons/_monkability_expelharm_xuenwhite",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704212,
+    "spellIds": [
+      704212
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29839
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704212,
+        "description": "Instantly resets the cooldown of your <span style=\"color: #ffffff; display: inline\">Evacuate</span>, <span style=\"color: #ffffff; display: inline\">Windsurf</span>, and <span style=\"color: #ffffff; display: inline\">Unshackle</span>.",
+        "descriptionText": "Instantly resets the cooldown of your Evacuate, Windsurf, and Unshackle."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30819,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Everlasting Invigoration",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Invigoration</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Invigoration by 5 sec.",
+    "iconPath": "interface/icons/nhi_magicstorm_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706628,
+    "spellIds": [
+      706628,
+      707800
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31264
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706628,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Invigoration</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Invigoration by 5 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 707800,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Invigoration</span> by <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Increases the duration of Invigoration by 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31164,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Tempest Calling",
+    "description": "$51",
+    "descriptionText": "$51",
+    "iconPath": "interface/icons/spell_nature_tranquility",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707615,
+    "spellIds": [
+      707615
+    ],
+    "requiredNodeIds": [
+      4014
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707615,
+        "description": "$52",
+        "descriptionText": "$52"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31264,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Invigoration",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Aeroblast</span> now grants your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> a stack of <span style=\"color: #ffffff; display: inline\">Invigoration</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_magicspell__82__border\" /><span class=\"name\">Invigoration</span></div><span class=\"desc\">Increases the damage of your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Your Aeroblast now grants your Air Elemental a stack of Invigoration.\n\n---\n\nInvigorationIncreases the damage of your Air Elemental by 3% for 15 seconds, stacking 10 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/ability_vanish",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705700,
+    "spellIds": [
+      705700
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9234
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705700,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Aeroblast</span> now grants your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> a stack of <span style=\"color: #ffffff; display: inline\">Invigoration</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_magicspell__82__border\" /><span class=\"name\">Invigoration</span></div><span class=\"desc\">Increases the damage of your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Your Aeroblast now grants your Air Elemental a stack of Invigoration.\n\n---\n\nInvigorationIncreases the damage of your Air Elemental by 3% for 15 seconds, stacking 10 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31266,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Windrunner",
+    "description": "The wind is always at your back, pushing you to move faster, increasing your movement speed and mounted movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "The wind is always at your back, pushing you to move faster, increasing your movement speed and mounted movement speed by 15%.",
+    "iconPath": "interface/icons/ability_shaman_windwalktotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707719,
+    "spellIds": [
+      707719
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707719,
+        "description": "The wind is always at your back, pushing you to move faster, increasing your movement speed and mounted movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "The wind is always at your back, pushing you to move faster, increasing your movement speed and mounted movement speed by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31267,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Gale",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">10</span> sec recharge</span><br /><span style=\"color: #cc99ff; display: inline\">Generates <span class=\"item-number\">20</span> Static</span><br />Blast an enemy and up to <span class=\"item-number\">2</span> nearby enemies with a powerful gust of wind for <span class=\"item-number\">44</span> + <span class=\"item-number\">42% nature SP</span> Nature Damage.",
+    "descriptionText": "3 Charges, 10 sec recharge\nGenerates 20 Static\nBlast an enemy and up to 2 nearby enemies with a powerful gust of wind for 44 + 42% nature SP Nature Damage.",
+    "iconPath": "interface/icons/inv_tradeskillitem_sorcererswind_tong",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804036,
+    "spellIds": [
+      804036
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9265
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804036,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">10</span> sec recharge</span><br /><span style=\"color: #cc99ff; display: inline\">Generates <span class=\"item-number\">20</span> Static</span><br />Blast an enemy and up to <span class=\"item-number\">2</span> nearby enemies with a powerful gust of wind for <span class=\"item-number\">44</span> + <span class=\"item-number\">42% nature SP</span> Nature Damage.",
+        "descriptionText": "3 Charges, 10 sec recharge\nGenerates 20 Static\nBlast an enemy and up to 2 nearby enemies with a powerful gust of wind for 44 + 42% nature SP Nature Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31268,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Lexicon of Servitude",
+    "description": "Read from your ancient lexicon, causing your next <span style=\"color: #ffffff; display: inline\">Summon: Air Elemental</span> to be instant cast and cost no mana. Lasts <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Read from your ancient lexicon, causing your next Summon: Air Elemental to be instant cast and cost no mana. Lasts 15 seconds.",
+    "iconPath": "interface/icons/inv_ascend_book_14_b",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520087,
+    "spellIds": [
+      520087
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29831,
+      30138
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520087,
+        "description": "Read from your ancient lexicon, causing your next <span style=\"color: #ffffff; display: inline\">Summon: Air Elemental</span> to be instant cast and cost no mana. Lasts <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Read from your ancient lexicon, causing your next Summon: Air Elemental to be instant cast and cost no mana. Lasts 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4014,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Air Elemental",
+    "description": "$53",
+    "descriptionText": "$53",
+    "iconPath": "interface/icons/inv_progenitorelemental_black",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92097,
+    "spellIds": [
+      92097
+    ],
+    "requiredNodeIds": [
+      31263
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92097,
+        "description": "$54",
+        "descriptionText": "$54"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7186,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Aeromancy",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Updraft</span> will now cause your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> to cast its own <span style=\"color: #ffffff; display: inline\">Updraft</span> beneath you.",
+    "descriptionText": "Casting Updraft will now cause your Air Elemental to cast its own Updraft beneath you.",
+    "iconPath": "interface/icons/spell_mage_icenova",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705708,
+    "spellIds": [
+      705708
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6337,
+      30139,
+      34955
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705708,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Updraft</span> will now cause your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> to cast its own <span style=\"color: #ffffff; display: inline\">Updraft</span> beneath you.",
+        "descriptionText": "Casting Updraft will now cause your Air Elemental to cast its own Updraft beneath you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6337,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Unrelenting Winds",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gale</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Gale by 15%.",
+    "iconPath": "interface/icons/ability_monk_zenflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704211,
+    "spellIds": [
+      704211
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31267
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704211,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704211,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gale</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Gale by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6418,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Gift of Air",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Kiss of the Clouds</span> now empowers your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> with <span style=\"color: #ffffff; display: inline\">Gift of Air</span> for <span class=\"item-number\">30</span> seconds.<br /><br />In addition, your critical strikes now extend the duration of your <span style=\"color: #FFFFFF; display: inline\">Tailwind</span> by <span class=\"item-number\">1.5</span> sec.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _scroll1_custom_air\" /><span class=\"name\">Gift of Air</span></div><span class=\"desc\">Increases damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, spell haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, and heals for <span class=\"item-number\">13.75</span> every <span class=\"item-number\">2</span> sec.</span></div>",
+    "descriptionText": "Casting Kiss of the Clouds now empowers your Air Elemental with Gift of Air for 30 seconds.\n\nIn addition, your critical strikes now extend the duration of your Tailwind by 1.5 sec.\n\n---\n\nGift of AirIncreases damage dealt by 20%, spell haste by 15%, and heals for 13.75 every 2 sec.",
+    "iconPath": "interface/icons/_scroll1_custom_air",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705715,
+    "spellIds": [
+      705715
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705715,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Kiss of the Clouds</span> now empowers your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> with <span style=\"color: #ffffff; display: inline\">Gift of Air</span> for <span class=\"item-number\">30</span> seconds.<br /><br />In addition, your critical strikes now extend the duration of your <span style=\"color: #FFFFFF; display: inline\">Tailwind</span> by <span class=\"item-number\">1.5</span> sec.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _scroll1_custom_air\" /><span class=\"name\">Gift of Air</span></div><span class=\"desc\">Increases damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, spell haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, and heals for <span class=\"item-number\">13.75</span> every <span class=\"item-number\">2</span> sec.</span></div>",
+        "descriptionText": "Casting Kiss of the Clouds now empowers your Air Elemental with Gift of Air for 30 seconds.\n\nIn addition, your critical strikes now extend the duration of your Tailwind by 1.5 sec.\n\n---\n\nGift of AirIncreases damage dealt by 20%, spell haste by 15%, and heals for 13.75 every 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6425,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Wrath of Al'Akir",
+    "description": "Depleting <span style=\"color: #cc99ff; display: inline\">Static</span> extends the duration of your <span style=\"color: #FFFFFF; display: inline\">Unshackle</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Depleting Static extends the duration of your Unshackle by 3 sec.",
+    "iconPath": "interface/icons/inv_helmet_69",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300834,
+    "spellIds": [
+      300834
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6427
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300834,
+        "description": "Depleting <span style=\"color: #cc99ff; display: inline\">Static</span> extends the duration of your <span style=\"color: #FFFFFF; display: inline\">Unshackle</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Depleting Static extends the duration of your Unshackle by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6426,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Child of the Storm",
+    "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Cloudburst</span> and <span style=\"color: #FFFFFF; display: inline\">Windsurf</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Cloudburst and Windsurf by -20%.",
+    "iconPath": "interface/icons/spell_shaman_maelstromweapon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804038,
+    "spellIds": [
+      804038
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30132
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804038,
+        "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Cloudburst</span> and <span style=\"color: #FFFFFF; display: inline\">Windsurf</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Cloudburst and Windsurf by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6427,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Unshackle",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">50</span> Static</span><br />Transforms your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> into a more powerful form for <span class=\"item-number\">15</span> seconds, increasing damage dealt by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and spell haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Depletes 50 Static\nTransforms your Air Elemental into a more powerful form for 15 seconds, increasing damage dealt by 25% and spell haste by 30%.",
+    "iconPath": "interface/icons/achievement_boss_alakir_the_windlord",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706625,
+    "spellIds": [
+      706625
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30819
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706625,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">50</span> Static</span><br />Transforms your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> into a more powerful form for <span class=\"item-number\">15</span> seconds, increasing damage dealt by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and spell haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Depletes 50 Static\nTransforms your Air Elemental into a more powerful form for 15 seconds, increasing damage dealt by 25% and spell haste by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6435,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Flurry",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">10</span> Static</span><br />Command your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>, causing its next instance of damage to unleash a flurry of air on your target, dealing <span class=\"item-number\">938000</span> + <span class=\"item-number\">140000% nature SP</span> Nature Damage over <span class=\"item-number\">21</span> seconds, and reducing their resistances by <span class=\"item-number\">75</span>, and increasing their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Depletes 10 Static\nCommand your Air Elemental, causing its next instance of damage to unleash a flurry of air on your target, dealing 938000 + 140000% nature SP Nature Damage over 21 seconds, and reducing their resistances by 75, and increasing their Magic Damage taken by -2%.",
+    "iconPath": "interface/icons/flurry",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707543,
+    "spellIds": [
+      707543
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34914,
+      11584
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 126889,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707543,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">10</span> Static</span><br />Command your <span style=\"color: #ffffff; display: inline\">Air Elemental</span>, causing its next instance of damage to unleash a flurry of air on your target, dealing <span class=\"item-number\">938000</span> + <span class=\"item-number\">140000% nature SP</span> Nature Damage over <span class=\"item-number\">21</span> seconds, and reducing their resistances by <span class=\"item-number\">75</span>, and increasing their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Depletes 10 Static\nCommand your Air Elemental, causing its next instance of damage to unleash a flurry of air on your target, dealing 938000 + 140000% nature SP Nature Damage over 21 seconds, and reducing their resistances by 75, and increasing their Magic Damage taken by -2%."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7837,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Comforting Winds",
+    "description": "Your damage dealt now increases the haste of your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.<br /><br />Damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> now increases your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Your damage dealt now increases the haste of your Air Elemental by 1% for 10 seconds, stacking 5 times.\n\nDamage dealt by your Air Elemental now increases your haste by 1% for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/spell_mage_iceflows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704209,
+    "spellIds": [
+      704209
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29831,
+      34941
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704209,
+        "description": "Your damage dealt now increases the haste of your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.<br /><br />Damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> now increases your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Your damage dealt now increases the haste of your Air Elemental by 1% for 10 seconds, stacking 5 times.\n\nDamage dealt by your Air Elemental now increases your haste by 1% for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7838,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Quickdraft",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Updraft</span> by <span class=\"item-number\">3</span> sec and increases its tick rate by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of your Updraft by 3 sec and increases its tick rate by -15%.",
+    "iconPath": "interface/icons/custom_t_snowwhirlwind_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705704,
+    "spellIds": [
+      705704,
+      707801
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34948
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705704,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Updraft</span> by <span class=\"item-number\">3</span> sec and increases its tick rate by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Updraft by 3 sec and increases its tick rate by -15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707801,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Updraft</span> by <span class=\"item-number\">6</span> sec and increases its tick rate by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Updraft by 6 sec and increases its tick rate by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11857,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Aurat Scripts",
+    "description": "Increases the damage gained per stack of <span style=\"color: #FFFFFF; display: inline\">Invigoration</span> by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage gained per stack of Invigoration by 2%.",
+    "iconPath": "interface/icons/_book5_white",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712431,
+    "spellIds": [
+      712431
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30410
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712431,
+        "description": "Increases the damage gained per stack of <span style=\"color: #FFFFFF; display: inline\">Invigoration</span> by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage gained per stack of Invigoration by 2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11940,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Clear Skies",
+    "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/achievement_zone_deadwindpass",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500069,
+    "spellIds": [
+      500069
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4014
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 128464,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500069,
+        "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11949,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Cyclone's Embrace",
+    "description": "Increases the base amount absorbed by your <span style=\"color: #FFFFFF; display: inline\">Kiss of the Clouds</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the base amount absorbed by your Kiss of the Clouds by 100%.",
+    "iconPath": "interface/icons/ability_eyeoftheowl",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301318,
+    "spellIds": [
+      301318
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301318,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301318,
+        "description": "Increases the base amount absorbed by your <span style=\"color: #FFFFFF; display: inline\">Kiss of the Clouds</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the base amount absorbed by your Kiss of the Clouds by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11235,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Aerodynamics",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Envelop party and raid members within <span class=\"item-number\">40</span> yds in magical mist, increasing their attack or spell power by <span class=\"item-number\">95</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Depletes 40 Static\nEnvelop party and raid members within 40 yds in magical mist, increasing their attack or spell power by 95 for 15 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/_monkability_renewingmists_xuenwhite",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806124,
+    "spellIds": [
+      806124
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34914,
+      11584
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 126889,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806124,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Envelop party and raid members within <span class=\"item-number\">40</span> yds in magical mist, increasing their attack or spell power by <span class=\"item-number\">95</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Depletes 40 Static\nEnvelop party and raid members within 40 yds in magical mist, increasing their attack or spell power by 95 for 15 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11435,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Tempest's Call",
+    "description": "Bring the power of wind and storm to all nearby allies, increasing haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+    "descriptionText": "Bring the power of wind and storm to all nearby allies, increasing haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes.",
+    "iconPath": "interface/icons/tempest's call",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560567,
+    "spellIds": [
+      560567
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6435,
+      11235
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 713421,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560567,
+        "description": "Bring the power of wind and storm to all nearby allies, increasing haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+        "descriptionText": "Bring the power of wind and storm to all nearby allies, increasing haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11436,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Surge of Might",
+    "description": "Emanate an aura around you for <span class=\"item-number\">15</span> seconds, causing allied players within <span class=\"item-number\">100</span> yds to deal <span class=\"item-number\">70% nature SP</span> additional damage as Nature Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Emanate an aura around you for 15 seconds, causing allied players within 100 yds to deal 70% nature SP additional damage as Nature Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute.",
+    "iconPath": "interface/icons/nhi_lightning_shock_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520083,
+    "spellIds": [
+      520083
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6435,
+      11235
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 713421,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520083,
+        "description": "Emanate an aura around you for <span class=\"item-number\">15</span> seconds, causing allied players within <span class=\"item-number\">100</span> yds to deal <span class=\"item-number\">70% nature SP</span> additional damage as Nature Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Emanate an aura around you for 15 seconds, causing allied players within 100 yds to deal 70% nature SP additional damage as Nature Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11584,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Enveloping Winds",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Gale</span> now causes your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> to cast <span style=\"color: #ffffff; display: inline\">Gale</span>.<br /><br />Additionally, you now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Casting Gale now causes your Air Elemental to cast Gale.\n\nAdditionally, you now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/ability_shaman_windwalktotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707546,
+    "spellIds": [
+      707546
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11940,
+      34940
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 342611,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707546,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Gale</span> now causes your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> to cast <span style=\"color: #ffffff; display: inline\">Gale</span>.<br /><br />Additionally, you now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Casting Gale now causes your Air Elemental to cast Gale.\n\nAdditionally, you now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9234,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Storm Bond",
+    "description": "Damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> now generates you <span class=\"item-number\">2</span> <span style=\"color: #cc99ff; display: inline\">Static</span>.",
+    "descriptionText": "Damage dealt by your Air Elemental now generates you 2 Static.",
+    "iconPath": "interface/icons/spell_nature_purge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500580,
+    "spellIds": [
+      500580
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31164
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500580,
+        "description": "Damage dealt by your <span style=\"color: #ffffff; display: inline\">Air Elemental</span> now generates you <span class=\"item-number\">2</span> <span style=\"color: #cc99ff; display: inline\">Static</span>.",
+        "descriptionText": "Damage dealt by your Air Elemental now generates you 2 Static."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9265,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Air Flow",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Aeroblast</span> by <span class=\"item-number\">-0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Aeroblast by -0.3 sec.",
+    "iconPath": "interface/icons/spell_nature_cyclone",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707548,
+    "spellIds": [
+      707548
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9234,
+      30141
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707548,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Aeroblast</span> by <span class=\"item-number\">-0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Aeroblast by -0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29137,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 43,
+    "tabKey": "16:43",
+    "tabName": "Wind",
+    "name": "Kiss of the Clouds",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Grant all party and raid members a shield that absorbs <span class=\"item-number\">115</span> + <span class=\"item-number\">100% Intellect</span> damage, scaling with Intellect, for <span class=\"item-number\">10</span> seconds.<br /><br />While active, the target suffers no spell pushback from taking damage.",
+    "descriptionText": "Depletes 40 Static\nGrant all party and raid members a shield that absorbs 115 + 100% Intellect damage, scaling with Intellect, for 10 seconds.\n\nWhile active, the target suffers no spell pushback from taking damage.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_wind_icon_0003s_0000_wind_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500039,
+    "spellIds": [
+      500039
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7838
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500039,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Grant all party and raid members a shield that absorbs <span class=\"item-number\">115</span> + <span class=\"item-number\">100% Intellect</span> damage, scaling with Intellect, for <span class=\"item-number\">10</span> seconds.<br /><br />While active, the target suffers no spell pushback from taking damage.",
+        "descriptionText": "Depletes 40 Static\nGrant all party and raid members a shield that absorbs 115 + 100% Intellect damage, scaling with Intellect, for 10 seconds.\n\nWhile active, the target suffers no spell pushback from taking damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

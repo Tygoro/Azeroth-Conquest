@@ -1,0 +1,1851 @@
+[
+  {
+    "nodeId": 4251,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Elemental Assassin",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Agility, your spell critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Agility, and your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell damage by 20% of your Agility, your spell critical strike chance by 10% of your Agility, and your hit rating by 5% of your Agility.",
+    "iconPath": "interface/icons/inv_smallazeritefragment",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705541,
+    "spellIds": [
+      705541
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4063
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705541,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Agility, your spell critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Agility, and your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell damage by 20% of your Agility, your spell critical strike chance by 10% of your Agility, and your hit rating by 5% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4475,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Windsage",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br /><span style=\"color: #FFFFFF; display: inline\">Smolder</span> now envelops you in wind, causing your next <span class=\"item-number\">3</span> <span style=\"color: #FFFFFF; display: inline\">Runeblades</span> to strike an additional time equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Nature Damage.",
+    "descriptionText": "Level 30 Passive\nSmolder now envelops you in wind, causing your next 3 Runeblades to strike an additional time equal to 30% of the damage dealt as Nature Damage.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_83",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705568,
+    "spellIds": [
+      705568
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4251
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705568,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br /><span style=\"color: #FFFFFF; display: inline\">Smolder</span> now envelops you in wind, causing your next <span class=\"item-number\">3</span> <span style=\"color: #FFFFFF; display: inline\">Runeblades</span> to strike an additional time equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Nature Damage.",
+        "descriptionText": "Level 30 Passive\nSmolder now envelops you in wind, causing your next 3 Runeblades to strike an additional time equal to 30% of the damage dealt as Nature Damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1598,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Elemental Acuity",
+    "description": "Increases all Fire, Frost, and Nature Damage dealt by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases all Fire, Frost, and Nature Damage dealt by 6%.",
+    "iconPath": "interface/icons/spell_shaman_shockinglava",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706671,
+    "spellIds": [
+      706671
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2253
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706671,
+        "description": "Increases all Fire, Frost, and Nature Damage dealt by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all Fire, Frost, and Nature Damage dealt by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1722,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Frostburn",
+    "description": "Removes the cast time of <span style=\"color: #ffffff; display: inline\">Glacial Rune</span> and <span style=\"color: #ffffff; display: inline\">Permafrost Rune</span>.",
+    "descriptionText": "Removes the cast time of Glacial Rune and Permafrost Rune.",
+    "iconPath": "interface/icons/nhi_frost_knife_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705594,
+    "spellIds": [
+      705594
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1598,
+      30029
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705594,
+        "description": "Removes the cast time of <span style=\"color: #ffffff; display: inline\">Glacial Rune</span> and <span style=\"color: #ffffff; display: inline\">Permafrost Rune</span>.",
+        "descriptionText": "Removes the cast time of Glacial Rune and Permafrost Rune."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1756,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Windbreaker",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Air</span> is active, the damage of each strike of your <span style=\"color: #ffffff; display: inline\">Hurricane</span> is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While Weapon Engraving: Air is active, the damage of each strike of your Hurricane is increased by 30%.",
+    "iconPath": "interface/icons/novart_magicspell_(28)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804094,
+    "spellIds": [
+      804094
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30032,
+      30603
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 32623,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804094,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Air</span> is active, the damage of each strike of your <span style=\"color: #ffffff; display: inline\">Hurricane</span> is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While Weapon Engraving: Air is active, the damage of each strike of your Hurricane is increased by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1774,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Spellblade",
+    "description": "Increases your Agility and Intellect by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility and Intellect by 5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_swordofflame_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705540,
+    "spellIds": [
+      705540,
+      707878
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34599
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705540,
+        "description": "Increases your Agility and Intellect by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and Intellect by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707878,
+        "description": "Increases your Agility and Intellect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and Intellect by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2253,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Primordial Fury",
+    "description": "Your runic tattoos flare up for <span class=\"item-number\">15</span> seconds, causing <span style=\"color: #FFFFFF; display: inline\">Runeblade</span> to strike up to <span class=\"item-number\">5</span> additional enemies.<br /><br />For the duration, your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> have <span class=\"item-number\">100</span><span class=\"item-number\">%</span> increased effectiveness.",
+    "descriptionText": "Your runic tattoos flare up for 15 seconds, causing Runeblade to strike up to 5 additional enemies.\n\nFor the duration, your Runic Tattoos have 100% increased effectiveness.",
+    "iconPath": "interface/icons/5_mageskill04_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806543,
+    "spellIds": [
+      806543
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6473,
+      9619,
+      30603,
+      34619
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806543,
+        "description": "Your runic tattoos flare up for <span class=\"item-number\">15</span> seconds, causing <span style=\"color: #FFFFFF; display: inline\">Runeblade</span> to strike up to <span class=\"item-number\">5</span> additional enemies.<br /><br />For the duration, your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> have <span class=\"item-number\">100</span><span class=\"item-number\">%</span> increased effectiveness.",
+        "descriptionText": "Your runic tattoos flare up for 15 seconds, causing Runeblade to strike up to 5 additional enemies.\n\nFor the duration, your Runic Tattoos have 100% increased effectiveness."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4063,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Riftblade",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Primordial Blast</span> and <span style=\"color: #FFFFFF; display: inline\">Smolder</span> now refresh a charge of <span style=\"color: #FFFFFF; display: inline\">Runeblade</span>.<br /><br />In addition, every 3rd <span style=\"color: #ffffff; display: inline\">Runeblade</span> now restores <span class=\"item-number\">448</span> + <span class=\"item-number\">30% AP</span> mana, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Water</span> is active.",
+    "descriptionText": "Level 10 Passive\nYour Primordial Blast and Smolder now refresh a charge of Runeblade.\n\nIn addition, every 3rd Runeblade now restores 448 + 30% AP mana, increased by 20% while Runic Tattoos: Water is active.",
+    "iconPath": "interface/icons/trade_archaeology_zinrokh_sword",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92154,
+    "spellIds": [
+      92154
+    ],
+    "requiredNodeIds": [
+      29218
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92154,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Primordial Blast</span> and <span style=\"color: #FFFFFF; display: inline\">Smolder</span> now refresh a charge of <span style=\"color: #FFFFFF; display: inline\">Runeblade</span>.<br /><br />In addition, every 3rd <span style=\"color: #ffffff; display: inline\">Runeblade</span> now restores <span class=\"item-number\">448</span> + <span class=\"item-number\">30% AP</span> mana, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Water</span> is active.",
+        "descriptionText": "Level 10 Passive\nYour Primordial Blast and Smolder now refresh a charge of Runeblade.\n\nIn addition, every 3rd Runeblade now restores 448 + 30% AP mana, increased by 20% while Runic Tattoos: Water is active."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6470,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Cinderstorm Runes",
+    "description": "<span style=\"color: #ffffff; display: inline\">Hurricane</span> and <span style=\"color: #ffffff; display: inline\">Smolder</span> now deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more damage against enemies below <span class=\"item-number\">20%</span> maximum health.",
+    "descriptionText": "Hurricane and Smolder now deal 50% more damage against enemies below 20% maximum health.",
+    "iconPath": "interface/icons/nhi_firetwist_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706458,
+    "spellIds": [
+      706458
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6474,
+      34624
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 356211,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706458,
+        "description": "<span style=\"color: #ffffff; display: inline\">Hurricane</span> and <span style=\"color: #ffffff; display: inline\">Smolder</span> now deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more damage against enemies below <span class=\"item-number\">20%</span> maximum health.",
+        "descriptionText": "Hurricane and Smolder now deal 50% more damage against enemies below 20% maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6472,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Turbulence",
+    "description": "Send out a gust of wind from your weapon that strikes nearby enemies in a <span class=\"item-number\">6</span> yd radius for <span class=\"item-number\">200</span><span class=\"item-number\">%</span> Weapon Damage as Nature Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<br /><br />While active, you leave behind a <span style=\"color: #ffffff; display: inline\">Turbulent Spiral</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">6</span> seconds.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_snowwhirlwind_border\" /><span class=\"name\">Turbulent Spiral (Damage)</span></div><span class=\"desc\">Enemies in the area take an additional <span class=\"item-number\">97</span> + <span class=\"item-number\">13.5% AP</span> Nature Damage every <span class=\"item-number\">1</span> sec.</span></div>",
+    "descriptionText": "Send out a gust of wind from your weapon that strikes nearby enemies in a 6 yd radius for 200% Weapon Damage as Nature Damage every 1 sec for 3 seconds.\n\nWhile active, you leave behind a Turbulent Spiral every 1 sec for 6 seconds.\n\n---\n\nTurbulent Spiral (Damage)Enemies in the area take an additional 97 + 13.5% AP Nature Damage every 1 sec.",
+    "iconPath": "interface/icons/skill_icon_skill79_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705575,
+    "spellIds": [
+      705575
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31136,
+      34640
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705575,
+        "description": "Send out a gust of wind from your weapon that strikes nearby enemies in a <span class=\"item-number\">6</span> yd radius for <span class=\"item-number\">200</span><span class=\"item-number\">%</span> Weapon Damage as Nature Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<br /><br />While active, you leave behind a <span style=\"color: #ffffff; display: inline\">Turbulent Spiral</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">6</span> seconds.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_snowwhirlwind_border\" /><span class=\"name\">Turbulent Spiral (Damage)</span></div><span class=\"desc\">Enemies in the area take an additional <span class=\"item-number\">97</span> + <span class=\"item-number\">13.5% AP</span> Nature Damage every <span class=\"item-number\">1</span> sec.</span></div>",
+        "descriptionText": "Send out a gust of wind from your weapon that strikes nearby enemies in a 6 yd radius for 200% Weapon Damage as Nature Damage every 1 sec for 3 seconds.\n\nWhile active, you leave behind a Turbulent Spiral every 1 sec for 6 seconds.\n\n---\n\nTurbulent Spiral (Damage)Enemies in the area take an additional 97 + 13.5% AP Nature Damage every 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6473,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Frost Spectre",
+    "description": "Increases the critical strike chance and critical damage of <span style=\"color: #ffffff; display: inline\">Smolder</span> and <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance and critical damage of Smolder and Primordial Blast against Frozen targets by 25%.",
+    "iconPath": "interface/icons/novart_magicspell_(3)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560039,
+    "spellIds": [
+      560039,
+      561350
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30027
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560039,
+        "description": "Increases the critical strike chance and critical damage of <span style=\"color: #ffffff; display: inline\">Smolder</span> and <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance and critical damage of Smolder and Primordial Blast against Frozen targets by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561350,
+        "description": "Increases the critical strike chance and critical damage of <span style=\"color: #ffffff; display: inline\">Smolder</span> and <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance and critical damage of Smolder and Primordial Blast against Frozen targets by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6474,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Unbound Energy",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+    "descriptionText": "Increases your critical strike chance by 3% and your expertise by 4.",
+    "iconPath": "interface/icons/custom_t_scrollofearth_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705570,
+    "spellIds": [
+      705570,
+      707877
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705570,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your critical strike chance by 3% and your expertise by 4."
+      },
+      {
+        "rank": 2,
+        "spellId": 707877,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">8</span>.",
+        "descriptionText": "Increases your critical strike chance by 6% and your expertise by 8."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6475,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Glyph of Disappearance",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Phase Out</span> can now be used <span class=\"item-number\">1</span> additional time within <span class=\"item-number\">15</span> seconds before incurring a cooldown.",
+    "descriptionText": "Level 40 Passive\nYour Phase Out can now be used 1 additional time within 15 seconds before incurring a cooldown.",
+    "iconPath": "interface/icons/_d3familiar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560037,
+    "spellIds": [
+      560037
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4475
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560037,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Phase Out</span> can now be used <span class=\"item-number\">1</span> additional time within <span class=\"item-number\">15</span> seconds before incurring a cooldown.",
+        "descriptionText": "Level 40 Passive\nYour Phase Out can now be used 1 additional time within 15 seconds before incurring a cooldown."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6478,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Earthen Codex",
+    "description": "While any <span style=\"color: #ffffff; display: inline\">Palm Sigil</span> is active, you are now guaranteed to critically strike for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased critical damage.",
+    "descriptionText": "While any Palm Sigil is active, you are now guaranteed to critically strike for 30% increased critical damage.",
+    "iconPath": "interface/icons/custom_book_10_b_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707460,
+    "spellIds": [
+      707460
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707460,
+        "description": "While any <span style=\"color: #ffffff; display: inline\">Palm Sigil</span> is active, you are now guaranteed to critically strike for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased critical damage.",
+        "descriptionText": "While any Palm Sigil is active, you are now guaranteed to critically strike for 30% increased critical damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6481,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Magebreaker",
+    "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Hurricane</span> now also reduces the targets Magic Damage dealt by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds and dispels <span class=\"item-number\">1</span> harmful magic effect from you with each strike.",
+    "descriptionText": "Dealing damage with Hurricane now also reduces the targets Magic Damage dealt by -15% for 8 seconds and dispels 1 harmful magic effect from you with each strike.",
+    "iconPath": "interface/icons/inv_magemount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804061,
+    "spellIds": [
+      804061
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30032,
+      30603
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 32623,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804061,
+        "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Hurricane</span> now also reduces the targets Magic Damage dealt by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds and dispels <span class=\"item-number\">1</span> harmful magic effect from you with each strike.",
+        "descriptionText": "Dealing damage with Hurricane now also reduces the targets Magic Damage dealt by -15% for 8 seconds and dispels 1 harmful magic effect from you with each strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6486,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Battle Engravings",
+    "description": "Removes the cast time from <span style=\"color: #ffffff; display: inline\">Ley Lock</span>, but reduces its duration by <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Removes the cast time from Ley Lock, but reduces its duration by 0.5 sec.",
+    "iconPath": "interface/icons/nhi_manaclone_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706674,
+    "spellIds": [
+      706674
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30032
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706674,
+        "description": "Removes the cast time from <span style=\"color: #ffffff; display: inline\">Ley Lock</span>, but reduces its duration by <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Removes the cast time from Ley Lock, but reduces its duration by 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6487,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Leyfrost",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Hoarfrost</span> now cause your next spell within <span class=\"item-number\">15</span> seconds to cast as if the target were <span style=\"color: #3399ff; display: inline\">Frozen</span>.",
+    "descriptionText": "Critical strikes with Hoarfrost now cause your next spell within 15 seconds to cast as if the target were Frozen.",
+    "iconPath": "interface/icons/nhi_magicstrike_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712308,
+    "spellIds": [
+      712308
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30027
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712308,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Hoarfrost</span> now cause your next spell within <span class=\"item-number\">15</span> seconds to cast as if the target were <span style=\"color: #3399ff; display: inline\">Frozen</span>.",
+        "descriptionText": "Critical strikes with Hoarfrost now cause your next spell within 15 seconds to cast as if the target were Frozen."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5451,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Frozen Earth",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Ice Rune</span> and the stun effect from <span style=\"color: #ffffff; display: inline\">Palm Sigil: Earth</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of Ice Rune and the stun effect from Palm Sigil: Earth by 1 sec.",
+    "iconPath": "interface/icons/nhi_frost_staff_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705592,
+    "spellIds": [
+      705592
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6470,
+      30031
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705592,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Ice Rune</span> and the stun effect from <span style=\"color: #ffffff; display: inline\">Palm Sigil: Earth</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of Ice Rune and the stun effect from Palm Sigil: Earth by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34598,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Water Runes",
+    "description": "Each strike from <span style=\"color: #ffffff; display: inline\">Hurricane</span> is now guaranteed to apply <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Water</span> or <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Ice</span> to your target while they are active.",
+    "descriptionText": "Each strike from Hurricane is now guaranteed to apply Weapon Engraving: Water or Weapon Engraving: Ice to your target while they are active.",
+    "iconPath": "interface/icons/inv_misc_rune_09",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707150,
+    "spellIds": [
+      707150
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1774
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 235212,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707150,
+        "description": "Each strike from <span style=\"color: #ffffff; display: inline\">Hurricane</span> is now guaranteed to apply <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Water</span> or <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Ice</span> to your target while they are active.",
+        "descriptionText": "Each strike from Hurricane is now guaranteed to apply Weapon Engraving: Water or Weapon Engraving: Ice to your target while they are active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34599,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Hurricane",
+    "description": "Strike an enemy <span class=\"item-number\">5</span> times over <span class=\"item-number\">2</span> seconds, each strike dealing <span class=\"item-number\">135</span><span class=\"item-number\">%</span> Weapon Damage as Nature Damage, scaling with level.<br /><br />While striking your target, your chance to dodge is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>, but you cannot use any spells or abilities.",
+    "descriptionText": "Strike an enemy 5 times over 2 seconds, each strike dealing 135% Weapon Damage as Nature Damage, scaling with level.\n\nWhile striking your target, your chance to dodge is increased by 100%, but you cannot use any spells or abilities.",
+    "iconPath": "interface/icons/skill_icon_skill153_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 645435,
+    "spellIds": [
+      645435
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34624
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 645435,
+        "description": "Strike an enemy <span class=\"item-number\">5</span> times over <span class=\"item-number\">2</span> seconds, each strike dealing <span class=\"item-number\">135</span><span class=\"item-number\">%</span> Weapon Damage as Nature Damage, scaling with level.<br /><br />While striking your target, your chance to dodge is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>, but you cannot use any spells or abilities.",
+        "descriptionText": "Strike an enemy 5 times over 2 seconds, each strike dealing 135% Weapon Damage as Nature Damage, scaling with level.\n\nWhile striking your target, your chance to dodge is increased by 100%, but you cannot use any spells or abilities."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34619,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Phaser",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Phase Out</span> by <span class=\"item-number\">-30</span> sec and removes its mana cost.",
+    "descriptionText": "Reduces the cooldown of Phase Out by -30 sec and removes its mana cost.",
+    "iconPath": "interface/icons/ability_mage_invisibility",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706518,
+    "spellIds": [
+      706518
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5451
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 845630,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706518,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Phase Out</span> by <span class=\"item-number\">-30</span> sec and removes its mana cost.",
+        "descriptionText": "Reduces the cooldown of Phase Out by -30 sec and removes its mana cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34621,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Swift Etching",
+    "description": "After <span style=\"color: #ffffff; display: inline\">Hurricane</span> ends, your melee attack speed is increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "After Hurricane ends, your melee attack speed is increased by 15% and critical strike chance by 10% for 10 seconds.",
+    "iconPath": "interface/icons/inv_misc_rune_14",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705600,
+    "spellIds": [
+      705600
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1756,
+      6481,
+      6486
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705600,
+        "description": "After <span style=\"color: #ffffff; display: inline\">Hurricane</span> ends, your melee attack speed is increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "After Hurricane ends, your melee attack speed is increased by 15% and critical strike chance by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34622,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Elements, Heed My Call!",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Smolder</span>, <span style=\"color: #ffffff; display: inline\">Hurricane</span>, and <span style=\"color: #ffffff; display: inline\">Hoarfrost</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Smolder, Hurricane, and Hoarfrost by 15%.",
+    "iconPath": "interface/icons/spell_nature_elementalabsorption",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706670,
+    "spellIds": [
+      706670
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6473,
+      6487
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706670,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Smolder</span>, <span style=\"color: #ffffff; display: inline\">Hurricane</span>, and <span style=\"color: #ffffff; display: inline\">Hoarfrost</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Smolder, Hurricane, and Hoarfrost by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34624,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Runic Omen",
+    "description": "Every 3rd cast of <span style=\"color: #FFFFFF; display: inline\">Runeblade</span> now deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Every 3rd cast of Runeblade now deals 30% increased damage.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_magicrune_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705580,
+    "spellIds": [
+      705580
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705580,
+        "description": "Every 3rd cast of <span style=\"color: #FFFFFF; display: inline\">Runeblade</span> now deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Every 3rd cast of Runeblade now deals 30% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34640,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Elemental Inscription",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Smolder</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Primordial Fury</span> by <span class=\"item-number\">-10</span> sec and <span style=\"color: #ffffff; display: inline\">Zenith</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Casting Smolder now reduces the cooldown of Primordial Fury by -10 sec and Zenith by -5 sec.",
+    "iconPath": "interface/icons/_scroll3_frostfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806737,
+    "spellIds": [
+      806737
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1722,
+      31242
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806737,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Smolder</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Primordial Fury</span> by <span class=\"item-number\">-10</span> sec and <span style=\"color: #ffffff; display: inline\">Zenith</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Casting Smolder now reduces the cooldown of Primordial Fury by -10 sec and Zenith by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31136,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Spellfire Runes",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Runeblade</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance, and <span style=\"color: #ffffff; display: inline\">Warpdagger</span> a <span class=\"item-number\">100</span><span class=\"item-number\">%</span> chance, to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Smolder</span>, and increase the damage of your next <span style=\"color: #ffffff; display: inline\">Smolder</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Runeblade now has a 20% chance, and Warpdagger a 100% chance, to reset the cooldown of Smolder, and increase the damage of your next Smolder by 20%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_firerune_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801511,
+    "spellIds": [
+      801511
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1722,
+      30033
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801511,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Runeblade</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance, and <span style=\"color: #ffffff; display: inline\">Warpdagger</span> a <span class=\"item-number\">100</span><span class=\"item-number\">%</span> chance, to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Smolder</span>, and increase the damage of your next <span style=\"color: #ffffff; display: inline\">Smolder</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Runeblade now has a 20% chance, and Warpdagger a 100% chance, to reset the cooldown of Smolder, and increase the damage of your next Smolder by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31212,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Smolder",
+    "description": "Ignite your blade and strike an enemy, dealing <span class=\"item-number\">145</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">19</span> Fire Damage.",
+    "descriptionText": "Ignite your blade and strike an enemy, dealing 145% Weapon Damage plus 19 Fire Damage.",
+    "iconPath": "interface/icons/uico_fire_spell_02_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801087,
+    "spellIds": [
+      801087
+    ],
+    "requiredNodeIds": [
+      4063,
+      29218
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801087,
+        "description": "Ignite your blade and strike an enemy, dealing <span class=\"item-number\">145</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">19</span> Fire Damage.",
+        "descriptionText": "Ignite your blade and strike an enemy, dealing 145% Weapon Damage plus 19 Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31242,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Freezing Codex",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Ice Rune</span> by <span class=\"item-number\">-20</span> sec and increases the mana cost by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, but reduces its range by <span class=\"item-number\">-10</span> yds.",
+    "descriptionText": "Reduces the cooldown of Ice Rune by -20 sec and increases the mana cost by 50%, but reduces its range by -10 yds.",
+    "iconPath": "interface/icons/item_icecrownringd",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705577,
+    "spellIds": [
+      705577
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6478,
+      30029
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705577,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Ice Rune</span> by <span class=\"item-number\">-20</span> sec and increases the mana cost by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, but reduces its range by <span class=\"item-number\">-10</span> yds.",
+        "descriptionText": "Reduces the cooldown of Ice Rune by -20 sec and increases the mana cost by 50%, but reduces its range by -10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29633,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Genesis",
+    "description": "Apply a runic brand to an enemy for <span class=\"item-number\">8</span> seconds, accumulating <span class=\"item-number\">50%</span> of your damage dealt, and unleashing after <span class=\"item-number\">8</span> seconds as Elemental Damage.<br /><br />When this deals damage, it triggers your <span style=\"color: #ffffff; display: inline\">Weapon Engraving</span>.",
+    "descriptionText": "Apply a runic brand to an enemy for 8 seconds, accumulating 50% of your damage dealt, and unleashing after 8 seconds as Elemental Damage.\n\nWhen this deals damage, it triggers your Weapon Engraving.",
+    "iconPath": "interface/icons/novart_magicspell_(60)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500501,
+    "spellIds": [
+      500501
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31136
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500501,
+        "description": "Apply a runic brand to an enemy for <span class=\"item-number\">8</span> seconds, accumulating <span class=\"item-number\">50%</span> of your damage dealt, and unleashing after <span class=\"item-number\">8</span> seconds as Elemental Damage.<br /><br />When this deals damage, it triggers your <span style=\"color: #ffffff; display: inline\">Weapon Engraving</span>.",
+        "descriptionText": "Apply a runic brand to an enemy for 8 seconds, accumulating 50% of your damage dealt, and unleashing after 8 seconds as Elemental Damage.\n\nWhen this deals damage, it triggers your Weapon Engraving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30603,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Residual Power",
+    "description": "Increases the damage replicated by <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Air</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage replicated by Weapon Engraving: Air by 15%.",
+    "iconPath": "interface/icons/novart_magicspell_(17)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560040,
+    "spellIds": [
+      560040
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1774
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560040,
+        "description": "Increases the damage replicated by <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Air</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage replicated by Weapon Engraving: Air by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30026,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Hoarfrost",
+    "description": "Slash in a frozen fury in front of you, dealing <span class=\"item-number\">7</span> + <span class=\"item-number\">33% AP</span> Frost Damage to up to <span class=\"item-number\">3</span> enemies within <span class=\"item-number\">8</span> yds, repeating every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">21</span> seconds.<br /><br />Enemies hit by the initial strike are frozen in place for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Slash in a frozen fury in front of you, dealing 7 + 33% AP Frost Damage to up to 3 enemies within 8 yds, repeating every 3 sec for 21 seconds.\n\nEnemies hit by the initial strike are frozen in place for 3 seconds.",
+    "iconPath": "interface/icons/nhi_iceempower_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801104,
+    "spellIds": [
+      801104
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6474
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801104,
+        "description": "Slash in a frozen fury in front of you, dealing <span class=\"item-number\">7</span> + <span class=\"item-number\">33% AP</span> Frost Damage to up to <span class=\"item-number\">3</span> enemies within <span class=\"item-number\">8</span> yds, repeating every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">21</span> seconds.<br /><br />Enemies hit by the initial strike are frozen in place for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Slash in a frozen fury in front of you, dealing 7 + 33% AP Frost Damage to up to 3 enemies within 8 yds, repeating every 3 sec for 21 seconds.\n\nEnemies hit by the initial strike are frozen in place for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30027,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Runic Invocation",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Hoarfrost</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and allows its periodic damage to critically strike.",
+    "descriptionText": "Increases the critical strike chance of Hoarfrost by 10% and allows its periodic damage to critically strike.",
+    "iconPath": "interface/icons/inv_ascend_rune_06_b",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807204,
+    "spellIds": [
+      807204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30026
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807204,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Hoarfrost</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and allows its periodic damage to critically strike.",
+        "descriptionText": "Increases the critical strike chance of Hoarfrost by 10% and allows its periodic damage to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30029,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Primordial Echoes",
+    "description": "Your critical strikes dealt with <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to strike an additional time.",
+    "descriptionText": "Your critical strikes dealt with Primordial Blast now have a 40% chance to strike an additional time.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_magicvortex_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705572,
+    "spellIds": [
+      705572
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6473,
+      34622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705572,
+        "description": "Your critical strikes dealt with <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to strike an additional time.",
+        "descriptionText": "Your critical strikes dealt with Primordial Blast now have a 40% chance to strike an additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30030,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Wind Runes",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Hurricane</span> now strikes <span class=\"item-number\">2</span> additional times.",
+    "descriptionText": "Your Hurricane now strikes 2 additional times.",
+    "iconPath": "interface/icons/_stonetablet_shamanair",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706672,
+    "spellIds": [
+      706672
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1774
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 235212,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706672,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Hurricane</span> now strikes <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Your Hurricane now strikes 2 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30031,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Melting Runes",
+    "description": "<span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage against <span style=\"color: #3399ff; display: inline\">Frozen</span> enemies.",
+    "descriptionText": "Weapon Engraving: Fire now deals 20% increased damage against Frozen enemies.",
+    "iconPath": "interface/icons/novart_magicspell_(44)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803013,
+    "spellIds": [
+      803013
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6474,
+      34624
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 356211,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803013,
+        "description": "<span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage against <span style=\"color: #3399ff; display: inline\">Frozen</span> enemies.",
+        "descriptionText": "Weapon Engraving: Fire now deals 20% increased damage against Frozen enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30032,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Echo Rune",
+    "description": "Mark your current location with an echo rune for <span class=\"item-number\">20</span> seconds.<br /><br />At the end of the duration or upon reactivation, warp back to the marked location and heal for <span class=\"item-number\">1030</span> + <span class=\"item-number\">150% AP</span> health.",
+    "descriptionText": "Mark your current location with an echo rune for 20 seconds.\n\nAt the end of the duration or upon reactivation, warp back to the marked location and heal for 1030 + 150% AP health.",
+    "iconPath": "interface/icons/echorune",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500270,
+    "spellIds": [
+      500270
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30030,
+      30603,
+      34598
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500270,
+        "description": "Mark your current location with an echo rune for <span class=\"item-number\">20</span> seconds.<br /><br />At the end of the duration or upon reactivation, warp back to the marked location and heal for <span class=\"item-number\">1030</span> + <span class=\"item-number\">150% AP</span> health.",
+        "descriptionText": "Mark your current location with an echo rune for 20 seconds.\n\nAt the end of the duration or upon reactivation, warp back to the marked location and heal for 1030 + 150% AP health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30033,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Runic Power",
+    "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, critical strikes now increase the chance for the target to be critically struck by your spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, critical strikes now increase the chance for the target to be critically struck by your spells by 3% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_arcane_scroll_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300944,
+    "spellIds": [
+      300944
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1598,
+      1756,
+      6481
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300944,
+        "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, critical strikes now increase the chance for the target to be critically struck by your spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, critical strikes now increase the chance for the target to be critically struck by your spells by 3% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30034,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Waveforged",
+    "description": "After <span style=\"color: #ffffff; display: inline\">Hurricane</span> ends, you may now use abilties that require <span style=\"color: #ffffff; display: inline\">Runeshroud</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "After Hurricane ends, you may now use abilties that require Runeshroud for 5 seconds.",
+    "iconPath": "interface/icons/nhi_watersword_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705565,
+    "spellIds": [
+      705565
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7382,
+      31136
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705565,
+        "description": "After <span style=\"color: #ffffff; display: inline\">Hurricane</span> ends, you may now use abilties that require <span style=\"color: #ffffff; display: inline\">Runeshroud</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "After Hurricane ends, you may now use abilties that require Runeshroud for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9619,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Rift Clones",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Phase Out</span> now summons <span class=\"item-number\">10</span> clones of yourself that run in a random direction for <span class=\"item-number\">5</span> seconds.<br /><br /><span style=\"color: #ffffff; display: inline\">Rift Clones</span> periodically explode dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">19.5% AP</span> Arcane Damage to all enemies within <span class=\"item-number\">5</span> yds of them.",
+    "descriptionText": "Casting Phase Out now summons 10 clones of yourself that run in a random direction for 5 seconds.\n\nRift Clones periodically explode dealing 1 + 19.5% AP Arcane Damage to all enemies within 5 yds of them.",
+    "iconPath": "interface/icons/spell_nature_mirrorimage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707463,
+    "spellIds": [
+      707463
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5451
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 845630,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707463,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Phase Out</span> now summons <span class=\"item-number\">10</span> clones of yourself that run in a random direction for <span class=\"item-number\">5</span> seconds.<br /><br /><span style=\"color: #ffffff; display: inline\">Rift Clones</span> periodically explode dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">19.5% AP</span> Arcane Damage to all enemies within <span class=\"item-number\">5</span> yds of them.",
+        "descriptionText": "Casting Phase Out now summons 10 clones of yourself that run in a random direction for 5 seconds.\n\nRift Clones periodically explode dealing 1 + 19.5% AP Arcane Damage to all enemies within 5 yds of them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9975,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Surging Slash",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Every 3rd cast of <span style=\"color: #FFFFFF; display: inline\">Runeblade</span> now transforms your next <span style=\"color: #ffffff; display: inline\">Runeblade</span> within <span class=\"item-number\">15</span> seconds into <span style=\"color: #FFFFFF; display: inline\">Surging Slash</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 runeblade2\" /><span class=\"name\">Surging Slash (Transform)</span></div><span class=\"desc\">Strike an enemy with a rune-infused weapon, dealing <span class=\"item-number\">110</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">60</span> Elemental Damage, bouncing to up to <span class=\"item-number\">4</span> additional enemies, dealing less damage with each bounce.<br /><br /></span></div>",
+    "descriptionText": "Level 50 Passive\nEvery 3rd cast of Runeblade now transforms your next Runeblade within 15 seconds into Surging Slash.\n\n---\n\nSurging Slash (Transform)Strike an enemy with a rune-infused weapon, dealing 110% Weapon Damage plus 60 Elemental Damage, bouncing to up to 4 additional enemies, dealing less damage with each bounce.",
+    "iconPath": "interface/icons/runeblade2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705579,
+    "spellIds": [
+      705579
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6475
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705579,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Every 3rd cast of <span style=\"color: #FFFFFF; display: inline\">Runeblade</span> now transforms your next <span style=\"color: #ffffff; display: inline\">Runeblade</span> within <span class=\"item-number\">15</span> seconds into <span style=\"color: #FFFFFF; display: inline\">Surging Slash</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 runeblade2\" /><span class=\"name\">Surging Slash (Transform)</span></div><span class=\"desc\">Strike an enemy with a rune-infused weapon, dealing <span class=\"item-number\">110</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">60</span> Elemental Damage, bouncing to up to <span class=\"item-number\">4</span> additional enemies, dealing less damage with each bounce.<br /><br /></span></div>",
+        "descriptionText": "Level 50 Passive\nEvery 3rd cast of Runeblade now transforms your next Runeblade within 15 seconds into Surging Slash.\n\n---\n\nSurging Slash (Transform)Strike an enemy with a rune-infused weapon, dealing 110% Weapon Damage plus 60 Elemental Damage, bouncing to up to 4 additional enemies, dealing less damage with each bounce."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7382,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 86,
+    "tabKey": "32:86",
+    "tabName": "Riftblade",
+    "name": "Fracture",
+    "description": "Strike an enemy with frozen fury, dealing <span class=\"item-number\">1026</span> + <span class=\"item-number\">100% AP</span> Frost Damage and <span style=\"color: #ff4500; display: inline\">Burning</span> <span class=\"item-number\">25</span> + <span class=\"item-number\">35% AP</span> of the target's mana.<br /><br />Damage dealt is guaranteed to critically strike against frozen targets.",
+    "descriptionText": "Strike an enemy with frozen fury, dealing 1026 + 100% AP Frost Damage and Burning 25 + 35% AP of the target's mana.\n\nDamage dealt is guaranteed to critically strike against frozen targets.",
+    "iconPath": "interface/icons/nhi_manaspike_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803018,
+    "spellIds": [
+      803018
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30033,
+      34621
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803018,
+        "description": "Strike an enemy with frozen fury, dealing <span class=\"item-number\">1026</span> + <span class=\"item-number\">100% AP</span> Frost Damage and <span style=\"color: #ff4500; display: inline\">Burning</span> <span class=\"item-number\">25</span> + <span class=\"item-number\">35% AP</span> of the target's mana.<br /><br />Damage dealt is guaranteed to critically strike against frozen targets.",
+        "descriptionText": "Strike an enemy with frozen fury, dealing 1026 + 100% AP Frost Damage and Burning 25 + 35% AP of the target's mana.\n\nDamage dealt is guaranteed to critically strike against frozen targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

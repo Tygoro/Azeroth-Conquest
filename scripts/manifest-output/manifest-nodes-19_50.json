@@ -1,0 +1,1814 @@
+[
+  {
+    "nodeId": 34334,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Combat Training",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Oaths</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Oaths by 20%.",
+    "iconPath": "interface/icons/ability_monk_quipunch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706320,
+    "spellIds": [
+      706320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29255
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706320,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Oaths</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Oaths by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34335,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Blessing of Eonar",
+    "description": "Using <span style=\"color: #ffffff; display: inline\">Libram</span> spells now increases your damage dealt and healing done by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Using Libram spells now increases your damage dealt and healing done by 10% for 15 seconds.",
+    "iconPath": "interface/icons/achievement_boss_argus_eonar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705290,
+    "spellIds": [
+      705290
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11384,
+      30070,
+      34384
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705290,
+        "description": "Using <span style=\"color: #ffffff; display: inline\">Libram</span> spells now increases your damage dealt and healing done by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Using Libram spells now increases your damage dealt and healing done by 10% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34338,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Martial Paladin",
+    "description": "Increases your Agility by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility by 4% and your chance to hit by 3%.",
+    "iconPath": "interface/icons/inv_glaive_1h_artifactaldrochi_d_01dual",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705250,
+    "spellIds": [
+      705250,
+      705251
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34334
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705250,
+        "description": "Increases your Agility by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 4% and your chance to hit by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 705251,
+        "description": "Increases your Agility by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 8% and your chance to hit by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34339,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Bursting Impact",
+    "description": "Increases your off-hand weapon damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your off-hand weapon damage by 25%.",
+    "iconPath": "interface/icons/spell_paladin_lightshammer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705276,
+    "spellIds": [
+      705276
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705276,
+        "description": "Increases your off-hand weapon damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand weapon damage by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34346,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Force of Golganneth",
+    "description": "Explode with holy power, dealing <span class=\"item-number\">390</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">25% holy SP</span> Holy Damage and triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span> every <span class=\"item-number\">1</span> sec to nearby enemies for <span class=\"item-number\">5</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div><br /><br />While active, your <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> spell has its Energy cost reduced by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Explode with holy power, dealing 390 + 25% AP + 25% holy SP Holy Damage and triggering Zealotry every 1 sec to nearby enemies for 5 seconds.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.\n\nWhile active, your Temple Guardian spell has its Energy cost reduced by -50%.",
+    "iconPath": "interface/icons/nhi_holyinfusion_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500694,
+    "spellIds": [
+      500694
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5438,
+      30438,
+      30449
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500694,
+        "description": "Explode with holy power, dealing <span class=\"item-number\">390</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">25% holy SP</span> Holy Damage and triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span> every <span class=\"item-number\">1</span> sec to nearby enemies for <span class=\"item-number\">5</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div><br /><br />While active, your <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> spell has its Energy cost reduced by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Explode with holy power, dealing 390 + 25% AP + 25% holy SP Holy Damage and triggering Zealotry every 1 sec to nearby enemies for 5 seconds.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.\n\nWhile active, your Temple Guardian spell has its Energy cost reduced by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34355,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Oath Flow",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Oath Chain</span> by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Increases the duration of Oath Chain by 2 sec.",
+    "iconPath": "interface/icons/spell_holy_blindingheal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705283,
+    "spellIds": [
+      705283
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6401
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705283,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Oath Chain</span> by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Increases the duration of Oath Chain by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34358,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Deliverance",
+    "description": "Critically striking with <span style=\"color: #ffffff; display: inline\">Vindication</span> now deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> additional Physical Damage.",
+    "descriptionText": "Critically striking with Vindication now deals 50% additional Physical Damage.",
+    "iconPath": "interface/icons/spell_holy_greaterblessingofsalvation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704116,
+    "spellIds": [
+      704116
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11455,
+      30449,
+      30455
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704116,
+        "description": "Critically striking with <span style=\"color: #ffffff; display: inline\">Vindication</span> now deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> additional Physical Damage.",
+        "descriptionText": "Critically striking with Vindication now deals 50% additional Physical Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34359,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Iron Penance",
+    "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Zealotry</span> now applies <span style=\"color: #ffffff; display: inline\">Iron Penance</span> to the target, increasing their Physical Damage taken by you by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Dealing damage with Zealotry now applies Iron Penance to the target, increasing their Physical Damage taken by you by 1% for 3 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/custom_paladinskill_25_nobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 523712,
+    "spellIds": [
+      523712
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30066,
+      30836
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 523712,
+        "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Zealotry</span> now applies <span style=\"color: #ffffff; display: inline\">Iron Penance</span> to the target, increasing their Physical Damage taken by you by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Dealing damage with Zealotry now applies Iron Penance to the target, increasing their Physical Damage taken by you by 1% for 3 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34384,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Condemnation",
+    "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Condemn</span>, <span style=\"color: #FFFFFF; display: inline\">Holy Cleave</span>, or <span style=\"color: #FFFFFF; display: inline\">Blade of Faith</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Zealotry</span> if you are within melee range of your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+    "descriptionText": "Dealing damage with Condemn, Holy Cleave, or Blade of Faith now has a 15% chance to trigger Zealotry if you are within melee range of your target.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.",
+    "iconPath": "interface/icons/inv_axe_2h_pvppandarias2_c_01green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706325,
+    "spellIds": [
+      706325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30836,
+      34359
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707606,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706325,
+        "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Condemn</span>, <span style=\"color: #FFFFFF; display: inline\">Holy Cleave</span>, or <span style=\"color: #FFFFFF; display: inline\">Blade of Faith</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Zealotry</span> if you are within melee range of your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+        "descriptionText": "Dealing damage with Condemn, Holy Cleave, or Blade of Faith now has a 15% chance to trigger Zealotry if you are within melee range of your target.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30443,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Condemnation",
+    "description": "Increases the critical strike chance gained through <span style=\"color: #FFFFFF; display: inline\">Condemn</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance gained through Condemn by 3%.",
+    "iconPath": "interface/icons/spell_holy_heal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704175,
+    "spellIds": [
+      704175
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11455,
+      30066,
+      30455
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704175,
+        "description": "Increases the critical strike chance gained through <span style=\"color: #FFFFFF; display: inline\">Condemn</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance gained through Condemn by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30449,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Blade Sermon",
+    "description": "Increases the Weapon Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Zealotry</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the Weapon Damage dealt by Zealotry by 10%.",
+    "iconPath": "interface/icons/5_druideskill26_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 572548,
+    "spellIds": [
+      572548,
+      572554
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34339
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572548,
+        "description": "Increases the Weapon Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Zealotry</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Weapon Damage dealt by Zealotry by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 572554,
+        "description": "Increases the Weapon Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Zealotry</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Weapon Damage dealt by Zealotry by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30455,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Priest Training",
+    "description": "Triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span> now also heals you for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your missing health.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+    "descriptionText": "Triggering Zealotry now also heals you for 3% of your missing health.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.",
+    "iconPath": "interface/icons/5_priestskill07_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504561,
+    "spellIds": [
+      504561
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 504808,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504561,
+        "description": "Triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span> now also heals you for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your missing health.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+        "descriptionText": "Triggering Zealotry now also heals you for 3% of your missing health.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30438,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Light's Guidance",
+    "description": "Healing with <span style=\"color: #ffffff; display: inline\">Benediction</span> now causes your next <span style=\"color: #ffffff; display: inline\">Benediction</span> to heal for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> more for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Healing with Benediction now causes your next Benediction to heal for 25% more for 8 seconds.",
+    "iconPath": "interface/icons/nhi_holyfire_00_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524765,
+    "spellIds": [
+      524765
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 732471,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524765,
+        "description": "Healing with <span style=\"color: #ffffff; display: inline\">Benediction</span> now causes your next <span style=\"color: #ffffff; display: inline\">Benediction</span> to heal for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> more for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Healing with Benediction now causes your next Benediction to heal for 25% more for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30836,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Chakra of Light",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">-30</span> sec and <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now heal allies around the target for <span class=\"item-number\">206</span> + <span class=\"item-number\">35% SP</span>.",
+    "descriptionText": "Reduces the cooldown of Testaments by -30 sec and Oath Breakers now heal allies around the target for 206 + 35% SP.",
+    "iconPath": "interface/icons/priest_icon_chakra",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 803159,
+    "spellIds": [
+      803159,
+      803844
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34338
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803159,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">-30</span> sec and <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now heal allies around the target for <span class=\"item-number\">206</span> + <span class=\"item-number\">35% SP</span>.",
+        "descriptionText": "Reduces the cooldown of Testaments by -30 sec and Oath Breakers now heal allies around the target for 206 + 35% SP."
+      },
+      {
+        "rank": 2,
+        "spellId": 803844,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">-60</span> sec and <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now heal allies around the target for <span class=\"item-number\">206</span> + <span class=\"item-number\">35% SP</span>.",
+        "descriptionText": "Reduces the cooldown of Testaments by -60 sec and Oath Breakers now heal allies around the target for 206 + 35% SP."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30960,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Chakra of Power",
+    "description": "Melee critical strikes now restore <span class=\"item-number\">2</span> Energy.",
+    "descriptionText": "Melee critical strikes now restore 2 Energy.",
+    "iconPath": "interface/icons/priest_icon_chakra_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803158,
+    "spellIds": [
+      803158
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34338
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803158,
+        "description": "Melee critical strikes now restore <span class=\"item-number\">2</span> Energy.",
+        "descriptionText": "Melee critical strikes now restore 2 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29715,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Libram of Zeal",
+    "description": "Read from your <span style=\"color: #ffffff; display: inline\">Libram of Mortal Abdication</span>, increasing your melee haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causes your damaging abilities to reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Righteous Upheaval</span> by <span class=\"item-number\">-2</span> sec for <span class=\"item-number\">20</span> seconds.<br /><br />",
+    "descriptionText": "Read from your Libram of Mortal Abdication, increasing your melee haste by 20% and causes your damaging abilities to reduce the cooldown of Righteous Upheaval by -2 sec for 20 seconds.",
+    "iconPath": "interface/icons/_book2motif_bloodelf1",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801466,
+    "spellIds": [
+      801466
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4253,
+      31253,
+      33166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801466,
+        "description": "Read from your <span style=\"color: #ffffff; display: inline\">Libram of Mortal Abdication</span>, increasing your melee haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causes your damaging abilities to reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Righteous Upheaval</span> by <span class=\"item-number\">-2</span> sec for <span class=\"item-number\">20</span> seconds.<br /><br />",
+        "descriptionText": "Read from your Libram of Mortal Abdication, increasing your melee haste by 20% and causes your damaging abilities to reduce the cooldown of Righteous Upheaval by -2 sec for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29720,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Fury of Aggramar",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Libram of Consecration</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and the effectiveness of your <span style=\"color: #ffffff; display: inline\">Librams</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by Libram of Consecration by 100% and the effectiveness of your Librams by 25%.",
+    "iconPath": "interface/icons/achievement_boss_argus_aggramar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801480,
+    "spellIds": [
+      801480
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34335
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801480,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Libram of Consecration</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and the effectiveness of your <span style=\"color: #ffffff; display: inline\">Librams</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by Libram of Consecration by 100% and the effectiveness of your Librams by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31172,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Vindication",
+    "description": "Strike an enemy with zeal, dealing <span class=\"item-number\">34</span> + <span class=\"item-number\">28.5% AP</span> + <span class=\"item-number\">35% SP</span> Physical Damage, triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span>, and granting an <span style=\"color: #ffffff; display: inline\">Oath</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Oath:</span> Your damaging abilities have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Zealotry</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+    "descriptionText": "Strike an enemy with zeal, dealing 34 + 28.5% AP + 35% SP Physical Damage, triggering Zealotry, and granting an Oath.\n\nOath: Your damaging abilities have a 25% chance to trigger Zealotry.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.",
+    "iconPath": "interface/icons/nhi_holystrike_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801446,
+    "spellIds": [
+      801446
+    ],
+    "requiredNodeIds": [
+      4022,
+      29704
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801446,
+        "description": "Strike an enemy with zeal, dealing <span class=\"item-number\">34</span> + <span class=\"item-number\">28.5% AP</span> + <span class=\"item-number\">35% SP</span> Physical Damage, triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span>, and granting an <span style=\"color: #ffffff; display: inline\">Oath</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Oath:</span> Your damaging abilities have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Zealotry</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+        "descriptionText": "Strike an enemy with zeal, dealing 34 + 28.5% AP + 35% SP Physical Damage, triggering Zealotry, and granting an Oath.\n\nOath: Your damaging abilities have a 25% chance to trigger Zealotry.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31253,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Upheave!",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Righteous Upheaval</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Righteous Upheaval by 20%.",
+    "iconPath": "interface/icons/nhi_holyswirl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520442,
+    "spellIds": [
+      520442
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34334
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 351261,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520442,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Righteous Upheaval</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Righteous Upheaval by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31254,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Heaven's Finest",
+    "description": "Damaging abilities now grant <span style=\"color: #ffffff; display: inline\">Heaven's Finest</span> for <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">6</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_holymeditation_border\" /><span class=\"name\">Heaven&#39;s Finest</span></div><span class=\"desc\">Increases your movement speed by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />At <span class=\"item-number\">6</span> stacks, increases your Energy regeneration by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Additional applications do not refresh the duration.</span></div>",
+    "descriptionText": "Damaging abilities now grant Heaven's Finest for 12 seconds, stacking 6 times.\n\n---\n\nHeaven's FinestIncreases your movement speed by 5%.\n\nAt 6 stacks, increases your Energy regeneration by 100% for 8 seconds.\n\nAdditional applications do not refresh the duration.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holymeditation_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806516,
+    "spellIds": [
+      806516
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34346,
+      34358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806516,
+        "description": "Damaging abilities now grant <span style=\"color: #ffffff; display: inline\">Heaven's Finest</span> for <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">6</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_holymeditation_border\" /><span class=\"name\">Heaven&#39;s Finest</span></div><span class=\"desc\">Increases your movement speed by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />At <span class=\"item-number\">6</span> stacks, increases your Energy regeneration by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Additional applications do not refresh the duration.</span></div>",
+        "descriptionText": "Damaging abilities now grant Heaven's Finest for 12 seconds, stacking 6 times.\n\n---\n\nHeaven's FinestIncreases your movement speed by 5%.\n\nAt 6 stacks, increases your Energy regeneration by 100% for 8 seconds.\n\nAdditional applications do not refresh the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31255,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Blessing of Aggramar",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Righteous Lunge</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to generate an additional stack of <span style=\"color: #FFFFFF; display: inline\">Oath: Righteous Lunge</span>.",
+    "descriptionText": "Righteous Lunge now has a 25% chance to generate an additional stack of Oath: Righteous Lunge.",
+    "iconPath": "interface/icons/achievement_dungeon_ulduarraid_titan_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300502,
+    "spellIds": [
+      300502
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7757,
+      7813,
+      34335
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300502,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Righteous Lunge</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to generate an additional stack of <span style=\"color: #FFFFFF; display: inline\">Oath: Righteous Lunge</span>.",
+        "descriptionText": "Righteous Lunge now has a 25% chance to generate an additional stack of Oath: Righteous Lunge."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31256,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Transcending Strikes",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Divine Force</span> will now trigger a <span class=\"item-number\">-30</span> sec reduced cooldown when used on enemies affected by <span style=\"color: #ffffff; display: inline\">Blade of Faith</span>.",
+    "descriptionText": "Your Divine Force will now trigger a -30 sec reduced cooldown when used on enemies affected by Blade of Faith.",
+    "iconPath": "interface/icons/ability_paladin_beaconofinsight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804897,
+    "spellIds": [
+      804897
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30443,
+      34358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804897,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Divine Force</span> will now trigger a <span class=\"item-number\">-30</span> sec reduced cooldown when used on enemies affected by <span style=\"color: #ffffff; display: inline\">Blade of Faith</span>.",
+        "descriptionText": "Your Divine Force will now trigger a -30 sec reduced cooldown when used on enemies affected by Blade of Faith."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33166,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Radiance",
+    "description": "Reduces the Energy cost of <span style=\"color: #FFFFFF; display: inline\">Vindication</span> by <span class=\"item-number\">-5</span>.",
+    "descriptionText": "Reduces the Energy cost of Vindication by -5.",
+    "iconPath": "interface/icons/inv_sword_49",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706318,
+    "spellIds": [
+      706318
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6401
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706318,
+        "description": "Reduces the Energy cost of <span style=\"color: #FFFFFF; display: inline\">Vindication</span> by <span class=\"item-number\">-5</span>.",
+        "descriptionText": "Reduces the Energy cost of Vindication by -5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30066,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "One-Punch Man",
+    "description": "Increases the the damage of <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the the damage of Oath Breakers by 20%.",
+    "iconPath": "interface/icons/inv_gauntlets_25",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705284,
+    "spellIds": [
+      705284
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30960
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705284,
+        "description": "Increases the the damage of <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the the damage of Oath Breakers by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30067,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Pious Sweep",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Chastise</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">75%</span> health or affected by <span style=\"color: #ffffff; display: inline\">Tranquil Circle</span>.",
+    "descriptionText": "Increases the damage of Chastise by 25% on enemies above 75% health or affected by Tranquil Circle.",
+    "iconPath": "interface/icons/inv_sword_2h_lightforged_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520034,
+    "spellIds": [
+      520034
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5438,
+      30438,
+      34346
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520034,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Chastise</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">75%</span> health or affected by <span style=\"color: #ffffff; display: inline\">Tranquil Circle</span>.",
+        "descriptionText": "Increases the damage of Chastise by 25% on enemies above 75% health or affected by Tranquil Circle."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30070,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Devotion of Khaz'goroth",
+    "description": "Increases all party and raid member's melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />Damage dealt with auto attacks reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Libram</span> spells by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects.\n\nDamage dealt with auto attacks reduce the cooldown of Libram spells by -0.5 sec.",
+    "iconPath": "interface/icons/achievement_dungeon_ulduarraid_ironsentinel_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560096,
+    "spellIds": [
+      560096
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30443,
+      34359
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560096,
+        "description": "Increases all party and raid member's melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />Damage dealt with auto attacks reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Libram</span> spells by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects.\n\nDamage dealt with auto attacks reduce the cooldown of Libram spells by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4022,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Zealotry",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your off-hand auto attacks now trigger <span style=\"color: #FFFFFF; display: inline\">Zealotry</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+    "descriptionText": "Level 10 Passive\nYour off-hand auto attacks now trigger Zealotry.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.",
+    "iconPath": "interface/icons/custom_paladinskill_24_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92108,
+    "spellIds": [
+      92108
+    ],
+    "requiredNodeIds": [
+      29704
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92108,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your off-hand auto attacks now trigger <span style=\"color: #FFFFFF; display: inline\">Zealotry</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+        "descriptionText": "Level 10 Passive\nYour off-hand auto attacks now trigger Zealotry.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6401,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Solemn Soldier",
+    "description": "Increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases your melee haste by 5% and expertise by 5.",
+    "iconPath": "interface/icons/5_assassinskill27_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 572546,
+    "spellIds": [
+      572546,
+      572555
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29255
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572546,
+        "description": "Increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases your melee haste by 5% and expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 572555,
+        "description": "Increases your melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases your melee haste by 10% and expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4253,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Battle Hardened",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Righteous Upheaval</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Righteous Upheaval by -5 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holyarrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706309,
+    "spellIds": [
+      706309
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34334
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 351261,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706309,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Righteous Upheaval</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Righteous Upheaval by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5438,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Holy Light",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Benediction</span> now has a <span class=\"item-number\">1.5</span> sec cast time, but now heals for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> more.",
+    "descriptionText": "Your Benediction now has a 1.5 sec cast time, but now heals for 100% more.",
+    "iconPath": "interface/icons/nhi_holy_tornado_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706449,
+    "spellIds": [
+      706449
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 732471,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706449,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Benediction</span> now has a <span class=\"item-number\">1.5</span> sec cast time, but now heals for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> more.",
+        "descriptionText": "Your Benediction now has a 1.5 sec cast time, but now heals for 100% more."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7757,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "One With The Light",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now triggers <span style=\"color: #ffffff; display: inline\">Zealotry</span> on your target and reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Librams</span>, <span style=\"color: #ffffff; display: inline\">Force of Golganneth</span>, and <span style=\"color: #ffffff; display: inline\">Mortal Abdication</span> by <span class=\"item-number\">-1</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+    "descriptionText": "Casting Oath Breakers now triggers Zealotry on your target and reduces the cooldown of Librams, Force of Golganneth, and Mortal Abdication by -1 sec.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.",
+    "iconPath": "interface/icons/custom_paladinskill_01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504807,
+    "spellIds": [
+      504807
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30067,
+      31254
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504807,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now triggers <span style=\"color: #ffffff; display: inline\">Zealotry</span> on your target and reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Librams</span>, <span style=\"color: #ffffff; display: inline\">Force of Golganneth</span>, and <span style=\"color: #ffffff; display: inline\">Mortal Abdication</span> by <span class=\"item-number\">-1</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+        "descriptionText": "Casting Oath Breakers now triggers Zealotry on your target and reduces the cooldown of Librams, Force of Golganneth, and Mortal Abdication by -1 sec.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7813,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Might of Aggramar",
+    "description": "Physical Damage dealt now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase the tick rate and reduce cooldown of your next <span style=\"color: #ffffff; display: inline\">Blade of Faith</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Physical Damage dealt now has a 25% chance to increase the tick rate and reduce cooldown of your next Blade of Faith by -10%, stacking 5 times.",
+    "iconPath": "interface/icons/spell_holy_innerfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803163,
+    "spellIds": [
+      803163
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30070,
+      31254,
+      31256
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803163,
+        "description": "Physical Damage dealt now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase the tick rate and reduce cooldown of your next <span style=\"color: #ffffff; display: inline\">Blade of Faith</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Physical Damage dealt now has a 25% chance to increase the tick rate and reduce cooldown of your next Blade of Faith by -10%, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29255,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Righteous Upheaval",
+    "description": "Unleash a dominating <span style=\"color: #FFFFFF; display: inline\">Oath Breaker</span>, dealing <span class=\"item-number\">61</span> + <span class=\"item-number\">45% AP</span> + <span class=\"item-number\">45% SP</span> Physical Damage, increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for each time you triggered <span style=\"color: #ffffff; display: inline\">Zealotry</span> during your <span style=\"color: #ffffff; display: inline\">Oath Chain</span>.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+    "descriptionText": "Unleash a dominating Oath Breaker, dealing 61 + 45% AP + 45% SP Physical Damage, increased by 3% for each time you triggered Zealotry during your Oath Chain.\n\nConsumes your Oaths, dealing additional damage for each consumed.",
+    "iconPath": "interface/icons/_monkability_uplift_yellow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 501562,
+    "spellIds": [
+      501562
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31172
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 501562,
+        "description": "Unleash a dominating <span style=\"color: #FFFFFF; display: inline\">Oath Breaker</span>, dealing <span class=\"item-number\">61</span> + <span class=\"item-number\">45% AP</span> + <span class=\"item-number\">45% SP</span> Physical Damage, increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for each time you triggered <span style=\"color: #ffffff; display: inline\">Zealotry</span> during your <span style=\"color: #ffffff; display: inline\">Oath Chain</span>.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+        "descriptionText": "Unleash a dominating Oath Breaker, dealing 61 + 45% AP + 45% SP Physical Damage, increased by 3% for each time you triggered Zealotry during your Oath Chain.\n\nConsumes your Oaths, dealing additional damage for each consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9289,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Holy Upheaval",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases the effectiveness <span style=\"color: #FFFFFF; display: inline\">Righteous Upheaval</span> gains per trigger of <span style=\"color: #FFFFFF; display: inline\">Zealotry</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 30 Passive\nIncreases the effectiveness Righteous Upheaval gains per trigger of Zealotry by 100%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holyhand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 572547,
+    "spellIds": [
+      572547
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11288
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572547,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases the effectiveness <span style=\"color: #FFFFFF; display: inline\">Righteous Upheaval</span> gains per trigger of <span style=\"color: #FFFFFF; display: inline\">Zealotry</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 30 Passive\nIncreases the effectiveness Righteous Upheaval gains per trigger of Zealotry by 100%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9290,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Divine Fury",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Every 3rd <span style=\"color: #FFFFFF; display: inline\">Oath Breaker</span> transforms your <span style=\"color: #FFFFFF; display: inline\">Chastise</span> into <span style=\"color: #FFFFFF; display: inline\">Divine Fury</span>. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_hammeroflight_border\" /><span class=\"name\">Divine Fury</span></div><span class=\"desc\">Unleash divine fury, dealing <span class=\"item-number\">204</span> + <span class=\"item-number\">45% holy SP</span> + <span class=\"item-number\">25% AP</span> Holy Damage to an enemy and up to <span class=\"item-number\">4</span> nearby enemies and reduces their armor by <span class=\"item-number\">655</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Level 40 Passive\nEvery 3rd Oath Breaker transforms your Chastise into Divine Fury. \n\n---\n\nDivine FuryUnleash divine fury, dealing 204 + 45% holy SP + 25% AP Holy Damage to an enemy and up to 4 nearby enemies and reduces their armor by 655 for 10 seconds.",
+    "iconPath": "interface/icons/nhi_hammeroflight_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 504107,
+    "spellIds": [
+      504107
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9289
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504107,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Every 3rd <span style=\"color: #FFFFFF; display: inline\">Oath Breaker</span> transforms your <span style=\"color: #FFFFFF; display: inline\">Chastise</span> into <span style=\"color: #FFFFFF; display: inline\">Divine Fury</span>. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_hammeroflight_border\" /><span class=\"name\">Divine Fury</span></div><span class=\"desc\">Unleash divine fury, dealing <span class=\"item-number\">204</span> + <span class=\"item-number\">45% holy SP</span> + <span class=\"item-number\">25% AP</span> Holy Damage to an enemy and up to <span class=\"item-number\">4</span> nearby enemies and reduces their armor by <span class=\"item-number\">655</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Level 40 Passive\nEvery 3rd Oath Breaker transforms your Chastise into Divine Fury. \n\n---\n\nDivine FuryUnleash divine fury, dealing 204 + 45% holy SP + 25% AP Holy Damage to an enemy and up to 4 nearby enemies and reduces their armor by 655 for 10 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9757,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Norgannon's Wrath",
+    "description": "Target an enemy and leap into the air. After a short delay, you blast them with immense holy force, dealing <span class=\"item-number\">1506</span> + <span class=\"item-number\">100% holy SP</span> + <span class=\"item-number\">100% AP</span> Holy Damage to up to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">5</span> yds and reduces their damage and healing done by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.<br /><br />Damage dealt pierces all immunities, resistances, and damage absorption effects.<br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Chastise</span>.",
+    "descriptionText": "Target an enemy and leap into the air. After a short delay, you blast them with immense holy force, dealing 1506 + 100% holy SP + 100% AP Holy Damage to up to 10 enemies within 5 yds and reduces their damage and healing done by -10% for 5 seconds.\n\nDamage dealt pierces all immunities, resistances, and damage absorption effects.\n\nScales with modifiers to Chastise.",
+    "iconPath": "interface/icons/nhi_holywhirlpool_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524739,
+    "spellIds": [
+      524739
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7757
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524739,
+        "description": "Target an enemy and leap into the air. After a short delay, you blast them with immense holy force, dealing <span class=\"item-number\">1506</span> + <span class=\"item-number\">100% holy SP</span> + <span class=\"item-number\">100% AP</span> Holy Damage to up to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">5</span> yds and reduces their damage and healing done by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.<br /><br />Damage dealt pierces all immunities, resistances, and damage absorption effects.<br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Chastise</span>.",
+        "descriptionText": "Target an enemy and leap into the air. After a short delay, you blast them with immense holy force, dealing 1506 + 100% holy SP + 100% AP Holy Damage to up to 10 enemies within 5 yds and reduces their damage and healing done by -10% for 5 seconds.\n\nDamage dealt pierces all immunities, resistances, and damage absorption effects.\n\nScales with modifiers to Chastise."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11288,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Calm Combatant",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Holy spell damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your attack power.",
+    "descriptionText": "Level 20 Passive\nIncreases your Holy spell damage by 30% of your attack power.",
+    "iconPath": "interface/icons/spell_holy_auramastery",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705281,
+    "spellIds": [
+      705281
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4022
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705281,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Holy spell damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your attack power.",
+        "descriptionText": "Level 20 Passive\nIncreases your Holy spell damage by 30% of your attack power."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11290,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Unbroken Creed",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Damaging abilities now grants you <span style=\"color: #ffffff; display: inline\">Unbroken Creed</span> for <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">3</span> times.<br /><br />When you use a damaging <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> or <span style=\"color: #ffffff; display: inline\">Divine Fury</span> you now consume the stacks and auto attack your target an amount of times equal to your stack count.",
+    "descriptionText": "Level 50 Passive\nDamaging abilities now grants you Unbroken Creed for 15 seconds, stacking up to 3 times.\n\nWhen you use a damaging Oath Breaker or Divine Fury you now consume the stacks and auto attack your target an amount of times equal to your stack count.",
+    "iconPath": "interface/icons/nhi_lightportal_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804932,
+    "spellIds": [
+      804932
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9290
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804932,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Damaging abilities now grants you <span style=\"color: #ffffff; display: inline\">Unbroken Creed</span> for <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">3</span> times.<br /><br />When you use a damaging <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> or <span style=\"color: #ffffff; display: inline\">Divine Fury</span> you now consume the stacks and auto attack your target an amount of times equal to your stack count.",
+        "descriptionText": "Level 50 Passive\nDamaging abilities now grants you Unbroken Creed for 15 seconds, stacking up to 3 times.\n\nWhen you use a damaging Oath Breaker or Divine Fury you now consume the stacks and auto attack your target an amount of times equal to your stack count."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11384,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Fervent Castigation",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Righteous Upheaval</span> or <span style=\"color: #ffffff; display: inline\">Blade of Faith</span> now grants you <span style=\"color: #ffffff; display: inline\">Oath: Retribution</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_artofwar\" /><span class=\"name\">Oath: Retribution</span></div><span class=\"desc\">Critical damage increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Casting Righteous Upheaval or Blade of Faith now grants you Oath: Retribution.\n\n---\n\nOath: RetributionCritical damage increased by 20%.",
+    "iconPath": "interface/icons/spell_holy_auraoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707606,
+    "spellIds": [
+      707606
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30836,
+      34359
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707606,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707606,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Righteous Upheaval</span> or <span style=\"color: #ffffff; display: inline\">Blade of Faith</span> now grants you <span style=\"color: #ffffff; display: inline\">Oath: Retribution</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_artofwar\" /><span class=\"name\">Oath: Retribution</span></div><span class=\"desc\">Critical damage increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Casting Righteous Upheaval or Blade of Faith now grants you Oath: Retribution.\n\n---\n\nOath: RetributionCritical damage increased by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11455,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 50,
+    "tabKey": "19:50",
+    "tabName": "Zealot",
+    "name": "Paladin Training",
+    "description": "Triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span> now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to grant you an additional auto attack on your next strike.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+    "descriptionText": "Triggering Zealotry now has an 8% chance to grant you an additional auto attack on your next strike.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage.",
+    "iconPath": "interface/icons/custom_paladinskill_24_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504808,
+    "spellIds": [
+      504808
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 504808,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504808,
+        "description": "Triggering <span style=\"color: #ffffff; display: inline\">Zealotry</span> now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to grant you an additional auto attack on your next strike.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_paladinskill_24_border\" /><span class=\"name\">Zealotry (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">30</span><span class=\"item-number\">%</span> off-hand Weapon Damage as Holy Damage.</span></div>",
+        "descriptionText": "Triggering Zealotry now has an 8% chance to grant you an additional auto attack on your next strike.\n\n---\n\nZealotry (Proc)Deals 30% off-hand Weapon Damage as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

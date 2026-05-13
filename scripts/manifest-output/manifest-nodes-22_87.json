@@ -1,0 +1,1711 @@
+[
+  {
+    "nodeId": 30855,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Waves of Time",
+    "description": "Blast enemies in a <span class=\"item-number\">10</span> yd frontal cone with time fractals, knocking them back slightly.<br /><br />The knockback repeats <span class=\"item-number\">1</span> additional time after <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Blast enemies in a 10 yd frontal cone with time fractals, knocking them back slightly.\n\nThe knockback repeats 1 additional time after 2 sec.",
+    "iconPath": "interface/icons/5_healingwave_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801277,
+    "spellIds": [
+      801277
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801277,
+        "description": "Blast enemies in a <span class=\"item-number\">10</span> yd frontal cone with time fractals, knocking them back slightly.<br /><br />The knockback repeats <span class=\"item-number\">1</span> additional time after <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Blast enemies in a 10 yd frontal cone with time fractals, knocking them back slightly.\n\nThe knockback repeats 1 additional time after 2 sec."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30249,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Clasp of Infinity",
+    "description": "Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for 4 seconds.",
+    "iconPath": "interface/icons/handbeamblackhand",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805847,
+    "spellIds": [
+      805847
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805847,
+        "description": "Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Conjure a magical binding upon an enemy that bounces to nearby enemies, rooting them in place for 4 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30251,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Temporal Dissonance",
+    "description": "<span style=\"color: #ffffff; display: inline\">Chronostasis</span> now slows your target's movement speed by an additional <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Chronostasis now slows your target's movement speed by an additional -10%.",
+    "iconPath": "interface/icons/spell_shadow_manaburn",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520922,
+    "spellIds": [
+      520922
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30855
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520922,
+        "description": "<span style=\"color: #ffffff; display: inline\">Chronostasis</span> now slows your target's movement speed by an additional <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Chronostasis now slows your target's movement speed by an additional -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30257,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Gravity Bomb",
+    "description": "Place a gravity bomb on the target. After <span class=\"item-number\">6</span> seconds they explode for <span class=\"item-number\">979</span> + <span class=\"item-number\">120% SP</span> + <span class=\"item-number\">30% ranged AP</span> Chromatic Damage in a <span class=\"item-number\">10</span> yds radius.<br /><br />Directly before the explosion occurs, all enemies within <span class=\"item-number\">15</span> yds are teleported to the initial target.",
+    "descriptionText": "Place a gravity bomb on the target. After 6 seconds they explode for 979 + 120% SP + 30% ranged AP Chromatic Damage in a 10 yds radius.\n\nDirectly before the explosion occurs, all enemies within 15 yds are teleported to the initial target.",
+    "iconPath": "interface/icons/skill_icon_skill42_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801281,
+    "spellIds": [
+      801281
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9547,
+      30267,
+      31335
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801281,
+        "description": "Place a gravity bomb on the target. After <span class=\"item-number\">6</span> seconds they explode for <span class=\"item-number\">979</span> + <span class=\"item-number\">120% SP</span> + <span class=\"item-number\">30% ranged AP</span> Chromatic Damage in a <span class=\"item-number\">10</span> yds radius.<br /><br />Directly before the explosion occurs, all enemies within <span class=\"item-number\">15</span> yds are teleported to the initial target.",
+        "descriptionText": "Place a gravity bomb on the target. After 6 seconds they explode for 979 + 120% SP + 30% ranged AP Chromatic Damage in a 10 yds radius.\n\nDirectly before the explosion occurs, all enemies within 15 yds are teleported to the initial target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30260,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Temporal Anomaly",
+    "description": "Augment reality for <span class=\"item-number\">10</span> seconds, causing <span class=\"item-number\">50%</span> of the damage taken to be absorbed and converted into healing at the end of the duration.",
+    "descriptionText": "Augment reality for 10 seconds, causing 50% of the damage taken to be absorbed and converted into healing at the end of the duration.",
+    "iconPath": "interface/icons/novart_magicspell_(39)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806315,
+    "spellIds": [
+      806315
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6228
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806315,
+        "description": "Augment reality for <span class=\"item-number\">10</span> seconds, causing <span class=\"item-number\">50%</span> of the damage taken to be absorbed and converted into healing at the end of the duration.",
+        "descriptionText": "Augment reality for 10 seconds, causing 50% of the damage taken to be absorbed and converted into healing at the end of the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30267,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Tripping the Rift",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Clasp of Infinity</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Backtrack</span> by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Casting Clasp of Infinity now reduces the cooldown of Backtrack by -10 sec.",
+    "iconPath": "interface/icons/spell_holy_dizzy",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520173,
+    "spellIds": [
+      520173
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6214
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 572527,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520173,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Clasp of Infinity</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Backtrack</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Casting Clasp of Infinity now reduces the cooldown of Backtrack by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30269,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Timeguard",
+    "description": "Place a magical guard on an ally for <span class=\"item-number\">2</span> minutes, causing the next <span class=\"item-number\">3</span> instances of direct damage that would reduce the target below <span class=\"item-number\">35%</span> health to deal <span class=\"item-number\">40</span><span class=\"item-number\">%</span> less damage.",
+    "descriptionText": "Place a magical guard on an ally for 2 minutes, causing the next 3 instances of direct damage that would reduce the target below 35% health to deal 40% less damage.",
+    "iconPath": "interface/icons/inv_belt_armor_waistoftime_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804441,
+    "spellIds": [
+      804441
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6226,
+      30251
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804441,
+        "description": "Place a magical guard on an ally for <span class=\"item-number\">2</span> minutes, causing the next <span class=\"item-number\">3</span> instances of direct damage that would reduce the target below <span class=\"item-number\">35%</span> health to deal <span class=\"item-number\">40</span><span class=\"item-number\">%</span> less damage.",
+        "descriptionText": "Place a magical guard on an ally for 2 minutes, causing the next 3 instances of direct damage that would reduce the target below 35% health to deal 40% less damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30276,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Constant Recovery",
+    "description": "Healing done by <span style=\"color: #FFFFFF; display: inline\">Reverse Wound</span> now increases all healing taken the target receives by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Healing done by Reverse Wound now increases all healing taken the target receives by 6% for 10 seconds.",
+    "iconPath": "interface/icons/spell_holy_purify",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 555729,
+    "spellIds": [
+      555729
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30260
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 555729,
+        "description": "Healing done by <span style=\"color: #FFFFFF; display: inline\">Reverse Wound</span> now increases all healing taken the target receives by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Healing done by Reverse Wound now increases all healing taken the target receives by 6% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30277,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Accelerated Recovery",
+    "description": "Accelerates the bodies natural healing process, healing the target for <span class=\"item-number\">65000</span> + <span class=\"item-number\">115000% healing</span> over <span class=\"item-number\">15</span> seconds.<br /><br />",
+    "descriptionText": "Accelerates the bodies natural healing process, healing the target for 65000 + 115000% healing over 15 seconds.",
+    "iconPath": "interface/icons/spell_holy_healingfocus",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800857,
+    "spellIds": [
+      800857
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800857,
+        "description": "Accelerates the bodies natural healing process, healing the target for <span class=\"item-number\">65000</span> + <span class=\"item-number\">115000% healing</span> over <span class=\"item-number\">15</span> seconds.<br /><br />",
+        "descriptionText": "Accelerates the bodies natural healing process, healing the target for 65000 + 115000% healing over 15 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30280,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Unearthed Pools",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Unmake</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and reduces the mana cost of your instant spells by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Unmake by -15% and reduces the mana cost of your instant spells by 10%.",
+    "iconPath": "interface/icons/novart_magicspell_(48)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 574309,
+    "spellIds": [
+      574309
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574309,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Unmake</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and reduces the mana cost of your instant spells by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Unmake by -15% and reduces the mana cost of your instant spells by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 32547,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Infinite Sands",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Infinite Clone</span> by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of Infinite Clone by -60 sec.",
+    "iconPath": "interface/icons/ability_priest_voidshift",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500115,
+    "spellIds": [
+      500115
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6162
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500115,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Infinite Clone</span> by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of Infinite Clone by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31335,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Life Cycles",
+    "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Babify</span> by <span class=\"item-number\">0.25</span> sec and its mana cost by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of your Babify by 0.25 sec and its mana cost by -15%.",
+    "iconPath": "interface/icons/inv_pet_babymurlocs_white",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680808,
+    "spellIds": [
+      680808
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6215,
+      12215
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680808,
+        "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Babify</span> by <span class=\"item-number\">0.25</span> sec and its mana cost by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of your Babify by 0.25 sec and its mana cost by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29684,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Dimensional Divergence",
+    "description": "Swap places with a target.<br /><br />If they're an enemy, you steal <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> of their movement speed for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Swap places with a target.\n\nIf they're an enemy, you steal -80% of their movement speed for 3 seconds.",
+    "iconPath": "interface/icons/ability_dragonriding_bronzerewind01",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802790,
+    "spellIds": [
+      802790
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6194
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802790,
+        "description": "Swap places with a target.<br /><br />If they're an enemy, you steal <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> of their movement speed for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Swap places with a target.\n\nIf they're an enemy, you steal -80% of their movement speed for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6162,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Rippling Power",
+    "description": "Increases your Spirit by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Spirit by 8%.",
+    "iconPath": "interface/icons/ability_bossmagistrix_timewarp1",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 806300,
+    "spellIds": [
+      806300,
+      807893
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6228,
+      7917,
+      30269
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806300,
+        "description": "Increases your Spirit by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807893,
+        "description": "Increases your Spirit by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6194,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "The Bieko Effect",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Hasten</span> is active the cooldowns of <span style=\"color: #ffffff; display: inline\">Dimensional Divergence</span>, <span style=\"color: #ffffff; display: inline\">Temporal Anomaly</span>, and <span style=\"color: #ffffff; display: inline\">Temporal Focus</span> are reduced by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> every <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "While Hasten is active the cooldowns of Dimensional Divergence, Temporal Anomaly, and Temporal Focus are reduced by 10% every 2 sec.",
+    "iconPath": "interface/icons/inv_60pvp_trinket3b",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706099,
+    "spellIds": [
+      706099
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9547,
+      30267
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706099,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Hasten</span> is active the cooldowns of <span style=\"color: #ffffff; display: inline\">Dimensional Divergence</span>, <span style=\"color: #ffffff; display: inline\">Temporal Anomaly</span>, and <span style=\"color: #ffffff; display: inline\">Temporal Focus</span> are reduced by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> every <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "While Hasten is active the cooldowns of Dimensional Divergence, Temporal Anomaly, and Temporal Focus are reduced by 10% every 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6195,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Charm of Power",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Gravity Bomb</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by Gravity Bomb by 50%.",
+    "iconPath": "interface/icons/inv_inscription_trinket_healer",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706100,
+    "spellIds": [
+      706100
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30257
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706100,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Gravity Bomb</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by Gravity Bomb by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6199,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Entropy Reversal",
+    "description": "Reduces the duration of disease effects by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of disease effects by -40%.",
+    "iconPath": "interface/icons/spell_shadow_spectralsight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520780,
+    "spellIds": [
+      520780
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5122,
+      11122
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520780,
+        "description": "Reduces the duration of disease effects by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of disease effects by -40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6213,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Expediting Time",
+    "description": "Reduces the channel time of your <span style=\"color: #ffffff; display: inline\">Time Out!</span> by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the channel time of your Time Out! by -40%.",
+    "iconPath": "interface/icons/spell_holy_ashestoashes",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706055,
+    "spellIds": [
+      706055
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6696
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706055,
+        "description": "Reduces the channel time of your <span style=\"color: #ffffff; display: inline\">Time Out!</span> by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the channel time of your Time Out! by -40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6214,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Ahead of the Game",
+    "description": "Every 10th instance of your damage dealt or healing now gives you <span class=\"item-number\">70</span> increased spell power for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Every 10th instance of your damage dealt or healing now gives you 70 increased spell power for 10 seconds.",
+    "iconPath": "interface/icons/achievement_bg_win_av_x_times",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560948,
+    "spellIds": [
+      560948
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6698,
+      7226,
+      9198
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560948,
+        "description": "Every 10th instance of your damage dealt or healing now gives you <span class=\"item-number\">70</span> increased spell power for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Every 10th instance of your damage dealt or healing now gives you 70 increased spell power for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6215,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Timekeeper",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Timeguard</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Timeguard by 25%.",
+    "iconPath": "interface/icons/inv_eng_unstabletemporaltimeshifter",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680845,
+    "spellIds": [
+      680845
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6213,
+      7226
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 520854,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680845,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Timeguard</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Timeguard by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6221,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Mass Babify",
+    "description": "Instantly transform all enemies within <span class=\"item-number\">10</span> yds into a baby, preventing them from acting for <span class=\"item-number\">40</span> seconds, damage dealt will interrupt this effect. <br /><br />While babified, enemies will rapidly regenerate health. <br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Babify</span>.",
+    "descriptionText": "Instantly transform all enemies within 10 yds into a baby, preventing them from acting for 40 seconds, damage dealt will interrupt this effect. \n\nWhile babified, enemies will rapidly regenerate health. \n\nScales with modifiers to Babify.",
+    "iconPath": "interface/icons/massbabify",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520855,
+    "spellIds": [
+      520855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7915
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520855,
+        "description": "Instantly transform all enemies within <span class=\"item-number\">10</span> yds into a baby, preventing them from acting for <span class=\"item-number\">40</span> seconds, damage dealt will interrupt this effect. <br /><br />While babified, enemies will rapidly regenerate health. <br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Babify</span>.",
+        "descriptionText": "Instantly transform all enemies within 10 yds into a baby, preventing them from acting for 40 seconds, damage dealt will interrupt this effect. \n\nWhile babified, enemies will rapidly regenerate health. \n\nScales with modifiers to Babify."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6223,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Chaos Omen",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Gravity Bomb</span> by <span class=\"item-number\">-30</span> sec, and its explosion occurs <span class=\"item-number\">-3</span> sec faster.",
+    "descriptionText": "Reduces the cooldown of your Gravity Bomb by -30 sec, and its explosion occurs -3 sec faster.",
+    "iconPath": "interface/icons/inv_misc_starmetal",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706063,
+    "spellIds": [
+      706063
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30257
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706063,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Gravity Bomb</span> by <span class=\"item-number\">-30</span> sec, and its explosion occurs <span class=\"item-number\">-3</span> sec faster.",
+        "descriptionText": "Reduces the cooldown of your Gravity Bomb by -30 sec, and its explosion occurs -3 sec faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6226,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Perfect Timing",
+    "description": "Increases your haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your haste by 4% and reduces your spell pushback suffered from damaging attacks by 35%.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_bronze",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520164,
+    "spellIds": [
+      520164,
+      520874
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30249,
+      30855
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520164,
+        "description": "Increases your haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 4% and reduces your spell pushback suffered from damaging attacks by 35%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520874,
+        "description": "Increases your haste by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 8% and reduces your spell pushback suffered from damaging attacks by 70%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6228,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Fortify Timeline",
+    "description": "Fortify the current timeline, instantly healing all allies for <span class=\"item-number\">261</span> + <span class=\"item-number\">40% SP</span> and extending the duration of <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span> on them by <span class=\"item-number\">5.33</span> sec.",
+    "descriptionText": "Fortify the current timeline, instantly healing all allies for 261 + 40% SP and extending the duration of Accelerated Recovery on them by 5.33 sec.",
+    "iconPath": "interface/icons/achievement_guildperk_workingovertime_rank2",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804491,
+    "spellIds": [
+      804491
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6697,
+      7911
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804491,
+        "description": "Fortify the current timeline, instantly healing all allies for <span class=\"item-number\">261</span> + <span class=\"item-number\">40% SP</span> and extending the duration of <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span> on them by <span class=\"item-number\">5.33</span> sec.",
+        "descriptionText": "Fortify the current timeline, instantly healing all allies for 261 + 40% SP and extending the duration of Accelerated Recovery on them by 5.33 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7198,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Eternal",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span> by <span class=\"item-number\">6</span> sec and <span style=\"color: #ffffff; display: inline\">Decomposition</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of your Accelerated Recovery by 6 sec and Decomposition by 3 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_arcanevision_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706777,
+    "spellIds": [
+      706777
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6162
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706777,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span> by <span class=\"item-number\">6</span> sec and <span style=\"color: #ffffff; display: inline\">Decomposition</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of your Accelerated Recovery by 6 sec and Decomposition by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7226,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Entropy Overload",
+    "description": "Increases your chance to resist movement slowing effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to resist movement slowing effects by 20%.",
+    "iconPath": "interface/icons/novart_magicspell_(39)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706084,
+    "spellIds": [
+      706084
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6696
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706084,
+        "description": "Increases your chance to resist movement slowing effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to resist movement slowing effects by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6696,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Desynchronization",
+    "description": "Shift an enemy out of sync with the present, causing their grip to fail, disarming their melee and ranged weapons for <span class=\"item-number\">6</span> seconds.<br /><br />Upon removal, they are resynced, preventing them from regenerating their health for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Shift an enemy out of sync with the present, causing their grip to fail, disarming their melee and ranged weapons for 6 seconds.\n\nUpon removal, they are resynced, preventing them from regenerating their health for 6 seconds.",
+    "iconPath": "interface/icons/novart_magicspell_(11)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561310,
+    "spellIds": [
+      561310
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30269
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561310,
+        "description": "Shift an enemy out of sync with the present, causing their grip to fail, disarming their melee and ranged weapons for <span class=\"item-number\">6</span> seconds.<br /><br />Upon removal, they are resynced, preventing them from regenerating their health for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Shift an enemy out of sync with the present, causing their grip to fail, disarming their melee and ranged weapons for 6 seconds.\n\nUpon removal, they are resynced, preventing them from regenerating their health for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6697,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Improved Reverse Wound",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Reverse Wound</span> by <span class=\"item-number\">-0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Reverse Wound by -0.3 sec.",
+    "iconPath": "interface/icons/spell_holy_blessedrecovery",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706053,
+    "spellIds": [
+      706053
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30277
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706053,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Reverse Wound</span> by <span class=\"item-number\">-0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Reverse Wound by -0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6698,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Temporal Focus",
+    "description": "You lock yourself into a perfect moment, removing and becoming immune to banish, silence, and interrupt effects for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "You lock yourself into a perfect moment, removing and becoming immune to banish, silence, and interrupt effects for 10 seconds.",
+    "iconPath": "interface/icons/_d3serenity",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806165,
+    "spellIds": [
+      806165
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7198,
+      32547
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806165,
+        "description": "You lock yourself into a perfect moment, removing and becoming immune to banish, silence, and interrupt effects for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "You lock yourself into a perfect moment, removing and becoming immune to banish, silence, and interrupt effects for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5122,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Unmaker of Realities",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Hasten</span> is active the ally now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance when they deal damage to strike the target an additional time equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "While Hasten is active the ally now has a 25% chance when they deal damage to strike the target an additional time equal to 30% of the damage dealt.",
+    "iconPath": "interface/icons/achievement_dungeon_arakkoaspires",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706107,
+    "spellIds": [
+      706107
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9198,
+      30276
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707656,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706107,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Hasten</span> is active the ally now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance when they deal damage to strike the target an additional time equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "While Hasten is active the ally now has a 25% chance when they deal damage to strike the target an additional time equal to 30% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9198,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Mind Over Matter",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Wisdom</span> spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Wisdom spells by 20%.",
+    "iconPath": "interface/icons/ability_hibernation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520923,
+    "spellIds": [
+      520923
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30260
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520923,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Wisdom</span> spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Wisdom spells by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9547,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Timewalking",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Time Lock</span> and <span style=\"color: #ffffff; display: inline\">Waves of Time</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Time Lock and Waves of Time by -4 sec.",
+    "iconPath": "interface/icons/spell_holy_divineprovidence",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572527,
+    "spellIds": [
+      572527
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6214
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 572527,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572527,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Time Lock</span> and <span style=\"color: #ffffff; display: inline\">Waves of Time</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Time Lock and Waves of Time by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7911,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Luck",
+    "description": "Allows <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of your mana regeneration to continue while casting.",
+    "descriptionText": "Allows 40% of your mana regeneration to continue while casting.",
+    "iconPath": "interface/icons/racial_dwarf_findtreasure",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706085,
+    "spellIds": [
+      706085,
+      707828
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30249,
+      30277
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706085,
+        "description": "Allows <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of your mana regeneration to continue while casting.",
+        "descriptionText": "Allows 40% of your mana regeneration to continue while casting."
+      },
+      {
+        "rank": 2,
+        "spellId": 707828,
+        "description": "Allows <span class=\"item-number\">80</span><span class=\"item-number\">%</span> of your mana regeneration to continue while casting.",
+        "descriptionText": "Allows 80% of your mana regeneration to continue while casting."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7915,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Infinite Shield",
+    "description": "Shield an ally with <span class=\"item-number\">10</span> charges of <span style=\"color: #FFFFFF; display: inline\">Infinite Shield</span> for <span class=\"item-number\">30</span> seconds. Each time they take damage, they will be healed for <span class=\"item-number\">190</span> + <span class=\"item-number\">25% SP</span> and lose <span class=\"item-number\">1</span> charge.<br /><br />Can only occur once per sec and can only affect <span class=\"item-number\">1</span> target at a time.",
+    "descriptionText": "Shield an ally with 10 charges of Infinite Shield for 30 seconds. Each time they take damage, they will be healed for 190 + 25% SP and lose 1 charge.\n\nCan only occur once per sec and can only affect 1 target at a time.",
+    "iconPath": "interface/icons/sha_spell_fire_felfireward",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520457,
+    "spellIds": [
+      520457
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6199,
+      9547,
+      30267
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520457,
+        "description": "Shield an ally with <span class=\"item-number\">10</span> charges of <span style=\"color: #FFFFFF; display: inline\">Infinite Shield</span> for <span class=\"item-number\">30</span> seconds. Each time they take damage, they will be healed for <span class=\"item-number\">190</span> + <span class=\"item-number\">25% SP</span> and lose <span class=\"item-number\">1</span> charge.<br /><br />Can only occur once per sec and can only affect <span class=\"item-number\">1</span> target at a time.",
+        "descriptionText": "Shield an ally with 10 charges of Infinite Shield for 30 seconds. Each time they take damage, they will be healed for 190 + 25% SP and lose 1 charge.\n\nCan only occur once per sec and can only affect 1 target at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7916,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Infinity",
+    "description": "Removes the cooldown of <span style=\"color: #ffffff; display: inline\">Infinite Shield</span>.",
+    "descriptionText": "Removes the cooldown of Infinite Shield.",
+    "iconPath": "interface/icons/achievement_zone_thousandneedles_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706128,
+    "spellIds": [
+      706128
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7915
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706128,
+        "description": "Removes the cooldown of <span style=\"color: #ffffff; display: inline\">Infinite Shield</span>.",
+        "descriptionText": "Removes the cooldown of Infinite Shield."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7917,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Impeccable Timing",
+    "description": "Your periodic damage and healing effects can now critically strike.",
+    "descriptionText": "Your periodic damage and healing effects can now critically strike.",
+    "iconPath": "interface/icons/spell_holy_dispelmagic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560949,
+    "spellIds": [
+      560949
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6226,
+      7911,
+      30280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560949,
+        "description": "Your periodic damage and healing effects can now critically strike.",
+        "descriptionText": "Your periodic damage and healing effects can now critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11122,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Maker of Realities",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Hasten</span> now also always reduces the cast time of your healing spells by an additional <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Casting Hasten now also always reduces the cast time of your healing spells by an additional -20%.",
+    "iconPath": "interface/icons/ability_racial_haymaker",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707656,
+    "spellIds": [
+      707656
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9198,
+      30276
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707656,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707656,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Hasten</span> now also always reduces the cast time of your healing spells by an additional <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Casting Hasten now also always reduces the cast time of your healing spells by an additional -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12215,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 87,
+    "tabKey": "22:87",
+    "tabName": "Class",
+    "name": "Procrastination",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Timeguard</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Timeguard by -30 sec.",
+    "iconPath": "interface/icons/inv_ascend_brain_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520854,
+    "spellIds": [
+      520854
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6213,
+      7226
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 520854,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520854,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Timeguard</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Timeguard by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

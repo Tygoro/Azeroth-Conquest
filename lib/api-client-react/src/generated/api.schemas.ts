@@ -20,6 +20,10 @@ export interface ClassMeta {
 export interface TalentNodePosition {
   x: number;
   y: number;
+  /** 1-based lattice row from the addon export (canonicalRow). */
+  gridRow?: number;
+  /** 1-based lattice column from the addon export (canonicalCol). */
+  gridColumn?: number;
 }
 
 export type TalentNodeType =
@@ -54,6 +58,33 @@ export interface TalentNode {
   type: TalentNodeType;
   /** Two options for choice nodes (type='choice'). Always exactly 2 entries when present. */
   options?: ChoiceOption[];
+  /**
+   * When true, this node is automatically granted (e.g. a level milestone passive).
+   * It must not consume talent points and should be rendered as always-active.
+   */
+  autoGranted?: boolean;
+  /**
+   * Spec-point threshold at which an autoGranted node unlocks.
+   * When present, the node is locked until this many spec-tree points have been spent.
+   * Mirrors the sidebar track's `unlockPointsRequired` but lives in the tree itself.
+   */
+  unlockAt?: number;
+  /**
+   * Extended description shown when the player holds Shift over the tooltip.
+   * May contain WoW |c markup or HTML. Empty string = scaffold placeholder mode.
+   */
+  expandedDescription?: string;
+  /**
+   * Minimum character level required to allocate this node (from official manifest requiredLevel field).
+   * 0 or undefined = no level requirement.
+   */
+  requiredLevel?: number;
+  /**
+   * Minimum points spent in this tree tab required to access this node's row.
+   * Derived from reqTabAE (class tree) or reqTabTE (spec tree) in the official manifest.
+   * 0 or undefined = no points gate.
+   */
+  reqTabPoints?: number;
 }
 
 /**

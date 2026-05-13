@@ -1,0 +1,1630 @@
+[
+  {
+    "nodeId": 29813,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Nanobot Reconstruction",
+    "description": "Send <span style=\"color: #ffffff; display: inline\">Nanobots</span> to an ally, healing them for <span class=\"item-number\">3</span> + <span class=\"item-number\">20% SP</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">1</span> minute.<br /><br /><span style=\"color: #ffffff; display: inline\">Nanobot Reconstruction</span> can only be sent to <span class=\"item-number\">1</span> target at a time and cannot be dispelled.",
+    "descriptionText": "Send Nanobots to an ally, healing them for 3 + 20% SP every 1 sec for 1 minute.\n\nNanobot Reconstruction can only be sent to 1 target at a time and cannot be dispelled.",
+    "iconPath": "interface/icons/ability_shaman_repulsiontotem",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801809,
+    "spellIds": [
+      801809
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801809,
+        "description": "Send <span style=\"color: #ffffff; display: inline\">Nanobots</span> to an ally, healing them for <span class=\"item-number\">3</span> + <span class=\"item-number\">20% SP</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">1</span> minute.<br /><br /><span style=\"color: #ffffff; display: inline\">Nanobot Reconstruction</span> can only be sent to <span class=\"item-number\">1</span> target at a time and cannot be dispelled.",
+        "descriptionText": "Send Nanobots to an ally, healing them for 3 + 20% SP every 1 sec for 1 minute.\n\nNanobot Reconstruction can only be sent to 1 target at a time and cannot be dispelled."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29777,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Scrapshielding",
+    "description": "Your critical strikes now grant you a shield that absorbs <span class=\"item-number\">227</span> + <span class=\"item-number\">15% AP</span> + <span class=\"item-number\">60% SP</span> damage.",
+    "descriptionText": "Your critical strikes now grant you a shield that absorbs 227 + 15% AP + 60% SP damage.",
+    "iconPath": "interface/icons/uico_mecha_spell_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806627,
+    "spellIds": [
+      806627
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6890,
+      30583
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806627,
+        "description": "Your critical strikes now grant you a shield that absorbs <span class=\"item-number\">227</span> + <span class=\"item-number\">15% AP</span> + <span class=\"item-number\">60% SP</span> damage.",
+        "descriptionText": "Your critical strikes now grant you a shield that absorbs 227 + 15% AP + 60% SP damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30583,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Build: Alarm Beacon",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Throw down an alarm beacon for <span class=\"item-number\">10</span> seconds, removing fear, charm and sleep effects from up to <span class=\"item-number\">1</span> ally within <span class=\"item-number\">20</span> yds every <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "3 Charges, 15 sec recharge\nThrow down an alarm beacon for 10 seconds, removing fear, charm and sleep effects from up to 1 ally within 20 yds every 1 sec.",
+    "iconPath": "interface/icons/inv_lightforgedmechsuit",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560754,
+    "spellIds": [
+      560754
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5103,
+      7034
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560754,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Throw down an alarm beacon for <span class=\"item-number\">10</span> seconds, removing fear, charm and sleep effects from up to <span class=\"item-number\">1</span> ally within <span class=\"item-number\">20</span> yds every <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "3 Charges, 15 sec recharge\nThrow down an alarm beacon for 10 seconds, removing fear, charm and sleep effects from up to 1 ally within 20 yds every 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34987,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Rocket Bombardment",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> now causes your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to fire a rocket cluster on its next attack, causing <span class=\"item-number\">163</span> Fire Damage to enemies within <span class=\"item-number\">5</span> yds of the target.",
+    "descriptionText": "Casting Sticky Bomb now causes your Sentry Turret to fire a rocket cluster on its next attack, causing 163 Fire Damage to enemies within 5 yds of the target.",
+    "iconPath": "interface/icons/5_engineerskill25_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706695,
+    "spellIds": [
+      706695
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7034,
+      30869
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 623462,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706695,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> now causes your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to fire a rocket cluster on its next attack, causing <span class=\"item-number\">163</span> Fire Damage to enemies within <span class=\"item-number\">5</span> yds of the target.",
+        "descriptionText": "Casting Sticky Bomb now causes your Sentry Turret to fire a rocket cluster on its next attack, causing 163 Fire Damage to enemies within 5 yds of the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30839,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Deathball",
+    "description": "Launch <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Deathballs</span> in a <span class=\"item-number\">40</span> yd line, increasing in speed the further they travel.<br /><br />They explode when they come into contact with an enemy, dealing <span class=\"item-number\">771</span> + <span class=\"item-number\">35% ranged AP</span> Fire Damage to enemies within <span class=\"item-number\">8</span> yds, increased based on distance traveled.<br /><br /><span style=\"color: #ffffff; display: inline\">Bot</span> and <span style=\"color: #ffffff; display: inline\">Build</span> abilities reduce the cooldown of this ability by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Launch 3 Deathballs in a 40 yd line, increasing in speed the further they travel.\n\nThey explode when they come into contact with an enemy, dealing 771 + 35% ranged AP Fire Damage to enemies within 8 yds, increased based on distance traveled.\n\nBot and Build abilities reduce the cooldown of this ability by -2 sec.",
+    "iconPath": "interface/icons/ability_garrosh_siege_engine",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500236,
+    "spellIds": [
+      500236
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29209,
+      29440
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500236,
+        "description": "Launch <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Deathballs</span> in a <span class=\"item-number\">40</span> yd line, increasing in speed the further they travel.<br /><br />They explode when they come into contact with an enemy, dealing <span class=\"item-number\">771</span> + <span class=\"item-number\">35% ranged AP</span> Fire Damage to enemies within <span class=\"item-number\">8</span> yds, increased based on distance traveled.<br /><br /><span style=\"color: #ffffff; display: inline\">Bot</span> and <span style=\"color: #ffffff; display: inline\">Build</span> abilities reduce the cooldown of this ability by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Launch 3 Deathballs in a 40 yd line, increasing in speed the further they travel.\n\nThey explode when they come into contact with an enemy, dealing 771 + 35% ranged AP Fire Damage to enemies within 8 yds, increased based on distance traveled.\n\nBot and Build abilities reduce the cooldown of this ability by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30869,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Kinetic Shield",
+    "description": "Create magnetic shields of kinetic energy on an ally target for <span class=\"item-number\">10</span> seconds, reducing damage taken by <span class=\"item-number\">-35</span><span class=\"item-number\">%</span> and making them immune to stun effects.<br /><br />Usable while stunned.",
+    "descriptionText": "Create magnetic shields of kinetic energy on an ally target for 10 seconds, reducing damage taken by -35% and making them immune to stun effects.\n\nUsable while stunned.",
+    "iconPath": "interface/icons/garrison_bluearmorupgrade",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806224,
+    "spellIds": [
+      806224
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6998,
+      31235
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806224,
+        "description": "Create magnetic shields of kinetic energy on an ally target for <span class=\"item-number\">10</span> seconds, reducing damage taken by <span class=\"item-number\">-35</span><span class=\"item-number\">%</span> and making them immune to stun effects.<br /><br />Usable while stunned.",
+        "descriptionText": "Create magnetic shields of kinetic energy on an ally target for 10 seconds, reducing damage taken by -35% and making them immune to stun effects.\n\nUsable while stunned."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31113,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Rocket Boots",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">30</span> sec recharge</span><br />Activate your <span style=\"color: #ffffff; display: inline\">Rocket Boots</span>, launching you forward.",
+    "descriptionText": "3 Charges, 30 sec recharge\nActivate your Rocket Boots, launching you forward.",
+    "iconPath": "interface/icons/inv_gizmo_rocketbootextreme",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500241,
+    "spellIds": [
+      500241
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500241,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">30</span> sec recharge</span><br />Activate your <span style=\"color: #ffffff; display: inline\">Rocket Boots</span>, launching you forward.",
+        "descriptionText": "3 Charges, 30 sec recharge\nActivate your Rocket Boots, launching you forward."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31235,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Efficiency",
+    "description": "Reduces the mana cost of all spells and abilities by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of all spells and abilities by -10%.",
+    "iconPath": "interface/icons/inv_bountyhunting",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705806,
+    "spellIds": [
+      705806
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6551,
+      8355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705806,
+        "description": "Reduces the mana cost of all spells and abilities by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of all spells and abilities by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6829,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "I'm The Creator Now",
+    "description": "Damage dealt by your summons now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to increase your attack power and spell power by <span class=\"item-number\">20</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Damage dealt by your summons now has a 40% chance to increase your attack power and spell power by 20 for 30 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/nhi_tech_roboticcalm_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503534,
+    "spellIds": [
+      503534
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5331,
+      29201,
+      30869
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503534,
+        "description": "Damage dealt by your summons now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to increase your attack power and spell power by <span class=\"item-number\">20</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Damage dealt by your summons now has a 40% chance to increase your attack power and spell power by 20 for 30 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6890,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Mechanical Enhancements",
+    "description": "Reduces your damage taken from bleed effects by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and the duration of bleed effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces your damage taken from bleed effects by -10% and the duration of bleed effects on you by -20%.",
+    "iconPath": "interface/icons/inv_plate_mechagnome_c_01chest",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 506632,
+    "spellIds": [
+      506632
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4987,
+      30583,
+      34987
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 506632,
+        "description": "Reduces your damage taken from bleed effects by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and the duration of bleed effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces your damage taken from bleed effects by -10% and the duration of bleed effects on you by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6992,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Backup Fuel",
+    "description": "Falling below <span class=\"item-number\">35%</span> health now refreshes all charges of <span style=\"color: #FFFFFF; display: inline\">Rocket Boots</span>.<br /><br />Can occur only once every <span class=\"item-number\">3</span> min.",
+    "descriptionText": "Falling below 35% health now refreshes all charges of Rocket Boots.\n\nCan occur only once every 3 min.",
+    "iconPath": "interface/icons/achievement_battleground_templeofkotmogu_02_orange",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705810,
+    "spellIds": [
+      705810
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31113
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705810,
+        "description": "Falling below <span class=\"item-number\">35%</span> health now refreshes all charges of <span style=\"color: #FFFFFF; display: inline\">Rocket Boots</span>.<br /><br />Can occur only once every <span class=\"item-number\">3</span> min.",
+        "descriptionText": "Falling below 35% health now refreshes all charges of Rocket Boots.\n\nCan occur only once every 3 min."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6996,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Hasty Tech",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #ffffff; display: inline\">Repair Shot</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Scrap Shot and Repair Shot by -15%.",
+    "iconPath": "interface/icons/inv_misc_food_lunchbox_fel",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705805,
+    "spellIds": [
+      705805
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29813
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705805,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #ffffff; display: inline\">Repair Shot</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Scrap Shot and Repair Shot by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6998,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Maniacal",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> and <span style=\"color: #ffffff; display: inline\">Deploy Blast Mine</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Reduces the cooldown of Sticky Bomb and Deploy Blast Mine by -2 sec.",
+    "iconPath": "interface/icons/inv_offhand_1h_artifactdoomhammer_d_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706375,
+    "spellIds": [
+      706375
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5999,
+      6551
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706375,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> and <span style=\"color: #ffffff; display: inline\">Deploy Blast Mine</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Reduces the cooldown of Sticky Bomb and Deploy Blast Mine by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6551,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Flexible Thinking",
+    "description": "Increases Agility and Intellect by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases Agility and Intellect by 4%.",
+    "iconPath": "interface/icons/inv_engineering_leystone_buoy",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705825,
+    "spellIds": [
+      705825,
+      705826
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5116
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705825,
+        "description": "Increases Agility and Intellect by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases Agility and Intellect by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 705826,
+        "description": "Increases Agility and Intellect by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases Agility and Intellect by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7034,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Mechaplating",
+    "description": "Whenever your summons critically strike, reduce your and your pet's damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Whenever your summons critically strike, reduce your and your pet's damage taken by -2% for 15 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/inv_misc_wartornscrap_plate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705831,
+    "spellIds": [
+      705831
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5995,
+      9995,
+      31235
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705831,
+        "description": "Whenever your summons critically strike, reduce your and your pet's damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Whenever your summons critically strike, reduce your and your pet's damage taken by -2% for 15 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4871,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Concussive Spanner",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Spanner Smash</span> will now apply <span style=\"color: #ffffff; display: inline\">Concussion</span> to the target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_mage_brainfreeze\" /><span class=\"name\">Concussion</span></div><span class=\"desc\">Your target is unable to critically strike and their total primary attributes are reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Your Spanner Smash will now apply Concussion to the target.\n\n---\n\nConcussionYour target is unable to critically strike and their total primary attributes are reduced by -5% for 8 seconds.",
+    "iconPath": "interface/icons/ability_mage_brainfreeze",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704107,
+    "spellIds": [
+      704107
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704107,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Spanner Smash</span> will now apply <span style=\"color: #ffffff; display: inline\">Concussion</span> to the target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_mage_brainfreeze\" /><span class=\"name\">Concussion</span></div><span class=\"desc\">Your target is unable to critically strike and their total primary attributes are reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Your Spanner Smash will now apply Concussion to the target.\n\n---\n\nConcussionYour target is unable to critically strike and their total primary attributes are reduced by -5% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4987,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Cutting Edge Technology",
+    "description": "Increases the tick rate and healing done of <span style=\"color: #ffffff; display: inline\">Nanobot Reconstruction</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate and healing done of Nanobot Reconstruction by 20%.",
+    "iconPath": "interface/icons/inv_engineering_reavesmodule",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707398,
+    "spellIds": [
+      707398
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7034,
+      30869
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 623462,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707398,
+        "description": "Increases the tick rate and healing done of <span style=\"color: #ffffff; display: inline\">Nanobot Reconstruction</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate and healing done of Nanobot Reconstruction by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5103,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Modulator",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Modules</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Modules by 20%.",
+    "iconPath": "interface/icons/custom_engineerskill_21_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707832,
+    "spellIds": [
+      707832
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5995,
+      9995
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707832,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Modules</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Modules by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5116,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Clockwork Ingenuity",
+    "description": "Increases the maximum health of your summons by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the maximum health of your summons by 10%.",
+    "iconPath": "interface/icons/t_roboticon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505336,
+    "spellIds": [
+      505336
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5998,
+      6001
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505336,
+        "description": "Increases the maximum health of your summons by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the maximum health of your summons by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5195,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Mechanosoldier",
+    "description": "Increases the damage reduced by <span style=\"color: #ffffff; display: inline\">Kinetic Shield</span> by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> and its duration by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Increases the damage reduced by Kinetic Shield by -5% and its duration by 2 sec.",
+    "iconPath": "interface/icons/inv_misc_enggizmos_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705827,
+    "spellIds": [
+      705827
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30869
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705827,
+        "description": "Increases the damage reduced by <span style=\"color: #ffffff; display: inline\">Kinetic Shield</span> by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> and its duration by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Increases the damage reduced by Kinetic Shield by -5% and its duration by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5331,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Innate Brilliance",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Aether Augmentation</span> is active, every 4th <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now grants you <span style=\"color: #ffffff; display: inline\">Innate Brilliance</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_monk_forcesphere\" /><span class=\"name\">Innate Brilliance (Buff)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> has <span class=\"item-number\">5</span> yds increased range, deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased damage, and drains <span class=\"item-number\">155</span> + <span class=\"item-number\">10% ranged AP</span> of your target's mana. Lasts <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "While Aether Augmentation is active, every 4th Scrap Shot now grants you Innate Brilliance.\n\n---\n\nInnate Brilliance (Buff)Your next Scrap Shot has 5 yds increased range, deals 15% increased damage, and drains 155 + 10% ranged AP of your target's mana. Lasts 10 seconds.",
+    "iconPath": "interface/icons/ability_monk_forcesphere",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572545,
+    "spellIds": [
+      572545
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5974,
+      6998
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 83332,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572545,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Aether Augmentation</span> is active, every 4th <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now grants you <span style=\"color: #ffffff; display: inline\">Innate Brilliance</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_monk_forcesphere\" /><span class=\"name\">Innate Brilliance (Buff)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> has <span class=\"item-number\">5</span> yds increased range, deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased damage, and drains <span class=\"item-number\">155</span> + <span class=\"item-number\">10% ranged AP</span> of your target's mana. Lasts <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "While Aether Augmentation is active, every 4th Scrap Shot now grants you Innate Brilliance.\n\n---\n\nInnate Brilliance (Buff)Your next Scrap Shot has 5 yds increased range, deals 15% increased damage, and drains 155 + 10% ranged AP of your target's mana. Lasts 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5974,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Frozen Bomb Launcher",
+    "description": "Damage dealt by your <span style=\"color: #ffffff; display: inline\">Sentry Turrets</span> will now slow enemy movement speed by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Damage dealt by your Sentry Turrets will now slow enemy movement speed by -15% for 10 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/inv_eng_bombicestun",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707265,
+    "spellIds": [
+      707265
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5999
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707265,
+        "description": "Damage dealt by your <span style=\"color: #ffffff; display: inline\">Sentry Turrets</span> will now slow enemy movement speed by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Damage dealt by your Sentry Turrets will now slow enemy movement speed by -15% for 10 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5995,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Medical Degree",
+    "description": "Increases the cooldown of <span style=\"color: #FFFFFF; display: inline\">Med Pack</span> by <span class=\"item-number\">30</span> sec, but allows it to affect up to <span class=\"item-number\">4</span> additional targets in a <span class=\"item-number\">15</span> yd radius around your ally.",
+    "descriptionText": "Increases the cooldown of Med Pack by 30 sec, but allows it to affect up to 4 additional targets in a 15 yd radius around your ally.",
+    "iconPath": "interface/icons/custom_scroll_b_01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505327,
+    "spellIds": [
+      505327
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 6115,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505327,
+        "description": "Increases the cooldown of <span style=\"color: #FFFFFF; display: inline\">Med Pack</span> by <span class=\"item-number\">30</span> sec, but allows it to affect up to <span class=\"item-number\">4</span> additional targets in a <span class=\"item-number\">15</span> yd radius around your ally.",
+        "descriptionText": "Increases the cooldown of Med Pack by 30 sec, but allows it to affect up to 4 additional targets in a 15 yd radius around your ally."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5996,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Goblin Depravity",
+    "description": "<span style=\"color: #ffffff; display: inline\">Air Strike</span> now drops <span style=\"color: #ffffff; display: inline\">Tear Gas</span> on targets struck in a <span class=\"item-number\">8</span> yd radius dealing <span class=\"item-number\">147</span> + <span class=\"item-number\">11% nature SP</span> + <span class=\"item-number\">100% AP</span> Nature Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Air Strike now drops Tear Gas on targets struck in a 8 yd radius dealing 147 + 11% nature SP + 100% AP Nature Damage every 2 sec for 12 seconds.",
+    "iconPath": "interface/icons/ability_mount_gyrocoptorelite",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806762,
+    "spellIds": [
+      806762
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29440
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806762,
+        "description": "<span style=\"color: #ffffff; display: inline\">Air Strike</span> now drops <span style=\"color: #ffffff; display: inline\">Tear Gas</span> on targets struck in a <span class=\"item-number\">8</span> yd radius dealing <span class=\"item-number\">147</span> + <span class=\"item-number\">11% nature SP</span> + <span class=\"item-number\">100% AP</span> Nature Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Air Strike now drops Tear Gas on targets struck in a 8 yd radius dealing 147 + 11% nature SP + 100% AP Nature Damage every 2 sec for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5997,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Auto Resuscitation Device",
+    "description": "Attach a resuscitation device to your target ally for <span class=\"item-number\">20</span> seconds.<br /><br />When the target would otherwise die, they are instead healed for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their maximum health.",
+    "descriptionText": "Attach a resuscitation device to your target ally for 20 seconds.\n\nWhen the target would otherwise die, they are instead healed for 50% of their maximum health.",
+    "iconPath": "interface/icons/inv_misc_enggizmos_15",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520445,
+    "spellIds": [
+      520445
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29440,
+      29777
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520445,
+        "description": "Attach a resuscitation device to your target ally for <span class=\"item-number\">20</span> seconds.<br /><br />When the target would otherwise die, they are instead healed for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their maximum health.",
+        "descriptionText": "Attach a resuscitation device to your target ally for 20 seconds.\n\nWhen the target would otherwise die, they are instead healed for 50% of their maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5998,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Explosive Personality",
+    "description": "Increases your ranged attack power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Increases your ranged attack power by 50% of your Intellect.",
+    "iconPath": "interface/icons/custom_engineerskill_35_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704111,
+    "spellIds": [
+      704111,
+      707833
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29203,
+      31113
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704111,
+        "description": "Increases your ranged attack power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Increases your ranged attack power by 50% of your Intellect."
+      },
+      {
+        "rank": 2,
+        "spellId": 707833,
+        "description": "Increases your ranged attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Increases your ranged attack power by 100% of your Intellect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5999,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Macro-Gravity Zone",
+    "description": "Create a macro-gravity zone at target location for <span class=\"item-number\">8</span> seconds.<br /><br />Enemies within the zone have their movement speed slowed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and gain <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Macro-Gravity</span> every <span class=\"item-number\">1</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_boots__9_\" /><span class=\"name\">Macro-Gravity</span></div><span class=\"desc\">At <span class=\"item-number\">6</span> stacks, the affected enemy will be stunned for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Create a macro-gravity zone at target location for 8 seconds.\n\nEnemies within the zone have their movement speed slowed by -60% and gain 1 stack of Macro-Gravity every 1 sec.\n\n---\n\nMacro-GravityAt 6 stacks, the affected enemy will be stunned for 6 seconds.",
+    "iconPath": "interface/icons/spell_deathknight_antimagiczone",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707104,
+    "spellIds": [
+      707104
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5116,
+      6992
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707104,
+        "description": "Create a macro-gravity zone at target location for <span class=\"item-number\">8</span> seconds.<br /><br />Enemies within the zone have their movement speed slowed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and gain <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Macro-Gravity</span> every <span class=\"item-number\">1</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_boots__9_\" /><span class=\"name\">Macro-Gravity</span></div><span class=\"desc\">At <span class=\"item-number\">6</span> stacks, the affected enemy will be stunned for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Create a macro-gravity zone at target location for 8 seconds.\n\nEnemies within the zone have their movement speed slowed by -60% and gain 1 stack of Macro-Gravity every 1 sec.\n\n---\n\nMacro-GravityAt 6 stacks, the affected enemy will be stunned for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6001,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Refined Gunpowder",
+    "description": "Increases your haste and your damage dealt against Mechanical creatures <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your haste and your damage dealt against Mechanical creatures 3%.",
+    "iconPath": "interface/icons/inv_misc_ammo_gunpowder_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705781,
+    "spellIds": [
+      705781,
+      705782
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29203,
+      29813
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705781,
+        "description": "Increases your haste and your damage dealt against Mechanical creatures <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste and your damage dealt against Mechanical creatures 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 705782,
+        "description": "Increases your haste and your damage dealt against Mechanical creatures <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste and your damage dealt against Mechanical creatures 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29201,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Function Over Form",
+    "description": "Increases the movement speed slowed by <span style=\"color: #ffffff; display: inline\">Cryo Augmentation</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>, but reduces its duration by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Increases the movement speed slowed by Cryo Augmentation by -15%, but reduces its duration by -2 sec.",
+    "iconPath": "interface/icons/spell_frost_glacier",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572538,
+    "spellIds": [
+      572538
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5974,
+      6998
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 83332,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572538,
+        "description": "Increases the movement speed slowed by <span style=\"color: #ffffff; display: inline\">Cryo Augmentation</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>, but reduces its duration by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Increases the movement speed slowed by Cryo Augmentation by -15%, but reduces its duration by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29203,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Build: Destructo-Bot",
+    "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Destructo-Bot</span> that you can see through and directly control.<br /><br />The bot is capable of exploding on an enemy, dealing massive Fire Damage to them and enemies nearby and disorienting them for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Build a Destructo-Bot that you can see through and directly control.\n\nThe bot is capable of exploding on an enemy, dealing massive Fire Damage to them and enemies nearby and disorienting them for 3 seconds.",
+    "iconPath": "interface/icons/little_bomb_bro",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804673,
+    "spellIds": [
+      804673
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804673,
+        "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Destructo-Bot</span> that you can see through and directly control.<br /><br />The bot is capable of exploding on an enemy, dealing massive Fire Damage to them and enemies nearby and disorienting them for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Build a Destructo-Bot that you can see through and directly control.\n\nThe bot is capable of exploding on an enemy, dealing massive Fire Damage to them and enemies nearby and disorienting them for 3 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29209,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Bunker Operative",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Kinetic Shield</span>, <span style=\"color: #ffffff; display: inline\">Sonic Disruptor</span>, and <span style=\"color: #ffffff; display: inline\">Macro-Gravity Zone</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Kinetic Shield, Sonic Disruptor, and Macro-Gravity Zone by -30 sec.",
+    "iconPath": "interface/icons/inv_engineering_sonicenvironmentenhancer",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801706,
+    "spellIds": [
+      801706
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8354,
+      9987
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801706,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Kinetic Shield</span>, <span style=\"color: #ffffff; display: inline\">Sonic Disruptor</span>, and <span style=\"color: #ffffff; display: inline\">Macro-Gravity Zone</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Kinetic Shield, Sonic Disruptor, and Macro-Gravity Zone by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29440,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Air Strike",
+    "description": "Mark the target location for an <span style=\"color: #ffffff; display: inline\">Air Strike</span>. After <span class=\"item-number\">7</span> seconds, it deals <span class=\"item-number\">1370</span> Fire Damage to up to <span class=\"item-number\">12</span> enemies caught within the blast.<br /><br />This ability always critically strikes.",
+    "descriptionText": "Mark the target location for an Air Strike. After 7 seconds, it deals 1370 Fire Damage to up to 12 enemies caught within the blast.\n\nThis ability always critically strikes.",
+    "iconPath": "interface/icons/ability_mount_gyrocoptor",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801744,
+    "spellIds": [
+      801744
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5195,
+      6890,
+      8354
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801744,
+        "description": "Mark the target location for an <span style=\"color: #ffffff; display: inline\">Air Strike</span>. After <span class=\"item-number\">7</span> seconds, it deals <span class=\"item-number\">1370</span> Fire Damage to up to <span class=\"item-number\">12</span> enemies caught within the blast.<br /><br />This ability always critically strikes.",
+        "descriptionText": "Mark the target location for an Air Strike. After 7 seconds, it deals 1370 Fire Damage to up to 12 enemies caught within the blast.\n\nThis ability always critically strikes."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 8354,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Ventilation",
+    "description": "Direct magic damage taken now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to increase all magic resistances of allies within <span class=\"item-number\">8</span> yds of you by <span class=\"item-number\">15</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Direct magic damage taken now has a 50% chance to increase all magic resistances of allies within 8 yds of you by 15 for 6 seconds.",
+    "iconPath": "interface/icons/nhi_tech_steamdetector_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572367,
+    "spellIds": [
+      572367
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6829,
+      9987
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572367,
+        "description": "Direct magic damage taken now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to increase all magic resistances of allies within <span class=\"item-number\">8</span> yds of you by <span class=\"item-number\">15</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Direct magic damage taken now has a 50% chance to increase all magic resistances of allies within 8 yds of you by 15 for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 8355,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Med Pack",
+    "description": "Mend an ally player, healing for <span class=\"item-number\">6</span> over <span class=\"item-number\">6</span> seconds.<br /><br />Additionally, cleanses all bleed, poison and disease effects, and grants immunity to these effects for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Mend an ally player, healing for 6 over 6 seconds.\n\nAdditionally, cleanses all bleed, poison and disease effects, and grants immunity to these effects for 3 seconds.",
+    "iconPath": "interface/icons/inv_first_aid_70_medicalkit",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800347,
+    "spellIds": [
+      800347
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5116,
+      6996
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800347,
+        "description": "Mend an ally player, healing for <span class=\"item-number\">6</span> over <span class=\"item-number\">6</span> seconds.<br /><br />Additionally, cleanses all bleed, poison and disease effects, and grants immunity to these effects for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Mend an ally player, healing for 6 over 6 seconds.\n\nAdditionally, cleanses all bleed, poison and disease effects, and grants immunity to these effects for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9987,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Build: Repulsion Unit",
+    "description": "Build a <span style=\"color: #ffffff; display: inline\">Repulsion Unit</span> that periodically knocks back enemies within <span class=\"item-number\">6</span> yds every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Build a Repulsion Unit that periodically knocks back enemies within 6 yds every 5 sec for 20 seconds.",
+    "iconPath": "interface/icons/repulsionunit",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706904,
+    "spellIds": [
+      706904
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4871,
+      5331,
+      29201
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706904,
+        "description": "Build a <span style=\"color: #ffffff; display: inline\">Repulsion Unit</span> that periodically knocks back enemies within <span class=\"item-number\">6</span> yds every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Build a Repulsion Unit that periodically knocks back enemies within 6 yds every 5 sec for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9995,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 87,
+    "tabKey": "28:87",
+    "tabName": "Class",
+    "name": "Enhanced Procedures",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Med Pack</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and it's healing by <span class=\"item-number\">75</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Med Pack by 100% and it's healing by 75%.",
+    "iconPath": "interface/icons/inv_firstaid_bandage2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 506819,
+    "spellIds": [
+      506819
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 6115,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 506819,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Med Pack</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and it's healing by <span class=\"item-number\">75</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Med Pack by 100% and it's healing by 75%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

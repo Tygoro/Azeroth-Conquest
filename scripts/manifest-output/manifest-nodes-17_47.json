@@ -1,0 +1,1883 @@
+[
+  {
+    "nodeId": 4018,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Brimstone Buckler",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Successful blocks now have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> to aid you in battle for <span class=\"item-number\">12</span> seconds. Can only occur once every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Level 10 Passive\nSuccessful blocks now have a 30% chance to summon 1 Hellfire Imp to aid you in battle for 12 seconds. Can only occur once every 3 sec.",
+    "iconPath": "interface/icons/ability_warlock_improveddemonictactics",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92104,
+    "spellIds": [
+      92104
+    ],
+    "requiredNodeIds": [
+      7099
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92104,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Successful blocks now have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> to aid you in battle for <span class=\"item-number\">12</span> seconds. Can only occur once every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Level 10 Passive\nSuccessful blocks now have a 30% chance to summon 1 Hellfire Imp to aid you in battle for 12 seconds. Can only occur once every 3 sec."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6391,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Demon's Breath",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Shieldgore</span> now unleash an eruption of hellfire, causing <span class=\"item-number\">111</span> + <span class=\"item-number\">20% AP</span> Fire Damage and generating <span class=\"item-number\">1</span> additional <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+    "descriptionText": "Critical strikes with Shieldgore now unleash an eruption of hellfire, causing 111 + 20% AP Fire Damage and generating 1 additional Demonfire.",
+    "iconPath": "interface/icons/spell_shadow_demonicfortitude",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706563,
+    "spellIds": [
+      706563
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6619,
+      9485
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706563,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Shieldgore</span> now unleash an eruption of hellfire, causing <span class=\"item-number\">111</span> + <span class=\"item-number\">20% AP</span> Fire Damage and generating <span class=\"item-number\">1</span> additional <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+        "descriptionText": "Critical strikes with Shieldgore now unleash an eruption of hellfire, causing 111 + 20% AP Fire Damage and generating 1 additional Demonfire."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6392,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Sacrificial Circle",
+    "description": "Sacrifice your <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> within <span class=\"item-number\">15</span> yds, healing you <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum health, plus an addtional amount equal to <span class=\"item-number\">25%</span> of each of your <span style=\"color: #ffffff; display: inline\">Hellfire Imp's</span> maximum health.<br /><br /><span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> sacrificed in this way leave behind corpses.",
+    "descriptionText": "Sacrifice your Hellfire Imps within 15 yds, healing you 15% of your maximum health, plus an addtional amount equal to 25% of each of your Hellfire Imp's maximum health.\n\nHellfire Imps sacrificed in this way leave behind corpses.",
+    "iconPath": "interface/icons/nhi_firerune_(2)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805677,
+    "spellIds": [
+      805677
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6620
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805677,
+        "description": "Sacrifice your <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> within <span class=\"item-number\">15</span> yds, healing you <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum health, plus an addtional amount equal to <span class=\"item-number\">25%</span> of each of your <span style=\"color: #ffffff; display: inline\">Hellfire Imp's</span> maximum health.<br /><br /><span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> sacrificed in this way leave behind corpses.",
+        "descriptionText": "Sacrifice your Hellfire Imps within 15 yds, healing you 15% of your maximum health, plus an addtional amount equal to 25% of each of your Hellfire Imp's maximum health.\n\nHellfire Imps sacrificed in this way leave behind corpses."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5392,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Soul Furnace",
+    "description": "<span style=\"color: #ffffff; display: inline\">Sacrificial Circle</span> now grants you a damage absorption shield equal to <span class=\"item-number\">15%</span> of the total health of each destroyed imp for <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Sacrificial Circle now grants you a damage absorption shield equal to 15% of the total health of each destroyed imp for 10 sec.",
+    "iconPath": "interface/icons/nhi_fireblast_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706758,
+    "spellIds": [
+      706758
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6392
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706758,
+        "description": "<span style=\"color: #ffffff; display: inline\">Sacrificial Circle</span> now grants you a damage absorption shield equal to <span class=\"item-number\">15%</span> of the total health of each destroyed imp for <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Sacrificial Circle now grants you a damage absorption shield equal to 15% of the total health of each destroyed imp for 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6860,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Demonfire Command",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Implosion</span> by <span class=\"item-number\">-10</span> sec and its Rage cost by <span class=\"item-number\">-5</span>.",
+    "descriptionText": "Reduces the cooldown of Implosion by -10 sec and its Rage cost by -5.",
+    "iconPath": "interface/icons/spell_shadow_rainoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707028,
+    "spellIds": [
+      707028
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34132
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707028,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Implosion</span> by <span class=\"item-number\">-10</span> sec and its Rage cost by <span class=\"item-number\">-5</span>.",
+        "descriptionText": "Reduces the cooldown of Implosion by -10 sec and its Rage cost by -5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6928,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellfire Forgemaster",
+    "description": "Increases your block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your block value by 20%.",
+    "iconPath": "interface/icons/achievement_zone_ironforge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560655,
+    "spellIds": [
+      560655
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6620
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560655,
+        "description": "Increases your block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your block value by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6619,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Perpetual Flame",
+    "description": "Generating a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to deal <span class=\"item-number\">116</span> Fire Damage to nearby enemies.",
+    "descriptionText": "Generating a stack of Demon's Blood now has a 15% chance to deal 116 Fire Damage to nearby enemies.",
+    "iconPath": "interface/icons/nhi_firelungs_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300391,
+    "spellIds": [
+      300391
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29329,
+      30237
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300391,
+        "description": "Generating a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to deal <span class=\"item-number\">116</span> Fire Damage to nearby enemies.",
+        "descriptionText": "Generating a stack of Demon's Blood now has a 15% chance to deal 116 Fire Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6620,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellsmelted Armor",
+    "description": "Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> active now increases your chance to block by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each Hellfire Imp active now increases your chance to block by 1%.",
+    "iconPath": "interface/icons/inv_glove_armor_orcclan_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706569,
+    "spellIds": [
+      706569,
+      707836
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30236
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706569,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> active now increases your chance to block by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Hellfire Imp active now increases your chance to block by 1%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707836,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> active now increases your chance to block by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Hellfire Imp active now increases your chance to block by 1%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6679,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Imp Gang Boss",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Call: Hellfire Imp</span> now summons <span class=\"item-number\">2</span> additional imps.",
+    "descriptionText": "Your Call: Hellfire Imp now summons 2 additional imps.",
+    "iconPath": "interface/icons/spell_shadow_impphaseshift",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706754,
+    "spellIds": [
+      706754
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30236
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 643344,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706754,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Call: Hellfire Imp</span> now summons <span class=\"item-number\">2</span> additional imps.",
+        "descriptionText": "Your Call: Hellfire Imp now summons 2 additional imps."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6681,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Infernal Bulwark",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> now generates <span class=\"item-number\">4</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span> and grants <span style=\"color: #ffffff; display: inline\">Infernal Bulwark</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_firelandsraid_d_01\" /><span class=\"name\">Infernal Bulwark (Proc)</span></div><span class=\"desc\">Increases block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">18</span> seconds.</span></div>",
+    "descriptionText": "Casting Unleash Pestilence now generates 4 stacks of Demonfire and grants Infernal Bulwark.\n\n---\n\nInfernal Bulwark (Proc)Increases block value by 20% for 18 seconds.",
+    "iconPath": "interface/icons/inv_shield_firelandsraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706564,
+    "spellIds": [
+      706564
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5392,
+      34077
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706564,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> now generates <span class=\"item-number\">4</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span> and grants <span style=\"color: #ffffff; display: inline\">Infernal Bulwark</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_firelandsraid_d_01\" /><span class=\"name\">Infernal Bulwark (Proc)</span></div><span class=\"desc\">Increases block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">18</span> seconds.</span></div>",
+        "descriptionText": "Casting Unleash Pestilence now generates 4 stacks of Demonfire and grants Infernal Bulwark.\n\n---\n\nInfernal Bulwark (Proc)Increases block value by 20% for 18 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7367,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "A Curse from Hell",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Curse of Xoroth</span> by <span class=\"item-number\">-3</span> sec.<br /><br />Chance to trigger is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #ff9933; display: inline\">Demonfire</span> active.",
+    "descriptionText": "Periodic damage dealt now has a 15% chance to reduce the cooldown of Curse of Xoroth by -3 sec.\n\nChance to trigger is increased by 2% for each stack of Demonfire active.",
+    "iconPath": "interface/icons/nhi_fireenchantment_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 302548,
+    "spellIds": [
+      302548
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30177
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302548,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Curse of Xoroth</span> by <span class=\"item-number\">-3</span> sec.<br /><br />Chance to trigger is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #ff9933; display: inline\">Demonfire</span> active.",
+        "descriptionText": "Periodic damage dealt now has a 15% chance to reduce the cooldown of Curse of Xoroth by -3 sec.\n\nChance to trigger is increased by 2% for each stack of Demonfire active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12765,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Demonic Bulwark",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your successful blocks now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.<br /><br />Chance to trigger is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> you have active.",
+    "descriptionText": "Level 50 Passive\nYour successful blocks now have a 40% chance to critically block for twice the normal amount.\n\nChance to trigger is increased by 2% for each Demonfire you have active.",
+    "iconPath": "interface/icons/spell_fire_firearmor",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 573066,
+    "spellIds": [
+      573066
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9258
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573066,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your successful blocks now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.<br /><br />Chance to trigger is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> you have active.",
+        "descriptionText": "Level 50 Passive\nYour successful blocks now have a 40% chance to critically block for twice the normal amount.\n\nChance to trigger is increased by 2% for each Demonfire you have active."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9258,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Imp Aura",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> now reduces your Magic Damage taken by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 40 Passive\nEach Hellfire Imp now reduces your Magic Damage taken by 1%.",
+    "iconPath": "interface/icons/inv_fabric_spellfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560546,
+    "spellIds": [
+      560546
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9260
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560546,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> now reduces your Magic Damage taken by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 40 Passive\nEach Hellfire Imp now reduces your Magic Damage taken by 1%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9260,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellfire Resolve",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your block rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Strength and increases your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 30 Passive\nIncreases your block rating by 15% of your Strength and increases your hit rating by 5% of your Strength.",
+    "iconPath": "interface/icons/ability_warlock_moltencore",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 573035,
+    "spellIds": [
+      573035
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9878
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573035,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your block rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Strength and increases your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 30 Passive\nIncreases your block rating by 15% of your Strength and increases your hit rating by 5% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9485,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Demonfire Retaliation",
+    "description": "Grants you a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to generate a stack of <span style=\"color: #ff9933; display: inline\">Demonfire</span> when attacked.",
+    "descriptionText": "Grants you a 30% chance to generate a stack of Demonfire when attacked.",
+    "iconPath": "interface/icons/5_druideskill41_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573034,
+    "spellIds": [
+      573034
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30237
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573034,
+        "description": "Grants you a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to generate a stack of <span style=\"color: #ff9933; display: inline\">Demonfire</span> when attacked.",
+        "descriptionText": "Grants you a 30% chance to generate a stack of Demonfire when attacked."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9878,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Imp Guards",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> now reduces your Physical Damage taken by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 20 Passive\nEach Hellfire Imp now reduces your Physical Damage taken by 1%.",
+    "iconPath": "interface/icons/uico_fire_spell_09_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804340,
+    "spellIds": [
+      804340
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4018
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804340,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Each <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> now reduces your Physical Damage taken by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 20 Passive\nEach Hellfire Imp now reduces your Physical Damage taken by 1%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7887,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellfire Bellows",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Flames of Xoroth</span> into <span style=\"color: #ffffff; display: inline\">Hellfire Bellows</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_corruptionfire_border\" /><span class=\"name\">Hellfire Bellows</span></div><span class=\"desc\">Bellow fire on all enemies in a <span class=\"item-number\">6</span> yd cone in front of and behind you, dealing <span class=\"item-number\">252</span> + <span class=\"item-number\">17.63% AP</span> + <span class=\"item-number\">40% fire SP</span> Fire Damage and reducing the cooldown of <span style=\"color: #ffffff; display: inline\">Chains of Xoroth</span> by <span class=\"item-number\">-1.5</span> sec per enemy hit.<br /><br />Cooldown is reduced by <span class=\"item-number\">-3</span> sec for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.</span></div>",
+    "descriptionText": "Transforms your Flames of Xoroth into Hellfire Bellows.\n\n---\n\nHellfire BellowsBellow fire on all enemies in a 6 yd cone in front of and behind you, dealing 252 + 17.63% AP + 40% fire SP Fire Damage and reducing the cooldown of Chains of Xoroth by -1.5 sec per enemy hit.\n\nCooldown is reduced by -3 sec for each Demonfire consumed.",
+    "iconPath": "interface/icons/nhi_corruptionfire_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807587,
+    "spellIds": [
+      807587
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30699
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 532523,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807587,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Flames of Xoroth</span> into <span style=\"color: #ffffff; display: inline\">Hellfire Bellows</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_corruptionfire_border\" /><span class=\"name\">Hellfire Bellows</span></div><span class=\"desc\">Bellow fire on all enemies in a <span class=\"item-number\">6</span> yd cone in front of and behind you, dealing <span class=\"item-number\">252</span> + <span class=\"item-number\">17.63% AP</span> + <span class=\"item-number\">40% fire SP</span> Fire Damage and reducing the cooldown of <span style=\"color: #ffffff; display: inline\">Chains of Xoroth</span> by <span class=\"item-number\">-1.5</span> sec per enemy hit.<br /><br />Cooldown is reduced by <span class=\"item-number\">-3</span> sec for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.</span></div>",
+        "descriptionText": "Transforms your Flames of Xoroth into Hellfire Bellows.\n\n---\n\nHellfire BellowsBellow fire on all enemies in a 6 yd cone in front of and behind you, dealing 252 + 17.63% AP + 40% fire SP Fire Damage and reducing the cooldown of Chains of Xoroth by -1.5 sec per enemy hit.\n\nCooldown is reduced by -3 sec for each Demonfire consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29329,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Warden of Hellfire",
+    "description": "Increases the damage dealt and reduces the Rage cost of <span style=\"color: #FFFFFF; display: inline\">Skulltaker</span> and <span style=\"color: #FFFFFF; display: inline\">Flames of Xoroth</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt and reduces the Rage cost of Skulltaker and Flames of Xoroth by 15%.",
+    "iconPath": "interface/icons/achievement_guild_forgreatjusticerank2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704986,
+    "spellIds": [
+      704986
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30235
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704986,
+        "description": "Increases the damage dealt and reduces the Rage cost of <span style=\"color: #FFFFFF; display: inline\">Skulltaker</span> and <span style=\"color: #FFFFFF; display: inline\">Flames of Xoroth</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt and reduces the Rage cost of Skulltaker and Flames of Xoroth by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31079,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Demolisher",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Flesh Hook</span> or <span style=\"color: #ffffff; display: inline\">Chainwhip</span> now taunts the target for <span class=\"item-number\">2</span> seconds and reduces your Physical Damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Casting Flesh Hook or Chainwhip now taunts the target for 2 seconds and reduces your Physical Damage taken by -5% for 10 seconds.",
+    "iconPath": "interface/icons/inv_helmet_103",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807336,
+    "spellIds": [
+      807336
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30699,
+      31086,
+      34086
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807336,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Flesh Hook</span> or <span style=\"color: #ffffff; display: inline\">Chainwhip</span> now taunts the target for <span class=\"item-number\">2</span> seconds and reduces your Physical Damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Casting Flesh Hook or Chainwhip now taunts the target for 2 seconds and reduces your Physical Damage taken by -5% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31086,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Speed Demon",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Suffuse</span> now increases your movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Suffuse now increases your movement speed by 20%.",
+    "iconPath": "interface/icons/achievement_zone_hellfirepeninsula_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707232,
+    "spellIds": [
+      707232
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6391,
+      6860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 63221,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707232,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Suffuse</span> now increases your movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Suffuse now increases your movement speed by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30498,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Call: Hellfire Abyssal",
+    "description": "Call down a <span style=\"color: #ffffff; display: inline\">Hellfire Abyssal</span> from the sky to crash down upon the targeted <span class=\"item-number\">8</span> yd area, dealing <span class=\"item-number\">1500</span> + <span class=\"item-number\">100% SP</span> + <span class=\"item-number\">100% AP</span> Fire Damage.<br /><br />The abyssal remains to aid you in battle for <span class=\"item-number\">15</span> seconds and emits an aura that reduces the damage taken by party and raid members within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.<br /><br />Costs <span class=\"item-number\">-15</span> less Rage for each active <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span>.",
+    "descriptionText": "Call down a Hellfire Abyssal from the sky to crash down upon the targeted 8 yd area, dealing 1500 + 100% SP + 100% AP Fire Damage.\n\nThe abyssal remains to aid you in battle for 15 seconds and emits an aura that reduces the damage taken by party and raid members within 40 yds by -5%.\n\nCosts -15 less Rage for each active Hellfire Imp.",
+    "iconPath": "interface/icons/spell_warlock_summonabyssal",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805074,
+    "spellIds": [
+      805074
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30125,
+      30177
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805074,
+        "description": "Call down a <span style=\"color: #ffffff; display: inline\">Hellfire Abyssal</span> from the sky to crash down upon the targeted <span class=\"item-number\">8</span> yd area, dealing <span class=\"item-number\">1500</span> + <span class=\"item-number\">100% SP</span> + <span class=\"item-number\">100% AP</span> Fire Damage.<br /><br />The abyssal remains to aid you in battle for <span class=\"item-number\">15</span> seconds and emits an aura that reduces the damage taken by party and raid members within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.<br /><br />Costs <span class=\"item-number\">-15</span> less Rage for each active <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span>.",
+        "descriptionText": "Call down a Hellfire Abyssal from the sky to crash down upon the targeted 8 yd area, dealing 1500 + 100% SP + 100% AP Fire Damage.\n\nThe abyssal remains to aid you in battle for 15 seconds and emits an aura that reduces the damage taken by party and raid members within 40 yds by -5%.\n\nCosts -15 less Rage for each active Hellfire Imp."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30699,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Chains of Xoroth",
+    "description": "Create demonic chains at target location that slow enemies inside by <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds. At the end of the duration, it pulls all affected enemies to it.",
+    "descriptionText": "Create demonic chains at target location that slow enemies inside by -80% for 5 seconds. At the end of the duration, it pulls all affected enemies to it.",
+    "iconPath": "interface/icons/nhi_holychains_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706756,
+    "spellIds": [
+      706756
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706756,
+        "description": "Create demonic chains at target location that slow enemies inside by <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds. At the end of the duration, it pulls all affected enemies to it.",
+        "descriptionText": "Create demonic chains at target location that slow enemies inside by -80% for 5 seconds. At the end of the duration, it pulls all affected enemies to it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30700,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Demonic Grit",
+    "description": "Grant your summons demonic grit, increasing their total health by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reducing their damage taken by by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Grant your summons demonic grit, increasing their total health by 15% and reducing their damage taken by by 10%.",
+    "iconPath": "interface/icons/inv_helm_cloth_raidwarlock_r_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 805678,
+    "spellIds": [
+      805678,
+      807898
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30699,
+      34087
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805678,
+        "description": "Grant your summons demonic grit, increasing their total health by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reducing their damage taken by by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Grant your summons demonic grit, increasing their total health by 15% and reducing their damage taken by by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807898,
+        "description": "Grant your summons demonic grit, increasing their total health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and reducing their damage taken by by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Grant your summons demonic grit, increasing their total health by 30% and reducing their damage taken by by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34076,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Fiend of Forges",
+    "description": "<span style=\"color: #ffffff; display: inline\">Forgefiend's Bulwark</span> now also increases your critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Forgefiend's Bulwark now also increases your critical strike chance by 10%.",
+    "iconPath": "interface/icons/uico_fire_spell_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300386,
+    "spellIds": [
+      300386
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29625
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300386,
+        "description": "<span style=\"color: #ffffff; display: inline\">Forgefiend's Bulwark</span> now also increases your critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Forgefiend's Bulwark now also increases your critical strike chance by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34077,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellfire Reprimand",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance on hit to launch a firebolt dealing <span class=\"item-number\">40% Strength</span> Fire Damage and reducing enemy attack power by <span class=\"item-number\">190</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Your Hellfire Imps now have a 20% chance on hit to launch a firebolt dealing 40% Strength Fire Damage and reducing enemy attack power by 190 for 10 seconds.",
+    "iconPath": "interface/icons/inv_plate_firelands_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706565,
+    "spellIds": [
+      706565
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6392,
+      6928
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706565,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance on hit to launch a firebolt dealing <span class=\"item-number\">40% Strength</span> Fire Damage and reducing enemy attack power by <span class=\"item-number\">190</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Your Hellfire Imps now have a 20% chance on hit to launch a firebolt dealing 40% Strength Fire Damage and reducing enemy attack power by 190 for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34079,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellish Rebuke",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skulltaker</span> and <span style=\"color: #ffffff; display: inline\">Melt</span> used with <span class=\"item-number\">6</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> now refund <span class=\"item-number\">2</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Skulltaker</span> used with <span class=\"item-number\">6</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> now deals an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> Fire Damage.",
+    "descriptionText": "Your Skulltaker and Melt used with 6 Demonfire now refund 2 Demonfire.\n\nSkulltaker used with 6 Demonfire now deals an additional 30% Fire Damage.",
+    "iconPath": "interface/icons/inv_belt_plate_raidwarrior_j_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704973,
+    "spellIds": [
+      704973
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704973,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skulltaker</span> and <span style=\"color: #ffffff; display: inline\">Melt</span> used with <span class=\"item-number\">6</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> now refund <span class=\"item-number\">2</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Skulltaker</span> used with <span class=\"item-number\">6</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> now deals an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> Fire Damage.",
+        "descriptionText": "Your Skulltaker and Melt used with 6 Demonfire now refund 2 Demonfire.\n\nSkulltaker used with 6 Demonfire now deals an additional 30% Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34085,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Impcaller",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Call: Hellfire Imp</span> into <span style=\"color: #ffffff; display: inline\">Impcaller</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_warlock_summonimpoutland\" /><span class=\"name\">Impcaller (Aura)</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> now summons a <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> to aid you in combat for <span class=\"item-number\">10</span> seconds, but its Rage cost is increased by <span class=\"item-number\">10</span>.<br /><br />In addition, the maximum health of your imps is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Transforms your Call: Hellfire Imp into Impcaller.\n\n---\n\nImpcaller (Aura)Your Infernal Strike now summons a Hellfire Imp to aid you in combat for 10 seconds, but its Rage cost is increased by 10.\n\nIn addition, the maximum health of your imps is increased by 30%.",
+    "iconPath": "interface/icons/spell_warlock_summonimpoutland",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706755,
+    "spellIds": [
+      706755
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30236
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 643344,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706755,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Call: Hellfire Imp</span> into <span style=\"color: #ffffff; display: inline\">Impcaller</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_warlock_summonimpoutland\" /><span class=\"name\">Impcaller (Aura)</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> now summons a <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> to aid you in combat for <span class=\"item-number\">10</span> seconds, but its Rage cost is increased by <span class=\"item-number\">10</span>.<br /><br />In addition, the maximum health of your imps is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Transforms your Call: Hellfire Imp into Impcaller.\n\n---\n\nImpcaller (Aura)Your Infernal Strike now summons a Hellfire Imp to aid you in combat for 10 seconds, but its Rage cost is increased by 10.\n\nIn addition, the maximum health of your imps is increased by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34086,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Brimstone Knight",
+    "description": "Increases your Fire Damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and dealing Fire Damage increases the enemy spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Increases your Fire Damage dealt by 3% and dealing Fire Damage increases the enemy spell damage taken by 10% for 15 seconds.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0009s_0000_fire_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704972,
+    "spellIds": [
+      704972
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6391,
+      6860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 63221,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704972,
+        "description": "Increases your Fire Damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and dealing Fire Damage increases the enemy spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Increases your Fire Damage dealt by 3% and dealing Fire Damage increases the enemy spell damage taken by 10% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34087,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Pestilent Retaliation",
+    "description": "When you block an attack you now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to unleash your active <span style=\"color: #FfFFFF; display: inline\">Pestilence</span> at half of its effectiveness.<br /><br />Can only occur once every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "When you block an attack you now have a 5% chance to unleash your active Pestilence at half of its effectiveness.\n\nCan only occur once every 5 sec.",
+    "iconPath": "interface/icons/5_bull_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704971,
+    "spellIds": [
+      704971
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6681,
+      6860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704971,
+        "description": "When you block an attack you now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to unleash your active <span style=\"color: #FfFFFF; display: inline\">Pestilence</span> at half of its effectiveness.<br /><br />Can only occur once every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "When you block an attack you now have a 5% chance to unleash your active Pestilence at half of its effectiveness.\n\nCan only occur once every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34097,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellfire Sieger",
+    "description": "Doubles the absorption of <span style=\"color: #ffffff; display: inline\">Black Shield</span> while below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Doubles the absorption of Black Shield while below 35% health.",
+    "iconPath": "interface/icons/inv_magemount_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560828,
+    "spellIds": [
+      560828
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34079
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 560828,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560828,
+        "description": "Doubles the absorption of <span style=\"color: #ffffff; display: inline\">Black Shield</span> while below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Doubles the absorption of Black Shield while below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34132,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Implosion",
+    "description": "Explode with hellish fire, dealing <span class=\"item-number\">542</span> + <span class=\"item-number\">25% Strength</span> + <span class=\"item-number\">50% fire SP</span> + <span class=\"item-number\">10% AP</span> Fire Damage to nearby enemies, beckoning <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> to aid you in battle for <span class=\"item-number\">15</span> seconds, and generating <span class=\"item-number\">30</span> Rage.<br /><br />Deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage and the amount of imps summoned is increased by <span class=\"item-number\">1</span> for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.",
+    "descriptionText": "Explode with hellish fire, dealing 542 + 25% Strength + 50% fire SP + 10% AP Fire Damage to nearby enemies, beckoning Hellfire Imps to aid you in battle for 15 seconds, and generating 30 Rage.\n\nDeals 20% increased damage and the amount of imps summoned is increased by 1 for each Demonfire consumed.",
+    "iconPath": "interface/icons/custom_12_summon_imp_army_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524897,
+    "spellIds": [
+      524897
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6679,
+      34085
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524897,
+        "description": "Explode with hellish fire, dealing <span class=\"item-number\">542</span> + <span class=\"item-number\">25% Strength</span> + <span class=\"item-number\">50% fire SP</span> + <span class=\"item-number\">10% AP</span> Fire Damage to nearby enemies, beckoning <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> to aid you in battle for <span class=\"item-number\">15</span> seconds, and generating <span class=\"item-number\">30</span> Rage.<br /><br />Deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage and the amount of imps summoned is increased by <span class=\"item-number\">1</span> for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.",
+        "descriptionText": "Explode with hellish fire, dealing 542 + 25% Strength + 50% fire SP + 10% AP Fire Damage to nearby enemies, beckoning Hellfire Imps to aid you in battle for 15 seconds, and generating 30 Rage.\n\nDeals 20% increased damage and the amount of imps summoned is increased by 1 for each Demonfire consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29615,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Fiery Retribution",
+    "description": "Each time a <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> dies, you reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Sacrificial Circle</span> by <span class=\"item-number\">-2</span> sec and <span style=\"color: #ffffff; display: inline\">Implosion</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Each time a Hellfire Imp dies, you reduce the cooldown of Sacrificial Circle by -2 sec and Implosion by -1 sec.",
+    "iconPath": "interface/icons/inv_stave_2h_firelandsraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804013,
+    "spellIds": [
+      804013
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30700,
+      34076
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804013,
+        "description": "Each time a <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> dies, you reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Sacrificial Circle</span> by <span class=\"item-number\">-2</span> sec and <span style=\"color: #ffffff; display: inline\">Implosion</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Each time a Hellfire Imp dies, you reduce the cooldown of Sacrificial Circle by -2 sec and Implosion by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29624,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Brimstone Striker",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Hellish Rebuke</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sever</span> and <span style=\"color: #ffffff; display: inline\">Juggernaut</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Damage dealt by Hellish Rebuke now reduces the cooldown of Sever and Juggernaut by -1 sec.",
+    "iconPath": "interface/icons/inv_implosion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807144,
+    "spellIds": [
+      807144
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34079
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 560828,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807144,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Hellish Rebuke</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sever</span> and <span style=\"color: #ffffff; display: inline\">Juggernaut</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Damage dealt by Hellish Rebuke now reduces the cooldown of Sever and Juggernaut by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29625,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Forgefiend's Bulwark",
+    "description": "Successful blocks, parries and dodges now have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to Enrage you, increasing your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Successful blocks, parries and dodges now have a 30% chance to Enrage you, increasing your damage dealt by 10% for 10 seconds.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_fire_0004s_0000_armor_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801065,
+    "spellIds": [
+      801065
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6681
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801065,
+        "description": "Successful blocks, parries and dodges now have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to Enrage you, increasing your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Successful blocks, parries and dodges now have a 30% chance to Enrage you, increasing your damage dealt by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30124,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Black Skull Shield",
+    "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Shieldgore</span> by <span class=\"item-number\">-5</span> and increases its damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Rage cost of Shieldgore by -5 and increases its damage by 25%.",
+    "iconPath": "interface/icons/inv_shield_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804354,
+    "spellIds": [
+      804354
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30699
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 532523,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804354,
+        "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Shieldgore</span> by <span class=\"item-number\">-5</span> and increases its damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Rage cost of Shieldgore by -5 and increases its damage by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30125,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Hellwrath",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> can now stack <span class=\"item-number\">5</span> additional times and each stack now increases the absorption amount of <span style=\"color: #ffffff; display: inline\">Black Shield</span> by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Demon's Blood can now stack 5 additional times and each stack now increases the absorption amount of Black Shield by 1%.",
+    "iconPath": "interface/icons/inv_trinket_firelands_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804014,
+    "spellIds": [
+      804014
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29624,
+      31079,
+      34097
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804014,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> can now stack <span class=\"item-number\">5</span> additional times and each stack now increases the absorption amount of <span style=\"color: #ffffff; display: inline\">Black Shield</span> by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Demon's Blood can now stack 5 additional times and each stack now increases the absorption amount of Black Shield by 1%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30177,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Curse of Xoroth",
+    "description": "Curse an enemy for <span class=\"item-number\">15</span> seconds, dealing <span class=\"item-number\">1587700</span> + <span class=\"item-number\">100000% AP</span> Shadowflame Damage over <span class=\"item-number\">15</span> seconds.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Shieldgore</span> within <span class=\"item-number\">12</span> seconds grants you <span style=\"color: #ffffff; display: inline\">Black Shield</span>, absorbing <span class=\"item-number\">940</span> + <span class=\"item-number\">200% Stamina</span> damage for <span class=\"item-number\">30</span> seconds.",
+    "descriptionText": "Curse an enemy for 15 seconds, dealing 1587700 + 100000% AP Shadowflame Damage over 15 seconds.\n\nYour next Shieldgore within 12 seconds grants you Black Shield, absorbing 940 + 200% Stamina damage for 30 seconds.",
+    "iconPath": "interface/icons/inv_shadowflame_groundstate",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804169,
+    "spellIds": [
+      804169
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7887,
+      30124,
+      30700,
+      31079
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804169,
+        "description": "Curse an enemy for <span class=\"item-number\">15</span> seconds, dealing <span class=\"item-number\">1587700</span> + <span class=\"item-number\">100000% AP</span> Shadowflame Damage over <span class=\"item-number\">15</span> seconds.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Shieldgore</span> within <span class=\"item-number\">12</span> seconds grants you <span style=\"color: #ffffff; display: inline\">Black Shield</span>, absorbing <span class=\"item-number\">940</span> + <span class=\"item-number\">200% Stamina</span> damage for <span class=\"item-number\">30</span> seconds.",
+        "descriptionText": "Curse an enemy for 15 seconds, dealing 1587700 + 100000% AP Shadowflame Damage over 15 seconds.\n\nYour next Shieldgore within 12 seconds grants you Black Shield, absorbing 940 + 200% Stamina damage for 30 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30229,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Shieldgore",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> into <span style=\"color: #ffffff; display: inline\">Shieldgore</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_draenorraid_d_02\" /><span class=\"name\">Shieldgore</span></div><span class=\"desc\"><span style=\"color: #ff9933; display: inline\">Generates <span class=\"item-number\">2</span> Demonfire</span><br />Gore the target with your spiked shield, causing <span class=\"item-number\">21</span> + <span class=\"item-number\">35% AP</span> High Threat Fire Damage, scaling with your block value.</span></div>",
+    "descriptionText": "Transforms your Infernal Strike into Shieldgore.\n\n---\n\nShieldgoreGenerates 2 Demonfire\nGore the target with your spiked shield, causing 21 + 35% AP High Threat Fire Damage, scaling with your block value.",
+    "iconPath": "interface/icons/inv_shield_draenorraid_d_02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301302,
+    "spellIds": [
+      301302
+    ],
+    "requiredNodeIds": [
+      4018
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301302,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> into <span style=\"color: #ffffff; display: inline\">Shieldgore</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_draenorraid_d_02\" /><span class=\"name\">Shieldgore</span></div><span class=\"desc\"><span style=\"color: #ff9933; display: inline\">Generates <span class=\"item-number\">2</span> Demonfire</span><br />Gore the target with your spiked shield, causing <span class=\"item-number\">21</span> + <span class=\"item-number\">35% AP</span> High Threat Fire Damage, scaling with your block value.</span></div>",
+        "descriptionText": "Transforms your Infernal Strike into Shieldgore.\n\n---\n\nShieldgoreGenerates 2 Demonfire\nGore the target with your spiked shield, causing 21 + 35% AP High Threat Fire Damage, scaling with your block value."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30235,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "A Gift from Hell",
+    "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Infernal Strike</span>, <span style=\"color: #ffffff; display: inline\">Meatsaw</span>, and <span style=\"color: #ffffff; display: inline\">Melt</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Rage cost of Infernal Strike, Meatsaw, and Melt by -10.",
+    "iconPath": "interface/icons/inv_ascend_blacksmith_25",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300390,
+    "spellIds": [
+      300390
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30236
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300390,
+        "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Infernal Strike</span>, <span style=\"color: #ffffff; display: inline\">Meatsaw</span>, and <span style=\"color: #ffffff; display: inline\">Melt</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Rage cost of Infernal Strike, Meatsaw, and Melt by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30236,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Call: Hellfire Imp",
+    "description": "<span style=\"color: #ff9933; display: inline\">Generates <span class=\"item-number\">2</span> Demonfire</span><br />Beckon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> to aid you in battle for <span class=\"item-number\">15</span> sec and generate <span class=\"item-number\">20</span> Rage.<br /><br />Threat generated by <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> is transferred to you.",
+    "descriptionText": "Generates 2 Demonfire\nBeckon 1 Hellfire Imp to aid you in battle for 15 sec and generate 20 Rage.\n\nThreat generated by Hellfire Imps is transferred to you.",
+    "iconPath": "interface/icons/ability_warlock_empoweredimp",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804883,
+    "spellIds": [
+      804883
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30229
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804883,
+        "description": "<span style=\"color: #ff9933; display: inline\">Generates <span class=\"item-number\">2</span> Demonfire</span><br />Beckon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Hellfire Imp</span> to aid you in battle for <span class=\"item-number\">15</span> sec and generate <span class=\"item-number\">20</span> Rage.<br /><br />Threat generated by <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> is transferred to you.",
+        "descriptionText": "Generates 2 Demonfire\nBeckon 1 Hellfire Imp to aid you in battle for 15 sec and generate 20 Rage.\n\nThreat generated by Hellfire Imps is transferred to you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30237,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Bulwark of Xoroth",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Shieldgore</span> will now apply <span style=\"color: #ffffff; display: inline\">Torn Flesh</span>, causing the target to bleed for <span class=\"item-number\">27</span> over <span class=\"item-number\">9</span> seconds.",
+    "descriptionText": "Damage dealt by Shieldgore will now apply Torn Flesh, causing the target to bleed for 27 over 9 seconds.",
+    "iconPath": "interface/icons/inv_shield_pvp410_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300388,
+    "spellIds": [
+      300388
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30235
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300388,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Shieldgore</span> will now apply <span style=\"color: #ffffff; display: inline\">Torn Flesh</span>, causing the target to bleed for <span class=\"item-number\">27</span> over <span class=\"item-number\">9</span> seconds.",
+        "descriptionText": "Damage dealt by Shieldgore will now apply Torn Flesh, causing the target to bleed for 27 over 9 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30428,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 47,
+    "tabKey": "17:47",
+    "tabName": "Defiance",
+    "name": "Legion's Presence",
+    "description": "Emanate an aura to allies within <span class=\"item-number\">25</span> yds for <span class=\"item-number\">15</span> seconds, increasing their damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Fire Damage dealt by <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> is increased by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> and total health increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> while this effect is active on them.",
+    "descriptionText": "Emanate an aura to allies within 25 yds for 15 seconds, increasing their damage dealt by 10%.\n\nFire Damage dealt by Hellfire Imps is increased by 150% and total health increased by 50% while this effect is active on them.",
+    "iconPath": "interface/icons/achievement_dungeon_blackrockcaverns",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804879,
+    "spellIds": [
+      804879
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29615,
+      30177
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804879,
+        "description": "Emanate an aura to allies within <span class=\"item-number\">25</span> yds for <span class=\"item-number\">15</span> seconds, increasing their damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Fire Damage dealt by <span style=\"color: #ffffff; display: inline\">Hellfire Imps</span> is increased by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> and total health increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> while this effect is active on them.",
+        "descriptionText": "Emanate an aura to allies within 25 yds for 15 seconds, increasing their damage dealt by 10%.\n\nFire Damage dealt by Hellfire Imps is increased by 150% and total health increased by 50% while this effect is active on them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

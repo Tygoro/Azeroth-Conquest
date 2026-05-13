@@ -1,0 +1,1773 @@
+[
+  {
+    "nodeId": 9977,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Lights of Absolution",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now grants you <span style=\"color: #ffffff; display: inline\">Light of Absolution</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_holywhirlpool_border\" /><span class=\"name\">Lights of Absolution</span></div><span class=\"desc\">Damage dealt by <span style=\"color: #ffffff; display: inline\">Solar Flares</span> now restores <span class=\"item-number\">2</span><span class=\"item-number\">%</span> missing health, Energy, Focus, Runic Power, and Rage to allies within <span class=\"item-number\">40</span> yds. Can only occur once every <span class=\"item-number\">0.5</span> sec.</span></div>",
+    "descriptionText": "Damage dealt by Horusath Blast now grants you Light of Absolution for 10 seconds.\n\n---\n\nLights of AbsolutionDamage dealt by Solar Flares now restores 2% missing health, Energy, Focus, Runic Power, and Rage to allies within 40 yds. Can only occur once every 0.5 sec.",
+    "iconPath": "interface/icons/nhi_holywhirlpool_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807343,
+    "spellIds": [
+      807343
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30795
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 123622,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807343,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now grants you <span style=\"color: #ffffff; display: inline\">Light of Absolution</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_holywhirlpool_border\" /><span class=\"name\">Lights of Absolution</span></div><span class=\"desc\">Damage dealt by <span style=\"color: #ffffff; display: inline\">Solar Flares</span> now restores <span class=\"item-number\">2</span><span class=\"item-number\">%</span> missing health, Energy, Focus, Runic Power, and Rage to allies within <span class=\"item-number\">40</span> yds. Can only occur once every <span class=\"item-number\">0.5</span> sec.</span></div>",
+        "descriptionText": "Damage dealt by Horusath Blast now grants you Light of Absolution for 10 seconds.\n\n---\n\nLights of AbsolutionDamage dealt by Solar Flares now restores 2% missing health, Energy, Focus, Runic Power, and Rage to allies within 40 yds. Can only occur once every 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12210,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Flames of the Father",
+    "description": "Your Fire Damage dealt is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+    "descriptionText": "Your Fire Damage dealt is increased by 10% against Burning targets.",
+    "iconPath": "interface/icons/ability_mage_flamecannon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806458,
+    "spellIds": [
+      806458
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4986,
+      9977,
+      30307,
+      33986
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806458,
+        "description": "Your Fire Damage dealt is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+        "descriptionText": "Your Fire Damage dealt is increased by 10% against Burning targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9896,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Day Cycles",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />While in <span style=\"color: #ffffff; display: inline\">Sunrise</span>, the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> is reduced by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec.<br /><br />While in <span style=\"color: #ffffff; display: inline\">Sunset</span>, the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Rapture</span> is reduced by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Level 50 Passive\nWhile in Sunrise, the remaining cooldown of Horusath Blast is reduced by 10% every 1 sec.\n\nWhile in Sunset, the remaining cooldown of Rapture is reduced by 10% every 1 sec.",
+    "iconPath": "interface/icons/nhi_holywatch_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300361,
+    "spellIds": [
+      300361
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4816
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300361,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />While in <span style=\"color: #ffffff; display: inline\">Sunrise</span>, the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> is reduced by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec.<br /><br />While in <span style=\"color: #ffffff; display: inline\">Sunset</span>, the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Rapture</span> is reduced by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Level 50 Passive\nWhile in Sunrise, the remaining cooldown of Horusath Blast is reduced by 10% every 1 sec.\n\nWhile in Sunset, the remaining cooldown of Rapture is reduced by 10% every 1 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7343,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "A Pious Life",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> and <span style=\"color: #ffffff; display: inline\">Rapture</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Horusath Blast and Rapture by 15%.",
+    "iconPath": "interface/icons/5_priestskill26_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 570027,
+    "spellIds": [
+      570027,
+      570223
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30812
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570027,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> and <span style=\"color: #ffffff; display: inline\">Rapture</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Horusath Blast and Rapture by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 570223,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> and <span style=\"color: #ffffff; display: inline\">Rapture</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Horusath Blast and Rapture by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31194,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Dawnsear",
+    "description": "Blast an enemy with burning light, dealing <span class=\"item-number\">79</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage.",
+    "descriptionText": "Blast an enemy with burning light, dealing 79 + 100% fire SP Fire Damage.",
+    "iconPath": "interface/icons/nhi_fire_solar_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500146,
+    "spellIds": [
+      500146
+    ],
+    "requiredNodeIds": [
+      4046
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500146,
+        "description": "Blast an enemy with burning light, dealing <span class=\"item-number\">79</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage.",
+        "descriptionText": "Blast an enemy with burning light, dealing 79 + 100% fire SP Fire Damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30136,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Sunburn",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Rapture</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Reduces the cast time of Rapture by -0.5 sec.",
+    "iconPath": "interface/icons/spell_burningsoul",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300365,
+    "spellIds": [
+      300365
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300365,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Rapture</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Reduces the cast time of Rapture by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30137,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Grace",
+    "description": "Increases the spell damage bonus of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Sunflare</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell damage bonus of Dawnsear by 20% and Sunflare by 10%.",
+    "iconPath": "interface/icons/5_paladinskill18_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504070,
+    "spellIds": [
+      504070
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9977,
+      30307,
+      30814
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504070,
+        "description": "Increases the spell damage bonus of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Sunflare</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell damage bonus of Dawnsear by 20% and Sunflare by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30307,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Flames of Absolution",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now launches a <span style=\"color: #ffffff; display: inline\">Solar Flare</span> at up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds of your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Damage dealt by Horusath Blast now launches a Solar Flare at up to 5 enemies within 5 yds of your target.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_holyrod_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804632,
+    "spellIds": [
+      804632
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30795
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 123622,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804632,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now launches a <span style=\"color: #ffffff; display: inline\">Solar Flare</span> at up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds of your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Damage dealt by Horusath Blast now launches a Solar Flare at up to 5 enemies within 5 yds of your target.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30308,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Burning Cascade",
+    "description": "Reduces the cast time and mana cost of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> and <span style=\"color: #FFFFFF; display: inline\">Sunflare</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time and mana cost of Dawnsear and Sunflare by -10%.",
+    "iconPath": "interface/icons/nhi_firehands_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560859,
+    "spellIds": [
+      560859,
+      561329
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34050
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560859,
+        "description": "Reduces the cast time and mana cost of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> and <span style=\"color: #FFFFFF; display: inline\">Sunflare</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time and mana cost of Dawnsear and Sunflare by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561329,
+        "description": "Reduces the cast time and mana cost of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> and <span style=\"color: #FFFFFF; display: inline\">Sunflare</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time and mana cost of Dawnsear and Sunflare by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30310,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Sun's Hope",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Solar Flares</span> now has a <span class=\"item-number\">33</span><span class=\"item-number\">%</span> chance to grant you <span class=\"item-number\">1</span> <span style=\"color: #FF9800; display: inline\">Solar Power</span> and increase the targets chance to be critically struck by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Damage dealt by Solar Flares now has a 33% chance to grant you 1 Solar Power and increase the targets chance to be critically struck by spells by 3% for 15 seconds.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds.",
+    "iconPath": "interface/icons/spell_holy_searinglight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560276,
+    "spellIds": [
+      560276
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560276,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Solar Flares</span> now has a <span class=\"item-number\">33</span><span class=\"item-number\">%</span> chance to grant you <span class=\"item-number\">1</span> <span style=\"color: #FF9800; display: inline\">Solar Power</span> and increase the targets chance to be critically struck by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Damage dealt by Solar Flares now has a 33% chance to grant you 1 Solar Power and increase the targets chance to be critically struck by spells by 3% for 15 seconds.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30311,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Solar Conduit",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> while <span style=\"color: #FF9800; display: inline\">Dawn</span> is active.",
+    "descriptionText": "Reduces the cast time of Dawnsear by -20% while Dawn is active.",
+    "iconPath": "interface/icons/custom_t_fireinourhands_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300321,
+    "spellIds": [
+      300321
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30957
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300321,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Dawnsear</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> while <span style=\"color: #FF9800; display: inline\">Dawn</span> is active.",
+        "descriptionText": "Reduces the cast time of Dawnsear by -20% while Dawn is active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30312,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Purgation",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Radiant Flame</span> now increases the target's Holy and Fire Damage taken from you by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">8</span> times.",
+    "descriptionText": "Dealing damage with Radiant Flame now increases the target's Holy and Fire Damage taken from you by 1% for 8 seconds, stacking 8 times.",
+    "iconPath": "interface/icons/inv_misc_firedancer_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806024,
+    "spellIds": [
+      806024
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30308
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806024,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Radiant Flame</span> now increases the target's Holy and Fire Damage taken from you by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">8</span> times.",
+        "descriptionText": "Dealing damage with Radiant Flame now increases the target's Holy and Fire Damage taken from you by 1% for 8 seconds, stacking 8 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33986,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Radiant Fury",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> is now increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Damage dealt by Radiant Flame is now increased by 10% on enemies below 35% health.",
+    "iconPath": "interface/icons/spell_holy_searinglightpriest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300325,
+    "spellIds": [
+      300325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30795
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 632111,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300325,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> is now increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Damage dealt by Radiant Flame is now increased by 10% on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34020,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Moment of Triumph",
+    "description": "<span style=\"color: #ffffff; display: inline\">Horusath Blast</span> or <span style=\"color: #ffffff; display: inline\">Rapture</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to not incur a cooldown on cast.",
+    "descriptionText": "Horusath Blast or Rapture now have a 20% chance to not incur a cooldown on cast.",
+    "iconPath": "interface/icons/spell_holy_divinepurpose",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300367,
+    "spellIds": [
+      300367
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30813,
+      34046
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300367,
+        "description": "<span style=\"color: #ffffff; display: inline\">Horusath Blast</span> or <span style=\"color: #ffffff; display: inline\">Rapture</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to not incur a cooldown on cast.",
+        "descriptionText": "Horusath Blast or Rapture now have a 20% chance to not incur a cooldown on cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34046,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Learning Light",
+    "description": "Entering <span style=\"color: #ffffff; display: inline\">Sunset</span> or <span style=\"color: #ffffff; display: inline\">Sunrise</span> increases your spell haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>. Lasts for <span class=\"item-number\">10</span> seconds or <span class=\"item-number\">3</span> casts.",
+    "descriptionText": "Entering Sunset or Sunrise increases your spell haste by 20%. Lasts for 10 seconds or 3 casts.",
+    "iconPath": "interface/icons/nhi_bookthrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300360,
+    "spellIds": [
+      300360
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300360,
+        "description": "Entering <span style=\"color: #ffffff; display: inline\">Sunset</span> or <span style=\"color: #ffffff; display: inline\">Sunrise</span> increases your spell haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>. Lasts for <span class=\"item-number\">10</span> seconds or <span class=\"item-number\">3</span> casts.",
+        "descriptionText": "Entering Sunset or Sunrise increases your spell haste by 20%. Lasts for 10 seconds or 3 casts."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34049,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Soul of Light",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">An'she's Blessing</span> by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of An'she's Blessing by -60 sec.",
+    "iconPath": "interface/icons/spell_holy_blessingofprotection",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807964,
+    "spellIds": [
+      807964
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807964,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">An'she's Blessing</span> by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of An'she's Blessing by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34050,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Scorch Marks",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Dawnsear</span> and <span style=\"color: #ffffff; display: inline\">Sunflare</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to grant <span style=\"color: #ffffff; display: inline\">Scorch Marks</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_1h_artifactstormfist_d_03\" /><span class=\"name\">Scorch Marks</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Radiant Flame</span> has no mana cost, ticks <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster, and its duration is reduced by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Casting Dawnsear and Sunflare now have a 40% chance to grant Scorch Marks for 10 seconds.\n\n---\n\nScorch MarksYour next Radiant Flame has no mana cost, ticks -50% faster, and its duration is reduced by -50%.",
+    "iconPath": "interface/icons/inv_shield_1h_artifactstormfist_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806021,
+    "spellIds": [
+      806021
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30957
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806021,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Dawnsear</span> and <span style=\"color: #ffffff; display: inline\">Sunflare</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to grant <span style=\"color: #ffffff; display: inline\">Scorch Marks</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_1h_artifactstormfist_d_03\" /><span class=\"name\">Scorch Marks</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Radiant Flame</span> has no mana cost, ticks <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster, and its duration is reduced by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Casting Dawnsear and Sunflare now have a 40% chance to grant Scorch Marks for 10 seconds.\n\n---\n\nScorch MarksYour next Radiant Flame has no mana cost, ticks -50% faster, and its duration is reduced by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34051,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Harsh Lessons",
+    "description": "Casting <span style=\"color: #FF9800; display: inline\">Dawn</span> now grants <span style=\"color: #ffffff; display: inline\">Scorch Marks</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_1h_artifactstormfist_d_03\" /><span class=\"name\">Scorch Marks</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Radiant Flame</span> has no mana cost, ticks <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster, and its duration is reduced by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Casting Dawn now grants Scorch Marks.\n\n---\n\nScorch MarksYour next Radiant Flame has no mana cost, ticks -50% faster, and its duration is reduced by -50%.",
+    "iconPath": "interface/icons/_maievblade_light",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804625,
+    "spellIds": [
+      804625
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30812
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804625,
+        "description": "Casting <span style=\"color: #FF9800; display: inline\">Dawn</span> now grants <span style=\"color: #ffffff; display: inline\">Scorch Marks</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_1h_artifactstormfist_d_03\" /><span class=\"name\">Scorch Marks</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Radiant Flame</span> has no mana cost, ticks <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster, and its duration is reduced by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Casting Dawn now grants Scorch Marks.\n\n---\n\nScorch MarksYour next Radiant Flame has no mana cost, ticks -50% faster, and its duration is reduced by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34052,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Burning Heat",
+    "description": "$a3",
+    "descriptionText": "$a3",
+    "iconPath": "interface/icons/spell_holy_devineaegis",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704908,
+    "spellIds": [
+      704908
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7343,
+      30797
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704908,
+        "description": "$a4",
+        "descriptionText": "$a4"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34053,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Solar Champion",
+    "description": "Increases the range of your Piety spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces the threat generated by them by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the range of your Piety spells by 20% and reduces the threat generated by them by -20%.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_fire_0004s_0000_armor_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504734,
+    "spellIds": [
+      504734
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7281,
+      30308
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504734,
+        "description": "Increases the range of your Piety spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces the threat generated by them by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the range of your Piety spells by 20% and reduces the threat generated by them by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29505,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Sun Down",
+    "description": "$a5",
+    "descriptionText": "$a5",
+    "iconPath": "interface/icons/uico_fire_spell_07_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572752,
+    "spellIds": [
+      572752
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5312,
+      30797,
+      34020
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572752,
+        "description": "$a6",
+        "descriptionText": "$a6"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30795,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Solar Concord",
+    "description": "Resets the cooldown of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> while in <span style=\"color: #ffffff; display: inline\">Sunrise</span> and <span style=\"color: #ffffff; display: inline\">Rapture</span> while in <span style=\"color: #ffffff; display: inline\">Sunset</span> and causes their damage dealt to launch a <span style=\"color: #ffffff; display: inline\">Solar Flare</span>. Lasts <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Resets the cooldown of Horusath Blast while in Sunrise and Rapture while in Sunset and causes their damage dealt to launch a Solar Flare. Lasts 15 seconds.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds.",
+    "iconPath": "interface/icons/5_priestskill01_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301266,
+    "spellIds": [
+      301266
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7281
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301266,
+        "description": "Resets the cooldown of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> while in <span style=\"color: #ffffff; display: inline\">Sunrise</span> and <span style=\"color: #ffffff; display: inline\">Rapture</span> while in <span style=\"color: #ffffff; display: inline\">Sunset</span> and causes their damage dealt to launch a <span style=\"color: #ffffff; display: inline\">Solar Flare</span>. Lasts <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Resets the cooldown of Horusath Blast while in Sunrise and Rapture while in Sunset and causes their damage dealt to launch a Solar Flare. Lasts 15 seconds.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30797,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Spears of Glory",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now has an <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Spears of Glory</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_fireball_border\" /><span class=\"name\">Spears of Glory</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Dawnsear</span> within <span class=\"item-number\">10</span> seconds is instant cast and deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.</span></div>",
+    "descriptionText": "Damage dealt by Radiant Flame now has an 15% chance to grant you Spears of Glory.\n\n---\n\nSpears of GloryYour next Dawnsear within 10 seconds is instant cast and deals 25% increased damage.",
+    "iconPath": "interface/icons/nhi_fireball_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804629,
+    "spellIds": [
+      804629
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30136,
+      34051
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804629,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now has an <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Spears of Glory</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_fireball_border\" /><span class=\"name\">Spears of Glory</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Dawnsear</span> within <span class=\"item-number\">10</span> seconds is instant cast and deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.</span></div>",
+        "descriptionText": "Damage dealt by Radiant Flame now has an 15% chance to grant you Spears of Glory.\n\n---\n\nSpears of GloryYour next Dawnsear within 10 seconds is instant cast and deals 25% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30812,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Holy Fervor",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Sunrise</span> and <span style=\"color: #ffffff; display: inline\">Sunset</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Sunrise and Sunset by 25%.",
+    "iconPath": "interface/icons/nhi_holy_beam_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300323,
+    "spellIds": [
+      300323
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4986,
+      30815,
+      33986
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300323,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Sunrise</span> and <span style=\"color: #ffffff; display: inline\">Sunset</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Sunrise and Sunset by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30813,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Adjudication",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Rapture</span> now causes your next <span style=\"color: #ffffff; display: inline\">Dawnsear</span> within <span class=\"item-number\">10</span> seconds to strike your target twice.",
+    "descriptionText": "Casting Rapture now causes your next Dawnsear within 10 seconds to strike your target twice.",
+    "iconPath": "interface/icons/_soulfire_light",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804630,
+    "spellIds": [
+      804630
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804630,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Rapture</span> now causes your next <span style=\"color: #ffffff; display: inline\">Dawnsear</span> within <span class=\"item-number\">10</span> seconds to strike your target twice.",
+        "descriptionText": "Casting Rapture now causes your next Dawnsear within 10 seconds to strike your target twice."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30814,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Sunwell",
+    "description": "Become an embodiment of the sun for <span class=\"item-number\">30</span> seconds that periodically dispels fear, sleep, and charm effects every <span class=\"item-number\">3</span> sec from allies within <span class=\"item-number\">40</span> yds.",
+    "descriptionText": "Become an embodiment of the sun for 30 seconds that periodically dispels fear, sleep, and charm effects every 3 sec from allies within 40 yds.",
+    "iconPath": "interface/icons/nhi_holy_tornado_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560123,
+    "spellIds": [
+      560123
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6866,
+      30310
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560123,
+        "description": "Become an embodiment of the sun for <span class=\"item-number\">30</span> seconds that periodically dispels fear, sleep, and charm effects every <span class=\"item-number\">3</span> sec from allies within <span class=\"item-number\">40</span> yds.",
+        "descriptionText": "Become an embodiment of the sun for 30 seconds that periodically dispels fear, sleep, and charm effects every 3 sec from allies within 40 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30815,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Sun Gate",
+    "description": "Shift <span class=\"item-number\">25</span> yds forward at light speed, removing all root effects.<br /><br />This leaves behind a <span style=\"color: #ffffff; display: inline\">Sun Gate</span> for <span class=\"item-number\">15</span> seconds that allies can interact with to blink themselves the same distance forward. Allies can only use <span style=\"color: #ffffff; display: inline\">Sun Gate</span> every <span class=\"item-number\">90</span> seconds.",
+    "descriptionText": "Shift 25 yds forward at light speed, removing all root effects.\n\nThis leaves behind a Sun Gate for 15 seconds that allies can interact with to blink themselves the same distance forward. Allies can only use Sun Gate every 90 seconds.",
+    "iconPath": "interface/icons/ability_paladin_blindinglight2",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802161,
+    "spellIds": [
+      802161
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30312,
+      34053
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802161,
+        "description": "Shift <span class=\"item-number\">25</span> yds forward at light speed, removing all root effects.<br /><br />This leaves behind a <span style=\"color: #ffffff; display: inline\">Sun Gate</span> for <span class=\"item-number\">15</span> seconds that allies can interact with to blink themselves the same distance forward. Allies can only use <span style=\"color: #ffffff; display: inline\">Sun Gate</span> every <span class=\"item-number\">90</span> seconds.",
+        "descriptionText": "Shift 25 yds forward at light speed, removing all root effects.\n\nThis leaves behind a Sun Gate for 15 seconds that allies can interact with to blink themselves the same distance forward. Allies can only use Sun Gate every 90 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30957,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Radiant Flame",
+    "description": "Launch radiant spheres at an enemy each dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">20.69% SP</span> Holyflame Damage, repeating every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Launch radiant spheres at an enemy each dealing 17 + 20.69% SP Holyflame Damage, repeating every 1 sec for 4 seconds.",
+    "iconPath": "interface/icons/nhi_holysparks_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806060,
+    "spellIds": [
+      806060
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31194
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806060,
+        "description": "Launch radiant spheres at an enemy each dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">20.69% SP</span> Holyflame Damage, repeating every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Launch radiant spheres at an enemy each dealing 17 + 20.69% SP Holyflame Damage, repeating every 1 sec for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6558,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "The Coming Dawn",
+    "description": "While <span style=\"color: #FF9800; display: inline\">Dawn</span> is active, damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Dawnfall</span> and <span style=\"color: #ffffff; display: inline\">Solar Concord</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "While Dawn is active, damage dealt by Radiant Flame now reduces the cooldown of Dawnfall and Solar Concord by -1 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holystrike_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560861,
+    "spellIds": [
+      560861
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560861,
+        "description": "While <span style=\"color: #FF9800; display: inline\">Dawn</span> is active, damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Dawnfall</span> and <span style=\"color: #ffffff; display: inline\">Solar Concord</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "While Dawn is active, damage dealt by Radiant Flame now reduces the cooldown of Dawnfall and Solar Concord by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2313,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Fire from the Heavens",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to launch a <span style=\"color: #ffffff; display: inline\">Solar Flare</span> at your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Level 20 Passive\nDamage dealt by Radiant Flame now has a 10% chance to launch a Solar Flare at your target.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds.",
+    "iconPath": "interface/icons/inv_circlet_firelands_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300369,
+    "spellIds": [
+      300369
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4046
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300369,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to launch a <span style=\"color: #ffffff; display: inline\">Solar Flare</span> at your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_druid_sunfall\" /><span class=\"name\">Solar Flare (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">17</span> + <span class=\"item-number\">8.67% SP</span> Holyflame Damage and reduces the target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Level 20 Passive\nDamage dealt by Radiant Flame now has a 10% chance to launch a Solar Flare at your target.\n\n---\n\nSolar Flare (Damage)Deals 17 + 8.67% SP Holyflame Damage and reduces the target's chance to hit by -3% for 10 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4046,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Sunrise and Sunset",
+    "description": "$a7",
+    "descriptionText": "$a7",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holymeditation_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92135,
+    "spellIds": [
+      92135
+    ],
+    "requiredNodeIds": [
+      29510
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92135,
+        "description": "$a8",
+        "descriptionText": "$a8"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7280,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Photosynthetic",
+    "description": "Increases your spell haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> during the day.",
+    "descriptionText": "Increases your spell haste by 3%, plus an additional 1% during the day.",
+    "iconPath": "interface/icons/70_inscription_vantus_rune_light",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 300363,
+    "spellIds": [
+      300363,
+      300621,
+      300626
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30311
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300363,
+        "description": "Increases your spell haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> during the day.",
+        "descriptionText": "Increases your spell haste by 3%, plus an additional 1% during the day."
+      },
+      {
+        "rank": 2,
+        "spellId": 300621,
+        "description": "Increases your spell haste by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">2</span><span class=\"item-number\">%</span> during the day.",
+        "descriptionText": "Increases your spell haste by 6%, plus an additional 2% during the day."
+      },
+      {
+        "rank": 3,
+        "spellId": 300626,
+        "description": "Increases your spell haste by <span class=\"item-number\">9</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span> during the day.",
+        "descriptionText": "Increases your spell haste by 9%, plus an additional 3% during the day."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7281,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Rapture",
+    "description": "Call down a streak of sun light to smite your target, dealing <span class=\"item-number\">96</span> + <span class=\"item-number\">200% fire SP</span> Fire Damage to them and nearby enemies, piercing all immunities, but dealing less damage with each enemy struck.",
+    "descriptionText": "Call down a streak of sun light to smite your target, dealing 96 + 200% fire SP Fire Damage to them and nearby enemies, piercing all immunities, but dealing less damage with each enemy struck.",
+    "iconPath": "interface/icons/ability_racial_orbitalstrike",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806477,
+    "spellIds": [
+      806477
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30311,
+      34050
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806477,
+        "description": "Call down a streak of sun light to smite your target, dealing <span class=\"item-number\">96</span> + <span class=\"item-number\">200% fire SP</span> Fire Damage to them and nearby enemies, piercing all immunities, but dealing less damage with each enemy struck.",
+        "descriptionText": "Call down a streak of sun light to smite your target, dealing 96 + 200% fire SP Fire Damage to them and nearby enemies, piercing all immunities, but dealing less damage with each enemy struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4816,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Pious",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your critical damage dealt by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> and your critical strikes grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Level 40 Passive\nIncreases your critical damage dealt by 150% and your critical strikes grant allies Replenishment.\n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds.",
+    "iconPath": "interface/icons/nhi_holywhirlpool_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300943,
+    "spellIds": [
+      300943
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2313
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300943,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your critical damage dealt by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> and your critical strikes grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Level 40 Passive\nIncreases your critical damage dealt by 150% and your critical strikes grant allies Replenishment.\n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4986,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "City of Light",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now restores <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your missing health and mana.",
+    "descriptionText": "Damage dealt by Radiant Flame now restores 3% of your missing health and mana.",
+    "iconPath": "interface/icons/ability_paladin_righteousvengeance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301239,
+    "spellIds": [
+      301239
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30795
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 632111,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301239,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Radiant Flame</span> now restores <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your missing health and mana.",
+        "descriptionText": "Damage dealt by Radiant Flame now restores 3% of your missing health and mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5312,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Burn The Heretics",
+    "description": "Increases your damage and healing by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against targets below <span class=\"item-number\">35%</span> health.<br /><br />Additionally, when <span style=\"color: #FFFFFF; display: inline\">Scorch Marks</span> are consumed you now gain <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased Magic Damage for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Increases your damage and healing by 10% against targets below 35% health.\n\nAdditionally, when Scorch Marks are consumed you now gain 10% increased Magic Damage for 8 seconds.",
+    "iconPath": "interface/icons/spell_holy_excorcism_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560857,
+    "spellIds": [
+      560857
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6558,
+      30136,
+      30813
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560857,
+        "description": "Increases your damage and healing by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against targets below <span class=\"item-number\">35%</span> health.<br /><br />Additionally, when <span style=\"color: #FFFFFF; display: inline\">Scorch Marks</span> are consumed you now gain <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased Magic Damage for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Increases your damage and healing by 10% against targets below 35% health.\n\nAdditionally, when Scorch Marks are consumed you now gain 10% increased Magic Damage for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6816,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Struck by the Sun",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your Holy and Fire spell damage by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and your spell hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 30 Passive\nIncreases your Holy and Fire spell damage by 40% and your spell hit rating by 6% of your Intellect.",
+    "iconPath": "interface/icons/spell_paladin_lightofdawn",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300723,
+    "spellIds": [
+      300723
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2313
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300723,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your Holy and Fire spell damage by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and your spell hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 30 Passive\nIncreases your Holy and Fire spell damage by 40% and your spell hit rating by 6% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6865,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Duality of Light",
+    "description": "$a9",
+    "descriptionText": "$a9",
+    "iconPath": "interface/icons/nhi_holy_hand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806116,
+    "spellIds": [
+      806116
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34020,
+      34049
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806116,
+        "description": "$aa",
+        "descriptionText": "$aa"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6866,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 70,
+    "tabKey": "27:70",
+    "tabName": "Piety",
+    "name": "Wrath of God",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Sunflare</span> and <span style=\"color: #ffffff; display: inline\">Dawnsear</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Sunflare and Dawnsear by 3% and reduces spell pushback suffered from damaging attacks by 50%.",
+    "iconPath": "interface/icons/nhi_fireinyourhand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 301267,
+    "spellIds": [
+      301267,
+      301343
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7280,
+      7281
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301267,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Sunflare</span> and <span style=\"color: #ffffff; display: inline\">Dawnsear</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Sunflare and Dawnsear by 3% and reduces spell pushback suffered from damaging attacks by 50%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301343,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Sunflare</span> and <span style=\"color: #ffffff; display: inline\">Dawnsear</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Sunflare and Dawnsear by 6% and reduces spell pushback suffered from damaging attacks by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

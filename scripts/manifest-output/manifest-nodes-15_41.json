@@ -1,0 +1,1804 @@
+[
+  {
+    "nodeId": 4012,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Flames of Sin",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Using <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now grants you <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> for <span class=\"item-number\">3</span> sec, causing your auto attacks to deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage.<br /><br />Granting yourself <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> in this way while it's already active will increase the current duration by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Level 10 Passive\nUsing Dawn Blade now grants you Flames of Sin for 3 sec, causing your auto attacks to deal an additional 10% of the damage dealt as Fire Damage.\n\nGranting yourself Flames of Sin in this way while it's already active will increase the current duration by 3 sec.",
+    "iconPath": "interface/icons/spell_shadow_shadowandflame",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92094,
+    "spellIds": [
+      92094
+    ],
+    "requiredNodeIds": [
+      6622
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92094,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Using <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now grants you <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> for <span class=\"item-number\">3</span> sec, causing your auto attacks to deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage.<br /><br />Granting yourself <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> in this way while it's already active will increase the current duration by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Level 10 Passive\nUsing Dawn Blade now grants you Flames of Sin for 3 sec, causing your auto attacks to deal an additional 10% of the damage dealt as Fire Damage.\n\nGranting yourself Flames of Sin in this way while it's already active will increase the current duration by 3 sec."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7063,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Refined Combatant",
+    "description": "Increases your expertise by <span class=\"item-number\">10</span>.",
+    "descriptionText": "Increases your expertise by 10.",
+    "iconPath": "interface/icons/ability_warrior_offensivestance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572770,
+    "spellIds": [
+      572770
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29951
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572770,
+        "description": "Increases your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7066,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Torchlight",
+    "description": "Throw a torch at an enemy, dealing <span class=\"item-number\">66</span> + <span class=\"item-number\">30% AP</span> + <span class=\"item-number\">45% fire SP</span> Fire Damage, and causing up to <span class=\"item-number\">5</span> of the next attacks you make against them to grant you <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and increasing the duration by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Throw a torch at an enemy, dealing 66 + 30% AP + 45% fire SP Fire Damage, and causing up to 5 of the next attacks you make against them to grant you Flames of Sin and increasing the duration by 2 sec.",
+    "iconPath": "interface/icons/inv_enchanting_70_pet_torch",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503662,
+    "spellIds": [
+      503662
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6857,
+      7599
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503662,
+        "description": "Throw a torch at an enemy, dealing <span class=\"item-number\">66</span> + <span class=\"item-number\">30% AP</span> + <span class=\"item-number\">45% fire SP</span> Fire Damage, and causing up to <span class=\"item-number\">5</span> of the next attacks you make against them to grant you <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and increasing the duration by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Throw a torch at an enemy, dealing 66 + 30% AP + 45% fire SP Fire Damage, and causing up to 5 of the next attacks you make against them to grant you Flames of Sin and increasing the duration by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7068,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Burned Alive",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Increases your critical strike chance by 25% on enemies below 20% health.",
+    "iconPath": "interface/icons/spell_fire_flameblades",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705478,
+    "spellIds": [
+      705478
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4589,
+      34547
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705478,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Increases your critical strike chance by 25% on enemies below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7074,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Hatred & Vitriol",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Stake</span> now ignores enemy armor and its critical strikes refund half of its cost.",
+    "descriptionText": "Damage dealt by Stake now ignores enemy armor and its critical strikes refund half of its cost.",
+    "iconPath": "interface/icons/_diablo3_cursedmonster_yellow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504470,
+    "spellIds": [
+      504470
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7068
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504470,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Stake</span> now ignores enemy armor and its critical strikes refund half of its cost.",
+        "descriptionText": "Damage dealt by Stake now ignores enemy armor and its critical strikes refund half of its cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7096,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Duskwood Renegade",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Burrow Bolt by -5 sec.",
+    "iconPath": "interface/icons/achievement_zone_duskwood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504677,
+    "spellIds": [
+      504677,
+      504891
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7598
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504677,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Burrow Bolt by -5 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 504891,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Reduces the cooldown of Burrow Bolt by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7097,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Dusk Blade",
+    "description": "Strike an enemy with both weapons, dealing Weapon Damage plus leeching <span class=\"item-number\">15</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">35% shadow SP</span> health as Shadow Damage, piercing resistances.",
+    "descriptionText": "Strike an enemy with both weapons, dealing Weapon Damage plus leeching 15 + 25% AP + 35% shadow SP health as Shadow Damage, piercing resistances.",
+    "iconPath": "interface/icons/novart_passivemastery_(6)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802020,
+    "spellIds": [
+      802020
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12263
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802020,
+        "description": "Strike an enemy with both weapons, dealing Weapon Damage plus leeching <span class=\"item-number\">15</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">35% shadow SP</span> health as Shadow Damage, piercing resistances.",
+        "descriptionText": "Strike an enemy with both weapons, dealing Weapon Damage plus leeching 15 + 25% AP + 35% shadow SP health as Shadow Damage, piercing resistances."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6610,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Holy Frenzy",
+    "description": "Increases your melee haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your melee haste by 15%.",
+    "iconPath": "interface/icons/ability_warrior_challange_yellow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681327,
+    "spellIds": [
+      681327
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681327,
+        "description": "Increases your melee haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your melee haste by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6614,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Pyro Tonic",
+    "description": "Drink a fiery tonic, increasing your Fire Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />",
+    "descriptionText": "Drink a fiery tonic, increasing your Fire Damage dealt by 20% and your critical damage by 10% for 15 seconds.",
+    "iconPath": "interface/icons/trade_alchemy_potione6",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802277,
+    "spellIds": [
+      802277
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7096,
+      34550
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802277,
+        "description": "Drink a fiery tonic, increasing your Fire Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />",
+        "descriptionText": "Drink a fiery tonic, increasing your Fire Damage dealt by 20% and your critical damage by 10% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6618,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Flames of the Sinned",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Smite Evil</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to strike again.<br /><br />While you have <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> active, the chance to trigger this effect is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Smite Evil now has a 25% chance to strike again.\n\nWhile you have Flames of Sin active, the chance to trigger this effect is increased by 10%.",
+    "iconPath": "interface/icons/_auracloak_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560207,
+    "spellIds": [
+      560207
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29988
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560207,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Smite Evil</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to strike again.<br /><br />While you have <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> active, the chance to trigger this effect is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Smite Evil now has a 25% chance to strike again.\n\nWhile you have Flames of Sin active, the chance to trigger this effect is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6625,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Torch the Wicked!",
+    "description": "Dealing damage with <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> now grants <span class=\"item-number\">2</span><span class=\"item-number\">%</span> attack speed, stacking up to <span class=\"item-number\">12</span> times for <span class=\"item-number\">6</span> seconds. Application of this effect does not refresh the duration.<br /><br />Additionally, <span style=\"color: #FFFFFF; display: inline\">Pyro Tonic</span> now also resets the cooldown of <span style=\"color: #FFFFFF; display: inline\">Torchlight</span>.",
+    "descriptionText": "Dealing damage with Flames of Sin now grants 2% attack speed, stacking up to 12 times for 6 seconds. Application of this effect does not refresh the duration.\n\nAdditionally, Pyro Tonic now also resets the cooldown of Torchlight.",
+    "iconPath": "interface/icons/inv_fishing_nethooks01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560226,
+    "spellIds": [
+      560226
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34541,
+      34547
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560226,
+        "description": "Dealing damage with <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> now grants <span class=\"item-number\">2</span><span class=\"item-number\">%</span> attack speed, stacking up to <span class=\"item-number\">12</span> times for <span class=\"item-number\">6</span> seconds. Application of this effect does not refresh the duration.<br /><br />Additionally, <span style=\"color: #FFFFFF; display: inline\">Pyro Tonic</span> now also resets the cooldown of <span style=\"color: #FFFFFF; display: inline\">Torchlight</span>.",
+        "descriptionText": "Dealing damage with Flames of Sin now grants 2% attack speed, stacking up to 12 times for 6 seconds. Application of this effect does not refresh the duration.\n\nAdditionally, Pyro Tonic now also resets the cooldown of Torchlight."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4317,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Malice",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your Fire spell damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Agility and your attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 30 Passive\nIncreases your Fire spell damage by 50% of your Agility and your attack power by 100% of your Intellect.",
+    "iconPath": "interface/icons/sha_spell_shaman_lavaburst_nightborne",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707535,
+    "spellIds": [
+      707535
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12852
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707535,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your Fire spell damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Agility and your attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 30 Passive\nIncreases your Fire spell damage by 50% of your Agility and your attack power by 100% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4318,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Evil Doers, Beware!",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Stake</span> is now guaranteed to critically strike enemies above <span class=\"item-number\">75%</span> health.",
+    "descriptionText": "Level 50 Passive\nStake is now guaranteed to critically strike enemies above 75% health.",
+    "iconPath": "interface/icons/5_archerskill05_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681328,
+    "spellIds": [
+      681328
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4319
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681328,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Stake</span> is now guaranteed to critically strike enemies above <span class=\"item-number\">75%</span> health.",
+        "descriptionText": "Level 50 Passive\nStake is now guaranteed to critically strike enemies above 75% health."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4319,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Heartstopper",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span> or <span style=\"color: #ffffff; display: inline\">Fiery Judgement</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to allow the use of <span style=\"color: #ffffff; display: inline\">Stake</span> within <span class=\"item-number\">8</span> seconds regardless of the target's health percentage.",
+    "descriptionText": "Level 40 Passive\nCasting Purifier's Edge or Fiery Judgement now has a 30% chance to allow the use of Stake within 8 seconds regardless of the target's health percentage.",
+    "iconPath": "interface/icons/5_devilmark_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680540,
+    "spellIds": [
+      680540
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4317
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680540,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span> or <span style=\"color: #ffffff; display: inline\">Fiery Judgement</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to allow the use of <span style=\"color: #ffffff; display: inline\">Stake</span> within <span class=\"item-number\">8</span> seconds regardless of the target's health percentage.",
+        "descriptionText": "Level 40 Passive\nCasting Purifier's Edge or Fiery Judgement now has a 30% chance to allow the use of Stake within 8 seconds regardless of the target's health percentage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4589,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Monster Hunting",
+    "description": "Increases melee and ranged haste of party and raid members within <span class=\"item-number\">100</span> yds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your damage dealt against Undead and Demons by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases melee and ranged haste of party and raid members within 100 yds by 10%. Does not stack with similar effects.\n\nIn addition, increases your damage dealt against Undead and Demons by 10%.",
+    "iconPath": "interface/icons/novart_physical_ability_(44)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300872,
+    "spellIds": [
+      300872
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11197
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300872,
+        "description": "Increases melee and ranged haste of party and raid members within <span class=\"item-number\">100</span> yds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your damage dealt against Undead and Demons by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases melee and ranged haste of party and raid members within 100 yds by 10%. Does not stack with similar effects.\n\nIn addition, increases your damage dealt against Undead and Demons by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5393,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "The Hunt Continues",
+    "description": "<span style=\"color: #ffffff; display: inline\">Hunt</span> now generates an additional <span class=\"item-number\">15</span> Rage and the mana cost is reduced by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Hunt now generates an additional 15 Rage and the mana cost is reduced by -15%.",
+    "iconPath": "interface/icons/_d3spiritwalk",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560219,
+    "spellIds": [
+      560219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29950
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 324782,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560219,
+        "description": "<span style=\"color: #ffffff; display: inline\">Hunt</span> now generates an additional <span class=\"item-number\">15</span> Rage and the mana cost is reduced by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Hunt now generates an additional 15 Rage and the mana cost is reduced by -15%."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6857,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Cinder and Ashes",
+    "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span>, <span style=\"color: #ffffff; display: inline\">Fiery Judgement</span>, and <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Purifier's Edge, Fiery Judgement, and Flames of Sin by 25%.",
+    "iconPath": "interface/icons/5_druideskill26_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707317,
+    "spellIds": [
+      707317
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34544
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707317,
+        "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span>, <span style=\"color: #ffffff; display: inline\">Fiery Judgement</span>, and <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Purifier's Edge, Fiery Judgement, and Flames of Sin by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11197,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Stake",
+    "description": "Drive your concealed stake into the chest of an injured enemy, dealing <span class=\"item-number\">97</span> + <span class=\"item-number\">67.5% AP</span> Physical Damage.<br /><br />Grants <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and increases the duration by <span class=\"item-number\">3</span> sec.<br /><br />Only usable on enemies at or below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Drive your concealed stake into the chest of an injured enemy, dealing 97 + 67.5% AP Physical Damage.\n\nGrants Flames of Sin and increases the duration by 3 sec.\n\nOnly usable on enemies at or below 35% health.",
+    "iconPath": "interface/icons/inv_ascend_stake_02_b",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680537,
+    "spellIds": [
+      680537
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5393,
+      11393,
+      34545
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680537,
+        "description": "Drive your concealed stake into the chest of an injured enemy, dealing <span class=\"item-number\">97</span> + <span class=\"item-number\">67.5% AP</span> Physical Damage.<br /><br />Grants <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and increases the duration by <span class=\"item-number\">3</span> sec.<br /><br />Only usable on enemies at or below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Drive your concealed stake into the chest of an injured enemy, dealing 97 + 67.5% AP Physical Damage.\n\nGrants Flames of Sin and increases the duration by 3 sec.\n\nOnly usable on enemies at or below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11393,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Evil Never Sleeps",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Hunt</span> now slows movement speed by an additional <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Hunt now slows movement speed by an additional 2 sec.",
+    "iconPath": "interface/icons/inv_fishing_nethooks01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561210,
+    "spellIds": [
+      561210
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29950
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 324782,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561210,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Hunt</span> now slows movement speed by an additional <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Hunt now slows movement speed by an additional 2 sec."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7598,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Protector of Darkshire",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> and <span style=\"color: #ffffff; display: inline\">Dusk Blade</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Dawn Blade and Dusk Blade by 25%.",
+    "iconPath": "interface/icons/_diablo3_cleave_rogue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300575,
+    "spellIds": [
+      300575
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29951,
+      30851
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300575,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> and <span style=\"color: #ffffff; display: inline\">Dusk Blade</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Dawn Blade and Dusk Blade by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7599,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Scarlet Inquisitor",
+    "description": "Reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Traps</span> and <span style=\"color: #ffffff; display: inline\">Brands</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of your Traps and Brands by -50%.",
+    "iconPath": "interface/icons/inv_misc_token_scarletcrusade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301338,
+    "spellIds": [
+      301338
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29901
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301338,
+        "description": "Reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Traps</span> and <span style=\"color: #ffffff; display: inline\">Brands</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of your Traps and Brands by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7601,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Cycle of Despair",
+    "description": "Increases the amount of stacks of <span style=\"color: #ffffff; display: inline\">Dawn</span> and <span style=\"color: #ffffff; display: inline\">Dusk</span> by <span class=\"item-number\">10</span>.<br /><br />In addition, reaching <span class=\"item-number\">20</span> stacks with both buffs will consume them to grant you <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage, melee haste, movement speed, and critical strike chance for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Increases the amount of stacks of Dawn and Dusk by 10.\n\nIn addition, reaching 20 stacks with both buffs will consume them to grant you 20% increased damage, melee haste, movement speed, and critical strike chance for 6 seconds.",
+    "iconPath": "interface/icons/5_moon_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503664,
+    "spellIds": [
+      503664
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6625
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503664,
+        "description": "Increases the amount of stacks of <span style=\"color: #ffffff; display: inline\">Dawn</span> and <span style=\"color: #ffffff; display: inline\">Dusk</span> by <span class=\"item-number\">10</span>.<br /><br />In addition, reaching <span class=\"item-number\">20</span> stacks with both buffs will consume them to grant you <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage, melee haste, movement speed, and critical strike chance for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Increases the amount of stacks of Dawn and Dusk by 10.\n\nIn addition, reaching 20 stacks with both buffs will consume them to grant you 20% increased damage, melee haste, movement speed, and critical strike chance for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7604,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Purity & Wickedness",
+    "description": "Main-hand auto attacks now apply a stack of <span style=\"color: #FFFFFF; display: inline\">Purity</span> to the target, increasing the Fire and Holy damage you deal to them by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> per stack, stacking <span class=\"item-number\">6</span> times.<br /><br />Off-hand auto attacks now apply a stack of <span style=\"color: #FFFFFF; display: inline\">Wickedness</span> to the target, increasing the Shadow and Physical damage you deal to them by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> per stack, stacking <span class=\"item-number\">6</span> times.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Torchlight</span> can now consume these stacks to deal <span class=\"item-number\">1028</span> + <span class=\"item-number\">25% holy SP</span> + <span class=\"item-number\">45% AP</span> Holyflame or Shadowstrike damage to the target.",
+    "descriptionText": "Main-hand auto attacks now apply a stack of Purity to the target, increasing the Fire and Holy damage you deal to them by 2% per stack, stacking 6 times.\n\nOff-hand auto attacks now apply a stack of Wickedness to the target, increasing the Shadow and Physical damage you deal to them by 2% per stack, stacking 6 times.\n\nTorchlight can now consume these stacks to deal 1028 + 25% holy SP + 45% AP Holyflame or Shadowstrike damage to the target.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactfelomelorn_d_01dual",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680544,
+    "spellIds": [
+      680544
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7605
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680544,
+        "description": "Main-hand auto attacks now apply a stack of <span style=\"color: #FFFFFF; display: inline\">Purity</span> to the target, increasing the Fire and Holy damage you deal to them by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> per stack, stacking <span class=\"item-number\">6</span> times.<br /><br />Off-hand auto attacks now apply a stack of <span style=\"color: #FFFFFF; display: inline\">Wickedness</span> to the target, increasing the Shadow and Physical damage you deal to them by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> per stack, stacking <span class=\"item-number\">6</span> times.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Torchlight</span> can now consume these stacks to deal <span class=\"item-number\">1028</span> + <span class=\"item-number\">25% holy SP</span> + <span class=\"item-number\">45% AP</span> Holyflame or Shadowstrike damage to the target.",
+        "descriptionText": "Main-hand auto attacks now apply a stack of Purity to the target, increasing the Fire and Holy damage you deal to them by 2% per stack, stacking 6 times.\n\nOff-hand auto attacks now apply a stack of Wickedness to the target, increasing the Shadow and Physical damage you deal to them by 2% per stack, stacking 6 times.\n\nTorchlight can now consume these stacks to deal 1028 + 25% holy SP + 45% AP Holyflame or Shadowstrike damage to the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7605,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Lightbringer",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dusk Blade</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the mana cost of your next <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span> by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span>. This effect has a <span class=\"item-number\">25%</span> chance to not be consumed by <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span>.",
+    "descriptionText": "Damage dealt by Dusk Blade now has a 15% chance to reduce the mana cost of your next Purifier's Edge by -100%. This effect has a 25% chance to not be consumed by Purifier's Edge.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holythrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680538,
+    "spellIds": [
+      680538
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12546,
+      34541,
+      34546
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680538,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dusk Blade</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the mana cost of your next <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span> by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span>. This effect has a <span class=\"item-number\">25%</span> chance to not be consumed by <span style=\"color: #ffffff; display: inline\">Purifier's Edge</span>.",
+        "descriptionText": "Damage dealt by Dusk Blade now has a 15% chance to reduce the mana cost of your next Purifier's Edge by -100%. This effect has a 25% chance to not be consumed by Purifier's Edge."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12263,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Hunt",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">25</span> sec recharge</span><br />Charge an enemy, slowing their movement speed by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds and generating <span class=\"item-number\">20</span> Rage.",
+    "descriptionText": "2 Charges, 25 sec recharge\nCharge an enemy, slowing their movement speed by -70% for 2 seconds and generating 20 Rage.",
+    "iconPath": "interface/icons/5_run_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802006,
+    "spellIds": [
+      802006
+    ],
+    "requiredNodeIds": [
+      4012,
+      6622
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802006,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">25</span> sec recharge</span><br />Charge an enemy, slowing their movement speed by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds and generating <span class=\"item-number\">20</span> Rage.",
+        "descriptionText": "2 Charges, 25 sec recharge\nCharge an enemy, slowing their movement speed by -70% for 2 seconds and generating 20 Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12546,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Sinner",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Torchlight</span> by <span class=\"item-number\">250</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Torchlight by 250%.",
+    "iconPath": "interface/icons/spell_fire_sealoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681411,
+    "spellIds": [
+      681411
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7066
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 584221,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681411,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Torchlight</span> by <span class=\"item-number\">250</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Torchlight by 250%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12852,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Interrogator",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Dawn Blade</span> now deals an additional <span class=\"item-number\">100%</span> of the damage dealt over <span class=\"item-number\">10</span> seconds as Fire Damage.",
+    "descriptionText": "Level 20 Passive\nDamage dealt by Dawn Blade now deals an additional 100% of the damage dealt over 10 seconds as Fire Damage.",
+    "iconPath": "interface/icons/spell_holy_retributionaura",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806188,
+    "spellIds": [
+      806188
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4012
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806188,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Dawn Blade</span> now deals an additional <span class=\"item-number\">100%</span> of the damage dealt over <span class=\"item-number\">10</span> seconds as Fire Damage.",
+        "descriptionText": "Level 20 Passive\nDamage dealt by Dawn Blade now deals an additional 100% of the damage dealt over 10 seconds as Fire Damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34541,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Dawn",
+    "description": "Dealing Fire Damage now increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Torchlight</span> and <span style=\"color: #ffffff; display: inline\">Dusk Blade</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Dealing Fire Damage now increases the damage dealt by Torchlight and Dusk Blade by 3% for 5 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/custom_t_sunorb_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705484,
+    "spellIds": [
+      705484
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6610,
+      7066
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705484,
+        "description": "Dealing Fire Damage now increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Torchlight</span> and <span style=\"color: #ffffff; display: inline\">Dusk Blade</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Dealing Fire Damage now increases the damage dealt by Torchlight and Dusk Blade by 3% for 5 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34544,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Searing Hilt",
+    "description": "<span style=\"color: #ffffff; display: inline\">Purifier's Edge</span> now grants you <span style=\"color: #ffffff; display: inline\">Searing Hilt</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_sword_1h_pvppandarias1_c_02\" /><span class=\"name\">Searing Hilt</span></div><span class=\"desc\">Increases your melee attack speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Purifier's Edge now grants you Searing Hilt for 10 seconds.\n\n---\n\nSearing HiltIncreases your melee attack speed by 10% for 10 seconds.",
+    "iconPath": "interface/icons/inv_sword_1h_pvppandarias1_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705480,
+    "spellIds": [
+      705480
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29907
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705480,
+        "description": "<span style=\"color: #ffffff; display: inline\">Purifier's Edge</span> now grants you <span style=\"color: #ffffff; display: inline\">Searing Hilt</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_sword_1h_pvppandarias1_c_02\" /><span class=\"name\">Searing Hilt</span></div><span class=\"desc\">Increases your melee attack speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Purifier's Edge now grants you Searing Hilt for 10 seconds.\n\n---\n\nSearing HiltIncreases your melee attack speed by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34545,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Flourish",
+    "description": "Perform an advanced flourish, dealing <span class=\"item-number\">447</span> + <span class=\"item-number\">100% AP</span> Fire Damage to nearby enemies, repeating every <span class=\"item-number\">4</span> sec, and causing your <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> to cleave up to <span class=\"item-number\">3</span> additional enemies for <span class=\"item-number\">20</span> seconds.<br /><br />Grants you <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and increases the duration by <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Perform an advanced flourish, dealing 447 + 100% AP Fire Damage to nearby enemies, repeating every 4 sec, and causing your Flames of Sin to cleave up to 3 additional enemies for 20 seconds.\n\nGrants you Flames of Sin and increases the duration by 10 sec.",
+    "iconPath": "interface/icons/ability_rogue_unfairadvantage",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805365,
+    "spellIds": [
+      805365
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6618
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805365,
+        "description": "Perform an advanced flourish, dealing <span class=\"item-number\">447</span> + <span class=\"item-number\">100% AP</span> Fire Damage to nearby enemies, repeating every <span class=\"item-number\">4</span> sec, and causing your <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> to cleave up to <span class=\"item-number\">3</span> additional enemies for <span class=\"item-number\">20</span> seconds.<br /><br />Grants you <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and increases the duration by <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Perform an advanced flourish, dealing 447 + 100% AP Fire Damage to nearby enemies, repeating every 4 sec, and causing your Flames of Sin to cleave up to 3 additional enemies for 20 seconds.\n\nGrants you Flames of Sin and increases the duration by 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34546,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Sin Eater",
+    "description": "Increases the amount of next attacks that grant <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> through <span style=\"color: #ffffff; display: inline\">Torchlight</span> by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases the amount of next attacks that grant Flames of Sin through Torchlight by 5.",
+    "iconPath": "interface/icons/spell_animarevendreth_debuff",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680542,
+    "spellIds": [
+      680542
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7066
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 584221,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680542,
+        "description": "Increases the amount of next attacks that grant <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> through <span style=\"color: #ffffff; display: inline\">Torchlight</span> by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases the amount of next attacks that grant Flames of Sin through Torchlight by 5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34547,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Dusk",
+    "description": "Dealing Physical Damage now increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Stake</span> and <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Dealing Physical Damage now increases the damage dealt by Stake and Dawn Blade by 3% for 5 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/world_marker_moon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300571,
+    "spellIds": [
+      300571
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6610,
+      11197
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300571,
+        "description": "Dealing Physical Damage now increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Stake</span> and <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Dealing Physical Damage now increases the damage dealt by Stake and Dawn Blade by 3% for 5 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34550,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Brushin' Off The Dusk",
+    "description": "Your off-hand auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times.",
+    "descriptionText": "Your off-hand auto attacks now have a 10% chance to strike 2 additional times.",
+    "iconPath": "interface/icons/_darkhand_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 681329,
+    "spellIds": [
+      681329,
+      681488
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7598
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681329,
+        "description": "Your off-hand auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Your off-hand auto attacks now have a 10% chance to strike 2 additional times."
+      },
+      {
+        "rank": 2,
+        "spellId": 681488,
+        "description": "Your off-hand auto attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Your off-hand auto attacks now have a 20% chance to strike 2 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30851,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Sermon of Flame",
+    "description": "Increases your Fire Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Fire Damage dealt by 5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_swordofflame_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 503655,
+    "spellIds": [
+      503655,
+      504890
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7097
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503655,
+        "description": "Increases your Fire Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Fire Damage dealt by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504890,
+        "description": "Increases your Fire Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Fire Damage dealt by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29901,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Fiery Judgement",
+    "description": "Judge an enemy, dealing <span class=\"item-number\">161</span> + <span class=\"item-number\">40% AP</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage to them and nearby enemies.<br /><br />Grants <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> or increases the duration by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Judge an enemy, dealing 161 + 40% AP + 100% fire SP Fire Damage to them and nearby enemies.\n\nGrants Flames of Sin or increases the duration by 3 sec.",
+    "iconPath": "interface/icons/novart_physical_ability_(37)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802140,
+    "spellIds": [
+      802140
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29907,
+      29953
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802140,
+        "description": "Judge an enemy, dealing <span class=\"item-number\">161</span> + <span class=\"item-number\">40% AP</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage to them and nearby enemies.<br /><br />Grants <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> or increases the duration by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Judge an enemy, dealing 161 + 40% AP + 100% fire SP Fire Damage to them and nearby enemies.\n\nGrants Flames of Sin or increases the duration by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29907,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Purifier's Edge",
+    "description": "Strike an enemy with searing blades, dealing Weapon Damage plus <span class=\"item-number\">20</span> with both weapons as Fire Damage.<br /><br />Grants <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> or increases the duration by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Strike an enemy with searing blades, dealing Weapon Damage plus 20 with both weapons as Fire Damage.\n\nGrants Flames of Sin or increases the duration by 3 sec.",
+    "iconPath": "interface/icons/5_assassinskill28_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802019,
+    "spellIds": [
+      802019
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30851
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802019,
+        "description": "Strike an enemy with searing blades, dealing Weapon Damage plus <span class=\"item-number\">20</span> with both weapons as Fire Damage.<br /><br />Grants <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> or increases the duration by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Strike an enemy with searing blades, dealing Weapon Damage plus 20 with both weapons as Fire Damage.\n\nGrants Flames of Sin or increases the duration by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29950,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Darkslayer's Lantern",
+    "description": "Empower a lantern with your <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and let it shine, dealing <span class=\"item-number\">466</span> + <span class=\"item-number\">15% AP</span> Fire Damage and stunning all enemies within <span class=\"item-number\">5</span> yds for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Empower a lantern with your Flames of Sin and let it shine, dealing 466 + 15% AP Fire Damage and stunning all enemies within 5 yds for 5 seconds.",
+    "iconPath": "interface/icons/inv_misc_trinket6oih_lanternb1",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802139,
+    "spellIds": [
+      802139
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7063,
+      29988
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802139,
+        "description": "Empower a lantern with your <span style=\"color: #ff7a24; display: inline\">Flames of Sin</span> and let it shine, dealing <span class=\"item-number\">466</span> + <span class=\"item-number\">15% AP</span> Fire Damage and stunning all enemies within <span class=\"item-number\">5</span> yds for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Empower a lantern with your Flames of Sin and let it shine, dealing 466 + 15% AP Fire Damage and stunning all enemies within 5 yds for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29951,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Brooding Hatred",
+    "description": "Increases your off-hand Weapon Damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and increases your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your off-hand Weapon Damage by 20% and increases your chance to hit by 3%.",
+    "iconPath": "interface/icons/spell_shadow_metamorphosis",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 301251,
+    "spellIds": [
+      301251,
+      301362
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7097
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301251,
+        "description": "Increases your off-hand Weapon Damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and increases your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand Weapon Damage by 20% and increases your chance to hit by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301362,
+        "description": "Increases your off-hand Weapon Damage by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and increases your chance to hit by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand Weapon Damage by 40% and increases your chance to hit by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29953,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Flexible Fighter",
+    "description": "Increases your Agility by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility by 6%.",
+    "iconPath": "interface/icons/ability_rogue_rollthebones02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681341,
+    "spellIds": [
+      681341
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30851
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681341,
+        "description": "Increases your Agility by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29988,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 41,
+    "tabKey": "15:41",
+    "tabName": "Inquisition",
+    "name": "Smite Evil",
+    "description": "Strike an enemy with your blade, dealing Weapon Damage plus <span class=\"item-number\">25</span> as Holy Damage to them and <span class=\"item-number\">5</span> nearby enemies.",
+    "descriptionText": "Strike an enemy with your blade, dealing Weapon Damage plus 25 as Holy Damage to them and 5 nearby enemies.",
+    "iconPath": "interface/icons/spell_holy_blessedresillience",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802004,
+    "spellIds": [
+      802004
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29951
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802004,
+        "description": "Strike an enemy with your blade, dealing Weapon Damage plus <span class=\"item-number\">25</span> as Holy Damage to them and <span class=\"item-number\">5</span> nearby enemies.",
+        "descriptionText": "Strike an enemy with your blade, dealing Weapon Damage plus 25 as Holy Damage to them and 5 nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

@@ -1,0 +1,1668 @@
+[
+  {
+    "nodeId": 30176,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Chainwhip",
+    "description": "Swing a chain at an enemy dealing <span class=\"item-number\">12</span> + <span class=\"item-number\">35% AP</span> Physical Damage and silencing them for <span class=\"item-number\">2</span> seconds, generating a large amount of threat.<br /><br />If you successfully interrupt an enemy, this will refund <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the cooldown.",
+    "descriptionText": "Swing a chain at an enemy dealing 12 + 35% AP Physical Damage and silencing them for 2 seconds, generating a large amount of threat.\n\nIf you successfully interrupt an enemy, this will refund 20% of the cooldown.",
+    "iconPath": "interface/icons/_enslavespell_fire",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800081,
+    "spellIds": [
+      800081
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800081,
+        "description": "Swing a chain at an enemy dealing <span class=\"item-number\">12</span> + <span class=\"item-number\">35% AP</span> Physical Damage and silencing them for <span class=\"item-number\">2</span> seconds, generating a large amount of threat.<br /><br />If you successfully interrupt an enemy, this will refund <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the cooldown.",
+        "descriptionText": "Swing a chain at an enemy dealing 12 + 35% AP Physical Damage and silencing them for 2 seconds, generating a large amount of threat.\n\nIf you successfully interrupt an enemy, this will refund 20% of the cooldown."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30178,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Brimstone's Blood",
+    "description": "Increases the chance of gaining a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance of gaining a stack of Demon's Blood by 25%.",
+    "iconPath": "interface/icons/nhi_fireghost_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300387,
+    "spellIds": [
+      300387
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30701
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300387,
+        "description": "Increases the chance of gaining a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance of gaining a stack of Demon's Blood by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30668,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Chains of Malice",
+    "description": "Lock an enemy down with magical chains, stunning them and dragging them with you for <span class=\"item-number\">5</span> seconds.<br /><br />Every <span class=\"item-number\">1</span> sec, the enemy will suffer <span class=\"item-number\">58</span> Physical Damage.<br /><br />Enemies that cannot be stunned or rooted cannot be dragged.",
+    "descriptionText": "Lock an enemy down with magical chains, stunning them and dragging them with you for 5 seconds.\n\nEvery 1 sec, the enemy will suffer 58 Physical Damage.\n\nEnemies that cannot be stunned or rooted cannot be dragged.",
+    "iconPath": "interface/icons/nhi_nightmarechain_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803185,
+    "spellIds": [
+      803185
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803185,
+        "description": "Lock an enemy down with magical chains, stunning them and dragging them with you for <span class=\"item-number\">5</span> seconds.<br /><br />Every <span class=\"item-number\">1</span> sec, the enemy will suffer <span class=\"item-number\">58</span> Physical Damage.<br /><br />Enemies that cannot be stunned or rooted cannot be dragged.",
+        "descriptionText": "Lock an enemy down with magical chains, stunning them and dragging them with you for 5 seconds.\n\nEvery 1 sec, the enemy will suffer 58 Physical Damage.\n\nEnemies that cannot be stunned or rooted cannot be dragged."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30695,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Xorothian Sigil",
+    "description": "Create a demonic sigil that protects party members within <span class=\"item-number\">20</span> yds of you, causing them to deflect the next harmful spell cast against them within <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Create a demonic sigil that protects party members within 20 yds of you, causing them to deflect the next harmful spell cast against them within 3 seconds.",
+    "iconPath": "interface/icons/inv_misc_ahnqirajtrinket_04",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801061,
+    "spellIds": [
+      801061
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29623,
+      34090
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801061,
+        "description": "Create a demonic sigil that protects party members within <span class=\"item-number\">20</span> yds of you, causing them to deflect the next harmful spell cast against them within <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Create a demonic sigil that protects party members within 20 yds of you, causing them to deflect the next harmful spell cast against them within 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30701,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Black Shield",
+    "description": "Consume all of your <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stacks to create a demonic shield that absorbs <span class=\"item-number\">940</span> damage, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> per <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stack, for <span class=\"item-number\">30</span> seconds.",
+    "descriptionText": "Consume all of your Demon's Blood stacks to create a demonic shield that absorbs 940 damage, increased by 20% per Demon's Blood stack, for 30 seconds.",
+    "iconPath": "interface/icons/spell_warlock_soulburn_haunt",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805679,
+    "spellIds": [
+      805679
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34064,
+      34075,
+      34094
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805679,
+        "description": "Consume all of your <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stacks to create a demonic shield that absorbs <span class=\"item-number\">940</span> damage, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> per <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stack, for <span class=\"item-number\">30</span> seconds.",
+        "descriptionText": "Consume all of your Demon's Blood stacks to create a demonic shield that absorbs 940 damage, increased by 20% per Demon's Blood stack, for 30 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30013,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Dread",
+    "description": "$61",
+    "descriptionText": "$61",
+    "iconPath": "interface/icons/spell_fire_incinerate",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706502,
+    "spellIds": [
+      706502
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34069,
+      34090
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706502,
+        "description": "$62",
+        "descriptionText": "$62"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30016,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Juggernaut",
+    "description": "Consume all of your <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> to become a juggernaut, reducing all damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds. <br /><br />For the duration, you heal every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">6</span> + <span class=\"item-number\">10% AP</span>, increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> per <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stack.",
+    "descriptionText": "Consume all of your Demon's Blood to become a juggernaut, reducing all damage taken by -30% for 10 seconds. \n\nFor the duration, you heal every 3 sec for 6 + 10% AP, increased by 25% per Demon's Blood stack.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_fire_0004s_0000_armor_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520294,
+    "spellIds": [
+      520294
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7365,
+      34074
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520294,
+        "description": "Consume all of your <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> to become a juggernaut, reducing all damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds. <br /><br />For the duration, you heal every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">6</span> + <span class=\"item-number\">10% AP</span>, increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> per <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stack.",
+        "descriptionText": "Consume all of your Demon's Blood to become a juggernaut, reducing all damage taken by -30% for 10 seconds. \n\nFor the duration, you heal every 3 sec for 6 + 10% AP, increased by 25% per Demon's Blood stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31701,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Demon Heart",
+    "description": "Embrace your inner demon, instantly generating <span class=\"item-number\">6</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+    "descriptionText": "Embrace your inner demon, instantly generating 6 stacks of Demonfire.",
+    "iconPath": "interface/icons/inv_ragnaros_heart",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805669,
+    "spellIds": [
+      805669
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7364,
+      34064,
+      34075
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805669,
+        "description": "Embrace your inner demon, instantly generating <span class=\"item-number\">6</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+        "descriptionText": "Embrace your inner demon, instantly generating 6 stacks of Demonfire."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29610,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "War Pig",
+    "description": "Increases your Physical Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Physical Damage dealt by 4%.",
+    "iconPath": "interface/icons/ability_deathwing_assualtaspects",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705020,
+    "spellIds": [
+      705020
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30668
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705020,
+        "description": "Increases your Physical Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Physical Damage dealt by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29620,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Mounted Champion",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Xorothian Warsteed</span> is now instant cast and prevents roots and slows for <span class=\"item-number\">2</span> sec when cast, but now has a <span class=\"item-number\">10</span> sec cooldown.",
+    "descriptionText": "Your Xorothian Warsteed is now instant cast and prevents roots and slows for 2 sec when cast, but now has a 10 sec cooldown.",
+    "iconPath": "interface/icons/ability_mount_clockworkhorse",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706295,
+    "spellIds": [
+      706295
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5453,
+      34060
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707835,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706295,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Xorothian Warsteed</span> is now instant cast and prevents roots and slows for <span class=\"item-number\">2</span> sec when cast, but now has a <span class=\"item-number\">10</span> sec cooldown.",
+        "descriptionText": "Your Xorothian Warsteed is now instant cast and prevents roots and slows for 2 sec when cast, but now has a 10 sec cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29623,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Brute Strength",
+    "description": "Increases your critical damage dealt with Physical attacks by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical damage dealt with Physical attacks by 10%.",
+    "iconPath": "interface/icons/spell_nature_strength",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680723,
+    "spellIds": [
+      680723
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7885,
+      12620,
+      29620
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680723,
+        "description": "Increases your critical damage dealt with Physical attacks by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical damage dealt with Physical attacks by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34060,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Demonskin",
+    "description": "Each stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> also increases your Armor by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Demon's Blood also increases your Armor by 1%.",
+    "iconPath": "interface/icons/inv_wand_1h_firelandsraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 302581,
+    "spellIds": [
+      302581
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30016
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302581,
+        "description": "Each stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> also increases your Armor by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Demon's Blood also increases your Armor by 1%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34064,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Boiling Blood",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Suffuse</span> now increases your healing received by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for the first <span class=\"item-number\">6</span> seconds of it's duration.",
+    "descriptionText": "Casting Suffuse now increases your healing received by 25% for the first 6 seconds of it's duration.",
+    "iconPath": "interface/icons/nhi_bloodboil_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300395,
+    "spellIds": [
+      300395
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7360
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 706566,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300395,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Suffuse</span> now increases your healing received by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for the first <span class=\"item-number\">6</span> seconds of it's duration.",
+        "descriptionText": "Casting Suffuse now increases your healing received by 25% for the first 6 seconds of it's duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34069,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Rage of Xoroth",
+    "description": "Your critical strikes now enrage you, increasing your melee attack speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your critical strikes now enrage you, increasing your melee attack speed by 15%.",
+    "iconPath": "interface/icons/ability_warrior_focusedrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300376,
+    "spellIds": [
+      300376
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7366,
+      34071,
+      34096
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300376,
+        "description": "Your critical strikes now enrage you, increasing your melee attack speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your critical strikes now enrage you, increasing your melee attack speed by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34071,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Dismemberment",
+    "description": "Damaging abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> now reduces the target's healing received by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damaging abilities that spend Demonfire now reduces the target's healing received by -30% for 8 seconds.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactdeadwind_d_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705018,
+    "spellIds": [
+      705018
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34112
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705018,
+        "description": "Damaging abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> now reduces the target's healing received by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damaging abilities that spend Demonfire now reduces the target's healing received by -30% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34074,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Ragefist",
+    "description": "Increases your maximum Rage by <span class=\"item-number\">10</span> and reduces the duration of disarm effects against you by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum Rage by 10 and reduces the duration of disarm effects against you by -15%.",
+    "iconPath": "interface/icons/inv_relics_totemofrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300384,
+    "spellIds": [
+      300384,
+      301356
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30701,
+      34114
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300384,
+        "description": "Increases your maximum Rage by <span class=\"item-number\">10</span> and reduces the duration of disarm effects against you by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum Rage by 10 and reduces the duration of disarm effects against you by -15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301356,
+        "description": "Increases your maximum Rage by <span class=\"item-number\">20</span> and reduces the duration of disarm effects against you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum Rage by 20 and reduces the duration of disarm effects against you by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34075,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Suffusion of Essence",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Suffuse</span> by <span class=\"item-number\">2</span> sec for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.",
+    "descriptionText": "Increases the duration of Suffuse by 2 sec for each Demonfire consumed.",
+    "iconPath": "interface/icons/inv_trinket_firelands_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706566,
+    "spellIds": [
+      706566
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7360
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 706566,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706566,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Suffuse</span> by <span class=\"item-number\">2</span> sec for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.",
+        "descriptionText": "Increases the duration of Suffuse by 2 sec for each Demonfire consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34090,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Heart of Xoroth",
+    "description": "Allows <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> to stack <span class=\"item-number\">5</span> additional times.",
+    "descriptionText": "Allows Demon's Blood to stack 5 additional times.",
+    "iconPath": "interface/icons/ability_rogue_sanguinaryvein",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704956,
+    "spellIds": [
+      704956
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7366,
+      7885,
+      34096
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704956,
+        "description": "Allows <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> to stack <span class=\"item-number\">5</span> additional times.",
+        "descriptionText": "Allows Demon's Blood to stack 5 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34091,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Harbinger of Pestilence",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Pestilences</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Pestilences by 50%.",
+    "iconPath": "interface/icons/warlock_pvp_endlessaffliction",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704182,
+    "spellIds": [
+      704182
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7363
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704182,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Pestilences</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Pestilences by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34094,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Spiked Chains",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Chainwhip</span> now deals <span class=\"item-number\">121</span> + <span class=\"item-number\">30% AP</span> additional Physical Damage, increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> on Humanoids.",
+    "descriptionText": "Your Chainwhip now deals 121 + 30% AP additional Physical Damage, increased by 100% on Humanoids.",
+    "iconPath": "interface/icons/creatureportrait_blackrock_chainsofwoe",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704987,
+    "spellIds": [
+      704987
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29437
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704987,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Chainwhip</span> now deals <span class=\"item-number\">121</span> + <span class=\"item-number\">30% AP</span> additional Physical Damage, increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> on Humanoids.",
+        "descriptionText": "Your Chainwhip now deals 121 + 30% AP additional Physical Damage, increased by 100% on Humanoids."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34096,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Hellbreaker",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> now removes all active movement impairing effects from you.",
+    "descriptionText": "Casting Unleash Pestilence now removes all active movement impairing effects from you.",
+    "iconPath": "interface/icons/ability_blackhand_marked4death",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680216,
+    "spellIds": [
+      680216
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34060,
+      34112
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 162312,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680216,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> now removes all active movement impairing effects from you.",
+        "descriptionText": "Casting Unleash Pestilence now removes all active movement impairing effects from you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34112,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Burning Rage",
+    "description": "Enrage, generating <span class=\"item-number\">15</span> Rage every <span class=\"item-number\">1</span> sec and making you immune to incapacitate, banish, and polymorph effects for <span class=\"item-number\">6</span> seconds.<br /><br />Usable while incapacitated, banished, or polymorphed.",
+    "descriptionText": "Enrage, generating 15 Rage every 1 sec and making you immune to incapacitate, banish, and polymorph effects for 6 seconds.\n\nUsable while incapacitated, banished, or polymorphed.",
+    "iconPath": "interface/icons/warrior_talent_icon_angermanagement",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520295,
+    "spellIds": [
+      520295
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7359
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520295,
+        "description": "Enrage, generating <span class=\"item-number\">15</span> Rage every <span class=\"item-number\">1</span> sec and making you immune to incapacitate, banish, and polymorph effects for <span class=\"item-number\">6</span> seconds.<br /><br />Usable while incapacitated, banished, or polymorphed.",
+        "descriptionText": "Enrage, generating 15 Rage every 1 sec and making you immune to incapacitate, banish, and polymorph effects for 6 seconds.\n\nUsable while incapacitated, banished, or polymorphed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34114,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Omen of Rage",
+    "description": "Periodic damage and healing done has an <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+    "descriptionText": "Periodic damage and healing done has an 10% chance to grant a stack of Demonfire.",
+    "iconPath": "interface/icons/custom_06_summon_demon_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706590,
+    "spellIds": [
+      706590
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34064,
+      34075
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706590,
+        "description": "Periodic damage and healing done has an <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+        "descriptionText": "Periodic damage and healing done has an 10% chance to grant a stack of Demonfire."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34117,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Darkrider",
+    "description": "Increases the duration of your <span style=\"color: #FFFFFF; display: inline\">Mark</span> spells by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of your Mark spells by 50%.",
+    "iconPath": "interface/icons/spell_shadow_carrionswarm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704980,
+    "spellIds": [
+      704980
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31701
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704980,
+        "description": "Increases the duration of your <span style=\"color: #FFFFFF; display: inline\">Mark</span> spells by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Mark spells by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5453,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Hellbound Charge",
+    "description": "<span style=\"color: #FFFFFF; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">60</span> sec recharge</span><br />Briefly jump atop your <span style=\"color: #FFFFFF; display: inline\">Xorothian Warsteed</span>, increasing your movement speed by <span class=\"item-number\">70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.<br /><br />Usable while indoors, but you cannot use your <span style=\"color: #FFFFFF; display: inline\">Mounted Combat</span> abilities while riding your <span style=\"color: #FFFFFF; display: inline\">Warsteed</span> in this way.",
+    "descriptionText": "2 Charges, 60 sec recharge\nBriefly jump atop your Xorothian Warsteed, increasing your movement speed by 70% for 3 seconds.\n\nUsable while indoors, but you cannot use your Mounted Combat abilities while riding your Warsteed in this way.",
+    "iconPath": "interface/icons/_crimsondeathcharger_64x",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807247,
+    "spellIds": [
+      807247
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6393
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807247,
+        "description": "<span style=\"color: #FFFFFF; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">60</span> sec recharge</span><br />Briefly jump atop your <span style=\"color: #FFFFFF; display: inline\">Xorothian Warsteed</span>, increasing your movement speed by <span class=\"item-number\">70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.<br /><br />Usable while indoors, but you cannot use your <span style=\"color: #FFFFFF; display: inline\">Mounted Combat</span> abilities while riding your <span style=\"color: #FFFFFF; display: inline\">Warsteed</span> in this way.",
+        "descriptionText": "2 Charges, 60 sec recharge\nBriefly jump atop your Xorothian Warsteed, increasing your movement speed by 70% for 3 seconds.\n\nUsable while indoors, but you cannot use your Mounted Combat abilities while riding your Warsteed in this way."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7099,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Suffuse",
+    "description": "Embrace your mortal body, restoring <span class=\"item-number\">121</span> + <span class=\"item-number\">10% Stamina</span> health every <span class=\"item-number\">3</span> sec, scaling with Stamina and defense rating.<br /><br />Lasts <span class=\"item-number\">3</span> sec for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.",
+    "descriptionText": "Embrace your mortal body, restoring 121 + 10% Stamina health every 3 sec, scaling with Stamina and defense rating.\n\nLasts 3 sec for each Demonfire consumed.",
+    "iconPath": "interface/icons/diabloanniversary_achievement",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801063,
+    "spellIds": [
+      801063
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801063,
+        "description": "Embrace your mortal body, restoring <span class=\"item-number\">121</span> + <span class=\"item-number\">10% Stamina</span> health every <span class=\"item-number\">3</span> sec, scaling with Stamina and defense rating.<br /><br />Lasts <span class=\"item-number\">3</span> sec for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.",
+        "descriptionText": "Embrace your mortal body, restoring 121 + 10% Stamina health every 3 sec, scaling with Stamina and defense rating.\n\nLasts 3 sec for each Demonfire consumed."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6393,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Hellstriker",
+    "description": "Direct critical strikes now increase the duration of <span style=\"color: #ffffff; display: inline\">Hellrider</span> on you by <span class=\"item-number\">2</span> sec.<br /><br />",
+    "descriptionText": "Direct critical strikes now increase the duration of Hellrider on you by 2 sec.",
+    "iconPath": "interface/icons/inv_mace_80",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704991,
+    "spellIds": [
+      704991
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7365,
+      34117
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704991,
+        "description": "Direct critical strikes now increase the duration of <span style=\"color: #ffffff; display: inline\">Hellrider</span> on you by <span class=\"item-number\">2</span> sec.<br /><br />",
+        "descriptionText": "Direct critical strikes now increase the duration of Hellrider on you by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6394,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Chain Warden",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Chains of Malice</span> and <span style=\"color: #ffffff; display: inline\">Chainwhip</span> by <span class=\"item-number\">-30</span> sec, and allows <span style=\"color: #ffffff; display: inline\">Flesh Hook</span> to pull up to <span class=\"item-number\">2</span> additional enemies near your primary target.",
+    "descriptionText": "Reduces the cooldown of Chains of Malice and Chainwhip by -30 sec, and allows Flesh Hook to pull up to 2 additional enemies near your primary target.",
+    "iconPath": "interface/icons/warlock_sacrificial_pact",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704185,
+    "spellIds": [
+      704185
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29623,
+      34091
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704185,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Chains of Malice</span> and <span style=\"color: #ffffff; display: inline\">Chainwhip</span> by <span class=\"item-number\">-30</span> sec, and allows <span style=\"color: #ffffff; display: inline\">Flesh Hook</span> to pull up to <span class=\"item-number\">2</span> additional enemies near your primary target.",
+        "descriptionText": "Reduces the cooldown of Chains of Malice and Chainwhip by -30 sec, and allows Flesh Hook to pull up to 2 additional enemies near your primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29437,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Xorothian Strength",
+    "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Strength by 5%.",
+    "iconPath": "interface/icons/spell_shadow_demonicpact",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300382,
+    "spellIds": [
+      300382,
+      570100
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30176
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300382,
+        "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Strength by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 570100,
+        "description": "Increases your Strength by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Strength by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12620,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Mounted Reaver",
+    "description": "Reduces the cooldown of all <span style=\"color: #ffffff; display: inline\">Mounted Combat</span> abilities by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of all Mounted Combat abilities by -20%.",
+    "iconPath": "interface/icons/inv_deathelementalmount_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707835,
+    "spellIds": [
+      707835
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5453,
+      34060
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707835,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707835,
+        "description": "Reduces the cooldown of all <span style=\"color: #ffffff; display: inline\">Mounted Combat</span> abilities by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of all Mounted Combat abilities by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7359,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Demonic Rage",
+    "description": "Generating <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stacks now generates <span class=\"item-number\">2</span> additional Rage.",
+    "descriptionText": "Generating Demon's Blood stacks now generates 2 additional Rage.",
+    "iconPath": "interface/icons/inv_helm_plate_challengewarrior_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524922,
+    "spellIds": [
+      524922
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30178,
+      34074
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524922,
+        "description": "Generating <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> stacks now generates <span class=\"item-number\">2</span> additional Rage.",
+        "descriptionText": "Generating Demon's Blood stacks now generates 2 additional Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7360,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Demonfire Plating",
+    "description": "Reduces your damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> and increases your Stamina by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces your damage taken by -2% and increases your Stamina by 3%.",
+    "iconPath": "interface/icons/spell_shadow_unholystrength",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704966,
+    "spellIds": [
+      704966,
+      302549
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7099
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704966,
+        "description": "Reduces your damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> and increases your Stamina by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces your damage taken by -2% and increases your Stamina by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 302549,
+        "description": "Reduces your damage taken by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> and increases your Stamina by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces your damage taken by -4% and increases your Stamina by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7363,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Taskmaster",
+    "description": "Increases your critical strike chance against Demons by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance against Demons by 15%.",
+    "iconPath": "interface/icons/ability_warrior_improveddisciplines",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500003,
+    "spellIds": [
+      500003
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500003,
+        "description": "Increases your critical strike chance against Demons by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance against Demons by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7364,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Bloodied Blade",
+    "description": "Melee Physical Damage dealt now generates a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span>.",
+    "descriptionText": "Melee Physical Damage dealt now generates a stack of Demon's Blood.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactelune_d_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800997,
+    "spellIds": [
+      800997
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29610
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800997,
+        "description": "Melee Physical Damage dealt now generates a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span>.",
+        "descriptionText": "Melee Physical Damage dealt now generates a stack of Demon's Blood."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7365,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Hell Blender",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Meatsaw</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund <span class=\"item-number\">10</span> Rage.",
+    "descriptionText": "Casting Meatsaw now has a 40% chance to refund 10 Rage.",
+    "iconPath": "interface/icons/ability_warrior_unrelentingassault",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704975,
+    "spellIds": [
+      704975
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31701,
+      34114
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704975,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Meatsaw</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund <span class=\"item-number\">10</span> Rage.",
+        "descriptionText": "Casting Meatsaw now has a 40% chance to refund 10 Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7366,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Warpath",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> is active it now protects your movement speed from being reduced below <span class=\"item-number\">90</span><span class=\"item-number\">%</span> of normal speed.",
+    "descriptionText": "While Unleash Pestilence is active it now protects your movement speed from being reduced below 90% of normal speed.",
+    "iconPath": "interface/icons/ability_warrior_intensifyrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805793,
+    "spellIds": [
+      805793
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34060,
+      34112
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 162312,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805793,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> is active it now protects your movement speed from being reduced below <span class=\"item-number\">90</span><span class=\"item-number\">%</span> of normal speed.",
+        "descriptionText": "While Unleash Pestilence is active it now protects your movement speed from being reduced below 90% of normal speed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7885,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 87,
+    "tabKey": "17:87",
+    "tabName": "Class",
+    "name": "Xorothian Finesse",
+    "description": "Increases your chance to parry by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to parry by 5%.",
+    "iconPath": "interface/icons/nhi_blood_aim_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300385,
+    "spellIds": [
+      300385
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34060
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300385,
+        "description": "Increases your chance to parry by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to parry by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

@@ -1,0 +1,1800 @@
+[
+  {
+    "nodeId": 29484,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Moon",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Animated Blood</span> now spawns an additional amalgam.",
+    "descriptionText": "Your Animated Blood now spawns an additional amalgam.",
+    "iconPath": "interface/icons/ability_deathwing_bloodcorruption_earth",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804199,
+    "spellIds": [
+      804199
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7287,
+      30846
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804199,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Animated Blood</span> now spawns an additional amalgam.",
+        "descriptionText": "Your Animated Blood now spawns an additional amalgam."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29543,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Scarlet Delirium",
+    "description": "Requires Mortal Form</span><br />Flood the minds of up to <span class=\"item-number\">5</span> nearby enemies with visions of unraveling flesh, fearing them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec versus players) while draining their life essence, siphoning <span class=\"item-number\">12</span> + <span class=\"item-number\">15% SP</span> health every <span class=\"item-number\">3</span> sec.<br /><br />Damage caused may interrupt the effect.",
+    "descriptionText": "Requires Mortal Form\nFlood the minds of up to 5 nearby enemies with visions of unraveling flesh, fearing them for 40 seconds (8 sec versus players) while draining their life essence, siphoning 12 + 15% SP health every 3 sec.\n\nDamage caused may interrupt the effect.",
+    "iconPath": "interface/icons/nhi_blooddrop_(2)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801074,
+    "spellIds": [
+      801074
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801074,
+        "description": "Requires Mortal Form</span><br />Flood the minds of up to <span class=\"item-number\">5</span> nearby enemies with visions of unraveling flesh, fearing them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec versus players) while draining their life essence, siphoning <span class=\"item-number\">12</span> + <span class=\"item-number\">15% SP</span> health every <span class=\"item-number\">3</span> sec.<br /><br />Damage caused may interrupt the effect.",
+        "descriptionText": "Requires Mortal Form\nFlood the minds of up to 5 nearby enemies with visions of unraveling flesh, fearing them for 40 seconds (8 sec versus players) while draining their life essence, siphoning 12 + 15% SP health every 3 sec.\n\nDamage caused may interrupt the effect."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29629,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Fleshcraft",
+    "description": "Mend blood and bone, healing an ally for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their maximum health and applies <span style=\"color: #ffffff; display: inline\">Sated</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_bloodtear_border\" /><span class=\"name\">Sated</span></div><span class=\"desc\">Cannot be affected by <span style=\"color: #FFFFFF; display: inline\">Fleshcraft</span> for <span class=\"item-number\">3</span> minutes.</span></div>",
+    "descriptionText": "Mend blood and bone, healing an ally for 50% of their maximum health and applies Sated.\n\n---\n\nSatedCannot be affected by Fleshcraft for 3 minutes.",
+    "iconPath": "interface/icons/nhi_bloodtear_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801952,
+    "spellIds": [
+      801952
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801952,
+        "description": "Mend blood and bone, healing an ally for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their maximum health and applies <span style=\"color: #ffffff; display: inline\">Sated</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_bloodtear_border\" /><span class=\"name\">Sated</span></div><span class=\"desc\">Cannot be affected by <span style=\"color: #FFFFFF; display: inline\">Fleshcraft</span> for <span class=\"item-number\">3</span> minutes.</span></div>",
+        "descriptionText": "Mend blood and bone, healing an ally for 50% of their maximum health and applies Sated.\n\n---\n\nSatedCannot be affected by Fleshcraft for 3 minutes."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33688,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Liquify",
+    "description": "Requires Mortal Form</span><br />Dissipate into a pool of blood, making you immune to all physical attacks and spells, but preventing you from attacking or casting spells and slowing your movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Usable while stunned, feared or confused.",
+    "descriptionText": "Requires Mortal Form\nDissipate into a pool of blood, making you immune to all physical attacks and spells, but preventing you from attacking or casting spells and slowing your movement speed by -30% for 6 seconds.\n\nUsable while stunned, feared or confused.",
+    "iconPath": "interface/icons/ability_ironmaidens_corruptedblood",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806310,
+    "spellIds": [
+      806310
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34628
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806310,
+        "description": "Requires Mortal Form</span><br />Dissipate into a pool of blood, making you immune to all physical attacks and spells, but preventing you from attacking or casting spells and slowing your movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Usable while stunned, feared or confused.",
+        "descriptionText": "Requires Mortal Form\nDissipate into a pool of blood, making you immune to all physical attacks and spells, but preventing you from attacking or casting spells and slowing your movement speed by -30% for 6 seconds.\n\nUsable while stunned, feared or confused."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33715,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Shadow Howl",
+    "description": "Let loose a dark howl that inspires your allies, granting immunity to movement impairing effects to all allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Let loose a dark howl that inspires your allies, granting immunity to movement impairing effects to all allies within 30 yds for 4 seconds.",
+    "iconPath": "interface/icons/ability_warlock_howlofterror",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806177,
+    "spellIds": [
+      806177
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806177,
+        "description": "Let loose a dark howl that inspires your allies, granting immunity to movement impairing effects to all allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Let loose a dark howl that inspires your allies, granting immunity to movement impairing effects to all allies within 30 yds for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33737,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Adrenaline",
+    "description": "Reduces the duration of bleed, root, and movement slowing effects against you by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of bleed, root, and movement slowing effects against you by -25%.",
+    "iconPath": "interface/icons/spell_nature_reincarnation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300986,
+    "spellIds": [
+      300986
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300986,
+        "description": "Reduces the duration of bleed, root, and movement slowing effects against you by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of bleed, root, and movement slowing effects against you by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29871,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Alacrity",
+    "description": "Increases all primary stats by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases all primary stats by 4%.",
+    "iconPath": "interface/icons/5_run_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504285,
+    "spellIds": [
+      504285,
+      504893
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29543,
+      29629,
+      31117
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504285,
+        "description": "Increases all primary stats by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all primary stats by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504893,
+        "description": "Increases all primary stats by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all primary stats by 8%."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29876,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Bloodmoon Power",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Liquify</span> now cleanses all negative effects when used.",
+    "descriptionText": "Your Liquify now cleanses all negative effects when used.",
+    "iconPath": "interface/icons/sha_ability_rogue_bloodyeye_nightmare",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801961,
+    "spellIds": [
+      801961
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 955599,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801961,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Liquify</span> now cleanses all negative effects when used.",
+        "descriptionText": "Your Liquify now cleanses all negative effects when used."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30846,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Mortal Wounds",
+    "description": "Your direct harmful critical strikes with spells and abilities now cause the target to bleed for <span class=\"item-number\">306000</span> + <span class=\"item-number\">6000% AP</span> + <span class=\"item-number\">30000% SP</span> over <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Your direct harmful critical strikes with spells and abilities now cause the target to bleed for 306000 + 6000% AP + 30000% SP over 6 seconds.",
+    "iconPath": "interface/icons/ability_deathwing_bloodcorruption_death",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504292,
+    "spellIds": [
+      504292
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8352,
+      33715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504292,
+        "description": "Your direct harmful critical strikes with spells and abilities now cause the target to bleed for <span class=\"item-number\">306000</span> + <span class=\"item-number\">6000% AP</span> + <span class=\"item-number\">30000% SP</span> over <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Your direct harmful critical strikes with spells and abilities now cause the target to bleed for 306000 + 6000% AP + 30000% SP over 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31117,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Pact",
+    "description": "Invoke a blood pact, exchanging health for enhanced reflexes, increasing your chance to dodge and reducing the chance for ranged attacks to hit you by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Invoke a blood pact, exchanging health for enhanced reflexes, increasing your chance to dodge and reducing the chance for ranged attacks to hit you by 30% for 12 seconds.",
+    "iconPath": "interface/icons/ability_xavius_darkeningsoul",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801955,
+    "spellIds": [
+      801955
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801955,
+        "description": "Invoke a blood pact, exchanging health for enhanced reflexes, increasing your chance to dodge and reducing the chance for ranged attacks to hit you by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Invoke a blood pact, exchanging health for enhanced reflexes, increasing your chance to dodge and reducing the chance for ranged attacks to hit you by 30% for 12 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31215,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Trails",
+    "description": "Periodic damage and healing now causes targets to spill a pool of blood beneath them.<br /><br />Allies in a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> who move through the pools of blood gain <span style=\"color: #ffffff; display: inline\">Trail of Blood</span> for <span class=\"item-number\">6</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _scrollofspeed_fire\" /><span class=\"name\">Trail of Blood</span></div><span class=\"desc\">Movement speed cannot be reduced below <span class=\"item-number\">80</span><span class=\"item-number\">%</span>. Movement speed increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>. Damage dealt increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Periodic damage and healing now causes targets to spill a pool of blood beneath them.\n\nAllies in a Cursed Form who move through the pools of blood gain Trail of Blood for 6 seconds.\n\n---\n\nTrail of BloodMovement speed cannot be reduced below 80%. Movement speed increased by 15%. Damage dealt increased by 5%.",
+    "iconPath": "interface/icons/uico_blood_spell_07_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804858,
+    "spellIds": [
+      804858
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4969,
+      34963
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804858,
+        "description": "Periodic damage and healing now causes targets to spill a pool of blood beneath them.<br /><br />Allies in a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> who move through the pools of blood gain <span style=\"color: #ffffff; display: inline\">Trail of Blood</span> for <span class=\"item-number\">6</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _scrollofspeed_fire\" /><span class=\"name\">Trail of Blood</span></div><span class=\"desc\">Movement speed cannot be reduced below <span class=\"item-number\">80</span><span class=\"item-number\">%</span>. Movement speed increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>. Damage dealt increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Periodic damage and healing now causes targets to spill a pool of blood beneath them.\n\nAllies in a Cursed Form who move through the pools of blood gain Trail of Blood for 6 seconds.\n\n---\n\nTrail of BloodMovement speed cannot be reduced below 80%. Movement speed increased by 15%. Damage dealt increased by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34628,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Bloody Sacrifice",
+    "description": "Increases your healing received by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and reduces the cast time of <span style=\"color: #ffffff; display: inline\">Bloodmoon Blast</span> by <span class=\"item-number\">0.3</span> sec.",
+    "descriptionText": "Increases your healing received by 6% and reduces the cast time of Bloodmoon Blast by 0.3 sec.",
+    "iconPath": "interface/icons/_sacrificialdagger_blood",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705742,
+    "spellIds": [
+      705742
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7288
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705742,
+        "description": "Increases your healing received by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and reduces the cast time of <span style=\"color: #ffffff; display: inline\">Bloodmoon Blast</span> by <span class=\"item-number\">0.3</span> sec.",
+        "descriptionText": "Increases your healing received by 6% and reduces the cast time of Bloodmoon Blast by 0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34963,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Crimson Curse",
+    "description": "Your direct damage critical strikes increase the damage the target takes from bleed effects by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Your direct damage critical strikes increase the damage the target takes from bleed effects by 30% for 15 seconds.",
+    "iconPath": "interface/icons/novart_physical_ability_(14)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706656,
+    "spellIds": [
+      706656
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29173
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706656,
+        "description": "Your direct damage critical strikes increase the damage the target takes from bleed effects by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Your direct damage critical strikes increase the damage the target takes from bleed effects by 30% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34964,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Predator",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Claw Sweep</span>, <span style=\"color: #ffffff; display: inline\">Sanguine Mend</span>, and <span style=\"color: #FFFFFF; display: inline\">Sanguine Rupture</span> can now strike <span class=\"item-number\">1</span> additional nearby target.",
+    "descriptionText": "Your Claw Sweep, Sanguine Mend, and Sanguine Rupture can now strike 1 additional nearby target.",
+    "iconPath": "interface/icons/spell_shadow_summonfelhunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300590,
+    "spellIds": [
+      300590
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5354,
+      7354,
+      9970
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300590,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Claw Sweep</span>, <span style=\"color: #ffffff; display: inline\">Sanguine Mend</span>, and <span style=\"color: #FFFFFF; display: inline\">Sanguine Rupture</span> can now strike <span class=\"item-number\">1</span> additional nearby target.",
+        "descriptionText": "Your Claw Sweep, Sanguine Mend, and Sanguine Rupture can now strike 1 additional nearby target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34965,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Saturating Sutures",
+    "description": "Your periodic damage and healing has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the cost your next <span style=\"color: #ffffff; display: inline\">Sanguine Mend</span> by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Your periodic damage and healing has a 15% chance to reduce the cost your next Sanguine Mend by -100% for 8 seconds.",
+    "iconPath": "interface/icons/trade_archaeology_bloodysatyrscepter",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504098,
+    "spellIds": [
+      504098
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7287,
+      7289
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 733221,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504098,
+        "description": "Your periodic damage and healing has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the cost your next <span style=\"color: #ffffff; display: inline\">Sanguine Mend</span> by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Your periodic damage and healing has a 15% chance to reduce the cost your next Sanguine Mend by -100% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34966,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Transfusion",
+    "description": "Swap health percentages with an ally.<br /><br />Increases the lower health percentage of the two to <span class=\"item-number\">40</span><span class=\"item-number\">%</span>, if below that amount.",
+    "descriptionText": "Swap health percentages with an ally.\n\nIncreases the lower health percentage of the two to 40%, if below that amount.",
+    "iconPath": "interface/icons/nhi_bloodboil_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705734,
+    "spellIds": [
+      705734
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7283,
+      8191,
+      29876
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705734,
+        "description": "Swap health percentages with an ally.<br /><br />Increases the lower health percentage of the two to <span class=\"item-number\">40</span><span class=\"item-number\">%</span>, if below that amount.",
+        "descriptionText": "Swap health percentages with an ally.\n\nIncreases the lower health percentage of the two to 40%, if below that amount."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34969,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Veil",
+    "description": "Create a magical veil around an ally, absorbing <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of incoming Magic Damage, up to a maximum of <span class=\"item-number\">242</span> + <span class=\"item-number\">100% Spirit</span> + <span class=\"item-number\">30% SP</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Create a magical veil around an ally, absorbing 50% of incoming Magic Damage, up to a maximum of 242 + 100% Spirit + 30% SP for 8 seconds.",
+    "iconPath": "interface/icons/nhi_blood_drain_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504263,
+    "spellIds": [
+      504263
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6629,
+      30334,
+      34965
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504263,
+        "description": "Create a magical veil around an ally, absorbing <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of incoming Magic Damage, up to a maximum of <span class=\"item-number\">242</span> + <span class=\"item-number\">100% Spirit</span> + <span class=\"item-number\">30% SP</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Create a magical veil around an ally, absorbing 50% of incoming Magic Damage, up to a maximum of 242 + 100% Spirit + 30% SP for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30334,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Veins of Vengeance",
+    "description": "Increases your chance to resist curse effects by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to resist curse effects by 15%.",
+    "iconPath": "interface/icons/ability_rogue_sanguinaryvein",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560074,
+    "spellIds": [
+      560074
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7289,
+      7661,
+      11661
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560074,
+        "description": "Increases your chance to resist curse effects by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to resist curse effects by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6629,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Dark Mending",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Sanguine Mend</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Reduces the cast time of Sanguine Mend by -0.5 sec.",
+    "iconPath": "interface/icons/nhi_shadowtouch_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561278,
+    "spellIds": [
+      561278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7287,
+      7289
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 733221,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561278,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Sanguine Mend</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Reduces the cast time of Sanguine Mend by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6630,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Rush",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Blood Rush</span>. Can only occur once every <span class=\"item-number\">5</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_rogue_bloodyeye\" /><span class=\"name\">Blood Rush</span></div><span class=\"desc\">Increases your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+    "descriptionText": "Periodic damage dealt now has a 20% chance to grant you Blood Rush. Can only occur once every 5 sec.\n\n---\n\nBlood RushIncreases your haste by 20% for 5 seconds.",
+    "iconPath": "interface/icons/ability_rogue_bloodyeye",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560254,
+    "spellIds": [
+      560254
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8352,
+      29871,
+      34628
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560254,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Blood Rush</span>. Can only occur once every <span class=\"item-number\">5</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_rogue_bloodyeye\" /><span class=\"name\">Blood Rush</span></div><span class=\"desc\">Increases your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+        "descriptionText": "Periodic damage dealt now has a 20% chance to grant you Blood Rush. Can only occur once every 5 sec.\n\n---\n\nBlood RushIncreases your haste by 20% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5907,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Easy Prey",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Hemostasis</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of Hemostasis by 1 sec.",
+    "iconPath": "interface/icons/ability_mount_epicbatmount",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704621,
+    "spellIds": [
+      704621
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7287
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704621,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Hemostasis</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of Hemostasis by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4969,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Runs Cold",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Blood Pact</span> now also increases your healing received by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Blood Pact now also increases your healing received by 20%.",
+    "iconPath": "interface/icons/sha_ability_warrior_bloodnova",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560257,
+    "spellIds": [
+      560257
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29173
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560257,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Blood Pact</span> now also increases your healing received by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Blood Pact now also increases your healing received by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5354,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Visceral Magic",
+    "description": "Adds <span class=\"item-number\">40</span><span class=\"item-number\">%</span> to the Armor contribution from items by <span style=\"color: #ffffff; display: inline\">Blood Shield</span>.",
+    "descriptionText": "Adds 40% to the Armor contribution from items by Blood Shield.",
+    "iconPath": "interface/icons/spell_deathknight_bloodpresence",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707371,
+    "spellIds": [
+      707371
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5907,
+      29484
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 234211,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707371,
+        "description": "Adds <span class=\"item-number\">40</span><span class=\"item-number\">%</span> to the Armor contribution from items by <span style=\"color: #ffffff; display: inline\">Blood Shield</span>.",
+        "descriptionText": "Adds 40% to the Armor contribution from items by Blood Shield."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5384,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Bloodleaper",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Lunge</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Lunge by -5 sec.",
+    "iconPath": "interface/icons/inv_boot_cloth_raidwarlock_r_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806423,
+    "spellIds": [
+      806423
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31117
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806423,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Lunge</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Lunge by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7283,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Vampiric Pools",
+    "description": "When <span style=\"color: #ffffff; display: inline\">Liquify</span> ends, you now leech <span class=\"item-number\">538</span> + <span class=\"item-number\">100% SP</span> health from nearby enemies.",
+    "descriptionText": "When Liquify ends, you now leech 538 + 100% SP health from nearby enemies.",
+    "iconPath": "interface/icons/warlock_bloodstone",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504088,
+    "spellIds": [
+      504088
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 955599,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504088,
+        "description": "When <span style=\"color: #ffffff; display: inline\">Liquify</span> ends, you now leech <span class=\"item-number\">538</span> + <span class=\"item-number\">100% SP</span> health from nearby enemies.",
+        "descriptionText": "When Liquify ends, you now leech 538 + 100% SP health from nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7285,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Infected Blood",
+    "description": "Your bleeds now reduce the enemy's movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your bleeds now reduce the enemy's movement speed by -30%.",
+    "iconPath": "interface/icons/spell_yorsahj_bloodboil_orangeoil",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805035,
+    "spellIds": [
+      805035
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8357,
+      12357,
+      30846
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805035,
+        "description": "Your bleeds now reduce the enemy's movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your bleeds now reduce the enemy's movement speed by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7287,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Hemostasis",
+    "description": "Trap an enemy in a blood orb, horrifying them in place for <span class=\"item-number\">4</span> seconds.<br /><br />Reactivating this ability within <span class=\"item-number\">4</span> seconds, instantly pops the <span style=\"color: #ffffff; display: inline\">Hemostasis</span>, dealing <span class=\"item-number\">43% AP</span> + <span class=\"item-number\">103% shadow SP</span> Shadow Damage and reducing their healing received by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Trap an enemy in a blood orb, horrifying them in place for 4 seconds.\n\nReactivating this ability within 4 seconds, instantly pops the Hemostasis, dealing 43% AP + 103% shadow SP Shadow Damage and reducing their healing received by -60% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_bloodvision_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681304,
+    "spellIds": [
+      681304
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6630
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681304,
+        "description": "Trap an enemy in a blood orb, horrifying them in place for <span class=\"item-number\">4</span> seconds.<br /><br />Reactivating this ability within <span class=\"item-number\">4</span> seconds, instantly pops the <span style=\"color: #ffffff; display: inline\">Hemostasis</span>, dealing <span class=\"item-number\">43% AP</span> + <span class=\"item-number\">103% shadow SP</span> Shadow Damage and reducing their healing received by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Trap an enemy in a blood orb, horrifying them in place for 4 seconds.\n\nReactivating this ability within 4 seconds, instantly pops the Hemostasis, dealing 43% AP + 103% shadow SP Shadow Damage and reducing their healing received by -60% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7288,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Night Stalker",
+    "description": "All damage and healing done is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> at night.",
+    "descriptionText": "All damage and healing done is increased by 5% at night.",
+    "iconPath": "interface/icons/inv_misc_eye_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807774,
+    "spellIds": [
+      807774
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29543
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807774,
+        "description": "All damage and healing done is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> at night.",
+        "descriptionText": "All damage and healing done is increased by 5% at night."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7289,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Bloodbender",
+    "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Offerings</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Offerings by 20%.",
+    "iconPath": "interface/icons/nhi_handsofblood_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704635,
+    "spellIds": [
+      704635
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33688,
+      34628
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704635,
+        "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Offerings</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Offerings by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12357,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Bloodbound Etchings",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Blood Shield</span> now increases your health regeneration by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more.",
+    "descriptionText": "Your Blood Shield now increases your health regeneration by 50% more.",
+    "iconPath": "interface/icons/_stonetablet_stainedblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570758,
+    "spellIds": [
+      570758
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 570735,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570758,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Blood Shield</span> now increases your health regeneration by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more.",
+        "descriptionText": "Your Blood Shield now increases your health regeneration by 50% more."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9970,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Life Scent",
+    "description": "Increases your stealth detection significantly.",
+    "descriptionText": "Increases your stealth detection significantly.",
+    "iconPath": "interface/icons/ability_rogue_garrote",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706617,
+    "spellIds": [
+      706617
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5907,
+      6629,
+      34965
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706617,
+        "description": "Increases your stealth detection significantly.",
+        "descriptionText": "Increases your stealth detection significantly."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11661,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Mucking Around",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Scarlet Delirium</span> by <span class=\"item-number\">-1</span> sec, but increases the health cost by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Scarlet Delirium by -1 sec, but increases the health cost by 100%.",
+    "iconPath": "interface/icons/spell_shadow_abominationexplosion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681444,
+    "spellIds": [
+      681444
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33688
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 681444,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681444,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Scarlet Delirium</span> by <span class=\"item-number\">-1</span> sec, but increases the health cost by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Scarlet Delirium by -1 sec, but increases the health cost by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7661,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Clot",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Scarlet Delirium</span> now deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Your Scarlet Delirium now deals 50% increased damage.",
+    "iconPath": "interface/icons/_enslavespell_blood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680657,
+    "spellIds": [
+      680657
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33688
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 681444,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680657,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Scarlet Delirium</span> now deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Your Scarlet Delirium now deals 50% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7354,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Coagulation",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Blood Shield</span> now also dispels <span class=\"item-number\">1</span> bleed effect from you with each tick.",
+    "descriptionText": "Your Blood Shield now also dispels 1 bleed effect from you with each tick.",
+    "iconPath": "interface/icons/inv_maldraxxusslime_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706258,
+    "spellIds": [
+      706258
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5907,
+      29484
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 234211,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706258,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Blood Shield</span> now also dispels <span class=\"item-number\">1</span> bleed effect from you with each tick.",
+        "descriptionText": "Your Blood Shield now also dispels 1 bleed effect from you with each tick."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 8191,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Everhungry",
+    "description": "Direct critical strikes now increase your haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Direct critical strikes now increase your haste by 10% for 5 seconds.",
+    "iconPath": "interface/icons/inv_misc_food_legion_heartyfeast",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804599,
+    "spellIds": [
+      804599
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7283,
+      29876,
+      33737
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804599,
+        "description": "Direct critical strikes now increase your haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Direct critical strikes now increase your haste by 10% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 8215,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Blood Bond",
+    "description": "Bond yourself to an ally for <span class=\"item-number\">30</span> minutes, causing direct damage taken by the ally to generate <span class=\"item-number\">1</span> Rage and <span class=\"item-number\">3</span><span class=\"item-number\">%</span> base health and redirect their threat generated to you.<br /><br />In addition, while out of combat, you and your bonded ally have <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased movement speed.",
+    "descriptionText": "Bond yourself to an ally for 30 minutes, causing direct damage taken by the ally to generate 1 Rage and 3% base health and redirect their threat generated to you.\n\nIn addition, while out of combat, you and your bonded ally have 30% increased movement speed.",
+    "iconPath": "interface/icons/nhi_bloodsacrifice_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504627,
+    "spellIds": [
+      504627
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4969,
+      31215
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504627,
+        "description": "Bond yourself to an ally for <span class=\"item-number\">30</span> minutes, causing direct damage taken by the ally to generate <span class=\"item-number\">1</span> Rage and <span class=\"item-number\">3</span><span class=\"item-number\">%</span> base health and redirect their threat generated to you.<br /><br />In addition, while out of combat, you and your bonded ally have <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased movement speed.",
+        "descriptionText": "Bond yourself to an ally for 30 minutes, causing direct damage taken by the ally to generate 1 Rage and 3% base health and redirect their threat generated to you.\n\nIn addition, while out of combat, you and your bonded ally have 30% increased movement speed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 8352,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Dark Curse",
+    "description": "Increases critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases critical strike chance by 3%.",
+    "iconPath": "interface/icons/ability_racial_cannibalize",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704649,
+    "spellIds": [
+      704649,
+      560252
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5384
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704649,
+        "description": "Increases critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases critical strike chance by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 560252,
+        "description": "Increases critical strike chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases critical strike chance by 6%."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 8357,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Crimson Etchings",
+    "description": "Removes the health cost of your <span style=\"color: #ffffff; display: inline\">Blood Shield</span> and <span style=\"color: #ffffff; display: inline\">Vital Shield</span>.",
+    "descriptionText": "Removes the health cost of your Blood Shield and Vital Shield.",
+    "iconPath": "interface/icons/5_engineerskill03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570735,
+    "spellIds": [
+      570735
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 570735,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570735,
+        "description": "Removes the health cost of your <span style=\"color: #ffffff; display: inline\">Blood Shield</span> and <span style=\"color: #ffffff; display: inline\">Vital Shield</span>.",
+        "descriptionText": "Removes the health cost of your Blood Shield and Vital Shield."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29173,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Wicked Howl",
+    "description": "Let loose a wicked howl, increasing your maximum health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Let loose a wicked howl, increasing your maximum health by 30% for 20 seconds.",
+    "iconPath": "interface/icons/custom_t_bloodmaw_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804207,
+    "spellIds": [
+      804207
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7285,
+      29484
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804207,
+        "description": "Let loose a wicked howl, increasing your maximum health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Let loose a wicked howl, increasing your maximum health by 30% for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29370,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 87,
+    "tabKey": "20:87",
+    "tabName": "Class",
+    "name": "Nightmare",
+    "description": "While above <span class=\"item-number\">50%</span> maximum health, abilities that cost Rage now consume <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health to damage or heal your target for an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the value.",
+    "descriptionText": "While above 50% maximum health, abilities that cost Rage now consume 2% of your maximum health to damage or heal your target for an additional 10% of the value.",
+    "iconPath": "interface/icons/_deathcoilv2_blood",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300226,
+    "spellIds": [
+      300226
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8191,
+      31215,
+      34964
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300226,
+        "description": "While above <span class=\"item-number\">50%</span> maximum health, abilities that cost Rage now consume <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health to damage or heal your target for an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the value.",
+        "descriptionText": "While above 50% maximum health, abilities that cost Rage now consume 2% of your maximum health to damage or heal your target for an additional 10% of the value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

@@ -1,0 +1,1782 @@
+[
+  {
+    "nodeId": 29613,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Rocket Launcher",
+    "description": "Fire a powerful rocket at an enemy that deals <span class=\"item-number\">140</span> + <span class=\"item-number\">35% ranged AP</span> + <span class=\"item-number\">35% fire SP</span> Fire Damage.",
+    "descriptionText": "Fire a powerful rocket at an enemy that deals 140 + 35% ranged AP + 35% fire SP Fire Damage.",
+    "iconPath": "interface/icons/ability_racial_rocketbarrage",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500235,
+    "spellIds": [
+      500235
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6828
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500235,
+        "description": "Fire a powerful rocket at an enemy that deals <span class=\"item-number\">140</span> + <span class=\"item-number\">35% ranged AP</span> + <span class=\"item-number\">35% fire SP</span> Fire Damage.",
+        "descriptionText": "Fire a powerful rocket at an enemy that deals 140 + 35% ranged AP + 35% fire SP Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31237,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "I Need More Explosions!",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosions</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Sticky Bomb Explosions by 15%.",
+    "iconPath": "interface/icons/nhi_tech_bombs_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503550,
+    "spellIds": [
+      503550
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7001
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503550,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosions</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Sticky Bomb Explosions by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29825,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Rockadier",
+    "description": "Empowers the next <span class=\"item-number\">6</span> <span style=\"color: #ffffff; display: inline\">Scrap Shots</span> or <span style=\"color: #ffffff; display: inline\">Rocket Launchers</span> within <span class=\"item-number\">30</span> seconds deal additional Fire Damage equal to <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt to up to <span class=\"item-number\">10</span> enemies in an <span class=\"item-number\">8</span> yd radius around the target.",
+    "descriptionText": "Empowers the next 6 Scrap Shots or Rocket Launchers within 30 seconds deal additional Fire Damage equal to 100% of the damage dealt to up to 10 enemies in an 8 yd radius around the target.",
+    "iconPath": "interface/icons/ability_mount_rocketmount4",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801827,
+    "spellIds": [
+      801827
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6386,
+      29340
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801827,
+        "description": "Empowers the next <span class=\"item-number\">6</span> <span style=\"color: #ffffff; display: inline\">Scrap Shots</span> or <span style=\"color: #ffffff; display: inline\">Rocket Launchers</span> within <span class=\"item-number\">30</span> seconds deal additional Fire Damage equal to <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt to up to <span class=\"item-number\">10</span> enemies in an <span class=\"item-number\">8</span> yd radius around the target.",
+        "descriptionText": "Empowers the next 6 Scrap Shots or Rocket Launchers within 30 seconds deal additional Fire Damage equal to 100% of the damage dealt to up to 10 enemies in an 8 yd radius around the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29921,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Build: Spider Bomb Factory",
+    "description": "Build a <span style=\"color: #ffffff; display: inline\">Spider Bomb Factory</span> in front of you for <span class=\"item-number\">15</span> seconds.<br /><br />For the duration, <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> and <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> will summon <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Spider Bombs</span>, that will immediately run towards your target and detonate dealing <span class=\"item-number\">295</span> + <span class=\"item-number\">30% ranged AP</span> Fire Damage.<br /><br />Using <span style=\"color: #FFFFFF; display: inline\">Scrap Shot</span> will redirect the <span style=\"color: #ffffff; display: inline\">Spider Bombs</span> to your new target.",
+    "descriptionText": "Build a Spider Bomb Factory in front of you for 15 seconds.\n\nFor the duration, Bomb Toss and Rocket Launcher will summon 3 Spider Bombs, that will immediately run towards your target and detonate dealing 295 + 30% ranged AP Fire Damage.\n\nUsing Scrap Shot will redirect the Spider Bombs to your new target.",
+    "iconPath": "interface/icons/inv_mechagonspidertank_brass",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802052,
+    "spellIds": [
+      802052
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7035,
+      7047,
+      29441
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802052,
+        "description": "Build a <span style=\"color: #ffffff; display: inline\">Spider Bomb Factory</span> in front of you for <span class=\"item-number\">15</span> seconds.<br /><br />For the duration, <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> and <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> will summon <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Spider Bombs</span>, that will immediately run towards your target and detonate dealing <span class=\"item-number\">295</span> + <span class=\"item-number\">30% ranged AP</span> Fire Damage.<br /><br />Using <span style=\"color: #FFFFFF; display: inline\">Scrap Shot</span> will redirect the <span style=\"color: #ffffff; display: inline\">Spider Bombs</span> to your new target.",
+        "descriptionText": "Build a Spider Bomb Factory in front of you for 15 seconds.\n\nFor the duration, Bomb Toss and Rocket Launcher will summon 3 Spider Bombs, that will immediately run towards your target and detonate dealing 295 + 30% ranged AP Fire Damage.\n\nUsing Scrap Shot will redirect the Spider Bombs to your new target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30579,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Rocket Turrets",
+    "description": "Allows <span style=\"color: #ffffff; display: inline\">Machine Synergy</span> to stack <span class=\"item-number\">2</span> additional times and using <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> now causes your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to also cast <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_tech_steammachine_border\" /><span class=\"name\">Machine Synergy</span></div><span class=\"desc\">Increases damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times, for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Allows Machine Synergy to stack 2 additional times and using Rocket Launcher now causes your Sentry Turret to also cast Rocket Launcher.\n\n---\n\nMachine SynergyIncreases damage dealt by 5% and haste by 3%, stacking 3 times, for 6 seconds.",
+    "iconPath": "interface/icons/nhi_tech_rocketdouble_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707259,
+    "spellIds": [
+      707259
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4883,
+      7035
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707259,
+        "description": "Allows <span style=\"color: #ffffff; display: inline\">Machine Synergy</span> to stack <span class=\"item-number\">2</span> additional times and using <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> now causes your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to also cast <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_tech_steammachine_border\" /><span class=\"name\">Machine Synergy</span></div><span class=\"desc\">Increases damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times, for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Allows Machine Synergy to stack 2 additional times and using Rocket Launcher now causes your Sentry Turret to also cast Rocket Launcher.\n\n---\n\nMachine SynergyIncreases damage dealt by 5% and haste by 3%, stacking 3 times, for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30580,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Short Fuse",
+    "description": "<span style=\"color: #ffffff; display: inline\">Sparked and Ready</span> now also increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Sparked and Ready now also increases the critical strike chance of Rocket Launcher by 20%.",
+    "iconPath": "interface/icons/achievement_boss_siegecrafter_blackfuse",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707246,
+    "spellIds": [
+      707246
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5991,
+      29441
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707246,
+        "description": "<span style=\"color: #ffffff; display: inline\">Sparked and Ready</span> now also increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Sparked and Ready now also increases the critical strike chance of Rocket Launcher by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30581,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Build: Firepot Drone",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">10</span> sec recharge</span><br />Build a <span style=\"color: #FFFFFF; display: inline\">Firepot Drone</span> that flies towards your target, dropping a bomb along its path and exploding upon landing, dealing <span class=\"item-number\">181</span> + <span class=\"item-number\">17.5% ranged AP</span> + <span class=\"item-number\">55% fire SP</span> Fire Damage in a <span class=\"item-number\">5</span> yd radius, leaving oil on the ground that slows enemies by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "3 Charges, 10 sec recharge\nBuild a Firepot Drone that flies towards your target, dropping a bomb along its path and exploding upon landing, dealing 181 + 17.5% ranged AP + 55% fire SP Fire Damage in a 5 yd radius, leaving oil on the ground that slows enemies by -50% for 6 seconds.",
+    "iconPath": "interface/icons/5_engineerskill25_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500600,
+    "spellIds": [
+      500600
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34996
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500600,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">10</span> sec recharge</span><br />Build a <span style=\"color: #FFFFFF; display: inline\">Firepot Drone</span> that flies towards your target, dropping a bomb along its path and exploding upon landing, dealing <span class=\"item-number\">181</span> + <span class=\"item-number\">17.5% ranged AP</span> + <span class=\"item-number\">55% fire SP</span> Fire Damage in a <span class=\"item-number\">5</span> yd radius, leaving oil on the ground that slows enemies by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "3 Charges, 10 sec recharge\nBuild a Firepot Drone that flies towards your target, dropping a bomb along its path and exploding upon landing, dealing 181 + 17.5% ranged AP + 55% fire SP Fire Damage in a 5 yd radius, leaving oil on the ground that slows enemies by -50% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30586,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "War Crimes",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Explosive Augmentation</span> and <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #ffffff; display: inline\">Napalm</span> to enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_eng_bombfire\" /><span class=\"name\">Napalm (Damage)</span></div><span class=\"desc\">Fire Damage taken by you is increased and healing received reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">10</span> times.</span></div>",
+    "descriptionText": "Damage dealt by Explosive Augmentation and Tracer Augmentation now has a 50% chance to apply Napalm to enemies.\n\n---\n\nNapalm (Damage)Fire Damage taken by you is increased and healing received reduced by -3% for 8 seconds. Stacks 10 times.",
+    "iconPath": "interface/icons/nhi_fire_explosion_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707239,
+    "spellIds": [
+      707239
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34994
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707254,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707239,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Explosive Augmentation</span> and <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #ffffff; display: inline\">Napalm</span> to enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_eng_bombfire\" /><span class=\"name\">Napalm (Damage)</span></div><span class=\"desc\">Fire Damage taken by you is increased and healing received reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">10</span> times.</span></div>",
+        "descriptionText": "Damage dealt by Explosive Augmentation and Tracer Augmentation now has a 50% chance to apply Napalm to enemies.\n\n---\n\nNapalm (Damage)Fire Damage taken by you is increased and healing received reduced by -3% for 8 seconds. Stacks 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30702,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Tank Buster",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now ignores <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the target's Armor when damaging <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+    "descriptionText": "Your Scrap Shot now ignores 50% of the target's Armor when damaging Burning targets.",
+    "iconPath": "interface/icons/spell_fire_sealoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707254,
+    "spellIds": [
+      707254
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34994
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707254,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707254,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now ignores <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the target's Armor when damaging <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+        "descriptionText": "Your Scrap Shot now ignores 50% of the target's Armor when damaging Burning targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34984,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Explosive Inventor",
+    "description": "<span style=\"color: #ffffff; display: inline\">Spider Bomb Factory</span> now also summons a <span style=\"color: #ffffff; display: inline\">Heavy Spider Bomb</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Heavy Spider Bombs</span> move slowly, and deal <span class=\"item-number\">1246</span> + <span class=\"item-number\">55% ranged AP</span> Fire Damage when they reach their target and slow their movement speed by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.",
+    "descriptionText": "Spider Bomb Factory now also summons a Heavy Spider Bomb.\n\nHeavy Spider Bombs move slowly, and deal 1246 + 55% ranged AP Fire Damage when they reach their target and slow their movement speed by -70% for 2 seconds.",
+    "iconPath": "interface/icons/inv_eng_bombroot",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300636,
+    "spellIds": [
+      300636
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300636,
+        "description": "<span style=\"color: #ffffff; display: inline\">Spider Bomb Factory</span> now also summons a <span style=\"color: #ffffff; display: inline\">Heavy Spider Bomb</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Heavy Spider Bombs</span> move slowly, and deal <span class=\"item-number\">1246</span> + <span class=\"item-number\">55% ranged AP</span> Fire Damage when they reach their target and slow their movement speed by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.",
+        "descriptionText": "Spider Bomb Factory now also summons a Heavy Spider Bomb.\n\nHeavy Spider Bombs move slowly, and deal 1246 + 55% ranged AP Fire Damage when they reach their target and slow their movement speed by -70% for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34985,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Buster Scope",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Rocket Launcher by 10%.",
+    "iconPath": "interface/icons/inv_engineering_snipingscope",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707253,
+    "spellIds": [
+      707253
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6883
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 998000,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707253,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Rocket Launcher by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34989,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Mega Scope",
+    "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> by <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Increases the range of Rocket Launcher by 10 yds.",
+    "iconPath": "interface/icons/inv_misc_scopeb",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707252,
+    "spellIds": [
+      707252
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6883
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 998000,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707252,
+        "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> by <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Increases the range of Rocket Launcher by 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34992,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Explosives Expert",
+    "description": "Direct harmful ability critical strikes from you or your summons now restores <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Direct harmful ability critical strikes from you or your summons now restores 4% of your maximum mana.",
+    "iconPath": "interface/icons/inv_misc_bomb_07",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706379,
+    "spellIds": [
+      706379
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6385,
+      7002
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706379,
+        "description": "Direct harmful ability critical strikes from you or your summons now restores <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Direct harmful ability critical strikes from you or your summons now restores 4% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34994,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Aftermath",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> now causes your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Scrap Shots</span> within <span class=\"item-number\">10</span> seconds to cast <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster and deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Casting Sticky Bomb now causes your next 2 Scrap Shots within 10 seconds to cast -50% faster and deal 25% increased damage.",
+    "iconPath": "interface/icons/inv_ascend_sticks_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707260,
+    "spellIds": [
+      707260
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6385,
+      31237
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707260,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> now causes your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Scrap Shots</span> within <span class=\"item-number\">10</span> seconds to cast <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster and deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Casting Sticky Bomb now causes your next 2 Scrap Shots within 10 seconds to cast -50% faster and deal 25% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34996,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Incendiary Bullets",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and increases your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Scrap Shot by 15% and increases your chance to hit by 2%.",
+    "iconPath": "interface/icons/nhi_holybullet_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707269,
+    "spellIds": [
+      707269,
+      707841
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29613
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707269,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and increases your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Scrap Shot by 15% and increases your chance to hit by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707841,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and increases your chance to hit by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Scrap Shot by 30% and increases your chance to hit by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34997,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Duobombers",
+    "description": "<span style=\"color: #ffffff; display: inline\">Build: Spider Bomb</span> now creates an additional <span style=\"color: #ffffff; display: inline\">Spider Bomb</span> that rushes towards your target.",
+    "descriptionText": "Build: Spider Bomb now creates an additional Spider Bomb that rushes towards your target.",
+    "iconPath": "interface/icons/inv_eng_bombfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707258,
+    "spellIds": [
+      707258
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31237
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707258,
+        "description": "<span style=\"color: #ffffff; display: inline\">Build: Spider Bomb</span> now creates an additional <span style=\"color: #ffffff; display: inline\">Spider Bomb</span> that rushes towards your target.",
+        "descriptionText": "Build: Spider Bomb now creates an additional Spider Bomb that rushes towards your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4049,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Napalm",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Dealing direct Fire Damage now applies <span style=\"color: #FFFFFF; display: inline\">Napalm</span> to your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_eng_bombfire\" /><span class=\"name\">Napalm (Damage)</span></div><span class=\"desc\">Fire Damage taken by you is increased and healing received reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">10</span> times.</span></div>",
+    "descriptionText": "Level 10 Passive\nDealing direct Fire Damage now applies Napalm to your target.\n\n---\n\nNapalm (Damage)Fire Damage taken by you is increased and healing received reduced by -3% for 8 seconds. Stacks 10 times.",
+    "iconPath": "interface/icons/inv_eng_bombfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92138,
+    "spellIds": [
+      92138
+    ],
+    "requiredNodeIds": [
+      31113
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92138,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Dealing direct Fire Damage now applies <span style=\"color: #FFFFFF; display: inline\">Napalm</span> to your target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_eng_bombfire\" /><span class=\"name\">Napalm (Damage)</span></div><span class=\"desc\">Fire Damage taken by you is increased and healing received reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">10</span> times.</span></div>",
+        "descriptionText": "Level 10 Passive\nDealing direct Fire Damage now applies Napalm to your target.\n\n---\n\nNapalm (Damage)Fire Damage taken by you is increased and healing received reduced by -3% for 8 seconds. Stacks 10 times."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6828,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Bomb Toss",
+    "description": "Lob a bomb at an enemy, dealing <span class=\"item-number\">39</span> + <span class=\"item-number\">30% ranged AP</span> + <span class=\"item-number\">50% fire SP</span> Fire Damage and reducing their armor by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Lob a bomb at an enemy, dealing 39 + 30% ranged AP + 50% fire SP Fire Damage and reducing their armor by -5% for 15 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/5_bomb_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801005,
+    "spellIds": [
+      801005
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801005,
+        "description": "Lob a bomb at an enemy, dealing <span class=\"item-number\">39</span> + <span class=\"item-number\">30% ranged AP</span> + <span class=\"item-number\">50% fire SP</span> Fire Damage and reducing their armor by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Lob a bomb at an enemy, dealing 39 + 30% ranged AP + 50% fire SP Fire Damage and reducing their armor by -5% for 15 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6883,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Build: Oil-Spill Pylon",
+    "description": "Build an <span style=\"color: #ffffff; display: inline\">Oil-Spill Pylon</span> at target location for <span class=\"item-number\">10</span> seconds, spilling oil in an <span class=\"item-number\">8</span> yd radius that reduces enemies movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and increases their Fire Damage taken by you by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosions</span> and <span style=\"color: #ffffff; display: inline\">Firepot Drone</span> deal <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage to enemies inside.",
+    "descriptionText": "Build an Oil-Spill Pylon at target location for 10 seconds, spilling oil in an 8 yd radius that reduces enemies movement speed by -60% and increases their Fire Damage taken by you by 15%.\n\nSticky Bomb Explosions and Firepot Drone deal 20% increased damage to enemies inside.",
+    "iconPath": "interface/icons/ability_vehicle_oiljets",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707257,
+    "spellIds": [
+      707257
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34992
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707257,
+        "description": "Build an <span style=\"color: #ffffff; display: inline\">Oil-Spill Pylon</span> at target location for <span class=\"item-number\">10</span> seconds, spilling oil in an <span class=\"item-number\">8</span> yd radius that reduces enemies movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and increases their Fire Damage taken by you by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosions</span> and <span style=\"color: #ffffff; display: inline\">Firepot Drone</span> deal <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage to enemies inside.",
+        "descriptionText": "Build an Oil-Spill Pylon at target location for 10 seconds, spilling oil in an 8 yd radius that reduces enemies movement speed by -60% and increases their Fire Damage taken by you by 15%.\n\nSticky Bomb Explosions and Firepot Drone deal 20% increased damage to enemies inside."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6991,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Tracer Augmentation",
+    "description": "Add a <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> to your gun for <span class=\"item-number\">1</span> hour, causing your ranged attacks to mark enemies for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">5</span> times. After the duration they explode for <span class=\"item-number\">80</span> + <span class=\"item-number\">8% ranged AP</span> + <span class=\"item-number\">15% fire SP</span> Fire Damage, increased based on stacks.<br /><br />Marked enemies are prevented from entering stealth or invisibility for <span class=\"item-number\">20</span> seconds.<br /><br />",
+    "descriptionText": "Add a Tracer Augmentation to your gun for 1 hour, causing your ranged attacks to mark enemies for 5 seconds, stacking 5 times. After the duration they explode for 80 + 8% ranged AP + 15% fire SP Fire Damage, increased based on stacks.\n\nMarked enemies are prevented from entering stealth or invisibility for 20 seconds.",
+    "iconPath": "interface/icons/5_engineerskill46_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 653245,
+    "spellIds": [
+      653245
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5990,
+      30586,
+      30702
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 653245,
+        "description": "Add a <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> to your gun for <span class=\"item-number\">1</span> hour, causing your ranged attacks to mark enemies for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">5</span> times. After the duration they explode for <span class=\"item-number\">80</span> + <span class=\"item-number\">8% ranged AP</span> + <span class=\"item-number\">15% fire SP</span> Fire Damage, increased based on stacks.<br /><br />Marked enemies are prevented from entering stealth or invisibility for <span class=\"item-number\">20</span> seconds.<br /><br />",
+        "descriptionText": "Add a Tracer Augmentation to your gun for 1 hour, causing your ranged attacks to mark enemies for 5 seconds, stacking 5 times. After the duration they explode for 80 + 8% ranged AP + 15% fire SP Fire Damage, increased based on stacks.\n\nMarked enemies are prevented from entering stealth or invisibility for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7001,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Build: Spider Bomb",
+    "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Spider Bomb</span> that will immediately run towards your target and detonate dealing <span class=\"item-number\">295</span> + <span class=\"item-number\">30% ranged AP</span> Fire Damage in an <span class=\"item-number\">8</span> yd radius.<br /><br />Using <span style=\"color: #FFFFFF; display: inline\">Scrap Shot</span> will redirect the <span style=\"color: #ffffff; display: inline\">Spider Bombs</span> to your new target.",
+    "descriptionText": "Build a Spider Bomb that will immediately run towards your target and detonate dealing 295 + 30% ranged AP Fire Damage in an 8 yd radius.\n\nUsing Scrap Shot will redirect the Spider Bombs to your new target.",
+    "iconPath": "interface/icons/ability_siege_engineer_detonate",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500535,
+    "spellIds": [
+      500535
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29613
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500535,
+        "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Spider Bomb</span> that will immediately run towards your target and detonate dealing <span class=\"item-number\">295</span> + <span class=\"item-number\">30% ranged AP</span> Fire Damage in an <span class=\"item-number\">8</span> yd radius.<br /><br />Using <span style=\"color: #FFFFFF; display: inline\">Scrap Shot</span> will redirect the <span style=\"color: #ffffff; display: inline\">Spider Bombs</span> to your new target.",
+        "descriptionText": "Build a Spider Bomb that will immediately run towards your target and detonate dealing 295 + 30% ranged AP Fire Damage in an 8 yd radius.\n\nUsing Scrap Shot will redirect the Spider Bombs to your new target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7002,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Boom Hour",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> and <span style=\"color: #ffffff; display: inline\">Firepot Drone</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Bomb Toss and Firepot Drone by 10%.",
+    "iconPath": "interface/icons/inv_misc_bomb_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802963,
+    "spellIds": [
+      802963
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34996
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802963,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> and <span style=\"color: #ffffff; display: inline\">Firepot Drone</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Bomb Toss and Firepot Drone by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7004,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Hyperblast Barrage",
+    "description": "Unleash a barrage of shrapnel, dealing <span class=\"item-number\">831</span> + <span class=\"item-number\">36% ranged AP</span> + <span class=\"item-number\">55% fire SP</span> Fire Damage to enemies in a <span class=\"item-number\">30</span> yd line, applying a lesser <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> to each target struck that deals <span class=\"item-number\">426</span> + <span class=\"item-number\">10% fire SP</span> + <span class=\"item-number\">50% AP</span> Fire Damage after <span class=\"item-number\">3</span> sec.<br /><br />After <span class=\"item-number\">3</span> seconds, your active <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> will also fire a <span style=\"color: #ffffff; display: inline\">Hyperblast Barrage</span>.<br /><br />Usable while moving.",
+    "descriptionText": "Unleash a barrage of shrapnel, dealing 831 + 36% ranged AP + 55% fire SP Fire Damage to enemies in a 30 yd line, applying a lesser Sticky Bomb to each target struck that deals 426 + 10% fire SP + 50% AP Fire Damage after 3 sec.\n\nAfter 3 seconds, your active Sentry Turret will also fire a Hyperblast Barrage.\n\nUsable while moving.",
+    "iconPath": "interface/icons/inv_weapon_rifle_20",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500249,
+    "spellIds": [
+      500249
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30579
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500249,
+        "description": "Unleash a barrage of shrapnel, dealing <span class=\"item-number\">831</span> + <span class=\"item-number\">36% ranged AP</span> + <span class=\"item-number\">55% fire SP</span> Fire Damage to enemies in a <span class=\"item-number\">30</span> yd line, applying a lesser <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> to each target struck that deals <span class=\"item-number\">426</span> + <span class=\"item-number\">10% fire SP</span> + <span class=\"item-number\">50% AP</span> Fire Damage after <span class=\"item-number\">3</span> sec.<br /><br />After <span class=\"item-number\">3</span> seconds, your active <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> will also fire a <span style=\"color: #ffffff; display: inline\">Hyperblast Barrage</span>.<br /><br />Usable while moving.",
+        "descriptionText": "Unleash a barrage of shrapnel, dealing 831 + 36% ranged AP + 55% fire SP Fire Damage to enemies in a 30 yd line, applying a lesser Sticky Bomb to each target struck that deals 426 + 10% fire SP + 50% AP Fire Damage after 3 sec.\n\nAfter 3 seconds, your active Sentry Turret will also fire a Hyperblast Barrage.\n\nUsable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6505,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Grenadier",
+    "description": "When you reach <span class=\"item-number\">5</span> stacks of <span style=\"color: #ffffff; display: inline\">Napalm</span> on a target you refresh <span class=\"item-number\">1</span> charge of <span style=\"color: #ffffff; display: inline\">Build: Firepot Drone</span>.",
+    "descriptionText": "When you reach 5 stacks of Napalm on a target you refresh 1 charge of Build: Firepot Drone.",
+    "iconPath": "interface/icons/inv_misc_mohawkgrenade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707240,
+    "spellIds": [
+      707240
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30581
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707240,
+        "description": "When you reach <span class=\"item-number\">5</span> stacks of <span style=\"color: #ffffff; display: inline\">Napalm</span> on a target you refresh <span class=\"item-number\">1</span> charge of <span style=\"color: #ffffff; display: inline\">Build: Firepot Drone</span>.",
+        "descriptionText": "When you reach 5 stacks of Napalm on a target you refresh 1 charge of Build: Firepot Drone."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7035,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Rocket Pack",
+    "description": "Fire critical strikes now reduce the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Rockadier</span> by <span class=\"item-number\">-3</span> sec.",
+    "descriptionText": "Fire critical strikes now reduce the remaining cooldown of Rockadier by -3 sec.",
+    "iconPath": "interface/icons/inv_backpack_wrathion_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705820,
+    "spellIds": [
+      705820
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29825
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705820,
+        "description": "Fire critical strikes now reduce the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Rockadier</span> by <span class=\"item-number\">-3</span> sec.",
+        "descriptionText": "Fire critical strikes now reduce the remaining cooldown of Rockadier by -3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7047,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Gazlowe's Wisdom",
+    "description": "You now spawn <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shrapnel Mines</span> under your target when <span style=\"color: #FFFFFF; display: inline\">Sticky Bomb</span> explodes.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_ironmaidens_incindiarydevice\" /><span class=\"name\">Shrapnel Mine</span></div><span class=\"desc\">When you use <span style=\"color: #ffffff; display: inline\">Remote Detonation</span>, deal <span class=\"item-number\">279</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">38.5% SP</span> Physical Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">10</span> yds. The mine lasts <span class=\"item-number\">1</span> minute.</span></div>",
+    "descriptionText": "You now spawn 2 Shrapnel Mines under your target when Sticky Bomb explodes.\n\n---\n\nShrapnel MineWhen you use Remote Detonation, deal 279 + 25% AP + 38.5% SP Physical Damage to up to 5 enemies within 10 yds. The mine lasts 1 minute.",
+    "iconPath": "interface/icons/_goblin_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803074,
+    "spellIds": [
+      803074
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7840,
+      9323,
+      34985,
+      34989
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803074,
+        "description": "You now spawn <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shrapnel Mines</span> under your target when <span style=\"color: #FFFFFF; display: inline\">Sticky Bomb</span> explodes.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_ironmaidens_incindiarydevice\" /><span class=\"name\">Shrapnel Mine</span></div><span class=\"desc\">When you use <span style=\"color: #ffffff; display: inline\">Remote Detonation</span>, deal <span class=\"item-number\">279</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">38.5% SP</span> Physical Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">10</span> yds. The mine lasts <span class=\"item-number\">1</span> minute.</span></div>",
+        "descriptionText": "You now spawn 2 Shrapnel Mines under your target when Sticky Bomb explodes.\n\n---\n\nShrapnel MineWhen you use Remote Detonation, deal 279 + 25% AP + 38.5% SP Physical Damage to up to 5 enemies within 10 yds. The mine lasts 1 minute."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6385,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Target Acquired",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosions</span> and <span style=\"color: #ffffff; display: inline\">Spider Bomb</span> now deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage when it strikes only <span class=\"item-number\">1</span> target.",
+    "descriptionText": "Your Sticky Bomb Explosions and Spider Bomb now deal 30% increased damage when it strikes only 1 target.",
+    "iconPath": "interface/icons/ability_siege_engineer_superheated",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707262,
+    "spellIds": [
+      707262
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7001
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707262,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosions</span> and <span style=\"color: #ffffff; display: inline\">Spider Bomb</span> now deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage when it strikes only <span class=\"item-number\">1</span> target.",
+        "descriptionText": "Your Sticky Bomb Explosions and Spider Bomb now deal 30% increased damage when it strikes only 1 target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6386,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Bombastic",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Build: Spider Bomb</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> and causes your next <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> within <span class=\"item-number\">15</span> seconds to trigger no cooldown, global cooldown, or cost.",
+    "descriptionText": "Casting Build: Spider Bomb now resets the cooldown of Bomb Toss and causes your next Bomb Toss within 15 seconds to trigger no cooldown, global cooldown, or cost.",
+    "iconPath": "interface/icons/inv_misc_bomb_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707271,
+    "spellIds": [
+      707271
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6505,
+      7842
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707271,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Build: Spider Bomb</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> and causes your next <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> within <span class=\"item-number\">15</span> seconds to trigger no cooldown, global cooldown, or cost.",
+        "descriptionText": "Casting Build: Spider Bomb now resets the cooldown of Bomb Toss and causes your next Bomb Toss within 15 seconds to trigger no cooldown, global cooldown, or cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5985,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Rocket Barrage",
+    "description": "Increases the amount of stacks of <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> by <span class=\"item-number\">5</span>, and its duration by <span class=\"item-number\">7</span> sec, and causes damage dealt by <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> on enemies with <span class=\"item-number\">10</span> stacks to launch a <span style=\"color: #ffffff; display: inline\">Rocket Barrage</span> at their location.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_mount_rocketmount3\" /><span class=\"name\">Rocket Barrage (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">1320</span> + <span class=\"item-number\">17.5% AP</span> + <span class=\"item-number\">11% fire SP</span> Fire Damage in a <span class=\"item-number\">10</span> yd radius after <span class=\"item-number\">5</span> seconds.</span></div>",
+    "descriptionText": "Increases the amount of stacks of Tracer Augmentation by 5, and its duration by 7 sec, and causes damage dealt by Bomb Toss on enemies with 10 stacks to launch a Rocket Barrage at their location.\n\n---\n\nRocket Barrage (Damage)Deals 1320 + 17.5% AP + 11% fire SP Fire Damage in a 10 yd radius after 5 seconds.",
+    "iconPath": "interface/icons/ability_mount_rocketmount3",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805314,
+    "spellIds": [
+      805314
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30580
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805314,
+        "description": "Increases the amount of stacks of <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> by <span class=\"item-number\">5</span>, and its duration by <span class=\"item-number\">7</span> sec, and causes damage dealt by <span style=\"color: #ffffff; display: inline\">Bomb Toss</span> on enemies with <span class=\"item-number\">10</span> stacks to launch a <span style=\"color: #ffffff; display: inline\">Rocket Barrage</span> at their location.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_mount_rocketmount3\" /><span class=\"name\">Rocket Barrage (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">1320</span> + <span class=\"item-number\">17.5% AP</span> + <span class=\"item-number\">11% fire SP</span> Fire Damage in a <span class=\"item-number\">10</span> yd radius after <span class=\"item-number\">5</span> seconds.</span></div>",
+        "descriptionText": "Increases the amount of stacks of Tracer Augmentation by 5, and its duration by 7 sec, and causes damage dealt by Bomb Toss on enemies with 10 stacks to launch a Rocket Barrage at their location.\n\n---\n\nRocket Barrage (Damage)Deals 1320 + 17.5% AP + 11% fire SP Fire Damage in a 10 yd radius after 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5990,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Flamethrowing",
+    "description": "When you <span style=\"color: #FFFFFF; display: inline\">Bomb Toss</span>, your <span style=\"color: #FFFFFF; display: inline\">Sentry Turret</span> unleashes flames on your target, dealing <span class=\"item-number\">89+25.5+ranged AP*0.12+SPFI*0.4.</span> Fire Damage to enemies in a <span class=\"item-number\">30</span> yd line.",
+    "descriptionText": "When you Bomb Toss, your Sentry Turret unleashes flames on your target, dealing 89+25.5+ranged AP*0.12+SPFI*0.4. Fire Damage to enemies in a 30 yd line.",
+    "iconPath": "interface/icons/spell_fire_selfdestruct",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707237,
+    "spellIds": [
+      707237
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34994,
+      34997
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707237,
+        "description": "When you <span style=\"color: #FFFFFF; display: inline\">Bomb Toss</span>, your <span style=\"color: #FFFFFF; display: inline\">Sentry Turret</span> unleashes flames on your target, dealing <span class=\"item-number\">89+25.5+ranged AP*0.12+SPFI*0.4.</span> Fire Damage to enemies in a <span class=\"item-number\">30</span> yd line.",
+        "descriptionText": "When you Bomb Toss, your Sentry Turret unleashes flames on your target, dealing 89+25.5+ranged AP*0.12+SPFI*0.4. Fire Damage to enemies in a 30 yd line."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5991,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Machine Synergy",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now adds a stack of <span style=\"color: #ffffff; display: inline\">Machine Synergy</span> to your active pet and <span style=\"color: #ffffff; display: inline\">Sentry Turret</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_tech_steammachine_border\" /><span class=\"name\">Machine Synergy</span></div><span class=\"desc\">Increases damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times, for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Casting Scrap Shot now adds a stack of Machine Synergy to your active pet and Sentry Turret.\n\n---\n\nMachine SynergyIncreases damage dealt by 5% and haste by 3%, stacking 3 times, for 6 seconds.",
+    "iconPath": "interface/icons/nhi_tech_steammachine_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707277,
+    "spellIds": [
+      707277
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5990
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707277,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now adds a stack of <span style=\"color: #ffffff; display: inline\">Machine Synergy</span> to your active pet and <span style=\"color: #ffffff; display: inline\">Sentry Turret</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_tech_steammachine_border\" /><span class=\"name\">Machine Synergy</span></div><span class=\"desc\">Increases damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times, for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Casting Scrap Shot now adds a stack of Machine Synergy to your active pet and Sentry Turret.\n\n---\n\nMachine SynergyIncreases damage dealt by 5% and haste by 3%, stacking 3 times, for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4740,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Bomb Builder",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Build: Spider Bomb</span> by <span class=\"item-number\">-12</span> sec.",
+    "descriptionText": "Level 50 Passive\nReduces the cooldown of Build: Spider Bomb by -12 sec.",
+    "iconPath": "interface/icons/ability_mage_livingbomb",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 520811,
+    "spellIds": [
+      520811
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11140
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520811,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Build: Spider Bomb</span> by <span class=\"item-number\">-12</span> sec.",
+        "descriptionText": "Level 50 Passive\nReduces the cooldown of Build: Spider Bomb by -12 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4883,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Bomber Man",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Bombastic</span> is active, your <span style=\"color: #ffffff; display: inline\">Bomb Tosses</span> will additionally reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "While Bombastic is active, your Bomb Tosses will additionally reduce the cooldown of Sticky Bomb by -1 sec.",
+    "iconPath": "interface/icons/inv_gizmo_goblinboombox_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707273,
+    "spellIds": [
+      707273
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6386
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707273,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Bombastic</span> is active, your <span style=\"color: #ffffff; display: inline\">Bomb Tosses</span> will additionally reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "While Bombastic is active, your Bomb Tosses will additionally reduce the cooldown of Sticky Bomb by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9621,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Sparked and Ready!",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Fire Damage dealt has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Sparked and Ready!</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_tech_rocket_border\" /><span class=\"name\">Sparked and Ready!</span></div><span class=\"desc\">Causes your next <span style=\"color: #FFFFFF; display: inline\">Rocket Launcher</span>, within <span class=\"item-number\">10</span> seconds, to be instant cast and deal <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage.</span></div>",
+    "descriptionText": "Level 20 Passive\nFire Damage dealt has a 5% chance to grant you Sparked and Ready!.\n\n---\n\nSparked and Ready!Causes your next Rocket Launcher, within 10 seconds, to be instant cast and deal 20% increased damage.",
+    "iconPath": "interface/icons/nhi_tech_rocket_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705815,
+    "spellIds": [
+      705815
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4049
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705815,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Fire Damage dealt has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Sparked and Ready!</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_tech_rocket_border\" /><span class=\"name\">Sparked and Ready!</span></div><span class=\"desc\">Causes your next <span style=\"color: #FFFFFF; display: inline\">Rocket Launcher</span>, within <span class=\"item-number\">10</span> seconds, to be instant cast and deal <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage.</span></div>",
+        "descriptionText": "Level 20 Passive\nFire Damage dealt has a 5% chance to grant you Sparked and Ready!.\n\n---\n\nSparked and Ready!Causes your next Rocket Launcher, within 10 seconds, to be instant cast and deal 20% increased damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29340,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Surprise Launch!",
+    "description": "When <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> is used on enemies affected by <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> it is now guaranteed to critically strike.",
+    "descriptionText": "When Rocket Launcher is used on enemies affected by Sticky Bomb it is now guaranteed to critically strike.",
+    "iconPath": "interface/icons/hos_lunar_rocket",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707244,
+    "spellIds": [
+      707244
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7842
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707244,
+        "description": "When <span style=\"color: #ffffff; display: inline\">Rocket Launcher</span> is used on enemies affected by <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> it is now guaranteed to critically strike.",
+        "descriptionText": "When Rocket Launcher is used on enemies affected by Sticky Bomb it is now guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29441,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Rocket Engineering",
+    "description": "Direct harmful ability critical strikes now apply an additional stack of <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> to the target while active on the enemy.",
+    "descriptionText": "Direct harmful ability critical strikes now apply an additional stack of Tracer Augmentation to the target while active on the enemy.",
+    "iconPath": "interface/icons/ability_blackhand_slagbombs",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573247,
+    "spellIds": [
+      573247
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6991
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573247,
+        "description": "Direct harmful ability critical strikes now apply an additional stack of <span style=\"color: #ffffff; display: inline\">Tracer Augmentation</span> to the target while active on the enemy.",
+        "descriptionText": "Direct harmful ability critical strikes now apply an additional stack of Tracer Augmentation to the target while active on the enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7840,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "The BIG Guns!",
+    "description": "Increases the attack power of all party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your ranged attack power by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the attack power of all party and raid members 5%. Does not stack with similar effects.\n\nIn addition, increases your ranged attack power by 3%.",
+    "iconPath": "interface/icons/ability_vehicle_siegeenginecannon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560593,
+    "spellIds": [
+      560593
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6883
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560593,
+        "description": "Increases the attack power of all party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your ranged attack power by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power of all party and raid members 5%. Does not stack with similar effects.\n\nIn addition, increases your ranged attack power by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7842,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Drone Striker",
+    "description": "<span style=\"color: #ffffff; display: inline\">Firepot Drone</span> and <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now deal <span class=\"item-number\">2</span><span class=\"item-number\">%</span> increased damage for each stack of <span style=\"color: #ffffff; display: inline\">Napalm</span> on the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_eng_bombfire\" /><span class=\"name\">Napalm (Damage)</span></div><span class=\"desc\">Fire Damage taken by you is increased and healing received reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">10</span> times.</span></div>",
+    "descriptionText": "Firepot Drone and Scrap Shot now deal 2% increased damage for each stack of Napalm on the enemy.\n\n---\n\nNapalm (Damage)Fire Damage taken by you is increased and healing received reduced by -3% for 8 seconds. Stacks 10 times.",
+    "iconPath": "interface/icons/inv_misc_missilelarge_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707256,
+    "spellIds": [
+      707256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7002,
+      30581
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707256,
+        "description": "<span style=\"color: #ffffff; display: inline\">Firepot Drone</span> and <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now deal <span class=\"item-number\">2</span><span class=\"item-number\">%</span> increased damage for each stack of <span style=\"color: #ffffff; display: inline\">Napalm</span> on the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_eng_bombfire\" /><span class=\"name\">Napalm (Damage)</span></div><span class=\"desc\">Fire Damage taken by you is increased and healing received reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">10</span> times.</span></div>",
+        "descriptionText": "Firepot Drone and Scrap Shot now deal 2% increased damage for each stack of Napalm on the enemy.\n\n---\n\nNapalm (Damage)Fire Damage taken by you is increased and healing received reduced by -3% for 8 seconds. Stacks 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11120,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Boomshot",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Every 4th <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now causes your next <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> within <span class=\"item-number\">15</span> seconds to deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Level 30 Passive\nEvery 4th Scrap Shot now causes your next Scrap Shot within 15 seconds to deal 25% increased damage.",
+    "iconPath": "interface/icons/_d3evasivefire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707249,
+    "spellIds": [
+      707249
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9621
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707249,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Every 4th <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now causes your next <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> within <span class=\"item-number\">15</span> seconds to deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Level 30 Passive\nEvery 4th Scrap Shot now causes your next Scrap Shot within 15 seconds to deal 25% increased damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11140,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 73,
+    "tabKey": "28:73",
+    "tabName": "Demolition",
+    "name": "Bomb Squad",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your Fire spell power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of Agility.",
+    "descriptionText": "Level 40 Passive\nIncreases your Fire spell power by 50% of Agility.",
+    "iconPath": "interface/icons/inv_ascend_bomb_b_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 520131,
+    "spellIds": [
+      520131
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11120
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520131,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your Fire spell power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of Agility.",
+        "descriptionText": "Level 40 Passive\nIncreases your Fire spell power by 50% of Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

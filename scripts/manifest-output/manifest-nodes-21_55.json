@@ -1,0 +1,1814 @@
+[
+  {
+    "nodeId": 12449,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Assassin",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Knockout</span> and <span style=\"color: #ffffff; display: inline\">Crippling Shot</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of Knockout and Crippling Shot by 1 sec.",
+    "iconPath": "interface/icons/ability_rogue_deadliness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807626,
+    "spellIds": [
+      807626
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1389,
+      29328
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807626,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807626,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Knockout</span> and <span style=\"color: #ffffff; display: inline\">Crippling Shot</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of Knockout and Crippling Shot by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13164,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Polearm Craft",
+    "description": "While a polearm is equipped, your chance to trigger your <span style=\"color: #ffffff; display: inline\">Weapon Crafts</span> and their damage dealt is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While a polearm is equipped, your chance to trigger your Weapon Crafts and their damage dealt is increased by 25%.",
+    "iconPath": "interface/icons/inv_spear_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707885,
+    "spellIds": [
+      707885
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7048
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707885,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707885,
+        "description": "While a polearm is equipped, your chance to trigger your <span style=\"color: #ffffff; display: inline\">Weapon Crafts</span> and their damage dealt is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a polearm is equipped, your chance to trigger your Weapon Crafts and their damage dealt is increased by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8010,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Trueshot Lodge Training",
+    "description": "Increases your off-hand weapon damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.<br /><br />While wielding a polearm, your Physical Damage is now increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your off-hand weapon damage by 30%.\n\nWhile wielding a polearm, your Physical Damage is now increased by 3%.",
+    "iconPath": "interface/icons/ability_druid_improvedmoonkinform",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 803113,
+    "spellIds": [
+      803113,
+      803855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30461,
+      34139
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803113,
+        "description": "Increases your off-hand weapon damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.<br /><br />While wielding a polearm, your Physical Damage is now increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand weapon damage by 30%.\n\nWhile wielding a polearm, your Physical Damage is now increased by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 803855,
+        "description": "Increases your off-hand weapon damage by <span class=\"item-number\">60</span><span class=\"item-number\">%</span>.<br /><br />While wielding a polearm, your Physical Damage is now increased by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand weapon damage by 60%.\n\nWhile wielding a polearm, your Physical Damage is now increased by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9275,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Lacerations",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Allows the periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Ravage</span> to critically strike.",
+    "descriptionText": "Level 40 Passive\nAllows the periodic damage dealt by Ravage to critically strike.",
+    "iconPath": "interface/icons/ability_criticalstrike",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 573044,
+    "spellIds": [
+      573044
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      3871
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573044,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Allows the periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Ravage</span> to critically strike.",
+        "descriptionText": "Level 40 Passive\nAllows the periodic damage dealt by Ravage to critically strike."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9277,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Dastardly",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your critical damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health or below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Level 50 Passive\nIncreases your critical damage dealt by 15% on enemies above 80% health or below 20% health.",
+    "iconPath": "interface/icons/ability_rogue_hungerforblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706483,
+    "spellIds": [
+      706483
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9275
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706483,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your critical damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health or below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Level 50 Passive\nIncreases your critical damage dealt by 15% on enemies above 80% health or below 20% health."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7428,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Throatpunch",
+    "description": "Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for <span class=\"item-number\">2</span> seconds.",
+    "descriptionText": "Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 seconds.",
+    "iconPath": "interface/icons/custom_warriorskill_05_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500617,
+    "spellIds": [
+      500617
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6673,
+      34139
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500617,
+        "description": "Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for <span class=\"item-number\">2</span> seconds.",
+        "descriptionText": "Punch an enemy in the throat, interrupting the enemy's spellcast, preventing any spell from that school of magic from being cast for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7429,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Viper's Bite",
+    "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">2</span> Advantage</span><br />Unleash <span class=\"item-number\">4</span> quick strikes over <span class=\"item-number\">1</span> seconds to an enemy, each dealing <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Weapon Damage.<br /><br />If the target is bleeding, each strike deals an additional <span class=\"item-number\">423</span> + <span class=\"item-number\">25% AP</span> Physical Damage.<br /><br />If the target is poisoned, each strike deals Nature Damage instead of Physical Damage.",
+    "descriptionText": "Generates 2 Advantage\nUnleash 4 quick strikes over 1 seconds to an enemy, each dealing 85% Weapon Damage.\n\nIf the target is bleeding, each strike deals an additional 423 + 25% AP Physical Damage.\n\nIf the target is poisoned, each strike deals Nature Damage instead of Physical Damage.",
+    "iconPath": "interface/icons/ability_rogue_poisonedknife",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803104,
+    "spellIds": [
+      803104
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1388
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803104,
+        "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">2</span> Advantage</span><br />Unleash <span class=\"item-number\">4</span> quick strikes over <span class=\"item-number\">1</span> seconds to an enemy, each dealing <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Weapon Damage.<br /><br />If the target is bleeding, each strike deals an additional <span class=\"item-number\">423</span> + <span class=\"item-number\">25% AP</span> Physical Damage.<br /><br />If the target is poisoned, each strike deals Nature Damage instead of Physical Damage.",
+        "descriptionText": "Generates 2 Advantage\nUnleash 4 quick strikes over 1 seconds to an enemy, each dealing 85% Weapon Damage.\n\nIf the target is bleeding, each strike deals an additional 423 + 25% AP Physical Damage.\n\nIf the target is poisoned, each strike deals Nature Damage instead of Physical Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11167,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Tip of the Spear",
+    "description": "While you have a polearm equipped, your <span style=\"color: #FFFFFF; display: inline\">Wild Strike</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "While you have a polearm equipped, your Wild Strike now has a 15% chance to strike 3 additional times.",
+    "iconPath": "interface/icons/inv_spear_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807023,
+    "spellIds": [
+      807023
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6675,
+      29701,
+      34140
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807023,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807023,
+        "description": "While you have a polearm equipped, your <span style=\"color: #FFFFFF; display: inline\">Wild Strike</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "While you have a polearm equipped, your Wild Strike now has a 15% chance to strike 3 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11349,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Quick-Witted",
+    "description": "Avoiding an attack now causes you to quickly stab an enemy with one of the arrows from your quiver, dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">100% AP</span> Physical Damage and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Avoiding an attack now causes you to quickly stab an enemy with one of the arrows from your quiver, dealing 1 + 100% AP Physical Damage and reducing their attack speed by -20% for 8 seconds.",
+    "iconPath": "interface/icons/inv_misc_quiver_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704311,
+    "spellIds": [
+      704311
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34141,
+      6675
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704311,
+        "description": "Avoiding an attack now causes you to quickly stab an enemy with one of the arrows from your quiver, dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">100% AP</span> Physical Damage and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Avoiding an attack now causes you to quickly stab an enemy with one of the arrows from your quiver, dealing 1 + 100% AP Physical Damage and reducing their attack speed by -20% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29328,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Knuckleduster",
+    "description": "Periodic damage dealt now generates <span class=\"item-number\">5</span> Focus.",
+    "descriptionText": "Periodic damage dealt now generates 5 Focus.",
+    "iconPath": "interface/icons/inv_leather_a_03defias",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806957,
+    "spellIds": [
+      806957
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31179
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806957,
+        "description": "Periodic damage dealt now generates <span class=\"item-number\">5</span> Focus.",
+        "descriptionText": "Periodic damage dealt now generates 5 Focus."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29449,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Excessive But Necessary",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Elude</span> and <span style=\"color: #ffffff; display: inline\">Knockout</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Elude and Knockout by -4 sec.",
+    "iconPath": "interface/icons/spell_shadow_mindsteal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804939,
+    "spellIds": [
+      804939
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1389,
+      29328
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807626,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804939,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Elude</span> and <span style=\"color: #ffffff; display: inline\">Knockout</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Elude and Knockout by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29701,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Quills",
+    "description": "Launch darts at up to <span class=\"item-number\">5</span> nearby enemies, dealing <span class=\"item-number\">65</span> + <span class=\"item-number\">30% AP</span> Ranged Physical Damage.<br /><br />Deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> additional damage and strikes <span class=\"item-number\">1</span> additional target for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Launch darts at up to 5 nearby enemies, dealing 65 + 30% AP Ranged Physical Damage.\n\nDeals 20% additional damage and strikes 1 additional target for each stack of Advantage.",
+    "iconPath": "interface/icons/_fanofknives_yellow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560966,
+    "spellIds": [
+      560966
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6676,
+      8010,
+      34175
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560966,
+        "description": "Launch darts at up to <span class=\"item-number\">5</span> nearby enemies, dealing <span class=\"item-number\">65</span> + <span class=\"item-number\">30% AP</span> Ranged Physical Damage.<br /><br />Deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> additional damage and strikes <span class=\"item-number\">1</span> additional target for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Launch darts at up to 5 nearby enemies, dealing 65 + 30% AP Ranged Physical Damage.\n\nDeals 20% additional damage and strikes 1 additional target for each stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31179,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Ravage",
+    "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">1</span> Advantage</span><br />Ravage an enemy, causing them to bleed out dealing <span class=\"item-number\">80</span> Physical Damage over <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Generates 1 Advantage\nRavage an enemy, causing them to bleed out dealing 80 Physical Damage over 12 seconds.",
+    "iconPath": "interface/icons/ability_hunter_mongoosebite",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803851,
+    "spellIds": [
+      803851
+    ],
+    "requiredNodeIds": [
+      4029,
+      29337
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803851,
+        "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">1</span> Advantage</span><br />Ravage an enemy, causing them to bleed out dealing <span class=\"item-number\">80</span> Physical Damage over <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Generates 1 Advantage\nRavage an enemy, causing them to bleed out dealing 80 Physical Damage over 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31357,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Beatdown",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Auto attacks now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to reveal a fault in the enemy's defenses, causing your next instance of Physical ability damage to ignore Armor.<br /><br />Chance increased by <span class=\"item-number\">15%</span> while wielding a polearm.",
+    "descriptionText": "Level 20 Passive\nAuto attacks now have a 5% chance to reveal a fault in the enemy's defenses, causing your next instance of Physical ability damage to ignore Armor.\n\nChance increased by 15% while wielding a polearm.",
+    "iconPath": "interface/icons/ability_rogue_kidneyshot",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705047,
+    "spellIds": [
+      705047
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4029
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705047,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Auto attacks now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to reveal a fault in the enemy's defenses, causing your next instance of Physical ability damage to ignore Armor.<br /><br />Chance increased by <span class=\"item-number\">15%</span> while wielding a polearm.",
+        "descriptionText": "Level 20 Passive\nAuto attacks now have a 5% chance to reveal a fault in the enemy's defenses, causing your next instance of Physical ability damage to ignore Armor.\n\nChance increased by 15% while wielding a polearm."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30459,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Ambuscade",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> and <span style=\"color: #ffffff; display: inline\">Flank</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> if you have a polearm equipped.",
+    "descriptionText": "Increases the damage of Skullpiercer and Flank by 25%, plus an additional 50% if you have a polearm equipped.",
+    "iconPath": "interface/icons/ability_warrior_throwdown_2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705053,
+    "spellIds": [
+      705053
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30049
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705053,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> and <span style=\"color: #ffffff; display: inline\">Flank</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> if you have a polearm equipped.",
+        "descriptionText": "Increases the damage of Skullpiercer and Flank by 25%, plus an additional 50% if you have a polearm equipped."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30461,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Hookshot",
+    "description": "Launch a hook at a target attempting to lodge it into an open wound, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">100% AP</span> Physical Damage. <br /><br />If the target is bleeding, you can reactivate this to pull yourself to them, dealing <span class=\"item-number\">150</span><span class=\"item-number\">%</span> Weapon Damage and generating <span class=\"item-number\">2</span> <span style=\"color: #8fff7a; display: inline\">Advantage</span>",
+    "descriptionText": "Launch a hook at a target attempting to lodge it into an open wound, dealing 80 + 100% AP Physical Damage. \n\nIf the target is bleeding, you can reactivate this to pull yourself to them, dealing 150% Weapon Damage and generating 2 Advantage",
+    "iconPath": "interface/icons/ability_rogue_versatility",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800360,
+    "spellIds": [
+      800360
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12449,
+      29449
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800360,
+        "description": "Launch a hook at a target attempting to lodge it into an open wound, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">100% AP</span> Physical Damage. <br /><br />If the target is bleeding, you can reactivate this to pull yourself to them, dealing <span class=\"item-number\">150</span><span class=\"item-number\">%</span> Weapon Damage and generating <span class=\"item-number\">2</span> <span style=\"color: #8fff7a; display: inline\">Advantage</span>",
+        "descriptionText": "Launch a hook at a target attempting to lodge it into an open wound, dealing 80 + 100% AP Physical Damage. \n\nIf the target is bleeding, you can reactivate this to pull yourself to them, dealing 150% Weapon Damage and generating 2 Advantage"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30462,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Barbed Quills",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Wild Strike</span> and <span style=\"color: #ffffff; display: inline\">Quills</span> will now tear into enemies, causing them to bleed for <span class=\"item-number\">78</span> Physical Damage over <span class=\"item-number\">9</span> seconds, stacking <span class=\"item-number\">4</span> times.<br /><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Quills</span> now spreads your periodic effects to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">10</span> yds and extends their duration by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Damage dealt by Wild Strike and Quills will now tear into enemies, causing them to bleed for 78 Physical Damage over 9 seconds, stacking 4 times.\n\nDamage dealt by Quills now spreads your periodic effects to 5 enemies within 10 yds and extends their duration by 2 sec.",
+    "iconPath": "interface/icons/ability_gouge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800077,
+    "spellIds": [
+      800077
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34176
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800077,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Wild Strike</span> and <span style=\"color: #ffffff; display: inline\">Quills</span> will now tear into enemies, causing them to bleed for <span class=\"item-number\">78</span> Physical Damage over <span class=\"item-number\">9</span> seconds, stacking <span class=\"item-number\">4</span> times.<br /><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Quills</span> now spreads your periodic effects to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">10</span> yds and extends their duration by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Damage dealt by Wild Strike and Quills will now tear into enemies, causing them to bleed for 78 Physical Damage over 9 seconds, stacking 4 times.\n\nDamage dealt by Quills now spreads your periodic effects to 5 enemies within 10 yds and extends their duration by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34139,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Dice Games",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Wild Strike</span> and <span style=\"color: #ffffff; display: inline\">Assault</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Wild Strike and Assault by 5%.",
+    "iconPath": "interface/icons/ability_rogue_rollthebones",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801438,
+    "spellIds": [
+      801438
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801438,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Wild Strike</span> and <span style=\"color: #ffffff; display: inline\">Assault</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Wild Strike and Assault by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34140,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Underhanded",
+    "description": "Increases the attack power scaling of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the attack power scaling of Skullpiercer by 15%.",
+    "iconPath": "interface/icons/ability_hunter_cobrashot",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705061,
+    "spellIds": [
+      705061,
+      707884
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6671,
+      7048
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705061,
+        "description": "Increases the attack power scaling of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power scaling of Skullpiercer by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707884,
+        "description": "Increases the attack power scaling of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power scaling of Skullpiercer by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34141,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Stalker",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Cutthroat</span> by <span class=\"item-number\">-15</span> sec, but reduces the range of <span style=\"color: #ffffff; display: inline\">Cutthroat</span> by <span class=\"item-number\">-10</span> yds.",
+    "descriptionText": "Reduces the cooldown of Cutthroat by -15 sec, but reduces the range of Cutthroat by -10 yds.",
+    "iconPath": "interface/icons/_diablo3_execute_hunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561110,
+    "spellIds": [
+      561110
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7428
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561110,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Cutthroat</span> by <span class=\"item-number\">-15</span> sec, but reduces the range of <span style=\"color: #ffffff; display: inline\">Cutthroat</span> by <span class=\"item-number\">-10</span> yds.",
+        "descriptionText": "Reduces the cooldown of Cutthroat by -15 sec, but reduces the range of Cutthroat by -10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34164,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Pilfering",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Dirty Blades</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes its damage dealt to heal you equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the value.",
+    "descriptionText": "Increases the damage dealt by Dirty Blades by 10% and causes its damage dealt to heal you equal to 50% of the value.",
+    "iconPath": "interface/icons/achievement_boss_edwinvancleef",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705087,
+    "spellIds": [
+      705087
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7048
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707885,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705087,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Dirty Blades</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes its damage dealt to heal you equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the value.",
+        "descriptionText": "Increases the damage dealt by Dirty Blades by 10% and causes its damage dealt to heal you equal to 50% of the value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34166,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Jagged Cuts",
+    "description": "Increases the damage and duration of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> and <span style=\"color: #ffffff; display: inline\">Ravage</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and duration of Toxic Dart and Ravage by 25%.",
+    "iconPath": "interface/icons/ability_hunter_swiftstrike",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807668,
+    "spellIds": [
+      807668
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1389
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807668,
+        "description": "Increases the damage and duration of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> and <span style=\"color: #ffffff; display: inline\">Ravage</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and duration of Toxic Dart and Ravage by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34167,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Marked for Death",
+    "description": "While you have daggers equipped, direct critical strikes on enemies below <span class=\"item-number\">35%</span> health now have a chance to allow the use of abilities as if you were in <span style=\"color: #ffffff; display: inline\">Elude</span> for <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "While you have daggers equipped, direct critical strikes on enemies below 35% health now have a chance to allow the use of abilities as if you were in Elude for 5 sec.",
+    "iconPath": "interface/icons/ability_rogue_thiefsbargain",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806973,
+    "spellIds": [
+      806973
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6675,
+      29701,
+      34140
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807023,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806973,
+        "description": "While you have daggers equipped, direct critical strikes on enemies below <span class=\"item-number\">35%</span> health now have a chance to allow the use of abilities as if you were in <span style=\"color: #ffffff; display: inline\">Elude</span> for <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "While you have daggers equipped, direct critical strikes on enemies below 35% health now have a chance to allow the use of abilities as if you were in Elude for 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34175,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Wild Man",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Wild Strike</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies, but deals reduced damage with each enemy struck.",
+    "descriptionText": "Your Wild Strike now strikes 2 additional nearby enemies, but deals reduced damage with each enemy struck.",
+    "iconPath": "interface/icons/ability_druid_supriseattack",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560344,
+    "spellIds": [
+      560344
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6671,
+      30461
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807206,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560344,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Wild Strike</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies, but deals reduced damage with each enemy struck.",
+        "descriptionText": "Your Wild Strike now strikes 2 additional nearby enemies, but deals reduced damage with each enemy struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34176,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Stonemason's Secret",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now extends the duration of <span style=\"color: #ffffff; display: inline\">Dirty Blades</span> by <span class=\"item-number\">6</span> sec.",
+    "descriptionText": "Your Skullpiercer used with 5 stacks of Advantage now extends the duration of Dirty Blades by 6 sec.",
+    "iconPath": "interface/icons/inv_inscription_runescrolloffortitude_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524654,
+    "spellIds": [
+      524654
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1387,
+      34167
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524654,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now extends the duration of <span style=\"color: #ffffff; display: inline\">Dirty Blades</span> by <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Your Skullpiercer used with 5 stacks of Advantage now extends the duration of Dirty Blades by 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30045,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Instinctual Combatant",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Instinct</span> now also restores <span class=\"item-number\">40</span> extra Focus and guarantees your next <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Skullpiercers</span> or <span style=\"color: #FFFFFF; display: inline\">Assaults</span> within <span class=\"item-number\">20</span> seconds to critically strike.<br /><br />In addition, <span style=\"color: #ffffff; display: inline\">Instinct</span> now grants you an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Agility as melee attack power.",
+    "descriptionText": "Casting Instinct now also restores 40 extra Focus and guarantees your next 3 Skullpiercers or Assaults within 20 seconds to critically strike.\n\nIn addition, Instinct now grants you an additional 10% of your Agility as melee attack power.",
+    "iconPath": "interface/icons/spell_nature_mirrorimage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707319,
+    "spellIds": [
+      707319
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1388,
+      5045,
+      34176
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707319,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Instinct</span> now also restores <span class=\"item-number\">40</span> extra Focus and guarantees your next <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Skullpiercers</span> or <span style=\"color: #FFFFFF; display: inline\">Assaults</span> within <span class=\"item-number\">20</span> seconds to critically strike.<br /><br />In addition, <span style=\"color: #ffffff; display: inline\">Instinct</span> now grants you an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Agility as melee attack power.",
+        "descriptionText": "Casting Instinct now also restores 40 extra Focus and guarantees your next 3 Skullpiercers or Assaults within 20 seconds to critically strike.\n\nIn addition, Instinct now grants you an additional 10% of your Agility as melee attack power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30049,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Dirty Blades",
+    "description": "For <span class=\"item-number\">4</span> seconds, your melee attacks deal an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Nature Damage and reduces your target's healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">2</span> times.<br /><br />Duration increased by <span class=\"item-number\">4</span> sec for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+    "descriptionText": "For 4 seconds, your melee attacks deal an additional 30% of the damage dealt as Nature Damage and reduces your target's healing received by -20% for 8 seconds, stacking 2 times.\n\nDuration increased by 4 sec for each stack of Advantage.\n\nUsable while in Elude.",
+    "iconPath": "interface/icons/ability_rogue_rollthebones02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680276,
+    "spellIds": [
+      680276
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6672
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680276,
+        "description": "For <span class=\"item-number\">4</span> seconds, your melee attacks deal an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Nature Damage and reduces your target's healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">2</span> times.<br /><br />Duration increased by <span class=\"item-number\">4</span> sec for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+        "descriptionText": "For 4 seconds, your melee attacks deal an additional 30% of the damage dealt as Nature Damage and reduces your target's healing received by -20% for 8 seconds, stacking 2 times.\n\nDuration increased by 4 sec for each stack of Advantage.\n\nUsable while in Elude."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5045,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Outmaneuver",
+    "description": "Teleport to an enemy, summon a decoy beneath them, and mark them for <span class=\"item-number\">8</span> seconds. Dealing melee damage to them adds a stack to this effect, up to <span class=\"item-number\">20</span> stacks.<br /><br />Reactivating this ability within <span class=\"item-number\">8</span> seconds deals <span class=\"item-number\">1</span> + <span class=\"item-number\">55% AP</span> Physical Damage to your target, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for each stack on the target, and then teleports you back to your decoy.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+    "descriptionText": "Teleport to an enemy, summon a decoy beneath them, and mark them for 8 seconds. Dealing melee damage to them adds a stack to this effect, up to 20 stacks.\n\nReactivating this ability within 8 seconds deals 1 + 55% AP Physical Damage to your target, increased by 20% for each stack on the target, and then teleports you back to your decoy.\n\nUsable while in Elude.",
+    "iconPath": "interface/icons/ability_rogue_findweakness",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 557325,
+    "spellIds": [
+      557325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34167
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 557325,
+        "description": "Teleport to an enemy, summon a decoy beneath them, and mark them for <span class=\"item-number\">8</span> seconds. Dealing melee damage to them adds a stack to this effect, up to <span class=\"item-number\">20</span> stacks.<br /><br />Reactivating this ability within <span class=\"item-number\">8</span> seconds deals <span class=\"item-number\">1</span> + <span class=\"item-number\">55% AP</span> Physical Damage to your target, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for each stack on the target, and then teleports you back to your decoy.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+        "descriptionText": "Teleport to an enemy, summon a decoy beneath them, and mark them for 8 seconds. Dealing melee damage to them adds a stack to this effect, up to 20 stacks.\n\nReactivating this ability within 8 seconds deals 1 + 55% AP Physical Damage to your target, increased by 20% for each stack on the target, and then teleports you back to your decoy.\n\nUsable while in Elude."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5430,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Assault",
+    "description": "Assault a low health enemy, dealing <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage plus an additional <span class=\"item-number\">9</span> + <span class=\"item-number\">100% AP</span> Physical Damage. If the target is bleeding, this deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.<br /><br />Damage increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Assault a low health enemy, dealing 100% Weapon Damage plus an additional 9 + 100% AP Physical Damage. If the target is bleeding, this deals 50% increased damage.\n\nDamage increased by 30% for each stack of Advantage.\n\nOnly usable on enemies below 20% health.",
+    "iconPath": "interface/icons/ability_rogue_ruthlessness",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803108,
+    "spellIds": [
+      803108
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803108,
+        "description": "Assault a low health enemy, dealing <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage plus an additional <span class=\"item-number\">9</span> + <span class=\"item-number\">100% AP</span> Physical Damage. If the target is bleeding, this deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.<br /><br />Damage increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Assault a low health enemy, dealing 100% Weapon Damage plus an additional 9 + 100% AP Physical Damage. If the target is bleeding, this deals 50% increased damage.\n\nDamage increased by 30% for each stack of Advantage.\n\nOnly usable on enemies below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6671,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Highwayman",
+    "description": "Direct critical strikes while behind your target increase your haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, or for your next <span class=\"item-number\">2</span> attacks.",
+    "descriptionText": "Direct critical strikes while behind your target increase your haste by 15% for 5 seconds, or for your next 2 attacks.",
+    "iconPath": "interface/icons/5_druideskill44_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707744,
+    "spellIds": [
+      707744
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30049
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707744,
+        "description": "Direct critical strikes while behind your target increase your haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, or for your next <span class=\"item-number\">2</span> attacks.",
+        "descriptionText": "Direct critical strikes while behind your target increase your haste by 15% for 5 seconds, or for your next 2 attacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6672,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Close Quarters",
+    "description": "Increases your attack power and Agility by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your attack power and Agility by 3%.",
+    "iconPath": "interface/icons/ability_warrior_cleave",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 301146,
+    "spellIds": [
+      301146,
+      301248
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29328
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301146,
+        "description": "Increases your attack power and Agility by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power and Agility by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301248,
+        "description": "Increases your attack power and Agility by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power and Agility by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6673,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Bounty Hunter",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Flank</span> and <span style=\"color: #FFFFFF; display: inline\">Rusty Shiv</span> now increases the target's damage taken from your <span style=\"color: #8fff7a; display: inline\">Advantage</span> spenders by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damage dealt by Flank and Rusty Shiv now increases the target's damage taken from your Advantage spenders by 25% for 8 seconds.",
+    "iconPath": "interface/icons/inv_polearm_2h_pandariaquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803114,
+    "spellIds": [
+      803114
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803114,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Flank</span> and <span style=\"color: #FFFFFF; display: inline\">Rusty Shiv</span> now increases the target's damage taken from your <span style=\"color: #8fff7a; display: inline\">Advantage</span> spenders by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damage dealt by Flank and Rusty Shiv now increases the target's damage taken from your Advantage spenders by 25% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6675,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "'Tactical' Advantage",
+    "description": "<span style=\"color: #ffffff; display: inline\">Knockout</span> and <span style=\"color: #ffffff; display: inline\">Bushwhack</span> now increases your damage dealt against the target by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Knockout and Bushwhack now increases your damage dealt against the target by 10% for 5 seconds.",
+    "iconPath": "interface/icons/novart_passivemastery_(10)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706748,
+    "spellIds": [
+      706748
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7428,
+      34139
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706748,
+        "description": "<span style=\"color: #ffffff; display: inline\">Knockout</span> and <span style=\"color: #ffffff; display: inline\">Bushwhack</span> now increases your damage dealt against the target by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Knockout and Bushwhack now increases your damage dealt against the target by 10% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6676,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Focused Fighter",
+    "description": "Reduces the Focus cost of <span style=\"color: #ffffff; display: inline\">Flank</span>, <span style=\"color: #ffffff; display: inline\">Blackjack</span>, and <span style=\"color: #ffffff; display: inline\">Wild Strike</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Focus cost of Flank, Blackjack, and Wild Strike by -10%.",
+    "iconPath": "interface/icons/ability_cheapshot",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807206,
+    "spellIds": [
+      807206
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6671,
+      30461
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807206,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807206,
+        "description": "Reduces the Focus cost of <span style=\"color: #ffffff; display: inline\">Flank</span>, <span style=\"color: #ffffff; display: inline\">Blackjack</span>, and <span style=\"color: #ffffff; display: inline\">Wild Strike</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Focus cost of Flank, Blackjack, and Wild Strike by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1387,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Guile of the Cutthroat",
+    "description": "Increases party and raid member's melee and ranged attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases party and raid member's melee and ranged attack power by 5%. Does not stack with similar effects.\n\nIn addition, increases your damage dealt by 3%.",
+    "iconPath": "interface/icons/inv_shoulder_mail_raidhunter_l_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560531,
+    "spellIds": [
+      560531
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13164,
+      34140,
+      34164
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560531,
+        "description": "Increases party and raid member's melee and ranged attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases party and raid member's melee and ranged attack power by 5%. Does not stack with similar effects.\n\nIn addition, increases your damage dealt by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1388,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Dirty Fighter",
+    "description": "$85",
+    "descriptionText": "$85",
+    "iconPath": "interface/icons/ability_monk_quipunch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806978,
+    "spellIds": [
+      806978
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11349,
+      34167
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806978,
+        "description": "$86",
+        "descriptionText": "$86"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1389,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Banditry",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and Focus regeneration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 2% and Focus regeneration by 15%.",
+    "iconPath": "interface/icons/ability_rogue_cheatdeath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520574,
+    "spellIds": [
+      520574,
+      520879
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31179
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520574,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and Focus regeneration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 2% and Focus regeneration by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520879,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and Focus regeneration by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 4% and Focus regeneration by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 3871,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Rub It In",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> spent now gives you a <span class=\"item-number\">20%</span> chance to refund <span class=\"item-number\">1</span> stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Level 30 Passive\nEach stack of Advantage spent now gives you a 20% chance to refund 1 stack of Advantage.",
+    "iconPath": "interface/icons/custom_warriorskill_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705085,
+    "spellIds": [
+      705085
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31357
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705085,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> spent now gives you a <span class=\"item-number\">20%</span> chance to refund <span class=\"item-number\">1</span> stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Level 30 Passive\nEach stack of Advantage spent now gives you a 20% chance to refund 1 stack of Advantage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4029,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Ravager",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Wild Strike</span> now generates <span class=\"item-number\">1</span> additional <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Removes the minimum range of your ranged abilities.",
+    "descriptionText": "Level 10 Passive\nYour Wild Strike now generates 1 additional Advantage.\n\nRemoves the minimum range of your ranged abilities.",
+    "iconPath": "interface/icons/ability_rogue_energeticrecovery",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92116,
+    "spellIds": [
+      92116
+    ],
+    "requiredNodeIds": [
+      29337
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92116,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Wild Strike</span> now generates <span class=\"item-number\">1</span> additional <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Removes the minimum range of your ranged abilities.",
+        "descriptionText": "Level 10 Passive\nYour Wild Strike now generates 1 additional Advantage.\n\nRemoves the minimum range of your ranged abilities."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7048,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 55,
+    "tabKey": "21:55",
+    "tabName": "Brigand",
+    "name": "Assassin",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Instinct</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Instinct by 25%.",
+    "iconPath": "interface/icons/ability_hunter_assassinate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803871,
+    "spellIds": [
+      803871
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6671,
+      30459
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803871,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Instinct</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Instinct by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

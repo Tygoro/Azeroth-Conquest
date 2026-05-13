@@ -1,0 +1,1763 @@
+[
+  {
+    "nodeId": 11215,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Cycle of Decay",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />When you cast any spell you now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to gain <span style=\"color: #ffffff; display: inline\">Cycle of Decay</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_deathanddecay\" /><span class=\"name\">Cycle of Decay (Proc)</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> is now castable while moving and casts <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Level 50 Passive\nWhen you cast any spell you now have a 20% chance to gain Cycle of Decay.\n\n---\n\nCycle of Decay (Proc)Your Venom Bolt is now castable while moving and casts -20% faster for 6 seconds.",
+    "iconPath": "interface/icons/spell_shadow_deathanddecay",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500219,
+    "spellIds": [
+      500219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7215
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500219,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />When you cast any spell you now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to gain <span style=\"color: #ffffff; display: inline\">Cycle of Decay</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_deathanddecay\" /><span class=\"name\">Cycle of Decay (Proc)</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> is now castable while moving and casts <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Level 50 Passive\nWhen you cast any spell you now have a 20% chance to gain Cycle of Decay.\n\n---\n\nCycle of Decay (Proc)Your Venom Bolt is now castable while moving and casts -20% faster for 6 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7730,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "From Life Comes Death",
+    "description": "For <span class=\"item-number\">20</span> seconds, when you kill an enemy that yields experience or honor they now spawn a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> beneath them. Can only occur once per sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ascend_mushroom_01\" /><span class=\"name\">Big Mushroom (dmg)</span></div><span class=\"desc\">Drop a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> at target location that will explode after <span class=\"item-number\">8</span> seconds.<br /><br />When it explodes it deals <span class=\"item-number\">1362</span> + <span class=\"item-number\">150% SP</span> Nature Damage to up to <span class=\"item-number\">12</span> enemies within <span class=\"item-number\">5</span> yds, piercing resistances and absorption effects.</span></div>",
+    "descriptionText": "For 20 seconds, when you kill an enemy that yields experience or honor they now spawn a Big Mushroom beneath them. Can only occur once per sec.\n\n---\n\nBig Mushroom (dmg)Drop a Big Mushroom at target location that will explode after 8 seconds.\n\nWhen it explodes it deals 1362 + 150% SP Nature Damage to up to 12 enemies within 5 yds, piercing resistances and absorption effects.",
+    "iconPath": "interface/icons/custom_t_natureswrath_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504855,
+    "spellIds": [
+      504855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6142,
+      7731
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504855,
+        "description": "For <span class=\"item-number\">20</span> seconds, when you kill an enemy that yields experience or honor they now spawn a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> beneath them. Can only occur once per sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ascend_mushroom_01\" /><span class=\"name\">Big Mushroom (dmg)</span></div><span class=\"desc\">Drop a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> at target location that will explode after <span class=\"item-number\">8</span> seconds.<br /><br />When it explodes it deals <span class=\"item-number\">1362</span> + <span class=\"item-number\">150% SP</span> Nature Damage to up to <span class=\"item-number\">12</span> enemies within <span class=\"item-number\">5</span> yds, piercing resistances and absorption effects.</span></div>",
+        "descriptionText": "For 20 seconds, when you kill an enemy that yields experience or honor they now spawn a Big Mushroom beneath them. Can only occur once per sec.\n\n---\n\nBig Mushroom (dmg)Drop a Big Mushroom at target location that will explode after 8 seconds.\n\nWhen it explodes it deals 1362 + 150% SP Nature Damage to up to 12 enemies within 5 yds, piercing resistances and absorption effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7731,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Suffocating Coils",
+    "description": "$b7",
+    "descriptionText": "$b7",
+    "iconPath": "interface/icons/nhi_natureweb_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707233,
+    "spellIds": [
+      707233
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6842,
+      7123
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707233,
+        "description": "$b8",
+        "descriptionText": "$b8"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9575,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Rotting Away",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Wilt</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance when it deals damage to strike again as Shadow Damage.",
+    "descriptionText": "Your Wilt now has a 15% chance when it deals damage to strike again as Shadow Damage.",
+    "iconPath": "interface/icons/crest_druid",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706370,
+    "spellIds": [
+      706370
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706370,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706370,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Wilt</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance when it deals damage to strike again as Shadow Damage.",
+        "descriptionText": "Your Wilt now has a 15% chance when it deals damage to strike again as Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9897,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Shadra's Gift",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect and your haste rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your Intellect and your haste rating by 20% of your Intellect.",
+    "iconPath": "interface/icons/5_venom_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 570336,
+    "spellIds": [
+      570336
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4052
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570336,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect and your haste rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your Intellect and your haste rating by 20% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7724,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Blightfang",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> now spawns a <span style=\"color: #ffffff; display: inline\">Mushroom</span> below the target that will explode after <span class=\"item-number\">2</span> sec, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">12.5% nature SP</span> Nature Damage to nearby enemies.",
+    "descriptionText": "Casting Serpent's Fang now spawns a Mushroom below the target that will explode after 2 sec, dealing 80 + 12.5% nature SP Nature Damage to nearby enemies.",
+    "iconPath": "interface/icons/druid_ability_wildmushroom_b",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680763,
+    "spellIds": [
+      680763
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6138
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680763,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> now spawns a <span style=\"color: #ffffff; display: inline\">Mushroom</span> below the target that will explode after <span class=\"item-number\">2</span> sec, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">12.5% nature SP</span> Nature Damage to nearby enemies.",
+        "descriptionText": "Casting Serpent's Fang now spawns a Mushroom below the target that will explode after 2 sec, dealing 80 + 12.5% nature SP Nature Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7726,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Decay",
+    "description": "Apply <span style=\"color: #ffffff; display: inline\">Wilt</span> to up to <span class=\"item-number\">5</span> enemies at target location and drop a <span style=\"color: #ffffff; display: inline\">Mushroom</span> that will explode after <span class=\"item-number\">2</span> sec, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">25% nature SP</span> Nature Damage all enemies within <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Apply Wilt to up to 5 enemies at target location and drop a Mushroom that will explode after 2 sec, dealing 80 + 25% nature SP Nature Damage all enemies within 5 yds.",
+    "iconPath": "interface/icons/nhi_natureritual_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800910,
+    "spellIds": [
+      800910
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7222,
+      29584
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800910,
+        "description": "Apply <span style=\"color: #ffffff; display: inline\">Wilt</span> to up to <span class=\"item-number\">5</span> enemies at target location and drop a <span style=\"color: #ffffff; display: inline\">Mushroom</span> that will explode after <span class=\"item-number\">2</span> sec, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">25% nature SP</span> Nature Damage all enemies within <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Apply Wilt to up to 5 enemies at target location and drop a Mushroom that will explode after 2 sec, dealing 80 + 25% nature SP Nature Damage all enemies within 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7727,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Venoxis Rage",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mycosis</span> now enrages your <span style=\"color: #ffffff; display: inline\">Fungarians</span> for <span class=\"item-number\">6</span> seconds, increasing its damage and attack speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Your Mycosis now enrages your Fungarians for 6 seconds, increasing its damage and attack speed by 30% for 6 seconds.",
+    "iconPath": "interface/icons/spell_nature_poisoncleansingtotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707224,
+    "spellIds": [
+      707224
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707224,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mycosis</span> now enrages your <span style=\"color: #ffffff; display: inline\">Fungarians</span> for <span class=\"item-number\">6</span> seconds, increasing its damage and attack speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Your Mycosis now enrages your Fungarians for 6 seconds, increasing its damage and attack speed by 30% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7728,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Fungic",
+    "description": "You now apply <span style=\"color: #ffffff; display: inline\">Fungic</span> to enemies affected by <span style=\"color: #ffffff; display: inline\">Lethargy</span>, dealing an additional <span class=\"item-number\">20%</span> of the damage dealt by your <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> or <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> as Nature Damage over <span class=\"item-number\">3</span> seconds, stacking up to <span class=\"item-number\">2</span> times.",
+    "descriptionText": "You now apply Fungic to enemies affected by Lethargy, dealing an additional 20% of the damage dealt by your Venom Bolt or Serpent's Fang as Nature Damage over 3 seconds, stacking up to 2 times.",
+    "iconPath": "interface/icons/spell_druid_wildmushroom_bloom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706455,
+    "spellIds": [
+      706455
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5575,
+      6552
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706455,
+        "description": "You now apply <span style=\"color: #ffffff; display: inline\">Fungic</span> to enemies affected by <span style=\"color: #ffffff; display: inline\">Lethargy</span>, dealing an additional <span class=\"item-number\">20%</span> of the damage dealt by your <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> or <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> as Nature Damage over <span class=\"item-number\">3</span> seconds, stacking up to <span class=\"item-number\">2</span> times.",
+        "descriptionText": "You now apply Fungic to enemies affected by Lethargy, dealing an additional 20% of the damage dealt by your Venom Bolt or Serpent's Fang as Nature Damage over 3 seconds, stacking up to 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30477,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Wilt",
+    "description": "Wilt the life of an enemy with vile poison, dealing <span class=\"item-number\">96</span> Nature Damage over <span class=\"item-number\">18</span> seconds.",
+    "descriptionText": "Wilt the life of an enemy with vile poison, dealing 96 Nature Damage over 18 seconds.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_naturewrath_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804982,
+    "spellIds": [
+      804982
+    ],
+    "requiredNodeIds": [
+      4052,
+      29607
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804982,
+        "description": "Wilt the life of an enemy with vile poison, dealing <span class=\"item-number\">96</span> Nature Damage over <span class=\"item-number\">18</span> seconds.",
+        "descriptionText": "Wilt the life of an enemy with vile poison, dealing 96 Nature Damage over 18 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30479,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Mycosis",
+    "description": "Fungus grows throughout the body of an enemy, dealing <span class=\"item-number\">144</span> + <span class=\"item-number\">65% nature SP</span> Nature Damage and applying a shield that absorbs the next <span class=\"item-number\">100</span> + <span class=\"item-number\">200% SP</span> healing done to them for <span class=\"item-number\">8</span> seconds.<br /><br />Deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased damage for each stack of <span style=\"color: #ffffff; display: inline\">Fungal Growth</span> on the target.",
+    "descriptionText": "Fungus grows throughout the body of an enemy, dealing 144 + 65% nature SP Nature Damage and applying a shield that absorbs the next 100 + 200% SP healing done to them for 8 seconds.\n\nDeals 15% increased damage for each stack of Fungal Growth on the target.",
+    "iconPath": "interface/icons/spell_druid_wildmushroom",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804986,
+    "spellIds": [
+      804986
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804986,
+        "description": "Fungus grows throughout the body of an enemy, dealing <span class=\"item-number\">144</span> + <span class=\"item-number\">65% nature SP</span> Nature Damage and applying a shield that absorbs the next <span class=\"item-number\">100</span> + <span class=\"item-number\">200% SP</span> healing done to them for <span class=\"item-number\">8</span> seconds.<br /><br />Deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased damage for each stack of <span style=\"color: #ffffff; display: inline\">Fungal Growth</span> on the target.",
+        "descriptionText": "Fungus grows throughout the body of an enemy, dealing 144 + 65% nature SP Nature Damage and applying a shield that absorbs the next 100 + 200% SP healing done to them for 8 seconds.\n\nDeals 15% increased damage for each stack of Fungal Growth on the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30481,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Serpent Lord's Ring",
+    "description": "Draw power from the <span style=\"color: #ffffff; display: inline\">Serpent Lord's Ring</span> instantly regenerating <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum mana and causing your <span style=\"color: #ffffff; display: inline\">Mycosiss</span> to trigger no cooldown and be free of cost for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Draw power from the Serpent Lord's Ring instantly regenerating 20% of your maximum mana and causing your Mycosiss to trigger no cooldown and be free of cost for 15 seconds.",
+    "iconPath": "interface/icons/inv_60pvp_ring3c",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503923,
+    "spellIds": [
+      503923
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6605,
+      6842
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503923,
+        "description": "Draw power from the <span style=\"color: #ffffff; display: inline\">Serpent Lord's Ring</span> instantly regenerating <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum mana and causing your <span style=\"color: #ffffff; display: inline\">Mycosiss</span> to trigger no cooldown and be free of cost for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Draw power from the Serpent Lord's Ring instantly regenerating 20% of your maximum mana and causing your Mycosiss to trigger no cooldown and be free of cost for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30483,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Limb Decayer",
+    "description": "Reduces the cast time and increases the mana cost of <span style=\"color: #ffffff; display: inline\">Decay</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time and increases the mana cost of Decay by 50%.",
+    "iconPath": "interface/icons/uico_venom_spell_04_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681057,
+    "spellIds": [
+      681057
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7726
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681057,
+        "description": "Reduces the cast time and increases the mana cost of <span style=\"color: #ffffff; display: inline\">Decay</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time and increases the mana cost of Decay by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30606,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Spore",
+    "description": "Inject an enemy with parasitic spores, dealing <span class=\"item-number\">24</span> + <span class=\"item-number\">25% nature SP</span> Shadow Damage, plus an additional <span class=\"item-number\">147</span> over <span class=\"item-number\">21</span> seconds.<br /><br />After <span class=\"item-number\">10</span> sec, drop a <span style=\"color: #ffffff; display: inline\">Mushroom</span> below the target that explodes after <span class=\"item-number\">2</span> sec, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">25% nature SP</span> Nature Damage to nearby enemies.",
+    "descriptionText": "Inject an enemy with parasitic spores, dealing 24 + 25% nature SP Shadow Damage, plus an additional 147 over 21 seconds.\n\nAfter 10 sec, drop a Mushroom below the target that explodes after 2 sec, dealing 80 + 25% nature SP Nature Damage to nearby enemies.",
+    "iconPath": "interface/icons/nhi_unholy_mushroom_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804983,
+    "spellIds": [
+      804983
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30477
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804983,
+        "description": "Inject an enemy with parasitic spores, dealing <span class=\"item-number\">24</span> + <span class=\"item-number\">25% nature SP</span> Shadow Damage, plus an additional <span class=\"item-number\">147</span> over <span class=\"item-number\">21</span> seconds.<br /><br />After <span class=\"item-number\">10</span> sec, drop a <span style=\"color: #ffffff; display: inline\">Mushroom</span> below the target that explodes after <span class=\"item-number\">2</span> sec, dealing <span class=\"item-number\">80</span> + <span class=\"item-number\">25% nature SP</span> Nature Damage to nearby enemies.",
+        "descriptionText": "Inject an enemy with parasitic spores, dealing 24 + 25% nature SP Shadow Damage, plus an additional 147 over 21 seconds.\n\nAfter 10 sec, drop a Mushroom below the target that explodes after 2 sec, dealing 80 + 25% nature SP Nature Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29575,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Wilting Away",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Wilt</span> now strikes an additional nearby enemy.",
+    "descriptionText": "Your Wilt now strikes an additional nearby enemy.",
+    "iconPath": "interface/icons/spell_nature_naturetouchgrow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706012,
+    "spellIds": [
+      706012
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706370,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706012,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Wilt</span> now strikes an additional nearby enemy.",
+        "descriptionText": "Your Wilt now strikes an additional nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29584,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Rotpriest",
+    "description": "Increases your spell critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your spell critical damage by 100%.",
+    "iconPath": "interface/icons/novart_magicspell_(89)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706209,
+    "spellIds": [
+      706209
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29575
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706209,
+        "description": "Increases your spell critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell critical damage by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5575,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "From Death Comes Life",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Spore</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Decay</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Damage dealt by Spore now reduces the cooldown of Decay by -1 sec.",
+    "iconPath": "interface/icons/nhi_natureempower_(2)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504355,
+    "spellIds": [
+      504355
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30483
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504355,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Spore</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Decay</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Damage dealt by Spore now reduces the cooldown of Decay by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6130,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "A Pit of Snakes",
+    "description": "<span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> now increases the damage of subsequent <span style=\"color: #FFFFFF; display: inline\">Serpent's Fangs</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Serpent's Fang now increases the damage of subsequent Serpent's Fangs by 10% for 8 seconds, stacking up to 3 times.",
+    "iconPath": "interface/icons/inv_snake_yellowblack",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706007,
+    "spellIds": [
+      706007
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5215,
+      6646
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706007,
+        "description": "<span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> now increases the damage of subsequent <span style=\"color: #FFFFFF; display: inline\">Serpent's Fangs</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Serpent's Fang now increases the damage of subsequent Serpent's Fangs by 10% for 8 seconds, stacking up to 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6131,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Venom Saturation",
+    "description": "Increases the damage of your poison effects by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> against enemies above <span class=\"item-number\">50%</span> health.",
+    "descriptionText": "Increases the damage of your poison effects by 25% against enemies above 50% health.",
+    "iconPath": "interface/icons/spell_nature_corrosivebreath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804984,
+    "spellIds": [
+      804984
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6130,
+      6143,
+      6685
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804984,
+        "description": "Increases the damage of your poison effects by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> against enemies above <span class=\"item-number\">50%</span> health.",
+        "descriptionText": "Increases the damage of your poison effects by 25% against enemies above 50% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6137,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Fungal Growth",
+    "description": "Shadow and Nature Damage dealt now has a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to increase periodic damage you deal to the target by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Shadow and Nature Damage dealt now has a 35% chance to increase periodic damage you deal to the target by 1% for 30 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/inv_misc_starspecklemushroom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804987,
+    "spellIds": [
+      804987
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30606
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804987,
+        "description": "Shadow and Nature Damage dealt now has a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to increase periodic damage you deal to the target by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Shadow and Nature Damage dealt now has a 35% chance to increase periodic damage you deal to the target by 1% for 30 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6138,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Envenom",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> by <span class=\"item-number\">-0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Venom Bolt by -0.3 sec.",
+    "iconPath": "interface/icons/uico_venom_spell_01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805900,
+    "spellIds": [
+      805900
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6687
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805900,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> by <span class=\"item-number\">-0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Venom Bolt by -0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6142,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Prophetic Speaker",
+    "description": "Each time you spawn a <span style=\"color: #ffffff; display: inline\">Mushroom</span>, you now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Decay</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Each time you spawn a Mushroom, you now reduce the cooldown of Decay by -1 sec.",
+    "iconPath": "interface/icons/achievement_dungeon_azjollowercity_heroic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706956,
+    "spellIds": [
+      706956
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6552,
+      7123
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706956,
+        "description": "Each time you spawn a <span style=\"color: #ffffff; display: inline\">Mushroom</span>, you now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Decay</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Each time you spawn a Mushroom, you now reduce the cooldown of Decay by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6143,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Necessary Preparations",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wilt</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and it now increases the chance to hit the target with spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Increases the damage of Wilt by 15% and it now increases the chance to hit the target with spells by 3% for 20 seconds.",
+    "iconPath": "interface/icons/_sacrificialdagger_unholy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503919,
+    "spellIds": [
+      503919
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5215,
+      29584
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503919,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wilt</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and it now increases the chance to hit the target with spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Increases the damage of Wilt by 15% and it now increases the chance to hit the target with spells by 3% for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6842,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Infestation",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and <span style=\"color: #ffffff; display: inline\">Fungal Assailant</span> by <span class=\"item-number\">20%</span> of the remaining cooldown.",
+    "descriptionText": "Periodic damage dealt now has a 10% chance to reduce the cooldown of Serpent's Fang and Fungal Assailant by 20% of the remaining cooldown.",
+    "iconPath": "interface/icons/inv_misc_herb_evergreenmoss",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706030,
+    "spellIds": [
+      706030
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6130,
+      7210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706030,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and <span style=\"color: #ffffff; display: inline\">Fungal Assailant</span> by <span class=\"item-number\">20%</span> of the remaining cooldown.",
+        "descriptionText": "Periodic damage dealt now has a 10% chance to reduce the cooldown of Serpent's Fang and Fungal Assailant by 20% of the remaining cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4052,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Rot Lich",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Direct damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and grant you <span style=\"color: #ffffff; display: inline\">Rot Lich</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _instableaffliction_green\" /><span class=\"name\">Rot Lich (Proc)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> within <span class=\"item-number\">15</span> seconds is free of cost.</span></div>",
+    "descriptionText": "Level 10 Passive\nDirect damage dealt now has a 20% chance to reset the cooldown of Serpent's Fang and grant you Rot Lich.\n\n---\n\nRot Lich (Proc)Your next Serpent's Fang within 15 seconds is free of cost.",
+    "iconPath": "interface/icons/_instableaffliction_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92142,
+    "spellIds": [
+      92142
+    ],
+    "requiredNodeIds": [
+      29607
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92142,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Direct damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and grant you <span style=\"color: #ffffff; display: inline\">Rot Lich</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _instableaffliction_green\" /><span class=\"name\">Rot Lich (Proc)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> within <span class=\"item-number\">15</span> seconds is free of cost.</span></div>",
+        "descriptionText": "Level 10 Passive\nDirect damage dealt now has a 20% chance to reset the cooldown of Serpent's Fang and grant you Rot Lich.\n\n---\n\nRot Lich (Proc)Your next Serpent's Fang within 15 seconds is free of cost."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4295,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Weaver Form",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Teaches you <span style=\"color: #ffffff; display: inline\">Weaver Form</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 weaverform\" /><span class=\"name\">Weaver Form</span></div><span class=\"desc\">Shapeshift into <span style=\"color: #ffffff; display: inline\">Weaver Form</span>, allowing your periodic effects to benefit from spell haste, reducing spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>, and giving periodic damage dealt a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your missing mana.<br /><br />Cannot use healing spells while in <span style=\"color: #ffffff; display: inline\">Weaver Form</span>.</span></div>",
+    "descriptionText": "Level 30 Passive\nTeaches you Weaver Form.\n\n---\n\nWeaver FormShapeshift into Weaver Form, allowing your periodic effects to benefit from spell haste, reducing spell pushback suffered from damaging attacks by 70%, and giving periodic damage dealt a 5% chance to restore 5% of your missing mana.\n\nCannot use healing spells while in Weaver Form.",
+    "iconPath": "interface/icons/weaverform",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706940,
+    "spellIds": [
+      706940
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9897
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706940,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Teaches you <span style=\"color: #ffffff; display: inline\">Weaver Form</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 weaverform\" /><span class=\"name\">Weaver Form</span></div><span class=\"desc\">Shapeshift into <span style=\"color: #ffffff; display: inline\">Weaver Form</span>, allowing your periodic effects to benefit from spell haste, reducing spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>, and giving periodic damage dealt a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your missing mana.<br /><br />Cannot use healing spells while in <span style=\"color: #ffffff; display: inline\">Weaver Form</span>.</span></div>",
+        "descriptionText": "Level 30 Passive\nTeaches you Weaver Form.\n\n---\n\nWeaver FormShapeshift into Weaver Form, allowing your periodic effects to benefit from spell haste, reducing spell pushback suffered from damaging attacks by 70%, and giving periodic damage dealt a 5% chance to restore 5% of your missing mana.\n\nCannot use healing spells while in Weaver Form."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5215,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Captivation",
+    "description": "Increases <span style=\"color: #ffffff; display: inline\">Mycosis</span>'s damage through <span style=\"color: #ffffff; display: inline\">Fungal Growth</span> stacks by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases Mycosis's damage through Fungal Growth stacks by 5%.",
+    "iconPath": "interface/icons/nhi_natureseye_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503930,
+    "spellIds": [
+      503930
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30479
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503930,
+        "description": "Increases <span style=\"color: #ffffff; display: inline\">Mycosis</span>'s damage through <span style=\"color: #ffffff; display: inline\">Fungal Growth</span> stacks by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases Mycosis's damage through Fungal Growth stacks by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6552,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Septic Trauma",
+    "description": "Harmful critical strikes now increase the duration of <span style=\"color: #ffffff; display: inline\">Wilt</span> by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Harmful critical strikes now increase the duration of Wilt by 2 sec.",
+    "iconPath": "interface/icons/ability_rogue_deviouspoisons",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504361,
+    "spellIds": [
+      504361
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6143,
+      7726
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504361,
+        "description": "Harmful critical strikes now increase the duration of <span style=\"color: #ffffff; display: inline\">Wilt</span> by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Harmful critical strikes now increase the duration of Wilt by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6605,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Sporelord",
+    "description": "<span style=\"color: #ffffff; display: inline\">Fungal Assailant</span> now spawns a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> below the target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ascend_mushroom_01\" /><span class=\"name\">Big Mushroom (dmg)</span></div><span class=\"desc\">Drop a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> at target location that will explode after <span class=\"item-number\">8</span> seconds.<br /><br />When it explodes it deals <span class=\"item-number\">1362</span> + <span class=\"item-number\">150% SP</span> Nature Damage to up to <span class=\"item-number\">12</span> enemies within <span class=\"item-number\">5</span> yds, piercing resistances and absorption effects.</span></div>",
+    "descriptionText": "Fungal Assailant now spawns a Big Mushroom below the target.\n\n---\n\nBig Mushroom (dmg)Drop a Big Mushroom at target location that will explode after 8 seconds.\n\nWhen it explodes it deals 1362 + 150% SP Nature Damage to up to 12 enemies within 5 yds, piercing resistances and absorption effects.",
+    "iconPath": "interface/icons/inv_ascend_mushroom_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804989,
+    "spellIds": [
+      804989
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7727
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804989,
+        "description": "<span style=\"color: #ffffff; display: inline\">Fungal Assailant</span> now spawns a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> below the target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ascend_mushroom_01\" /><span class=\"name\">Big Mushroom (dmg)</span></div><span class=\"desc\">Drop a <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> at target location that will explode after <span class=\"item-number\">8</span> seconds.<br /><br />When it explodes it deals <span class=\"item-number\">1362</span> + <span class=\"item-number\">150% SP</span> Nature Damage to up to <span class=\"item-number\">12</span> enemies within <span class=\"item-number\">5</span> yds, piercing resistances and absorption effects.</span></div>",
+        "descriptionText": "Fungal Assailant now spawns a Big Mushroom below the target.\n\n---\n\nBig Mushroom (dmg)Drop a Big Mushroom at target location that will explode after 8 seconds.\n\nWhen it explodes it deals 1362 + 150% SP Nature Damage to up to 12 enemies within 5 yds, piercing resistances and absorption effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6646,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Serpent's Embrace",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and its spell power scaling by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Serpent's Fang and its spell power scaling by 15%.",
+    "iconPath": "interface/icons/5_sumsnakearmy_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560194,
+    "spellIds": [
+      560194,
+      561349
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6138
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560194,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and its spell power scaling by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Serpent's Fang and its spell power scaling by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561349,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span> and its spell power scaling by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Serpent's Fang and its spell power scaling by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6685,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Sepsis Bloom",
+    "description": "Create pustules that swell and then burst, disorienting a target enemy for <span class=\"item-number\">6</span> seconds.<br /><br />All of your Venomancer poison effects are purged from the target, dealing damage equal to their remaining duration at the end of the duration.",
+    "descriptionText": "Create pustules that swell and then burst, disorienting a target enemy for 6 seconds.\n\nAll of your Venomancer poison effects are purged from the target, dealing damage equal to their remaining duration at the end of the duration.",
+    "iconPath": "interface/icons/nhi_natureroots_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504867,
+    "spellIds": [
+      504867
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5215
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504867,
+        "description": "Create pustules that swell and then burst, disorienting a target enemy for <span class=\"item-number\">6</span> seconds.<br /><br />All of your Venomancer poison effects are purged from the target, dealing damage equal to their remaining duration at the end of the duration.",
+        "descriptionText": "Create pustules that swell and then burst, disorienting a target enemy for 6 seconds.\n\nAll of your Venomancer poison effects are purged from the target, dealing damage equal to their remaining duration at the end of the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6687,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Acid Bolt",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and its critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Venom Bolt by 10% and its critical strike chance by 2%.",
+    "iconPath": "interface/icons/inv_alchemy_90_reagent_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 706025,
+    "spellIds": [
+      706025,
+      707870,
+      712480
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30606
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706025,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and its critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Venom Bolt by 10% and its critical strike chance by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707870,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and its critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Venom Bolt by 20% and its critical strike chance by 4%."
+      },
+      {
+        "rank": 3,
+        "spellId": 712480,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Venom Bolt</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and its critical strike chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Venom Bolt by 30% and its critical strike chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7123,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Fungal Link",
+    "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, the range of your Rot spells is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and the threat they generate is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, the range of your Rot spells is increased by 20% and the threat they generate is reduced by -20%.",
+    "iconPath": "interface/icons/inv_ascend_mushrooms_18",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300959,
+    "spellIds": [
+      300959
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6131
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300959,
+        "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, the range of your Rot spells is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and the threat they generate is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, the range of your Rot spells is increased by 20% and the threat they generate is reduced by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7210,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Fungal Assailant",
+    "description": "Summon a <span style=\"color: #ffffff; display: inline\">Fungarian</span> to attack an enemy, dealing <span class=\"item-number\">226</span> + <span class=\"item-number\">65% SP</span> Nature Damage, and instantly apply <span style=\"color: #ffffff; display: inline\">Debilitating Venom</span> to your target. Lasts <span class=\"item-number\">20</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_alchemy_dpotion_a22\" /><span class=\"name\">Debilitating Venom (Slow)</span></div><span class=\"desc\">Movement speed slowed by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div><br /><br />Can be used in any form.",
+    "descriptionText": "Summon a Fungarian to attack an enemy, dealing 226 + 65% SP Nature Damage, and instantly apply Debilitating Venom to your target. Lasts 20 seconds.\n\n---\n\nDebilitating Venom (Slow)Movement speed slowed by -40% for 8 seconds.\n\nCan be used in any form.",
+    "iconPath": "interface/icons/inv_fungarian_blue",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504344,
+    "spellIds": [
+      504344
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6646,
+      7724
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504344,
+        "description": "Summon a <span style=\"color: #ffffff; display: inline\">Fungarian</span> to attack an enemy, dealing <span class=\"item-number\">226</span> + <span class=\"item-number\">65% SP</span> Nature Damage, and instantly apply <span style=\"color: #ffffff; display: inline\">Debilitating Venom</span> to your target. Lasts <span class=\"item-number\">20</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_alchemy_dpotion_a22\" /><span class=\"name\">Debilitating Venom (Slow)</span></div><span class=\"desc\">Movement speed slowed by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div><br /><br />Can be used in any form.",
+        "descriptionText": "Summon a Fungarian to attack an enemy, dealing 226 + 65% SP Nature Damage, and instantly apply Debilitating Venom to your target. Lasts 20 seconds.\n\n---\n\nDebilitating Venom (Slow)Movement speed slowed by -40% for 8 seconds.\n\nCan be used in any form."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7215,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Intoxicating Venoms",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Mycosis</span> is now enhanced based on your currently active <span style=\"color: #ffffff; display: inline\">Venom</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Debilitating Venom</span>: Reduces the cast time by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Blight Venom</span>: Extends the duration of <span style=\"color: #ffffff; display: inline\">Spore</span> on the target by <span class=\"item-number\">4</span> sec.<br /><br /><span style=\"color: #ffffff; display: inline\">Adrenal Venom</span>: Strikes <span class=\"item-number\">1</span> additional nearby target.",
+    "descriptionText": "Level 40 Passive\nMycosis is now enhanced based on your currently active Venom.\n\nDebilitating Venom: Reduces the cast time by -20%.\n\nBlight Venom: Extends the duration of Spore on the target by 4 sec.\n\nAdrenal Venom: Strikes 1 additional nearby target.",
+    "iconPath": "interface/icons/nhi_poisonbottle_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706023,
+    "spellIds": [
+      706023
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4295
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706023,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Mycosis</span> is now enhanced based on your currently active <span style=\"color: #ffffff; display: inline\">Venom</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Debilitating Venom</span>: Reduces the cast time by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Blight Venom</span>: Extends the duration of <span style=\"color: #ffffff; display: inline\">Spore</span> on the target by <span class=\"item-number\">4</span> sec.<br /><br /><span style=\"color: #ffffff; display: inline\">Adrenal Venom</span>: Strikes <span class=\"item-number\">1</span> additional nearby target.",
+        "descriptionText": "Level 40 Passive\nMycosis is now enhanced based on your currently active Venom.\n\nDebilitating Venom: Reduces the cast time by -20%.\n\nBlight Venom: Extends the duration of Spore on the target by 4 sec.\n\nAdrenal Venom: Strikes 1 additional nearby target."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7219,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Protraction",
+    "description": "Increases the duration of your Venomancer periodic damage effects by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of your Venomancer periodic damage effects by 3 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_natureportal_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706942,
+    "spellIds": [
+      706942,
+      707871
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30606
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706942,
+        "description": "Increases the duration of your Venomancer periodic damage effects by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of your Venomancer periodic damage effects by 3 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 707871,
+        "description": "Increases the duration of your Venomancer periodic damage effects by <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Increases the duration of your Venomancer periodic damage effects by 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7221,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Mycelial Ring",
+    "description": "Create an <span class=\"item-number\">8</span> yd ring beneath you for <span class=\"item-number\">10</span> seconds that deals <span class=\"item-number\">59</span> Nature Damage every <span class=\"item-number\">1</span> sec to enemies inside and immediately grows <span class=\"item-number\">8</span> <span style=\"color: #ffffff; display: inline\">Mushrooms</span> in a circle around you and <span class=\"item-number\">4</span> <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> in the middle of the ring.<br /><br />At the end of the duration, up to <span class=\"item-number\">15</span> allies inside are healed for <span class=\"item-number\">845</span> + <span class=\"item-number\">65% nature SP</span>.<br /><br />Can be used in any form.<br />",
+    "descriptionText": "Create an 8 yd ring beneath you for 10 seconds that deals 59 Nature Damage every 1 sec to enemies inside and immediately grows 8 Mushrooms in a circle around you and 4 Big Mushroom in the middle of the ring.\n\nAt the end of the duration, up to 15 allies inside are healed for 845 + 65% nature SP.\n\nCan be used in any form.",
+    "iconPath": "interface/icons/inv_ascend_mushrooms_02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681056,
+    "spellIds": [
+      681056
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6142,
+      7728
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681056,
+        "description": "Create an <span class=\"item-number\">8</span> yd ring beneath you for <span class=\"item-number\">10</span> seconds that deals <span class=\"item-number\">59</span> Nature Damage every <span class=\"item-number\">1</span> sec to enemies inside and immediately grows <span class=\"item-number\">8</span> <span style=\"color: #ffffff; display: inline\">Mushrooms</span> in a circle around you and <span class=\"item-number\">4</span> <span style=\"color: #ffffff; display: inline\">Big Mushroom</span> in the middle of the ring.<br /><br />At the end of the duration, up to <span class=\"item-number\">15</span> allies inside are healed for <span class=\"item-number\">845</span> + <span class=\"item-number\">65% nature SP</span>.<br /><br />Can be used in any form.<br />",
+        "descriptionText": "Create an 8 yd ring beneath you for 10 seconds that deals 59 Nature Damage every 1 sec to enemies inside and immediately grows 8 Mushrooms in a circle around you and 4 Big Mushroom in the middle of the ring.\n\nAt the end of the duration, up to 15 allies inside are healed for 845 + 65% nature SP.\n\nCan be used in any form."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7222,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Lethargy",
+    "description": "Damage dealt by your <span style=\"color: #FFFFFF; display: inline\">Wilt</span> now applies <span style=\"color: #ffffff; display: inline\">Lethargy</span> to affected enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_plaguecloud\" /><span class=\"name\">Lethargy (Dummy)</span></div><span class=\"desc\">Reduces an enemy's chance to hit and increases their Nature Damage taken by you by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Dispelling this effect increases the dispeller's resource costs by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+    "descriptionText": "Damage dealt by your Wilt now applies Lethargy to affected enemies.\n\n---\n\nLethargy (Dummy)Reduces an enemy's chance to hit and increases their Nature Damage taken by you by -5% for 6 seconds.\n\nDispelling this effect increases the dispeller's resource costs by 100% for 5 seconds.",
+    "iconPath": "interface/icons/spell_shadow_plaguecloud",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573307,
+    "spellIds": [
+      573307
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29575,
+      9575
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573307,
+        "description": "Damage dealt by your <span style=\"color: #FFFFFF; display: inline\">Wilt</span> now applies <span style=\"color: #ffffff; display: inline\">Lethargy</span> to affected enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_plaguecloud\" /><span class=\"name\">Lethargy (Dummy)</span></div><span class=\"desc\">Reduces an enemy's chance to hit and increases their Nature Damage taken by you by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Dispelling this effect increases the dispeller's resource costs by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+        "descriptionText": "Damage dealt by your Wilt now applies Lethargy to affected enemies.\n\n---\n\nLethargy (Dummy)Reduces an enemy's chance to hit and increases their Nature Damage taken by you by -5% for 6 seconds.\n\nDispelling this effect increases the dispeller's resource costs by 100% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7225,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 76,
+    "tabKey": "29:76",
+    "tabName": "Venom",
+    "name": "Fungal Allies",
+    "description": "<span style=\"color: #ffffff; display: inline\">Fungal Assailant</span> now summons <span class=\"item-number\">2</span> additional <span style=\"color: #ffffff; display: inline\">Fungarians</span>.",
+    "descriptionText": "Fungal Assailant now summons 2 additional Fungarians.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_poison_icon_0003s_0000_cloud_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681054,
+    "spellIds": [
+      681054
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7731,
+      30481
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681054,
+        "description": "<span style=\"color: #ffffff; display: inline\">Fungal Assailant</span> now summons <span class=\"item-number\">2</span> additional <span style=\"color: #ffffff; display: inline\">Fungarians</span>.",
+        "descriptionText": "Fungal Assailant now summons 2 additional Fungarians."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

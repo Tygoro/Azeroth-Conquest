@@ -1,0 +1,1805 @@
+[
+  {
+    "nodeId": 31178,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Precision Shot",
+    "description": "Precisely shoot an enemy from a great distance, inflicting <span class=\"item-number\">24</span> + <span class=\"item-number\">68.5% ranged AP</span> Physical Damage.<br /><br />Damage increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+    "descriptionText": "Precisely shoot an enemy from a great distance, inflicting 24 + 68.5% ranged AP Physical Damage.\n\nDamage increased by 25% for each stack of Advantage.\n\nUsable while in Elude.",
+    "iconPath": "interface/icons/5_archerskill07_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500075,
+    "spellIds": [
+      500075
+    ],
+    "requiredNodeIds": [
+      4028,
+      29144
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500075,
+        "description": "Precisely shoot an enemy from a great distance, inflicting <span class=\"item-number\">24</span> + <span class=\"item-number\">68.5% ranged AP</span> Physical Damage.<br /><br />Damage increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+        "descriptionText": "Precisely shoot an enemy from a great distance, inflicting 24 + 68.5% ranged AP Physical Damage.\n\nDamage increased by 25% for each stack of Advantage.\n\nUsable while in Elude."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31280,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Elven Enchantments",
+    "description": "$83",
+    "descriptionText": "$83",
+    "iconPath": "interface/icons/achievement_character_nightelf_female",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705054,
+    "spellIds": [
+      705054
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7904
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705054,
+        "description": "$84",
+        "descriptionText": "$84"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31281,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Pathfinder",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Adrenaline Rush</span> now incurs a <span class=\"item-number\">-90</span><span class=\"item-number\">%</span> reduced cooldown when used while <span style=\"color: #ffffff; display: inline\">Elude</span> is active.",
+    "descriptionText": "Your Adrenaline Rush now incurs a -90% reduced cooldown when used while Elude is active.",
+    "iconPath": "interface/icons/achievement_zone_jadeforest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706284,
+    "spellIds": [
+      706284
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4794,
+      6348,
+      7794,
+      34133
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706284,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Adrenaline Rush</span> now incurs a <span class=\"item-number\">-90</span><span class=\"item-number\">%</span> reduced cooldown when used while <span style=\"color: #ffffff; display: inline\">Elude</span> is active.",
+        "descriptionText": "Your Adrenaline Rush now incurs a -90% reduced cooldown when used while Elude is active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31283,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Studded Arrows",
+    "description": "Increases the ranged weapon damage dealt by <span style=\"color: #ffffff; display: inline\">Quick Shot</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the ranged weapon damage dealt by Quick Shot by 10%.",
+    "iconPath": "interface/icons/_d3hungeringarrow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300706,
+    "spellIds": [
+      300706,
+      301359
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7787,
+      31284
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300706,
+        "description": "Increases the ranged weapon damage dealt by <span style=\"color: #ffffff; display: inline\">Quick Shot</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the ranged weapon damage dealt by Quick Shot by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301359,
+        "description": "Increases the ranged weapon damage dealt by <span style=\"color: #ffffff; display: inline\">Quick Shot</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the ranged weapon damage dealt by Quick Shot by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31284,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Superb Shot",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Auto Shot</span> now restores <span class=\"item-number\">4</span> Focus.",
+    "descriptionText": "Damage dealt by Auto Shot now restores 4 Focus.",
+    "iconPath": "interface/icons/inv_misc_ammo_arrow_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301249,
+    "spellIds": [
+      301249
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29447
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301249,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Auto Shot</span> now restores <span class=\"item-number\">4</span> Focus.",
+        "descriptionText": "Damage dealt by Auto Shot now restores 4 Focus."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34133,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Strike Where It Hurts",
+    "description": "Your ability critical strikes now increase the damage the target takes from bleeds by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Your ability critical strikes now increase the damage the target takes from bleeds by 30% for 15 seconds.",
+    "iconPath": "interface/icons/ability_hunter_killcommand",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804178,
+    "spellIds": [
+      804178
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7905,
+      30180
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804178,
+        "description": "Your ability critical strikes now increase the damage the target takes from bleeds by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Your ability critical strikes now increase the damage the target takes from bleeds by 30% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34136,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Deadshot",
+    "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">2</span> Advantage</span><br />Shoot a powerful arrow at the target dealing <span class=\"item-number\">250</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">20.1</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Generates 2 Advantage\nShoot a powerful arrow at the target dealing 250% Ranged Weapon Damage plus 20.1.\n\nOnly usable on enemies below 20% health.",
+    "iconPath": "interface/icons/nhi_bloodarrow_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520227,
+    "spellIds": [
+      520227
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31284
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520227,
+        "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">2</span> Advantage</span><br />Shoot a powerful arrow at the target dealing <span class=\"item-number\">250</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">20.1</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Generates 2 Advantage\nShoot a powerful arrow at the target dealing 250% Ranged Weapon Damage plus 20.1.\n\nOnly usable on enemies below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34137,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Hawkeye",
+    "description": "You now fire an arrow every <span class=\"item-number\">3</span> sec at enemies within <span class=\"item-number\">30</span> yds affected by your <span style=\"color: #ffffff; display: inline\">Hunting Shot</span>, dealing <span class=\"item-number\">75</span><span class=\"item-number\">%</span> Ranged Weapon Damage.<br /><br />Scales with <span style=\"color: #ffffff; display: inline\">Hunting Shot</span> modifiers.",
+    "descriptionText": "You now fire an arrow every 3 sec at enemies within 30 yds affected by your Hunting Shot, dealing 75% Ranged Weapon Damage.\n\nScales with Hunting Shot modifiers.",
+    "iconPath": "interface/icons/ability_hunter_silenthunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800358,
+    "spellIds": [
+      800358
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30180
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800358,
+        "description": "You now fire an arrow every <span class=\"item-number\">3</span> sec at enemies within <span class=\"item-number\">30</span> yds affected by your <span style=\"color: #ffffff; display: inline\">Hunting Shot</span>, dealing <span class=\"item-number\">75</span><span class=\"item-number\">%</span> Ranged Weapon Damage.<br /><br />Scales with <span style=\"color: #ffffff; display: inline\">Hunting Shot</span> modifiers.",
+        "descriptionText": "You now fire an arrow every 3 sec at enemies within 30 yds affected by your Hunting Shot, dealing 75% Ranged Weapon Damage.\n\nScales with Hunting Shot modifiers."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34148,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Neurotoxin Arrow",
+    "description": "Shoot at an enemy's throat with a toxin-laced arrow, dealing <span class=\"item-number\">68</span> + <span class=\"item-number\">36.07% ranged AP</span> Nature Damage and silencing them for <span class=\"item-number\">1</span> seconds.<br /><br />Duration increased by <span class=\"item-number\">1</span> sec per stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Shoot at an enemy's throat with a toxin-laced arrow, dealing 68 + 36.07% ranged AP Nature Damage and silencing them for 1 seconds.\n\nDuration increased by 1 sec per stack of Advantage.",
+    "iconPath": "interface/icons/nhi_naturearrow_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500071,
+    "spellIds": [
+      500071
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31284
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500071,
+        "description": "Shoot at an enemy's throat with a toxin-laced arrow, dealing <span class=\"item-number\">68</span> + <span class=\"item-number\">36.07% ranged AP</span> Nature Damage and silencing them for <span class=\"item-number\">1</span> seconds.<br /><br />Duration increased by <span class=\"item-number\">1</span> sec per stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Shoot at an enemy's throat with a toxin-laced arrow, dealing 68 + 36.07% ranged AP Nature Damage and silencing them for 1 seconds.\n\nDuration increased by 1 sec per stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34151,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Devastating Shots",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 2% and your hit chance by 1%.",
+    "iconPath": "interface/icons/inv_trickshot",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705032,
+    "spellIds": [
+      705032,
+      707849
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31178
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705032,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 2% and your hit chance by 1%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707849,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 4% and your hit chance by 2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34152,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "New-Age Archery",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> and <span style=\"color: #ffffff; display: inline\">Precision Shot</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Skullpiercer and Precision Shot by 20%.",
+    "iconPath": "interface/icons/nhi_goldenarrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704312,
+    "spellIds": [
+      704312
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30046,
+      34155
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704312,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> and <span style=\"color: #ffffff; display: inline\">Precision Shot</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Skullpiercer and Precision Shot by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34153,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Improved Serrated Shot",
+    "description": "Increases the damage of <span style=\"color: #fffffF; display: inline\">Serrated Shot</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Serrated Shot by 30%.",
+    "iconPath": "interface/icons/ability_hunter_assassinate2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707888,
+    "spellIds": [
+      707888
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34151
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707888,
+        "description": "Increases the damage of <span style=\"color: #fffffF; display: inline\">Serrated Shot</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Serrated Shot by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34155,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Opportunist",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Precision Shot</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health.",
+    "descriptionText": "Increases the critical strike chance of Precision Shot by 50% on enemies above 80% health.",
+    "iconPath": "interface/icons/5_archerskill03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807493,
+    "spellIds": [
+      807493
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34148
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807493,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Precision Shot</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health.",
+        "descriptionText": "Increases the critical strike chance of Precision Shot by 50% on enemies above 80% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30180,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Lethal Wounds",
+    "description": "Increases the tick rate of your periodic damage effects by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate of your periodic damage effects by -20%.",
+    "iconPath": "interface/icons/uico_blood_spell_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705055,
+    "spellIds": [
+      705055
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29148,
+      30350
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705055,
+        "description": "Increases the tick rate of your periodic damage effects by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of your periodic damage effects by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30350,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Serrations",
+    "description": "Increases your damage against bleeding or <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your damage against bleeding or Poisoned targets by 4%.",
+    "iconPath": "interface/icons/inv_knife_1h_thunderisleraid_d_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705050,
+    "spellIds": [
+      705050,
+      707850
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8009
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705050,
+        "description": "Increases your damage against bleeding or <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your damage against bleeding or Poisoned targets by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707850,
+        "description": "Increases your damage against bleeding or <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your damage against bleeding or Poisoned targets by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29914,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Skirmish",
+    "description": "Increases your ranged critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reduces your Focus costs by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.<br /><br />Lasts <span class=\"item-number\">4</span> sec for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Increases your ranged critical strike chance by 15% and reduces your Focus costs by -25%.\n\nLasts 4 sec for each stack of Advantage.",
+    "iconPath": "interface/icons/ability_hunter_runningshot",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802039,
+    "spellIds": [
+      802039
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7788,
+      31283
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802039,
+        "description": "Increases your ranged critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reduces your Focus costs by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.<br /><br />Lasts <span class=\"item-number\">4</span> sec for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Increases your ranged critical strike chance by 15% and reduces your Focus costs by -25%.\n\nLasts 4 sec for each stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30046,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Corrosive Poison",
+    "description": "Your ranged abilities against <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets now ignores <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of enemy armor.",
+    "descriptionText": "Your ranged abilities against Poisoned targets now ignores 25% of enemy armor.",
+    "iconPath": "interface/icons/ability_hunter_piercingshots",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572372,
+    "spellIds": [
+      572372
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34136
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572372,
+        "description": "Your ranged abilities against <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets now ignores <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of enemy armor.",
+        "descriptionText": "Your ranged abilities against Poisoned targets now ignores 25% of enemy armor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29660,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Hunting Shot",
+    "description": "Fire a shot that ricochets between <span class=\"item-number\">3</span> enemies, dealing Ranged Weapon Damage plus <span class=\"item-number\">6</span> to each enemy.<br /><br />Generates <span class=\"item-number\">1</span> stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> for each enemy hit.",
+    "descriptionText": "Fire a shot that ricochets between 3 enemies, dealing Ranged Weapon Damage plus 6 to each enemy.\n\nGenerates 1 stack of Advantage for each enemy hit.",
+    "iconPath": "interface/icons/uico_arrow_spell_01_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801191,
+    "spellIds": [
+      801191
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801191,
+        "description": "Fire a shot that ricochets between <span class=\"item-number\">3</span> enemies, dealing Ranged Weapon Damage plus <span class=\"item-number\">6</span> to each enemy.<br /><br />Generates <span class=\"item-number\">1</span> stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> for each enemy hit.",
+        "descriptionText": "Fire a shot that ricochets between 3 enemies, dealing Ranged Weapon Damage plus 6 to each enemy.\n\nGenerates 1 stack of Advantage for each enemy hit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6348,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Archery Master",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Quick Shot</span> now generate an additional stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Critical strikes with Quick Shot now generate an additional stack of Advantage.",
+    "iconPath": "interface/icons/artifactability_marksmanhunter_legacyofthewindrunners",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706281,
+    "spellIds": [
+      706281
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7789
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706281,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Quick Shot</span> now generate an additional stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Critical strikes with Quick Shot now generate an additional stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6941,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Pierced",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Skullpiercer</span> and <span style=\"color: #FFFFFF; display: inline\">Precision Shot</span> cause the enemy to bleed for an additional <span class=\"item-number\">50%</span> damage of the damage dealt over <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Critical strikes with Skullpiercer and Precision Shot cause the enemy to bleed for an additional 50% damage of the damage dealt over 4 seconds.",
+    "iconPath": "interface/icons/nhi_blood_shot_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705033,
+    "spellIds": [
+      705033
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34152
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705033,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Skullpiercer</span> and <span style=\"color: #FFFFFF; display: inline\">Precision Shot</span> cause the enemy to bleed for an additional <span class=\"item-number\">50%</span> damage of the damage dealt over <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Critical strikes with Skullpiercer and Precision Shot cause the enemy to bleed for an additional 50% damage of the damage dealt over 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6944,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "An Arrow for Everything",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Quivers</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Quivers by 25%.",
+    "iconPath": "interface/icons/_diablo3_arrowrain_hunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560812,
+    "spellIds": [
+      560812
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7789,
+      30046
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560812,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Quivers</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Quivers by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4028,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Skirmisher",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases the damage and tick rate of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>, but reduces the duration of its damaging effect by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 10 Passive\nIncreases the damage and tick rate of Toxic Dart by -30%, but reduces the duration of its damaging effect by -30%.",
+    "iconPath": "interface/icons/inv_archaeology_70_tauren_stonewoodbow",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92115,
+    "spellIds": [
+      92115
+    ],
+    "requiredNodeIds": [
+      29144
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92115,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases the damage and tick rate of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>, but reduces the duration of its damaging effect by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 10 Passive\nIncreases the damage and tick rate of Toxic Dart by -30%, but reduces the duration of its damaging effect by -30%."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4429,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Sniper's Focus",
+    "description": "Consuming <span style=\"color: #8fff7a; display: inline\">Advantage</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance per <span style=\"color: #FFFFFF; display: inline\">Archery Point</span> spent to refund <span class=\"item-number\">20</span> Focus.",
+    "descriptionText": "Consuming Advantage now has a 20% chance per Archery Point spent to refund 20 Focus.",
+    "iconPath": "interface/icons/inv_crossbow_2h_kultirasquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680470,
+    "spellIds": [
+      680470
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4028
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680470,
+        "description": "Consuming <span style=\"color: #8fff7a; display: inline\">Advantage</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance per <span style=\"color: #FFFFFF; display: inline\">Archery Point</span> spent to refund <span class=\"item-number\">20</span> Focus.",
+        "descriptionText": "Consuming Advantage now has a 20% chance per Archery Point spent to refund 20 Focus."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4430,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Nimble",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your ranged haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 30 Passive\nIncreases your ranged haste by 20% of your Agility.",
+    "iconPath": "interface/icons/inv_weapon_bow_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301066,
+    "spellIds": [
+      301066
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4429
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301066,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your ranged haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 30 Passive\nIncreases your ranged haste by 20% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4431,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Bleeding Edge",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Allows the periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Serrated Shot</span> to critically strike.",
+    "descriptionText": "Level 40 Passive\nAllows the periodic damage dealt by Serrated Shot to critically strike.",
+    "iconPath": "interface/icons/inv_misc_thornnecklace",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300460,
+    "spellIds": [
+      300460
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4429
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300460,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Allows the periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Serrated Shot</span> to critically strike.",
+        "descriptionText": "Level 40 Passive\nAllows the periodic damage dealt by Serrated Shot to critically strike."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4794,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Light Arrows",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Precision Shot</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> when used from <span class=\"item-number\">40</span> yds or further away from your target.",
+    "descriptionText": "Increases the damage of Precision Shot by 20% when used from 40 yds or further away from your target.",
+    "iconPath": "interface/icons/_d3elementalarrow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681292,
+    "spellIds": [
+      681292
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6944,
+      34152
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 73322,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681292,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Precision Shot</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> when used from <span class=\"item-number\">40</span> yds or further away from your target.",
+        "descriptionText": "Increases the damage of Precision Shot by 20% when used from 40 yds or further away from your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8009,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "A Quick Demise",
+    "description": "Auto shots now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to extend the duration of your <span style=\"color: #FFFFFF; display: inline\">Serrated Shot</span> by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Auto shots now have a 20% chance to extend the duration of your Serrated Shot by 2 sec.",
+    "iconPath": "interface/icons/ability_hunter_mongoosebite",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560810,
+    "spellIds": [
+      560810
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560810,
+        "description": "Auto shots now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to extend the duration of your <span style=\"color: #FFFFFF; display: inline\">Serrated Shot</span> by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Auto shots now have a 20% chance to extend the duration of your Serrated Shot by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12551,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "One Shot, One Kill",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Deadshot</span> by <span class=\"item-number\">75</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Deadshot by 75%.",
+    "iconPath": "interface/icons/ability_revendreth_demonhunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525048,
+    "spellIds": [
+      525048
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7793,
+      7904,
+      31281
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 525048,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525048,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Deadshot</span> by <span class=\"item-number\">75</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Deadshot by 75%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29148,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Hunting with Precision",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Hunting Shot</span> now deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage for each subsequent target it ricochets to.",
+    "descriptionText": "Your Hunting Shot now deals 25% increased damage for each subsequent target it ricochets to.",
+    "iconPath": "interface/icons/5_archerskill28_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524867,
+    "spellIds": [
+      524867
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29660
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524867,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Hunting Shot</span> now deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage for each subsequent target it ricochets to.",
+        "descriptionText": "Your Hunting Shot now deals 25% increased damage for each subsequent target it ricochets to."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29447,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Deadeye",
+    "description": "Increases the range of your ranged abilities and <span style=\"color: #ffffff; display: inline\">Auto Shot</span> by <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Increases the range of your ranged abilities and Auto Shot by 5 yds.",
+    "iconPath": "interface/icons/ability_rogue_bloodyeye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300700,
+    "spellIds": [
+      300700
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31178
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300700,
+        "description": "Increases the range of your ranged abilities and <span style=\"color: #ffffff; display: inline\">Auto Shot</span> by <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Increases the range of your ranged abilities and Auto Shot by 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7551,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Silent, But Deadly",
+    "description": "Direct Physical Damage dealt now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to allow you to use <span style=\"color: #ffffff; display: inline\">Deadshot</span> regardless of the targets health for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Direct Physical Damage dealt now has an 8% chance to allow you to use Deadshot regardless of the targets health for 8 seconds.",
+    "iconPath": "interface/icons/5_archerskill13_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524873,
+    "spellIds": [
+      524873
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7793,
+      7904,
+      31281
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 525048,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524873,
+        "description": "Direct Physical Damage dealt now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to allow you to use <span style=\"color: #ffffff; display: inline\">Deadshot</span> regardless of the targets health for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Direct Physical Damage dealt now has an 8% chance to allow you to use Deadshot regardless of the targets health for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7787,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Swiftshot",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Precision Shot</span> now increases enemy Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Damage dealt by Precision Shot now increases enemy Physical Damage taken by 4% for 10 seconds.",
+    "iconPath": "interface/icons/ability_rogue_combatexpertise",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705028,
+    "spellIds": [
+      705028
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29447,
+      34151
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705028,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Precision Shot</span> now increases enemy Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Damage dealt by Precision Shot now increases enemy Physical Damage taken by 4% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7788,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Boots of Elvenkind",
+    "description": "Increases your Agility by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility by 5% and reduces the duration of movement slowing effects on you by -20%.",
+    "iconPath": "interface/icons/ivn_boot_cloth_warfrontshorde_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704317,
+    "spellIds": [
+      704317
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7787,
+      34153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704317,
+        "description": "Increases your Agility by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 5% and reduces the duration of movement slowing effects on you by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7789,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Maximum Power",
+    "description": "Abilities used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now refresh the duration of your active <span style=\"color: #FFFFFF; display: inline\">Skirmish</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Abilities used with 5 stacks of Advantage now refresh the duration of your active Skirmish by 5 sec.",
+    "iconPath": "interface/icons/ability_hunter_snipertraining",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560688,
+    "spellIds": [
+      560688
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29914
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560688,
+        "description": "Abilities used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now refresh the duration of your active <span style=\"color: #FFFFFF; display: inline\">Skirmish</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Abilities used with 5 stacks of Advantage now refresh the duration of your active Skirmish by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7792,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Brutal Shot",
+    "description": "Fire a volley of powerful shots that pierce through Armor, dealing <span class=\"item-number\">450</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">366</span> to all targets in a <span class=\"item-number\">40</span> yd line.<br /><br />While <span style=\"color: #ffffff; display: inline\">Skirmish</span> is active this ability is guaranteed to critically strike.",
+    "descriptionText": "Fire a volley of powerful shots that pierce through Armor, dealing 450% Ranged Weapon Damage plus 366 to all targets in a 40 yd line.\n\nWhile Skirmish is active this ability is guaranteed to critically strike.",
+    "iconPath": "interface/icons/5_archerskill31_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570014,
+    "spellIds": [
+      570014
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7793
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570014,
+        "description": "Fire a volley of powerful shots that pierce through Armor, dealing <span class=\"item-number\">450</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">366</span> to all targets in a <span class=\"item-number\">40</span> yd line.<br /><br />While <span style=\"color: #ffffff; display: inline\">Skirmish</span> is active this ability is guaranteed to critically strike.",
+        "descriptionText": "Fire a volley of powerful shots that pierce through Armor, dealing 450% Ranged Weapon Damage plus 366 to all targets in a 40 yd line.\n\nWhile Skirmish is active this ability is guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7793,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Headshots Only",
+    "description": "Periodic damage dealt with <span style=\"color: #ffffff; display: inline\">Serrated Shot</span> and <span style=\"color: #FFFFFF; display: inline\">Toxic Dart</span> now increases the damage of your next <span style=\"color: #FFFFFF; display: inline\">Precision Shot</span> within <span class=\"item-number\">8</span> seconds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Periodic damage dealt with Serrated Shot and Toxic Dart now increases the damage of your next Precision Shot within 8 seconds by 10%, stacking 10 times.",
+    "iconPath": "interface/icons/5_headshot_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680931,
+    "spellIds": [
+      680931
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4794,
+      6941,
+      7794
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680931,
+        "description": "Periodic damage dealt with <span style=\"color: #ffffff; display: inline\">Serrated Shot</span> and <span style=\"color: #FFFFFF; display: inline\">Toxic Dart</span> now increases the damage of your next <span style=\"color: #FFFFFF; display: inline\">Precision Shot</span> within <span class=\"item-number\">8</span> seconds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Periodic damage dealt with Serrated Shot and Toxic Dart now increases the damage of your next Precision Shot within 8 seconds by 10%, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7794,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Masterful Archery",
+    "description": "While in <span style=\"color: #FFFFFF; display: inline\">Elude</span>, gain a stack of <span style=\"color: #FFFFFF; display: inline\">Masterful Archery</span> every <span class=\"item-number\">2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_hunter_mastermarksman\" /><span class=\"name\">Masterful Archery (Aura)</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Precision Shot</span> now deals <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage for <span class=\"item-number\">10</span> seconds, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "While in Elude, gain a stack of Masterful Archery every 2 sec.\n\n---\n\nMasterful Archery (Aura)Your next Precision Shot now deals 10% increased damage for 10 seconds, stacking up to 5 times.",
+    "iconPath": "interface/icons/ability_hunter_mastermarksman",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680469,
+    "spellIds": [
+      680469
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6944,
+      34152
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 73322,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680469,
+        "description": "While in <span style=\"color: #FFFFFF; display: inline\">Elude</span>, gain a stack of <span style=\"color: #FFFFFF; display: inline\">Masterful Archery</span> every <span class=\"item-number\">2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_hunter_mastermarksman\" /><span class=\"name\">Masterful Archery (Aura)</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Precision Shot</span> now deals <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage for <span class=\"item-number\">10</span> seconds, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "While in Elude, gain a stack of Masterful Archery every 2 sec.\n\n---\n\nMasterful Archery (Aura)Your next Precision Shot now deals 10% increased damage for 10 seconds, stacking up to 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7904,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Incendiary Shot",
+    "description": "Shoot a burning arrow dealing <span class=\"item-number\">799</span> + <span class=\"item-number\">35% ranged AP</span> + <span class=\"item-number\">45% fire SP</span> Fire Damage to an enemy and up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">6</span> yds, and causing your next <span class=\"item-number\">3</span> direct damage <span style=\"color: #8fff7a; display: inline\">Advantage</span> spenders to deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their damage to nearby enemies.<br /><br />Direct damage increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Shoot a burning arrow dealing 799 + 35% ranged AP + 45% fire SP Fire Damage to an enemy and up to 5 enemies within 6 yds, and causing your next 3 direct damage Advantage spenders to deal 50% of their damage to nearby enemies.\n\nDirect damage increased by 20% for each stack of Advantage.",
+    "iconPath": "interface/icons/nhi_fire_shot_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524870,
+    "spellIds": [
+      524870
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34133,
+      34137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524870,
+        "description": "Shoot a burning arrow dealing <span class=\"item-number\">799</span> + <span class=\"item-number\">35% ranged AP</span> + <span class=\"item-number\">45% fire SP</span> Fire Damage to an enemy and up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">6</span> yds, and causing your next <span class=\"item-number\">3</span> direct damage <span style=\"color: #8fff7a; display: inline\">Advantage</span> spenders to deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their damage to nearby enemies.<br /><br />Direct damage increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Shoot a burning arrow dealing 799 + 35% ranged AP + 45% fire SP Fire Damage to an enemy and up to 5 enemies within 6 yds, and causing your next 3 direct damage Advantage spenders to deal 50% of their damage to nearby enemies.\n\nDirect damage increased by 20% for each stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7905,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Mortal Shots",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Crippling Shot</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Crippling Shot by -4 sec.",
+    "iconPath": "interface/icons/uico_arrow_spell_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707380,
+    "spellIds": [
+      707380
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7789,
+      30350
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707380,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Crippling Shot</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Crippling Shot by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7952,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 54,
+    "tabKey": "21:54",
+    "tabName": "Archery",
+    "name": "Sharpshooter",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Adds <span class=\"item-number\">25</span><span class=\"item-number\">%</span> to the bonuses that your stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> provide.",
+    "descriptionText": "Level 50 Passive\nAdds 25% to the bonuses that your stacks of Advantage provide.",
+    "iconPath": "interface/icons/ability_trueshot",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 582855,
+    "spellIds": [
+      582855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4431
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582855,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Adds <span class=\"item-number\">25</span><span class=\"item-number\">%</span> to the bonuses that your stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> provide.",
+        "descriptionText": "Level 50 Passive\nAdds 25% to the bonuses that your stacks of Advantage provide."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

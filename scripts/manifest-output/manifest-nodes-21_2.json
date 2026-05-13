@@ -1,0 +1,2034 @@
+[
+  {
+    "nodeId": 6955,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Horn of War",
+    "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">1</span> Advantage</span><br />Emanate an aura for <span class=\"item-number\">30</span> seconds that grants <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased critical strike chance to party and raid members. Does not stack with similar effects.<br /><br />While active, you generate <span class=\"item-number\">3</span> Focus every <span class=\"item-number\">1</span> sec.<br /><br />",
+    "descriptionText": "Generates 1 Advantage\nEmanate an aura for 30 seconds that grants 5% increased critical strike chance to party and raid members. Does not stack with similar effects.\n\nWhile active, you generate 3 Focus every 1 sec.",
+    "iconPath": "interface/icons/inv_misc_horn_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800086,
+    "spellIds": [
+      800086
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4030
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 247611,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800086,
+        "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">1</span> Advantage</span><br />Emanate an aura for <span class=\"item-number\">30</span> seconds that grants <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased critical strike chance to party and raid members. Does not stack with similar effects.<br /><br />While active, you generate <span class=\"item-number\">3</span> Focus every <span class=\"item-number\">1</span> sec.<br /><br />",
+        "descriptionText": "Generates 1 Advantage\nEmanate an aura for 30 seconds that grants 5% increased critical strike chance to party and raid members. Does not stack with similar effects.\n\nWhile active, you generate 3 Focus every 1 sec."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 3924,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "To The Skies!",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Bushcraft Glider</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Bushcraft Glider by -30 sec.",
+    "iconPath": "interface/icons/inv_pet_butterfly_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301365,
+    "spellIds": [
+      301365
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30924,
+      34195
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301365,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Bushcraft Glider</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Bushcraft Glider by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4030,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Dream Flowers",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your damaging critical strikes now spawn a green <span style=\"color: #FFFFFF; display: inline\">Dream Flower</span> at a random location within <span class=\"item-number\">15</span> yds of you. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_trailofflowers\" /><span class=\"name\">Dream Flower (Spawner)</span></div><span class=\"desc\">When an ally runs over the flower, they consume it to heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> maximum health and gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased movement speed for <span class=\"item-number\">5</span> seconds.</span></div>Can only occur once per sec.",
+    "descriptionText": "Level 10 Passive\nYour damaging critical strikes now spawn a green Dream Flower at a random location within 15 yds of you. \n\n---\n\nDream Flower (Spawner)When an ally runs over the flower, they consume it to heal for 3% maximum health and gain 40% increased movement speed for 5 seconds.Can only occur once per sec.",
+    "iconPath": "interface/icons/inv_legion_faction_dreamweavers",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92117,
+    "spellIds": [
+      92117
+    ],
+    "requiredNodeIds": [
+      30352
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92117,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your damaging critical strikes now spawn a green <span style=\"color: #FFFFFF; display: inline\">Dream Flower</span> at a random location within <span class=\"item-number\">15</span> yds of you. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_trailofflowers\" /><span class=\"name\">Dream Flower (Spawner)</span></div><span class=\"desc\">When an ally runs over the flower, they consume it to heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> maximum health and gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased movement speed for <span class=\"item-number\">5</span> seconds.</span></div>Can only occur once per sec.",
+        "descriptionText": "Level 10 Passive\nYour damaging critical strikes now spawn a green Dream Flower at a random location within 15 yds of you. \n\n---\n\nDream Flower (Spawner)When an ally runs over the flower, they consume it to heal for 3% maximum health and gain 40% increased movement speed for 5 seconds.Can only occur once per sec."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4554,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Freedom",
+    "description": "Free up to <span class=\"item-number\">10</span> nearby allies within <span class=\"item-number\">15</span> yds of you for <span class=\"item-number\">8</span> seconds, causing them to become immune to roots and snares, and allowing their critical strikes to increase their movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Free up to 10 nearby allies within 15 yds of you for 8 seconds, causing them to become immune to roots and snares, and allowing their critical strikes to increase their movement speed by 30% for 5 seconds.",
+    "iconPath": "interface/icons/inv_misc_tournaments_symbol_bloodelf",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520628,
+    "spellIds": [
+      520628
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34192
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520628,
+        "description": "Free up to <span class=\"item-number\">10</span> nearby allies within <span class=\"item-number\">15</span> yds of you for <span class=\"item-number\">8</span> seconds, causing them to become immune to roots and snares, and allowing their critical strikes to increase their movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Free up to 10 nearby allies within 15 yds of you for 8 seconds, causing them to become immune to roots and snares, and allowing their critical strikes to increase their movement speed by 30% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4631,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Survivalist",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Survival Potion</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Survival Potion by -25%.",
+    "iconPath": "interface/icons/spell_nature_naturetouchgrow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707418,
+    "spellIds": [
+      707418
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34184
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707418,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Survival Potion</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Survival Potion by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5054,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Venom-Coated Seeds",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Snapseed</span> now reduces the enemy's chance to hit by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Damage dealt by Snapseed now reduces the enemy's chance to hit by -15% for 10 seconds.",
+    "iconPath": "interface/icons/custom_druideskill_01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807459,
+    "spellIds": [
+      807459
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6437,
+      11437
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807459,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Snapseed</span> now reduces the enemy's chance to hit by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Damage dealt by Snapseed now reduces the enemy's chance to hit by -15% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5431,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Wingman",
+    "description": "Reduces all damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ffffff; display: inline\">War Falcon</span> or <span style=\"color: #ffffff; display: inline\">Dragonhawk</span> you have active.",
+    "descriptionText": "Reduces all damage taken by -2% for each War Falcon or Dragonhawk you have active.",
+    "iconPath": "interface/icons/inv_icon_wing04d",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705098,
+    "spellIds": [
+      705098
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34199
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 1367788,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705098,
+        "description": "Reduces all damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ffffff; display: inline\">War Falcon</span> or <span style=\"color: #ffffff; display: inline\">Dragonhawk</span> you have active.",
+        "descriptionText": "Reduces all damage taken by -2% for each War Falcon or Dragonhawk you have active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7050,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Blow the Horns!",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Horn</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Horn spells by -25%.",
+    "iconPath": "interface/icons/inv_ascend_horn_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 573042,
+    "spellIds": [
+      573042,
+      573074
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31133
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573042,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Horn</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Horn spells by -25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 573074,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Horn</span> spells by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Horn spells by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6346,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Hunting Tactics",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> is increased by <span class=\"item-number\">30%</span> against <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets.",
+    "descriptionText": "Damage dealt by Skullpiercer is increased by 30% against Poisoned targets.",
+    "iconPath": "interface/icons/5_druideskill08_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300897,
+    "spellIds": [
+      300897
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30924
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300897,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Skullpiercer</span> is increased by <span class=\"item-number\">30%</span> against <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets.",
+        "descriptionText": "Damage dealt by Skullpiercer is increased by 30% against Poisoned targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6436,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "War Falconer",
+    "description": "Reduces the cooldowns of <span style=\"color: #FFFFFF; display: inline\">Falcon's Call</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldowns of Falcon's Call by -30 sec.",
+    "iconPath": "interface/icons/ability_hunter_eagleeye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705067,
+    "spellIds": [
+      705067
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705068,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705067,
+        "description": "Reduces the cooldowns of <span style=\"color: #FFFFFF; display: inline\">Falcon's Call</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldowns of Falcon's Call by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6437,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Falcon Guide",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Falconstrike</span> and <span style=\"color: #ffffff; display: inline\">Battle Screech</span> now increase your movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Falconstrike and Battle Screech now increase your movement speed by 30% for 3 seconds.",
+    "iconPath": "interface/icons/inv_redbird",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520586,
+    "spellIds": [
+      520586
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4631,
+      8358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 854152,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520586,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Falconstrike</span> and <span style=\"color: #ffffff; display: inline\">Battle Screech</span> now increase your movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Falconstrike and Battle Screech now increase your movement speed by 30% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11930,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Defense of the Ancients",
+    "description": "You now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "You now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/skill_icon_skill118_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705094,
+    "spellIds": [
+      705094
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11955,
+      11956
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 158422,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705094,
+        "description": "You now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "You now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11955,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Gutpiercer",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">War Falcons</span> and <span style=\"color: #ffffff; display: inline\">Dragonhawks</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the enemy's resistances by <span class=\"item-number\">75</span> and increase their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Damage dealt by War Falcons and Dragonhawks now has a 15% chance to reduce the enemy's resistances by 75 and increase their Magic Damage taken by -2% for 15 seconds.",
+    "iconPath": "interface/icons/ability_rogue_bloodsplatter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573059,
+    "spellIds": [
+      573059
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6955,
+      11255
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 231611,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573059,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">War Falcons</span> and <span style=\"color: #ffffff; display: inline\">Dragonhawks</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reduce the enemy's resistances by <span class=\"item-number\">75</span> and increase their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Damage dealt by War Falcons and Dragonhawks now has a 15% chance to reduce the enemy's resistances by 75 and increase their Magic Damage taken by -2% for 15 seconds."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11956,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Battle Screech",
+    "description": "Empower party and raid members within <span class=\"item-number\">40</span> yds, increasing their attack or spell power by <span class=\"item-number\">15</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Empower party and raid members within 40 yds, increasing their attack or spell power by 15 for 15 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_druidflightzandalaritroll",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705070,
+    "spellIds": [
+      705070
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6955,
+      11255
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 231611,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705070,
+        "description": "Empower party and raid members within <span class=\"item-number\">40</span> yds, increasing their attack or spell power by <span class=\"item-number\">15</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Empower party and raid members within 40 yds, increasing their attack or spell power by 15 for 15 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19631,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Emerald Arrow",
+    "description": "Set up a powerful magical arrow and then shoot it, dealing <span class=\"item-number\">10</span> + <span class=\"item-number\">25% ranged AP</span> Nature Damage to the target, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Creates an enchanted flare on the ground, causing nearby enemies to take <span class=\"item-number\">468</span> + <span class=\"item-number\">20% ranged AP</span> Nature Damage every <span class=\"item-number\">2</span> sec, lasting <span class=\"item-number\">2</span> sec for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Set up a powerful magical arrow and then shoot it, dealing 10 + 25% ranged AP Nature Damage to the target, increased by 20% for each stack of Advantage.\n\nCreates an enchanted flare on the ground, causing nearby enemies to take 468 + 20% ranged AP Nature Damage every 2 sec, lasting 2 sec for each stack of Advantage.",
+    "iconPath": "interface/icons/custom_emerald_staff_b_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804712,
+    "spellIds": [
+      804712
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4631,
+      34147
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804712,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804712,
+        "description": "Set up a powerful magical arrow and then shoot it, dealing <span class=\"item-number\">10</span> + <span class=\"item-number\">25% ranged AP</span> Nature Damage to the target, increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.<br /><br />Creates an enchanted flare on the ground, causing nearby enemies to take <span class=\"item-number\">468</span> + <span class=\"item-number\">20% ranged AP</span> Nature Damage every <span class=\"item-number\">2</span> sec, lasting <span class=\"item-number\">2</span> sec for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Set up a powerful magical arrow and then shoot it, dealing 10 + 25% ranged AP Nature Damage to the target, increased by 20% for each stack of Advantage.\n\nCreates an enchanted flare on the ground, causing nearby enemies to take 468 + 20% ranged AP Nature Damage every 2 sec, lasting 2 sec for each stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10054,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Frenzy",
+    "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+    "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes.",
+    "iconPath": "interface/icons/ability_druid_treeoflife_red",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520492,
+    "spellIds": [
+      520492
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30930,
+      11930
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 264983,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520492,
+        "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+        "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11255,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Battle Prowess",
+    "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/skill_icon_skill105_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805888,
+    "spellIds": [
+      805888
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4030
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 247611,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805888,
+        "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11336,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Aerial Assault",
+    "description": "Removes the Focus cost of <span style=\"color: #ffffff; display: inline\">Falcon's Call</span>, allows it to strike <span class=\"item-number\">2</span> additional targets, and increases its range by <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Removes the Focus cost of Falcon's Call, allows it to strike 2 additional targets, and increases its range by 10 yds.",
+    "iconPath": "interface/icons/icon_orangebird_toy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705068,
+    "spellIds": [
+      705068
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705068,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705068,
+        "description": "Removes the Focus cost of <span style=\"color: #ffffff; display: inline\">Falcon's Call</span>, allows it to strike <span class=\"item-number\">2</span> additional targets, and increases its range by <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Removes the Focus cost of Falcon's Call, allows it to strike 2 additional targets, and increases its range by 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11431,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Guidance",
+    "description": "Increases your Physical and Nature Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ffffff; display: inline\">War Falcon</span> or <span style=\"color: #ffffff; display: inline\">Dragonhawk</span> you have active.",
+    "descriptionText": "Increases your Physical and Nature Damage dealt by 2% for each War Falcon or Dragonhawk you have active.",
+    "iconPath": "interface/icons/ability_garrison_orangebird",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 532261,
+    "spellIds": [
+      532261
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34199
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 1367788,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 532261,
+        "description": "Increases your Physical and Nature Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ffffff; display: inline\">War Falcon</span> or <span style=\"color: #ffffff; display: inline\">Dragonhawk</span> you have active.",
+        "descriptionText": "Increases your Physical and Nature Damage dealt by 2% for each War Falcon or Dragonhawk you have active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11437,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Scavenger",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Battle Screech</span> and reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Snapseed</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Battle Screech and reduces the cooldown of Snapseed by 5 sec.",
+    "iconPath": "interface/icons/spell_nature_dryaddispelmagic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520834,
+    "spellIds": [
+      520834
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4631,
+      8358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 854152,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520834,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Battle Screech</span> and reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Snapseed</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Battle Screech and reduces the cooldown of Snapseed by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8358,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Falcon Charmer",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">War Falcons</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of War Falcons by 3 sec.",
+    "iconPath": "interface/icons/trade_archaeology_carved_wildhammer_gryphon_figurine",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705076,
+    "spellIds": [
+      705076
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34181
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705076,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">War Falcons</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of War Falcons by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9274,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Thread The Needle",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Quick Shot</span> or <span style=\"color: #ffffff; display: inline\">Falconstrike</span> now reduce the cast time and cost of your next ability that consumes <span style=\"color: #8fff7a; display: inline\">Advantage</span> by <span class=\"item-number\">-34</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Critical strikes with Quick Shot or Falconstrike now reduce the cast time and cost of your next ability that consumes Advantage by -34% for 15 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/nhi_spiritualarrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524831,
+    "spellIds": [
+      524831
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4554,
+      5054,
+      34195
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524831,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Quick Shot</span> or <span style=\"color: #ffffff; display: inline\">Falconstrike</span> now reduce the cast time and cost of your next ability that consumes <span style=\"color: #8fff7a; display: inline\">Advantage</span> by <span class=\"item-number\">-34</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Critical strikes with Quick Shot or Falconstrike now reduce the cast time and cost of your next ability that consumes Advantage by -34% for 15 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9454,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Petalkeeper",
+    "description": "$37",
+    "descriptionText": "$37",
+    "iconPath": "interface/icons/nhi_magicflower_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520925,
+    "spellIds": [
+      520925
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30925,
+      30929
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520925,
+        "description": "$38",
+        "descriptionText": "$38"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30054,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Command Aura",
+    "description": "Emanate an aura for <span class=\"item-number\">15</span> seconds, causing allied players to deal <span class=\"item-number\">35% ranged AP</span> additional damage as Stormstrike Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Emanate an aura for 15 seconds, causing allied players to deal 35% ranged AP additional damage as Stormstrike Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute.",
+    "iconPath": "interface/icons/ability_trueshot",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524600,
+    "spellIds": [
+      524600
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30930,
+      11930
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 264983,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524600,
+        "description": "Emanate an aura for <span class=\"item-number\">15</span> seconds, causing allied players to deal <span class=\"item-number\">35% ranged AP</span> additional damage as Stormstrike Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Emanate an aura for 15 seconds, causing allied players to deal 35% ranged AP additional damage as Stormstrike Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34147,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Quel'dorei Poison",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Woodland Arrow</span> and <span style=\"color: #FFFFFF; display: inline\">Emerald Arrow</span> now poison enemies for <span class=\"item-number\">3</span> seconds, dealing <span class=\"item-number\">91</span> + <span class=\"item-number\">15% ranged AP</span> Nature Damage every <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Damage dealt by Woodland Arrow and Emerald Arrow now poison enemies for 3 seconds, dealing 91 + 15% ranged AP Nature Damage every 1 sec.",
+    "iconPath": "interface/icons/custom_t_spiritualarrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560802,
+    "spellIds": [
+      560802
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30932
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560802,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Woodland Arrow</span> and <span style=\"color: #FFFFFF; display: inline\">Emerald Arrow</span> now poison enemies for <span class=\"item-number\">3</span> seconds, dealing <span class=\"item-number\">91</span> + <span class=\"item-number\">15% ranged AP</span> Nature Damage every <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Damage dealt by Woodland Arrow and Emerald Arrow now poison enemies for 3 seconds, dealing 91 + 15% ranged AP Nature Damage every 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34179,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Phoenix Plumes",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skullpiercers</span> and <span style=\"color: #ffffff; display: inline\">Woodland Arrows</span> used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> Focus and summon a <span style=\"color: #ffffff; display: inline\">War Falcon</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Your Skullpiercers and Woodland Arrows used with 5 stacks of Advantage now restore 3% Focus and summon a War Falcon for 6 seconds.",
+    "iconPath": "interface/icons/inv_icon_feather06a",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705074,
+    "spellIds": [
+      705074
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5431,
+      11431
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705074,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skullpiercers</span> and <span style=\"color: #ffffff; display: inline\">Woodland Arrows</span> used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> Focus and summon a <span style=\"color: #ffffff; display: inline\">War Falcon</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Your Skullpiercers and Woodland Arrows used with 5 stacks of Advantage now restore 3% Focus and summon a War Falcon for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34180,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Thalassian Brand",
+    "description": "Mark an enemy for total destruction, increasing all damage done to them by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and deals <span class=\"item-number\">1120</span> Nature Damage every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">15</span> seconds.<br /><br />The marked target can always be seen by the Ranger whether it stealths or turns invisible<br /><br />",
+    "descriptionText": "Mark an enemy for total destruction, increasing all damage done to them by 10% and deals 1120 Nature Damage every 3 sec for 15 seconds.\n\nThe marked target can always be seen by the Ranger whether it stealths or turns invisible",
+    "iconPath": "interface/icons/nhi_naturetarget_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560805,
+    "spellIds": [
+      560805
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30925
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560805,
+        "description": "Mark an enemy for total destruction, increasing all damage done to them by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and deals <span class=\"item-number\">1120</span> Nature Damage every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">15</span> seconds.<br /><br />The marked target can always be seen by the Ranger whether it stealths or turns invisible<br /><br />",
+        "descriptionText": "Mark an enemy for total destruction, increasing all damage done to them by 10% and deals 1120 Nature Damage every 3 sec for 15 seconds.\n\nThe marked target can always be seen by the Ranger whether it stealths or turns invisible"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34181,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Falcon's Call",
+    "description": "Call down war falcons upon a targeted area, slowing up to <span class=\"item-number\">8</span> enemies within the area by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.<br /><br />A <span style=\"color: #FFFFFF; display: inline\">Falcon</span> is summoned for each enemy affected for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Call down war falcons upon a targeted area, slowing up to 8 enemies within the area by -60% for 5 seconds.\n\nA Falcon is summoned for each enemy affected for 12 seconds.",
+    "iconPath": "interface/icons/ability_skyreach_castdown",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804715,
+    "spellIds": [
+      804715
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30926
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804715,
+        "description": "Call down war falcons upon a targeted area, slowing up to <span class=\"item-number\">8</span> enemies within the area by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.<br /><br />A <span style=\"color: #FFFFFF; display: inline\">Falcon</span> is summoned for each enemy affected for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Call down war falcons upon a targeted area, slowing up to 8 enemies within the area by -60% for 5 seconds.\n\nA Falcon is summoned for each enemy affected for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34182,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Coordination",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">War Falcons</span> and <span style=\"color: #ffffff; display: inline\">Dragonhawks</span> now grant you a stack of <span style=\"color: #ffffff; display: inline\">Coordination</span> when they deal damage.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_hunter_beastwithin\" /><span class=\"name\">Coordination (Proc)</span></div><span class=\"desc\">Increases your critical strike chance and critical damage by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">10</span> times.</span></div>",
+    "descriptionText": "Your War Falcons and Dragonhawks now grant you a stack of Coordination when they deal damage.\n\n---\n\nCoordination (Proc)Increases your critical strike chance and critical damage by 1% for 15 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/ability_hunter_beastwithin",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520621,
+    "spellIds": [
+      520621
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30925,
+      30931
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520621,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">War Falcons</span> and <span style=\"color: #ffffff; display: inline\">Dragonhawks</span> now grant you a stack of <span style=\"color: #ffffff; display: inline\">Coordination</span> when they deal damage.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_hunter_beastwithin\" /><span class=\"name\">Coordination (Proc)</span></div><span class=\"desc\">Increases your critical strike chance and critical damage by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">10</span> times.</span></div>",
+        "descriptionText": "Your War Falcons and Dragonhawks now grant you a stack of Coordination when they deal damage.\n\n---\n\nCoordination (Proc)Increases your critical strike chance and critical damage by 1% for 15 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34184,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Backstep",
+    "description": "Leap backwards up to <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Leap backwards up to 10 yds.",
+    "iconPath": "interface/icons/ability_karoz_leap",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800685,
+    "spellIds": [
+      800685
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7050,
+      30926
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800685,
+        "description": "Leap backwards up to <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Leap backwards up to 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34185,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Forest Herald",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> and abilities that spend stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to spawn a green <span style=\"color: #ffffff; display: inline\">Dreamflower</span> at a random location nearby within <span class=\"item-number\">15</span> yds of you.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_trailofflowers\" /><span class=\"name\">Dream Flower (Spawner)</span></div><span class=\"desc\">When an ally runs over the flower, they consume it to heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> maximum health and gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased movement speed for <span class=\"item-number\">5</span> seconds.</span></div><br /><br />",
+    "descriptionText": "Casting Toxic Dart and abilities that spend stacks of Advantage now have a 20% chance to spawn a green Dreamflower at a random location nearby within 15 yds of you.\n\n---\n\nDream Flower (Spawner)When an ally runs over the flower, they consume it to heal for 3% maximum health and gain 40% increased movement speed for 5 seconds.",
+    "iconPath": "interface/icons/ability_druid_treeoflife_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800150,
+    "spellIds": [
+      800150
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19631,
+      29631,
+      34201
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800150,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> and abilities that spend stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to spawn a green <span style=\"color: #ffffff; display: inline\">Dreamflower</span> at a random location nearby within <span class=\"item-number\">15</span> yds of you.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_trailofflowers\" /><span class=\"name\">Dream Flower (Spawner)</span></div><span class=\"desc\">When an ally runs over the flower, they consume it to heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> maximum health and gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased movement speed for <span class=\"item-number\">5</span> seconds.</span></div><br /><br />",
+        "descriptionText": "Casting Toxic Dart and abilities that spend stacks of Advantage now have a 20% chance to spawn a green Dreamflower at a random location nearby within 15 yds of you.\n\n---\n\nDream Flower (Spawner)When an ally runs over the flower, they consume it to heal for 3% maximum health and gain 40% increased movement speed for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34192,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Windrunner's Reach",
+    "description": "Increases the range of your ranged abilities by <span class=\"item-number\">5</span> yds.<br /><br />In addition, your critical strike chance against Undead, Beasts, and Dragonkin is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the range of your ranged abilities by 5 yds.\n\nIn addition, your critical strike chance against Undead, Beasts, and Dragonkin is increased by 2%.",
+    "iconPath": "interface/icons/_highelf_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 573043,
+    "spellIds": [
+      573043,
+      573069
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6437,
+      11437,
+      19631,
+      29631
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573043,
+        "description": "Increases the range of your ranged abilities by <span class=\"item-number\">5</span> yds.<br /><br />In addition, your critical strike chance against Undead, Beasts, and Dragonkin is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the range of your ranged abilities by 5 yds.\n\nIn addition, your critical strike chance against Undead, Beasts, and Dragonkin is increased by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 573069,
+        "description": "Increases the range of your ranged abilities by <span class=\"item-number\">10</span> yds.<br /><br />In addition, your critical strike chance against Undead, Beasts, and Dragonkin is increased by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the range of your ranged abilities by 10 yds.\n\nIn addition, your critical strike chance against Undead, Beasts, and Dragonkin is increased by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34195,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Falcon's Aid",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #ffffff; display: inline\">War Falcon</span> to aid you in battle for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Periodic damage dealt now has a 10% chance to summon a War Falcon to aid you in battle for 6 seconds.",
+    "iconPath": "interface/icons/ability_hunter_aspectoftheironhawk",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705075,
+    "spellIds": [
+      705075
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19631,
+      29631
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705075,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #ffffff; display: inline\">War Falcon</span> to aid you in battle for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Periodic damage dealt now has a 10% chance to summon a War Falcon to aid you in battle for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34196,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Razorquills",
+    "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> and <span style=\"color: #ffffff; display: inline\">Emerald Arrows</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate of Toxic Dart and Emerald Arrows by -20%.",
+    "iconPath": "interface/icons/5_archerskill43_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705072,
+    "spellIds": [
+      705072
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5054,
+      5431,
+      11431
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705072,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> and <span style=\"color: #ffffff; display: inline\">Emerald Arrows</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of Toxic Dart and Emerald Arrows by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34199,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Dragonhawk Tamer",
+    "description": "Using a <span style=\"color: #ffffff; display: inline\">Horn</span> now summons a <span style=\"color: #ffffff; display: inline\">Dragonhawk</span> to assist you in combat for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Using a Horn now summons a Dragonhawk to assist you in combat for 15 seconds.",
+    "iconPath": "interface/icons/ability_hunter_pet_dragonhawk",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573056,
+    "spellIds": [
+      573056
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6436,
+      6437,
+      11336,
+      11437
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573056,
+        "description": "Using a <span style=\"color: #ffffff; display: inline\">Horn</span> now summons a <span style=\"color: #ffffff; display: inline\">Dragonhawk</span> to assist you in combat for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Using a Horn now summons a Dragonhawk to assist you in combat for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34201,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Forest Fighter",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skullpiercers</span> or <span style=\"color: #FFFFFF; display: inline\">Emerald Arrows</span> used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Woodland Arrow</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Your Skullpiercers or Emerald Arrows used with 5 stacks of Advantage now reduce the cooldown of Woodland Arrow by -5 sec.",
+    "iconPath": "interface/icons/custom_accurate_bow_b_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706282,
+    "spellIds": [
+      706282
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34147
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706282,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skullpiercers</span> or <span style=\"color: #FFFFFF; display: inline\">Emerald Arrows</span> used with <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Woodland Arrow</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Your Skullpiercers or Emerald Arrows used with 5 stacks of Advantage now reduce the cooldown of Woodland Arrow by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29631,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Falcon Diving",
+    "description": "Killing an enemy that yields experience or honor now summons a <span style=\"color: #ffffff; display: inline\">War Falcon</span> to aid you in combat for <span class=\"item-number\">12</span> seconds. Can only occur once every <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Killing an enemy that yields experience or honor now summons a War Falcon to aid you in combat for 12 seconds. Can only occur once every 4 sec.",
+    "iconPath": "interface/icons/nhi_unholybird_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520783,
+    "spellIds": [
+      520783
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4631,
+      34147
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804712,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520783,
+        "description": "Killing an enemy that yields experience or honor now summons a <span style=\"color: #ffffff; display: inline\">War Falcon</span> to aid you in combat for <span class=\"item-number\">12</span> seconds. Can only occur once every <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Killing an enemy that yields experience or honor now summons a War Falcon to aid you in combat for 12 seconds. Can only occur once every 4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30924,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Highlander",
+    "description": "Each time you spawn a green <span style=\"color: #ffffff; display: inline\">Dreamflower</span> you are granted <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Highlander</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_zone_jadeforest\" /><span class=\"name\">Highlander (Stacks)</span></div><span class=\"desc\">At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #ffffff; display: inline\">Falconstrike</span> within <span class=\"item-number\">10</span> seconds deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage and reduces the enemy's healing received by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Each time you spawn a green Dreamflower you are granted 1 stack of Highlander.\n\n---\n\nHighlander (Stacks)At 3 stacks, your next Falconstrike within 10 seconds deals 25% increased damage and reduces the enemy's healing received by -40% for 8 seconds.",
+    "iconPath": "interface/icons/achievement_zone_jadeforest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707534,
+    "spellIds": [
+      707534
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34185
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707534,
+        "description": "Each time you spawn a green <span style=\"color: #ffffff; display: inline\">Dreamflower</span> you are granted <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Highlander</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_zone_jadeforest\" /><span class=\"name\">Highlander (Stacks)</span></div><span class=\"desc\">At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #ffffff; display: inline\">Falconstrike</span> within <span class=\"item-number\">10</span> seconds deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage and reduces the enemy's healing received by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Each time you spawn a green Dreamflower you are granted 1 stack of Highlander.\n\n---\n\nHighlander (Stacks)At 3 stacks, your next Falconstrike within 10 seconds deals 25% increased damage and reduces the enemy's healing received by -40% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30925,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Plumes of War",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Falconstrike</span> and <span style=\"color: #ffffff; display: inline\">Emerald Arrow</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.<br /><br />In addition, critical strikes with <span style=\"color: #ffffff; display: inline\">Falconstrike</span> now increase the damage of subsequent <span style=\"color: #ffffff; display: inline\">Falconstrikes</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Increases the critical strike chance of Falconstrike and Emerald Arrow by 15%.\n\nIn addition, critical strikes with Falconstrike now increase the damage of subsequent Falconstrikes by 5% for 15 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/ability_hunter_animalhandler",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705071,
+    "spellIds": [
+      705071
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      3924,
+      9274,
+      34196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705071,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Falconstrike</span> and <span style=\"color: #ffffff; display: inline\">Emerald Arrow</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.<br /><br />In addition, critical strikes with <span style=\"color: #ffffff; display: inline\">Falconstrike</span> now increase the damage of subsequent <span style=\"color: #ffffff; display: inline\">Falconstrikes</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Increases the critical strike chance of Falconstrike and Emerald Arrow by 15%.\n\nIn addition, critical strikes with Falconstrike now increase the damage of subsequent Falconstrikes by 5% for 15 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30926,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Cunning",
+    "description": "Increases your Focus regeneration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Focus regeneration by 15%.",
+    "iconPath": "interface/icons/misc_legionfall_hunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520615,
+    "spellIds": [
+      520615,
+      520878
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31133
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520615,
+        "description": "Increases your Focus regeneration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Focus regeneration by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520878,
+        "description": "Increases your Focus regeneration by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Focus regeneration by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30929,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Whipvine Arrow",
+    "description": "Launch an arrow with magical vines attached to it at your target, dealing <span class=\"item-number\">78</span> + <span class=\"item-number\">33% ranged AP</span> Nature Damage and rooting them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players). Damage caused may interrupt the effect.<br /><br />Hits <span class=\"item-number\">1</span> additional nearby target per stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (8 sec vs players). Damage caused may interrupt the effect.\n\nHits 1 additional nearby target per stack of Advantage.",
+    "iconPath": "interface/icons/inv_misc_herb_nightmarevine",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806342,
+    "spellIds": [
+      806342
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      3924,
+      6346
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806342,
+        "description": "Launch an arrow with magical vines attached to it at your target, dealing <span class=\"item-number\">78</span> + <span class=\"item-number\">33% ranged AP</span> Nature Damage and rooting them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players). Damage caused may interrupt the effect.<br /><br />Hits <span class=\"item-number\">1</span> additional nearby target per stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Launch an arrow with magical vines attached to it at your target, dealing 78 + 33% ranged AP Nature Damage and rooting them for 40 seconds (8 sec vs players). Damage caused may interrupt the effect.\n\nHits 1 additional nearby target per stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30930,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Horn of Alacrity",
+    "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">1</span> Advantage</span><br />Emanate an aura for <span class=\"item-number\">30</span> seconds that grants <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased haste to party and raid members. Does not stack with similar effects.<br /><br />While active, you generate <span class=\"item-number\">3</span> Focus every <span class=\"item-number\">1</span> sec.<br /><br />",
+    "descriptionText": "Generates 1 Advantage\nEmanate an aura for 30 seconds that grants 5% increased haste to party and raid members. Does not stack with similar effects.\n\nWhile active, you generate 3 Focus every 1 sec.",
+    "iconPath": "interface/icons/farstriderhorn",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806360,
+    "spellIds": [
+      806360
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11955,
+      11956
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 158422,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806360,
+        "description": "<span style=\"color: #8fff7a; display: inline\">Generates <span class=\"item-number\">1</span> Advantage</span><br />Emanate an aura for <span class=\"item-number\">30</span> seconds that grants <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased haste to party and raid members. Does not stack with similar effects.<br /><br />While active, you generate <span class=\"item-number\">3</span> Focus every <span class=\"item-number\">1</span> sec.<br /><br />",
+        "descriptionText": "Generates 1 Advantage\nEmanate an aura for 30 seconds that grants 5% increased haste to party and raid members. Does not stack with similar effects.\n\nWhile active, you generate 3 Focus every 1 sec."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30931,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Pecking",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">War Falcons</span> and <span style=\"color: #ffffff; display: inline\">Dragonhawks</span> now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to deal additional Physical Damage to <span class=\"item-number\">3</span> nearby enemies.",
+    "descriptionText": "Your War Falcons and Dragonhawks now have a 25% chance to deal additional Physical Damage to 3 nearby enemies.",
+    "iconPath": "interface/icons/artifactability_survivalhunter_eaglesbite",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570737,
+    "spellIds": [
+      570737
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34179,
+      34196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570737,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">War Falcons</span> and <span style=\"color: #ffffff; display: inline\">Dragonhawks</span> now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to deal additional Physical Damage to <span class=\"item-number\">3</span> nearby enemies.",
+        "descriptionText": "Your War Falcons and Dragonhawks now have a 25% chance to deal additional Physical Damage to 3 nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30932,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Woodland Arrow",
+    "description": "Shoot a magical arrow, dealing <span class=\"item-number\">38</span> + <span class=\"item-number\">35% ranged AP</span> Physical Damage and reducing the cooldown of active <span style=\"color: #FFFFFF; display: inline\">Horn</span> spells by <span class=\"item-number\">-15</span> sec.<br /><br />Damage increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Shoot a magical arrow, dealing 38 + 35% ranged AP Physical Damage and reducing the cooldown of active Horn spells by -15 sec.\n\nDamage increased by 30% for each stack of Advantage.",
+    "iconPath": "interface/icons/nhi_naturegoldenarrow_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806368,
+    "spellIds": [
+      806368
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7050
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806368,
+        "description": "Shoot a magical arrow, dealing <span class=\"item-number\">38</span> + <span class=\"item-number\">35% ranged AP</span> Physical Damage and reducing the cooldown of active <span style=\"color: #FFFFFF; display: inline\">Horn</span> spells by <span class=\"item-number\">-15</span> sec.<br /><br />Damage increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Shoot a magical arrow, dealing 38 + 35% ranged AP Physical Damage and reducing the cooldown of active Horn spells by -15 sec.\n\nDamage increased by 30% for each stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31133,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 2,
+    "tabKey": "21:2",
+    "tabName": "Farstrider",
+    "name": "Falconstrike",
+    "description": "$39",
+    "descriptionText": "$39",
+    "iconPath": "interface/icons/ability_felarakkoa_focusedblast",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573060,
+    "spellIds": [
+      573060
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573060,
+        "description": "$3a",
+        "descriptionText": "$3a"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

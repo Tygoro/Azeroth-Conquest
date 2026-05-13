@@ -1,0 +1,1846 @@
+[
+  {
+    "nodeId": 11273,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Intuition",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your critical damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nIncreases your critical damage by 25%.",
+    "iconPath": "interface/icons/nhi_lightning_timewarp_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807589,
+    "spellIds": [
+      807589
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11472
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807589,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your critical damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nIncreases your critical damage by 25%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11472,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Time Is A Circle",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Wand of Time</span> now extends the duration of your <span style=\"color: #C49A6C; display: inline\">Continuum</span> spells by <span class=\"item-number\">3</span> sec.<br /><br /><span style=\"color: #C49A6C; display: inline\">Continuum</span> spells cannot be extended beyond their maximum duration.",
+    "descriptionText": "Level 40 Passive\nCasting Wand of Time now extends the duration of your Continuum spells by 3 sec.\n\nContinuum spells cannot be extended beyond their maximum duration.",
+    "iconPath": "interface/icons/inv_wand_1h_maldraxxusquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806206,
+    "spellIds": [
+      806206
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6172
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806206,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Wand of Time</span> now extends the duration of your <span style=\"color: #C49A6C; display: inline\">Continuum</span> spells by <span class=\"item-number\">3</span> sec.<br /><br /><span style=\"color: #C49A6C; display: inline\">Continuum</span> spells cannot be extended beyond their maximum duration.",
+        "descriptionText": "Level 40 Passive\nCasting Wand of Time now extends the duration of your Continuum spells by 3 sec.\n\nContinuum spells cannot be extended beyond their maximum duration."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7853,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Caverns of Time",
+    "description": "Removes the cast time of your <span style=\"color: #ffffff; display: inline\">Discordance</span> and causes it to now generate <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>.",
+    "descriptionText": "Removes the cast time of your Discordance and causes it to now generate 1 Echo Fragment.",
+    "iconPath": "interface/icons/inv_elementalearth2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520166,
+    "spellIds": [
+      520166
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12853,
+      31183
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520166,
+        "description": "Removes the cast time of your <span style=\"color: #ffffff; display: inline\">Discordance</span> and causes it to now generate <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>.",
+        "descriptionText": "Removes the cast time of your Discordance and causes it to now generate 1 Echo Fragment."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7854,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Singularity Core",
+    "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br />Empower your Wand attacks to deal an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">2</span> + <span class=\"item-number\">25% SP</span> + <span class=\"item-number\">12% ranged AP</span> additional Arcane Damage for <span class=\"item-number\">3</span> sec plus <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell active at a time.",
+    "descriptionText": "Continuum Spell\nEmpower your Wand attacks to deal an additional 50% Ranged Weapon Damage plus 2 + 25% SP + 12% ranged AP additional Arcane Damage for 3 sec plus 5 sec per Echo Fragment.\n\nCan only have 1 Continuum spell active at a time.",
+    "iconPath": "interface/icons/inv_staff_2h_jaina_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804438,
+    "spellIds": [
+      804438
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30256
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804438,
+        "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br />Empower your Wand attacks to deal an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">2</span> + <span class=\"item-number\">25% SP</span> + <span class=\"item-number\">12% ranged AP</span> additional Arcane Damage for <span class=\"item-number\">3</span> sec plus <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell active at a time.",
+        "descriptionText": "Continuum Spell\nEmpower your Wand attacks to deal an additional 50% Ranged Weapon Damage plus 2 + 25% SP + 12% ranged AP additional Arcane Damage for 3 sec plus 5 sec per Echo Fragment.\n\nCan only have 1 Continuum spell active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7855,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Aether Compression",
+    "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br /><span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> and <span style=\"color: #ffffff; display: inline\">Reverse Wound</span> can be cast while moving for <span class=\"item-number\">5</span> seconds.<br /><br />Duration increased by <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>.",
+    "descriptionText": "Continuum Spell\nArtificer's Wand and Reverse Wound can be cast while moving for 5 seconds.\n\nDuration increased by 5 sec per Echo Fragment.",
+    "iconPath": "interface/icons/ui_profession_enchanting",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804436,
+    "spellIds": [
+      804436
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7914,
+      30282
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804436,
+        "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br /><span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> and <span style=\"color: #ffffff; display: inline\">Reverse Wound</span> can be cast while moving for <span class=\"item-number\">5</span> seconds.<br /><br />Duration increased by <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>.",
+        "descriptionText": "Continuum Spell\nArtificer's Wand and Reverse Wound can be cast while moving for 5 seconds.\n\nDuration increased by 5 sec per Echo Fragment."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7856,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Arc Collision",
+    "description": "<span style=\"color: #d480ff; display: inline\">Distortion Spell</span><br />Create a timestorm around an enemy that causes them and up to <span class=\"item-number\">2</span> nearby enemies to take <span class=\"item-number\">299900</span> + <span class=\"item-number\">24000% SP</span> Arcane Damage, repeating over <span class=\"item-number\">4</span> seconds. <br /><br />Duration increased by <span class=\"item-number\">2</span> sec for each <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> consumed.",
+    "descriptionText": "Distortion Spell\nCreate a timestorm around an enemy that causes them and up to 2 nearby enemies to take 299900 + 24000% SP Arcane Damage, repeating over 4 seconds. \n\nDuration increased by 2 sec for each Echo Fragment consumed.",
+    "iconPath": "interface/icons/nhi_arcaneburst_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524853,
+    "spellIds": [
+      524853
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6178,
+      31332
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524853,
+        "description": "<span style=\"color: #d480ff; display: inline\">Distortion Spell</span><br />Create a timestorm around an enemy that causes them and up to <span class=\"item-number\">2</span> nearby enemies to take <span class=\"item-number\">299900</span> + <span class=\"item-number\">24000% SP</span> Arcane Damage, repeating over <span class=\"item-number\">4</span> seconds. <br /><br />Duration increased by <span class=\"item-number\">2</span> sec for each <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> consumed.",
+        "descriptionText": "Distortion Spell\nCreate a timestorm around an enemy that causes them and up to 2 nearby enemies to take 299900 + 24000% SP Arcane Damage, repeating over 4 seconds. \n\nDuration increased by 2 sec for each Echo Fragment consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7873,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Cheating Time",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> now extends the duration of your <span style=\"color: #ffffff; display: inline\">Flux Emitter</span> by <span class=\"item-number\">4</span> sec.<br /><br />Cannot be extended beyond maximum duration.",
+    "descriptionText": "Casting Shatter Echo now extends the duration of your Flux Emitter by 4 sec.\n\nCannot be extended beyond maximum duration.",
+    "iconPath": "interface/icons/inv_wand_18",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524945,
+    "spellIds": [
+      524945
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7855,
+      7856
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524945,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> now extends the duration of your <span style=\"color: #ffffff; display: inline\">Flux Emitter</span> by <span class=\"item-number\">4</span> sec.<br /><br />Cannot be extended beyond maximum duration.",
+        "descriptionText": "Casting Shatter Echo now extends the duration of your Flux Emitter by 4 sec.\n\nCannot be extended beyond maximum duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7914,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Fate Twister",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Unstable Chronoglass</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Unstable Chronoglass by -30 sec.",
+    "iconPath": "interface/icons/spell_arcane_blast",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706133,
+    "spellIds": [
+      706133
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6173
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706133,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Unstable Chronoglass</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Unstable Chronoglass by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7937,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Clocked In",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Discordance</span> now makes your next <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> within <span class=\"item-number\">10</span> seconds instant cast and causes it to generate an additional <span style=\"color: #FFFFFF; display: inline\">Echo Fragment</span>.",
+    "descriptionText": "Casting Discordance now makes your next Artificer's Wand within 10 seconds instant cast and causes it to generate an additional Echo Fragment.",
+    "iconPath": "interface/icons/ability_racial_timeismoney",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706076,
+    "spellIds": [
+      706076
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30250
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706076,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Discordance</span> now makes your next <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> within <span class=\"item-number\">10</span> seconds instant cast and causes it to generate an additional <span style=\"color: #FFFFFF; display: inline\">Echo Fragment</span>.",
+        "descriptionText": "Casting Discordance now makes your next Artificer's Wand within 10 seconds instant cast and causes it to generate an additional Echo Fragment."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12279,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Reverse Engineering",
+    "description": "Periodic damage and healing now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase your haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds and grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Periodic damage and healing now has a 15% chance to increase your haste by 15% for 6 seconds and grant allies Replenishment.\n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds.",
+    "iconPath": "interface/icons/_engineering_tanaristp",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520875,
+    "spellIds": [
+      520875
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6174
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 520875,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520875,
+        "description": "Periodic damage and healing now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase your haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds and grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Periodic damage and healing now has a 15% chance to increase your haste by 15% for 6 seconds and grant allies Replenishment.\n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12853,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Artificer's Wand",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Unmake</span> into <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_wand_16\" /><span class=\"name\">Artificer&#39;s Wand</span></div><span class=\"desc\">Focus to unleash <span class=\"item-number\">2</span> wand attacks dealing Ranged Weapon damage plus <span class=\"item-number\">5</span> over <span class=\"item-number\">1</span> seconds.<br /><br />Generates <span class=\"item-number\">1</span> <span style=\"color: #FFFFFF; display: inline\">Echo Fragment</span>.</span></div>",
+    "descriptionText": "Transforms your Unmake into Artificer's Wand.\n\n---\n\nArtificer's WandFocus to unleash 2 wand attacks dealing Ranged Weapon damage plus 5 over 1 seconds.\n\nGenerates 1 Echo Fragment.",
+    "iconPath": "interface/icons/inv_wand_16",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804478,
+    "spellIds": [
+      804478
+    ],
+    "requiredNodeIds": [
+      4033,
+      30855
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804478,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Unmake</span> into <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_wand_16\" /><span class=\"name\">Artificer&#39;s Wand</span></div><span class=\"desc\">Focus to unleash <span class=\"item-number\">2</span> wand attacks dealing Ranged Weapon damage plus <span class=\"item-number\">5</span> over <span class=\"item-number\">1</span> seconds.<br /><br />Generates <span class=\"item-number\">1</span> <span style=\"color: #FFFFFF; display: inline\">Echo Fragment</span>.</span></div>",
+        "descriptionText": "Transforms your Unmake into Artificer's Wand.\n\n---\n\nArtificer's WandFocus to unleash 2 wand attacks dealing Ranged Weapon damage plus 5 over 1 seconds.\n\nGenerates 1 Echo Fragment."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9175,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Wand Expert",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your ranged attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Spirit.",
+    "descriptionText": "Level 20 Passive\nIncreases your ranged attack power by 100% of your Spirit.",
+    "iconPath": "interface/icons/inv_cloth_raidpriestdragon_d_01_helm_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574308,
+    "spellIds": [
+      574308
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4033
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574308,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your ranged attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Spirit.",
+        "descriptionText": "Level 20 Passive\nIncreases your ranged attack power by 100% of your Spirit."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7391,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Artificer's Empowerment",
+    "description": "Increases your Spirit by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Spirit by 8%.",
+    "iconPath": "interface/icons/inv_azeritedebuff",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 806167,
+    "spellIds": [
+      806167,
+      807895,
+      807896
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7853
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806167,
+        "description": "Increases your Spirit by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807895,
+        "description": "Increases your Spirit by <span class=\"item-number\">16</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 16%."
+      },
+      {
+        "rank": 3,
+        "spellId": 807896,
+        "description": "Increases your Spirit by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30844,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Conduction Burst",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Shatter Echo</span> now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> additional damage while a <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell is active.",
+    "descriptionText": "Your Shatter Echo now deals 20% additional damage while a Continuum spell is active.",
+    "iconPath": "interface/icons/ability_monk_chiexplosion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804452,
+    "spellIds": [
+      804452
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7854
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804452,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Shatter Echo</span> now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> additional damage while a <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell is active.",
+        "descriptionText": "Your Shatter Echo now deals 20% additional damage while a Continuum spell is active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30856,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Flux Emitter",
+    "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br />Empower Wand attacks to affect up to <span class=\"item-number\">2</span> additional nearby enemies for <span class=\"item-number\">3</span> sec plus <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>. <br /><br />Affected attacks deal less damage per additional enemy hit.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell active at a time.",
+    "descriptionText": "Continuum Spell\nEmpower Wand attacks to affect up to 2 additional nearby enemies for 3 sec plus 5 sec per Echo Fragment. \n\nAffected attacks deal less damage per additional enemy hit.\n\nCan only have 1 Continuum spell active at a time.",
+    "iconPath": "interface/icons/inv_wand_25",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804435,
+    "spellIds": [
+      804435
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6171,
+      6575,
+      30250
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804435,
+        "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br />Empower Wand attacks to affect up to <span class=\"item-number\">2</span> additional nearby enemies for <span class=\"item-number\">3</span> sec plus <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>. <br /><br />Affected attacks deal less damage per additional enemy hit.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell active at a time.",
+        "descriptionText": "Continuum Spell\nEmpower Wand attacks to affect up to 2 additional nearby enemies for 3 sec plus 5 sec per Echo Fragment. \n\nAffected attacks deal less damage per additional enemy hit.\n\nCan only have 1 Continuum spell active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30857,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Hands of Time",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Accelerate</span> and <span style=\"color: #FFFFFF; display: inline\">Decelerate</span> spells by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Accelerate and Decelerate spells by 25%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holyrain_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524856,
+    "spellIds": [
+      524856
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524856,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Accelerate</span> and <span style=\"color: #FFFFFF; display: inline\">Decelerate</span> spells by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Accelerate and Decelerate spells by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30859,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Pulse Driver",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Singularity Core</span> now increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shatter Echo</span> while its active by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and allows <span style=\"color: #FFFFFF; display: inline\">Shatter Echo</span> to trigger its damage.",
+    "descriptionText": "Singularity Core now increases the damage of Shatter Echo while its active by 30% and allows Shatter Echo to trigger its damage.",
+    "iconPath": "interface/icons/inv_wand_33",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706121,
+    "spellIds": [
+      706121
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4520,
+      31120
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706121,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Singularity Core</span> now increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shatter Echo</span> while its active by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and allows <span style=\"color: #FFFFFF; display: inline\">Shatter Echo</span> to trigger its damage.",
+        "descriptionText": "Singularity Core now increases the damage of Shatter Echo while its active by 30% and allows Shatter Echo to trigger its damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30861,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Wand Mastery",
+    "description": "<span style=\"color: #ffffff; display: inline\">Wand of Time</span> and <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #FFFFFF; display: inline\">Crystal Cannon</span>, launching <span class=\"item-number\">2</span> quick lesser Wand auto attacks at the enemy over <span class=\"item-number\">1</span> seconds, scaling with Spirit.<br /><br />While <span style=\"color: #ffffff; display: inline\">Paradox Cannon</span> is active, the chance to trigger this effect is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Wand of Time and Shatter Echo now have a 25% chance to unleash Crystal Cannon, launching 2 quick lesser Wand auto attacks at the enemy over 1 seconds, scaling with Spirit.\n\nWhile Paradox Cannon is active, the chance to trigger this effect is increased by 10%.",
+    "iconPath": "interface/icons/5_wandshot_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806216,
+    "spellIds": [
+      806216
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7856,
+      30859
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806216,
+        "description": "<span style=\"color: #ffffff; display: inline\">Wand of Time</span> and <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #FFFFFF; display: inline\">Crystal Cannon</span>, launching <span class=\"item-number\">2</span> quick lesser Wand auto attacks at the enemy over <span class=\"item-number\">1</span> seconds, scaling with Spirit.<br /><br />While <span style=\"color: #ffffff; display: inline\">Paradox Cannon</span> is active, the chance to trigger this effect is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Wand of Time and Shatter Echo now have a 25% chance to unleash Crystal Cannon, launching 2 quick lesser Wand auto attacks at the enemy over 1 seconds, scaling with Spirit.\n\nWhile Paradox Cannon is active, the chance to trigger this effect is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31120,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Timemage",
+    "description": "Reduces the duration of harmful magic effects on you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of harmful magic effects on you by -30%.",
+    "iconPath": "interface/icons/inv_helm_goggles_draenortradeskill_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806753,
+    "spellIds": [
+      806753
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12279,
+      30279
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806753,
+        "description": "Reduces the duration of harmful magic effects on you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of harmful magic effects on you by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31183,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Shatter Echo",
+    "description": "<span style=\"color: #d480ff; display: inline\">Distortion Spell</span><br />Launch a distorted echo from your wand at an enemy, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Ranged Weapon damage plus <span class=\"item-number\">cond(gt(SPA, SPH), 4+2.45+SPA*0.3, 4+2.45+SPH*0.3)</span> Arcane Damage.<br /><br />Damage increased by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for each <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> consumed.",
+    "descriptionText": "Distortion Spell\nLaunch a distorted echo from your wand at an enemy, dealing 120% Ranged Weapon damage plus cond(gt(SPA, SPH), 4+2.45+SPA*0.3, 4+2.45+SPH*0.3) Arcane Damage.\n\nDamage increased by 40% for each Echo Fragment consumed.",
+    "iconPath": "interface/icons/shatterecho",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804503,
+    "spellIds": [
+      804503
+    ],
+    "requiredNodeIds": [
+      4033,
+      30855
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804503,
+        "description": "<span style=\"color: #d480ff; display: inline\">Distortion Spell</span><br />Launch a distorted echo from your wand at an enemy, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Ranged Weapon damage plus <span class=\"item-number\">cond(gt(SPA, SPH), 4+2.45+SPA*0.3, 4+2.45+SPH*0.3)</span> Arcane Damage.<br /><br />Damage increased by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for each <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> consumed.",
+        "descriptionText": "Distortion Spell\nLaunch a distorted echo from your wand at an enemy, dealing 120% Ranged Weapon damage plus cond(gt(SPA, SPH), 4+2.45+SPA*0.3, 4+2.45+SPH*0.3) Arcane Damage.\n\nDamage increased by 40% for each Echo Fragment consumed."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31332,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Infinity Stone",
+    "description": "Increases the critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your critical strike chance by 3%.",
+    "iconPath": "interface/icons/inv_ascend_gems_64",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300873,
+    "spellIds": [
+      300873
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1803,
+      6884
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300873,
+        "description": "Increases the critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your critical strike chance by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31333,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Threads of Eternity",
+    "description": "$87",
+    "descriptionText": "$87",
+    "iconPath": "interface/icons/inv_tailoring_80_nylonthread",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806209,
+    "spellIds": [
+      806209
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7856
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806209,
+        "description": "$88",
+        "descriptionText": "$88"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30250,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Hyperwand",
+    "description": "Increases the damage and critical damage of your <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and critical damage of your Shatter Echo by 30%.",
+    "iconPath": "interface/icons/inv_misc_cat_trinket10",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706071,
+    "spellIds": [
+      706071
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706071,
+        "description": "Increases the damage and critical damage of your <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and critical damage of your Shatter Echo by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30256,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Wand Master",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wand of Time</span> and <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Wand of Time and Artificer's Wand by 10%.",
+    "iconPath": "interface/icons/spell_nature_brilliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707551,
+    "spellIds": [
+      707551,
+      707831
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7853
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707551,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wand of Time</span> and <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Wand of Time and Artificer's Wand by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707831,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wand of Time</span> and <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Wand of Time and Artificer's Wand by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30265,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Bronze Echoes",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> by <span class=\"item-number\">-0.2</span> sec.",
+    "descriptionText": "Reduces the cast time of Artificer's Wand by -0.2 sec.",
+    "iconPath": "interface/icons/achievement_challengemode_bronze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520800,
+    "spellIds": [
+      520800
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30256
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520800,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Artificer's Wand</span> by <span class=\"item-number\">-0.2</span> sec.",
+        "descriptionText": "Reduces the cast time of Artificer's Wand by -0.2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30279,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Erode Armaments",
+    "description": "Your Wand attacks now reduce enemy attack power by <span class=\"item-number\">208</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Your Wand attacks now reduce enemy attack power by 208 for 5 seconds.",
+    "iconPath": "interface/icons/ability_hunter_disarmingshot",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520386,
+    "spellIds": [
+      520386
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6174
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 520875,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520386,
+        "description": "Your Wand attacks now reduce enemy attack power by <span class=\"item-number\">208</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Your Wand attacks now reduce enemy attack power by 208 for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30282,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Magic Sensitivity",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> now increases the enemy's damage taken from you by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Critical strikes with Shatter Echo now increases the enemy's damage taken from you by 10% for 8 seconds.",
+    "iconPath": "interface/icons/_enslavespell_arcane",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520171,
+    "spellIds": [
+      520171
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6173,
+      7937
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520171,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Shatter Echo</span> now increases the enemy's damage taken from you by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Critical strikes with Shatter Echo now increases the enemy's damage taken from you by 10% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1803,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Sporadic Incantations",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Flux Emitter</span> now strikes <span class=\"item-number\">1</span> additional enemy.",
+    "descriptionText": "Your Flux Emitter now strikes 1 additional enemy.",
+    "iconPath": "interface/icons/custom_t_sundarkening_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570061,
+    "spellIds": [
+      570061
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30856
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 74821,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570061,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Flux Emitter</span> now strikes <span class=\"item-number\">1</span> additional enemy.",
+        "descriptionText": "Your Flux Emitter now strikes 1 additional enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4033,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Echo Fragments",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Wand of Time</span> now generates an <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>, which can be used to unleash <span style=\"color: #d480ff; display: inline\">Distortion</span> and <span style=\"color: #C49A6C; display: inline\">Continuum</span> spells.<br /><br /><span style=\"color: #ffffff; display: inline\">Decomposition</span> is now a <span style=\"color: #d480ff; display: inline\">Distortion</span> spell, dealing increased damage based on how many <span style=\"color: #ffffff; display: inline\">Echo Fragments</span> you have.",
+    "descriptionText": "Level 10 Passive\nWand of Time now generates an Echo Fragment, which can be used to unleash Distortion and Continuum spells.\n\nDecomposition is now a Distortion spell, dealing increased damage based on how many Echo Fragments you have.",
+    "iconPath": "interface/icons/achievement_guildperk_workingovertime",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92120,
+    "spellIds": [
+      92120
+    ],
+    "requiredNodeIds": [
+      30855
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92120,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Wand of Time</span> now generates an <span style=\"color: #ffffff; display: inline\">Echo Fragment</span>, which can be used to unleash <span style=\"color: #d480ff; display: inline\">Distortion</span> and <span style=\"color: #C49A6C; display: inline\">Continuum</span> spells.<br /><br /><span style=\"color: #ffffff; display: inline\">Decomposition</span> is now a <span style=\"color: #d480ff; display: inline\">Distortion</span> spell, dealing increased damage based on how many <span style=\"color: #ffffff; display: inline\">Echo Fragments</span> you have.",
+        "descriptionText": "Level 10 Passive\nWand of Time now generates an Echo Fragment, which can be used to unleash Distortion and Continuum spells.\n\nDecomposition is now a Distortion spell, dealing increased damage based on how many Echo Fragments you have."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6884,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Tamed Incantations",
+    "description": "Increases the duration of <span style=\"color: #C49A6C; display: inline\">Continuum</span> spells per <span style=\"color: #FFFFFF; display: inline\">Echo Fragment</span> consumed by <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Increases the duration of Continuum spells per Echo Fragment consumed by 0.5 sec.",
+    "iconPath": "interface/icons/novart_magicspell_(56)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706077,
+    "spellIds": [
+      706077
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30856
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 74821,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706077,
+        "description": "Increases the duration of <span style=\"color: #C49A6C; display: inline\">Continuum</span> spells per <span style=\"color: #FFFFFF; display: inline\">Echo Fragment</span> consumed by <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Increases the duration of Continuum spells per Echo Fragment consumed by 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6170,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Archaeology",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Discovery</span> now also generates <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base mana and health.",
+    "descriptionText": "Your Discovery now also generates 3% of your base mana and health.",
+    "iconPath": "interface/icons/trade_archaeology_dwarf_artifactfragment",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560130,
+    "spellIds": [
+      560130
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6576
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560130,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Discovery</span> now also generates <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base mana and health.",
+        "descriptionText": "Your Discovery now also generates 3% of your base mana and health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6171,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Temporal Convergence",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Wand of Time</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to reset its own cooldown.",
+    "descriptionText": "Your Wand of Time now has a 40% chance to reset its own cooldown.",
+    "iconPath": "interface/icons/spell_holy_mindvision",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807588,
+    "spellIds": [
+      807588
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30265
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807588,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Wand of Time</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to reset its own cooldown.",
+        "descriptionText": "Your Wand of Time now has a 40% chance to reset its own cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6172,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Crystal Cannon",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Discordance</span> now unleashes the <span style=\"color: #FFFFFF; display: inline\">Crystal Cannon</span>, launching <span class=\"item-number\">2</span> quick lesser Wand attacks at the enemy over <span class=\"item-number\">1</span> seconds, scaling with Spirit.",
+    "descriptionText": "Level 30 Passive\nCasting Discordance now unleashes the Crystal Cannon, launching 2 quick lesser Wand attacks at the enemy over 1 seconds, scaling with Spirit.",
+    "iconPath": "interface/icons/ability_evoker_eternitysurge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806204,
+    "spellIds": [
+      806204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9175
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806204,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Discordance</span> now unleashes the <span style=\"color: #FFFFFF; display: inline\">Crystal Cannon</span>, launching <span class=\"item-number\">2</span> quick lesser Wand attacks at the enemy over <span class=\"item-number\">1</span> seconds, scaling with Spirit.",
+        "descriptionText": "Level 30 Passive\nCasting Discordance now unleashes the Crystal Cannon, launching 2 quick lesser Wand attacks at the enemy over 1 seconds, scaling with Spirit."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6173,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Borrowed Time",
+    "description": "Taking Physical Damage now heals you equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt. Can only occur once per sec.",
+    "descriptionText": "Taking Physical Damage now heals you equal to 10% of the damage dealt. Can only occur once per sec.",
+    "iconPath": "interface/icons/inv_wand_29",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680373,
+    "spellIds": [
+      680373
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6175
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680373,
+        "description": "Taking Physical Damage now heals you equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt. Can only occur once per sec.",
+        "descriptionText": "Taking Physical Damage now heals you equal to 10% of the damage dealt. Can only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6174,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Paradox Cannon",
+    "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br />Generate <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">5</span> seconds, plus an additional <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> consumed.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell active at a time.",
+    "descriptionText": "Continuum Spell\nGenerate 1 Echo Fragment every 3 sec for 5 seconds, plus an additional 5 sec per Echo Fragment consumed.\n\nCan only have 1 Continuum spell active at a time.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactaegwynsstaff_d_06",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806203,
+    "spellIds": [
+      806203
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6171,
+      30844
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806203,
+        "description": "<span style=\"color: #C49A6C; display: inline\">Continuum Spell</span><br />Generate <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">5</span> seconds, plus an additional <span class=\"item-number\">5</span> sec per <span style=\"color: #ffffff; display: inline\">Echo Fragment</span> consumed.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #C49A6C; display: inline\">Continuum</span> spell active at a time.",
+        "descriptionText": "Continuum Spell\nGenerate 1 Echo Fragment every 3 sec for 5 seconds, plus an additional 5 sec per Echo Fragment consumed.\n\nCan only have 1 Continuum spell active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6175,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Unstable Chronoglass",
+    "description": "Place an <span style=\"color: #FFFFFF; display: inline\">Unstable Chronoglass</span> at target location for <span class=\"item-number\">30</span> seconds that will redirect the next <span class=\"item-number\">3</span> enemy spell casts onto itself.",
+    "descriptionText": "Place an Unstable Chronoglass at target location for 30 seconds that will redirect the next 3 enemy spell casts onto itself.",
+    "iconPath": "interface/icons/nhi_arcanesandwatch_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503836,
+    "spellIds": [
+      503836
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6170,
+      30250
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503836,
+        "description": "Place an <span style=\"color: #FFFFFF; display: inline\">Unstable Chronoglass</span> at target location for <span class=\"item-number\">30</span> seconds that will redirect the next <span class=\"item-number\">3</span> enemy spell casts onto itself.",
+        "descriptionText": "Place an Unstable Chronoglass at target location for 30 seconds that will redirect the next 3 enemy spell casts onto itself."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6178,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Splitting Time",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Crystal Cannon</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+    "descriptionText": "Your Crystal Cannon now strikes 2 additional nearby enemies.",
+    "iconPath": "interface/icons/ability_mage_arcanebarrage_nightborne",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706130,
+    "spellIds": [
+      706130
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1803,
+      6884
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706130,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Crystal Cannon</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+        "descriptionText": "Your Crystal Cannon now strikes 2 additional nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4520,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Resonance",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Artificer's Wand</span> or <span style=\"color: #FFFFFF; display: inline\">Crystal Cannon</span> now has a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Hasten</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Casting Artificer's Wand or Crystal Cannon now has a 35% chance to reduce the cooldown of Hasten by -1 sec.",
+    "iconPath": "interface/icons/inv_6_2raid_trinket_4a",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706079,
+    "spellIds": [
+      706079
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12279,
+      30279,
+      30857
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706079,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Artificer's Wand</span> or <span style=\"color: #FFFFFF; display: inline\">Crystal Cannon</span> now has a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Hasten</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Casting Artificer's Wand or Crystal Cannon now has a 35% chance to reduce the cooldown of Hasten by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6574,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Concentrated Fate",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Echo Fragments</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Echo Fragments by 20%.",
+    "iconPath": "interface/icons/inv_wand_1h_warfrontsalliance_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706122,
+    "spellIds": [
+      706122
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706122,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Echo Fragments</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Echo Fragments by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6575,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Elder Wand",
+    "description": "Your Wand attacks now have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to increase the damage of <span style=\"color: #FFFFFF; display: inline\">Artificer's Wands</span> against the target by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Your Wand attacks now have a 30% chance to increase the damage of Artificer's Wands against the target by 3% for 15 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/5_wandshot_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560129,
+    "spellIds": [
+      560129
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6574,
+      30265
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560129,
+        "description": "Your Wand attacks now have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to increase the damage of <span style=\"color: #FFFFFF; display: inline\">Artificer's Wands</span> against the target by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Your Wand attacks now have a 30% chance to increase the damage of Artificer's Wands against the target by 3% for 15 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6576,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 57,
+    "tabKey": "22:57",
+    "tabName": "Artificer",
+    "name": "Discovery",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Artificers's Wand</span> and <span style=\"color: #FFFFFF; display: inline\">Wand of Time</span> now grants <span style=\"color: #ffffff; display: inline\">Discovery</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">3</span> times. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_wandshot__2__border\" /><span class=\"name\">Discovery</span></div><span class=\"desc\">At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #FFFFFF; display: inline\">Wand of Time</span> or <span style=\"color: #FFFFFF; display: inline\">Artificer's Wand</span> causes an additional <span class=\"item-number\">76</span> + <span class=\"item-number\">21.2% arcane SP</span> + <span class=\"item-number\">25% Spirit</span> + <span class=\"item-number\">10% ranged AP</span> Arcane Damage, scaling with Spirit.</span></div>",
+    "descriptionText": "Casting Artificers's Wand and Wand of Time now grants Discovery for 30 seconds, stacking 3 times. \n\n---\n\nDiscoveryAt 3 stacks, your next Wand of Time or Artificer's Wand causes an additional 76 + 21.2% arcane SP + 25% Spirit + 10% ranged AP Arcane Damage, scaling with Spirit.",
+    "iconPath": "interface/icons/5_wandshot_(2)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500116,
+    "spellIds": [
+      500116
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500116,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Artificers's Wand</span> and <span style=\"color: #FFFFFF; display: inline\">Wand of Time</span> now grants <span style=\"color: #ffffff; display: inline\">Discovery</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">3</span> times. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_wandshot__2__border\" /><span class=\"name\">Discovery</span></div><span class=\"desc\">At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #FFFFFF; display: inline\">Wand of Time</span> or <span style=\"color: #FFFFFF; display: inline\">Artificer's Wand</span> causes an additional <span class=\"item-number\">76</span> + <span class=\"item-number\">21.2% arcane SP</span> + <span class=\"item-number\">25% Spirit</span> + <span class=\"item-number\">10% ranged AP</span> Arcane Damage, scaling with Spirit.</span></div>",
+        "descriptionText": "Casting Artificers's Wand and Wand of Time now grants Discovery for 30 seconds, stacking 3 times. \n\n---\n\nDiscoveryAt 3 stacks, your next Wand of Time or Artificer's Wand causes an additional 76 + 21.2% arcane SP + 25% Spirit + 10% ranged AP Arcane Damage, scaling with Spirit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

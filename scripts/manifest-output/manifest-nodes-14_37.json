@@ -1,0 +1,1772 @@
+[
+  {
+    "nodeId": 34236,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Twin Fury",
+    "description": "Critically striking with <span style=\"color: #FFFFFF; display: inline\">Twin Slice</span> now generates an additional <span style=\"color: #32cd32; display: inline\"><span class=\"item-number\">1</span> Felfury</span>.",
+    "descriptionText": "Critically striking with Twin Slice now generates an additional 1 Felfury.",
+    "iconPath": "interface/icons/spell_fire_felcano",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801892,
+    "spellIds": [
+      801892
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29387
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801892,
+        "description": "Critically striking with <span style=\"color: #FFFFFF; display: inline\">Twin Slice</span> now generates an additional <span style=\"color: #32cd32; display: inline\"><span class=\"item-number\">1</span> Felfury</span>.",
+        "descriptionText": "Critically striking with Twin Slice now generates an additional 1 Felfury."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34238,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Fel Blades",
+    "description": "Off-hand critical strikes with <span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> now reduce enemy armor by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Off-hand critical strikes with Azzinoth's Assault now reduce enemy armor by -4% for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_62",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300484,
+    "spellIds": [
+      300484
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30300
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 570158,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300484,
+        "description": "Off-hand critical strikes with <span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> now reduce enemy armor by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Off-hand critical strikes with Azzinoth's Assault now reduce enemy armor by -4% for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34243,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Azzinoth's Assault",
+    "description": "<span style=\"color: #32cd32; display: inline\">Consumes <span class=\"item-number\">2</span> Felfury</span><br />Strike an enemy for Weapon Damage plus <span class=\"item-number\">15</span> + <span class=\"item-number\">10% AP</span> to an enemy with both of your weapons, additionally scaling with your attack power.",
+    "descriptionText": "Consumes 2 Felfury\nStrike an enemy for Weapon Damage plus 15 + 10% AP to an enemy with both of your weapons, additionally scaling with your attack power.",
+    "iconPath": "interface/icons/ability_creature_felsunder",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801904,
+    "spellIds": [
+      801904
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801904,
+        "description": "<span style=\"color: #32cd32; display: inline\">Consumes <span class=\"item-number\">2</span> Felfury</span><br />Strike an enemy for Weapon Damage plus <span class=\"item-number\">15</span> + <span class=\"item-number\">10% AP</span> to an enemy with both of your weapons, additionally scaling with your attack power.",
+        "descriptionText": "Consumes 2 Felfury\nStrike an enemy for Weapon Damage plus 15 + 10% AP to an enemy with both of your weapons, additionally scaling with your attack power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34244,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Fury Unleashed",
+    "description": "<span style=\"color: #32cd32; display: inline\">Consumes <span class=\"item-number\">2</span> Felfury</span><br />Spin your glaives for <span class=\"item-number\">3</span> seconds, increasing movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and dealing <span class=\"item-number\">70</span><span class=\"item-number\">%</span> Weapon Damage every <span class=\"item-number\">1</span> sec with both weapons to up to <span class=\"item-number\">8</span> nearby enemies.<br /><br />You are immune to movement impairing and loss of control effects.<br /><br /><span style=\"color: #32cd32; display: inline\">Inner Demon</span>: Has <span class=\"item-number\">2</span> sec longer duration.",
+    "descriptionText": "Consumes 2 Felfury\nSpin your glaives for 3 seconds, increasing movement speed by 30% and dealing 70% Weapon Damage every 1 sec with both weapons to up to 8 nearby enemies.\n\nYou are immune to movement impairing and loss of control effects.\n\nInner Demon: Has 2 sec longer duration.",
+    "iconPath": "interface/icons/inv_glaive_1h_npc_d_02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 555738,
+    "spellIds": [
+      555738
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34245,
+      7432,
+      11814
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 555738,
+        "description": "<span style=\"color: #32cd32; display: inline\">Consumes <span class=\"item-number\">2</span> Felfury</span><br />Spin your glaives for <span class=\"item-number\">3</span> seconds, increasing movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and dealing <span class=\"item-number\">70</span><span class=\"item-number\">%</span> Weapon Damage every <span class=\"item-number\">1</span> sec with both weapons to up to <span class=\"item-number\">8</span> nearby enemies.<br /><br />You are immune to movement impairing and loss of control effects.<br /><br /><span style=\"color: #32cd32; display: inline\">Inner Demon</span>: Has <span class=\"item-number\">2</span> sec longer duration.",
+        "descriptionText": "Consumes 2 Felfury\nSpin your glaives for 3 seconds, increasing movement speed by 30% and dealing 70% Weapon Damage every 1 sec with both weapons to up to 8 nearby enemies.\n\nYou are immune to movement impairing and loss of control effects.\n\nInner Demon: Has 2 sec longer duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34245,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Demonic Machinations",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span> now cause the target to bleed for an additional <span class=\"item-number\">50%</span> of the damage dealt over <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Critical strikes with Sargeron Smite now cause the target to bleed for an additional 50% of the damage dealt over 5 seconds.",
+    "iconPath": "interface/icons/inv_polearm_2h_fellord_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806111,
+    "spellIds": [
+      806111
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29405,
+      34252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705145,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806111,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span> now cause the target to bleed for an additional <span class=\"item-number\">50%</span> of the damage dealt over <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Critical strikes with Sargeron Smite now cause the target to bleed for an additional 50% of the damage dealt over 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34249,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Reachwalker",
+    "description": "Reduces the cost of <span style=\"color: #FFFFFF; display: inline\">Felhoof Charge</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and casting <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Felhoof Charge</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Reduces the cost of Felhoof Charge by -50% and casting Chaos Rush now reduces the cooldown of Felhoof Charge by -2 sec.",
+    "iconPath": "interface/icons/inv_blood_of_sargeras",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705135,
+    "spellIds": [
+      705135
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29132,
+      31300
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705135,
+        "description": "Reduces the cost of <span style=\"color: #FFFFFF; display: inline\">Felhoof Charge</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and casting <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Felhoof Charge</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Reduces the cost of Felhoof Charge by -50% and casting Chaos Rush now reduces the cooldown of Felhoof Charge by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34251,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Glaiving",
+    "description": "Increases the damage dealt and reduces the Energy cost of <span style=\"color: #FFFFFF; display: inline\">Fury Unleashed</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt and reduces the Energy cost of Fury Unleashed by 50%.",
+    "iconPath": "interface/icons/ability_demonhunter_infernalstrike2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560578,
+    "spellIds": [
+      560578
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34244
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 520244,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560578,
+        "description": "Increases the damage dealt and reduces the Energy cost of <span style=\"color: #FFFFFF; display: inline\">Fury Unleashed</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt and reduces the Energy cost of Fury Unleashed by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34252,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Burning Rage",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sunder</span> and <span style=\"color: #ffffff; display: inline\">Immolation Aura</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Sunder and Immolation Aura by 20%.",
+    "iconPath": "interface/icons/spell_shadow_summonimp",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707907,
+    "spellIds": [
+      707907
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30299
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707907,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sunder</span> and <span style=\"color: #ffffff; display: inline\">Immolation Aura</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Sunder and Immolation Aura by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29842,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Whirling Vengeance",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Fury Unleashed</span> by <span class=\"item-number\">-15</span> sec. <br /><br />When <span style=\"color: #FFFFFF; display: inline\">Fury Unleashed</span> ends, you strike <span class=\"item-number\">8</span> nearby enemies for <span class=\"item-number\">373</span> + <span class=\"item-number\">56.14% AP</span> Shadowflame Damage and increase their damage taken from your <span style=\"color: #ffffff; display: inline\">Sunder</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Reduces the cooldown of your Fury Unleashed by -15 sec. \n\nWhen Fury Unleashed ends, you strike 8 nearby enemies for 373 + 56.14% AP Shadowflame Damage and increase their damage taken from your Sunder by 30% for 10 seconds.",
+    "iconPath": "interface/icons/ability_rogue_cuttothechase",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704602,
+    "spellIds": [
+      704602
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31392
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704602,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Fury Unleashed</span> by <span class=\"item-number\">-15</span> sec. <br /><br />When <span style=\"color: #FFFFFF; display: inline\">Fury Unleashed</span> ends, you strike <span class=\"item-number\">8</span> nearby enemies for <span class=\"item-number\">373</span> + <span class=\"item-number\">56.14% AP</span> Shadowflame Damage and increase their damage taken from your <span style=\"color: #ffffff; display: inline\">Sunder</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Reduces the cooldown of your Fury Unleashed by -15 sec. \n\nWhen Fury Unleashed ends, you strike 8 nearby enemies for 373 + 56.14% AP Shadowflame Damage and increase their damage taken from your Sunder by 30% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29852,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Azzinoth's Battery",
+    "description": "Spending <span style=\"color: #32cd32; display: inline\">Felfury</span> now extends the duration of <span style=\"color: #32cd32; display: inline\">Inner Demon</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Spending Felfury now extends the duration of Inner Demon by 1 sec.",
+    "iconPath": "interface/icons/inv_shoulder_leather_raiddemonhuntermythic_r_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705137,
+    "spellIds": [
+      705137
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29405,
+      31308,
+      34238
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705137,
+        "description": "Spending <span style=\"color: #32cd32; display: inline\">Felfury</span> now extends the duration of <span style=\"color: #32cd32; display: inline\">Inner Demon</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Spending Felfury now extends the duration of Inner Demon by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29926,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Fury of the Illidari",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">1.5</span> min recharge</span><br />Move quickly from enemy to enemy within <span class=\"item-number\">10</span> yds, attacking them every <span class=\"item-number\">1</span> sec with both weapons until <span class=\"item-number\">6</span> assaults are made, generating <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span> with each strike. While active you are immune to crowd control effects.<br /><br />Can hit the same target multiple times. Cannot hit invisible or stealthed targets.<br /><br />",
+    "descriptionText": "2 Charges, 1.5 min recharge\nMove quickly from enemy to enemy within 10 yds, attacking them every 1 sec with both weapons until 6 assaults are made, generating 1 Felfury with each strike. While active you are immune to crowd control effects.\n\nCan hit the same target multiple times. Cannot hit invisible or stealthed targets.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactfelomelorn_d_03dual",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561216,
+    "spellIds": [
+      561216
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6968,
+      31392,
+      34249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561216,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">1.5</span> min recharge</span><br />Move quickly from enemy to enemy within <span class=\"item-number\">10</span> yds, attacking them every <span class=\"item-number\">1</span> sec with both weapons until <span class=\"item-number\">6</span> assaults are made, generating <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span> with each strike. While active you are immune to crowd control effects.<br /><br />Can hit the same target multiple times. Cannot hit invisible or stealthed targets.<br /><br />",
+        "descriptionText": "2 Charges, 1.5 min recharge\nMove quickly from enemy to enemy within 10 yds, attacking them every 1 sec with both weapons until 6 assaults are made, generating 1 Felfury with each strike. While active you are immune to crowd control effects.\n\nCan hit the same target multiple times. Cannot hit invisible or stealthed targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29927,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Chaos Soldier",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> and <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Azzinoth's Assault and Sargeron Smite by 5%.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactfelomelorn_d_03dual",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560057,
+    "spellIds": [
+      560057
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34236
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560057,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> and <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Azzinoth's Assault and Sargeron Smite by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30811,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Pit Lord's Rage",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now increases your Physical Damage by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking up to <span class=\"item-number\">3</span> times.<br /><br />Casting <span style=\"color: #FFFFFF; display: inline\">Felhoof Charge</span> increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Casting Chaos Rush now increases your Physical Damage by 5% for 5 seconds, stacking up to 3 times.\n\nCasting Felhoof Charge increases your critical strike chance by 2% for 8 seconds, stacking up to 3 times.",
+    "iconPath": "interface/icons/inv_staff_2h_felfireraid_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705141,
+    "spellIds": [
+      705141
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705141,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now increases your Physical Damage by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking up to <span class=\"item-number\">3</span> times.<br /><br />Casting <span style=\"color: #FFFFFF; display: inline\">Felhoof Charge</span> increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Casting Chaos Rush now increases your Physical Damage by 5% for 5 seconds, stacking up to 3 times.\n\nCasting Felhoof Charge increases your critical strike chance by 2% for 8 seconds, stacking up to 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31299,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Scars of the Past",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now heals you for <span class=\"item-number\">91</span> + <span class=\"item-number\">20% Stamina</span> + <span class=\"item-number\">33% AP</span>.",
+    "descriptionText": "Casting Chaos Rush now heals you for 91 + 20% Stamina + 33% AP.",
+    "iconPath": "interface/icons/spell-illidan-rosa",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520805,
+    "spellIds": [
+      520805
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29852
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520805,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now heals you for <span class=\"item-number\">91</span> + <span class=\"item-number\">20% Stamina</span> + <span class=\"item-number\">33% AP</span>.",
+        "descriptionText": "Casting Chaos Rush now heals you for 91 + 20% Stamina + 33% AP."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31300,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Fel Instincts",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes it to increase your melee haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Increases the damage of Azzinoth's Assault by 10% and causes it to increase your melee haste by 20% for 5 seconds.",
+    "iconPath": "interface/icons/inv_argustalbukmount_felpurple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560645,
+    "spellIds": [
+      560645
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6919
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560645,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes it to increase your melee haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Increases the damage of Azzinoth's Assault by 10% and causes it to increase your melee haste by 20% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31301,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Spite",
+    "description": "Increases your Agility by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility by 8%.",
+    "iconPath": "interface/icons/ability_warlock_backdraftgreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 800188,
+    "spellIds": [
+      800188,
+      803840
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29927
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800188,
+        "description": "Increases your Agility by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 803840,
+        "description": "Increases your Agility by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31308,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Scars of Suffering",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> now scars the enemy, increasing your allies' attack power against them by <span class=\"item-number\">15% Agility</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Casting Azzinoth's Assault now scars the enemy, increasing your allies' attack power against them by 15% Agility for 10 seconds.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactfelomelorn_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570158,
+    "spellIds": [
+      570158
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30300
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 570158,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570158,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> now scars the enemy, increasing your allies' attack power against them by <span class=\"item-number\">15% Agility</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Casting Azzinoth's Assault now scars the enemy, increasing your allies' attack power against them by 15% Agility for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30299,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "You Cheat, Gul'dan!",
+    "description": "Increases your critical strike chance and critical damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against enemies above <span class=\"item-number\">75%</span> health.",
+    "descriptionText": "Increases your critical strike chance and critical damage by 15% against enemies above 75% health.",
+    "iconPath": "interface/icons/ability_demonhunter_metamorphasistank",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705127,
+    "spellIds": [
+      705127
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6526
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705127,
+        "description": "Increases your critical strike chance and critical damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against enemies above <span class=\"item-number\">75%</span> health.",
+        "descriptionText": "Increases your critical strike chance and critical damage by 15% against enemies above 75% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30300,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Azzinoth's Rage",
+    "description": "Increases your Armor penetration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+    "descriptionText": "Increases your Armor penetration by 10% and your expertise by 4.",
+    "iconPath": "interface/icons/achievement_boss_omartheunscarred_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 804611,
+    "spellIds": [
+      804611,
+      807901,
+      807914
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6526,
+      29387
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804611,
+        "description": "Increases your Armor penetration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your Armor penetration by 10% and your expertise by 4."
+      },
+      {
+        "rank": 2,
+        "spellId": 807901,
+        "description": "Increases your Armor penetration by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">8</span>.",
+        "descriptionText": "Increases your Armor penetration by 20% and your expertise by 8."
+      },
+      {
+        "rank": 3,
+        "spellId": 807914,
+        "description": "Increases your Armor penetration by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">12</span>.",
+        "descriptionText": "Increases your Armor penetration by 30% and your expertise by 12."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34209,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Felguard",
+    "description": "Emanate a powerful aura, granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds. Does not stack with similar effects.<br /><br />In addition, while <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active, you take <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced damage.",
+    "descriptionText": "Emanate a powerful aura, granting 10% increased melee and ranged haste to party and raid members within 100 yds. Does not stack with similar effects.\n\nIn addition, while Inner Demon is active, you take -10% reduced damage.",
+    "iconPath": "interface/icons/spell_shadow_felarmour",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560542,
+    "spellIds": [
+      560542
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29402,
+      34244
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560542,
+        "description": "Emanate a powerful aura, granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds. Does not stack with similar effects.<br /><br />In addition, while <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active, you take <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced damage.",
+        "descriptionText": "Emanate a powerful aura, granting 10% increased melee and ranged haste to party and raid members within 100 yds. Does not stack with similar effects.\n\nIn addition, while Inner Demon is active, you take -10% reduced damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31392,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Oblivion",
+    "description": "Critically striking now increases your damage dealt by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Critically striking now increases your damage dealt by 1% for 4 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/inv_staff_2h_felfireraid_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572889,
+    "spellIds": [
+      572889
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6524,
+      34209,
+      34251
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572889,
+        "description": "Critically striking now increases your damage dealt by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Critically striking now increases your damage dealt by 1% for 4 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6919,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "A Thousand Cuts",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to hit an additional time with your main-hand Weapon.",
+    "descriptionText": "Azzinoth's Assault now has a 30% chance to hit an additional time with your main-hand Weapon.",
+    "iconPath": "interface/icons/inv_glaive_1h_battledungeon_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704610,
+    "spellIds": [
+      704610
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29396,
+      31301
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704610,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to hit an additional time with your main-hand Weapon.",
+        "descriptionText": "Azzinoth's Assault now has a 30% chance to hit an additional time with your main-hand Weapon."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6968,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Legionfall",
+    "description": "Increases the chance for <span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> to not consume <span style=\"color: #32cd32; display: inline\">Felfury</span> while <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance for Azzinoth's Assault to not consume Felfury while Inner Demon is active by -5%.",
+    "iconPath": "interface/icons/ability_demonhunter_vengefulretreat",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801899,
+    "spellIds": [
+      801899
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6513,
+      29132,
+      34209
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801899,
+        "description": "Increases the chance for <span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> to not consume <span style=\"color: #32cd32; display: inline\">Felfury</span> while <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance for Azzinoth's Assault to not consume Felfury while Inner Demon is active by -5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6512,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Slice & Dice",
+    "description": "Increases your off-hand weapon damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Twin Slice</span> by <span class=\"item-number\">-5</span>.",
+    "descriptionText": "Increases your off-hand weapon damage by 25% and reduces the Energy cost of Twin Slice by -5.",
+    "iconPath": "interface/icons/inv_glaive_1h_demonhunter_a_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704361,
+    "spellIds": [
+      704361,
+      707845
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34243
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704361,
+        "description": "Increases your off-hand weapon damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Twin Slice</span> by <span class=\"item-number\">-5</span>.",
+        "descriptionText": "Increases your off-hand weapon damage by 25% and reduces the Energy cost of Twin Slice by -5."
+      },
+      {
+        "rank": 2,
+        "spellId": 707845,
+        "description": "Increases your off-hand weapon damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Twin Slice</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Increases your off-hand weapon damage by 50% and reduces the Energy cost of Twin Slice by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6513,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Fel Haze",
+    "description": "While active, <span style=\"color: #ffffff; display: inline\">Blood of Mannoroth</span> now also causes you to ignore all enemy Armor.",
+    "descriptionText": "While active, Blood of Mannoroth now also causes you to ignore all enemy Armor.",
+    "iconPath": "interface/icons/spell_shadow_fingerofdeath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803903,
+    "spellIds": [
+      803903
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29402,
+      29852,
+      31299
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803903,
+        "description": "While active, <span style=\"color: #ffffff; display: inline\">Blood of Mannoroth</span> now also causes you to ignore all enemy Armor.",
+        "descriptionText": "While active, Blood of Mannoroth now also causes you to ignore all enemy Armor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6524,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Perpetual Fury",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Dancing Blades</span> reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Fury Unleashed</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Dealing damage with Dancing Blades reduces the cooldown of Fury Unleashed by -0.5 sec.",
+    "iconPath": "interface/icons/achievement_thenighthold_tichondrius",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520244,
+    "spellIds": [
+      520244
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34244
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 520244,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520244,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Dancing Blades</span> reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Fury Unleashed</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Dealing damage with Dancing Blades reduces the cooldown of Fury Unleashed by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6526,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Immolation Aura",
+    "description": "Wreathe yourself in fire for up to <span class=\"item-number\">1</span> minute, unleashing an <span style=\"color: #ffffff; display: inline\">Immolation Pulse</span> every <span class=\"item-number\">3</span> sec, causing <span class=\"item-number\">9</span> + <span class=\"item-number\">30% fire SP</span> + <span class=\"item-number\">12% AP</span> Fire Damage to nearby enemies.",
+    "descriptionText": "Wreathe yourself in fire for up to 1 minute, unleashing an Immolation Pulse every 3 sec, causing 9 + 30% fire SP + 12% AP Fire Damage to nearby enemies.",
+    "iconPath": "interface/icons/spell_fire_felimmolation",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800207,
+    "spellIds": [
+      800207
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6512
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800207,
+        "description": "Wreathe yourself in fire for up to <span class=\"item-number\">1</span> minute, unleashing an <span style=\"color: #ffffff; display: inline\">Immolation Pulse</span> every <span class=\"item-number\">3</span> sec, causing <span class=\"item-number\">9</span> + <span class=\"item-number\">30% fire SP</span> + <span class=\"item-number\">12% AP</span> Fire Damage to nearby enemies.",
+        "descriptionText": "Wreathe yourself in fire for up to 1 minute, unleashing an Immolation Pulse every 3 sec, causing 9 + 30% fire SP + 12% AP Fire Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4007,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Demon Hunter",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Critical strikes with melee abilities now trigger <span style=\"color: #FFFFFF; display: inline\">Dancing Blades</span>, dealing off-hand Weapon Damage to up to <span class=\"item-number\">5</span> nearby enemies.",
+    "descriptionText": "Level 10 Passive\nCritical strikes with melee abilities now trigger Dancing Blades, dealing off-hand Weapon Damage to up to 5 nearby enemies.",
+    "iconPath": "interface/icons/ability_demonhunter_immolation",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92087,
+    "spellIds": [
+      92087
+    ],
+    "requiredNodeIds": [
+      29367
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92087,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Critical strikes with melee abilities now trigger <span style=\"color: #FFFFFF; display: inline\">Dancing Blades</span>, dealing off-hand Weapon Damage to up to <span class=\"item-number\">5</span> nearby enemies.",
+        "descriptionText": "Level 10 Passive\nCritical strikes with melee abilities now trigger Dancing Blades, dealing off-hand Weapon Damage to up to 5 nearby enemies."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9228,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "True Self",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Inner Demon</span> now grants <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased critical damage dealt while active.",
+    "descriptionText": "Level 20 Passive\nYour Inner Demon now grants 20% increased critical damage dealt while active.",
+    "iconPath": "interface/icons/azgalor_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574140,
+    "spellIds": [
+      574140
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4007
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574140,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Inner Demon</span> now grants <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased critical damage dealt while active.",
+        "descriptionText": "Level 20 Passive\nYour Inner Demon now grants 20% increased critical damage dealt while active."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9229,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Chaotic",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Direct melee ability critical strikes now restore <span class=\"item-number\">3</span> Energy.",
+    "descriptionText": "Level 40 Passive\nDirect melee ability critical strikes now restore 3 Energy.",
+    "iconPath": "interface/icons/inv_glaive_1h_npc_d_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574143,
+    "spellIds": [
+      574143
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11228
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574143,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Direct melee ability critical strikes now restore <span class=\"item-number\">3</span> Energy.",
+        "descriptionText": "Level 40 Passive\nDirect melee ability critical strikes now restore 3 Energy."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9230,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Felcaked Blades",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> and <span style=\"color: #FFFFFF; display: inline\">Sargeron Smite</span> now additionally scale with your Agility.",
+    "descriptionText": "Level 50 Passive\nAzzinoth's Assault and Sargeron Smite now additionally scale with your Agility.",
+    "iconPath": "interface/icons/inv_polearm_1h_felfireraid_d_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574145,
+    "spellIds": [
+      574145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9229
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574145,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #FFFFFF; display: inline\">Azzinoth's Assault</span> and <span style=\"color: #FFFFFF; display: inline\">Sargeron Smite</span> now additionally scale with your Agility.",
+        "descriptionText": "Level 50 Passive\nAzzinoth's Assault and Sargeron Smite now additionally scale with your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7432,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Nether Champion",
+    "description": "Triggering <span style=\"color: #FFFFFF; display: inline\">Dancing Blades</span> now increases the damage of next <span style=\"color: #FFFFFF; display: inline\">Sargeron Smite</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Triggering Dancing Blades now increases the damage of next Sargeron Smite by 8% for 20 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/ability_mage_worldinflamesgreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705145,
+    "spellIds": [
+      705145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29405,
+      34252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705145,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705145,
+        "description": "Triggering <span style=\"color: #FFFFFF; display: inline\">Dancing Blades</span> now increases the damage of next <span style=\"color: #FFFFFF; display: inline\">Sargeron Smite</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Triggering Dancing Blades now increases the damage of next Sargeron Smite by 8% for 20 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29132,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Reckless Assault",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> and <span style=\"color: #ffffff; display: inline\">Twin Slice</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against slowed enemies.",
+    "descriptionText": "Increases the damage of Azzinoth's Assault and Twin Slice by 15% against slowed enemies.",
+    "iconPath": "interface/icons/ability_demonhunter_spectralsight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804610,
+    "spellIds": [
+      804610
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29396,
+      31299
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804610,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Azzinoth's Assault</span> and <span style=\"color: #ffffff; display: inline\">Twin Slice</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against slowed enemies.",
+        "descriptionText": "Increases the damage of Azzinoth's Assault and Twin Slice by 15% against slowed enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29387,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Abyssal Destruction",
+    "description": "Increases your hit and critical strike chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your hit and critical strike chance by 5%.",
+    "iconPath": "interface/icons/achievement_raid_argusraid",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705134,
+    "spellIds": [
+      705134
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6512
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705134,
+        "description": "Increases your hit and critical strike chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your hit and critical strike chance by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29396,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Felhoof Charge",
+    "description": "<span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Charge an enemy, dealing <span class=\"item-number\">60</span> + <span class=\"item-number\">28.5% AP</span> Physical Damage.",
+    "descriptionText": "Generates 1 Felfury\nCharge an enemy, dealing 60 + 28.5% AP Physical Damage.",
+    "iconPath": "interface/icons/ability_demonhunter_felrush",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800204,
+    "spellIds": [
+      800204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29927,
+      31308,
+      34238
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800204,
+        "description": "<span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Charge an enemy, dealing <span class=\"item-number\">60</span> + <span class=\"item-number\">28.5% AP</span> Physical Damage.",
+        "descriptionText": "Generates 1 Felfury\nCharge an enemy, dealing 60 + 28.5% AP Physical Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29402,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Blighted Strikes",
+    "description": "While <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active your melee attacks reduce the target's healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "While Inner Demon is active your melee attacks reduce the target's healing received by -20% for 8 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/skill_icon_skill104_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570077,
+    "spellIds": [
+      570077
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29852
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570077,
+        "description": "While <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active your melee attacks reduce the target's healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "While Inner Demon is active your melee attacks reduce the target's healing received by -20% for 8 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29405,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Annihilan Strike",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Annihilation</span> now affects <span class=\"item-number\">1</span> additional attack.",
+    "descriptionText": "Your Annihilation now affects 1 additional attack.",
+    "iconPath": "interface/icons/achievement_boss_hellfire_mannorothreanimated",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 802076,
+    "spellIds": [
+      802076,
+      802110
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30300
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802076,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Annihilation</span> now affects <span class=\"item-number\">1</span> additional attack.",
+        "descriptionText": "Your Annihilation now affects 1 additional attack."
+      },
+      {
+        "rank": 2,
+        "spellId": 802110,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Annihilation</span> now affects <span class=\"item-number\">2</span> additional attack.",
+        "descriptionText": "Your Annihilation now affects 2 additional attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11814,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Consumed By Fel",
+    "description": "Increases the tick rate of <span style=\"color: #FFFFFF; display: inline\">Immolation Aura</span> by <span class=\"item-number\">-35</span><span class=\"item-number\">%</span> and its damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate of Immolation Aura by -35% and its damage dealt by 15%.",
+    "iconPath": "interface/icons/custom_t_felspikes_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300485,
+    "spellIds": [
+      300485
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300485,
+        "description": "Increases the tick rate of <span style=\"color: #FFFFFF; display: inline\">Immolation Aura</span> by <span class=\"item-number\">-35</span><span class=\"item-number\">%</span> and its damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of Immolation Aura by -35% and its damage dealt by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11228,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 37,
+    "tabKey": "14:37",
+    "tabName": "Slayer",
+    "name": "Unbound",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your spell critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Agility and your spell hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 30 Passive\nIncreases your spell critical strike rating by 15% of your Agility and your spell hit rating by 5% of your Agility.",
+    "iconPath": "interface/icons/inv_potion_19",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574153,
+    "spellIds": [
+      574153
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9228
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574153,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your spell critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Agility and your spell hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 30 Passive\nIncreases your spell critical strike rating by 15% of your Agility and your spell hit rating by 5% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

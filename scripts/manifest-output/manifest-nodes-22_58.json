@@ -1,0 +1,1758 @@
+[
+  {
+    "nodeId": 6652,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Through The Aeons",
+    "description": "Activating an <span style=\"color: #ffffff; display: inline\">Aeon</span> now increases your mana regeneration from Spirit by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Activating an Aeon now increases your mana regeneration from Spirit by 100% for 8 seconds.",
+    "iconPath": "interface/icons/nhi_timewarp_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560310,
+    "spellIds": [
+      560310
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6702,
+      7912
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560310,
+        "description": "Activating an <span style=\"color: #ffffff; display: inline\">Aeon</span> now increases your mana regeneration from Spirit by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Activating an Aeon now increases your mana regeneration from Spirit by 100% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6699,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Carbon Dating",
+    "description": "Each stack of <span style=\"color: #ffffff; display: inline\">Sands of Time</span> now also increases the healing of your <span style=\"color: #ffffff; display: inline\">Epoch</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Sands of Time now also increases the healing of your Epoch by 10%.",
+    "iconPath": "interface/icons/trade_archaeology",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706102,
+    "spellIds": [
+      706102
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6190
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706102,
+        "description": "Each stack of <span style=\"color: #ffffff; display: inline\">Sands of Time</span> now also increases the healing of your <span style=\"color: #ffffff; display: inline\">Epoch</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Sands of Time now also increases the healing of your Epoch by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6700,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "A Ripple In Time",
+    "description": "Your damaging and healing critical strikes now reduce the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Ripple</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Your damaging and healing critical strikes now reduce the remaining cooldown of Ripple by -1 sec.",
+    "iconPath": "interface/icons/ability_paladin_righteousvengeance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706096,
+    "spellIds": [
+      706096
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6196,
+      6699
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706096,
+        "description": "Your damaging and healing critical strikes now reduce the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Ripple</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Your damaging and healing critical strikes now reduce the remaining cooldown of Ripple by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6702,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Cycling Aeons",
+    "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Aeons</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Aeons by -50%.",
+    "iconPath": "interface/icons/skill_icon_skill42_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570149,
+    "spellIds": [
+      570149
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6700,
+      29571
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570149,
+        "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Aeons</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Aeons by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6841,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Aeon of Oblivion",
+    "description": "Increases <span style=\"color: #ffffff; display: inline\">Epoch</span>'s mana cost by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>, critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, and healing done by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>. <br /><br />In addition, healing with <span style=\"color: #ffffff; display: inline\">Epoch</span> now increases the target's damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />",
+    "descriptionText": "Increases Epoch's mana cost by 30%, critical strike chance by 10%, and healing done by 15%. \n\nIn addition, healing with Epoch now increases the target's damage dealt by 3% for 15 seconds.",
+    "iconPath": "interface/icons/inv_trinket_80_kultiras02e",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806293,
+    "spellIds": [
+      806293
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9181
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806293,
+        "description": "Increases <span style=\"color: #ffffff; display: inline\">Epoch</span>'s mana cost by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>, critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, and healing done by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>. <br /><br />In addition, healing with <span style=\"color: #ffffff; display: inline\">Epoch</span> now increases the target's damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />",
+        "descriptionText": "Increases Epoch's mana cost by 30%, critical strike chance by 10%, and healing done by 15%. \n\nIn addition, healing with Epoch now increases the target's damage dealt by 3% for 15 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4032,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Aeon of Resilience",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Teaches you <span style=\"color: #ffffff; display: inline\">Aeon of Resilience</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_trinket_80_kultiras02a\" /><span class=\"name\">Aeon of Resilience</span></div><span class=\"desc\">Reduces <span style=\"color: #ffffff; display: inline\">Epoch</span>'s cast time by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and it's mana cost by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>, and healing done by it now reduces the target's damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br /></span></div>",
+    "descriptionText": "Level 10 Passive\nTeaches you Aeon of Resilience.\n\n---\n\nAeon of ResilienceReduces Epoch's cast time by -25% and it's mana cost by -10%, and healing done by it now reduces the target's damage taken by -5% for 6 seconds.",
+    "iconPath": "interface/icons/inv_trinket_80_kultiras02a",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92119,
+    "spellIds": [
+      92119
+    ],
+    "requiredNodeIds": [
+      30277
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92119,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Teaches you <span style=\"color: #ffffff; display: inline\">Aeon of Resilience</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_trinket_80_kultiras02a\" /><span class=\"name\">Aeon of Resilience</span></div><span class=\"desc\">Reduces <span style=\"color: #ffffff; display: inline\">Epoch</span>'s cast time by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and it's mana cost by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>, and healing done by it now reduces the target's damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br /></span></div>",
+        "descriptionText": "Level 10 Passive\nTeaches you Aeon of Resilience.\n\n---\n\nAeon of ResilienceReduces Epoch's cast time by -25% and it's mana cost by -10%, and healing done by it now reduces the target's damage taken by -5% for 6 seconds."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6182,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "The Vast Infinite",
+    "description": "All party and raid members become one, equally sharing <span class=\"item-number\">25%</span> of all damage dealt to them for <span class=\"item-number\">10</span> seconds, up to a maximum of <span class=\"item-number\">100%</span> of their total health.<br /><br />At the end of the duration, all affected allies are healed equal to the total damage shared split evenly amongst all allies.",
+    "descriptionText": "All party and raid members become one, equally sharing 25% of all damage dealt to them for 10 seconds, up to a maximum of 100% of their total health.\n\nAt the end of the duration, all affected allies are healed equal to the total damage shared split evenly amongst all allies.",
+    "iconPath": "interface/icons/ability_racial_chillofnight",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706083,
+    "spellIds": [
+      706083
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7826
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706083,
+        "description": "All party and raid members become one, equally sharing <span class=\"item-number\">25%</span> of all damage dealt to them for <span class=\"item-number\">10</span> seconds, up to a maximum of <span class=\"item-number\">100%</span> of their total health.<br /><br />At the end of the duration, all affected allies are healed equal to the total damage shared split evenly amongst all allies.",
+        "descriptionText": "All party and raid members become one, equally sharing 25% of all damage dealt to them for 10 seconds, up to a maximum of 100% of their total health.\n\nAt the end of the duration, all affected allies are healed equal to the total damage shared split evenly amongst all allies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6183,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Time Wizard",
+    "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Reverse Wound</span>, <span style=\"color: #FFFFFF; display: inline\">Epoch</span>, and <span style=\"color: #FFFFFF; display: inline\">Correct the Mistake</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of your Reverse Wound, Epoch, and Correct the Mistake by 8%.",
+    "iconPath": "interface/icons/spell_holy_flashheal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706779,
+    "spellIds": [
+      706779,
+      707829
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706779,
+        "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Reverse Wound</span>, <span style=\"color: #FFFFFF; display: inline\">Epoch</span>, and <span style=\"color: #FFFFFF; display: inline\">Correct the Mistake</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of your Reverse Wound, Epoch, and Correct the Mistake by 8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707829,
+        "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Reverse Wound</span>, <span style=\"color: #FFFFFF; display: inline\">Epoch</span>, and <span style=\"color: #FFFFFF; display: inline\">Correct the Mistake</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of your Reverse Wound, Epoch, and Correct the Mistake by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6184,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Timeline Tether",
+    "description": "Your periodic damage and healing reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Fortify Timeline</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Your periodic damage and healing reduces the cooldown of your Fortify Timeline by -1 sec.",
+    "iconPath": "interface/icons/_enslavespell_holy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804505,
+    "spellIds": [
+      804505
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29570
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804505,
+        "description": "Your periodic damage and healing reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Fortify Timeline</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Your periodic damage and healing reduces the cooldown of your Fortify Timeline by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6187,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Time Beacon",
+    "description": "Increases the duration of effects applied by your <span style=\"color: #FFFFFF; display: inline\">Aeons</span> by <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Increases the duration of effects applied by your Aeons by 4 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holywhirlpool_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 574310,
+    "spellIds": [
+      574310,
+      574362
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574310,
+        "description": "Increases the duration of effects applied by your <span style=\"color: #FFFFFF; display: inline\">Aeons</span> by <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Increases the duration of effects applied by your Aeons by 4 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 574362,
+        "description": "Increases the duration of effects applied by your <span style=\"color: #FFFFFF; display: inline\">Aeons</span> by <span class=\"item-number\">8</span> sec.",
+        "descriptionText": "Increases the duration of effects applied by your Aeons by 8 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6190,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Endless Sands",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Epoch</span> now grants you <span style=\"color: #ffffff; display: inline\">Endless Sands</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_enchant_dustspirit\" /><span class=\"name\">Endless Sands</span></div><span class=\"desc\">Cast time of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wounds</span> within <span class=\"item-number\">15</span> seconds is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Casting Epoch now grants you Endless Sands.\n\n---\n\nEndless SandsCast time of your next Reverse Wounds within 15 seconds is reduced by -20%, stacking up to 5 times.",
+    "iconPath": "interface/icons/inv_enchant_dustspirit",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806338,
+    "spellIds": [
+      806338
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806338,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Epoch</span> now grants you <span style=\"color: #ffffff; display: inline\">Endless Sands</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_enchant_dustspirit\" /><span class=\"name\">Endless Sands</span></div><span class=\"desc\">Cast time of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wounds</span> within <span class=\"item-number\">15</span> seconds is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Casting Epoch now grants you Endless Sands.\n\n---\n\nEndless SandsCast time of your next Reverse Wounds within 15 seconds is reduced by -20%, stacking up to 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6192,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Epic Recovery",
+    "description": "When you cast <span style=\"color: #ffffff; display: inline\">Epoch</span> you now also cast a Rank <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Epoch</span> on up to <span class=\"item-number\">5</span> allies affected by <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span>.",
+    "descriptionText": "When you cast Epoch you now also cast a Rank 1 Epoch on up to 5 allies affected by Accelerated Recovery.",
+    "iconPath": "interface/icons/inv_shield_1h_bastionquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706098,
+    "spellIds": [
+      706098
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6184,
+      6652,
+      30905
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706098,
+        "description": "When you cast <span style=\"color: #ffffff; display: inline\">Epoch</span> you now also cast a Rank <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Epoch</span> on up to <span class=\"item-number\">5</span> allies affected by <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span>.",
+        "descriptionText": "When you cast Epoch you now also cast a Rank 1 Epoch on up to 5 allies affected by Accelerated Recovery."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6196,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Timeless",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Endless Sands</span> is active, the mana costs of your spells and abilities is reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> per stack.",
+    "descriptionText": "While Endless Sands is active, the mana costs of your spells and abilities is reduced by -3% per stack.",
+    "iconPath": "interface/icons/spell_nature_mentalquickness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706131,
+    "spellIds": [
+      706131
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6190
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706131,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Endless Sands</span> is active, the mana costs of your spells and abilities is reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> per stack.",
+        "descriptionText": "While Endless Sands is active, the mana costs of your spells and abilities is reduced by -3% per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7826,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Converge the Infinite",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Fortify Timeline</span> now grants you <span style=\"color: #ffffff; display: inline\">Converge the Infinite</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_arcanetwist_border\" /><span class=\"name\">Converge the Infinite</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Correct the Mistake</span> has a <span class=\"item-number\">1</span> sec increased cast time, but heals for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> more and is guaranteed to critically strike.<br /><br />Successfully healing an ally in this way reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Fortify Timeline</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Casting Fortify Timeline now grants you Converge the Infinite.\n\n---\n\nConverge the InfiniteYour next Correct the Mistake has a 1 sec increased cast time, but heals for 30% more and is guaranteed to critically strike.\n\nSuccessfully healing an ally in this way reduces the cooldown of Fortify Timeline by 8%.",
+    "iconPath": "interface/icons/nhi_arcanetwist_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520045,
+    "spellIds": [
+      520045
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6652,
+      29670
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520045,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Fortify Timeline</span> now grants you <span style=\"color: #ffffff; display: inline\">Converge the Infinite</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_arcanetwist_border\" /><span class=\"name\">Converge the Infinite</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Correct the Mistake</span> has a <span class=\"item-number\">1</span> sec increased cast time, but heals for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> more and is guaranteed to critically strike.<br /><br />Successfully healing an ally in this way reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Fortify Timeline</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Casting Fortify Timeline now grants you Converge the Infinite.\n\n---\n\nConverge the InfiniteYour next Correct the Mistake has a 1 sec increased cast time, but heals for 30% more and is guaranteed to critically strike.\n\nSuccessfully healing an ally in this way reduces the cooldown of Fortify Timeline by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7912,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Continuum Restoration",
+    "description": "Restore the continuum at target location for all allies and enemies within <span class=\"item-number\">15</span> yds, removing all beneficial magic effects from enemies and harmful magic effects from allies.<br /><br />This dispel is potent enough to remove magic effects that are normally undispellable",
+    "descriptionText": "Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and harmful magic effects from allies.\n\nThis dispel is potent enough to remove magic effects that are normally undispellable",
+    "iconPath": "interface/icons/ability_evoker_timedilation",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801271,
+    "spellIds": [
+      801271
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6700
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801271,
+        "description": "Restore the continuum at target location for all allies and enemies within <span class=\"item-number\">15</span> yds, removing all beneficial magic effects from enemies and harmful magic effects from allies.<br /><br />This dispel is potent enough to remove magic effects that are normally undispellable",
+        "descriptionText": "Restore the continuum at target location for all allies and enemies within 15 yds, removing all beneficial magic effects from enemies and harmful magic effects from allies.\n\nThis dispel is potent enough to remove magic effects that are normally undispellable"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19978,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Fabric of Time",
+    "description": "Alter the fabric of time, healing an ally for <span class=\"item-number\">106</span> + <span class=\"item-number\">64% healing</span>.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Aeon</span> used within <span class=\"item-number\">8</span> seconds will trigger with no cooldown or cost.",
+    "descriptionText": "Alter the fabric of time, healing an ally for 106 + 64% healing.\n\nYour next Aeon used within 8 seconds will trigger with no cooldown or cost.",
+    "iconPath": "interface/icons/spell_monk_diffusemagic",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806299,
+    "spellIds": [
+      806299
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6187
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806299,
+        "description": "Alter the fabric of time, healing an ally for <span class=\"item-number\">106</span> + <span class=\"item-number\">64% healing</span>.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Aeon</span> used within <span class=\"item-number\">8</span> seconds will trigger with no cooldown or cost.",
+        "descriptionText": "Alter the fabric of time, healing an ally for 106 + 64% healing.\n\nYour next Aeon used within 8 seconds will trigger with no cooldown or cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19979,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Sands of Life",
+    "description": "Increases your healing power by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Spirit.",
+    "descriptionText": "Increases your healing power by 25% of your Spirit.",
+    "iconPath": "interface/icons/spell_quicksand",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560383,
+    "spellIds": [
+      560383,
+      560283
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31182
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560383,
+        "description": "Increases your healing power by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Spirit.",
+        "descriptionText": "Increases your healing power by 25% of your Spirit."
+      },
+      {
+        "rank": 2,
+        "spellId": 560283,
+        "description": "Increases your healing power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Spirit.",
+        "descriptionText": "Increases your healing power by 50% of your Spirit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19980,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Correct the Mistake",
+    "description": "Retell the fate of party members within <span class=\"item-number\">30</span> yds, healing them for <span class=\"item-number\">310</span> + <span class=\"item-number\">68.57% healing</span>.",
+    "descriptionText": "Retell the fate of party members within 30 yds, healing them for 310 + 68.57% healing.",
+    "iconPath": "interface/icons/5_heal_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572352,
+    "spellIds": [
+      572352
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19979
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572352,
+        "description": "Retell the fate of party members within <span class=\"item-number\">30</span> yds, healing them for <span class=\"item-number\">310</span> + <span class=\"item-number\">68.57% healing</span>.",
+        "descriptionText": "Retell the fate of party members within 30 yds, healing them for 310 + 68.57% healing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9986,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Timeblender",
+    "description": "Guarantees healing done by <span style=\"color: #ffffff; display: inline\">Fabric of Time</span> to critically strike and gives it an additional charge.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_monk_diffusemagic\" /><span class=\"name\">Fabric of Time (Timeblender)</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Alter the fabric of time, healing an ally for <span class=\"item-number\">711</span> + <span class=\"item-number\">64% healing</span>.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Aeon</span> used within <span class=\"item-number\">8</span> seconds will trigger with no cooldown.</span></div>",
+    "descriptionText": "Guarantees healing done by Fabric of Time to critically strike and gives it an additional charge.\n\n---\n\nFabric of Time (Timeblender)2 Charges, 15 sec recharge\nAlter the fabric of time, healing an ally for 711 + 64% healing.\n\nYour next Aeon used within 8 seconds will trigger with no cooldown.",
+    "iconPath": "interface/icons/achievement_guild_timeoff",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 555737,
+    "spellIds": [
+      555737
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7826,
+      29682
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 555737,
+        "description": "Guarantees healing done by <span style=\"color: #ffffff; display: inline\">Fabric of Time</span> to critically strike and gives it an additional charge.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_monk_diffusemagic\" /><span class=\"name\">Fabric of Time (Timeblender)</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Alter the fabric of time, healing an ally for <span class=\"item-number\">711</span> + <span class=\"item-number\">64% healing</span>.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Aeon</span> used within <span class=\"item-number\">8</span> seconds will trigger with no cooldown.</span></div>",
+        "descriptionText": "Guarantees healing done by Fabric of Time to critically strike and gives it an additional charge.\n\n---\n\nFabric of Time (Timeblender)2 Charges, 15 sec recharge\nAlter the fabric of time, healing an ally for 711 + 64% healing.\n\nYour next Aeon used within 8 seconds will trigger with no cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10728,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Nozdormu's Gaze",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Time Out!</span> now regenerates <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> less mana per tick, but casting it now instantly restores <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Your Time Out! now regenerates -2% less mana per tick, but casting it now instantly restores 15% of your maximum mana.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_bronze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807691,
+    "spellIds": [
+      807691
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30902
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807691,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807691,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Time Out!</span> now regenerates <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> less mana per tick, but casting it now instantly restores <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Your Time Out! now regenerates -2% less mana per tick, but casting it now instantly restores 15% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10922,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Overcorrection",
+    "description": "Overhealing done by <span style=\"color: #ffffff; display: inline\">Correct the Mistake</span> now applies applies a heal over time effect to the ally equal to <span class=\"item-number\">30%</span> of the healing done over <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Overhealing done by Correct the Mistake now applies applies a heal over time effect to the ally equal to 30% of the healing done over 5 seconds.",
+    "iconPath": "interface/icons/5_priestskill27_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707657,
+    "spellIds": [
+      707657
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30903
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707657,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707657,
+        "description": "Overhealing done by <span style=\"color: #ffffff; display: inline\">Correct the Mistake</span> now applies applies a heal over time effect to the ally equal to <span class=\"item-number\">30%</span> of the healing done over <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Overhealing done by Correct the Mistake now applies applies a heal over time effect to the ally equal to 30% of the healing done over 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9177,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Aeon of Protection",
+    "description": "Increases <span style=\"color: #ffffff; display: inline\">Epoch</span>'s cast time by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, healing done by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, and causes it to apply a damage absorption shield equal to <span class=\"item-number\">30%</span> of the amount healed for <span class=\"item-number\">8</span> seconds.<br /><br />",
+    "descriptionText": "Increases Epoch's cast time by 15%, healing done by 15%, and causes it to apply a damage absorption shield equal to 30% of the amount healed for 8 seconds.",
+    "iconPath": "interface/icons/inv_trinket_80_kultiras02d",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806292,
+    "spellIds": [
+      806292
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4032
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806292,
+        "description": "Increases <span style=\"color: #ffffff; display: inline\">Epoch</span>'s cast time by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, healing done by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, and causes it to apply a damage absorption shield equal to <span class=\"item-number\">30%</span> of the amount healed for <span class=\"item-number\">8</span> seconds.<br /><br />",
+        "descriptionText": "Increases Epoch's cast time by 15%, healing done by 15%, and causes it to apply a damage absorption shield equal to 30% of the amount healed for 8 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9181,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Aeon of Renewal",
+    "description": "Reduces <span style=\"color: #ffffff; display: inline\">Epoch</span>'s healing by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>, but causes it to heal for an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the amount healed over <span class=\"item-number\">3</span> seconds.<br /><br />",
+    "descriptionText": "Reduces Epoch's healing by -30%, but causes it to heal for an additional 50% of the amount healed over 3 seconds.",
+    "iconPath": "interface/icons/inv_trinket_80_kultiras02b",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806290,
+    "spellIds": [
+      806290
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9177
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806290,
+        "description": "Reduces <span style=\"color: #ffffff; display: inline\">Epoch</span>'s healing by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>, but causes it to heal for an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the amount healed over <span class=\"item-number\">3</span> seconds.<br /><br />",
+        "descriptionText": "Reduces Epoch's healing by -30%, but causes it to heal for an additional 50% of the amount healed over 3 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9182,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Eternity Warper",
+    "description": "$89",
+    "descriptionText": "$89",
+    "iconPath": "interface/icons/ability_bossmagistrix_timewarp2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806301,
+    "spellIds": [
+      806301
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6841
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806301,
+        "description": "$8a",
+        "descriptionText": "$8a"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30261,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Buy Time",
+    "description": "Put all enemies and allies in an <span class=\"item-number\">8</span> yd radius in target area into a stasis, banishing them for <span class=\"item-number\">6</span> seconds, making them invulnerable to all effects but unable to move.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Unmake</span> on a target will remove this effect.",
+    "descriptionText": "Put all enemies and allies in an 8 yd radius in target area into a stasis, banishing them for 6 seconds, making them invulnerable to all effects but unable to move.\n\nCasting Unmake on a target will remove this effect.",
+    "iconPath": "interface/icons/ability_racial_timeismoney",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520188,
+    "spellIds": [
+      520188
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6192,
+      7826
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520188,
+        "description": "Put all enemies and allies in an <span class=\"item-number\">8</span> yd radius in target area into a stasis, banishing them for <span class=\"item-number\">6</span> seconds, making them invulnerable to all effects but unable to move.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Unmake</span> on a target will remove this effect.",
+        "descriptionText": "Put all enemies and allies in an 8 yd radius in target area into a stasis, banishing them for 6 seconds, making them invulnerable to all effects but unable to move.\n\nCasting Unmake on a target will remove this effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30264,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Orderly Protector",
+    "description": "Healing done by your <span style=\"color: #FFFFFF; display: inline\">Epoch</span> now increases the healing of <span style=\"color: #ffffff; display: inline\">Fabric of Time</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Each stack gives you a <span class=\"item-number\">2</span><span class=\"item-number\">%</span> chance when you cast <span style=\"color: #ffffff; display: inline\">Fabric of Time</span> to reset its own cooldown.",
+    "descriptionText": "Healing done by your Epoch now increases the healing of Fabric of Time by 10% for 10 seconds, stacking 10 times.\n\nEach stack gives you a 2% chance when you cast Fabric of Time to reset its own cooldown.",
+    "iconPath": "interface/icons/icon_dragonflygold",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806162,
+    "spellIds": [
+      806162
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806162,
+        "description": "Healing done by your <span style=\"color: #FFFFFF; display: inline\">Epoch</span> now increases the healing of <span style=\"color: #ffffff; display: inline\">Fabric of Time</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Each stack gives you a <span class=\"item-number\">2</span><span class=\"item-number\">%</span> chance when you cast <span style=\"color: #ffffff; display: inline\">Fabric of Time</span> to reset its own cooldown.",
+        "descriptionText": "Healing done by your Epoch now increases the healing of Fabric of Time by 10% for 10 seconds, stacking 10 times.\n\nEach stack gives you a 2% chance when you cast Fabric of Time to reset its own cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30268,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Titan's Gaze",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Time Out!</span> no longer breaks on damage, but now only reduces damage taken by <span class=\"item-number\">15%</span>.",
+    "descriptionText": "Your Time Out! no longer breaks on damage, but now only reduces damage taken by 15%.",
+    "iconPath": "interface/icons/inv_archaeology_ogres_hargunn_eye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804462,
+    "spellIds": [
+      804462
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30902
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807691,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804462,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Time Out!</span> no longer breaks on damage, but now only reduces damage taken by <span class=\"item-number\">15%</span>.",
+        "descriptionText": "Your Time Out! no longer breaks on damage, but now only reduces damage taken by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29570,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Shimmering Shard",
+    "description": "Activating <span style=\"color: #ffffff; display: inline\">Aeon</span> spells now grants you <span class=\"item-number\">4</span><span class=\"item-number\">%</span> increased damage and healing for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Activating Aeon spells now grants you 4% increased damage and healing for 20 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/inv_misc_gem_x4_uncommon_perfectcut_yellow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806302,
+    "spellIds": [
+      806302
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29571,
+      30264
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806302,
+        "description": "Activating <span style=\"color: #ffffff; display: inline\">Aeon</span> spells now grants you <span class=\"item-number\">4</span><span class=\"item-number\">%</span> increased damage and healing for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Activating Aeon spells now grants you 4% increased damage and healing for 20 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29571,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Keep Accelerating",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span> now applies to an additional nearby target.",
+    "descriptionText": "Your Accelerated Recovery now applies to an additional nearby target.",
+    "iconPath": "interface/icons/paladin_icon_speedoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520042,
+    "spellIds": [
+      520042
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6196,
+      19978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520042,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Accelerated Recovery</span> now applies to an additional nearby target.",
+        "descriptionText": "Your Accelerated Recovery now applies to an additional nearby target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29670,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Wonders of Time",
+    "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />Additionally, all healing done now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Endless Sands</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_enchant_dustspirit\" /><span class=\"name\">Endless Sands</span></div><span class=\"desc\">Cast time of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wounds</span> within <span class=\"item-number\">15</span> seconds is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Increases the spell haste of all party and raid members by 3%.\n\nDoes not stack with similar effects.\n\nAdditionally, all healing done now has a 10% chance to grant you Endless Sands.\n\n---\n\nEndless SandsCast time of your next Reverse Wounds within 15 seconds is reduced by -20%, stacking up to 5 times.",
+    "iconPath": "interface/icons/ability_hunter_readiness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560541,
+    "spellIds": [
+      560541
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7912,
+      30780
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560541,
+        "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />Additionally, all healing done now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Endless Sands</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_enchant_dustspirit\" /><span class=\"name\">Endless Sands</span></div><span class=\"desc\">Cast time of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wounds</span> within <span class=\"item-number\">15</span> seconds is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Increases the spell haste of all party and raid members by 3%.\n\nDoes not stack with similar effects.\n\nAdditionally, all healing done now has a 10% chance to grant you Endless Sands.\n\n---\n\nEndless SandsCast time of your next Reverse Wounds within 15 seconds is reduced by -20%, stacking up to 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29681,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Cadence of Time",
+    "description": "Your critical strikes with <span style=\"color: #FFFFFF; display: inline\">Epoch</span> now grant <span style=\"color: #FFFFFF; display: inline\">Cadence of Time</span>, increasing the healing of <span style=\"color: #FFFFFF; display: inline\">Ripple</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Your critical strikes with Epoch now grant Cadence of Time, increasing the healing of Ripple by 10% for 15 seconds. Stacks 5 times.",
+    "iconPath": "interface/icons/ability_racial_timeismoney",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560397,
+    "spellIds": [
+      560397
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6183
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560397,
+        "description": "Your critical strikes with <span style=\"color: #FFFFFF; display: inline\">Epoch</span> now grant <span style=\"color: #FFFFFF; display: inline\">Cadence of Time</span>, increasing the healing of <span style=\"color: #FFFFFF; display: inline\">Ripple</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Your critical strikes with Epoch now grant Cadence of Time, increasing the healing of Ripple by 10% for 15 seconds. Stacks 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29682,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Shield of the Ages",
+    "description": "When hit by a damaging critical strike, your damage taken is reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>, and healing received is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "When hit by a damaging critical strike, your damage taken is reduced by -3%, and healing received is increased by 5% for 3 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holywatch_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804444,
+    "spellIds": [
+      804444
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10728,
+      10922,
+      29670,
+      30268,
+      30922
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804444,
+        "description": "When hit by a damaging critical strike, your damage taken is reduced by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>, and healing received is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "When hit by a damaging critical strike, your damage taken is reduced by -3%, and healing received is increased by 5% for 3 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31182,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Ripple",
+    "description": "Channel for up to <span class=\"item-number\">5</span> seconds. When the channel ends, if you channeled for at least <span class=\"item-number\">1.5</span> sec, allies within <span class=\"item-number\">40</span> yds are healed based on the duration of the channel.<br /><br />While channeling, you are immune to stun effects.",
+    "descriptionText": "Channel for up to 5 seconds. When the channel ends, if you channeled for at least 1.5 sec, allies within 40 yds are healed based on the duration of the channel.\n\nWhile channeling, you are immune to stun effects.",
+    "iconPath": "interface/icons/inv_staff_2h_nazmirraid_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806296,
+    "spellIds": [
+      806296
+    ],
+    "requiredNodeIds": [
+      4032,
+      30277
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806296,
+        "description": "Channel for up to <span class=\"item-number\">5</span> seconds. When the channel ends, if you channeled for at least <span class=\"item-number\">1.5</span> sec, allies within <span class=\"item-number\">40</span> yds are healed based on the duration of the channel.<br /><br />While channeling, you are immune to stun effects.",
+        "descriptionText": "Channel for up to 5 seconds. When the channel ends, if you channeled for at least 1.5 sec, allies within 40 yds are healed based on the duration of the channel.\n\nWhile channeling, you are immune to stun effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30780,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Mark of Order",
+    "description": "Healing done by <span style=\"color: #ffffff; display: inline\">Fortify Timeline</span> now applies <span style=\"color: #ffffff; display: inline\">Mark of Order</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_inscription_80_vantusrune_uldir\" /><span class=\"name\">Mark of Order</span></div><span class=\"desc\">Increases the healing of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wound</span> on the target by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds. <br /><br />Every <span class=\"item-number\">1</span> sec for the duration, they gain an additional stack of this effect, up to <span class=\"item-number\">5</span>.</span></div>",
+    "descriptionText": "Healing done by Fortify Timeline now applies Mark of Order.\n\n---\n\nMark of OrderIncreases the healing of your next Reverse Wound on the target by 10% for 20 seconds. \n\nEvery 1 sec for the duration, they gain an additional stack of this effect, up to 5.",
+    "iconPath": "interface/icons/inv_inscription_80_vantusrune_uldir",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704488,
+    "spellIds": [
+      704488
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6700,
+      30903
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704488,
+        "description": "Healing done by <span style=\"color: #ffffff; display: inline\">Fortify Timeline</span> now applies <span style=\"color: #ffffff; display: inline\">Mark of Order</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_inscription_80_vantusrune_uldir\" /><span class=\"name\">Mark of Order</span></div><span class=\"desc\">Increases the healing of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wound</span> on the target by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds. <br /><br />Every <span class=\"item-number\">1</span> sec for the duration, they gain an additional stack of this effect, up to <span class=\"item-number\">5</span>.</span></div>",
+        "descriptionText": "Healing done by Fortify Timeline now applies Mark of Order.\n\n---\n\nMark of OrderIncreases the healing of your next Reverse Wound on the target by 10% for 20 seconds. \n\nEvery 1 sec for the duration, they gain an additional stack of this effect, up to 5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30901,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Time Skip",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Roll Back</span> now removes <span class=\"item-number\">1</span> additional harmful effect.",
+    "descriptionText": "Your Roll Back now removes 1 additional harmful effect.",
+    "iconPath": "interface/icons/nhi_arcanespeed_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804451,
+    "spellIds": [
+      804451
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29681
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804451,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Roll Back</span> now removes <span class=\"item-number\">1</span> additional harmful effect.",
+        "descriptionText": "Your Roll Back now removes 1 additional harmful effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30902,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Displacement",
+    "description": "Displaces a party or raid member and pulls them to you, dispelling root and snare effects from them.",
+    "descriptionText": "Displaces a party or raid member and pulls them to you, dispelling root and snare effects from them.",
+    "iconPath": "interface/icons/5_teleport_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806727,
+    "spellIds": [
+      806727
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30901,
+      30903
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806727,
+        "description": "Displaces a party or raid member and pulls them to you, dispelling root and snare effects from them.",
+        "descriptionText": "Displaces a party or raid member and pulls them to you, dispelling root and snare effects from them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30903,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Ideal Time",
+    "description": "Every <span class=\"item-number\">30</span> sec, your next ability is guaranteed to critically strike.",
+    "descriptionText": "Every 30 sec, your next ability is guaranteed to critically strike.",
+    "iconPath": "interface/icons/nhi_corruptionknowledge_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807036,
+    "spellIds": [
+      807036
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6699,
+      29681
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807036,
+        "description": "Every <span class=\"item-number\">30</span> sec, your next ability is guaranteed to critically strike.",
+        "descriptionText": "Every 30 sec, your next ability is guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30905,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Chronicler",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Fortify Timeline</span> now extends the duration of <span style=\"color: #FFFFFF; display: inline\">Accelerated Recovery</span> on all targets within <span class=\"item-number\">40</span> yds by an additional <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Casting Fortify Timeline now extends the duration of Accelerated Recovery on all targets within 40 yds by an additional 10 sec.",
+    "iconPath": "interface/icons/ability_priest_bindingprayers",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706134,
+    "spellIds": [
+      706134
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29571
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706134,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Fortify Timeline</span> now extends the duration of <span style=\"color: #FFFFFF; display: inline\">Accelerated Recovery</span> on all targets within <span class=\"item-number\">40</span> yds by an additional <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Casting Fortify Timeline now extends the duration of Accelerated Recovery on all targets within 40 yds by an additional 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30922,
+    "classId": 22,
+    "className": "Chronomancer",
+    "tabId": 58,
+    "tabKey": "22:58",
+    "tabName": "Time",
+    "name": "Bronze Timeways",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Correct the Mistake</span> now grants <span class=\"item-number\">2</span> stacks of <span style=\"color: #ffffff; display: inline\">Endless Sands</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_enchant_dustspirit\" /><span class=\"name\">Endless Sands</span></div><span class=\"desc\">Cast time of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wounds</span> within <span class=\"item-number\">15</span> seconds is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Casting Correct the Mistake now grants 2 stacks of Endless Sands.\n\n---\n\nEndless SandsCast time of your next Reverse Wounds within 15 seconds is reduced by -20%, stacking up to 5 times.",
+    "iconPath": "interface/icons/inv_progenitorbeetlebronze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807309,
+    "spellIds": [
+      807309
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30903
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707657,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807309,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Correct the Mistake</span> now grants <span class=\"item-number\">2</span> stacks of <span style=\"color: #ffffff; display: inline\">Endless Sands</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_enchant_dustspirit\" /><span class=\"name\">Endless Sands</span></div><span class=\"desc\">Cast time of your next <span style=\"color: #FFFFFF; display: inline\">Reverse Wounds</span> within <span class=\"item-number\">15</span> seconds is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Casting Correct the Mistake now grants 2 stacks of Endless Sands.\n\n---\n\nEndless SandsCast time of your next Reverse Wounds within 15 seconds is reduced by -20%, stacking up to 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

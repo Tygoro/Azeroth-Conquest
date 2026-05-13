@@ -15,10 +15,10 @@
   "classTree": [
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Clockwork Ingenuity",
+      "description": "Increases the maximum health of your summons by 10%.",
+      "icon": "interface/icons/t_roboticon",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -27,14 +27,20 @@
       "anchorX": 175,
       "anchorY": 87,
       "localTreeX": 175,
-      "localTreeY": 87
+      "localTreeY": 87,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5116,
+      "manifestConnectedIds": [
+        5998,
+        6001
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Explosive Personality",
+      "description": "Increases your ranged attack power by 50% of your Intellect.",
+      "icon": "interface/icons/custom_engineerskill_35_border",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -43,13 +49,19 @@
       "anchorX": 131,
       "anchorY": 43,
       "localTreeX": 131,
-      "localTreeY": 43
+      "localTreeY": 43,
+      "rank": "Rank 1/2",
+      "manifestNodeId": 5998,
+      "manifestConnectedIds": [
+        29203,
+        31113
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Macro-Gravity Zone",
+      "description": "Create a macro-gravity zone at target location for 8 seconds.\n\nEnemies within the zone have their movement speed slowed by -60% and gain 1 stack of Macro-Gravity every 1 sec.\n\n---\n\nMacro-GravityAt 6 stacks, the affected enemy will be stunned for 6 seconds.",
+      "icon": "interface/icons/spell_deathknight_antimagiczone",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -59,14 +71,20 @@
       "anchorX": 87,
       "anchorY": 131,
       "localTreeX": 87,
-      "localTreeY": 131
+      "localTreeY": 131,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5999,
+      "manifestConnectedIds": [
+        5116,
+        6992
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Refined Gunpowder",
+      "description": "Increases your haste and your damage dealt against Mechanical creatures 3%.",
+      "icon": "interface/icons/inv_misc_ammo_gunpowder_02",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -75,14 +93,20 @@
       "anchorX": 219,
       "anchorY": 43,
       "localTreeX": 219,
-      "localTreeY": 43
+      "localTreeY": 43,
+      "rank": "Rank 1/2",
+      "manifestNodeId": 6001,
+      "manifestConnectedIds": [
+        29203,
+        29813
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Flexible Thinking",
+      "description": "Increases Agility and Intellect by 4%.",
+      "icon": "interface/icons/inv_engineering_leystone_buoy",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -91,14 +115,19 @@
       "anchorX": 175,
       "anchorY": 131,
       "localTreeX": 175,
-      "localTreeY": 131
+      "localTreeY": 131,
+      "rank": "Rank 1/2",
+      "manifestNodeId": 6551,
+      "manifestConnectedIds": [
+        5116
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate5",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate5",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Backup Fuel",
+      "description": "Falling below 35% health now refreshes all charges of Rocket Boots.\n\nCan occur only once every 3 min.",
+      "icon": "interface/icons/achievement_battleground_templeofkotmogu_02_orange",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -107,14 +136,19 @@
       "anchorX": 43,
       "anchorY": 87,
       "localTreeX": 43,
-      "localTreeY": 87
+      "localTreeY": 87,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 6992,
+      "manifestConnectedIds": [
+        31113
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate6",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate6",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Hasty Tech",
+      "description": "Reduces the cast time of Scrap Shot and Repair Shot by -15%.",
+      "icon": "interface/icons/inv_misc_food_lunchbox_fel",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -123,13 +157,18 @@
       "anchorX": 307,
       "anchorY": 87,
       "localTreeX": 307,
-      "localTreeY": 87
+      "localTreeY": 87,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 6996,
+      "manifestConnectedIds": [
+        29813
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Med Pack",
+      "description": "Mend an ally player, healing for 6 over 6 seconds.\n\nAdditionally, cleanses all bleed, poison and disease effects, and grants immunity to these effects for 3 seconds.",
+      "icon": "interface/icons/inv_first_aid_70_medicalkit",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -139,13 +178,19 @@
       "anchorX": 263,
       "anchorY": 131,
       "localTreeX": 263,
-      "localTreeY": 131
+      "localTreeY": 131,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 8355,
+      "manifestConnectedIds": [
+        5116,
+        6996
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate3",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate3",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Build: Destructo-Bot",
+      "description": "Build a Destructo-Bot that you can see through and directly control.\n\nThe bot is capable of exploding on an enemy, dealing massive Fire Damage to them and enemies nearby and disorienting them for 3 seconds.",
+      "icon": "interface/icons/little_bomb_bro",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -155,13 +200,16 @@
       "anchorX": 175,
       "anchorY": -1,
       "localTreeX": 175,
-      "localTreeY": -1
+      "localTreeY": -1,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 29203,
+      "manifestConnectedIds": []
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate4",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate4",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Nanobot Reconstruction",
+      "description": "Send Nanobots to an ally, healing them for 3 + 20% SP every 1 sec for 1 minute.\n\nNanobot Reconstruction can only be sent to 1 target at a time and cannot be dispelled.",
+      "icon": "interface/icons/ability_shaman_repulsiontotem",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -171,13 +219,16 @@
       "anchorX": 263,
       "anchorY": -1,
       "localTreeX": 263,
-      "localTreeY": -1
+      "localTreeY": -1,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 29813,
+      "manifestConnectedIds": []
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate5",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate5",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Rocket Boots",
+      "description": "3 Charges, 30 sec recharge\nActivate your Rocket Boots, launching you forward.",
+      "icon": "interface/icons/inv_gizmo_rocketbootextreme",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -187,14 +238,17 @@
       "anchorX": 87,
       "anchorY": -1,
       "localTreeX": 87,
-      "localTreeY": -1
+      "localTreeY": -1,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 31113,
+      "manifestConnectedIds": []
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate7",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate7",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Concussive Spanner",
+      "description": "Your Spanner Smash will now apply Concussion to the target.\n\n---\n\nConcussionYour target is unable to critically strike and their total primary attributes are reduced by -5% for 8 seconds.",
+      "icon": "interface/icons/ability_mage_brainfreeze",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -203,14 +257,19 @@
       "anchorX": -1,
       "anchorY": 219,
       "localTreeX": -1,
-      "localTreeY": 219
+      "localTreeY": 219,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 4871,
+      "manifestConnectedIds": [
+        5974
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate9",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate9",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Modulator",
+      "description": "Increases the effectiveness of your Modules by 20%.",
+      "icon": "interface/icons/custom_engineerskill_21_border",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -219,14 +278,20 @@
       "anchorX": 351,
       "anchorY": 219,
       "localTreeX": 351,
-      "localTreeY": 219
+      "localTreeY": 219,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5103,
+      "manifestConnectedIds": [
+        5995,
+        9995
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate10",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate10",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Mechanosoldier",
+      "description": "Increases the damage reduced by Kinetic Shield by -5% and its duration by 2 sec.",
+      "icon": "interface/icons/inv_misc_enggizmos_01",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -235,14 +300,19 @@
       "anchorX": 175,
       "anchorY": 307,
       "localTreeX": 175,
-      "localTreeY": 307
+      "localTreeY": 307,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5195,
+      "manifestConnectedIds": [
+        30869
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate12",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate12",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Frozen Bomb Launcher",
+      "description": "Damage dealt by your Sentry Turrets will now slow enemy movement speed by -15% for 10 seconds, stacking 3 times.",
+      "icon": "interface/icons/inv_eng_bombicestun",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -251,14 +321,19 @@
       "anchorX": 43,
       "anchorY": 175,
       "localTreeX": 43,
-      "localTreeY": 175
+      "localTreeY": 175,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5974,
+      "manifestConnectedIds": [
+        5999
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate14",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate14",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "I'm The Creator Now",
+      "description": "Damage dealt by your summons now has a 40% chance to increase your attack power and spell power by 20 for 30 seconds, stacking 3 times.",
+      "icon": "interface/icons/nhi_tech_roboticcalm_border",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -267,14 +342,21 @@
       "anchorX": 131,
       "anchorY": 263,
       "localTreeX": 131,
-      "localTreeY": 263
+      "localTreeY": 263,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 6829,
+      "manifestConnectedIds": [
+        5331,
+        29201,
+        30869
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Mechanical Enhancements",
+      "description": "Reduces your damage taken from bleed effects by -10% and the duration of bleed effects on you by -20%.",
+      "icon": "interface/icons/inv_plate_mechagnome_c_01chest",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -283,14 +365,21 @@
       "anchorX": 263,
       "anchorY": 307,
       "localTreeX": 263,
-      "localTreeY": 307
+      "localTreeY": 307,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 6890,
+      "manifestConnectedIds": [
+        4987,
+        30583,
+        34987
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Maniacal",
+      "description": "Reduces the cooldown of Sticky Bomb and Deploy Blast Mine by -2 sec.",
+      "icon": "interface/icons/inv_offhand_1h_artifactdoomhammer_d_04",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -299,14 +388,20 @@
       "anchorX": 131,
       "anchorY": 175,
       "localTreeX": 131,
-      "localTreeY": 175
+      "localTreeY": 175,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 6998,
+      "manifestConnectedIds": [
+        5999,
+        6551
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate17",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate17",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Mechaplating",
+      "description": "Whenever your summons critically strike, reduce your and your pet's damage taken by -2% for 15 seconds, stacking 4 times.",
+      "icon": "interface/icons/inv_misc_wartornscrap_plate",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -315,14 +410,21 @@
       "anchorX": 263,
       "anchorY": 219,
       "localTreeX": 263,
-      "localTreeY": 219
+      "localTreeY": 219,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 7034,
+      "manifestConnectedIds": [
+        5995,
+        9995,
+        31235
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Ventilation",
+      "description": "Direct magic damage taken now has a 50% chance to increase all magic resistances of allies within 8 yds of you by 15 for 6 seconds.",
+      "icon": "interface/icons/nhi_tech_steamdetector_border",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -331,13 +433,19 @@
       "anchorX": 87,
       "anchorY": 307,
       "localTreeX": 87,
-      "localTreeY": 307
+      "localTreeY": 307,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 8354,
+      "manifestConnectedIds": [
+        6829,
+        9987
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Build: Repulsion Unit",
+      "description": "Build a Repulsion Unit that periodically knocks back enemies within 6 yds every 5 sec for 20 seconds.",
+      "icon": "interface/icons/repulsionunit",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -347,13 +455,20 @@
       "anchorX": 43,
       "anchorY": 263,
       "localTreeX": 43,
-      "localTreeY": 263
+      "localTreeY": 263,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 9987,
+      "manifestConnectedIds": [
+        4871,
+        5331,
+        29201
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Build: Alarm Beacon",
+      "description": "3 Charges, 15 sec recharge\nThrow down an alarm beacon for 10 seconds, removing fear, charm and sleep effects from up to 1 ally within 20 yds every 1 sec.",
+      "icon": "interface/icons/inv_lightforgedmechsuit",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -363,13 +478,19 @@
       "anchorX": 307,
       "anchorY": 263,
       "localTreeX": 307,
-      "localTreeY": 263
+      "localTreeY": 263,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 30583,
+      "manifestConnectedIds": [
+        5103,
+        7034
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Kinetic Shield",
+      "description": "Create magnetic shields of kinetic energy on an ally target for 10 seconds, reducing damage taken by -35% and making them immune to stun effects.\n\nUsable while stunned.",
+      "icon": "interface/icons/garrison_bluearmorupgrade",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -379,14 +500,20 @@
       "anchorX": 175,
       "anchorY": 219,
       "localTreeX": 175,
-      "localTreeY": 219
+      "localTreeY": 219,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 30869,
+      "manifestConnectedIds": [
+        6998,
+        31235
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Efficiency",
+      "description": "Reduces the mana cost of all spells and abilities by -10%.",
+      "icon": "interface/icons/inv_bountyhunting",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -395,14 +522,20 @@
       "anchorX": 219,
       "anchorY": 175,
       "localTreeX": 219,
-      "localTreeY": 175
+      "localTreeY": 175,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 31235,
+      "manifestConnectedIds": [
+        6551,
+        8355
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate23",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate23",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Goblin Depravity",
+      "description": "Air Strike now drops Tear Gas on targets struck in a 8 yd radius dealing 147 + 11% nature SP + 100% AP Nature Damage every 2 sec for 12 seconds.",
+      "icon": "interface/icons/ability_mount_gyrocoptorelite",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -411,13 +544,18 @@
       "anchorX": 175,
       "anchorY": 395,
       "localTreeX": 175,
-      "localTreeY": 395
+      "localTreeY": 395,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5996,
+      "manifestConnectedIds": [
+        29440
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate9",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate9",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Auto Resuscitation Device",
+      "description": "Attach a resuscitation device to your target ally for 20 seconds.\n\nWhen the target would otherwise die, they are instead healed for 50% of their maximum health.",
+      "icon": "interface/icons/inv_misc_enggizmos_15",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -427,14 +565,20 @@
       "anchorX": 263,
       "anchorY": 395,
       "localTreeX": 263,
-      "localTreeY": 395
+      "localTreeY": 395,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 5997,
+      "manifestConnectedIds": [
+        29440,
+        29777
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Bunker Operative",
+      "description": "Reduces the cooldown of Kinetic Shield, Sonic Disruptor, and Macro-Gravity Zone by -30 sec.",
+      "icon": "interface/icons/inv_engineering_sonicenvironmentenhancer",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -443,13 +587,19 @@
       "anchorX": 43,
       "anchorY": 351,
       "localTreeX": 43,
-      "localTreeY": 351
+      "localTreeY": 351,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 29209,
+      "manifestConnectedIds": [
+        8354,
+        9987
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Air Strike",
+      "description": "Mark the target location for an Air Strike. After 7 seconds, it deals 1370 Fire Damage to up to 12 enemies caught within the blast.\n\nThis ability always critically strikes.",
+      "icon": "interface/icons/ability_mount_gyrocoptor",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -459,14 +609,21 @@
       "anchorX": 175,
       "anchorY": 351,
       "localTreeX": 175,
-      "localTreeY": 351
+      "localTreeY": 351,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 29440,
+      "manifestConnectedIds": [
+        5195,
+        6890,
+        8354
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
-      "nodeType": "passive",
+      "name": "Scrapshielding",
+      "description": "Your critical strikes now grant you a shield that absorbs 227 + 15% AP + 60% SP damage.",
+      "icon": "interface/icons/uico_mecha_spell_02_border",
+      "nodeType": "active",
       "nodeShape": "circle",
       "treeType": "class",
       "visible": 1,
@@ -475,13 +632,19 @@
       "anchorX": 307,
       "anchorY": 351,
       "localTreeX": 307,
-      "localTreeY": 351
+      "localTreeY": 351,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 29777,
+      "manifestConnectedIds": [
+        6890,
+        30583
+      ]
     },
     {
       "id": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate11",
-      "name": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate11",
-      "description": "",
-      "icon": "interface\\talentframe\\talents",
+      "name": "Deathball",
+      "description": "Launch 3 Deathballs in a 40 yd line, increasing in speed the further they travel.\n\nThey explode when they come into contact with an enemy, dealing 771 + 35% ranged AP Fire Damage to enemies within 8 yds, increased based on distance traveled.\n\nBot and Build abilities reduce the cooldown of this ability by -2 sec.",
+      "icon": "interface/icons/ability_garrosh_siege_engine",
       "nodeType": "active",
       "nodeShape": "square",
       "treeType": "class",
@@ -491,7 +654,13 @@
       "anchorX": 87,
       "anchorY": 395,
       "localTreeX": 87,
-      "localTreeY": 395
+      "localTreeY": 395,
+      "rank": "Rank 1/1",
+      "manifestNodeId": 30839,
+      "manifestConnectedIds": [
+        29209,
+        29440
+      ]
     }
   ],
   "specTree": [
@@ -499,7 +668,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate1",
       "name": "Stim Augmentation",
       "description": "|cFF66DDFFLevel 10 Passive|r\r\nTeaches you |cffffffffStim Augmentation|r.\n|TInterface\\Common\\ui-tooltipdivider:12:180:0:0|t\n|TInterface\\Icons\\inv_engineering_90_wormholegenerator:20:20:0:0|t |cffFFFFFFStim Augmentation|r\nAdd a |cffffffffStim Augmentation|r to your gun for 1 hour, causing your direct healing abilities to heal up to 3 nearby allies for an additional 20% of the amount healed.\n|cfff73600ID|r |cfffc8a0092140|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a004050|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_engineering_reavesmodule",
       "rank": "Rank 1/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -512,13 +681,15 @@
       "localTreeX": 439,
       "localTreeY": -1,
       "x": 454.0000928698712,
-      "y": 13.99999931612763
+      "y": 13.99999931612763,
+      "autoGranted": true,
+      "unlockAt": 10
     },
     {
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate1",
       "name": "Module Belt",
       "description": "Increases your Intellect by 10% and you are now unable to miss your attacks.\n|cfff73600ID|r |cfffc8a00560742|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005972|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_belt_83",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -537,7 +708,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate2",
       "name": "Over-Repaired",
       "description": "Increases the healing done by |cffffffffRepair Shot|r by 15%.\n|cfff73600ID|r |cfffc8a00807498|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005978|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/ability_repair",
       "rank": "Rank 0/2",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -556,7 +727,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate3",
       "name": "Technician",
       "description": "Reduces spell pushback suffered from damaging attacks by 35% and increases your critical healing by 10%.\n|cfff73600ID|r |cfffc8a00560735|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005979|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_misc_enggizmos_30",
       "rank": "Rank 0/2",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -575,7 +746,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate4",
       "name": "Master Builder",
       "description": "Reduces the mana cost of all |cffffffffBuild|r abilities by 25%.\n|cfff73600ID|r |cfffc8a00807966|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006966|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_frost_frostward",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -594,7 +765,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate5",
       "name": "Macro Designer",
       "description": "Increases the duration of your |cffffffffBeacons|r by 5 sec.\n|cfff73600ID|r |cfffc8a00505230|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006973|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/5_atom_border",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -613,7 +784,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate6",
       "name": "Field Medic",
       "description": "Increases your critical strike chance by 5%.\n|cfff73600ID|r |cfffc8a00560789|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a007921|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_mechagonspidertank_junker",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -632,7 +803,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate2",
       "name": "Build: ZIGGI-6K",
       "description": "30 Mana\n5 sec cast\nBuild |cffffffffZIGGI-6K|r, the latest in regenerative technology, to aid you in healing allies until dismissed.\n|cfff73600ID|r |cfffc8a00524840|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a007922|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_plate_mechagnome_c_01shoulder",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -651,7 +822,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate3",
       "name": "Build: Restorative Beacon",
       "description": "30 Mana\nInstant cast\n|cffffffff3 Charges, 15 sec recharge|r\r\nThrow down a restorative beacon for 15 sec which projects a field in a 10 yd radius, healing up to 6 allies in the area for 18 every 3 sec.\n\n|cff00DDFFHold SHIFT for more information|r\n|cfff73600ID|r |cfffc8a00801801|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0029816|r\n \nClick to learn",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_mekkatorque_bot_greenspring",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -670,7 +841,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate7",
       "name": "Eureka!",
       "description": "Direct healing critical strikes now reduce the cost of your next |cFFFFFFFFRepair Shot|r by 20% for 10 sec.\n|cfff73600ID|r |cfffc8a00503552|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0030572|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/achievement_character_gnome_male",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -689,7 +860,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate8",
       "name": "Healing Radiator",
       "description": "Periodic healing done by |cffffffffNanobot Reconstruction|r now restores 3 health to 5 allied players around the affected target.\n|cfff73600ID|r |cfffc8a00705846|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005676|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/ability_monk_chiexplosion",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -708,7 +879,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate9",
       "name": "Growth Module",
       "description": "Critical strikes with |cffffffffZap!|r now apply |cFFFFFFFFRejuvenating Gas|r to up to 12 allies within 8 yards of your target that restores 15% of the value of the shot as health every 2 sec for 10 sec.\n|cfff73600ID|r |cfffc8a00805306|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005965|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_misc_enggizmos_21",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -727,7 +898,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate10",
       "name": "Stim Pack",
       "description": "Effective healing with |CffffffffStim Augmentation|r now reduces the cooldown of |cffffffffMed Pack|r by 3 sec.\n|cfff73600ID|r |cfffc8a00807531|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005980|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_jewelry_mech_ring_green",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -746,7 +917,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate11",
       "name": "Mana Capacitors",
       "description": "Reduces the cost of |cFFFFFFFFOvercharge|r by 15% and reduces its cooldown by 10%.\n|cfff73600ID|r |cfffc8a00506818|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005989|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/ability_siege_engineer_pattern_recognition",
       "rank": "Rank 0/2",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -765,7 +936,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate12",
       "name": "Rapid Fire Healing",
       "description": "Casting |cffffffffRepair Shot|r or |cffffffffEmergency Heal|r now has a 15% chance to refresh a charge of |cffffffffBeacons|r.\n|cfff73600ID|r |cfffc8a00705803|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006333|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/_ingenieurbelt",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -784,7 +955,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate4",
       "name": "Nanobot Cleanser",
       "description": "61 Mana\nInstant cast\nSend |cffffffffNanobots|r to an ally removing 1 poison and disease effect every 3 sec for up to 15 sec.\n\n|cffffffffNanobot Cleanser|r can only be sent to 1 target at a time and can't be dispelled.\n|cfff73600ID|r |cfffc8a00502537|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006971|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_holy_dizzy",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -803,7 +974,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate14",
       "name": "Improved Emergency Heal",
       "description": "Increases the healing and reduces the mana cost of |cffffffffEmergency Heal|r by 20%.\n|cfff73600ID|r |cfffc8a00504918|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006972|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_holy_sealofsacrifice",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -822,7 +993,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate15",
       "name": "Fine Tuning",
       "description": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.\r\n\r\nIn addition, not critically healing now increases your critical strike chance by 1%, stacking 10 times, until your next effective critical heal.\n|cfff73600ID|r |cfffc8a00300877|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006974|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/uico_mecha_spell_09_border",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -841,7 +1012,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate5",
       "name": "Nanobot Swarm",
       "description": "41 Mana\nInstant cast\nSend |cffffffffNanobots|r to an ally, dealing 16 damage to enemies within 5 yds of them every 4 sec for 1 min. All threat generated by you is redirected to the target.\r\n\r\n|cffffffffNanobot Swarm|r can only be sent to 1 target at time and cannot be dispelled.\n|cfff73600ID|r |cfffc8a00801709|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006975|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_eng_miniaturizedplasmashield",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -860,7 +1031,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate16",
       "name": "Resourceful Tech",
       "description": "Your |cffffffffZap!|r is now guaranteed to critically strike allies affected by |cffffffffNanobots|r.\n|cfff73600ID|r |cfffc8a00560791|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a007918|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_gizmo_felironbomb",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -879,7 +1050,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate18",
       "name": "Emergency Circumvented",
       "description": "Increases the critical strike chance of |cffffffffEmergency Heal|r by 10%.\n|cfff73600ID|r |cfffc8a00805303|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0029812|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_nature_protectionformnature",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -898,7 +1069,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate6",
       "name": "Build: Noise Box",
       "description": "61 Mana\n1.5 sec cast\nBuild a |cFFFFFFFFNoise Box|r for 15 sec that periodically unleashes screeching noise on enemies within 8 yds interrupting spellcasts and preventing spells of that school from being cast for 3 sec. \n|cfff73600ID|r |cfffc8a00807723|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0030573|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/5_engineerskill23_border",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -917,7 +1088,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate7",
       "name": "Zap!",
       "description": "51 Mana\nInstant cast\nFires a long range zap of electricity that heals an ally for 177.\r\n\r\nScales with modifiers to |cffffffffRepair Shot|r.\n|cfff73600ID|r |cfffc8a00680196|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0030574|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/nhi_lightning_empower_border",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -936,7 +1107,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate8",
       "name": "Build: Battery Recharge Station",
       "description": "61 Mana\n1.5 sec cast\nBuild a |cFFFFFFFFBattery Recharge Station|r for 30 sec that allies can interact with once to replenish 15% maximum health and mana, and 50% maximum Rage, Energy, Focus, and Runic Power.\r\n\r\nApplies |cffffffffDepleting Battery|r to party and raid members within 40 yds.\n|TInterface\\Common\\ui-tooltipdivider:12:180:0:0|t\n|TInterface\\Icons\\inv_battery_02:20:20:0:0|t |cffFFFFFFDepleting Battery|r\nMovement speed increased by 10% for 30 sec. Run to the |cffffffffBattery Recharge Station|R and charge your battery!\n|TInterface\\Common\\ui-tooltipdivider:12:180:0:0|t\n|TInterface\\Icons\\_Create_ManaGem:20:20:0:0|t |cffFFFFFFCharged Battery|r\nMovement speed increased by 30% for 12 sec.\n|cfff73600ID|r |cfffc8a00805308|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0030575|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_engineering_815_uberspanner",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -955,7 +1126,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate21",
       "name": "Cybernetic Revivification",
       "description": "Allies within 100 yds receive 6% more healing. Does not stack with similar effects.\r\n\r\nIn addition, your |cffffffffTremor Beacon|r now dispels fear, charm, and sleep effects from 1 additional allies.\n|cfff73600ID|r |cfffc8a00705811|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a0030577|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/ability_racial_skeletonpinkie",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -974,7 +1145,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate9",
       "name": "Combat Symbiosis",
       "description": "149 Mana\n1 sec cast\nElectrify an allies' body, increasing their haste by 20% and causing damage dealt by them to heal allies within 8 yds of them for 15% of the value. Lasts for 15 sec, or 20 attacks.\n|cfff73600ID|r |cfffc8a00805305|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a005982|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/nhi_lightning_soul_border",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -993,7 +1164,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate22",
       "name": "Self-Sustaining Technology",
       "description": "Damage or healing done by your pet or summons now heals you equal to 15% of the value. \r\n\r\nIn addition, damage or healing done by you now restores health and mana to your pet equal to 15% of the value. \r\n\r\nEach of these effects can only occur once per sec.\n|cfff73600ID|r |cfffc8a00705817|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006969|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_engineering_gunpack",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1012,7 +1183,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate23",
       "name": "Emergency Enhancer",
       "description": "|cffffffffZap!|r now causes your active |cffffffffBuild|r abilities to zap the lowest health nearby ally within 30 yds of them, healing them for 483.\n|cfff73600ID|r |cfffc8a00560787|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006976|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_nature_purge",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1031,7 +1202,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate24",
       "name": "Epiphany!",
       "description": "Casting |cffffffffBeacon|r abilities now reduces the cooldown of |cffffffffMy Greatest Invention!|r by 20 sec.\n|cfff73600ID|r |cfffc8a00560782|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006977|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/nhi_tech_robot_border",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1050,7 +1221,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate10",
       "name": "My Greatest Invention!",
       "description": "120 Mana\nInstant cast\nShow off your |cffffffffGreatest Invention|r, healing party and raid members in a 30 yd radius for 469 every 1.50 sec for 9 sec.\n|cfff73600ID|r |cfffc8a00560744|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a006979|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/achievement_alliedrace_mechagnome",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -1069,7 +1240,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate25",
       "name": "Trust the Science!",
       "description": "Reduces the cooldown of |cffffffffZap!|r by 5 sec and increases its healing done by 20%.\n|cfff73600ID|r |cfffc8a00300653|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a007402|r\n \nSpend more points to unlock this talent",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/spell_nature_lightningbolt",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1088,7 +1259,7 @@
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate26",
       "name": "Scientific Nature",
       "description": "|cFF66DDFFLevel 20 Passive|r\r\nIncreases your healing power by 20% of Intellect and your critical strike rating by 15% of Intellect.\n \nLevel: |cffff1a1a20|r\n|cfff73600ID|r |cfffc8a00705802|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a002609|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/nhi_chaoshealing_border",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1101,13 +1272,15 @@
       "localTreeX": 439,
       "localTreeY": 87,
       "x": 454.0000928698712,
-      "y": 101.9999550011964
+      "y": 101.9999550011964,
+      "autoGranted": true,
+      "unlockAt": 20
     },
     {
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate11",
       "name": "Beacon Charging",
       "description": "|cFF66DDFFLevel 30 Passive|r\r\nTeaches |cffffffffOvercharge|r and |cffffffffBeacons|r now have |cffffffffOvercharge|r effects which can be activated by healing them with |cffffffffRepair Shot|r or using |cffffffffOvercharge|r.\r\n\r\nActive |cffffffffBeacons|r can only be |cffffffffOvercharged|r once.\n|TInterface\\Common\\ui-tooltipdivider:12:180:0:0|t\n|TInterface\\icons\\uico_mecha_spell_02_Border:20:20:0:0|t |cffFFFFFFOvercharge|r\nOvercharge all active |cffffffffBeacons|r within 40 yds.\n \nLevel: |cffff1a1a30|r\n|cfff73600ID|r |cfffc8a00524834|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a002429|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_plate_mechagnome_c_01helm",
       "rank": "Rank 0/1",
       "nodeType": "active",
       "nodeShape": "square",
@@ -1120,13 +1293,15 @@
       "localTreeX": 439,
       "localTreeY": 175,
       "x": 454.0000928698712,
-      "y": 189.9999982219317
+      "y": 189.9999982219317,
+      "autoGranted": true,
+      "unlockAt": 30
     },
     {
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate27",
       "name": "Graftbolts",
       "description": "|cFF66DDFFLevel 40 Passive|r\r\nEffective healing done now has a 25% chance to grant you |cffffffffGraftbolts|r.\n|TInterface\\Common\\ui-tooltipdivider:12:180:0:0|t\n|TInterface\\Icons\\inv_engineering_90_toolbox_green:20:20:0:0|t |cffFFFFFFGraftbolts|r\nRestores 15% maximum mana to your pet and increases the damage and healing done by your summons by a percentage equal to 5% of your healing spell power for 6 sec.\n \nLevel: |cffff1a1a40|r\n|cfff73600ID|r |cfffc8a00560785|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a009429|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_engineering_90_toolbox_green",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1139,13 +1314,15 @@
       "localTreeX": 439,
       "localTreeY": 263,
       "x": 454.0000928698712,
-      "y": 278.0000064284005
+      "y": 278.0000064284005,
+      "autoGranted": true,
+      "unlockAt": 40
     },
     {
       "id": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate28",
       "name": "Improved Graftbolts",
       "description": "|cFF66DDFFLevel 50 Passive|r\r\nYour |cffffffffGraftbolts|r now stacks 2 additional times.\n \nLevel: |cffff1a1a50|r\n|cfff73600ID|r |cfffc8a00807748|r\n|cfff73600CharacterAdvancement ID|r |cfffc8a009428|r",
-      "icon": "interface\\talentframe\\talents",
+      "icon": "interface/icons/inv_gizmo_03",
       "rank": "Rank 0/1",
       "nodeType": "passive",
       "nodeShape": "circle",
@@ -1158,7 +1335,9 @@
       "localTreeX": 439,
       "localTreeY": 351,
       "x": 454.0000928698712,
-      "y": 366.0000321420026
+      "y": 366.0000321420026,
+      "autoGranted": true,
+      "unlockAt": 50
     }
   ],
   "connections": [
@@ -1593,6 +1772,342 @@
       "sourceNodeFrame": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonSquareTemplate6",
       "targetNodeFrame": "CoATalentFrameTreeViewSpecTreePoolFrameCoATalentButtonCircleTemplate15",
       "treeType": "spec"
+    },
+    {
+      "id": "synthetic_cls_0",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_1",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_2",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate3",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate3",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_3",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate5",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate5",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate2",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_4",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_5",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate5",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate5",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_6",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate3",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate3",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_7",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate4",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate4",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate3",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_8",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_9",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate5",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate5",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate5",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate5",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_10",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate4",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate6",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate4",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate6",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_11",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate1",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_12",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate6",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate6",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_13",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate12",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate7",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate12",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate7",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_14",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate10",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate10",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_15",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate12",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate12",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_16",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate14",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate14",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_17",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_18",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate1",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_19",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_20",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate17",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate17",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_21",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate14",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate14",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_22",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_23",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate7",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate7",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_24",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate9",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate9",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_25",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate17",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate17",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_26",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate16",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_27",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate8",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_28",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate4",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_29",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate2",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate21",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_30",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate23",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate23",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_31",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate9",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate9",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_32",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate9",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate9",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_33",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_34",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate6",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_35",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate10",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate10",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_36",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_37",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate18",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_38",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate15",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_39",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate7",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate25",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_40",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate11",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonCircleTemplate24",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate11",
+      "treeType": "class"
+    },
+    {
+      "id": "synthetic_cls_41",
+      "sourceNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "targetNodeId": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate11",
+      "sourceNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate10",
+      "targetNodeFrame": "CoATalentFrameTreeViewClassTreePoolFrameCoATalentButtonSquareTemplate11",
+      "treeType": "class"
     }
   ],
   "hiddenNodes": [

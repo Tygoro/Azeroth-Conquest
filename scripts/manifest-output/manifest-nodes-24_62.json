@@ -1,0 +1,1720 @@
+[
+  {
+    "nodeId": 33877,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Fired Up!",
+    "description": "Your <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders are now instant and have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to refund their cost and increases your chance to critically strike by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Your Ember spenders are now instant and have a 30% chance to refund their cost and increases your chance to critically strike by 20% for 15 seconds.",
+    "iconPath": "interface/icons/achievement_dungeon_ignitionmagevalyri",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704823,
+    "spellIds": [
+      704823
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5187
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704823,
+        "description": "Your <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders are now instant and have a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to refund their cost and increases your chance to critically strike by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Your Ember spenders are now instant and have a 30% chance to refund their cost and increases your chance to critically strike by 20% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33878,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Flamespiller",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Explode</span> or <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> now extend the duration of <span style=\"color: #FFFFFF; display: inline\">Fired Up</span> by <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Critical strikes with Explode or Flames of Neltharion now extend the duration of Fired Up by 0.5 sec.",
+    "iconPath": "interface/icons/inv_misc_volatilefire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805468,
+    "spellIds": [
+      805468
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33877
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805468,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Explode</span> or <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> now extend the duration of <span style=\"color: #FFFFFF; display: inline\">Fired Up</span> by <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Critical strikes with Explode or Flames of Neltharion now extend the duration of Fired Up by 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33879,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Heat Wave",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Flamecasting</span> stacks now also increase the damage of <span style=\"color: #FFFFFF; display: inline\">Explode</span> and <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> per stack.",
+    "descriptionText": "Flamecasting stacks now also increase the damage of Explode and Flames of Neltharion by 4% per stack.",
+    "iconPath": "interface/icons/nhi_fireball_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503804,
+    "spellIds": [
+      503804
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6807,
+      7176,
+      30601
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503804,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Flamecasting</span> stacks now also increase the damage of <span style=\"color: #FFFFFF; display: inline\">Explode</span> and <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> per stack.",
+        "descriptionText": "Flamecasting stacks now also increase the damage of Explode and Flames of Neltharion by 4% per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33883,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "To Ashes",
+    "description": "Damaging critical strikes now generate <span class=\"item-number\">10</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span> and restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base mana.",
+    "descriptionText": "Damaging critical strikes now generate 10 Heat and restore 3% of your base mana.",
+    "iconPath": "interface/icons/nhi_moltensmash_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300975,
+    "spellIds": [
+      300975
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6499,
+      33878
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300975,
+        "description": "Damaging critical strikes now generate <span class=\"item-number\">10</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span> and restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base mana.",
+        "descriptionText": "Damaging critical strikes now generate 10 Heat and restore 3% of your base mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29854,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Combustion",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Explode</span> is now increased by <span class=\"item-number\">15%</span> for each of your Pyromancer periodic effects on the target.",
+    "descriptionText": "Damage dealt by Explode is now increased by 15% for each of your Pyromancer periodic effects on the target.",
+    "iconPath": "interface/icons/spell_fire_burnout",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520884,
+    "spellIds": [
+      520884
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6985
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520884,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Explode</span> is now increased by <span class=\"item-number\">15%</span> for each of your Pyromancer periodic effects on the target.",
+        "descriptionText": "Damage dealt by Explode is now increased by 15% for each of your Pyromancer periodic effects on the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29548,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Molten Storm",
+    "description": "Increases the critical strike chance and damage of <span style=\"color: #ffffff; display: inline\">Lava Shard</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance and damage of Lava Shard by 10%.",
+    "iconPath": "interface/icons/inv_offhand_1h_artifactdoomhammer_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805483,
+    "spellIds": [
+      805483
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6499,
+      30959
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805483,
+        "description": "Increases the critical strike chance and damage of <span style=\"color: #ffffff; display: inline\">Lava Shard</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance and damage of Lava Shard by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29552,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Searing Power",
+    "description": "Increases the spell power scaling of <span style=\"color: #FFFFFF; display: inline\">Flare Bolt</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Flare Bolt by 20%.",
+    "iconPath": "interface/icons/uico_fire_spell_09_nobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680959,
+    "spellIds": [
+      680959
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7804
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680959,
+        "description": "Increases the spell power scaling of <span style=\"color: #FFFFFF; display: inline\">Flare Bolt</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Flare Bolt by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29561,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Sulfuron Harbinger",
+    "description": "$8d",
+    "descriptionText": "$8d",
+    "iconPath": "interface/icons/achievement_mc_lucifron",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807146,
+    "spellIds": [
+      807146
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7174,
+      30643,
+      33879
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807146,
+        "description": "$8e",
+        "descriptionText": "$8e"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30304,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Embrace the Fire",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blaze</span> and <span style=\"color: #ffffff; display: inline\">Ignite</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Blaze and Ignite by 20%.",
+    "iconPath": "interface/icons/5_dragonfirebreath_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503636,
+    "spellIds": [
+      503636
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5187,
+      6986,
+      11986
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503636,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blaze</span> and <span style=\"color: #ffffff; display: inline\">Ignite</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Blaze and Ignite by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30403,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Legacy of Ragnaros",
+    "description": "<span style=\"color: #ffffff; display: inline\">Pyroclasm</span> now causes your next <span class=\"item-number\">3</span> <span style=\"color: #FFFFFF; display: inline\">Lava Shards</span> within <span class=\"item-number\">12</span> seconds to trigger no cooldown and be free of cost.",
+    "descriptionText": "Pyroclasm now causes your next 3 Lava Shards within 12 seconds to trigger no cooldown and be free of cost.",
+    "iconPath": "interface/icons/spell_fire_ragnaros_splittingblow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704824,
+    "spellIds": [
+      704824
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7174
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704824,
+        "description": "<span style=\"color: #ffffff; display: inline\">Pyroclasm</span> now causes your next <span class=\"item-number\">3</span> <span style=\"color: #FFFFFF; display: inline\">Lava Shards</span> within <span class=\"item-number\">12</span> seconds to trigger no cooldown and be free of cost.",
+        "descriptionText": "Pyroclasm now causes your next 3 Lava Shards within 12 seconds to trigger no cooldown and be free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30601,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Flames of Focus",
+    "description": "Adds <span class=\"item-number\">1</span> additional stack to <span style=\"color: #ffffff; display: inline\">Flamecasting</span> and increases its duration by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Adds 1 additional stack to Flamecasting and increases its duration by 5 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_fireinyourhand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680977,
+    "spellIds": [
+      680977
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7006,
+      30644
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680977,
+        "description": "Adds <span class=\"item-number\">1</span> additional stack to <span style=\"color: #ffffff; display: inline\">Flamecasting</span> and increases its duration by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Adds 1 additional stack to Flamecasting and increases its duration by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30643,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Pyroclastic Flow",
+    "description": "<span style=\"color: #ffffff; display: inline\">Flare Bolt</span> now increases the damage of subsequent <span style=\"color: #ffffff; display: inline\">Flare Bolts</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.<br /><br /><span style=\"color: #ffffff; display: inline\">Flames of Neltharion</span> and <span style=\"color: #FFFFFF; display: inline\">Explode</span> now increase the damage of subsequent <span style=\"color: #FFFFFF; display: inline\">Explodes</span> or <span style=\"color: #ffffff; display: inline\">Flames of Neltharion</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Flare Bolt now increases the damage of subsequent Flare Bolts by 3% for 10 seconds, stacking 5 times.\n\nFlames of Neltharion and Explode now increase the damage of subsequent Explodes or Flames of Neltharion by 3% for 5 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/custom_t_flamewave_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524875,
+    "spellIds": [
+      524875
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6807,
+      30680
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524875,
+        "description": "<span style=\"color: #ffffff; display: inline\">Flare Bolt</span> now increases the damage of subsequent <span style=\"color: #ffffff; display: inline\">Flare Bolts</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.<br /><br /><span style=\"color: #ffffff; display: inline\">Flames of Neltharion</span> and <span style=\"color: #FFFFFF; display: inline\">Explode</span> now increase the damage of subsequent <span style=\"color: #FFFFFF; display: inline\">Explodes</span> or <span style=\"color: #ffffff; display: inline\">Flames of Neltharion</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Flare Bolt now increases the damage of subsequent Flare Bolts by 3% for 10 seconds, stacking 5 times.\n\nFlames of Neltharion and Explode now increase the damage of subsequent Explodes or Flames of Neltharion by 3% for 5 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30644,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Explosive",
+    "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Blaze</span> and <span style=\"color: #ffffff; display: inline\">Ignite</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate of Blaze and Ignite by -10%.",
+    "iconPath": "interface/icons/custom_t_fireinourhands_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704845,
+    "spellIds": [
+      704845,
+      707787
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7008,
+      29548
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704845,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Blaze</span> and <span style=\"color: #ffffff; display: inline\">Ignite</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of Blaze and Ignite by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707787,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Blaze</span> and <span style=\"color: #ffffff; display: inline\">Ignite</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of Blaze and Ignite by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30680,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Rapid Incineration",
+    "description": "Consuming <span style=\"color: #ff7f7f; display: inline\">Embers</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Lava Shard</span> and <span style=\"color: #ffffff; display: inline\">Pillar of Flame</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Consuming Embers now reduces the cooldown of Lava Shard and Pillar of Flame by 10%.",
+    "iconPath": "interface/icons/spell_fire_firebolt02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504394,
+    "spellIds": [
+      504394
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6987
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504394,
+        "description": "Consuming <span style=\"color: #ff7f7f; display: inline\">Embers</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Lava Shard</span> and <span style=\"color: #ffffff; display: inline\">Pillar of Flame</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Consuming Embers now reduces the cooldown of Lava Shard and Pillar of Flame by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30959,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Pillar of Flame",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">20</span> Heat Per Target</span><br />Create a pillar of lava beneath an enemy, dealing <span class=\"item-number\">37</span> + <span class=\"item-number\">31.24% fire SP</span> Fire Damage.<br /><br />Deals an additional <span class=\"item-number\">93</span> + <span class=\"item-number\">34.36% fire SP</span> Fire Damage to enemies near the primary target.",
+    "descriptionText": "Generates 20 Heat Per Target\nCreate a pillar of lava beneath an enemy, dealing 37 + 31.24% fire SP Fire Damage.\n\nDeals an additional 93 + 34.36% fire SP Fire Damage to enemies near the primary target.",
+    "iconPath": "interface/icons/nhi_fireblow_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805496,
+    "spellIds": [
+      805496
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7804
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805496,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">20</span> Heat Per Target</span><br />Create a pillar of lava beneath an enemy, dealing <span class=\"item-number\">37</span> + <span class=\"item-number\">31.24% fire SP</span> Fire Damage.<br /><br />Deals an additional <span class=\"item-number\">93</span> + <span class=\"item-number\">34.36% fire SP</span> Fire Damage to enemies near the primary target.",
+        "descriptionText": "Generates 20 Heat Per Target\nCreate a pillar of lava beneath an enemy, dealing 37 + 31.24% fire SP Fire Damage.\n\nDeals an additional 93 + 34.36% fire SP Fire Damage to enemies near the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6499,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Wreath of Flames",
+    "description": "Periodic Fire Damage now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #ffffff; display: inline\">Flamecasting</span>, or <span class=\"item-number\">2</span> stacks if they critically strike.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Periodic Fire Damage now has a 10% chance to grant a stack of Flamecasting, or 2 stacks if they critically strike.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/spell_holy_innerfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802068,
+    "spellIds": [
+      802068
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7804,
+      30304,
+      33877
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802068,
+        "description": "Periodic Fire Damage now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #ffffff; display: inline\">Flamecasting</span>, or <span class=\"item-number\">2</span> stacks if they critically strike.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Periodic Fire Damage now has a 10% chance to grant a stack of Flamecasting, or 2 stacks if they critically strike.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6500,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Roasted Alive",
+    "description": "Increases the chance to trigger <span style=\"color: #FFFFFF; display: inline\">Fired Up</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger Fired Up by 20%.",
+    "iconPath": "interface/icons/inv_misc_herb_cinderbloom_petal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707482,
+    "spellIds": [
+      707482
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33878
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707482,
+        "description": "Increases the chance to trigger <span style=\"color: #FFFFFF; display: inline\">Fired Up</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Fired Up by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5187,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Magnitude 10",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Flare Bolt by 5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_firerain_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520485,
+    "spellIds": [
+      520485,
+      520873
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29854
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520485,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Flare Bolt by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520873,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Flare Bolt by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7008,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Magmatic",
+    "description": "$8f",
+    "descriptionText": "$8f",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_fire_0003s_0000_phoenix_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704807,
+    "spellIds": [
+      704807
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30959
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704807,
+        "description": "$90",
+        "descriptionText": "$90"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7009,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Melting Point",
+    "description": "Critical strikes with Fire spells now increases the chance for the enemy to by critically hit with spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Critical strikes with Fire spells now increases the chance for the enemy to by critically hit with spells by 3% for 12 seconds.",
+    "iconPath": "interface/icons/spell_shaman_stormearthfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300757,
+    "spellIds": [
+      300757
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33877
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300757,
+        "description": "Critical strikes with Fire spells now increases the chance for the enemy to by critically hit with spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Critical strikes with Fire spells now increases the chance for the enemy to by critically hit with spells by 3% for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7171,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Fiery Passion",
+    "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your spell haste is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your spell haste is increased by 3%.",
+    "iconPath": "interface/icons/ability_monk_breathoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560525,
+    "spellIds": [
+      560525
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6500,
+      7009
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560525,
+        "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your spell haste is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your spell haste is increased by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7174,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Pyroclasm",
+    "description": "Consumes <span class=\"item-number\">1</span> Ember</span><br />Create a pyroclasm instantly consuming your <span style=\"color: #ff4500; display: inline\">Burning</span> effects on a target to deal the two times total periodic damage plus an additional <span class=\"item-number\">2450</span> to <span class=\"item-number\">2590</span> over <span class=\"item-number\">10</span> seconds, piercing absorption effects and resistances.",
+    "descriptionText": "Consumes 1 Ember\nCreate a pyroclasm instantly consuming your Burning effects on a target to deal the two times total periodic damage plus an additional 2450 to 2590 over 10 seconds, piercing absorption effects and resistances.",
+    "iconPath": "interface/icons/spell_fire_incinerate",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520019,
+    "spellIds": [
+      520019
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7176,
+      7803
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520019,
+        "description": "Consumes <span class=\"item-number\">1</span> Ember</span><br />Create a pyroclasm instantly consuming your <span style=\"color: #ff4500; display: inline\">Burning</span> effects on a target to deal the two times total periodic damage plus an additional <span class=\"item-number\">2450</span> to <span class=\"item-number\">2590</span> over <span class=\"item-number\">10</span> seconds, piercing absorption effects and resistances.",
+        "descriptionText": "Consumes 1 Ember\nCreate a pyroclasm instantly consuming your Burning effects on a target to deal the two times total periodic damage plus an additional 2450 to 2590 over 10 seconds, piercing absorption effects and resistances."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7175,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Flames of the Firelord",
+    "description": "Your periodic damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #FFFFFF; display: inline\">Eruption</span> for <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Your periodic damage dealt now has a 5% chance to grant you Eruption for 5 sec.",
+    "iconPath": "interface/icons/achievement_firelands_raid_ragnaros",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 538441,
+    "spellIds": [
+      538441
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30643
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 538441,
+        "description": "Your periodic damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #FFFFFF; display: inline\">Eruption</span> for <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Your periodic damage dealt now has a 5% chance to grant you Eruption for 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7176,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Stoke",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ignite</span> and <span style=\"color: #ffffff; display: inline\">Infernus</span> now extend their own duration on the target by <span class=\"item-number\">3</span> sec, up to a maximum of <span class=\"item-number\">12</span> sec.",
+    "descriptionText": "Critical strikes with Ignite and Infernus now extend their own duration on the target by 3 sec, up to a maximum of 12 sec.",
+    "iconPath": "interface/icons/spell_fire_flameshock",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704856,
+    "spellIds": [
+      704856
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7006,
+      7171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704856,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ignite</span> and <span style=\"color: #ffffff; display: inline\">Infernus</span> now extend their own duration on the target by <span class=\"item-number\">3</span> sec, up to a maximum of <span class=\"item-number\">12</span> sec.",
+        "descriptionText": "Critical strikes with Ignite and Infernus now extend their own duration on the target by 3 sec, up to a maximum of 12 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6807,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Pyromaniac",
+    "description": "Increases the critical strike chance of <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Ember spenders by 5%.",
+    "iconPath": "interface/icons/ability_ironmaidens_rapidfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500166,
+    "spellIds": [
+      500166
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6987,
+      30644
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500166,
+        "description": "Increases the critical strike chance of <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Ember spenders by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6985,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Ignite",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">10</span> Heat Per Tick</span><br />Burn an enemy, inflicting <span class=\"item-number\">140</span> Fire Damage over <span class=\"item-number\">21</span> seconds. If <span style=\"color: #ffffff; display: inline\">Ignite</span> is dispelled it will cause <span class=\"item-number\">517</span> + <span class=\"item-number\">150% fire SP</span> Fire Damage to the dispeller.",
+    "descriptionText": "Generates 10 Heat Per Tick\nBurn an enemy, inflicting 140 Fire Damage over 21 seconds. If Ignite is dispelled it will cause 517 + 150% fire SP Fire Damage to the dispeller.",
+    "iconPath": "interface/icons/ability_mage_fierypayback",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800791,
+    "spellIds": [
+      800791
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800791,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">10</span> Heat Per Tick</span><br />Burn an enemy, inflicting <span class=\"item-number\">140</span> Fire Damage over <span class=\"item-number\">21</span> seconds. If <span style=\"color: #ffffff; display: inline\">Ignite</span> is dispelled it will cause <span class=\"item-number\">517</span> + <span class=\"item-number\">150% fire SP</span> Fire Damage to the dispeller.",
+        "descriptionText": "Generates 10 Heat Per Tick\nBurn an enemy, inflicting 140 Fire Damage over 21 seconds. If Ignite is dispelled it will cause 517 + 150% fire SP Fire Damage to the dispeller."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6986,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Residual Power",
+    "description": "Each active <span style=\"color: #ff7f7f; display: inline\">Ember</span> now reduces the cast time of <span style=\"color: #ffffff; display: inline\">Explode</span> by <span class=\"item-number\">-8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each active Ember now reduces the cast time of Explode by -8%.",
+    "iconPath": "interface/icons/inv_jewelcrafting_dragonseye05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300751,
+    "spellIds": [
+      300751
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29854
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 845211,
+    "gridX": 3,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300751,
+        "description": "Each active <span style=\"color: #ff7f7f; display: inline\">Ember</span> now reduces the cast time of <span style=\"color: #ffffff; display: inline\">Explode</span> by <span class=\"item-number\">-8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each active Ember now reduces the cast time of Explode by -8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6987,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Pyromantic Accelerants",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> and <span style=\"color: #FFFFFF; display: inline\">Explode</span> now deal <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased damage to <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+    "descriptionText": "Your Flames of Neltharion and Explode now deal 15% increased damage to Burning targets.",
+    "iconPath": "interface/icons/spell_shadow_destructivesoul",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706889,
+    "spellIds": [
+      706889
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7008,
+      29552
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706889,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> and <span style=\"color: #FFFFFF; display: inline\">Explode</span> now deal <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased damage to <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+        "descriptionText": "Your Flames of Neltharion and Explode now deal 15% increased damage to Burning targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7006,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Sizzle",
+    "description": "When <span style=\"color: #ffffff; display: inline\">Flamecasting</span> expires your active Pyromancer periodic effects flare up on all enemies, instantly striking them with <span style=\"color: #ffffff; display: inline\">Flare Bolts</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_fireball_border\" /><span class=\"name\">Flare Bolt</span></div><span class=\"desc\"><span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">20</span> Heat</span><br />Invoke flames upon an enemy, dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">57.1% fire SP</span> Fire Damage.</span></div>",
+    "descriptionText": "When Flamecasting expires your active Pyromancer periodic effects flare up on all enemies, instantly striking them with Flare Bolts.\n\n---\n\nFlare BoltGenerates 20 Heat\nInvoke flames upon an enemy, dealing 17 + 57.1% fire SP Fire Damage.",
+    "iconPath": "interface/icons/spell_fire_flametounge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800811,
+    "spellIds": [
+      800811
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6500,
+      33883
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800811,
+        "description": "When <span style=\"color: #ffffff; display: inline\">Flamecasting</span> expires your active Pyromancer periodic effects flare up on all enemies, instantly striking them with <span style=\"color: #ffffff; display: inline\">Flare Bolts</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_fireball_border\" /><span class=\"name\">Flare Bolt</span></div><span class=\"desc\"><span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">20</span> Heat</span><br />Invoke flames upon an enemy, dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">57.1% fire SP</span> Fire Damage.</span></div>",
+        "descriptionText": "When Flamecasting expires your active Pyromancer periodic effects flare up on all enemies, instantly striking them with Flare Bolts.\n\n---\n\nFlare BoltGenerates 20 Heat\nInvoke flames upon an enemy, dealing 17 + 57.1% fire SP Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2305,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Incinerator",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your spell penetration by <span class=\"item-number\">50</span>, scaling with your level.",
+    "descriptionText": "Level 40 Passive\nIncreases your spell penetration by 50, scaling with your level.",
+    "iconPath": "interface/icons/inv_tradeskillitem_sorcerersfire_tong",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807510,
+    "spellIds": [
+      807510
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2306
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807510,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your spell penetration by <span class=\"item-number\">50</span>, scaling with your level.",
+        "descriptionText": "Level 40 Passive\nIncreases your spell penetration by 50, scaling with your level."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2306,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Lighting the Fuse",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Allows your periodic effects to critically strike and increases your spell critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 30 Passive\nAllows your periodic effects to critically strike and increases your spell critical strike chance by 15% of your Intellect.",
+    "iconPath": "interface/icons/inv_wildfirebomb_blood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807509,
+    "spellIds": [
+      807509
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11304
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807509,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Allows your periodic effects to critically strike and increases your spell critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 30 Passive\nAllows your periodic effects to critically strike and increases your spell critical strike chance by 15% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4037,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Infernus",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Lava Shard</span> now applies <span style=\"color: #ffffff; display: inline\">Infernus</span>, causing enemies to <span style=\"color: #ff4500; display: inline\">Burn</span>, dealing an additional <span class=\"item-number\">522000</span> + <span class=\"item-number\">72000% SP</span> Fire Damage over <span class=\"item-number\">18</span> seconds.",
+    "descriptionText": "Damage dealt by Lava Shard now applies Infernus, causing enemies to Burn, dealing an additional 522000 + 72000% SP Fire Damage over 18 seconds.",
+    "iconPath": "interface/icons/nhi_corruptionfire_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 92124,
+    "spellIds": [
+      92124
+    ],
+    "requiredNodeIds": [
+      30651
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92124,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Lava Shard</span> now applies <span style=\"color: #ffffff; display: inline\">Infernus</span>, causing enemies to <span style=\"color: #ff4500; display: inline\">Burn</span>, dealing an additional <span class=\"item-number\">522000</span> + <span class=\"item-number\">72000% SP</span> Fire Damage over <span class=\"item-number\">18</span> seconds.",
+        "descriptionText": "Damage dealt by Lava Shard now applies Infernus, causing enemies to Burn, dealing an additional 522000 + 72000% SP Fire Damage over 18 seconds."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11304,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Scorched",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Direct critical strikes with <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders now <span style=\"color: #ffffff; display: inline\">Scorch</span> the target, <span style=\"color: #ff4500; display: inline\">Burning</span> them for an additional <span class=\"item-number\">30%</span> of the damage dealt over <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Level 20 Passive\nDirect critical strikes with Ember spenders now Scorch the target, Burning them for an additional 30% of the damage dealt over 3 seconds.",
+    "iconPath": "interface/icons/uico_fire_spell_09_nobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704801,
+    "spellIds": [
+      704801
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4037
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704801,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Direct critical strikes with <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders now <span style=\"color: #ffffff; display: inline\">Scorch</span> the target, <span style=\"color: #ff4500; display: inline\">Burning</span> them for an additional <span class=\"item-number\">30%</span> of the damage dealt over <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Level 20 Passive\nDirect critical strikes with Ember spenders now Scorch the target, Burning them for an additional 30% of the damage dealt over 3 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11803,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Destroyer's Legacy",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Lava Shard</span> on enemies affected by <span style=\"color: #FFFFFF; display: inline\">Blaze</span> now blasts nearby enemies for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage.",
+    "descriptionText": "Damage dealt by Lava Shard on enemies affected by Blaze now blasts nearby enemies for 20% of the damage dealt as Fire Damage.",
+    "iconPath": "interface/icons/spell_shaman_firenova",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704815,
+    "spellIds": [
+      704815
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704815,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704815,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Lava Shard</span> on enemies affected by <span style=\"color: #FFFFFF; display: inline\">Blaze</span> now blasts nearby enemies for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage.",
+        "descriptionText": "Damage dealt by Lava Shard on enemies affected by Blaze now blasts nearby enemies for 20% of the damage dealt as Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11986,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Arsonist",
+    "description": "Increases the critical damage of your <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of your Ember spenders by 10%.",
+    "iconPath": "interface/icons/spell_shaman_firenova",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301286,
+    "spellIds": [
+      301286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29854
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 845211,
+    "gridX": 3,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301286,
+        "description": "Increases the critical damage of your <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of your Ember spenders by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7803,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Dark Iron Legacy",
+    "description": "Targets affected by the disorient from <span style=\"color: #FFFFFF; display: inline\">Meteor</span> take an additional <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased damage from the next <span style=\"color: #FFFFFF; display: inline\">Explode</span> or <span style=\"color: #FFFFFF; display: inline\">Lava Shard</span>.",
+    "descriptionText": "Targets affected by the disorient from Meteor take an additional 40% increased damage from the next Explode or Lava Shard.",
+    "iconPath": "interface/icons/inv_staff_2h_darkirondwarf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680970,
+    "spellIds": [
+      680970
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704815,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680970,
+        "description": "Targets affected by the disorient from <span style=\"color: #FFFFFF; display: inline\">Meteor</span> take an additional <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased damage from the next <span style=\"color: #FFFFFF; display: inline\">Explode</span> or <span style=\"color: #FFFFFF; display: inline\">Lava Shard</span>.",
+        "descriptionText": "Targets affected by the disorient from Meteor take an additional 40% increased damage from the next Explode or Lava Shard."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7804,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Cataclysmic Power",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for each periodic effect you have on the target.",
+    "descriptionText": "Increases the damage of Flare Bolt by 3% for each periodic effect you have on the target.",
+    "iconPath": "interface/icons/ability_siege_engineer_purification_beam",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 804617,
+    "spellIds": [
+      804617,
+      807882,
+      807912
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6986,
+      11986
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804617,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for each periodic effect you have on the target.",
+        "descriptionText": "Increases the damage of Flare Bolt by 3% for each periodic effect you have on the target."
+      },
+      {
+        "rank": 2,
+        "spellId": 807882,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for each periodic effect you have on the target.",
+        "descriptionText": "Increases the damage of Flare Bolt by 6% for each periodic effect you have on the target."
+      },
+      {
+        "rank": 3,
+        "spellId": 807912,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> by <span class=\"item-number\">9</span><span class=\"item-number\">%</span> for each periodic effect you have on the target.",
+        "descriptionText": "Increases the damage of Flare Bolt by 9% for each periodic effect you have on the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7954,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 62,
+    "tabKey": "24:62",
+    "tabName": "Incineration",
+    "name": "Burned",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Direct Fire Damage dealt now applies <span style=\"color: #ffffff; display: inline\">Burned</span> to the target for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_immolation\" /><span class=\"name\">Burned (Proc)</span></div><span class=\"desc\">Increases the targets damage taken from your periodic effects by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Level 50 Passive\nDirect Fire Damage dealt now applies Burned to the target for 15 seconds.\n\n---\n\nBurned (Proc)Increases the targets damage taken from your periodic effects by 3% stacking 5 times.",
+    "iconPath": "interface/icons/spell_fire_immolation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 572582,
+    "spellIds": [
+      572582
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2305
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572582,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Direct Fire Damage dealt now applies <span style=\"color: #ffffff; display: inline\">Burned</span> to the target for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_immolation\" /><span class=\"name\">Burned (Proc)</span></div><span class=\"desc\">Increases the targets damage taken from your periodic effects by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Level 50 Passive\nDirect Fire Damage dealt now applies Burned to the target for 15 seconds.\n\n---\n\nBurned (Proc)Increases the targets damage taken from your periodic effects by 3% stacking 5 times."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

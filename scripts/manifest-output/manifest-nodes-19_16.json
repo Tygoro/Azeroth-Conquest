@@ -1,0 +1,1850 @@
+[
+  {
+    "nodeId": 6376,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Reckoning",
+    "description": "Unleash a powerful <span style=\"color: #ffffff; display: inline\">Oath Breaker</span>, dealing <span class=\"item-number\">60</span> + <span class=\"item-number\">35% AP</span> + <span class=\"item-number\">50% Stamina</span> Holy Damage and restoring <span class=\"item-number\">15</span> Energy for each enemy struck.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+    "descriptionText": "Unleash a powerful Oath Breaker, dealing 60 + 35% AP + 50% Stamina Holy Damage and restoring 15 Energy for each enemy struck.\n\nConsumes your Oaths, dealing additional damage for each consumed.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holyrod_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805421,
+    "spellIds": [
+      805421
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29717,
+      34395
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805421,
+        "description": "Unleash a powerful <span style=\"color: #ffffff; display: inline\">Oath Breaker</span>, dealing <span class=\"item-number\">60</span> + <span class=\"item-number\">35% AP</span> + <span class=\"item-number\">50% Stamina</span> Holy Damage and restoring <span class=\"item-number\">15</span> Energy for each enemy struck.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+        "descriptionText": "Unleash a powerful Oath Breaker, dealing 60 + 35% AP + 50% Stamina Holy Damage and restoring 15 Energy for each enemy struck.\n\nConsumes your Oaths, dealing additional damage for each consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5227,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Transcendent Guardian",
+    "description": "Charging to an ally with <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refresh a charge.",
+    "descriptionText": "Charging to an ally with Temple Guardian now has a 40% chance to refresh a charge.",
+    "iconPath": "interface/icons/ability_bastion_priest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804571,
+    "spellIds": [
+      804571
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804930,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804571,
+        "description": "Charging to an ally with <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refresh a charge.",
+        "descriptionText": "Charging to an ally with Temple Guardian now has a 40% chance to refresh a charge."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6862,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Call of the Monastery",
+    "description": "Increases the attack power of all party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the attack power of all party and raid members 5%. Does not stack with similar effects.\n\nIn addition, increases your attack power by 5%.",
+    "iconPath": "interface/icons/ability_paladin_veneration",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560550,
+    "spellIds": [
+      560550
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34386,
+      34397
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560550,
+        "description": "Increases the attack power of all party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power of all party and raid members 5%. Does not stack with similar effects.\n\nIn addition, increases your attack power by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4023,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Keeping the Oath",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You now delay <span class=\"item-number\">40%</span> of direct damage taken, instead taking it over <span class=\"item-number\">8</span> seconds.<br /><br />In addition, you no longer consume your <span style=\"color: #FFFFFF; display: inline\">Oaths</span> with <span style=\"color: #FFFFFF; display: inline\">Oath Breakers</span>.",
+    "descriptionText": "Level 10 Passive\nYou now delay 40% of direct damage taken, instead taking it over 8 seconds.\n\nIn addition, you no longer consume your Oaths with Oath Breakers.",
+    "iconPath": "interface/icons/inv_staff_2h_nazmirraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92109,
+    "spellIds": [
+      92109
+    ],
+    "requiredNodeIds": [
+      34402
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92109,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You now delay <span class=\"item-number\">40%</span> of direct damage taken, instead taking it over <span class=\"item-number\">8</span> seconds.<br /><br />In addition, you no longer consume your <span style=\"color: #FFFFFF; display: inline\">Oaths</span> with <span style=\"color: #FFFFFF; display: inline\">Oath Breakers</span>.",
+        "descriptionText": "Level 10 Passive\nYou now delay 40% of direct damage taken, instead taking it over 8 seconds.\n\nIn addition, you no longer consume your Oaths with Oath Breakers."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12293,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Graceful Fighter",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your parry rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of Agility and your dodge rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your parry rating by 20% of Agility and your dodge rating by 20% of Intellect.",
+    "iconPath": "interface/icons/spell_holy_holyguidance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705303,
+    "spellIds": [
+      705303
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4023
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705303,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your parry rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of Agility and your dodge rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your parry rating by 20% of Agility and your dodge rating by 20% of Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12295,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Light's Ward",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases all magic resistances equal to <span class=\"item-number\">10%</span> of your dodge rating and reduces your damage taken from periodic effects by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nIncreases all magic resistances equal to 10% of your dodge rating and reduces your damage taken from periodic effects by -15%.",
+    "iconPath": "interface/icons/spell_holy_prayerofhealing02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300529,
+    "spellIds": [
+      300529
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11295
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300529,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases all magic resistances equal to <span class=\"item-number\">10%</span> of your dodge rating and reduces your damage taken from periodic effects by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nIncreases all magic resistances equal to 10% of your dodge rating and reduces your damage taken from periodic effects by -15%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19451,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Justicar of the Light",
+    "description": "Removes the cooldown from <span style=\"color: #ffffff; display: inline\">Benediction</span>.",
+    "descriptionText": "Removes the cooldown from Benediction.",
+    "iconPath": "interface/icons/ability_paladin_infusionoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707663,
+    "spellIds": [
+      707663
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10913,
+      34398
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707663,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707663,
+        "description": "Removes the cooldown from <span style=\"color: #ffffff; display: inline\">Benediction</span>.",
+        "descriptionText": "Removes the cooldown from Benediction."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10363,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Patience",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Interdict</span> by <span class=\"item-number\">2</span> sec and its cooldown by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Increases the duration of Interdict by 2 sec and its cooldown by -5 sec.",
+    "iconPath": "interface/icons/monk_ability_avertharm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712678,
+    "spellIds": [
+      712678
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 188442,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712678,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Interdict</span> by <span class=\"item-number\">2</span> sec and its cooldown by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Increases the duration of Interdict by 2 sec and its cooldown by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10913,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Disciplined Blows",
+    "description": "Your healing done triggers a holy pulse around healed targets, dealing <span class=\"item-number\">89</span> + <span class=\"item-number\">5% AP</span> + <span class=\"item-number\">20% Agility</span> Holy Damage to nearby enemies.<br /><br />Cnly occur once every <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Your healing done triggers a holy pulse around healed targets, dealing 89 + 5% AP + 20% Agility Holy Damage to nearby enemies.\n\nCnly occur once every 0.5 sec.",
+    "iconPath": "interface/icons/inv_hammer_18",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680397,
+    "spellIds": [
+      680397
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34397
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680397,
+        "description": "Your healing done triggers a holy pulse around healed targets, dealing <span class=\"item-number\">89</span> + <span class=\"item-number\">5% AP</span> + <span class=\"item-number\">20% Agility</span> Holy Damage to nearby enemies.<br /><br />Cnly occur once every <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Your healing done triggers a holy pulse around healed targets, dealing 89 + 5% AP + 20% Agility Holy Damage to nearby enemies.\n\nCnly occur once every 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11294,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Holy Books",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Using a <span style=\"color: #ffffff; display: inline\">Libram</span> now removes <span class=\"item-number\">70</span><span class=\"item-number\">%</span> of the delayed damage from <span style=\"color: #ffffff; display: inline\">Oathkeeper</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_nazmirraid_d_01\" /><span class=\"name\">Oathkeeper</span></div><span class=\"desc\"><span class=\"item-number\">40%</span> of damage taken is now delayed and dealt to you over <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Level 30 Passive\nUsing a Libram now removes 70% of the delayed damage from Oathkeeper.\n\n---\n\nOathkeeper40% of damage taken is now delayed and dealt to you over 8 seconds.",
+    "iconPath": "interface/icons/5_priestskill29_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706468,
+    "spellIds": [
+      706468
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12293
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706468,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Using a <span style=\"color: #ffffff; display: inline\">Libram</span> now removes <span class=\"item-number\">70</span><span class=\"item-number\">%</span> of the delayed damage from <span style=\"color: #ffffff; display: inline\">Oathkeeper</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_nazmirraid_d_01\" /><span class=\"name\">Oathkeeper</span></div><span class=\"desc\"><span class=\"item-number\">40%</span> of damage taken is now delayed and dealt to you over <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Level 30 Passive\nUsing a Libram now removes 70% of the delayed damage from Oathkeeper.\n\n---\n\nOathkeeper40% of damage taken is now delayed and dealt to you over 8 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11295,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Lorescribe",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> abilities now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Librams</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Level 40 Passive\nCasting Oath Breaker abilities now reduce the cooldown of Librams by -4 sec.",
+    "iconPath": "interface/icons/achievement_faction_lorewalkers",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804927,
+    "spellIds": [
+      804927
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11294
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804927,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> abilities now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Librams</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Level 40 Passive\nCasting Oath Breaker abilities now reduce the cooldown of Librams by -4 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7483,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Spiritual Abdicator",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Spiritual Abdication</span> now reduces damage taken by an additional <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> per copy.",
+    "descriptionText": "Your Spiritual Abdication now reduces damage taken by an additional -5% per copy.",
+    "iconPath": "interface/icons/spell_holy_innerfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803219,
+    "spellIds": [
+      803219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19451,
+      30451
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803219,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Spiritual Abdication</span> now reduces damage taken by an additional <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> per copy.",
+        "descriptionText": "Your Spiritual Abdication now reduces damage taken by an additional -5% per copy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7486,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Armor of Faith",
+    "description": "Whenever the absorption shield from <span style=\"color: #FFFFFF; display: inline\">Staffguard</span> breaks, inflict <span class=\"item-number\">121</span> + <span class=\"item-number\">20% AP</span> + <span class=\"item-number\">50% holy SP</span> Holy Damage to enemies within <span class=\"item-number\">8</span> yds.",
+    "descriptionText": "Whenever the absorption shield from Staffguard breaks, inflict 121 + 20% AP + 50% holy SP Holy Damage to enemies within 8 yds.",
+    "iconPath": "interface/icons/ability_paladin_touchedbylight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804930,
+    "spellIds": [
+      804930
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804930,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804930,
+        "description": "Whenever the absorption shield from <span style=\"color: #FFFFFF; display: inline\">Staffguard</span> breaks, inflict <span class=\"item-number\">121</span> + <span class=\"item-number\">20% AP</span> + <span class=\"item-number\">50% holy SP</span> Holy Damage to enemies within <span class=\"item-number\">8</span> yds.",
+        "descriptionText": "Whenever the absorption shield from Staffguard breaks, inflict 121 + 20% AP + 50% holy SP Holy Damage to enemies within 8 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7758,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Fortified Body",
+    "description": "Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> more healing. Does not stack with similar effects.<br /><br />Additionally, increases your maximum health by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Allies within 40 yds receive 6% more healing. Does not stack with similar effects.\n\nAdditionally, increases your maximum health by 6%.",
+    "iconPath": "interface/icons/ability_racial_brushitoff",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300515,
+    "spellIds": [
+      300515
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34386,
+      34391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300515,
+        "description": "Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> more healing. Does not stack with similar effects.<br /><br />Additionally, increases your maximum health by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Allies within 40 yds receive 6% more healing. Does not stack with similar effects.\n\nAdditionally, increases your maximum health by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30287,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Parry Dance",
+    "description": "When you critically strike with auto attacks or parrying an attack, your chance to parry is now increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "When you critically strike with auto attacks or parrying an attack, your chance to parry is now increased by 3% for 5 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_ascend_whirlpool_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804912,
+    "spellIds": [
+      804912
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804912,
+        "description": "When you critically strike with auto attacks or parrying an attack, your chance to parry is now increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "When you critically strike with auto attacks or parrying an attack, your chance to parry is now increased by 3% for 5 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30436,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Bells of Light",
+    "description": "Increases your Agility, Intellect, and hit chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>",
+    "descriptionText": "Increases your Agility, Intellect, and hit chance by 3%",
+    "iconPath": "interface/icons/ability_bastion_paladin",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 801204,
+    "spellIds": [
+      801204,
+      803842
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29717
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801204,
+        "description": "Increases your Agility, Intellect, and hit chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>",
+        "descriptionText": "Increases your Agility, Intellect, and hit chance by 3%"
+      },
+      {
+        "rank": 2,
+        "spellId": 803842,
+        "description": "Increases your Agility, Intellect, and hit chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>",
+        "descriptionText": "Increases your Agility, Intellect, and hit chance by 6%"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30437,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Paragon",
+    "description": "Increases your Stamina by <span class=\"item-number\">10</span>, plus an additional amount equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Increases your Stamina by 10, plus an additional amount equal to 10% of your Agility.",
+    "iconPath": "interface/icons/spell_holy_surgeoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706357,
+    "spellIds": [
+      706357
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34395
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706357,
+        "description": "Increases your Stamina by <span class=\"item-number\">10</span>, plus an additional amount equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Increases your Stamina by 10, plus an additional amount equal to 10% of your Agility."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29473,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Holy Warstaff",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Reckoning</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Reckoning by 20%.",
+    "iconPath": "interface/icons/inv_staff_28",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705307,
+    "spellIds": [
+      705307
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 332111,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705307,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Reckoning</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Reckoning by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29712,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Sacred Oath",
+    "description": "Critical strikes now remove <span class=\"item-number\">1</span> sec from the duration of <span style=\"color: #ffffff; display: inline\">Oathkeeper</span> when used.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_nazmirraid_d_01\" /><span class=\"name\">Oathkeeper</span></div><span class=\"desc\"><span class=\"item-number\">40%</span> of damage taken is now delayed and dealt to you over <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Critical strikes now remove 1 sec from the duration of Oathkeeper when used.\n\n---\n\nOathkeeper40% of damage taken is now delayed and dealt to you over 8 seconds.",
+    "iconPath": "interface/icons/inv_warbreaker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712346,
+    "spellIds": [
+      712346
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30437
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712346,
+        "description": "Critical strikes now remove <span class=\"item-number\">1</span> sec from the duration of <span style=\"color: #ffffff; display: inline\">Oathkeeper</span> when used.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_nazmirraid_d_01\" /><span class=\"name\">Oathkeeper</span></div><span class=\"desc\"><span class=\"item-number\">40%</span> of damage taken is now delayed and dealt to you over <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Critical strikes now remove 1 sec from the duration of Oathkeeper when used.\n\n---\n\nOathkeeper40% of damage taken is now delayed and dealt to you over 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29717,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Staffguard",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> abilities now grant you <span style=\"color: #ffffff; display: inline\">Staffguard</span>, absorbing <span class=\"item-number\">355</span> + <span class=\"item-number\">30% Stamina</span> damage, scaling with Stamina, parry and dodge rating, for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Your Oath Breaker abilities now grant you Staffguard, absorbing 355 + 30% Stamina damage, scaling with Stamina, parry and dodge rating, for 8 seconds.",
+    "iconPath": "interface/icons/inv_staff_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705295,
+    "spellIds": [
+      705295
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31173
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705295,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> abilities now grant you <span style=\"color: #ffffff; display: inline\">Staffguard</span>, absorbing <span class=\"item-number\">355</span> + <span class=\"item-number\">30% Stamina</span> damage, scaling with Stamina, parry and dodge rating, for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Your Oath Breaker abilities now grant you Staffguard, absorbing 355 + 30% Stamina damage, scaling with Stamina, parry and dodge rating, for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30445,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Eternal Blessing",
+    "description": "Increases your Holy Damage and healing done by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds.<br /><br />While active, <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> deal an additional <span class=\"item-number\">141</span> + <span class=\"item-number\">12% AP</span> Holy Damage to nearby enemies within <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Increases your Holy Damage and healing done by 15% for 30 seconds.\n\nWhile active, Oath Breakers deal an additional 141 + 12% AP Holy Damage to nearby enemies within 5 yds.",
+    "iconPath": "interface/icons/ability_priest_spiritoftheredeemer",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705300,
+    "spellIds": [
+      705300
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7483,
+      34400
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705300,
+        "description": "Increases your Holy Damage and healing done by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds.<br /><br />While active, <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> deal an additional <span class=\"item-number\">141</span> + <span class=\"item-number\">12% AP</span> Holy Damage to nearby enemies within <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Increases your Holy Damage and healing done by 15% for 30 seconds.\n\nWhile active, Oath Breakers deal an additional 141 + 12% AP Holy Damage to nearby enemies within 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30450,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Eternally Devoted",
+    "description": "Damage dealt through <span style=\"color: #FFFFFF; display: inline\">Eternal Blessing</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Libram</span> spells by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Damage dealt through Eternal Blessing now reduces the cooldown of Libram spells by -4 sec.",
+    "iconPath": "interface/icons/_d3teleport",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573452,
+    "spellIds": [
+      573452
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30445
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573452,
+        "description": "Damage dealt through <span style=\"color: #FFFFFF; display: inline\">Eternal Blessing</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Libram</span> spells by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Damage dealt through Eternal Blessing now reduces the cooldown of Libram spells by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30451,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Guardian of the Light",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Benediction</span> now reduces the cost of your next <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Casting Benediction now reduces the cost of your next Temple Guardian by -50% for 6 seconds.",
+    "iconPath": "interface/icons/custom_23_light_blow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707364,
+    "spellIds": [
+      707364
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10913,
+      34398
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707663,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707364,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Benediction</span> now reduces the cost of your next <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Casting Benediction now reduces the cost of your next Temple Guardian by -50% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30453,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Duty Calls",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Follow Up Abilities</span> now increases your damage dealt and movement speed by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Casting Follow Up Abilities now increases your damage dealt and movement speed by 2% for 15 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/spell_holy_greaterblessingoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705286,
+    "spellIds": [
+      705286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29473,
+      30287,
+      34399
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705286,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Follow Up Abilities</span> now increases your damage dealt and movement speed by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Casting Follow Up Abilities now increases your damage dealt and movement speed by 2% for 15 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30613,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Justice",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Interdict</span> now strikes <span class=\"item-number\">1</span> additional nearby target.",
+    "descriptionText": "Your Interdict now strikes 1 additional nearby target.",
+    "iconPath": "interface/icons/5_paladinskill18_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712437,
+    "spellIds": [
+      712437
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 188442,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712437,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Interdict</span> now strikes <span class=\"item-number\">1</span> additional nearby target.",
+        "descriptionText": "Your Interdict now strikes 1 additional nearby target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30614,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Barrier of Light",
+    "description": "Emit saving light, increasing the healing received by nearby allies by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />For the duration, threat generated by your allies is redirected to you.",
+    "descriptionText": "Emit saving light, increasing the healing received by nearby allies by 20% for 15 seconds.\n\nFor the duration, threat generated by your allies is redirected to you.",
+    "iconPath": "interface/icons/misc_legionfall_paladin",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805417,
+    "spellIds": [
+      805417
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6862,
+      7758
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805417,
+        "description": "Emit saving light, increasing the healing received by nearby allies by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />For the duration, threat generated by your allies is redirected to you.",
+        "descriptionText": "Emit saving light, increasing the healing received by nearby allies by 20% for 15 seconds.\n\nFor the duration, threat generated by your allies is redirected to you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30615,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Tome of Light",
+    "description": "$67",
+    "descriptionText": "$67",
+    "iconPath": "interface/icons/inv_misc_book_17",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805422,
+    "spellIds": [
+      805422
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30445,
+      31225,
+      31226
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805422,
+        "description": "$68",
+        "descriptionText": "$68"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31173,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Sacred Swing",
+    "description": "Swing at enemies in front of you, dealing <span class=\"item-number\">125</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">9</span>, slowing their attack and movement speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Only usable after avoiding an attack.",
+    "descriptionText": "Swing at enemies in front of you, dealing 125% Weapon Damage plus 9, slowing their attack and movement speed by -20% for 10 seconds.\n\nOnly usable after avoiding an attack.",
+    "iconPath": "interface/icons/5_staffstrike_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705293,
+    "spellIds": [
+      705293
+    ],
+    "requiredNodeIds": [
+      4023,
+      34402
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705293,
+        "description": "Swing at enemies in front of you, dealing <span class=\"item-number\">125</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">9</span>, slowing their attack and movement speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Only usable after avoiding an attack.",
+        "descriptionText": "Swing at enemies in front of you, dealing 125% Weapon Damage plus 9, slowing their attack and movement speed by -20% for 10 seconds.\n\nOnly usable after avoiding an attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31225,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Battlepriest",
+    "description": "While above <span class=\"item-number\">80%</span> health or below <span class=\"item-number\">20%</span> health, you now take <span class=\"item-number\">20%</span> reduced Magic Damage.",
+    "descriptionText": "While above 80% health or below 20% health, you now take 20% reduced Magic Damage.",
+    "iconPath": "interface/icons/ability_thunderclap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801202,
+    "spellIds": [
+      801202
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5227,
+      7486,
+      34396
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801202,
+        "description": "While above <span class=\"item-number\">80%</span> health or below <span class=\"item-number\">20%</span> health, you now take <span class=\"item-number\">20%</span> reduced Magic Damage.",
+        "descriptionText": "While above 80% health or below 20% health, you now take 20% reduced Magic Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31226,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Mending Ward",
+    "description": "<span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now grant you a stack of <span style=\"color: #ffffff; display: inline\">Mending Ward</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_pureofheart\" /><span class=\"name\">Mending Ward</span></div><span class=\"desc\">Next instance of direct damage taken while below <span class=\"item-number\">35%</span> maximum health will consume these stacks to heal you for <span class=\"item-number\">395</span> + <span class=\"item-number\">25% Stamina</span>. <br /><br />Healing scales with your Stamina and parry rating.</span></div>",
+    "descriptionText": "Oath Breakers now grant you a stack of Mending Ward for 15 seconds, stacking 3 times.\n\n---\n\nMending WardNext instance of direct damage taken while below 35% maximum health will consume these stacks to heal you for 395 + 25% Stamina. \n\nHealing scales with your Stamina and parry rating.",
+    "iconPath": "interface/icons/spell_holy_pureofheart",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806273,
+    "spellIds": [
+      806273
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10363,
+      30613,
+      34396,
+      34400
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806273,
+        "description": "<span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now grant you a stack of <span style=\"color: #ffffff; display: inline\">Mending Ward</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_pureofheart\" /><span class=\"name\">Mending Ward</span></div><span class=\"desc\">Next instance of direct damage taken while below <span class=\"item-number\">35%</span> maximum health will consume these stacks to heal you for <span class=\"item-number\">395</span> + <span class=\"item-number\">25% Stamina</span>. <br /><br />Healing scales with your Stamina and parry rating.</span></div>",
+        "descriptionText": "Oath Breakers now grant you a stack of Mending Ward for 15 seconds, stacking 3 times.\n\n---\n\nMending WardNext instance of direct damage taken while below 35% maximum health will consume these stacks to heal you for 395 + 25% Stamina. \n\nHealing scales with your Stamina and parry rating."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34385,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Sacred Resistance",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Reckoning</span> now increases your Armor by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Casting Reckoning now increases your Armor by 15% for 15 seconds.",
+    "iconPath": "interface/icons/inv_ascend_staff_04_b",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301309,
+    "spellIds": [
+      301309
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6376
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301309,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Reckoning</span> now increases your Armor by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Casting Reckoning now increases your Armor by 15% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34386,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Absolution",
+    "description": "Taunt all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">4</span> seconds and increase your movement speed by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Taunt all enemies within 8 yds for 4 seconds and increase your movement speed by 50% for 4 seconds.",
+    "iconPath": "interface/icons/custom_priestskill_03_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800424,
+    "spellIds": [
+      800424
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34385
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800424,
+        "description": "Taunt all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">4</span> seconds and increase your movement speed by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Taunt all enemies within 8 yds for 4 seconds and increase your movement speed by 50% for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34390,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Lightkeeper",
+    "description": "Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Condemn</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase your parry chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.<br /><br />Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Condemn</span> also has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to burst, dealing <span class=\"item-number\">100</span> + <span class=\"item-number\">22% AP</span> Holy Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds of the target.",
+    "descriptionText": "Periodic damage dealt by Condemn now has a 15% chance to increase your parry chance by 2% for 8 seconds, stacking 3 times.\n\nPeriodic damage dealt by Condemn also has a 15% chance to burst, dealing 100 + 22% AP Holy Damage to up to 5 enemies within 5 yds of the target.",
+    "iconPath": "interface/icons/inv_priestmount_holy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560835,
+    "spellIds": [
+      560835
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31225
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560835,
+        "description": "Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Condemn</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase your parry chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.<br /><br />Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Condemn</span> also has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to burst, dealing <span class=\"item-number\">100</span> + <span class=\"item-number\">22% AP</span> Holy Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds of the target.",
+        "descriptionText": "Periodic damage dealt by Condemn now has a 15% chance to increase your parry chance by 2% for 8 seconds, stacking 3 times.\n\nPeriodic damage dealt by Condemn also has a 15% chance to burst, dealing 100 + 22% AP Holy Damage to up to 5 enemies within 5 yds of the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34391,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Conviction",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Sacred Swing</span> now increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Casting Sacred Swing now increases your melee haste by 5% for 15 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/ability_monk_spearhand",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712677,
+    "spellIds": [
+      712677
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34385,
+      34392
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712677,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Sacred Swing</span> now increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Casting Sacred Swing now increases your melee haste by 5% for 15 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34392,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Grace of Aman'thul",
+    "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Righteous Lunge</span> by <span class=\"item-number\">-5</span> and <span style=\"color: #ffffff; display: inline\">Sacred Swing</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Energy cost of Righteous Lunge by -5 and Sacred Swing by -10.",
+    "iconPath": "interface/icons/inv_trinket_80_titan01d",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301059,
+    "spellIds": [
+      301059
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30436
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301059,
+        "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Righteous Lunge</span> by <span class=\"item-number\">-5</span> and <span style=\"color: #ffffff; display: inline\">Sacred Swing</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Energy cost of Righteous Lunge by -5 and Sacred Swing by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34395,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Blessed Padding",
+    "description": "Increases your Armor contribution from items by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and reduces damage taken from area of effect attacks by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor contribution from items by 50% and reduces damage taken from area of effect attacks by -10%.",
+    "iconPath": "interface/icons/spell_holy_powerwordshield",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 301311,
+    "spellIds": [
+      301311,
+      301360
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31173
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301311,
+        "description": "Increases your Armor contribution from items by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and reduces damage taken from area of effect attacks by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from items by 50% and reduces damage taken from area of effect attacks by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301360,
+        "description": "Increases your Armor contribution from items by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and reduces damage taken from area of effect attacks by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from items by 100% and reduces damage taken from area of effect attacks by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34396,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Uther's Legacy",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Condemn</span> now heals you for <span class=\"item-number\">75</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Your Condemn now heals you for 75% of the damage dealt.",
+    "iconPath": "interface/icons/inv_mace_1h_uther_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706385,
+    "spellIds": [
+      706385
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30453,
+      30614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706385,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Condemn</span> now heals you for <span class=\"item-number\">75</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Your Condemn now heals you for 75% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34397,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Faith Guard",
+    "description": "While under the effect of a <span style=\"color: #ffffff; display: inline\">Libram</span>, your <span style=\"color: #ffffff; display: inline\">Chastise</span> will now unleash an <span class=\"item-number\">8</span> yd line of holy power, dealing <span class=\"item-number\">112</span> + <span class=\"item-number\">25% AP</span> Holy Damage.",
+    "descriptionText": "While under the effect of a Libram, your Chastise will now unleash an 8 yd line of holy power, dealing 112 + 25% AP Holy Damage.",
+    "iconPath": "interface/icons/spell_priest_angelicbulwark",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705259,
+    "spellIds": [
+      705259
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29712,
+      34385
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705259,
+        "description": "While under the effect of a <span style=\"color: #ffffff; display: inline\">Libram</span>, your <span style=\"color: #ffffff; display: inline\">Chastise</span> will now unleash an <span class=\"item-number\">8</span> yd line of holy power, dealing <span class=\"item-number\">112</span> + <span class=\"item-number\">25% AP</span> Holy Damage.",
+        "descriptionText": "While under the effect of a Libram, your Chastise will now unleash an 8 yd line of holy power, dealing 112 + 25% AP Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34398,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Disciplined Mind",
+    "description": "Increases the healing of <span style=\"color: #ffffff; display: inline\">Benediction</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causes it to dispel <span class=\"item-number\">1</span> poison and disease effect.",
+    "descriptionText": "Increases the healing of Benediction by 20% and causes it to dispel 1 poison and disease effect.",
+    "iconPath": "interface/icons/spell_holy_absolution",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680399,
+    "spellIds": [
+      680399,
+      681483
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34397
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680399,
+        "description": "Increases the healing of <span style=\"color: #ffffff; display: inline\">Benediction</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causes it to dispel <span class=\"item-number\">1</span> poison and disease effect.",
+        "descriptionText": "Increases the healing of Benediction by 20% and causes it to dispel 1 poison and disease effect."
+      },
+      {
+        "rank": 2,
+        "spellId": 681483,
+        "description": "Increases the healing of <span style=\"color: #ffffff; display: inline\">Benediction</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and causes it to dispel <span class=\"item-number\">1</span> poison and disease effect.",
+        "descriptionText": "Increases the healing of Benediction by 40% and causes it to dispel 1 poison and disease effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34399,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Way of the Monk",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Sacred Swing</span> and <span style=\"color: #ffffff; display: inline\">Reckoning</span> now reduces casting speed by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Damage dealt by Sacred Swing and Reckoning now reduces casting speed by -10% for 10 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/ability_monk_boughstrike",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805420,
+    "spellIds": [
+      805420
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34391
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 332111,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805420,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Sacred Swing</span> and <span style=\"color: #ffffff; display: inline\">Reckoning</span> now reduces casting speed by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Damage dealt by Sacred Swing and Reckoning now reduces casting speed by -10% for 10 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34400,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 16,
+    "tabKey": "19:16",
+    "tabName": "Oathkeeper",
+    "name": "Untainted",
+    "description": "Effectively healing yourself now reduces your Physical Damage taken by <span class=\"item-number\">51</span> + <span class=\"item-number\">10% Stamina</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Can only occur every <span class=\"item-number\">15</span> sec.",
+    "descriptionText": "Effectively healing yourself now reduces your Physical Damage taken by 51 + 10% Stamina for 8 seconds.\n\nCan only occur every 15 sec.",
+    "iconPath": "interface/icons/ability_priest_angelicbulwark",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705298,
+    "spellIds": [
+      705298
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      19451,
+      30451,
+      30614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705298,
+        "description": "Effectively healing yourself now reduces your Physical Damage taken by <span class=\"item-number\">51</span> + <span class=\"item-number\">10% Stamina</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Can only occur every <span class=\"item-number\">15</span> sec.",
+        "descriptionText": "Effectively healing yourself now reduces your Physical Damage taken by 51 + 10% Stamina for 8 seconds.\n\nCan only occur every 15 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

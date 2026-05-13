@@ -1,0 +1,1804 @@
+[
+  {
+    "nodeId": 2386,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Blessing of Therazane",
+    "description": "Each stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> now increases your critical damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Earthshaping now increases your critical damage dealt by 5%.",
+    "iconPath": "interface/icons/achievement_boss_princesstheradras",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680439,
+    "spellIds": [
+      680439
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6303,
+      9453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680439,
+        "description": "Each stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> now increases your critical damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Earthshaping now increases your critical damage dealt by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4059,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Earthshaping",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> and your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities now generate <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_custom_hearthstone_fire\" /><span class=\"name\">Earthshaping</span></div><span class=\"desc\">Empowers some of your abilities and increases your spell haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">15</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Level 10 Passive\nCasting Geode Barrage and your Seismic abilities now generate Earthshaping.\n\n---\n\nEarthshapingEmpowers some of your abilities and increases your spell haste by 1% for 20 seconds, stacking 15 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/inv_custom_hearthstone_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92149,
+    "spellIds": [
+      92149
+    ],
+    "requiredNodeIds": [
+      29252
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92149,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> and your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities now generate <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_custom_hearthstone_fire\" /><span class=\"name\">Earthshaping</span></div><span class=\"desc\">Empowers some of your abilities and increases your spell haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">15</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Level 10 Passive\nCasting Geode Barrage and your Seismic abilities now generate Earthshaping.\n\n---\n\nEarthshapingEmpowers some of your abilities and increases your spell haste by 1% for 20 seconds, stacking 15 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4207,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Crushing the Earth",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />You now gain spell power equal to <span class=\"item-number\">50%</span> of your armor penetration rating.",
+    "descriptionText": "Level 40 Passive\nYou now gain spell power equal to 50% of your armor penetration rating.",
+    "iconPath": "interface/icons/inv_tradeskillitem_sorcerersearth_tong",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300697,
+    "spellIds": [
+      300697
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9999
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300697,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />You now gain spell power equal to <span class=\"item-number\">50%</span> of your armor penetration rating.",
+        "descriptionText": "Level 40 Passive\nYou now gain spell power equal to 50% of your armor penetration rating."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4208,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Therazane's Blessing",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Allows the periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span>, <span style=\"color: #ffffff; display: inline\">Seismic Crash</span>, and <span style=\"color: #ffffff; display: inline\">Earthquake</span> to critically strike.",
+    "descriptionText": "Level 50 Passive\nAllows the periodic damage dealt by Seismic Tremor, Seismic Crash, and Earthquake to critically strike.",
+    "iconPath": "interface/icons/nhi_scrollofearth_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560156,
+    "spellIds": [
+      560156
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4207
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560156,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Allows the periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span>, <span style=\"color: #ffffff; display: inline\">Seismic Crash</span>, and <span style=\"color: #ffffff; display: inline\">Earthquake</span> to critically strike.",
+        "descriptionText": "Level 50 Passive\nAllows the periodic damage dealt by Seismic Tremor, Seismic Crash, and Earthquake to critically strike."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6257,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Magmatism",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Eruption</span> by <span class=\"item-number\">-15</span> sec and causes <span style=\"color: #FFFFFF; display: inline\">Magma Geodes</span> to deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> more damage to enemies above <span class=\"item-number\">75%</span> health.",
+    "descriptionText": "Reduces the cooldown of Eruption by -15 sec and causes Magma Geodes to deal 30% more damage to enemies above 75% health.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_chaoticspikes_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706174,
+    "spellIds": [
+      706174
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6788
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706174,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Eruption</span> by <span class=\"item-number\">-15</span> sec and causes <span style=\"color: #FFFFFF; display: inline\">Magma Geodes</span> to deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> more damage to enemies above <span class=\"item-number\">75%</span> health.",
+        "descriptionText": "Reduces the cooldown of Eruption by -15 sec and causes Magma Geodes to deal 30% more damage to enemies above 75% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6267,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Cave In",
+    "description": "Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for <span class=\"item-number\">4</span> seconds.<br /><br />Successfully interrupting a target generates <span class=\"item-number\">1</span> stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.",
+    "descriptionText": "Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds.\n\nSuccessfully interrupting a target generates 1 stack of Earthshaping.",
+    "iconPath": "interface/icons/ability_deepwinddunk_dunk",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500615,
+    "spellIds": [
+      500615
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5544,
+      29258,
+      31309
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500615,
+        "description": "Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for <span class=\"item-number\">4</span> seconds.<br /><br />Successfully interrupting a target generates <span class=\"item-number\">1</span> stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.",
+        "descriptionText": "Cave in your target, interrupting spellcasting and preventing any spell in that school from being cast for 4 seconds.\n\nSuccessfully interrupting a target generates 1 stack of Earthshaping."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6303,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Trembling Rage",
+    "description": "Increases the amount of Rage generated by <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span> by <span class=\"item-number\">2</span>.",
+    "descriptionText": "Increases the amount of Rage generated by Seismic Tremor by 2.",
+    "iconPath": "interface/icons/achievement_dungeon_halls_of_origination_earthrager_ptah",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560135,
+    "spellIds": [
+      560135
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6594
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 953231,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560135,
+        "description": "Increases the amount of Rage generated by <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span> by <span class=\"item-number\">2</span>.",
+        "descriptionText": "Increases the amount of Rage generated by Seismic Tremor by 2."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5532,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Nature's Will",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Seismic</span> spells now extends the duration of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> by <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Casting Seismic spells now extends the duration of Earthshaping by 4 sec.",
+    "iconPath": "interface/icons/inv_tradeskillitem_lessersorcerersearth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560140,
+    "spellIds": [
+      560140
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7357
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560140,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Seismic</span> spells now extends the duration of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> by <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Casting Seismic spells now extends the duration of Earthshaping by 4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5544,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Magma Fissure",
+    "description": "Stomp the ground and unleash a wave of earth and stone in a <span class=\"item-number\">20</span> yd line that knocks all enemies to the side and deals <span class=\"item-number\">cond(gt(SPFI, SPN), 684+68.3+SPFI*1, 684+68.3+SPN*1)</span> Fire Damage, piercing absorption effects.<br /><br />Your next spell within <span class=\"item-number\">6</span> seconds is instant cast.",
+    "descriptionText": "Stomp the ground and unleash a wave of earth and stone in a 20 yd line that knocks all enemies to the side and deals cond(gt(SPFI, SPN), 684+68.3+SPFI*1, 684+68.3+SPN*1) Fire Damage, piercing absorption effects.\n\nYour next spell within 6 seconds is instant cast.",
+    "iconPath": "interface/icons/spell_fire_volcano",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802793,
+    "spellIds": [
+      802793
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6303,
+      6578,
+      9453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802793,
+        "description": "Stomp the ground and unleash a wave of earth and stone in a <span class=\"item-number\">20</span> yd line that knocks all enemies to the side and deals <span class=\"item-number\">cond(gt(SPFI, SPN), 684+68.3+SPFI*1, 684+68.3+SPN*1)</span> Fire Damage, piercing absorption effects.<br /><br />Your next spell within <span class=\"item-number\">6</span> seconds is instant cast.",
+        "descriptionText": "Stomp the ground and unleash a wave of earth and stone in a 20 yd line that knocks all enemies to the side and deals cond(gt(SPFI, SPN), 684+68.3+SPFI*1, 684+68.3+SPN*1) Fire Damage, piercing absorption effects.\n\nYour next spell within 6 seconds is instant cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6155,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Volcanic Blast",
+    "description": "Your Nature Damage critical strikes now deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage to the target and enemies nearby.",
+    "descriptionText": "Your Nature Damage critical strikes now deal an additional 10% of the damage dealt as Fire Damage to the target and enemies nearby.",
+    "iconPath": "interface/icons/ability_rhyolith_magmaflow_whole",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680451,
+    "spellIds": [
+      680451,
+      681480
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680451,
+        "description": "Your Nature Damage critical strikes now deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage to the target and enemies nearby.",
+        "descriptionText": "Your Nature Damage critical strikes now deal an additional 10% of the damage dealt as Fire Damage to the target and enemies nearby."
+      },
+      {
+        "rank": 2,
+        "spellId": 681480,
+        "description": "Your Nature Damage critical strikes now deal an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt as Fire Damage to the target and enemies nearby.",
+        "descriptionText": "Your Nature Damage critical strikes now deal an additional 20% of the damage dealt as Fire Damage to the target and enemies nearby."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6788,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Eruption",
+    "description": "Launch <span class=\"item-number\">1</span> <span style=\"color: #FFFFFF; display: inline\">Magma Geode</span> at your target every <span class=\"item-number\">0</span> sec for <span class=\"item-number\">0.2</span> seconds, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 58+240+SPFI*0.2, 58+240+SPN*0.2)</span> Firestorm Damage. <br /><br />Duration increased by <span class=\"item-number\">0.2</span> sec for each stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.",
+    "descriptionText": "Launch 1 Magma Geode at your target every 0 sec for 0.2 seconds, dealing cond(gt(SPFI, SPN), 58+240+SPFI*0.2, 58+240+SPN*0.2) Firestorm Damage. \n\nDuration increased by 0.2 sec for each stack of Earthshaping.",
+    "iconPath": "interface/icons/6bf_blackrock_nova",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802335,
+    "spellIds": [
+      802335
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5193,
+      6593,
+      7543,
+      12543
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802335,
+        "description": "Launch <span class=\"item-number\">1</span> <span style=\"color: #FFFFFF; display: inline\">Magma Geode</span> at your target every <span class=\"item-number\">0</span> sec for <span class=\"item-number\">0.2</span> seconds, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 58+240+SPFI*0.2, 58+240+SPN*0.2)</span> Firestorm Damage. <br /><br />Duration increased by <span class=\"item-number\">0.2</span> sec for each stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.",
+        "descriptionText": "Launch 1 Magma Geode at your target every 0 sec for 0.2 seconds, dealing cond(gt(SPFI, SPN), 58+240+SPFI*0.2, 58+240+SPN*0.2) Firestorm Damage. \n\nDuration increased by 0.2 sec for each stack of Earthshaping."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5193,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Embraced By Earth!",
+    "description": "At the end of the duration of <span style=\"color: #ffffff; display: inline\">Earth's Embrace</span>, you now disorient all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">6</span> seconds. Damage dealt will end the effect.",
+    "descriptionText": "At the end of the duration of Earth's Embrace, you now disorient all enemies within 8 yds for 6 seconds. Damage dealt will end the effect.",
+    "iconPath": "interface/icons/inv_misc_archstone_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561037,
+    "spellIds": [
+      561037
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31309
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 326282,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561037,
+        "description": "At the end of the duration of <span style=\"color: #ffffff; display: inline\">Earth's Embrace</span>, you now disorient all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">6</span> seconds. Damage dealt will end the effect.",
+        "descriptionText": "At the end of the duration of Earth's Embrace, you now disorient all enemies within 8 yds for 6 seconds. Damage dealt will end the effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6578,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Earth Pummeling",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> and <span style=\"color: #ffffff; display: inline\">Geodes</span> to increase the chance for the enemy to be critically hit with spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Damage dealt by Geode Barrage and Geodes to increase the chance for the enemy to be critically hit with spells by 3% for 12 seconds.",
+    "iconPath": "interface/icons/uico_nature_spell_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560182,
+    "spellIds": [
+      560182
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5532,
+      7538
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560182,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> and <span style=\"color: #ffffff; display: inline\">Geodes</span> to increase the chance for the enemy to be critically hit with spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Damage dealt by Geode Barrage and Geodes to increase the chance for the enemy to be critically hit with spells by 3% for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6586,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Dream",
+    "description": "Generating <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> while at or above <span class=\"item-number\">10</span> stacks now grants <span style=\"color: #ffffff; display: inline\">Dream</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_nature_hidden_border\" /><span class=\"name\">Dream</span></div><span class=\"desc\">Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities and <span style=\"color: #ffffff; display: inline\">Lithic Lance</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.</span></div>",
+    "descriptionText": "Generating Earthshaping while at or above 10 stacks now grants Dream.\n\n---\n\nDreamIncreases the critical strike chance of your Seismic abilities and Lithic Lance by 10% for 3 seconds.",
+    "iconPath": "interface/icons/nhi_nature_hidden_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680452,
+    "spellIds": [
+      680452
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7358
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680452,
+        "description": "Generating <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> while at or above <span class=\"item-number\">10</span> stacks now grants <span style=\"color: #ffffff; display: inline\">Dream</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_nature_hidden_border\" /><span class=\"name\">Dream</span></div><span class=\"desc\">Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities and <span style=\"color: #ffffff; display: inline\">Lithic Lance</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.</span></div>",
+        "descriptionText": "Generating Earthshaping while at or above 10 stacks now grants Dream.\n\n---\n\nDreamIncreases the critical strike chance of your Seismic abilities and Lithic Lance by 10% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6587,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Heavy Earth",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Terrasurge</span> now consumes all stacks of <span style=\"color: #ffffff; display: inline\">Earthshaping</span> to grant you <span style=\"color: #ffffff; display: inline\">Heavy Earth</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elementalearth2\" /><span class=\"name\">Heavy Earth (Proc)</span></div><span class=\"desc\">Each stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> consumed grants you <span class=\"item-number\">5%</span> additional damage dealt with <span style=\"color: #ffffff; display: inline\">Stoneshard</span> and <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> as Nature Damage while this is active. Lasts <span class=\"item-number\">8</span> seconds.<br /><br />While active you cannot generate <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.</span></div>",
+    "descriptionText": "Your Terrasurge now consumes all stacks of Earthshaping to grant you Heavy Earth.\n\n---\n\nHeavy Earth (Proc)Each stack of Earthshaping consumed grants you 5% additional damage dealt with Stoneshard and Geode Barrage as Nature Damage while this is active. Lasts 8 seconds.\n\nWhile active you cannot generate Earthshaping.",
+    "iconPath": "interface/icons/inv_elementalearth2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706160,
+    "spellIds": [
+      706160
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6788,
+      7545,
+      30104
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706160,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Terrasurge</span> now consumes all stacks of <span style=\"color: #ffffff; display: inline\">Earthshaping</span> to grant you <span style=\"color: #ffffff; display: inline\">Heavy Earth</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elementalearth2\" /><span class=\"name\">Heavy Earth (Proc)</span></div><span class=\"desc\">Each stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> consumed grants you <span class=\"item-number\">5%</span> additional damage dealt with <span style=\"color: #ffffff; display: inline\">Stoneshard</span> and <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> as Nature Damage while this is active. Lasts <span class=\"item-number\">8</span> seconds.<br /><br />While active you cannot generate <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.</span></div>",
+        "descriptionText": "Your Terrasurge now consumes all stacks of Earthshaping to grant you Heavy Earth.\n\n---\n\nHeavy Earth (Proc)Each stack of Earthshaping consumed grants you 5% additional damage dealt with Stoneshard and Geode Barrage as Nature Damage while this is active. Lasts 8 seconds.\n\nWhile active you cannot generate Earthshaping."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6588,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Stone Tosser",
+    "description": "Increases spell bonus damage scaling of <span style=\"color: #ffffff; display: inline\">Geode Barrage</span>, <span style=\"color: #ffffff; display: inline\">Stoneshard</span>, and <span style=\"color: #ffffff; display: inline\">Seismic Crash</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases spell bonus damage scaling of Geode Barrage, Stoneshard, and Seismic Crash by 25%.",
+    "iconPath": "interface/icons/inv_stone_16",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680862,
+    "spellIds": [
+      680862
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6586,
+      7538
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680862,
+        "description": "Increases spell bonus damage scaling of <span style=\"color: #ffffff; display: inline\">Geode Barrage</span>, <span style=\"color: #ffffff; display: inline\">Stoneshard</span>, and <span style=\"color: #ffffff; display: inline\">Seismic Crash</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases spell bonus damage scaling of Geode Barrage, Stoneshard, and Seismic Crash by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6593,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Cragforming",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Earth's Embrace</span> by <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Increases the duration of Earth's Embrace by 4 sec.",
+    "iconPath": "interface/icons/spell_holy_pureofheart",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560481,
+    "spellIds": [
+      560481
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31309
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 326282,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560481,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Earth's Embrace</span> by <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Increases the duration of Earth's Embrace by 4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6594,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Therazane's Might",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Terrasurge</span> will now always critically strike against targets affected by your <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span>.",
+    "descriptionText": "Your Terrasurge will now always critically strike against targets affected by your Seismic Tremor.",
+    "iconPath": "interface/icons/inv_elemental_mote_nether",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805336,
+    "spellIds": [
+      805336
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7357
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805336,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Terrasurge</span> will now always critically strike against targets affected by your <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span>.",
+        "descriptionText": "Your Terrasurge will now always critically strike against targets affected by your Seismic Tremor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6600,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Stoneskin",
+    "description": "Increases your Armor by <span class=\"item-number\">200</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Increases your Armor by 200% of your Intellect.",
+    "iconPath": "interface/icons/spell_nature_skinofearth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706162,
+    "spellIds": [
+      706162,
+      707809
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7533
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706162,
+        "description": "Increases your Armor by <span class=\"item-number\">200</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Increases your Armor by 200% of your Intellect."
+      },
+      {
+        "rank": 2,
+        "spellId": 707809,
+        "description": "Increases your Armor by <span class=\"item-number\">400</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Increases your Armor by 400% of your Intellect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9207,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Lithic Lance",
+    "description": "$d1",
+    "descriptionText": "$d1",
+    "iconPath": "interface/icons/ability_earthen_pillar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706159,
+    "spellIds": [
+      706159
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4059
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706159,
+        "description": "$d2",
+        "descriptionText": "$d2"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9453,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Everlasting Rage",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span> by <span class=\"item-number\">5</span> sec and its tick rate by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Seismic Tremor by 5 sec and its tick rate by -10%.",
+    "iconPath": "interface/icons/spell_fire_meteorstorm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561190,
+    "spellIds": [
+      561190
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6594
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 953231,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561190,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span> by <span class=\"item-number\">5</span> sec and its tick rate by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Seismic Tremor by 5 sec and its tick rate by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12543,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Tectonic Power",
+    "description": "Increases the duration <span style=\"color: #ffffff; display: inline\">Earthquake</span> by <span class=\"item-number\">3</span> sec and increases its damage dealt by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration Earthquake by 3 sec and increases its damage dealt by 25%.",
+    "iconPath": "interface/icons/spell_nature_abolishmagic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707810,
+    "spellIds": [
+      707810
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7800
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707810,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707810,
+        "description": "Increases the duration <span style=\"color: #ffffff; display: inline\">Earthquake</span> by <span class=\"item-number\">3</span> sec and increases its damage dealt by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration Earthquake by 3 sec and increases its damage dealt by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29258,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Molten Fervor",
+    "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your spell haste by 5%.",
+    "iconPath": "interface/icons/inv_elemental_crystal_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680476,
+    "spellIds": [
+      680476
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6578,
+      6588
+    ],
+    "requiredLevel": 1,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680476,
+        "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your spell haste by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7531,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Rockslide",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Stoneshard</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to cast an additional time.",
+    "descriptionText": "Casting Stoneshard now has a 15% chance to cast an additional time.",
+    "iconPath": "interface/icons/_d3earthquake",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560154,
+    "spellIds": [
+      560154
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7797
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560154,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Stoneshard</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to cast an additional time.",
+        "descriptionText": "Casting Stoneshard now has a 15% chance to cast an additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7532,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Cataclysm",
+    "description": "Generating <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> or casting <span style=\"color: #ffffff; display: inline\">Stoneshard</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities.",
+    "descriptionText": "Generating Earthshaping or casting Stoneshard now has a 10% chance to reset the cooldown of your Seismic abilities.",
+    "iconPath": "interface/icons/spell_sandexplosion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680444,
+    "spellIds": [
+      680444
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7801
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680444,
+        "description": "Generating <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> or casting <span style=\"color: #ffffff; display: inline\">Stoneshard</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities.",
+        "descriptionText": "Generating Earthshaping or casting Stoneshard now has a 10% chance to reset the cooldown of your Seismic abilities."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7533,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Whispers of the Earth",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> and <span style=\"color: #ffffff; display: inline\">Stoneshard</span> by <span class=\"item-number\">0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Geode Barrage and Stoneshard by 0.3 sec.",
+    "iconPath": "interface/icons/spell_shaman_earthlivingweapon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681494,
+    "spellIds": [
+      681494
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7535
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681494,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> and <span style=\"color: #ffffff; display: inline\">Stoneshard</span> by <span class=\"item-number\">0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Geode Barrage and Stoneshard by 0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7535,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Seismic Tremor",
+    "description": "Send a tremor through the earth at an enemy, dealing <span class=\"item-number\">88</span> + <span class=\"item-number\">50% nature SP</span> Physical Damage, plus an additional <span class=\"item-number\">144</span> over <span class=\"item-number\">24</span> seconds. Damage is dealt slowly at first, and builds up over time.<br /><br />Damage dealt generates <span class=\"item-number\">1</span> Rage. <br /><br />Generates <span class=\"item-number\">2</span> stacks of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.<br /><br />",
+    "descriptionText": "Send a tremor through the earth at an enemy, dealing 88 + 50% nature SP Physical Damage, plus an additional 144 over 24 seconds. Damage is dealt slowly at first, and builds up over time.\n\nDamage dealt generates 1 Rage. \n\nGenerates 2 stacks of Earthshaping.",
+    "iconPath": "interface/icons/seismic_tremor",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680442,
+    "spellIds": [
+      680442
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680442,
+        "description": "Send a tremor through the earth at an enemy, dealing <span class=\"item-number\">88</span> + <span class=\"item-number\">50% nature SP</span> Physical Damage, plus an additional <span class=\"item-number\">144</span> over <span class=\"item-number\">24</span> seconds. Damage is dealt slowly at first, and builds up over time.<br /><br />Damage dealt generates <span class=\"item-number\">1</span> Rage. <br /><br />Generates <span class=\"item-number\">2</span> stacks of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.<br /><br />",
+        "descriptionText": "Send a tremor through the earth at an enemy, dealing 88 + 50% nature SP Physical Damage, plus an additional 144 over 24 seconds. Damage is dealt slowly at first, and builds up over time.\n\nDamage dealt generates 1 Rage. \n\nGenerates 2 stacks of Earthshaping."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7537,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Cave Dweller",
+    "description": "Increases your maximum Rage by <span class=\"item-number\">15</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum Rage by 15 and reduces spell pushback suffered from damaging attacks by 50%.",
+    "iconPath": "interface/icons/inv_shoulder_leather_pvpdruid_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 574314,
+    "spellIds": [
+      574314,
+      574361
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5544
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574314,
+        "description": "Increases your maximum Rage by <span class=\"item-number\">15</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum Rage by 15 and reduces spell pushback suffered from damaging attacks by 50%."
+      },
+      {
+        "rank": 2,
+        "spellId": 574361,
+        "description": "Increases your maximum Rage by <span class=\"item-number\">30</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum Rage by 30 and reduces spell pushback suffered from damaging attacks by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7538,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Golem Form",
+    "description": "Transform into a being made of stone and earth for <span class=\"item-number\">20</span> seconds, increasing your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your Armor by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, and allowing you to cast damaging spells while moving.",
+    "descriptionText": "Transform into a being made of stone and earth for 20 seconds, increasing your haste by 20% and your Armor by 50%, and allowing you to cast damaging spells while moving.",
+    "iconPath": "interface/icons/nhi_nature_shapeshift_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805335,
+    "spellIds": [
+      805335
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7357,
+      7358,
+      7531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805335,
+        "description": "Transform into a being made of stone and earth for <span class=\"item-number\">20</span> seconds, increasing your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your Armor by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, and allowing you to cast damaging spells while moving.",
+        "descriptionText": "Transform into a being made of stone and earth for 20 seconds, increasing your haste by 20% and your Armor by 50%, and allowing you to cast damaging spells while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7543,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Tectonic Resonance",
+    "description": "Increases the amount that <span style=\"color: #ffffff; display: inline\">Earthquake</span> slows enemies by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the amount that Earthquake slows enemies by -30%.",
+    "iconPath": "interface/icons/nhi_earthshock_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707173,
+    "spellIds": [
+      707173
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7800
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707810,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707173,
+        "description": "Increases the amount that <span style=\"color: #ffffff; display: inline\">Earthquake</span> slows enemies by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the amount that Earthquake slows enemies by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7545,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Geomolding",
+    "description": "Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span> now grants <span style=\"color: #ffffff; display: inline\">Geomolding</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_earth\" /><span class=\"name\">Geomolding (Proc)</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Terrasurge</span> costs <span class=\"item-number\">2</span> additional Rage and deals <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased damage. Stacks <span class=\"item-number\">20</span> times.</span></div>",
+    "descriptionText": "Periodic damage dealt by Seismic Tremor now grants Geomolding for 15 seconds.\n\n---\n\nGeomolding (Proc)Your next Terrasurge costs 2 additional Rage and deals 3% increased damage. Stacks 20 times.",
+    "iconPath": "interface/icons/inv_elemental_primal_earth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560169,
+    "spellIds": [
+      560169
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2386,
+      7537
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560169,
+        "description": "Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic Tremor</span> now grants <span style=\"color: #ffffff; display: inline\">Geomolding</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_earth\" /><span class=\"name\">Geomolding (Proc)</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Terrasurge</span> costs <span class=\"item-number\">2</span> additional Rage and deals <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased damage. Stacks <span class=\"item-number\">20</span> times.</span></div>",
+        "descriptionText": "Periodic damage dealt by Seismic Tremor now grants Geomolding for 15 seconds.\n\n---\n\nGeomolding (Proc)Your next Terrasurge costs 2 additional Rage and deals 3% increased damage. Stacks 20 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7547,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Rupturer",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic Spike</span> or <span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now generates a stack of <span style=\"color: #ffffff; display: inline\">Geomolding</span>. <br /><br />Critically striking with <span style=\"color: #FFFFFF; display: inline\">Seismic Spike</span> or <span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now generates an additional stack of <span style=\"color: #FFFFFF; display: inline\">Geomolding</span> plus a stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Lithic Lance</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Terrasurge</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Damage dealt by Seismic Spike or Seismic Crash now generates a stack of Geomolding. \n\nCritically striking with Seismic Spike or Seismic Crash now generates an additional stack of Geomolding plus a stack of Earthshaping.\n\nCasting Lithic Lance now reduces the cooldown of Terrasurge by -4 sec.",
+    "iconPath": "interface/icons/inv_ascend_stone_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706208,
+    "spellIds": [
+      706208
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7545
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706208,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic Spike</span> or <span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now generates a stack of <span style=\"color: #ffffff; display: inline\">Geomolding</span>. <br /><br />Critically striking with <span style=\"color: #FFFFFF; display: inline\">Seismic Spike</span> or <span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now generates an additional stack of <span style=\"color: #FFFFFF; display: inline\">Geomolding</span> plus a stack of <span style=\"color: #c6a36a; display: inline\">Earthshaping</span>.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Lithic Lance</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Terrasurge</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Damage dealt by Seismic Spike or Seismic Crash now generates a stack of Geomolding. \n\nCritically striking with Seismic Spike or Seismic Crash now generates an additional stack of Geomolding plus a stack of Earthshaping.\n\nCasting Lithic Lance now reduces the cooldown of Terrasurge by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7357,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "One With The Earth",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Stoneshard</span> now restores <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Damage dealt by Stoneshard now restores 4% of your maximum mana.",
+    "iconPath": "interface/icons/inv_offhand_1h_artifactdoomhammer_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704402,
+    "spellIds": [
+      704402
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7532,
+      7797
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704402,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Stoneshard</span> now restores <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Damage dealt by Stoneshard now restores 4% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7358,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Primal Shaman's Mask",
+    "description": "Direct damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to launch a <span style=\"color: #ffffff; display: inline\">Geode</span> at the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 uico_nature_spell_01_border\" /><span class=\"name\">Geode</span></div><span class=\"desc\">Hurl an enchanted stone at the target, dealing <span class=\"item-number\">173</span> + <span class=\"item-number\">34.9% SP</span> + <span class=\"item-number\">8.5% AP</span> Physical Damage and generating <span class=\"item-number\">5</span> Rage.</span></div>.",
+    "descriptionText": "Direct damage dealt now has a 10% chance to launch a Geode at the enemy.\n\n---\n\nGeodeHurl an enchanted stone at the target, dealing 173 + 34.9% SP + 8.5% AP Physical Damage and generating 5 Rage..",
+    "iconPath": "interface/icons/inv_helm_mask_zulgurub_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800185,
+    "spellIds": [
+      800185
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6600,
+      7797
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800185,
+        "description": "Direct damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to launch a <span style=\"color: #ffffff; display: inline\">Geode</span> at the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 uico_nature_spell_01_border\" /><span class=\"name\">Geode</span></div><span class=\"desc\">Hurl an enchanted stone at the target, dealing <span class=\"item-number\">173</span> + <span class=\"item-number\">34.9% SP</span> + <span class=\"item-number\">8.5% AP</span> Physical Damage and generating <span class=\"item-number\">5</span> Rage.</span></div>.",
+        "descriptionText": "Direct damage dealt now has a 10% chance to launch a Geode at the enemy.\n\n---\n\nGeodeHurl an enchanted stone at the target, dealing 173 + 34.9% SP + 8.5% AP Physical Damage and generating 5 Rage.."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7797,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Terrasurge",
+    "description": "Unleash a massive globule of earth at an enemy, dealing <span class=\"item-number\">163</span> + <span class=\"item-number\">130% nature SP</span> Physical Damage and reducing their Armor by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">0</span> to <span class=\"item-number\">0</span> sec.<br /><br />Pierces through absorption, deflection, and reflection effects.<br /><br />Deals <span class=\"item-number\">5</span><span class=\"item-number\">%</span> additional damage for each <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> stack.",
+    "descriptionText": "Unleash a massive globule of earth at an enemy, dealing 163 + 130% nature SP Physical Damage and reducing their Armor by -50% for 0 to 0 sec.\n\nPierces through absorption, deflection, and reflection effects.\n\nDeals 5% additional damage for each Earthshaping stack.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_earth_icon_0003s_0000_light_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681119,
+    "spellIds": [
+      681119
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7533,
+      7801
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681119,
+        "description": "Unleash a massive globule of earth at an enemy, dealing <span class=\"item-number\">163</span> + <span class=\"item-number\">130% nature SP</span> Physical Damage and reducing their Armor by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">0</span> to <span class=\"item-number\">0</span> sec.<br /><br />Pierces through absorption, deflection, and reflection effects.<br /><br />Deals <span class=\"item-number\">5</span><span class=\"item-number\">%</span> additional damage for each <span style=\"color: #c6a36a; display: inline\">Earthshaping</span> stack.",
+        "descriptionText": "Unleash a massive globule of earth at an enemy, dealing 163 + 130% nature SP Physical Damage and reducing their Armor by -50% for 0 to 0 sec.\n\nPierces through absorption, deflection, and reflection effects.\n\nDeals 5% additional damage for each Earthshaping stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7800,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Cracking the Earth",
+    "description": "Striking at least <span class=\"item-number\">5</span> enemies with <span style=\"color: #ffffff; display: inline\">Volcanic Blast</span> now grants you <span style=\"color: #ffffff; display: inline\">Cracking the Earth</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shaman_lavaflow\" /><span class=\"name\">Cracking the Earth (Proc)</span></div><span class=\"desc\">Your <span style=\"color: #FFFFFF; display: inline\">Seismic Spike</span> strikes <span class=\"item-number\">1</span> additional enemy. Stacks <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Striking at least 5 enemies with Volcanic Blast now grants you Cracking the Earth for 10 seconds.\n\n---\n\nCracking the Earth (Proc)Your Seismic Spike strikes 1 additional enemy. Stacks 5 times.",
+    "iconPath": "interface/icons/spell_shaman_lavaflow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560145,
+    "spellIds": [
+      560145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6155
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560145,
+        "description": "Striking at least <span class=\"item-number\">5</span> enemies with <span style=\"color: #ffffff; display: inline\">Volcanic Blast</span> now grants you <span style=\"color: #ffffff; display: inline\">Cracking the Earth</span> for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shaman_lavaflow\" /><span class=\"name\">Cracking the Earth (Proc)</span></div><span class=\"desc\">Your <span style=\"color: #FFFFFF; display: inline\">Seismic Spike</span> strikes <span class=\"item-number\">1</span> additional enemy. Stacks <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Striking at least 5 enemies with Volcanic Blast now grants you Cracking the Earth for 10 seconds.\n\n---\n\nCracking the Earth (Proc)Your Seismic Spike strikes 1 additional enemy. Stacks 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7801,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Gaze of Therazane",
+    "description": "Increases the range of your Geomancy spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and of <span style=\"color: #FFFFFF; display: inline\">Seismic</span> spells by <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Increases the range of your Geomancy spells by 20% and of Seismic spells by 10 yds.",
+    "iconPath": "interface/icons/nhi_naturevision_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680453,
+    "spellIds": [
+      680453
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7535
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680453,
+        "description": "Increases the range of your Geomancy spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and of <span style=\"color: #FFFFFF; display: inline\">Seismic</span> spells by <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Increases the range of your Geomancy spells by 20% and of Seismic spells by 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9999,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Cave Dweller",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your armor penetration rating by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 30 Passive\nIncreases your armor penetration rating by 50% of your Intellect.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_earth_icon_0001s_0000_dust_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560167,
+    "spellIds": [
+      560167
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9207
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560167,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your armor penetration rating by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 30 Passive\nIncreases your armor penetration rating by 50% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31309,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Earth's Embrace",
+    "description": "Encapsulate your body in amber, becoming immune to all Physical attacks and spells for <span class=\"item-number\">8</span> seconds, and healing you for <span class=\"item-number\">378</span> + <span class=\"item-number\">50% SP</span> every <span class=\"item-number\">2</span> sec, but making you unable to move or act.<br /><br />Usable while stunned, feared, or polymorphed.",
+    "descriptionText": "Encapsulate your body in amber, becoming immune to all Physical attacks and spells for 8 seconds, and healing you for 378 + 50% SP every 2 sec, but making you unable to move or act.\n\nUsable while stunned, feared, or polymorphed.",
+    "iconPath": "interface/icons/custom_amber_stone_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806143,
+    "spellIds": [
+      806143
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6588,
+      7800
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806143,
+        "description": "Encapsulate your body in amber, becoming immune to all Physical attacks and spells for <span class=\"item-number\">8</span> seconds, and healing you for <span class=\"item-number\">378</span> + <span class=\"item-number\">50% SP</span> every <span class=\"item-number\">2</span> sec, but making you unable to move or act.<br /><br />Usable while stunned, feared, or polymorphed.",
+        "descriptionText": "Encapsulate your body in amber, becoming immune to all Physical attacks and spells for 8 seconds, and healing you for 378 + 50% SP every 2 sec, but making you unable to move or act.\n\nUsable while stunned, feared, or polymorphed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30104,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 83,
+    "tabKey": "31:83",
+    "tabName": "Geomancy",
+    "name": "Journey To The Core",
+    "description": "$d3",
+    "descriptionText": "$d3",
+    "iconPath": "interface/icons/ability_rhyolith_lavapool",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560510,
+    "spellIds": [
+      560510
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5193,
+      6267,
+      6593,
+      7537
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560510,
+        "description": "$d4",
+        "descriptionText": "$d4"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

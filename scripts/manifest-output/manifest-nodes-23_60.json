@@ -1,0 +1,1863 @@
+[
+  {
+    "nodeId": 4035,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Tundra Warriors",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Casting any spell now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Tundra Warriors</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_bladeofjusticeblue\" /><span class=\"name\">Tundra Warriors (Proc)</span></div><span class=\"desc\">For <span class=\"item-number\">10</span> seconds, the critical strike chance of your Undead minions is increased by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times.</span></div>",
+    "descriptionText": "Level 10 Passive\nCasting any spell now has a 25% chance to grant you Tundra Warriors.\n\n---\n\nTundra Warriors (Proc)For 10 seconds, the critical strike chance of your Undead minions is increased by 4%, stacking 3 times.",
+    "iconPath": "interface/icons/wc3lichoriginal",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92122,
+    "spellIds": [
+      92122
+    ],
+    "requiredNodeIds": [
+      29787
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92122,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Casting any spell now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Tundra Warriors</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_bladeofjusticeblue\" /><span class=\"name\">Tundra Warriors (Proc)</span></div><span class=\"desc\">For <span class=\"item-number\">10</span> seconds, the critical strike chance of your Undead minions is increased by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times.</span></div>",
+        "descriptionText": "Level 10 Passive\nCasting any spell now has a 25% chance to grant you Tundra Warriors.\n\n---\n\nTundra Warriors (Proc)For 10 seconds, the critical strike chance of your Undead minions is increased by 4%, stacking 3 times."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6891,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Necrotic Chains",
+    "description": "Every 3rd <span style=\"color: #90ee90; display: inline\">Command</span> spell now freezes the target in place for <span class=\"item-number\">5</span> seconds. Damage dealt may end this effect.",
+    "descriptionText": "Every 3rd Command spell now freezes the target in place for 5 seconds. Damage dealt may end this effect.",
+    "iconPath": "interface/icons/achievement_boss_lichking",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801733,
+    "spellIds": [
+      801733
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33725,
+      34978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 803797,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801733,
+        "description": "Every 3rd <span style=\"color: #90ee90; display: inline\">Command</span> spell now freezes the target in place for <span class=\"item-number\">5</span> seconds. Damage dealt may end this effect.",
+        "descriptionText": "Every 3rd Command spell now freezes the target in place for 5 seconds. Damage dealt may end this effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6892,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Raising the Kirin Tor",
+    "description": "Your <span style=\"color: #90ee90; display: inline\">Command</span> spells now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund a portion of their Runic Power cost.",
+    "descriptionText": "Your Command spells now have a 40% chance to refund a portion of their Runic Power cost.",
+    "iconPath": "interface/icons/spell_nature_brilliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805649,
+    "spellIds": [
+      805649
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30617,
+      33723
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805649,
+        "description": "Your <span style=\"color: #90ee90; display: inline\">Command</span> spells now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund a portion of their Runic Power cost.",
+        "descriptionText": "Your Command spells now have a 40% chance to refund a portion of their Runic Power cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6893,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Glacial Impact",
+    "description": "<span style=\"color: #3399ff; display: inline\">Requires Frozen Target</span><br />Call down icy boulders onto a <span style=\"color: #3399ff; display: inline\">Frozen</span> enemy, dealing <span class=\"item-number\">74</span> + <span class=\"item-number\">100% frost SP</span> Frost Damage.<br /><br />",
+    "descriptionText": "Requires Frozen Target\nCall down icy boulders onto a Frozen enemy, dealing 74 + 100% frost SP Frost Damage.",
+    "iconPath": "interface/icons/skill_icon_skill23_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704355,
+    "spellIds": [
+      704355
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6901
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704355,
+        "description": "<span style=\"color: #3399ff; display: inline\">Requires Frozen Target</span><br />Call down icy boulders onto a <span style=\"color: #3399ff; display: inline\">Frozen</span> enemy, dealing <span class=\"item-number\">74</span> + <span class=\"item-number\">100% frost SP</span> Frost Damage.<br /><br />",
+        "descriptionText": "Requires Frozen Target\nCall down icy boulders onto a Frozen enemy, dealing 74 + 100% frost SP Frost Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6900,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Champion of Kel'Thuzad",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skeletal Mages</span> now only cost <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.",
+    "descriptionText": "Your Skeletal Mages now only cost 1 Life Force.",
+    "iconPath": "interface/icons/spell_deathknight_mindfreeze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807937,
+    "spellIds": [
+      807937
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6892
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807937,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skeletal Mages</span> now only cost <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.",
+        "descriptionText": "Your Skeletal Mages now only cost 1 Life Force."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6901,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Refreshing Chill",
+    "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> and make your cast next within <span class=\"item-number\">8</span> seconds free of cost.",
+    "descriptionText": "Casting Command spells now has a 20% chance to reset the cooldown of Ice Barrage and make your cast next within 8 seconds free of cost.",
+    "iconPath": "interface/icons/5_mageskill32_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300940,
+    "spellIds": [
+      300940
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31185
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300940,
+        "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> and make your cast next within <span class=\"item-number\">8</span> seconds free of cost.",
+        "descriptionText": "Casting Command spells now has a 20% chance to reset the cooldown of Ice Barrage and make your cast next within 8 seconds free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7213,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Frigid Winds",
+    "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Refreshing Chill</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger Refreshing Chill by 5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_icewave_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504357,
+    "spellIds": [
+      504357
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6901
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 988800,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504357,
+        "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Refreshing Chill</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Refreshing Chill by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7214,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Heartchill",
+    "description": "Chill an enemy's heart, interrupting their current spell cast.<br /><br />Successfully interrupting a spell also reduces their movement speed and haste by <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Chill an enemy's heart, interrupting their current spell cast.\n\nSuccessfully interrupting a spell also reduces their movement speed and haste by -80% for 3 seconds.",
+    "iconPath": "interface/icons/ability_deathknight_heartstopaura",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801739,
+    "spellIds": [
+      801739
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33725
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801739,
+        "description": "Chill an enemy's heart, interrupting their current spell cast.<br /><br />Successfully interrupting a spell also reduces their movement speed and haste by <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Chill an enemy's heart, interrupting their current spell cast.\n\nSuccessfully interrupting a spell also reduces their movement speed and haste by -80% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4436,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Ice Mastery",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell power by 30% of your Intellect.",
+    "iconPath": "interface/icons/_auracloak_ice",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560045,
+    "spellIds": [
+      560045
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4035
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560045,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell power by 30% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4437,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Frozen Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your critical damage with Frost spells by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 30 Passive\nIncreases your critical damage with Frost spells by 50%.",
+    "iconPath": "interface/icons/custom_t_iceskull_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301303,
+    "spellIds": [
+      301303
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4436
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301303,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your critical damage with Frost spells by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 30 Passive\nIncreases your critical damage with Frost spells by 50%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4438,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Lich Form",
+    "description": "Transform into a <span style=\"color: #FFFFFF; display: inline\">Lich</span>, becoming Undead increasing your Frost Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />While active you generate <span class=\"item-number\">3</span> Runic Power every <span class=\"item-number\">5</span> sec.<br /><br />",
+    "descriptionText": "Transform into a Lich, becoming Undead increasing your Frost Damage dealt by 10%.\n\nWhile active you generate 3 Runic Power every 5 sec.",
+    "iconPath": "interface/icons/achievement_boss_amnennar_the_coldbringer",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500981,
+    "spellIds": [
+      500981
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4437
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500981,
+        "description": "Transform into a <span style=\"color: #FFFFFF; display: inline\">Lich</span>, becoming Undead increasing your Frost Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />While active you generate <span class=\"item-number\">3</span> Runic Power every <span class=\"item-number\">5</span> sec.<br /><br />",
+        "descriptionText": "Transform into a Lich, becoming Undead increasing your Frost Damage dealt by 10%.\n\nWhile active you generate 3 Runic Power every 5 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4615,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Blood and Ice",
+    "description": "Each <span style=\"color: #ffffff; display: inline\">Skeletal Warrior</span> or <span style=\"color: #ffffff; display: inline\">Skeletal Rogue</span> now increases the damage of your <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each Skeletal Warrior or Skeletal Rogue now increases the damage of your Ice Barrage by 8%.",
+    "iconPath": "interface/icons/inv_misc_herb_frostweedbranch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561164,
+    "spellIds": [
+      561164
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30599,
+      30622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 782311,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561164,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Skeletal Warrior</span> or <span style=\"color: #ffffff; display: inline\">Skeletal Rogue</span> now increases the damage of your <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Skeletal Warrior or Skeletal Rogue now increases the damage of your Ice Barrage by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5605,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Frigid Death",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Glacial Impact by 20%.",
+    "iconPath": "interface/icons/spell_ice_lament",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560851,
+    "spellIds": [
+      560851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6893
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 362123,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560851,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Glacial Impact by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5892,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Army of the North",
+    "description": "Chant a powerful ritual that brings forth <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Rotting Frost Giant</span> near you to aid you in combat for <span class=\"item-number\">30</span> seconds and generate <span class=\"item-number\">30</span> Runic Power, repeating every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">15</span> seconds.<br /><br />For the duration, your Undead minions are guaranteed to critically strike.",
+    "descriptionText": "Chant a powerful ritual that brings forth 1 Rotting Frost Giant near you to aid you in combat for 30 seconds and generate 30 Runic Power, repeating every 3 sec for 15 seconds.\n\nFor the duration, your Undead minions are guaranteed to critically strike.",
+    "iconPath": "interface/icons/nhi_frost_runedweapon_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561138,
+    "spellIds": [
+      561138
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6892,
+      29317,
+      30620
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561138,
+        "description": "Chant a powerful ritual that brings forth <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Rotting Frost Giant</span> near you to aid you in combat for <span class=\"item-number\">30</span> seconds and generate <span class=\"item-number\">30</span> Runic Power, repeating every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">15</span> seconds.<br /><br />For the duration, your Undead minions are guaranteed to critically strike.",
+        "descriptionText": "Chant a powerful ritual that brings forth 1 Rotting Frost Giant near you to aid you in combat for 30 seconds and generate 30 Runic Power, repeating every 3 sec for 15 seconds.\n\nFor the duration, your Undead minions are guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6488,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Hoarfrost Hands",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Lichfrost's</span> movement speed slow by <span class=\"item-number\">4</span> sec and your hit chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Lichfrost's movement speed slow by 4 sec and your hit chance by 4%.",
+    "iconPath": "interface/icons/call_of_the_sepulcher_64x64",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803291,
+    "spellIds": [
+      803291
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6893
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803291,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Lichfrost's</span> movement speed slow by <span class=\"item-number\">4</span> sec and your hit chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Lichfrost's movement speed slow by 4 sec and your hit chance by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8100,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Arch Lich",
+    "description": "Critical strikes with Frost spells now refund <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Critical strikes with Frost spells now refund 3% of your maximum mana.",
+    "iconPath": "interface/icons/inv_misc_food_109_honeylichen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707588,
+    "spellIds": [
+      707588
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29772,
+      30619
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707588,
+        "description": "Critical strikes with Frost spells now refund <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Critical strikes with Frost spells now refund 3% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12212,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Command: Bonefreeze",
+    "description": "Command your <span style=\"color: #ffffff; display: inline\">Skeletal Mages</span> to freeze enemies within <span class=\"item-number\">8</span> yds at target location for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players). Damage taken may end the effect.<br /><br />",
+    "descriptionText": "Command your Skeletal Mages to freeze enemies within 8 yds at target location for 40 seconds (8 sec vs players). Damage taken may end the effect.",
+    "iconPath": "interface/icons/spell_shadow_darkritual",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504489,
+    "spellIds": [
+      504489
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504489,
+        "description": "Command your <span style=\"color: #ffffff; display: inline\">Skeletal Mages</span> to freeze enemies within <span class=\"item-number\">8</span> yds at target location for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players). Damage taken may end the effect.<br /><br />",
+        "descriptionText": "Command your Skeletal Mages to freeze enemies within 8 yds at target location for 40 seconds (8 sec vs players). Damage taken may end the effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12891,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Ner'zhuls Blessing",
+    "description": "Every 3rd <span style=\"color: #90ee90; display: inline\">Command</span> spell now makes your next <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> within <span class=\"item-number\">10</span> seconds guaranteed to critically strike.",
+    "descriptionText": "Every 3rd Command spell now makes your next Lichfrost within 10 seconds guaranteed to critically strike.",
+    "iconPath": "interface/icons/ability_mage_freeze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803797,
+    "spellIds": [
+      803797
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33725,
+      34978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 803797,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803797,
+        "description": "Every 3rd <span style=\"color: #90ee90; display: inline\">Command</span> spell now makes your next <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> within <span class=\"item-number\">10</span> seconds guaranteed to critically strike.",
+        "descriptionText": "Every 3rd Command spell now makes your next Lichfrost within 10 seconds guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11438,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Champion of Kel'thuzad",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />While your <span style=\"color: #ffffff; display: inline\">Lich Form</span> is active, your <span style=\"color: #ffffff; display: inline\">Champion</span> spells will now cooldown faster.",
+    "descriptionText": "Level 50 Passive\nWhile your Lich Form is active, your Champion spells will now cooldown faster.",
+    "iconPath": "interface/icons/uico_frost_spell_06_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704676,
+    "spellIds": [
+      704676
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4438
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704676,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />While your <span style=\"color: #ffffff; display: inline\">Lich Form</span> is active, your <span style=\"color: #ffffff; display: inline\">Champion</span> spells will now cooldown faster.",
+        "descriptionText": "Level 50 Passive\nWhile your Lich Form is active, your Champion spells will now cooldown faster."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19778,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Frozen Bodies",
+    "description": "When you kill an enemy that yields experience or honor or critically strike with Frost Damage you now gain a stack of <span style=\"color: #ffffff; display: inline\">Frozen Bodies</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_senseundead\" /><span class=\"name\">Frozen Bodies</span></div><span class=\"desc\">Increases the damage of your next <span style=\"color: #FFFFFF; display: inline\">Glacial Impact</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Reaching <span class=\"item-number\">10</span> stacks causes your next <span style=\"color: #FFFFFF; display: inline\">Glacial Impact</span> within until cancelled to critically strike for <span class=\"item-number\">50%</span> increased damage.</span></div>",
+    "descriptionText": "When you kill an enemy that yields experience or honor or critically strike with Frost Damage you now gain a stack of Frozen Bodies.\n\n---\n\nFrozen BodiesIncreases the damage of your next Glacial Impact by 3% for 20 seconds, stacking 10 times.\n\nReaching 10 stacks causes your next Glacial Impact within until cancelled to critically strike for 50% increased damage.",
+    "iconPath": "interface/icons/spell_holy_senseundead",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707562,
+    "spellIds": [
+      707562
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29779,
+      30599
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707562,
+        "description": "When you kill an enemy that yields experience or honor or critically strike with Frost Damage you now gain a stack of <span style=\"color: #ffffff; display: inline\">Frozen Bodies</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_senseundead\" /><span class=\"name\">Frozen Bodies</span></div><span class=\"desc\">Increases the damage of your next <span style=\"color: #FFFFFF; display: inline\">Glacial Impact</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Reaching <span class=\"item-number\">10</span> stacks causes your next <span style=\"color: #FFFFFF; display: inline\">Glacial Impact</span> within until cancelled to critically strike for <span class=\"item-number\">50%</span> increased damage.</span></div>",
+        "descriptionText": "When you kill an enemy that yields experience or honor or critically strike with Frost Damage you now gain a stack of Frozen Bodies.\n\n---\n\nFrozen BodiesIncreases the damage of your next Glacial Impact by 3% for 20 seconds, stacking 10 times.\n\nReaching 10 stacks causes your next Glacial Impact within until cancelled to critically strike for 50% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29317,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Soulfreeze",
+    "description": "All Frost Damage you deal to <span style=\"color: #3399ff; display: inline\">Frozen</span> targets now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #FFFFFF; display: inline\">Soulfreeze</span> on them.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_mage_rayoffrost\" /><span class=\"name\">Soulfreeze</span></div><span class=\"desc\">Launch a chain of frost at an enemy, dealing <span class=\"item-number\">366</span> + <span class=\"item-number\">35% frost SP</span> Frost Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<br /><br />Each tick generates <span class=\"item-number\">2</span> to <span class=\"item-number\">5</span> Runic Power.</span></div>",
+    "descriptionText": "All Frost Damage you deal to Frozen targets now has a 25% chance to unleash Soulfreeze on them.\n\n---\n\nSoulfreezeLaunch a chain of frost at an enemy, dealing 366 + 35% frost SP Frost Damage every 1 sec for 3 seconds.\n\nEach tick generates 2 to 5 Runic Power.",
+    "iconPath": "interface/icons/ability_mage_rayoffrost",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572023,
+    "spellIds": [
+      572023
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8100,
+      33723
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572023,
+        "description": "All Frost Damage you deal to <span style=\"color: #3399ff; display: inline\">Frozen</span> targets now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #FFFFFF; display: inline\">Soulfreeze</span> on them.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_mage_rayoffrost\" /><span class=\"name\">Soulfreeze</span></div><span class=\"desc\">Launch a chain of frost at an enemy, dealing <span class=\"item-number\">366</span> + <span class=\"item-number\">35% frost SP</span> Frost Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<br /><br />Each tick generates <span class=\"item-number\">2</span> to <span class=\"item-number\">5</span> Runic Power.</span></div>",
+        "descriptionText": "All Frost Damage you deal to Frozen targets now has a 25% chance to unleash Soulfreeze on them.\n\n---\n\nSoulfreezeLaunch a chain of frost at an enemy, dealing 366 + 35% frost SP Frost Damage every 1 sec for 3 seconds.\n\nEach tick generates 2 to 5 Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33720,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Runic Reservoir",
+    "description": "Increases your Frost Damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your maximum Runic Power by <span class=\"item-number\">15</span>.",
+    "descriptionText": "Increases your Frost Damage by 3% and your maximum Runic Power by 15.",
+    "iconPath": "interface/icons/inv_misc_frostemblem_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704670,
+    "spellIds": [
+      704670,
+      803850
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6893,
+      7213,
+      34976
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704670,
+        "description": "Increases your Frost Damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your maximum Runic Power by <span class=\"item-number\">15</span>.",
+        "descriptionText": "Increases your Frost Damage by 3% and your maximum Runic Power by 15."
+      },
+      {
+        "rank": 2,
+        "spellId": 803850,
+        "description": "Increases your Frost Damage by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and your maximum Runic Power by <span class=\"item-number\">30</span>.",
+        "descriptionText": "Increases your Frost Damage by 6% and your maximum Runic Power by 30."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33723,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Chilling Presence",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases the critical strike chance of Ice Barrage by 20% against Frozen targets.",
+    "iconPath": "interface/icons/spell_deathknight_iceboundfortitude",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300958,
+    "spellIds": [
+      300958
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4615,
+      19778,
+      29772,
+      30355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300958,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases the critical strike chance of Ice Barrage by 20% against Frozen targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33725,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Bone Legion",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Lichfrost by 10%.",
+    "iconPath": "interface/icons/novart_physical_ability_(38)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707006,
+    "spellIds": [
+      707006,
+      707881
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7213,
+      34976
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707006,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Lichfrost by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707881,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Lichfrost by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33731,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Frigid Power",
+    "description": "Increases the spell power scaling of <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> and <span style=\"color: #FFFFFF; display: inline\">Ice Barrage</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Lichfrost and Ice Barrage by 20%.",
+    "iconPath": "interface/icons/spell_frost_frostbolt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560620,
+    "spellIds": [
+      560620
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29773,
+      30621
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560620,
+        "description": "Increases the spell power scaling of <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> and <span style=\"color: #FFFFFF; display: inline\">Ice Barrage</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Lichfrost and Ice Barrage by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33738,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Master Lich",
+    "description": "<span style=\"color: #ffffff; display: inline\">Soulfreeze</span> now increases the enemy's Frost Damage taken by you by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> per tick for <span class=\"item-number\">5</span> sec, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Soulfreeze now increases the enemy's Frost Damage taken by you by 5% per tick for 5 sec, stacking 3 times.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_frost_0000s_0000_figure_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560848,
+    "spellIds": [
+      560848
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29317
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560848,
+        "description": "<span style=\"color: #ffffff; display: inline\">Soulfreeze</span> now increases the enemy's Frost Damage taken by you by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> per tick for <span class=\"item-number\">5</span> sec, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Soulfreeze now increases the enemy's Frost Damage taken by you by 5% per tick for 5 sec, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30355,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Death and Ice",
+    "description": "While a <span style=\"color: #ffffff; display: inline\">Skeletal Mage</span> is active the critical strike chance of your Undead minions is now increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While a Skeletal Mage is active the critical strike chance of your Undead minions is now increased by 10%.",
+    "iconPath": "interface/icons/ability_mage_frostjaw",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560012,
+    "spellIds": [
+      560012
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30599,
+      30622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 782311,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560012,
+        "description": "While a <span style=\"color: #ffffff; display: inline\">Skeletal Mage</span> is active the critical strike chance of your Undead minions is now increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a Skeletal Mage is active the critical strike chance of your Undead minions is now increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30599,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Dominion of Frost",
+    "description": "Critical strikes dealt by your Undead minions now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Unholy Frenzy</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Critical strikes dealt by your Undead minions now reduce the cooldown of Unholy Frenzy by -2 sec.",
+    "iconPath": "interface/icons/spell_frost_freezingbreath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 537208,
+    "spellIds": [
+      537208
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29778
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 537208,
+        "description": "Critical strikes dealt by your Undead minions now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Unholy Frenzy</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Critical strikes dealt by your Undead minions now reduce the cooldown of Unholy Frenzy by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30605,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Freeze Dry",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> now generates <span class=\"item-number\">20</span> Runic Power.",
+    "descriptionText": "Your Glacial Impact now generates 20 Runic Power.",
+    "iconPath": "interface/icons/ability_mage_coldasice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704680,
+    "spellIds": [
+      704680
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6893
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 362123,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704680,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> now generates <span class=\"item-number\">20</span> Runic Power.",
+        "descriptionText": "Your Glacial Impact now generates 20 Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30617,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Crown's Call",
+    "description": "Increases your Intellect by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and the Frost Damage dealt by your Undead minions by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Intellect by 5% and the Frost Damage dealt by your Undead minions by 10%.",
+    "iconPath": "interface/icons/expansionicon_wrathofthelichking",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 805429,
+    "spellIds": [
+      805429,
+      807924
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4615,
+      12212,
+      30355
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805429,
+        "description": "Increases your Intellect by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and the Frost Damage dealt by your Undead minions by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect by 5% and the Frost Damage dealt by your Undead minions by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807924,
+        "description": "Increases your Intellect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and the Frost Damage dealt by your Undead minions by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect by 10% and the Frost Damage dealt by your Undead minions by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30619,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Deathly Chill",
+    "description": "Reduces the channel time of <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the channel time of Ice Barrage by -25%.",
+    "iconPath": "interface/icons/nhi_frost_beam_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805424,
+    "spellIds": [
+      805424
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33731
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805424,
+        "description": "Reduces the channel time of <span style=\"color: #ffffff; display: inline\">Ice Barrage</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the channel time of Ice Barrage by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30620,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Harrowing Winds",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> now deals an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt as Frost Damage to enemies within <span class=\"item-number\">6</span> yds of the primary target.",
+    "descriptionText": "Damage dealt by Glacial Impact now deals an additional 50% of the damage dealt as Frost Damage to enemies within 6 yds of the primary target.",
+    "iconPath": "interface/icons/custom_14_big_frost_arrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705745,
+    "spellIds": [
+      705745
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33723
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705745,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> now deals an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt as Frost Damage to enemies within <span class=\"item-number\">6</span> yds of the primary target.",
+        "descriptionText": "Damage dealt by Glacial Impact now deals an additional 50% of the damage dealt as Frost Damage to enemies within 6 yds of the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30621,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Icecrown",
+    "description": "Your Frost Damage dealt now increases your allies' critical strike chance against the enemy by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Your Frost Damage dealt now increases your allies' critical strike chance against the enemy by 1% for 10 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/inv_helm_eternalwinter_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 531135,
+    "spellIds": [
+      531135
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5605,
+      30605
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 531135,
+        "description": "Your Frost Damage dealt now increases your allies' critical strike chance against the enemy by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Your Frost Damage dealt now increases your allies' critical strike chance against the enemy by 1% for 10 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30622,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Raise: Skeletal Mage",
+    "description": "Raise a <span style=\"color: #ffffff; display: inline\">Skeletal Mage</span> to aid you in combat, occupying <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Unleashes ice at your target and enemies within <span class=\"item-number\">6</span> yds, dealing <span class=\"item-number\">51</span> + <span class=\"item-number\">80% frost SP</span> Frost Damage.",
+    "descriptionText": "Raise a Skeletal Mage to aid you in combat, occupying 2 Life Force.\n\nCommand: Unleashes ice at your target and enemies within 6 yds, dealing 51 + 80% frost SP Frost Damage.",
+    "iconPath": "interface/icons/skeletalicemage2",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500331,
+    "spellIds": [
+      500331
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6891,
+      7214,
+      12891
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500331,
+        "description": "Raise a <span style=\"color: #ffffff; display: inline\">Skeletal Mage</span> to aid you in combat, occupying <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Unleashes ice at your target and enemies within <span class=\"item-number\">6</span> yds, dealing <span class=\"item-number\">51</span> + <span class=\"item-number\">80% frost SP</span> Frost Damage.",
+        "descriptionText": "Raise a Skeletal Mage to aid you in combat, occupying 2 Life Force.\n\nCommand: Unleashes ice at your target and enemies within 6 yds, dealing 51 + 80% frost SP Frost Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29772,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Permafrost",
+    "description": "Gives your spells a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you the <span style=\"color: #FFFFFF; display: inline\">Permafrost</span>, which treats your next <span class=\"item-number\">2</span> spells cast as if the target were <span style=\"color: #3399ff; display: inline\">Frozen</span>. Lasts <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Gives your spells a 10% chance to grant you the Permafrost, which treats your next 2 spells cast as if the target were Frozen. Lasts 6 seconds.",
+    "iconPath": "interface/icons/_manaburn_frost",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704681,
+    "spellIds": [
+      704681
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29779,
+      33731
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704681,
+        "description": "Gives your spells a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you the <span style=\"color: #FFFFFF; display: inline\">Permafrost</span>, which treats your next <span class=\"item-number\">2</span> spells cast as if the target were <span style=\"color: #3399ff; display: inline\">Frozen</span>. Lasts <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Gives your spells a 10% chance to grant you the Permafrost, which treats your next 2 spells cast as if the target were Frozen. Lasts 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29773,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Glacier Lord",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> is now guaranteed to critically strike against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+    "descriptionText": "Your Glacial Impact is now guaranteed to critically strike against Frozen targets.",
+    "iconPath": "interface/icons/uico_frost_spell_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560852,
+    "spellIds": [
+      560852
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5605,
+      6488,
+      30605
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560852,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Glacial Impact</span> is now guaranteed to critically strike against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+        "descriptionText": "Your Glacial Impact is now guaranteed to critically strike against Frozen targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29778,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Giant Bones",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unholy Frenzy</span> now summons a <span style=\"color: #ffffff; display: inline\">Rotting Frost Giant</span> to aid you in combat for the duration.",
+    "descriptionText": "Casting Unholy Frenzy now summons a Rotting Frost Giant to aid you in combat for the duration.",
+    "iconPath": "interface/icons/achievement_dungeon_ulduarraid_icegiant_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805427,
+    "spellIds": [
+      805427
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6488,
+      33720,
+      34978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805427,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unholy Frenzy</span> now summons a <span style=\"color: #ffffff; display: inline\">Rotting Frost Giant</span> to aid you in combat for the duration.",
+        "descriptionText": "Casting Unholy Frenzy now summons a Rotting Frost Giant to aid you in combat for the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29779,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Frigidness",
+    "description": "Increases your critical damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+    "descriptionText": "Increases your critical damage by 50% against Frozen targets.",
+    "iconPath": "interface/icons/achievement_boss_forgemaster",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704669,
+    "spellIds": [
+      704669,
+      707742
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29778
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704669,
+        "description": "Increases your critical damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+        "descriptionText": "Increases your critical damage by 50% against Frozen targets."
+      },
+      {
+        "rank": 2,
+        "spellId": 707742,
+        "description": "Increases your critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+        "descriptionText": "Increases your critical damage by 100% against Frozen targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34976,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Piercing Icicles",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Ice Barrage</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Ice Barrage by 20%.",
+    "iconPath": "interface/icons/custom_t_icespear_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524687,
+    "spellIds": [
+      524687
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6901
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 988800,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524687,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Ice Barrage</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Ice Barrage by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34978,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Curse of the Lich",
+    "description": "Increases the range of your Rime spells by <span class=\"item-number\">6</span> yds and increases the Frost critical strike chance of you and your summons by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the range of your Rime spells by 6 yds and increases the Frost critical strike chance of you and your summons by 3%.",
+    "iconPath": "interface/icons/_castercloak_ice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300240,
+    "spellIds": [
+      300240
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7213,
+      34976
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300240,
+        "description": "Increases the range of your Rime spells by <span class=\"item-number\">6</span> yds and increases the Frost critical strike chance of you and your summons by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the range of your Rime spells by 6 yds and increases the Frost critical strike chance of you and your summons by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31185,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 60,
+    "tabKey": "23:60",
+    "tabName": "Rime",
+    "name": "Ice Barrage",
+    "description": "Unleash a relentless volley of glacial shards, dealing <span class=\"item-number\">10</span> + <span class=\"item-number\">35% SP</span> Frost Damage every <span class=\"item-number\">0</span> sec for <span class=\"item-number\">1</span> seconds.<br /><br />At the end of the duration, you entomb your target in ice, freezing them for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Unleash a relentless volley of glacial shards, dealing 10 + 35% SP Frost Damage every 0 sec for 1 seconds.\n\nAt the end of the duration, you entomb your target in ice, freezing them for 4 seconds.",
+    "iconPath": "interface/icons/uico_frost_spell_09_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801760,
+    "spellIds": [
+      801760
+    ],
+    "requiredNodeIds": [
+      4035,
+      29787
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801760,
+        "description": "Unleash a relentless volley of glacial shards, dealing <span class=\"item-number\">10</span> + <span class=\"item-number\">35% SP</span> Frost Damage every <span class=\"item-number\">0</span> sec for <span class=\"item-number\">1</span> seconds.<br /><br />At the end of the duration, you entomb your target in ice, freezing them for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Unleash a relentless volley of glacial shards, dealing 10 + 35% SP Frost Damage every 0 sec for 1 seconds.\n\nAt the end of the duration, you entomb your target in ice, freezing them for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

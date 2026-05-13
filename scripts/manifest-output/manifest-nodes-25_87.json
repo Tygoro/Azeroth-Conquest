@@ -1,0 +1,1815 @@
+[
+  {
+    "nodeId": 29880,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Mind Leak",
+    "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, you gain <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> reduced damage taken.",
+    "descriptionText": "While above 60 Insanity, you gain -5% reduced damage taken.",
+    "iconPath": "interface/icons/spell_shadow_mindrot",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300270,
+    "spellIds": [
+      300270
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6272,
+      6280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 215678,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300270,
+        "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, you gain <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> reduced damage taken.",
+        "descriptionText": "While above 60 Insanity, you gain -5% reduced damage taken."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29920,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Split Mind",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Void Shield</span> now applies to an additional nearby ally but reduces its duration is reduced by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.<br /><br />Killing an opponent that yields experience or honor removes <span style=\"color: #FFFFFF; display: inline\">Wracked Mind</span> from you.",
+    "descriptionText": "Void Shield now applies to an additional nearby ally but reduces its duration is reduced by -30%.\n\nKilling an opponent that yields experience or honor removes Wracked Mind from you.",
+    "iconPath": "interface/icons/inv_soulbarrier",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572064,
+    "spellIds": [
+      572064
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30205,
+      33951
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572064,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Void Shield</span> now applies to an additional nearby ally but reduces its duration is reduced by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.<br /><br />Killing an opponent that yields experience or honor removes <span style=\"color: #FFFFFF; display: inline\">Wracked Mind</span> from you.",
+        "descriptionText": "Void Shield now applies to an additional nearby ally but reduces its duration is reduced by -30%.\n\nKilling an opponent that yields experience or honor removes Wracked Mind from you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31123,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Devourer",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Devour Magic</span> now dispels <span class=\"item-number\">1</span> additional magic effect.",
+    "descriptionText": "Your Devour Magic now dispels 1 additional magic effect.",
+    "iconPath": "interface/icons/inv_misc_eye_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300265,
+    "spellIds": [
+      300265
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6281,
+      33952
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300265,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Devour Magic</span> now dispels <span class=\"item-number\">1</span> additional magic effect.",
+        "descriptionText": "Your Devour Magic now dispels 1 additional magic effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33951,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Black Prayer",
+    "description": "All direct damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to unleash a <span style=\"color: #ffffff; display: inline\">Black Prayer</span> on all enemies near the target for <span class=\"item-number\">9</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 forbidding_void_dust\" /><span class=\"name\">Black Prayer</span></div><span class=\"desc\">Deals <span class=\"item-number\">136</span> + <span class=\"item-number\">12% shadow SP</span> + <span class=\"item-number\">0.5% AP</span> Shadow Damage every <span class=\"item-number\">3</span> sec and reduces attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "All direct damage dealt now has a 5% chance to unleash a Black Prayer on all enemies near the target for 9 seconds.\n\n---\n\nBlack PrayerDeals 136 + 12% shadow SP + 0.5% AP Shadow Damage every 3 sec and reduces attack speed by -20%.",
+    "iconPath": "interface/icons/forbidding_void_dust",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805110,
+    "spellIds": [
+      805110
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7465,
+      31123,
+      33968
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805110,
+        "description": "All direct damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to unleash a <span style=\"color: #ffffff; display: inline\">Black Prayer</span> on all enemies near the target for <span class=\"item-number\">9</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 forbidding_void_dust\" /><span class=\"name\">Black Prayer</span></div><span class=\"desc\">Deals <span class=\"item-number\">136</span> + <span class=\"item-number\">12% shadow SP</span> + <span class=\"item-number\">0.5% AP</span> Shadow Damage every <span class=\"item-number\">3</span> sec and reduces attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "All direct damage dealt now has a 5% chance to unleash a Black Prayer on all enemies near the target for 9 seconds.\n\n---\n\nBlack PrayerDeals 136 + 12% shadow SP + 0.5% AP Shadow Damage every 3 sec and reduces attack speed by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33952,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Void Hunger",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Satiate</span> now also regenerates an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> mana per tick and no longer increases damage taken during the channel.",
+    "descriptionText": "Satiate now also regenerates an additional 1% mana per tick and no longer increases damage taken during the channel.",
+    "iconPath": "interface/icons/ability_priest_surgeofdarkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524879,
+    "spellIds": [
+      524879
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5172,
+      7084,
+      33969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524879,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Satiate</span> now also regenerates an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> mana per tick and no longer increases damage taken during the channel.",
+        "descriptionText": "Satiate now also regenerates an additional 1% mana per tick and no longer increases damage taken during the channel."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33965,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Lost in the Void",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Embrace the Void</span> by <span class=\"item-number\">4</span> sec and it now heals you for an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage taken while active and its cooldown is reduced by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Increases the duration of Embrace the Void by 4 sec and it now heals you for an additional 50% of the damage taken while active and its cooldown is reduced by -60 sec.",
+    "iconPath": "interface/icons/nhi_arcanemask_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704881,
+    "spellIds": [
+      704881
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7940,
+      33951
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704881,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Embrace the Void</span> by <span class=\"item-number\">4</span> sec and it now heals you for an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage taken while active and its cooldown is reduced by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Increases the duration of Embrace the Void by 4 sec and it now heals you for an additional 50% of the damage taken while active and its cooldown is reduced by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33967,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Improved Sermon of Dread",
+    "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Sermon of Dread</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Sermon of Dread by 40%.",
+    "iconPath": "interface/icons/spell_shadow_soulleech_3",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706177,
+    "spellIds": [
+      706177
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6277
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706177,
+        "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Sermon of Dread</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Sermon of Dread by 40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33968,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Eldritch Command",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause your <span style=\"color: #FFFFFF; display: inline\">Tentacles</span> to blast the enemy with eldritch energy, dealing <span class=\"item-number\">96</span> + <span class=\"item-number\">22.5% shadow SP</span> + <span class=\"item-number\">10% AP</span> Shadow Damage.",
+    "descriptionText": "Casting Gaze of C'thun now has a 30% chance to cause your Tentacles to blast the enemy with eldritch energy, dealing 96 + 22.5% shadow SP + 10% AP Shadow Damage.",
+    "iconPath": "interface/icons/uico_shadow_spell_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 302015,
+    "spellIds": [
+      302015
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6276,
+      33952
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 302015,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302015,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause your <span style=\"color: #FFFFFF; display: inline\">Tentacles</span> to blast the enemy with eldritch energy, dealing <span class=\"item-number\">96</span> + <span class=\"item-number\">22.5% shadow SP</span> + <span class=\"item-number\">10% AP</span> Shadow Damage.",
+        "descriptionText": "Casting Gaze of C'thun now has a 30% chance to cause your Tentacles to blast the enemy with eldritch energy, dealing 96 + 22.5% shadow SP + 10% AP Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33969,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Embodied Presences",
+    "description": "Increases the chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Presences</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger your Presences by 5%.",
+    "iconPath": "interface/icons/warlock_houroftwilight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803283,
+    "spellIds": [
+      803283
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6382,
+      9953
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803283,
+        "description": "Increases the chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Presences</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger your Presences by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30205,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Crystalline Reflection",
+    "description": "Increases the chance for <span style=\"color: #ffffff; display: inline\">Void Shield</span> to resist dispel effects on allies by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and it now also reflects <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage absorbed.",
+    "descriptionText": "Increases the chance for Void Shield to resist dispel effects on allies by -50% and it now also reflects 50% of the damage absorbed.",
+    "iconPath": "interface/icons/spell_holy_prayerofshadowprotection",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525060,
+    "spellIds": [
+      525060
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6274,
+      31123
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525060,
+        "description": "Increases the chance for <span style=\"color: #ffffff; display: inline\">Void Shield</span> to resist dispel effects on allies by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and it now also reflects <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage absorbed.",
+        "descriptionText": "Increases the chance for Void Shield to resist dispel effects on allies by -50% and it now also reflects 50% of the damage absorbed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30323,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Wicked Thoughts",
+    "description": "The Old Gods command you to work faster, increasing your movement speed and mounted movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "The Old Gods command you to work faster, increasing your movement speed and mounted movement speed by 15%.",
+    "iconPath": "interface/icons/_ldaeye",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706190,
+    "spellIds": [
+      706190
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6280,
+      29455
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706190,
+        "description": "The Old Gods command you to work faster, increasing your movement speed and mounted movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "The Old Gods command you to work faster, increasing your movement speed and mounted movement speed by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33892,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Stare Into The Abyss",
+    "description": "Removes the cast time of your <span style=\"color: #ffffff; display: inline\">Corrupt Mind</span>.",
+    "descriptionText": "Removes the cast time of your Corrupt Mind.",
+    "iconPath": "interface/icons/_soulsdevourer_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525019,
+    "spellIds": [
+      525019
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29470
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 525049,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525019,
+        "description": "Removes the cast time of your <span style=\"color: #ffffff; display: inline\">Corrupt Mind</span>.",
+        "descriptionText": "Removes the cast time of your Corrupt Mind."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29479,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Ungodly Blessing",
+    "description": "Reduces the duration of curse effects on you by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of curse effects on you by -40%.",
+    "iconPath": "interface/icons/ability_racial_shadowmeld",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301241,
+    "spellIds": [
+      301241
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6276,
+      33967
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 804633,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301241,
+        "description": "Reduces the duration of curse effects on you by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of curse effects on you by -40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5172,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Entropic Singularity",
+    "description": "Create a <span class=\"item-number\">10</span> yd void zone for <span class=\"item-number\">5</span> seconds at target location that slows enemies' movement speed while inside.<br /><br />The slow increases in intensity based on how close to the middle of the zone the enemy is.",
+    "descriptionText": "Create a 10 yd void zone for 5 seconds at target location that slows enemies' movement speed while inside.\n\nThe slow increases in intensity based on how close to the middle of the zone the enemy is.",
+    "iconPath": "interface/icons/nhi_void_blackhole_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800430,
+    "spellIds": [
+      800430
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6278,
+      9953,
+      11880,
+      12444,
+      29880
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800430,
+        "description": "Create a <span class=\"item-number\">10</span> yd void zone for <span class=\"item-number\">5</span> seconds at target location that slows enemies' movement speed while inside.<br /><br />The slow increases in intensity based on how close to the middle of the zone the enemy is.",
+        "descriptionText": "Create a 10 yd void zone for 5 seconds at target location that slows enemies' movement speed while inside.\n\nThe slow increases in intensity based on how close to the middle of the zone the enemy is."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7084,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "C'Thun's Calling",
+    "description": "Increases the health of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and their Armor by <span class=\"item-number\">720</span>.",
+    "descriptionText": "Increases the health of your Tentacles by 10% and their Armor by 720.",
+    "iconPath": "interface/icons/inv_offhand_1h_artifactcthun_d_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560715,
+    "spellIds": [
+      560715
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6277,
+      6278,
+      12444
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560715,
+        "description": "Increases the health of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and their Armor by <span class=\"item-number\">720</span>.",
+        "descriptionText": "Increases the health of your Tentacles by 10% and their Armor by 720."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6959,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Gift of C'Thun",
+    "description": "Increases your Shadow Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Shadow Damage dealt by 4% and healing done by 4%.",
+    "iconPath": "interface/icons/creatureportrait_sc_eyeofacherus_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706189,
+    "spellIds": [
+      706189
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6272,
+      29268
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706189,
+        "description": "Increases your Shadow Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Shadow Damage dealt by 4% and healing done by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6272,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Mass Nightmare",
+    "description": "Spread nightmares of the black empire to up to <span class=\"item-number\">5</span> nearby enemies, horrifying them for <span class=\"item-number\">5</span> seconds and interrupting non-player spellcasting for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Spread nightmares of the black empire to up to 5 nearby enemies, horrifying them for 5 seconds and interrupting non-player spellcasting for 3 seconds.",
+    "iconPath": "interface/icons/inv_misc_volatileshadow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805114,
+    "spellIds": [
+      805114
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6283,
+      11892,
+      33892
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805114,
+        "description": "Spread nightmares of the black empire to up to <span class=\"item-number\">5</span> nearby enemies, horrifying them for <span class=\"item-number\">5</span> seconds and interrupting non-player spellcasting for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Spread nightmares of the black empire to up to 5 nearby enemies, horrifying them for 5 seconds and interrupting non-player spellcasting for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6274,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Darkward",
+    "description": "Increases the effectiveness of your damage absorption effects by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your damage absorption effects by 10%.",
+    "iconPath": "interface/icons/spell_holy_mindsooth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706180,
+    "spellIds": [
+      706180,
+      706181
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6281,
+      7899
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706180,
+        "description": "Increases the effectiveness of your damage absorption effects by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your damage absorption effects by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 706181,
+        "description": "Increases the effectiveness of your damage absorption effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your damage absorption effects by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6276,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Eternal Grasp",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of your Tentacles by 25%.",
+    "iconPath": "interface/icons/achievement_nzothraid_carapace",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704878,
+    "spellIds": [
+      704878,
+      704879
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7084
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704878,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Tentacles by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 704879,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Tentacles by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6277,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Embrace the Void",
+    "description": "Become one with the void, preventing you from dying for <span class=\"item-number\">6</span> seconds, or until you take damage equal to a maximum of <span class=\"item-number\">100%</span> of your total health.<br /><br />When the effect ends you instantly regenerate health equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage taken while active.",
+    "descriptionText": "Become one with the void, preventing you from dying for 6 seconds, or until you take damage equal to a maximum of 100% of your total health.\n\nWhen the effect ends you instantly regenerate health equal to 50% of the damage taken while active.",
+    "iconPath": "interface/icons/overwhelming_void_effigy",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582591,
+    "spellIds": [
+      582591
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30323
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582591,
+        "description": "Become one with the void, preventing you from dying for <span class=\"item-number\">6</span> seconds, or until you take damage equal to a maximum of <span class=\"item-number\">100%</span> of your total health.<br /><br />When the effect ends you instantly regenerate health equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage taken while active.",
+        "descriptionText": "Become one with the void, preventing you from dying for 6 seconds, or until you take damage equal to a maximum of 100% of your total health.\n\nWhen the effect ends you instantly regenerate health equal to 50% of the damage taken while active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6278,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Dismay",
+    "description": "Increases the movement speed slowed by <span style=\"color: #ffffff; display: inline\">Grasp of Zek'voz</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the movement speed slowed by Grasp of Zek'voz by -20%.",
+    "iconPath": "interface/icons/5_assassinskill07_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704885,
+    "spellIds": [
+      704885
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707747,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704885,
+        "description": "Increases the movement speed slowed by <span style=\"color: #ffffff; display: inline\">Grasp of Zek'voz</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the movement speed slowed by Grasp of Zek'voz by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6279,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Void-Enchanted Armor",
+    "description": "Increases your chance to resist dispel effects by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to resist dispel effects by -20%.",
+    "iconPath": "interface/icons/pure_void_metal",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804633,
+    "spellIds": [
+      804633
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6276,
+      33967
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 804633,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804633,
+        "description": "Increases your chance to resist dispel effects by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to resist dispel effects by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6280,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Grasp of Zek'voz",
+    "description": "Hinder an enemies momentum with void chains, slowing their movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Hinder an enemies momentum with void chains, slowing their movement speed by -30% for 10 seconds.",
+    "iconPath": "interface/icons/achievement_nazmir_boss_zekvoz",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573028,
+    "spellIds": [
+      573028
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11892,
+      29263,
+      33892
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573028,
+        "description": "Hinder an enemies momentum with void chains, slowing their movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Hinder an enemies momentum with void chains, slowing their movement speed by -30% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6281,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Doomsayer",
+    "description": "Reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Presences</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of your Presences by -50%.",
+    "iconPath": "interface/icons/achievement_boss_heraldofnzoth",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704880,
+    "spellIds": [
+      704880
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704880,
+        "description": "Reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Presences</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of your Presences by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6283,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Empire's Blessing",
+    "description": "Reduces the mana cost of <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of Void Shield by -20%.",
+    "iconPath": "interface/icons/spell_shadow_antishadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704895,
+    "spellIds": [
+      704895
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29265
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704895,
+        "description": "Reduces the mana cost of <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of Void Shield by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6382,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Hallucination",
+    "description": "Create <span class=\"item-number\">3</span> copies of yourself that run in a random direction for <span class=\"item-number\">3</span> seconds and may briefly trick enemies into ignoring you. <br /><br />Significantly reduces your threat and removes all movement impairing effects from you.",
+    "descriptionText": "Create 3 copies of yourself that run in a random direction for 3 seconds and may briefly trick enemies into ignoring you. \n\nSignificantly reduces your threat and removes all movement impairing effects from you.",
+    "iconPath": "interface/icons/5_warlock28_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560301,
+    "spellIds": [
+      560301
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6959
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560301,
+        "description": "Create <span class=\"item-number\">3</span> copies of yourself that run in a random direction for <span class=\"item-number\">3</span> seconds and may briefly trick enemies into ignoring you. <br /><br />Significantly reduces your threat and removes all movement impairing effects from you.",
+        "descriptionText": "Create 3 copies of yourself that run in a random direction for 3 seconds and may briefly trick enemies into ignoring you. \n\nSignificantly reduces your threat and removes all movement impairing effects from you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7899,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Mind Games",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Hallucination</span> by <span class=\"item-number\">-5</span> sec and reduces its mana cost by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Hallucination by -5 sec and reduces its mana cost by -20%.",
+    "iconPath": "interface/icons/spell_shadow_shadowmend",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582589,
+    "spellIds": [
+      582589
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6382
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582589,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Hallucination</span> by <span class=\"item-number\">-5</span> sec and reduces its mana cost by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Hallucination by -5 sec and reduces its mana cost by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7940,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Twisted Seal",
+    "description": "Create a warped sigil that bends hostile force away from you, deflecting all spells for <span class=\"item-number\">5</span> seconds, but making you unable to attack or cast spells.<br /><br />Casters whose magic is deflected are silenced for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Create a warped sigil that bends hostile force away from you, deflecting all spells for 5 seconds, but making you unable to attack or cast spells.\n\nCasters whose magic is deflected are silenced for 3 seconds.",
+    "iconPath": "interface/icons/inv_peacockmount_dark",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525065,
+    "spellIds": [
+      525065
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6279,
+      7465,
+      29479,
+      33968
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525065,
+        "description": "Create a warped sigil that bends hostile force away from you, deflecting all spells for <span class=\"item-number\">5</span> seconds, but making you unable to attack or cast spells.<br /><br />Casters whose magic is deflected are silenced for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Create a warped sigil that bends hostile force away from you, deflecting all spells for 5 seconds, but making you unable to attack or cast spells.\n\nCasters whose magic is deflected are silenced for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29263,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Empire Commander",
+    "description": "Increases all primary attributes by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases all primary attributes by 4%.",
+    "iconPath": "interface/icons/nhi_shadowasphyxiation_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 704887,
+    "spellIds": [
+      704887,
+      707781,
+      712470
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7608
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704887,
+        "description": "Increases all primary attributes by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all primary attributes by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707781,
+        "description": "Increases all primary attributes by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all primary attributes by 8%."
+      },
+      {
+        "rank": 3,
+        "spellId": 712470,
+        "description": "Increases all primary attributes by <span class=\"item-number\">12</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all primary attributes by 12%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29265,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Void Shield",
+    "description": "Shields an ally, absorbing <span class=\"item-number\">75</span> + <span class=\"item-number\">60% SP</span> damage for <span class=\"item-number\">30</span> seconds and applying <span style=\"color: #ffffff; display: inline\">Wracked Mind</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_shadetruesight\" /><span class=\"name\">Wracked Mind</span></div><span class=\"desc\">Cannot be affected by <span style=\"color: #ffffff; display: inline\">Void Shield</span>. Lasts for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Shields an ally, absorbing 75 + 60% SP damage for 30 seconds and applying Wracked Mind.\n\n---\n\nWracked MindCannot be affected by Void Shield. Lasts for 15 seconds.",
+    "iconPath": "interface/icons/_d3energyarmor",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500715,
+    "spellIds": [
+      500715
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500715,
+        "description": "Shields an ally, absorbing <span class=\"item-number\">75</span> + <span class=\"item-number\">60% SP</span> damage for <span class=\"item-number\">30</span> seconds and applying <span style=\"color: #ffffff; display: inline\">Wracked Mind</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_shadetruesight\" /><span class=\"name\">Wracked Mind</span></div><span class=\"desc\">Cannot be affected by <span style=\"color: #ffffff; display: inline\">Void Shield</span>. Lasts for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Shields an ally, absorbing 75 + 60% SP damage for 30 seconds and applying Wracked Mind.\n\n---\n\nWracked MindCannot be affected by Void Shield. Lasts for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29268,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Shadow Words",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Whispers</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Whispers by 25%.",
+    "iconPath": "interface/icons/spell_priest_voidshift",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706928,
+    "spellIds": [
+      706928
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6283
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706928,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Whispers</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Whispers by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29275,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Vision of Doom (NEEDS REVIEW)",
+    "description": "Behold a vision of doom",
+    "descriptionText": "Behold a vision of doom",
+    "iconPath": "interface/icons/spell_fire_twilightcano",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520388,
+    "spellIds": [
+      520388
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33951
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520388,
+        "description": "Behold a vision of doom",
+        "descriptionText": "Behold a vision of doom"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29455,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Shroud of Pride",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Abyssal Ward</span> now stacks <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Your Abyssal Ward now stacks 3 additional times.",
+    "iconPath": "interface/icons/sha_spell_fire_felfireward",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805126,
+    "spellIds": [
+      805126
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29263
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805126,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Abyssal Ward</span> now stacks <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Your Abyssal Ward now stacks 3 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29470,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Corrupt Mind",
+    "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Corrupt the mind of an enemy and spread madness, fearing them in place for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players), bouncing to up to <span class=\"item-number\">2</span> nearby enemies.<br /><br />Damage dealt may end this effect.",
+    "descriptionText": "Generates 10 Insanity\nCorrupt the mind of an enemy and spread madness, fearing them in place for 40 seconds (8 sec vs players), bouncing to up to 2 nearby enemies.\n\nDamage dealt may end this effect.",
+    "iconPath": "interface/icons/ability_priest_clarityofpower",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560109,
+    "spellIds": [
+      560109
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560109,
+        "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Corrupt the mind of an enemy and spread madness, fearing them in place for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players), bouncing to up to <span class=\"item-number\">2</span> nearby enemies.<br /><br />Damage dealt may end this effect.",
+        "descriptionText": "Generates 10 Insanity\nCorrupt the mind of an enemy and spread madness, fearing them in place for 40 seconds (8 sec vs players), bouncing to up to 2 nearby enemies.\n\nDamage dealt may end this effect."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9953,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Overwhelming Void",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mass Nightmare</span> now triggers a <span class=\"item-number\">60</span> sec reduced cooldown when used at or above <span class=\"item-number\">80</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Your Mass Nightmare now triggers a 60 sec reduced cooldown when used at or above 80 Insanity.",
+    "iconPath": "interface/icons/spell_nature_faeriefire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707429,
+    "spellIds": [
+      707429
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6272
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707429,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mass Nightmare</span> now triggers a <span class=\"item-number\">60</span> sec reduced cooldown when used at or above <span class=\"item-number\">80</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Your Mass Nightmare now triggers a 60 sec reduced cooldown when used at or above 80 Insanity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7608,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Abyssal Ward",
+    "description": "Coalesce an <span style=\"color: #ffffff; display: inline\">Abyssal Ward</span> reducing your damage taken by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds or <span class=\"item-number\">5</span> attacks. For the duration, each attack received will decrease the value by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.<br /><br />Usable while stunned.",
+    "descriptionText": "Coalesce an Abyssal Ward reducing your damage taken by 50% for 10 seconds or 5 attacks. For the duration, each attack received will decrease the value by -10%.\n\nUsable while stunned.",
+    "iconPath": "interface/icons/spell_priest_shadoworbs",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804670,
+    "spellIds": [
+      804670
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": true,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804670,
+        "description": "Coalesce an <span style=\"color: #ffffff; display: inline\">Abyssal Ward</span> reducing your damage taken by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds or <span class=\"item-number\">5</span> attacks. For the duration, each attack received will decrease the value by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.<br /><br />Usable while stunned.",
+        "descriptionText": "Coalesce an Abyssal Ward reducing your damage taken by 50% for 10 seconds or 5 attacks. For the duration, each attack received will decrease the value by -10%.\n\nUsable while stunned."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11880,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Rapid Incantations",
+    "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, you gain <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased haste.",
+    "descriptionText": "While above 60 Insanity, you gain 5% increased haste.",
+    "iconPath": "interface/icons/uico_shadow_spell_08_nobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301181,
+    "spellIds": [
+      301181
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6272,
+      6280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 215678,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301181,
+        "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, you gain <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased haste.",
+        "descriptionText": "While above 60 Insanity, you gain 5% increased haste."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11892,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Eldritch Screams",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Corrupt Mind</span> now also applies <span style=\"color: #ffffff; display: inline\">Mind Rot</span> to nearby enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _virus_purple\" /><span class=\"name\">Mind Rot (Trigger)</span></div><span class=\"desc\">Increases the chance for allies to hit with all spells against the afflicted enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />If this effect is dispelled, your critical strike chance is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+    "descriptionText": "Your Corrupt Mind now also applies Mind Rot to nearby enemies.\n\n---\n\nMind Rot (Trigger)Increases the chance for allies to hit with all spells against the afflicted enemy by 3% for 10 seconds.\n\nIf this effect is dispelled, your critical strike chance is increased by 30% for 5 seconds.",
+    "iconPath": "interface/icons/impotent_void_effigy",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525049,
+    "spellIds": [
+      525049
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29470
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 525049,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525049,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Corrupt Mind</span> now also applies <span style=\"color: #ffffff; display: inline\">Mind Rot</span> to nearby enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _virus_purple\" /><span class=\"name\">Mind Rot (Trigger)</span></div><span class=\"desc\">Increases the chance for allies to hit with all spells against the afflicted enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />If this effect is dispelled, your critical strike chance is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+        "descriptionText": "Your Corrupt Mind now also applies Mind Rot to nearby enemies.\n\n---\n\nMind Rot (Trigger)Increases the chance for allies to hit with all spells against the afflicted enemy by 3% for 10 seconds.\n\nIf this effect is dispelled, your critical strike chance is increased by 30% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12444,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Disdain",
+    "description": "Removes the cooldown of <span style=\"color: #ffffff; display: inline\">Grasp of Zek'voz</span>, but increases its mana cost by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Removes the cooldown of Grasp of Zek'voz, but increases its mana cost by 25%.",
+    "iconPath": "interface/icons/spell_nature_drowsy",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707747,
+    "spellIds": [
+      707747
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707747,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707747,
+        "description": "Removes the cooldown of <span style=\"color: #ffffff; display: inline\">Grasp of Zek'voz</span>, but increases its mana cost by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Removes the cooldown of Grasp of Zek'voz, but increases its mana cost by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7465,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 87,
+    "tabKey": "25:87",
+    "tabName": "Class",
+    "name": "Eyes of Eternity",
+    "description": "Healing an ally with <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now additionally reveals nearby stealthed enemies for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Healing an ally with Gaze of C'Thun now additionally reveals nearby stealthed enemies for 8 seconds.",
+    "iconPath": "interface/icons/inv_ascend_eyes_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706188,
+    "spellIds": [
+      706188
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6276,
+      33952
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 302015,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706188,
+        "description": "Healing an ally with <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now additionally reveals nearby stealthed enemies for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Healing an ally with Gaze of C'Thun now additionally reveals nearby stealthed enemies for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

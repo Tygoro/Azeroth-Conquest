@@ -1,0 +1,1960 @@
+[
+  {
+    "nodeId": 4003,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Fill Level",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Grants you <span style=\"color: #FFFFFF; display: inline\">Fill Level</span> and the ability to manipulate a <span style=\"color: #ffffff; display: inline\">Tankard</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_brew_wheat\" /><span class=\"name\">Fill Level</span></div><span class=\"desc\">You have a magical <span style=\"color: #ffffff; display: inline\">Tankard</span> that fills up over time, granting you <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span> every <span class=\"item-number\">2</span> sec.<br /><br />Some of your other abilities empty your <span style=\"color: #ffffff; display: inline\">Tankard</span> to trigger with a reduced cooldown.</span></div>",
+    "descriptionText": "Level 10 Passive\nGrants you Fill Level and the ability to manipulate a Tankard.\n\n---\n\nFill LevelYou have a magical Tankard that fills up over time, granting you 1 stack of Fill Level every 2 sec.\n\nSome of your other abilities empty your Tankard to trigger with a reduced cooldown.",
+    "iconPath": "interface/icons/spell_brew_wheat",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92083,
+    "spellIds": [
+      92083
+    ],
+    "requiredNodeIds": [
+      30762
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92083,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Grants you <span style=\"color: #FFFFFF; display: inline\">Fill Level</span> and the ability to manipulate a <span style=\"color: #ffffff; display: inline\">Tankard</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_brew_wheat\" /><span class=\"name\">Fill Level</span></div><span class=\"desc\">You have a magical <span style=\"color: #ffffff; display: inline\">Tankard</span> that fills up over time, granting you <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span> every <span class=\"item-number\">2</span> sec.<br /><br />Some of your other abilities empty your <span style=\"color: #ffffff; display: inline\">Tankard</span> to trigger with a reduced cooldown.</span></div>",
+        "descriptionText": "Level 10 Passive\nGrants you Fill Level and the ability to manipulate a Tankard.\n\n---\n\nFill LevelYou have a magical Tankard that fills up over time, granting you 1 stack of Fill Level every 2 sec.\n\nSome of your other abilities empty your Tankard to trigger with a reduced cooldown."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4354,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Frost Giant's Fury",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Breath of the North</span> now grants you <span class=\"item-number\">10</span><span class=\"item-number\">%</span> melee attack speed, plus an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> when using a two-handed weapon, for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Casting Breath of the North now grants you 10% melee attack speed, plus an additional 20% when using a two-handed weapon, for 8 seconds.",
+    "iconPath": "interface/icons/spell_deathknight_icetouch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805812,
+    "spellIds": [
+      805812
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34258
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805812,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Breath of the North</span> now grants you <span class=\"item-number\">10</span><span class=\"item-number\">%</span> melee attack speed, plus an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> when using a two-handed weapon, for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Casting Breath of the North now grants you 10% melee attack speed, plus an additional 20% when using a two-handed weapon, for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6713,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Fury of the North",
+    "description": "Increases the duration of the enrage effect from your <span style=\"color: #ffffff; display: inline\">Ramhorn Rage</span> by <span class=\"item-number\">6</span> sec and causes it to increase your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for its duration.",
+    "descriptionText": "Increases the duration of the enrage effect from your Ramhorn Rage by 6 sec and causes it to increase your movement speed by 40% for its duration.",
+    "iconPath": "interface/icons/uico_frost_spell_10_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560938,
+    "spellIds": [
+      560938
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29366
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560938,
+        "description": "Increases the duration of the enrage effect from your <span style=\"color: #ffffff; display: inline\">Ramhorn Rage</span> by <span class=\"item-number\">6</span> sec and causes it to increase your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for its duration.",
+        "descriptionText": "Increases the duration of the enrage effect from your Ramhorn Rage by 6 sec and causes it to increase your movement speed by 40% for its duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29284,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ale of The God-King",
+    "description": "Empower your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span>'s melee attacks to deal additional Frost Damage scaling with your attack power and Agility. Lasts for <span class=\"item-number\">20</span> seconds.<br /><br />This ability consumes <span style=\"color: #ffffff; display: inline\">Fill Level</span> stacks and triggers a reduced cooldown based on stacks consumed.",
+    "descriptionText": "Empower your Honored Ancestor's melee attacks to deal additional Frost Damage scaling with your attack power and Agility. Lasts for 20 seconds.\n\nThis ability consumes Fill Level stacks and triggers a reduced cooldown based on stacks consumed.",
+    "iconPath": "interface/icons/aleofgodking",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805780,
+    "spellIds": [
+      805780
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805780,
+        "description": "Empower your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span>'s melee attacks to deal additional Frost Damage scaling with your attack power and Agility. Lasts for <span class=\"item-number\">20</span> seconds.<br /><br />This ability consumes <span style=\"color: #ffffff; display: inline\">Fill Level</span> stacks and triggers a reduced cooldown based on stacks consumed.",
+        "descriptionText": "Empower your Honored Ancestor's melee attacks to deal additional Frost Damage scaling with your attack power and Agility. Lasts for 20 seconds.\n\nThis ability consumes Fill Level stacks and triggers a reduced cooldown based on stacks consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29348,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Blind Stupor",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Keg Smash</span> now reduces enemies' casting speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Damage dealt by Keg Smash now reduces enemies' casting speed by -30% for 15 seconds.",
+    "iconPath": "interface/icons/ability_monk_drunkenhaze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805811,
+    "spellIds": [
+      805811
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11219,
+      12261,
+      31219,
+      34304
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805811,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Keg Smash</span> now reduces enemies' casting speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Damage dealt by Keg Smash now reduces enemies' casting speed by -30% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29366,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ramhorn Rage",
+    "description": "$3b",
+    "descriptionText": "$3b",
+    "iconPath": "interface/icons/inv_holiday_beerfest_maghar",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805804,
+    "spellIds": [
+      805804
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30754,
+      34261
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805804,
+        "description": "$3c",
+        "descriptionText": "$3c"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9172,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Frozen Blades",
+    "description": "Critical strikes now grant party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span> critical strike chance for <span class=\"item-number\">8</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Critical strikes now grant party and raid members 5% critical strike chance for 8 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_48",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573256,
+    "spellIds": [
+      573256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4003
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 8456221,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573256,
+        "description": "Critical strikes now grant party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span> critical strike chance for <span class=\"item-number\">8</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Critical strikes now grant party and raid members 5% critical strike chance for 8 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9861,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "To The Bone",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Breath of the North</span> now reduces enemies' resistances by <span class=\"item-number\">75</span> and increases their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damage dealt by Breath of the North now reduces enemies' resistances by 75 and increases their Magic Damage taken by -2% for 8 seconds.",
+    "iconPath": "interface/icons/nhi_frost_bonecrack_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712673,
+    "spellIds": [
+      712673
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34257,
+      11257
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 326121,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712673,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Breath of the North</span> now reduces enemies' resistances by <span class=\"item-number\">75</span> and increases their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damage dealt by Breath of the North now reduces enemies' resistances by 75 and increases their Magic Damage taken by -2% for 8 seconds."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11172,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ancestral Wisdom",
+    "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/achievement_dungeon_utgardekeep_normal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803511,
+    "spellIds": [
+      803511
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4003
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 8456221,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803511,
+        "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11219,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Thane's Grip",
+    "description": "Allows you to wield a Two-Handed Axe, Mace, or Sword in each hand, but reduces your Physical Damage dealt by <span class=\"item-number\">-8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Allows you to wield a Two-Handed Axe, Mace, or Sword in each hand, but reduces your Physical Damage dealt by -8%.",
+    "iconPath": "interface/icons/5_archerskill33_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803798,
+    "spellIds": [
+      803798
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29800
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 803798,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803798,
+        "description": "Allows you to wield a Two-Handed Axe, Mace, or Sword in each hand, but reduces your Physical Damage dealt by <span class=\"item-number\">-8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Allows you to wield a Two-Handed Axe, Mace, or Sword in each hand, but reduces your Physical Damage dealt by -8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11257,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Crystal Enhancements",
+    "description": "You now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "You now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_misc_frostemblem_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707541,
+    "spellIds": [
+      707541
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9172,
+      11172
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 723711,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707541,
+        "description": "You now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "You now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12112,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Clanlord's Totem",
+    "description": "Drop the <span style=\"color: #FFFFFF; display: inline\">Clanlord's Totem</span> at the target location where it will remain for <span class=\"item-number\">15</span> seconds.<br /><br />The totem emanates an aura for <span class=\"item-number\">15</span> seconds, causing allied players within <span class=\"item-number\">100</span> yds to deal <span class=\"item-number\">35% AP</span> additional damage as Frost Damage when they deal direct damage and gain <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased honor.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Drop the Clanlord's Totem at the target location where it will remain for 15 seconds.\n\nThe totem emanates an aura for 15 seconds, causing allied players within 100 yds to deal 35% AP additional damage as Frost Damage when they deal direct damage and gain 50% increased honor.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute.",
+    "iconPath": "interface/icons/inv_belt_armor_orcclan_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804737,
+    "spellIds": [
+      804737
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30764,
+      9861
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 934111,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804737,
+        "description": "Drop the <span style=\"color: #FFFFFF; display: inline\">Clanlord's Totem</span> at the target location where it will remain for <span class=\"item-number\">15</span> seconds.<br /><br />The totem emanates an aura for <span class=\"item-number\">15</span> seconds, causing allied players within <span class=\"item-number\">100</span> yds to deal <span class=\"item-number\">35% AP</span> additional damage as Frost Damage when they deal direct damage and gain <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased honor.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Drop the Clanlord's Totem at the target location where it will remain for 15 seconds.\n\nThe totem emanates an aura for 15 seconds, causing allied players within 100 yds to deal 35% AP additional damage as Frost Damage when they deal direct damage and gain 50% increased honor.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12153,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Frozen Tankard",
+    "description": "Throw one of your extra tankards at an enemy, dealing <span class=\"item-number\">107</span> Frost Damage and stunning them for <span class=\"item-number\">4</span> seconds. <br /><br />Stunned enemies are considered <span style=\"color: #3399ff; display: inline\">Frozen</span>.",
+    "descriptionText": "Throw one of your extra tankards at an enemy, dealing 107 Frost Damage and stunning them for 4 seconds. \n\nStunned enemies are considered Frozen.",
+    "iconPath": "interface/icons/tankardtoss",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805815,
+    "spellIds": [
+      805815
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29799,
+      31220,
+      34258
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805815,
+        "description": "Throw one of your extra tankards at an enemy, dealing <span class=\"item-number\">107</span> Frost Damage and stunning them for <span class=\"item-number\">4</span> seconds. <br /><br />Stunned enemies are considered <span style=\"color: #3399ff; display: inline\">Frozen</span>.",
+        "descriptionText": "Throw one of your extra tankards at an enemy, dealing 107 Frost Damage and stunning them for 4 seconds. \n\nStunned enemies are considered Frozen."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12261,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Breaking Morale",
+    "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Break</span> by <span class=\"item-number\">-15</span>.",
+    "descriptionText": "Reduces the Energy cost of Break by -15.",
+    "iconPath": "interface/icons/ability_racial_avatar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681473,
+    "spellIds": [
+      681473
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30763,
+      34263
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681473,
+        "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Break</span> by <span class=\"item-number\">-15</span>.",
+        "descriptionText": "Reduces the Energy cost of Break by -15."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13111,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Tavern Brawl!",
+    "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+    "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes.",
+    "iconPath": "interface/icons/novart_passivemastery_(34)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804456,
+    "spellIds": [
+      804456
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30764,
+      9861
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 934111,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804456,
+        "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+        "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13572,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Keg Smash",
+    "description": "Smash an enemy for <span class=\"item-number\">21</span> + <span class=\"item-number\">15% AP</span> Physical Damage, plus an additional <span class=\"item-number\">17</span> + <span class=\"item-number\">25% AP</span> Frost Damage to up to <span class=\"item-number\">5</span> nearby enemies.",
+    "descriptionText": "Smash an enemy for 21 + 15% AP Physical Damage, plus an additional 17 + 25% AP Frost Damage to up to 5 nearby enemies.",
+    "iconPath": "interface/icons/ability_monk_elusiveale",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805808,
+    "spellIds": [
+      805808
+    ],
+    "requiredNodeIds": [
+      30762,
+      4003
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805808,
+        "description": "Smash an enemy for <span class=\"item-number\">21</span> + <span class=\"item-number\">15% AP</span> Physical Damage, plus an additional <span class=\"item-number\">17</span> + <span class=\"item-number\">25% AP</span> Frost Damage to up to <span class=\"item-number\">5</span> nearby enemies.",
+        "descriptionText": "Smash an enemy for 21 + 15% AP Physical Damage, plus an additional 17 + 25% AP Frost Damage to up to 5 nearby enemies."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7846,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Rally Behind Me!",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Warband</span> by <span class=\"item-number\">3</span> sec.<br /><br />In addition, your first use of <span style=\"color: #ffffff; display: inline\">Warband</span> will incur no cooldown. Can only occur once every <span class=\"item-number\">1.5</span> min.",
+    "descriptionText": "Increases the duration of Warband by 3 sec.\n\nIn addition, your first use of Warband will incur no cooldown. Can only occur once every 1.5 min.",
+    "iconPath": "interface/icons/ability_hunter_rapidkilling",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712429,
+    "spellIds": [
+      712429
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29782
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712429,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Warband</span> by <span class=\"item-number\">3</span> sec.<br /><br />In addition, your first use of <span style=\"color: #ffffff; display: inline\">Warband</span> will incur no cooldown. Can only occur once every <span class=\"item-number\">1.5</span> min.",
+        "descriptionText": "Increases the duration of Warband by 3 sec.\n\nIn addition, your first use of Warband will incur no cooldown. Can only occur once every 1.5 min."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30754,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Cold Brew",
+    "description": "Critical strikes with Frost Damage now generate a stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span>. <br /><br />Can only occur once per sec.",
+    "descriptionText": "Critical strikes with Frost Damage now generate a stack of Fill Level. \n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/spell_monk_nimblebrew",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705211,
+    "spellIds": [
+      705211
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29348,
+      30387
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705211,
+        "description": "Critical strikes with Frost Damage now generate a stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span>. <br /><br />Can only occur once per sec.",
+        "descriptionText": "Critical strikes with Frost Damage now generate a stack of Fill Level. \n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30763,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Cheers!",
+    "description": "Designate an ally as your drinking partner for <span class=\"item-number\">30</span> minutes, reducing all damage they take by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, and causing <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of all damage they take to be redirected to you.<br /><br />You can only have <span class=\"item-number\">1</span> ally designated at a time.",
+    "descriptionText": "Designate an ally as your drinking partner for 30 minutes, reducing all damage they take by -5%, and causing 10% of all damage they take to be redirected to you.\n\nYou can only have 1 ally designated at a time.",
+    "iconPath": "interface/icons/archaeology_5_0_twinsteinsetofbrewfatherquantoukuo",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805810,
+    "spellIds": [
+      805810
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29799,
+      34259,
+      34260
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805810,
+        "description": "Designate an ally as your drinking partner for <span class=\"item-number\">30</span> minutes, reducing all damage they take by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, and causing <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of all damage they take to be redirected to you.<br /><br />You can only have <span class=\"item-number\">1</span> ally designated at a time.",
+        "descriptionText": "Designate an ally as your drinking partner for 30 minutes, reducing all damage they take by -5%, and causing 10% of all damage they take to be redirected to you.\n\nYou can only have 1 ally designated at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30764,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Splash Zone",
+    "description": "Share a drink from your <span style=\"color: #ffffff; display: inline\">Tankard</span> with all party and raid members, granting <span class=\"item-number\">95</span> increased attack or spell power for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Share a drink from your Tankard with all party and raid members, granting 95 increased attack or spell power for 15 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_holiday_beerfest_darkiron",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705156,
+    "spellIds": [
+      705156
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34257,
+      11257
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 326121,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705156,
+        "description": "Share a drink from your <span style=\"color: #ffffff; display: inline\">Tankard</span> with all party and raid members, granting <span class=\"item-number\">95</span> increased attack or spell power for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Share a drink from your Tankard with all party and raid members, granting 95 increased attack or spell power for 15 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34257,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Uniting Voice",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Ancestral Roar</span> now increases haste of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Does not stack with similar effects.<br /><br />Critical strikes extend the duration of the buff by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Casting Ancestral Roar now increases haste of party and raid members by 5% for 20 seconds.\n\nDoes not stack with similar effects.\n\nCritical strikes extend the duration of the buff by 1 sec.",
+    "iconPath": "interface/icons/inv_helm_mail_vrykuldragonrider_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705162,
+    "spellIds": [
+      705162
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9172,
+      11172
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 723711,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705162,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Ancestral Roar</span> now increases haste of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Does not stack with similar effects.<br /><br />Critical strikes extend the duration of the buff by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Casting Ancestral Roar now increases haste of party and raid members by 5% for 20 seconds.\n\nDoes not stack with similar effects.\n\nCritical strikes extend the duration of the buff by 1 sec."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34258,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Frostbite",
+    "description": "<span style=\"color: #ffffff; display: inline\">Breath of The North</span> now causes the target to bleed for an additional <span class=\"item-number\">30%</span> of its damage over <span class=\"item-number\">6</span> seconds as Frost Damage.",
+    "descriptionText": "Breath of The North now causes the target to bleed for an additional 30% of its damage over 6 seconds as Frost Damage.",
+    "iconPath": "interface/icons/novart_magicspell_(74)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705158,
+    "spellIds": [
+      705158
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34306
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705158,
+        "description": "<span style=\"color: #ffffff; display: inline\">Breath of The North</span> now causes the target to bleed for an additional <span class=\"item-number\">30%</span> of its damage over <span class=\"item-number\">6</span> seconds as Frost Damage.",
+        "descriptionText": "Breath of The North now causes the target to bleed for an additional 30% of its damage over 6 seconds as Frost Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34259,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Trip to the Alehouse",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Keg Smash</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and its range by <span class=\"item-number\">3</span> yds.",
+    "descriptionText": "Increases the damage of Keg Smash by 10% and its range by 3 yds.",
+    "iconPath": "interface/icons/achievement_guildperk_bartering",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705152,
+    "spellIds": [
+      705152,
+      707766
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29284
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705152,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Keg Smash</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and its range by <span class=\"item-number\">3</span> yds.",
+        "descriptionText": "Increases the damage of Keg Smash by 10% and its range by 3 yds."
+      },
+      {
+        "rank": 2,
+        "spellId": 707766,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Keg Smash</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and its range by <span class=\"item-number\">6</span> yds.",
+        "descriptionText": "Increases the damage of Keg Smash by 20% and its range by 6 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34260,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Drinking Frenzy",
+    "description": "Your melee attacks now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span>.<br /><br />In addition, your chance to hit is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your melee attacks now have a 15% chance to grant a stack of Fill Level.\n\nIn addition, your chance to hit is increased by 5%.",
+    "iconPath": "interface/icons/inv_misc_archaeology_vrykuldrinkinghorn",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706821,
+    "spellIds": [
+      706821
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29284
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706821,
+        "description": "Your melee attacks now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span>.<br /><br />In addition, your chance to hit is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your melee attacks now have a 15% chance to grant a stack of Fill Level.\n\nIn addition, your chance to hit is increased by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34261,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ancestor's Fury",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Unbridled Rage</span> now also increases your Frost Damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Unbridled Rage now also increases your Frost Damage by 10%.",
+    "iconPath": "interface/icons/achievement_boss_generalbjarngrim",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705168,
+    "spellIds": [
+      705168
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30386,
+      30387
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705168,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Unbridled Rage</span> now also increases your Frost Damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Unbridled Rage now also increases your Frost Damage by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34262,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Icebound Ancestry",
+    "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Breath of the North</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />In addition, your attacks now ignore Armor against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+    "descriptionText": "Increases the critical strike chance of Breath of the North by 10%.\n\nIn addition, your attacks now ignore Armor against Frozen targets.",
+    "iconPath": "interface/icons/achievement_boss_forgemaster",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705216,
+    "spellIds": [
+      705216
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4354,
+      12153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705216,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Breath of the North</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />In addition, your attacks now ignore Armor against <span style=\"color: #3399ff; display: inline\">Frozen</span> targets.",
+        "descriptionText": "Increases the critical strike chance of Breath of the North by 10%.\n\nIn addition, your attacks now ignore Armor against Frozen targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34263,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "The Finest Ale",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Ale of The God-King</span> no longer empties your <span style=\"color: #FFFFFF; display: inline\">Tankard</span>.",
+    "descriptionText": "Your Ale of The God-King no longer empties your Tankard.",
+    "iconPath": "interface/icons/spell_misc_drink",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705218,
+    "spellIds": [
+      705218
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34260
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705218,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Ale of The God-King</span> no longer empties your <span style=\"color: #FFFFFF; display: inline\">Tankard</span>.",
+        "descriptionText": "Your Ale of The God-King no longer empties your Tankard."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34264,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Hodir's Revenge",
+    "description": "Enemies damaged by your <span style=\"color: #FFFFFF; display: inline\">Frozen Tankard</span> now take <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage from you for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Enemies damaged by your Frozen Tankard now take 50% increased damage from you for 6 seconds.",
+    "iconPath": "interface/icons/spell_deathknight_iceboundfortitude",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705214,
+    "spellIds": [
+      705214
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705214,
+        "description": "Enemies damaged by your <span style=\"color: #FFFFFF; display: inline\">Frozen Tankard</span> now take <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage from you for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Enemies damaged by your Frozen Tankard now take 50% increased damage from you for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34304,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Liquid Courage",
+    "description": "Each <span style=\"color: #ffffff; display: inline\">Fill Level</span> stack now reduces your damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each Fill Level stack now reduces your damage taken by -2%.",
+    "iconPath": "interface/icons/ability_monk_fortifyingale_new",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681060,
+    "spellIds": [
+      681060
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30763
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681060,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Fill Level</span> stack now reduces your damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Fill Level stack now reduces your damage taken by -2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34305,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Drunken Frenzy",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Unbridled Rage</span> now increases your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span>'s Physical Damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Unbridled Rage now increases your Honored Ancestor's Physical Damage by 15% for 10 seconds.",
+    "iconPath": "interface/icons/inv_offhand_1h_draenordungeon_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572799,
+    "spellIds": [
+      572799
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34262,
+      30386
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572799,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Unbridled Rage</span> now increases your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span>'s Physical Damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Unbridled Rage now increases your Honored Ancestor's Physical Damage by 15% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34306,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Breath of The North",
+    "description": "Unleashes a frost breath, dealing <span class=\"item-number\">31</span> + <span class=\"item-number\">20% AP</span> Frost Damage to enemies in a <span class=\"item-number\">12</span> yd cone and slowing them by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.<br /><br />Can only be used after emptying your <span style=\"color: #ffffff; display: inline\">Tankard</span>.",
+    "descriptionText": "Unleashes a frost breath, dealing 31 + 20% AP Frost Damage to enemies in a 12 yd cone and slowing them by -30% for 5 seconds.\n\nCan only be used after emptying your Tankard.",
+    "iconPath": "interface/icons/spell_fire_blueflamebreath",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800838,
+    "spellIds": [
+      800838
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31153
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800838,
+        "description": "Unleashes a frost breath, dealing <span class=\"item-number\">31</span> + <span class=\"item-number\">20% AP</span> Frost Damage to enemies in a <span class=\"item-number\">12</span> yd cone and slowing them by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.<br /><br />Can only be used after emptying your <span style=\"color: #ffffff; display: inline\">Tankard</span>.",
+        "descriptionText": "Unleashes a frost breath, dealing 31 + 20% AP Frost Damage to enemies in a 12 yd cone and slowing them by -30% for 5 seconds.\n\nCan only be used after emptying your Tankard."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34307,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Rage of the North",
+    "description": "Increases the amount of attacks that can trigger your <span style=\"color: #FFFFFF; display: inline\">Ale of The God-King</span> by <span class=\"item-number\">10</span>.",
+    "descriptionText": "Increases the amount of attacks that can trigger your Ale of The God-King by 10.",
+    "iconPath": "interface/icons/inv_banner_tolbarad_alliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705221,
+    "spellIds": [
+      705221
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29366
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705221,
+        "description": "Increases the amount of attacks that can trigger your <span style=\"color: #FFFFFF; display: inline\">Ale of The God-King</span> by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases the amount of attacks that can trigger your Ale of The God-King by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34309,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ancestral Spirit",
+    "description": "Reduces the Energy cost of your <span style=\"color: #FFFFFF; display: inline\">Spirit</span> spells and increases the duration of your <span style=\"color: #ffffff; display: inline\">Shouts</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Energy cost of your Spirit spells and increases the duration of your Shouts by -50%.",
+    "iconPath": "interface/icons/5_druideskill22_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705153,
+    "spellIds": [
+      705153,
+      705154
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12261,
+      29348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705153,
+        "description": "Reduces the Energy cost of your <span style=\"color: #FFFFFF; display: inline\">Spirit</span> spells and increases the duration of your <span style=\"color: #ffffff; display: inline\">Shouts</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Energy cost of your Spirit spells and increases the duration of your Shouts by -50%."
+      },
+      {
+        "rank": 2,
+        "spellId": 705154,
+        "description": "Reduces the Energy cost of your <span style=\"color: #FFFFFF; display: inline\">Spirit</span> spells and increases the duration of your <span style=\"color: #ffffff; display: inline\">Shouts</span> by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Energy cost of your Spirit spells and increases the duration of your Shouts by -100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34311,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "The Spins",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Keg Smash</span> now causes your <span style=\"color: #FFFFFF; display: inline\">Honored Ancestor</span> to perform an <span style=\"color: #ffffff; display: inline\">Ancestral Whirl</span> attack upon nearby enemies.",
+    "descriptionText": "Casting Keg Smash now causes your Honored Ancestor to perform an Ancestral Whirl attack upon nearby enemies.",
+    "iconPath": "interface/icons/skill_icon_skill14_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705208,
+    "spellIds": [
+      705208
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34261,
+      34305
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705208,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Keg Smash</span> now causes your <span style=\"color: #FFFFFF; display: inline\">Honored Ancestor</span> to perform an <span style=\"color: #ffffff; display: inline\">Ancestral Whirl</span> attack upon nearby enemies.",
+        "descriptionText": "Casting Keg Smash now causes your Honored Ancestor to perform an Ancestral Whirl attack upon nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34312,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Might of Utgarde",
+    "description": "Attacks from your <span style=\"color: #FFFFFF; display: inline\">Ancestral Combat</span> now heal your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span> for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> maximum health and cause it to perform an <span style=\"color: #FFFFFF; display: inline\">Ancestral Whirl</span> attack.",
+    "descriptionText": "Attacks from your Ancestral Combat now heal your Honored Ancestor for 5% maximum health and cause it to perform an Ancestral Whirl attack.",
+    "iconPath": "interface/icons/achievement_dungeon_utgardepinnacle_normal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804768,
+    "spellIds": [
+      804768
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34311
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804768,
+        "description": "Attacks from your <span style=\"color: #FFFFFF; display: inline\">Ancestral Combat</span> now heal your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span> for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> maximum health and cause it to perform an <span style=\"color: #FFFFFF; display: inline\">Ancestral Whirl</span> attack.",
+        "descriptionText": "Attacks from your Ancestral Combat now heal your Honored Ancestor for 5% maximum health and cause it to perform an Ancestral Whirl attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29799,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ancestral Combat",
+    "description": "Empower yourself, granting your Physical Damage dealt a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to trigger an additional main hand attack as Frost Damage on your target and grant a stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span>.<br /><br />Lasts until triggered <span class=\"item-number\">20</span> times.",
+    "descriptionText": "Empower yourself, granting your Physical Damage dealt a 25% chance to trigger an additional main hand attack as Frost Damage on your target and grant a stack of Fill Level.\n\nLasts until triggered 20 times.",
+    "iconPath": "interface/icons/_d3calloftheancients",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801782,
+    "spellIds": [
+      801782
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29284,
+      34306
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801782,
+        "description": "Empower yourself, granting your Physical Damage dealt a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to trigger an additional main hand attack as Frost Damage on your target and grant a stack of <span style=\"color: #ffffff; display: inline\">Fill Level</span>.<br /><br />Lasts until triggered <span class=\"item-number\">20</span> times.",
+        "descriptionText": "Empower yourself, granting your Physical Damage dealt a 25% chance to trigger an additional main hand attack as Frost Damage on your target and grant a stack of Fill Level.\n\nLasts until triggered 20 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29800,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Improved Ancestral Combat",
+    "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Ancestral Combat</span> by <span class=\"item-number\">-10</span> and allows it to trigger <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Reduces the Energy cost of your Ancestral Combat by -10 and allows it to trigger 3 additional times.",
+    "iconPath": "interface/icons/inv_axe_82",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 705209,
+    "spellIds": [
+      705209,
+      705210,
+      707777
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29799
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705209,
+        "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Ancestral Combat</span> by <span class=\"item-number\">-10</span> and allows it to trigger <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Reduces the Energy cost of your Ancestral Combat by -10 and allows it to trigger 3 additional times."
+      },
+      {
+        "rank": 2,
+        "spellId": 705210,
+        "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Ancestral Combat</span> by <span class=\"item-number\">-20</span> and allows it to trigger <span class=\"item-number\">6</span> additional times.",
+        "descriptionText": "Reduces the Energy cost of your Ancestral Combat by -20 and allows it to trigger 6 additional times."
+      },
+      {
+        "rank": 3,
+        "spellId": 707777,
+        "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Ancestral Combat</span> by <span class=\"item-number\">-30</span> and allows it to trigger <span class=\"item-number\">10</span> additional times.",
+        "descriptionText": "Reduces the Energy cost of your Ancestral Combat by -30 and allows it to trigger 10 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30386,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ice Cold Bubbles",
+    "description": "Each <span style=\"color: #ffffff; display: inline\">Fill Level</span> stack now also increases Frost Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each Fill Level stack now also increases Frost Damage dealt by 2%.",
+    "iconPath": "interface/icons/nhi_iceswirl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705161,
+    "spellIds": [
+      705161,
+      707778
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11219,
+      31219,
+      34262,
+      34264
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705161,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Fill Level</span> stack now also increases Frost Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Fill Level stack now also increases Frost Damage dealt by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707778,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Fill Level</span> stack now also increases Frost Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Fill Level stack now also increases Frost Damage dealt by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30387,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Unified Rage",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Unbridled Rage</span> now increases your chance to trigger <span style=\"color: #FFFFFF; display: inline\">Ancestral Combat</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Unbridled Rage now increases your chance to trigger Ancestral Combat by 25%.",
+    "iconPath": "interface/icons/novart_magicspell_(76)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705212,
+    "spellIds": [
+      705212
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11219,
+      31219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705212,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Unbridled Rage</span> now increases your chance to trigger <span style=\"color: #FFFFFF; display: inline\">Ancestral Combat</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Unbridled Rage now increases your chance to trigger Ancestral Combat by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31153,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ancestor's Call",
+    "description": "Call an <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span> to aid you in battle until dismissed that scales with your Agility and attack power.<br /><br />Whenever you use <span style=\"color: #ffffff; display: inline\">Barbaric Whirl</span> or <span style=\"color: #ffffff; display: inline\">Whirling Advance</span>, your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span> mimics it.<br />",
+    "descriptionText": "Call an Honored Ancestor to aid you in battle until dismissed that scales with your Agility and attack power.\n\nWhenever you use Barbaric Whirl or Whirling Advance, your Honored Ancestor mimics it.",
+    "iconPath": "interface/icons/inv_helmet_158",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804729,
+    "spellIds": [
+      804729
+    ],
+    "requiredNodeIds": [
+      4003,
+      30762
+    ],
+    "connectedNodeIds": [
+      13572
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804729,
+        "description": "Call an <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span> to aid you in battle until dismissed that scales with your Agility and attack power.<br /><br />Whenever you use <span style=\"color: #ffffff; display: inline\">Barbaric Whirl</span> or <span style=\"color: #ffffff; display: inline\">Whirling Advance</span>, your <span style=\"color: #ffffff; display: inline\">Honored Ancestor</span> mimics it.<br />",
+        "descriptionText": "Call an Honored Ancestor to aid you in battle until dismissed that scales with your Agility and attack power.\n\nWhenever you use Barbaric Whirl or Whirling Advance, your Honored Ancestor mimics it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31219,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Thane's Guard",
+    "description": "Gain the <span style=\"color: #ffffff; display: inline\">Shield</span> proficiency and while wearing a shield you gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased attack speed and <span class=\"item-number\">100</span><span class=\"item-number\">%</span> increased Armor contribution from your shield.",
+    "descriptionText": "Gain the Shield proficiency and while wearing a shield you gain 40% increased attack speed and 100% increased Armor contribution from your shield.",
+    "iconPath": "interface/icons/achievements_zone_stormheim",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800132,
+    "spellIds": [
+      800132
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29800
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 803798,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800132,
+        "description": "Gain the <span style=\"color: #ffffff; display: inline\">Shield</span> proficiency and while wearing a shield you gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased attack speed and <span class=\"item-number\">100</span><span class=\"item-number\">%</span> increased Armor contribution from your shield.",
+        "descriptionText": "Gain the Shield proficiency and while wearing a shield you gain 40% increased attack speed and 100% increased Armor contribution from your shield."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31220,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "Ancestral Fury",
+    "description": "Emanate a powerful aura, granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Emanate a powerful aura, granting 10% increased melee and ranged haste to party and raid members within 100 yds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/achievement_boss_argus_aggramar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804731,
+    "spellIds": [
+      804731
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34306
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804731,
+        "description": "Emanate a powerful aura, granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Emanate a powerful aura, granting 10% increased melee and ranged haste to party and raid members within 100 yds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29782,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 33,
+    "tabKey": "12:33",
+    "tabName": "Ancestry",
+    "name": "War Cry",
+    "description": "Unleash a blood curdling war cry, increasing melee and ranged attack speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, and attack power by <span class=\"item-number\">150</span> of allies within <span class=\"item-number\">25</span> yds for <span class=\"item-number\">20</span> seconds.<br /><br />Allies cannot benefit from this spell again for <span class=\"item-number\">5</span> minutes.",
+    "descriptionText": "Unleash a blood curdling war cry, increasing melee and ranged attack speed by 20%, and attack power by 150 of allies within 25 yds for 20 seconds.\n\nAllies cannot benefit from this spell again for 5 minutes.",
+    "iconPath": "interface/icons/ability_soulrenderdormazain_hellscream",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500995,
+    "spellIds": [
+      500995
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34309,
+      30754
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500995,
+        "description": "Unleash a blood curdling war cry, increasing melee and ranged attack speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, and attack power by <span class=\"item-number\">150</span> of allies within <span class=\"item-number\">25</span> yds for <span class=\"item-number\">20</span> seconds.<br /><br />Allies cannot benefit from this spell again for <span class=\"item-number\">5</span> minutes.",
+        "descriptionText": "Unleash a blood curdling war cry, increasing melee and ranged attack speed by 20%, and attack power by 150 of allies within 25 yds for 20 seconds.\n\nAllies cannot benefit from this spell again for 5 minutes."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

@@ -1,0 +1,1663 @@
+[
+  {
+    "nodeId": 7376,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Runic Tattoos",
+    "description": "Reduces the resource costs of your spells and abilities by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the resource costs of your spells and abilities by -10%.",
+    "iconPath": "interface/icons/70_inscription_vantus_rune_azure",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800736,
+    "spellIds": [
+      800736
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29218,
+      31102
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800736,
+        "description": "Reduces the resource costs of your spells and abilities by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the resource costs of your spells and abilities by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7377,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Prismatic Flow",
+    "description": "<span style=\"color: #ffffff; display: inline\">Phase Out</span> now increases your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.",
+    "descriptionText": "Phase Out now increases your movement speed by 40% for 2 seconds.",
+    "iconPath": "interface/icons/spell_shadow_manafeed",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705581,
+    "spellIds": [
+      705581
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34653
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705581,
+        "description": "<span style=\"color: #ffffff; display: inline\">Phase Out</span> now increases your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.",
+        "descriptionText": "Phase Out now increases your movement speed by 40% for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29166,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Ley Constitution",
+    "description": "Your Armor contribution from items is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Armor contribution from items is increased by 30%.",
+    "iconPath": "interface/icons/spell_shadow_mindtwisting",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705562,
+    "spellIds": [
+      705562
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29521
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705562,
+        "description": "Your Armor contribution from items is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Armor contribution from items is increased by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29218,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Warpdagger",
+    "description": "Toss an enchanted dagger forward in a line. Upon reactivation, you instantly teleport to the location of the dagger and deal <span class=\"item-number\">142</span> + <span class=\"item-number\">44% SP</span> + <span class=\"item-number\">20% AP</span> Elemental Damage to nearby enemies.<br /><br />Usable while stealthed.",
+    "descriptionText": "Toss an enchanted dagger forward in a line. Upon reactivation, you instantly teleport to the location of the dagger and deal 142 + 44% SP + 20% AP Elemental Damage to nearby enemies.\n\nUsable while stealthed.",
+    "iconPath": "interface/icons/warpblade",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500287,
+    "spellIds": [
+      500287
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500287,
+        "description": "Toss an enchanted dagger forward in a line. Upon reactivation, you instantly teleport to the location of the dagger and deal <span class=\"item-number\">142</span> + <span class=\"item-number\">44% SP</span> + <span class=\"item-number\">20% AP</span> Elemental Damage to nearby enemies.<br /><br />Usable while stealthed.",
+        "descriptionText": "Toss an enchanted dagger forward in a line. Upon reactivation, you instantly teleport to the location of the dagger and deal 142 + 44% SP + 20% AP Elemental Damage to nearby enemies.\n\nUsable while stealthed."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29226,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Ancient Teachings",
+    "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Etching of the Dextrous</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Etching of the Dextrous by 20%.",
+    "iconPath": "interface/icons/ability_mage_potentspirit",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806797,
+    "spellIds": [
+      806797
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34580
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806797,
+        "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Etching of the Dextrous</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Etching of the Dextrous by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29228,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Power Engraving",
+    "description": "Create a <span style=\"color: #ffffff; display: inline\">Power Engraving</span> beneath you for <span class=\"item-number\">20</span> seconds, granting <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased Magic Damage dealt and <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased critical strike chance to up to <span class=\"item-number\">5</span> allies standing in the area.",
+    "descriptionText": "Create a Power Engraving beneath you for 20 seconds, granting 20% increased Magic Damage dealt and 20% increased critical strike chance to up to 5 allies standing in the area.",
+    "iconPath": "interface/icons/ability_deathknight_hungeringruneblade",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500296,
+    "spellIds": [
+      500296
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6483,
+      34616
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500296,
+        "description": "Create a <span style=\"color: #ffffff; display: inline\">Power Engraving</span> beneath you for <span class=\"item-number\">20</span> seconds, granting <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased Magic Damage dealt and <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased critical strike chance to up to <span class=\"item-number\">5</span> allies standing in the area.",
+        "descriptionText": "Create a Power Engraving beneath you for 20 seconds, granting 20% increased Magic Damage dealt and 20% increased critical strike chance to up to 5 allies standing in the area."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7829,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Permafrost Rune",
+    "description": "<span style=\"color: #3399ff; display: inline\">Requires Frozen Target</span><br />Inscribe a rune of permafrost and unleash it on an enemy, incapacitating them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players). Damage taken will end the effect. <br /><br />Affected enemies are considered <span style=\"color: #3399ff; display: inline\">Frozen</span>.<br /><br />Using this while in <span style=\"color: #ffffff; display: inline\">Runeshroud</span> causes it to incur an <span class=\"item-number\">-90</span><span class=\"item-number\">%</span> reduced cooldown.",
+    "descriptionText": "Requires Frozen Target\nInscribe a rune of permafrost and unleash it on an enemy, incapacitating them for 40 seconds (8 sec vs players). Damage taken will end the effect. \n\nAffected enemies are considered Frozen.\n\nUsing this while in Runeshroud causes it to incur an -90% reduced cooldown.",
+    "iconPath": "interface/icons/nhi_icestone_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804060,
+    "spellIds": [
+      804060
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11647,
+      33375,
+      34647
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804060,
+        "description": "<span style=\"color: #3399ff; display: inline\">Requires Frozen Target</span><br />Inscribe a rune of permafrost and unleash it on an enemy, incapacitating them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players). Damage taken will end the effect. <br /><br />Affected enemies are considered <span style=\"color: #3399ff; display: inline\">Frozen</span>.<br /><br />Using this while in <span style=\"color: #ffffff; display: inline\">Runeshroud</span> causes it to incur an <span class=\"item-number\">-90</span><span class=\"item-number\">%</span> reduced cooldown.",
+        "descriptionText": "Requires Frozen Target\nInscribe a rune of permafrost and unleash it on an enemy, incapacitating them for 40 seconds (8 sec vs players). Damage taken will end the effect. \n\nAffected enemies are considered Frozen.\n\nUsing this while in Runeshroud causes it to incur an -90% reduced cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11647,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Nomad's Scroll",
+    "description": "Swapping to <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Air</span> now instantly dispels <span class=\"item-number\">1</span> movement slowing effect on you.",
+    "descriptionText": "Swapping to Runic Tattoos: Air now instantly dispels 1 movement slowing effect on you.",
+    "iconPath": "interface/icons/inv_ascend_scroll_07_b",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707653,
+    "spellIds": [
+      707653
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30158
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707653,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707653,
+        "description": "Swapping to <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Air</span> now instantly dispels <span class=\"item-number\">1</span> movement slowing effect on you.",
+        "descriptionText": "Swapping to Runic Tattoos: Air now instantly dispels 1 movement slowing effect on you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9210,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Unbound",
+    "description": "Reduces the duration of harmful magic and curse effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of harmful magic and curse effects on you by -20%.",
+    "iconPath": "interface/icons/inv_azerite_explosion",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806718,
+    "spellIds": [
+      806718
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6378,
+      30173,
+      34609
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806718,
+        "description": "Reduces the duration of harmful magic and curse effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of harmful magic and curse effects on you by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30728,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Granite Resolve",
+    "description": "Become hard as stone, reducing your Physical Damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Usable while stunned.",
+    "descriptionText": "Become hard as stone, reducing your Physical Damage taken by -30% for 8 seconds.\n\nUsable while stunned.",
+    "iconPath": "interface/icons/nhi_earthtranquility_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520229,
+    "spellIds": [
+      520229
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30158,
+      34653
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520229,
+        "description": "Become hard as stone, reducing your Physical Damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Usable while stunned.",
+        "descriptionText": "Become hard as stone, reducing your Physical Damage taken by -30% for 8 seconds.\n\nUsable while stunned."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31102,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Ice Rune",
+    "description": "<span style=\"color: #3399ff; display: inline\">Requires Frozen Target</span><br />Unleash a frost rune at an enemy, stunning them for <span class=\"item-number\">4</span> seconds.<br /><br />Affected enemies are considered <span style=\"color: #3399ff; display: inline\">Frozen</span>.",
+    "descriptionText": "Requires Frozen Target\nUnleash a frost rune at an enemy, stunning them for 4 seconds.\n\nAffected enemies are considered Frozen.",
+    "iconPath": "interface/icons/nhi_iceprison_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524930,
+    "spellIds": [
+      524930
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524930,
+        "description": "<span style=\"color: #3399ff; display: inline\">Requires Frozen Target</span><br />Unleash a frost rune at an enemy, stunning them for <span class=\"item-number\">4</span> seconds.<br /><br />Affected enemies are considered <span style=\"color: #3399ff; display: inline\">Frozen</span>.",
+        "descriptionText": "Requires Frozen Target\nUnleash a frost rune at an enemy, stunning them for 4 seconds.\n\nAffected enemies are considered Frozen."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30158,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Speed Rune",
+    "description": "Conjure a path of runes in the direction you are facing for <span class=\"item-number\">10</span> seconds, increasing the movement speed of allies by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>.<br /><br />This effect can persist for a short duration after leaving the runic path.",
+    "descriptionText": "Conjure a path of runes in the direction you are facing for 10 seconds, increasing the movement speed of allies by 70%.\n\nThis effect can persist for a short duration after leaving the runic path.",
+    "iconPath": "interface/icons/runeofspeed",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801103,
+    "spellIds": [
+      801103
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29166,
+      34648
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801103,
+        "description": "Conjure a path of runes in the direction you are facing for <span class=\"item-number\">10</span> seconds, increasing the movement speed of allies by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>.<br /><br />This effect can persist for a short duration after leaving the runic path.",
+        "descriptionText": "Conjure a path of runes in the direction you are facing for 10 seconds, increasing the movement speed of allies by 70%.\n\nThis effect can persist for a short duration after leaving the runic path."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30173,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Wind Walker",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Air</span> is active, the cooldown of <span style=\"color: #ffffff; display: inline\">Rune</span> spells is reduced by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "While Runic Tattoos: Air is active, the cooldown of Rune spells is reduced by 5% every 5 sec.",
+    "iconPath": "interface/icons/spell_frost_windwalkon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807376,
+    "spellIds": [
+      807376
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7829,
+      34610
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 804531,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807376,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Air</span> is active, the cooldown of <span style=\"color: #ffffff; display: inline\">Rune</span> spells is reduced by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "While Runic Tattoos: Air is active, the cooldown of Rune spells is reduced by 5% every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30327,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Magic Feeder",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Leyfeed</span> now steals <span class=\"item-number\">1</span> additional magic effect from the target.",
+    "descriptionText": "Your Leyfeed now steals 1 additional magic effect from the target.",
+    "iconPath": "interface/icons/ability_racial_shadowmeld",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705546,
+    "spellIds": [
+      705546
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34610,
+      34614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705546,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Leyfeed</span> now steals <span class=\"item-number\">1</span> additional magic effect from the target.",
+        "descriptionText": "Your Leyfeed now steals 1 additional magic effect from the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34580,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Runic Affinity",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Zenith</span> by <span class=\"item-number\">6</span> sec.",
+    "descriptionText": "Increases the duration of Zenith by 6 sec.",
+    "iconPath": "interface/icons/inv_misc_rune_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705621,
+    "spellIds": [
+      705621
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705621,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Zenith</span> by <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Increases the duration of Zenith by 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34607,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Mind Over Matter",
+    "description": "Successfully interrupting an enemy with <span style=\"color: #ffffff; display: inline\">Ley Lock</span> reduces its cooldown by <span class=\"item-number\">-6</span> sec.",
+    "descriptionText": "Successfully interrupting an enemy with Ley Lock reduces its cooldown by -6 sec.",
+    "iconPath": "interface/icons/spell_arcane_mindmastery",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802669,
+    "spellIds": [
+      802669
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 802669,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802669,
+        "description": "Successfully interrupting an enemy with <span style=\"color: #ffffff; display: inline\">Ley Lock</span> reduces its cooldown by <span class=\"item-number\">-6</span> sec.",
+        "descriptionText": "Successfully interrupting an enemy with Ley Lock reduces its cooldown by -6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34609,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Master of Runes",
+    "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Rune</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Rune spells by -25%.",
+    "iconPath": "interface/icons/inv_custom_rune",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804531,
+    "spellIds": [
+      804531
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7829,
+      34610
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 804531,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804531,
+        "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Rune</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Rune spells by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34610,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Warding Rune",
+    "description": "Engrave anti-magic runes around you, removing all harmful magic effects and causing harmful magic effects to have no duration when cast on you for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Engrave anti-magic runes around you, removing all harmful magic effects and causing harmful magic effects to have no duration when cast on you for 6 seconds.",
+    "iconPath": "interface/icons/inv_qiraj_jewelglyphed",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804232,
+    "spellIds": [
+      804232
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7377,
+      33375
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804232,
+        "description": "Engrave anti-magic runes around you, removing all harmful magic effects and causing harmful magic effects to have no duration when cast on you for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Engrave anti-magic runes around you, removing all harmful magic effects and causing harmful magic effects to have no duration when cast on you for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34612,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Blade Rift",
+    "description": "While stealthed, using <span style=\"color: #FFFFFF; display: inline\">Warpdagger</span> now increases your Magic Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "While stealthed, using Warpdagger now increases your Magic Damage dealt by 20% for 8 seconds.",
+    "iconPath": "interface/icons/5_magicresistance_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520237,
+    "spellIds": [
+      520237
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34649
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520237,
+        "description": "While stealthed, using <span style=\"color: #FFFFFF; display: inline\">Warpdagger</span> now increases your Magic Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "While stealthed, using Warpdagger now increases your Magic Damage dealt by 20% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34614,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Primordialism",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds after leaving <span style=\"color: #ffffff; display: inline\">Runeshroud</span>.",
+    "descriptionText": "Increases your critical strike chance by 10% for 5 seconds after leaving Runeshroud.",
+    "iconPath": "interface/icons/spell_nature_astralrecalgroup",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520054,
+    "spellIds": [
+      520054
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7377,
+      34615
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520054,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds after leaving <span style=\"color: #ffffff; display: inline\">Runeshroud</span>.",
+        "descriptionText": "Increases your critical strike chance by 10% for 5 seconds after leaving Runeshroud."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34615,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Shroudwalker",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Warpdagger</span> now incurs no cooldown if used while your <span style=\"color: #ffffff; display: inline\">Runeshroud</span> is active.",
+    "descriptionText": "Your Warpdagger now incurs no cooldown if used while your Runeshroud is active.",
+    "iconPath": "interface/icons/ability_rogue_shroudofconcealment",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705563,
+    "spellIds": [
+      705563
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34612
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705563,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Warpdagger</span> now incurs no cooldown if used while your <span style=\"color: #ffffff; display: inline\">Runeshroud</span> is active.",
+        "descriptionText": "Your Warpdagger now incurs no cooldown if used while your Runeshroud is active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34616,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Elements of Fury",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Palm Sigils</span> now affect <span class=\"item-number\">1</span> additional instance of damage.",
+    "descriptionText": "Your Palm Sigils now affect 1 additional instance of damage.",
+    "iconPath": "interface/icons/ability_shaman_echooftheelements",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707413,
+    "spellIds": [
+      707413
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5648,
+      9210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707413,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Palm Sigils</span> now affect <span class=\"item-number\">1</span> additional instance of damage.",
+        "descriptionText": "Your Palm Sigils now affect 1 additional instance of damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34617,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Runic Breakout",
+    "description": "Abilities requiring <span style=\"color: #FFFFFF; display: inline\">Runeshroud</span> can now be used for <span class=\"item-number\">3</span> sec and have no cast time after <span style=\"color: #FFFFFF; display: inline\">Runeshroud</span> breaks.",
+    "descriptionText": "Abilities requiring Runeshroud can now be used for 3 sec and have no cast time after Runeshroud breaks.",
+    "iconPath": "interface/icons/spell_shadow_teleport",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705583,
+    "spellIds": [
+      705583
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6477,
+      30327,
+      34607
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705583,
+        "description": "Abilities requiring <span style=\"color: #FFFFFF; display: inline\">Runeshroud</span> can now be used for <span class=\"item-number\">3</span> sec and have no cast time after <span style=\"color: #FFFFFF; display: inline\">Runeshroud</span> breaks.",
+        "descriptionText": "Abilities requiring Runeshroud can now be used for 3 sec and have no cast time after Runeshroud breaks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34647,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Elemental Secrets",
+    "description": "Increases the cooldown of <span style=\"color: #ffffff; display: inline\">Speed Rune</span> by <span class=\"item-number\">30</span> sec, but it now applies stealth to allies who walk on the pathway for the duration.",
+    "descriptionText": "Increases the cooldown of Speed Rune by 30 sec, but it now applies stealth to allies who walk on the pathway for the duration.",
+    "iconPath": "interface/icons/novart_books_(7)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707149,
+    "spellIds": [
+      707149
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30158
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707653,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707149,
+        "description": "Increases the cooldown of <span style=\"color: #ffffff; display: inline\">Speed Rune</span> by <span class=\"item-number\">30</span> sec, but it now applies stealth to allies who walk on the pathway for the duration.",
+        "descriptionText": "Increases the cooldown of Speed Rune by 30 sec, but it now applies stealth to allies who walk on the pathway for the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34648,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Mystical Etchings",
+    "description": "Reduces all Fire, Nature, Frost, and Arcane Damage taken by <span class=\"item-number\">-8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces all Fire, Nature, Frost, and Arcane Damage taken by -8%.",
+    "iconPath": "interface/icons/nhi_arcanestone_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 806795,
+    "spellIds": [
+      806795,
+      807921
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29521,
+      31102
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806795,
+        "description": "Reduces all Fire, Nature, Frost, and Arcane Damage taken by <span class=\"item-number\">-8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces all Fire, Nature, Frost, and Arcane Damage taken by -8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807921,
+        "description": "Reduces all Fire, Nature, Frost, and Arcane Damage taken by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces all Fire, Nature, Frost, and Arcane Damage taken by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34649,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Warpmaster",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Warpdagger</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Warpdagger by -5 sec.",
+    "iconPath": "interface/icons/achievement_dungeon_ulduarraid_archway_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560992,
+    "spellIds": [
+      560992
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29218
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560992,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Warpdagger</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Warpdagger by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34653,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Phase Out",
+    "description": "Disappear from sight, entering an improved stealth for <span class=\"item-number\">6</span> seconds and applying <span style=\"color: #ffffff; display: inline\">Runeshroud</span>.",
+    "descriptionText": "Disappear from sight, entering an improved stealth for 6 seconds and applying Runeshroud.",
+    "iconPath": "interface/icons/ability_mage_greaterinvisibility",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500671,
+    "spellIds": [
+      500671
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7376,
+      34649
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500671,
+        "description": "Disappear from sight, entering an improved stealth for <span class=\"item-number\">6</span> seconds and applying <span style=\"color: #ffffff; display: inline\">Runeshroud</span>.",
+        "descriptionText": "Disappear from sight, entering an improved stealth for 6 seconds and applying Runeshroud."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34663,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Speedy Attuner",
+    "description": "Increases your movement speed by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your movement speed by 8% and reduces the mana cost of your Runic Tattoos by -25%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_magicspeed_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705554,
+    "spellIds": [
+      705554,
+      707746
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11647,
+      29226,
+      34647
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705554,
+        "description": "Increases your movement speed by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your movement speed by 8% and reduces the mana cost of your Runic Tattoos by -25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707746,
+        "description": "Increases your movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your movement speed by 15% and reduces the mana cost of your Runic Tattoos by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29521,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Zenith",
+    "description": "For <span class=\"item-number\">6</span> seconds, your runic tattoos flare up, increasing your chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "For 6 seconds, your runic tattoos flare up, increasing your chance to trigger your Weapon Engravings by 100%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_magickeeper_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712325,
+    "spellIds": [
+      712325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712325,
+        "description": "For <span class=\"item-number\">6</span> seconds, your runic tattoos flare up, increasing your chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "For 6 seconds, your runic tattoos flare up, increasing your chance to trigger your Weapon Engravings by 100%."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29637,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Convergence",
+    "description": "For <span class=\"item-number\">15</span> seconds, the next <span class=\"item-number\">10</span> <span style=\"color: #ffffff; display: inline\">Weapon Engravings</span> you trigger will now deal an additional <span class=\"item-number\">348</span> + <span class=\"item-number\">30% SP</span> + <span class=\"item-number\">20% AP</span> Elemental Damage.",
+    "descriptionText": "For 15 seconds, the next 10 Weapon Engravings you trigger will now deal an additional 348 + 30% SP + 20% AP Elemental Damage.",
+    "iconPath": "interface/icons/nhi_arcaneaid_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801086,
+    "spellIds": [
+      801086
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34616
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801086,
+        "description": "For <span class=\"item-number\">15</span> seconds, the next <span class=\"item-number\">10</span> <span style=\"color: #ffffff; display: inline\">Weapon Engravings</span> you trigger will now deal an additional <span class=\"item-number\">348</span> + <span class=\"item-number\">30% SP</span> + <span class=\"item-number\">20% AP</span> Elemental Damage.",
+        "descriptionText": "For 15 seconds, the next 10 Weapon Engravings you trigger will now deal an additional 348 + 30% SP + 20% AP Elemental Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33375,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Primal Rune",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Granite Resolve</span> now reduces damage taken by an additional <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Granite Resolve now reduces damage taken by an additional -10%.",
+    "iconPath": "interface/icons/ability_druid_fortifiedbark",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705636,
+    "spellIds": [
+      705636
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30728
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705636,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Granite Resolve</span> now reduces damage taken by an additional <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Granite Resolve now reduces damage taken by an additional -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5648,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Glyphs of Power",
+    "description": "Your direct damage dealt has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Your direct damage dealt has a 10% chance to restore 3% of your maximum mana.",
+    "iconPath": "interface/icons/inv_misc_rune_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520145,
+    "spellIds": [
+      520145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30173,
+      30327,
+      34609
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520145,
+        "description": "Your direct damage dealt has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Your direct damage dealt has a 10% chance to restore 3% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6476,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Stone Petroglyph",
+    "description": "While in <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Earth</span>, you now heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">4</span> sec and you become immune to knockbacks.",
+    "descriptionText": "While in Runic Tattoos: Earth, you now heal for 3% of your maximum health every 4 sec and you become immune to knockbacks.",
+    "iconPath": "interface/icons/nhi_earthmask_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707157,
+    "spellIds": [
+      707157
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34663
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707157,
+        "description": "While in <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Earth</span>, you now heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">4</span> sec and you become immune to knockbacks.",
+        "descriptionText": "While in Runic Tattoos: Earth, you now heal for 3% of your maximum health every 4 sec and you become immune to knockbacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6477,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Mind Wrath",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Ley Lock</span> now interrupts <span class=\"item-number\">1</span> additional enemy near your primary target.",
+    "descriptionText": "Your Ley Lock now interrupts 1 additional enemy near your primary target.",
+    "iconPath": "interface/icons/nhi_corruptionmind_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800757,
+    "spellIds": [
+      800757
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 802669,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800757,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Ley Lock</span> now interrupts <span class=\"item-number\">1</span> additional enemy near your primary target.",
+        "descriptionText": "Your Ley Lock now interrupts 1 additional enemy near your primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6483,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Decoder",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Elemental Burst</span> and <span style=\"color: #ffffff; display: inline\">Runeblade</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to instantly trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span>.",
+    "descriptionText": "Your Elemental Burst and Runeblade now have a 20% chance to instantly trigger your Weapon Engravings.",
+    "iconPath": "interface/icons/inv_ascend_magicartifact_10",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706523,
+    "spellIds": [
+      706523
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6378,
+      6476
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706523,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Elemental Burst</span> and <span style=\"color: #ffffff; display: inline\">Runeblade</span> now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to instantly trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span>.",
+        "descriptionText": "Your Elemental Burst and Runeblade now have a 20% chance to instantly trigger your Weapon Engravings."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6485,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Sigilist",
+    "description": "After using a <span style=\"color: #ffffff; display: inline\">Palm Sigil</span>, the duration of your crowd control effects is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />Reduces the cast time of all <span style=\"color: #ffffff; display: inline\">Palm Sigils</span> by <span class=\"item-number\">-0.5</span> sec and increases the duration of your <span style=\"color: #ffffff; display: inline\">Palm Sigil</span> buffs by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "After using a Palm Sigil, the duration of your crowd control effects is increased by 20%.\n\nReduces the cast time of all Palm Sigils by -0.5 sec and increases the duration of your Palm Sigil buffs by 50%.",
+    "iconPath": "interface/icons/inv_ascend_runestone_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705586,
+    "spellIds": [
+      705586
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34616,
+      34617
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705586,
+        "description": "After using a <span style=\"color: #ffffff; display: inline\">Palm Sigil</span>, the duration of your crowd control effects is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />Reduces the cast time of all <span style=\"color: #ffffff; display: inline\">Palm Sigils</span> by <span class=\"item-number\">-0.5</span> sec and increases the duration of your <span style=\"color: #ffffff; display: inline\">Palm Sigil</span> buffs by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "After using a Palm Sigil, the duration of your crowd control effects is increased by 20%.\n\nReduces the cast time of all Palm Sigils by -0.5 sec and increases the duration of your Palm Sigil buffs by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6378,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 87,
+    "tabKey": "32:87",
+    "tabName": "Class",
+    "name": "Master Engraver",
+    "description": "Increases the chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger your Weapon Engravings by 5%.",
+    "iconPath": "interface/icons/inv_blacksmithing_greatersharpeningstone",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705605,
+    "spellIds": [
+      705605
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7829,
+      34663
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705605,
+        "description": "Increases the chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger your Weapon Engravings by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

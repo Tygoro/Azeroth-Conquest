@@ -1,0 +1,1777 @@
+[
+  {
+    "nodeId": 29998,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Retiarius",
+    "description": "Increases your maximum Energy by <span class=\"item-number\">25</span>.",
+    "descriptionText": "Increases your maximum Energy by 25.",
+    "iconPath": "interface/icons/ability_warrior_warbringer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705338,
+    "spellIds": [
+      705338
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6989,
+      6990
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705338,
+        "description": "Increases your maximum Energy by <span class=\"item-number\">25</span>.",
+        "descriptionText": "Increases your maximum Energy by 25."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29999,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Earthsplitter",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> now increases the amount of enemies struck by your next <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">1</span> and reduces its Energy cost by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Casting Broad Sweep now increases the amount of enemies struck by your next Broad Sweep by 1 and reduces its Energy cost by -10% for 6 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/ability_kilruk_reave",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805155,
+    "spellIds": [
+      805155
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6429,
+      31352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805155,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> now increases the amount of enemies struck by your next <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">1</span> and reduces its Energy cost by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Casting Broad Sweep now increases the amount of enemies struck by your next Broad Sweep by 1 and reduces its Energy cost by -10% for 6 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30000,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Sword Training",
+    "description": "While a sword is equipped, your melee haste is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While a sword is equipped, your melee haste is increased by 10%.",
+    "iconPath": "interface/icons/inv_sword_40",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 802297,
+    "spellIds": [
+      802297,
+      803831,
+      807891
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4410
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802297,
+        "description": "While a sword is equipped, your melee haste is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a sword is equipped, your melee haste is increased by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 803831,
+        "description": "While a sword is equipped, your melee haste is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a sword is equipped, your melee haste is increased by 20%."
+      },
+      {
+        "rank": 3,
+        "spellId": 807891,
+        "description": "While a sword is equipped, your melee haste is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a sword is equipped, your melee haste is increased by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30003,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "No Escape",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Battle Rush</span> by <span class=\"item-number\">-10</span> sec when used against a rooted enemy.",
+    "descriptionText": "Reduces the cooldown of your Battle Rush by -10 sec when used against a rooted enemy.",
+    "iconPath": "interface/icons/novart_physical_ability_(46)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802300,
+    "spellIds": [
+      802300
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6433
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 966669,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802300,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Battle Rush</span> by <span class=\"item-number\">-10</span> sec when used against a rooted enemy.",
+        "descriptionText": "Reduces the cooldown of your Battle Rush by -10 sec when used against a rooted enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30019,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Final Verdict",
+    "description": "Give the final verdict to your target, dealing <span class=\"item-number\">1745</span> + <span class=\"item-number\">100% AP</span> Physical Damage and healing you for <span class=\"item-number\">15%</span> of your maximum health.<br /><br />Only usable on enemies below <span class=\"item-number\">20%</span> health. Killing blows reset the cooldown of this ability.",
+    "descriptionText": "Give the final verdict to your target, dealing 1745 + 100% AP Physical Damage and healing you for 15% of your maximum health.\n\nOnly usable on enemies below 20% health. Killing blows reset the cooldown of this ability.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0001s_0000_warrior_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500258,
+    "spellIds": [
+      500258
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500258,
+        "description": "Give the final verdict to your target, dealing <span class=\"item-number\">1745</span> + <span class=\"item-number\">100% AP</span> Physical Damage and healing you for <span class=\"item-number\">15%</span> of your maximum health.<br /><br />Only usable on enemies below <span class=\"item-number\">20%</span> health. Killing blows reset the cooldown of this ability.",
+        "descriptionText": "Give the final verdict to your target, dealing 1745 + 100% AP Physical Damage and healing you for 15% of your maximum health.\n\nOnly usable on enemies below 20% health. Killing blows reset the cooldown of this ability."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31170,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Centurion Strike",
+    "description": "Stab an enemy, dealing <span class=\"item-number\">110</span><span class=\"item-number\">%</span> Weapon Damage plus an additional effect based on your weapon.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Sword:</span> Triggers <span class=\"item-number\">3</span> additional auto attacks.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Axe:</span> Guaranteed to critically strike for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Mace:</span> Ignores <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> of your target's Armor.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Polearm:</span> Stabs the target and enemies behind them an additional time.",
+    "descriptionText": "Stab an enemy, dealing 110% Weapon Damage plus an additional effect based on your weapon.\n\nSword: Triggers 3 additional auto attacks.\n\nAxe: Guaranteed to critically strike for 25% increased damage.\n\nMace: Ignores -50% of your target's Armor.\n\nPolearm: Stabs the target and enemies behind them an additional time.",
+    "iconPath": "interface/icons/custom_warriorskill_02_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802286,
+    "spellIds": [
+      802286
+    ],
+    "requiredNodeIds": [
+      4020
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802286,
+        "description": "Stab an enemy, dealing <span class=\"item-number\">110</span><span class=\"item-number\">%</span> Weapon Damage plus an additional effect based on your weapon.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Sword:</span> Triggers <span class=\"item-number\">3</span> additional auto attacks.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Axe:</span> Guaranteed to critically strike for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Mace:</span> Ignores <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> of your target's Armor.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Polearm:</span> Stabs the target and enemies behind them an additional time.",
+        "descriptionText": "Stab an enemy, dealing 110% Weapon Damage plus an additional effect based on your weapon.\n\nSword: Triggers 3 additional auto attacks.\n\nAxe: Guaranteed to critically strike for 25% increased damage.\n\nMace: Ignores -50% of your target's Armor.\n\nPolearm: Stabs the target and enemies behind them an additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31285,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Calculated Strike",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Reprisal</span>, <span style=\"color: #ffffff; display: inline\">Broad Sweep</span>, and <span style=\"color: #ffffff; display: inline\">Spear Throw</span> now deal an additional <span class=\"item-number\">2%</span> Weapon Damage for each Energy point you have upon casting it.",
+    "descriptionText": "Your Reprisal, Broad Sweep, and Spear Throw now deal an additional 2% Weapon Damage for each Energy point you have upon casting it.",
+    "iconPath": "interface/icons/achievement_raregarrisonquests_x",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705341,
+    "spellIds": [
+      705341
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30528,
+      31352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705341,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Reprisal</span>, <span style=\"color: #ffffff; display: inline\">Broad Sweep</span>, and <span style=\"color: #ffffff; display: inline\">Spear Throw</span> now deal an additional <span class=\"item-number\">2%</span> Weapon Damage for each Energy point you have upon casting it.",
+        "descriptionText": "Your Reprisal, Broad Sweep, and Spear Throw now deal an additional 2% Weapon Damage for each Energy point you have upon casting it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31352,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Heroism",
+    "description": "Whenever you reach <span class=\"item-number\">3</span> stacks of <span style=\"color: #FFFFFF; display: inline\">Glory</span> or <span class=\"item-number\">20</span> stacks of <span style=\"color: #FFFFFF; display: inline\">Favor</span>, your next <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Pulverizes</span> or <span style=\"color: #FFFFFF; display: inline\">Broad Sweeps</span> within <span class=\"item-number\">10</span> seconds are free of cost.",
+    "descriptionText": "Whenever you reach 3 stacks of Glory or 20 stacks of Favor, your next 2 Pulverizes or Broad Sweeps within 10 seconds are free of cost.",
+    "iconPath": "interface/icons/ability_racial_avatar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705323,
+    "spellIds": [
+      705323
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6547
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705323,
+        "description": "Whenever you reach <span class=\"item-number\">3</span> stacks of <span style=\"color: #FFFFFF; display: inline\">Glory</span> or <span class=\"item-number\">20</span> stacks of <span style=\"color: #FFFFFF; display: inline\">Favor</span>, your next <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Pulverizes</span> or <span style=\"color: #FFFFFF; display: inline\">Broad Sweeps</span> within <span class=\"item-number\">10</span> seconds are free of cost.",
+        "descriptionText": "Whenever you reach 3 stacks of Glory or 20 stacks of Favor, your next 2 Pulverizes or Broad Sweeps within 10 seconds are free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31354,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Clinch Brawler",
+    "description": "<span style=\"color: #ffffff; display: inline\">Centurion Strike</span> is now guaranteed to critically strike against enemies affected by <span style=\"color: #ffffff; display: inline\">Net Throw</span>.",
+    "descriptionText": "Centurion Strike is now guaranteed to critically strike against enemies affected by Net Throw.",
+    "iconPath": "interface/icons/custom_net_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707310,
+    "spellIds": [
+      707310
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6430,
+      6434
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 235221,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707310,
+        "description": "<span style=\"color: #ffffff; display: inline\">Centurion Strike</span> is now guaranteed to critically strike against enemies affected by <span style=\"color: #ffffff; display: inline\">Net Throw</span>.",
+        "descriptionText": "Centurion Strike is now guaranteed to critically strike against enemies affected by Net Throw."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30528,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Close Combat",
+    "description": "Removes the shared cooldown of your <span style=\"color: #FFFFFF; display: inline\">Standards</span> and reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Guard</span> by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Removes the shared cooldown of your Standards and reduces the cooldown of Guard by -10 sec.",
+    "iconPath": "interface/icons/_d3groundstomp",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704514,
+    "spellIds": [
+      704514
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4654,
+      6547,
+      31354
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704514,
+        "description": "Removes the shared cooldown of your <span style=\"color: #FFFFFF; display: inline\">Standards</span> and reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Guard</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Removes the shared cooldown of your Standards and reduces the cooldown of Guard by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34410,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Double Duty",
+    "description": "Increases your hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">4</span>.",
+    "descriptionText": "Increases your hit chance by 5% and expertise by 4.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactskywall_d_06dual",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504184,
+    "spellIds": [
+      504184
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34458
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504184,
+        "description": "Increases your hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your hit chance by 5% and expertise by 4."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34450,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Heroic Effort",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> now grants <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Glory</span>.",
+    "descriptionText": "Casting Centurion Strike now grants 1 stack of Glory.",
+    "iconPath": "interface/icons/achievement_guildperk_everyones_a_hero",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301057,
+    "spellIds": [
+      301057
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6433,
+      7038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301057,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> now grants <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Glory</span>.",
+        "descriptionText": "Casting Centurion Strike now grants 1 stack of Glory."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34453,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Bulwark Rush",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Battle Rush</span> increases your block rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of Strength for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Casting Battle Rush increases your block rating by 25% of Strength for 6 seconds.",
+    "iconPath": "interface/icons/ability_warrior_criticalblock",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300536,
+    "spellIds": [
+      300536
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6433
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 966669,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300536,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Battle Rush</span> increases your block rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of Strength for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Casting Battle Rush increases your block rating by 25% of Strength for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34455,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Mace Training",
+    "description": "While a mace is equipped, your armor penetration is increased by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While a mace is equipped, your armor penetration is increased by 8%.",
+    "iconPath": "interface/icons/inv_mace_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 705336,
+    "spellIds": [
+      705336,
+      707819,
+      712475
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29426
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705336,
+        "description": "While a mace is equipped, your armor penetration is increased by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a mace is equipped, your armor penetration is increased by 8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707819,
+        "description": "While a mace is equipped, your armor penetration is increased by <span class=\"item-number\">16</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a mace is equipped, your armor penetration is increased by 16%."
+      },
+      {
+        "rank": 3,
+        "spellId": 712475,
+        "description": "While a mace is equipped, your armor penetration is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While a mace is equipped, your armor penetration is increased by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34458,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Upper Hand",
+    "description": "Your melee auto attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times.",
+    "descriptionText": "Your melee auto attacks now have a 20% chance to strike 2 additional times.",
+    "iconPath": "interface/icons/inv_relics_totemofrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802295,
+    "spellIds": [
+      802295
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29661
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802295,
+        "description": "Your melee auto attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Your melee auto attacks now have a 20% chance to strike 2 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29661,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Supremacy",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Reprisal</span>.",
+    "descriptionText": "Casting Centurion Strike now refreshes a charge of Reprisal.",
+    "iconPath": "interface/icons/custom_sword_b_07_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504140,
+    "spellIds": [
+      504140
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4410,
+      29426
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504140,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Reprisal</span>.",
+        "descriptionText": "Casting Centurion Strike now refreshes a charge of Reprisal."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7038,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Champion",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> now extends the duration of <span style=\"color: #ffffff; display: inline\">Raise Shield</span> on you by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Your Centurion Strike now extends the duration of Raise Shield on you by 3 sec.",
+    "iconPath": "interface/icons/ability_warrior_improveddisciplines",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300972,
+    "spellIds": [
+      300972
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5349,
+      34458
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300972,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> now extends the duration of <span style=\"color: #ffffff; display: inline\">Raise Shield</span> on you by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Your Centurion Strike now extends the duration of Raise Shield on you by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4410,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Might",
+    "description": "Increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your attack power by 5%.",
+    "iconPath": "interface/icons/inv_helm_crown_c_01_silver",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300538,
+    "spellIds": [
+      300538,
+      301355
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300538,
+        "description": "Increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301355,
+        "description": "Increases your attack power by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4654,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Pinned Down!",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Spear Throw</span> now refreshes the duration of <span style=\"color: #ffffff; display: inline\">Net Throw</span> on your target.",
+    "descriptionText": "Damage dealt by Spear Throw now refreshes the duration of Net Throw on your target.",
+    "iconPath": "interface/icons/ability_warrior_challange",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301252,
+    "spellIds": [
+      301252
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6430,
+      6434
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 235221,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301252,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Spear Throw</span> now refreshes the duration of <span style=\"color: #ffffff; display: inline\">Net Throw</span> on your target.",
+        "descriptionText": "Damage dealt by Spear Throw now refreshes the duration of Net Throw on your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5349,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Built Different",
+    "description": "Increases your Strength and Stamina by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Strength and Stamina by 4%.",
+    "iconPath": "interface/icons/5_engineerskill39_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300545,
+    "spellIds": [
+      300545
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29661
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300545,
+        "description": "Increases your Strength and Stamina by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Strength and Stamina by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5433,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Axe Training",
+    "description": "While an axe is equipped, your critical strike chance is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and critical damage increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While an axe is equipped, your critical strike chance is increased by 2% and critical damage increased by 5%.",
+    "iconPath": "interface/icons/inv_axe_12",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 704515,
+    "spellIds": [
+      704515,
+      707818,
+      712474
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29426
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704515,
+        "description": "While an axe is equipped, your critical strike chance is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and critical damage increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While an axe is equipped, your critical strike chance is increased by 2% and critical damage increased by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707818,
+        "description": "While an axe is equipped, your critical strike chance is increased by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and critical damage increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While an axe is equipped, your critical strike chance is increased by 4% and critical damage increased by 10%."
+      },
+      {
+        "rank": 3,
+        "spellId": 712474,
+        "description": "While an axe is equipped, your critical strike chance is increased by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and critical damage increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While an axe is equipped, your critical strike chance is increased by 6% and critical damage increased by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4020,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Glory",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Ram</span> now grants you a stack of <span style=\"color: #ffffff; display: inline\">Glory</span> for <span class=\"item-number\">30</span> seconds.<br /><br />At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #ffffff; display: inline\">Ram</span> within <span class=\"item-number\">30</span> seconds deals <span class=\"item-number\">150</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Level 10 Passive\nYour Ram now grants you a stack of Glory for 30 seconds.\n\nAt 3 stacks, your next Ram within 30 seconds deals 150% increased damage.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0001s_0000_warrior_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92106,
+    "spellIds": [
+      92106
+    ],
+    "requiredNodeIds": [
+      29430
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 10,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92106,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Ram</span> now grants you a stack of <span style=\"color: #ffffff; display: inline\">Glory</span> for <span class=\"item-number\">30</span> seconds.<br /><br />At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #ffffff; display: inline\">Ram</span> within <span class=\"item-number\">30</span> seconds deals <span class=\"item-number\">150</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Level 10 Passive\nYour Ram now grants you a stack of Glory for 30 seconds.\n\nAt 3 stacks, your next Ram within 30 seconds deals 150% increased damage."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4123,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Overwhelming Presence",
+    "description": "Increases the attack power of all party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your Agility by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the attack power of all party and raid members 5%. Does not stack with similar effects.\n\nIn addition, increases your Agility by 10%.",
+    "iconPath": "interface/icons/novart_shield_(8)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712367,
+    "spellIds": [
+      712367
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6431,
+      34450
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712367,
+        "description": "Increases the attack power of all party and raid members <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your Agility by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power of all party and raid members 5%. Does not stack with similar effects.\n\nIn addition, increases your Agility by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4220,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Shield Training",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your block rating by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 20 Passive\nIncreases your block rating by 10% of your Strength.",
+    "iconPath": "interface/icons/inv_shield_20",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 524885,
+    "spellIds": [
+      524885
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4020
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524885,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your block rating by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 20 Passive\nIncreases your block rating by 10% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4224,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Shield Combat",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Ram</span> and <span style=\"color: #ffffff; display: inline\">Pulverize</span> now increases your attack power based on your block rating for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Level 40 Passive\nCasting Ram and Pulverize now increases your attack power based on your block rating for 6 seconds.",
+    "iconPath": "interface/icons/ability_warrior_victoryrush",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807297,
+    "spellIds": [
+      807297
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12224
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807297,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Ram</span> and <span style=\"color: #ffffff; display: inline\">Pulverize</span> now increases your attack power based on your block rating for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Level 40 Passive\nCasting Ram and Pulverize now increases your attack power based on your block rating for 6 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4225,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Favor",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Critical strikes and killing blows now grant you <span style=\"color: #ffffff; display: inline\">Favor</span> for <span class=\"item-number\">1</span> minute, stacking <span class=\"item-number\">20</span> times.<br /><br />At <span class=\"item-number\">20</span> stacks, your next auto attack deals an additional <span class=\"item-number\">500%</span> Weapon Damage, consuming the stacks.",
+    "descriptionText": "Level 50 Passive\nCritical strikes and killing blows now grant you Favor for 1 minute, stacking 20 times.\n\nAt 20 stacks, your next auto attack deals an additional 500% Weapon Damage, consuming the stacks.",
+    "iconPath": "interface/icons/warrior_talent_icon_angermanagement",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704322,
+    "spellIds": [
+      704322
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12224
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704322,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Critical strikes and killing blows now grant you <span style=\"color: #ffffff; display: inline\">Favor</span> for <span class=\"item-number\">1</span> minute, stacking <span class=\"item-number\">20</span> times.<br /><br />At <span class=\"item-number\">20</span> stacks, your next auto attack deals an additional <span class=\"item-number\">500%</span> Weapon Damage, consuming the stacks.",
+        "descriptionText": "Level 50 Passive\nCritical strikes and killing blows now grant you Favor for 1 minute, stacking 20 times.\n\nAt 20 stacks, your next auto attack deals an additional 500% Weapon Damage, consuming the stacks."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6429,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "One-Handed Mastery",
+    "description": "Increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while a one-handed weapon is equipped.",
+    "descriptionText": "Increases your damage dealt by 10% while a one-handed weapon is equipped.",
+    "iconPath": "interface/icons/ability_warrior_unrelentingassault",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300541,
+    "spellIds": [
+      300541
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6547,
+      29998
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300541,
+        "description": "Increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while a one-handed weapon is equipped.",
+        "descriptionText": "Increases your damage dealt by 10% while a one-handed weapon is equipped."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6430,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Waste No Movement",
+    "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Broad Sweep</span>, <span style=\"color: #FFFFFF; display: inline\">Spear Throw</span>, and <span style=\"color: #FFFFFF; display: inline\">Centurion Strike</span> by <span class=\"item-number\">-5</span>.",
+    "descriptionText": "Reduces the Energy cost of Broad Sweep, Spear Throw, and Centurion Strike by -5.",
+    "iconPath": "interface/icons/inv_sword_35",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704516,
+    "spellIds": [
+      704516
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6431,
+      7307
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704516,
+        "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Broad Sweep</span>, <span style=\"color: #FFFFFF; display: inline\">Spear Throw</span>, and <span style=\"color: #FFFFFF; display: inline\">Centurion Strike</span> by <span class=\"item-number\">-5</span>.",
+        "descriptionText": "Reduces the Energy cost of Broad Sweep, Spear Throw, and Centurion Strike by -5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6431,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Tactical Combat",
+    "description": "Increases your block value by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and chance to block by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your block value by 8% and chance to block by 2%.",
+    "iconPath": "interface/icons/achievement_bg_killxenemies_generalsroom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504503,
+    "spellIds": [
+      504503,
+      504884
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7038,
+      34410
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504503,
+        "description": "Increases your block value by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and chance to block by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your block value by 8% and chance to block by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504884,
+        "description": "Increases your block value by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and chance to block by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your block value by 15% and chance to block by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6433,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Crashing Force",
+    "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Reprisal</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of your Centurion Strike and Reprisal by 15%.",
+    "iconPath": "interface/icons/inv_mace_124",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705329,
+    "spellIds": [
+      705329,
+      707820
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705329,
+        "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Reprisal</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of your Centurion Strike and Reprisal by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707820,
+        "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Reprisal</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of your Centurion Strike and Reprisal by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6434,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "No Retreating!",
+    "description": "While in combat, every <span class=\"item-number\">2</span> sec, increase the range and Energy cost of your next <span style=\"color: #ffffff; display: inline\">Spear Throw</span> by <span class=\"item-number\">1</span> and its damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">15</span> times.",
+    "descriptionText": "While in combat, every 2 sec, increase the range and Energy cost of your next Spear Throw by 1 and its damage dealt by 3%, stacking up to 15 times.",
+    "iconPath": "interface/icons/custom_iron_hl_b_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504139,
+    "spellIds": [
+      504139
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7307
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504139,
+        "description": "While in combat, every <span class=\"item-number\">2</span> sec, increase the range and Energy cost of your next <span style=\"color: #ffffff; display: inline\">Spear Throw</span> by <span class=\"item-number\">1</span> and its damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">15</span> times.",
+        "descriptionText": "While in combat, every 2 sec, increase the range and Energy cost of your next Spear Throw by 1 and its damage dealt by 3%, stacking up to 15 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6989,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Momentum",
+    "description": "Melee damage dealt now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Chivlary</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Melee damage dealt now reduces the cooldown of your Chivlary by -2 sec.",
+    "iconPath": "interface/icons/ability_warrior_shieldbash",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504531,
+    "spellIds": [
+      504531
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30003,
+      34450,
+      34453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504531,
+        "description": "Melee damage dealt now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Chivlary</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Melee damage dealt now reduces the cooldown of your Chivlary by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6990,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Myrmidon",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Ram</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Ram and Broad Sweep by 25%.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0007s_0000_warrior_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504530,
+    "spellIds": [
+      504530
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30003,
+      34453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504530,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Ram</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Ram and Broad Sweep by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6547,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Deadly Blow",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> now bleed an additional <span class=\"item-number\">15000</span><span class=\"item-number\">%</span> of the damage dealt over <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Your Centurion Strike and Broad Sweep now bleed an additional 15000% of the damage dealt over 3 seconds.",
+    "iconPath": "interface/icons/inv_mace_2h_draenorcrafted_d_01_b_alliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706807,
+    "spellIds": [
+      706807
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4123,
+      6430,
+      6989
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706807,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> now bleed an additional <span class=\"item-number\">15000</span><span class=\"item-number\">%</span> of the damage dealt over <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Your Centurion Strike and Broad Sweep now bleed an additional 15000% of the damage dealt over 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29426,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Legionnaire",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Reprisal</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Centurion Strike and Reprisal by 10%.",
+    "iconPath": "interface/icons/ability_warrior_shieldbreak",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504730,
+    "spellIds": [
+      504730,
+      504883
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504730,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Reprisal</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Centurion Strike and Reprisal by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504883,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Centurion Strike</span> and <span style=\"color: #ffffff; display: inline\">Reprisal</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Centurion Strike and Reprisal by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7306,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Polearm Training",
+    "description": "Allows you to wield polearms and to wield them with a shield equipped.<br /><br />While a polearm is equipped, your melee abilities have <span class=\"item-number\">2</span> yds increased range.",
+    "descriptionText": "Allows you to wield polearms and to wield them with a shield equipped.\n\nWhile a polearm is equipped, your melee abilities have 2 yds increased range.",
+    "iconPath": "interface/icons/gladiatorspearguy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 802299,
+    "spellIds": [
+      802299,
+      803832,
+      807892
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4410
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802299,
+        "description": "Allows you to wield polearms and to wield them with a shield equipped.<br /><br />While a polearm is equipped, your melee abilities have <span class=\"item-number\">2</span> yds increased range.",
+        "descriptionText": "Allows you to wield polearms and to wield them with a shield equipped.\n\nWhile a polearm is equipped, your melee abilities have 2 yds increased range."
+      },
+      {
+        "rank": 2,
+        "spellId": 803832,
+        "description": "Allows you to wield polearms and to wield them with a shield equipped.<br /><br />While a polearm is equipped, your melee abilities have <span class=\"item-number\">3</span> yds increased range.",
+        "descriptionText": "Allows you to wield polearms and to wield them with a shield equipped.\n\nWhile a polearm is equipped, your melee abilities have 3 yds increased range."
+      },
+      {
+        "rank": 3,
+        "spellId": 807892,
+        "description": "Allows you to wield polearms and to wield them with a shield equipped.<br /><br />While a polearm is equipped, your melee abilities have <span class=\"item-number\">5</span> yds increased range.",
+        "descriptionText": "Allows you to wield polearms and to wield them with a shield equipped.\n\nWhile a polearm is equipped, your melee abilities have 5 yds increased range."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7307,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Spear Throw",
+    "description": "Throw a massive spear at an enemy, dealing <span class=\"item-number\">48</span> + <span class=\"item-number\">35% AP</span> Physical Damage, reducing the effectiveness of any healing by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Throw a massive spear at an enemy, dealing 48 + 35% AP Physical Damage, reducing the effectiveness of any healing by -50% for 10 seconds.",
+    "iconPath": "interface/icons/_d3ancientspear",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500463,
+    "spellIds": [
+      500463
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34410
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500463,
+        "description": "Throw a massive spear at an enemy, dealing <span class=\"item-number\">48</span> + <span class=\"item-number\">35% AP</span> Physical Damage, reducing the effectiveness of any healing by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Throw a massive spear at an enemy, dealing 48 + 35% AP Physical Damage, reducing the effectiveness of any healing by -50% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12224,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 49,
+    "tabKey": "18:49",
+    "tabName": "Gladiator",
+    "name": "Experienced Combatant",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 30 Passive\nIncreases your attack power by 20% of your Strength.",
+    "iconPath": "interface/icons/5_assassinskill06_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707633,
+    "spellIds": [
+      707633
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4220
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707633,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 30 Passive\nIncreases your attack power by 20% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { getClasses, getClassDetail, getTalentTree } from '@/data/static-data';
 import { useTalentTree, DEFAULT_LEVEL, MIN_LEVEL, MAX_LEVEL, clampLevel, getAvailablePoints } from '@/hooks/use-talent-tree';
 import { TalentTree, computeCanvasBounds } from '@/components/talent-tree';
@@ -9,12 +9,19 @@ import { SpecSelectionScreen } from '@/components/spec-selection-screen';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useToast } from '@/hooks/use-toast';
-import { Share2, RefreshCcw, Download, Upload, Copy, AlertTriangle, ChevronLeft } from 'lucide-react';
+import { Share2, RefreshCcw, Download, Upload, Copy, AlertTriangle } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { CLASS_COLORS, VALID_CLASS_IDS } from '@/data/classes';
 import { validateAndNarrow } from '@/data/classes/validate';
+import { ClassSwitcherModal } from '@/components/class-switcher-modal';
+import { ClassPortrait } from '@/components/class-portrait';
+import { preloadClassIcons } from '@/lib/class-icons';
+
+// ── AE / TE hard caps (official Conquest of Azeroth) ─────────────────────────
+const AE_CAP = 26;  // Ability Essence — class tree
+const TE_CAP = 25;  // Talent Essence — spec tree
 
 export default function Calculator() {
   const { toast } = useToast();
@@ -26,6 +33,13 @@ export default function Calculator() {
   const [selectedSpecId, setSelectedSpecId] = useState<string | null>(null);
   const [importData, setImportData] = useState('');
   const [level, setLevel] = useState<number>(DEFAULT_LEVEL);
+  const [classSwitcherOpen, setClassSwitcherOpen] = useState(false);
+
+  // Preload class icons once on mount to prevent pop-in
+  useEffect(() => { preloadClassIcons(); }, []);
+  // Stable reference to the class tree data — persists across spec switches
+  // so the left tree never remounts when the player changes specialization.
+  const stableClassTreeRef = useRef<import('@workspace/api-client-react').TalentTree | null>(null);
 
   // All data is local — no API calls needed.
   const classes = useMemo(
@@ -49,14 +63,39 @@ export default function Calculator() {
   const treeError = selectedClassId && selectedSpecId && !rawTreeData ? new Error('Tree not found') : null;
 
   // Validate the tree structure before passing it to the renderer
-  const { tree: treeData, error: treeValidationError } = useMemo(
+  const { tree: rawValidatedTree, error: treeValidationError } = useMemo(
     () => validateAndNarrow(rawTreeData),
     [rawTreeData]
   );
 
+  // Stable class tree: once a class+spec tree loads, snapshot the LEFT tree.
+  // On subsequent spec switches, reuse the snapshotted left tree so the class
+  // side never remounts and class allocations survive tab changes.
+  if (rawValidatedTree && rawValidatedTree.leftTree?.length) {
+    if (
+      !stableClassTreeRef.current ||
+      stableClassTreeRef.current.classId !== rawValidatedTree.classId
+    ) {
+      stableClassTreeRef.current = rawValidatedTree;
+    }
+  }
+  const stableClassTree = stableClassTreeRef.current;
+
+  // Compose the tree: stable left side + current right side.
+  const treeData = useMemo(() => {
+    if (!rawValidatedTree) return undefined;
+    if (!stableClassTree || stableClassTree.classId !== rawValidatedTree.classId) {
+      return rawValidatedTree;
+    }
+    return {
+      ...rawValidatedTree,
+      leftTree:     stableClassTree.leftTree,
+      leftTreeName: stableClassTree.leftTreeName,
+    };
+  }, [rawValidatedTree, stableClassTree]);
+
   const {
     totalPointsSpent,
-    treeSpent,
     leftSpent,
     rightSpent,
     maxPoints,
@@ -162,6 +201,7 @@ export default function Calculator() {
     if (!VALID_CLASS_IDS.has(val)) return;
     setSelectedClassId(val);
     setSelectedSpecId(null);
+    stableClassTreeRef.current = null;
     // Class change resets EVERYTHING (different class tree).
     setPoints({});
     setChoices({});
@@ -239,10 +279,8 @@ export default function Calculator() {
     }
   };
 
-  const fillPct = maxPoints > 0 ? Math.min((totalPointsSpent / maxPoints) * 100, 100) : 0;
   const selectedClass = classes.find(c => c.id === selectedClassId);
   const classColor = selectedClass?.color ?? CLASS_COLORS[selectedClassId ?? ''] ?? '#aaaaaa';
-  const selectedSpec = classDetail?.specs?.find(s => s.id === selectedSpecId);
 
   // Determine main content based on selection state
   let mainContent: React.ReactNode;
@@ -348,47 +386,111 @@ export default function Calculator() {
     <div className="flex flex-col h-screen overflow-hidden bg-background text-foreground">
       {/* ── Header ── */}
       <header className="flex-none flex items-center justify-between px-5 py-3 border-b border-border bg-card z-20 shadow-lg">
-        <div className="flex items-center gap-4">
-          <div className="leading-none">
-            <div className="text-lg font-bold tracking-widest uppercase text-primary">Conquest</div>
-            <div className="text-[10px] tracking-[0.18em] text-muted-foreground uppercase">of Azeroth · Talent Calc</div>
+        <div className="flex items-center gap-3">
+          {/* App wordmark */}
+          <div className="leading-none flex-shrink-0">
+            <div className="text-sm font-bold tracking-widest uppercase text-primary">Conquest</div>
+            <div className="text-[9px] tracking-[0.18em] text-muted-foreground uppercase">of Azeroth</div>
           </div>
 
           <div className="h-6 w-px bg-border" />
 
-          {/* Class selector */}
-          <Select value={selectedClassId || ''} onValueChange={handleClassChange}>
-            <SelectTrigger
-              data-testid="select-class"
-              className="w-56"
-              disabled={classesLoading && classes.length === 0}
+          {/* Class identity — icon + name + Change button */}
+          {selectedClassId && selectedClass ? (
+            <div className="flex items-center gap-2.5">
+              <ClassPortrait
+                classId={selectedClassId}
+                name={selectedClass.name}
+                color={classColor}
+                size={34}
+                glow
+              />
+              <div className="leading-tight">
+                <div
+                  className="text-[13px] font-semibold leading-none tracking-wide"
+                  style={{ color: classColor, textShadow: `0 0 10px ${classColor}44` }}
+                >
+                  {selectedClass.name}
+                </div>
+                <div className="text-[8px] uppercase tracking-[0.22em] mt-0.5" style={{ color: 'rgba(255,255,255,0.25)' }}>
+                  Talent Calculator
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setClassSwitcherOpen(true)}
+                className="ml-0.5 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest rounded transition-all"
+                style={{
+                  color: '#c8a84b',
+                  borderColor: 'rgba(200,168,75,0.3)',
+                  border: '1px solid rgba(200,168,75,0.3)',
+                  background: 'rgba(200,168,75,0.07)',
+                }}
+                onMouseEnter={e => {
+                  const el = e.currentTarget as HTMLButtonElement;
+                  el.style.background = 'rgba(200,168,75,0.15)';
+                  el.style.borderColor = 'rgba(200,168,75,0.55)';
+                }}
+                onMouseLeave={e => {
+                  const el = e.currentTarget as HTMLButtonElement;
+                  el.style.background = 'rgba(200,168,75,0.07)';
+                  el.style.borderColor = 'rgba(200,168,75,0.3)';
+                }}
+                data-testid="button-change-class"
+              >
+                Change
+              </button>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setClassSwitcherOpen(true)}
+              className="flex items-center gap-2 px-3 py-2 rounded border text-sm font-semibold transition-all"
+              style={{
+                color: '#c8a84b',
+                borderColor: 'rgba(200,168,75,0.35)',
+                background: 'rgba(200,168,75,0.06)',
+              }}
+              onMouseEnter={e => {
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.background = 'rgba(200,168,75,0.14)';
+                el.style.borderColor = 'rgba(200,168,75,0.6)';
+              }}
+              onMouseLeave={e => {
+                const el = e.currentTarget as HTMLButtonElement;
+                el.style.background = 'rgba(200,168,75,0.06)';
+                el.style.borderColor = 'rgba(200,168,75,0.35)';
+              }}
+              data-testid="button-select-class"
             >
-              <SelectValue placeholder={classesLoading ? 'Loading classes…' : 'Select Class'} />
-            </SelectTrigger>
-            <SelectContent>
-              {classes.map(c => (
-                <SelectItem key={c.id} value={c.id} data-testid={`class-option-${c.id}`}>
-                  <span style={{ color: c.color }} className="font-semibold">{c.name}</span>
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+              Choose Class
+            </button>
+          )}
 
-          {/* Spec breadcrumb / back when spec selected */}
-          {selectedSpecId && selectedSpec && (
+          {/* Spec tabs — visible when class is selected */}
+          {selectedClassId && classDetail?.specs && classDetail.specs.length > 0 && (
             <>
               <div className="h-6 w-px bg-border" />
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={handleBackToSpecs}
-                data-testid="button-back-to-specs"
-                className="gap-1 text-xs h-8"
-                style={{ color: classColor }}
-              >
-                <ChevronLeft className="w-3.5 h-3.5" />
-                {selectedSpec.name}
-              </Button>
+              <div className="flex items-center gap-0.5">
+                {classDetail.specs.map(spec => {
+                  const isActive = spec.id === selectedSpecId;
+                  return (
+                    <button
+                      key={spec.id}
+                      type="button"
+                      onClick={() => handleSpecSelect(spec.id)}
+                      className="px-3 h-8 text-xs font-semibold rounded transition-all"
+                      style={{
+                        color: isActive ? classColor : '#6a6a80',
+                        background: isActive ? `${classColor}18` : 'transparent',
+                        borderBottom: isActive ? `2px solid ${classColor}` : '2px solid transparent',
+                      }}
+                    >
+                      {spec.name}
+                    </button>
+                  );
+                })}
+              </div>
             </>
           )}
         </div>
@@ -429,33 +531,53 @@ export default function Calculator() {
                 </button>
               </div>
 
-              <div className="flex flex-col items-end gap-1">
-                <div className="text-xs font-mono text-muted-foreground">
-                  <span>Points: </span>
-                  <span className="font-bold text-sm" style={{ color: classColor }} data-testid="points-spent">
-                    {totalPointsSpent}
-                  </span>
-                  <span> / {maxPoints}</span>
+              <div className="flex items-center gap-3">
+                {/* AE — class tree */}
+                <div className="flex flex-col items-center gap-0.5">
+                  <div className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground/60">AE</div>
+                  <div className="flex items-baseline gap-0.5">
+                    <span
+                      className="text-base font-bold font-mono leading-none"
+                      style={{ color: leftSpent >= AE_CAP ? '#ff5050' : classColor }}
+                      data-testid="text-class-spent"
+                    >
+                      {leftSpent}
+                    </span>
+                    <span className="text-[10px] text-muted-foreground/60 font-mono">/{AE_CAP}</span>
+                  </div>
+                  <div className="w-14 h-1 rounded-full overflow-hidden bg-secondary">
+                    <div
+                      className="h-full rounded-full"
+                      style={{
+                        width: `${Math.min((leftSpent / AE_CAP) * 100, 100)}%`,
+                        background: leftSpent >= AE_CAP ? '#ff5050' : classColor,
+                      }}
+                    />
+                  </div>
                 </div>
-                <div className="w-36 h-1.5 rounded-full overflow-hidden bg-secondary">
-                  <div
-                    className="h-full rounded-full transition-all duration-300"
-                    style={{
-                      width: `${fillPct}%`,
-                      background: `linear-gradient(to right, ${classColor}88, ${classColor})`,
-                    }}
-                  />
-                </div>
-                <div className="text-[10px] font-mono text-muted-foreground/80">
-                  <span>Class: </span>
-                  <span className="font-bold" style={{ color: classColor }} data-testid="text-class-spent">
-                    {leftSpent}
-                  </span>
-                  <span className="mx-1.5 text-muted-foreground/40">·</span>
-                  <span>Spec: </span>
-                  <span className="font-bold" style={{ color: classColor }} data-testid="text-spec-spent">
-                    {rightSpent}
-                  </span>
+                <div className="h-8 w-px bg-border" />
+                {/* TE — spec tree */}
+                <div className="flex flex-col items-center gap-0.5">
+                  <div className="text-[9px] font-bold uppercase tracking-widest text-muted-foreground/60">TE</div>
+                  <div className="flex items-baseline gap-0.5">
+                    <span
+                      className="text-base font-bold font-mono leading-none"
+                      style={{ color: rightSpent >= TE_CAP ? '#ff5050' : classColor }}
+                      data-testid="text-spec-spent"
+                    >
+                      {rightSpent}
+                    </span>
+                    <span className="text-[10px] text-muted-foreground/60 font-mono">/{TE_CAP}</span>
+                  </div>
+                  <div className="w-14 h-1 rounded-full overflow-hidden bg-secondary">
+                    <div
+                      className="h-full rounded-full"
+                      style={{
+                        width: `${Math.min((rightSpent / TE_CAP) * 100, 100)}%`,
+                        background: rightSpent >= TE_CAP ? '#ff5050' : classColor,
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
             </>
@@ -553,21 +675,22 @@ export default function Calculator() {
               className="absolute inset-0 pointer-events-none"
               style={{
                 background:
-                  'radial-gradient(ellipse 80% 60% at 50% 0%, transparent 0%, rgba(0,0,0,0.55) 100%)',
-              }}
-            />
-            <div
-              className="absolute inset-0 pointer-events-none opacity-[0.03]"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
-                backgroundRepeat: 'repeat',
-                backgroundSize: '128px',
+                  'radial-gradient(ellipse 100% 80% at 50% 0%, transparent 30%, rgba(0,0,0,0.22) 100%)',
               }}
             />
           </>
         )}
         <div className="relative w-full h-full">{mainContent}</div>
       </main>
+
+      {/* ── Class Switcher Modal ── */}
+      <ClassSwitcherModal
+        open={classSwitcherOpen}
+        onClose={() => setClassSwitcherOpen(false)}
+        classes={classes}
+        selectedClassId={selectedClassId}
+        onSelect={handleClassChange}
+      />
     </div>
   );
 }

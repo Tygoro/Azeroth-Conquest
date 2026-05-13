@@ -5,39 +5,45 @@ export type BuildState = Record<string, number>;
 /** Choice node id → selected option id (one of the 2 ChoiceOption.id values) */
 export type ChoiceSelections = Record<string, string>;
 
-// ─── TIER GATING ────────────────────────────────────────────────────────────
-// WoW-style progression: 10 rows. Rows 1-4 are always open. Row 5 unlocks at 8
-// points, then +8 per row. Gates count points spent in THAT tree only.
+// ─── OFFICIAL ROW LEVEL REQUIREMENTS ─────────────────────────────────────────
+// Rows are gated by CHARACTER LEVEL, not points spent.
+// Keyed by 1-based row index.
 //
-// `ROW_UNLOCKS` is the canonical, 1-indexed table that mirrors the in-game UI.
-// `TIER_POINT_GATES` is the same table flattened to 0-indexed for the row
-// renderer (tiers[0] = row 1, etc.).
+// TIER_Y_VALUES is kept for pixel-layout positioning only, not for gating.
 export const TIER_Y_VALUES = [40, 110, 180, 250, 320, 390, 460, 530, 600, 670];
 
-export const ROW_UNLOCKS: Record<number, number> = {
-  1: 0,
-  2: 0,
-  3: 0,
-  4: 0,
-  5: 8,
-  6: 16,
-  7: 24,
-  8: 32,
-  9: 40,
-  10: 48,
+/** Minimum character level required to access each row of the CLASS tree. */
+export const CLASS_TREE_ROW_LEVELS: Record<number, number> = {
+   1: 10,  2: 12,  3: 14,  4: 16,
+   5: 26,  6: 28,  7: 30,  8: 32,
+   9: 58, 10: 60,
 };
 
-export const TIER_POINT_GATES = [0, 0, 0, 0, 8, 16, 24, 32, 40, 48];
+/** Minimum character level required to access each row of the SPEC tree. */
+export const SPEC_TREE_ROW_LEVELS: Record<number, number> = {
+   1: 11,  2: 13,  3: 15,  4: 17,
+   5: 27,  6: 29,  7: 31,  8: 33,
+   9: 57, 10: 59,
+};
+
+/**
+ * Return the minimum character level required to access a given tree row.
+ * Falls back to 1 (always accessible) for any row not in the table.
+ */
+export function getRowLevelReq(rowIndex1Based: number, side: 'class' | 'spec'): number {
+  const table = side === 'class' ? CLASS_TREE_ROW_LEVELS : SPEC_TREE_ROW_LEVELS;
+  return table[rowIndex1Based] ?? 1;
+}
 
 /** Available talent points for a given character level. WoW-style: level - 9. */
 export function getAvailablePoints(level: number): number {
   return Math.max(0, level - 9);
 }
 
-/** True when the given 1-indexed row is unlocked by this tree's spent points. */
-export function isRowUnlocked(rowIndex1Based: number, treePoints: number): boolean {
-  return treePoints >= (ROW_UNLOCKS[rowIndex1Based] ?? 0);
-}
+// ─── AE / TE HARD CAPS ─────────────────────────────────────────────────────
+// Official Conquest of Azeroth caps — enforced per-side independent of level.
+export const AE_CAP = 26;  // Ability Essence: class tree hard cap
+export const TE_CAP = 25;  // Talent Essence:  spec tree hard cap
 
 // Conquest of Azeroth level system — clamped to the in-game range. Level 10 is
 // the earliest a character can spend points (1 point); level 60 is the cap and
@@ -76,9 +82,11 @@ export interface NodeState {
   status: 'locked' | 'available' | 'active' | 'maxed';
   currentPoints: number;
   /** Why a node is locked (only set when status === 'locked') */
-  lockReason?: 'prereq' | 'tier' | 'budget';
-  /** When lockReason === 'tier', the # of points required in this tree */
-  tierGateRequired?: number;
+  lockReason?: 'prereq' | 'level' | 'points' | 'budget';
+  /** When lockReason === 'level', the character level required for this node or row */
+  levelRequired?: number;
+  /** When lockReason === 'points', the AE/TE points-spent threshold required */
+  pointsRequired?: number;
   /** Current # of points spent in the same tree as this node */
   sideSpent?: number;
 }
@@ -129,13 +137,13 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
     return m;
   }, [leftNodes, rightNodes]);
 
-  // Per-side spent points (only counts nodes in current tree).
+  // Per-side spent points — autoGranted nodes never count toward the total.
   const leftSpent = useMemo(
-    () => leftNodes.reduce((s, n) => s + (points[n.id] ?? 0), 0),
+    () => leftNodes.reduce((s, n) => n.autoGranted ? s : s + (points[n.id] ?? 0), 0),
     [leftNodes, points],
   );
   const rightSpent = useMemo(
-    () => rightNodes.reduce((s, n) => s + (points[n.id] ?? 0), 0),
+    () => rightNodes.reduce((s, n) => n.autoGranted ? s : s + (points[n.id] ?? 0), 0),
     [rightNodes, points],
   );
   // Sidebar nodes are level-based auto rewards and do not cost tree points.
@@ -155,8 +163,8 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
         return {
           status: 'locked',
           currentPoints: 0,
-          lockReason: 'tier',
-          tierGateRequired: sb.unlockPointsRequired,
+          lockReason: 'level',
+          levelRequired: sb.unlockPointsRequired,
           sideSpent: level,
         };
       }
@@ -164,36 +172,90 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
       const node = allNodes.find(n => n.id === nodeId);
       if (!node) return { status: 'locked', currentPoints: 0 };
 
+      // autoGranted nodes unlock at a character level threshold (unlockAt field).
+      if (node.autoGranted) {
+        if (node.unlockAt !== undefined && level < node.unlockAt) {
+          return {
+            status: 'locked',
+            currentPoints: 0,
+            lockReason: 'level',
+            levelRequired: node.unlockAt,
+          };
+        }
+        return { status: 'maxed', currentPoints: node.maxPoints };
+      }
+
       const currentPoints = points[nodeId] ?? 0;
       const isMaxed = currentPoints >= node.maxPoints;
       const side = nodeSide.get(nodeId) ?? 'left';
       const sideSpent = side === 'left' ? leftSpent : rightSpent;
 
-      // Tier gate check
-      const tierIdx = getTierIndex(node);
-      const tierGate = TIER_POINT_GATES[tierIdx] ?? 0;
-      const tierGateMet = sideSpent >= tierGate;
+      // ── Row level gate: character level required to access this row ─────────
+      const treeSide = side === 'left' ? 'class' : 'spec';
+      const rowIndex = getTierIndex(node) + 1; // 1-based
+      const rowLevelReq = getRowLevelReq(rowIndex, treeSide);
+      const rowLevelMet = level >= rowLevelReq;
 
-      // Prereq check: ALL prereqs must have at least 1 point.
+      // ── AE/TE points-spent gate: reqTabPoints on the node (official manifest field) ──
+      // Nodes with reqTabPoints require that many points spent in the same tree side.
+      const reqTabPoints = (node.reqTabPoints != null && node.reqTabPoints > 0)
+        ? node.reqTabPoints
+        : 0;
+      const tabPointsMet = reqTabPoints === 0 || sideSpent >= reqTabPoints;
+
+      // ── Per-node level gate: individual requiredLevel field ───────────────
+      // Only some nodes carry this (e.g. sub-spec pivot nodes at level 10/20/30/40/50).
+      const nodeRequiredLevel = (node.requiredLevel != null && node.requiredLevel > 1)
+        ? node.requiredLevel
+        : 0;
+      const nodeLevelMet = nodeRequiredLevel === 0 || level >= nodeRequiredLevel;
+
+      // Prereq check: ANY one prereq must have at least 1 point (OR logic).
       const prereqsMet =
         node.prerequisites.length === 0 ||
-        node.prerequisites.every(prereqId => (points[prereqId] ?? 0) > 0);
+        node.prerequisites.some(prereqId => (points[prereqId] ?? 0) > 0);
 
-      // If already allocated, never lock — it's always interactable for refund
+      // If already allocated, never lock — always interactable for refund.
       if (isMaxed) return { status: 'maxed', currentPoints, sideSpent };
       if (currentPoints > 0) return { status: 'active', currentPoints, sideSpent };
 
-      if (!tierGateMet) {
+      // Row level gate — character level too low for this row
+      if (!rowLevelMet) {
         return {
           status: 'locked',
           currentPoints,
-          lockReason: 'tier',
-          tierGateRequired: tierGate,
+          lockReason: 'level',
+          levelRequired: rowLevelReq,
+          sideSpent,
+        };
+      }
+      // AE/TE points-spent gate — not enough essence spent in this tree yet
+      if (!tabPointsMet) {
+        return {
+          status: 'locked',
+          currentPoints,
+          lockReason: 'points',
+          pointsRequired: reqTabPoints,
+          sideSpent,
+        };
+      }
+      // Per-node level gate (pivot nodes, capstones)
+      if (!nodeLevelMet) {
+        return {
+          status: 'locked',
+          currentPoints,
+          lockReason: 'level',
+          levelRequired: nodeRequiredLevel,
           sideSpent,
         };
       }
       if (!prereqsMet) {
         return { status: 'locked', currentPoints, lockReason: 'prereq', sideSpent };
+      }
+      // Side cap check: AE (left) / TE (right) hard cap.
+      const sideCap = side === 'left' ? AE_CAP : TE_CAP;
+      if (sideSpent >= sideCap) {
+        return { status: 'locked', currentPoints, lockReason: 'budget', sideSpent };
       }
       return { status: 'available', currentPoints, sideSpent };
     },
@@ -214,6 +276,8 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
 
       const node = allNodes.find(n => n.id === nodeId);
       if (!node) return;
+      // autoGranted nodes are never manually interactable.
+      if (node.autoGranted) return;
       const state = getNodeState(nodeId);
 
       // Choice node: if already selected, cycle to other option (no point change).
@@ -231,11 +295,15 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
         return;
       }
 
-      // Normal node
+      // Normal node — also enforce per-side AE/TE hard cap.
+      const side = nodeSide.get(nodeId) ?? 'left';
+      const sideSpentNow = side === 'left' ? leftSpent : rightSpent;
+      const sideCap = side === 'left' ? AE_CAP : TE_CAP;
       if (state.status === 'locked' || state.status === 'maxed' || !canAllocateMore) return;
+      if (sideSpentNow >= sideCap) return;
       setPoints(prev => ({ ...prev, [nodeId]: (prev[nodeId] ?? 0) + 1 }));
     },
-    [treeData, allNodes, sidebarNodes, getNodeState, canAllocateMore, choices],
+    [treeData, allNodes, sidebarNodes, nodeSide, leftSpent, rightSpent, getNodeState, canAllocateMore, choices],
   );
 
   const canRemovePoint = useCallback(
@@ -248,34 +316,42 @@ export function useTalentTree({ treeData, level = DEFAULT_LEVEL }: UseTalentTree
 
       const node = allNodes.find(n => n.id === nodeId);
       if (!node) return false;
+      if (node.autoGranted) return false;
 
       const side = nodeSide.get(nodeId) ?? 'left';
       const sideSpent = side === 'left' ? leftSpent : rightSpent;
       const newSideSpent = sideSpent - 1;
       const willUnsatisfy = currentPoints === 1; // dropping to 0 → un-satisfies prereq for dependents
 
-      // AND-prereq cascade: removing the last point orphans any direct
-      // dependent that has points allocated (since ALL prereqs are required).
+      // OR-prereq cascade: removing the last point orphans a dependent only if
+      // it has points allocated AND no other spent prereq to satisfy the OR condition.
       if (willUnsatisfy) {
         const orphaned = allNodes.some(dep => {
           if (!dep.prerequisites.includes(nodeId)) return false;
-          return (points[dep.id] ?? 0) > 0;
+          if ((points[dep.id] ?? 0) === 0) return false;
+          // Check if any OTHER prereq of this dependent is still spent
+          const otherPrereqsMet = dep.prerequisites
+            .filter(pid => pid !== nodeId)
+            .some(pid => (points[pid] ?? 0) > 0);
+          return !otherPrereqsMet; // only orphaned if no other prereq covers it
         });
         if (orphaned) return false;
       }
 
-      // Tier-gate cascade: removal must not drop allocated higher-tier nodes
-      // below their gate.
-      const sameSideNodes = side === 'left' ? leftNodes : rightNodes;
-      const cascadeBlocked = sameSideNodes.some(other => {
-        const ptsBefore = points[other.id] ?? 0;
-        const ptsAfter = other.id === nodeId ? ptsBefore - 1 : ptsBefore;
-        if (ptsAfter <= 0) return false;
-        const otherTier = getTierIndex(other);
-        const otherGate = TIER_POINT_GATES[otherTier] ?? 0;
-        return newSideSpent < otherGate;
+      // Row level gates cannot be violated by a refund (level doesn't decrease).
+      // AE/TE tab-points gate CAN be violated: removing a point reduces sideSpent.
+      // Block refund if any allocated node on the same side requires more sideSpent
+      // than (sideSpent - 1) via its reqTabPoints field.
+      const sideNodes = side === 'left' ? leftNodes : rightNodes;
+      const rowGateViolated = sideNodes.some(dep => {
+        if (dep.id === nodeId) return false;
+        if ((points[dep.id] ?? 0) === 0) return false;
+        const depReqTabPoints = (dep.reqTabPoints != null && dep.reqTabPoints > 0)
+          ? dep.reqTabPoints
+          : 0;
+        return depReqTabPoints > 0 && newSideSpent < depReqTabPoints;
       });
-      if (cascadeBlocked) return false;
+      if (rowGateViolated) return false;
 
       return true;
     },

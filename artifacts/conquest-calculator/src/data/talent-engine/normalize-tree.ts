@@ -18,6 +18,10 @@ type ExtractedNodeData = {
   nodeShape?: 'square' | 'circle' | 'octagon';
   nodeType?: 'active' | 'passive' | 'choice';
   autoGranted?: boolean;
+  unlockAt?: number;
+  expandedDescription?: string;
+  requiredLevel?: number;
+  reqTabPoints?: number;
   x?: number;
   y?: number;
   gridRow?: number;
@@ -137,15 +141,15 @@ function nodeTypeFromExtracted(node: ExtractedNodeData): TalentNode['type'] {
 // factor that preserves the authored aspect ratio while fitting within these
 // targets. Comparable to Dragonflight talent tree panel sizing.
 const TREE_TARGETS: Record<'left' | 'right', { width: number; height: number }> = {
-  left:  { width: 420, height: 540 },   // class tree
-  right: { width: 520, height: 540 },   // spec tree
+  left:  { width: 620, height: 760 },   // class tree — wider, taller for stable spacing
+  right: { width: 720, height: 760 },   // spec tree — wider, taller for stable spacing
 };
 // Padding added around the normalized tree so nodes aren't flush with edges.
-const TREE_PAD_X = 36;
-const TREE_PAD_Y = 40;
+const TREE_PAD_X = 48;
+const TREE_PAD_Y = 64; // must exceed NODE_HALF=26px so top-row nodes don't clip above the canvas
 // Minimum distance between adjacent node centers (px) — prevents overlap.
-const MIN_NODE_SPACING_X = 52;
-const MIN_NODE_SPACING_Y = 48;
+const MIN_NODE_SPACING_X = 72;
+const MIN_NODE_SPACING_Y = 68;
 
 // ── Canonical extracted node normalization ────────────────────────────────────
 // Trusts the addon export's canonicalRow/canonicalCol and connection graph
@@ -195,12 +199,23 @@ function normalizeExtractedNodes(
       // Use exported connections directly — no geometric prerequisite fabrication.
       const exportedPrereqs = prereqsByTarget.get(node.id) ?? new Set<string>();
       // Filter to only prereqs that exist in this tree's node set.
-      const validPrereqs = Array.from(exportedPrereqs).filter((pid) => nodeIds.has(pid));
+      const allPrereqs = Array.from(exportedPrereqs).filter((pid) => nodeIds.has(pid));
       const orphanedPrereqs = Array.from(exportedPrereqs).filter((pid) => !nodeIds.has(pid));
       if (orphanedPrereqs.length > 0) {
         console.warn(
           `[talents] ${side} node "${node.name}" has prereqs referencing missing nodes:`,
           orphanedPrereqs,
+        );
+      }
+
+      // Row-1 nodes are unconditional roots — strip any inferred prerequisites.
+      // The row-comparison logic is correct for all mid/deep nodes, but a connection
+      // that exits the row-1 boundary can still produce a false prereq assignment
+      // if two row-1 nodes are connected or if coordinate data is imprecise.
+      const validPrereqs = gridRow === 1 ? [] : allPrereqs;
+      if (gridRow === 1 && allPrereqs.length > 0) {
+        console.warn(
+          `[talents] ${side} row-1 node "${node.name}" (${node.id}) had ${allPrereqs.length} prereqs stripped (guaranteed root)`,
         );
       }
 
@@ -223,6 +238,11 @@ function normalizeExtractedNodes(
         },
         icon: node.icon,
         type: nodeTypeFromExtracted(node),
+        autoGranted: node.autoGranted === true || (node.autoGranted as unknown) === 1 ? true : undefined,
+        unlockAt: node.unlockAt,
+        expandedDescription: node.expandedDescription,
+        requiredLevel: node.requiredLevel != null && node.requiredLevel > 0 ? node.requiredLevel : undefined,
+        reqTabPoints: node.reqTabPoints != null && node.reqTabPoints > 0 ? node.reqTabPoints : undefined,
       };
     });
 
@@ -346,33 +366,53 @@ export function normalizeExtractedTalentTreeData(
   for (const node of specTreeSource) if (node.id) nodeRegion.set(node.id, 'specTree');
   for (const node of sidebarSource) if (node.id) nodeRegion.set(node.id, 'sidebarTrack');
   const nodeIds = new Set([...classTreeSource, ...specTreeSource, ...sidebarSource, ...flatNodes].map((node) => node.id).filter(Boolean));
+
+  // Row lookup for direction-independent edge resolution.
+  // The node with the HIGHER canonicalRow is always the child (dependent).
+  // This is universally true for both class tree (root=row1, flows down) and
+  // spec tree (root=row1, flows up) — confirmed by auditing all 90 connections.
+  const nodeRowMap = new Map<string, number>();
+  for (const node of [...classTreeSource, ...specTreeSource, ...sidebarSource, ...flatNodes]) {
+    if (node.id) {
+      const row = node.canonicalRow ?? node.gridRow ?? 0;
+      nodeRowMap.set(node.id, row);
+    }
+  }
+
   let orphanConnectionCount = 0;
   const prereqsByTarget = new Map<string, Set<string>>();
 
   for (const connection of extracted.connections ?? []) {
     // Resolve source/target: prefer sourceNodeId, fall back to sourceNodeFrame (v5 export)
-    const source = connection.sourceNodeId ?? connection.sourceNodeFrame;
-    const target = connection.targetNodeId ?? connection.targetNodeFrame;
-    if (!source || !target) {
+    const src = connection.sourceNodeId ?? connection.sourceNodeFrame;
+    const tgt = connection.targetNodeId ?? connection.targetNodeFrame;
+    if (!src || !tgt) {
       orphanConnectionCount++;
       continue;
     }
-    if (!nodeIds.has(source) || !nodeIds.has(target)) {
+    if (!nodeIds.has(src) || !nodeIds.has(tgt)) {
       orphanConnectionCount++;
       continue;
     }
-    if (source === target) {
+    if (src === tgt) {
       orphanConnectionCount++;
       continue;
     }
-    if (nodeRegion.get(source) !== nodeRegion.get(target)) {
+    if (nodeRegion.get(src) !== nodeRegion.get(tgt)) {
       orphanConnectionCount++;
       continue;
     }
-    if (!prereqsByTarget.has(target)) {
-      prereqsByTarget.set(target, new Set());
+    // Determine child/parent by row: higher canonicalRow = child (dependent).
+    // This is direction-independent — works for both class and spec trees.
+    const srcRow = nodeRowMap.get(src) ?? 0;
+    const tgtRow = nodeRowMap.get(tgt) ?? 0;
+    const child  = srcRow >= tgtRow ? src : tgt;
+    const parent = srcRow >= tgtRow ? tgt : src;
+
+    if (!prereqsByTarget.has(child)) {
+      prereqsByTarget.set(child, new Set());
     }
-    prereqsByTarget.get(target)?.add(source);
+    prereqsByTarget.get(child)!.add(parent);
   }
 
   const leftTree = normalizeExtractedNodes(classTreeSource, prereqsByTarget, 'left');

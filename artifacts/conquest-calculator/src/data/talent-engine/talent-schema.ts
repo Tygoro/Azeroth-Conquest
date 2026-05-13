@@ -25,6 +25,10 @@ export const TalentNodeDataSchema = z.object({
   icon: z.string().min(1).optional(),
   type: z.enum(['passive', 'active', 'choice', 'capstone']),
   options: z.array(ChoiceOptionDataSchema).length(2).optional(),
+  /** Minimum character level required to allocate this specific node (from official manifest). */
+  requiredLevel: z.number().int().min(0).optional(),
+  /** Minimum points spent in this tree's tab required to access this node's row (reqTabAE or reqTabTE). */
+  reqTabPoints: z.number().int().min(0).optional(),
 });
 
 export const SidebarNodeDataSchema = z.object({

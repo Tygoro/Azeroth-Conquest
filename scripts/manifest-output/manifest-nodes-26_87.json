@@ -1,0 +1,1750 @@
+[
+  {
+    "nodeId": 7254,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Aspect of the Cosmos",
+    "description": "Melee and ranged damage dealt has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to slow enemy movement speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times and apply <span style=\"color: #66ccff; display: inline\">Scattered Stars</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_argus_soulbombdebufflarge\" /><span class=\"name\">Scattered Stars</span></div><span class=\"desc\">Can be consumed by spells to deal additional Arcane Damage. Lasts <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">4</span> times.</span></div><br /><br />",
+    "descriptionText": "Melee and ranged damage dealt has a 40% chance to slow enemy movement speed by -20% for 10 seconds, stacking 2 times and apply Scattered Stars.\n\n---\n\nScattered StarsCan be consumed by spells to deal additional Arcane Damage. Lasts 30 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/ability_ardenweald_priest",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801123,
+    "spellIds": [
+      801123
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6315,
+      6659
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801123,
+        "description": "Melee and ranged damage dealt has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to slow enemy movement speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times and apply <span style=\"color: #66ccff; display: inline\">Scattered Stars</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_argus_soulbombdebufflarge\" /><span class=\"name\">Scattered Stars</span></div><span class=\"desc\">Can be consumed by spells to deal additional Arcane Damage. Lasts <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">4</span> times.</span></div><br /><br />",
+        "descriptionText": "Melee and ranged damage dealt has a 40% chance to slow enemy movement speed by -20% for 10 seconds, stacking 2 times and apply Scattered Stars.\n\n---\n\nScattered StarsCan be consumed by spells to deal additional Arcane Damage. Lasts 30 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6659,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Bright Moon",
+    "description": "Allows <span style=\"color: #ffffff; display: inline\">Lunar Phase</span> to stack <span class=\"item-number\">4</span> additional times.",
+    "descriptionText": "Allows Lunar Phase to stack 4 additional times.",
+    "iconPath": "interface/icons/spell_shadow_teleport",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801226,
+    "spellIds": [
+      801226
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29662,
+      31067
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801226,
+        "description": "Allows <span style=\"color: #ffffff; display: inline\">Lunar Phase</span> to stack <span class=\"item-number\">4</span> additional times.",
+        "descriptionText": "Allows Lunar Phase to stack 4 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6660,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Mu'sha's Resilience",
+    "description": "Reduces Arcane Damage taken by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces Arcane Damage taken by -15%.",
+    "iconPath": "interface/icons/inv_fabric_moonrag_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704774,
+    "spellIds": [
+      704774
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30838
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704774,
+        "description": "Reduces Arcane Damage taken by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces Arcane Damage taken by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6313,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Protected by the Stars",
+    "description": "Increases your Armor by <span class=\"item-number\">300</span><span class=\"item-number\">%</span> of your Intellect and reduces the duration of stuns and disarms against you by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor by 300% of your Intellect and reduces the duration of stuns and disarms against you by 15%.",
+    "iconPath": "interface/icons/inv_shield_1h_artifactstormfist_d_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300258,
+    "spellIds": [
+      300258
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7721,
+      29642
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300258,
+        "description": "Increases your Armor by <span class=\"item-number\">300</span><span class=\"item-number\">%</span> of your Intellect and reduces the duration of stuns and disarms against you by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor by 300% of your Intellect and reduces the duration of stuns and disarms against you by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6314,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Star Citizen",
+    "description": "Increases effectiveness of <span style=\"color: #FFFFFF; display: inline\">Celestial Mind</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases effectiveness of Celestial Mind by 20%.",
+    "iconPath": "interface/icons/spell_arcane_arcanetactics",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704776,
+    "spellIds": [
+      704776
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7409,
+      30656
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704776,
+        "description": "Increases effectiveness of <span style=\"color: #FFFFFF; display: inline\">Celestial Mind</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases effectiveness of Celestial Mind by 20%."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6315,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Galaxy",
+    "description": "Your <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> can now stack <span class=\"item-number\">2</span> additional times.",
+    "descriptionText": "Your Scattered Stars can now stack 2 additional times.",
+    "iconPath": "interface/icons/spell_holy_elunesgrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800508,
+    "spellIds": [
+      800508
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6314,
+      7721,
+      29662
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800508,
+        "description": "Your <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> can now stack <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Your Scattered Stars can now stack 2 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6332,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "The Stars Align",
+    "description": "Increases your maximum mana by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum mana by 10%.",
+    "iconPath": "interface/icons/nhi_void_stars_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300251,
+    "spellIds": [
+      300251
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7748,
+      33823
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300251,
+        "description": "Increases your maximum mana by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum mana by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11811,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Moonblessed Aspects",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Aspects</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Aspects by 15%.",
+    "iconPath": "interface/icons/inv_shoulder_leather_raiddruid_q_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706232,
+    "spellIds": [
+      706232
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6332,
+      7383
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706232,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Aspects</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Aspects by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 13828,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Lunar Anomaly",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lunar Lance</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Lunar Lance by 50%.",
+    "iconPath": "interface/icons/spell_fire_blueflamestrike",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300989,
+    "spellIds": [
+      300989
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30769
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 32311,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300989,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lunar Lance</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Lunar Lance by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7383,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Moonwell Tides",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Vial of Moonwell Water</span> now additionally heals you equal to <span class=\"item-number\">25%</span> of your current mana.",
+    "descriptionText": "Casting Vial of Moonwell Water now additionally heals you equal to 25% of your current mana.",
+    "iconPath": "interface/icons/inv_elemental_mote_water01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560951,
+    "spellIds": [
+      560951
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30873
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560951,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Vial of Moonwell Water</span> now additionally heals you equal to <span class=\"item-number\">25%</span> of your current mana.",
+        "descriptionText": "Casting Vial of Moonwell Water now additionally heals you equal to 25% of your current mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7409,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Shooting Star",
+    "description": "Sprint forward with astral magic at your feet, increasing your movement speed by <span class=\"item-number\">60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds. <br /><br />While active, you cannot be slowed and cannot stop moving.",
+    "descriptionText": "Sprint forward with astral magic at your feet, increasing your movement speed by 60% for 5 seconds. \n\nWhile active, you cannot be slowed and cannot stop moving.",
+    "iconPath": "interface/icons/artifactability_balancedruid_moonandstars",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800505,
+    "spellIds": [
+      800505
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800505,
+        "description": "Sprint forward with astral magic at your feet, increasing your movement speed by <span class=\"item-number\">60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds. <br /><br />While active, you cannot be slowed and cannot stop moving.",
+        "descriptionText": "Sprint forward with astral magic at your feet, increasing your movement speed by 60% for 5 seconds. \n\nWhile active, you cannot be slowed and cannot stop moving."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9834,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Cosmic Duality",
+    "description": "Dealing damage grants you <span style=\"color: #FFFFFF; display: inline\">Cosmic Harmony</span>, increasing the healing of your next ability within <span class=\"item-number\">6</span> seconds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Effective healing grants you <span style=\"color: #FFFFFF; display: inline\">Cosmic Wrath</span>, increasing the damage of your next ability within <span class=\"item-number\">6</span> seconds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />",
+    "descriptionText": "Dealing damage grants you Cosmic Harmony, increasing the healing of your next ability within 6 seconds by 5%.\n\nEffective healing grants you Cosmic Wrath, increasing the damage of your next ability within 6 seconds by 5%.",
+    "iconPath": "interface/icons/talentspec_druid_balance",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504628,
+    "spellIds": [
+      504628
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11811
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504628,
+        "description": "Dealing damage grants you <span style=\"color: #FFFFFF; display: inline\">Cosmic Harmony</span>, increasing the healing of your next ability within <span class=\"item-number\">6</span> seconds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Effective healing grants you <span style=\"color: #FFFFFF; display: inline\">Cosmic Wrath</span>, increasing the damage of your next ability within <span class=\"item-number\">6</span> seconds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />",
+        "descriptionText": "Dealing damage grants you Cosmic Harmony, increasing the healing of your next ability within 6 seconds by 5%.\n\nEffective healing grants you Cosmic Wrath, increasing the damage of your next ability within 6 seconds by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7748,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Enchanted Well",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Moonwell Splash</span> by <span class=\"item-number\">-0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Moonwell Splash by -0.3 sec.",
+    "iconPath": "interface/icons/spell_nature_brilliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680820,
+    "spellIds": [
+      680820
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6659
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680820,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Moonwell Splash</span> by <span class=\"item-number\">-0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Moonwell Splash by -0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7698,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Elune's Presence",
+    "description": "Gain the blessing of a goddess, granting all party or raid members within <span class=\"item-number\">40</span> yds <span class=\"item-number\">20</span><span class=\"item-number\">%</span> temporary maximum health for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Gain the blessing of a goddess, granting all party or raid members within 40 yds 20% temporary maximum health for 10 seconds.",
+    "iconPath": "interface/icons/ability_ardenweald_paladin_summer",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680774,
+    "spellIds": [
+      680774
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29493,
+      33829
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680774,
+        "description": "Gain the blessing of a goddess, granting all party or raid members within <span class=\"item-number\">40</span> yds <span class=\"item-number\">20</span><span class=\"item-number\">%</span> temporary maximum health for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Gain the blessing of a goddess, granting all party or raid members within 40 yds 20% temporary maximum health for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7708,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Guided Blades",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Warden's Blade by -5 sec.",
+    "iconPath": "interface/icons/spell_warrior_sharpenblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680738,
+    "spellIds": [
+      680738
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33810,
+      33832
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 77571,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680738,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Warden's Blade by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7709,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Glaive Tossing",
+    "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> by <span class=\"item-number\">20</span> yds.",
+    "descriptionText": "Increases the range of Warden's Blade by 20 yds.",
+    "iconPath": "interface/icons/inv_glove_armor_nightborne_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680737,
+    "spellIds": [
+      680737
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33810,
+      33832
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 77571,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680737,
+        "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> by <span class=\"item-number\">20</span> yds.",
+        "descriptionText": "Increases the range of Warden's Blade by 20 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7721,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Flow of Mana",
+    "description": "Increases your Intellect by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Intellect by 5%.",
+    "iconPath": "interface/icons/spell_shadow_manafeed",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704604,
+    "spellIds": [
+      704604,
+      680758
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29642,
+      30656
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704604,
+        "description": "Increases your Intellect by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 680758,
+        "description": "Increases your Intellect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29974,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Moonlit Lancer",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Lunar Lance</span> now deals additional Arcane Damage over <span class=\"item-number\">20</span> sec.",
+    "descriptionText": "Your Lunar Lance now deals additional Arcane Damage over 20 sec.",
+    "iconPath": "interface/icons/ability_hunter_resourcefulness",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560662,
+    "spellIds": [
+      560662
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30769
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 32311,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560662,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Lunar Lance</span> now deals additional Arcane Damage over <span class=\"item-number\">20</span> sec.",
+        "descriptionText": "Your Lunar Lance now deals additional Arcane Damage over 20 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29489,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Second Moon",
+    "description": "Every 10th <span style=\"color: #66ccff; display: inline\">Scattered Star</span> consumed now launches a comet at an enemy dealing <span class=\"item-number\">324</span> + <span class=\"item-number\">30% arcane SP</span> Arcane Damage to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Every 10th Scattered Star consumed now launches a comet at an enemy dealing 324 + 30% arcane SP Arcane Damage to 5 enemies within 5 yds.",
+    "iconPath": "interface/icons/nhi_magicmoonbuff_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300252,
+    "spellIds": [
+      300252
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29493,
+      33834
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300252,
+        "description": "Every 10th <span style=\"color: #66ccff; display: inline\">Scattered Star</span> consumed now launches a comet at an enemy dealing <span class=\"item-number\">324</span> + <span class=\"item-number\">30% arcane SP</span> Arcane Damage to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Every 10th Scattered Star consumed now launches a comet at an enemy dealing 324 + 30% arcane SP Arcane Damage to 5 enemies within 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29493,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Continual Starfall",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Astral Flares</span> called down by <span style=\"color: #FFFFFF; display: inline\">Aspect of the Stars</span> now increase your haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Astral Flares called down by Aspect of the Stars now increase your haste by 3% for 5 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/ability_druid_starfall",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503584,
+    "spellIds": [
+      503584
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29647
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503584,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Astral Flares</span> called down by <span style=\"color: #FFFFFF; display: inline\">Aspect of the Stars</span> now increase your haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Astral Flares called down by Aspect of the Stars now increase your haste by 3% for 5 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29642,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Infused Aegis",
+    "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">30</span><span class=\"item-number\">%</span> Maximum Mana</span><br />Instantly counterattack any enemy that strikes you from the front in melee for Arcane Damage, lasting <span class=\"item-number\">10</span> seconds. Can only occur once per sec per enemy.<br /><br />",
+    "descriptionText": "Drains 30% Maximum Mana\nInstantly counterattack any enemy that strikes you from the front in melee for Arcane Damage, lasting 10 seconds. Can only occur once per sec per enemy.",
+    "iconPath": "interface/icons/ability_nightfae_soulshape",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704777,
+    "spellIds": [
+      704777
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704777,
+        "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">30</span><span class=\"item-number\">%</span> Maximum Mana</span><br />Instantly counterattack any enemy that strikes you from the front in melee for Arcane Damage, lasting <span class=\"item-number\">10</span> seconds. Can only occur once per sec per enemy.<br /><br />",
+        "descriptionText": "Drains 30% Maximum Mana\nInstantly counterattack any enemy that strikes you from the front in melee for Arcane Damage, lasting 10 seconds. Can only occur once per sec per enemy."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29647,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Way of the Goddess",
+    "description": "Reduces the duration of harmful magic effects on you by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of harmful magic effects on you by -25%.",
+    "iconPath": "interface/icons/_diablo3_arrowrain_mage",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801976,
+    "spellIds": [
+      801976
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7383,
+      33828,
+      33830,
+      33832
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801976,
+        "description": "Reduces the duration of harmful magic effects on you by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of harmful magic effects on you by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29648,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Reverse Magic",
+    "description": "Reverse the next spell cast on you within <span class=\"item-number\">3</span> seconds, reflecting it back to its caster.<br /><br />Reversing a spell in this way drains <span class=\"item-number\">750</span> + <span class=\"item-number\">20% SP</span> of the attacker's mana.",
+    "descriptionText": "Reverse the next spell cast on you within 3 seconds, reflecting it back to its caster.\n\nReversing a spell in this way drains 750 + 20% SP of the attacker's mana.",
+    "iconPath": "interface/icons/inv_10_dungeonjewelry_dragon_trinket_1arcanemagical_blue",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570231,
+    "spellIds": [
+      570231
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6660,
+      13828,
+      29974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570231,
+        "description": "Reverse the next spell cast on you within <span class=\"item-number\">3</span> seconds, reflecting it back to its caster.<br /><br />Reversing a spell in this way drains <span class=\"item-number\">750</span> + <span class=\"item-number\">20% SP</span> of the attacker's mana.",
+        "descriptionText": "Reverse the next spell cast on you within 3 seconds, reflecting it back to its caster.\n\nReversing a spell in this way drains 750 + 20% SP of the attacker's mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29649,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Starshatter",
+    "description": "Call down the power of the stars, sending forth Elune’s astral light in a line outward from you, stunning enemies struck for <span class=\"item-number\">5</span> seconds and applying a <span style=\"color: #66ccff; display: inline\">Scattered Star</span>.",
+    "descriptionText": "Call down the power of the stars, sending forth Elune’s astral light in a line outward from you, stunning enemies struck for 5 seconds and applying a Scattered Star.",
+    "iconPath": "interface/icons/sha_ability_mage_firestarter_nightborne",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801135,
+    "spellIds": [
+      801135
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13828,
+      29974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801135,
+        "description": "Call down the power of the stars, sending forth Elune’s astral light in a line outward from you, stunning enemies struck for <span class=\"item-number\">5</span> seconds and applying a <span style=\"color: #66ccff; display: inline\">Scattered Star</span>.",
+        "descriptionText": "Call down the power of the stars, sending forth Elune’s astral light in a line outward from you, stunning enemies struck for 5 seconds and applying a Scattered Star."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29662,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Astral Projection",
+    "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Celestial Strike</span> and <span style=\"color: #ffffff; display: inline\">Moon Arrow</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Energy cost of Celestial Strike and Moon Arrow by -10.",
+    "iconPath": "interface/icons/spell_nature_astralrecalgroup",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300994,
+    "spellIds": [
+      300994
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7409,
+      31067
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300994,
+        "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Celestial Strike</span> and <span style=\"color: #ffffff; display: inline\">Moon Arrow</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Energy cost of Celestial Strike and Moon Arrow by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33810,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Star-Charged",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Aspects</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Aspects by -4 sec.",
+    "iconPath": "interface/icons/spell_arcane_arcane04",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500608,
+    "spellIds": [
+      500608
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6660,
+      33825
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500608,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Aspects</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Aspects by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33823,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Universal Power",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Aspect of the Cosmos</span> now stacks <span class=\"item-number\">1</span> additional time.",
+    "descriptionText": "Your Aspect of the Cosmos now stacks 1 additional time.",
+    "iconPath": "interface/icons/nhi_manacup_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300262,
+    "spellIds": [
+      300262
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7254
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300262,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Aspect of the Cosmos</span> now stacks <span class=\"item-number\">1</span> additional time.",
+        "descriptionText": "Your Aspect of the Cosmos now stacks 1 additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33825,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Moonlight Ripple",
+    "description": "Reduces the mana cost of your <span style=\"color: #FFFFFF; display: inline\">Aegis</span> spells by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of your Aegis spells by -10%.",
+    "iconPath": "interface/icons/ability_socererking_arcanemines",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503583,
+    "spellIds": [
+      503583
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6313
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503583,
+        "description": "Reduces the mana cost of your <span style=\"color: #FFFFFF; display: inline\">Aegis</span> spells by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of your Aegis spells by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33828,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Moonwalk",
+    "description": "Increases your movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> at night.",
+    "descriptionText": "Increases your movement speed by 20% at night.",
+    "iconPath": "interface/icons/nhi_manafeet_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300256,
+    "spellIds": [
+      300256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29649
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 561222,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300256,
+        "description": "Increases your movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> at night.",
+        "descriptionText": "Increases your movement speed by 20% at night."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33829,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Nightborne Armaments",
+    "description": "While below <span class=\"item-number\">35%</span> health, your damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While below 35% health, your damage taken is reduced by -10%.",
+    "iconPath": "interface/icons/inv_helm_armor_nightborne_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680789,
+    "spellIds": [
+      680789
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7708,
+      7709
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680789,
+        "description": "While below <span class=\"item-number\">35%</span> health, your damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While below 35% health, your damage taken is reduced by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33830,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Twinkle Toes",
+    "description": "Increases the movement speed granted by <span style=\"color: #ffffff; display: inline\">Shooting Star</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the movement speed granted by Shooting Star by 20%.",
+    "iconPath": "interface/icons/rogue_burstofspeed",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704775,
+    "spellIds": [
+      704775
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29649
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 561222,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704775,
+        "description": "Increases the movement speed granted by <span style=\"color: #ffffff; display: inline\">Shooting Star</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the movement speed granted by Shooting Star by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33832,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Constellation Barrier",
+    "description": "Reduces all Magic Damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces all Magic Damage taken by -5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_arcaneweapons_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300259,
+    "spellIds": [
+      300259
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29648
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300259,
+        "description": "Reduces all Magic Damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces all Magic Damage taken by -5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33834,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Pouch of Stardust",
+    "description": "Increases the critical strike chance and critical damage of consumed <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance and critical damage of consumed Scattered Stars by 10%.",
+    "iconPath": "interface/icons/inv_inscription_trinket_mage",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504694,
+    "spellIds": [
+      504694
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29647
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504694,
+        "description": "Increases the critical strike chance and critical damage of consumed <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance and critical damage of consumed Scattered Stars by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30769,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Starbarian",
+    "description": "Increases your haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your haste by 4%.",
+    "iconPath": "interface/icons/inv_axe_1h_pandaraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704778,
+    "spellIds": [
+      704778,
+      706229
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6315
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704778,
+        "description": "Increases your haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 706229,
+        "description": "Increases your haste by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30838,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Astral Aegis",
+    "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">30</span><span class=\"item-number\">%</span> Maximum Mana</span><br />For <span class=\"item-number\">10</span> seconds, direct Magic Damage taken will silence the attacker for <span class=\"item-number\">1</span> seconds and deal <span class=\"item-number\">57</span> + <span class=\"item-number\">18% arcane SP</span> Arcane Damage to them.<br /><br />",
+    "descriptionText": "Drains 30% Maximum Mana\nFor 10 seconds, direct Magic Damage taken will silence the attacker for 1 seconds and deal 57 + 18% arcane SP Arcane Damage to them.",
+    "iconPath": "interface/icons/ability_bastion_monk",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806155,
+    "spellIds": [
+      806155
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6313,
+      6315
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806155,
+        "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">30</span><span class=\"item-number\">%</span> Maximum Mana</span><br />For <span class=\"item-number\">10</span> seconds, direct Magic Damage taken will silence the attacker for <span class=\"item-number\">1</span> seconds and deal <span class=\"item-number\">57</span> + <span class=\"item-number\">18% arcane SP</span> Arcane Damage to them.<br /><br />",
+        "descriptionText": "Drains 30% Maximum Mana\nFor 10 seconds, direct Magic Damage taken will silence the attacker for 1 seconds and deal 57 + 18% arcane SP Arcane Damage to them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30873,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Vial of Moonwell Water",
+    "description": "Drink from your enchanted moonwell vial, instantly removing all crowd control effects and making you immune to them for <span class=\"item-number\">3</span> seconds.<br /><br />Usable while stunned, feared, or polymorphed.",
+    "descriptionText": "Drink from your enchanted moonwell vial, instantly removing all crowd control effects and making you immune to them for 3 seconds.\n\nUsable while stunned, feared, or polymorphed.",
+    "iconPath": "interface/icons/inv_potionc_3",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804652,
+    "spellIds": [
+      804652
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13828,
+      29974,
+      33823
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804652,
+        "description": "Drink from your enchanted moonwell vial, instantly removing all crowd control effects and making you immune to them for <span class=\"item-number\">3</span> seconds.<br /><br />Usable while stunned, feared, or polymorphed.",
+        "descriptionText": "Drink from your enchanted moonwell vial, instantly removing all crowd control effects and making you immune to them for 3 seconds.\n\nUsable while stunned, feared, or polymorphed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31067,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Touch of Moonlight",
+    "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">10</span><span class=\"item-number\">%</span> Maximum Mana</span><br />Quickly heal an ally with Elune's touch, scaling with maximum mana.",
+    "descriptionText": "Drains 10% Maximum Mana\nQuickly heal an ally with Elune's touch, scaling with maximum mana.",
+    "iconPath": "interface/icons/spell_nature_moonglow",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 574328,
+    "spellIds": [
+      574328
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574328,
+        "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">10</span><span class=\"item-number\">%</span> Maximum Mana</span><br />Quickly heal an ally with Elune's touch, scaling with maximum mana.",
+        "descriptionText": "Drains 10% Maximum Mana\nQuickly heal an ally with Elune's touch, scaling with maximum mana."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30656,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Warden's Blade",
+    "description": "$a1",
+    "descriptionText": "$a1",
+    "iconPath": "interface/icons/_maievblade_arcane",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805508,
+    "spellIds": [
+      805508
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805508,
+        "description": "$a2",
+        "descriptionText": "$a2"
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30369,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 87,
+    "tabKey": "26:87",
+    "tabName": "Class",
+    "name": "Moonwell",
+    "description": "Creates a zone blessed by moonwell waters for <span class=\"item-number\">15</span> seconds at the target location. <br /><br />All allied players standing within the well receive <span class=\"item-number\">25</span><span class=\"item-number\">%</span> more healing, and their mana regeneration is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Creates a zone blessed by moonwell waters for 15 seconds at the target location. \n\nAll allied players standing within the well receive 25% more healing, and their mana regeneration is increased by 100%.",
+    "iconPath": "interface/icons/ability_shawaterelemental_swirl",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804739,
+    "spellIds": [
+      804739
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9834,
+      33834
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804739,
+        "description": "Creates a zone blessed by moonwell waters for <span class=\"item-number\">15</span> seconds at the target location. <br /><br />All allied players standing within the well receive <span class=\"item-number\">25</span><span class=\"item-number\">%</span> more healing, and their mana regeneration is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Creates a zone blessed by moonwell waters for 15 seconds at the target location. \n\nAll allied players standing within the well receive 25% more healing, and their mana regeneration is increased by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

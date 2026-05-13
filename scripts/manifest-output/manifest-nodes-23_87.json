@@ -1,0 +1,1725 @@
+[
+  {
+    "nodeId": 12381,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Skeletal Commander",
+    "description": "While only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Skeletal</span> minion is active, their <span style=\"color: #90ee90; display: inline\">Command</span> spells deal <span class=\"item-number\">100%</span> increased damage, but cost <span class=\"item-number\">10</span> additional Runic Power.",
+    "descriptionText": "While only 1 Skeletal minion is active, their Command spells deal 100% increased damage, but cost 10 additional Runic Power.",
+    "iconPath": "interface/icons/icon_upgradestone_undead_rare",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707739,
+    "spellIds": [
+      707739
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33778
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707739,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707739,
+        "description": "While only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Skeletal</span> minion is active, their <span style=\"color: #90ee90; display: inline\">Command</span> spells deal <span class=\"item-number\">100%</span> increased damage, but cost <span class=\"item-number\">10</span> additional Runic Power.",
+        "descriptionText": "While only 1 Skeletal minion is active, their Command spells deal 100% increased damage, but cost 10 additional Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29196,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Tears of Lordaeron",
+    "description": "Direct critical strikes now generates <span class=\"item-number\">5</span> Runic Power.",
+    "descriptionText": "Direct critical strikes now generates 5 Runic Power.",
+    "iconPath": "interface/icons/warlock_siphonlife",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705752,
+    "spellIds": [
+      705752
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6903,
+      29774,
+      31143
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 236112,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705752,
+        "description": "Direct critical strikes now generates <span class=\"item-number\">5</span> Runic Power.",
+        "descriptionText": "Direct critical strikes now generates 5 Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29244,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Fetid Ward",
+    "description": "Activate a <span style=\"color: #ffffff; display: inline\">Fetid Ward</span> on yourself and your Undead minions for <span class=\"item-number\">30</span> minutes.<br /><br />While active, <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your damage dealt heals you and your minions, split evenly amongst them, and healing received is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />",
+    "descriptionText": "Activate a Fetid Ward on yourself and your Undead minions for 30 minutes.\n\nWhile active, 20% of your damage dealt heals you and your minions, split evenly amongst them, and healing received is increased by 10%.",
+    "iconPath": "interface/icons/inv_icon_shadowcouncilorb_green",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680388,
+    "spellIds": [
+      680388
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680388,
+        "description": "Activate a <span style=\"color: #ffffff; display: inline\">Fetid Ward</span> on yourself and your Undead minions for <span class=\"item-number\">30</span> minutes.<br /><br />While active, <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your damage dealt heals you and your minions, split evenly amongst them, and healing received is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />",
+        "descriptionText": "Activate a Fetid Ward on yourself and your Undead minions for 30 minutes.\n\nWhile active, 20% of your damage dealt heals you and your minions, split evenly amongst them, and healing received is increased by 10%."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29364,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Raise: Abomination",
+    "description": "Raise an <span style=\"color: #ffffff; display: inline\">Abomination</span> to aid you in combat, occupying <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.<br /><br />It is surrounded by a disease cloud, dealing <span class=\"item-number\">87</span> + <span class=\"item-number\">25% SP</span> Nature Damage to enemies when they deal damage and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Instantly unleashes an empowered disease cloud around it.",
+    "descriptionText": "Raise an Abomination to aid you in combat, occupying 3 Life Force.\n\nIt is surrounded by a disease cloud, dealing 87 + 25% SP Nature Damage to enemies when they deal damage and reducing their attack speed by -20% for 15 seconds.\n\nCommand: Instantly unleashes an empowered disease cloud around it.",
+    "iconPath": "interface/icons/ui_darkshore_warfront_horde_abomination",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500335,
+    "spellIds": [
+      500335
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500335,
+        "description": "Raise an <span style=\"color: #ffffff; display: inline\">Abomination</span> to aid you in combat, occupying <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.<br /><br />It is surrounded by a disease cloud, dealing <span class=\"item-number\">87</span> + <span class=\"item-number\">25% SP</span> Nature Damage to enemies when they deal damage and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Instantly unleashes an empowered disease cloud around it.",
+        "descriptionText": "Raise an Abomination to aid you in combat, occupying 3 Life Force.\n\nIt is surrounded by a disease cloud, dealing 87 + 25% SP Nature Damage to enemies when they deal damage and reducing their attack speed by -20% for 15 seconds.\n\nCommand: Instantly unleashes an empowered disease cloud around it."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7785,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Lich Essence",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from taking damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Lichfrost by -15% and reduces your spell pushback suffered from taking damage by 50%.",
+    "iconPath": "interface/icons/wc3lichreforged",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802988,
+    "spellIds": [
+      802988
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29244,
+      29787
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802988,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from taking damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Lichfrost by -15% and reduces your spell pushback suffered from taking damage by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7348,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Raise: Decaying Colossus",
+    "description": "Raise a <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span> to aid you in combat, occupying <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>. <br /><br />While active, <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of all damage taken by the caster is taken by the <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span>.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Charge up a powerful attack over <span class=\"item-number\">3</span> seconds that deals Weapon Damage plus <span class=\"item-number\">275</span> Physical Damage to all enemies in front of it.",
+    "descriptionText": "Raise a Decaying Colossus to aid you in combat, occupying 3 Life Force. \n\nWhile active, 25% of all damage taken by the caster is taken by the Decaying Colossus.\n\nCommand: Charge up a powerful attack over 3 seconds that deals Weapon Damage plus 275 Physical Damage to all enemies in front of it.",
+    "iconPath": "interface/icons/achievement_dungeon_grimbatol_drahga_the_shadowburner",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500989,
+    "spellIds": [
+      500989
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6886
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500989,
+        "description": "Raise a <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span> to aid you in combat, occupying <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>. <br /><br />While active, <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of all damage taken by the caster is taken by the <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span>.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Charge up a powerful attack over <span class=\"item-number\">3</span> seconds that deals Weapon Damage plus <span class=\"item-number\">275</span> Physical Damage to all enemies in front of it.",
+        "descriptionText": "Raise a Decaying Colossus to aid you in combat, occupying 3 Life Force. \n\nWhile active, 25% of all damage taken by the caster is taken by the Decaying Colossus.\n\nCommand: Charge up a powerful attack over 3 seconds that deals Weapon Damage plus 275 Physical Damage to all enemies in front of it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7371,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Phylactery",
+    "description": "Create a <span style=\"color: #FFFFFF; display: inline\">Phylactery</span> near you for <span class=\"item-number\">2</span> minutes.<br /><br />Upon taking damage which would bring you below <span class=\"item-number\">10%</span> health, become a <span style=\"color: #FFFFFF; display: inline\">Shade</span>, protecting you from all physical attacks and spells, but during that time you cannot attack or cast spells.<br /><br />Reaching your <span style=\"color: #FFFFFF; display: inline\">Phylactery</span> in this state revives you with <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of your maximum health. If you do not reach it in time you will die.",
+    "descriptionText": "Create a Phylactery near you for 2 minutes.\n\nUpon taking damage which would bring you below 10% health, become a Shade, protecting you from all physical attacks and spells, but during that time you cannot attack or cast spells.\n\nReaching your Phylactery in this state revives you with 40% of your maximum health. If you do not reach it in time you will die.",
+    "iconPath": "interface/icons/nhi_frost_phylactery_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500933,
+    "spellIds": [
+      500933
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6903
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500933,
+        "description": "Create a <span style=\"color: #FFFFFF; display: inline\">Phylactery</span> near you for <span class=\"item-number\">2</span> minutes.<br /><br />Upon taking damage which would bring you below <span class=\"item-number\">10%</span> health, become a <span style=\"color: #FFFFFF; display: inline\">Shade</span>, protecting you from all physical attacks and spells, but during that time you cannot attack or cast spells.<br /><br />Reaching your <span style=\"color: #FFFFFF; display: inline\">Phylactery</span> in this state revives you with <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of your maximum health. If you do not reach it in time you will die.",
+        "descriptionText": "Create a Phylactery near you for 2 minutes.\n\nUpon taking damage which would bring you below 10% health, become a Shade, protecting you from all physical attacks and spells, but during that time you cannot attack or cast spells.\n\nReaching your Phylactery in this state revives you with 40% of your maximum health. If you do not reach it in time you will die."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29865,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Gravedigger",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Sacrifice Undead</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Reduces the cast time of Sacrifice Undead by -0.5 sec.",
+    "iconPath": "interface/icons/achievement_bg_xkills_avgraveyard",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704715,
+    "spellIds": [
+      704715
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7371
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704715,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Sacrifice Undead</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Reduces the cast time of Sacrifice Undead by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30600,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Animate: Frost Wyrm",
+    "description": "Animate a <span style=\"color: #ffffff; display: inline\">Frost Wyrm</span> that flies behind the Necromancer that blasts nearby enemies every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">30</span> seconds, dealing <span class=\"item-number\">1405</span> + <span class=\"item-number\">200% frost SP</span> Frost Damage and slowing enemies by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Animate a Frost Wyrm that flies behind the Necromancer that blasts nearby enemies every 2 sec for 30 seconds, dealing 1405 + 200% frost SP Frost Damage and slowing enemies by -40% for 5 seconds.",
+    "iconPath": "interface/icons/5_dragoncoldbreath_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805428,
+    "spellIds": [
+      805428
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33771
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805428,
+        "description": "Animate a <span style=\"color: #ffffff; display: inline\">Frost Wyrm</span> that flies behind the Necromancer that blasts nearby enemies every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">30</span> seconds, dealing <span class=\"item-number\">1405</span> + <span class=\"item-number\">200% frost SP</span> Frost Damage and slowing enemies by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Animate a Frost Wyrm that flies behind the Necromancer that blasts nearby enemies every 2 sec for 30 seconds, dealing 1405 + 200% frost SP Frost Damage and slowing enemies by -40% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31143,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Ner'zhul's Blessing",
+    "description": "Increases your maximum Runic Power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum Runic Power by 20%.",
+    "iconPath": "interface/icons/achievement_raid_torghast_shadowscourge_prisonofnerzhul",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704729,
+    "spellIds": [
+      704729
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704729,
+        "description": "Increases your maximum Runic Power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum Runic Power by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33732,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Foul Invocation",
+    "description": "Transform into an undead monstrosity for <span class=\"item-number\">20</span> seconds, increasing your maximum health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.<br /><br />While transformed you are immune to Fear, Sleep, Charm, and Disease effects.",
+    "descriptionText": "Transform into an undead monstrosity for 20 seconds, increasing your maximum health by 30%.\n\nWhile transformed you are immune to Fear, Sleep, Charm, and Disease effects.",
+    "iconPath": "interface/icons/achievement_boss_festergutrotface",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804371,
+    "spellIds": [
+      804371
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6886,
+      33733,
+      33740
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804371,
+        "description": "Transform into an undead monstrosity for <span class=\"item-number\">20</span> seconds, increasing your maximum health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.<br /><br />While transformed you are immune to Fear, Sleep, Charm, and Disease effects.",
+        "descriptionText": "Transform into an undead monstrosity for 20 seconds, increasing your maximum health by 30%.\n\nWhile transformed you are immune to Fear, Sleep, Charm, and Disease effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33733,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Winds of Northrend",
+    "description": "Increases the amount slowed by <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the amount slowed by Lichfrost by -15%.",
+    "iconPath": "interface/icons/spell_ice_lament",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301333,
+    "spellIds": [
+      301333
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6555,
+      33751,
+      33780
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301333,
+        "description": "Increases the amount slowed by <span style=\"color: #ffffff; display: inline\">Lichfrost</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the amount slowed by Lichfrost by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33740,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Deadly Defense",
+    "description": "Each of your summons now reduces your damage taken by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, up to a maximum of <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each of your summons now reduces your damage taken by 1%, up to a maximum of 10%.",
+    "iconPath": "interface/icons/custom_04_summon_skeleton_army_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300580,
+    "spellIds": [
+      300580
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5781,
+      12381,
+      33751
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300580,
+        "description": "Each of your summons now reduces your damage taken by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, up to a maximum of <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each of your summons now reduces your damage taken by 1%, up to a maximum of 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33751,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Dead Man Walking",
+    "description": "Reduces the duration of root and slow effects against you by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of root and slow effects against you by -25%.",
+    "iconPath": "interface/icons/inv_plate_pvpdeathknight_g_01_boot",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300233,
+    "spellIds": [
+      300233
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33778
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300233,
+        "description": "Reduces the duration of root and slow effects against you by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of root and slow effects against you by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33764,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Command: Blight",
+    "description": "Command your <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span> to blight the ground in a <span class=\"item-number\">10</span> yd radius beneath it, reducing healing received by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for enemies inside for <span class=\"item-number\">20</span> seconds.<br /><br />",
+    "descriptionText": "Command your Decaying Colossus to blight the ground in a 10 yd radius beneath it, reducing healing received by -60% for enemies inside for 20 seconds.",
+    "iconPath": "interface/icons/spell_necro_deathrift",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504050,
+    "spellIds": [
+      504050
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504050,
+        "description": "Command your <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span> to blight the ground in a <span class=\"item-number\">10</span> yd radius beneath it, reducing healing received by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for enemies inside for <span class=\"item-number\">20</span> seconds.<br /><br />",
+        "descriptionText": "Command your Decaying Colossus to blight the ground in a 10 yd radius beneath it, reducing healing received by -60% for enemies inside for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33771,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Frost Runes",
+    "description": "Dealing Magic Damage now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase your haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Dealing Magic Damage now has a 15% chance to increase your haste by 10% for 12 seconds.",
+    "iconPath": "interface/icons/spell_deathknight_empowerruneblade2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705750,
+    "spellIds": [
+      705750
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33733
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705750,
+        "description": "Dealing Magic Damage now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase your haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Dealing Magic Damage now has a 15% chance to increase your haste by 10% for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33777,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Raise: Banshee",
+    "description": "Raise a <span style=\"color: #ffffff; display: inline\">Banshee</span> to aid you in combat, occupying <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.<br /><br />It will channel on your target, dealing damage and draining their mana over time.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Drains <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your target's mana (up to a maximum of <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of their own maximum mana) and deals Frost Damage equal to the mana drained.",
+    "descriptionText": "Raise a Banshee to aid you in combat, occupying 2 Life Force.\n\nIt will channel on your target, dealing damage and draining their mana over time.\n\nCommand: Drains 20% of your target's mana (up to a maximum of 40% of their own maximum mana) and deals Frost Damage equal to the mana drained.",
+    "iconPath": "interface/icons/ui_darkshore_warfront_horde_banshee",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504861,
+    "spellIds": [
+      504861
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33732,
+      33771
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504861,
+        "description": "Raise a <span style=\"color: #ffffff; display: inline\">Banshee</span> to aid you in combat, occupying <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>.<br /><br />It will channel on your target, dealing damage and draining their mana over time.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Drains <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your target's mana (up to a maximum of <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of their own maximum mana) and deals Frost Damage equal to the mana drained.",
+        "descriptionText": "Raise a Banshee to aid you in combat, occupying 2 Life Force.\n\nIt will channel on your target, dealing damage and draining their mana over time.\n\nCommand: Drains 20% of your target's mana (up to a maximum of 40% of their own maximum mana) and deals Frost Damage equal to the mana drained."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33778,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Mass Grave",
+    "description": "Transform up to <span class=\"item-number\">5</span> nearby enemies within <span class=\"item-number\">8</span> yds into a ghoul, fearing them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs. players). Only affects Humanoids.<br /><br />While above <span class=\"item-number\">50</span> Runic Power this spell is instant cast.<br /><br />",
+    "descriptionText": "Transform up to 5 nearby enemies within 8 yds into a ghoul, fearing them for 40 seconds (8 sec vs. players). Only affects Humanoids.\n\nWhile above 50 Runic Power this spell is instant cast.",
+    "iconPath": "interface/icons/spell_necro_deathlyecho",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803741,
+    "spellIds": [
+      803741
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6897,
+      29196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803741,
+        "description": "Transform up to <span class=\"item-number\">5</span> nearby enemies within <span class=\"item-number\">8</span> yds into a ghoul, fearing them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs. players). Only affects Humanoids.<br /><br />While above <span class=\"item-number\">50</span> Runic Power this spell is instant cast.<br /><br />",
+        "descriptionText": "Transform up to 5 nearby enemies within 8 yds into a ghoul, fearing them for 40 seconds (8 sec vs. players). Only affects Humanoids.\n\nWhile above 50 Runic Power this spell is instant cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33780,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Naxxramas Prodigy",
+    "description": "Increases your Shadow and Frost resistances by <span class=\"item-number\">0.5</span> per level.",
+    "descriptionText": "Increases your Shadow and Frost resistances by 0.5 per level.",
+    "iconPath": "interface/icons/inv_mummypet",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560622,
+    "spellIds": [
+      560622
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33784,
+      34977
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 804717,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560622,
+        "description": "Increases your Shadow and Frost resistances by <span class=\"item-number\">0.5</span> per level.",
+        "descriptionText": "Increases your Shadow and Frost resistances by 0.5 per level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33784,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Disciple of Kel'thuzad",
+    "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your spell haste by 4%.",
+    "iconPath": "interface/icons/inv_belt_plate_raiddeathknightmythic_q_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560615,
+    "spellIds": [
+      560615,
+      560616
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6897,
+      29196,
+      29788
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560615,
+        "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell haste by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 560616,
+        "description": "Increases your spell haste by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell haste by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34977,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Improved Mandates",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Mandates</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Mandates by 20%.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_death_icon_0001s_0000_soul_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560613,
+    "spellIds": [
+      560613
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29788
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560613,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Mandates</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Mandates by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34980,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Create Frozen Reliquary",
+    "description": "Create <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Frozen Reliquary</span> that restores <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your missing mana.<br /><br />Allies may only use a <span style=\"color: #ffffff; display: inline\">Frozen Reliquary</span> once per minute.",
+    "descriptionText": "Create 1 Frozen Reliquary that restores 30% of your missing mana.\n\nAllies may only use a Frozen Reliquary once per minute.",
+    "iconPath": "interface/icons/frozenurn",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803772,
+    "spellIds": [
+      803772
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6459,
+      7785
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803772,
+        "description": "Create <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Frozen Reliquary</span> that restores <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your missing mana.<br /><br />Allies may only use a <span style=\"color: #ffffff; display: inline\">Frozen Reliquary</span> once per minute.",
+        "descriptionText": "Create 1 Frozen Reliquary that restores 30% of your missing mana.\n\nAllies may only use a Frozen Reliquary once per minute."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34981,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Study of Death",
+    "description": "When you cast <span style=\"color: #FFFFFF; display: inline\">Unholy Frenzy</span> you now summon <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Greater Zombies</span> to aid you in combat for <span class=\"item-number\">14</span> seconds.<br /><br />Damage dealt by your Undead minions now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Unholy Frenzy</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "When you cast Unholy Frenzy you now summon 3 Greater Zombies to aid you in combat for 14 seconds.\n\nDamage dealt by your Undead minions now reduces the cooldown of Unholy Frenzy by -0.5 sec.",
+    "iconPath": "interface/icons/inv_misc_book_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704721,
+    "spellIds": [
+      704721
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7348,
+      33732
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704721,
+        "description": "When you cast <span style=\"color: #FFFFFF; display: inline\">Unholy Frenzy</span> you now summon <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Greater Zombies</span> to aid you in combat for <span class=\"item-number\">14</span> seconds.<br /><br />Damage dealt by your Undead minions now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Unholy Frenzy</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "When you cast Unholy Frenzy you now summon 3 Greater Zombies to aid you in combat for 14 seconds.\n\nDamage dealt by your Undead minions now reduces the cooldown of Unholy Frenzy by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30833,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Living Dead",
+    "description": "Reduces the mana cost of <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> and <span style=\"color: #FFFFFF; display: inline\">Crypt Swarm</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of Lichfrost and Crypt Swarm by -10%.",
+    "iconPath": "interface/icons/achievement_zone_deadwindpass",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 302888,
+    "spellIds": [
+      302888,
+      302920
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6885,
+      7785
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302888,
+        "description": "Reduces the mana cost of <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> and <span style=\"color: #FFFFFF; display: inline\">Crypt Swarm</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of Lichfrost and Crypt Swarm by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 302920,
+        "description": "Reduces the mana cost of <span style=\"color: #FFFFFF; display: inline\">Lichfrost</span> and <span style=\"color: #FFFFFF; display: inline\">Crypt Swarm</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of Lichfrost and Crypt Swarm by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31048,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Reclaimed Life",
+    "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Raise</span> spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of your Raise spells by -15%.",
+    "iconPath": "interface/icons/_calltoarms_forsaken_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707670,
+    "spellIds": [
+      707670
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6897,
+      7371,
+      29196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707670,
+        "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Raise</span> spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of your Raise spells by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29520,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Game of Bones",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Champion</span> spells by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Champion spells by -60 sec.",
+    "iconPath": "interface/icons/icon_petfamily_undead",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301198,
+    "spellIds": [
+      301198
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29865,
+      31048
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301198,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Champion</span> spells by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Champion spells by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29774,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Bone Tithe",
+    "description": "Siphon life from your undead minions, sacrificing <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of their health to grant yourself an absorb shield equal to half of the health stolen for <span class=\"item-number\">20</span> seconds.<br /><br />Usable while stunned.",
+    "descriptionText": "Siphon life from your undead minions, sacrificing 40% of their health to grant yourself an absorb shield equal to half of the health stolen for 20 seconds.\n\nUsable while stunned.",
+    "iconPath": "interface/icons/ossuary_bond",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802121,
+    "spellIds": [
+      802121
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6458,
+      30833,
+      34980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802121,
+        "description": "Siphon life from your undead minions, sacrificing <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of their health to grant yourself an absorb shield equal to half of the health stolen for <span class=\"item-number\">20</span> seconds.<br /><br />Usable while stunned.",
+        "descriptionText": "Siphon life from your undead minions, sacrificing 40% of their health to grant yourself an absorb shield equal to half of the health stolen for 20 seconds.\n\nUsable while stunned."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29787,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Glacial Tap",
+    "description": "Tap into necrotic energies, instantly regenerating <span class=\"item-number\">30</span> Runic Power.",
+    "descriptionText": "Tap into necrotic energies, instantly regenerating 30 Runic Power.",
+    "iconPath": "interface/icons/_skullcurse2_blue",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805369,
+    "spellIds": [
+      805369
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805369,
+        "description": "Tap into necrotic energies, instantly regenerating <span class=\"item-number\">30</span> Runic Power.",
+        "descriptionText": "Tap into necrotic energies, instantly regenerating 30 Runic Power."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29788,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Death's Due",
+    "description": "Force a target to accept the reality of death, removing any invulnerability or immunity effects from them and cursing them for <span class=\"item-number\">5</span> seconds.<br /><br />If the target's health is below <span class=\"item-number\">20%</span> at the end of duration, they take <span class=\"item-number\">1160</span> + <span class=\"item-number\">200% SP</span> Shadowfrost Damage.",
+    "descriptionText": "Force a target to accept the reality of death, removing any invulnerability or immunity effects from them and cursing them for 5 seconds.\n\nIf the target's health is below 20% at the end of duration, they take 1160 + 200% SP Shadowfrost Damage.",
+    "iconPath": "interface/icons/nhi_deathpickaxe_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807796,
+    "spellIds": [
+      807796
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31143
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807796,
+        "description": "Force a target to accept the reality of death, removing any invulnerability or immunity effects from them and cursing them for <span class=\"item-number\">5</span> seconds.<br /><br />If the target's health is below <span class=\"item-number\">20%</span> at the end of duration, they take <span class=\"item-number\">1160</span> + <span class=\"item-number\">200% SP</span> Shadowfrost Damage.",
+        "descriptionText": "Force a target to accept the reality of death, removing any invulnerability or immunity effects from them and cursing them for 5 seconds.\n\nIf the target's health is below 20% at the end of duration, they take 1160 + 200% SP Shadowfrost Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5314,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Command: Hook",
+    "description": "Command your <span style=\"color: #ffffff; display: inline\">Abominations</span> to hook an enemy to their location, slowing their movement speed to a halt for <span class=\"item-number\">2</span> seconds.<br /><br />",
+    "descriptionText": "Command your Abominations to hook an enemy to their location, slowing their movement speed to a halt for 2 seconds.",
+    "iconPath": "interface/icons/inv_misc_hook_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504316,
+    "spellIds": [
+      504316
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29364
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504316,
+        "description": "Command your <span style=\"color: #ffffff; display: inline\">Abominations</span> to hook an enemy to their location, slowing their movement speed to a halt for <span class=\"item-number\">2</span> seconds.<br /><br />",
+        "descriptionText": "Command your Abominations to hook an enemy to their location, slowing their movement speed to a halt for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6458,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Vampiric Aura",
+    "description": "While you are below <span class=\"item-number\">50%</span> health, your Undead minions now heal you for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of their damage dealt.",
+    "descriptionText": "While you are below 50% health, your Undead minions now heal you for 10% of their damage dealt.",
+    "iconPath": "interface/icons/spell_shadow_vampiricaura",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300241,
+    "spellIds": [
+      300241
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5314,
+      6885
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300241,
+        "description": "While you are below <span class=\"item-number\">50%</span> health, your Undead minions now heal you for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of their damage dealt.",
+        "descriptionText": "While you are below 50% health, your Undead minions now heal you for 10% of their damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6459,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Icecrown Scriptures",
+    "description": "Increases your Shadow and Frost Damage dealt against Humanoids and Undead by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Shadow and Frost Damage dealt against Humanoids and Undead by 4%.",
+    "iconPath": "interface/icons/_scrollofspeed_lightblue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300234,
+    "spellIds": [
+      300234,
+      301325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29787
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300234,
+        "description": "Increases your Shadow and Frost Damage dealt against Humanoids and Undead by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Shadow and Frost Damage dealt against Humanoids and Undead by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301325,
+        "description": "Increases your Shadow and Frost Damage dealt against Humanoids and Undead by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Shadow and Frost Damage dealt against Humanoids and Undead by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6555,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Cobalt-Plated Armor",
+    "description": "Increases the Armor of your Undead minions by <span class=\"item-number\">1100</span>, scaling with your level.",
+    "descriptionText": "Increases the Armor of your Undead minions by 1100, scaling with your level.",
+    "iconPath": "interface/icons/nhi_frost_knight_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300945,
+    "spellIds": [
+      300945
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33784,
+      34977
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 804717,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300945,
+        "description": "Increases the Armor of your Undead minions by <span class=\"item-number\">1100</span>, scaling with your level.",
+        "descriptionText": "Increases the Armor of your Undead minions by 1100, scaling with your level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6885,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Hulking Hordes",
+    "description": "Increases your maximum health and the maximum health of your summons by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum health and the maximum health of your summons by 6%.",
+    "iconPath": "interface/icons/uico_unholy_spell_08_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300748,
+    "spellIds": [
+      300748,
+      301326
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29244,
+      29364
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300748,
+        "description": "Increases your maximum health and the maximum health of your summons by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health and the maximum health of your summons by 6%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301326,
+        "description": "Increases your maximum health and the maximum health of your summons by <span class=\"item-number\">12</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health and the maximum health of your summons by 12%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6886,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Putrid Summoner",
+    "description": "Each <span style=\"color: #ffffff; display: inline\">Undead Stance</span> now provides an additional bonus:<br /><br /><span style=\"color: #FFFFFF; display: inline\">Undead: Assault</span>: Increases your critical strike chance against Humanoids by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Undead: Protect</span>: Reduces your threat generated by <span class=\"item-number\">-75</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Undead: Pacify</span>: Reduces your damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each Undead Stance now provides an additional bonus:\n\nUndead: Assault: Increases your critical strike chance against Humanoids by 5%.\n\nUndead: Protect: Reduces your threat generated by -75%.\n\nUndead: Pacify: Reduces your damage taken by -10%.",
+    "iconPath": "interface/icons/_d3wallofzombies",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560595,
+    "spellIds": [
+      560595
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5781,
+      12381,
+      29520
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560595,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Undead Stance</span> now provides an additional bonus:<br /><br /><span style=\"color: #FFFFFF; display: inline\">Undead: Assault</span>: Increases your critical strike chance against Humanoids by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Undead: Protect</span>: Reduces your threat generated by <span class=\"item-number\">-75</span><span class=\"item-number\">%</span>.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Undead: Pacify</span>: Reduces your damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Undead Stance now provides an additional bonus:\n\nUndead: Assault: Increases your critical strike chance against Humanoids by 5%.\n\nUndead: Protect: Reduces your threat generated by -75%.\n\nUndead: Pacify: Reduces your damage taken by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6897,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Overwhelming Force",
+    "description": "Damage dealt by your Undead minions now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">2</span> Runic Power and <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Damage dealt by your Undead minions now has a 5% chance to restore 2 Runic Power and 2% of your maximum mana.",
+    "iconPath": "interface/icons/nhi_raisedead_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 531128,
+    "spellIds": [
+      531128
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6903,
+      29774,
+      31143
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 236112,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 531128,
+        "description": "Damage dealt by your Undead minions now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">2</span> Runic Power and <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Damage dealt by your Undead minions now has a 5% chance to restore 2 Runic Power and 2% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6903,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Life For Power",
+    "description": "You absorb <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of healing taken and gain a shield for the amount absorbed, lasting <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "You absorb 20% of healing taken and gain a shield for the amount absorbed, lasting 10 seconds.",
+    "iconPath": "interface/icons/spell_shadow_creepingplague",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705746,
+    "spellIds": [
+      705746
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6458
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705746,
+        "description": "You absorb <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of healing taken and gain a shield for the amount absorbed, lasting <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "You absorb 20% of healing taken and gain a shield for the amount absorbed, lasting 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5781,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 87,
+    "tabKey": "23:87",
+    "tabName": "Class",
+    "name": "Lich Commander",
+    "description": "Reduces the cost of your <span style=\"color: #90ee90; display: inline\">Command</span> spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of your Command spells by -15%.",
+    "iconPath": "interface/icons/inv_7af_deathknight_frostmournefragment",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704713,
+    "spellIds": [
+      704713
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33778
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 707739,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704713,
+        "description": "Reduces the cost of your <span style=\"color: #90ee90; display: inline\">Command</span> spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of your Command spells by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

@@ -1,0 +1,1619 @@
+[
+  {
+    "nodeId": 29952,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Trap Card",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Traps</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of your Traps by 50%.",
+    "iconPath": "interface/icons/inv_inscription_tarot_6omagecard",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680253,
+    "spellIds": [
+      680253
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6326
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680253,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Traps</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Traps by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29986,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Vampiric Tonic",
+    "description": "Drink a vampiric tonic, allowing Physical Damage dealt to heal you equal to <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt for <span class=\"item-number\">10</span> seconds.<br /><br />",
+    "descriptionText": "Drink a vampiric tonic, allowing Physical Damage dealt to heal you equal to 20% of the damage dealt for 10 seconds.",
+    "iconPath": "interface/icons/trade_alchemy_potione5",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802276,
+    "spellIds": [
+      802276
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11218,
+      34556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802276,
+        "description": "Drink a vampiric tonic, allowing Physical Damage dealt to heal you equal to <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt for <span class=\"item-number\">10</span> seconds.<br /><br />",
+        "descriptionText": "Drink a vampiric tonic, allowing Physical Damage dealt to heal you equal to 20% of the damage dealt for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34538,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Night Stalker",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 3%.",
+    "iconPath": "interface/icons/ability_rogue_nightblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300792,
+    "spellIds": [
+      300792,
+      300793
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29150,
+      30187
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300792,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 300793,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34555,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Dark Intuition",
+    "description": "Whenever you parry or dodge an attack, your attack speed is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, and your parry chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Whenever you parry or dodge an attack, your attack speed is increased by 5%, and your parry chance by 2% for 15 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/ability_priest_darkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806195,
+    "spellIds": [
+      806195
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7095,
+      34588
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806195,
+        "description": "Whenever you parry or dodge an attack, your attack speed is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, and your parry chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Whenever you parry or dodge an attack, your attack speed is increased by 5%, and your parry chance by 2% for 15 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34556,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Alchemical Research",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Tonics by 25%.",
+    "iconPath": "interface/icons/inv_enchant_alchemistcauldron",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705498,
+    "spellIds": [
+      705498,
+      707862
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30736,
+      34555
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705498,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Tonics by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707862,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Tonics by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34557,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Slayer of Darkness",
+    "description": "Increases damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> when fighting Demons or Undead. <br /><br />Additionally, direct damage dealt with spells or abilities now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to deal <span class=\"item-number\">151</span> Holy Damage.",
+    "descriptionText": "Increases damage dealt by 5% when fighting Demons or Undead. \n\nAdditionally, direct damage dealt with spells or abilities now has a 10% chance to deal 151 Holy Damage.",
+    "iconPath": "interface/icons/spell_holy_retribution",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804024,
+    "spellIds": [
+      804024
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804024,
+        "description": "Increases damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> when fighting Demons or Undead. <br /><br />Additionally, direct damage dealt with spells or abilities now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to deal <span class=\"item-number\">151</span> Holy Damage.",
+        "descriptionText": "Increases damage dealt by 5% when fighting Demons or Undead. \n\nAdditionally, direct damage dealt with spells or abilities now has a 10% chance to deal 151 Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34558,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Regenerative Elixirs",
+    "description": "Drinking <span style=\"color: #ffffff; display: inline\">Tonics</span> now also restores <span class=\"item-number\">30</span> Rage.",
+    "descriptionText": "Drinking Tonics now also restores 30 Rage.",
+    "iconPath": "interface/icons/inv_potion_55",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705528,
+    "spellIds": [
+      705528
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6413
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 705528,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705528,
+        "description": "Drinking <span style=\"color: #ffffff; display: inline\">Tonics</span> now also restores <span class=\"item-number\">30</span> Rage.",
+        "descriptionText": "Drinking Tonics now also restores 30 Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34560,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Alertness",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Witching Shroud</span> by <span class=\"item-number\">-10</span> sec when you are struck by a Shadow critical strike.",
+    "descriptionText": "Reduces the cooldown of Witching Shroud by -10 sec when you are struck by a Shadow critical strike.",
+    "iconPath": "interface/icons/spell_shadow_brainwash",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681152,
+    "spellIds": [
+      681152
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7095
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681152,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Witching Shroud</span> by <span class=\"item-number\">-10</span> sec when you are struck by a Shadow critical strike.",
+        "descriptionText": "Reduces the cooldown of Witching Shroud by -10 sec when you are struck by a Shadow critical strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34583,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Follow The Edict",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Edicts</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Edicts by 20%.",
+    "iconPath": "interface/icons/ability_rogue_wrongfullyaccused",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503698,
+    "spellIds": [
+      503698
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6326,
+      7424
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503698,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Edicts</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Edicts by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34587,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Trickster",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Smoke Grenade</span> by <span class=\"item-number\">-30</span> sec and increases its duration by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Reduces the cooldown of Smoke Grenade by -30 sec and increases its duration by 1 sec.",
+    "iconPath": "interface/icons/ability_rogue_smoke",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705526,
+    "spellIds": [
+      705526
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30738
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705526,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Smoke Grenade</span> by <span class=\"item-number\">-30</span> sec and increases its duration by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Reduces the cooldown of Smoke Grenade by -30 sec and increases its duration by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34588,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Brand of the Unworthy",
+    "description": "Expose an enemy's darkest faults, dealing <span class=\"item-number\">307</span> + <span class=\"item-number\">75% shadow SP</span> + <span class=\"item-number\">12% AP</span> Shadow Damage and cursing them, disorienting them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players).<br /><br />Damage caused will end this effect. Only usable on Humanoids, Demons, and Undead.<br /><br />",
+    "descriptionText": "Expose an enemy's darkest faults, dealing 307 + 75% shadow SP + 12% AP Shadow Damage and cursing them, disorienting them for 40 seconds (8 sec vs players).\n\nDamage caused will end this effect. Only usable on Humanoids, Demons, and Undead.",
+    "iconPath": "interface/icons/ability_skyreach_overwhelmed",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 501380,
+    "spellIds": [
+      501380
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34583,
+      34595
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 501380,
+        "description": "Expose an enemy's darkest faults, dealing <span class=\"item-number\">307</span> + <span class=\"item-number\">75% shadow SP</span> + <span class=\"item-number\">12% AP</span> Shadow Damage and cursing them, disorienting them for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players).<br /><br />Damage caused will end this effect. Only usable on Humanoids, Demons, and Undead.<br /><br />",
+        "descriptionText": "Expose an enemy's darkest faults, dealing 307 + 75% shadow SP + 12% AP Shadow Damage and cursing them, disorienting them for 40 seconds (8 sec vs players).\n\nDamage caused will end this effect. Only usable on Humanoids, Demons, and Undead."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34592,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Night Walker",
+    "description": "Increases the base range of <span style=\"color: #ffffff; display: inline\">Vault</span> by <span class=\"item-number\">3</span> yds.",
+    "descriptionText": "Increases the base range of Vault by 3 yds.",
+    "iconPath": "interface/icons/nhi_arcanespeed_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 789256,
+    "spellIds": [
+      789256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29150
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 789256,
+        "description": "Increases the base range of <span style=\"color: #ffffff; display: inline\">Vault</span> by <span class=\"item-number\">3</span> yds.",
+        "descriptionText": "Increases the base range of Vault by 3 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34593,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Purified Bola",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Bola Throw</span> now has <span class=\"item-number\">2</span> charges, deals additional damage, and lasts <span class=\"item-number\">2</span> additional sec, but now costs <span class=\"item-number\">10</span> Rage instead of mana.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_engineering_90_bola\" /><span class=\"name\">Purified Bola Throw</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Throw a bola at an enemy, dealing <span class=\"item-number\">385</span> + <span class=\"item-number\">40% AP</span> Holy Damage and slowing movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Your Bola Throw now has 2 charges, deals additional damage, and lasts 2 additional sec, but now costs 10 Rage instead of mana.\n\n---\n\nPurified Bola Throw2 Charges, 15 sec recharge\nThrow a bola at an enemy, dealing 385 + 40% AP Holy Damage and slowing movement speed by -60% for 8 seconds.",
+    "iconPath": "interface/icons/inv_engineering_90_bola",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707230,
+    "spellIds": [
+      707230
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7093
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707230,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Bola Throw</span> now has <span class=\"item-number\">2</span> charges, deals additional damage, and lasts <span class=\"item-number\">2</span> additional sec, but now costs <span class=\"item-number\">10</span> Rage instead of mana.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_engineering_90_bola\" /><span class=\"name\">Purified Bola Throw</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Throw a bola at an enemy, dealing <span class=\"item-number\">385</span> + <span class=\"item-number\">40% AP</span> Holy Damage and slowing movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Your Bola Throw now has 2 charges, deals additional damage, and lasts 2 additional sec, but now costs 10 Rage instead of mana.\n\n---\n\nPurified Bola Throw2 Charges, 15 sec recharge\nThrow a bola at an enemy, dealing 385 + 40% AP Holy Damage and slowing movement speed by -60% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34595,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Vengeful Intent",
+    "description": "Whenever you take direct damage you have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike back for <span class=\"item-number\">75</span><span class=\"item-number\">%</span> Weapon Damage.",
+    "descriptionText": "Whenever you take direct damage you have a 10% chance to strike back for 75% Weapon Damage.",
+    "iconPath": "interface/icons/_diablo3_cleave_deathknight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705534,
+    "spellIds": [
+      705534
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6413,
+      7424
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705534,
+        "description": "Whenever you take direct damage you have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike back for <span class=\"item-number\">75</span><span class=\"item-number\">%</span> Weapon Damage.",
+        "descriptionText": "Whenever you take direct damage you have a 10% chance to strike back for 75% Weapon Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30187,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Shadow Trap",
+    "description": "Place a dark trap on the ground lasting <span class=\"item-number\">30</span> seconds that will curse the first enemy to approach it and up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">3</span> yds, stunning them for <span class=\"item-number\">4</span> seconds and dealing <span class=\"item-number\">546000</span> + <span class=\"item-number\">136000% AP</span> Shadow Damage over <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Place a dark trap on the ground lasting 30 seconds that will curse the first enemy to approach it and up to 5 enemies within 3 yds, stunning them for 4 seconds and dealing 546000 + 136000% AP Shadow Damage over 8 seconds.",
+    "iconPath": "interface/icons/uico_shadow_spell_07_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680238,
+    "spellIds": [
+      680238
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680238,
+        "description": "Place a dark trap on the ground lasting <span class=\"item-number\">30</span> seconds that will curse the first enemy to approach it and up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">3</span> yds, stunning them for <span class=\"item-number\">4</span> seconds and dealing <span class=\"item-number\">546000</span> + <span class=\"item-number\">136000% AP</span> Shadow Damage over <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Place a dark trap on the ground lasting 30 seconds that will curse the first enemy to approach it and up to 5 enemies within 3 yds, stunning them for 4 seconds and dealing 546000 + 136000% AP Shadow Damage over 8 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30736,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Vampire Hunter",
+    "description": "When an enemy applies a curse to you, your Magic Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />The damage reduction is increased by <span class=\"item-number\">5%</span> and duration is increased by <span class=\"item-number\">2</span> seconds for every curse active.",
+    "descriptionText": "When an enemy applies a curse to you, your Magic Damage taken is reduced by -10% for 8 seconds.\n\nThe damage reduction is increased by 5% and duration is increased by 2 seconds for every curse active.",
+    "iconPath": "interface/icons/novart_physical_ability_(60)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803638,
+    "spellIds": [
+      803638
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34588
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803638,
+        "description": "When an enemy applies a curse to you, your Magic Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />The damage reduction is increased by <span class=\"item-number\">5%</span> and duration is increased by <span class=\"item-number\">2</span> seconds for every curse active.",
+        "descriptionText": "When an enemy applies a curse to you, your Magic Damage taken is reduced by -10% for 8 seconds.\n\nThe damage reduction is increased by 5% and duration is increased by 2 seconds for every curse active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30738,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Smoke Grenade",
+    "description": "Throw down a smoke grenade, enemies are unable to target into or out of the <span style=\"color: #ffffff; display: inline\">Smoke</span> for <span class=\"item-number\">8</span> seconds. <br /><br />Any damage caused will remove the effect.<br /><br />All allies in the <span style=\"color: #ffffff; display: inline\">Smoke</span> area gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased movement speed and all enemies have their movement speed slowed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Throw down a smoke grenade, enemies are unable to target into or out of the Smoke for 8 seconds. \n\nAny damage caused will remove the effect.\n\nAll allies in the Smoke area gain 40% increased movement speed and all enemies have their movement speed slowed by -60%.",
+    "iconPath": "interface/icons/inv_misc_pyriumgrenade",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805756,
+    "spellIds": [
+      805756
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7093,
+      9415
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805756,
+        "description": "Throw down a smoke grenade, enemies are unable to target into or out of the <span style=\"color: #ffffff; display: inline\">Smoke</span> for <span class=\"item-number\">8</span> seconds. <br /><br />Any damage caused will remove the effect.<br /><br />All allies in the <span style=\"color: #ffffff; display: inline\">Smoke</span> area gain <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased movement speed and all enemies have their movement speed slowed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Throw down a smoke grenade, enemies are unable to target into or out of the Smoke for 8 seconds. \n\nAny damage caused will remove the effect.\n\nAll allies in the Smoke area gain 40% increased movement speed and all enemies have their movement speed slowed by -60%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31006,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Slayer's Mark",
+    "description": "Mark an enemy, increasing the attack power of all attackers against that target by <span class=\"item-number\">150</span> and your critical strike chance against them by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, increasing by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">8</span> seconds.<br /><br />For the duration, the enemy is unable to stealth.",
+    "descriptionText": "Mark an enemy, increasing the attack power of all attackers against that target by 150 and your critical strike chance against them by 3%, increasing by 3% every 1 sec for 8 seconds.\n\nFor the duration, the enemy is unable to stealth.",
+    "iconPath": "interface/icons/ability_blackhand_marked4death",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804068,
+    "spellIds": [
+      804068
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34557,
+      34593
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804068,
+        "description": "Mark an enemy, increasing the attack power of all attackers against that target by <span class=\"item-number\">150</span> and your critical strike chance against them by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, increasing by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">8</span> seconds.<br /><br />For the duration, the enemy is unable to stealth.",
+        "descriptionText": "Mark an enemy, increasing the attack power of all attackers against that target by 150 and your critical strike chance against them by 3%, increasing by 3% every 1 sec for 8 seconds.\n\nFor the duration, the enemy is unable to stealth."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7093,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Renegade",
+    "description": "You now drop caltrops below you each time you use <span style=\"color: #ffffff; display: inline\">Vault</span> that last <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "You now drop caltrops below you each time you use Vault that last 6 seconds.",
+    "iconPath": "interface/icons/ability_rogue_sinistercalling",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524812,
+    "spellIds": [
+      524812
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7588,
+      30736
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524812,
+        "description": "You now drop caltrops below you each time you use <span style=\"color: #ffffff; display: inline\">Vault</span> that last <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "You now drop caltrops below you each time you use Vault that last 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7095,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Witching Shroud",
+    "description": "Enter a powerful stealth mode for <span class=\"item-number\">3</span> seconds, granting immunity to all harmful magic effects.<br /><br />Only usable for <span class=\"item-number\">10</span> seconds after being hit by a magical critical strike. Usable while stunned or feared.",
+    "descriptionText": "Enter a powerful stealth mode for 3 seconds, granting immunity to all harmful magic effects.\n\nOnly usable for 10 seconds after being hit by a magical critical strike. Usable while stunned or feared.",
+    "iconPath": "interface/icons/_sylvanas_warlock",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805770,
+    "spellIds": [
+      805770
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7482,
+      34558
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805770,
+        "description": "Enter a powerful stealth mode for <span class=\"item-number\">3</span> seconds, granting immunity to all harmful magic effects.<br /><br />Only usable for <span class=\"item-number\">10</span> seconds after being hit by a magical critical strike. Usable while stunned or feared.",
+        "descriptionText": "Enter a powerful stealth mode for 3 seconds, granting immunity to all harmful magic effects.\n\nOnly usable for 10 seconds after being hit by a magical critical strike. Usable while stunned or feared."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6325,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Tonic Supply",
+    "description": "Using a <span style=\"color: #ffffff; display: inline\">Tonic</span> now reduces the cooldown of all other <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Using a Tonic now reduces the cooldown of all other Tonics by -10 sec.",
+    "iconPath": "interface/icons/inv_misc_5potionbag_special",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705497,
+    "spellIds": [
+      705497
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29986
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705497,
+        "description": "Using a <span style=\"color: #ffffff; display: inline\">Tonic</span> now reduces the cooldown of all other <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Using a Tonic now reduces the cooldown of all other Tonics by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6326,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Inquisitor's Trap",
+    "description": "Place a cruel trap on the ground lasting <span class=\"item-number\">1</span> minute that will curse the first enemy to approach it silencing them and all enemies in a <span class=\"item-number\">5</span> yd radius for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Place a cruel trap on the ground lasting 1 minute that will curse the first enemy to approach it silencing them and all enemies in a 5 yd radius for 6 seconds.",
+    "iconPath": "interface/icons/inv_pet_pettrap02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681445,
+    "spellIds": [
+      681445
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6457,
+      34592
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681445,
+        "description": "Place a cruel trap on the ground lasting <span class=\"item-number\">1</span> minute that will curse the first enemy to approach it silencing them and all enemies in a <span class=\"item-number\">5</span> yd radius for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Place a cruel trap on the ground lasting 1 minute that will curse the first enemy to approach it silencing them and all enemies in a 5 yd radius for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6413,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Witchblood Tonic",
+    "description": "Drink a shadowy tonic, removing all curse effects from you and reducing all Magic Damage taken by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds. <br /><br />",
+    "descriptionText": "Drink a shadowy tonic, removing all curse effects from you and reducing all Magic Damage taken by -40% for 10 seconds.",
+    "iconPath": "interface/icons/trade_alchemy_potione2",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802278,
+    "spellIds": [
+      802278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6415,
+      6417
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802278,
+        "description": "Drink a shadowy tonic, removing all curse effects from you and reducing all Magic Damage taken by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds. <br /><br />",
+        "descriptionText": "Drink a shadowy tonic, removing all curse effects from you and reducing all Magic Damage taken by -40% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6415,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Combat Training",
+    "description": "Increases your Physical Damage dealt and parry chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Physical Damage dealt and parry chance by 3%.",
+    "iconPath": "interface/icons/inv_sword_2h_blood_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680529,
+    "spellIds": [
+      680529,
+      681484
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680529,
+        "description": "Increases your Physical Damage dealt and parry chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Physical Damage dealt and parry chance by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681484,
+        "description": "Increases your Physical Damage dealt and parry chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Physical Damage dealt and parry chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6417,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Vishas' Memoir",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Brand</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Brand spells by -25%.",
+    "iconPath": "interface/icons/custom_book_02_b_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300795,
+    "spellIds": [
+      300795
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7451
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300795,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Brand</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Brand spells by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6457,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Brimming Hatred",
+    "description": "Your critical strikes now generate <span class=\"item-number\">10</span> Rage. Can only occur every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Your critical strikes now generate 10 Rage. Can only occur every 3 sec.",
+    "iconPath": "interface/icons/_d3mantraofretribution",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705496,
+    "spellIds": [
+      705496
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34538
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705496,
+        "description": "Your critical strikes now generate <span class=\"item-number\">10</span> Rage. Can only occur every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Your critical strikes now generate 10 Rage. Can only occur every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6529,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Death Trap",
+    "description": "Place a death trap on the ground lasting <span class=\"item-number\">1</span> minute that will curse the first enemy to approach it, marking them for death, causing them to take <span class=\"item-number\">4100</span> + <span class=\"item-number\">100% AP</span> Shadow Damage after <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Place a death trap on the ground lasting 1 minute that will curse the first enemy to approach it, marking them for death, causing them to take 4100 + 100% AP Shadow Damage after 1 minute.",
+    "iconPath": "interface/icons/ability_hunter_traplauncher",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681450,
+    "spellIds": [
+      681450
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29952
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681450,
+        "description": "Place a death trap on the ground lasting <span class=\"item-number\">1</span> minute that will curse the first enemy to approach it, marking them for death, causing them to take <span class=\"item-number\">4100</span> + <span class=\"item-number\">100% AP</span> Shadow Damage after <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Place a death trap on the ground lasting 1 minute that will curse the first enemy to approach it, marking them for death, causing them to take 4100 + 100% AP Shadow Damage after 1 minute."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6622,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Burrow Bolt",
+    "description": "Shoot a bolt with a rope attached to it at an enemy dealing <span class=\"item-number\">126</span> + <span class=\"item-number\">25% AP</span> Physical Damage and pulling them to you.",
+    "descriptionText": "Shoot a bolt with a rope attached to it at an enemy dealing 126 + 25% AP Physical Damage and pulling them to you.",
+    "iconPath": "interface/icons/burrow bolt",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802269,
+    "spellIds": [
+      802269
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802269,
+        "description": "Shoot a bolt with a rope attached to it at an enemy dealing <span class=\"item-number\">126</span> + <span class=\"item-number\">25% AP</span> Physical Damage and pulling them to you.",
+        "descriptionText": "Shoot a bolt with a rope attached to it at an enemy dealing 126 + 25% AP Physical Damage and pulling them to you."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7588,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Strategist",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Vault</span> now regenerates <span class=\"item-number\">5</span><span class=\"item-number\">%</span> maximum mana.",
+    "descriptionText": "Your Vault now regenerates 5% maximum mana.",
+    "iconPath": "interface/icons/ability_heroicleap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681156,
+    "spellIds": [
+      681156
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6529,
+      34588
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681156,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Vault</span> now regenerates <span class=\"item-number\">5</span><span class=\"item-number\">%</span> maximum mana.",
+        "descriptionText": "Your Vault now regenerates 5% maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29150,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Vault",
+    "description": "Dash in the direction you are moving. Distance scales with movement speed.<br /><br />Not usable while rooted.",
+    "descriptionText": "Dash in the direction you are moving. Distance scales with movement speed.\n\nNot usable while rooted.",
+    "iconPath": "interface/icons/ability_demonhunter_vengefulretreat2",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500085,
+    "spellIds": [
+      500085
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500085,
+        "description": "Dash in the direction you are moving. Distance scales with movement speed.<br /><br />Not usable while rooted.",
+        "descriptionText": "Dash in the direction you are moving. Distance scales with movement speed.\n\nNot usable while rooted."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11218,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Dark Souls",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Tonics</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Tonics by 5 sec.",
+    "iconPath": "interface/icons/nhi_shadowbreath_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802011,
+    "spellIds": [
+      802011
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34555,
+      34560
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802011,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Tonics</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Tonics by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9415,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Resilient to Darkness",
+    "description": "Direct Magic Damage taken now heals you and restores mana to you equal to <span class=\"item-number\">3%</span> of the damage done.",
+    "descriptionText": "Direct Magic Damage taken now heals you and restores mana to you equal to 3% of the damage done.",
+    "iconPath": "interface/icons/trade_archaeology_engravedscimitarpommel",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681092,
+    "spellIds": [
+      681092
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7588,
+      9417
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681092,
+        "description": "Direct Magic Damage taken now heals you and restores mana to you equal to <span class=\"item-number\">3%</span> of the damage done.",
+        "descriptionText": "Direct Magic Damage taken now heals you and restores mana to you equal to 3% of the damage done."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9417,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Three Sevens",
+    "description": "Increases the duration that <span style=\"color: #ffffff; display: inline\">Traps</span> last on the ground by <span class=\"item-number\">7</span> sec, reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-7</span> sec, and reduces the cost of <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> by <span class=\"item-number\">-7</span>.",
+    "descriptionText": "Increases the duration that Traps last on the ground by 7 sec, reduces the cooldown of Burrow Bolt by -7 sec, and reduces the cost of Dawn Blade by -7.",
+    "iconPath": "interface/icons/custom_72_creating_shadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300572,
+    "spellIds": [
+      300572
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6529
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300572,
+        "description": "Increases the duration that <span style=\"color: #ffffff; display: inline\">Traps</span> last on the ground by <span class=\"item-number\">7</span> sec, reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-7</span> sec, and reduces the cost of <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> by <span class=\"item-number\">-7</span>.",
+        "descriptionText": "Increases the duration that Traps last on the ground by 7 sec, reduces the cooldown of Burrow Bolt by -7 sec, and reduces the cost of Dawn Blade by -7."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7424,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Evil Never Sleeps",
+    "description": "In the night time, your Agility is increased by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.<br /><br />In the day time, your haste is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "In the night time, your Agility is increased by 4%.\n\nIn the day time, your haste is increased by 3%.",
+    "iconPath": "interface/icons/spell_shadow_spectralsight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804185,
+    "spellIds": [
+      804185
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6417,
+      6457
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804185,
+        "description": "In the night time, your Agility is increased by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.<br /><br />In the day time, your haste is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "In the night time, your Agility is increased by 4%.\n\nIn the day time, your haste is increased by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7451,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Plagueland Survivalist",
+    "description": "Reduces the duration of disease effects on you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of disease effects on you by -30%.",
+    "iconPath": "interface/icons/5_shadowworld_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681169,
+    "spellIds": [
+      681169
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6622,
+      30187
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681169,
+        "description": "Reduces the duration of disease effects on you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of disease effects on you by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7482,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 87,
+    "tabKey": "15:87",
+    "tabName": "Class",
+    "name": "Just A Sip",
+    "description": "Drinking <span style=\"color: #ffffff; display: inline\">Tonics</span> now also restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum health and mana.",
+    "descriptionText": "Drinking Tonics now also restores 5% of your maximum health and mana.",
+    "iconPath": "interface/icons/inv_potion_68",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705533,
+    "spellIds": [
+      705533
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6413
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 705528,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705533,
+        "description": "Drinking <span style=\"color: #ffffff; display: inline\">Tonics</span> now also restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum health and mana.",
+        "descriptionText": "Drinking Tonics now also restores 5% of your maximum health and mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

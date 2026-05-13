@@ -1,0 +1,1757 @@
+[
+  {
+    "nodeId": 7258,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Survival Kit",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Survival Potion</span> now also heals you for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your maximum health with each tick.",
+    "descriptionText": "Your Survival Potion now also heals you for 10% of your maximum health with each tick.",
+    "iconPath": "interface/icons/inv_ascend_bag_06_b",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504329,
+    "spellIds": [
+      504329
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504329,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Survival Potion</span> now also heals you for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your maximum health with each tick.",
+        "descriptionText": "Your Survival Potion now also heals you for 10% of your maximum health with each tick."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4936,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Lethal Cunning",
+    "description": "Entering <span style=\"color: #ffffff; display: inline\">Elude</span> generates <span class=\"item-number\">1</span> stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> and <span class=\"item-number\">5</span> Focus every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Entering Elude generates 1 stack of Advantage and 5 Focus every 2 sec for 10 seconds.",
+    "iconPath": "interface/icons/_aimedshot_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704320,
+    "spellIds": [
+      704320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7790,
+      34188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 243621,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704320,
+        "description": "Entering <span style=\"color: #ffffff; display: inline\">Elude</span> generates <span class=\"item-number\">1</span> stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> and <span class=\"item-number\">5</span> Focus every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Entering Elude generates 1 stack of Advantage and 5 Focus every 2 sec for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5311,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Endurance",
+    "description": "Increases your maximum Focus by <span class=\"item-number\">20</span>.",
+    "descriptionText": "Increases your maximum Focus by 20.",
+    "iconPath": "interface/icons/ability_rogue_recuperate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705039,
+    "spellIds": [
+      705039
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5908,
+      7908,
+      30053
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705039,
+        "description": "Increases your maximum Focus by <span class=\"item-number\">20</span>.",
+        "descriptionText": "Increases your maximum Focus by 20."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6347,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Sly",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Woodland Adept</span> now triggers a <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced cooldown for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> active when cast.",
+    "descriptionText": "Your Woodland Adept now triggers a -10% reduced cooldown for each stack of Advantage active when cast.",
+    "iconPath": "interface/icons/inv_misc_disgustingpizza",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560339,
+    "spellIds": [
+      560339
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30053
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560339,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Woodland Adept</span> now triggers a <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced cooldown for each stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span> active when cast.",
+        "descriptionText": "Your Woodland Adept now triggers a -10% reduced cooldown for each stack of Advantage active when cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5908,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Bloody Focus",
+    "description": "Reduces the Focus cost of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> by <span class=\"item-number\">-15</span>.",
+    "descriptionText": "Reduces the Focus cost of Toxic Dart by -15.",
+    "iconPath": "interface/icons/ability_gouge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520804,
+    "spellIds": [
+      520804
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7791,
+      34157
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 842221,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520804,
+        "description": "Reduces the Focus cost of <span style=\"color: #ffffff; display: inline\">Toxic Dart</span> by <span class=\"item-number\">-15</span>.",
+        "descriptionText": "Reduces the Focus cost of Toxic Dart by -15."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 1906,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Guise",
+    "description": "Instantly generates <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> and allows you see nearby stealthed enemies for <span class=\"item-number\">5</span> seconds.<br /><br />Usable while stealthed.",
+    "descriptionText": "Instantly generates 5 stacks of Advantage and allows you see nearby stealthed enemies for 5 seconds.\n\nUsable while stealthed.",
+    "iconPath": "interface/icons/ability_rogue_stayofexecution",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520753,
+    "spellIds": [
+      520753
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7790,
+      34188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 243621,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520753,
+        "description": "Instantly generates <span class=\"item-number\">5</span> stacks of <span style=\"color: #8fff7a; display: inline\">Advantage</span> and allows you see nearby stealthed enemies for <span class=\"item-number\">5</span> seconds.<br /><br />Usable while stealthed.",
+        "descriptionText": "Instantly generates 5 stacks of Advantage and allows you see nearby stealthed enemies for 5 seconds.\n\nUsable while stealthed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4156,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Elven Tactics",
+    "description": "You now have a <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> chance to not consume <span style=\"color: #8fff7a; display: inline\">Advantage</span> on cast.",
+    "descriptionText": "You now have a -20% chance to not consume Advantage on cast.",
+    "iconPath": "interface/icons/ui_darkshore_warfront_alliance_archer",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560701,
+    "spellIds": [
+      560701
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6945,
+      7906
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560701,
+        "description": "You now have a <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> chance to not consume <span style=\"color: #8fff7a; display: inline\">Advantage</span> on cast.",
+        "descriptionText": "You now have a -20% chance to not consume Advantage on cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4186,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Double The Pace",
+    "description": "Increases all party and raid member's melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects.\n\nIn addition, increases your critical strike chance by 2%.",
+    "iconPath": "interface/icons/_diablo3_arrowrain_hunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705031,
+    "spellIds": [
+      705031
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5311,
+      6347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705031,
+        "description": "Increases all party and raid member's melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects.\n\nIn addition, increases your critical strike chance by 2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6670,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Elusive Character",
+    "description": "Increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds after leaving <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+    "descriptionText": "Increases your damage dealt by 10% for 12 seconds after leaving Elude.",
+    "iconPath": "interface/icons/custom_16_shadow_swords_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560340,
+    "spellIds": [
+      560340
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29337,
+      30352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560340,
+        "description": "Increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds after leaving <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+        "descriptionText": "Increases your damage dealt by 10% for 12 seconds after leaving Elude."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6682,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Outlaw",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Adaptations</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Adaptations by 20%.",
+    "iconPath": "interface/icons/_human_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706277,
+    "spellIds": [
+      706277
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34159
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706277,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Adaptations</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Adaptations by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6782,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Whats Yours Is Mine",
+    "description": "Removes the Focus cost of <span style=\"color: #ffffff; display: inline\">Snatch</span>.",
+    "descriptionText": "Removes the Focus cost of Snatch.",
+    "iconPath": "interface/icons/achievement_boss_edwinvancleef",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560495,
+    "spellIds": [
+      560495
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 754321,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560495,
+        "description": "Removes the Focus cost of <span style=\"color: #ffffff; display: inline\">Snatch</span>.",
+        "descriptionText": "Removes the Focus cost of Snatch."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6938,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Surefooted",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Adrenaline Rush</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Adrenaline Rush by -30 sec.",
+    "iconPath": "interface/icons/achievement_zone_hillsbradfoothills",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560814,
+    "spellIds": [
+      560814
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6946
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 561320,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560814,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Adrenaline Rush</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Adrenaline Rush by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6945,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Natural Disguise",
+    "description": "Instantly dispels all movement slowing effects from allies within <span class=\"item-number\">30</span> yds and transforms them into a bush, stealthing them for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Instantly dispels all movement slowing effects from allies within 30 yds and transforms them into a bush, stealthing them for 20 seconds.",
+    "iconPath": "interface/icons/nhi_natureambush_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520585,
+    "spellIds": [
+      520585
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4186,
+      6347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520585,
+        "description": "Instantly dispels all movement slowing effects from allies within <span class=\"item-number\">30</span> yds and transforms them into a bush, stealthing them for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Instantly dispels all movement slowing effects from allies within 30 yds and transforms them into a bush, stealthing them for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6946,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Adrenaline Rush",
+    "description": "Surge with vitality, dispeling all harmful effects from yourself and increasing your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Usable while stealthed.",
+    "descriptionText": "Surge with vitality, dispeling all harmful effects from yourself and increasing your movement speed by 40% for 10 seconds.\n\nUsable while stealthed.",
+    "iconPath": "interface/icons/5_archerskill19_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520578,
+    "spellIds": [
+      520578
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5908,
+      7790,
+      7908
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520578,
+        "description": "Surge with vitality, dispeling all harmful effects from yourself and increasing your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Usable while stealthed.",
+        "descriptionText": "Surge with vitality, dispeling all harmful effects from yourself and increasing your movement speed by 40% for 10 seconds.\n\nUsable while stealthed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6947,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Forest Dweller",
+    "description": "While in <span style=\"color: #ffffff; display: inline\">Elude</span>, gain <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased movement speed and regenerate <span class=\"item-number\">3</span><span class=\"item-number\">%</span> maximum health every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "While in Elude, gain 20% increased movement speed and regenerate 3% maximum health every 3 sec.",
+    "iconPath": "interface/icons/ability_druid_manatree",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524864,
+    "spellIds": [
+      524864
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6782,
+      9782,
+      30050
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524864,
+        "description": "While in <span style=\"color: #ffffff; display: inline\">Elude</span>, gain <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased movement speed and regenerate <span class=\"item-number\">3</span><span class=\"item-number\">%</span> maximum health every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "While in Elude, gain 20% increased movement speed and regenerate 3% maximum health every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6952,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Onslaught",
+    "description": "Your senses heighten, causing you to instantly generate <span class=\"item-number\">5</span> <span style=\"color: #8fff7a; display: inline\">Advantage</span> and allowing the use of abilities that require <span style=\"color: #ffffff; display: inline\">Elude</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Your senses heighten, causing you to instantly generate 5 Advantage and allowing the use of abilities that require Elude for 15 seconds.",
+    "iconPath": "interface/icons/spell_nature_focusedmind",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801951,
+    "spellIds": [
+      801951
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6947,
+      7906
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801951,
+        "description": "Your senses heighten, causing you to instantly generate <span class=\"item-number\">5</span> <span style=\"color: #8fff7a; display: inline\">Advantage</span> and allowing the use of abilities that require <span style=\"color: #ffffff; display: inline\">Elude</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Your senses heighten, causing you to instantly generate 5 Advantage and allowing the use of abilities that require Elude for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29144,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Crippling Shot",
+    "description": "Fire a crippling shot at an enemy slowing movement speed by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and knocking them off their mounts, making them unable to mount again for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Fire a crippling shot at an enemy slowing movement speed by -50% and knocking them off their mounts, making them unable to mount again for 5 seconds.",
+    "iconPath": "interface/icons/custom_dismounting_shot",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804725,
+    "spellIds": [
+      804725
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804725,
+        "description": "Fire a crippling shot at an enemy slowing movement speed by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and knocking them off their mounts, making them unable to mount again for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Fire a crippling shot at an enemy slowing movement speed by -50% and knocking them off their mounts, making them unable to mount again for 5 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29331,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Briar Veil",
+    "description": "Thorns and leaves swirl around you, masking your movements for <span class=\"item-number\">10</span> seconds, increasing your dodge chance by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and causing dodging attacks to restore <span class=\"item-number\">2</span><span class=\"item-number\">%</span> maximum health and <span class=\"item-number\">5</span> Focus.",
+    "descriptionText": "Thorns and leaves swirl around you, masking your movements for 10 seconds, increasing your dodge chance by 50% and causing dodging attacks to restore 2% maximum health and 5 Focus.",
+    "iconPath": "interface/icons/nhi_natureempower_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800084,
+    "spellIds": [
+      800084
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29416,
+      34169,
+      34172
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800084,
+        "description": "Thorns and leaves swirl around you, masking your movements for <span class=\"item-number\">10</span> seconds, increasing your dodge chance by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and causing dodging attacks to restore <span class=\"item-number\">2</span><span class=\"item-number\">%</span> maximum health and <span class=\"item-number\">5</span> Focus.",
+        "descriptionText": "Thorns and leaves swirl around you, masking your movements for 10 seconds, increasing your dodge chance by 50% and causing dodging attacks to restore 2% maximum health and 5 Focus."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29337,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Knockout",
+    "description": "Knock an enemy out, incapacitating them for <span class=\"item-number\">4</span> seconds and removing bleed and poison effects from them. Damage caused will interrupt this effect.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+    "descriptionText": "Knock an enemy out, incapacitating them for 4 seconds and removing bleed and poison effects from them. Damage caused will interrupt this effect.\n\nUsable while in Elude.",
+    "iconPath": "interface/icons/ability_monk_blackoutkick",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801435,
+    "spellIds": [
+      801435
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801435,
+        "description": "Knock an enemy out, incapacitating them for <span class=\"item-number\">4</span> seconds and removing bleed and poison effects from them. Damage caused will interrupt this effect.<br /><br />Usable while in <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+        "descriptionText": "Knock an enemy out, incapacitating them for 4 seconds and removing bleed and poison effects from them. Damage caused will interrupt this effect.\n\nUsable while in Elude."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29416,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Grace",
+    "description": "Increases your Agility and movement speed by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility and movement speed by 4%.",
+    "iconPath": "interface/icons/5_archerskill10_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 705092,
+    "spellIds": [
+      705092,
+      707848,
+      712477
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6670,
+      7258,
+      30351
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705092,
+        "description": "Increases your Agility and movement speed by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and movement speed by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707848,
+        "description": "Increases your Agility and movement speed by <span class=\"item-number\">7</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and movement speed by 7%."
+      },
+      {
+        "rank": 3,
+        "spellId": 712477,
+        "description": "Increases your Agility and movement speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and movement speed by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9782,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Grappling Arrows",
+    "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Snatch</span> by <span class=\"item-number\">15</span> yds.",
+    "descriptionText": "Increases the range of Snatch by 15 yds.",
+    "iconPath": "interface/icons/custom_21_light_arrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561106,
+    "spellIds": [
+      561106
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 754321,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561106,
+        "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Snatch</span> by <span class=\"item-number\">15</span> yds.",
+        "descriptionText": "Increases the range of Snatch by 15 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7790,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Blur",
+    "description": "Increases your chance to dodge and parry by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to dodge and parry by 4%.",
+    "iconPath": "interface/icons/spell_nature_invisibilty",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520369,
+    "spellIds": [
+      520369
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7791,
+      30051
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520369,
+        "description": "Increases your chance to dodge and parry by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to dodge and parry by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7791,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Survival Expert",
+    "description": "Increases the dodge chance provided by <span style=\"color: #ffffff; display: inline\">Briar Veil</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the dodge chance provided by Briar Veil by 25%.",
+    "iconPath": "interface/icons/ability_druid_naturalperfection",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560959,
+    "spellIds": [
+      560959
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29331
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560959,
+        "description": "Increases the dodge chance provided by <span style=\"color: #ffffff; display: inline\">Briar Veil</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the dodge chance provided by Briar Veil by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7906,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Guile of the Ranger",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Instinct</span> now additionally increases your critical strike rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Your Instinct now additionally increases your critical strike rating by 20% of your Agility.",
+    "iconPath": "interface/icons/5_archerskill27_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520353,
+    "spellIds": [
+      520353
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4186,
+      6938,
+      12938,
+      30050
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520353,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Instinct</span> now additionally increases your critical strike rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Your Instinct now additionally increases your critical strike rating by 20% of your Agility."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7908,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "No Mercy",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Flank</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Flank by 10%.",
+    "iconPath": "interface/icons/ability_rogue_bloodyeye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520581,
+    "spellIds": [
+      520581
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7791,
+      34157
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 842221,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520581,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Flank</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Flank by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12938,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Heightened Senses",
+    "description": "Reduces the Focus cost <span style=\"color: #ffffff; display: inline\">Adrenaline Rush</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and increases the movement speed granted by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Focus cost Adrenaline Rush by -50% and increases the movement speed granted by 20%.",
+    "iconPath": "interface/icons/ability_racial_bearform",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561320,
+    "spellIds": [
+      561320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6946
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 561320,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561320,
+        "description": "Reduces the Focus cost <span style=\"color: #ffffff; display: inline\">Adrenaline Rush</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> and increases the movement speed granted by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Focus cost Adrenaline Rush by -50% and increases the movement speed granted by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30050,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Woodland Stalker",
+    "description": "Your critical strike chance is now increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Elude</span> is active.",
+    "descriptionText": "Your critical strike chance is now increased by 20% while Elude is active.",
+    "iconPath": "interface/icons/spell_nature_stranglevines",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705034,
+    "spellIds": [
+      705034
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1906,
+      4936,
+      6782,
+      9782
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705034,
+        "description": "Your critical strike chance is now increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Elude</span> is active.",
+        "descriptionText": "Your critical strike chance is now increased by 20% while Elude is active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30051,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Dirty Fighter",
+    "description": "Increases the chance for <span style=\"color: #FFFFFF; display: inline\">Flank</span> to critically strike by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and increases your chance to resist root effects by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance for Flank to critically strike by 50% and increases your chance to resist root effects by 25%.",
+    "iconPath": "interface/icons/ability_rogue_plunderarmor",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705044,
+    "spellIds": [
+      705044
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34172
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705044,
+        "description": "Increases the chance for <span style=\"color: #FFFFFF; display: inline\">Flank</span> to critically strike by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and increases your chance to resist root effects by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance for Flank to critically strike by 50% and increases your chance to resist root effects by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30053,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Woodland Adept",
+    "description": "Slip into the shadows, entering an improved stealth mode, increases your movement speed by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, and applies <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+    "descriptionText": "Slip into the shadows, entering an improved stealth mode, increases your movement speed by 25% for 10 seconds, and applies Elude.",
+    "iconPath": "interface/icons/nhi_naturepoisonedstep_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570015,
+    "spellIds": [
+      570015
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34157,
+      34168,
+      34171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570015,
+        "description": "Slip into the shadows, entering an improved stealth mode, increases your movement speed by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, and applies <span style=\"color: #ffffff; display: inline\">Elude</span>.",
+        "descriptionText": "Slip into the shadows, entering an improved stealth mode, increases your movement speed by 25% for 10 seconds, and applies Elude."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30351,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Improved Waterskins",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Waterskins</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Waterskins by 25%.",
+    "iconPath": "interface/icons/inv_drink_waterskin_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573057,
+    "spellIds": [
+      573057
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29144,
+      30352
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573057,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Waterskins</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Waterskins by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30352,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Survival Potion",
+    "description": "Drink a survival potion, dispelling all poison and disease effects and removing <span class=\"item-number\">1</span> poison and disease effect every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">9</span> seconds.",
+    "descriptionText": "Drink a survival potion, dispelling all poison and disease effects and removing 1 poison and disease effect every 3 sec for 9 seconds.",
+    "iconPath": "interface/icons/nhi_naturecocktail_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802839,
+    "spellIds": [
+      802839
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802839,
+        "description": "Drink a survival potion, dispelling all poison and disease effects and removing <span class=\"item-number\">1</span> poison and disease effect every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">9</span> seconds.",
+        "descriptionText": "Drink a survival potion, dispelling all poison and disease effects and removing 1 poison and disease effect every 3 sec for 9 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34156,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Rapid Strikes",
+    "description": "Melee and ranged auto attacks now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to strike an additional time for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt.<br /><br />Can only occur once per sec.",
+    "descriptionText": "Melee and ranged auto attacks now have a 25% chance to strike an additional time for 50% of the damage dealt.\n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/_crossingswords_colorsgreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560341,
+    "spellIds": [
+      560341
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7906
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560341,
+        "description": "Melee and ranged auto attacks now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to strike an additional time for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt.<br /><br />Can only occur once per sec.",
+        "descriptionText": "Melee and ranged auto attacks now have a 25% chance to strike an additional time for 50% of the damage dealt.\n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34157,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Pinpoint Accuracy",
+    "description": "Critical strikes with direct damaging abilities now generate <span class=\"item-number\">4</span> Focus.",
+    "descriptionText": "Critical strikes with direct damaging abilities now generate 4 Focus.",
+    "iconPath": "interface/icons/inv_weapon_bow_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801468,
+    "spellIds": [
+      801468
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34169
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801468,
+        "description": "Critical strikes with direct damaging abilities now generate <span class=\"item-number\">4</span> Focus.",
+        "descriptionText": "Critical strikes with direct damaging abilities now generate 4 Focus."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34159,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Deft Hands",
+    "description": "Increases your melee and ranged haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your melee and ranged haste by 5%.",
+    "iconPath": "interface/icons/ability_paladin_handoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707417,
+    "spellIds": [
+      707417
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34172
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707417,
+        "description": "Increases your melee and ranged haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your melee and ranged haste by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34168,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Camper",
+    "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Bushcraft</span> abilities by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of your Bushcraft abilities by -50%.",
+    "iconPath": "interface/icons/ability_racial_makecamp",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705026,
+    "spellIds": [
+      705026
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705026,
+        "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Bushcraft</span> abilities by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of your Bushcraft abilities by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34169,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Snapseed",
+    "description": "Toss a snapseed at an enemy, dealing <span class=\"item-number\">30</span> + <span class=\"item-number\">30% ranged AP</span> Physical Damage and knocking them back.",
+    "descriptionText": "Toss a snapseed at an enemy, dealing 30 + 30% ranged AP Physical Damage and knocking them back.",
+    "iconPath": "interface/icons/twisted_seed",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804027,
+    "spellIds": [
+      804027
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30351
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804027,
+        "description": "Toss a snapseed at an enemy, dealing <span class=\"item-number\">30</span> + <span class=\"item-number\">30% ranged AP</span> Physical Damage and knocking them back.",
+        "descriptionText": "Toss a snapseed at an enemy, dealing 30 + 30% ranged AP Physical Damage and knocking them back."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34171,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Resourceful",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Crippling Shot</span> and <span style=\"color: #ffffff; display: inline\">Snapseed</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Crippling Shot and Snapseed by -20%.",
+    "iconPath": "interface/icons/spell_nature_healingtouch",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504008,
+    "spellIds": [
+      504008
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34169
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504008,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Crippling Shot</span> and <span style=\"color: #ffffff; display: inline\">Snapseed</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Crippling Shot and Snapseed by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34172,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Cutthroat",
+    "description": "Shoot a powerful arrow that deals Weapon Damage plus <span class=\"item-number\">166</span> and stuns the target for <span class=\"item-number\">1</span> seconds. <br /><br />Duration increased by <span class=\"item-number\">1</span> sec per stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+    "descriptionText": "Shoot a powerful arrow that deals Weapon Damage plus 166 and stuns the target for 1 seconds. \n\nDuration increased by 1 sec per stack of Advantage.",
+    "iconPath": "interface/icons/custom_archerskill_04_nobg_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800359,
+    "spellIds": [
+      800359
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6670
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800359,
+        "description": "Shoot a powerful arrow that deals Weapon Damage plus <span class=\"item-number\">166</span> and stuns the target for <span class=\"item-number\">1</span> seconds. <br /><br />Duration increased by <span class=\"item-number\">1</span> sec per stack of <span style=\"color: #8fff7a; display: inline\">Advantage</span>.",
+        "descriptionText": "Shoot a powerful arrow that deals Weapon Damage plus 166 and stuns the target for 1 seconds. \n\nDuration increased by 1 sec per stack of Advantage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34188,
+    "classId": 21,
+    "className": "Ranger",
+    "tabId": 87,
+    "tabKey": "21:87",
+    "tabName": "Class",
+    "name": "Snatch",
+    "description": "Snatch an enemy's melee weapons, disarming them for <span class=\"item-number\">4</span> seconds.<br /><br />If you are disarmed, you also return your weapon to yourself.",
+    "descriptionText": "Snatch an enemy's melee weapons, disarming them for 4 seconds.\n\nIf you are disarmed, you also return your weapon to yourself.",
+    "iconPath": "interface/icons/rogue_subterfuge",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803115,
+    "spellIds": [
+      803115
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6682,
+      30051,
+      34159
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803115,
+        "description": "Snatch an enemy's melee weapons, disarming them for <span class=\"item-number\">4</span> seconds.<br /><br />If you are disarmed, you also return your weapon to yourself.",
+        "descriptionText": "Snatch an enemy's melee weapons, disarming them for 4 seconds.\n\nIf you are disarmed, you also return your weapon to yourself."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

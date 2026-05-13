@@ -1,0 +1,1943 @@
+[
+  {
+    "nodeId": 30793,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Venomtip Poison",
+    "description": "Spray poison on an enemy and all enemies within <span class=\"item-number\">8</span> yds of your target, dealing <span class=\"item-number\">33</span> + <span class=\"item-number\">11% nature SP</span> + <span class=\"item-number\">10% AP</span> Nature Damage and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Spray poison on an enemy and all enemies within 8 yds of your target, dealing 33 + 11% nature SP + 10% AP Nature Damage and reducing their attack speed by -20% for 10 seconds.",
+    "iconPath": "interface/icons/5_poisonclaw_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803195,
+    "spellIds": [
+      803195
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6122
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803195,
+        "description": "Spray poison on an enemy and all enemies within <span class=\"item-number\">8</span> yds of your target, dealing <span class=\"item-number\">33</span> + <span class=\"item-number\">11% nature SP</span> + <span class=\"item-number\">10% AP</span> Nature Damage and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Spray poison on an enemy and all enemies within 8 yds of your target, dealing 33 + 11% nature SP + 10% AP Nature Damage and reducing their attack speed by -20% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30485,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Drown In Poison",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Venomtip Poison</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Venomtip Poison by 30%.",
+    "iconPath": "interface/icons/_spellcasting_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504407,
+    "spellIds": [
+      504407
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30793
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 504837,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504407,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Venomtip Poison</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Venomtip Poison by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30499,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Unbreakable",
+    "description": "Allows <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> to stack <span class=\"item-number\">5</span> additional times and increase your Physical Damage taken by <span class=\"item-number\">-1</span><span class=\"item-number\">%</span> less.",
+    "descriptionText": "Allows Exposed Flesh to stack 5 additional times and increase your Physical Damage taken by -1% less.",
+    "iconPath": "interface/icons/inv_scarabmount_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705991,
+    "spellIds": [
+      705991
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6115,
+      7166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705991,
+        "description": "Allows <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> to stack <span class=\"item-number\">5</span> additional times and increase your Physical Damage taken by <span class=\"item-number\">-1</span><span class=\"item-number\">%</span> less.",
+        "descriptionText": "Allows Exposed Flesh to stack 5 additional times and increase your Physical Damage taken by -1% less."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30505,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Reformed",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Clearing <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks inside <span style=\"color: #ffffff; display: inline\">Beetle Form</span> now restores health based on stacks cleared.",
+    "descriptionText": "Level 30 Passive\nClearing Exposed Flesh stacks inside Beetle Form now restores health based on stacks cleared.",
+    "iconPath": "interface/icons/ability_monk_effuse",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805103,
+    "spellIds": [
+      805103
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9280
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805103,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Clearing <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks inside <span style=\"color: #ffffff; display: inline\">Beetle Form</span> now restores health based on stacks cleared.",
+        "descriptionText": "Level 30 Passive\nClearing Exposed Flesh stacks inside Beetle Form now restores health based on stacks cleared."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30078,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Potent Expulsion",
+    "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Expulsion</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by Expulsion by 20%.",
+    "iconPath": "interface/icons/inv_ability_wildstalkerdruid_thrivinggrowth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560266,
+    "spellIds": [
+      560266
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6089,
+      30087
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560266,
+        "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Expulsion</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by Expulsion by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30080,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Barbed Stinger",
+    "description": "Clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks and flings a <span style=\"color: #ffffff; display: inline\">Barbed Stinger</span> into an enemy for <span class=\"item-number\">10</span> seconds, plus an additional <span class=\"item-number\">1</span> sec per cleared stack.<br /><br />Recasting this ability on the same target will rip the stinger out, pulling them to you and dealing Nature Damage, scaling based on how long the stinger was left in them.",
+    "descriptionText": "Clears Exposed Flesh stacks and flings a Barbed Stinger into an enemy for 10 seconds, plus an additional 1 sec per cleared stack.\n\nRecasting this ability on the same target will rip the stinger out, pulling them to you and dealing Nature Damage, scaling based on how long the stinger was left in them.",
+    "iconPath": "interface/icons/inv_knife_1h_artifactfangs_d_02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803196,
+    "spellIds": [
+      803196
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6843,
+      12485,
+      30485
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803196,
+        "description": "Clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks and flings a <span style=\"color: #ffffff; display: inline\">Barbed Stinger</span> into an enemy for <span class=\"item-number\">10</span> seconds, plus an additional <span class=\"item-number\">1</span> sec per cleared stack.<br /><br />Recasting this ability on the same target will rip the stinger out, pulling them to you and dealing Nature Damage, scaling based on how long the stinger was left in them.",
+        "descriptionText": "Clears Exposed Flesh stacks and flings a Barbed Stinger into an enemy for 10 seconds, plus an additional 1 sec per cleared stack.\n\nRecasting this ability on the same target will rip the stinger out, pulling them to you and dealing Nature Damage, scaling based on how long the stinger was left in them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30081,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Beetle Poison",
+    "description": "Allows <span style=\"color: #FFFFFF; display: inline\">Wicked Poison</span> to stack an additional time.",
+    "descriptionText": "Allows Wicked Poison to stack an additional time.",
+    "iconPath": "interface/icons/inv_10_alchemy_bottle_shape1_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705876,
+    "spellIds": [
+      705876
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6110
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705876,
+        "description": "Allows <span style=\"color: #FFFFFF; display: inline\">Wicked Poison</span> to stack an additional time.",
+        "descriptionText": "Allows Wicked Poison to stack an additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30084,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Reconstructive Carapace",
+    "description": "Reduces the amount of Rage drained by <span style=\"color: #FFFFFF; display: inline\">Carapace Regeneration</span> by <span class=\"item-number\">-3</span>.",
+    "descriptionText": "Reduces the amount of Rage drained by Carapace Regeneration by -3.",
+    "iconPath": "interface/icons/inv_misc_scales_stonygreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705999,
+    "spellIds": [
+      705999
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6102,
+      7166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705999,
+        "description": "Reduces the amount of Rage drained by <span style=\"color: #FFFFFF; display: inline\">Carapace Regeneration</span> by <span class=\"item-number\">-3</span>.",
+        "descriptionText": "Reduces the amount of Rage drained by Carapace Regeneration by -3."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30087,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Slimy Stingers",
+    "description": "<span style=\"color: #ffffff; display: inline\">Carapace Crash</span> now creates a pool of <span style=\"color: #ffffff; display: inline\">Beetle Slime</span> under each enemy struck.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_06\" /><span class=\"name\">Beetle Slime</span></div><span class=\"desc\">Deals <span class=\"item-number\">49</span> Nature Damage to up to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">5</span> yds every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Carapace Crash now creates a pool of Beetle Slime under each enemy struck.\n\n---\n\nBeetle SlimeDeals 49 Nature Damage to up to 10 enemies within 5 yds every 2 sec for 8 seconds.",
+    "iconPath": "interface/icons/inv__hydrasbite",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706001,
+    "spellIds": [
+      706001
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6120
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 135541,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706001,
+        "description": "<span style=\"color: #ffffff; display: inline\">Carapace Crash</span> now creates a pool of <span style=\"color: #ffffff; display: inline\">Beetle Slime</span> under each enemy struck.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_06\" /><span class=\"name\">Beetle Slime</span></div><span class=\"desc\">Deals <span class=\"item-number\">49</span> Nature Damage to up to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">5</span> yds every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Carapace Crash now creates a pool of Beetle Slime under each enemy struck.\n\n---\n\nBeetle SlimeDeals 49 Nature Damage to up to 10 enemies within 5 yds every 2 sec for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33505,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Poisonous",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your attack power and allows periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Expulsion</span> to critically strike.",
+    "descriptionText": "Level 40 Passive\nIncreases your spell damage by 30% of your attack power and allows periodic damage dealt by Expulsion to critically strike.",
+    "iconPath": "interface/icons/inv_misc_claw_deepcrab_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707320,
+    "spellIds": [
+      707320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30505
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707320,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your attack power and allows periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Expulsion</span> to critically strike.",
+        "descriptionText": "Level 40 Passive\nIncreases your spell damage by 30% of your attack power and allows periodic damage dealt by Expulsion to critically strike."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29589,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Catalyst",
+    "description": "Generates <span class=\"item-number\">15</span> Rage plus <span class=\"item-number\">5</span> every <span class=\"item-number\">1</span> sec and reduces the cost of all of your spells and abilities by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Prevents out of combat Rage decay for its duration.",
+    "descriptionText": "Generates 15 Rage plus 5 every 1 sec and reduces the cost of all of your spells and abilities by -25% for 10 seconds.\n\nPrevents out of combat Rage decay for its duration.",
+    "iconPath": "interface/icons/ability_deathknight_deathsiphon2",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800895,
+    "spellIds": [
+      800895
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6120,
+      7170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 988839,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800895,
+        "description": "Generates <span class=\"item-number\">15</span> Rage plus <span class=\"item-number\">5</span> every <span class=\"item-number\">1</span> sec and reduces the cost of all of your spells and abilities by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Prevents out of combat Rage decay for its duration.",
+        "descriptionText": "Generates 15 Rage plus 5 every 1 sec and reduces the cost of all of your spells and abilities by -25% for 10 seconds.\n\nPrevents out of combat Rage decay for its duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31202,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Expulsion",
+    "description": "Clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks to poison nearby enemies for <span class=\"item-number\">5</span> seconds, and an additional <span class=\"item-number\">1</span> sec per cleared stack, dealing <span class=\"item-number\">15</span> + <span class=\"item-number\">10% nature SP</span> + <span class=\"item-number\">5% AP</span> Nature Damage every <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Clears Exposed Flesh stacks to poison nearby enemies for 5 seconds, and an additional 1 sec per cleared stack, dealing 15 + 10% nature SP + 5% AP Nature Damage every 1 sec.",
+    "iconPath": "interface/icons/achievment_boss_wellofeternity",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805094,
+    "spellIds": [
+      805094
+    ],
+    "requiredNodeIds": [
+      4054,
+      7229
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805094,
+        "description": "Clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks to poison nearby enemies for <span class=\"item-number\">5</span> seconds, and an additional <span class=\"item-number\">1</span> sec per cleared stack, dealing <span class=\"item-number\">15</span> + <span class=\"item-number\">10% nature SP</span> + <span class=\"item-number\">5% AP</span> Nature Damage every <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Clears Exposed Flesh stacks to poison nearby enemies for 5 seconds, and an additional 1 sec per cleared stack, dealing 15 + 10% nature SP + 5% AP Nature Damage every 1 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6843,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Natural Weapons",
+    "description": "Increases the critical strike chance of all <span style=\"color: #FFFFFF; display: inline\">Beetle Form</span> abilities by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of all Beetle Form abilities by 10%.",
+    "iconPath": "interface/icons/inv_misc_felsaber_claw",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504393,
+    "spellIds": [
+      504393
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7170,
+      30793
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504393,
+        "description": "Increases the critical strike chance of all <span style=\"color: #FFFFFF; display: inline\">Beetle Form</span> abilities by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of all Beetle Form abilities by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7160,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Pendo's Charm",
+    "description": "Increases the rage generated by your damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the rage generated by your damage dealt by 15%.",
+    "iconPath": "interface/icons/inv_misc_necklace_shell01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504400,
+    "spellIds": [
+      504400
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6120,
+      7170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 988839,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504400,
+        "description": "Increases the rage generated by your damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the rage generated by your damage dealt by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7166,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Cover",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Harden</span> now clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span>.",
+    "descriptionText": "Casting Harden now clears Exposed Flesh.",
+    "iconPath": "interface/icons/custom_chitin_b_01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300680,
+    "spellIds": [
+      300680
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6106,
+      7169,
+      19106,
+      30081
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300680,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Harden</span> now clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span>.",
+        "descriptionText": "Casting Harden now clears Exposed Flesh."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7169,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Impale",
+    "description": "Fire spikes through the floor impaling all enemies in a <span class=\"item-number\">15</span> yd line for <span class=\"item-number\">407</span> + <span class=\"item-number\">51.07% shadow SP</span> Shadow Damage and stunning them for <span class=\"item-number\">3.5</span> seconds.",
+    "descriptionText": "Fire spikes through the floor impaling all enemies in a 15 yd line for 407 + 51.07% shadow SP Shadow Damage and stunning them for 3.5 seconds.",
+    "iconPath": "interface/icons/impale",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560248,
+    "spellIds": [
+      560248
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6104,
+      7455
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560248,
+        "description": "Fire spikes through the floor impaling all enemies in a <span class=\"item-number\">15</span> yd line for <span class=\"item-number\">407</span> + <span class=\"item-number\">51.07% shadow SP</span> Shadow Damage and stunning them for <span class=\"item-number\">3.5</span> seconds.",
+        "descriptionText": "Fire spikes through the floor impaling all enemies in a 15 yd line for 407 + 51.07% shadow SP Shadow Damage and stunning them for 3.5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7170,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Regrow Exoskeleton",
+    "description": "Clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks to reduce your damage taken by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds and an additional <span class=\"item-number\">1</span> sec per stack.",
+    "descriptionText": "Clears Exposed Flesh stacks to reduce your damage taken by -20% for 5 seconds and an additional 1 sec per stack.",
+    "iconPath": "interface/icons/inv_stave_2h_pvppandarias2_c_03green",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803197,
+    "spellIds": [
+      803197
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6101,
+      6107,
+      6122
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803197,
+        "description": "Clears <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> stacks to reduce your damage taken by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds and an additional <span class=\"item-number\">1</span> sec per stack.",
+        "descriptionText": "Clears Exposed Flesh stacks to reduce your damage taken by -20% for 5 seconds and an additional 1 sec per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7177,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Regenerative Properties",
+    "description": "Reduces all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, but damage taken now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to shatter your exoskeleton, removing this damage reduction effect.<br /><br />When your exoskeleton shatters you regenerate <span class=\"item-number\">12</span><span class=\"item-number\">%</span> of your maximum health over <span class=\"item-number\">12</span> seconds, after this duration your exoskeleton regenerates.",
+    "descriptionText": "Reduces all damage taken by -5%, but damage taken now has a 10% chance to shatter your exoskeleton, removing this damage reduction effect.\n\nWhen your exoskeleton shatters you regenerate 12% of your maximum health over 12 seconds, after this duration your exoskeleton regenerates.",
+    "iconPath": "interface/icons/inv_skinning_80_snakescales",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803210,
+    "spellIds": [
+      803210
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30084
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803210,
+        "description": "Reduces all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, but damage taken now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to shatter your exoskeleton, removing this damage reduction effect.<br /><br />When your exoskeleton shatters you regenerate <span class=\"item-number\">12</span><span class=\"item-number\">%</span> of your maximum health over <span class=\"item-number\">12</span> seconds, after this duration your exoskeleton regenerates.",
+        "descriptionText": "Reduces all damage taken by -5%, but damage taken now has a 10% chance to shatter your exoskeleton, removing this damage reduction effect.\n\nWhen your exoskeleton shatters you regenerate 12% of your maximum health over 12 seconds, after this duration your exoskeleton regenerates."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4054,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Exposed Flesh",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Hostile attacks against you now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_rogue_findweakness\" /><span class=\"name\">Exposed Flesh</span></div><span class=\"desc\">Generates <span class=\"item-number\">10</span> Rage and increases your Physical Damage taken <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">10</span> times.</span></div>",
+    "descriptionText": "Level 10 Passive\nHostile attacks against you now have a 50% chance to grant a stack of Exposed Flesh.\n\n---\n\nExposed FleshGenerates 10 Rage and increases your Physical Damage taken 3% for 20 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/inv_nerubianbeetlepet_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92144,
+    "spellIds": [
+      92144
+    ],
+    "requiredNodeIds": [
+      7229
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92144,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Hostile attacks against you now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to grant a stack of <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_rogue_findweakness\" /><span class=\"name\">Exposed Flesh</span></div><span class=\"desc\">Generates <span class=\"item-number\">10</span> Rage and increases your Physical Damage taken <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">10</span> times.</span></div>",
+        "descriptionText": "Level 10 Passive\nHostile attacks against you now have a 50% chance to grant a stack of Exposed Flesh.\n\n---\n\nExposed FleshGenerates 10 Rage and increases your Physical Damage taken 3% for 20 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6089,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Slimy",
+    "description": "Direct damage taken now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to create a pool of <span style=\"color: #ffffff; display: inline\">Beetle Slime</span> under the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_06\" /><span class=\"name\">Beetle Slime</span></div><span class=\"desc\">Deals <span class=\"item-number\">49</span> Nature Damage to up to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">5</span> yds every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">8</span> seconds.</span></div><br /><br />Can only occur once every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Direct damage taken now has a 20% chance to create a pool of Beetle Slime under the enemy.\n\n---\n\nBeetle SlimeDeals 49 Nature Damage to up to 10 enemies within 5 yds every 2 sec for 8 seconds.\n\nCan only occur once every 3 sec.",
+    "iconPath": "interface/icons/inv_ascend_slime_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705998,
+    "spellIds": [
+      705998
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6120
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 135541,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705998,
+        "description": "Direct damage taken now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to create a pool of <span style=\"color: #ffffff; display: inline\">Beetle Slime</span> under the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_06\" /><span class=\"name\">Beetle Slime</span></div><span class=\"desc\">Deals <span class=\"item-number\">49</span> Nature Damage to up to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">5</span> yds every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">8</span> seconds.</span></div><br /><br />Can only occur once every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Direct damage taken now has a 20% chance to create a pool of Beetle Slime under the enemy.\n\n---\n\nBeetle SlimeDeals 49 Nature Damage to up to 10 enemies within 5 yds every 2 sec for 8 seconds.\n\nCan only occur once every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6099,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Charmed Plating",
+    "description": "Reduces damage taken by all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, reduces your chance to be hit by spells by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces damage taken by all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, reduces your chance to be hit by spells by -2%.",
+    "iconPath": "interface/icons/inv_misc_monsterscales_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300974,
+    "spellIds": [
+      300974
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6104,
+      7160,
+      7455,
+      29589
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300974,
+        "description": "Reduces damage taken by all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, reduces your chance to be hit by spells by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces damage taken by all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, reduces your chance to be hit by spells by -2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6101,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Reinforced Exoskeleton",
+    "description": "Increases your maximum health and your dodge chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum health and your dodge chance by 3%.",
+    "iconPath": "interface/icons/inv_cloth_outdooremeralddream_d_01_cape",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706002,
+    "spellIds": [
+      706002,
+      707873
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12325
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706002,
+        "description": "Increases your maximum health and your dodge chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health and your dodge chance by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707873,
+        "description": "Increases your maximum health and your dodge chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health and your dodge chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6102,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Shadra's Gift",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Barbed Stinger</span> now increases the target's Nature Damage taken by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Dealing damage with Barbed Stinger now increases the target's Nature Damage taken by 5% for 12 seconds.",
+    "iconPath": "interface/icons/_liquidstone_poison",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503812,
+    "spellIds": [
+      503812
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6103,
+      6108
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503812,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Barbed Stinger</span> now increases the target's Nature Damage taken by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Dealing damage with Barbed Stinger now increases the target's Nature Damage taken by 5% for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6103,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Wicked Barbs",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Barbed Stinger</span> and <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> now applies <span style=\"color: #ffffff; display: inline\">Wicked Poison</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_05\" /><span class=\"name\">Wicked Poison</span></div><span class=\"desc\">Deals <span class=\"item-number\">60</span> + <span class=\"item-number\">5.67% shadow SP</span> + <span class=\"item-number\">3.2% AP</span> Shadow Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Your Barbed Stinger and Chitin Rush now applies Wicked Poison.\n\n---\n\nWicked PoisonDeals 60 + 5.67% shadow SP + 3.2% AP Shadow Damage every 2 sec for 6 seconds.",
+    "iconPath": "interface/icons/ability_poisons",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504402,
+    "spellIds": [
+      504402
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6110,
+      30080
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504402,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Barbed Stinger</span> and <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> now applies <span style=\"color: #ffffff; display: inline\">Wicked Poison</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_05\" /><span class=\"name\">Wicked Poison</span></div><span class=\"desc\">Deals <span class=\"item-number\">60</span> + <span class=\"item-number\">5.67% shadow SP</span> + <span class=\"item-number\">3.2% AP</span> Shadow Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Your Barbed Stinger and Chitin Rush now applies Wicked Poison.\n\n---\n\nWicked PoisonDeals 60 + 5.67% shadow SP + 3.2% AP Shadow Damage every 2 sec for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6104,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Empowered Exoskeleton",
+    "description": "Removes the Rage cost of <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> and increases its range by <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Removes the Rage cost of Chitin Rush and increases its range by 5 yds.",
+    "iconPath": "interface/icons/inv_antorus_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804993,
+    "spellIds": [
+      804993
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804993,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804993,
+        "description": "Removes the Rage cost of <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> and increases its range by <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Removes the Rage cost of Chitin Rush and increases its range by 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6106,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Alacrity",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> now increases your dodge chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">8</span> times.",
+    "descriptionText": "Damage dealt by Chitin Rush now increases your dodge chance by 1% for 5 seconds, stacking 8 times.",
+    "iconPath": "interface/icons/ability_deathwing_grasping_tendrilsgreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705980,
+    "spellIds": [
+      705980
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6099
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705999,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705980,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> now increases your dodge chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">8</span> times.",
+        "descriptionText": "Damage dealt by Chitin Rush now increases your dodge chance by 1% for 5 seconds, stacking 8 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6107,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Vile Fury",
+    "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Hivebreak</span> and <span style=\"color: #FFFFFF; display: inline\">Carapace Crash</span> by <span class=\"item-number\">-3</span> and increases your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Rage cost of Hivebreak and Carapace Crash by -3 and increases your chance to hit by 2%.",
+    "iconPath": "interface/icons/spell_nature_removedisease",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706006,
+    "spellIds": [
+      706006,
+      707874
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12325
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706006,
+        "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Hivebreak</span> and <span style=\"color: #FFFFFF; display: inline\">Carapace Crash</span> by <span class=\"item-number\">-3</span> and increases your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Rage cost of Hivebreak and Carapace Crash by -3 and increases your chance to hit by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707874,
+        "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Hivebreak</span> and <span style=\"color: #FFFFFF; display: inline\">Carapace Crash</span> by <span class=\"item-number\">-6</span> and increases your chance to hit by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Rage cost of Hivebreak and Carapace Crash by -6 and increases your chance to hit by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6108,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Toxic Expulsion",
+    "description": "<span style=\"color: #ffffff; display: inline\">Hivebreak</span> now consumes <span class=\"item-number\">-2</span> sec of <span style=\"color: #ffffff; display: inline\">Venomtip Poison's</span> duration to gush toxic slime, dealing <span class=\"item-number\">103</span> Nature Damage to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Hivebreak now consumes -2 sec of Venomtip Poison's duration to gush toxic slime, dealing 103 Nature Damage to 5 enemies within 5 yds.",
+    "iconPath": "interface/icons/rogue_venomzest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705959,
+    "spellIds": [
+      705959
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12485,
+      30485
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705959,
+        "description": "<span style=\"color: #ffffff; display: inline\">Hivebreak</span> now consumes <span class=\"item-number\">-2</span> sec of <span style=\"color: #ffffff; display: inline\">Venomtip Poison's</span> duration to gush toxic slime, dealing <span class=\"item-number\">103</span> Nature Damage to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Hivebreak now consumes -2 sec of Venomtip Poison's duration to gush toxic slime, dealing 103 Nature Damage to 5 enemies within 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6110,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Wicked Poison",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Chitin Rush</span>, <span style=\"color: #FFFFFF; display: inline\">Carapace Crash</span>, and <span style=\"color: #FFFFFF; display: inline\">Hivebreak</span> now apply <span style=\"color: #ffffff; display: inline\">Wicked Poison</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_05\" /><span class=\"name\">Wicked Poison</span></div><span class=\"desc\">Deals <span class=\"item-number\">60</span> + <span class=\"item-number\">5.67% shadow SP</span> + <span class=\"item-number\">3.2% AP</span> Shadow Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Critical strikes with Chitin Rush, Carapace Crash, and Hivebreak now apply Wicked Poison.\n\n---\n\nWicked PoisonDeals 60 + 5.67% shadow SP + 3.2% AP Shadow Damage every 2 sec for 6 seconds.",
+    "iconPath": "interface/icons/ability_creature_poison_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705982,
+    "spellIds": [
+      705982
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6104,
+      6843,
+      7455
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705982,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Chitin Rush</span>, <span style=\"color: #FFFFFF; display: inline\">Carapace Crash</span>, and <span style=\"color: #FFFFFF; display: inline\">Hivebreak</span> now apply <span style=\"color: #ffffff; display: inline\">Wicked Poison</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_creature_poison_05\" /><span class=\"name\">Wicked Poison</span></div><span class=\"desc\">Deals <span class=\"item-number\">60</span> + <span class=\"item-number\">5.67% shadow SP</span> + <span class=\"item-number\">3.2% AP</span> Shadow Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Critical strikes with Chitin Rush, Carapace Crash, and Hivebreak now apply Wicked Poison.\n\n---\n\nWicked PoisonDeals 60 + 5.67% shadow SP + 3.2% AP Shadow Damage every 2 sec for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6112,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Molt",
+    "description": "Shatters your exoskeleton, instantly applying <span class=\"item-number\">15</span> stacks of <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> and increasing your movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Shatters your exoskeleton, instantly applying 15 stacks of Exposed Flesh and increasing your movement speed by 30% for 8 seconds.",
+    "iconPath": "interface/icons/inv_skinning_80_hardenedtempesthide",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805102,
+    "spellIds": [
+      805102
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30499
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805102,
+        "description": "Shatters your exoskeleton, instantly applying <span class=\"item-number\">15</span> stacks of <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> and increasing your movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Shatters your exoskeleton, instantly applying 15 stacks of Exposed Flesh and increasing your movement speed by 30% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6113,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Spider Lord",
+    "description": "Augments <span style=\"color: #ffffff; display: inline\">Beetle Form</span> into a <span style=\"color: #ffffff; display: inline\">Spider Lord</span>, reducing damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, and while <span style=\"color: #ffffff; display: inline\">Locust Swarm</span> is active your summons now gain <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased haste and damage.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Hivebreak</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance, and melee auto attacks now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance, to summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Scarab</span> to aid you in combat for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Augments Beetle Form into a Spider Lord, reducing damage taken by -5%, and while Locust Swarm is active your summons now gain 30% increased haste and damage.\n\nCasting Hivebreak now has a 40% chance, and melee auto attacks now have a 5% chance, to summon 1 Scarab to aid you in combat for 12 seconds.",
+    "iconPath": "interface/icons/cryptlord",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704264,
+    "spellIds": [
+      704264
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6119
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704264,
+        "description": "Augments <span style=\"color: #ffffff; display: inline\">Beetle Form</span> into a <span style=\"color: #ffffff; display: inline\">Spider Lord</span>, reducing damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, and while <span style=\"color: #ffffff; display: inline\">Locust Swarm</span> is active your summons now gain <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased haste and damage.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Hivebreak</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance, and melee auto attacks now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance, to summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Scarab</span> to aid you in combat for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Augments Beetle Form into a Spider Lord, reducing damage taken by -5%, and while Locust Swarm is active your summons now gain 30% increased haste and damage.\n\nCasting Hivebreak now has a 40% chance, and melee auto attacks now have a 5% chance, to summon 1 Scarab to aid you in combat for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6115,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Venomics",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Venoms</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Venoms by 30%.",
+    "iconPath": "interface/icons/ability_monk_renewingmists",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705975,
+    "spellIds": [
+      705975
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6125,
+      30078
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705975,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Venoms</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Venoms by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6119,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Locust Swarm",
+    "description": "Leeches <span class=\"item-number\">87</span> + <span class=\"item-number\">10% SP</span> + <span class=\"item-number\">3% AP</span> health from nearby enemies every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Leeches 87 + 10% SP + 3% AP health from nearby enemies every 2 sec for 10 seconds.",
+    "iconPath": "interface/icons/_d3locustswarm",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560247,
+    "spellIds": [
+      560247
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560247,
+        "description": "Leeches <span class=\"item-number\">87</span> + <span class=\"item-number\">10% SP</span> + <span class=\"item-number\">3% AP</span> health from nearby enemies every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Leeches 87 + 10% SP + 3% AP health from nearby enemies every 2 sec for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6120,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Agitation",
+    "description": "Dodging an attack now generates <span class=\"item-number\">3</span> Rage.",
+    "descriptionText": "Dodging an attack now generates 3 Rage.",
+    "iconPath": "interface/icons/inv_beetlemount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705969,
+    "spellIds": [
+      705969
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6101
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705969,
+        "description": "Dodging an attack now generates <span class=\"item-number\">3</span> Rage.",
+        "descriptionText": "Dodging an attack now generates 3 Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6122,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Enchanted Chitin",
+    "description": "Increases your Armor contribution from mail by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor contribution from mail by 25%.",
+    "iconPath": "interface/icons/inv_inscription_pigment_bug06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706955,
+    "spellIds": [
+      706955,
+      707872
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12325
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706955,
+        "description": "Increases your Armor contribution from mail by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from mail by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707872,
+        "description": "Increases your Armor contribution from mail by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from mail by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6125,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Charm of Warding",
+    "description": "When a stack of <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> is applied you are now healed for <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum health.",
+    "descriptionText": "When a stack of Exposed Flesh is applied you are now healed for 1% of your maximum health.",
+    "iconPath": "interface/icons/inv_trinket_naxxramas01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705967,
+    "spellIds": [
+      705967
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6099,
+      7452
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705967,
+        "description": "When a stack of <span style=\"color: #66ff66; display: inline\">Exposed Flesh</span> is applied you are now healed for <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum health.",
+        "descriptionText": "When a stack of Exposed Flesh is applied you are now healed for 1% of your maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9280,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Magic Shell",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases all primary attributes by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> while in <span style=\"color: #ffffff; display: inline\">Beetle Form</span>.<br /><br />In addition, increases your hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of all primary attributes.",
+    "descriptionText": "Level 20 Passive\nIncreases all primary attributes by 15% while in Beetle Form.\n\nIn addition, increases your hit rating by 3% of all primary attributes.",
+    "iconPath": "interface/icons/inv_shield_pandariaquest_b_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705970,
+    "spellIds": [
+      705970
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4054
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705970,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases all primary attributes by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> while in <span style=\"color: #ffffff; display: inline\">Beetle Form</span>.<br /><br />In addition, increases your hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of all primary attributes.",
+        "descriptionText": "Level 20 Passive\nIncreases all primary attributes by 15% while in Beetle Form.\n\nIn addition, increases your hit rating by 3% of all primary attributes."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7452,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Deadly Sting",
+    "description": "Dealing periodic damage now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #ffffff; display: inline\">Hivebreak</span> within <span class=\"item-number\">8</span> seconds free of cost and deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Dealing periodic damage now has a 10% chance to make your next Hivebreak within 8 seconds free of cost and deal 50% increased damage.",
+    "iconPath": "interface/icons/hunter_pvp_vipersting",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560264,
+    "spellIds": [
+      560264
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6089,
+      7160,
+      29589,
+      30087
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560264,
+        "description": "Dealing periodic damage now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #ffffff; display: inline\">Hivebreak</span> within <span class=\"item-number\">8</span> seconds free of cost and deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Dealing periodic damage now has a 10% chance to make your next Hivebreak within 8 seconds free of cost and deal 50% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7455,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Chitinous Surge",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> by <span class=\"item-number\">-3</span> sec and increases its damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Chitin Rush by -3 sec and increases its damage by 15%.",
+    "iconPath": "interface/icons/ability_druid_dash",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705973,
+    "spellIds": [
+      705973
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804993,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705973,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> by <span class=\"item-number\">-3</span> sec and increases its damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Chitin Rush by -3 sec and increases its damage by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12325,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Carapace Regeneration",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">20</span> sec recharge</span><br />Regenerate your carapace, reducing your Physical Damage taken by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> and restoring <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum health every <span class=\"item-number\">1</span> sec, draining <span class=\"item-number\">10</span> Rage every tick to remain active, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "3 Charges, 20 sec recharge\nRegenerate your carapace, reducing your Physical Damage taken by -4% and restoring 1% maximum health every 1 sec, draining 10 Rage every tick to remain active, stacking 3 times.",
+    "iconPath": "interface/icons/ability_vehicle_shellshieldgenerator_green",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805931,
+    "spellIds": [
+      805931
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31202
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805931,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">20</span> sec recharge</span><br />Regenerate your carapace, reducing your Physical Damage taken by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> and restoring <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum health every <span class=\"item-number\">1</span> sec, draining <span class=\"item-number\">10</span> Rage every tick to remain active, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "3 Charges, 20 sec recharge\nRegenerate your carapace, reducing your Physical Damage taken by -4% and restoring 1% maximum health every 1 sec, draining 10 Rage every tick to remain active, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12485,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Poison for Everyone!",
+    "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Venomtip Poison</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Rage cost of Venomtip Poison by -10.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_poison_icon_0004s_0000_arrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504837,
+    "spellIds": [
+      504837
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30793
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 504837,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504837,
+        "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Venomtip Poison</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Rage cost of Venomtip Poison by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13505,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Protogenesis",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Critical strikes dealt with direct damage now apply <span style=\"color: #ffffff; display: inline\">Protogenesis</span> to you, stacking <span class=\"item-number\">10</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_natureheal_border\" /><span class=\"name\">Protogenesis</span></div><span class=\"desc\">Heals for <span class=\"item-number\">65</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">10</span> seconds.</span></div><br /><br />At <span class=\"item-number\">10</span> stacks, all stacks are consumed and the cooldown of <span style=\"color: #ffffff; display: inline\">Expulsion</span> is reduced by <span class=\"item-number\">-3</span> sec.",
+    "descriptionText": "Level 50 Passive\nCritical strikes dealt with direct damage now apply Protogenesis to you, stacking 10 times.\n\n---\n\nProtogenesisHeals for 65 every 3 sec for 10 seconds.\n\nAt 10 stacks, all stacks are consumed and the cooldown of Expulsion is reduced by -3 sec.",
+    "iconPath": "interface/icons/nhi_natureheal_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707620,
+    "spellIds": [
+      707620
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33505
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707620,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Critical strikes dealt with direct damage now apply <span style=\"color: #ffffff; display: inline\">Protogenesis</span> to you, stacking <span class=\"item-number\">10</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_natureheal_border\" /><span class=\"name\">Protogenesis</span></div><span class=\"desc\">Heals for <span class=\"item-number\">65</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">10</span> seconds.</span></div><br /><br />At <span class=\"item-number\">10</span> stacks, all stacks are consumed and the cooldown of <span style=\"color: #ffffff; display: inline\">Expulsion</span> is reduced by <span class=\"item-number\">-3</span> sec.",
+        "descriptionText": "Level 50 Passive\nCritical strikes dealt with direct damage now apply Protogenesis to you, stacking 10 times.\n\n---\n\nProtogenesisHeals for 65 every 3 sec for 10 seconds.\n\nAt 10 stacks, all stacks are consumed and the cooldown of Expulsion is reduced by -3 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19106,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 78,
+    "tabKey": "29:78",
+    "tabName": "Fortitude",
+    "name": "Cunning",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and its critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Chitin Rush by 20% and its critical damage by 10%.",
+    "iconPath": "interface/icons/skill_icon_skill151_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805093,
+    "spellIds": [
+      805093
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6099
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705999,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805093,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Chitin Rush</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and its critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Chitin Rush by 20% and its critical damage by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

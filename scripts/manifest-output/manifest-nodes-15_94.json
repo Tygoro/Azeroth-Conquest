@@ -1,0 +1,1712 @@
+[
+  {
+    "nodeId": 7553,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Grasp of the Undying",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Auto attacks while wielding a two-handed weapon now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #ffffff; display: inline\">Grasp of the Undying</span>, leeching <span class=\"item-number\">22</span> + <span class=\"item-number\">15% SP</span> + <span class=\"item-number\">10% AP</span> health from the target.",
+    "descriptionText": "Level 10 Passive\nAuto attacks while wielding a two-handed weapon now have a 25% chance to unleash Grasp of the Undying, leeching 22 + 15% SP + 10% AP health from the target.",
+    "iconPath": "interface/icons/novart_physical_ability_(49)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707064,
+    "spellIds": [
+      707064
+    ],
+    "requiredNodeIds": [
+      6622
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707064,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Auto attacks while wielding a two-handed weapon now have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #ffffff; display: inline\">Grasp of the Undying</span>, leeching <span class=\"item-number\">22</span> + <span class=\"item-number\">15% SP</span> + <span class=\"item-number\">10% AP</span> health from the target.",
+        "descriptionText": "Level 10 Passive\nAuto attacks while wielding a two-handed weapon now have a 25% chance to unleash Grasp of the Undying, leeching 22 + 15% SP + 10% AP health from the target."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7569,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Noctis Blade",
+    "description": "Strike an enemy, dealing <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">35</span>, scaling with your parry rating, and healing you for <span class=\"item-number\">173</span><span class=\"item-number\">%</span> of the damage dealt. <br /><br />",
+    "descriptionText": "Strike an enemy, dealing 100% Weapon Damage plus 35, scaling with your parry rating, and healing you for 173% of the damage dealt.",
+    "iconPath": "interface/icons/nhi_brokensword_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802280,
+    "spellIds": [
+      802280
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802280,
+        "description": "Strike an enemy, dealing <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">35</span>, scaling with your parry rating, and healing you for <span class=\"item-number\">173</span><span class=\"item-number\">%</span> of the damage dealt. <br /><br />",
+        "descriptionText": "Strike an enemy, dealing 100% Weapon Damage plus 35, scaling with your parry rating, and healing you for 173% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7571,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dark Riposte",
+    "description": "Parrying enemy attacks now restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your missing health and Rage.",
+    "descriptionText": "Parrying enemy attacks now restores 5% of your missing health and Rage.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_110",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503659,
+    "spellIds": [
+      503659
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31213
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503659,
+        "description": "Parrying enemy attacks now restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your missing health and Rage.",
+        "descriptionText": "Parrying enemy attacks now restores 5% of your missing health and Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7574,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Shadow Brand",
+    "description": "Direct ability damage now applies <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> to enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadow_border\" /><span class=\"name\">Shadow Brand</span></div><span class=\"desc\">Marks the target for <span class=\"item-number\">12</span> seconds, dealing <span class=\"item-number\">36</span> High Threat Shadow Damage over <span class=\"item-number\">12</span> seconds.</span></div>",
+    "descriptionText": "Direct ability damage now applies Shadow Brand to enemies.\n\n---\n\nShadow BrandMarks the target for 12 seconds, dealing 36 High Threat Shadow Damage over 12 seconds.",
+    "iconPath": "interface/icons/5_shadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680516,
+    "spellIds": [
+      680516
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7569
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680516,
+        "description": "Direct ability damage now applies <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> to enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadow_border\" /><span class=\"name\">Shadow Brand</span></div><span class=\"desc\">Marks the target for <span class=\"item-number\">12</span> seconds, dealing <span class=\"item-number\">36</span> High Threat Shadow Damage over <span class=\"item-number\">12</span> seconds.</span></div>",
+        "descriptionText": "Direct ability damage now applies Shadow Brand to enemies.\n\n---\n\nShadow BrandMarks the target for 12 seconds, dealing 36 High Threat Shadow Damage over 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7575,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "March of the Black King",
+    "description": "Expel darkness from within you, dealing <span class=\"item-number\">55</span> Shadow Damage to nearby enemies over <span class=\"item-number\">10</span> seconds.<br /><br />Generates <span class=\"item-number\">5</span> Rage every <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Expel darkness from within you, dealing 55 Shadow Damage to nearby enemies over 10 seconds.\n\nGenerates 5 Rage every 2 sec.",
+    "iconPath": "interface/icons/5_shadowclones_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681095,
+    "spellIds": [
+      681095
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7595
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681095,
+        "description": "Expel darkness from within you, dealing <span class=\"item-number\">55</span> Shadow Damage to nearby enemies over <span class=\"item-number\">10</span> seconds.<br /><br />Generates <span class=\"item-number\">5</span> Rage every <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Expel darkness from within you, dealing 55 Shadow Damage to nearby enemies over 10 seconds.\n\nGenerates 5 Rage every 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7577,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Witchblight",
+    "description": "Explode with dark energy, dealing <span class=\"item-number\">56</span> + <span class=\"item-number\">50% shadow SP</span> + <span class=\"item-number\">20% AP</span> Shadow Damage to up to to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">8</span> yds and healing you for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum health.<br /><br />Each target struck is guaranteed to miss their next instance of damage within <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Explode with dark energy, dealing 56 + 50% shadow SP + 20% AP Shadow Damage to up to to 10 enemies within 8 yds and healing you for 20% of your maximum health.\n\nEach target struck is guaranteed to miss their next instance of damage within 6 seconds.",
+    "iconPath": "interface/icons/nhi_shadowbeam_(2)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680494,
+    "spellIds": [
+      680494
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7061,
+      7594
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680494,
+        "description": "Explode with dark energy, dealing <span class=\"item-number\">56</span> + <span class=\"item-number\">50% shadow SP</span> + <span class=\"item-number\">20% AP</span> Shadow Damage to up to to <span class=\"item-number\">10</span> enemies within <span class=\"item-number\">8</span> yds and healing you for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum health.<br /><br />Each target struck is guaranteed to miss their next instance of damage within <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Explode with dark energy, dealing 56 + 50% shadow SP + 20% AP Shadow Damage to up to to 10 enemies within 8 yds and healing you for 20% of your maximum health.\n\nEach target struck is guaranteed to miss their next instance of damage within 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7579,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Guard Strike",
+    "description": "Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds.",
+    "iconPath": "interface/icons/inv_qiraj_hiltornate",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804432,
+    "spellIds": [
+      804432
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31213
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804432,
+        "description": "Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Bash an enemy with your weapon's hilt, interrupting them and preventing any spell from that school of magic from being cast for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7580,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Shadowy Tendrils",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Grasp of the Undying</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+    "descriptionText": "Your Grasp of the Undying now strikes 2 additional nearby enemies.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_88",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707407,
+    "spellIds": [
+      707407
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4550
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707407,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Grasp of the Undying</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+        "descriptionText": "Your Grasp of the Undying now strikes 2 additional nearby enemies."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7582,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Witch Knight",
+    "description": "Direct ability damage with a two-handed weapon now reduces the remaining cooldown of your <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">-1</span> sec and grants <span style=\"color: #ffffff; display: inline\">Witching</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_sword_161\" /><span class=\"name\">Witching</span></div><span class=\"desc\">Increases magic resistances by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, and melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.</span></div>",
+    "descriptionText": "Direct ability damage with a two-handed weapon now reduces the remaining cooldown of your Tonics by -1 sec and grants Witching.\n\n---\n\nWitchingIncreases magic resistances by 10%, and melee haste by 10% for 8 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/inv_sword_161",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805346,
+    "spellIds": [
+      805346
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7633,
+      30853
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805346,
+        "description": "Direct ability damage with a two-handed weapon now reduces the remaining cooldown of your <span style=\"color: #ffffff; display: inline\">Tonics</span> by <span class=\"item-number\">-1</span> sec and grants <span style=\"color: #ffffff; display: inline\">Witching</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_sword_161\" /><span class=\"name\">Witching</span></div><span class=\"desc\">Increases magic resistances by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, and melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.</span></div>",
+        "descriptionText": "Direct ability damage with a two-handed weapon now reduces the remaining cooldown of your Tonics by -1 sec and grants Witching.\n\n---\n\nWitchingIncreases magic resistances by 10%, and melee haste by 10% for 8 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7583,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Bulwark of Darkness",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> is now increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> on the target.",
+    "descriptionText": "Damage dealt by Dawn Blade is now increased by 5% for each stack of Pommel Smash on the target.",
+    "iconPath": "interface/icons/spell_shadow_sealofkings",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680496,
+    "spellIds": [
+      680496
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7571,
+      7579
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680496,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> is now increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> on the target.",
+        "descriptionText": "Damage dealt by Dawn Blade is now increased by 5% for each stack of Pommel Smash on the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7584,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Chains of Darkness",
+    "description": "Pull enemies within <span class=\"item-number\">20</span> yds, dealing <span class=\"item-number\">94</span> + <span class=\"item-number\">55% shadow SP</span> + <span class=\"item-number\">15% AP</span> Shadow Damage and taunting them for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Pull enemies within 20 yds, dealing 94 + 55% shadow SP + 15% AP Shadow Damage and taunting them for 3 seconds.",
+    "iconPath": "interface/icons/nhi_shadowchains_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680521,
+    "spellIds": [
+      680521
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7590,
+      11375,
+      30661
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680521,
+        "description": "Pull enemies within <span class=\"item-number\">20</span> yds, dealing <span class=\"item-number\">94</span> + <span class=\"item-number\">55% shadow SP</span> + <span class=\"item-number\">15% AP</span> Shadow Damage and taunting them for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Pull enemies within 20 yds, dealing 94 + 55% shadow SP + 15% AP Shadow Damage and taunting them for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7585,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Destroyer of Evil",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now deals an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt as Twilight Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadow_border\" /><span class=\"name\">Shadow Brand</span></div><span class=\"desc\">Marks the target for <span class=\"item-number\">12</span> seconds, dealing <span class=\"item-number\">36</span> High Threat Shadow Damage over <span class=\"item-number\">12</span> seconds.</span></div>",
+    "descriptionText": "Damage dealt by Dawn Blade now deals an additional 20% of the damage dealt as Twilight Damage every 1 sec for 3 seconds.\n\n---\n\nShadow BrandMarks the target for 12 seconds, dealing 36 High Threat Shadow Damage over 12 seconds.",
+    "iconPath": "interface/icons/uico_shadow_spell_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680528,
+    "spellIds": [
+      680528
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7587
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680528,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now deals an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt as Twilight Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadow_border\" /><span class=\"name\">Shadow Brand</span></div><span class=\"desc\">Marks the target for <span class=\"item-number\">12</span> seconds, dealing <span class=\"item-number\">36</span> High Threat Shadow Damage over <span class=\"item-number\">12</span> seconds.</span></div>",
+        "descriptionText": "Damage dealt by Dawn Blade now deals an additional 20% of the damage dealt as Twilight Damage every 1 sec for 3 seconds.\n\n---\n\nShadow BrandMarks the target for 12 seconds, dealing 36 High Threat Shadow Damage over 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7586,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Desecrate",
+    "description": "Desecrate up to <span class=\"item-number\">8</span> enemies in front of you, dealing Weapon Damage plus <span class=\"item-number\">18</span> as Shadow Damage, piercing resistances.<br /><br />Only usable after avoiding an attack.",
+    "descriptionText": "Desecrate up to 8 enemies in front of you, dealing Weapon Damage plus 18 as Shadow Damage, piercing resistances.\n\nOnly usable after avoiding an attack.",
+    "iconPath": "interface/icons/custom_sword_b_05_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680518,
+    "spellIds": [
+      680518
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6613
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680518,
+        "description": "Desecrate up to <span class=\"item-number\">8</span> enemies in front of you, dealing Weapon Damage plus <span class=\"item-number\">18</span> as Shadow Damage, piercing resistances.<br /><br />Only usable after avoiding an attack.",
+        "descriptionText": "Desecrate up to 8 enemies in front of you, dealing Weapon Damage plus 18 as Shadow Damage, piercing resistances.\n\nOnly usable after avoiding an attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7587,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Clinch Fighting",
+    "description": "Attacks which would otherwise kill you now heal you for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> maximum health and increases the damage of <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Can only occur once every <span class=\"item-number\">2</span> min.",
+    "descriptionText": "Attacks which would otherwise kill you now heal you for 50% maximum health and increases the damage of Noctis Blade by 50% for 6 seconds.\n\nCan only occur once every 2 min.",
+    "iconPath": "interface/icons/inv_sword_2h_blood_c_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680492,
+    "spellIds": [
+      680492
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7064,
+      30661
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680492,
+        "description": "Attacks which would otherwise kill you now heal you for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> maximum health and increases the damage of <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Can only occur once every <span class=\"item-number\">2</span> min.",
+        "descriptionText": "Attacks which would otherwise kill you now heal you for 50% maximum health and increases the damage of Noctis Blade by 50% for 6 seconds.\n\nCan only occur once every 2 min."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7589,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Undying",
+    "description": "While below <span class=\"item-number\">75%</span> maximum health, <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "While below 75% maximum health, Dawn Blade now increases the critical strike chance of Noctis Blade by 40% for 10 seconds.",
+    "iconPath": "interface/icons/spell_shadow_ritualofsacrifice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680504,
+    "spellIds": [
+      680504
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7590,
+      11375
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680504,
+        "description": "While below <span class=\"item-number\">75%</span> maximum health, <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "While below 75% maximum health, Dawn Blade now increases the critical strike chance of Noctis Blade by 40% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7590,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Calm Under Pressure",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Stoicism</span> by <span class=\"item-number\">-30</span> sec and <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Stoicism by -30 sec and Burrow Bolt by -5 sec.",
+    "iconPath": "interface/icons/warrior_talent_icon_deadlycalm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705519,
+    "spellIds": [
+      705519
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9751,
+      29904
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705520,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705519,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Stoicism</span> by <span class=\"item-number\">-30</span> sec and <span style=\"color: #ffffff; display: inline\">Burrow Bolt</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Stoicism by -30 sec and Burrow Bolt by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7591,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Secret of Raven Hill",
+    "description": "$4d",
+    "descriptionText": "$4d",
+    "iconPath": "interface/icons/nhi_shadowsilence_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680513,
+    "spellIds": [
+      680513
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7582
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680513,
+        "description": "$4e",
+        "descriptionText": "$4e"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7592,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Night King",
+    "description": "<span style=\"color: #ffffff; display: inline\">Noctis Blade</span> now consumes <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> to deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Noctis Blade now consumes Shadow Brand to deal 50% increased damage.",
+    "iconPath": "interface/icons/novart_magicspell_(72)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707067,
+    "spellIds": [
+      707067
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7584,
+      7589
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707067,
+        "description": "<span style=\"color: #ffffff; display: inline\">Noctis Blade</span> now consumes <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> to deal <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Noctis Blade now consumes Shadow Brand to deal 50% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7594,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Wide Swings",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> and <span style=\"color: #ffffff; display: inline\">Grasp of the Undying</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> on enemies affected by <span style=\"color: #ffffff; display: inline\">Shadow Brand</span>.",
+    "descriptionText": "Increases the damage of Noctis Blade and Grasp of the Undying by 20% on enemies affected by Shadow Brand.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_28",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681098,
+    "spellIds": [
+      681098
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6613
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681098,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> and <span style=\"color: #ffffff; display: inline\">Grasp of the Undying</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> on enemies affected by <span style=\"color: #ffffff; display: inline\">Shadow Brand</span>.",
+        "descriptionText": "Increases the damage of Noctis Blade and Grasp of the Undying by 20% on enemies affected by Shadow Brand."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7595,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dark Chivalry",
+    "description": "Increases your Armor contribution from mail items by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor contribution from mail items by 100%.",
+    "iconPath": "interface/icons/nhi_shadowthrow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680525,
+    "spellIds": [
+      680525
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680525,
+        "description": "Increases your Armor contribution from mail items by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from mail items by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7596,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Foresight",
+    "description": "Your direct Physical critical strikes now grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<br /><br />In addition, <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> is now guaranteed to critically strike against Undead or Demons.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Your direct Physical critical strikes now grant allies Replenishment.\n\nIn addition, Dawn Blade is now guaranteed to critically strike against Undead or Demons.\n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds.",
+    "iconPath": "interface/icons/novart_magicspell_(50)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680599,
+    "spellIds": [
+      680599
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7587
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680599,
+        "description": "Your direct Physical critical strikes now grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<br /><br />In addition, <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> is now guaranteed to critically strike against Undead or Demons.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Your direct Physical critical strikes now grant allies Replenishment.\n\nIn addition, Dawn Blade is now guaranteed to critically strike against Undead or Demons.\n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7597,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Blade of the Misbegotten",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now increases your health by <span class=\"item-number\">15%</span> of the damage dealt for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Damage dealt by Dawn Blade now increases your health by 15% of the damage dealt for 8 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_60",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680530,
+    "spellIds": [
+      680530
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7592
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680530,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dawn Blade</span> now increases your health by <span class=\"item-number\">15%</span> of the damage dealt for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Damage dealt by Dawn Blade now increases your health by 15% of the damage dealt for 8 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7630,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Shadowstorm",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Shadowstorm</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_shadowstab_border\" /><span class=\"name\">Shadowstorm</span></div><span class=\"desc\">Leeches <span class=\"item-number\">350</span> + <span class=\"item-number\">30% SP</span> + <span class=\"item-number\">10% AP</span> health from enemies within <span class=\"item-number\">8</span> yds.</span></div>",
+    "descriptionText": "Damage dealt by Pommel Smash now has a 20% chance to trigger a Shadowstorm.\n\n---\n\nShadowstormLeeches 350 + 30% SP + 10% AP health from enemies within 8 yds.",
+    "iconPath": "interface/icons/nhi_shadowstab_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520277,
+    "spellIds": [
+      520277
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7585,
+      7596
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520277,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Shadowstorm</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_shadowstab_border\" /><span class=\"name\">Shadowstorm</span></div><span class=\"desc\">Leeches <span class=\"item-number\">350</span> + <span class=\"item-number\">30% SP</span> + <span class=\"item-number\">10% AP</span> health from enemies within <span class=\"item-number\">8</span> yds.</span></div>",
+        "descriptionText": "Damage dealt by Pommel Smash now has a 20% chance to trigger a Shadowstorm.\n\n---\n\nShadowstormLeeches 350 + 30% SP + 10% AP health from enemies within 8 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7633,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Witching Idol",
+    "description": "Drop a <span style=\"color: #ffffff; display: inline\">Witching Idol</span> that periodically dispels fear, sleep, and charm effects every <span class=\"item-number\">3</span> sec from party members within <span class=\"item-number\">20</span> yds.",
+    "descriptionText": "Drop a Witching Idol that periodically dispels fear, sleep, and charm effects every 3 sec from party members within 20 yds.",
+    "iconPath": "interface/icons/inv_archaeology_80_witch_fetishofthequestioningmind",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804051,
+    "spellIds": [
+      804051
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7064,
+      7583
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804051,
+        "description": "Drop a <span style=\"color: #ffffff; display: inline\">Witching Idol</span> that periodically dispels fear, sleep, and charm effects every <span class=\"item-number\">3</span> sec from party members within <span class=\"item-number\">20</span> yds.",
+        "descriptionText": "Drop a Witching Idol that periodically dispels fear, sleep, and charm effects every 3 sec from party members within 20 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9580,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dawn Knight",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Avoiding damage or dealing damage with auto attacks now has a <span class=\"item-number\">100</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Dawn Knight</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_helm_plate_challengedeathknight_d_01\" /><span class=\"name\">Dawn Knight</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Dawn Blade</span> within <span class=\"item-number\">15</span> seconds is free of cost.</span></div>",
+    "descriptionText": "Level 50 Passive\nAvoiding damage or dealing damage with auto attacks now has a 100% chance to grant you Dawn Knight.\n\n---\n\nDawn KnightYour next Dawn Blade within 15 seconds is free of cost.",
+    "iconPath": "interface/icons/inv_helm_plate_challengedeathknight_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680497,
+    "spellIds": [
+      680497
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7580
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680497,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Avoiding damage or dealing damage with auto attacks now has a <span class=\"item-number\">100</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Dawn Knight</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_helm_plate_challengedeathknight_d_01\" /><span class=\"name\">Dawn Knight</span></div><span class=\"desc\">Your next <span style=\"color: #FFFFFF; display: inline\">Dawn Blade</span> within <span class=\"item-number\">15</span> seconds is free of cost.</span></div>",
+        "descriptionText": "Level 50 Passive\nAvoiding damage or dealing damage with auto attacks now has a 100% chance to grant you Dawn Knight.\n\n---\n\nDawn KnightYour next Dawn Blade within 15 seconds is free of cost."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9751,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Wicked Intent",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Desecrate</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #FFFFFF; display: inline\">Noctis Blade</span>.",
+    "descriptionText": "Casting Desecrate now has a 15% chance to reset the cooldown of Noctis Blade.",
+    "iconPath": "interface/icons/inv_sword_61",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504645,
+    "spellIds": [
+      504645
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29947
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504645,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Desecrate</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #FFFFFF; display: inline\">Noctis Blade</span>.",
+        "descriptionText": "Casting Desecrate now has a 15% chance to reset the cooldown of Noctis Blade."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11375,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dark Barrier",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Stoicism</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Stoicism by 5 sec.",
+    "iconPath": "interface/icons/inv_soulbarrier",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705520,
+    "spellIds": [
+      705520
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9751,
+      29904
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705520,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705520,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Stoicism</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Stoicism by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30853,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Guardbreaker",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> now strikes an additional nearby enemy.",
+    "descriptionText": "Your Pommel Smash now strikes an additional nearby enemy.",
+    "iconPath": "interface/icons/ability_warrior_intervene",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 681097,
+    "spellIds": [
+      681097,
+      681493
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7583
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681097,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> now strikes an additional nearby enemy.",
+        "descriptionText": "Your Pommel Smash now strikes an additional nearby enemy."
+      },
+      {
+        "rank": 2,
+        "spellId": 681493,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Pommel Smash</span> now strikes an additional nearby enemy.",
+        "descriptionText": "Your Pommel Smash now strikes an additional nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31213,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "No Regrets",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">March of the Black King</span> now increases your Armor by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your March of the Black King now increases your Armor by 15%.",
+    "iconPath": "interface/icons/uico_shadow_spell_08_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681093,
+    "spellIds": [
+      681093
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7575
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681093,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">March of the Black King</span> now increases your Armor by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your March of the Black King now increases your Armor by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29904,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dark Juggernaut",
+    "description": "<span style=\"color: #ffffff; display: inline\">Desecrate</span> now restores <span class=\"item-number\">235</span> + <span class=\"item-number\">35% shadow SP</span> + <span class=\"item-number\">17.5% AP</span> health plus an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum health for each target struck affected by <span style=\"color: #ffffff; display: inline\">Shadow Brand</span>.",
+    "descriptionText": "Desecrate now restores 235 + 35% shadow SP + 17.5% AP health plus an additional 1% maximum health for each target struck affected by Shadow Brand.",
+    "iconPath": "interface/icons/nhi_shadowentagle_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560208,
+    "spellIds": [
+      560208
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29947
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560208,
+        "description": "<span style=\"color: #ffffff; display: inline\">Desecrate</span> now restores <span class=\"item-number\">235</span> + <span class=\"item-number\">35% shadow SP</span> + <span class=\"item-number\">17.5% AP</span> health plus an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum health for each target struck affected by <span style=\"color: #ffffff; display: inline\">Shadow Brand</span>.",
+        "descriptionText": "Desecrate now restores 235 + 35% shadow SP + 17.5% AP health plus an additional 1% maximum health for each target struck affected by Shadow Brand."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29947,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Knight's Seal",
+    "description": "Curse an enemy, dealing <span class=\"item-number\">66</span> + <span class=\"item-number\">19.2% shadow SP</span> + <span class=\"item-number\">14.6% AP</span> Shadow Damage every <span class=\"item-number\">3</span> sec and applying <span style=\"color: #ffffff; display: inline\">Dark Oath</span> to you, reducing all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Desecrate</span> within <span class=\"item-number\">8</span> seconds now restores an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> maximum health and mana.",
+    "descriptionText": "Curse an enemy, dealing 66 + 19.2% shadow SP + 14.6% AP Shadow Damage every 3 sec and applying Dark Oath to you, reducing all damage taken by -5% for 8 seconds.\n\nYour next Desecrate within 8 seconds now restores an additional 15% maximum health and mana.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_shadowcatcher_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680498,
+    "spellIds": [
+      680498
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7586
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680498,
+        "description": "Curse an enemy, dealing <span class=\"item-number\">66</span> + <span class=\"item-number\">19.2% shadow SP</span> + <span class=\"item-number\">14.6% AP</span> Shadow Damage every <span class=\"item-number\">3</span> sec and applying <span style=\"color: #ffffff; display: inline\">Dark Oath</span> to you, reducing all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Your next <span style=\"color: #ffffff; display: inline\">Desecrate</span> within <span class=\"item-number\">8</span> seconds now restores an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> maximum health and mana.",
+        "descriptionText": "Curse an enemy, dealing 66 + 19.2% shadow SP + 14.6% AP Shadow Damage every 3 sec and applying Dark Oath to you, reducing all damage taken by -5% for 8 seconds.\n\nYour next Desecrate within 8 seconds now restores an additional 15% maximum health and mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29949,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Gaze of the Black Knight",
+    "description": "Apply a dark shield to yourself, absorbing <span class=\"item-number\">2255</span> + <span class=\"item-number\">30% Stamina</span> + <span class=\"item-number\">11% AP</span> damage and then gaze upon your party members, causing <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of the damage they take to be transferred to you for <span class=\"item-number\">12</span> seconds.<br /><br />Damage which reduces your health below <span class=\"item-number\">20</span><span class=\"item-number\">%</span> will break the effect.<br /><br />Useable while stunned.",
+    "descriptionText": "Apply a dark shield to yourself, absorbing 2255 + 30% Stamina + 11% AP damage and then gaze upon your party members, causing 25% of the damage they take to be transferred to you for 12 seconds.\n\nDamage which reduces your health below 20% will break the effect.\n\nUseable while stunned.",
+    "iconPath": "interface/icons/gazeoftheblackknight",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802138,
+    "spellIds": [
+      802138
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7630
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802138,
+        "description": "Apply a dark shield to yourself, absorbing <span class=\"item-number\">2255</span> + <span class=\"item-number\">30% Stamina</span> + <span class=\"item-number\">11% AP</span> damage and then gaze upon your party members, causing <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of the damage they take to be transferred to you for <span class=\"item-number\">12</span> seconds.<br /><br />Damage which reduces your health below <span class=\"item-number\">20</span><span class=\"item-number\">%</span> will break the effect.<br /><br />Useable while stunned.",
+        "descriptionText": "Apply a dark shield to yourself, absorbing 2255 + 30% Stamina + 11% AP damage and then gaze upon your party members, causing 25% of the damage they take to be transferred to you for 12 seconds.\n\nDamage which reduces your health below 20% will break the effect.\n\nUseable while stunned."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30661,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Secret Society",
+    "description": "Increases your Shadow critical strike chance and Shadow Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases your Shadow critical strike chance and Shadow Damage dealt by 4% and your expertise by 5.",
+    "iconPath": "interface/icons/nhi_shadowcup_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680611,
+    "spellIds": [
+      680611,
+      680514
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680611,
+        "description": "Increases your Shadow critical strike chance and Shadow Damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases your Shadow critical strike chance and Shadow Damage dealt by 4% and your expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 680514,
+        "description": "Increases your Shadow critical strike chance and Shadow Damage dealt by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases your Shadow critical strike chance and Shadow Damage dealt by 8% and your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6613,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dark Penance",
+    "description": "Increases your Agility and your chance to parry and dodge by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility and your chance to parry and dodge by 2%.",
+    "iconPath": "interface/icons/inv_helm_cloth_raidpriest_r_01_gold",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 805533,
+    "spellIds": [
+      805533,
+      807907
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805533,
+        "description": "Increases your Agility and your chance to parry and dodge by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and your chance to parry and dodge by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807907,
+        "description": "Increases your Agility and your chance to parry and dodge by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and your chance to parry and dodge by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4550,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dark Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />You now gain <span class=\"item-number\">1</span> Stamina for every <span class=\"item-number\">2</span> Agility.",
+    "descriptionText": "Level 30 Passive\nYou now gain 1 Stamina for every 2 Agility.",
+    "iconPath": "interface/icons/call_of_the_sepulcher_64x64",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681340,
+    "spellIds": [
+      681340
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4552
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681340,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />You now gain <span class=\"item-number\">1</span> Stamina for every <span class=\"item-number\">2</span> Agility.",
+        "descriptionText": "Level 30 Passive\nYou now gain 1 Stamina for every 2 Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4552,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Dusk Knight",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your parry rating by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of your Agility and your dodge rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your parry rating by 40% of your Agility and your dodge rating by 25% of your Intellect.",
+    "iconPath": "interface/icons/novart_helmet_(12)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681200,
+    "spellIds": [
+      681200
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7553
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681200,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your parry rating by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of your Agility and your dodge rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your parry rating by 40% of your Agility and your dodge rating by 25% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7061,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Shadow Order",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Increases the damage of Shadow Brand by 20% and your hit rating by 3% of your Agility.",
+    "iconPath": "interface/icons/spell_shadow_antishadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680503,
+    "spellIds": [
+      680503,
+      681486
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7595
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680503,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Increases the damage of Shadow Brand by 20% and your hit rating by 3% of your Agility."
+      },
+      {
+        "rank": 2,
+        "spellId": 681486,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Shadow Brand</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Increases the damage of Shadow Brand by 40% and your hit rating by 6% of your Agility."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7064,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 94,
+    "tabKey": "15:94",
+    "tabName": "Black Knight",
+    "name": "Noctis Protection",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> now applies a shield absorbing <span class=\"item-number\">186</span> + <span class=\"item-number\">200% Stamina</span> + <span class=\"item-number\">10% AP</span> damage for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Casting Noctis Blade now applies a shield absorbing 186 + 200% Stamina + 10% AP damage for 4 seconds.",
+    "iconPath": "interface/icons/ability_priest_cascade_shadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681100,
+    "spellIds": [
+      681100
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681100,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Noctis Blade</span> now applies a shield absorbing <span class=\"item-number\">186</span> + <span class=\"item-number\">200% Stamina</span> + <span class=\"item-number\">10% AP</span> damage for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Casting Noctis Blade now applies a shield absorbing 186 + 200% Stamina + 10% AP damage for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

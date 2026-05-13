@@ -1,0 +1,1908 @@
+[
+  {
+    "nodeId": 4496,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Blessing of Yogg-Saron",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your attack power by an amount equal to your spell critical strike rating.",
+    "descriptionText": "Level 50 Passive\nIncreases your attack power by an amount equal to your spell critical strike rating.",
+    "iconPath": "interface/icons/spell_holy_devotion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806264,
+    "spellIds": [
+      806264
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4196
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806264,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your attack power by an amount equal to your spell critical strike rating.",
+        "descriptionText": "Level 50 Passive\nIncreases your attack power by an amount equal to your spell critical strike rating."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4536,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Persistent Prayers",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Herald of the Depths</span> and <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Herald of the Depths and Void Shield by 25%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_shadowwatcher_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 302072,
+    "spellIds": [
+      302072,
+      302919
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7083
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302072,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Herald of the Depths</span> and <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Herald of the Depths and Void Shield by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 302919,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Herald of the Depths</span> and <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Herald of the Depths and Void Shield by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4868,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Corrupt Fate",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Dark Veil</span> by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of Dark Veil by -60 sec.",
+    "iconPath": "interface/icons/5_deadshadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520810,
+    "spellIds": [
+      520810
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29344
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 893211,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520810,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Dark Veil</span> by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of Dark Veil by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4934,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Blade of the Depths",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, your <span style=\"color: #ffffff; display: inline\">Forbidden Ritual</span> will cooldown faster.",
+    "descriptionText": "While Herald of the Depths is active, your Forbidden Ritual will cooldown faster.",
+    "iconPath": "interface/icons/custom_t_orbofshadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300753,
+    "spellIds": [
+      300753
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300753,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, your <span style=\"color: #ffffff; display: inline\">Forbidden Ritual</span> will cooldown faster.",
+        "descriptionText": "While Herald of the Depths is active, your Forbidden Ritual will cooldown faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4042,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Herald of the Depths",
+    "description": "$97",
+    "descriptionText": "$97",
+    "iconPath": "interface/icons/yogg-saronicon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92131,
+    "spellIds": [
+      92131
+    ],
+    "requiredNodeIds": [
+      29265
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92131,
+        "description": "$98",
+        "descriptionText": "$98"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4196,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Void Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Your healing power is now increased based on your weapon damage.",
+    "descriptionText": "Level 40 Passive\nYour healing power is now increased based on your weapon damage.",
+    "iconPath": "interface/icons/inv_belt_armor_voidelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574147,
+    "spellIds": [
+      574147
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9296
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574147,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Your healing power is now increased based on your weapon damage.",
+        "descriptionText": "Level 40 Passive\nYour healing power is now increased based on your weapon damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6948,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Yogg-Saron's Embrace",
+    "description": "Your melee ability damage now increases the amount absorbed by your next <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Your melee ability damage now increases the amount absorbed by your next Void Shield by 10% for 15 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/spell_shadow_summonvoidwalker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301984,
+    "spellIds": [
+      301984
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7083
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301984,
+        "description": "Your melee ability damage now increases the amount absorbed by your next <span style=\"color: #ffffff; display: inline\">Void Shield</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Your melee ability damage now increases the amount absorbed by your next Void Shield by 10% for 15 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6982,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Saronite Cube",
+    "description": "Melee ability damage now reduces the duration of <span style=\"color: #ffffff; display: inline\">Wracked Mind</span> by <span class=\"item-number\">-1</span> sec on all allies within <span class=\"item-number\">30</span> yds.",
+    "descriptionText": "Melee ability damage now reduces the duration of Wracked Mind by -1 sec on all allies within 30 yds.",
+    "iconPath": "interface/icons/inv_misc_cat_trinket05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807307,
+    "spellIds": [
+      807307
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4934,
+      30936,
+      33934
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 800402,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807307,
+        "description": "Melee ability damage now reduces the duration of <span style=\"color: #ffffff; display: inline\">Wracked Mind</span> by <span class=\"item-number\">-1</span> sec on all allies within <span class=\"item-number\">30</span> yds.",
+        "descriptionText": "Melee ability damage now reduces the duration of Wracked Mind by -1 sec on all allies within 30 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6310,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Crazed",
+    "description": "Increases the bonus healing power scaling of <span style=\"color: #ffffff; display: inline\">Eldritch Mending</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the bonus healing power scaling of Eldritch Mending by 25%.",
+    "iconPath": "interface/icons/achievement_battleground_templeofkotmogu_02_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300284,
+    "spellIds": [
+      300284
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29344,
+      30036
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300284,
+        "description": "Increases the bonus healing power scaling of <span style=\"color: #ffffff; display: inline\">Eldritch Mending</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the bonus healing power scaling of Eldritch Mending by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7083,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "As The Prophecy Foretold",
+    "description": "Melee critical strikes now refresh a charge of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> and restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base mana.",
+    "descriptionText": "Melee critical strikes now refresh a charge of Blade of the Empire and restore 3% of your base mana.",
+    "iconPath": "interface/icons/inv_inscription_scroll_fortitude",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504642,
+    "spellIds": [
+      504642
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7900,
+      29267,
+      33887,
+      33966
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504642,
+        "description": "Melee critical strikes now refresh a charge of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> and restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base mana.",
+        "descriptionText": "Melee critical strikes now refresh a charge of Blade of the Empire and restore 3% of your base mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7278,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Saronite Blessing",
+    "description": "Melee critical strikes now apply <span style=\"color: #ffffff; display: inline\">Saronite Blessing</span> to you.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ingot_yoggthorite\" /><span class=\"name\">Saronite Blessing (Buff)</span></div><span class=\"desc\">Your melee attack speed is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your melee auto attacks heal the lowest health ally within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt. Lasts for <span class=\"item-number\">15</span> seconds or <span class=\"item-number\">10</span> attacks.</span></div>",
+    "descriptionText": "Melee critical strikes now apply Saronite Blessing to you.\n\n---\n\nSaronite Blessing (Buff)Your melee attack speed is increased by 25% and your melee auto attacks heal the lowest health ally within 30 yds for 100% of the damage dealt. Lasts for 15 seconds or 10 attacks.",
+    "iconPath": "interface/icons/inv_ingot_yoggthorite",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301262,
+    "spellIds": [
+      301262
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6310,
+      30935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301262,
+        "description": "Melee critical strikes now apply <span style=\"color: #ffffff; display: inline\">Saronite Blessing</span> to you.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ingot_yoggthorite\" /><span class=\"name\">Saronite Blessing (Buff)</span></div><span class=\"desc\">Your melee attack speed is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your melee auto attacks heal the lowest health ally within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt. Lasts for <span class=\"item-number\">15</span> seconds or <span class=\"item-number\">10</span> attacks.</span></div>",
+        "descriptionText": "Melee critical strikes now apply Saronite Blessing to you.\n\n---\n\nSaronite Blessing (Buff)Your melee attack speed is increased by 25% and your melee auto attacks heal the lowest health ally within 30 yds for 100% of the damage dealt. Lasts for 15 seconds or 10 attacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6666,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Twisted Sanity",
+    "description": "Allies affected by your <span style=\"color: #ffffff; display: inline\">Black Blood</span> are now healed for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt by your <span style=\"color: #ffffff; display: inline\">Tentacles</span>.",
+    "descriptionText": "Allies affected by your Black Blood are now healed for 30% of the damage dealt by your Tentacles.",
+    "iconPath": "interface/icons/spell_priest_void_flay",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706187,
+    "spellIds": [
+      706187
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30522
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706187,
+        "description": "Allies affected by your <span style=\"color: #ffffff; display: inline\">Black Blood</span> are now healed for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt by your <span style=\"color: #ffffff; display: inline\">Tentacles</span>.",
+        "descriptionText": "Allies affected by your Black Blood are now healed for 30% of the damage dealt by your Tentacles."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29267,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Eldritch Eye",
+    "description": "Invoke the Old Gods for <span class=\"item-number\">15</span> seconds, removing the cast time of your next <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Eldritch Mendings</span> or <span style=\"color: #ffffff; display: inline\">Malevolences</span> and causing them to critically strike.",
+    "descriptionText": "Invoke the Old Gods for 15 seconds, removing the cast time of your next 3 Eldritch Mendings or Malevolences and causing them to critically strike.",
+    "iconPath": "interface/icons/inv_eyeofnzothpet",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802049,
+    "spellIds": [
+      802049
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31324
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802049,
+        "description": "Invoke the Old Gods for <span class=\"item-number\">15</span> seconds, removing the cast time of your next <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Eldritch Mendings</span> or <span style=\"color: #ffffff; display: inline\">Malevolences</span> and causing them to critically strike.",
+        "descriptionText": "Invoke the Old Gods for 15 seconds, removing the cast time of your next 3 Eldritch Mendings or Malevolences and causing them to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29344,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Dark Veil",
+    "description": "Channel a shield of void energies upon an ally, causing both you and them to absorb <span class=\"item-number\">905</span> + <span class=\"item-number\">100% healing</span> + <span class=\"item-number\">25% AP</span> damage, stacking <span class=\"item-number\">5</span> times, every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds.<br /><br />At the end of the duration, if the shield holds, you teleport to them.<br /><br />While channeling you are immune to stuns and silences.",
+    "descriptionText": "Channel a shield of void energies upon an ally, causing both you and them to absorb 905 + 100% healing + 25% AP damage, stacking 5 times, every 1 sec for 5 seconds.\n\nAt the end of the duration, if the shield holds, you teleport to them.\n\nWhile channeling you are immune to stuns and silences.",
+    "iconPath": "interface/icons/spell_priest_burningwill_shadow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520345,
+    "spellIds": [
+      520345
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4536,
+      6948
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520345,
+        "description": "Channel a shield of void energies upon an ally, causing both you and them to absorb <span class=\"item-number\">905</span> + <span class=\"item-number\">100% healing</span> + <span class=\"item-number\">25% AP</span> damage, stacking <span class=\"item-number\">5</span> times, every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds.<br /><br />At the end of the duration, if the shield holds, you teleport to them.<br /><br />While channeling you are immune to stuns and silences.",
+        "descriptionText": "Channel a shield of void energies upon an ally, causing both you and them to absorb 905 + 100% healing + 25% AP damage, stacking 5 times, every 1 sec for 5 seconds.\n\nAt the end of the duration, if the shield holds, you teleport to them.\n\nWhile channeling you are immune to stuns and silences."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29453,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Quick Chant",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Forbidden Ritual</span> by <span class=\"item-number\">1</span> sec and allows <span style=\"color: #ffffff; display: inline\">Black Blood</span> to stack up to <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Reduces the cast time of Forbidden Ritual by 1 sec and allows Black Blood to stack up to 2 times.",
+    "iconPath": "interface/icons/5_druideskill30_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 712471,
+    "spellIds": [
+      712471,
+      712485
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6982,
+      12982
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712471,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Forbidden Ritual</span> by <span class=\"item-number\">1</span> sec and allows <span style=\"color: #ffffff; display: inline\">Black Blood</span> to stack up to <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Reduces the cast time of Forbidden Ritual by 1 sec and allows Black Blood to stack up to 2 times."
+      },
+      {
+        "rank": 2,
+        "spellId": 712485,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Forbidden Ritual</span> by <span class=\"item-number\">1</span> sec and allows <span style=\"color: #ffffff; display: inline\">Black Blood</span> to stack up to <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Reduces the cast time of Forbidden Ritual by 1 sec and allows Black Blood to stack up to 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9295,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Shadow Training",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />You are now unable to miss your attacks and you cannot be parried or dodged.",
+    "descriptionText": "Level 20 Passive\nYou are now unable to miss your attacks and you cannot be parried or dodged.",
+    "iconPath": "interface/icons/achievement_dungeon_aqusirr",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805607,
+    "spellIds": [
+      805607
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4042
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805607,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />You are now unable to miss your attacks and you cannot be parried or dodged.",
+        "descriptionText": "Level 20 Passive\nYou are now unable to miss your attacks and you cannot be parried or dodged."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9296,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Void-Touched",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Direct healing done now applies <span style=\"color: #ffffff; display: inline\">Void-Touched</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_deathknight_aoedeathgrip\" /><span class=\"name\">Void-Touched (Stacks)</span></div><span class=\"desc\">Marks the ally for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />When you deal damage with <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span>, all stacks are consumed to heal all allies affected by <span style=\"color: #ffffff; display: inline\">Void-Touched</span> for <span class=\"item-number\">352</span> + <span class=\"item-number\">35% healing</span>, increased based on how many stacks were on them.</span></div>",
+    "descriptionText": "Level 30 Passive\nDirect healing done now applies Void-Touched.\n\n---\n\nVoid-Touched (Stacks)Marks the ally for 30 seconds, stacking 10 times.\n\nWhen you deal damage with Hammer of Twilight, all stacks are consumed to heal all allies affected by Void-Touched for 352 + 35% healing, increased based on how many stacks were on them.",
+    "iconPath": "interface/icons/ability_deathknight_aoedeathgrip",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300286,
+    "spellIds": [
+      300286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9295
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300286,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Direct healing done now applies <span style=\"color: #ffffff; display: inline\">Void-Touched</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_deathknight_aoedeathgrip\" /><span class=\"name\">Void-Touched (Stacks)</span></div><span class=\"desc\">Marks the ally for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />When you deal damage with <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span>, all stacks are consumed to heal all allies affected by <span style=\"color: #ffffff; display: inline\">Void-Touched</span> for <span class=\"item-number\">352</span> + <span class=\"item-number\">35% healing</span>, increased based on how many stacks were on them.</span></div>",
+        "descriptionText": "Level 30 Passive\nDirect healing done now applies Void-Touched.\n\n---\n\nVoid-Touched (Stacks)Marks the ally for 30 seconds, stacking 10 times.\n\nWhen you deal damage with Hammer of Twilight, all stacks are consumed to heal all allies affected by Void-Touched for 352 + 35% healing, increased based on how many stacks were on them."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12453,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Visions of the Empire",
+    "description": "Increases the damage converted into healing through <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage converted into healing through Abyssal Covenant by 5%.",
+    "iconPath": "interface/icons/sha_ability_rogue_bloodyeye_nightborne",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806384,
+    "spellIds": [
+      806384
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6982,
+      12982,
+      29344
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806384,
+        "description": "Increases the damage converted into healing through <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage converted into healing through Abyssal Covenant by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12975,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Dark Matter",
+    "description": "Channeling <span style=\"color: #ffffff; display: inline\">Satiate</span> now heals all allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">263</span> + <span class=\"item-number\">20% healing</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Channeling Satiate now heals all allies within 30 yds for 263 + 20% healing every 1 sec for 10 seconds.",
+    "iconPath": "interface/icons/spell_arcane_prismaticcloak",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806382,
+    "spellIds": [
+      806382
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33931
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806382,
+        "description": "Channeling <span style=\"color: #ffffff; display: inline\">Satiate</span> now heals all allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">263</span> + <span class=\"item-number\">20% healing</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Channeling Satiate now heals all allies within 30 yds for 263 + 20% healing every 1 sec for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12982,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Devour Curse",
+    "description": "Devour dark magic on an ally, dispelling <span class=\"item-number\">2</span> curse effects from them and healing you for <span class=\"item-number\">207</span> + <span class=\"item-number\">65% SP</span>.",
+    "descriptionText": "Devour dark magic on an ally, dispelling 2 curse effects from them and healing you for 207 + 65% SP.",
+    "iconPath": "interface/icons/_curse_purple",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800402,
+    "spellIds": [
+      800402
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4934,
+      30936,
+      33934
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 800402,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800402,
+        "description": "Devour dark magic on an ally, dispelling <span class=\"item-number\">2</span> curse effects from them and healing you for <span class=\"item-number\">207</span> + <span class=\"item-number\">65% SP</span>.",
+        "descriptionText": "Devour dark magic on an ally, dispelling 2 curse effects from them and healing you for 207 + 65% SP."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7894,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Abyssal Covenant",
+    "description": "Link yourself to an ally for <span class=\"item-number\">30</span> minutes, transfering <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of all damage taken by them to you and causing <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of all damage you deal to be converted into healing for them.<br /><br />Can only be applied to <span class=\"item-number\">1</span> ally at a time.",
+    "descriptionText": "Link yourself to an ally for 30 minutes, transfering 10% of all damage taken by them to you and causing 20% of all damage you deal to be converted into healing for them.\n\nCan only be applied to 1 ally at a time.",
+    "iconPath": "interface/icons/inv_helm_cloth_eyeballhat_b_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500751,
+    "spellIds": [
+      500751
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30522,
+      33935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500751,
+        "description": "Link yourself to an ally for <span class=\"item-number\">30</span> minutes, transfering <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of all damage taken by them to you and causing <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of all damage you deal to be converted into healing for them.<br /><br />Can only be applied to <span class=\"item-number\">1</span> ally at a time.",
+        "descriptionText": "Link yourself to an ally for 30 minutes, transfering 10% of all damage taken by them to you and causing 20% of all damage you deal to be converted into healing for them.\n\nCan only be applied to 1 ally at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7900,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Dark Protection",
+    "description": "Allies affected by <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> now also take <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased healing from you.",
+    "descriptionText": "Allies affected by Abyssal Covenant now also take 20% increased healing from you.",
+    "iconPath": "interface/icons/spell_shadow_sealofkings",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704897,
+    "spellIds": [
+      704897
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7894
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 51121,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704897,
+        "description": "Allies affected by <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> now also take <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased healing from you.",
+        "descriptionText": "Allies affected by Abyssal Covenant now also take 20% increased healing from you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7901,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Dark Prophet",
+    "description": "Healing done by <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> now heals <span class=\"item-number\">5</span> of the lowest health nearby allies and healing done by <span style=\"color: #ffffff; display: inline\">Black Blood</span> can now critically strike.<br /><br />",
+    "descriptionText": "Healing done by Abyssal Covenant now heals 5 of the lowest health nearby allies and healing done by Black Blood can now critically strike.",
+    "iconPath": "interface/icons/nhi_foreshadowing_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301209,
+    "spellIds": [
+      301209
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29915,
+      33926
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301209,
+        "description": "Healing done by <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> now heals <span class=\"item-number\">5</span> of the lowest health nearby allies and healing done by <span style=\"color: #ffffff; display: inline\">Black Blood</span> can now critically strike.<br /><br />",
+        "descriptionText": "Healing done by Abyssal Covenant now heals 5 of the lowest health nearby allies and healing done by Black Blood can now critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33966,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Forbidden Ritual",
+    "description": "Chant a forbidden ritual that places a shield on all nearby allies that absorbs <span class=\"item-number\">250</span> + <span class=\"item-number\">50% healing</span> damage for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Chant a forbidden ritual that places a shield on all nearby allies that absorbs 250 + 50% healing damage for 10 seconds.",
+    "iconPath": "interface/icons/inv_nullstone_shadow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800105,
+    "spellIds": [
+      800105
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6666
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800105,
+        "description": "Chant a forbidden ritual that places a shield on all nearby allies that absorbs <span class=\"item-number\">250</span> + <span class=\"item-number\">50% healing</span> damage for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Chant a forbidden ritual that places a shield on all nearby allies that absorbs 250 + 50% healing damage for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33975,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Dark Rites",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, your movement speed cannot be reduced below <span class=\"item-number\">90</span><span class=\"item-number\">%</span> of normal value.",
+    "descriptionText": "While Herald of the Depths is active, your movement speed cannot be reduced below 90% of normal value.",
+    "iconPath": "interface/icons/inv_enchant_voidcrystal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300290,
+    "spellIds": [
+      300290
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33931
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707788,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300290,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, your movement speed cannot be reduced below <span class=\"item-number\">90</span><span class=\"item-number\">%</span> of normal value.",
+        "descriptionText": "While Herald of the Depths is active, your movement speed cannot be reduced below 90% of normal value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33886,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Horrific Revelations",
+    "description": "Every <span class=\"item-number\">1</span> sec while <span style=\"color: #ffffff; display: inline\">Hand of Yogg-Saron</span> is active, you now trigger a <span style=\"color: #FFFFFF; display: inline\">Horrific Revelation</span> on the target and generate <span class=\"item-number\">5</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_boss_triumvirate_darknaaru\" /><span class=\"name\">Horrific Revelation</span></div><span class=\"desc\">Heals a friendly target for <span class=\"item-number\">319</span> + <span class=\"item-number\">67.85% SP</span>, scaling with <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, and increases their critical strike chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">15</span> times, for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Every 1 sec while Hand of Yogg-Saron is active, you now trigger a Horrific Revelation on the target and generate 5 Insanity.\n\n---\n\nHorrific RevelationHeals a friendly target for 319 + 67.85% SP, scaling with Insanity, and increases their critical strike chance by 1%, stacking 15 times, for 15 seconds.",
+    "iconPath": "interface/icons/achievement_boss_triumvirate_darknaaru",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524877,
+    "spellIds": [
+      524877
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33926
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524877,
+        "description": "Every <span class=\"item-number\">1</span> sec while <span style=\"color: #ffffff; display: inline\">Hand of Yogg-Saron</span> is active, you now trigger a <span style=\"color: #FFFFFF; display: inline\">Horrific Revelation</span> on the target and generate <span class=\"item-number\">5</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_boss_triumvirate_darknaaru\" /><span class=\"name\">Horrific Revelation</span></div><span class=\"desc\">Heals a friendly target for <span class=\"item-number\">319</span> + <span class=\"item-number\">67.85% SP</span>, scaling with <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, and increases their critical strike chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">15</span> times, for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Every 1 sec while Hand of Yogg-Saron is active, you now trigger a Horrific Revelation on the target and generate 5 Insanity.\n\n---\n\nHorrific RevelationHeals a friendly target for 319 + 67.85% SP, scaling with Insanity, and increases their critical strike chance by 1%, stacking 15 times, for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33887,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Lead the Covenant",
+    "description": "<span class=\"item-number\">50</span><span class=\"item-number\">%</span> of all healing done to allies through <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> is now replicated to you.",
+    "descriptionText": "50% of all healing done to allies through Abyssal Covenant is now replicated to you.",
+    "iconPath": "interface/icons/inv_shoulder_cloth_nzothraidmythic_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704884,
+    "spellIds": [
+      704884
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7894
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 51121,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704884,
+        "description": "<span class=\"item-number\">50</span><span class=\"item-number\">%</span> of all healing done to allies through <span style=\"color: #ffffff; display: inline\">Abyssal Covenant</span> is now replicated to you.",
+        "descriptionText": "50% of all healing done to allies through Abyssal Covenant is now replicated to you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33925,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Protection From Light",
+    "description": "Reduces all damage taken by party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.<br /><br />In addition, your Holy Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces all damage taken by party and raid members by -3%.\n\nIn addition, your Holy Damage taken is reduced by -10%.",
+    "iconPath": "interface/icons/spell_fire_twilightimmolation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704434,
+    "spellIds": [
+      704434
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33931
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707788,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704434,
+        "description": "Reduces all damage taken by party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.<br /><br />In addition, your Holy Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces all damage taken by party and raid members by -3%.\n\nIn addition, your Holy Damage taken is reduced by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33926,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Hand of Yogg-Saron",
+    "description": "Tether yourself to an ally for <span class=\"item-number\">15</span> seconds, increasing all damage they deal and reducing all damage they take by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Tether yourself to an ally for 15 seconds, increasing all damage they deal and reducing all damage they take by 15%.",
+    "iconPath": "interface/icons/spell_shadow_shadowfiend",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704476,
+    "spellIds": [
+      704476
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4868,
+      6310,
+      12453,
+      33928
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704476,
+        "description": "Tether yourself to an ally for <span class=\"item-number\">15</span> seconds, increasing all damage they deal and reducing all damage they take by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Tether yourself to an ally for 15 seconds, increasing all damage they deal and reducing all damage they take by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33928,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Tales of Woe",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Dark Veil</span> now performs its effect <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster.",
+    "descriptionText": "Your Dark Veil now performs its effect -50% faster.",
+    "iconPath": "interface/icons/spell_warlock_demonwrath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520682,
+    "spellIds": [
+      520682
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29344
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 893211,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520682,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Dark Veil</span> now performs its effect <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> faster.",
+        "descriptionText": "Your Dark Veil now performs its effect -50% faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33930,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Prophetic Compulsion",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Black Blood</span> is active on an ally, healing done to them by your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased chance to critically strike.",
+    "descriptionText": "While Black Blood is active on an ally, healing done to them by your Gaze of C'Thun has a 15% increased chance to critically strike.",
+    "iconPath": "interface/icons/achievement_leader_prophet_velen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300264,
+    "spellIds": [
+      300264
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33966
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300264,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Black Blood</span> is active on an ally, healing done to them by your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased chance to critically strike.",
+        "descriptionText": "While Black Blood is active on an ally, healing done to them by your Gaze of C'Thun has a 15% increased chance to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33931,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Saronite Mind",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Eldritch Eye</span> now has <span class=\"item-number\">1</span> additional charge.",
+    "descriptionText": "Your Eldritch Eye now has 1 additional charge.",
+    "iconPath": "interface/icons/ability_priest_psychiclink",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 806266,
+    "spellIds": [
+      806266,
+      807879
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29267
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806266,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Eldritch Eye</span> now has <span class=\"item-number\">1</span> additional charge.",
+        "descriptionText": "Your Eldritch Eye now has 1 additional charge."
+      },
+      {
+        "rank": 2,
+        "spellId": 807879,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Eldritch Eye</span> now has <span class=\"item-number\">1</span> additional charge.",
+        "descriptionText": "Your Eldritch Eye now has 1 additional charge."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33934,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Forbidden Resilience",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, you now take <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> less damage and have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased chance to resist dispel effects.",
+    "descriptionText": "While Herald of the Depths is active, you now take -15% less damage and have a 25% increased chance to resist dispel effects.",
+    "iconPath": "interface/icons/inv_helm_armor_voidelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300287,
+    "spellIds": [
+      300287
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 931112,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300287,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, you now take <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> less damage and have a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased chance to resist dispel effects.",
+        "descriptionText": "While Herald of the Depths is active, you now take -15% less damage and have a 25% increased chance to resist dispel effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33935,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Blade of Yogg-Saron",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> now heals the lowest health ally for <span class=\"item-number\">35</span><span class=\"item-number\">%</span> of the damage dealt plus <span class=\"item-number\">116</span> + <span class=\"item-number\">11% healing</span> + <span class=\"item-number\">5% AP</span>.",
+    "descriptionText": "Damage dealt by Blade of the Empire now heals the lowest health ally for 35% of the damage dealt plus 116 + 11% healing + 5% AP.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_52",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 524887,
+    "spellIds": [
+      524887,
+      525078
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31191
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524887,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> now heals the lowest health ally for <span class=\"item-number\">35</span><span class=\"item-number\">%</span> of the damage dealt plus <span class=\"item-number\">116</span> + <span class=\"item-number\">11% healing</span> + <span class=\"item-number\">5% AP</span>.",
+        "descriptionText": "Damage dealt by Blade of the Empire now heals the lowest health ally for 35% of the damage dealt plus 116 + 11% healing + 5% AP."
+      },
+      {
+        "rank": 2,
+        "spellId": 525078,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> now heals the lowest health ally for <span class=\"item-number\">70</span><span class=\"item-number\">%</span> of the damage dealt plus <span class=\"item-number\">116</span> + <span class=\"item-number\">11% healing</span> + <span class=\"item-number\">5% AP</span>.",
+        "descriptionText": "Damage dealt by Blade of the Empire now heals the lowest health ally for 70% of the damage dealt plus 116 + 11% healing + 5% AP."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30935,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Ancient Rituals",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Satiate</span> now refreshes the duration of <span style=\"color: #ffffff; display: inline\">Black Blood</span> on all allies within <span class=\"item-number\">30</span> yds.",
+    "descriptionText": "Casting Satiate now refreshes the duration of Black Blood on all allies within 30 yds.",
+    "iconPath": "interface/icons/spell_shadow_twilight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807877,
+    "spellIds": [
+      807877
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30036
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807877,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Satiate</span> now refreshes the duration of <span style=\"color: #ffffff; display: inline\">Black Blood</span> on all allies within <span class=\"item-number\">30</span> yds.",
+        "descriptionText": "Casting Satiate now refreshes the duration of Black Blood on all allies within 30 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30936,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Forbidden Strength",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, the critical strike chance of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While Herald of the Depths is active, the critical strike chance of Blade of the Empire is increased by 10%.",
+    "iconPath": "interface/icons/nhi_void_stab_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301258,
+    "spellIds": [
+      301258
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 931112,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301258,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, the critical strike chance of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span> is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While Herald of the Depths is active, the critical strike chance of Blade of the Empire is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31191,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Malevolence",
+    "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Smash an enemy with eldritch force, dealing <span class=\"item-number\">42</span> + <span class=\"item-number\">10% AP</span> + <span class=\"item-number\">52% SP</span> Shadow Damage and applying <span style=\"color: #ffffff; display: inline\">Black Blood</span> to <span class=\"item-number\">5</span> nearby allies, healing for <span class=\"item-number\">0</span> over <span class=\"item-number\">0</span> seconds.<br /><br />Usable while moving.<br /><br />",
+    "descriptionText": "Generates 10 Insanity\nSmash an enemy with eldritch force, dealing 42 + 10% AP + 52% SP Shadow Damage and applying Black Blood to 5 nearby allies, healing for 0 over 0 seconds.\n\nUsable while moving.",
+    "iconPath": "interface/icons/inv_mace_1h_orgrimmarraid_d_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500714,
+    "spellIds": [
+      500714
+    ],
+    "requiredNodeIds": [
+      4042,
+      29265
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500714,
+        "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Smash an enemy with eldritch force, dealing <span class=\"item-number\">42</span> + <span class=\"item-number\">10% AP</span> + <span class=\"item-number\">52% SP</span> Shadow Damage and applying <span style=\"color: #ffffff; display: inline\">Black Blood</span> to <span class=\"item-number\">5</span> nearby allies, healing for <span class=\"item-number\">0</span> over <span class=\"item-number\">0</span> seconds.<br /><br />Usable while moving.<br /><br />",
+        "descriptionText": "Generates 10 Insanity\nSmash an enemy with eldritch force, dealing 42 + 10% AP + 52% SP Shadow Damage and applying Black Blood to 5 nearby allies, healing for 0 over 0 seconds.\n\nUsable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31324,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Malevolent Power",
+    "description": "Every 3rd melee ability you cast now causes your next <span style=\"color: #ffffff; display: inline\">Eldritch Mending</span> to become instant cast and cost <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> less mana.",
+    "descriptionText": "Every 3rd melee ability you cast now causes your next Eldritch Mending to become instant cast and cost -20% less mana.",
+    "iconPath": "interface/icons/inv_sword_2h_artifactashbringershadow_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301183,
+    "spellIds": [
+      301183
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301183,
+        "description": "Every 3rd melee ability you cast now causes your next <span style=\"color: #ffffff; display: inline\">Eldritch Mending</span> to become instant cast and cost <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> less mana.",
+        "descriptionText": "Every 3rd melee ability you cast now causes your next Eldritch Mending to become instant cast and cost -20% less mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30522,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Shadow Pennant",
+    "description": "You now heal the lowest health ally affected by <span style=\"color: #FFFFFF; display: inline\">Black Blood</span> for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your melee auto attack damage.",
+    "descriptionText": "You now heal the lowest health ally affected by Black Blood for 10% of your melee auto attack damage.",
+    "iconPath": "interface/icons/mocking_banner",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706926,
+    "spellIds": [
+      706926,
+      525307
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31191
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706926,
+        "description": "You now heal the lowest health ally affected by <span style=\"color: #FFFFFF; display: inline\">Black Blood</span> for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your melee auto attack damage.",
+        "descriptionText": "You now heal the lowest health ally affected by Black Blood for 10% of your melee auto attack damage."
+      },
+      {
+        "rank": 2,
+        "spellId": 525307,
+        "description": "You now heal the lowest health ally affected by <span style=\"color: #FFFFFF; display: inline\">Black Blood</span> for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your melee auto attack damage.",
+        "descriptionText": "You now heal the lowest health ally affected by Black Blood for 20% of your melee auto attack damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30523,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Blessing of Yogg-Saron",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, you now transform into a <span style=\"color: #ffffff; display: inline\">Faceless Monstrosity</span>, increasing your critical healing and critical strike chance by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, but reducing its duration by <span class=\"item-number\">-5</span> sec.<br /><br />In addition, while active you are now immune to fear, horrify, and polymorph effects.",
+    "descriptionText": "While Herald of the Depths is active, you now transform into a Faceless Monstrosity, increasing your critical healing and critical strike chance by 20%, but reducing its duration by -5 sec.\n\nIn addition, while active you are now immune to fear, horrify, and polymorph effects.",
+    "iconPath": "interface/icons/achievement_boss_heraldvolazj",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807128,
+    "spellIds": [
+      807128
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7278,
+      33926
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807128,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> is active, you now transform into a <span style=\"color: #ffffff; display: inline\">Faceless Monstrosity</span>, increasing your critical healing and critical strike chance by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, but reducing its duration by <span class=\"item-number\">-5</span> sec.<br /><br />In addition, while active you are now immune to fear, horrify, and polymorph effects.",
+        "descriptionText": "While Herald of the Depths is active, you now transform into a Faceless Monstrosity, increasing your critical healing and critical strike chance by 20%, but reducing its duration by -5 sec.\n\nIn addition, while active you are now immune to fear, horrify, and polymorph effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29915,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Void Barrier",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> now increases the absorption of your next <span style=\"color: #ffffff; display: inline\">Void Shield</span> within <span class=\"item-number\">10</span> seconds by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Casting Herald of the Depths now increases the absorption of your next Void Shield within 10 seconds by 100%.",
+    "iconPath": "interface/icons/nhi_shadowbarrier_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300291,
+    "spellIds": [
+      300291
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12453,
+      29453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300291,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Herald of the Depths</span> now increases the absorption of your next <span style=\"color: #ffffff; display: inline\">Void Shield</span> within <span class=\"item-number\">10</span> seconds by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Casting Herald of the Depths now increases the absorption of your next Void Shield within 10 seconds by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30036,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 66,
+    "tabKey": "25:66",
+    "tabName": "Heretic",
+    "name": "Dark Reservoir",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">30</span> sec recharge</span><br />Infuse an ally with dark energy, healing them the next time they take damage. When the heal occurs, the dark energy expands and jumps to an additional ally. This effect can heal up to a total of <span class=\"item-number\">6</span> different allies before expiring.",
+    "descriptionText": "3 Charges, 30 sec recharge\nInfuse an ally with dark energy, healing them the next time they take damage. When the heal occurs, the dark energy expands and jumps to an additional ally. This effect can heal up to a total of 6 different allies before expiring.",
+    "iconPath": "interface/icons/spell_mage_thermalvoid",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500721,
+    "spellIds": [
+      500721
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12975,
+      33925,
+      33975
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500721,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">30</span> sec recharge</span><br />Infuse an ally with dark energy, healing them the next time they take damage. When the heal occurs, the dark energy expands and jumps to an additional ally. This effect can heal up to a total of <span class=\"item-number\">6</span> different allies before expiring.",
+        "descriptionText": "3 Charges, 30 sec recharge\nInfuse an ally with dark energy, healing them the next time they take damage. When the heal occurs, the dark energy expands and jumps to an additional ally. This effect can heal up to a total of 6 different allies before expiring."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

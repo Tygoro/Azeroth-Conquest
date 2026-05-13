@@ -1,0 +1,1859 @@
+[
+  {
+    "nodeId": 7128,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Splash Potion",
+    "description": "Fill a splash potion from your <span style=\"color: #ffffff; display: inline\">Cauldron</span>, and toss it at a location, healing up to <span class=\"item-number\">8</span> allies for <span class=\"item-number\">28</span> + <span class=\"item-number\">32% healing</span> + <span class=\"item-number\">80% Spirit</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion</span> effects from <span style=\"color: #ffffff; display: inline\">Ingredients</span> used this way have reduced effectiveness.",
+    "descriptionText": "Fill a splash potion from your Cauldron, and toss it at a location, healing up to 8 allies for 28 + 32% healing + 80% Spirit.\n\nPotion effects from Ingredients used this way have reduced effectiveness.",
+    "iconPath": "interface/icons/inv_potion_101",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802710,
+    "spellIds": [
+      802710
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7131,
+      29736,
+      30884
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802710,
+        "description": "Fill a splash potion from your <span style=\"color: #ffffff; display: inline\">Cauldron</span>, and toss it at a location, healing up to <span class=\"item-number\">8</span> allies for <span class=\"item-number\">28</span> + <span class=\"item-number\">32% healing</span> + <span class=\"item-number\">80% Spirit</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion</span> effects from <span style=\"color: #ffffff; display: inline\">Ingredients</span> used this way have reduced effectiveness.",
+        "descriptionText": "Fill a splash potion from your Cauldron, and toss it at a location, healing up to 8 allies for 28 + 32% healing + 80% Spirit.\n\nPotion effects from Ingredients used this way have reduced effectiveness."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7129,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Plentiful Potions",
+    "description": "Reduces the cost of your <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> and <span style=\"color: #FFFFFF; display: inline\">Hexbreak</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of your Loa's Brew and Hexbreak by -10%.",
+    "iconPath": "interface/icons/inv_drink_32_disgustingrotgut",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803463,
+    "spellIds": [
+      803463
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29736
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803463,
+        "description": "Reduces the cost of your <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> and <span style=\"color: #FFFFFF; display: inline\">Hexbreak</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of your Loa's Brew and Hexbreak by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7130,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Spice: Earthroot",
+    "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Spice: Earthbloom</span>.<br /><br />Increases effectiveness of all <span style=\"color: #FFFFFF; display: inline\">Cauldron</span> effects and <span style=\"color: #FFFFFF; display: inline\">Ingredients</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Infuse your Cauldron with Spice: Earthbloom.\n\nIncreases effectiveness of all Cauldron effects and Ingredients by 30%.",
+    "iconPath": "interface/icons/inv_misc_herb_07",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504424,
+    "spellIds": [
+      504424
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6021
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 73434,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504424,
+        "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Spice: Earthbloom</span>.<br /><br />Increases effectiveness of all <span style=\"color: #FFFFFF; display: inline\">Cauldron</span> effects and <span style=\"color: #FFFFFF; display: inline\">Ingredients</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Infuse your Cauldron with Spice: Earthbloom.\n\nIncreases effectiveness of all Cauldron effects and Ingredients by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7131,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Potent Mixes",
+    "description": "Increases your healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces the threat generated by your spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your healing done by 4% and reduces the threat generated by your spells by -15%.",
+    "iconPath": "interface/icons/inv_potion_110",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 503748,
+    "spellIds": [
+      503748,
+      504888
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6645
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503748,
+        "description": "Increases your healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces the threat generated by your spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your healing done by 4% and reduces the threat generated by your spells by -15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504888,
+        "description": "Increases your healing done by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and reduces the threat generated by your spells by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your healing done by 8% and reduces the threat generated by your spells by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7132,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Rage Brew",
+    "description": "Throw your <span style=\"color: #ffffff; display: inline\">Rage Brew</span> at an ally, regenerating <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their maximum Rage, Energy, and Focus. <br /><br />Increases their attack power and ranged attack power by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Throw your Rage Brew at an ally, regenerating 50% of their maximum Rage, Energy, and Focus. \n\nIncreases their attack power and ranged attack power by 15% for 10 seconds.",
+    "iconPath": "interface/icons/inv_ascend_potion_11",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503750,
+    "spellIds": [
+      503750
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30823
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 988867,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503750,
+        "description": "Throw your <span style=\"color: #ffffff; display: inline\">Rage Brew</span> at an ally, regenerating <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of their maximum Rage, Energy, and Focus. <br /><br />Increases their attack power and ranged attack power by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Throw your Rage Brew at an ally, regenerating 50% of their maximum Rage, Energy, and Focus. \n\nIncreases their attack power and ranged attack power by 15% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7133,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Tiki Splash",
+    "description": "$41",
+    "descriptionText": "$41",
+    "iconPath": "interface/icons/inv_enchant_alchemistcauldron",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500053,
+    "spellIds": [
+      500053
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29754
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500053,
+        "description": "$42",
+        "descriptionText": "$42"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6009,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mojo: Jungle Thistle",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> cooldown is reset, and the next use within <span class=\"item-number\">5</span> seconds now applies <span style=\"color: #ffffff; display: inline\">Jungle Thistle</span> to affected allies.<br /><br />Instantly swaps your <span style=\"color: #ffffff; display: inline\">Ingredients</span> to <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> and <span style=\"color: #ffffff; display: inline\">Bloodthistle</span>.<br />",
+    "descriptionText": "Your Potion Toss and Splash Potion cooldown is reset, and the next use within 5 seconds now applies Jungle Thistle to affected allies.\n\nInstantly swaps your Ingredients to Jungle Shrooms and Bloodthistle.",
+    "iconPath": "interface/icons/inv_misc_herb_tigerlily",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500472,
+    "spellIds": [
+      500472
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4112,
+      6015,
+      6021,
+      7130
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500472,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> cooldown is reset, and the next use within <span class=\"item-number\">5</span> seconds now applies <span style=\"color: #ffffff; display: inline\">Jungle Thistle</span> to affected allies.<br /><br />Instantly swaps your <span style=\"color: #ffffff; display: inline\">Ingredients</span> to <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> and <span style=\"color: #ffffff; display: inline\">Bloodthistle</span>.<br />",
+        "descriptionText": "Your Potion Toss and Splash Potion cooldown is reset, and the next use within 5 seconds now applies Jungle Thistle to affected allies.\n\nInstantly swaps your Ingredients to Jungle Shrooms and Bloodthistle."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6013,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Spirit Out Of The Bottle",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> now grants <span style=\"color: #FFFFFF; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div><br /><br />@ifknown:500950:In addition, channeling <span style=\"color: #FFFFFF; display: inline\">Mojo Beam</span> causes <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> to affect <span class=\"item-number\">3</span> additional allies near the primary target.:ifknown@",
+    "descriptionText": "Casting Spirit in a Bottle now grants Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.\n\n@ifknown:500950:In addition, channeling Mojo Beam causes Spirit in a Bottle to affect 3 additional allies near the primary target.:ifknown@",
+    "iconPath": "interface/icons/ability_monk_soothingmists",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301175,
+    "spellIds": [
+      301175
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29303,
+      29741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 578295,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301175,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> now grants <span style=\"color: #FFFFFF; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div><br /><br />@ifknown:500950:In addition, channeling <span style=\"color: #FFFFFF; display: inline\">Mojo Beam</span> causes <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> to affect <span class=\"item-number\">3</span> additional allies near the primary target.:ifknown@",
+        "descriptionText": "Casting Spirit in a Bottle now grants Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.\n\n@ifknown:500950:In addition, channeling Mojo Beam causes Spirit in a Bottle to affect 3 additional allies near the primary target.:ifknown@"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6014,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Sen'jin's Presence",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> now reduce the cast time of your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Loa's Brews</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Casting Potion Toss and Spirit in a Bottle now reduce the cast time of your next 2 Loa's Brews by -20% for 10 seconds.",
+    "iconPath": "interface/icons/inv_belt_mail_raidshamanmythic_s_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560544,
+    "spellIds": [
+      560544
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560544,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> now reduce the cast time of your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Loa's Brews</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Casting Potion Toss and Spirit in a Bottle now reduce the cast time of your next 2 Loa's Brews by -20% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6015,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mojo: Fish Bones",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> cooldown is reset, and the next use within <span class=\"item-number\">5</span> seconds now applies <span style=\"color: #ffffff; display: inline\">Fish Bones</span> to affected allies.<br /><br />Instantly swaps your <span style=\"color: #ffffff; display: inline\">Ingredients</span> to <span style=\"color: #ffffff; display: inline\">Fish Oil</span> and <span style=\"color: #ffffff; display: inline\">Frog Bones</span>.<br />",
+    "descriptionText": "Your Potion Toss and Splash Potion cooldown is reset, and the next use within 5 seconds now applies Fish Bones to affected allies.\n\nInstantly swaps your Ingredients to Fish Oil and Frog Bones.",
+    "iconPath": "interface/icons/inv_ascend_fish_bone",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705850,
+    "spellIds": [
+      705850
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6021,
+      6022
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705850,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> cooldown is reset, and the next use within <span class=\"item-number\">5</span> seconds now applies <span style=\"color: #ffffff; display: inline\">Fish Bones</span> to affected allies.<br /><br />Instantly swaps your <span style=\"color: #ffffff; display: inline\">Ingredients</span> to <span style=\"color: #ffffff; display: inline\">Fish Oil</span> and <span style=\"color: #ffffff; display: inline\">Frog Bones</span>.<br />",
+        "descriptionText": "Your Potion Toss and Splash Potion cooldown is reset, and the next use within 5 seconds now applies Fish Bones to affected allies.\n\nInstantly swaps your Ingredients to Fish Oil and Frog Bones."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6016,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mojo: Frog Shrooms",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> cooldown is reset, and the next use within <span class=\"item-number\">5</span> seconds now applies <span style=\"color: #ffffff; display: inline\">Frog Shrooms</span> to affected allies.<br /><br />Instantly swaps your <span style=\"color: #ffffff; display: inline\">Ingredients</span> to <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> and <span style=\"color: #ffffff; display: inline\">Frog Bones</span>.<br />",
+    "descriptionText": "Your Potion Toss and Splash Potion cooldown is reset, and the next use within 5 seconds now applies Frog Shrooms to affected allies.\n\nInstantly swaps your Ingredients to Jungle Shrooms and Frog Bones.",
+    "iconPath": "interface/icons/inv_ascend_mushroom_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705851,
+    "spellIds": [
+      705851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6013,
+      6498,
+      7948,
+      29741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705851,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> cooldown is reset, and the next use within <span class=\"item-number\">5</span> seconds now applies <span style=\"color: #ffffff; display: inline\">Frog Shrooms</span> to affected allies.<br /><br />Instantly swaps your <span style=\"color: #ffffff; display: inline\">Ingredients</span> to <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> and <span style=\"color: #ffffff; display: inline\">Frog Bones</span>.<br />",
+        "descriptionText": "Your Potion Toss and Splash Potion cooldown is reset, and the next use within 5 seconds now applies Frog Shrooms to affected allies.\n\nInstantly swaps your Ingredients to Jungle Shrooms and Frog Bones."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6020,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Jungle Booms",
+    "description": "<span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> when used with <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> now ticks <span class=\"item-number\">-0.5</span> sec faster.",
+    "descriptionText": "Jungle Shrooms when used with Potion Toss and Splash Potion now ticks -0.5 sec faster.",
+    "iconPath": "interface/icons/ability_monk_chiwave",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705859,
+    "spellIds": [
+      705859
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6016,
+      31137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706545,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705859,
+        "description": "<span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> when used with <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and <span style=\"color: #ffffff; display: inline\">Splash Potion</span> now ticks <span class=\"item-number\">-0.5</span> sec faster.",
+        "descriptionText": "Jungle Shrooms when used with Potion Toss and Splash Potion now ticks -0.5 sec faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6021,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Ingredient: Bloodthistle",
+    "description": "Brew <span style=\"color: #ffffff; display: inline\">Bloodthistle</span> into your <span style=\"color: #ffffff; display: inline\">Cauldron</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Cauldron</span>: Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> increased healing.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion</span>: Causes target ally to leech <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of all damage they deal for <span class=\"item-number\">15</span> seconds. Can only occur once every <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Brew Bloodthistle into your Cauldron.\n\nCauldron: Allies within 40 yds receive -20% increased healing.\n\nPotion: Causes target ally to leech 5% of all damage they deal for 15 seconds. Can only occur once every 0.5 sec.",
+    "iconPath": "interface/icons/inv_misc_herb_11a",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801664,
+    "spellIds": [
+      801664
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7129
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801664,
+        "description": "Brew <span style=\"color: #ffffff; display: inline\">Bloodthistle</span> into your <span style=\"color: #ffffff; display: inline\">Cauldron</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Cauldron</span>: Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> increased healing.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion</span>: Causes target ally to leech <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of all damage they deal for <span class=\"item-number\">15</span> seconds. Can only occur once every <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Brew Bloodthistle into your Cauldron.\n\nCauldron: Allies within 40 yds receive -20% increased healing.\n\nPotion: Causes target ally to leech 5% of all damage they deal for 15 seconds. Can only occur once every 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6022,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Splash On 'Em",
+    "description": "Effective healing done by <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> and <span style=\"color: #FFFFFF; display: inline\">Mojo Beam</span> reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Potion Toss</span> and <span style=\"color: #FFFFFF; display: inline\">Splash Potion</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Effective healing done by Loa's Brew and Mojo Beam reduce the cooldown of Potion Toss and Splash Potion by -1 sec.",
+    "iconPath": "interface/icons/custom_t_ghostwater_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802219,
+    "spellIds": [
+      802219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7128
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802219,
+        "description": "Effective healing done by <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> and <span style=\"color: #FFFFFF; display: inline\">Mojo Beam</span> reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Potion Toss</span> and <span style=\"color: #FFFFFF; display: inline\">Splash Potion</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Effective healing done by Loa's Brew and Mojo Beam reduce the cooldown of Potion Toss and Splash Potion by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6023,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Disciple of Sseratus",
+    "description": "Increases the bonus healing scaling of <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> and <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the bonus healing scaling of Loa's Brew and Spirit in a Bottle by 15%.",
+    "iconPath": "interface/icons/5_sumsnakearmy_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300660,
+    "spellIds": [
+      300660
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7132,
+      29753
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300660,
+        "description": "Increases the bonus healing scaling of <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> and <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the bonus healing scaling of Loa's Brew and Spirit in a Bottle by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6026,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Master of Concoctions",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Ingredients</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causes allies affected by <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> to heal for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage they deal with their next <span class=\"item-number\">3</span> offensive abilities or spells for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Increases the duration of Ingredients by 20% and causes allies affected by Jungle Shrooms to heal for 5% of the damage they deal with their next 3 offensive abilities or spells for 15 seconds.",
+    "iconPath": "interface/icons/ability_monk_ironskinbrew",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801690,
+    "spellIds": [
+      801690
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6014,
+      6023
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801690,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Ingredients</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causes allies affected by <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> to heal for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage they deal with their next <span class=\"item-number\">3</span> offensive abilities or spells for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Increases the duration of Ingredients by 20% and causes allies affected by Jungle Shrooms to heal for 5% of the damage they deal with their next 3 offensive abilities or spells for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6027,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Unstable Concoction",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Potion Toss</span> now applies <span style=\"color: #FFFFFF; display: inline\">Unstable Concoction</span> to the target for <span class=\"item-number\">20</span> seconds. <br /><br />Using <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> or <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> on the target will trigger an explosion of mojo around the target, healing nearby allies within <span class=\"item-number\">20</span> yds for <span class=\"item-number\">217</span> + <span class=\"item-number\">40% healing</span>.",
+    "descriptionText": "Potion Toss now applies Unstable Concoction to the target for 20 seconds. \n\nUsing Loa's Brew or Spirit in a Bottle on the target will trigger an explosion of mojo around the target, healing nearby allies within 20 yds for 217 + 40% healing.",
+    "iconPath": "interface/icons/trade_alchemy_dpotion_c16",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802487,
+    "spellIds": [
+      802487
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30333
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802487,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Potion Toss</span> now applies <span style=\"color: #FFFFFF; display: inline\">Unstable Concoction</span> to the target for <span class=\"item-number\">20</span> seconds. <br /><br />Using <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> or <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> on the target will trigger an explosion of mojo around the target, healing nearby allies within <span class=\"item-number\">20</span> yds for <span class=\"item-number\">217</span> + <span class=\"item-number\">40% healing</span>.",
+        "descriptionText": "Potion Toss now applies Unstable Concoction to the target for 20 seconds. \n\nUsing Loa's Brew or Spirit in a Bottle on the target will trigger an explosion of mojo around the target, healing nearby allies within 20 yds for 217 + 40% healing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6498,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Fresh Ingredients",
+    "description": "Increases the healing of your <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> from your <span style=\"color: #ffffff; display: inline\">Cauldron</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the healing of your Jungle Shrooms from your Cauldron by 15%.",
+    "iconPath": "interface/icons/inv_thanksgiving_turkey_act",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705856,
+    "spellIds": [
+      705856,
+      707858
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705856,
+        "description": "Increases the healing of your <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> from your <span style=\"color: #ffffff; display: inline\">Cauldron</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing of your Jungle Shrooms from your Cauldron by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707858,
+        "description": "Increases the healing of your <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> from your <span style=\"color: #ffffff; display: inline\">Cauldron</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing of your Jungle Shrooms from your Cauldron by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6645,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mixologist",
+    "description": "$43",
+    "descriptionText": "$43",
+    "iconPath": "interface/icons/inv_potion_119",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561069,
+    "spellIds": [
+      561069
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12645,
+      12646
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561069,
+        "description": "$44",
+        "descriptionText": "$44"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4715,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Loa's Blessing",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Healing done by <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> now applies a random empowerment to the target ally.<br />",
+    "descriptionText": "Level 30 Passive\nHealing done by Loa's Brew now applies a random empowerment to the target ally.",
+    "iconPath": "interface/icons/inv_misc_fish_turtle_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705848,
+    "spellIds": [
+      705848
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9311
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705848,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Healing done by <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> now applies a random empowerment to the target ally.<br />",
+        "descriptionText": "Level 30 Passive\nHealing done by Loa's Brew now applies a random empowerment to the target ally."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4733,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mojo Wave",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Healing with <span style=\"color: #ffffff; display: inline\">Mojo Beam</span> now heals up to <span class=\"item-number\">3</span> of the lowest health nearby allies within <span class=\"item-number\">20</span> yds for <span class=\"item-number\">75</span><span class=\"item-number\">%</span> of the healing done.",
+    "descriptionText": "Level 40 Passive\nHealing with Mojo Beam now heals up to 3 of the lowest health nearby allies within 20 yds for 75% of the healing done.",
+    "iconPath": "interface/icons/nhi_naturewave_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707617,
+    "spellIds": [
+      707617
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4715
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707617,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Healing with <span style=\"color: #ffffff; display: inline\">Mojo Beam</span> now heals up to <span class=\"item-number\">3</span> of the lowest health nearby allies within <span class=\"item-number\">20</span> yds for <span class=\"item-number\">75</span><span class=\"item-number\">%</span> of the healing done.",
+        "descriptionText": "Level 40 Passive\nHealing with Mojo Beam now heals up to 3 of the lowest health nearby allies within 20 yds for 75% of the healing done."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5055,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Presence of the Loa",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 4%.",
+    "iconPath": "interface/icons/nhi_earthmask_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572871,
+    "spellIds": [
+      572871
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7131
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572871,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4005,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Cauldron Brewer",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You may now prepare <span style=\"color: #ffffff; display: inline\">Ingredients</span> into a <span style=\"color: #ffffff; display: inline\">Cauldron</span>, crafting a brew. <br /><br />Nearby allies are buffed based on the active brew.<br /><br />Only <span class=\"item-number\">1</span> of each <span style=\"color: #ffffff; display: inline\">Ingredient</span> can be active at a time.",
+    "descriptionText": "Level 10 Passive\nYou may now prepare Ingredients into a Cauldron, crafting a brew. \n\nNearby allies are buffed based on the active brew.\n\nOnly 1 of each Ingredient can be active at a time.",
+    "iconPath": "interface/icons/inv_misc_cauldron_nature",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92085,
+    "spellIds": [
+      92085
+    ],
+    "requiredNodeIds": [
+      29744
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92085,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You may now prepare <span style=\"color: #ffffff; display: inline\">Ingredients</span> into a <span style=\"color: #ffffff; display: inline\">Cauldron</span>, crafting a brew. <br /><br />Nearby allies are buffed based on the active brew.<br /><br />Only <span class=\"item-number\">1</span> of each <span style=\"color: #ffffff; display: inline\">Ingredient</span> can be active at a time.",
+        "descriptionText": "Level 10 Passive\nYou may now prepare Ingredients into a Cauldron, crafting a brew. \n\nNearby allies are buffed based on the active brew.\n\nOnly 1 of each Ingredient can be active at a time."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4112,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Spice: Peacebloom",
+    "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Spice: Peacebloom</span>.<br /><br />Reduces the duration of roots, stuns, and snares against allies within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Infuse your Cauldron with Spice: Peacebloom.\n\nReduces the duration of roots, stuns, and snares against allies within 40 yds by -25%.",
+    "iconPath": "interface/icons/inv_misc_flower_02",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803700,
+    "spellIds": [
+      803700
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6021
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 73434,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803700,
+        "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Spice: Peacebloom</span>.<br /><br />Reduces the duration of roots, stuns, and snares against allies within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Infuse your Cauldron with Spice: Peacebloom.\n\nReduces the duration of roots, stuns, and snares against allies within 40 yds by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29303,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Potion Boss",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and your tossed <span style=\"color: #FFFFFF; display: inline\">Ingredients</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Potion Toss and your tossed Ingredients by 20%.",
+    "iconPath": "interface/icons/trade_alchemy_potione3",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561072,
+    "spellIds": [
+      561072
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7128
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561072,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Potion Toss</span> and your tossed <span style=\"color: #FFFFFF; display: inline\">Ingredients</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Potion Toss and your tossed Ingredients by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29310,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Base: Beast Blood",
+    "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Beast Blood</span> for <span class=\"item-number\">10</span> seconds, causing <span class=\"item-number\">15%</span> of the direct Physical damage taken by allies within <span class=\"item-number\">40</span> yds to instead be dealt over time.<br /><br />Only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Base</span> can be active at a time.",
+    "descriptionText": "Infuse your Cauldron with Beast Blood for 10 seconds, causing 15% of the direct Physical damage taken by allies within 40 yds to instead be dealt over time.\n\nOnly 1 Base can be active at a time.",
+    "iconPath": "interface/icons/nhi_blooddrop_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705870,
+    "spellIds": [
+      705870
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6009,
+      7132,
+      29753
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705870,
+        "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Beast Blood</span> for <span class=\"item-number\">10</span> seconds, causing <span class=\"item-number\">15%</span> of the direct Physical damage taken by allies within <span class=\"item-number\">40</span> yds to instead be dealt over time.<br /><br />Only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Base</span> can be active at a time.",
+        "descriptionText": "Infuse your Cauldron with Beast Blood for 10 seconds, causing 15% of the direct Physical damage taken by allies within 40 yds to instead be dealt over time.\n\nOnly 1 Base can be active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9311,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Spirit Healer",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases healing power by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of Spirit and increases spell critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of Spirit.",
+    "descriptionText": "Level 20 Passive\nIncreases healing power by 25% of Spirit and increases spell critical strike chance by 10% of Spirit.",
+    "iconPath": "interface/icons/spell_nature_slowingtotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560280,
+    "spellIds": [
+      560280
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4005
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560280,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases healing power by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of Spirit and increases spell critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of Spirit.",
+        "descriptionText": "Level 20 Passive\nIncreases healing power by 25% of Spirit and increases spell critical strike chance by 10% of Spirit."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7948,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Touch of the Spirits",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Spirit In a Bottle</span> causes the enemies to take <span class=\"item-number\">3</span><span class=\"item-number\">%</span> more damage and deal <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> less damage for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Damage dealt by Spirit In a Bottle causes the enemies to take 3% more damage and deal -3% less damage for 15 seconds.",
+    "iconPath": "interface/icons/ability_shaman_cleansespirit",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 578295,
+    "spellIds": [
+      578295
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29303,
+      29741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 578295,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 578295,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Spirit In a Bottle</span> causes the enemies to take <span class=\"item-number\">3</span><span class=\"item-number\">%</span> more damage and deal <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> less damage for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Damage dealt by Spirit In a Bottle causes the enemies to take 3% more damage and deal -3% less damage for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12645,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Ingredient: Jungle Shrooms",
+    "description": "Brew <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> into your <span style=\"color: #ffffff; display: inline\">Cauldron</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Cauldron</span>: Heal up to <span class=\"item-number\">8</span> allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">39</span> + <span class=\"item-number\">15% healing</span> every <span class=\"item-number\">8</span> sec.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion Toss</span>: Heal the target ally for <span class=\"item-number\">-3.75</span> to <span class=\"item-number\">-2.75</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">18</span> seconds.",
+    "descriptionText": "Brew Jungle Shrooms into your Cauldron.\n\nCauldron: Heal up to 8 allies within 30 yds for 39 + 15% healing every 8 sec.\n\nPotion Toss: Heal the target ally for -3.75 to -2.75 every 3 sec for 18 seconds.",
+    "iconPath": "interface/icons/inv_mushroom_07",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801660,
+    "spellIds": [
+      801660
+    ],
+    "requiredNodeIds": [
+      4005,
+      29744
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801660,
+        "description": "Brew <span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> into your <span style=\"color: #ffffff; display: inline\">Cauldron</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Cauldron</span>: Heal up to <span class=\"item-number\">8</span> allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">39</span> + <span class=\"item-number\">15% healing</span> every <span class=\"item-number\">8</span> sec.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion Toss</span>: Heal the target ally for <span class=\"item-number\">-3.75</span> to <span class=\"item-number\">-2.75</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">18</span> seconds.",
+        "descriptionText": "Brew Jungle Shrooms into your Cauldron.\n\nCauldron: Heal up to 8 allies within 30 yds for 39 + 15% healing every 8 sec.\n\nPotion Toss: Heal the target ally for -3.75 to -2.75 every 3 sec for 18 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12646,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Potion Toss",
+    "description": "Fill a potion from your <span style=\"color: #ffffff; display: inline\">Cauldron</span>, and toss it at a friendly target, healing them for <span class=\"item-number\">45</span> + <span class=\"item-number\">40% healing</span> + <span class=\"item-number\">10% Spirit</span>.<br /><br />The effect of <span style=\"color: #ffffff; display: inline\">Potion Toss</span> will change based on your active <span style=\"color: #ffffff; display: inline\">Ingredients</span>.",
+    "descriptionText": "Fill a potion from your Cauldron, and toss it at a friendly target, healing them for 45 + 40% healing + 10% Spirit.\n\nThe effect of Potion Toss will change based on your active Ingredients.",
+    "iconPath": "interface/icons/inv_potion_99",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801661,
+    "spellIds": [
+      801661
+    ],
+    "requiredNodeIds": [
+      4005,
+      29744
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801661,
+        "description": "Fill a potion from your <span style=\"color: #ffffff; display: inline\">Cauldron</span>, and toss it at a friendly target, healing them for <span class=\"item-number\">45</span> + <span class=\"item-number\">40% healing</span> + <span class=\"item-number\">10% Spirit</span>.<br /><br />The effect of <span style=\"color: #ffffff; display: inline\">Potion Toss</span> will change based on your active <span style=\"color: #ffffff; display: inline\">Ingredients</span>.",
+        "descriptionText": "Fill a potion from your Cauldron, and toss it at a friendly target, healing them for 45 + 40% healing + 10% Spirit.\n\nThe effect of Potion Toss will change based on your active Ingredients."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13133,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "It's Da Mojo",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Allows your <span style=\"color: #FFFFFF; display: inline\">Mojo Beam</span> to critically heal.",
+    "descriptionText": "Level 50 Passive\nAllows your Mojo Beam to critically heal.",
+    "iconPath": "interface/icons/spell_shaman_maelstromweapon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706369,
+    "spellIds": [
+      706369
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4733
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706369,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Allows your <span style=\"color: #FFFFFF; display: inline\">Mojo Beam</span> to critically heal.",
+        "descriptionText": "Level 50 Passive\nAllows your Mojo Beam to critically heal."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31137,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Jungle Secrets",
+    "description": "When you heal with <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> your <span style=\"color: #ffffff; display: inline\">Effigies</span> will now heal an additional ally within <span class=\"item-number\">20</span> yds for <span class=\"item-number\">35</span><span class=\"item-number\">%</span> of the healing done, prioritizing allies with low health.",
+    "descriptionText": "When you heal with Loa's Brew your Effigies will now heal an additional ally within 20 yds for 35% of the healing done, prioritizing allies with low health.",
+    "iconPath": "interface/icons/inv_misc_food_cooked_jadewitchbrew",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707212,
+    "spellIds": [
+      707212
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30823
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707212,
+        "description": "When you heal with <span style=\"color: #ffffff; display: inline\">Loa's Brew</span> your <span style=\"color: #ffffff; display: inline\">Effigies</span> will now heal an additional ally within <span class=\"item-number\">20</span> yds for <span class=\"item-number\">35</span><span class=\"item-number\">%</span> of the healing done, prioritizing allies with low health.",
+        "descriptionText": "When you heal with Loa's Brew your Effigies will now heal an additional ally within 20 yds for 35% of the healing done, prioritizing allies with low health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30823,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mojo Beam",
+    "description": "Bring mojo to an ally, healing for <span class=\"item-number\">41</span> + <span class=\"item-number\">18.5% SP</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">4</span> seconds. <br /><br />While channeling, you can instantly cast <span style=\"color: #FFFFFF; display: inline\">Potion Toss</span>, <span style=\"color: #FFFFFF; display: inline\">Splash Potion</span> and <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> at a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased cost.<br /><br />",
+    "descriptionText": "Bring mojo to an ally, healing for 41 + 18.5% SP every 1 sec for 4 seconds. \n\nWhile channeling, you can instantly cast Potion Toss, Splash Potion and Spirit in a Bottle at a 20% increased cost.",
+    "iconPath": "interface/icons/nhi_unholybeam_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500950,
+    "spellIds": [
+      500950
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6022,
+      7128,
+      29303
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500950,
+        "description": "Bring mojo to an ally, healing for <span class=\"item-number\">41</span> + <span class=\"item-number\">18.5% SP</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">4</span> seconds. <br /><br />While channeling, you can instantly cast <span style=\"color: #FFFFFF; display: inline\">Potion Toss</span>, <span style=\"color: #FFFFFF; display: inline\">Splash Potion</span> and <span style=\"color: #FFFFFF; display: inline\">Spirit in a Bottle</span> at a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased cost.<br /><br />",
+        "descriptionText": "Bring mojo to an ally, healing for 41 + 18.5% SP every 1 sec for 4 seconds. \n\nWhile channeling, you can instantly cast Potion Toss, Splash Potion and Spirit in a Bottle at a 20% increased cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30884,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Mojo Addiction",
+    "description": "Increases your maximum mana by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum mana by 5%.",
+    "iconPath": "interface/icons/trade_archaeology_crackedcrystalvial",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 503696,
+    "spellIds": [
+      503696,
+      504889
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6645
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503696,
+        "description": "Increases your maximum mana by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum mana by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504889,
+        "description": "Increases your maximum mana by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum mana by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30333,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Voodoo Cauldron",
+    "description": "Place down a <span style=\"color: #ffffff; display: inline\">Voodoo Cauldron</span> for <span class=\"item-number\">15</span> seconds, increasing allies' healing received by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while near the cauldron.<br /><br />Allies within <span class=\"item-number\">15</span> yds are healed for <span class=\"item-number\">300</span> + <span class=\"item-number\">60% healing</span> every <span class=\"item-number\">1.5</span> sec for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Place down a Voodoo Cauldron for 15 seconds, increasing allies' healing received by 20% while near the cauldron.\n\nAllies within 15 yds are healed for 300 + 60% healing every 1.5 sec for 15 seconds.",
+    "iconPath": "interface/icons/inv_enchanting_70_pet_cauldron",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804684,
+    "spellIds": [
+      804684
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6014,
+      6020,
+      29737
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804684,
+        "description": "Place down a <span style=\"color: #ffffff; display: inline\">Voodoo Cauldron</span> for <span class=\"item-number\">15</span> seconds, increasing allies' healing received by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while near the cauldron.<br /><br />Allies within <span class=\"item-number\">15</span> yds are healed for <span class=\"item-number\">300</span> + <span class=\"item-number\">60% healing</span> every <span class=\"item-number\">1.5</span> sec for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Place down a Voodoo Cauldron for 15 seconds, increasing allies' healing received by 20% while near the cauldron.\n\nAllies within 15 yds are healed for 300 + 60% healing every 1.5 sec for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29736,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Brewmaster",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> by <span class=\"item-number\">0.25</span> sec and spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span>",
+    "descriptionText": "Reduces the cast time of Loa's Brew by 0.25 sec and spell pushback suffered from damaging attacks by 35%",
+    "iconPath": "interface/icons/inv_axe_2h_zandalarquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704512,
+    "spellIds": [
+      704512,
+      707856
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6645
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704512,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> by <span class=\"item-number\">0.25</span> sec and spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span>",
+        "descriptionText": "Reduces the cast time of Loa's Brew by 0.25 sec and spell pushback suffered from damaging attacks by 35%"
+      },
+      {
+        "rank": 2,
+        "spellId": 707856,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Loa's Brew</span> by <span class=\"item-number\">0.25</span> sec and spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>",
+        "descriptionText": "Reduces the cast time of Loa's Brew by 0.25 sec and spell pushback suffered from damaging attacks by 70%"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29737,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Doctor of the Jungle",
+    "description": "<span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> used from your <span style=\"color: #ffffff; display: inline\">Cauldron</span> now ticks <span class=\"item-number\">-3</span> sec faster.",
+    "descriptionText": "Jungle Shrooms used from your Cauldron now ticks -3 sec faster.",
+    "iconPath": "interface/icons/achievement_zone_tanaanjungle",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706545,
+    "spellIds": [
+      706545
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6016,
+      31137
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706545,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706545,
+        "description": "<span style=\"color: #ffffff; display: inline\">Jungle Shrooms</span> used from your <span style=\"color: #ffffff; display: inline\">Cauldron</span> now ticks <span class=\"item-number\">-3</span> sec faster.",
+        "descriptionText": "Jungle Shrooms used from your Cauldron now ticks -3 sec faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29740,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Master Mixologist",
+    "description": "For <span class=\"item-number\">10</span> seconds, the effectiveness of all <span style=\"color: #ffffff; display: inline\">Cauldron</span> effects and <span style=\"color: #ffffff; display: inline\">Ingredients</span> is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and you can cast <span style=\"color: #ffffff; display: inline\">Spirit in a Bottle</span> while moving.",
+    "descriptionText": "For 10 seconds, the effectiveness of all Cauldron effects and Ingredients is increased by 100% and you can cast Spirit in a Bottle while moving.",
+    "iconPath": "interface/icons/inv_ascend_alchemyingred_8",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705864,
+    "spellIds": [
+      705864
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6026
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705864,
+        "description": "For <span class=\"item-number\">10</span> seconds, the effectiveness of all <span style=\"color: #ffffff; display: inline\">Cauldron</span> effects and <span style=\"color: #ffffff; display: inline\">Ingredients</span> is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and you can cast <span style=\"color: #ffffff; display: inline\">Spirit in a Bottle</span> while moving.",
+        "descriptionText": "For 10 seconds, the effectiveness of all Cauldron effects and Ingredients is increased by 100% and you can cast Spirit in a Bottle while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29741,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Ingredient: Frog Bones",
+    "description": "Brew <span style=\"color: #ffffff; display: inline\">Frog Bones</span> into your <span style=\"color: #ffffff; display: inline\">Cauldron</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Cauldron</span>: Grants allies within <span class=\"item-number\">40</span> yds <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> reduced damage taken.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion</span>: Grants target ally an absorption shield, absorbing <span class=\"item-number\">50</span> + <span class=\"item-number\">35% Spirit</span> damage, scaling with Spirit.",
+    "descriptionText": "Brew Frog Bones into your Cauldron.\n\nCauldron: Grants allies within 40 yds -3% reduced damage taken.\n\nPotion: Grants target ally an absorption shield, absorbing 50 + 35% Spirit damage, scaling with Spirit.",
+    "iconPath": "interface/icons/ability_deathknight_boneshield",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801663,
+    "spellIds": [
+      801663
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5055
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801663,
+        "description": "Brew <span style=\"color: #ffffff; display: inline\">Frog Bones</span> into your <span style=\"color: #ffffff; display: inline\">Cauldron</span>.<br /><br /><span style=\"color: #ffffff; display: inline\">Cauldron</span>: Grants allies within <span class=\"item-number\">40</span> yds <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> reduced damage taken.<br /><br /><span style=\"color: #ffffff; display: inline\">Potion</span>: Grants target ally an absorption shield, absorbing <span class=\"item-number\">50</span> + <span class=\"item-number\">35% Spirit</span> damage, scaling with Spirit.",
+        "descriptionText": "Brew Frog Bones into your Cauldron.\n\nCauldron: Grants allies within 40 yds -3% reduced damage taken.\n\nPotion: Grants target ally an absorption shield, absorbing 50 + 35% Spirit damage, scaling with Spirit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29753,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Arcane Brew",
+    "description": "Throw your <span style=\"color: #ffffff; display: inline\">Arcane Brew</span> at an ally, increasing their spell power and Spirit by <span class=\"item-number\">89</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Spell power scales with caster level.",
+    "descriptionText": "Throw your Arcane Brew at an ally, increasing their spell power and Spirit by 89 for 10 seconds.\n\nSpell power scales with caster level.",
+    "iconPath": "interface/icons/inv_ascend_potion_12",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801689,
+    "spellIds": [
+      801689
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30823
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 988867,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801689,
+        "description": "Throw your <span style=\"color: #ffffff; display: inline\">Arcane Brew</span> at an ally, increasing their spell power and Spirit by <span class=\"item-number\">89</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Spell power scales with caster level.",
+        "descriptionText": "Throw your Arcane Brew at an ally, increasing their spell power and Spirit by 89 for 10 seconds.\n\nSpell power scales with caster level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29754,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 35,
+    "tabKey": "13:35",
+    "tabName": "Brewing",
+    "name": "Base: Crystal Water",
+    "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Crystal Water</span> for <span class=\"item-number\">10</span> seconds, causing allies within <span class=\"item-number\">40</span> yds to be shielded for <span class=\"item-number\">20%</span> of their healing taken for <span class=\"item-number\">5</span> seconds.<br /><br />Only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Base</span> can be active at a time.",
+    "descriptionText": "Infuse your Cauldron with Crystal Water for 10 seconds, causing allies within 40 yds to be shielded for 20% of their healing taken for 5 seconds.\n\nOnly 1 Base can be active at a time.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_icewaterblast_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500962,
+    "spellIds": [
+      500962
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6023,
+      29310
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500962,
+        "description": "Infuse your <span style=\"color: #ffffff; display: inline\">Cauldron</span> with <span style=\"color: #ffffff; display: inline\">Crystal Water</span> for <span class=\"item-number\">10</span> seconds, causing allies within <span class=\"item-number\">40</span> yds to be shielded for <span class=\"item-number\">20%</span> of their healing taken for <span class=\"item-number\">5</span> seconds.<br /><br />Only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Base</span> can be active at a time.",
+        "descriptionText": "Infuse your Cauldron with Crystal Water for 10 seconds, causing allies within 40 yds to be shielded for 20% of their healing taken for 5 seconds.\n\nOnly 1 Base can be active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

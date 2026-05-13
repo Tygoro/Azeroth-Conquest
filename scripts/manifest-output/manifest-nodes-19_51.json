@@ -1,0 +1,1734 @@
+[
+  {
+    "nodeId": 11287,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Light's Chosen",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Agility and your critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell power by 30% of your Agility and your critical strike rating by 15% of your Intellect.",
+    "iconPath": "interface/icons/custom_paladinskill_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301310,
+    "spellIds": [
+      301310
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4024
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301310,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Agility and your critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell power by 30% of your Agility and your critical strike rating by 15% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12361,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Holy Tempest",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> now spreads <span style=\"color: #ffffff; display: inline\">Condemn</span> on affected enemies to a nearby enemy.",
+    "descriptionText": "Damage dealt by Righteous Tempest now spreads Condemn on affected enemies to a nearby enemy.",
+    "iconPath": "interface/icons/nhi_holy_tornado_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301339,
+    "spellIds": [
+      301339
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6861,
+      34343
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301339,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301339,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> now spreads <span style=\"color: #ffffff; display: inline\">Condemn</span> on affected enemies to a nearby enemy.",
+        "descriptionText": "Damage dealt by Righteous Tempest now spreads Condemn on affected enemies to a nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7822,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Warrior of Tyr",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">5</span> Energy.",
+    "descriptionText": "Periodic damage dealt now has a 10% chance to generate 5 Energy.",
+    "iconPath": "interface/icons/nhi_holyhammer_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301253,
+    "spellIds": [
+      301253
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31174
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301253,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">5</span> Energy.",
+        "descriptionText": "Periodic damage dealt now has a 10% chance to generate 5 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7823,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Scourge-Defense Training",
+    "description": "<span style=\"color: #ffffff; display: inline\">Warrior of Dawn</span> now also increases the damage of your next <span style=\"color: #ffffff; display: inline\">Argent Blade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and its critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Warrior of Dawn now also increases the damage of your next Argent Blade by 20% and its critical strike chance by 10%.",
+    "iconPath": "interface/icons/spell_holy_redemption",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520608,
+    "spellIds": [
+      520608
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30965
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520608,
+        "description": "<span style=\"color: #ffffff; display: inline\">Warrior of Dawn</span> now also increases the damage of your next <span style=\"color: #ffffff; display: inline\">Argent Blade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and its critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Warrior of Dawn now also increases the damage of your next Argent Blade by 20% and its critical strike chance by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9888,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Martial Training",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Chastise</span> now deals an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> Weapon Damage.",
+    "descriptionText": "Level 50 Passive\nYour Chastise now deals an additional 50% Weapon Damage.",
+    "iconPath": "interface/icons/inv_plate_scarletcrusade_c_01_shoulder_black",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806525,
+    "spellIds": [
+      806525
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4288
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806525,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Chastise</span> now deals an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> Weapon Damage.",
+        "descriptionText": "Level 50 Passive\nYour Chastise now deals an additional 50% Weapon Damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30963,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Titanstrike",
+    "description": "Unleash a titanic <span style=\"color: #ffffff; display: inline\">Oath Breaker</span>, dealing <span class=\"item-number\">1315</span> + <span class=\"item-number\">48% AP</span> + <span class=\"item-number\">100% holy SP</span> Holy Damage to an enemy and refreshing the duration of your <span style=\"color: #FFFFFF; display: inline\">Oath Chain</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Unleash a titanic Oath Breaker, dealing 1315 + 48% AP + 100% holy SP Holy Damage to an enemy and refreshing the duration of your Oath Chain.\n\nOnly usable on enemies below 35% health.",
+    "iconPath": "interface/icons/_execution_white",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806521,
+    "spellIds": [
+      806521
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6352,
+      31312
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806521,
+        "description": "Unleash a titanic <span style=\"color: #ffffff; display: inline\">Oath Breaker</span>, dealing <span class=\"item-number\">1315</span> + <span class=\"item-number\">48% AP</span> + <span class=\"item-number\">100% holy SP</span> Holy Damage to an enemy and refreshing the duration of your <span style=\"color: #FFFFFF; display: inline\">Oath Chain</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Unleash a titanic Oath Breaker, dealing 1315 + 48% AP + 100% holy SP Holy Damage to an enemy and refreshing the duration of your Oath Chain.\n\nOnly usable on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30965,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Warrior of Dawn",
+    "description": "Melee damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reduce the Energy cost of your next <span style=\"color: #FFFFFF; display: inline\">Argent Blade</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Melee damage dealt now has a 10% chance to reduce the Energy cost of your next Argent Blade by -50%.",
+    "iconPath": "interface/icons/inv_sword_1h_deathknight_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560648,
+    "spellIds": [
+      560648
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30440,
+      31174
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560648,
+        "description": "Melee damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reduce the Energy cost of your next <span style=\"color: #FFFFFF; display: inline\">Argent Blade</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Melee damage dealt now has a 10% chance to reduce the Energy cost of your next Argent Blade by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30439,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Templar Rituals",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Righteous Tempest</span> now deals an additional <span class=\"item-number\">35</span> + <span class=\"item-number\">10% holy SP</span> + <span class=\"item-number\">8.5% AP</span> Holy Damage, and upon dealing damage, you pull enemies within <span class=\"item-number\">15</span> yds towards you.<br /><br />",
+    "descriptionText": "Damage dealt by Righteous Tempest now deals an additional 35 + 10% holy SP + 8.5% AP Holy Damage, and upon dealing damage, you pull enemies within 15 yds towards you.",
+    "iconPath": "interface/icons/nhi_fire_solar_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520534,
+    "spellIds": [
+      520534
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30610,
+      30963
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520534,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Righteous Tempest</span> now deals an additional <span class=\"item-number\">35</span> + <span class=\"item-number\">10% holy SP</span> + <span class=\"item-number\">8.5% AP</span> Holy Damage, and upon dealing damage, you pull enemies within <span class=\"item-number\">15</span> yds towards you.<br /><br />",
+        "descriptionText": "Damage dealt by Righteous Tempest now deals an additional 35 + 10% holy SP + 8.5% AP Holy Damage, and upon dealing damage, you pull enemies within 15 yds towards you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30440,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Pure Focus",
+    "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Scourgebane</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger Scourgebane by 5% and your chance to hit by 2%.",
+    "iconPath": "interface/icons/spell_arcane_focusedpower",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705253,
+    "spellIds": [
+      705253,
+      707852
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29708
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705253,
+        "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Scourgebane</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Scourgebane by 5% and your chance to hit by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707852,
+        "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Scourgebane</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Scourgebane by 10% and your chance to hit by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30448,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Chivalric",
+    "description": "Increases your critical damage with Holy spells and abilities by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical damage with Holy spells and abilities by 15%.",
+    "iconPath": "interface/icons/ability_paladin_veneration",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705272,
+    "spellIds": [
+      705272
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6566,
+      7024
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705272,
+        "description": "Increases your critical damage with Holy spells and abilities by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical damage with Holy spells and abilities by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30607,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Radiant Blade",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Oath: Righteous Lunge</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Oath: Righteous Lunge by 25%.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_99",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 524822,
+    "spellIds": [
+      524822,
+      525080
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34371
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524822,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Oath: Righteous Lunge</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Oath: Righteous Lunge by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 525080,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Oath: Righteous Lunge</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Oath: Righteous Lunge by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30608,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Divine Charge",
+    "description": "You and your party members leap upon a divine steed, increasing their movement speed by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and causing them to trample nearby enemies for <span class=\"item-number\">133</span> + <span class=\"item-number\">20% AP</span> + <span class=\"item-number\">40% holy SP</span> Holy Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">6</span> seconds.<br /><br />While active, casting does not dismount you or your allies. Can only be used outdoors.",
+    "descriptionText": "You and your party members leap upon a divine steed, increasing their movement speed by 100% and causing them to trample nearby enemies for 133 + 20% AP + 40% holy SP Holy Damage every 1 sec for 6 seconds.\n\nWhile active, casting does not dismount you or your allies. Can only be used outdoors.",
+    "iconPath": "interface/icons/ability_mount_charger",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 527023,
+    "spellIds": [
+      527023
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12361,
+      34361,
+      34381
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 527023,
+        "description": "You and your party members leap upon a divine steed, increasing their movement speed by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and causing them to trample nearby enemies for <span class=\"item-number\">133</span> + <span class=\"item-number\">20% AP</span> + <span class=\"item-number\">40% holy SP</span> Holy Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">6</span> seconds.<br /><br />While active, casting does not dismount you or your allies. Can only be used outdoors.",
+        "descriptionText": "You and your party members leap upon a divine steed, increasing their movement speed by 100% and causing them to trample nearby enemies for 133 + 20% AP + 40% holy SP Holy Damage every 1 sec for 6 seconds.\n\nWhile active, casting does not dismount you or your allies. Can only be used outdoors."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30610,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Argent Knight",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> and <span style=\"color: #ffffff; display: inline\">Condemn</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.<br /><br />Additionally, <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> now reduces all damage taken by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> while active.",
+    "descriptionText": "Increases the damage dealt by Righteous Tempest and Condemn by 30%.\n\nAdditionally, Righteous Tempest now reduces all damage taken by -20% while active.",
+    "iconPath": "interface/icons/5_holypower_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300512,
+    "spellIds": [
+      300512
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6352,
+      30448
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300512,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> and <span style=\"color: #ffffff; display: inline\">Condemn</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.<br /><br />Additionally, <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> now reduces all damage taken by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> while active.",
+        "descriptionText": "Increases the damage dealt by Righteous Tempest and Condemn by 30%.\n\nAdditionally, Righteous Tempest now reduces all damage taken by -20% while active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34343,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Righteousness",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Chastise</span> now always triggers <span style=\"color: #ffffff; display: inline\">Scourgebane</span> on your target.",
+    "descriptionText": "Your Chastise now always triggers Scourgebane on your target.",
+    "iconPath": "interface/icons/inv_helmet_74",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680891,
+    "spellIds": [
+      680891
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30440
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680891,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Chastise</span> now always triggers <span style=\"color: #ffffff; display: inline\">Scourgebane</span> on your target.",
+        "descriptionText": "Your Chastise now always triggers Scourgebane on your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34361,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Whirling Tempest",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> is active you gain <span class=\"item-number\">20%</span> increased movement speed. <br /><br />",
+    "descriptionText": "While Righteous Tempest is active you gain 20% increased movement speed.",
+    "iconPath": "interface/icons/nhi_snowwhirlwind_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300504,
+    "spellIds": [
+      300504
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6861,
+      34343
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301339,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300504,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Righteous Tempest</span> is active you gain <span class=\"item-number\">20%</span> increased movement speed. <br /><br />",
+        "descriptionText": "While Righteous Tempest is active you gain 20% increased movement speed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34366,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Tyr's Strength",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now increase the damage of your next <span style=\"color: #ffffff; display: inline\">Titanstrike</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Your Oath Breakers now increase the damage of your next Titanstrike by 6% for 20 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/_execution_white",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300514,
+    "spellIds": [
+      300514
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30963
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300514,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Oath Breakers</span> now increase the damage of your next <span style=\"color: #ffffff; display: inline\">Titanstrike</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Your Oath Breakers now increase the damage of your next Titanstrike by 6% for 20 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34369,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Divine Strikes",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Scourgebane</span> now increases the damage of <span style=\"color: #ffffff; display: inline\">Argent Blade</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Damage dealt by Scourgebane now increases the damage of Argent Blade by 5% for 6 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/inv_sword_2h_nazmirraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705255,
+    "spellIds": [
+      705255
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30607,
+      30608
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705255,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Scourgebane</span> now increases the damage of <span style=\"color: #ffffff; display: inline\">Argent Blade</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Damage dealt by Scourgebane now increases the damage of Argent Blade by 5% for 6 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34371,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Focused",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blade of Faith</span> and <span style=\"color: #FFFFFF; display: inline\">Righteous Tempest</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Blade of Faith and Righteous Tempest by 25%.",
+    "iconPath": "interface/icons/nhi_fierywhirl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300524,
+    "spellIds": [
+      300524
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12361,
+      34361
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300524,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blade of Faith</span> and <span style=\"color: #FFFFFF; display: inline\">Righteous Tempest</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Blade of Faith and Righteous Tempest by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34372,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Righteous Tempest",
+    "description": "Unleash a whirling <span style=\"color: #ffffff; display: inline\">Oath Breaker</span>, dealing Weapon Damage plus <span class=\"item-number\">2</span> + <span class=\"item-number\">25% SP</span> damage to nearby enemies, scaling with spell power, every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+    "descriptionText": "Unleash a whirling Oath Breaker, dealing Weapon Damage plus 2 + 25% SP damage to nearby enemies, scaling with spell power, every 1 sec for 3 seconds.\n\nConsumes your Oaths, dealing additional damage for each consumed.",
+    "iconPath": "interface/icons/_whirlwind_yellow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805409,
+    "spellIds": [
+      805409
+    ],
+    "requiredNodeIds": [
+      4024,
+      31314
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805409,
+        "description": "Unleash a whirling <span style=\"color: #ffffff; display: inline\">Oath Breaker</span>, dealing Weapon Damage plus <span class=\"item-number\">2</span> + <span class=\"item-number\">25% SP</span> damage to nearby enemies, scaling with spell power, every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+        "descriptionText": "Unleash a whirling Oath Breaker, dealing Weapon Damage plus 2 + 25% SP damage to nearby enemies, scaling with spell power, every 1 sec for 3 seconds.\n\nConsumes your Oaths, dealing additional damage for each consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34373,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Vindication",
+    "description": "Melee damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Holy Damage.",
+    "descriptionText": "Melee damage dealt now has a 20% chance to strike 2 additional times for 30% of the damage dealt as Holy Damage.",
+    "iconPath": "interface/icons/nhi_holyfire_00_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707391,
+    "spellIds": [
+      707391
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7823,
+      34382
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707391,
+        "description": "Melee damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Holy Damage.",
+        "descriptionText": "Melee damage dealt now has a 20% chance to strike 2 additional times for 30% of the damage dealt as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34381,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Holy Edge",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Scourgebane</span> and <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now strikes <span class=\"item-number\">1</span> additional nearby enemy.",
+    "descriptionText": "Damage dealt by Scourgebane and Scarlet Hammer now strikes 1 additional nearby enemy.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactvigfus_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706312,
+    "spellIds": [
+      706312,
+      707853
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7823,
+      34343
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706312,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Scourgebane</span> and <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now strikes <span class=\"item-number\">1</span> additional nearby enemy.",
+        "descriptionText": "Damage dealt by Scourgebane and Scarlet Hammer now strikes 1 additional nearby enemy."
+      },
+      {
+        "rank": 2,
+        "spellId": 707853,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Scourgebane</span> and <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now strikes <span class=\"item-number\">2</span> additional nearby enemy.",
+        "descriptionText": "Damage dealt by Scourgebane and Scarlet Hammer now strikes 2 additional nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34382,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Judgement",
+    "description": "Damaging abilities now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to cause your next auto attack to swing an additional time.",
+    "descriptionText": "Damaging abilities now have a 15% chance to cause your next auto attack to swing an additional time.",
+    "iconPath": "interface/icons/ability_racial_holyresistance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300520,
+    "spellIds": [
+      300520
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31174
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300520,
+        "description": "Damaging abilities now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to cause your next auto attack to swing an additional time.",
+        "descriptionText": "Damaging abilities now have a 15% chance to cause your next auto attack to swing an additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29708,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Argent Blade",
+    "description": "Crush an enemy with argent fervor, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">15</span> + <span class=\"item-number\">35% AP</span> + <span class=\"item-number\">100% holy SP</span>, healing you equal to the damage dealt, and extending the duration of your <span style=\"color: #ffffff; display: inline\">Oath Chain</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Crush an enemy with argent fervor, dealing 120% Weapon Damage plus 15 + 35% AP + 100% holy SP, healing you equal to the damage dealt, and extending the duration of your Oath Chain by 3 sec.",
+    "iconPath": "interface/icons/wakeoffashes",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804929,
+    "spellIds": [
+      804929
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34372
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804929,
+        "description": "Crush an enemy with argent fervor, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">15</span> + <span class=\"item-number\">35% AP</span> + <span class=\"item-number\">100% holy SP</span>, healing you equal to the damage dealt, and extending the duration of your <span style=\"color: #ffffff; display: inline\">Oath Chain</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Crush an enemy with argent fervor, dealing 120% Weapon Damage plus 15 + 35% AP + 100% holy SP, healing you equal to the damage dealt, and extending the duration of your Oath Chain by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31174,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Aggramar's Rage",
+    "description": "Increases your Holy critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases your Holy critical strike chance by 3% and your expertise by 5.",
+    "iconPath": "interface/icons/spell_holy_retributionaura",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560650,
+    "spellIds": [
+      560650,
+      561346
+    ],
+    "requiredNodeIds": [
+      4024,
+      31314
+    ],
+    "connectedNodeIds": [
+      29708
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560650,
+        "description": "Increases your Holy critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases your Holy critical strike chance by 3% and your expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 561346,
+        "description": "Increases your Holy critical strike chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases your Holy critical strike chance by 6% and your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31312,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Serendipity",
+    "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your Holy Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your Holy Damage dealt by 5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holypeak_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300929,
+    "spellIds": [
+      300929
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6567
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300929,
+        "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your Holy Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your Holy Damage dealt by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4287,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Scarlet Hammer",
+    "description": "$69",
+    "descriptionText": "$69",
+    "iconPath": "interface/icons/nhi_fieryhammer_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301065,
+    "spellIds": [
+      301065
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11287
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301065,
+        "description": "$6a",
+        "descriptionText": "$6a"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4288,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Improved Scarlet Hammer",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now generates <span class=\"item-number\">30</span> Energy.",
+    "descriptionText": "Level 40 Passive\nCasting Scarlet Hammer now generates 30 Energy.",
+    "iconPath": "interface/icons/spell_paladin_lightshammer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301254,
+    "spellIds": [
+      301254
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4287
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301254,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now generates <span class=\"item-number\">30</span> Energy.",
+        "descriptionText": "Level 40 Passive\nCasting Scarlet Hammer now generates 30 Energy."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4364,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Scarlet Champion",
+    "description": "Your damaging critical strikes now increase your Holy Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds. stacking <span class=\"item-number\">5</span> times. Can only occur once per sec.<br /><br />At <span class=\"item-number\">5</span> stacks, you are granted <span style=\"color: #ffffff; display: inline\">High General</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_bg_killxenemies_generalsroom\" /><span class=\"name\">High General</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Chastise</span> consumes all stacks of <span style=\"color: #ffffff; display: inline\">Scarlet Champion</span> to deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased direct damage, and be guaranteed to critically strike.</span></div>",
+    "descriptionText": "Your damaging critical strikes now increase your Holy Damage dealt by 2% for 20 seconds. stacking 5 times. Can only occur once per sec.\n\nAt 5 stacks, you are granted High General.\n\n---\n\nHigh GeneralYour next Chastise consumes all stacks of Scarlet Champion to deal 25% increased direct damage, and be guaranteed to critically strike.",
+    "iconPath": "interface/icons/spell_holy_surgeoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805415,
+    "spellIds": [
+      805415
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6921,
+      30963
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805415,
+        "description": "Your damaging critical strikes now increase your Holy Damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds. stacking <span class=\"item-number\">5</span> times. Can only occur once per sec.<br /><br />At <span class=\"item-number\">5</span> stacks, you are granted <span style=\"color: #ffffff; display: inline\">High General</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_bg_killxenemies_generalsroom\" /><span class=\"name\">High General</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Chastise</span> consumes all stacks of <span style=\"color: #ffffff; display: inline\">Scarlet Champion</span> to deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased direct damage, and be guaranteed to critically strike.</span></div>",
+        "descriptionText": "Your damaging critical strikes now increase your Holy Damage dealt by 2% for 20 seconds. stacking 5 times. Can only occur once per sec.\n\nAt 5 stacks, you are granted High General.\n\n---\n\nHigh GeneralYour next Chastise consumes all stacks of Scarlet Champion to deal 25% increased direct damage, and be guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5351,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Scarlet Secrets",
+    "description": "Every 2nd cast of <span style=\"color: #ffffff; display: inline\">Argent Blade</span> now grants you <span style=\"color: #ffffff; display: inline\">Oath: Retribution</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_artofwar\" /><span class=\"name\">Oath: Retribution</span></div><span class=\"desc\">Critical damage increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Every 2nd cast of Argent Blade now grants you Oath: Retribution.\n\n---\n\nOath: RetributionCritical damage increased by 20%.",
+    "iconPath": "interface/icons/_letter_lordaeronscarletcrusade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520812,
+    "spellIds": [
+      520812
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7822,
+      34382
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 172211,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520812,
+        "description": "Every 2nd cast of <span style=\"color: #ffffff; display: inline\">Argent Blade</span> now grants you <span style=\"color: #ffffff; display: inline\">Oath: Retribution</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_artofwar\" /><span class=\"name\">Oath: Retribution</span></div><span class=\"desc\">Critical damage increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Every 2nd cast of Argent Blade now grants you Oath: Retribution.\n\n---\n\nOath: RetributionCritical damage increased by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4024,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Scourgebane",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Direct damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike an enemy with <span style=\"color: #ffffff; display: inline\">Scourgebane</span>, dealing an additional <span class=\"item-number\">162</span> + <span class=\"item-number\">25% SP</span> + <span class=\"item-number\">20% AP</span> Holyflame Damage.",
+    "descriptionText": "Level 10 Passive\nDirect damage dealt now has a 20% chance to strike an enemy with Scourgebane, dealing an additional 162 + 25% SP + 20% AP Holyflame Damage.",
+    "iconPath": "interface/icons/nhi_firesword_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92111,
+    "spellIds": [
+      92111
+    ],
+    "requiredNodeIds": [
+      31314
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92111,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Direct damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike an enemy with <span style=\"color: #ffffff; display: inline\">Scourgebane</span>, dealing an additional <span class=\"item-number\">162</span> + <span class=\"item-number\">25% SP</span> + <span class=\"item-number\">20% AP</span> Holyflame Damage.",
+        "descriptionText": "Level 10 Passive\nDirect damage dealt now has a 20% chance to strike an enemy with Scourgebane, dealing an additional 162 + 25% SP + 20% AP Holyflame Damage."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7024,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Templar's Might",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Righteous Lunge</span> and <span style=\"color: #ffffff; display: inline\">Chastise</span> used on enemies affected by your <span style=\"color: #ffffff; display: inline\">Condemn</span> now deal <span class=\"item-number\">6</span><span class=\"item-number\">%</span> increased damage per stack.",
+    "descriptionText": "Your Righteous Lunge and Chastise used on enemies affected by your Condemn now deal 6% increased damage per stack.",
+    "iconPath": "interface/icons/achievement_reputation_argentcrusader",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705291,
+    "spellIds": [
+      705291
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6920
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705291,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Righteous Lunge</span> and <span style=\"color: #ffffff; display: inline\">Chastise</span> used on enemies affected by your <span style=\"color: #ffffff; display: inline\">Condemn</span> now deal <span class=\"item-number\">6</span><span class=\"item-number\">%</span> increased damage per stack.",
+        "descriptionText": "Your Righteous Lunge and Chastise used on enemies affected by your Condemn now deal 6% increased damage per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6351,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Teachings of the Cathedral",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Oath: Condemn</span> now provides <span class=\"item-number\">5</span><span class=\"item-number\">%</span> additional critical strike chance.",
+    "descriptionText": "Your Oath: Condemn now provides 5% additional critical strike chance.",
+    "iconPath": "interface/icons/inv_plate_scarletcrusade_c_01_helm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520032,
+    "spellIds": [
+      520032
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7822,
+      34382
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 172211,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520032,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Oath: Condemn</span> now provides <span class=\"item-number\">5</span><span class=\"item-number\">%</span> additional critical strike chance.",
+        "descriptionText": "Your Oath: Condemn now provides 5% additional critical strike chance."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6352,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Light's Echo",
+    "description": "<span style=\"color: #ffffff; display: inline\">Argent Blade</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike an additional time.",
+    "descriptionText": "Argent Blade now has a 20% chance to strike an additional time.",
+    "iconPath": "interface/icons/ability_monk_clashingoxcharge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520017,
+    "spellIds": [
+      520017,
+      520883
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6567
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520017,
+        "description": "<span style=\"color: #ffffff; display: inline\">Argent Blade</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike an additional time.",
+        "descriptionText": "Argent Blade now has a 20% chance to strike an additional time."
+      },
+      {
+        "rank": 2,
+        "spellId": 520883,
+        "description": "<span style=\"color: #ffffff; display: inline\">Argent Blade</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to strike an additional time.",
+        "descriptionText": "Argent Blade now has a 40% chance to strike an additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6861,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Paladin Training",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Righteous Lunge</span> and <span style=\"color: #FFFFFF; display: inline\">Argent Blade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Righteous Lunge and Argent Blade by 20%.",
+    "iconPath": "interface/icons/nhi_holy_beam_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520009,
+    "spellIds": [
+      520009
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30440
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520009,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Righteous Lunge</span> and <span style=\"color: #FFFFFF; display: inline\">Argent Blade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Righteous Lunge and Argent Blade by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6920,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Tyr's Blessing",
+    "description": "<span style=\"color: #ffffff; display: inline\">Condemn</span> now stacks <span class=\"item-number\">1</span> additional time.",
+    "descriptionText": "Condemn now stacks 1 additional time.",
+    "iconPath": "interface/icons/inv_hammer_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705285,
+    "spellIds": [
+      705285
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5351,
+      6351
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705285,
+        "description": "<span style=\"color: #ffffff; display: inline\">Condemn</span> now stacks <span class=\"item-number\">1</span> additional time.",
+        "descriptionText": "Condemn now stacks 1 additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6921,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Legacy of the Silver Hand",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Argent Blade</span> or <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now guarantees your next <span class=\"item-number\">2</span> instances of damage dealt by <span style=\"color: #ffffff; display: inline\">Scourgebane</span> within <span class=\"item-number\">10</span> seconds to critically strike.<br /><br />Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Scourgebane</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Casting Argent Blade or Scarlet Hammer now guarantees your next 2 instances of damage dealt by Scourgebane within 10 seconds to critically strike.\n\nIncreases the critical damage of Scourgebane by 15%.",
+    "iconPath": "interface/icons/inv_shield_1h_silverhand_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806522,
+    "spellIds": [
+      806522
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31312,
+      34369
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806522,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Argent Blade</span> or <span style=\"color: #ffffff; display: inline\">Scarlet Hammer</span> now guarantees your next <span class=\"item-number\">2</span> instances of damage dealt by <span style=\"color: #ffffff; display: inline\">Scourgebane</span> within <span class=\"item-number\">10</span> seconds to critically strike.<br /><br />Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Scourgebane</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Casting Argent Blade or Scarlet Hammer now guarantees your next 2 instances of damage dealt by Scourgebane within 10 seconds to critically strike.\n\nIncreases the critical damage of Scourgebane by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6566,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Crusader's Brand",
+    "description": "Mark an enemy for <span class=\"item-number\">20</span> seconds, when they deal direct damage they take <span class=\"item-number\">243</span> + <span class=\"item-number\">27.5% holy SP</span> + <span class=\"item-number\">18.5% AP</span> Holy Damage.<br /><br />While marked enemies can always be seen by the Crusader whether it stealths or turns invisible.",
+    "descriptionText": "Mark an enemy for 20 seconds, when they deal direct damage they take 243 + 27.5% holy SP + 18.5% AP Holy Damage.\n\nWhile marked enemies can always be seen by the Crusader whether it stealths or turns invisible.",
+    "iconPath": "interface/icons/nhi_holy_toglory_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300513,
+    "spellIds": [
+      300513
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5351,
+      6351,
+      34373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300513,
+        "description": "Mark an enemy for <span class=\"item-number\">20</span> seconds, when they deal direct damage they take <span class=\"item-number\">243</span> + <span class=\"item-number\">27.5% holy SP</span> + <span class=\"item-number\">18.5% AP</span> Holy Damage.<br /><br />While marked enemies can always be seen by the Crusader whether it stealths or turns invisible.",
+        "descriptionText": "Mark an enemy for 20 seconds, when they deal direct damage they take 243 + 27.5% holy SP + 18.5% AP Holy Damage.\n\nWhile marked enemies can always be seen by the Crusader whether it stealths or turns invisible."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6567,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 51,
+    "tabKey": "19:51",
+    "tabName": "Crusader",
+    "name": "Holy Combatant",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Argent Blade</span> now also extends the duration of <span style=\"color: #ffffff; display: inline\">Interdict</span> on your target by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Your Argent Blade now also extends the duration of Interdict on your target by 1 sec.",
+    "iconPath": "interface/icons/inv_sword_28",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500011,
+    "spellIds": [
+      500011
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34373,
+      34381
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500011,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Argent Blade</span> now also extends the duration of <span style=\"color: #ffffff; display: inline\">Interdict</span> on your target by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Your Argent Blade now also extends the duration of Interdict on your target by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

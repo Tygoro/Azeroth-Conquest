@@ -1,0 +1,1773 @@
+[
+  {
+    "nodeId": 9935,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Dread",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Darkwither</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Darkwither by 20%.",
+    "iconPath": "interface/icons/spell_shadow_burningspirit",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301315,
+    "spellIds": [
+      301315
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29270,
+      29471,
+      33939
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301315,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Darkwither</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Darkwither by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7938,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Horrorbolt Volley",
+    "description": "After casting <span class=\"item-number\">3</span> <span style=\"color: #FFFFFF; display: inline\">Horrorbolts</span>, it transforms into <span style=\"color: #FFFFFF; display: inline\">Horrorbolt Volley</span> for <span class=\"item-number\">15</span> seconds.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_normal20shadowrain_border\" /><span class=\"name\">Horrorbolt Volley</span></div><span class=\"desc\"><span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Inflict sheer horror on up to <span class=\"item-number\">5</span> enemies, dealing <span class=\"item-number\">171</span> + <span class=\"item-number\">28% shadow SP</span> Shadow Damage.</span></div>",
+    "descriptionText": "After casting 3 Horrorbolts, it transforms into Horrorbolt Volley for 15 seconds.\n\n---\n\nHorrorbolt VolleyGenerates 10 Insanity\nInflict sheer horror on up to 5 enemies, dealing 171 + 28% shadow SP Shadow Damage.",
+    "iconPath": "interface/icons/5_normal20shadowrain_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704892,
+    "spellIds": [
+      704892
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33959
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704892,
+        "description": "After casting <span class=\"item-number\">3</span> <span style=\"color: #FFFFFF; display: inline\">Horrorbolts</span>, it transforms into <span style=\"color: #FFFFFF; display: inline\">Horrorbolt Volley</span> for <span class=\"item-number\">15</span> seconds.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_normal20shadowrain_border\" /><span class=\"name\">Horrorbolt Volley</span></div><span class=\"desc\"><span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Inflict sheer horror on up to <span class=\"item-number\">5</span> enemies, dealing <span class=\"item-number\">171</span> + <span class=\"item-number\">28% shadow SP</span> Shadow Damage.</span></div>",
+        "descriptionText": "After casting 3 Horrorbolts, it transforms into Horrorbolt Volley for 15 seconds.\n\n---\n\nHorrorbolt VolleyGenerates 10 Insanity\nInflict sheer horror on up to 5 enemies, dealing 171 + 28% shadow SP Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11935,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Horrific Visions",
+    "description": "While above <span class=\"item-number\">40</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, your chance to trigger <span style=\"color: #ffffff; display: inline\">Dark Revelation</span> is now increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While above 40 Insanity, your chance to trigger Dark Revelation is now increased by 10%.",
+    "iconPath": "interface/icons/spell_shadow_unholyfrenzy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707753,
+    "spellIds": [
+      707753
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30671
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707753,
+        "description": "While above <span class=\"item-number\">40</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, your chance to trigger <span style=\"color: #ffffff; display: inline\">Dark Revelation</span> is now increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While above 40 Insanity, your chance to trigger Dark Revelation is now increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13052,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Call of C'Thun",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Darkwither</span>'s healing reduction now stacks <span class=\"item-number\">3</span> additional times and its tick rate is increased by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Darkwither's healing reduction now stacks 3 additional times and its tick rate is increased by -25%.",
+    "iconPath": "interface/icons/inv_knife_1h_artifactcthun_d_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301317,
+    "spellIds": [
+      301317
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6327,
+      6559
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301317,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301317,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Darkwither</span>'s healing reduction now stacks <span class=\"item-number\">3</span> additional times and its tick rate is increased by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Darkwither's healing reduction now stacks 3 additional times and its tick rate is increased by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29266,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Sunderer of Realities",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> now causes your subsequent <span style=\"color: #ffffff; display: inline\">Wraths of the Black Empire</span>, within <span class=\"item-number\">15</span> seconds, to deal <span class=\"item-number\">15</span><span class=\"item-number\">%</span> more damage each and unleash <span style=\"color: #ffffff; display: inline\">Apocalyptic Skies</span> upon the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_void_conquer_border\" /><span class=\"name\">Apocalyptic Skies</span></div><span class=\"desc\">Spawns a void portal that casts either <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span>, <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span>, or <span style=\"color: #FFFFFF; display: inline\">Obliteration Beam</span> before disappearing.</span></div>",
+    "descriptionText": "Casting Wrath of the Black Empire now causes your subsequent Wraths of the Black Empire, within 15 seconds, to deal 15% more damage each and unleash Apocalyptic Skies upon the enemy.\n\n---\n\nApocalyptic SkiesSpawns a void portal that casts either Gaze of C'thun, Horrorbolt, or Obliteration Beam before disappearing.",
+    "iconPath": "interface/icons/spell_shadow_shadetruesight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301068,
+    "spellIds": [
+      301068
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29476
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301068,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> now causes your subsequent <span style=\"color: #ffffff; display: inline\">Wraths of the Black Empire</span>, within <span class=\"item-number\">15</span> seconds, to deal <span class=\"item-number\">15</span><span class=\"item-number\">%</span> more damage each and unleash <span style=\"color: #ffffff; display: inline\">Apocalyptic Skies</span> upon the enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_void_conquer_border\" /><span class=\"name\">Apocalyptic Skies</span></div><span class=\"desc\">Spawns a void portal that casts either <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span>, <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span>, or <span style=\"color: #FFFFFF; display: inline\">Obliteration Beam</span> before disappearing.</span></div>",
+        "descriptionText": "Casting Wrath of the Black Empire now causes your subsequent Wraths of the Black Empire, within 15 seconds, to deal 15% more damage each and unleash Apocalyptic Skies upon the enemy.\n\n---\n\nApocalyptic SkiesSpawns a void portal that casts either Gaze of C'thun, Horrorbolt, or Obliteration Beam before disappearing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29270,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Unrelenting Void",
+    "description": "Periodic or channeled damage now increases the damage the enemy takes from you by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Periodic or channeled damage now increases the damage the enemy takes from you by 2% for 10 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/ability_bossgorefiend_touchofdoom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704527,
+    "spellIds": [
+      704527
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6557,
+      29471
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704527,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704527,
+        "description": "Periodic or channeled damage now increases the damage the enemy takes from you by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Periodic or channeled damage now increases the damage the enemy takes from you by 2% for 10 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30671,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Dark Revelation",
+    "description": "Grants your <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> and <span style=\"color: #FFFFFF; display: inline\">Wrath of the Black Empire</span> a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span>.",
+    "descriptionText": "Grants your Horrorbolt and Wrath of the Black Empire a 20% chance to reset the cooldown of Gaze of C'thun.",
+    "iconPath": "interface/icons/spell_shadow_summonvoidwalker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706245,
+    "spellIds": [
+      706245
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7056,
+      33937
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706245,
+        "description": "Grants your <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> and <span style=\"color: #FFFFFF; display: inline\">Wrath of the Black Empire</span> a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span>.",
+        "descriptionText": "Grants your Horrorbolt and Wrath of the Black Empire a 20% chance to reset the cooldown of Gaze of C'thun."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31190,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Darkwither",
+    "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Wither an enemy, dealing <span class=\"item-number\">80</span> Shadow Damage over <span class=\"item-number\">15</span> seconds. Each instance of damage reduces their periodic healing taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Generates 10 Insanity\nWither an enemy, dealing 80 Shadow Damage over 15 seconds. Each instance of damage reduces their periodic healing taken by -5%, stacking up to 4 times.",
+    "iconPath": "interface/icons/spell_shadow_unstableaffliction_3_purple",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800446,
+    "spellIds": [
+      800446
+    ],
+    "requiredNodeIds": [
+      4041,
+      29470
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800446,
+        "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Wither an enemy, dealing <span class=\"item-number\">80</span> Shadow Damage over <span class=\"item-number\">15</span> seconds. Each instance of damage reduces their periodic healing taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Generates 10 Insanity\nWither an enemy, dealing 80 Shadow Damage over 15 seconds. Each instance of damage reduces their periodic healing taken by -5%, stacking up to 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31356,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Occultism",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Wrath of the Black Empire by 10%.",
+    "iconPath": "interface/icons/inv_ascend_book_b_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300305,
+    "spellIds": [
+      300305
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33945
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300305,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Wrath of the Black Empire by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33936,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Depths of Madness",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> to chance to spawn a void portal that casts either <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span>, <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span>, or <span style=\"color: #FFFFFF; display: inline\">Obliteration Beam</span> before disappearing.",
+    "descriptionText": "Damage dealt by Gaze of C'Thun now has a 15% to chance to spawn a void portal that casts either Gaze of C'thun, Horrorbolt, or Obliteration Beam before disappearing.",
+    "iconPath": "interface/icons/_soulharvest2__purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706911,
+    "spellIds": [
+      706911
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7058,
+      33945
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706911,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> to chance to spawn a void portal that casts either <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span>, <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span>, or <span style=\"color: #FFFFFF; display: inline\">Obliteration Beam</span> before disappearing.",
+        "descriptionText": "Damage dealt by Gaze of C'Thun now has a 15% to chance to spawn a void portal that casts either Gaze of C'thun, Horrorbolt, or Obliteration Beam before disappearing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29471,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Eldritch Devastation",
+    "description": "Channel upon an enemy, chaining to nearby enemies, dealing <span class=\"item-number\">69000</span> + <span class=\"item-number\">132000% shadow SP</span> Shadow Damage over <span class=\"item-number\">6</span> seconds, dealing less damage with each enemy struck.",
+    "descriptionText": "Channel upon an enemy, chaining to nearby enemies, dealing 69000 + 132000% shadow SP Shadow Damage over 6 seconds, dealing less damage with each enemy struck.",
+    "iconPath": "interface/icons/inv_artifact_powerofthedarkside",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802727,
+    "spellIds": [
+      802727
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6557,
+      7052,
+      13052
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802727,
+        "description": "Channel upon an enemy, chaining to nearby enemies, dealing <span class=\"item-number\">69000</span> + <span class=\"item-number\">132000% shadow SP</span> Shadow Damage over <span class=\"item-number\">6</span> seconds, dealing less damage with each enemy struck.",
+        "descriptionText": "Channel upon an enemy, chaining to nearby enemies, dealing 69000 + 132000% shadow SP Shadow Damage over 6 seconds, dealing less damage with each enemy struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29476,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Apocalyptic Skies",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Wrath of the Black Empire</span> now spawns a void portal that casts either <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span>, <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span>, or <span style=\"color: #FFFFFF; display: inline\">Obliteration Beam</span> before disappearing.",
+    "descriptionText": "Casting Wrath of the Black Empire now spawns a void portal that casts either Gaze of C'thun, Horrorbolt, or Obliteration Beam before disappearing.",
+    "iconPath": "interface/icons/nhi_void_conquer_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301200,
+    "spellIds": [
+      301200
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31356,
+      33936
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301200,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Wrath of the Black Empire</span> now spawns a void portal that casts either <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span>, <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span>, or <span style=\"color: #FFFFFF; display: inline\">Obliteration Beam</span> before disappearing.",
+        "descriptionText": "Casting Wrath of the Black Empire now spawns a void portal that casts either Gaze of C'thun, Horrorbolt, or Obliteration Beam before disappearing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29477,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Yawning Decay",
+    "description": "Every 3rd <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> cast causes your next successful <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> to deal an additional <span class=\"item-number\">50%</span> of the initial damage to the target over <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Every 3rd Horrorbolt cast causes your next successful Horrorbolt to deal an additional 50% of the initial damage to the target over 3 seconds.",
+    "iconPath": "interface/icons/spell_priest_void_blast",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706909,
+    "spellIds": [
+      706909
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7072,
+      33942
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706909,
+        "description": "Every 3rd <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> cast causes your next successful <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> to deal an additional <span class=\"item-number\">50%</span> of the initial damage to the target over <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Every 3rd Horrorbolt cast causes your next successful Horrorbolt to deal an additional 50% of the initial damage to the target over 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29478,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Embrace the Void",
+    "description": "Reaching <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span> increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Reaching 60 Insanity increases your damage dealt by 10% for 10 seconds.",
+    "iconPath": "interface/icons/spell_shadow_painandsuffering",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300307,
+    "spellIds": [
+      300307
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33942
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300307,
+        "description": "Reaching <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span> increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Reaching 60 Insanity increases your damage dealt by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33937,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Servant of C'Thun",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span> now always triggers your <span style=\"color: #ffffff; display: inline\">Presence of C'Thun</span> while it is active.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_aq_cthun\" /><span class=\"name\">Presence of C&#39;Thun (Buff)</span></div><span class=\"desc\">Increases your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Casting Gaze of C'thun now always triggers your Presence of C'Thun while it is active.\n\n---\n\nPresence of C'Thun (Buff)Increases your haste by 20% for 6 seconds.",
+    "iconPath": "interface/icons/spell_shadow_gathershadows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300296,
+    "spellIds": [
+      300296
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6327
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300296,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span> now always triggers your <span style=\"color: #ffffff; display: inline\">Presence of C'Thun</span> while it is active.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_aq_cthun\" /><span class=\"name\">Presence of C&#39;Thun (Buff)</span></div><span class=\"desc\">Increases your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Casting Gaze of C'thun now always triggers your Presence of C'Thun while it is active.\n\n---\n\nPresence of C'Thun (Buff)Increases your haste by 20% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33938,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Worrysome Idol",
+    "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and causes you to regenerate mana equal to <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your missing mana every <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Increases your spell haste by 4% and causes you to regenerate mana equal to 1% of your missing mana every 10 sec.",
+    "iconPath": "interface/icons/novart_magicspell_(88)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706917,
+    "spellIds": [
+      706917
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7056,
+      30671
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706917,
+        "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and causes you to regenerate mana equal to <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your missing mana every <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Increases your spell haste by 4% and causes you to regenerate mana equal to 1% of your missing mana every 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33939,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Mind Rot",
+    "description": "Periodic or channeled damage dealt now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to curse your target, applying <span style=\"color: #ffffff; display: inline\">Mind Rot</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _virus_purple\" /><span class=\"name\">Mind Rot (Trigger)</span></div><span class=\"desc\">Increases the chance for allies to hit with all spells against the afflicted enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />If this effect is dispelled, your critical strike chance is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+    "descriptionText": "Periodic or channeled damage dealt now has a 25% chance to curse your target, applying Mind Rot.\n\n---\n\nMind Rot (Trigger)Increases the chance for allies to hit with all spells against the afflicted enemy by 3% for 10 seconds.\n\nIf this effect is dispelled, your critical strike chance is increased by 30% for 5 seconds.",
+    "iconPath": "interface/icons/spell_shadow_mindshear",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300300,
+    "spellIds": [
+      300300
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6557,
+      29471
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704527,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300300,
+        "description": "Periodic or channeled damage dealt now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to curse your target, applying <span style=\"color: #ffffff; display: inline\">Mind Rot</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _virus_purple\" /><span class=\"name\">Mind Rot (Trigger)</span></div><span class=\"desc\">Increases the chance for allies to hit with all spells against the afflicted enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />If this effect is dispelled, your critical strike chance is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.</span></div>",
+        "descriptionText": "Periodic or channeled damage dealt now has a 25% chance to curse your target, applying Mind Rot.\n\n---\n\nMind Rot (Trigger)Increases the chance for allies to hit with all spells against the afflicted enemy by 3% for 10 seconds.\n\nIf this effect is dispelled, your critical strike chance is increased by 30% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33942,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Terror",
+    "description": "Increases the spell damage bonus of <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Wrath of the Empire</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell damage bonus of Horrorbolt by 10% and Wrath of the Empire by 20%.",
+    "iconPath": "interface/icons/ability_warlock_howlofterror",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300304,
+    "spellIds": [
+      300304
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300304,
+        "description": "Increases the spell damage bonus of <span style=\"color: #FFFFFF; display: inline\">Horrorbolt</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Wrath of the Empire</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell damage bonus of Horrorbolt by 10% and Wrath of the Empire by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33945,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Inner Turmoil",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Wrath of the Black Empire by 15%.",
+    "iconPath": "interface/icons/nhi_shadowchains_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706722,
+    "spellIds": [
+      706722
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33938
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706722,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Wrath of the Black Empire by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33953,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Abyssal Destruction",
+    "description": "Periodic or channeled damage dealt now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">-1</span> sec and grants <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Abyssal Destruction</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_priest_shadow_mend\" /><span class=\"name\">Abyssal Destruction</span></div><span class=\"desc\">Increases the damage dealt of your next <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times, for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Periodic or channeled damage dealt now reduces the cooldown of your Obliteration Beam by -1 sec and grants 1 stack of Abyssal Destruction.\n\n---\n\nAbyssal DestructionIncreases the damage dealt of your next Obliteration Beam by 5%, stacking 10 times, for 15 seconds.",
+    "iconPath": "interface/icons/spell_priest_shadow_mend",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300308,
+    "spellIds": [
+      300308
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29478,
+      31356,
+      33957
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300308,
+        "description": "Periodic or channeled damage dealt now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">-1</span> sec and grants <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Abyssal Destruction</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_priest_shadow_mend\" /><span class=\"name\">Abyssal Destruction</span></div><span class=\"desc\">Increases the damage dealt of your next <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times, for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Periodic or channeled damage dealt now reduces the cooldown of your Obliteration Beam by -1 sec and grants 1 stack of Abyssal Destruction.\n\n---\n\nAbyssal DestructionIncreases the damage dealt of your next Obliteration Beam by 5%, stacking 10 times, for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33957,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Misery",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Gaze of C'Thun</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Psychic Suppression</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Casting Gaze of C'Thun now reduces the cooldown of Psychic Suppression by -1 sec.",
+    "iconPath": "interface/icons/achievement_dungeon_lordstormsong",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300298,
+    "spellIds": [
+      300298
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1375
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300298,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Gaze of C'Thun</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Psychic Suppression</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Casting Gaze of C'Thun now reduces the cooldown of Psychic Suppression by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33959,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Dark Whispers",
+    "description": "$95",
+    "descriptionText": "$95",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_shadowsrising_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560977,
+    "spellIds": [
+      560977
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29477,
+      29478
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560977,
+        "description": "$96",
+        "descriptionText": "$96"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1375,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Psychic Suppression",
+    "description": "Lift an enemy into the air, stunning them and dealing <span class=\"item-number\">244</span> + <span class=\"item-number\">55% shadow SP</span> + <span class=\"item-number\">10% AP</span> Shadow Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds. <br /><br />The target takes <span class=\"item-number\">1</span> to <span class=\"item-number\">0</span><span class=\"item-number\">%</span> more spell damage from all sources while you are channeling this spell.",
+    "descriptionText": "Lift an enemy into the air, stunning them and dealing 244 + 55% shadow SP + 10% AP Shadow Damage every 1 sec for 5 seconds. \n\nThe target takes 1 to 0% more spell damage from all sources while you are channeling this spell.",
+    "iconPath": "interface/icons/spell_priest_voidsear",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800432,
+    "spellIds": [
+      800432
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7071,
+      9935,
+      33938
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800432,
+        "description": "Lift an enemy into the air, stunning them and dealing <span class=\"item-number\">244</span> + <span class=\"item-number\">55% shadow SP</span> + <span class=\"item-number\">10% AP</span> Shadow Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds. <br /><br />The target takes <span class=\"item-number\">1</span> to <span class=\"item-number\">0</span><span class=\"item-number\">%</span> more spell damage from all sources while you are channeling this spell.",
+        "descriptionText": "Lift an enemy into the air, stunning them and dealing 244 + 55% shadow SP + 10% AP Shadow Damage every 1 sec for 5 seconds. \n\nThe target takes 1 to 0% more spell damage from all sources while you are channeling this spell."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2312,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Whispers of C'Thun",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now generates <span class=\"item-number\">10</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Level 30 Passive\nYour Gaze of C'Thun now generates 10 Insanity.",
+    "iconPath": "interface/icons/_scrollofspeed_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807512,
+    "spellIds": [
+      807512
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5254
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807512,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now generates <span class=\"item-number\">10</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Level 30 Passive\nYour Gaze of C'Thun now generates 10 Insanity."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4041,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Corrupting Whispers",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, you are granted <span style=\"color: #ffffff; display: inline\">Corrupting Whispers</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_magicspell__85__border\" /><span class=\"name\">Corrupting Whispers (Aura)</span></div><span class=\"desc\">Increases Magic Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces your mana costs by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and prevents <span style=\"color: #cfa6ff; display: inline\">Insanity</span> from decaying.</span></div>",
+    "descriptionText": "Level 10 Passive\nWhile above 60 Insanity, you are granted Corrupting Whispers.\n\n---\n\nCorrupting Whispers (Aura)Increases Magic Damage dealt by 20% and reduces your mana costs by -30% and prevents Insanity from decaying.",
+    "iconPath": "interface/icons/cthunicon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92130,
+    "spellIds": [
+      92130
+    ],
+    "requiredNodeIds": [
+      29470
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 10,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92130,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, you are granted <span style=\"color: #ffffff; display: inline\">Corrupting Whispers</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_magicspell__85__border\" /><span class=\"name\">Corrupting Whispers (Aura)</span></div><span class=\"desc\">Increases Magic Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces your mana costs by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and prevents <span style=\"color: #cfa6ff; display: inline\">Insanity</span> from decaying.</span></div>",
+        "descriptionText": "Level 10 Passive\nWhile above 60 Insanity, you are granted Corrupting Whispers.\n\n---\n\nCorrupting Whispers (Aura)Increases Magic Damage dealt by 20% and reduces your mana costs by -30% and prevents Insanity from decaying."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7052,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Call of N'Zoth",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Darkwither</span> by <span class=\"item-number\">9</span> sec.",
+    "descriptionText": "Increases the duration of Darkwither by 9 sec.",
+    "iconPath": "interface/icons/inv_wand_1h_nzothraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300306,
+    "spellIds": [
+      300306
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6327,
+      6559
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301317,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300306,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Darkwither</span> by <span class=\"item-number\">9</span> sec.",
+        "descriptionText": "Increases the duration of Darkwither by 9 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7056,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Obliteration Beam",
+    "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Unleash a beam of eldritch energy, dealing <span class=\"item-number\">54</span> + <span class=\"item-number\">65% shadow SP</span> Shadow Damage to an enemy and all enemies within <span class=\"item-number\">8</span> yds of them.<br /><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more damage.",
+    "descriptionText": "Generates 10 Insanity\nUnleash a beam of eldritch energy, dealing 54 + 65% shadow SP Shadow Damage to an enemy and all enemies within 8 yds of them.\n\nWhile above 60 Insanity, deals 20% more damage.",
+    "iconPath": "interface/icons/nhi_shadoweye_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805572,
+    "spellIds": [
+      805572
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7052,
+      13052,
+      33937
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805572,
+        "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Unleash a beam of eldritch energy, dealing <span class=\"item-number\">54</span> + <span class=\"item-number\">65% shadow SP</span> Shadow Damage to an enemy and all enemies within <span class=\"item-number\">8</span> yds of them.<br /><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more damage.",
+        "descriptionText": "Generates 10 Insanity\nUnleash a beam of eldritch energy, dealing 54 + 65% shadow SP Shadow Damage to an enemy and all enemies within 8 yds of them.\n\nWhile above 60 Insanity, deals 20% more damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7057,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Corruptor's Gaze",
+    "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of your Tentacles by 20%.",
+    "iconPath": "interface/icons/inv_eyeofnzothpet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802048,
+    "spellIds": [
+      802048
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29270,
+      33939
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802048,
+        "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of your Tentacles by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7058,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Glimpse of Madness",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and it now applies <span style=\"color: #FFFFFF; display: inline\">Madness</span> to all targets struck. <br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_nzinsanity_chasedbyshadows\" /><span class=\"name\">Madness</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span> causes <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased damage, stacks up to <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Reduces the cooldown of Obliteration Beam by -20% and it now applies Madness to all targets struck. \n\n---\n\nMadnessYour Gaze of C'thun causes 3% increased damage, stacks up to 5 times.",
+    "iconPath": "interface/icons/ability_hunter_mastertactitian",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 500719,
+    "spellIds": [
+      500719,
+      500767
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11935,
+      33938
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500719,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and it now applies <span style=\"color: #FFFFFF; display: inline\">Madness</span> to all targets struck. <br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_nzinsanity_chasedbyshadows\" /><span class=\"name\">Madness</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span> causes <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased damage, stacks up to <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Reduces the cooldown of Obliteration Beam by -20% and it now applies Madness to all targets struck. \n\n---\n\nMadnessYour Gaze of C'thun causes 3% increased damage, stacks up to 5 times."
+      },
+      {
+        "rank": 2,
+        "spellId": 500767,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Obliteration Beam</span> by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> and it now applies <span style=\"color: #FFFFFF; display: inline\">Madness</span> to all targets struck. <br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_nzinsanity_chasedbyshadows\" /><span class=\"name\">Madness</span></div><span class=\"desc\">Your <span style=\"color: #ffffff; display: inline\">Gaze of C'thun</span> causes <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased damage, stacks up to <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Reduces the cooldown of Obliteration Beam by -40% and it now applies Madness to all targets struck. \n\n---\n\nMadnessYour Gaze of C'thun causes 3% increased damage, stacks up to 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7071,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Visions",
+    "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your Shadow Damage is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your Shadow Damage is increased by 3%.",
+    "iconPath": "interface/icons/nhi_void_whirl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560526,
+    "spellIds": [
+      560526
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6312
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560526,
+        "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your Shadow Damage is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your Shadow Damage is increased by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7072,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Foulness",
+    "description": "Increases the damage bonus provided by your <span style=\"color: #ffffff; display: inline\">Corrupting Whispers</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage bonus provided by your Corrupting Whispers by 5%.",
+    "iconPath": "interface/icons/novart_magicspell_(85)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706921,
+    "spellIds": [
+      706921
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7057,
+      9935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706921,
+        "description": "Increases the damage bonus provided by your <span style=\"color: #ffffff; display: inline\">Corrupting Whispers</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage bonus provided by your Corrupting Whispers by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6557,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Moment of Clarity",
+    "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span> and increases mana generated by <span style=\"color: #FFFFFF; display: inline\">Sanity Tap</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces spell pushback suffered from damaging attacks by 35% and increases mana generated by Sanity Tap by 5%.",
+    "iconPath": "interface/icons/ability_racial_shadowmeld",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706179,
+    "spellIds": [
+      706179,
+      707783
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6559
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706179,
+        "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span> and increases mana generated by <span style=\"color: #FFFFFF; display: inline\">Sanity Tap</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces spell pushback suffered from damaging attacks by 35% and increases mana generated by Sanity Tap by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707783,
+        "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span> and increases mana generated by <span style=\"color: #FFFFFF; display: inline\">Sanity Tap</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces spell pushback suffered from damaging attacks by 70% and increases mana generated by Sanity Tap by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6559,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Absolute Horror",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> and <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> by <span class=\"item-number\">0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Horrorbolt and Wrath of the Black Empire by 0.3 sec.",
+    "iconPath": "interface/icons/inv_misc_volatileshadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300309,
+    "spellIds": [
+      300309
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31190
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300309,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Horrorbolt</span> and <span style=\"color: #ffffff; display: inline\">Wrath of the Black Empire</span> by <span class=\"item-number\">0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Horrorbolt and Wrath of the Black Empire by 0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6312,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Cunning Nature",
+    "description": "Increases your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and reduces threat generated by Shadow Damage spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to hit by 3% and reduces threat generated by Shadow Damage spells by -15%.",
+    "iconPath": "interface/icons/nhi_shadowwatcher_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706915,
+    "spellIds": [
+      706915,
+      707784
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7052,
+      13052
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706915,
+        "description": "Increases your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and reduces threat generated by Shadow Damage spells by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to hit by 3% and reduces threat generated by Shadow Damage spells by -15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707784,
+        "description": "Increases your chance to hit by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and reduces threat generated by Shadow Damage spells by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to hit by 6% and reduces threat generated by Shadow Damage spells by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6327,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Feeding Darkness",
+    "description": "Increases the range of your Corruption spells by <span class=\"item-number\">3</span> yds and their chance to critically strike by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the range of your Corruption spells by 3 yds and their chance to critically strike by 2%.",
+    "iconPath": "interface/icons/spell_shadow_mindtwisting",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300302,
+    "spellIds": [
+      300302,
+      301347
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31190
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300302,
+        "description": "Increases the range of your Corruption spells by <span class=\"item-number\">3</span> yds and their chance to critically strike by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the range of your Corruption spells by 3 yds and their chance to critically strike by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301347,
+        "description": "Increases the range of your Corruption spells by <span class=\"item-number\">6</span> yds and their chance to critically strike by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the range of your Corruption spells by 6 yds and their chance to critically strike by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4392,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Dark Revelation",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Grants all periodic damage and damage dealt a <span class=\"item-number\">6</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span>.",
+    "descriptionText": "Level 40 Passive\nGrants all periodic damage and damage dealt a 6% chance to reset the cooldown of Gaze of C'Thun.",
+    "iconPath": "interface/icons/spell_nzinsanity_desynchronized",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300313,
+    "spellIds": [
+      300313
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2312
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300313,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Grants all periodic damage and damage dealt a <span class=\"item-number\">6</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span>.",
+        "descriptionText": "Level 40 Passive\nGrants all periodic damage and damage dealt a 6% chance to reset the cooldown of Gaze of C'Thun."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4393,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Blessing of C'Thun",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Darkwither</span> can now critically strike and your spell hit rating is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 50 Passive\nYour Darkwither can now critically strike and your spell hit rating is increased by 5% of your Intellect.",
+    "iconPath": "interface/icons/inv_inscription_talenttome01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301255,
+    "spellIds": [
+      301255
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4392
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301255,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Darkwither</span> can now critically strike and your spell hit rating is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 50 Passive\nYour Darkwither can now critically strike and your spell hit rating is increased by 5% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5176,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Ancient Curse",
+    "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">20</span> Insanity</span><br />Curse an enemy, dealing <span class=\"item-number\">340</span> + <span class=\"item-number\">100% SP</span> Shadow Damage and increasing all Shadow Damage they take from you by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Upon expiration, it deals an additional <span class=\"item-number\">1276</span> + <span class=\"item-number\">100% shadow SP</span> Shadow Damage to the target.",
+    "descriptionText": "Generates 20 Insanity\nCurse an enemy, dealing 340 + 100% SP Shadow Damage and increasing all Shadow Damage they take from you by 10% for 10 seconds.\n\nUpon expiration, it deals an additional 1276 + 100% shadow SP Shadow Damage to the target.",
+    "iconPath": "interface/icons/void_hided_limb",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500712,
+    "spellIds": [
+      500712
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29476,
+      33953,
+      33959
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500712,
+        "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">20</span> Insanity</span><br />Curse an enemy, dealing <span class=\"item-number\">340</span> + <span class=\"item-number\">100% SP</span> Shadow Damage and increasing all Shadow Damage they take from you by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Upon expiration, it deals an additional <span class=\"item-number\">1276</span> + <span class=\"item-number\">100% shadow SP</span> Shadow Damage to the target.",
+        "descriptionText": "Generates 20 Insanity\nCurse an enemy, dealing 340 + 100% SP Shadow Damage and increasing all Shadow Damage they take from you by 10% for 10 seconds.\n\nUpon expiration, it deals an additional 1276 + 100% shadow SP Shadow Damage to the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5254,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 65,
+    "tabKey": "25:65",
+    "tabName": "Corruption",
+    "name": "Dark Magician",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your critical damage dealt by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and your spell power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your critical damage dealt by 50% and your spell power by 30% of your Intellect.",
+    "iconPath": "interface/icons/spell_priest_void_flay",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 563123,
+    "spellIds": [
+      563123
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4041
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 563123,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your critical damage dealt by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and your spell power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your critical damage dealt by 50% and your spell power by 30% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

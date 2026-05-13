@@ -1,0 +1,1677 @@
+[
+  {
+    "nodeId": 30845,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Encroaching Presence",
+    "description": "Your melee critical strikes reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Rift</span> and <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> by <span class=\"item-number\">-3</span> sec.",
+    "descriptionText": "Your melee critical strikes reduce the cooldown of Rift and Gaze of C'Thun by -3 sec.",
+    "iconPath": "interface/icons/nhi_shadowwatcher_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300280,
+    "spellIds": [
+      300280
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12562
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300280,
+        "description": "Your melee critical strikes reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Rift</span> and <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> by <span class=\"item-number\">-3</span> sec.",
+        "descriptionText": "Your melee critical strikes reduce the cooldown of Rift and Gaze of C'Thun by -3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30881,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Netherstrike",
+    "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Strike an enemy quickly for <span class=\"item-number\">125</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">40</span> Shadow Damage, purging <span class=\"item-number\">1</span> beneficial magic effect from them.<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Generates 10 Insanity\nStrike an enemy quickly for 125% Weapon Damage plus 40 Shadow Damage, purging 1 beneficial magic effect from them.\n\nOnly usable on enemies below 35% health.",
+    "iconPath": "interface/icons/nhi_arcanearrow_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806222,
+    "spellIds": [
+      806222
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4810,
+      6543
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806222,
+        "description": "<span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">10</span> Insanity</span><br />Strike an enemy quickly for <span class=\"item-number\">125</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">40</span> Shadow Damage, purging <span class=\"item-number\">1</span> beneficial magic effect from them.<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Generates 10 Insanity\nStrike an enemy quickly for 125% Weapon Damage plus 40 Shadow Damage, purging 1 beneficial magic effect from them.\n\nOnly usable on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33889,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "God Blade",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Rift</span> now guarantees your next <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> to critically strike.",
+    "descriptionText": "Your Rift now guarantees your next Hammer of Twilight to critically strike.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_60",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680377,
+    "spellIds": [
+      680377
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10983,
+      30845
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680377,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Rift</span> now guarantees your next <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> to critically strike.",
+        "descriptionText": "Your Rift now guarantees your next Hammer of Twilight to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33894,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Hand of N'Zoth",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> and <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span>.",
+    "descriptionText": "Your Hammer of Twilight and Gaze of C'Thun now refreshes a charge of Blade of the Empire.",
+    "iconPath": "interface/icons/spell_shadow_chilltouch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704869,
+    "spellIds": [
+      704869
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31189
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704869,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> and <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span>.",
+        "descriptionText": "Your Hammer of Twilight and Gaze of C'Thun now refreshes a charge of Blade of the Empire."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31189,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Rift",
+    "description": "Apply a dark boon to yourself for <span class=\"item-number\">15</span> seconds, causing your next <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> to deal an additional <span class=\"item-number\">80</span><span class=\"item-number\">%</span> of its damage dealt as Shadow Damage.<br /><br />Creates a rift in front of you that absorbs the next <span class=\"item-number\">990</span> + <span class=\"item-number\">150% AP</span> healing taken by enemies that step inside and reduces their periodic healing received by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds while inside.",
+    "descriptionText": "Apply a dark boon to yourself for 15 seconds, causing your next Hammer of Twilight to deal an additional 80% of its damage dealt as Shadow Damage.\n\nCreates a rift in front of you that absorbs the next 990 + 150% AP healing taken by enemies that step inside and reduces their periodic healing received by -50% for 10 seconds while inside.",
+    "iconPath": "interface/icons/inv_chest_armor_voidelf_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806250,
+    "spellIds": [
+      806250
+    ],
+    "requiredNodeIds": [
+      4040
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806250,
+        "description": "Apply a dark boon to yourself for <span class=\"item-number\">15</span> seconds, causing your next <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> to deal an additional <span class=\"item-number\">80</span><span class=\"item-number\">%</span> of its damage dealt as Shadow Damage.<br /><br />Creates a rift in front of you that absorbs the next <span class=\"item-number\">990</span> + <span class=\"item-number\">150% AP</span> healing taken by enemies that step inside and reduces their periodic healing received by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds while inside.",
+        "descriptionText": "Apply a dark boon to yourself for 15 seconds, causing your next Hammer of Twilight to deal an additional 80% of its damage dealt as Shadow Damage.\n\nCreates a rift in front of you that absorbs the next 990 + 150% AP healing taken by enemies that step inside and reduces their periodic healing received by -50% for 10 seconds while inside."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33947,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Void Rage",
+    "description": "Increases the Shadow Damage increased through <span style=\"color: #FFFFFF; display: inline\">Shadow of the Void</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the Shadow Damage increased through Shadow of the Void by 5%.",
+    "iconPath": "interface/icons/ability_hunter_pet_netherray",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681102,
+    "spellIds": [
+      681102
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29272,
+      30515
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 681102,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681102,
+        "description": "Increases the Shadow Damage increased through <span style=\"color: #FFFFFF; display: inline\">Shadow of the Void</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Shadow Damage increased through Shadow of the Void by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33949,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Netherborne",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Netherstrike</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Netherstrike by 25%.",
+    "iconPath": "interface/icons/spell_shadow_summonvoidwalker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801539,
+    "spellIds": [
+      801539
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7609,
+      30511
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 783231,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801539,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Netherstrike</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Netherstrike by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33976,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Shadow Strikes",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause your next auto attack to hit twice.",
+    "descriptionText": "Blade of the Empire now has a 30% chance to cause your next auto attack to hit twice.",
+    "iconPath": "interface/icons/nhi_void_conquer_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707640,
+    "spellIds": [
+      707640
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4810
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707640,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause your next auto attack to hit twice.",
+        "descriptionText": "Blade of the Empire now has a 30% chance to cause your next auto attack to hit twice."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30511,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Tentacle of N'Zoth",
+    "description": "Target an enemy and summon a <span style=\"color: #FFFFFF; display: inline\">Tentacle of N'Zoth</span> on the ground near them that will silence them and deal <span class=\"item-number\">137</span> + <span class=\"item-number\">75% SP</span> Shadow Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">8</span> seconds. If your target runs out of range, the tentacle will seek a new target.<br /><br />The tentacle gains health based on your Stamina. If the tentacle dies, the silence effect will end.<br /><br />",
+    "descriptionText": "Target an enemy and summon a Tentacle of N'Zoth on the ground near them that will silence them and deal 137 + 75% SP Shadow Damage every 2 sec for 8 seconds. If your target runs out of range, the tentacle will seek a new target.\n\nThe tentacle gains health based on your Stamina. If the tentacle dies, the silence effect will end.",
+    "iconPath": "interface/icons/spell_priest_voidtendrils",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572103,
+    "spellIds": [
+      572103
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7555,
+      7556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572103,
+        "description": "Target an enemy and summon a <span style=\"color: #FFFFFF; display: inline\">Tentacle of N'Zoth</span> on the ground near them that will silence them and deal <span class=\"item-number\">137</span> + <span class=\"item-number\">75% SP</span> Shadow Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">8</span> seconds. If your target runs out of range, the tentacle will seek a new target.<br /><br />The tentacle gains health based on your Stamina. If the tentacle dies, the silence effect will end.<br /><br />",
+        "descriptionText": "Target an enemy and summon a Tentacle of N'Zoth on the ground near them that will silence them and deal 137 + 75% SP Shadow Damage every 2 sec for 8 seconds. If your target runs out of range, the tentacle will seek a new target.\n\nThe tentacle gains health based on your Stamina. If the tentacle dies, the silence effect will end."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30512,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Abyssal Cleave",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now strikes <span class=\"item-number\">1</span> additional nearby enemy.",
+    "descriptionText": "Your Gaze of C'Thun now strikes 1 additional nearby enemy.",
+    "iconPath": "interface/icons/custom_t_shadowstab_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707604,
+    "spellIds": [
+      707604,
+      707748
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707604,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now strikes <span class=\"item-number\">1</span> additional nearby enemy.",
+        "descriptionText": "Your Gaze of C'Thun now strikes 1 additional nearby enemy."
+      },
+      {
+        "rank": 2,
+        "spellId": 707748,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now strikes <span class=\"item-number\">1</span> additional nearby enemy.",
+        "descriptionText": "Your Gaze of C'Thun now strikes 1 additional nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30515,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Oblivion's Embrace",
+    "description": "Increases the critical damage of your <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of your Hammer of Twilight by 25%.",
+    "iconPath": "interface/icons/spell_nzinsanity_chasedbyshadows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680500,
+    "spellIds": [
+      680500
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33889
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680500,
+        "description": "Increases the critical damage of your <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of your Hammer of Twilight by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30516,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Shadow Fiend",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Voidborne</span> by <span class=\"item-number\">-90</span> sec and increases its duration by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Voidborne by -90 sec and increases its duration by 5 sec.",
+    "iconPath": "interface/icons/inv_stormdragonvoidmount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680487,
+    "spellIds": [
+      680487
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7558
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680487,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Voidborne</span> by <span class=\"item-number\">-90</span> sec and increases its duration by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Voidborne by -90 sec and increases its duration by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30526,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Instilling Fear",
+    "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, your <span style=\"color: #FFFFFF; display: inline\">Netherstrike</span> and <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now gain <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased critical strike chance.",
+    "descriptionText": "While above 60 Insanity, your Netherstrike and Gaze of C'Thun now gain 10% increased critical strike chance.",
+    "iconPath": "interface/icons/spell_shadow_shadetruesight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 527268,
+    "spellIds": [
+      527268
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7609,
+      29272
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 527268,
+        "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, your <span style=\"color: #FFFFFF; display: inline\">Netherstrike</span> and <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now gain <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased critical strike chance.",
+        "descriptionText": "While above 60 Insanity, your Netherstrike and Gaze of C'Thun now gain 10% increased critical strike chance."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4810,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Voidforged Edge",
+    "description": "Your auto attacks now deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Shadow Damage.",
+    "descriptionText": "Your auto attacks now deal an additional 10% of the damage dealt as Shadow Damage.",
+    "iconPath": "interface/icons/inv_sword_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 704871,
+    "spellIds": [
+      704871,
+      707749,
+      707785
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33894
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704871,
+        "description": "Your auto attacks now deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Shadow Damage.",
+        "descriptionText": "Your auto attacks now deal an additional 10% of the damage dealt as Shadow Damage."
+      },
+      {
+        "rank": 2,
+        "spellId": 707749,
+        "description": "Your auto attacks now deal an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt as Shadow Damage.",
+        "descriptionText": "Your auto attacks now deal an additional 20% of the damage dealt as Shadow Damage."
+      },
+      {
+        "rank": 3,
+        "spellId": 707785,
+        "description": "Your auto attacks now deal an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt as Shadow Damage.",
+        "descriptionText": "Your auto attacks now deal an additional 30% of the damage dealt as Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4845,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Residual Energy",
+    "description": "Doubles the duration of <span style=\"color: #ffffff; display: inline\">Shadow of the Void</span>.",
+    "descriptionText": "Doubles the duration of Shadow of the Void.",
+    "iconPath": "interface/icons/ability_rogue_nightblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681389,
+    "spellIds": [
+      681389
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33976
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681389,
+        "description": "Doubles the duration of <span style=\"color: #ffffff; display: inline\">Shadow of the Void</span>.",
+        "descriptionText": "Doubles the duration of Shadow of the Void."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6542,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Hysterical Momentum",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> increases your melee haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Damage dealt by Blade of the Empire increases your melee haste by 3% for 8 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/spell_nzinsanity_shortsighted",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300275,
+    "spellIds": [
+      300275
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33976
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300275,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> increases your melee haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Damage dealt by Blade of the Empire increases your melee haste by 3% for 8 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6543,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Abyssal Edge",
+    "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces its mana cost by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Blade of the Empire by 2% and reduces its mana cost by -25%.",
+    "iconPath": "interface/icons/inv_sword_1h_draenei_c_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 582836,
+    "spellIds": [
+      582836,
+      582856
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33894
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582836,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces its mana cost by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Blade of the Empire by 2% and reduces its mana cost by -25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 582856,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces its mana cost by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Blade of the Empire by 4% and reduces its mana cost by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6664,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Eldritch Obelisk",
+    "description": "Create an <span style=\"color: #ffffff; display: inline\">Eldritch Obelisk</span> beneath you for <span class=\"item-number\">20</span> seconds, increasing the damage of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and the movement speed of allies by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> while near it.",
+    "descriptionText": "Create an Eldritch Obelisk beneath you for 20 seconds, increasing the damage of your Tentacles by 100% and the movement speed of allies by 40% while near it.",
+    "iconPath": "interface/icons/achievement_nzothraid_nyalothaguildrun",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560321,
+    "spellIds": [
+      560321
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7557,
+      7559,
+      33949
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560321,
+        "description": "Create an <span style=\"color: #ffffff; display: inline\">Eldritch Obelisk</span> beneath you for <span class=\"item-number\">20</span> seconds, increasing the damage of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and the movement speed of allies by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> while near it.",
+        "descriptionText": "Create an Eldritch Obelisk beneath you for 20 seconds, increasing the damage of your Tentacles by 100% and the movement speed of allies by 40% while near it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4040,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Obliteration",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now gains an additional <span class=\"item-number\">205</span> base damage and healing.",
+    "descriptionText": "Level 10 Passive\nYour Gaze of C'Thun now gains an additional 205 base damage and healing.",
+    "iconPath": "interface/icons/nzothicon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92129,
+    "spellIds": [
+      92129
+    ],
+    "requiredNodeIds": [
+      7608
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92129,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Gaze of C'Thun</span> now gains an additional <span class=\"item-number\">205</span> base damage and healing.",
+        "descriptionText": "Level 10 Passive\nYour Gaze of C'Thun now gains an additional 205 base damage and healing."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10983,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Touch of the Void",
+    "description": "Increases your Magic Damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Hammer of Twilight</span> now increases the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Increases your Magic Damage dealt by 3% and Hammer of Twilight now increases the target's spell damage taken by 10% for 15 seconds.",
+    "iconPath": "interface/icons/nhi_void_blackhole_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680508,
+    "spellIds": [
+      680508
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12562
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680508,
+        "description": "Increases your Magic Damage dealt by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and <span style=\"color: #FFFFFF; display: inline\">Hammer of Twilight</span> now increases the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Increases your Magic Damage dealt by 3% and Hammer of Twilight now increases the target's spell damage taken by 10% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11297,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Shadow of the Void",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, melee attacks and abilities trigger <span style=\"color: #FFFFFF; display: inline\">Shadow of the Void</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadowswords_border\" /><span class=\"name\">Shadow of the Void</span></div><span class=\"desc\">Restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana and increases your Shadow Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Level 20 Passive\nWhile above 60 Insanity, melee attacks and abilities trigger Shadow of the Void.\n\n---\n\nShadow of the VoidRestores 5% of your maximum mana and increases your Shadow Damage dealt by 10% for 8 seconds.",
+    "iconPath": "interface/icons/5_shadowswords_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574318,
+    "spellIds": [
+      574318
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4040
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574318,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, melee attacks and abilities trigger <span style=\"color: #FFFFFF; display: inline\">Shadow of the Void</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadowswords_border\" /><span class=\"name\">Shadow of the Void</span></div><span class=\"desc\">Restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana and increases your Shadow Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Level 20 Passive\nWhile above 60 Insanity, melee attacks and abilities trigger Shadow of the Void.\n\n---\n\nShadow of the VoidRestores 5% of your maximum mana and increases your Shadow Damage dealt by 10% for 8 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11298,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Blessing of N'Zoth",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 50 Passive\nIncreases your attack power by 100% of your Intellect.",
+    "iconPath": "interface/icons/inv_nzothfish_void",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681107,
+    "spellIds": [
+      681107
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9298
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681107,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 50 Passive\nIncreases your attack power by 100% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7941,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Twilight Domination",
+    "description": "Damage dealt by your <span style=\"color: #FFFFFF; display: inline\">Tentacles</span> reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Eldritch Obelisk</span> by <span class=\"item-number\">-2</span> sec.<br /><br />In addition, increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Eldritch Obelisk</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Damage dealt by your Tentacles reduces the cooldown of Eldritch Obelisk by -2 sec.\n\nIn addition, increases the effectiveness of Eldritch Obelisk by 25%.",
+    "iconPath": "interface/icons/ability_mount_voidelfstridermount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520405,
+    "spellIds": [
+      520405
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6664
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520405,
+        "description": "Damage dealt by your <span style=\"color: #FFFFFF; display: inline\">Tentacles</span> reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Eldritch Obelisk</span> by <span class=\"item-number\">-2</span> sec.<br /><br />In addition, increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Eldritch Obelisk</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Damage dealt by your Tentacles reduces the cooldown of Eldritch Obelisk by -2 sec.\n\nIn addition, increases the effectiveness of Eldritch Obelisk by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9298,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Void Strength",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your Shadow spell damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Strength and your spell hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 40 Passive\nIncreases your Shadow spell damage by 50% of your Strength and your spell hit chance by 5% of your Strength.",
+    "iconPath": "interface/icons/achievement_nzothraid_nzoth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805121,
+    "spellIds": [
+      805121
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7563
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805121,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your Shadow spell damage by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Strength and your spell hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 40 Passive\nIncreases your Shadow spell damage by 50% of your Strength and your spell hit chance by 5% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29272,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "End Times",
+    "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span>, <span style=\"color: #ffffff; display: inline\">Netherstrike</span>, and <span style=\"color: #FFFFFF; display: inline\">Hammer of Twilight</span> by <span class=\"item-number\">25</span> yds and reduces their mana costs by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Increases the range of Blade of the Empire, Netherstrike, and Hammer of Twilight by 25 yds and reduces their mana costs by -50% for 15 seconds.",
+    "iconPath": "interface/icons/custom_167_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805115,
+    "spellIds": [
+      805115
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7555,
+      33889
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805115,
+        "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Blade of the Empire</span>, <span style=\"color: #ffffff; display: inline\">Netherstrike</span>, and <span style=\"color: #FFFFFF; display: inline\">Hammer of Twilight</span> by <span class=\"item-number\">25</span> yds and reduces their mana costs by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Increases the range of Blade of the Empire, Netherstrike, and Hammer of Twilight by 25 yds and reduces their mana costs by -50% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12562,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Warrior of the Old Gods",
+    "description": "Increases the Weapon Damage dealt by <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> and <span style=\"color: #ffffff; display: inline\">Entropic Slam</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the Weapon Damage dealt by Hammer of Twilight and Entropic Slam by 20%.",
+    "iconPath": "interface/icons/nhi_shadowasphyxiation_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802047,
+    "spellIds": [
+      802047
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6543
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802047,
+        "description": "Increases the Weapon Damage dealt by <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> and <span style=\"color: #ffffff; display: inline\">Entropic Slam</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Weapon Damage dealt by Hammer of Twilight and Entropic Slam by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13897,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Glory to N'Zoth",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Shadow of the Void</span> is active, you now take <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> reduced damage.",
+    "descriptionText": "While Shadow of the Void is active, you now take -15% reduced damage.",
+    "iconPath": "interface/icons/potent_void_effigy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681326,
+    "spellIds": [
+      681326
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29272,
+      30515
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 681102,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681326,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Shadow of the Void</span> is active, you now take <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> reduced damage.",
+        "descriptionText": "While Shadow of the Void is active, you now take -15% reduced damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7554,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Voidseeker",
+    "description": "Melee attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of your <span style=\"color: #ffffff; display: inline\">Netherstrike</span>, allowing the next use regardless of the target's health for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Melee attacks now have a 10% chance to reset the cooldown of your Netherstrike, allowing the next use regardless of the target's health for 8 seconds.",
+    "iconPath": "interface/icons/inv_helm_cloth_eyeballhat_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560320,
+    "spellIds": [
+      560320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30881
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560320,
+        "description": "Melee attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of your <span style=\"color: #ffffff; display: inline\">Netherstrike</span>, allowing the next use regardless of the target's health for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Melee attacks now have a 10% chance to reset the cooldown of your Netherstrike, allowing the next use regardless of the target's health for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7555,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Empire's Grasp",
+    "description": "Teleport an enemy to your position and slow their movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Teleport an enemy to your position and slow their movement speed by -60% for 4 seconds.",
+    "iconPath": "interface/icons/ability_demonhunter_darkness",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500704,
+    "spellIds": [
+      500704
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6542,
+      7554,
+      10983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500704,
+        "description": "Teleport an enemy to your position and slow their movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Teleport an enemy to your position and slow their movement speed by -60% for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7556,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Teachings of Mythrax",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Presence of N'Zoth</span> and <span style=\"color: #ffffff; display: inline\">Presence of Y'Shaarj</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Presence of N'Zoth and Presence of Y'Shaarj by 25%.",
+    "iconPath": "interface/icons/achievement_nazmir_boss_mythraxtheunraveler",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561035,
+    "spellIds": [
+      561035
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4845,
+      6542
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561035,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Presence of N'Zoth</span> and <span style=\"color: #ffffff; display: inline\">Presence of Y'Shaarj</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Presence of N'Zoth and Presence of Y'Shaarj by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7557,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Who Needs Sanity?",
+    "description": "Each stack of <span style=\"color: #cfa6ff; display: inline\">Insanity</span> increases the critical damage of your <span style=\"color: #ffffff; display: inline\">Netherstrike</span> by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Insanity increases the critical damage of your Netherstrike by 1%.",
+    "iconPath": "interface/icons/achievement_zone_netherstorm_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681106,
+    "spellIds": [
+      681106
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7609,
+      30511
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 783231,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681106,
+        "description": "Each stack of <span style=\"color: #cfa6ff; display: inline\">Insanity</span> increases the critical damage of your <span style=\"color: #ffffff; display: inline\">Netherstrike</span> by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Insanity increases the critical damage of your Netherstrike by 1%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7558,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Voidborne",
+    "description": "Tap into your inner voidborne rage, increasing your damage dealt and critical strike chance by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, and granting you immunity to stun effects for <span class=\"item-number\">15</span> seconds.<br /><br />Generates <span class=\"item-number\">1</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span> every <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Tap into your inner voidborne rage, increasing your damage dealt and critical strike chance by 25%, and granting you immunity to stun effects for 15 seconds.\n\nGenerates 1 Insanity every 1 sec.",
+    "iconPath": "interface/icons/nhi_void_wraith_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681104,
+    "spellIds": [
+      681104
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13897,
+      30526,
+      33947
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681104,
+        "description": "Tap into your inner voidborne rage, increasing your damage dealt and critical strike chance by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, and granting you immunity to stun effects for <span class=\"item-number\">15</span> seconds.<br /><br />Generates <span class=\"item-number\">1</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span> every <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Tap into your inner voidborne rage, increasing your damage dealt and critical strike chance by 25%, and granting you immunity to stun effects for 15 seconds.\n\nGenerates 1 Insanity every 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7559,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Eye of N'zoth",
+    "description": "Increases the critical strike chance and critical damage of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance and critical damage of your Tentacles by 10%.",
+    "iconPath": "interface/icons/inv_eyeofnzothpet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802728,
+    "spellIds": [
+      802728
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30511,
+      30512
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802728,
+        "description": "Increases the critical strike chance and critical damage of your <span style=\"color: #ffffff; display: inline\">Tentacles</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance and critical damage of your Tentacles by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7563,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Twilight's Call",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Critical strikes with <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> now refund <span class=\"item-number\">20</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Level 30 Passive\nCritical strikes with Hammer of Twilight now refund 20 Insanity.",
+    "iconPath": "interface/icons/inv_hand_1h_shaclaw",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301180,
+    "spellIds": [
+      301180
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11297
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301180,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Critical strikes with <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> now refund <span class=\"item-number\">20</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Level 30 Passive\nCritical strikes with Hammer of Twilight now refund 20 Insanity."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7564,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Nutcase",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Shadow of the Void</span> now also increases your critical damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Shadow of the Void now also increases your critical damage dealt by 10%.",
+    "iconPath": "interface/icons/inv_dhmurloc_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805117,
+    "spellIds": [
+      805117
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7557,
+      30526,
+      33949
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805117,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Shadow of the Void</span> now also increases your critical damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Shadow of the Void now also increases your critical damage dealt by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7565,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Book of N'Zoth",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Shadow of the Void</span> now stacks <span class=\"item-number\">1</span> additional time.",
+    "descriptionText": "Your Shadow of the Void now stacks 1 additional time.",
+    "iconPath": "interface/icons/_book2_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806768,
+    "spellIds": [
+      806768
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7564
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806768,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Shadow of the Void</span> now stacks <span class=\"item-number\">1</span> additional time.",
+        "descriptionText": "Your Shadow of the Void now stacks 1 additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7609,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 64,
+    "tabKey": "25:64",
+    "tabName": "Godblade",
+    "name": "Seething Void",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Empire's Grasp</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Empire's Grasp by -5 sec.",
+    "iconPath": "interface/icons/spell_fire_twilighthellfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524804,
+    "spellIds": [
+      524804
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7555
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524804,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Empire's Grasp</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Empire's Grasp by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

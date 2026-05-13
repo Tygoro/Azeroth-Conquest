@@ -1,0 +1,1684 @@
+[
+  {
+    "nodeId": 11133,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Hexfire Wrath",
+    "description": "$3d",
+    "descriptionText": "$3d",
+    "iconPath": "interface/icons/nhi_corruptionfire_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704500,
+    "spellIds": [
+      704500
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11532
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704500,
+        "description": "$3e",
+        "descriptionText": "$3e"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11532,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Juju Spirits",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Bad Juju</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each active <span style=\"color: #FFFFFF; display: inline\">Spirit</span> on you.",
+    "descriptionText": "Level 40 Passive\nIncreases the critical strike chance of Bad Juju by 5% for each active Spirit on you.",
+    "iconPath": "interface/icons/spell_nature_bloodlust",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807296,
+    "spellIds": [
+      807296
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4532
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807296,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Bad Juju</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each active <span style=\"color: #FFFFFF; display: inline\">Spirit</span> on you.",
+        "descriptionText": "Level 40 Passive\nIncreases the critical strike chance of Bad Juju by 5% for each active Spirit on you."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29121,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Malignant Jinx",
+    "description": "Curse an enemy for <span class=\"item-number\">8</span> seconds, causing their next spell cast to silence them for <span class=\"item-number\">5</span> sec.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Jinx</span> active on a target at a time.",
+    "descriptionText": "Curse an enemy for 8 seconds, causing their next spell cast to silence them for 5 sec.\n\nCan only have 1 Jinx active on a target at a time.",
+    "iconPath": "interface/icons/spell_shadow_fingerofdeath",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803678,
+    "spellIds": [
+      803678
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5333,
+      6059,
+      6644
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803678,
+        "description": "Curse an enemy for <span class=\"item-number\">8</span> seconds, causing their next spell cast to silence them for <span class=\"item-number\">5</span> sec.<br /><br />Can only have <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Jinx</span> active on a target at a time.",
+        "descriptionText": "Curse an enemy for 8 seconds, causing their next spell cast to silence them for 5 sec.\n\nCan only have 1 Jinx active on a target at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30889,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Prolonged Malice",
+    "description": "Increases duration of your <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span> and the range of your offensive Voodoo spells by <span class=\"item-number\">6</span> yds.",
+    "descriptionText": "Increases duration of your Hex of Malice and the range of your offensive Voodoo spells by 6 yds.",
+    "iconPath": "interface/icons/spell_shadow_chilltouch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704505,
+    "spellIds": [
+      704505
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6644,
+      31343
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704505,
+        "description": "Increases duration of your <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span> and the range of your offensive Voodoo spells by <span class=\"item-number\">6</span> yds.",
+        "descriptionText": "Increases duration of your Hex of Malice and the range of your offensive Voodoo spells by 6 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30973,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Staff of the Coven",
+    "description": "Increases your Spirit by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Spirit by 8% and your hit chance by 2%.",
+    "iconPath": "interface/icons/inv_staff_2h_zandalarquest_b_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 806563,
+    "spellIds": [
+      806563,
+      807905,
+      807915
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7157,
+      31340
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806563,
+        "description": "Increases your Spirit by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 8% and your hit chance by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807905,
+        "description": "Increases your Spirit by <span class=\"item-number\">16</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 16% and your hit chance by 4%."
+      },
+      {
+        "rank": 3,
+        "spellId": 807915,
+        "description": "Increases your Spirit by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 25% and your hit chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29768,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Voice of Bwonsamdi",
+    "description": "Let the spirit of Bwonsamdi possess you for <span class=\"item-number\">15</span> seconds.<br /><br />Dealing periodic damage unleashes a trapped voodoo spirit at enemies, exploding for <span class=\"item-number\">162</span> + <span class=\"item-number\">25% shadow SP</span> Shadow Damage.",
+    "descriptionText": "Let the spirit of Bwonsamdi possess you for 15 seconds.\n\nDealing periodic damage unleashes a trapped voodoo spirit at enemies, exploding for 162 + 25% shadow SP Shadow Damage.",
+    "iconPath": "interface/icons/ability_racial_embraceoftheloa_bwonsomdi",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801716,
+    "spellIds": [
+      801716
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6053,
+      30889
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801716,
+        "description": "Let the spirit of Bwonsamdi possess you for <span class=\"item-number\">15</span> seconds.<br /><br />Dealing periodic damage unleashes a trapped voodoo spirit at enemies, exploding for <span class=\"item-number\">162</span> + <span class=\"item-number\">25% shadow SP</span> Shadow Damage.",
+        "descriptionText": "Let the spirit of Bwonsamdi possess you for 15 seconds.\n\nDealing periodic damage unleashes a trapped voodoo spirit at enemies, exploding for 162 + 25% shadow SP Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30596,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Puppeteer's Grasp",
+    "description": "Transform into a malignant spirit for <span class=\"item-number\">15</span> seconds, allowing you to cast <span style=\"color: #ffffff; display: inline\">Malefic Wrath</span> while moving, and periodically granting you a <span style=\"color: #ffffff; display: inline\">Spirit</span> every <span class=\"item-number\">2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Transform into a malignant spirit for 15 seconds, allowing you to cast Malefic Wrath while moving, and periodically granting you a Spirit every 2 sec.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/nhi_unholyspirit_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707209,
+    "spellIds": [
+      707209
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6058,
+      30973
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707209,
+        "description": "Transform into a malignant spirit for <span class=\"item-number\">15</span> seconds, allowing you to cast <span style=\"color: #ffffff; display: inline\">Malefic Wrath</span> while moving, and periodically granting you a <span style=\"color: #ffffff; display: inline\">Spirit</span> every <span class=\"item-number\">2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Transform into a malignant spirit for 15 seconds, allowing you to cast Malefic Wrath while moving, and periodically granting you a Spirit every 2 sec.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29928,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Bad Juju",
+    "description": "Hurl a bolt of dark magic at an enemy, dealing <span class=\"item-number\">119</span> Shadow Damage.<br /><br />If the target is affected by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> it additionally reduces the target's healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Hurl a bolt of dark magic at an enemy, dealing 119 Shadow Damage.\n\nIf the target is affected by Hex of Malice it additionally reduces the target's healing received by -20% for 8 seconds.",
+    "iconPath": "interface/icons/skill_icon_skill5_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802087,
+    "spellIds": [
+      802087
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31345
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802087,
+        "description": "Hurl a bolt of dark magic at an enemy, dealing <span class=\"item-number\">119</span> Shadow Damage.<br /><br />If the target is affected by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> it additionally reduces the target's healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Hurl a bolt of dark magic at an enemy, dealing 119 Shadow Damage.\n\nIf the target is affected by Hex of Malice it additionally reduces the target's healing received by -20% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29929,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Soul Marionette",
+    "description": "$3f",
+    "descriptionText": "$3f",
+    "iconPath": "interface/icons/_d3bigbadvoodoo",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704497,
+    "spellIds": [
+      704497
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6055
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704497,
+        "description": "$40",
+        "descriptionText": "$40"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31154,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Shadow Puppets",
+    "description": "Channel for <span class=\"item-number\">3</span> seconds, summoning a <span style=\"color: #ffffff; display: inline\">Shadow Puppet</span> every <span class=\"item-number\">1</span> sec that rushes towards your target and explodes on impact, dealing <span class=\"item-number\">27</span> + <span class=\"item-number\">22% shadow SP</span> Shadow Damage.",
+    "descriptionText": "Channel for 3 seconds, summoning a Shadow Puppet every 1 sec that rushes towards your target and explodes on impact, dealing 27 + 22% shadow SP Shadow Damage.",
+    "iconPath": "interface/icons/custom_45_voodoo_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500015,
+    "spellIds": [
+      500015
+    ],
+    "requiredNodeIds": [
+      4004,
+      29301
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500015,
+        "description": "Channel for <span class=\"item-number\">3</span> seconds, summoning a <span style=\"color: #ffffff; display: inline\">Shadow Puppet</span> every <span class=\"item-number\">1</span> sec that rushes towards your target and explodes on impact, dealing <span class=\"item-number\">27</span> + <span class=\"item-number\">22% shadow SP</span> Shadow Damage.",
+        "descriptionText": "Channel for 3 seconds, summoning a Shadow Puppet every 1 sec that rushes towards your target and explodes on impact, dealing 27 + 22% shadow SP Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31340,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Zalazane's Malice",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and the duration of <span style=\"color: #ffffff; display: inline\">Jinxes</span> by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Increases the damage of Hex of Malice by 15% and the duration of Jinxes by 2 sec.",
+    "iconPath": "interface/icons/spell_shadow_impphaseshift",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705902,
+    "spellIds": [
+      705902
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31344,
+      31345
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705902,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and the duration of <span style=\"color: #ffffff; display: inline\">Jinxes</span> by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Increases the damage of Hex of Malice by 15% and the duration of Jinxes by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31341,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "It's Da Voodoo",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shadowflare</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Shadowflare by 25%.",
+    "iconPath": "interface/icons/spell_nature_regenerate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560278,
+    "spellIds": [
+      560278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705917,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560278,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shadowflare</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Shadowflare by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31343,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Overflowing Juju",
+    "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Malefic Wrath</span>, <span style=\"color: #ffffff; display: inline\">Shadowflare</span>, and <span style=\"color: #ffffff; display: inline\">Bad Juju</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Malefic Wrath, Shadowflare, and Bad Juju by 20%.",
+    "iconPath": "interface/icons/spell_nature_rejuvenation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707405,
+    "spellIds": [
+      707405
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6062
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707405,
+        "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Malefic Wrath</span>, <span style=\"color: #ffffff; display: inline\">Shadowflare</span>, and <span style=\"color: #ffffff; display: inline\">Bad Juju</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Malefic Wrath, Shadowflare, and Bad Juju by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31344,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Stranglethorn Style",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces threat generated by your Voodoo spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 4% and reduces threat generated by your Voodoo spells by -20%.",
+    "iconPath": "interface/icons/achievement_zone_tanaanjungle",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705877,
+    "spellIds": [
+      705877
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31154
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705877,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces threat generated by your Voodoo spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 4% and reduces threat generated by your Voodoo spells by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31345,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Loa Spirits",
+    "description": "Damage dealt and healing done now has a <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to collect a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<br /><br />In addition, reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Damage dealt and healing done now has a 8% chance to collect a Spirit.\n\nIn addition, reduces spell pushback suffered from damaging attacks by 35%.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/nhi_spiritualrage_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 804620,
+    "spellIds": [
+      804620,
+      807904
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31154
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804620,
+        "description": "Damage dealt and healing done now has a <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to collect a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<br /><br />In addition, reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Damage dealt and healing done now has a 8% chance to collect a Spirit.\n\nIn addition, reduces spell pushback suffered from damaging attacks by 35%.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times."
+      },
+      {
+        "rank": 2,
+        "spellId": 807904,
+        "description": "Damage dealt and healing done now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to collect a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<br /><br />In addition, reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Damage dealt and healing done now has a 15% chance to collect a Spirit.\n\nIn addition, reduces spell pushback suffered from damaging attacks by 70%.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31346,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Dark Effigy",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> now strike <span class=\"item-number\">2</span> additional nearby enemies.<br /><br /><span style=\"color: #ffffff; display: inline\">Shadowflare</span> now deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage to enemies affected by <span style=\"color: #ffffff; display: inline\">Puppeteer's Threads</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_archaeology_troll_voodoodoll\" /><span class=\"name\">Puppeteer’s Threads (Debuff)</span></div><span class=\"desc\">Damage taken from the Witch Doctor stores <span class=\"item-number\">10%</span> of its value. When the effect ends the damage stored is dealt instantly.</span></div>",
+    "descriptionText": "Your Bad Juju and Hexfire now strike 2 additional nearby enemies.\n\nShadowflare now deals 50% increased damage to enemies affected by Puppeteer's Threads.\n\n---\n\nPuppeteer’s Threads (Debuff)Damage taken from the Witch Doctor stores 10% of its value. When the effect ends the damage stored is dealt instantly.",
+    "iconPath": "interface/icons/inv__faction_zandalariempire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707331,
+    "spellIds": [
+      707331
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6055,
+      7100,
+      29768
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707331,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> now strike <span class=\"item-number\">2</span> additional nearby enemies.<br /><br /><span style=\"color: #ffffff; display: inline\">Shadowflare</span> now deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage to enemies affected by <span style=\"color: #ffffff; display: inline\">Puppeteer's Threads</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_archaeology_troll_voodoodoll\" /><span class=\"name\">Puppeteer’s Threads (Debuff)</span></div><span class=\"desc\">Damage taken from the Witch Doctor stores <span class=\"item-number\">10%</span> of its value. When the effect ends the damage stored is dealt instantly.</span></div>",
+        "descriptionText": "Your Bad Juju and Hexfire now strike 2 additional nearby enemies.\n\nShadowflare now deals 50% increased damage to enemies affected by Puppeteer's Threads.\n\n---\n\nPuppeteer’s Threads (Debuff)Damage taken from the Witch Doctor stores 10% of its value. When the effect ends the damage stored is dealt instantly."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31347,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Hexplosion",
+    "description": "Your offensive critical strikes now increase your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Your offensive critical strikes now increase your haste by 20% for 6 seconds.",
+    "iconPath": "interface/icons/_shamantotam_wind",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704495,
+    "spellIds": [
+      704495
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6046
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704495,
+        "description": "Your offensive critical strikes now increase your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Your offensive critical strikes now increase your haste by 20% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31348,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Growing Malice",
+    "description": "Each tick of <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span> increases the damage of the next tick on the enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Each tick of Hex of Malice increases the damage of the next tick on the enemy by 3%, stacking 10 times.",
+    "iconPath": "interface/icons/nhi_skullofhate_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706551,
+    "spellIds": [
+      706551
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6062,
+      30596
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706551,
+        "description": "Each tick of <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span> increases the damage of the next tick on the enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Each tick of Hex of Malice increases the damage of the next tick on the enemy by 3%, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31349,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "War Golem",
+    "description": "Summon a <span style=\"color: #ffffff; display: inline\">War Golem</span> for <span class=\"item-number\">10</span> seconds, absorbing damage dealt to you based on your Intellect, and redirecting harmful spells cast on nearby allies to itself.",
+    "descriptionText": "Summon a War Golem for 10 seconds, absorbing damage dealt to you based on your Intellect, and redirecting harmful spells cast on nearby allies to itself.",
+    "iconPath": "interface/icons/inv_misc_archaeology_trollgolem",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800330,
+    "spellIds": [
+      800330
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5333,
+      31347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800330,
+        "description": "Summon a <span style=\"color: #ffffff; display: inline\">War Golem</span> for <span class=\"item-number\">10</span> seconds, absorbing damage dealt to you based on your Intellect, and redirecting harmful spells cast on nearby allies to itself.",
+        "descriptionText": "Summon a War Golem for 10 seconds, absorbing damage dealt to you based on your Intellect, and redirecting harmful spells cast on nearby allies to itself."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31350,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Voodoo Strings",
+    "description": "When <span style=\"color: #ffffff; display: inline\">Bad Juju</span> is used on enemies affected by <span style=\"color: #ffffff; display: inline\">Puppeteer's Threads</span>, it strikes an additional time every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">30%</span> of the damage dealt over <span class=\"item-number\">3</span> seconds as Nature Damage.",
+    "descriptionText": "When Bad Juju is used on enemies affected by Puppeteer's Threads, it strikes an additional time every 1 sec for 30% of the damage dealt over 3 seconds as Nature Damage.",
+    "iconPath": "interface/icons/inv_misc_thread_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705910,
+    "spellIds": [
+      705910
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31343
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705910,
+        "description": "When <span style=\"color: #ffffff; display: inline\">Bad Juju</span> is used on enemies affected by <span style=\"color: #ffffff; display: inline\">Puppeteer's Threads</span>, it strikes an additional time every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">30%</span> of the damage dealt over <span class=\"item-number\">3</span> seconds as Nature Damage.",
+        "descriptionText": "When Bad Juju is used on enemies affected by Puppeteer's Threads, it strikes an additional time every 1 sec for 30% of the damage dealt over 3 seconds as Nature Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6644,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Malignant",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and <span style=\"color: #FFFFFF; display: inline\">Hexfire</span> now spreads <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> to up to <span class=\"item-number\">1</span> nearby enemy.",
+    "descriptionText": "Damage dealt by Bad Juju and Hexfire now spreads Hex of Malice to up to 1 nearby enemy.",
+    "iconPath": "interface/icons/inv_archaeology_80_zandalari_sanguinetotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704503,
+    "spellIds": [
+      704503
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704503,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and <span style=\"color: #FFFFFF; display: inline\">Hexfire</span> now spreads <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> to up to <span class=\"item-number\">1</span> nearby enemy.",
+        "descriptionText": "Damage dealt by Bad Juju and Hexfire now spreads Hex of Malice to up to 1 nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6007,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Beware The Voodoo",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Mimic</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of Mimic by 3 sec.",
+    "iconPath": "interface/icons/achievement_zg_hexxer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707168,
+    "spellIds": [
+      707168,
+      707857
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6046,
+      30596
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707168,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Mimic</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of Mimic by 3 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 707857,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Mimic</span> by <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Increases the duration of Mimic by 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6045,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Hollow Spirit",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Shadowflare</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> now increases the chance enemies are critically struck by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Damage dealt by Shadowflare and Hexfire now increases the chance enemies are critically struck by 3% for 12 seconds.",
+    "iconPath": "interface/icons/_instableaffliction_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705917,
+    "spellIds": [
+      705917
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705917,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705917,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Shadowflare</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> now increases the chance enemies are critically struck by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Damage dealt by Shadowflare and Hexfire now increases the chance enemies are critically struck by 3% for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6046,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Voodoo Spirits",
+    "description": "<span style=\"color: #ffffff; display: inline\">Hexfire</span> now snaps your <span style=\"color: #ffffff; display: inline\">Puppeteer's Threads</span> on your target, unleashing its damage on them instantly and collecting one <span style=\"color: #FFFFFF; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Hexfire now snaps your Puppeteer's Threads on your target, unleashing its damage on them instantly and collecting one Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/achievement_jadeserpent_2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704511,
+    "spellIds": [
+      704511
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7157
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704511,
+        "description": "<span style=\"color: #ffffff; display: inline\">Hexfire</span> now snaps your <span style=\"color: #ffffff; display: inline\">Puppeteer's Threads</span> on your target, unleashing its damage on them instantly and collecting one <span style=\"color: #FFFFFF; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Hexfire now snaps your Puppeteer's Threads on your target, unleashing its damage on them instantly and collecting one Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6053,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Voodoo Unleashed",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mimics</span> now also cast <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and casting <span style=\"color: #ffffff; display: inline\">Mimic</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> by <span class=\"item-number\">-6</span> sec.",
+    "descriptionText": "Your Mimics now also cast Bad Juju and casting Mimic now reduces the cooldown of Shadow Puppets by -6 sec.",
+    "iconPath": "interface/icons/5_clonesnobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705901,
+    "spellIds": [
+      705901
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31350
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705901,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mimics</span> now also cast <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and casting <span style=\"color: #ffffff; display: inline\">Mimic</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> by <span class=\"item-number\">-6</span> sec.",
+        "descriptionText": "Your Mimics now also cast Bad Juju and casting Mimic now reduces the cooldown of Shadow Puppets by -6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6055,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Malicious Golems",
+    "description": "Summoning your <span style=\"color: #ffffff; display: inline\">War Golem</span> now increases your spell haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />In addition, periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> and damage dealt by <span style=\"color: #ffffff; display: inline\">Mark of Malice</span> will reduce the cooldown of <span style=\"color: #ffffff; display: inline\">War Golem</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Summoning your War Golem now increases your spell haste by 30% for 20 seconds.\n\nIn addition, periodic damage dealt by Hex of Malice and damage dealt by Mark of Malice will reduce the cooldown of War Golem by -0.5 sec.",
+    "iconPath": "interface/icons/achievement_dungeon_gundrak_heroic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705912,
+    "spellIds": [
+      705912
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5332,
+      31349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705912,
+        "description": "Summoning your <span style=\"color: #ffffff; display: inline\">War Golem</span> now increases your spell haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />In addition, periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> and damage dealt by <span style=\"color: #ffffff; display: inline\">Mark of Malice</span> will reduce the cooldown of <span style=\"color: #ffffff; display: inline\">War Golem</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Summoning your War Golem now increases your spell haste by 30% for 20 seconds.\n\nIn addition, periodic damage dealt by Hex of Malice and damage dealt by Mark of Malice will reduce the cooldown of War Golem by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6057,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "The Price of Power",
+    "description": "<span style=\"color: #ffffff; display: inline\">Voice of Bwonsamdi</span> now increases your Spirit by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Voice of Bwonsamdi now increases your Spirit by 100%.",
+    "iconPath": "interface/icons/_manaburn_shadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705916,
+    "spellIds": [
+      705916
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29768
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705916,
+        "description": "<span style=\"color: #ffffff; display: inline\">Voice of Bwonsamdi</span> now increases your Spirit by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Voice of Bwonsamdi now increases your Spirit by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6058,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Dark Magic",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Malefic Wrath</span> and <span style=\"color: #FFFFFF; display: inline\">Bad Juju</span> by <span class=\"item-number\">-0.3</span> sec.",
+    "descriptionText": "Reduces the cast time of Malefic Wrath and Bad Juju by -0.3 sec.",
+    "iconPath": "interface/icons/trade_archaeology_troll_tablet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705922,
+    "spellIds": [
+      705922
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29928,
+      31340
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705922,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Malefic Wrath</span> and <span style=\"color: #FFFFFF; display: inline\">Bad Juju</span> by <span class=\"item-number\">-0.3</span> sec.",
+        "descriptionText": "Reduces the cast time of Malefic Wrath and Bad Juju by -0.3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6059,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Voodoo Mind",
+    "description": "<span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> now channels <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> faster and lasts <span class=\"item-number\">10</span><span class=\"item-number\">%</span> longer for each <span style=\"color: #ffffff; display: inline\">Spirit</span> active on you.",
+    "descriptionText": "Shadow Puppets now channels -10% faster and lasts 10% longer for each Spirit active on you.",
+    "iconPath": "interface/icons/inv_qirajidol_death",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504462,
+    "spellIds": [
+      504462
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6007,
+      31348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504462,
+        "description": "<span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> now channels <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> faster and lasts <span class=\"item-number\">10</span><span class=\"item-number\">%</span> longer for each <span style=\"color: #ffffff; display: inline\">Spirit</span> active on you.",
+        "descriptionText": "Shadow Puppets now channels -10% faster and lasts 10% longer for each Spirit active on you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6062,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Ritual Hexing",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Bad Juju</span>, <span style=\"color: #FFFFFF; display: inline\">Malefic Wrath</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against enemies affected by <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span>.",
+    "descriptionText": "Increases the damage of Bad Juju, Malefic Wrath and Hexfire by 10% against enemies affected by Hex of Malice.",
+    "iconPath": "interface/icons/_spellcasting_shadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705840,
+    "spellIds": [
+      705840,
+      705841
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29928
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705840,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Bad Juju</span>, <span style=\"color: #FFFFFF; display: inline\">Malefic Wrath</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against enemies affected by <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span>.",
+        "descriptionText": "Increases the damage of Bad Juju, Malefic Wrath and Hexfire by 10% against enemies affected by Hex of Malice."
+      },
+      {
+        "rank": 2,
+        "spellId": 705841,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Bad Juju</span>, <span style=\"color: #FFFFFF; display: inline\">Malefic Wrath</span> and <span style=\"color: #ffffff; display: inline\">Hexfire</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> against enemies affected by <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span>.",
+        "descriptionText": "Increases the damage of Bad Juju, Malefic Wrath and Hexfire by 20% against enemies affected by Hex of Malice."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4004,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Puppeteer's Threads",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Damaging abilities now have a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to leave behind <span style=\"color: #FFFFFF; display: inline\">Puppeteer's Threads</span> on enemies for <span class=\"item-number\">10</span> seconds. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_archaeology_troll_voodoodoll\" /><span class=\"name\">Puppeteer’s Threads (Debuff)</span></div><span class=\"desc\">Damage taken from the Witch Doctor stores <span class=\"item-number\">10%</span> of its value. When the effect ends the damage stored is dealt instantly.</span></div>",
+    "descriptionText": "Level 10 Passive\nDamaging abilities now have a 35% chance to leave behind Puppeteer's Threads on enemies for 10 seconds. \n\n---\n\nPuppeteer’s Threads (Debuff)Damage taken from the Witch Doctor stores 10% of its value. When the effect ends the damage stored is dealt instantly.",
+    "iconPath": "interface/icons/trade_archaeology_troll_voodoodoll",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92084,
+    "spellIds": [
+      92084
+    ],
+    "requiredNodeIds": [
+      29301
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92084,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Damaging abilities now have a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to leave behind <span style=\"color: #FFFFFF; display: inline\">Puppeteer's Threads</span> on enemies for <span class=\"item-number\">10</span> seconds. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_archaeology_troll_voodoodoll\" /><span class=\"name\">Puppeteer’s Threads (Debuff)</span></div><span class=\"desc\">Damage taken from the Witch Doctor stores <span class=\"item-number\">10%</span> of its value. When the effect ends the damage stored is dealt instantly.</span></div>",
+        "descriptionText": "Level 10 Passive\nDamaging abilities now have a 35% chance to leave behind Puppeteer's Threads on enemies for 10 seconds. \n\n---\n\nPuppeteer’s Threads (Debuff)Damage taken from the Witch Doctor stores 10% of its value. When the effect ends the damage stored is dealt instantly."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4532,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Overflowing Juju",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Damage dealt by your <span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> and <span style=\"color: #FFFFFF; display: inline\">Puppeteer's Threads</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and cause your next cast to incur an <span class=\"item-number\">-8</span> sec reduced cooldown.",
+    "descriptionText": "Level 30 Passive\nDamage dealt by your Shadow Puppets and Puppeteer's Threads now has a 15% chance to reset the cooldown of Bad Juju and cause your next cast to incur an -8 sec reduced cooldown.",
+    "iconPath": "interface/icons/_bannishkt_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705844,
+    "spellIds": [
+      705844
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4533
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705844,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Damage dealt by your <span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> and <span style=\"color: #FFFFFF; display: inline\">Puppeteer's Threads</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Bad Juju</span> and cause your next cast to incur an <span class=\"item-number\">-8</span> sec reduced cooldown.",
+        "descriptionText": "Level 30 Passive\nDamage dealt by your Shadow Puppets and Puppeteer's Threads now has a 15% chance to reset the cooldown of Bad Juju and cause your next cast to incur an -8 sec reduced cooldown."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4533,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Voodoo Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Spirit and your spell hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Spirit.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell power by 50% of your Spirit and your spell hit rating by 5% of your Spirit.",
+    "iconPath": "interface/icons/spell_nature_faeriefire",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706482,
+    "spellIds": [
+      706482
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4004
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706482,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your Spirit and your spell hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Spirit.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell power by 50% of your Spirit and your spell hit rating by 5% of your Spirit."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5332,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Dark Loa's Blessing",
+    "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your <span style=\"color: #FFFFFF; display: inline\">Shadow Puppets</span> now channels <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster.",
+    "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your Shadow Puppets now channels -20% faster.",
+    "iconPath": "interface/icons/ability_racial_wardoftheloashadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560545,
+    "spellIds": [
+      560545
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6045,
+      31341
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560545,
+        "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your <span style=\"color: #FFFFFF; display: inline\">Shadow Puppets</span> now channels <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster.",
+        "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your Shadow Puppets now channels -20% faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5333,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Jin'do's Wrath",
+    "description": "Increases your spell critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your spell critical damage by 100%.",
+    "iconPath": "interface/icons/_troll_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707505,
+    "spellIds": [
+      707505
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6007
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707505,
+        "description": "Increases your spell critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell critical damage by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7100,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "De Other Side",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> now increases your damage and critical strike chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking up to <span class=\"item-number\">10</span> times.<br /><br />Additional procs do not refresh the duration.",
+    "descriptionText": "Damage dealt by Shadow Puppets now increases your damage and critical strike chance by 1% for 20 seconds, stacking up to 10 times.\n\nAdditional procs do not refresh the duration.",
+    "iconPath": "interface/icons/inv_sword_2h_artifactsoulrend_d_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802092,
+    "spellIds": [
+      802092
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29121,
+      30889,
+      31349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802092,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Shadow Puppets</span> now increases your damage and critical strike chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking up to <span class=\"item-number\">10</span> times.<br /><br />Additional procs do not refresh the duration.",
+        "descriptionText": "Damage dealt by Shadow Puppets now increases your damage and critical strike chance by 1% for 20 seconds, stacking up to 10 times.\n\nAdditional procs do not refresh the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7157,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 34,
+    "tabKey": "13:34",
+    "tabName": "Voodoo",
+    "name": "Hexfire",
+    "description": "Blast an enemy with hexfire, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 38+6.6+SPFI*0.55, 38+6.6+SPN*0.55)</span> Fire Damage.",
+    "descriptionText": "Blast an enemy with hexfire, dealing cond(gt(SPFI, SPN), 38+6.6+SPFI*0.55, 38+6.6+SPN*0.55) Fire Damage.",
+    "iconPath": "interface/icons/nhi_nightmarepuppet_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807042,
+    "spellIds": [
+      807042
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31344
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807042,
+        "description": "Blast an enemy with hexfire, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 38+6.6+SPFI*0.55, 38+6.6+SPN*0.55)</span> Fire Damage.",
+        "descriptionText": "Blast an enemy with hexfire, dealing cond(gt(SPFI, SPN), 38+6.6+SPFI*0.55, 38+6.6+SPN*0.55) Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

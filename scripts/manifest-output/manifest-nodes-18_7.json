@@ -1,0 +1,1725 @@
+[
+  {
+    "nodeId": 12710,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "High Guard",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />After using <span style=\"color: #ffffff; display: inline\">Raise Shield</span>, <span style=\"color: #ffffff; display: inline\">Advance</span> or <span style=\"color: #ffffff; display: inline\">Battle Rush</span>, you are granted <span style=\"color: #ffffff; display: inline\">High Guard</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_warriorskill_03_border\" /><span class=\"name\">High Guard (Buff)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> within <span class=\"item-number\">15</span> seconds triggers no cooldown.</span></div>",
+    "descriptionText": "Level 50 Passive\nAfter using Raise Shield, Advance or Battle Rush, you are granted High Guard.\n\n---\n\nHigh Guard (Buff)Your next Heavy Blow within 15 seconds triggers no cooldown.",
+    "iconPath": "interface/icons/custom_warriorskill_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707621,
+    "spellIds": [
+      707621
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4710
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707621,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />After using <span style=\"color: #ffffff; display: inline\">Raise Shield</span>, <span style=\"color: #ffffff; display: inline\">Advance</span> or <span style=\"color: #ffffff; display: inline\">Battle Rush</span>, you are granted <span style=\"color: #ffffff; display: inline\">High Guard</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_warriorskill_03_border\" /><span class=\"name\">High Guard (Buff)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> within <span class=\"item-number\">15</span> seconds triggers no cooldown.</span></div>",
+        "descriptionText": "Level 50 Passive\nAfter using Raise Shield, Advance or Battle Rush, you are granted High Guard.\n\n---\n\nHigh Guard (Buff)Your next Heavy Blow within 15 seconds triggers no cooldown."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19218,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Valiant Knight",
+    "description": "Melee ability critical strikes now cause your next <span style=\"color: #ffffff; display: inline\">Pulverize</span> within <span class=\"item-number\">6</span> seconds to be free of cost and deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Melee ability critical strikes now cause your next Pulverize within 6 seconds to be free of cost and deal 25% increased damage.",
+    "iconPath": "interface/icons/5_archerskill48_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582937,
+    "spellIds": [
+      582937
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30060,
+      31318
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 582933,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582937,
+        "description": "Melee ability critical strikes now cause your next <span style=\"color: #ffffff; display: inline\">Pulverize</span> within <span class=\"item-number\">6</span> seconds to be free of cost and deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Melee ability critical strikes now cause your next Pulverize within 6 seconds to be free of cost and deal 25% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29213,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Forceful Impact",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Raise Shield</span> and <span style=\"color: #FFFFFF; display: inline\">Heavy Blow</span> now extends the duration of your <span style=\"color: #ffffff; display: inline\">Brace</span> by <span class=\"item-number\">1</span> sec.<br /><br />",
+    "descriptionText": "Casting Raise Shield and Heavy Blow now extends the duration of your Brace by 1 sec.",
+    "iconPath": "interface/icons/novart_passivemastery_(11)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705346,
+    "spellIds": [
+      705346
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34438
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705346,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Raise Shield</span> and <span style=\"color: #FFFFFF; display: inline\">Heavy Blow</span> now extends the duration of your <span style=\"color: #ffffff; display: inline\">Brace</span> by <span class=\"item-number\">1</span> sec.<br /><br />",
+        "descriptionText": "Casting Raise Shield and Heavy Blow now extends the duration of your Brace by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29219,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Valiant Defender",
+    "description": "Increases your maximum Energy by <span class=\"item-number\">15</span> and increases the damage of <span style=\"color: #FFFFFF; display: inline\">Pulverize</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum Energy by 15 and increases the damage of Pulverize and Broad Sweep by 10%.",
+    "iconPath": "interface/icons/spell_holy_divineintervention",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582933,
+    "spellIds": [
+      582933
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30060,
+      31318
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 582933,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582933,
+        "description": "Increases your maximum Energy by <span class=\"item-number\">15</span> and increases the damage of <span style=\"color: #FFFFFF; display: inline\">Pulverize</span> and <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum Energy by 15 and increases the damage of Pulverize and Broad Sweep by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29220,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Unscuffable",
+    "description": "Allies within <span class=\"item-number\">30</span> yds now take <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> less Magic Damage from area of effect attacks.",
+    "descriptionText": "Allies within 30 yds now take -10% less Magic Damage from area of effect attacks.",
+    "iconPath": "interface/icons/creatureportrait_blackrockv2_shieldgong",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503837,
+    "spellIds": [
+      503837
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34445
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707716,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503837,
+        "description": "Allies within <span class=\"item-number\">30</span> yds now take <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> less Magic Damage from area of effect attacks.",
+        "descriptionText": "Allies within 30 yds now take -10% less Magic Damage from area of effect attacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11060,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Honorbound",
+    "description": "Removes the Energy cost of <span style=\"color: #ffffff; display: inline\">Shield Challenge</span>.",
+    "descriptionText": "Removes the Energy cost of Shield Challenge.",
+    "iconPath": "interface/icons/5_assassinskill32_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803571,
+    "spellIds": [
+      803571
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30802
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 803571,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803571,
+        "description": "Removes the Energy cost of <span style=\"color: #ffffff; display: inline\">Shield Challenge</span>.",
+        "descriptionText": "Removes the Energy cost of Shield Challenge."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29969,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Paragon",
+    "description": "$35",
+    "descriptionText": "$35",
+    "iconPath": "interface/icons/5_warriorskill16_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706514,
+    "spellIds": [
+      706514
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30529,
+      34447
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706514,
+        "description": "$36",
+        "descriptionText": "$36"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29992,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Shieldlord’s Strength",
+    "description": "You may now use two-handed Maces and can now equip two-handed Maces with a shield.<br /><br />Your <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> and <span style=\"color: #ffffff; display: inline\">Hammer of the Law</span> now deal additional damage scaling with your Stamina and your Stamina is increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "You may now use two-handed Maces and can now equip two-handed Maces with a shield.\n\nYour Heavy Blow and Hammer of the Law now deal additional damage scaling with your Stamina and your Stamina is increased by 15%.",
+    "iconPath": "interface/icons/inv_hammer_10",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803738,
+    "spellIds": [
+      803738
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1721,
+      30529
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803738,
+        "description": "You may now use two-handed Maces and can now equip two-handed Maces with a shield.<br /><br />Your <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> and <span style=\"color: #ffffff; display: inline\">Hammer of the Law</span> now deal additional damage scaling with your Stamina and your Stamina is increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "You may now use two-handed Maces and can now equip two-handed Maces with a shield.\n\nYour Heavy Blow and Hammer of the Law now deal additional damage scaling with your Stamina and your Stamina is increased by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30056,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Iron Guardian",
+    "description": "Increases your Stamina by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Stamina by 5%.",
+    "iconPath": "interface/icons/garrison_building_armory",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 705364,
+    "spellIds": [
+      705364,
+      707816,
+      712473
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31169
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705364,
+        "description": "Increases your Stamina by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Stamina by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707816,
+        "description": "Increases your Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Stamina by 10%."
+      },
+      {
+        "rank": 3,
+        "spellId": 712473,
+        "description": "Increases your Stamina by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Stamina by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30060,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "The Green Tower",
+    "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Formations</span> and increases their effectiveness by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Energy cost of your Formations and increases their effectiveness by 25%.",
+    "iconPath": "interface/icons/5_warriorskill25_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560410,
+    "spellIds": [
+      560410
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31318,
+      34445
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560410,
+        "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Formations</span> and increases their effectiveness by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Energy cost of your Formations and increases their effectiveness by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30061,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Order In The Court",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Hammer of the Law</span> now reduces the damage dealt by affected enemies by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damage dealt by Hammer of the Law now reduces the damage dealt by affected enemies by -10% for 8 seconds.",
+    "iconPath": "interface/icons/_silence_bloodelf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707716,
+    "spellIds": [
+      707716
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34445
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707716,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707716,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Hammer of the Law</span> now reduces the damage dealt by affected enemies by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damage dealt by Hammer of the Law now reduces the damage dealt by affected enemies by -10% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30529,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Shield Unit",
+    "description": "Each time you take damage, you gain <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage taken as attack power for <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Each time you take damage, you gain 5% of the damage taken as attack power for 1 minute.",
+    "iconPath": "interface/icons/spell_tailor_defenceup01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804891,
+    "spellIds": [
+      804891
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7180,
+      29213,
+      31320
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804891,
+        "description": "Each time you take damage, you gain <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage taken as attack power for <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Each time you take damage, you gain 5% of the damage taken as attack power for 1 minute."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30530,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Retaliation",
+    "description": "Successful blocks now deal <span class=\"item-number\">51</span> + <span class=\"item-number\">5% AP</span> Physical Damage to the attacker, scaling with defense rating. Can only occur once per sec.",
+    "descriptionText": "Successful blocks now deal 51 + 5% AP Physical Damage to the attacker, scaling with defense rating. Can only occur once per sec.",
+    "iconPath": "interface/icons/ability_warrior_shieldreflection",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582901,
+    "spellIds": [
+      582901
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34417,
+      34439
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582901,
+        "description": "Successful blocks now deal <span class=\"item-number\">51</span> + <span class=\"item-number\">5% AP</span> Physical Damage to the attacker, scaling with defense rating. Can only occur once per sec.",
+        "descriptionText": "Successful blocks now deal 51 + 5% AP Physical Damage to the attacker, scaling with defense rating. Can only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30144,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Footman's Call",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Pulverize</span> is increased by <span class=\"item-number\">15</span>, plus an additional amount scaling with your block value.",
+    "descriptionText": "Damage dealt by Pulverize is increased by 15, plus an additional amount scaling with your block value.",
+    "iconPath": "interface/icons/warrior_talent_icon_blitz",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705376,
+    "spellIds": [
+      705376
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31319
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705376,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Pulverize</span> is increased by <span class=\"item-number\">15</span>, plus an additional amount scaling with your block value.",
+        "descriptionText": "Damage dealt by Pulverize is increased by 15, plus an additional amount scaling with your block value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30434,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Bastion",
+    "description": "Raise your shield and lead your allies within <span class=\"item-number\">12</span> yds, reducing their damage taken by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Raise your shield and lead your allies within 12 yds, reducing their damage taken by -40% for 10 seconds.",
+    "iconPath": "interface/icons/shield_draenorcrafted_d_02_a_alliance",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802283,
+    "spellIds": [
+      802283
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30529
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802283,
+        "description": "Raise your shield and lead your allies within <span class=\"item-number\">12</span> yds, reducing their damage taken by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Raise your shield and lead your allies within 12 yds, reducing their damage taken by -40% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34417,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Vanguard's Shield",
+    "description": "Blocking an attack or landing an auto attack now grants a stack of <span style=\"color: #ffffff; display: inline\">Vanguard</span> for <span class=\"item-number\">1</span> minute, stacking <span class=\"item-number\">10</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_32\" /><span class=\"name\">Vanguard&#39;s Shield</span></div><span class=\"desc\">Magic Damage taken reduced by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>. Whenever you are hit by a spell, you lose <span class=\"item-number\">1</span> stack of this effect.</span></div>",
+    "descriptionText": "Blocking an attack or landing an auto attack now grants a stack of Vanguard for 1 minute, stacking 10 times.\n\n---\n\nVanguard's ShieldMagic Damage taken reduced by -2%. Whenever you are hit by a spell, you lose 1 stack of this effect.",
+    "iconPath": "interface/icons/inv_shield_32",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804383,
+    "spellIds": [
+      804383
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6712,
+      11060
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804383,
+        "description": "Blocking an attack or landing an auto attack now grants a stack of <span style=\"color: #ffffff; display: inline\">Vanguard</span> for <span class=\"item-number\">1</span> minute, stacking <span class=\"item-number\">10</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_32\" /><span class=\"name\">Vanguard&#39;s Shield</span></div><span class=\"desc\">Magic Damage taken reduced by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>. Whenever you are hit by a spell, you lose <span class=\"item-number\">1</span> stack of this effect.</span></div>",
+        "descriptionText": "Blocking an attack or landing an auto attack now grants a stack of Vanguard for 1 minute, stacking 10 times.\n\n---\n\nVanguard's ShieldMagic Damage taken reduced by -2%. Whenever you are hit by a spell, you lose 1 stack of this effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34438,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Stalwart",
+    "description": "Increases your block value by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+    "descriptionText": "Increases your block value by 10% and your expertise by 4.",
+    "iconPath": "interface/icons/_d3revenge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704413,
+    "spellIds": [
+      704413,
+      707817
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34439,
+      34445
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704413,
+        "description": "Increases your block value by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your block value by 10% and your expertise by 4."
+      },
+      {
+        "rank": 2,
+        "spellId": 707817,
+        "description": "Increases your block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">8</span>.",
+        "descriptionText": "Increases your block value by 20% and your expertise by 8."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34439,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Hold the Line",
+    "description": "Command nearby allies to hold the line, making them immune to incapacitate, disorient, knockback, and grip effects for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Command nearby allies to hold the line, making them immune to incapacitate, disorient, knockback, and grip effects for 15 seconds.",
+    "iconPath": "interface/icons/ability_warrior_shieldguard",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803830,
+    "spellIds": [
+      803830
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1719,
+      34441
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803830,
+        "description": "Command nearby allies to hold the line, making them immune to incapacitate, disorient, knockback, and grip effects for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Command nearby allies to hold the line, making them immune to incapacitate, disorient, knockback, and grip effects for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34440,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Bring Down The Hammer!",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> now deals an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Damage dealt by Heavy Blow now deals an additional 20% of the damage dealt every 1 sec for 3 seconds.",
+    "iconPath": "interface/icons/inv_hammer_1h_jiro_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705379,
+    "spellIds": [
+      705379
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30144
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705379,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> now deals an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Damage dealt by Heavy Blow now deals an additional 20% of the damage dealt every 1 sec for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34441,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Vanguard's Might",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> now causes you to emanate an aura for <span class=\"item-number\">5</span> seconds that reduces all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for party members.",
+    "descriptionText": "Your Heavy Blow now causes you to emanate an aura for 5 seconds that reduces all damage taken by -5% for party members.",
+    "iconPath": "interface/icons/inv_plate_raidwarrior_s_01helm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705345,
+    "spellIds": [
+      705345
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34448
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705345,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Heavy Blow</span> now causes you to emanate an aura for <span class=\"item-number\">5</span> seconds that reduces all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for party members.",
+        "descriptionText": "Your Heavy Blow now causes you to emanate an aura for 5 seconds that reduces all damage taken by -5% for party members."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34443,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Plate Buster",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ram</span> now reduces the remaining cooldown of your <span style=\"color: #ffffff; display: inline\">Challenging Cry</span> and <span style=\"color: #ffffff; display: inline\">Hold the Line</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Critical strikes with Ram now reduces the remaining cooldown of your Challenging Cry and Hold the Line by -4 sec.",
+    "iconPath": "interface/icons/inv_plate_raidwarrior_s_01helm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705333,
+    "spellIds": [
+      705333
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34439
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705333,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ram</span> now reduces the remaining cooldown of your <span style=\"color: #ffffff; display: inline\">Challenging Cry</span> and <span style=\"color: #ffffff; display: inline\">Hold the Line</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Critical strikes with Ram now reduces the remaining cooldown of your Challenging Cry and Hold the Line by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34445,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Hammer of the Law",
+    "description": "Smash an enemy and enemies behind them in a line, dealing <span class=\"item-number\">95</span> + <span class=\"item-number\">100% AP</span> High Threat Physical Damage and silencing them for <span class=\"item-number\">3.5</span> seconds.",
+    "descriptionText": "Smash an enemy and enemies behind them in a line, dealing 95 + 100% AP High Threat Physical Damage and silencing them for 3.5 seconds.",
+    "iconPath": "interface/icons/inv_mace_1h_draenorguard_b_02_a",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704418,
+    "spellIds": [
+      704418
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7181,
+      34440,
+      34441
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704418,
+        "description": "Smash an enemy and enemies behind them in a line, dealing <span class=\"item-number\">95</span> + <span class=\"item-number\">100% AP</span> High Threat Physical Damage and silencing them for <span class=\"item-number\">3.5</span> seconds.",
+        "descriptionText": "Smash an enemy and enemies behind them in a line, dealing 95 + 100% AP High Threat Physical Damage and silencing them for 3.5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34446,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Valorous Strikes",
+    "description": "Auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike an additional time and reduce your target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Auto attacks now have a 10% chance to strike an additional time and reduce your target's chance to hit by -3% for 15 seconds.",
+    "iconPath": "interface/icons/inv_shoulder_mail_bastion_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524932,
+    "spellIds": [
+      524932
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30530,
+      34417
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524932,
+        "description": "Auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike an additional time and reduce your target's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Auto attacks now have a 10% chance to strike an additional time and reduce your target's chance to hit by -3% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34447,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "King's Guard",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Pulverize</span> and <span style=\"color: #ffffff; display: inline\">Ram</span> now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #FFFFFF; display: inline\">Raise Shield</span>.",
+    "descriptionText": "Your Pulverize and Ram now have a 10% chance to reset the cooldown of Raise Shield.",
+    "iconPath": "interface/icons/inv_helmet_plate_raidpaladin_l_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803134,
+    "spellIds": [
+      803134
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31320,
+      34446
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803134,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Pulverize</span> and <span style=\"color: #ffffff; display: inline\">Ram</span> now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #FFFFFF; display: inline\">Raise Shield</span>.",
+        "descriptionText": "Your Pulverize and Ram now have a 10% chance to reset the cooldown of Raise Shield."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34448,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Knight's Conviction",
+    "description": "Increases the block value provided by <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your block chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the block value provided by Raise Shield by 25% and your block chance by 1%.",
+    "iconPath": "interface/icons/inv_horsekultiran",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705369,
+    "spellIds": [
+      705369,
+      707815
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30802,
+      31319
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705369,
+        "description": "Increases the block value provided by <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your block chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the block value provided by Raise Shield by 25% and your block chance by 1%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707815,
+        "description": "Increases the block value provided by <span style=\"color: #ffffff; display: inline\">Raise Shield</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and your block chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the block value provided by Raise Shield by 50% and your block chance by 2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30802,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Seasoned Fighter",
+    "description": "Increases your chance to parry and dodge by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to parry and dodge by 4%.",
+    "iconPath": "interface/icons/ability_steelmelee",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704421,
+    "spellIds": [
+      704421
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30056
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704421,
+        "description": "Increases your chance to parry and dodge by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to parry and dodge by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31169,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Heavy Blow",
+    "description": "Smash an enemy and enemies behind them in a line, dealing <span class=\"item-number\">23</span> + <span class=\"item-number\">45% AP</span> High Threat Physical Damage, scaling with defense rating.",
+    "descriptionText": "Smash an enemy and enemies behind them in a line, dealing 23 + 45% AP High Threat Physical Damage, scaling with defense rating.",
+    "iconPath": "interface/icons/spell_paladin_hammerofwrath",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803129,
+    "spellIds": [
+      803129
+    ],
+    "requiredNodeIds": [
+      4019,
+      30057
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803129,
+        "description": "Smash an enemy and enemies behind them in a line, dealing <span class=\"item-number\">23</span> + <span class=\"item-number\">45% AP</span> High Threat Physical Damage, scaling with defense rating.",
+        "descriptionText": "Smash an enemy and enemies behind them in a line, dealing 23 + 45% AP High Threat Physical Damage, scaling with defense rating."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31318,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Battle Wary",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Advance</span> and <span style=\"color: #ffffff; display: inline\">Battle Rush</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Advance and Battle Rush by -30%.",
+    "iconPath": "interface/icons/custom_warriorskill_22_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705332,
+    "spellIds": [
+      705332
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30144
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705332,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Advance</span> and <span style=\"color: #ffffff; display: inline\">Battle Rush</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Advance and Battle Rush by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31319,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "With Honor",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Ram</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Ram by -4 sec.",
+    "iconPath": "interface/icons/inv_shoulder_plate_raidpaladin_s_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504383,
+    "spellIds": [
+      504383
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30056
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504383,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Ram</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Ram by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31320,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Resilient",
+    "description": "Blocking an attack while <span style=\"color: #ffffff; display: inline\">Raise Shield</span> is active now increases your maximum health by <span class=\"item-number\">400</span> + <span class=\"item-number\">10% Stamina</span> + <span class=\"item-number\">11% AP</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Blocking an attack while Raise Shield is active now increases your maximum health by 400 + 10% Stamina + 11% AP for 15 seconds.",
+    "iconPath": "interface/icons/5_warriorskill47_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707137,
+    "spellIds": [
+      707137
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30530,
+      34443
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707137,
+        "description": "Blocking an attack while <span style=\"color: #ffffff; display: inline\">Raise Shield</span> is active now increases your maximum health by <span class=\"item-number\">400</span> + <span class=\"item-number\">10% Stamina</span> + <span class=\"item-number\">11% AP</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Blocking an attack while Raise Shield is active now increases your maximum health by 400 + 10% Stamina + 11% AP for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1719,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Heavy Expert",
+    "description": "Increase your Armor contribution from mail and plate items by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increase your Armor contribution from mail and plate items by 20%.",
+    "iconPath": "interface/icons/ability_warrior_vigilance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803128,
+    "spellIds": [
+      803128
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6712,
+      11060
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803128,
+        "description": "Increase your Armor contribution from mail and plate items by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increase your Armor contribution from mail and plate items by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1721,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Wreck Formation",
+    "description": "Melee critical strikes now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Hammer of the Law</span>.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> now increases your attack power by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Melee critical strikes now have a 50% chance to reset the cooldown of Hammer of the Law.\n\nCasting Standard of Valiance now increases your attack power by 10% for 6 seconds.",
+    "iconPath": "interface/icons/6bf_explosive_shard",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803126,
+    "spellIds": [
+      803126
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7180,
+      19218,
+      29219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803126,
+        "description": "Melee critical strikes now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Hammer of the Law</span>.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> now increases your attack power by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Melee critical strikes now have a 50% chance to reset the cooldown of Hammer of the Law.\n\nCasting Standard of Valiance now increases your attack power by 10% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4019,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Footman's Calling",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Tower Formation</span> or <span style=\"color: #ffffff; display: inline\">Line Formation</span> is active.<br /><br />In addition, your threat generated from Physical Damage dealt is increased by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Tower Formation</span> or <span style=\"color: #ffffff; display: inline\">Line Formation</span> is active.",
+    "descriptionText": "Level 10 Passive\nYour damage taken is reduced by -10% while Tower Formation or Line Formation is active.\n\nIn addition, your threat generated from Physical Damage dealt is increased by 150% while Tower Formation or Line Formation is active.",
+    "iconPath": "interface/icons/_human_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92105,
+    "spellIds": [
+      92105
+    ],
+    "requiredNodeIds": [
+      30057
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 10,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92105,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Tower Formation</span> or <span style=\"color: #ffffff; display: inline\">Line Formation</span> is active.<br /><br />In addition, your threat generated from Physical Damage dealt is increased by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> while <span style=\"color: #ffffff; display: inline\">Tower Formation</span> or <span style=\"color: #ffffff; display: inline\">Line Formation</span> is active.",
+        "descriptionText": "Level 10 Passive\nYour damage taken is reduced by -10% while Tower Formation or Line Formation is active.\n\nIn addition, your threat generated from Physical Damage dealt is increased by 150% while Tower Formation or Line Formation is active."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6712,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Shieldbound",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Shield Challenge</span> no longer has a cooldown, but now costs <span class=\"item-number\">10</span> additional Energy.",
+    "descriptionText": "Your Shield Challenge no longer has a cooldown, but now costs 10 additional Energy.",
+    "iconPath": "interface/icons/inv_shield_draenorguard_b_01_a_alliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706515,
+    "spellIds": [
+      706515
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30802
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 803571,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706515,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Shield Challenge</span> no longer has a cooldown, but now costs <span class=\"item-number\">10</span> additional Energy.",
+        "descriptionText": "Your Shield Challenge no longer has a cooldown, but now costs 10 additional Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7180,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Lionheart",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Shield of Denial</span> now strikes <span class=\"item-number\">1</span> additional enemy.",
+    "descriptionText": "Your Shield of Denial now strikes 1 additional enemy.",
+    "iconPath": "interface/icons/inv__faction_alliancewareffort",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 531515,
+    "spellIds": [
+      531515
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29220,
+      30060,
+      30061
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 531515,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Shield of Denial</span> now strikes <span class=\"item-number\">1</span> additional enemy.",
+        "descriptionText": "Your Shield of Denial now strikes 1 additional enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4710,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Experienced Soldier",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Melee attacks now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Brace</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Level 40 Passive\nMelee attacks now reduce the cooldown of Brace by -1 sec.",
+    "iconPath": "interface/icons/ability_golemthunderclap",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 570713,
+    "spellIds": [
+      570713
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4716
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570713,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Melee attacks now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Brace</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Level 40 Passive\nMelee attacks now reduce the cooldown of Brace by -1 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4716,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Iron Barrier",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your successful blocks now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.",
+    "descriptionText": "Level 30 Passive\nYour successful blocks now have a 50% chance to critically block for twice the normal amount.",
+    "iconPath": "interface/icons/inv_shoulder_plate_pvpwarrior_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705331,
+    "spellIds": [
+      705331
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4718
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705331,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your successful blocks now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.",
+        "descriptionText": "Level 30 Passive\nYour successful blocks now have a 50% chance to critically block for twice the normal amount."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4718,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 7,
+    "tabKey": "18:7",
+    "tabName": "Vanguard",
+    "name": "Bulwark",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your block value by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Stamina.",
+    "descriptionText": "Level 20 Passive\nIncreases your block value by 25% and your hit rating by 5% of your Stamina.",
+    "iconPath": "interface/icons/inv_shield_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804046,
+    "spellIds": [
+      804046
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4019
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804046,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your block value by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Stamina.",
+        "descriptionText": "Level 20 Passive\nIncreases your block value by 25% and your hit rating by 5% of your Stamina."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

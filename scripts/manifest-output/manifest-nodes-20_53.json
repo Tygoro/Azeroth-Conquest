@@ -1,0 +1,1840 @@
+[
+  {
+    "nodeId": 6769,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Vitality",
+    "description": "Increases your Stamina while in <span style=\"color: #FFFFFF; display: inline\">Eternal Curse</span> by an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Stamina while in Eternal Curse by an additional 10%.",
+    "iconPath": "interface/icons/inv_expulsom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704166,
+    "spellIds": [
+      704166
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30198
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704166,
+        "description": "Increases your Stamina while in <span style=\"color: #FFFFFF; display: inline\">Eternal Curse</span> by an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Stamina while in Eternal Curse by an additional 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6881,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Heightened Reflexes",
+    "description": "Increases your chance to dodge by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases your chance to dodge by 4% and your expertise by 5.",
+    "iconPath": "interface/icons/inv_skinning_80_coarsefur",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704627,
+    "spellIds": [
+      704627,
+      704628
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30191
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704627,
+        "description": "Increases your chance to dodge by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases your chance to dodge by 4% and your expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 704628,
+        "description": "Increases your chance to dodge by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases your chance to dodge by 8% and your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4027,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Eternal Curse",
+    "description": "$7f",
+    "descriptionText": "$7f",
+    "iconPath": "interface/icons/ability_racial_viciousness",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92114,
+    "spellIds": [
+      92114
+    ],
+    "requiredNodeIds": [
+      31117
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92114,
+        "description": "$80",
+        "descriptionText": "$80"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4305,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Crushing Fangs",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Periodic damage dealt by <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span> now hits <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> more often and your <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> and <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> additionally scales with dodge rating.",
+    "descriptionText": "Level 50 Passive\nPeriodic damage dealt by Rotclaw now hits -50% more often and your Bloodfang Bite and Bloodbolt additionally scales with dodge rating.",
+    "iconPath": "interface/icons/inv_crawlinghandpet_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 578120,
+    "spellIds": [
+      578120
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9418
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 578120,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Periodic damage dealt by <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span> now hits <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> more often and your <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> and <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> additionally scales with dodge rating.",
+        "descriptionText": "Level 50 Passive\nPeriodic damage dealt by Rotclaw now hits -50% more often and your Bloodfang Bite and Bloodbolt additionally scales with dodge rating."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4627,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Uncanny Movement",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Agility by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 20 Passive\nIncreases your Agility by 20% and your hit rating by 5% of your Agility.",
+    "iconPath": "interface/icons/spell_shadow_spectralsight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301064,
+    "spellIds": [
+      301064
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4027
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301064,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Agility by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 20 Passive\nIncreases your Agility by 20% and your hit rating by 5% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4629,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Feral Strength",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />While in <span style=\"color: #FFFFFF; display: inline\">Eternal Curse</span>, you now gain <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more attack power from Agility and Strength.",
+    "descriptionText": "Level 30 Passive\nWhile in Eternal Curse, you now gain 50% more attack power from Agility and Strength.",
+    "iconPath": "interface/icons/nhi_unholy_wounds_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704661,
+    "spellIds": [
+      704661
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4627
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704661,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />While in <span style=\"color: #FFFFFF; display: inline\">Eternal Curse</span>, you now gain <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more attack power from Agility and Strength.",
+        "descriptionText": "Level 30 Passive\nWhile in Eternal Curse, you now gain 50% more attack power from Agility and Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6463,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Rejuvenating Shadows",
+    "description": "Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> more healing. Does not stack with similar effects.<br /><br />In addition, your healing done is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Allies within 40 yds receive 6% more healing. Does not stack with similar effects.\n\nIn addition, your healing done is increased by 5%.",
+    "iconPath": "interface/icons/spell_shadow_antishadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704623,
+    "spellIds": [
+      704623
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13706,
+      33680,
+      33706
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704623,
+        "description": "Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> more healing. Does not stack with similar effects.<br /><br />In addition, your healing done is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Allies within 40 yds receive 6% more healing. Does not stack with similar effects.\n\nIn addition, your healing done is increased by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9418,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Iron Fur",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Melee critical strikes now leech <span class=\"item-number\">46</span> + <span class=\"item-number\">18.5% Stamina</span> health from the target, scaling with your Stamina.",
+    "descriptionText": "Level 40 Passive\nMelee critical strikes now leech 46 + 18.5% Stamina health from the target, scaling with your Stamina.",
+    "iconPath": "interface/icons/5_wound_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300978,
+    "spellIds": [
+      300978
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4629
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300978,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Melee critical strikes now leech <span class=\"item-number\">46</span> + <span class=\"item-number\">18.5% Stamina</span> health from the target, scaling with your Stamina.",
+        "descriptionText": "Level 40 Passive\nMelee critical strikes now leech 46 + 18.5% Stamina health from the target, scaling with your Stamina."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9705,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Night Hunter's Howl",
+    "description": "Howl into the souls of nearby enemies, dealing <span class=\"item-number\">74</span> + <span class=\"item-number\">28.5% AP</span> Shadow Damage and slowing their movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Howl into the souls of nearby enemies, dealing 74 + 28.5% AP Shadow Damage and slowing their movement speed by -60% for 6 seconds.",
+    "iconPath": "interface/icons/achievement_raid_revendrethraid_huntsmangargon",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500124,
+    "spellIds": [
+      500124
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6769,
+      33681
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500124,
+        "description": "Howl into the souls of nearby enemies, dealing <span class=\"item-number\">74</span> + <span class=\"item-number\">28.5% AP</span> Shadow Damage and slowing their movement speed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Howl into the souls of nearby enemies, dealing 74 + 28.5% AP Shadow Damage and slowing their movement speed by -60% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7379,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Shadows In The Night",
+    "description": "While above <span class=\"item-number\">75%</span> health, your damage taken is reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While above 75% health, your damage taken is reduced by -5%.",
+    "iconPath": "interface/icons/spell_nzinsanity_chasedbyshadows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704662,
+    "spellIds": [
+      704662
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29541
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707623,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704662,
+        "description": "While above <span class=\"item-number\">75%</span> health, your damage taken is reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While above 75% health, your damage taken is reduced by -5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12379,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Blood Moon",
+    "description": "While below <span class=\"item-number\">75%</span> health, you now heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of all damage you deal.",
+    "descriptionText": "While below 75% health, you now heal for 3% of all damage you deal.",
+    "iconPath": "interface/icons/artifactability_balancedruid_halfmoon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707623,
+    "spellIds": [
+      707623
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29541
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707623,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707623,
+        "description": "While below <span class=\"item-number\">75%</span> health, you now heal for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of all damage you deal.",
+        "descriptionText": "While below 75% health, you now heal for 3% of all damage you deal."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13684,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Coated In Blood",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Blood Pact</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>, but increases its cooldown by <span class=\"item-number\">30</span> sec.",
+    "descriptionText": "Increases the effectiveness of Blood Pact by 100%, but increases its cooldown by 30 sec.",
+    "iconPath": "interface/icons/ability_racial_pureblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707626,
+    "spellIds": [
+      707626
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30194
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707626,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707626,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Blood Pact</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>, but increases its cooldown by <span class=\"item-number\">30</span> sec.",
+        "descriptionText": "Increases the effectiveness of Blood Pact by 100%, but increases its cooldown by 30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13706,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Blood Mark",
+    "description": "Increases the Physical Damage taken by enemies within <span class=\"item-number\">5</span> yds of you by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the Physical Damage taken by enemies within 5 yds of you by 3%.",
+    "iconPath": "interface/icons/spell_deathknight_bloodpresence",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707624,
+    "spellIds": [
+      707624
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29544
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707624,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707624,
+        "description": "Increases the Physical Damage taken by enemies within <span class=\"item-number\">5</span> yds of you by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Physical Damage taken by enemies within 5 yds of you by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29872,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Monstrous Hunger",
+    "description": "Enrage for <span class=\"item-number\">10</span> seconds, causing the next <span class=\"item-number\">6</span> <span style=\"color: #ffffff; display: inline\">Bloodfang Bites</span> to have a <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> reduced global cooldown and cost and to trigger <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_halloween_bat_01\" /><span class=\"name\">Call of the Darkwing</span></div><span class=\"desc\">Calls <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shadow Bats</span> to appear from the shadows and strike the target for <span class=\"item-number\">35</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">20% AP</span> Physical Damage, healing you equal to the damage dealt.</span></div>",
+    "descriptionText": "Enrage for 10 seconds, causing the next 6 Bloodfang Bites to have a -50% reduced global cooldown and cost and to trigger Call of the Darkwing.\n\n---\n\nCall of the DarkwingCalls 1 to 2 Shadow Bats to appear from the shadows and strike the target for 35 + 40% SP + 20% AP Physical Damage, healing you equal to the damage dealt.",
+    "iconPath": "interface/icons/achievement_dungeon_sanguinedepths_tarvold",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804811,
+    "spellIds": [
+      804811
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13684,
+      33684
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804811,
+        "description": "Enrage for <span class=\"item-number\">10</span> seconds, causing the next <span class=\"item-number\">6</span> <span style=\"color: #ffffff; display: inline\">Bloodfang Bites</span> to have a <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> reduced global cooldown and cost and to trigger <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_halloween_bat_01\" /><span class=\"name\">Call of the Darkwing</span></div><span class=\"desc\">Calls <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shadow Bats</span> to appear from the shadows and strike the target for <span class=\"item-number\">35</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">20% AP</span> Physical Damage, healing you equal to the damage dealt.</span></div>",
+        "descriptionText": "Enrage for 10 seconds, causing the next 6 Bloodfang Bites to have a -50% reduced global cooldown and cost and to trigger Call of the Darkwing.\n\n---\n\nCall of the DarkwingCalls 1 to 2 Shadow Bats to appear from the shadows and strike the target for 35 + 40% SP + 20% AP Physical Damage, healing you equal to the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33675,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Enraging Wounds",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your armor contribution from items provided by <span style=\"color: #FFFFFF; display: inline\">Eternal Curse</span> by an additional <span class=\"item-number\">200</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 40 Passive\nIncreases your armor contribution from items provided by Eternal Curse by an additional 200%.",
+    "iconPath": "interface/icons/inv_10_skinning_leather_rarehide_color1",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 575335,
+    "spellIds": [
+      575335
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6769,
+      29872
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 575335,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your armor contribution from items provided by <span style=\"color: #FFFFFF; display: inline\">Eternal Curse</span> by an additional <span class=\"item-number\">200</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 40 Passive\nIncreases your armor contribution from items provided by Eternal Curse by an additional 200%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33680,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Bite Wound",
+    "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> and <span style=\"color: #FFFFFF; display: inline\">Claw Sweep</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> against Humanoids and Beasts.",
+    "descriptionText": "Increases the damage dealt by Bloodfang Bite and Claw Sweep by 20% against Humanoids and Beasts.",
+    "iconPath": "interface/icons/ability_bullrush",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560479,
+    "spellIds": [
+      560479
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30192,
+      33675
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560479,
+        "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> and <span style=\"color: #FFFFFF; display: inline\">Claw Sweep</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> against Humanoids and Beasts.",
+        "descriptionText": "Increases the damage dealt by Bloodfang Bite and Claw Sweep by 20% against Humanoids and Beasts."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33681,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Packleader",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Howl</span> spell now enrages your summons, increasing their damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Casting Howl spell now enrages your summons, increasing their damage dealt by 10% for 8 seconds.",
+    "iconPath": "interface/icons/_worgenflayer_priest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504290,
+    "spellIds": [
+      504290
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30198
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504290,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Howl</span> spell now enrages your summons, increasing their damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Casting Howl spell now enrages your summons, increasing their damage dealt by 10% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33682,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Eternal Hunt",
+    "description": "Increases your Agility and reduces the cost of your spells and abilities by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility and reduces the cost of your spells and abilities by 5%.",
+    "iconPath": "interface/icons/inv_helm_cloth_raidpriest_l_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804201,
+    "spellIds": [
+      804201
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6881
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804201,
+        "description": "Increases your Agility and reduces the cost of your spells and abilities by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and reduces the cost of your spells and abilities by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33683,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Enduring",
+    "description": "Physical Damage taken now reduces the Physical Damage taken from the next attack within <span class=\"item-number\">10</span> seconds by <span class=\"item-number\">15</span> + <span class=\"item-number\">25% AP</span>. Can only occur once every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Physical Damage taken now reduces the Physical Damage taken from the next attack within 10 seconds by 15 + 25% AP. Can only occur once every 5 sec.",
+    "iconPath": "interface/icons/inv_misc_pelt_15",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704626,
+    "spellIds": [
+      704626
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30191
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704626,
+        "description": "Physical Damage taken now reduces the Physical Damage taken from the next attack within <span class=\"item-number\">10</span> seconds by <span class=\"item-number\">15</span> + <span class=\"item-number\">25% AP</span>. Can only occur once every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Physical Damage taken now reduces the Physical Damage taken from the next attack within 10 seconds by 15 + 25% AP. Can only occur once every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33684,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Coated In Darkness",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> or <span style=\"color: #ffffff; display: inline\">Bloodfang Bite</span> now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Blood Pact</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Casting Bloodbolt or Bloodfang Bite now reduces the cooldown of your Blood Pact by -0.5 sec.",
+    "iconPath": "interface/icons/ability_shaman_freedomwolf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704625,
+    "spellIds": [
+      704625
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30194
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707626,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704625,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> or <span style=\"color: #ffffff; display: inline\">Bloodfang Bite</span> now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Blood Pact</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Casting Bloodbolt or Bloodfang Bite now reduces the cooldown of your Blood Pact by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33704,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Rabid",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Howl</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Howl spells by -25%.",
+    "iconPath": "interface/icons/ability_hunter_pet_wolf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705732,
+    "spellIds": [
+      705732
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9705
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705732,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Howl</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Howl spells by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33705,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Uncanny Speed",
+    "description": "Increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your movement speed and mounted movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your melee haste by 5% and your movement speed and mounted movement speed by 20%.",
+    "iconPath": "interface/icons/spell_nature_spiritwolf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807491,
+    "spellIds": [
+      807491
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29541
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807491,
+        "description": "Increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your movement speed and mounted movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your melee haste by 5% and your movement speed and mounted movement speed by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33706,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Dark Mark",
+    "description": "Reduces the chance to hit for enemies within <span class=\"item-number\">5</span> yds of you by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the chance to hit for enemies within 5 yds of you by -3%.",
+    "iconPath": "interface/icons/nathriasymbol",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705731,
+    "spellIds": [
+      705731
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29544
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707624,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705731,
+        "description": "Reduces the chance to hit for enemies within <span class=\"item-number\">5</span> yds of you by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the chance to hit for enemies within 5 yds of you by -3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33714,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Enraging Howls",
+    "description": "Your effects that trigger <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span> now trigger an additional <span style=\"color: #FFFFFF; display: inline\">Call of the Darkwing</span>.<br /><br />Can only occur once per sec.",
+    "descriptionText": "Your effects that trigger Call of the Darkwing now trigger an additional Call of the Darkwing.\n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/ability_priest_shadowyapparition",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300260,
+    "spellIds": [
+      300260
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30224,
+      34974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300260,
+        "description": "Your effects that trigger <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span> now trigger an additional <span style=\"color: #FFFFFF; display: inline\">Call of the Darkwing</span>.<br /><br />Can only occur once per sec.",
+        "descriptionText": "Your effects that trigger Call of the Darkwing now trigger an additional Call of the Darkwing.\n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33716,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Eyes In The Night",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Howl</span> spells now deal <span class=\"item-number\">65</span> + <span class=\"item-number\">25% Stamina</span> + <span class=\"item-number\">25% Agility</span> + <span class=\"item-number\">10% AP</span> Shadow Damage to all enemies within <span class=\"item-number\">10</span> yds and triggering <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span> now reduces the cooldown of all <span style=\"color: #ffffff; display: inline\">Howl</span> spells by <span class=\"item-number\">-1</span> sec.<br /><br />Can only occur once per sec.",
+    "descriptionText": "Casting Howl spells now deal 65 + 25% Stamina + 25% Agility + 10% AP Shadow Damage to all enemies within 10 yds and triggering Call of the Darkwing now reduces the cooldown of all Howl spells by -1 sec.\n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/inv_icon_shadowcouncilorb_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801960,
+    "spellIds": [
+      801960
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30195,
+      30402,
+      33714
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801960,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Howl</span> spells now deal <span class=\"item-number\">65</span> + <span class=\"item-number\">25% Stamina</span> + <span class=\"item-number\">25% Agility</span> + <span class=\"item-number\">10% AP</span> Shadow Damage to all enemies within <span class=\"item-number\">10</span> yds and triggering <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span> now reduces the cooldown of all <span style=\"color: #ffffff; display: inline\">Howl</span> spells by <span class=\"item-number\">-1</span> sec.<br /><br />Can only occur once per sec.",
+        "descriptionText": "Casting Howl spells now deal 65 + 25% Stamina + 25% Agility + 10% AP Shadow Damage to all enemies within 10 yds and triggering Call of the Darkwing now reduces the cooldown of all Howl spells by -1 sec.\n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33717,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Cursed Bites",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span> and <span style=\"color: #ffffff; display: inline\">Hypovolemic Shock</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Rotclaw and Hypovolemic Shock by 50%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_bloodbite_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300982,
+    "spellIds": [
+      300982,
+      301363
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29544,
+      33705
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300982,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span> and <span style=\"color: #ffffff; display: inline\">Hypovolemic Shock</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Rotclaw and Hypovolemic Shock by 50%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301363,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span> and <span style=\"color: #ffffff; display: inline\">Hypovolemic Shock</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Rotclaw and Hypovolemic Shock by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34633,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Eternal Resolve",
+    "description": "<span style=\"color: #FFFFFF; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">10</span> sec recharge</span> <br />Activate your eternal resolve for <span class=\"item-number\">8</span> seconds, reducing all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">3</span> times.<br /><br />Enemies who deal direct Physical Damage to you suffer <span class=\"item-number\">24</span> + <span class=\"item-number\">20% Stamina</span> Shadow Damage.",
+    "descriptionText": "3 Charges, 10 sec recharge \nActivate your eternal resolve for 8 seconds, reducing all damage taken by -5%, stacking up to 3 times.\n\nEnemies who deal direct Physical Damage to you suffer 24 + 20% Stamina Shadow Damage.",
+    "iconPath": "interface/icons/skill_icon_skill73_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801962,
+    "spellIds": [
+      801962
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33683
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801962,
+        "description": "<span style=\"color: #FFFFFF; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">10</span> sec recharge</span> <br />Activate your eternal resolve for <span class=\"item-number\">8</span> seconds, reducing all damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">3</span> times.<br /><br />Enemies who deal direct Physical Damage to you suffer <span class=\"item-number\">24</span> + <span class=\"item-number\">20% Stamina</span> Shadow Damage.",
+        "descriptionText": "3 Charges, 10 sec recharge \nActivate your eternal resolve for 8 seconds, reducing all damage taken by -5%, stacking up to 3 times.\n\nEnemies who deal direct Physical Damage to you suffer 24 + 20% Stamina Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34974,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Grim Omen",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ravenous Strike</span>, or using <span style=\"color: #ffffff; display: inline\">Howl</span> spells, now triggers <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_halloween_bat_01\" /><span class=\"name\">Call of the Darkwing</span></div><span class=\"desc\">Calls <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shadow Bats</span> to appear from the shadows and strike the target for <span class=\"item-number\">35</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">20% AP</span> Physical Damage, healing you equal to the damage dealt.</span></div>",
+    "descriptionText": "Critical strikes with Ravenous Strike, or using Howl spells, now triggers Call of the Darkwing.\n\n---\n\nCall of the DarkwingCalls 1 to 2 Shadow Bats to appear from the shadows and strike the target for 35 + 40% SP + 20% AP Physical Damage, healing you equal to the damage dealt.",
+    "iconPath": "interface/icons/spell_shadow_chilltouch",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800154,
+    "spellIds": [
+      800154
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30196,
+      33704
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800154,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Ravenous Strike</span>, or using <span style=\"color: #ffffff; display: inline\">Howl</span> spells, now triggers <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_halloween_bat_01\" /><span class=\"name\">Call of the Darkwing</span></div><span class=\"desc\">Calls <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shadow Bats</span> to appear from the shadows and strike the target for <span class=\"item-number\">35</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">20% AP</span> Physical Damage, healing you equal to the damage dealt.</span></div>",
+        "descriptionText": "Critical strikes with Ravenous Strike, or using Howl spells, now triggers Call of the Darkwing.\n\n---\n\nCall of the DarkwingCalls 1 to 2 Shadow Bats to appear from the shadows and strike the target for 35 + 40% SP + 20% AP Physical Damage, healing you equal to the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30190,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Shadow Strength",
+    "description": "Allies within <span class=\"item-number\">20</span> yds are protected by <span style=\"color: #ffffff; display: inline\">Shadow Colony</span>, giving them a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span> when they take direct damage. Can only occur once every <span class=\"item-number\">5</span> sec.<br /><br />If allies have less health than you when this occurs, generate a large amount of threat against the enemy that triggered it.",
+    "descriptionText": "Allies within 20 yds are protected by Shadow Colony, giving them a 40% chance to trigger a Call of the Darkwing when they take direct damage. Can only occur once every 5 sec.\n\nIf allies have less health than you when this occurs, generate a large amount of threat against the enemy that triggered it.",
+    "iconPath": "interface/icons/sha_spell_shadow_shadesofdarkness_nightmare",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801959,
+    "spellIds": [
+      801959
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33714
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801959,
+        "description": "Allies within <span class=\"item-number\">20</span> yds are protected by <span style=\"color: #ffffff; display: inline\">Shadow Colony</span>, giving them a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span> when they take direct damage. Can only occur once every <span class=\"item-number\">5</span> sec.<br /><br />If allies have less health than you when this occurs, generate a large amount of threat against the enemy that triggered it.",
+        "descriptionText": "Allies within 20 yds are protected by Shadow Colony, giving them a 40% chance to trigger a Call of the Darkwing when they take direct damage. Can only occur once every 5 sec.\n\nIf allies have less health than you when this occurs, generate a large amount of threat against the enemy that triggered it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30191,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Mawstorm",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">6</span> sec recharge</span><br />Ravage all nearby enemies, dealing <span class=\"item-number\">28</span> + <span class=\"item-number\">10% AP</span> Shadow Damage, generating Rage and infecting their wounds, causing them to bleed for <span class=\"item-number\">24200</span> + <span class=\"item-number\">46000% AP</span> Shadow Damage over <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "2 Charges, 6 sec recharge\nRavage all nearby enemies, dealing 28 + 10% AP Shadow Damage, generating Rage and infecting their wounds, causing them to bleed for 24200 + 46000% AP Shadow Damage over 4 seconds.",
+    "iconPath": "interface/icons/5_clawstrike_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804197,
+    "spellIds": [
+      804197
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804197,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">6</span> sec recharge</span><br />Ravage all nearby enemies, dealing <span class=\"item-number\">28</span> + <span class=\"item-number\">10% AP</span> Shadow Damage, generating Rage and infecting their wounds, causing them to bleed for <span class=\"item-number\">24200</span> + <span class=\"item-number\">46000% AP</span> Shadow Damage over <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "2 Charges, 6 sec recharge\nRavage all nearby enemies, dealing 28 + 10% AP Shadow Damage, generating Rage and infecting their wounds, causing them to bleed for 24200 + 46000% AP Shadow Damage over 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30192,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Appetite for Blood",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Bloodfang Bite</span> now infects the target for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_fishbite_border\" /><span class=\"name\">Festering Maw</span></div><span class=\"desc\">Dealing damage to this target with auto attacks now restores health to you equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the damage dealt.</span></div>",
+    "descriptionText": "Damage dealt by Bloodfang Bite now infects the target for 10 seconds.\n\n---\n\nFestering MawDealing damage to this target with auto attacks now restores health to you equal to 15% of the damage dealt.",
+    "iconPath": "interface/icons/custom_fishbite_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706655,
+    "spellIds": [
+      706655
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7379,
+      12379,
+      29872
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706655,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Bloodfang Bite</span> now infects the target for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_fishbite_border\" /><span class=\"name\">Festering Maw</span></div><span class=\"desc\">Dealing damage to this target with auto attacks now restores health to you equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the damage dealt.</span></div>",
+        "descriptionText": "Damage dealt by Bloodfang Bite now infects the target for 10 seconds.\n\n---\n\nFestering MawDealing damage to this target with auto attacks now restores health to you equal to 15% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30193,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Infection",
+    "description": "Auto attacking a bleeding target will now infect the wound, increasing their chance to be critically struck from you by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Auto attacking a bleeding target will now infect the wound, increasing their chance to be critically struck from you by 1% for 6 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/inv_misc_monsterclaw_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704624,
+    "spellIds": [
+      704624
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13706,
+      33706,
+      33717
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704624,
+        "description": "Auto attacking a bleeding target will now infect the wound, increasing their chance to be critically struck from you by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Auto attacking a bleeding target will now infect the wound, increasing their chance to be critically struck from you by 1% for 6 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30194,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Thick Pelt",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> while below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Increases the damage of Bloodbolt by 25%, plus an additional 25% while below 35% health.",
+    "iconPath": "interface/icons/spell_shadow_painandsuffering",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300585,
+    "spellIds": [
+      300585
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6881,
+      33683
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300585,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> while below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Increases the damage of Bloodbolt by 25%, plus an additional 25% while below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30195,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Iron Claws",
+    "description": "Allows <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span>'s periodic effect to stack up <span class=\"item-number\">2</span> additional times for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> longer duration and cause you to ignore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of the target's armor per stack.",
+    "descriptionText": "Allows Rotclaw's periodic effect to stack up 2 additional times for 50% longer duration and cause you to ignore 3% of the target's armor per stack.",
+    "iconPath": "interface/icons/spell_druid_malfurionstenacity",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572783,
+    "spellIds": [
+      572783
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6463,
+      30193
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572783,
+        "description": "Allows <span style=\"color: #FFFFFF; display: inline\">Rotclaw</span>'s periodic effect to stack up <span class=\"item-number\">2</span> additional times for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> longer duration and cause you to ignore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of the target's armor per stack.",
+        "descriptionText": "Allows Rotclaw's periodic effect to stack up 2 additional times for 50% longer duration and cause you to ignore 3% of the target's armor per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30196,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Petrified Legions",
+    "description": "Physical Damage you deal or take now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_halloween_bat_01\" /><span class=\"name\">Call of the Darkwing</span></div><span class=\"desc\">Calls <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shadow Bats</span> to appear from the shadows and strike the target for <span class=\"item-number\">35</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">20% AP</span> Physical Damage, healing you equal to the damage dealt.</span></div>",
+    "descriptionText": "Physical Damage you deal or take now has a 10% chance to trigger a Call of the Darkwing.\n\n---\n\nCall of the DarkwingCalls 1 to 2 Shadow Bats to appear from the shadows and strike the target for 35 + 40% SP + 20% AP Physical Damage, healing you equal to the damage dealt.",
+    "iconPath": "interface/icons/inv_misc_reforgedarchstone_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500012,
+    "spellIds": [
+      500012
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9705,
+      33681
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500012,
+        "description": "Physical Damage you deal or take now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Call of the Darkwing</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_halloween_bat_01\" /><span class=\"name\">Call of the Darkwing</span></div><span class=\"desc\">Calls <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Shadow Bats</span> to appear from the shadows and strike the target for <span class=\"item-number\">35</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">20% AP</span> Physical Damage, healing you equal to the damage dealt.</span></div>",
+        "descriptionText": "Physical Damage you deal or take now has a 10% chance to trigger a Call of the Darkwing.\n\n---\n\nCall of the DarkwingCalls 1 to 2 Shadow Bats to appear from the shadows and strike the target for 35 + 40% SP + 20% AP Physical Damage, healing you equal to the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30198,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Blood Howl",
+    "description": "Taunts nearby enemies within <span class=\"item-number\">10</span> yds, forcing them to attack you for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Taunts nearby enemies within 10 yds, forcing them to attack you for 5 seconds.",
+    "iconPath": "interface/icons/nhi_nightmarehowl_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800782,
+    "spellIds": [
+      800782
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33682
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800782,
+        "description": "Taunts nearby enemies within <span class=\"item-number\">10</span> yds, forcing them to attack you for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Taunts nearby enemies within 10 yds, forcing them to attack you for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30224,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Eternal Presence",
+    "description": "Increases the attack power of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the attack power of party and raid members by 5%. Does not stack with similar effects.\n\nIn addition, increases your attack power by 5%.",
+    "iconPath": "interface/icons/inv_misc_trinket6oih_wolf1",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560001,
+    "spellIds": [
+      560001
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33680,
+      33704
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560001,
+        "description": "Increases the attack power of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power of party and raid members by 5%. Does not stack with similar effects.\n\nIn addition, increases your attack power by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30402,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Screech of the Darkwing",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Howl</span> spells now increases the damage dealt and reduces damage taken by nearby party members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Casting Howl spells now increases the damage dealt and reduces damage taken by nearby party members by 5% for 10 seconds.",
+    "iconPath": "interface/icons/custom_08_death_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800766,
+    "spellIds": [
+      800766
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6463,
+      30224
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800766,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Howl</span> spells now increases the damage dealt and reduces damage taken by nearby party members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Casting Howl spells now increases the damage dealt and reduces damage taken by nearby party members by 5% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31247,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Blood Claws",
+    "description": "You now generate <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased Rage from damage dealt and critical strikes with auto attacks now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Animated Blood</span>, <span style=\"color: #ffffff; display: inline\">Blood Veil</span>, and <span style=\"color: #ffffff; display: inline\">Blood Pact</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "You now generate 20% increased Rage from damage dealt and critical strikes with auto attacks now reduces the cooldown of Animated Blood, Blood Veil, and Blood Pact by 1 sec.",
+    "iconPath": "interface/icons/spell_deathknight_bloodtap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572800,
+    "spellIds": [
+      572800
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30195
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572800,
+        "description": "You now generate <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased Rage from damage dealt and critical strikes with auto attacks now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Animated Blood</span>, <span style=\"color: #ffffff; display: inline\">Blood Veil</span>, and <span style=\"color: #ffffff; display: inline\">Blood Pact</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "You now generate 20% increased Rage from damage dealt and critical strikes with auto attacks now reduces the cooldown of Animated Blood, Blood Veil, and Blood Pact by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29541,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "Bloodguard",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Eternal Resolve</span> by <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Increases the duration of Eternal Resolve by 4 sec.",
+    "iconPath": "interface/icons/_monkspecialattack_dodgebloodelf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570746,
+    "spellIds": [
+      570746
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34633
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570746,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Eternal Resolve</span> by <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Increases the duration of Eternal Resolve by 4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29544,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 53,
+    "tabKey": "20:53",
+    "tabName": "Eternal",
+    "name": "No Mercy",
+    "description": "Allows your <span style=\"color: #FFFFFF; display: inline\">Thick Pelt</span> to affect an additional hit.",
+    "descriptionText": "Allows your Thick Pelt to affect an additional hit.",
+    "iconPath": "interface/icons/inv_ascend_hunting_90",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704660,
+    "spellIds": [
+      704660
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7379,
+      12379,
+      33705
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704660,
+        "description": "Allows your <span style=\"color: #FFFFFF; display: inline\">Thick Pelt</span> to affect an additional hit.",
+        "descriptionText": "Allows your Thick Pelt to affect an additional hit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

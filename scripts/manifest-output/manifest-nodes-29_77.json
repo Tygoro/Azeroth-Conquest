@@ -1,0 +1,1889 @@
+[
+  {
+    "nodeId": 7150,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Acidfang",
+    "description": "$b9",
+    "descriptionText": "$b9",
+    "iconPath": "interface/icons/inv_misc_herb_fellotus",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806603,
+    "spellIds": [
+      806603
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9285
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806603,
+        "description": "$ba",
+        "descriptionText": "$ba"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7152,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Withering Venom",
+    "description": "Inject an enemy with a devastating venom, dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">20% nature SP</span> Nature Damage every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">21</span> seconds. Damage is dealt slowly at first, and builds up over time.",
+    "descriptionText": "Inject an enemy with a devastating venom, dealing 17 + 20% nature SP Nature Damage every 3 sec for 21 seconds. Damage is dealt slowly at first, and builds up over time.",
+    "iconPath": "interface/icons/ability_creature_disease_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706962,
+    "spellIds": [
+      706962
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31201
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706962,
+        "description": "Inject an enemy with a devastating venom, dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">20% nature SP</span> Nature Damage every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">21</span> seconds. Damage is dealt slowly at first, and builds up over time.",
+        "descriptionText": "Inject an enemy with a devastating venom, dealing 17 + 20% nature SP Nature Damage every 3 sec for 21 seconds. Damage is dealt slowly at first, and builds up over time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7188,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Brood Lord",
+    "description": "Augments <span style=\"color: #ffffff; display: inline\">Spider Form</span> into a <span style=\"color: #ffffff; display: inline\">Brood Lord</span>, causing your <span style=\"color: #66ff66; display: inline\">Brood Mark</span> spenders to launch webs at the target, sticking to them for <span class=\"item-number\">10</span> seconds.<br /><br />Each webbed target has their movement speed slowed by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.<br /><br />Critically striking an enemy who is webbed summons <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Spiderlings</span> to aid you in combat for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Augments Spider Form into a Brood Lord, causing your Brood Mark spenders to launch webs at the target, sticking to them for 10 seconds.\n\nEach webbed target has their movement speed slowed by -25%.\n\nCritically striking an enemy who is webbed summons 1 to 2 Spiderlings to aid you in combat for 8 seconds.",
+    "iconPath": "interface/icons/_websight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707668,
+    "spellIds": [
+      707668
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7189,
+      7264,
+      30469
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707668,
+        "description": "Augments <span style=\"color: #ffffff; display: inline\">Spider Form</span> into a <span style=\"color: #ffffff; display: inline\">Brood Lord</span>, causing your <span style=\"color: #66ff66; display: inline\">Brood Mark</span> spenders to launch webs at the target, sticking to them for <span class=\"item-number\">10</span> seconds.<br /><br />Each webbed target has their movement speed slowed by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.<br /><br />Critically striking an enemy who is webbed summons <span class=\"item-number\">1</span> to <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Spiderlings</span> to aid you in combat for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Augments Spider Form into a Brood Lord, causing your Brood Mark spenders to launch webs at the target, sticking to them for 10 seconds.\n\nEach webbed target has their movement speed slowed by -25%.\n\nCritically striking an enemy who is webbed summons 1 to 2 Spiderlings to aid you in combat for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7189,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Venomous Bite",
+    "description": "Increases the amount of times <span style=\"color: #66ff66; display: inline\">Brood Marks</span> can stack by <span class=\"item-number\">2</span>.",
+    "descriptionText": "Increases the amount of times Brood Marks can stack by 2.",
+    "iconPath": "interface/icons/ability_poisons",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 630900,
+    "spellIds": [
+      630900
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7190,
+      29586
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 630900,
+        "description": "Increases the amount of times <span style=\"color: #66ff66; display: inline\">Brood Marks</span> can stack by <span class=\"item-number\">2</span>.",
+        "descriptionText": "Increases the amount of times Brood Marks can stack by 2."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7190,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Contagion",
+    "description": "For <span class=\"item-number\">15</span> seconds, all periodic damage dealt now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to burst dealing <span class=\"item-number\">92</span> + <span class=\"item-number\">20% shadow SP</span> Shadow Damage to <span class=\"item-number\">8</span> enemies within <span class=\"item-number\">8</span> yds.",
+    "descriptionText": "For 15 seconds, all periodic damage dealt now has a 30% chance to burst dealing 92 + 20% shadow SP Shadow Damage to 8 enemies within 8 yds.",
+    "iconPath": "interface/icons/nhi_poisonwhirl_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503851,
+    "spellIds": [
+      503851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6342,
+      7192
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503851,
+        "description": "For <span class=\"item-number\">15</span> seconds, all periodic damage dealt now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to burst dealing <span class=\"item-number\">92</span> + <span class=\"item-number\">20% shadow SP</span> Shadow Damage to <span class=\"item-number\">8</span> enemies within <span class=\"item-number\">8</span> yds.",
+        "descriptionText": "For 15 seconds, all periodic damage dealt now has a 30% chance to burst dealing 92 + 20% shadow SP Shadow Damage to 8 enemies within 8 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7191,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Bile Eruption",
+    "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Venom</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to generate you <span class=\"item-number\">5</span> Energy.",
+    "descriptionText": "Triggering a Venom now has a 25% chance to generate you 5 Energy.",
+    "iconPath": "interface/icons/nhi_poisonblister_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500230,
+    "spellIds": [
+      500230
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7192,
+      7204,
+      11804,
+      29582
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500230,
+        "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Venom</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to generate you <span class=\"item-number\">5</span> Energy.",
+        "descriptionText": "Triggering a Venom now has a 25% chance to generate you 5 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7192,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Virulent Opening",
+    "description": "Increases the critical strike chance of your poisons by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">75%</span> health.",
+    "descriptionText": "Increases the critical strike chance of your poisons by 20% on enemies above 75% health.",
+    "iconPath": "interface/icons/achievement_dungeon_plaguefall_dominavenomblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 574353,
+    "spellIds": [
+      574353
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29577,
+      30473
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574353,
+        "description": "Increases the critical strike chance of your poisons by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">75%</span> health.",
+        "descriptionText": "Increases the critical strike chance of your poisons by 20% on enemies above 75% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7195,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Serpent Lord",
+    "description": "$bb",
+    "descriptionText": "$bb",
+    "iconPath": "interface/icons/inv_giantsnake_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805104,
+    "spellIds": [
+      805104
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7189
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805104,
+        "description": "$bc",
+        "descriptionText": "$bc"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7204,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Black Widow",
+    "description": "Damage dealt to enemies below <span class=\"item-number\">35%</span> health now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Noxious Empowerment</span> by <span class=\"item-number\">-2</span> sec.<br /><br />In addition, your <span style=\"color: #ffffff; display: inline\">Widowmaker</span> now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage to enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Damage dealt to enemies below 35% health now reduces the cooldown of Noxious Empowerment by -2 sec.\n\nIn addition, your Widowmaker now deals 20% increased damage to enemies below 35% health.",
+    "iconPath": "interface/icons/spell_shadow_deathsembrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805933,
+    "spellIds": [
+      805933
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 237893,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805933,
+        "description": "Damage dealt to enemies below <span class=\"item-number\">35%</span> health now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Noxious Empowerment</span> by <span class=\"item-number\">-2</span> sec.<br /><br />In addition, your <span style=\"color: #ffffff; display: inline\">Widowmaker</span> now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage to enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Damage dealt to enemies below 35% health now reduces the cooldown of Noxious Empowerment by -2 sec.\n\nIn addition, your Widowmaker now deals 20% increased damage to enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7263,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Potency",
+    "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and causes it to increase the target's chance to be critically struck by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Increases the damage dealt by Venom Fang by 15% and causes it to increase the target's chance to be critically struck by spells by 3% for 15 seconds.",
+    "iconPath": "interface/icons/inv_knife_1h_artifactfangs_d_02dual",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503854,
+    "spellIds": [
+      503854
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30863
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503854,
+        "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and causes it to increase the target's chance to be critically struck by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Increases the damage dealt by Venom Fang by 15% and causes it to increase the target's chance to be critically struck by spells by 3% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7264,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "One Man's Poison...",
+    "description": "Casting spells that consume <span style=\"color: #66ff66; display: inline\">Brood Marks</span> now has a <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> chance to refund their <span style=\"color: #66ff66; display: inline\">Brood Mark</span> cost.",
+    "descriptionText": "Casting spells that consume Brood Marks now has a -25% chance to refund their Brood Mark cost.",
+    "iconPath": "interface/icons/ability_rogue_deviouspoisons",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503799,
+    "spellIds": [
+      503799
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6146,
+      7190,
+      7191
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503799,
+        "description": "Casting spells that consume <span style=\"color: #66ff66; display: inline\">Brood Marks</span> now has a <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> chance to refund their <span style=\"color: #66ff66; display: inline\">Brood Mark</span> cost.",
+        "descriptionText": "Casting spells that consume Brood Marks now has a -25% chance to refund their Brood Mark cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6341,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Lethality",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span> on <span style=\"color: #7fff00; display: inline\">Diseased</span> targets by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Widow's Kiss on Diseased targets by 30%.",
+    "iconPath": "interface/icons/nhi_poisonbottle_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503852,
+    "spellIds": [
+      503852
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6148
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503852,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span> on <span style=\"color: #7fff00; display: inline\">Diseased</span> targets by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Widow's Kiss on Diseased targets by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6342,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Shadra's Seance",
+    "description": "<span style=\"color: #ffffff; display: inline\">Facemelter</span> now ticks <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster and the duration is increased by <span class=\"item-number\">6</span> sec.",
+    "descriptionText": "Facemelter now ticks -20% faster and the duration is increased by 6 sec.",
+    "iconPath": "interface/icons/custom_t_healingswirl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300678,
+    "spellIds": [
+      300678
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30464
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300678,
+        "description": "<span style=\"color: #ffffff; display: inline\">Facemelter</span> now ticks <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster and the duration is increased by <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Facemelter now ticks -20% faster and the duration is increased by 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6078,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Boding Dread",
+    "description": "Increases your Shadow Damage dealt and your critical strike chance with Shadow spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Shadow Damage dealt and your critical strike chance with Shadow spells by 3%.",
+    "iconPath": "interface/icons/inv_tarantula2_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 804975,
+    "spellIds": [
+      804975,
+      807920
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29580
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804975,
+        "description": "Increases your Shadow Damage dealt and your critical strike chance with Shadow spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Shadow Damage dealt and your critical strike chance with Shadow spells by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807920,
+        "description": "Increases your Shadow Damage dealt and your critical strike chance with Shadow spells by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Shadow Damage dealt and your critical strike chance with Shadow spells by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6080,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Bugging",
+    "description": "Harmful spells cast out of <span style=\"color: #FFFFFF; display: inline\">Skulk</span> increase the damage you deal to the enemy by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Harmful spells cast out of Skulk increase the damage you deal to the enemy by 30% for 4 seconds.",
+    "iconPath": "interface/icons/nhi_naturevision_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706026,
+    "spellIds": [
+      706026
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6341
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706026,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706026,
+        "description": "Harmful spells cast out of <span style=\"color: #FFFFFF; display: inline\">Skulk</span> increase the damage you deal to the enemy by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Harmful spells cast out of Skulk increase the damage you deal to the enemy by 30% for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6144,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Blistering Fangs",
+    "description": "Casting spells that consume <span style=\"color: #66ff66; display: inline\">Brood Marks</span> now refunds <span class=\"item-number\">30</span> Energy when used with at least <span class=\"item-number\">5</span> <span style=\"color: #66ff66; display: inline\">Brood Marks</span> on your target.",
+    "descriptionText": "Casting spells that consume Brood Marks now refunds 30 Energy when used with at least 5 Brood Marks on your target.",
+    "iconPath": "interface/icons/inv_misc_monsterfang_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706270,
+    "spellIds": [
+      706270
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4394,
+      30975
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706270,
+        "description": "Casting spells that consume <span style=\"color: #66ff66; display: inline\">Brood Marks</span> now refunds <span class=\"item-number\">30</span> Energy when used with at least <span class=\"item-number\">5</span> <span style=\"color: #66ff66; display: inline\">Brood Marks</span> on your target.",
+        "descriptionText": "Casting spells that consume Brood Marks now refunds 30 Energy when used with at least 5 Brood Marks on your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6146,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Tunneler",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Spindlebind</span> now has <span class=\"item-number\">2</span> charges, a <span class=\"item-number\">25</span> sec cooldown, and deals increased damage.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_poisonweb_border\" /><span class=\"name\">Spindlebind (Tunneler)</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">25</span> sec recharge</span><br />Command a tunnel beetle to attack your target from below, inflicting <span class=\"item-number\">632</span> + <span class=\"item-number\">65% nature SP</span> Nature Damage and rooting them for <span class=\"item-number\">4</span> seconds.</span></div>",
+    "descriptionText": "Your Spindlebind now has 2 charges, a 25 sec cooldown, and deals increased damage.\n\n---\n\nSpindlebind (Tunneler)2 Charges, 25 sec recharge\nCommand a tunnel beetle to attack your target from below, inflicting 632 + 65% nature SP Nature Damage and rooting them for 4 seconds.",
+    "iconPath": "interface/icons/custom_55_bug_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 630932,
+    "spellIds": [
+      630932
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29582,
+      6341
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 630932,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Spindlebind</span> now has <span class=\"item-number\">2</span> charges, a <span class=\"item-number\">25</span> sec cooldown, and deals increased damage.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_poisonweb_border\" /><span class=\"name\">Spindlebind (Tunneler)</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">25</span> sec recharge</span><br />Command a tunnel beetle to attack your target from below, inflicting <span class=\"item-number\">632</span> + <span class=\"item-number\">65% nature SP</span> Nature Damage and rooting them for <span class=\"item-number\">4</span> seconds.</span></div>",
+        "descriptionText": "Your Spindlebind now has 2 charges, a 25 sec cooldown, and deals increased damage.\n\n---\n\nSpindlebind (Tunneler)2 Charges, 25 sec recharge\nCommand a tunnel beetle to attack your target from below, inflicting 632 + 65% nature SP Nature Damage and rooting them for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6147,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Nature Against Nature",
+    "description": "Each stack of <span style=\"color: #ffffff; display: inline\">Nerubian Sting</span> now increases the damage dealt to the target by your <span style=\"color: #ffffff; display: inline\">Widowmaker</span> and <span style=\"color: #ffffff; display: inline\">Venom Fang</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Nerubian Sting now increases the damage dealt to the target by your Widowmaker and Venom Fang by 8%.",
+    "iconPath": "interface/icons/5_archerskill37_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680871,
+    "spellIds": [
+      680871
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6341
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706026,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680871,
+        "description": "Each stack of <span style=\"color: #ffffff; display: inline\">Nerubian Sting</span> now increases the damage dealt to the target by your <span style=\"color: #ffffff; display: inline\">Widowmaker</span> and <span style=\"color: #ffffff; display: inline\">Venom Fang</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Nerubian Sting now increases the damage dealt to the target by your Widowmaker and Venom Fang by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6148,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Rotting Sores",
+    "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Rotfang</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and allows its periodic damage dealt to critically strike.",
+    "descriptionText": "Increases the tick rate of Rotfang by -20% and allows its periodic damage dealt to critically strike.",
+    "iconPath": "interface/icons/ability_creature_poison_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807601,
+    "spellIds": [
+      807601
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30975
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807601,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Rotfang</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and allows its periodic damage dealt to critically strike.",
+        "descriptionText": "Increases the tick rate of Rotfang by -20% and allows its periodic damage dealt to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4053,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Brood Marks",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Venom Fang</span> now applies a <span style=\"color: #66ff66; display: inline\">Brood Mark</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times. Some abilities will consume them for an additional effect.",
+    "descriptionText": "Level 10 Passive\nYour Venom Fang now applies a Brood Mark for 15 seconds, stacking 5 times. Some abilities will consume them for an additional effect.",
+    "iconPath": "interface/icons/_d3corpsespiders",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92143,
+    "spellIds": [
+      92143
+    ],
+    "requiredNodeIds": [
+      7229
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92143,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Venom Fang</span> now applies a <span style=\"color: #66ff66; display: inline\">Brood Mark</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times. Some abilities will consume them for an additional effect.",
+        "descriptionText": "Level 10 Passive\nYour Venom Fang now applies a Brood Mark for 15 seconds, stacking 5 times. Some abilities will consume them for an additional effect."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4394,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Essence of Decay",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span> now apply <span class=\"item-number\">1</span> additional <span style=\"color: #66ff66; display: inline\">Brood Mark</span>.",
+    "descriptionText": "Critical strikes with Widow's Kiss now apply 1 additional Brood Mark.",
+    "iconPath": "interface/icons/spell_nature_corrosivebreath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707382,
+    "spellIds": [
+      707382
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6078,
+      30863
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707382,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span> now apply <span class=\"item-number\">1</span> additional <span style=\"color: #66ff66; display: inline\">Brood Mark</span>.",
+        "descriptionText": "Critical strikes with Widow's Kiss now apply 1 additional Brood Mark."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11804,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Caustic",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Noxious Empowerment</span> by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of Noxious Empowerment by -60 sec.",
+    "iconPath": "interface/icons/spell_nature_nullifypoison",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807610,
+    "spellIds": [
+      807610
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 237893,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807610,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Noxious Empowerment</span> by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of Noxious Empowerment by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12201,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Widowmaker",
+    "description": "$bd",
+    "descriptionText": "$bd",
+    "iconPath": "interface/icons/inv_spidermountc5",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804961,
+    "spellIds": [
+      804961
+    ],
+    "requiredNodeIds": [
+      7229,
+      4053
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804961,
+        "description": "$be",
+        "descriptionText": "$be"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13472,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Corrosive Toxin",
+    "description": "<span style=\"color: #ffffff; display: inline\">Withering Venom</span> now deals an additional <span class=\"item-number\">125% shadow SP</span> Shadow Damage at the end of its duration.",
+    "descriptionText": "Withering Venom now deals an additional 125% shadow SP Shadow Damage at the end of its duration.",
+    "iconPath": "interface/icons/_skullcurse2_acidice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807243,
+    "spellIds": [
+      807243
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30471,
+      30974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 745215,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807243,
+        "description": "<span style=\"color: #ffffff; display: inline\">Withering Venom</span> now deals an additional <span class=\"item-number\">125% shadow SP</span> Shadow Damage at the end of its duration.",
+        "descriptionText": "Withering Venom now deals an additional 125% shadow SP Shadow Damage at the end of its duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9285,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Prowler",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect and your hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your Intellect and your hit rating by 3% of your Intellect.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_poison_icon_0001s_0000_spider_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804342,
+    "spellIds": [
+      804342
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4053
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804342,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect and your hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your Intellect and your hit rating by 3% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9324,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Widow's Fang",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> now costs <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> less Energy when while <span style=\"color: #FFFFFF; display: inline\">Widow's Kiss</span> is active.",
+    "descriptionText": "Level 50 Passive\nYour Venom Fang now costs -20% less Energy when while Widow's Kiss is active.",
+    "iconPath": "interface/icons/inv_viciousalliancespider",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 504322,
+    "spellIds": [
+      504322
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9325
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504322,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> now costs <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> less Energy when while <span style=\"color: #FFFFFF; display: inline\">Widow's Kiss</span> is active.",
+        "descriptionText": "Level 50 Passive\nYour Venom Fang now costs -20% less Energy when while Widow's Kiss is active."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9325,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Vulnerability",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />While <span style=\"color: #ffffff; display: inline\">Blight Venom</span> is active, your auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to apply it.<br /><br />In addition, your offensive critical strikes now increase the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Level 40 Passive\nWhile Blight Venom is active, your auto attacks now have a 10% chance to apply it.\n\nIn addition, your offensive critical strikes now increase the target's spell damage taken by 10% for 15 seconds.",
+    "iconPath": "interface/icons/ability_rogue_dualweild",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574354,
+    "spellIds": [
+      574354
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7150
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574354,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />While <span style=\"color: #ffffff; display: inline\">Blight Venom</span> is active, your auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to apply it.<br /><br />In addition, your offensive critical strikes now increase the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Level 40 Passive\nWhile Blight Venom is active, your auto attacks now have a 10% chance to apply it.\n\nIn addition, your offensive critical strikes now increase the target's spell damage taken by 10% for 15 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29577,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Noxious Empowerment",
+    "description": "Enrage for <span class=\"item-number\">12</span> seconds, increasing your chance to trigger <span style=\"color: #ffffff; display: inline\">Venoms</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, your Energy regeneration by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>, and increasing your damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Enrage for 12 seconds, increasing your chance to trigger Venoms by 50%, your Energy regeneration by 100%, and increasing your damage dealt by 20% for 12 seconds.",
+    "iconPath": "interface/icons/achievement_battleground_templeofkotmogu_02_green",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804964,
+    "spellIds": [
+      804964
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4394,
+      7263
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804964,
+        "description": "Enrage for <span class=\"item-number\">12</span> seconds, increasing your chance to trigger <span style=\"color: #ffffff; display: inline\">Venoms</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, your Energy regeneration by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>, and increasing your damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Enrage for 12 seconds, increasing your chance to trigger Venoms by 50%, your Energy regeneration by 100%, and increasing your damage dealt by 20% for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29580,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Nerubian Sting",
+    "description": "<span style=\"color: #66ff66; display: inline\">Applies <span class=\"item-number\">1</span> Brood Mark</span><br />Sting an enemy, dealing <span class=\"item-number\">28</span> + <span class=\"item-number\">25% shadow SP</span> Shadow Damage and an additional <span class=\"item-number\">25400</span> + <span class=\"item-number\">50000% shadow SP</span> over <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Applies 1 Brood Mark\nSting an enemy, dealing 28 + 25% shadow SP Shadow Damage and an additional 25400 + 50000% shadow SP over 15 seconds, stacking up to 3 times.",
+    "iconPath": "interface/icons/inv_misc_head_nerubian_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800882,
+    "spellIds": [
+      800882
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31201
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800882,
+        "description": "<span style=\"color: #66ff66; display: inline\">Applies <span class=\"item-number\">1</span> Brood Mark</span><br />Sting an enemy, dealing <span class=\"item-number\">28</span> + <span class=\"item-number\">25% shadow SP</span> Shadow Damage and an additional <span class=\"item-number\">25400</span> + <span class=\"item-number\">50000% shadow SP</span> over <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Applies 1 Brood Mark\nSting an enemy, dealing 28 + 25% shadow SP Shadow Damage and an additional 25400 + 50000% shadow SP over 15 seconds, stacking up to 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29582,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Deadly Kiss",
+    "description": "Increases critical damage dealt by <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span>, <span style=\"color: #FFFFFF; display: inline\">Widowmaker</span> and <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> against <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets.",
+    "descriptionText": "Increases critical damage dealt by Widow's Kiss, Widowmaker and Venom Fang by 50% against Poisoned targets.",
+    "iconPath": "interface/icons/5_fishbite_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504704,
+    "spellIds": [
+      504704
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6144,
+      29577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504704,
+        "description": "Increases critical damage dealt by <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span>, <span style=\"color: #FFFFFF; display: inline\">Widowmaker</span> and <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> against <span style=\"color: #00ff00; display: inline\">Poisoned</span> targets.",
+        "descriptionText": "Increases critical damage dealt by Widow's Kiss, Widowmaker and Venom Fang by 50% against Poisoned targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29586,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Corrosive Bile",
+    "description": "After using <span style=\"color: #ffffff; display: inline\">Facemelter</span>, your next <span style=\"color: #ffffff; display: inline\">Widowmaker</span> within <span class=\"item-number\">15</span> seconds now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage and strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+    "descriptionText": "After using Facemelter, your next Widowmaker within 15 seconds now deals 20% increased damage and strikes 2 additional nearby enemies.",
+    "iconPath": "interface/icons/ability_creature_poison_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 630934,
+    "spellIds": [
+      630934
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6342
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 630934,
+        "description": "After using <span style=\"color: #ffffff; display: inline\">Facemelter</span>, your next <span style=\"color: #ffffff; display: inline\">Widowmaker</span> within <span class=\"item-number\">15</span> seconds now deals <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage and strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+        "descriptionText": "After using Facemelter, your next Widowmaker within 15 seconds now deals 20% increased damage and strikes 2 additional nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30464,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Facemelter",
+    "description": "Requires Spider Form</span><br /><span style=\"color: #66ff66; display: inline\">Consumes Brood Marks</span><br />Spray poison upon an enemy and nearby enemies, dealing Nature Damage over <span class=\"item-number\">15</span> seconds.<br /> <span class=\"item-number\">1</span> Mark: <span class=\"item-number\">101875</span> + <span class=\"item-number\">93750% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">2</span> Marks: <span class=\"item-number\">130400</span> + <span class=\"item-number\">120000% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">3</span> Marks: <span class=\"item-number\">167075</span> + <span class=\"item-number\">153750% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">4</span> Marks: <span class=\"item-number\">211900</span> + <span class=\"item-number\">195000% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">5</span> Marks: <span class=\"item-number\">285250</span> + <span class=\"item-number\">262500% nature SP</span> Nature Damage.",
+    "descriptionText": "Requires Spider Form\nConsumes Brood Marks\nSpray poison upon an enemy and nearby enemies, dealing Nature Damage over 15 seconds.\n 1 Mark: 101875 + 93750% nature SP Nature Damage.\n 2 Marks: 130400 + 120000% nature SP Nature Damage.\n 3 Marks: 167075 + 153750% nature SP Nature Damage.\n 4 Marks: 211900 + 195000% nature SP Nature Damage.\n 5 Marks: 285250 + 262500% nature SP Nature Damage.",
+    "iconPath": "interface/icons/spell_deathvortex",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800871,
+    "spellIds": [
+      800871
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13472,
+      30472
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800871,
+        "description": "Requires Spider Form</span><br /><span style=\"color: #66ff66; display: inline\">Consumes Brood Marks</span><br />Spray poison upon an enemy and nearby enemies, dealing Nature Damage over <span class=\"item-number\">15</span> seconds.<br /> <span class=\"item-number\">1</span> Mark: <span class=\"item-number\">101875</span> + <span class=\"item-number\">93750% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">2</span> Marks: <span class=\"item-number\">130400</span> + <span class=\"item-number\">120000% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">3</span> Marks: <span class=\"item-number\">167075</span> + <span class=\"item-number\">153750% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">4</span> Marks: <span class=\"item-number\">211900</span> + <span class=\"item-number\">195000% nature SP</span> Nature Damage.<br /> <span class=\"item-number\">5</span> Marks: <span class=\"item-number\">285250</span> + <span class=\"item-number\">262500% nature SP</span> Nature Damage.",
+        "descriptionText": "Requires Spider Form\nConsumes Brood Marks\nSpray poison upon an enemy and nearby enemies, dealing Nature Damage over 15 seconds.\n 1 Mark: 101875 + 93750% nature SP Nature Damage.\n 2 Marks: 130400 + 120000% nature SP Nature Damage.\n 3 Marks: 167075 + 153750% nature SP Nature Damage.\n 4 Marks: 211900 + 195000% nature SP Nature Damage.\n 5 Marks: 285250 + 262500% nature SP Nature Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30469,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Deadly Neurotoxins",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> and <span style=\"color: #FFFFFF; display: inline\">Nerubian Sting</span> now deals an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of their direct damage instantly as Nature Damage.<br /><br />Damage dealt in this way has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to extend the duration of <span style=\"color: #FFFFFF; display: inline\">Rotfang</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Critical strikes with Venom Fang and Nerubian Sting now deals an additional 25% of their direct damage instantly as Nature Damage.\n\nDamage dealt in this way has a 40% chance to extend the duration of Rotfang by 1 sec.",
+    "iconPath": "interface/icons/ability_creature_poison_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504375,
+    "spellIds": [
+      504375
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6080,
+      6146,
+      6147
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504375,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> and <span style=\"color: #FFFFFF; display: inline\">Nerubian Sting</span> now deals an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of their direct damage instantly as Nature Damage.<br /><br />Damage dealt in this way has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to extend the duration of <span style=\"color: #FFFFFF; display: inline\">Rotfang</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Critical strikes with Venom Fang and Nerubian Sting now deals an additional 25% of their direct damage instantly as Nature Damage.\n\nDamage dealt in this way has a 40% chance to extend the duration of Rotfang by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30471,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Vile Fangs",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to generate a <span style=\"color: #66ff66; display: inline\">Brood Mark</span>.",
+    "descriptionText": "Periodic damage dealt now has a 10% chance to generate a Brood Mark.",
+    "iconPath": "interface/icons/_soulfire_shadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706036,
+    "spellIds": [
+      706036
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7152
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706036,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to generate a <span style=\"color: #66ff66; display: inline\">Brood Mark</span>.",
+        "descriptionText": "Periodic damage dealt now has a 10% chance to generate a Brood Mark."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30472,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Withered",
+    "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Withering Venom</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Withering Venom by 15%.",
+    "iconPath": "interface/icons/spell_shadow_demoniccirclesummon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706038,
+    "spellIds": [
+      706038
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30471,
+      30974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 745215,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706038,
+        "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Withering Venom</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Withering Venom by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30473,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Death Spray",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to remove the Energy cost from your next <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> or <span style=\"color: #FFFFFF; display: inline\">Widow's Kiss</span> within <span class=\"item-number\">8</span> seconds and increase its damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />Can occur only once every <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Periodic damage dealt now has a 5% chance to remove the Energy cost from your next Venom Fang or Widow's Kiss within 8 seconds and increase its damage by 20%.\n\nCan occur only once every 2 sec.",
+    "iconPath": "interface/icons/ability_creature_poison_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706271,
+    "spellIds": [
+      706271
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7263,
+      13472,
+      30472
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706271,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to remove the Energy cost from your next <span style=\"color: #FFFFFF; display: inline\">Venom Fang</span> or <span style=\"color: #FFFFFF; display: inline\">Widow's Kiss</span> within <span class=\"item-number\">8</span> seconds and increase its damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />Can occur only once every <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Periodic damage dealt now has a 5% chance to remove the Energy cost from your next Venom Fang or Widow's Kiss within 8 seconds and increase its damage by 20%.\n\nCan occur only once every 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30524,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Cunning of the Nerub'ar",
+    "description": "Augments your <span style=\"color: #ffffff; display: inline\">Spider Form</span>, increasing your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causing it to allow your <span style=\"color: #ffffff; display: inline\">Nerubian Sting</span> to stack <span class=\"item-number\">1</span> additional time.",
+    "descriptionText": "Augments your Spider Form, increasing your damage dealt by 10% and causing it to allow your Nerubian Sting to stack 1 additional time.",
+    "iconPath": "interface/icons/achievement_dungeon_azjollowercity_10man",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805140,
+    "spellIds": [
+      805140
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30469
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805140,
+        "description": "Augments your <span style=\"color: #ffffff; display: inline\">Spider Form</span>, increasing your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causing it to allow your <span style=\"color: #ffffff; display: inline\">Nerubian Sting</span> to stack <span class=\"item-number\">1</span> additional time.",
+        "descriptionText": "Augments your Spider Form, increasing your damage dealt by 10% and causing it to allow your Nerubian Sting to stack 1 additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31201,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Widow's Kiss",
+    "description": "Every 3rd <span style=\"color: #ffffff; display: inline\">Venom Fang</span> becomes <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span>, dealing increased damage and granting you increased haste.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_boss_maexxna\" /><span class=\"name\">Widow&#39;s Kiss (Transform)</span></div><span class=\"desc\"><span style=\"color: #66ff66; display: inline\">Applies <span class=\"item-number\">1</span> Brood Mark</span><br />Bite an enemy for <span class=\"item-number\">137</span> + <span class=\"item-number\">50% shadow SP</span> + <span class=\"item-number\">10% AP</span> Shadow Damage, increasing your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds. Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Venom Fang</span>.</span></div>",
+    "descriptionText": "Every 3rd Venom Fang becomes Widow's Kiss, dealing increased damage and granting you increased haste.\n\n---\n\nWidow's Kiss (Transform)Applies 1 Brood Mark\nBite an enemy for 137 + 50% shadow SP + 10% AP Shadow Damage, increasing your haste by 20% for 4 seconds. Scales with modifiers to Venom Fang.",
+    "iconPath": "interface/icons/achievement_boss_maexxna",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807600,
+    "spellIds": [
+      807600
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12201
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807600,
+        "description": "Every 3rd <span style=\"color: #ffffff; display: inline\">Venom Fang</span> becomes <span style=\"color: #ffffff; display: inline\">Widow's Kiss</span>, dealing increased damage and granting you increased haste.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_boss_maexxna\" /><span class=\"name\">Widow&#39;s Kiss (Transform)</span></div><span class=\"desc\"><span style=\"color: #66ff66; display: inline\">Applies <span class=\"item-number\">1</span> Brood Mark</span><br />Bite an enemy for <span class=\"item-number\">137</span> + <span class=\"item-number\">50% shadow SP</span> + <span class=\"item-number\">10% AP</span> Shadow Damage, increasing your haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds. Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Venom Fang</span>.</span></div>",
+        "descriptionText": "Every 3rd Venom Fang becomes Widow's Kiss, dealing increased damage and granting you increased haste.\n\n---\n\nWidow's Kiss (Transform)Applies 1 Brood Mark\nBite an enemy for 137 + 50% shadow SP + 10% AP Shadow Damage, increasing your haste by 20% for 4 seconds. Scales with modifiers to Venom Fang."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30794,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Glory To Shadra!",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Venom Fang</span> and <span style=\"color: #ffffff; display: inline\">Nerubian Sting</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Venom Fang and Nerubian Sting by 10%.",
+    "iconPath": "interface/icons/5_sumspiders_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706033,
+    "spellIds": [
+      706033
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29580
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706033,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Venom Fang</span> and <span style=\"color: #ffffff; display: inline\">Nerubian Sting</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Venom Fang and Nerubian Sting by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30863,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Virulent Resonance",
+    "description": "Increases the effectiveness of <span style=\"color: #66ff66; display: inline\">Brood Marks</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Brood Marks by 10% and your hit chance by 5%.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_poison_icon_0005s_0000_fire_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804969,
+    "spellIds": [
+      804969
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7152,
+      29580
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804969,
+        "description": "Increases the effectiveness of <span style=\"color: #66ff66; display: inline\">Brood Marks</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Brood Marks by 10% and your hit chance by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30974,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Venomagus",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blight Venom</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Blight Venom by 20%.",
+    "iconPath": "interface/icons/novart_passivemastery_(23)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300682,
+    "spellIds": [
+      300682,
+      301364
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7152
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300682,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blight Venom</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Blight Venom by 20%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301364,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Blight Venom</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Blight Venom by 40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30975,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 77,
+    "tabKey": "29:77",
+    "tabName": "Stalking",
+    "name": "Rotfang",
+    "description": "$bf",
+    "descriptionText": "$bf",
+    "iconPath": "interface/icons/spell_volatilefiregreen",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804977,
+    "spellIds": [
+      804977
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6078,
+      30794
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804977,
+        "description": "$c0",
+        "descriptionText": "$c0"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

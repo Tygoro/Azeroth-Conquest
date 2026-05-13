@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { SidebarNode } from '@workspace/api-client-react';
+import { stripWowMarkup } from '@/data/talent-engine/wow-tooltip-parser';
 
 interface SidebarTrackProps {
   nodes: SidebarNode[];
@@ -82,6 +83,7 @@ export function SidebarTrack({ nodes, color, level }: SidebarTrackProps) {
               node={sb}
               tierLabel={['I', 'II', 'III', 'IV', 'V'][i] ?? `${i + 1}`}
               milestoneLevel={milestoneLevel}
+              milestoneIndex={i}
               unlocked={unlocked}
               color={color}
               top={top}
@@ -105,6 +107,7 @@ interface SidebarNodeComponentProps {
   node: SidebarNode;
   tierLabel: string;
   milestoneLevel: number;
+  milestoneIndex: number;
   unlocked: boolean;
   color: string;
   top: number;
@@ -113,7 +116,7 @@ interface SidebarNodeComponentProps {
 }
 
 function SidebarNodeComponent({
-  node, tierLabel, milestoneLevel, unlocked, color, top, size, level,
+  node, tierLabel, milestoneLevel, milestoneIndex, unlocked, color, top, size, level,
 }: SidebarNodeComponentProps) {
   const [hovered, setHovered] = useState(false);
   // Cursor-following tooltip: track viewport-space mouse coords so the arrow
@@ -127,16 +130,20 @@ function SidebarNodeComponent({
     setHovered(true);
   };
 
+  const isAbilityNode = detectsAbility(cleanSidebarTooltipText(node.description));
+  // Ability-teaching nodes use a square/rounded-rect frame; pure passives use circle.
+  const borderRadius = isAbilityNode ? '6px' : '50%';
+
   const borderColor = unlocked ? color : '#252535';
 
   const boxShadow = unlocked
-    ? `0 0 0 1px ${color}55, 0 0 18px ${color}AA, 0 0 36px ${color}55, inset 0 0 12px ${color}33`
+    ? `0 0 0 1px ${color}77, 0 0 5px ${color}55, inset 0 0 4px ${color}18`
     : 'none';
 
   const bgStyle: React.CSSProperties = {
     background: unlocked
-      ? `radial-gradient(circle at 40% 35%, ${color}55 0%, ${color}18 50%, #0d0d18 100%)`
-      : `radial-gradient(circle at 40% 35%, #14141f 0%, #0a0a14 100%)`,
+      ? `radial-gradient(circle at 40% 35%, ${color}38 0%, ${color}12 50%, #0d0d18 100%)`
+      : `radial-gradient(circle at 40% 35%, #12121d 0%, #0a0a14 100%)`,
   };
 
   return (
@@ -153,16 +160,15 @@ function SidebarNodeComponent({
       onMouseMove={handleMouseMove}
       onMouseLeave={() => setHovered(false)}
     >
-      {/* Outer animated glow when unlocked */}
+      {/* Outer animated ring when unlocked — subtle pulse only */}
       {unlocked && (
         <motion.div
-          className="absolute inset-0 rounded-full pointer-events-none"
-          animate={{ scale: [1, 1.3, 1], opacity: [0.5, 0, 0.5] }}
-          transition={{ duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
+          className="absolute inset-0 pointer-events-none"
+          animate={{ scale: [1, 1.12, 1], opacity: [0.22, 0, 0.22] }}
+          transition={{ duration: 3.2, repeat: Infinity, ease: 'easeInOut' }}
           style={{
-            border: `1px solid ${color}`,
-            boxShadow: `0 0 22px ${color}`,
-            borderRadius: '50%',
+            border: `1px solid ${color}66`,
+            borderRadius,
           }}
         />
       )}
@@ -176,10 +182,10 @@ function SidebarNodeComponent({
         className="w-full h-full relative overflow-hidden select-none flex items-center justify-center"
         style={{
           ...bgStyle,
-          borderRadius: '50%',
+          borderRadius,
           border: `2px solid ${borderColor}`,
           boxShadow,
-          opacity: unlocked ? 1 : 0.45,
+          opacity: unlocked ? 1 : 0.58,
           transition: 'border-color 0.25s, box-shadow 0.25s, opacity 0.25s',
         }}
       >
@@ -228,7 +234,7 @@ function SidebarNodeComponent({
             unlocked={unlocked}
             color={color}
             milestoneLevel={milestoneLevel}
-            level={level}
+            milestoneIndex={milestoneIndex}
             mousePos={mousePos}
           />
         )}
@@ -244,26 +250,38 @@ interface SidebarTooltipProps {
   unlocked: boolean;
   color: string;
   milestoneLevel: number;
-  level: number;
+  milestoneIndex: number;
   mousePos: { x: number; y: number };
 }
 
 function cleanSidebarTooltipText(text: string): string {
-  return text
+  return stripWowMarkup(text)
     .replace(/\[?Interface\\[^)\]\s]+]?/gi, '')
     .replace(/\bInterface\\[^\s]+/gi, '')
-    .replace(/\b[A-Z][A-Za-z]+_[A-Za-z0-9_]+\b/g, '')
-    .replace(/\b[a-z0-9-]+_(class|spec|left|right|l|r|sb)_[a-z0-9_-]+\b/gi, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
-function SidebarTooltip({ node, unlocked, color, milestoneLevel, level, mousePos }: SidebarTooltipProps) {
-  // Portaled to document.body to escape the CSS-transformed ScaleStage
-  // ancestor (otherwise `position: fixed` would be anchored to the stage).
-  // Layout: prefer above the cursor; flip below if there's no room. Center
-  // horizontally on the cursor, then clamp into the viewport. The arrow's x
-  // is decoupled from the tooltip's x so it always points at the cursor.
+/**
+ * Detect whether a sidebar node teaches an ability (vs pure passive).
+ * Heuristic: description contains "Teaches you", "teaches you", or starts with
+ * a known ability-teaching pattern. Ability nodes get square icon framing.
+ */
+function detectsAbility(description: string): boolean {
+  const lower = description.toLowerCase();
+  return lower.includes('teaches you') || lower.includes('grants you') || lower.includes('learn ');
+}
+
+/**
+ * For ability-teaching nodes, extract the ability name from description.
+ * Looks for "Teaches you X." or "Grants you X." patterns.
+ */
+function extractAbilityName(description: string): string | null {
+  const m = description.match(/(?:teaches|grants) you ([^.]+)\./i);
+  return m ? m[1].trim() : null;
+}
+
+function SidebarTooltip({ node, unlocked, color, milestoneLevel, milestoneIndex, mousePos }: SidebarTooltipProps) {
   const ref = useRef<HTMLDivElement>(null);
   const [dims, setDims] = useState({ w: 256, h: 0 });
 
@@ -297,7 +315,16 @@ function SidebarTooltip({ node, unlocked, color, milestoneLevel, level, mousePos
 
   const arrowX = Math.max(10, Math.min(w - 10, mousePos.x - leftPx));
   const isTop = placement === 'top';
-  const description = cleanSidebarTooltipText(node.description);
+
+  const description = cleanSidebarTooltipText(node.description)
+    .replace(/\bLevel:\s*\d+/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  const isAbility = detectsAbility(description);
+  const abilityName = isAbility ? extractAbilityName(description) : null;
+  const nodeTypeLabel = isAbility ? 'Ability' : 'Passive';
+  // TE spent requirement: 5 per milestone after the first (0, 5, 10, 15, 20)
+  const teRequired = milestoneIndex * 5;
 
   return createPortal(
     <motion.div
@@ -306,10 +333,11 @@ function SidebarTooltip({ node, unlocked, color, milestoneLevel, level, mousePos
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.94 }}
       transition={{ duration: 0.12 }}
-      className="fixed z-[100] pointer-events-none w-64"
+      className="fixed z-[100] pointer-events-none"
       style={{
         left: leftPx,
         top: topPx,
+        width: 272,
         visibility: h === 0 ? 'hidden' : 'visible',
       }}
     >
@@ -321,6 +349,7 @@ function SidebarTooltip({ node, unlocked, color, milestoneLevel, level, mousePos
           boxShadow: `0 8px 32px rgba(0,0,0,0.85), 0 0 0 1px ${color}18, 0 0 20px ${color}15`,
         }}
       >
+        {/* ── Header ── */}
         <div
           className="px-3 pt-2.5 pb-2"
           style={{
@@ -328,13 +357,15 @@ function SidebarTooltip({ node, unlocked, color, milestoneLevel, level, mousePos
             borderBottom: `1px solid ${color}30`,
           }}
         >
-          <div
-            className="text-sm font-bold leading-tight tracking-wide"
-            style={{ color: '#ffd100', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
-          >
-            {node.name}
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <span
+              className="text-sm font-bold leading-tight tracking-wide"
+              style={{ color: '#ffd100', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
+            >
+              {node.name}
+            </span>
           </div>
-          <div className="flex items-center gap-2 mt-0.5">
+          <div className="flex items-center gap-2 mt-1 flex-wrap">
             <span
               className="text-[9px] uppercase tracking-[0.15em] font-bold px-1.5 py-0.5 rounded"
               style={{
@@ -343,50 +374,87 @@ function SidebarTooltip({ node, unlocked, color, milestoneLevel, level, mousePos
                 border: `1px solid ${color}33`,
               }}
             >
-              ascension
+              auto-passive
             </span>
-            <span className="text-[10px] font-mono" style={{ color: '#9999b0' }}>
-              Level {milestoneLevel} Passive
+            <span className="text-[10px]" style={{ color: '#e07820' }}>
+              Requires Level {milestoneLevel}
             </span>
           </div>
         </div>
 
-        <div className="px-3 py-2.5 space-y-2">
-          {description && (
-            <p className="text-xs leading-relaxed" style={{ color: '#c8c8d8' }}>
+        {/* ── Body ── */}
+        <div className="px-3 pt-2 pb-2.5">
+          {/* Level X Passive / Level X Ability */}
+          <div className="text-[11px] font-semibold mb-1.5" style={{ color: `${color}CC` }}>
+            Level {milestoneLevel} {nodeTypeLabel}
+          </div>
+
+          {/* TE spent requirement — only milestones 2-5 */}
+          {teRequired > 0 && (
+            <div className="text-[11px] leading-snug mb-2" style={{ color: '#ff8040' }}>
+              requires {teRequired} Talent Essence in spec tree
+            </div>
+          )}
+
+          {/* Description — for ability nodes show only the ability description, not the "teaches you" line */}
+          {description && !isAbility && (
+            <p className="text-[12px] leading-relaxed" style={{ color: '#c8c8d8' }}>
               {description}
             </p>
           )}
 
-          {!unlocked ? (
-            <div
-              className="text-[10px] leading-snug px-2 py-1.5 rounded"
-              style={{
-                color: '#ff5050',
-                background: 'rgba(255,50,50,0.08)',
-                border: '1px solid rgba(255,50,50,0.2)',
-              }}
-            >
-              <span className="font-bold">Unlocks at</span>{' '}
-              <span className="font-bold">level {milestoneLevel}</span>{' '}
-              ({level}/{milestoneLevel})
-            </div>
-          ) : (
-            <div
-              className="text-[10px] leading-snug px-2 py-1.5 rounded"
-              style={{
-                color: `${color}DD`,
-                background: `${color}10`,
-                border: `1px solid ${color}33`,
-              }}
-            >
-              <span className="font-bold">Active.</span> This bonus is granted automatically.
-            </div>
+          {/* Ability-teaching nodes: second section with divider */}
+          {isAbility && (
+            <>
+              {/* "Teaches you X." lead-in */}
+              <p className="text-[12px] leading-relaxed mb-2" style={{ color: '#c8c8d8' }}>
+                Teaches you {abilityName ?? node.name}.
+              </p>
+
+              {/* Divider */}
+              <div
+                className="my-2"
+                style={{
+                  height: 1,
+                  background: `linear-gradient(90deg, transparent 0%, ${color}44 20%, ${color}44 80%, transparent 100%)`,
+                }}
+              />
+
+              {/* Ability spell block */}
+              <div className="flex items-start gap-2">
+                {/* Ability icon — square framed */}
+                <div
+                  className="flex-none rounded"
+                  style={{
+                    width: 36,
+                    height: 36,
+                    background: `${color}18`,
+                    border: `1px solid ${color}44`,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <span className="text-[10px] font-bold" style={{ color: `${color}AA` }}>
+                    {(abilityName ?? node.name).split(' ').map(w => w[0]).join('').slice(0, 3)}
+                  </span>
+                </div>
+                <div>
+                  <div className="text-[12px] font-bold leading-tight mb-0.5" style={{ color: '#ffd100' }}>
+                    {abilityName ?? node.name}
+                  </div>
+                  <p className="text-[11px] leading-relaxed" style={{ color: '#c8c8d8' }}>
+                    {description}
+                  </p>
+                </div>
+              </div>
+            </>
           )}
+
         </div>
       </div>
 
-      {/* Tooltip arrow — always centered on the cursor's actual x. */}
+      {/* Tooltip arrow */}
       <div
         className="absolute"
         style={{

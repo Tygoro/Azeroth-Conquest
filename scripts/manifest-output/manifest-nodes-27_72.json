@@ -1,0 +1,1836 @@
+[
+  {
+    "nodeId": 34006,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Hope",
+    "description": "When the absorption shield from <span style=\"color: #ffffff; display: inline\">The Chosen</span> is depleted, it explodes for <span class=\"item-number\">37</span> + <span class=\"item-number\">48.5% AP</span> + <span class=\"item-number\">60% holy SP</span> Holy Damage, split between enemies within <span class=\"item-number\">8</span> yds.",
+    "descriptionText": "When the absorption shield from The Chosen is depleted, it explodes for 37 + 48.5% AP + 60% holy SP Holy Damage, split between enemies within 8 yds.",
+    "iconPath": "interface/icons/nhi_holyinfusion_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680637,
+    "spellIds": [
+      680637
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7666
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680637,
+        "description": "When the absorption shield from <span style=\"color: #ffffff; display: inline\">The Chosen</span> is depleted, it explodes for <span class=\"item-number\">37</span> + <span class=\"item-number\">48.5% AP</span> + <span class=\"item-number\">60% holy SP</span> Holy Damage, split between enemies within <span class=\"item-number\">8</span> yds.",
+        "descriptionText": "When the absorption shield from The Chosen is depleted, it explodes for 37 + 48.5% AP + 60% holy SP Holy Damage, split between enemies within 8 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34010,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Dawnguard",
+    "description": "Fulfilling a <span style=\"color: #ffffff; display: inline\">Vow</span> now increases your block chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Fulfilling a Vow now increases your block chance by 2% for 15 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_artifact_xp05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704562,
+    "spellIds": [
+      704562
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34012
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704562,
+        "description": "Fulfilling a <span style=\"color: #ffffff; display: inline\">Vow</span> now increases your block chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Fulfilling a Vow now increases your block chance by 2% for 15 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34011,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Shining Shield",
+    "description": "Activating <span style=\"color: #FF9800; display: inline\">Dawn</span> now grants <span style=\"color: #ffffff; display: inline\">Shining Shield</span> for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_paladinskill11_border\" /><span class=\"name\">Shining Shield</span></div><span class=\"desc\">Increases your Armor contribution from your shield by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Activating Dawn now grants Shining Shield for 8 seconds.\n\n---\n\nShining ShieldIncreases your Armor contribution from your shield by 50%.",
+    "iconPath": "interface/icons/5_paladinskill11_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704586,
+    "spellIds": [
+      704586
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7319
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704586,
+        "description": "Activating <span style=\"color: #FF9800; display: inline\">Dawn</span> now grants <span style=\"color: #ffffff; display: inline\">Shining Shield</span> for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_paladinskill11_border\" /><span class=\"name\">Shining Shield</span></div><span class=\"desc\">Increases your Armor contribution from your shield by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Activating Dawn now grants Shining Shield for 8 seconds.\n\n---\n\nShining ShieldIncreases your Armor contribution from your shield by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34012,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Divine Right",
+    "description": "Increases your chance to critically strike and to parry attacks by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and your spell hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to critically strike and to parry attacks by 2% and your spell hit chance by 5%.",
+    "iconPath": "interface/icons/nhi_holy_punch_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680631,
+    "spellIds": [
+      680631,
+      681469
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7646,
+      7666,
+      29515
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680631,
+        "description": "Increases your chance to critically strike and to parry attacks by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and your spell hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to critically strike and to parry attacks by 2% and your spell hit chance by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681469,
+        "description": "Increases your chance to critically strike and to parry attacks by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and your spell hit chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to critically strike and to parry attacks by 4% and your spell hit chance by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34013,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Valiance",
+    "description": "Increases your melee attack speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and your first auto attack on a target hits twice.",
+    "descriptionText": "Increases your melee attack speed by 15% and your first auto attack on a target hits twice.",
+    "iconPath": "interface/icons/spell_holy_championsgrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680643,
+    "spellIds": [
+      680643
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7649
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680643,
+        "description": "Increases your melee attack speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and your first auto attack on a target hits twice.",
+        "descriptionText": "Increases your melee attack speed by 15% and your first auto attack on a target hits twice."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34014,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Luminary Mendicant",
+    "description": "Increases the mana restored by <span style=\"color: #ffffff; display: inline\">Vow of Grace</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the mana restored by Vow of Grace by 100%.",
+    "iconPath": "interface/icons/spell_holy_sealofwrath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 547214,
+    "spellIds": [
+      547214
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7659
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 547214,
+        "description": "Increases the mana restored by <span style=\"color: #ffffff; display: inline\">Vow of Grace</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the mana restored by Vow of Grace by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34015,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Blessing of Kings",
+    "description": "Critical strikes now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Hammer of Kings</span> and <span style=\"color: #ffffff; display: inline\">Solar Prayer</span> by <span class=\"item-number\">-1</span>.",
+    "descriptionText": "Critical strikes now reduce the cooldown of Hammer of Kings and Solar Prayer by -1.",
+    "iconPath": "interface/icons/spell_magic_greaterblessingofkings",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561327,
+    "spellIds": [
+      561327
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7632
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707629,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561327,
+        "description": "Critical strikes now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Hammer of Kings</span> and <span style=\"color: #ffffff; display: inline\">Solar Prayer</span> by <span class=\"item-number\">-1</span>.",
+        "descriptionText": "Critical strikes now reduce the cooldown of Hammer of Kings and Solar Prayer by -1."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30379,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Dawn's Arrival",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> and causes the next one to not incur a cooldown.",
+    "descriptionText": "Casting Dawnbreak now has a 40% chance to reset the cooldown of Gavel of Atonement and causes the next one to not incur a cooldown.",
+    "iconPath": "interface/icons/spell_holy_restoration",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503690,
+    "spellIds": [
+      503690
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7657,
+      11006,
+      34015
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503690,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> and causes the next one to not incur a cooldown.",
+        "descriptionText": "Casting Dawnbreak now has a 40% chance to reset the cooldown of Gavel of Atonement and causes the next one to not incur a cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30569,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Justicar's Wrath",
+    "description": "Bring holy wrath down upon an enemy, dealing <span class=\"item-number\">540</span> + <span class=\"item-number\">55% SP</span> + <span class=\"item-number\">25% AP</span> High Threat Holy Damage and increasing the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Bring holy wrath down upon an enemy, dealing 540 + 55% SP + 25% AP High Threat Holy Damage and increasing the target's spell damage taken by 10% for 15 seconds.",
+    "iconPath": "interface/icons/novart_weapon_(28)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806980,
+    "spellIds": [
+      806980
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7085,
+      30379
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806980,
+        "description": "Bring holy wrath down upon an enemy, dealing <span class=\"item-number\">540</span> + <span class=\"item-number\">55% SP</span> + <span class=\"item-number\">25% AP</span> High Threat Holy Damage and increasing the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Bring holy wrath down upon an enemy, dealing 540 + 55% SP + 25% AP High Threat Holy Damage and increasing the target's spell damage taken by 10% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30674,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "The Chosen King",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Hammer of Kings</span> now also increases your critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Casting Hammer of Kings now also increases your critical strike chance by 10% for 10 seconds.",
+    "iconPath": "interface/icons/spell_holy_auramastery",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707079,
+    "spellIds": [
+      707079
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6772
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 800039,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707079,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Hammer of Kings</span> now also increases your critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Casting Hammer of Kings now also increases your critical strike chance by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30958,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Glorious Defender",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Gavel of Atonement by 25%.",
+    "iconPath": "interface/icons/spell_holy_avengersshield",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680634,
+    "spellIds": [
+      680634
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7635,
+      7659
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680634,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Gavel of Atonement by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31383,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Blessed One",
+    "description": "Increases your chance to block by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to block by 5% and reduces the duration of movement slowing effects by -20%.",
+    "iconPath": "interface/icons/ability_priest_reflectiveshield",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680670,
+    "spellIds": [
+      680670
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29515
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680670,
+        "description": "Increases your chance to block by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to block by 5% and reduces the duration of movement slowing effects by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29515,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Seraphic Bulwark",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">25</span> sec recharge</span><br />Raise your blessed shield, increasing your block value by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>. Lasts for <span class=\"item-number\">5</span> blocks or <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "2 Charges, 25 sec recharge\nRaise your blessed shield, increasing your block value by 100%. Lasts for 5 blocks or 10 seconds.",
+    "iconPath": "interface/icons/inv_shield_1h_raidnazmir_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560095,
+    "spellIds": [
+      560095
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34011
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560095,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">25</span> sec recharge</span><br />Raise your blessed shield, increasing your block value by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>. Lasts for <span class=\"item-number\">5</span> blocks or <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "2 Charges, 25 sec recharge\nRaise your blessed shield, increasing your block value by 100%. Lasts for 5 blocks or 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7085,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Stand Against Darkness",
+    "description": "During the day you now deal <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> more Holy Damage and take <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced periodic damage.",
+    "descriptionText": "During the day you now deal -10% more Holy Damage and take -10% reduced periodic damage.",
+    "iconPath": "interface/icons/spell_holy_devineaegis",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707078,
+    "spellIds": [
+      707078
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7657
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707078,
+        "description": "During the day you now deal <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> more Holy Damage and take <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced periodic damage.",
+        "descriptionText": "During the day you now deal -10% more Holy Damage and take -10% reduced periodic damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6772,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Protector of the Flame",
+    "description": "Avoiding an attack now also deals <span class=\"item-number\">648% fire SP</span> + <span class=\"item-number\">3% AP</span> Fire Damage to the attacker.<br /><br />Can only occur once per sec.",
+    "descriptionText": "Avoiding an attack now also deals 648% fire SP + 3% AP Fire Damage to the attacker.\n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/nhi_soulburn_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560492,
+    "spellIds": [
+      560492
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34006
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560492,
+        "description": "Avoiding an attack now also deals <span class=\"item-number\">648% fire SP</span> + <span class=\"item-number\">3% AP</span> Fire Damage to the attacker.<br /><br />Can only occur once per sec.",
+        "descriptionText": "Avoiding an attack now also deals 648% fire SP + 3% AP Fire Damage to the attacker.\n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1374,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Calm",
+    "description": "Calm an enemy, disarming their melee and ranged weapons for <span class=\"item-number\">6</span> seconds.<br /><br />If your target is an Undead or Demon, they are also unable to attack or move for <span class=\"item-number\">6</span> seconds. <br /><br />Enemies that are immune to silence effects cannot be affected by this.",
+    "descriptionText": "Calm an enemy, disarming their melee and ranged weapons for 6 seconds.\n\nIf your target is an Undead or Demon, they are also unable to attack or move for 6 seconds. \n\nEnemies that are immune to silence effects cannot be affected by this.",
+    "iconPath": "interface/icons/spell_priest_burningwill",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804057,
+    "spellIds": [
+      804057
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7647,
+      34013
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804057,
+        "description": "Calm an enemy, disarming their melee and ranged weapons for <span class=\"item-number\">6</span> seconds.<br /><br />If your target is an Undead or Demon, they are also unable to attack or move for <span class=\"item-number\">6</span> seconds. <br /><br />Enemies that are immune to silence effects cannot be affected by this.",
+        "descriptionText": "Calm an enemy, disarming their melee and ranged weapons for 6 seconds.\n\nIf your target is an Undead or Demon, they are also unable to attack or move for 6 seconds. \n\nEnemies that are immune to silence effects cannot be affected by this."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4048,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Angelic Presence",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Avoiding an attack now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Angelic Presence</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_conviction\" /><span class=\"name\">Angelic Presence</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Illumination</span> within <span class=\"item-number\">15</span> seconds is instant cast and free of cost.</span></div>",
+    "descriptionText": "Level 10 Passive\nAvoiding an attack now has a 20% chance to grant you Angelic Presence.\n\n---\n\nAngelic PresenceYour next Illumination within 15 seconds is instant cast and free of cost.",
+    "iconPath": "interface/icons/ability_paladin_conviction",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92137,
+    "spellIds": [
+      92137
+    ],
+    "requiredNodeIds": [
+      33979
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92137,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Avoiding an attack now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Angelic Presence</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_paladin_conviction\" /><span class=\"name\">Angelic Presence</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Illumination</span> within <span class=\"item-number\">15</span> seconds is instant cast and free of cost.</span></div>",
+        "descriptionText": "Level 10 Passive\nAvoiding an attack now has a 20% chance to grant you Angelic Presence.\n\n---\n\nAngelic PresenceYour next Illumination within 15 seconds is instant cast and free of cost."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4649,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Sun-Touched Armor",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Armor by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> of your Strength and Intellect and increases your total Stamina by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 20 Passive\nIncreases your Armor by 150% of your Strength and Intellect and increases your total Stamina by 15%.",
+    "iconPath": "interface/icons/spell_fire_firearmor",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 561023,
+    "spellIds": [
+      561023
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4048
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561023,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Armor by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> of your Strength and Intellect and increases your total Stamina by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 20 Passive\nIncreases your Armor by 150% of your Strength and Intellect and increases your total Stamina by 15%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4651,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Solar Discernment",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your critical strike rating and expertise rating by <span class=\"item-number\">12</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 40 Passive\nIncreases your critical strike rating and expertise rating by 12% of your Intellect.",
+    "iconPath": "interface/icons/5_paladinskill13_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807654,
+    "spellIds": [
+      807654
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9650
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807654,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your critical strike rating and expertise rating by <span class=\"item-number\">12</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 40 Passive\nIncreases your critical strike rating and expertise rating by 12% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29323,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Solar Eclipse",
+    "description": "<span style=\"color: #ffffff; display: inline\">Dawnbreak</span> now unleashes a burst of holy energy after a <span class=\"item-number\">1</span> seconds delay, dealing <span class=\"item-number\">65</span> + <span class=\"item-number\">12.5% holy SP</span> + <span class=\"item-number\">10% AP</span> Holy Damage to nearby enemies.",
+    "descriptionText": "Dawnbreak now unleashes a burst of holy energy after a 1 seconds delay, dealing 65 + 12.5% holy SP + 10% AP Holy Damage to nearby enemies.",
+    "iconPath": "interface/icons/inv_artifact_xp03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704929,
+    "spellIds": [
+      704929
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31383
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704929,
+        "description": "<span style=\"color: #ffffff; display: inline\">Dawnbreak</span> now unleashes a burst of holy energy after a <span class=\"item-number\">1</span> seconds delay, dealing <span class=\"item-number\">65</span> + <span class=\"item-number\">12.5% holy SP</span> + <span class=\"item-number\">10% AP</span> Holy Damage to nearby enemies.",
+        "descriptionText": "Dawnbreak now unleashes a burst of holy energy after a 1 seconds delay, dealing 65 + 12.5% holy SP + 10% AP Holy Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7632,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Grace",
+    "description": "Increases your chance to dodge by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to dodge by 5%.",
+    "iconPath": "interface/icons/spell_holy_impholyconcentration",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680650,
+    "spellIds": [
+      680650
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6772
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680650,
+        "description": "Increases your chance to dodge by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to dodge by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7635,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Heat Death",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Solar Eclipse</span> now reduces the enemies chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> sec.",
+    "descriptionText": "Your Solar Eclipse now reduces the enemies chance to hit by -3% for 15 sec.",
+    "iconPath": "interface/icons/inv_artifact_xp01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704932,
+    "spellIds": [
+      704932
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29323
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704932,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Solar Eclipse</span> now reduces the enemies chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> sec.",
+        "descriptionText": "Your Solar Eclipse now reduces the enemies chance to hit by -3% for 15 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7646,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Blessed Bulwark",
+    "description": "Avoiding an attack now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to regenerate <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your base mana.",
+    "descriptionText": "Avoiding an attack now has a 20% chance to regenerate 5% of your base mana.",
+    "iconPath": "interface/icons/inv_shield_57",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680663,
+    "spellIds": [
+      680663
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7664,
+      34011
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680663,
+        "description": "Avoiding an attack now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to regenerate <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your base mana.",
+        "descriptionText": "Avoiding an attack now has a 20% chance to regenerate 5% of your base mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7647,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Gleaming Armor",
+    "description": "Reduces your spell damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> while above <span class=\"item-number\">80%</span> health.",
+    "descriptionText": "Reduces your spell damage taken by -5%, plus an additional -5% while above 80% health.",
+    "iconPath": "interface/icons/inv_legion_faction_valarjar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805267,
+    "spellIds": [
+      805267
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7649
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805267,
+        "description": "Reduces your spell damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> while above <span class=\"item-number\">80%</span> health.",
+        "descriptionText": "Reduces your spell damage taken by -5%, plus an additional -5% while above 80% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7649,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Solar Nova",
+    "description": "Emit a powerful holy light in an <span class=\"item-number\">8</span> yd radius, dealing <span class=\"item-number\">101</span> + <span class=\"item-number\">50% holy SP</span> + <span class=\"item-number\">5.06% AP</span> Holy Damage to all nearby enemies. <br /><br />Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-1</span> sec for each target struck.<br /><br />This ability is guaranteed to critically strike against Undead or Demons.",
+    "descriptionText": "Emit a powerful holy light in an 8 yd radius, dealing 101 + 50% holy SP + 5.06% AP Holy Damage to all nearby enemies. \n\nReduces the cooldown of your Solar Invocation spells by -1 sec for each target struck.\n\nThis ability is guaranteed to critically strike against Undead or Demons.",
+    "iconPath": "interface/icons/spell_holy_holyguidance",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680621,
+    "spellIds": [
+      680621
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6772,
+      29323,
+      34010
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680621,
+        "description": "Emit a powerful holy light in an <span class=\"item-number\">8</span> yd radius, dealing <span class=\"item-number\">101</span> + <span class=\"item-number\">50% holy SP</span> + <span class=\"item-number\">5.06% AP</span> Holy Damage to all nearby enemies. <br /><br />Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-1</span> sec for each target struck.<br /><br />This ability is guaranteed to critically strike against Undead or Demons.",
+        "descriptionText": "Emit a powerful holy light in an 8 yd radius, dealing 101 + 50% holy SP + 5.06% AP Holy Damage to all nearby enemies. \n\nReduces the cooldown of your Solar Invocation spells by -1 sec for each target struck.\n\nThis ability is guaranteed to critically strike against Undead or Demons."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7651,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Sun Strider",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Gavel of Attonement</span> or <span style=\"color: #FFFFFF; display: inline\">Dawnbreak</span> now increases the healing of your next <span style=\"color: #FFFFFF; display: inline\">Illumination</span> within <span class=\"item-number\">20</span> seconds by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">3</span> times.<br /><br />Consuming the stacks increases your critical block chance and movement speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Critical strikes with Gavel of Attonement or Dawnbreak now increases the healing of your next Illumination within 20 seconds by 15%, stacking up to 3 times.\n\nConsuming the stacks increases your critical block chance and movement speed by 10% for 8 seconds.",
+    "iconPath": "interface/icons/nhi_holypeak_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680641,
+    "spellIds": [
+      680641
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7655
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680641,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Gavel of Attonement</span> or <span style=\"color: #FFFFFF; display: inline\">Dawnbreak</span> now increases the healing of your next <span style=\"color: #FFFFFF; display: inline\">Illumination</span> within <span class=\"item-number\">20</span> seconds by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, stacking up to <span class=\"item-number\">3</span> times.<br /><br />Consuming the stacks increases your critical block chance and movement speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Critical strikes with Gavel of Attonement or Dawnbreak now increases the healing of your next Illumination within 20 seconds by 15%, stacking up to 3 times.\n\nConsuming the stacks increases your critical block chance and movement speed by 10% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7652,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Adjudicator",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Justicar's Wrath</span> now deals an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of its damage dealt to the target and enemies around them, healing you for <span class=\"item-number\">10%</span> of the damage dealt.",
+    "descriptionText": "Your Justicar's Wrath now deals an additional 50% of its damage dealt to the target and enemies around them, healing you for 10% of the damage dealt.",
+    "iconPath": "interface/icons/inv_helm_plate_raidpaladindragon_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704903,
+    "spellIds": [
+      704903
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30569
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704903,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Justicar's Wrath</span> now deals an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of its damage dealt to the target and enemies around them, healing you for <span class=\"item-number\">10%</span> of the damage dealt.",
+        "descriptionText": "Your Justicar's Wrath now deals an additional 50% of its damage dealt to the target and enemies around them, healing you for 10% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7653,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Together In Conquest",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Solar Invocation</span> spells now causes your <span style=\"color: #FFFFFF; display: inline\">Illumination</span> to heal an additional nearby ally at <span class=\"item-number\">70%</span> effectiveness for <span class=\"item-number\">10</span> seconds.<br /><br />In addition, <span style=\"color: #FFFFFF; display: inline\">Illumination</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Your Solar Invocation spells now causes your Illumination to heal an additional nearby ally at 70% effectiveness for 10 seconds.\n\nIn addition, Illumination now reduces the cooldown of Solar Invocation spells by -1 sec.",
+    "iconPath": "interface/icons/spell_holy_crusade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681253,
+    "spellIds": [
+      681253
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1374,
+      7085,
+      7665
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681253,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Solar Invocation</span> spells now causes your <span style=\"color: #FFFFFF; display: inline\">Illumination</span> to heal an additional nearby ally at <span class=\"item-number\">70%</span> effectiveness for <span class=\"item-number\">10</span> seconds.<br /><br />In addition, <span style=\"color: #FFFFFF; display: inline\">Illumination</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Your Solar Invocation spells now causes your Illumination to heal an additional nearby ally at 70% effectiveness for 10 seconds.\n\nIn addition, Illumination now reduces the cooldown of Solar Invocation spells by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7655,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Sacred Vessel",
+    "description": "Expending <span style=\"color: #FFFFFF; display: inline\">Angelic Presence</span> increases your critical strike chance and healing by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking up to <span class=\"item-number\">10</span> times.<br /><br />Additional applications do not refresh the duration.",
+    "descriptionText": "Expending Angelic Presence increases your critical strike chance and healing by 1% for 20 seconds, stacking up to 10 times.\n\nAdditional applications do not refresh the duration.",
+    "iconPath": "interface/icons/5_holywater_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680648,
+    "spellIds": [
+      680648
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7665,
+      7909
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680648,
+        "description": "Expending <span style=\"color: #FFFFFF; display: inline\">Angelic Presence</span> increases your critical strike chance and healing by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking up to <span class=\"item-number\">10</span> times.<br /><br />Additional applications do not refresh the duration.",
+        "descriptionText": "Expending Angelic Presence increases your critical strike chance and healing by 1% for 20 seconds, stacking up to 10 times.\n\nAdditional applications do not refresh the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7656,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Scroll of Hope",
+    "description": "Read from a scroll of hope, reducing Magic Damage taken by party and raid members within <span class=\"item-number\">15</span> yds by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />If any ally falls below <span class=\"item-number\">35%</span> of their maximum health while this is active they are instantly healed once for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of their maximum health.",
+    "descriptionText": "Read from a scroll of hope, reducing Magic Damage taken by party and raid members within 15 yds by -30% for 10 seconds.\n\nIf any ally falls below 35% of their maximum health while this is active they are instantly healed once for 15% of their maximum health.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holyscroll_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680646,
+    "spellIds": [
+      680646
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7653,
+      7655,
+      30569
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680646,
+        "description": "Read from a scroll of hope, reducing Magic Damage taken by party and raid members within <span class=\"item-number\">15</span> yds by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />If any ally falls below <span class=\"item-number\">35%</span> of their maximum health while this is active they are instantly healed once for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of their maximum health.",
+        "descriptionText": "Read from a scroll of hope, reducing Magic Damage taken by party and raid members within 15 yds by -30% for 10 seconds.\n\nIf any ally falls below 35% of their maximum health while this is active they are instantly healed once for 15% of their maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7657,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Bastion of Hope",
+    "description": "Critical strikes now bless you, regenerating <span class=\"item-number\">49</span> + <span class=\"item-number\">15% SP</span> mana and increasing all of your primary stats by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Critical strikes now bless you, regenerating 49 + 15% SP mana and increasing all of your primary stats by 10% for 5 seconds.",
+    "iconPath": "interface/icons/inv_shield_1h_artifactnorgannon_d_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704928,
+    "spellIds": [
+      704928
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7632,
+      7658,
+      30674
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704928,
+        "description": "Critical strikes now bless you, regenerating <span class=\"item-number\">49</span> + <span class=\"item-number\">15% SP</span> mana and increasing all of your primary stats by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Critical strikes now bless you, regenerating 49 + 15% SP mana and increasing all of your primary stats by 10% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7658,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Sun Warrior's Guidance",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> and <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Gavel of Atonement and Dawnbreak by 5%.",
+    "iconPath": "interface/icons/inv_helm_plate_raidpaladin_r_01mythic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800039,
+    "spellIds": [
+      800039
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6772
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 800039,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800039,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> and <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Gavel of Atonement and Dawnbreak by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7659,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Paying The Tithe",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your <span style=\"color: #FFFFFF; display: inline\">Seraphic Bulwark</span> now lasts for <span class=\"item-number\">2</span> additional blocks.",
+    "descriptionText": "Increases the critical strike chance of Dawnbreak by 10% and your Seraphic Bulwark now lasts for 2 additional blocks.",
+    "iconPath": "interface/icons/custom_56_holy_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680647,
+    "spellIds": [
+      680647,
+      681468
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29323
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680647,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your <span style=\"color: #FFFFFF; display: inline\">Seraphic Bulwark</span> now lasts for <span class=\"item-number\">2</span> additional blocks.",
+        "descriptionText": "Increases the critical strike chance of Dawnbreak by 10% and your Seraphic Bulwark now lasts for 2 additional blocks."
+      },
+      {
+        "rank": 2,
+        "spellId": 681468,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Dawnbreak</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your <span style=\"color: #FFFFFF; display: inline\">Seraphic Bulwark</span> now lasts for <span class=\"item-number\">4</span> additional blocks.",
+        "descriptionText": "Increases the critical strike chance of Dawnbreak by 20% and your Seraphic Bulwark now lasts for 4 additional blocks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7664,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "The Chosen",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Illumination</span> now shields you for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the amount healed.",
+    "descriptionText": "Your Illumination now shields you for 30% of the amount healed.",
+    "iconPath": "interface/icons/ability_paladin_empoweredsealsrighteous",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704936,
+    "spellIds": [
+      704936
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7319
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704936,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Illumination</span> now shields you for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the amount healed.",
+        "descriptionText": "Your Illumination now shields you for 30% of the amount healed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7665,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Judgement",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and it is now guaranteed to critically strike against Undead enemies.",
+    "descriptionText": "Increases the critical damage of Gavel of Atonement by 15% and it is now guaranteed to critically strike against Undead enemies.",
+    "iconPath": "interface/icons/spell_holy_excorcism",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680645,
+    "spellIds": [
+      680645
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30958
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680645,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and it is now guaranteed to critically strike against Undead enemies.",
+        "descriptionText": "Increases the critical damage of Gavel of Atonement by 15% and it is now guaranteed to critically strike against Undead enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7666,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Hammer of Kings",
+    "description": "Become anointed by the light, summoning a blessed hammer that encircles you dealing <span class=\"item-number\">51</span> + <span class=\"item-number\">12% AP</span> + <span class=\"item-number\">22% holy SP</span> Holyfire Damage to nearby enemies every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Become anointed by the light, summoning a blessed hammer that encircles you dealing 51 + 12% AP + 22% holy SP Holyfire Damage to nearby enemies every 3 sec for 12 seconds.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holyhammer_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804751,
+    "spellIds": [
+      804751
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7664
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804751,
+        "description": "Become anointed by the light, summoning a blessed hammer that encircles you dealing <span class=\"item-number\">51</span> + <span class=\"item-number\">12% AP</span> + <span class=\"item-number\">22% holy SP</span> Holyfire Damage to nearby enemies every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Become anointed by the light, summoning a blessed hammer that encircles you dealing 51 + 12% AP + 22% holy SP Holyfire Damage to nearby enemies every 3 sec for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7319,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Dawnbreak",
+    "description": "Radiate holy light from your shield on enemies in front of you, dealing <span class=\"item-number\">25</span> + <span class=\"item-number\">25% SP</span> + <span class=\"item-number\">10% AP</span> Holyfire Damage, scaling with your block value.",
+    "descriptionText": "Radiate holy light from your shield on enemies in front of you, dealing 25 + 25% SP + 10% AP Holyfire Damage, scaling with your block value.",
+    "iconPath": "interface/icons/nhi_energyshield_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800654,
+    "spellIds": [
+      800654
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800654,
+        "description": "Radiate holy light from your shield on enemies in front of you, dealing <span class=\"item-number\">25</span> + <span class=\"item-number\">25% SP</span> + <span class=\"item-number\">10% AP</span> Holyfire Damage, scaling with your block value.",
+        "descriptionText": "Radiate holy light from your shield on enemies in front of you, dealing 25 + 25% SP + 10% AP Holyfire Damage, scaling with your block value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9650,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Holy Strength",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 30 Passive\nIncreases your spell power by 100% of your Strength.",
+    "iconPath": "interface/icons/spell_holy_blessingofprotection",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 561159,
+    "spellIds": [
+      561159
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4649
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561159,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your spell power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 30 Passive\nIncreases your spell power by 100% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11006,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Sunflare Aegis",
+    "description": "Blocking attacks now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #FFFFFF; display: inline\">Hammer of Kings</span> for <span class=\"item-number\">4</span> sec. <br /><br />If <span style=\"color: #ffffff; display: inline\">Hammer of Kings</span> is already active, you increase the duration by <span class=\"item-number\">4</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_holyhammer_border\" /><span class=\"name\">Hammer of Kings</span></div><span class=\"desc\">Become anointed by the light, summoning a blessed hammer that encircles you dealing <span class=\"item-number\">51</span> + <span class=\"item-number\">12% AP</span> + <span class=\"item-number\">22% holy SP</span> Holyfire Damage to nearby enemies every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">12</span> seconds.</span></div>",
+    "descriptionText": "Blocking attacks now has a 30% chance to grant you Hammer of Kings for 4 sec. \n\nIf Hammer of Kings is already active, you increase the duration by 4 sec.\n\n---\n\nHammer of KingsBecome anointed by the light, summoning a blessed hammer that encircles you dealing 51 + 12% AP + 22% holy SP Holyfire Damage to nearby enemies every 3 sec for 12 seconds.",
+    "iconPath": "interface/icons/inv_shield_1h_bastionquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707629,
+    "spellIds": [
+      707629
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7632
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707629,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707629,
+        "description": "Blocking attacks now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #FFFFFF; display: inline\">Hammer of Kings</span> for <span class=\"item-number\">4</span> sec. <br /><br />If <span style=\"color: #ffffff; display: inline\">Hammer of Kings</span> is already active, you increase the duration by <span class=\"item-number\">4</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_holyhammer_border\" /><span class=\"name\">Hammer of Kings</span></div><span class=\"desc\">Become anointed by the light, summoning a blessed hammer that encircles you dealing <span class=\"item-number\">51</span> + <span class=\"item-number\">12% AP</span> + <span class=\"item-number\">22% holy SP</span> Holyfire Damage to nearby enemies every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">12</span> seconds.</span></div>",
+        "descriptionText": "Blocking attacks now has a 30% chance to grant you Hammer of Kings for 4 sec. \n\nIf Hammer of Kings is already active, you increase the duration by 4 sec.\n\n---\n\nHammer of KingsBecome anointed by the light, summoning a blessed hammer that encircles you dealing 51 + 12% AP + 22% holy SP Holyfire Damage to nearby enemies every 3 sec for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11651,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Clarity of the Heavens",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your block value by <span class=\"item-number\">50%</span> of your Intellect.",
+    "descriptionText": "Level 50 Passive\nIncreases your block value by 50% of your Intellect.",
+    "iconPath": "interface/icons/spell_holy_ardentdefender",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704935,
+    "spellIds": [
+      704935
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4651
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704935,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your block value by <span class=\"item-number\">50%</span> of your Intellect.",
+        "descriptionText": "Level 50 Passive\nIncreases your block value by 50% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7909,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 72,
+    "tabKey": "27:72",
+    "tabName": "Seraphim",
+    "name": "Sun Disc",
+    "description": "You now emit an aura that causes all nearby allies to receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> increased healing. Does not stack with similar effects.<br /><br />In addition, the healing done by <span style=\"color: #ffffff; display: inline\">Illumination</span> is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "You now emit an aura that causes all nearby allies to receive 6% increased healing. Does not stack with similar effects.\n\nIn addition, the healing done by Illumination is increased by 20%.",
+    "iconPath": "interface/icons/inv_shield_1h_hyrja_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560547,
+    "spellIds": [
+      560547
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30958,
+      34014
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560547,
+        "description": "You now emit an aura that causes all nearby allies to receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> increased healing. Does not stack with similar effects.<br /><br />In addition, the healing done by <span style=\"color: #ffffff; display: inline\">Illumination</span> is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "You now emit an aura that causes all nearby allies to receive 6% increased healing. Does not stack with similar effects.\n\nIn addition, the healing done by Illumination is increased by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

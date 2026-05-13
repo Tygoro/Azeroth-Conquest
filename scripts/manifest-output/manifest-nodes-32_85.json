@@ -1,0 +1,1846 @@
+[
+  {
+    "nodeId": 29531,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Runic Brand",
+    "description": "Brand an enemy, dealing <span class=\"item-number\">12</span> + <span class=\"item-number\">26% AP</span> Fire Damage with each weapon, and marking the enemy for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_mageskill14_border\" /><span class=\"name\">Marked: Runic Brand</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Runeblade</span> on the enemy causes a <span style=\"color: #ffffff; display: inline\">Runic Explosion</span>, dealing an additional <span class=\"item-number\">141</span> + <span class=\"item-number\">18.5% AP</span> Spellfire Damage to nearby enemies.</span></div>",
+    "descriptionText": "Brand an enemy, dealing 12 + 26% AP Fire Damage with each weapon, and marking the enemy for 8 seconds.\n\n---\n\nMarked: Runic BrandYour next Runeblade on the enemy causes a Runic Explosion, dealing an additional 141 + 18.5% AP Spellfire Damage to nearby enemies.",
+    "iconPath": "interface/icons/5_mageskill14_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712299,
+    "spellIds": [
+      712299
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712299,
+        "description": "Brand an enemy, dealing <span class=\"item-number\">12</span> + <span class=\"item-number\">26% AP</span> Fire Damage with each weapon, and marking the enemy for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_mageskill14_border\" /><span class=\"name\">Marked: Runic Brand</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Runeblade</span> on the enemy causes a <span style=\"color: #ffffff; display: inline\">Runic Explosion</span>, dealing an additional <span class=\"item-number\">141</span> + <span class=\"item-number\">18.5% AP</span> Spellfire Damage to nearby enemies.</span></div>",
+        "descriptionText": "Brand an enemy, dealing 12 + 26% AP Fire Damage with each weapon, and marking the enemy for 8 seconds.\n\n---\n\nMarked: Runic BrandYour next Runeblade on the enemy causes a Runic Explosion, dealing an additional 141 + 18.5% AP Spellfire Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29533,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Fist of the Ancients",
+    "description": "Smash an enemy and <span class=\"item-number\">1</span> nearby enemy with your rune-engraved fists, dealing <span class=\"item-number\">44</span> + <span class=\"item-number\">40% AP</span> Elemental Damage and triggering your <span style=\"color: #ffffff; display: inline\">Weapon Engraving</span>.",
+    "descriptionText": "Smash an enemy and 1 nearby enemy with your rune-engraved fists, dealing 44 + 40% AP Elemental Damage and triggering your Weapon Engraving.",
+    "iconPath": "interface/icons/skill_icon_skill150_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712326,
+    "spellIds": [
+      712326
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9221,
+      34578
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712326,
+        "description": "Smash an enemy and <span class=\"item-number\">1</span> nearby enemy with your rune-engraved fists, dealing <span class=\"item-number\">44</span> + <span class=\"item-number\">40% AP</span> Elemental Damage and triggering your <span style=\"color: #ffffff; display: inline\">Weapon Engraving</span>.",
+        "descriptionText": "Smash an enemy and 1 nearby enemy with your rune-engraved fists, dealing 44 + 40% AP Elemental Damage and triggering your Weapon Engraving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31270,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Steam Conjurer",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to cast <span style=\"color: #ffffff; display: inline\">Wild Steam</span>. Can only occur once every <span class=\"item-number\">3</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 wildsteam\" /><span class=\"name\">Wild Steam (Transform)</span></div><span class=\"desc\">Stomp the ground in a <span class=\"item-number\">5</span> yd radius around you and release steam, dealing <span class=\"item-number\">128</span> + <span class=\"item-number\">25% AP</span> Frostfire Damage to nearby enemies.</span></div>",
+    "descriptionText": "Damage dealt by Weapon Engraving: Earth now has a 5% chance to cast Wild Steam. Can only occur once every 3 sec.\n\n---\n\nWild Steam (Transform)Stomp the ground in a 5 yd radius around you and release steam, dealing 128 + 25% AP Frostfire Damage to nearby enemies.",
+    "iconPath": "interface/icons/novart_magicspell_(77)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805743,
+    "spellIds": [
+      805743
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1578,
+      1679
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805743,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to cast <span style=\"color: #ffffff; display: inline\">Wild Steam</span>. Can only occur once every <span class=\"item-number\">3</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 wildsteam\" /><span class=\"name\">Wild Steam (Transform)</span></div><span class=\"desc\">Stomp the ground in a <span class=\"item-number\">5</span> yd radius around you and release steam, dealing <span class=\"item-number\">128</span> + <span class=\"item-number\">25% AP</span> Frostfire Damage to nearby enemies.</span></div>",
+        "descriptionText": "Damage dealt by Weapon Engraving: Earth now has a 5% chance to cast Wild Steam. Can only occur once every 3 sec.\n\n---\n\nWild Steam (Transform)Stomp the ground in a 5 yd radius around you and release steam, dealing 128 + 25% AP Frostfire Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30678,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Ley Power",
+    "description": "$e1",
+    "descriptionText": "$e1",
+    "iconPath": "interface/icons/inv_ascend_magicartifact_13",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801096,
+    "spellIds": [
+      801096
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1679,
+      30758
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801096,
+        "description": "$e2",
+        "descriptionText": "$e2"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29911,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Flowing Rivers",
+    "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Replenishment</span> with <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Water</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and its mana restored by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger Replenishment with Runic Tattoos: Water by 10% and its mana restored by 25%.",
+    "iconPath": "interface/icons/nhi_waterstrick_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524697,
+    "spellIds": [
+      524697
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34601
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 365212,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524697,
+        "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Replenishment</span> with <span style=\"color: #ffffff; display: inline\">Runic Tattoos: Water</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and its mana restored by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Replenishment with Runic Tattoos: Water by 10% and its mana restored by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30733,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Tempo",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Runeblade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Runeblade by 20%.",
+    "iconPath": "interface/icons/runeofimpermanence",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807172,
+    "spellIds": [
+      807172
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6482,
+      34601
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807172,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Runeblade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Runeblade by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30734,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Volcanic Etching",
+    "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> and <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger Weapon Engraving: Fire and Weapon Engraving: Earth by 5%.",
+    "iconPath": "interface/icons/inv_ascend_magicartifact_3",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705615,
+    "spellIds": [
+      705615
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30733
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705615,
+        "description": "Increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> and <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Weapon Engraving: Fire and Weapon Engraving: Earth by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30735,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Wind Surge",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Air</span> will now strike <span class=\"item-number\">2</span> additional enemies near its target.",
+    "descriptionText": "Your Weapon Engraving: Air will now strike 2 additional enemies near its target.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_wind_icon_0000s_0000_elemental_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805750,
+    "spellIds": [
+      805750
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34601
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 365212,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805750,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Air</span> will now strike <span class=\"item-number\">2</span> additional enemies near its target.",
+        "descriptionText": "Your Weapon Engraving: Air will now strike 2 additional enemies near its target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30758,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Echoes of Eternity",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Zenith</span> now has <span class=\"item-number\">2</span> charges.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_magickeeper_border\" /><span class=\"name\">Zenith</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">45</span> sec recharge</span><br />For <span class=\"item-number\">6</span> seconds, your runic tattoos flare up, increasing your chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Your Zenith now has 2 charges.\n\n---\n\nZenith2 Charges, 45 sec recharge\nFor 6 seconds, your runic tattoos flare up, increasing your chance to trigger your Weapon Engravings by 100%.",
+    "iconPath": "interface/icons/mount_elementalfcca06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 521211,
+    "spellIds": [
+      521211
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1662,
+      1734
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 521211,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Zenith</span> now has <span class=\"item-number\">2</span> charges.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_magickeeper_border\" /><span class=\"name\">Zenith</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">45</span> sec recharge</span><br />For <span class=\"item-number\">6</span> seconds, your runic tattoos flare up, increasing your chance to trigger your <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Your Zenith now has 2 charges.\n\n---\n\nZenith2 Charges, 45 sec recharge\nFor 6 seconds, your runic tattoos flare up, increasing your chance to trigger your Weapon Engravings by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34578,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Leystone Springs",
+    "description": "Your melee auto attacks now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">59</span> + <span class=\"item-number\">5% AP</span> mana. <br /><br />While <span style=\"color: #FFFFFF; display: inline\">Runic Tattoos: Water</span> is active, the mana restored is increased by <span class=\"item-number\">200</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your melee auto attacks now have a 15% chance to restore 59 + 5% AP mana. \n\nWhile Runic Tattoos: Water is active, the mana restored is increased by 200%.",
+    "iconPath": "interface/icons/nhi_ghostwater_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300581,
+    "spellIds": [
+      300581
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300581,
+        "description": "Your melee auto attacks now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to restore <span class=\"item-number\">59</span> + <span class=\"item-number\">5% AP</span> mana. <br /><br />While <span style=\"color: #FFFFFF; display: inline\">Runic Tattoos: Water</span> is active, the mana restored is increased by <span class=\"item-number\">200</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your melee auto attacks now have a 15% chance to restore 59 + 5% AP mana. \n\nWhile Runic Tattoos: Water is active, the mana restored is increased by 200%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34579,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Leyline Disturbance",
+    "description": "Increases melee and ranged haste of party and raid members within <span class=\"item-number\">100</span> yds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />Additionally, the duration of stun effects on you is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases melee and ranged haste of party and raid members within 100 yds by 10%.\n\nDoes not stack with similar effects.\n\nAdditionally, the duration of stun effects on you is reduced by -20%.",
+    "iconPath": "interface/icons/nhi_arcaneshuriken_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560540,
+    "spellIds": [
+      560540
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7373,
+      34655
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560540,
+        "description": "Increases melee and ranged haste of party and raid members within <span class=\"item-number\">100</span> yds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />Additionally, the duration of stun effects on you is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases melee and ranged haste of party and raid members within 100 yds by 10%.\n\nDoes not stack with similar effects.\n\nAdditionally, the duration of stun effects on you is reduced by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34601,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Elemental Strikes",
+    "description": "Increases your critical strike chance with Fire, Frost, and Nature spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+    "descriptionText": "Increases your critical strike chance with Fire, Frost, and Nature spells by 3% and your expertise by 4.",
+    "iconPath": "interface/icons/spell_nature_elementalprecision_1",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806704,
+    "spellIds": [
+      806704
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6493
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806704,
+        "description": "Increases your critical strike chance with Fire, Frost, and Nature spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your critical strike chance with Fire, Frost, and Nature spells by 3% and your expertise by 4."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34655,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Brandmaster",
+    "description": "Increases your critical strike chance with <span style=\"color: #ffffff; display: inline\">Runic Brand</span>'s explosion effect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance with Runic Brand's explosion effect by 10%.",
+    "iconPath": "interface/icons/inv_ascend_magicartifact_37",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520524,
+    "spellIds": [
+      520524
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7375
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520524,
+        "description": "Increases your critical strike chance with <span style=\"color: #ffffff; display: inline\">Runic Brand</span>'s explosion effect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance with Runic Brand's explosion effect by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34656,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Graceful",
+    "description": "Increases your haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your haste by 5%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_magicinyourhands_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 806708,
+    "spellIds": [
+      806708,
+      807922
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9221
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806708,
+        "description": "Increases your haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807922,
+        "description": "Increases your haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34659,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Mark of Strength",
+    "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Primordial Blast by 30%.",
+    "iconPath": "interface/icons/spell_arcane_rune",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560050,
+    "spellIds": [
+      560050
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4655
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560050,
+        "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Primordial Blast by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34660,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Sky and Stone",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Weapon Engraving: Air</span> and <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to increase the melee attack speed of your next <span class=\"item-number\">10</span> attacks within <span class=\"item-number\">10</span> seconds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Damage dealt by Weapon Engraving: Air and Weapon Engraving: Earth now have a 10% chance to increase the melee attack speed of your next 10 attacks within 10 seconds by 10%.",
+    "iconPath": "interface/icons/_stonetablet_shamanair",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560053,
+    "spellIds": [
+      560053
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7374,
+      34661
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560053,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Weapon Engraving: Air</span> and <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to increase the melee attack speed of your next <span class=\"item-number\">10</span> attacks within <span class=\"item-number\">10</span> seconds by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Damage dealt by Weapon Engraving: Air and Weapon Engraving: Earth now have a 10% chance to increase the melee attack speed of your next 10 attacks within 10 seconds by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34661,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Forbidden Engraving",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Weapon Engravings by 20%.",
+    "iconPath": "interface/icons/novart_magicspell_(49)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705543,
+    "spellIds": [
+      705543
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29911,
+      30734,
+      30735
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705543,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Weapon Engravings by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29221,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Uncovered Engravings",
+    "description": "Using <span style=\"color: #FFFFFF; display: inline\">Fist of the Ancients</span> now increases your chance to trigger <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Using Fist of the Ancients now increases your chance to trigger Weapon Engravings by 20% for 5 sec.",
+    "iconPath": "interface/icons/ability_socererking_arcanemines",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 567233,
+    "spellIds": [
+      567233
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6482
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 567233,
+        "description": "Using <span style=\"color: #FFFFFF; display: inline\">Fist of the Ancients</span> now increases your chance to trigger <span style=\"color: #FFFFFF; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Using Fist of the Ancients now increases your chance to trigger Weapon Engravings by 20% for 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 14154,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Symbols of Power",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> while you have <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> active by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Fist of the Ancients while you have Weapon Engraving: Fire active by 15%.",
+    "iconPath": "interface/icons/novart_magicspell_(17)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705613,
+    "spellIds": [
+      705613,
+      705614
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1821,
+      6495,
+      7374
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705613,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> while you have <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> active by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Fist of the Ancients while you have Weapon Engraving: Fire active by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 705614,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> while you have <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> active by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Fist of the Ancients while you have Weapon Engraving: Fire active by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7373,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Guarding Rune",
+    "description": "Inscribe a defensive rune beneath you in a <span class=\"item-number\">10</span> yd radius, summoning a barrier that causes allies within the radius to take <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> reduced Magic Damage. Lasts <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Inscribe a defensive rune beneath you in a 10 yd radius, summoning a barrier that causes allies within the radius to take -40% reduced Magic Damage. Lasts 15 seconds.",
+    "iconPath": "interface/icons/ever_probe_sprite_296_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500464,
+    "spellIds": [
+      500464
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29221
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500464,
+        "description": "Inscribe a defensive rune beneath you in a <span class=\"item-number\">10</span> yd radius, summoning a barrier that causes allies within the radius to take <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> reduced Magic Damage. Lasts <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Inscribe a defensive rune beneath you in a 10 yd radius, summoning a barrier that causes allies within the radius to take -40% reduced Magic Damage. Lasts 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7374,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Earth, Wind, and Fire",
+    "description": "Striking at least <span class=\"item-number\">5</span> enemies with <span style=\"color: #ffffff; display: inline\">Runic Explosion</span> now unleashes <span style=\"color: #ffffff; display: inline\">Wild Steam</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 wildsteam\" /><span class=\"name\">Wild Steam (Transform)</span></div><span class=\"desc\">Stomp the ground in a <span class=\"item-number\">5</span> yd radius around you and release steam, dealing <span class=\"item-number\">128</span> + <span class=\"item-number\">25% AP</span> Frostfire Damage to nearby enemies.</span></div>",
+    "descriptionText": "Striking at least 5 enemies with Runic Explosion now unleashes Wild Steam.\n\n---\n\nWild Steam (Transform)Stomp the ground in a 5 yd radius around you and release steam, dealing 128 + 25% AP Frostfire Damage to nearby enemies.",
+    "iconPath": "interface/icons/ability_shaman_ascendance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706531,
+    "spellIds": [
+      706531
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7373,
+      30734
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706531,
+        "description": "Striking at least <span class=\"item-number\">5</span> enemies with <span style=\"color: #ffffff; display: inline\">Runic Explosion</span> now unleashes <span style=\"color: #ffffff; display: inline\">Wild Steam</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 wildsteam\" /><span class=\"name\">Wild Steam (Transform)</span></div><span class=\"desc\">Stomp the ground in a <span class=\"item-number\">5</span> yd radius around you and release steam, dealing <span class=\"item-number\">128</span> + <span class=\"item-number\">25% AP</span> Frostfire Damage to nearby enemies.</span></div>",
+        "descriptionText": "Striking at least 5 enemies with Runic Explosion now unleashes Wild Steam.\n\n---\n\nWild Steam (Transform)Stomp the ground in a 5 yd radius around you and release steam, dealing 128 + 25% AP Frostfire Damage to nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7375,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Leyborn",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Marked: Runic Brand</span> now stacks <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Your Marked: Runic Brand now stacks 3 times.",
+    "iconPath": "interface/icons/achievement_zone_newshadowmoonvalley",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705609,
+    "spellIds": [
+      705609
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4655,
+      6482
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705609,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Marked: Runic Brand</span> now stacks <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Your Marked: Runic Brand now stacks 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9221,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Eternal Magic",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> by <span class=\"item-number\">-4</span> sec and it now refreshes <span class=\"item-number\">3</span> charges of <span style=\"color: #ffffff; display: inline\">Runeblade</span>.",
+    "descriptionText": "Reduces the cooldown of Primordial Blast by -4 sec and it now refreshes 3 charges of Runeblade.",
+    "iconPath": "interface/icons/novart_magicspell_(2)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806698,
+    "spellIds": [
+      806698
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806698,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> by <span class=\"item-number\">-4</span> sec and it now refreshes <span class=\"item-number\">3</span> charges of <span style=\"color: #ffffff; display: inline\">Runeblade</span>.",
+        "descriptionText": "Reduces the cooldown of Primordial Blast by -4 sec and it now refreshes 3 charges of Runeblade."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9802,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Branded",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Gaining <span style=\"color: #ffffff; display: inline\">Power Overwhelming</span> now also guarantees your next <span style=\"color: #ffffff; display: inline\">Runic Brand</span> to critically strike.",
+    "descriptionText": "Level 50 Passive\nGaining Power Overwhelming now also guarantees your next Runic Brand to critically strike.",
+    "iconPath": "interface/icons/novart_magicspell_(51)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707717,
+    "spellIds": [
+      707717
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4802
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707717,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Gaining <span style=\"color: #ffffff; display: inline\">Power Overwhelming</span> now also guarantees your next <span style=\"color: #ffffff; display: inline\">Runic Brand</span> to critically strike.",
+        "descriptionText": "Level 50 Passive\nGaining Power Overwhelming now also guarantees your next Runic Brand to critically strike."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1578,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Fists of Power",
+    "description": "Engrave your fists for <span class=\"item-number\">15</span> seconds, causing auto attacks to grant <span style=\"color: #FFFFFF; display: inline\">Earthen Fists</span> for <span class=\"item-number\">10</span> seconds, increasing melee haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and the chance to trigger <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Engrave your fists for 15 seconds, causing auto attacks to grant Earthen Fists for 10 seconds, increasing melee haste by 3% and the chance to trigger Weapon Engraving: Earth by 10%, stacking 5 times.",
+    "iconPath": "interface/icons/inv_misc_trinket6oog_stonefist2",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805796,
+    "spellIds": [
+      805796
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      14154,
+      34660
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805796,
+        "description": "Engrave your fists for <span class=\"item-number\">15</span> seconds, causing auto attacks to grant <span style=\"color: #FFFFFF; display: inline\">Earthen Fists</span> for <span class=\"item-number\">10</span> seconds, increasing melee haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and the chance to trigger <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Engrave your fists for 15 seconds, causing auto attacks to grant Earthen Fists for 10 seconds, increasing melee haste by 3% and the chance to trigger Weapon Engraving: Earth by 10%, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1662,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Explosive Runes",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> now detonates after <span class=\"item-number\">2</span> sec and its critical damage is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Weapon Engraving: Fire now detonates after 2 sec and its critical damage is increased by 10%.",
+    "iconPath": "interface/icons/nhi_fireinyourhand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 521219,
+    "spellIds": [
+      521219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1778,
+      1779,
+      34579
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 521219,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Fire</span> now detonates after <span class=\"item-number\">2</span> sec and its critical damage is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Weapon Engraving: Fire now detonates after 2 sec and its critical damage is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1679,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Runic Tempest",
+    "description": "Harness the power of your runic tattoos, resetting the cooldown of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> and allowing the use of abilities that require <span style=\"color: #ffffff; display: inline\">Runeshroud</span> and making them able to be cast while moving for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Harness the power of your runic tattoos, resetting the cooldown of Fist of the Ancients and allowing the use of abilities that require Runeshroud and making them able to be cast while moving for 8 seconds.",
+    "iconPath": "interface/icons/runictempest",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560036,
+    "spellIds": [
+      560036
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1734,
+      14154
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560036,
+        "description": "Harness the power of your runic tattoos, resetting the cooldown of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> and allowing the use of abilities that require <span style=\"color: #ffffff; display: inline\">Runeshroud</span> and making them able to be cast while moving for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Harness the power of your runic tattoos, resetting the cooldown of Fist of the Ancients and allowing the use of abilities that require Runeshroud and making them able to be cast while moving for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1734,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Magic Etchings",
+    "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> now reduces the affected targets armor by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Dealing damage with Primordial Blast now reduces the affected targets armor by -4% for 12 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/_runesauvagepourpre",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300582,
+    "spellIds": [
+      300582
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1821,
+      6495,
+      34579
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300582,
+        "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> now reduces the affected targets armor by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Dealing damage with Primordial Blast now reduces the affected targets armor by -4% for 12 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1770,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Runelord",
+    "description": "After activating <span style=\"color: #ffffff; display: inline\">Zenith</span>, deal <span class=\"item-number\">900</span> + <span class=\"item-number\">33% AP</span> Elemental Damage to your target and increase the damage dealt by your <span style=\"color: #ffffff; display: inline\">Runic Brand</span> and <span style=\"color: #ffffff; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "After activating Zenith, deal 900 + 33% AP Elemental Damage to your target and increase the damage dealt by your Runic Brand and Weapon Engravings by 30% for 8 seconds.",
+    "iconPath": "interface/icons/spell_nature_elementalprecision_2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806984,
+    "spellIds": [
+      806984
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30758
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806984,
+        "description": "After activating <span style=\"color: #ffffff; display: inline\">Zenith</span>, deal <span class=\"item-number\">900</span> + <span class=\"item-number\">33% AP</span> Elemental Damage to your target and increase the damage dealt by your <span style=\"color: #ffffff; display: inline\">Runic Brand</span> and <span style=\"color: #ffffff; display: inline\">Weapon Engravings</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "After activating Zenith, deal 900 + 33% AP Elemental Damage to your target and increase the damage dealt by your Runic Brand and Weapon Engravings by 30% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1771,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Stone Savant",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Earthen Fists</span> is active, critical strikes with <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> now causes you to strike twice with your next auto attack.",
+    "descriptionText": "While Earthen Fists is active, critical strikes with Weapon Engraving: Earth now causes you to strike twice with your next auto attack.",
+    "iconPath": "interface/icons/5_sumstonearmy_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520917,
+    "spellIds": [
+      520917
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1578
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520917,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Earthen Fists</span> is active, critical strikes with <span style=\"color: #ffffff; display: inline\">Weapon Engraving: Earth</span> now causes you to strike twice with your next auto attack.",
+        "descriptionText": "While Earthen Fists is active, critical strikes with Weapon Engraving: Earth now causes you to strike twice with your next auto attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1778,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Devastating Flames",
+    "description": "Increases the damage dealt of <span style=\"color: #FFFFFF; display: inline\">Weapon Engraving: Fire</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt of Weapon Engraving: Fire by 20%.",
+    "iconPath": "interface/icons/spell_burningsoul",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806993,
+    "spellIds": [
+      806993
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34655,
+      34659
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 734831,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806993,
+        "description": "Increases the damage dealt of <span style=\"color: #FFFFFF; display: inline\">Weapon Engraving: Fire</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt of Weapon Engraving: Fire by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1779,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Granite Shield",
+    "description": "While <span style=\"color: #FFFFFF; display: inline\">Runic Tattoos: Earth</span> is active, you now periodically gain <span style=\"color: #ffffff; display: inline\">Granite Shield</span> every <span class=\"item-number\">20</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_holiday_hearthstonelunarfestival\" /><span class=\"name\">Granite Shield</span></div><span class=\"desc\">Absorbs <span class=\"item-number\">900</span> + <span class=\"item-number\">10% AP</span> + <span class=\"item-number\">30% SP</span> damage for <span class=\"item-number\">20</span> seconds.</span></div>",
+    "descriptionText": "While Runic Tattoos: Earth is active, you now periodically gain Granite Shield every 20 sec.\n\n---\n\nGranite ShieldAbsorbs 900 + 10% AP + 30% SP damage for 20 seconds.",
+    "iconPath": "interface/icons/inv_misc_druidstone01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806996,
+    "spellIds": [
+      806996
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34655,
+      34659
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 734831,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806996,
+        "description": "While <span style=\"color: #FFFFFF; display: inline\">Runic Tattoos: Earth</span> is active, you now periodically gain <span style=\"color: #ffffff; display: inline\">Granite Shield</span> every <span class=\"item-number\">20</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_holiday_hearthstonelunarfestival\" /><span class=\"name\">Granite Shield</span></div><span class=\"desc\">Absorbs <span class=\"item-number\">900</span> + <span class=\"item-number\">10% AP</span> + <span class=\"item-number\">30% SP</span> damage for <span class=\"item-number\">20</span> seconds.</span></div>",
+        "descriptionText": "While Runic Tattoos: Earth is active, you now periodically gain Granite Shield every 20 sec.\n\n---\n\nGranite ShieldAbsorbs 900 + 10% AP + 30% SP damage for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1821,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Protective Warding",
+    "description": "Critical damage taken reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Rune of Guarding</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Critical damage taken reduces the cooldown of Rune of Guarding by 10%.",
+    "iconPath": "interface/icons/ability_bastion_mage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800756,
+    "spellIds": [
+      800756
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 800756,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800756,
+        "description": "Critical damage taken reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Rune of Guarding</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Critical damage taken reduces the cooldown of Rune of Guarding by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4062,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Fists of Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Runeblade</span> now strikes your target an additional time for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt with your offhand weapon.",
+    "descriptionText": "Level 10 Passive\nRuneblade now strikes your target an additional time for 50% of the damage dealt with your offhand weapon.",
+    "iconPath": "interface/icons/novart_magicspell_(14)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92153,
+    "spellIds": [
+      92153
+    ],
+    "requiredNodeIds": [
+      29521
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 10,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92153,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Runeblade</span> now strikes your target an additional time for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt with your offhand weapon.",
+        "descriptionText": "Level 10 Passive\nRuneblade now strikes your target an additional time for 50% of the damage dealt with your offhand weapon."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4201,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Primordial Strength",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your attack power, your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Agility and your spell hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your attack power, your chance to hit by 3% of your Agility and your spell hit rating by 3% of your Agility.",
+    "iconPath": "interface/icons/spell_holy_fistofjustice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301149,
+    "spellIds": [
+      301149
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4062
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301149,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your attack power, your chance to hit by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Agility and your spell hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your attack power, your chance to hit by 3% of your Agility and your spell hit rating by 3% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4202,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Elemental Carvings",
+    "description": "$e3",
+    "descriptionText": "$e3",
+    "iconPath": "interface/icons/inv_ascend_carvings_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705618,
+    "spellIds": [
+      705618
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4201
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705618,
+        "description": "$e4",
+        "descriptionText": "$e4"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6482,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Ancient Warrior",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> by <span class=\"item-number\">-2</span> sec whenever you use <span style=\"color: #ffffff; display: inline\">Runeblade</span> or <span style=\"color: #ffffff; display: inline\">Primordial Blast</span>.",
+    "descriptionText": "Reduces the cooldown of Fist of the Ancients by -2 sec whenever you use Runeblade or Primordial Blast.",
+    "iconPath": "interface/icons/5_warriorskill14_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520755,
+    "spellIds": [
+      520755
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29533
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520755,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Fist of the Ancients</span> by <span class=\"item-number\">-2</span> sec whenever you use <span style=\"color: #ffffff; display: inline\">Runeblade</span> or <span style=\"color: #ffffff; display: inline\">Primordial Blast</span>.",
+        "descriptionText": "Reduces the cooldown of Fist of the Ancients by -2 sec whenever you use Runeblade or Primordial Blast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6493,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Alteration",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Runic Tattoos by 25%.",
+    "iconPath": "interface/icons/inv_custom_hearthstone_frost",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705619,
+    "spellIds": [
+      705619,
+      707875
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34578
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705619,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Runic Tattoos by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707875,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Runic Tattoos</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Runic Tattoos by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6495,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Runebound Surge",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Runeshroud</span> now increases your movement speed by <span class=\"item-number\">75</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Casting Runeshroud now increases your movement speed by 75% for 3 seconds.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_arcanetwist_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707423,
+    "spellIds": [
+      707423
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 800756,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707423,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Runeshroud</span> now increases your movement speed by <span class=\"item-number\">75</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Casting Runeshroud now increases your movement speed by 75% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4655,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Elemental Mastery",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Runic Brand</span> now has a <span class=\"item-number\">33</span><span class=\"item-number\">%</span> chance to transform your <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> into a random unique elemental version of itself.",
+    "descriptionText": "Damage dealt by Runic Brand now has a 33% chance to transform your Primordial Blast into a random unique elemental version of itself.",
+    "iconPath": "interface/icons/novart_magicspell_(58)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806711,
+    "spellIds": [
+      806711
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34656
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806711,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Runic Brand</span> now has a <span class=\"item-number\">33</span><span class=\"item-number\">%</span> chance to transform your <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> into a random unique elemental version of itself.",
+        "descriptionText": "Damage dealt by Runic Brand now has a 33% chance to transform your Primordial Blast into a random unique elemental version of itself."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4802,
+    "classId": 32,
+    "className": "Runemaster",
+    "tabId": 85,
+    "tabKey": "32:85",
+    "tabName": "Runic",
+    "name": "Power Overwhelming",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Runeblade</span> and <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> now have a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Power Overwhelming</span>, resetting the cooldown of <span style=\"color: #ffffff; display: inline\">Runic Brand</span>.",
+    "descriptionText": "Level 40 Passive\nYour Runeblade and Primordial Blast now have a 35% chance to grant you Power Overwhelming, resetting the cooldown of Runic Brand.",
+    "iconPath": "interface/icons/ability_socererking_arcanefortification",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707876,
+    "spellIds": [
+      707876
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4202
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707876,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Runeblade</span> and <span style=\"color: #ffffff; display: inline\">Primordial Blast</span> now have a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Power Overwhelming</span>, resetting the cooldown of <span style=\"color: #ffffff; display: inline\">Runic Brand</span>.",
+        "descriptionText": "Level 40 Passive\nYour Runeblade and Primordial Blast now have a 35% chance to grant you Power Overwhelming, resetting the cooldown of Runic Brand."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

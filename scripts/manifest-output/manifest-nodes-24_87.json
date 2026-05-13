@@ -1,0 +1,1797 @@
+[
+  {
+    "nodeId": 7010,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Ignis Fatalis",
+    "description": "<span style=\"color: #ffffff; display: inline\">Ignis Ultimatus</span> is now guaranteed to critically strike, has <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more critical damage, and channels <span class=\"item-number\">0.5</span> sec faster.",
+    "descriptionText": "Ignis Ultimatus is now guaranteed to critically strike, has 20% more critical damage, and channels 0.5 sec faster.",
+    "iconPath": "interface/icons/custom_t_fireball_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706893,
+    "spellIds": [
+      706893
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7479
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706893,
+        "description": "<span style=\"color: #ffffff; display: inline\">Ignis Ultimatus</span> is now guaranteed to critically strike, has <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more critical damage, and channels <span class=\"item-number\">0.5</span> sec faster.",
+        "descriptionText": "Ignis Ultimatus is now guaranteed to critically strike, has 20% more critical damage, and channels 0.5 sec faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7041,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Purifying Flames",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Essence of Malygos</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of Essence of Malygos by 3 sec.",
+    "iconPath": "interface/icons/spell_nature_dryaddispelmagic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807159,
+    "spellIds": [
+      807159
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30639
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 807686,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807159,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Essence of Malygos</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of Essence of Malygos by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7042,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Gaze of Ysera",
+    "description": "Set Ysera's gaze upon an enemy, putting them to sleep for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players).<br /><br />Direct damage dealt may interrupt this effect.",
+    "descriptionText": "Set Ysera's gaze upon an enemy, putting them to sleep for 40 seconds (8 sec vs players).\n\nDirect damage dealt may interrupt this effect.",
+    "iconPath": "interface/icons/ysera3",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806148,
+    "spellIds": [
+      806148
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6554,
+      6984
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806148,
+        "description": "Set Ysera's gaze upon an enemy, putting them to sleep for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs players).<br /><br />Direct damage dealt may interrupt this effect.",
+        "descriptionText": "Set Ysera's gaze upon an enemy, putting them to sleep for 40 seconds (8 sec vs players).\n\nDirect damage dealt may interrupt this effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7203,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Hasty Incantation",
+    "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Flame Step</span> by <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Increases the range of Flame Step by 10 yds.",
+    "iconPath": "interface/icons/spell_fire_sealoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802169,
+    "spellIds": [
+      802169
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7927
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802169,
+        "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Flame Step</span> by <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Increases the range of Flame Step by 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4303,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Superheated",
+    "description": "Consuming or generating an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to superheat you, increasing all damage and healing done by <span class=\"item-number\">10%</span> for <span class=\"item-number\">6</span> sec.",
+    "descriptionText": "Consuming or generating an Ember now has a 10% chance to superheat you, increasing all damage and healing done by 10% for 6 sec.",
+    "iconPath": "interface/icons/novart_magicspell_(51)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681196,
+    "spellIds": [
+      681196
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7817,
+      7819
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681196,
+        "description": "Consuming or generating an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to superheat you, increasing all damage and healing done by <span class=\"item-number\">10%</span> for <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Consuming or generating an Ember now has a 10% chance to superheat you, increasing all damage and healing done by 10% for 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4304,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Firestorm",
+    "description": "Create a fiery tornado at a location for <span class=\"item-number\">10</span> seconds.<br /><br />Enemies who enter its radius suffer <span class=\"item-number\">313</span> + <span class=\"item-number\">40% fire SP</span> Fire Damage and are knocked back slightly.",
+    "descriptionText": "Create a fiery tornado at a location for 10 seconds.\n\nEnemies who enter its radius suffer 313 + 40% fire SP Fire Damage and are knocked back slightly.",
+    "iconPath": "interface/icons/nhi_holy_tornado_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802791,
+    "spellIds": [
+      802791
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7479,
+      7817
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802791,
+        "description": "Create a fiery tornado at a location for <span class=\"item-number\">10</span> seconds.<br /><br />Enemies who enter its radius suffer <span class=\"item-number\">313</span> + <span class=\"item-number\">40% fire SP</span> Fire Damage and are knocked back slightly.",
+        "descriptionText": "Create a fiery tornado at a location for 10 seconds.\n\nEnemies who enter its radius suffer 313 + 40% fire SP Fire Damage and are knocked back slightly."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5854,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Searing Speed",
+    "description": "Dealing periodic damage or healing now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Searing Speed</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_holy_speed_border\" /><span class=\"name\">Searing Speed</span></div><span class=\"desc\">Increases your movement speed by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.</span></div>",
+    "descriptionText": "Dealing periodic damage or healing now has a 10% chance to grant you Searing Speed.\n\n---\n\nSearing SpeedIncreases your movement speed by 50% for 2 seconds.",
+    "iconPath": "interface/icons/nhi_holy_speed_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704800,
+    "spellIds": [
+      704800
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6461,
+      33904
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704800,
+        "description": "Dealing periodic damage or healing now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Searing Speed</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_holy_speed_border\" /><span class=\"name\">Searing Speed</span></div><span class=\"desc\">Increases your movement speed by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.</span></div>",
+        "descriptionText": "Dealing periodic damage or healing now has a 10% chance to grant you Searing Speed.\n\n---\n\nSearing SpeedIncreases your movement speed by 50% for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6461,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Flamecastingd",
+    "description": "Generating <span style=\"color: #ff7f7f; display: inline\">Heat</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to grant <span style=\"color: #ffffff; display: inline\">Flamecasting</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Generating Heat now has a 25% chance to grant Flamecasting.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/spell_fire_playingwithfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804300,
+    "spellIds": [
+      804300
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7927,
+      29752
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804300,
+        "description": "Generating <span style=\"color: #ff7f7f; display: inline\">Heat</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to grant <span style=\"color: #ffffff; display: inline\">Flamecasting</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Generating Heat now has a 25% chance to grant Flamecasting.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6554,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Dragonscales",
+    "description": "When you are stunned, damage taken is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "When you are stunned, damage taken is reduced by -20% for 3 seconds.",
+    "iconPath": "interface/icons/inv_artifact_dragonscales",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524818,
+    "spellIds": [
+      524818
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29940,
+      33905
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524818,
+        "description": "When you are stunned, damage taken is reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "When you are stunned, damage taken is reduced by -20% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 3843,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Ysera's Blessing",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Gaze of Ysera</span> by <span class=\"item-number\">-0.5</span> sec and causes it to have a <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced chance to break from damage.",
+    "descriptionText": "Reduces the cast time of Gaze of Ysera by -0.5 sec and causes it to have a -10% reduced chance to break from damage.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704820,
+    "spellIds": [
+      704820
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7042
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 734121,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704820,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Gaze of Ysera</span> by <span class=\"item-number\">-0.5</span> sec and causes it to have a <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> reduced chance to break from damage.",
+        "descriptionText": "Reduces the cast time of Gaze of Ysera by -0.5 sec and causes it to have a -10% reduced chance to break from damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6323,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Grace of Alexstrasza",
+    "description": "Burns off all movement impairing effects from all allies in a <span class=\"item-number\">20</span> yd radius around you and grants them stun, slow and root immunity for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Burns off all movement impairing effects from all allies in a 20 yd radius around you and grants them stun, slow and root immunity for 4 seconds.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802167,
+    "spellIds": [
+      802167
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6984,
+      29554,
+      30634
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802167,
+        "description": "Burns off all movement impairing effects from all allies in a <span class=\"item-number\">20</span> yd radius around you and grants them stun, slow and root immunity for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Burns off all movement impairing effects from all allies in a 20 yd radius around you and grants them stun, slow and root immunity for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6957,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Constant Burning",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spellburn</span> by <span class=\"item-number\">-4</span> sec and increases its duration by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Reduces the cooldown of Spellburn by -4 sec and increases its duration by 1 sec.",
+    "iconPath": "interface/icons/spell_fire_moltenblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707126,
+    "spellIds": [
+      707126
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7042
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707126,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spellburn</span> by <span class=\"item-number\">-4</span> sec and increases its duration by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Reduces the cooldown of Spellburn by -4 sec and increases its duration by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6984,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Fiery Intent",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Cataclysm</span> by <span class=\"item-number\">30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Cataclysm by 30 sec.",
+    "iconPath": "interface/icons/ability_warlock_burningembers",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525018,
+    "spellIds": [
+      525018
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29940
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525018,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Cataclysm</span> by <span class=\"item-number\">30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Cataclysm by 30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7760,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Lava-Drenched",
+    "description": "Reduces the chance for your spells to be dispelled by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the chance for your spells to be dispelled by -30%.",
+    "iconPath": "interface/icons/novart_physical_ability_(52)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706650,
+    "spellIds": [
+      706650
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7481,
+      32499
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706650,
+        "description": "Reduces the chance for your spells to be dispelled by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the chance for your spells to be dispelled by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7817,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Obliteration",
+    "description": "<span style=\"color: #ffffff; display: inline\">Eruption</span> now also increases spell haste and movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Eruption now also increases spell haste and movement speed by 20% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_fire_rune_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706894,
+    "spellIds": [
+      706894
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30976,
+      33906
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706894,
+        "description": "<span style=\"color: #ffffff; display: inline\">Eruption</span> now also increases spell haste and movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Eruption now also increases spell haste and movement speed by 20% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7819,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Circle of Fire",
+    "description": "Creates a circle of fire at the target location for <span class=\"item-number\">10</span> seconds, dealing <span class=\"item-number\">232</span> + <span class=\"item-number\">31% fire SP</span> Fire Damage and incapacitating all enemies inside for <span class=\"item-number\">6</span> seconds.<br /><br />",
+    "descriptionText": "Creates a circle of fire at the target location for 10 seconds, dealing 232 + 31% fire SP Fire Damage and incapacitating all enemies inside for 6 seconds.",
+    "iconPath": "interface/icons/nhi_firerune_(2)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800807,
+    "spellIds": [
+      800807
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      3843,
+      6957,
+      33843
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800807,
+        "description": "Creates a circle of fire at the target location for <span class=\"item-number\">10</span> seconds, dealing <span class=\"item-number\">232</span> + <span class=\"item-number\">31% fire SP</span> Fire Damage and incapacitating all enemies inside for <span class=\"item-number\">6</span> seconds.<br /><br />",
+        "descriptionText": "Creates a circle of fire at the target location for 10 seconds, dealing 232 + 31% fire SP Fire Damage and incapacitating all enemies inside for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7902,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Hot Headed",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Circle of Fire</span> by <span class=\"item-number\">-30</span> sec and increases its disorient duration by <span class=\"item-number\">1</span> sec. <br /><br />Enemies disoriented by <span style=\"color: #ffffff; display: inline\">Circle of Fire</span> cannot receive any healing.",
+    "descriptionText": "Reduces the cooldown of Circle of Fire by -30 sec and increases its disorient duration by 1 sec. \n\nEnemies disoriented by Circle of Fire cannot receive any healing.",
+    "iconPath": "interface/icons/ability_warlock_fireandbrimstone",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503806,
+    "spellIds": [
+      503806
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7819
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503806,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Circle of Fire</span> by <span class=\"item-number\">-30</span> sec and increases its disorient duration by <span class=\"item-number\">1</span> sec. <br /><br />Enemies disoriented by <span style=\"color: #ffffff; display: inline\">Circle of Fire</span> cannot receive any healing.",
+        "descriptionText": "Reduces the cooldown of Circle of Fire by -30 sec and increases its disorient duration by 1 sec. \n\nEnemies disoriented by Circle of Fire cannot receive any healing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7927,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Hellscape",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Blaze</span> by <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Increases the duration of Blaze by 4 sec.",
+    "iconPath": "interface/icons/novart_magicspell_(9)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706886,
+    "spellIds": [
+      706886
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29858,
+      30651
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706886,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Blaze</span> by <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Increases the duration of Blaze by 4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7479,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Ignis Ultimatus",
+    "description": "Channel for <span class=\"item-number\">2</span> seconds, gathering a surge of fiery power before unleashing it in a <span class=\"item-number\">50</span> yd line, dealing <span class=\"item-number\">1094</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage to enemies while also healing allies for <span class=\"item-number\">814</span> + <span class=\"item-number\">200% healing</span>.<br /><br />Ignores invulnerabilities, immunities, and resistances.<br /><br />Consumes <span style=\"color: #ffffff; display: inline\">Flamecasting</span> stacks to increase this spell's damage and healing by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> per stack.",
+    "descriptionText": "Channel for 2 seconds, gathering a surge of fiery power before unleashing it in a 50 yd line, dealing 1094 + 100% fire SP Fire Damage to enemies while also healing allies for 814 + 200% healing.\n\nIgnores invulnerabilities, immunities, and resistances.\n\nConsumes Flamecasting stacks to increase this spell's damage and healing by 15% per stack.",
+    "iconPath": "interface/icons/ability_mage_firestarter",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680369,
+    "spellIds": [
+      680369
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7041,
+      14241,
+      32368
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680369,
+        "description": "Channel for <span class=\"item-number\">2</span> seconds, gathering a surge of fiery power before unleashing it in a <span class=\"item-number\">50</span> yd line, dealing <span class=\"item-number\">1094</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage to enemies while also healing allies for <span class=\"item-number\">814</span> + <span class=\"item-number\">200% healing</span>.<br /><br />Ignores invulnerabilities, immunities, and resistances.<br /><br />Consumes <span style=\"color: #ffffff; display: inline\">Flamecasting</span> stacks to increase this spell's damage and healing by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> per stack.",
+        "descriptionText": "Channel for 2 seconds, gathering a surge of fiery power before unleashing it in a 50 yd line, dealing 1094 + 100% fire SP Fire Damage to enemies while also healing allies for 814 + 200% healing.\n\nIgnores invulnerabilities, immunities, and resistances.\n\nConsumes Flamecasting stacks to increase this spell's damage and healing by 15% per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7481,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Volcanic Shell",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">50</span> Heat</span><br />Conjure a shield of magma and fire around you, absorbing <span class=\"item-number\">820</span> + <span class=\"item-number\">200% fire SP</span> damage. Lasts <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Generates 50 Heat\nConjure a shield of magma and fire around you, absorbing 820 + 200% fire SP damage. Lasts 10 seconds.",
+    "iconPath": "interface/icons/nhi_firestone_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805477,
+    "spellIds": [
+      805477
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5854
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805477,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">50</span> Heat</span><br />Conjure a shield of magma and fire around you, absorbing <span class=\"item-number\">820</span> + <span class=\"item-number\">200% fire SP</span> damage. Lasts <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Generates 50 Heat\nConjure a shield of magma and fire around you, absorbing 820 + 200% fire SP damage. Lasts 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11882,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Heated",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Dragon Leap</span> now generates <span class=\"item-number\">10</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+    "descriptionText": "Damage dealt by Dragon Leap now generates 10 Heat.",
+    "iconPath": "interface/icons/spell_fire_fireball02",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504754,
+    "spellIds": [
+      504754
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29858
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 193843,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504754,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Dragon Leap</span> now generates <span class=\"item-number\">10</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+        "descriptionText": "Damage dealt by Dragon Leap now generates 10 Heat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 14241,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Binding Flames",
+    "description": "When you use <span style=\"color: #ffffff; display: inline\">Essence of Malygos</span> on an ally other than yourself, you now instantly regenerate <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your missing mana.",
+    "descriptionText": "When you use Essence of Malygos on an ally other than yourself, you now instantly regenerate 25% of your missing mana.",
+    "iconPath": "interface/icons/inv_babyfireelemental_shadowflame",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807686,
+    "spellIds": [
+      807686
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30639
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 807686,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807686,
+        "description": "When you use <span style=\"color: #ffffff; display: inline\">Essence of Malygos</span> on an ally other than yourself, you now instantly regenerate <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your missing mana.",
+        "descriptionText": "When you use Essence of Malygos on an ally other than yourself, you now instantly regenerate 25% of your missing mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9927,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Pyromancy",
+    "description": "Increases your critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical damage by 100%.",
+    "iconPath": "interface/icons/spell_fire_selfdestruct",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704831,
+    "spellIds": [
+      704831
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6461,
+      7203
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704831,
+        "description": "Increases your critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical damage by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 32368,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Flaming Finesse",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Seal</span> spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Seal spells by 20%.",
+    "iconPath": "interface/icons/nhi_fire_explosion_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706878,
+    "spellIds": [
+      706878
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30639
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706878,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Seal</span> spells by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Seal spells by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 32499,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Bright Flames",
+    "description": "Increases the amount absorbed by <span style=\"color: #FFFFFF; display: inline\">Inferno Barrier</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and the damage it deals by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the amount absorbed by Inferno Barrier by 10% and the damage it deals by 15%.",
+    "iconPath": "interface/icons/spell_frost_fireresistancetotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300759,
+    "spellIds": [
+      300759,
+      301351
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30832
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300759,
+        "description": "Increases the amount absorbed by <span style=\"color: #FFFFFF; display: inline\">Inferno Barrier</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and the damage it deals by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the amount absorbed by Inferno Barrier by 10% and the damage it deals by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301351,
+        "description": "Increases the amount absorbed by <span style=\"color: #FFFFFF; display: inline\">Inferno Barrier</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and the damage it deals by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the amount absorbed by Inferno Barrier by 20% and the damage it deals by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33843,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Al Dente",
+    "description": "Targets affected by <span style=\"color: #ffffff; display: inline\">Gaze of Ysera</span> now take <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased Fire Damage.",
+    "descriptionText": "Targets affected by Gaze of Ysera now take 15% increased Fire Damage.",
+    "iconPath": "interface/icons/achievement_cooking_masteroftheoven",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300921,
+    "spellIds": [
+      300921
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7042
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 734121,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300921,
+        "description": "Targets affected by <span style=\"color: #ffffff; display: inline\">Gaze of Ysera</span> now take <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased Fire Damage.",
+        "descriptionText": "Targets affected by Gaze of Ysera now take 15% increased Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33882,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Blessing of the Firelands",
+    "description": "Each stack of <span style=\"color: #ff7f7f; display: inline\">Heat</span> now increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Dragon Leap</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Heat now increases the damage dealt by Dragon Leap by 3%.",
+    "iconPath": "interface/icons/nhi_fire_soul_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504397,
+    "spellIds": [
+      504397
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29858
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 193843,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504397,
+        "description": "Each stack of <span style=\"color: #ff7f7f; display: inline\">Heat</span> now increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Dragon Leap</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Heat now increases the damage dealt by Dragon Leap by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33904,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Fire Safety",
+    "description": "Increases your Fire Damage and healing by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces your threat generated by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Fire Damage and healing by 2% and reduces your threat generated by -10%.",
+    "iconPath": "interface/icons/nhi_firehands_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300970,
+    "spellIds": [
+      300970,
+      301350
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29752
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300970,
+        "description": "Increases your Fire Damage and healing by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces your threat generated by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Fire Damage and healing by 2% and reduces your threat generated by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301350,
+        "description": "Increases your Fire Damage and healing by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces your threat generated by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Fire Damage and healing by 4% and reduces your threat generated by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33905,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Chains of Fire",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Cindergrip</span> by <span class=\"item-number\">0.25</span> sec and increases its range by <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Reduces the cast time of Cindergrip by 0.25 sec and increases its range by 10 yds.",
+    "iconPath": "interface/icons/novart_magicspell_(37)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706862,
+    "spellIds": [
+      706862
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11882,
+      33882
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706862,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Cindergrip</span> by <span class=\"item-number\">0.25</span> sec and increases its range by <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Reduces the cast time of Cindergrip by 0.25 sec and increases its range by 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33906,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Flamer",
+    "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your spell haste by 4%.",
+    "iconPath": "interface/icons/inv_elemental_mote_fire01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680836,
+    "spellIds": [
+      680836,
+      520546
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6323
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680836,
+        "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell haste by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520546,
+        "description": "Increases your spell haste by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell haste by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29554,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Fiery Demeanor",
+    "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and increases the pushback resistance provided by <span style=\"color: #FFFFFF; display: inline\">Ascension of Thaurissan</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces spell pushback suffered from damaging attacks by 50% and increases the pushback resistance provided by Ascension of Thaurissan by 15%.",
+    "iconPath": "interface/icons/_castercloak_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525059,
+    "spellIds": [
+      525059
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7481,
+      29940
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525059,
+        "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and increases the pushback resistance provided by <span style=\"color: #FFFFFF; display: inline\">Ascension of Thaurissan</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces spell pushback suffered from damaging attacks by 50% and increases the pushback resistance provided by Ascension of Thaurissan by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29752,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Shazzrah's Boon",
+    "description": "Consuming an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now regenerates <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Consuming an Ember now regenerates 2% of your maximum mana.",
+    "iconPath": "interface/icons/achievement_mc_shazzrah",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807126,
+    "spellIds": [
+      807126
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30206,
+      30651
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807126,
+        "description": "Consuming an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now regenerates <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Consuming an Ember now regenerates 2% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30832,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Inferno Barrier",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">30</span> Heat</span><br />Shield an ally with molten lava, absorbing <span class=\"item-number\">84</span> + <span class=\"item-number\">55% fire SP</span> damage. While active, attackers take <span class=\"item-number\">4</span> + <span class=\"item-number\">10% Spirit</span> Fire Damage each time they deal damage to them. Lasts <span class=\"item-number\">30</span> seconds.",
+    "descriptionText": "Generates 30 Heat\nShield an ally with molten lava, absorbing 84 + 55% fire SP damage. While active, attackers take 4 + 10% Spirit Fire Damage each time they deal damage to them. Lasts 30 seconds.",
+    "iconPath": "interface/icons/ability_rhyolith_magmaflow_wave",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504380,
+    "spellIds": [
+      504380
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30206
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504380,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">30</span> Heat</span><br />Shield an ally with molten lava, absorbing <span class=\"item-number\">84</span> + <span class=\"item-number\">55% fire SP</span> damage. While active, attackers take <span class=\"item-number\">4</span> + <span class=\"item-number\">10% Spirit</span> Fire Damage each time they deal damage to them. Lasts <span class=\"item-number\">30</span> seconds.",
+        "descriptionText": "Generates 30 Heat\nShield an ally with molten lava, absorbing 84 + 55% fire SP damage. While active, attackers take 4 + 10% Spirit Fire Damage each time they deal damage to them. Lasts 30 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30976,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Dragon's Bane",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Lava Shard</span> and <span style=\"color: #ffffff; display: inline\">Cinderheart</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> against <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+    "descriptionText": "Increases the critical strike chance of Lava Shard and Cinderheart by 6% against Burning targets.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706877,
+    "spellIds": [
+      706877
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6323
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706877,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Lava Shard</span> and <span style=\"color: #ffffff; display: inline\">Cinderheart</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> against <span style=\"color: #ff4500; display: inline\">Burning</span> targets.",
+        "descriptionText": "Increases the critical strike chance of Lava Shard and Cinderheart by 6% against Burning targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29858,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Dragon Leap",
+    "description": "Leap to a target location, crashing down in a <span class=\"item-number\">5</span> yd radius dealing <span class=\"item-number\">29</span> + <span class=\"item-number\">30% fire SP</span> Fire Damage to up to <span class=\"item-number\">10</span> nearby enemies.",
+    "descriptionText": "Leap to a target location, crashing down in a 5 yd radius dealing 29 + 30% fire SP Fire Damage to up to 10 nearby enemies.",
+    "iconPath": "interface/icons/nhi_dragonwing_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806611,
+    "spellIds": [
+      806611
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806611,
+        "description": "Leap to a target location, crashing down in a <span class=\"item-number\">5</span> yd radius dealing <span class=\"item-number\">29</span> + <span class=\"item-number\">30% fire SP</span> Fire Damage to up to <span class=\"item-number\">10</span> nearby enemies.",
+        "descriptionText": "Leap to a target location, crashing down in a 5 yd radius dealing 29 + 30% fire SP Fire Damage to up to 10 nearby enemies."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29940,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Cataclysm",
+    "description": "Launch into the air, dealing <span class=\"item-number\">11</span> Fire Damage, knocking back enemies within <span class=\"item-number\">6</span> yds and dazing them for <span class=\"item-number\">6</span> sec.<br /><br />Upon landing, deal <span class=\"item-number\">-5</span> Fire Damage, knock back enemies within <span class=\"item-number\">6</span> yds and daze them for <span class=\"item-number\">6</span> sec.",
+    "descriptionText": "Launch into the air, dealing 11 Fire Damage, knocking back enemies within 6 yds and dazing them for 6 sec.\n\nUpon landing, deal -5 Fire Damage, knock back enemies within 6 yds and daze them for 6 sec.",
+    "iconPath": "interface/icons/achievement_zone_cataclysm",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520218,
+    "spellIds": [
+      520218
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9927
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520218,
+        "description": "Launch into the air, dealing <span class=\"item-number\">11</span> Fire Damage, knocking back enemies within <span class=\"item-number\">6</span> yds and dazing them for <span class=\"item-number\">6</span> sec.<br /><br />Upon landing, deal <span class=\"item-number\">-5</span> Fire Damage, knock back enemies within <span class=\"item-number\">6</span> yds and daze them for <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Launch into the air, dealing 11 Fire Damage, knocking back enemies within 6 yds and dazing them for 6 sec.\n\nUpon landing, deal -5 Fire Damage, knock back enemies within 6 yds and daze them for 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30634,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Magma Guardian",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Skin</span> spells by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Skin spells by 50%.",
+    "iconPath": "interface/icons/inv_shield_pvp410_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706872,
+    "spellIds": [
+      706872
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7481
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706872,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Skin</span> spells by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Skin spells by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30639,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Essence of Malygos",
+    "description": "Imbue an ally with the essence of Malygos, restoring <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of their maximum mana every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">6</span> seconds.<br /><br />If used on yourself this effect is doubled.",
+    "descriptionText": "Imbue an ally with the essence of Malygos, restoring 4% of their maximum mana every 1 sec for 6 seconds.\n\nIf used on yourself this effect is doubled.",
+    "iconPath": "interface/icons/inv_misc_petdragonwhelptarecgosa",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802120,
+    "spellIds": [
+      802120
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7760,
+      30634
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802120,
+        "description": "Imbue an ally with the essence of Malygos, restoring <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of their maximum mana every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">6</span> seconds.<br /><br />If used on yourself this effect is doubled.",
+        "descriptionText": "Imbue an ally with the essence of Malygos, restoring 4% of their maximum mana every 1 sec for 6 seconds.\n\nIf used on yourself this effect is doubled."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30651,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Meteor",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">50</span> Heat</span><br />Call down a meteor in an <span class=\"item-number\">8</span> yd area, dealing <span class=\"item-number\">87</span> + <span class=\"item-number\">125% fire SP</span> Fire Damage to <span class=\"item-number\">8</span> enemies and disorienting them for <span class=\"item-number\">4</span> seconds. Direct damage dealt will break the effect.",
+    "descriptionText": "Generates 50 Heat\nCall down a meteor in an 8 yd area, dealing 87 + 125% fire SP Fire Damage to 8 enemies and disorienting them for 4 seconds. Direct damage dealt will break the effect.",
+    "iconPath": "interface/icons/_d3meteor",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500135,
+    "spellIds": [
+      500135
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500135,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">50</span> Heat</span><br />Call down a meteor in an <span class=\"item-number\">8</span> yd area, dealing <span class=\"item-number\">87</span> + <span class=\"item-number\">125% fire SP</span> Fire Damage to <span class=\"item-number\">8</span> enemies and disorienting them for <span class=\"item-number\">4</span> seconds. Direct damage dealt will break the effect.",
+        "descriptionText": "Generates 50 Heat\nCall down a meteor in an 8 yd area, dealing 87 + 125% fire SP Fire Damage to 8 enemies and disorienting them for 4 seconds. Direct damage dealt will break the effect."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30206,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 87,
+    "tabKey": "24:87",
+    "tabName": "Class",
+    "name": "Ember Touch",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Consumes <span class=\"item-number\">1</span> Ember</span><br />Warm an ally with everliving flames, healing them for <span class=\"item-number\">118</span> + <span class=\"item-number\">45% SP</span> + <span class=\"item-number\">100% Spirit</span>, additonally scaling with your Spirit.",
+    "descriptionText": "Consumes 1 Ember\nWarm an ally with everliving flames, healing them for 118 + 45% SP + 100% Spirit, additonally scaling with your Spirit.",
+    "iconPath": "interface/icons/nhi_firehands_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800818,
+    "spellIds": [
+      800818
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800818,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Consumes <span class=\"item-number\">1</span> Ember</span><br />Warm an ally with everliving flames, healing them for <span class=\"item-number\">118</span> + <span class=\"item-number\">45% SP</span> + <span class=\"item-number\">100% Spirit</span>, additonally scaling with your Spirit.",
+        "descriptionText": "Consumes 1 Ember\nWarm an ally with everliving flames, healing them for 118 + 45% SP + 100% Spirit, additonally scaling with your Spirit."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

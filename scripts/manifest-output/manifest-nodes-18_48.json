@@ -1,0 +1,2037 @@
+[
+  {
+    "nodeId": 4836,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Strength In Unison",
+    "description": "Increases your melee haste by <span class=\"item-number\">1%</span> for each ally within <span class=\"item-number\">20</span> yds, up to a maximum of <span class=\"item-number\">20%</span>.",
+    "descriptionText": "Increases your melee haste by 1% for each ally within 20 yds, up to a maximum of 20%.",
+    "iconPath": "interface/icons/inv_misc_drum_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300860,
+    "spellIds": [
+      300860
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6432
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300860,
+        "description": "Increases your melee haste by <span class=\"item-number\">1%</span> for each ally within <span class=\"item-number\">20</span> yds, up to a maximum of <span class=\"item-number\">20%</span>.",
+        "descriptionText": "Increases your melee haste by 1% for each ally within 20 yds, up to a maximum of 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1789,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Reverberations",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Ram</span> now causes your next <span class=\"item-number\">3</span> melee attacks to deal an additional <span class=\"item-number\">30</span> + <span class=\"item-number\">14.99% AP</span> Magic Damage for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Casting Ram now causes your next 3 melee attacks to deal an additional 30 + 14.99% AP Magic Damage for 10 seconds.",
+    "iconPath": "interface/icons/skill_icon_skill121_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520650,
+    "spellIds": [
+      520650
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29797,
+      34430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520650,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Ram</span> now causes your next <span class=\"item-number\">3</span> melee attacks to deal an additional <span class=\"item-number\">30</span> + <span class=\"item-number\">14.99% AP</span> Magic Damage for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Casting Ram now causes your next 3 melee attacks to deal an additional 30 + 14.99% AP Magic Damage for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4021,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Tempo",
+    "description": "$63",
+    "descriptionText": "$63",
+    "iconPath": "interface/icons/achievement_guildperk_everyones_a_hero",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92107,
+    "spellIds": [
+      92107
+    ],
+    "requiredNodeIds": [
+      29796
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92107,
+        "description": "$64",
+        "descriptionText": "$64"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5825,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "War's Muse",
+    "description": "Increases your critical damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical damage by 20%.",
+    "iconPath": "interface/icons/spell_nature_reincarnation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505201,
+    "spellIds": [
+      505201
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30098
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505201,
+        "description": "Increases your critical damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical damage by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6428,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Into The Fray",
+    "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now grants you an additional auto attack on your next swing.",
+    "descriptionText": "Triggering a Sound of War now grants you an additional auto attack on your next swing.",
+    "iconPath": "interface/icons/_d3wrathoftheberserker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704525,
+    "spellIds": [
+      704525
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6454
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704525,
+        "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now grants you an additional auto attack on your next swing.",
+        "descriptionText": "Triggering a Sound of War now grants you an additional auto attack on your next swing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6432,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "A Hero's Tale",
+    "description": "Increases your Energy regeneration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Energy regeneration by 10%.",
+    "iconPath": "interface/icons/achievement_pvp_legion08",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705361,
+    "spellIds": [
+      705361,
+      707825
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705361,
+        "description": "Increases your Energy regeneration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy regeneration by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707825,
+        "description": "Increases your Energy regeneration by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy regeneration by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6454,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Leading the March",
+    "description": "Increases your attack power and total Armor by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your attack power and total Armor by 4%.",
+    "iconPath": "interface/icons/ability_warrior_victoryrush",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704423,
+    "spellIds": [
+      704423,
+      707826
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31171
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704423,
+        "description": "Increases your attack power and total Armor by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power and total Armor by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707826,
+        "description": "Increases your attack power and total Armor by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power and total Armor by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7040,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Pied Piper",
+    "description": "Triggering a <span style=\"color: #FFFFFF; display: inline\">Sound of War</span> now increases damage of your next <span style=\"color: #FFFFFF; display: inline\">Ram</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Triggering a Sound of War now increases damage of your next Ram by 20% for 15 seconds.",
+    "iconPath": "interface/icons/inv_misc_flute_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705350,
+    "spellIds": [
+      705350
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29797,
+      31141
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 621833,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705350,
+        "description": "Triggering a <span style=\"color: #FFFFFF; display: inline\">Sound of War</span> now increases damage of your next <span style=\"color: #FFFFFF; display: inline\">Ram</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Triggering a Sound of War now increases damage of your next Ram by 20% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10836,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Dissonance",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Sound of War</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to reduce enemies' resistances by <span class=\"item-number\">75</span> and increases their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damage dealt by Sound of War now has a 25% chance to reduce enemies' resistances by 75 and increases their Magic Damage taken by -2% for 8 seconds.",
+    "iconPath": "interface/icons/5_music_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505202,
+    "spellIds": [
+      505202
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29214,
+      11214
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 563213,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505202,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Sound of War</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to reduce enemies' resistances by <span class=\"item-number\">75</span> and increases their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damage dealt by Sound of War now has a 25% chance to reduce enemies' resistances by 75 and increases their Magic Damage taken by -2% for 8 seconds."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11040,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Frontliner",
+    "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now increases your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and allies' within <span class=\"item-number\">20</span> yds movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.",
+    "descriptionText": "Triggering a Sound of War now increases your movement speed by 40% and allies' within 20 yds movement speed by 20% for 2 seconds.",
+    "iconPath": "interface/icons/ability_warrior_intervene",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504782,
+    "spellIds": [
+      504782
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29797,
+      31141
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 621833,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504782,
+        "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now increases your movement speed by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and allies' within <span class=\"item-number\">20</span> yds movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">2</span> seconds.",
+        "descriptionText": "Triggering a Sound of War now increases your movement speed by 40% and allies' within 20 yds movement speed by 20% for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11214,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Knight's Song",
+    "description": "Casting a <span style=\"color: #ffffff; display: inline\">Ballad</span> now grants allies <span style=\"color: #ffffff; display: inline\">Knight's Song</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_flute_01\" /><span class=\"name\">Knight&#39;s Song</span></div><span class=\"desc\">Emanate an aura for <span class=\"item-number\">10</span> seconds that increases the Armor of party and raid members by <span class=\"item-number\">1400</span>.<br /><br />Does not stack with similar effects.</span></div>",
+    "descriptionText": "Casting a Ballad now grants allies Knight's Song.\n\n---\n\nKnight's SongEmanate an aura for 10 seconds that increases the Armor of party and raid members by 1400.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_misc_flute_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505228,
+    "spellIds": [
+      505228
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13616,
+      29216
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 821425,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505228,
+        "description": "Casting a <span style=\"color: #ffffff; display: inline\">Ballad</span> now grants allies <span style=\"color: #ffffff; display: inline\">Knight's Song</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_flute_01\" /><span class=\"name\">Knight&#39;s Song</span></div><span class=\"desc\">Emanate an aura for <span class=\"item-number\">10</span> seconds that increases the Armor of party and raid members by <span class=\"item-number\">1400</span>.<br /><br />Does not stack with similar effects.</span></div>",
+        "descriptionText": "Casting a Ballad now grants allies Knight's Song.\n\n---\n\nKnight's SongEmanate an aura for 10 seconds that increases the Armor of party and raid members by 1400.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11797,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Battle Drums",
+    "description": "Place down <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Battle Drums</span> around you for <span class=\"item-number\">1</span> minute. <br /><br />Allies may click on the drums to increase their critical strike chance, haste, damage, and healing done by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes their damage dealt to trigger a <span style=\"color: #ffffff; display: inline\">Sound of War</span> for their next <span class=\"item-number\">5</span> instances of damage or <span class=\"item-number\">30</span> seconds.",
+    "descriptionText": "Place down 3 Battle Drums around you for 1 minute. \n\nAllies may click on the drums to increase their critical strike chance, haste, damage, and healing done by 10% and causes their damage dealt to trigger a Sound of War for their next 5 instances of damage or 30 seconds.",
+    "iconPath": "interface/icons/inv_archaeology_70_tauren_drum",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803683,
+    "spellIds": [
+      803683
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30145,
+      30825
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803683,
+        "description": "Place down <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Battle Drums</span> around you for <span class=\"item-number\">1</span> minute. <br /><br />Allies may click on the drums to increase their critical strike chance, haste, damage, and healing done by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes their damage dealt to trigger a <span style=\"color: #ffffff; display: inline\">Sound of War</span> for their next <span class=\"item-number\">5</span> instances of damage or <span class=\"item-number\">30</span> seconds.",
+        "descriptionText": "Place down 3 Battle Drums around you for 1 minute. \n\nAllies may click on the drums to increase their critical strike chance, haste, damage, and healing done by 10% and causes their damage dealt to trigger a Sound of War for their next 5 instances of damage or 30 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29214,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Banner of Swiftness",
+    "description": "Attach a <span style=\"color: #ffffff; display: inline\">Banner of Swiftness</span> to your back, increasing the haste of party and raid members within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Attach a Banner of Swiftness to your back, increasing the haste of party and raid members within 40 yds by 5%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_banner_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500259,
+    "spellIds": [
+      500259
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13616,
+      29216
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 821425,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500259,
+        "description": "Attach a <span style=\"color: #ffffff; display: inline\">Banner of Swiftness</span> to your back, increasing the haste of party and raid members within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Attach a Banner of Swiftness to your back, increasing the haste of party and raid members within 40 yds by 5%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29216,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Banner of Conquest",
+    "description": "Attach a <span style=\"color: #ffffff; display: inline\">Banner of Conquest</span> to your back, increasing the critical strike chance of party and raid members within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Attach a Banner of Conquest to your back, increasing the critical strike chance of party and raid members within 40 yds by 5%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/demoralizing_banner",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500261,
+    "spellIds": [
+      500261
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4021
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 743521,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500261,
+        "description": "Attach a <span style=\"color: #ffffff; display: inline\">Banner of Conquest</span> to your back, increasing the critical strike chance of party and raid members within <span class=\"item-number\">40</span> yds by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Attach a Banner of Conquest to your back, increasing the critical strike chance of party and raid members within 40 yds by 5%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29432,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Echoes of War",
+    "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now grants <span style=\"color: #FFFFFF; display: inline\">Echoes of War</span> to nearby allies for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_dungeon_lordstormsong\" /><span class=\"name\">Echoes of War</span></div><span class=\"desc\">Next direct ability or spell deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of their damage as additional Magic Damage.</span></div>",
+    "descriptionText": "Triggering a Sound of War now grants Echoes of War to nearby allies for 8 seconds.\n\n---\n\nEchoes of WarNext direct ability or spell deals 15% of their damage as additional Magic Damage.",
+    "iconPath": "interface/icons/achievement_dungeon_lordstormsong",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704539,
+    "spellIds": [
+      704539
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9450,
+      11797,
+      31315
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704539,
+        "description": "Triggering a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now grants <span style=\"color: #FFFFFF; display: inline\">Echoes of War</span> to nearby allies for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_dungeon_lordstormsong\" /><span class=\"name\">Echoes of War</span></div><span class=\"desc\">Next direct ability or spell deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of their damage as additional Magic Damage.</span></div>",
+        "descriptionText": "Triggering a Sound of War now grants Echoes of War to nearby allies for 8 seconds.\n\n---\n\nEchoes of WarNext direct ability or spell deals 15% of their damage as additional Magic Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29433,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Field Commander",
+    "description": "$65",
+    "descriptionText": "$65",
+    "iconPath": "interface/icons/achievement_pvp_a_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705320,
+    "spellIds": [
+      705320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7309
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705320,
+        "description": "$66",
+        "descriptionText": "$66"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7836,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Song of Steel",
+    "description": "Boost the morale of party and raid members, increasing their attack or spell power by <span class=\"item-number\">95</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Boost the morale of party and raid members, increasing their attack or spell power by 95 for 15 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/skill_icon_skill29_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704540,
+    "spellIds": [
+      704540
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29214,
+      11214
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 563213,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704540,
+        "description": "Boost the morale of party and raid members, increasing their attack or spell power by <span class=\"item-number\">95</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Boost the morale of party and raid members, increasing their attack or spell power by 95 for 15 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11836,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Inspiring Presence",
+    "description": "Emanate an aura around you for <span class=\"item-number\">15</span> seconds, causing allied players within <span class=\"item-number\">100</span> yds to deal <span class=\"item-number\">35% AP</span> additional damage as Holy Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Emanate an aura around you for 15 seconds, causing allied players within 100 yds to deal 35% AP additional damage as Holy Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute.",
+    "iconPath": "interface/icons/_human_07",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705352,
+    "spellIds": [
+      705352
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7836,
+      10836
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 125733,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705352,
+        "description": "Emanate an aura around you for <span class=\"item-number\">15</span> seconds, causing allied players within <span class=\"item-number\">100</span> yds to deal <span class=\"item-number\">35% AP</span> additional damage as Holy Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Emanate an aura around you for 15 seconds, causing allied players within 100 yds to deal 35% AP additional damage as Holy Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11837,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Champion's Presence",
+    "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+    "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes.",
+    "iconPath": "interface/icons/spell_paladin_clarityofpurpose",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520835,
+    "spellIds": [
+      520835
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7836,
+      10836
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 125733,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520835,
+        "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+        "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12123,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Bard's Manuscript",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Hero's March</span> by <span class=\"item-number\">-60</span> sec, adds <span class=\"item-number\">10</span><span class=\"item-number\">%</span> to the haste it provides, and adds <span class=\"item-number\">15</span><span class=\"item-number\">%</span> to its chance to trigger.",
+    "descriptionText": "Reduces the cooldown of Hero's March by -60 sec, adds 10% to the haste it provides, and adds 15% to its chance to trigger.",
+    "iconPath": "interface/icons/pvp_scroll_1",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704526,
+    "spellIds": [
+      704526
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29797
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704526,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704526,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Hero's March</span> by <span class=\"item-number\">-60</span> sec, adds <span class=\"item-number\">10</span><span class=\"item-number\">%</span> to the haste it provides, and adds <span class=\"item-number\">15</span><span class=\"item-number\">%</span> to its chance to trigger.",
+        "descriptionText": "Reduces the cooldown of Hero's March by -60 sec, adds 10% to the haste it provides, and adds 15% to its chance to trigger."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13616,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Spirit of Battle",
+    "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/spell_holy_spellwarding",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504159,
+    "spellIds": [
+      504159
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4021
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 743521,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504159,
+        "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 8192,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7309,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Bannerman",
+    "description": "While affected by your <span style=\"color: #ffffff; display: inline\">Banner of Swiftness</span> or <span style=\"color: #ffffff; display: inline\">Banner of Conquest</span>, the initial damage dealt by your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> now deals <span class=\"item-number\">150</span><span class=\"item-number\">%</span> more damage.",
+    "descriptionText": "While affected by your Banner of Swiftness or Banner of Conquest, the initial damage dealt by your Standard of Valiance now deals 150% more damage.",
+    "iconPath": "interface/icons/nhi_magicbanner_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504144,
+    "spellIds": [
+      504144
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34434,
+      34436
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504144,
+        "description": "While affected by your <span style=\"color: #ffffff; display: inline\">Banner of Swiftness</span> or <span style=\"color: #ffffff; display: inline\">Banner of Conquest</span>, the initial damage dealt by your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span> now deals <span class=\"item-number\">150</span><span class=\"item-number\">%</span> more damage.",
+        "descriptionText": "While affected by your Banner of Swiftness or Banner of Conquest, the initial damage dealt by your Standard of Valiance now deals 150% more damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9279,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Show of Force",
+    "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Ram</span> now dispels <span class=\"item-number\">1</span> magic effect from the target.",
+    "descriptionText": "Dealing damage with Ram now dispels 1 magic effect from the target.",
+    "iconPath": "interface/icons/spell_fire_firearmor",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573047,
+    "spellIds": [
+      573047
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573047,
+        "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Ram</span> now dispels <span class=\"item-number\">1</span> magic effect from the target.",
+        "descriptionText": "Dealing damage with Ram now dispels 1 magic effect from the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9450,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Stand Your Ground!",
+    "description": "While standing in your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span>, your allies' Physical Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "While standing in your Standard of Valiance, your allies' Physical Damage taken is reduced by -10% for 8 seconds.",
+    "iconPath": "interface/icons/spell_holy_heroism",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806142,
+    "spellIds": [
+      806142
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30098,
+      30825
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 806142,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806142,
+        "description": "While standing in your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span>, your allies' Physical Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "While standing in your Standard of Valiance, your allies' Physical Damage taken is reduced by -10% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31141,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Harrowing Melody",
+    "description": "Play a harrowing melody, dealing <span class=\"item-number\">455</span> + <span class=\"item-number\">42% AP</span> Magic Damage and reducing all healing received by enemies within <span class=\"item-number\">10</span> yds by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />In addition, your next <span style=\"color: #ffffff; display: inline\">Ballad</span> within <span class=\"item-number\">10</span> seconds is free of cost and deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Play a harrowing melody, dealing 455 + 42% AP Magic Damage and reducing all healing received by enemies within 10 yds by -30% for 10 seconds.\n\nIn addition, your next Ballad within 10 seconds is free of cost and deals 50% increased damage.",
+    "iconPath": "interface/icons/inv_axe_2h_undeadguitar_c_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572821,
+    "spellIds": [
+      572821
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4836,
+      30829
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572821,
+        "description": "Play a harrowing melody, dealing <span class=\"item-number\">455</span> + <span class=\"item-number\">42% AP</span> Magic Damage and reducing all healing received by enemies within <span class=\"item-number\">10</span> yds by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />In addition, your next <span style=\"color: #ffffff; display: inline\">Ballad</span> within <span class=\"item-number\">10</span> seconds is free of cost and deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Play a harrowing melody, dealing 455 + 42% AP Magic Damage and reducing all healing received by enemies within 10 yds by -30% for 10 seconds.\n\nIn addition, your next Ballad within 10 seconds is free of cost and deals 50% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31171,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Inspiring Presence",
+    "description": "You pledge to inspire your allies in the midst of battle, transforming your <span style=\"color: #ffffff; display: inline\">Pulverize</span> and your <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> into <span style=\"color: #ffffff; display: inline\">Ballads</span>.",
+    "descriptionText": "You pledge to inspire your allies in the midst of battle, transforming your Pulverize and your Broad Sweep into Ballads.",
+    "iconPath": "interface/icons/ability_maldraxxus_warriorplantbanner",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505344,
+    "spellIds": [
+      505344
+    ],
+    "requiredNodeIds": [
+      4021,
+      29796
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505344,
+        "description": "You pledge to inspire your allies in the midst of battle, transforming your <span style=\"color: #ffffff; display: inline\">Pulverize</span> and your <span style=\"color: #ffffff; display: inline\">Broad Sweep</span> into <span style=\"color: #ffffff; display: inline\">Ballads</span>.",
+        "descriptionText": "You pledge to inspire your allies in the midst of battle, transforming your Pulverize and your Broad Sweep into Ballads."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31315,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "You Shall Not Fall!",
+    "description": "While standing in your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span>, allies have a <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> increased chance to resist stun and grip effects.",
+    "descriptionText": "While standing in your Standard of Valiance, allies have a -20% increased chance to resist stun and grip effects.",
+    "iconPath": "interface/icons/achievement_bg_masterofallbgs",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505200,
+    "spellIds": [
+      505200
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30098,
+      30825
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 806142,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505200,
+        "description": "While standing in your <span style=\"color: #ffffff; display: inline\">Standard of Valiance</span>, allies have a <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> increased chance to resist stun and grip effects.",
+        "descriptionText": "While standing in your Standard of Valiance, allies have a -20% increased chance to resist stun and grip effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31316,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Voice of an Angel",
+    "description": "Sing a beautiful song, instantly resetting the cooldown of <span style=\"color: #ffffff; display: inline\">Liberation</span>, <span style=\"color: #ffffff; display: inline\">Harrowing Melody</span>, and <span style=\"color: #ffffff; display: inline\">Hero's March</span>.",
+    "descriptionText": "Sing a beautiful song, instantly resetting the cooldown of Liberation, Harrowing Melody, and Hero's March.",
+    "iconPath": "interface/icons/ability_priest_heavanlyvoice",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704420,
+    "spellIds": [
+      704420
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31364
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704420,
+        "description": "Sing a beautiful song, instantly resetting the cooldown of <span style=\"color: #ffffff; display: inline\">Liberation</span>, <span style=\"color: #ffffff; display: inline\">Harrowing Melody</span>, and <span style=\"color: #ffffff; display: inline\">Hero's March</span>.",
+        "descriptionText": "Sing a beautiful song, instantly resetting the cooldown of Liberation, Harrowing Melody, and Hero's March."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31358,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "War Drums",
+    "description": "Adds <span class=\"item-number\">5</span><span class=\"item-number\">%</span> to the value of <span style=\"color: #FFFFFF; display: inline\">Echoes of War</span>.<br /><br />In addition, performing a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to echo, striking an additional time after <span class=\"item-number\">0.5</span> sec. Can only occur once per sec.",
+    "descriptionText": "Adds 5% to the value of Echoes of War.\n\nIn addition, performing a Sound of War now has a 40% chance to echo, striking an additional time after 0.5 sec. Can only occur once per sec.",
+    "iconPath": "interface/icons/inv_leatherworking_drums",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704524,
+    "spellIds": [
+      704524
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29432,
+      30097
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704524,
+        "description": "Adds <span class=\"item-number\">5</span><span class=\"item-number\">%</span> to the value of <span style=\"color: #FFFFFF; display: inline\">Echoes of War</span>.<br /><br />In addition, performing a <span style=\"color: #ffffff; display: inline\">Sound of War</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to echo, striking an additional time after <span class=\"item-number\">0.5</span> sec. Can only occur once per sec.",
+        "descriptionText": "Adds 5% to the value of Echoes of War.\n\nIn addition, performing a Sound of War now has a 40% chance to echo, striking an additional time after 0.5 sec. Can only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31359,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Minstrel",
+    "description": "Casting a <span style=\"color: #ffffff; display: inline\">Ballad</span> now increases your haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times, for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Casting a Ballad now increases your haste by 5%, stacking 3 times, for 8 seconds.",
+    "iconPath": "interface/icons/ability_racial_makecamp",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704533,
+    "spellIds": [
+      704533
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31141
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704533,
+        "description": "Casting a <span style=\"color: #ffffff; display: inline\">Ballad</span> now increases your haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">3</span> times, for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Casting a Ballad now increases your haste by 5%, stacking 3 times, for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31361,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Soundwave",
+    "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Sound of War</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by Sound of War by 20%.",
+    "iconPath": "interface/icons/spell_animabastion_wave",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705318,
+    "spellIds": [
+      705318
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6428,
+      31362
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705318,
+        "description": "Increases the damage dealt by <span style=\"color: #FFFFFF; display: inline\">Sound of War</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by Sound of War by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31362,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Dragonslayer",
+    "description": "Increases your Agility by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility by 5%.",
+    "iconPath": "interface/icons/crest_warrior",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706333,
+    "spellIds": [
+      706333
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6454
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706333,
+        "description": "Increases your Agility by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31364,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Legion Commander",
+    "description": "The damage increase of <span style=\"color: #FFFFFF; display: inline\">Harrowing Melody</span> now affects an additional <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Ballad</span> casts and guarantees them to critically strike and deal <span class=\"item-number\">100</span><span class=\"item-number\">%</span> more damage.",
+    "descriptionText": "The damage increase of Harrowing Melody now affects an additional 2 Ballad casts and guarantees them to critically strike and deal 100% more damage.",
+    "iconPath": "interface/icons/ability_warrior_rallyingcry",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704535,
+    "spellIds": [
+      704535
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5825,
+      9450,
+      31315
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704535,
+        "description": "The damage increase of <span style=\"color: #FFFFFF; display: inline\">Harrowing Melody</span> now affects an additional <span class=\"item-number\">2</span> <span style=\"color: #FFFFFF; display: inline\">Ballad</span> casts and guarantees them to critically strike and deal <span class=\"item-number\">100</span><span class=\"item-number\">%</span> more damage.",
+        "descriptionText": "The damage increase of Harrowing Melody now affects an additional 2 Ballad casts and guarantees them to critically strike and deal 100% more damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34430,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Liberation",
+    "description": "Instantly breaks an ally free of any stun, fear, or polymorph effects and grants immunity to such effects for <span class=\"item-number\">5</span> seconds. <br /><br />Dispels <span class=\"item-number\">2</span> harmful magic effects from the ally.<br /><br />Usable while stunned, feared, or polymorphed.",
+    "descriptionText": "Instantly breaks an ally free of any stun, fear, or polymorph effects and grants immunity to such effects for 5 seconds. \n\nDispels 2 harmful magic effects from the ally.\n\nUsable while stunned, feared, or polymorphed.",
+    "iconPath": "interface/icons/ability_pvp_gladiatormedallion",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803963,
+    "spellIds": [
+      803963
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6428,
+      31361
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803963,
+        "description": "Instantly breaks an ally free of any stun, fear, or polymorph effects and grants immunity to such effects for <span class=\"item-number\">5</span> seconds. <br /><br />Dispels <span class=\"item-number\">2</span> harmful magic effects from the ally.<br /><br />Usable while stunned, feared, or polymorphed.",
+        "descriptionText": "Instantly breaks an ally free of any stun, fear, or polymorph effects and grants immunity to such effects for 5 seconds. \n\nDispels 2 harmful magic effects from the ally.\n\nUsable while stunned, feared, or polymorphed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34433,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Veteran of the Third War",
+    "description": "You now restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base health whenever you block an attack.",
+    "descriptionText": "You now restore 3% of your base health whenever you block an attack.",
+    "iconPath": "interface/icons/novart_passivemastery_(4)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300540,
+    "spellIds": [
+      300540
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6432
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300540,
+        "description": "You now restore <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your base health whenever you block an attack.",
+        "descriptionText": "You now restore 3% of your base health whenever you block an attack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34434,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Fearless",
+    "description": "Each nearby enemy within <span class=\"item-number\">10</span> yds now reduces your damage taken by <span class=\"item-number\">1%</span>, up to a maximum of <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each nearby enemy within 10 yds now reduces your damage taken by 1%, up to a maximum of 10%.",
+    "iconPath": "interface/icons/spell_nature_invisibilty",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505199,
+    "spellIds": [
+      505199
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29798,
+      30145
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505199,
+        "description": "Each nearby enemy within <span class=\"item-number\">10</span> yds now reduces your damage taken by <span class=\"item-number\">1%</span>, up to a maximum of <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each nearby enemy within 10 yds now reduces your damage taken by 1%, up to a maximum of 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34435,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Warbringer's Manuscript",
+    "description": "Critical strikes now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Hero's March</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Critical strikes now reduce the cooldown of Hero's March by -1 sec.",
+    "iconPath": "interface/icons/inv_misc_notescript1c",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705351,
+    "spellIds": [
+      705351
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29797
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704526,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705351,
+        "description": "Critical strikes now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Hero's March</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Critical strikes now reduce the cooldown of Hero's March by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34436,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Cavalry Tactics",
+    "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Cavalry Charge</span> by <span class=\"item-number\">-30</span> sec and it now prevents root and slow effects on allies.",
+    "descriptionText": "Reduces the cooldown of your Cavalry Charge by -30 sec and it now prevents root and slow effects on allies.",
+    "iconPath": "interface/icons/inv_blacksmith_leystonehoofplates_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503631,
+    "spellIds": [
+      503631
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29798
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503631,
+        "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Cavalry Charge</span> by <span class=\"item-number\">-30</span> sec and it now prevents root and slow effects on allies.",
+        "descriptionText": "Reduces the cooldown of your Cavalry Charge by -30 sec and it now prevents root and slow effects on allies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29797,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Hero's March",
+    "description": "Beat the drums of war, causing your auto attacks to trigger a <span style=\"color: #ffffff; display: inline\">Sound of War</span> and increasing your haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />In addition, allies within <span class=\"item-number\">10</span> yds of you have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Sound of War</span> on any damage dealt.<br /><br />",
+    "descriptionText": "Beat the drums of war, causing your auto attacks to trigger a Sound of War and increasing your haste by 15% for 20 seconds.\n\nIn addition, allies within 10 yds of you have a 5% chance to trigger a Sound of War on any damage dealt.",
+    "iconPath": "interface/icons/inv_misc_drum_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801774,
+    "spellIds": [
+      801774
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30829,
+      31361
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801774,
+        "description": "Beat the drums of war, causing your auto attacks to trigger a <span style=\"color: #ffffff; display: inline\">Sound of War</span> and increasing your haste by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />In addition, allies within <span class=\"item-number\">10</span> yds of you have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to trigger a <span style=\"color: #ffffff; display: inline\">Sound of War</span> on any damage dealt.<br /><br />",
+        "descriptionText": "Beat the drums of war, causing your auto attacks to trigger a Sound of War and increasing your haste by 15% for 20 seconds.\n\nIn addition, allies within 10 yds of you have a 5% chance to trigger a Sound of War on any damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29798,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Banner Boy",
+    "description": "Increases your haste and movement speed by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your haste and movement speed by 8%.",
+    "iconPath": "interface/icons/achievement_bg_captureflag_wsg",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705359,
+    "spellIds": [
+      705359,
+      707827
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1789,
+      9279
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705359,
+        "description": "Increases your haste and movement speed by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste and movement speed by 8%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707827,
+        "description": "Increases your haste and movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste and movement speed by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30097,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Song of Battle",
+    "description": "Every <span class=\"item-number\">2</span> sec you emanate <span style=\"color: #ffffff; display: inline\">Sounds of War</span>, dealing <span class=\"item-number\">71</span> + <span class=\"item-number\">12.74% AP</span> Physical Damage to all enemies within <span class=\"item-number\">8</span> yds. Lasts <span class=\"item-number\">15</span> seconds.<br /><br />Upon expiration, stun all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">4</span> seconds.<br /><br />",
+    "descriptionText": "Every 2 sec you emanate Sounds of War, dealing 71 + 12.74% AP Physical Damage to all enemies within 8 yds. Lasts 15 seconds.\n\nUpon expiration, stun all enemies within 8 yds for 4 seconds.",
+    "iconPath": "interface/icons/achievement_pvp_legion04",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803956,
+    "spellIds": [
+      803956
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11797,
+      34434
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803956,
+        "description": "Every <span class=\"item-number\">2</span> sec you emanate <span style=\"color: #ffffff; display: inline\">Sounds of War</span>, dealing <span class=\"item-number\">71</span> + <span class=\"item-number\">12.74% AP</span> Physical Damage to all enemies within <span class=\"item-number\">8</span> yds. Lasts <span class=\"item-number\">15</span> seconds.<br /><br />Upon expiration, stun all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">4</span> seconds.<br /><br />",
+        "descriptionText": "Every 2 sec you emanate Sounds of War, dealing 71 + 12.74% AP Physical Damage to all enemies within 8 yds. Lasts 15 seconds.\n\nUpon expiration, stun all enemies within 8 yds for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30098,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Powerful Voice",
+    "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Ballads</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of your Ballads by 15%.",
+    "iconPath": "interface/icons/ability_warrior_battleshout",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705356,
+    "spellIds": [
+      705356
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7040,
+      11040,
+      31359
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705356,
+        "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Ballads</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of your Ballads by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30145,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Elegant Combat",
+    "description": "Casting a <span style=\"color: #FFFFFF; display: inline\">Ballad</span> has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to remove the cost of the next <span style=\"color: #FFFFFF; display: inline\">Ram</span> and increase its critical chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Casting a Ballad has a 20% chance to remove the cost of the next Ram and increase its critical chance by 10%.",
+    "iconPath": "interface/icons/custom_warriorskill_35_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804047,
+    "spellIds": [
+      804047
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1789,
+      12123,
+      34435
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804047,
+        "description": "Casting a <span style=\"color: #FFFFFF; display: inline\">Ballad</span> has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to remove the cost of the next <span style=\"color: #FFFFFF; display: inline\">Ram</span> and increase its critical chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Casting a Ballad has a 20% chance to remove the cost of the next Ram and increase its critical chance by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30825,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Little Drummer",
+    "description": "Allies within <span class=\"item-number\">20</span> yds of you now gain <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to resist curses.",
+    "descriptionText": "Allies within 20 yds of you now gain 20% chance to resist curses.",
+    "iconPath": "interface/icons/novart_misc_(15)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706636,
+    "spellIds": [
+      706636
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7040,
+      11040,
+      12123,
+      34435
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706636,
+        "description": "Allies within <span class=\"item-number\">20</span> yds of you now gain <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to resist curses.",
+        "descriptionText": "Allies within 20 yds of you now gain 20% chance to resist curses."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30829,
+    "classId": 18,
+    "className": "Guardian",
+    "tabId": 48,
+    "tabKey": "18:48",
+    "tabName": "Inspiration",
+    "name": "Battle Bard",
+    "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Ballads</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of your Ballads by 15%.",
+    "iconPath": "interface/icons/inv_inscription_scrollofwisdom_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806140,
+    "spellIds": [
+      806140
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4836,
+      34433
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806140,
+        "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Ballads</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of your Ballads by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

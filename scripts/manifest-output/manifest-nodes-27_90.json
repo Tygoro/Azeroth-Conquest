@@ -1,0 +1,1894 @@
+[
+  {
+    "nodeId": 6535,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Impartial",
+    "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases your Strength by 5% and your expertise by 5.",
+    "iconPath": "interface/icons/spell_paladin_executionsentence",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704942,
+    "spellIds": [
+      704942,
+      707772
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30684
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704942,
+        "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases your Strength by 5% and your expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 707772,
+        "description": "Increases your Strength by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases your Strength by 10% and your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6539,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Valkyr's Grip",
+    "description": "Increases your off-hand Weapon Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces the duration of disarm effects by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your off-hand Weapon Damage dealt by 20% and reduces the duration of disarm effects by -15%.",
+    "iconPath": "interface/icons/spell_holy_weaponmastery",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 807507,
+    "spellIds": [
+      807507,
+      807873
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33997
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807507,
+        "description": "Increases your off-hand Weapon Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces the duration of disarm effects by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand Weapon Damage dealt by 20% and reduces the duration of disarm effects by -15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807873,
+        "description": "Increases your off-hand Weapon Damage dealt by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and reduces the duration of disarm effects by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your off-hand Weapon Damage dealt by 40% and reduces the duration of disarm effects by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6548,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Judgement of the Valkyrie",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Judgement Day</span> by <span class=\"item-number\">-15</span> sec.",
+    "descriptionText": "Reduces the cooldown of Judgement Day by -15 sec.",
+    "iconPath": "interface/icons/ability_warrior_revenge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300315,
+    "spellIds": [
+      300315
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31380
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301313,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300315,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Judgement Day</span> by <span class=\"item-number\">-15</span> sec.",
+        "descriptionText": "Reduces the cooldown of Judgement Day by -15 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6837,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Trial of Valor",
+    "description": "<span style=\"color: #ffffff; display: inline\">Fulfilling</span> a <span style=\"color: #FFFFFF; display: inline\">Vow</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Fulfilling a Vow now reduces the cooldown of Horusath Blast by -2 sec.",
+    "iconPath": "interface/icons/achievement_raid_trialofvalor",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805581,
+    "spellIds": [
+      805581
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      3830,
+      11982,
+      33982
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805581,
+        "description": "<span style=\"color: #ffffff; display: inline\">Fulfilling</span> a <span style=\"color: #FFFFFF; display: inline\">Vow</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Fulfilling a Vow now reduces the cooldown of Horusath Blast by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4647,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Holy Giant",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Doubles the effectiveness of <span style=\"color: #ffffff; display: inline\">Vow of the Valkyr</span>.",
+    "descriptionText": "Level 50 Passive\nDoubles the effectiveness of Vow of the Valkyr.",
+    "iconPath": "interface/icons/spell_paladin_lightshammer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681337,
+    "spellIds": [
+      681337
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2317
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681337,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Doubles the effectiveness of <span style=\"color: #ffffff; display: inline\">Vow of the Valkyr</span>.",
+        "descriptionText": "Level 50 Passive\nDoubles the effectiveness of Vow of the Valkyr."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4978,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Blessed Hammer",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Reduces the cooldown of Solar Invocation spells by -10 sec.",
+    "iconPath": "interface/icons/nhi_hammeroflight_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804032,
+    "spellIds": [
+      804032
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6535,
+      11982,
+      33982
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804032,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Reduces the cooldown of Solar Invocation spells by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6336,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "March of the Valkyr",
+    "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your chance to parry is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your chance to parry is increased by 5%.",
+    "iconPath": "interface/icons/spell_holy_crusade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560534,
+    "spellIds": [
+      560534
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30684
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560534,
+        "description": "Increases the all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, your chance to parry is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the all damage dealt by party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, your chance to parry is increased by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2317,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Vow of the Valkyr",
+    "description": "Auto attacks generate <span class=\"item-number\">1</span> <span style=\"color: #FF9800; display: inline\">Solar Power</span> and deal <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage.<br /><br /><span style=\"color: #ffffff; display: inline\">Fulfillment</span>: Melee ability damage triggers an auto attack with each weapon.<br /><br />Only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Vow</span> can be active at a time.",
+    "descriptionText": "Auto attacks generate 1 Solar Power and deal 10% increased damage.\n\nFulfillment: Melee ability damage triggers an auto attack with each weapon.\n\nOnly 1 Vow can be active at a time.",
+    "iconPath": "interface/icons/vow_of_valkyr",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807749,
+    "spellIds": [
+      807749
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30682
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807749,
+        "description": "Auto attacks generate <span class=\"item-number\">1</span> <span style=\"color: #FF9800; display: inline\">Solar Power</span> and deal <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage.<br /><br /><span style=\"color: #ffffff; display: inline\">Fulfillment</span>: Melee ability damage triggers an auto attack with each weapon.<br /><br />Only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Vow</span> can be active at a time.",
+        "descriptionText": "Auto attacks generate 1 Solar Power and deal 10% increased damage.\n\nFulfillment: Melee ability damage triggers an auto attack with each weapon.\n\nOnly 1 Vow can be active at a time."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 3830,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Gift of the Sun",
+    "description": "Increases your critical strike chance with Holy spells and abilities by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health.",
+    "descriptionText": "Increases your critical strike chance with Holy spells and abilities by 50% on enemies above 80% health.",
+    "iconPath": "interface/icons/ability_malkorok_blightofyshaarj_yellow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680618,
+    "spellIds": [
+      680618
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      32502
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680618,
+        "description": "Increases your critical strike chance with Holy spells and abilities by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health.",
+        "descriptionText": "Increases your critical strike chance with Holy spells and abilities by 50% on enemies above 80% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7370,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Champion's Arrival",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Champion of the Sun</span> and <span style=\"color: #ffffff; display: inline\">Chains of Light</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Champion of the Sun and Chains of Light by 5 sec.",
+    "iconPath": "interface/icons/spell_holy_innerfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704905,
+    "spellIds": [
+      704905
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30684
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704905,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Champion of the Sun</span> and <span style=\"color: #ffffff; display: inline\">Chains of Light</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Champion of the Sun and Chains of Light by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7636,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Arbiter of Grace",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Vow of Grace</span> is active, your <span style=\"color: #ffffff; display: inline\">Glorious Execution</span> now regenerates an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> mana equal to the damage dealt.",
+    "descriptionText": "While Vow of Grace is active, your Glorious Execution now regenerates an additional 15% mana equal to the damage dealt.",
+    "iconPath": "interface/icons/spell_holy_blessedresillience",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301313,
+    "spellIds": [
+      301313
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31381,
+      34005
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 302914,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301313,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Vow of Grace</span> is active, your <span style=\"color: #ffffff; display: inline\">Glorious Execution</span> now regenerates an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> mana equal to the damage dealt.",
+        "descriptionText": "While Vow of Grace is active, your Glorious Execution now regenerates an additional 15% mana equal to the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7637,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Sunwalker",
+    "description": "Dealing melee damage now generates a stack of <span style=\"color: #ffffff; display: inline\">Sunwalker</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_holy_blessing_border\" /><span class=\"name\">Sunwalker</span></div><span class=\"desc\">Reduces the cast time and mana cost of your next <span style=\"color: #ffffff; display: inline\">Shine</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Dealing melee damage now generates a stack of Sunwalker.\n\n---\n\nSunwalkerReduces the cast time and mana cost of your next Shine by -20% for 30 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/nhi_holy_blessing_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704934,
+    "spellIds": [
+      704934
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6548,
+      11648,
+      30690
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704934,
+        "description": "Dealing melee damage now generates a stack of <span style=\"color: #ffffff; display: inline\">Sunwalker</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_holy_blessing_border\" /><span class=\"name\">Sunwalker</span></div><span class=\"desc\">Reduces the cast time and mana cost of your next <span style=\"color: #ffffff; display: inline\">Shine</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Dealing melee damage now generates a stack of Sunwalker.\n\n---\n\nSunwalkerReduces the cast time and mana cost of your next Shine by -20% for 30 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7638,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Odyn's Vanguard",
+    "description": "Melee attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Execution</span>.",
+    "descriptionText": "Melee attacks now have a 20% chance to reset the cooldown of Glorious Execution.",
+    "iconPath": "interface/icons/spell_holy_power",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806699,
+    "spellIds": [
+      806699
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806699,
+        "description": "Melee attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Execution</span>.",
+        "descriptionText": "Melee attacks now have a 20% chance to reset the cooldown of Glorious Execution."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7639,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "By The Light",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Valkyr's Calling</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Valkyr's Calling by 50%.",
+    "iconPath": "interface/icons/spell_holy_restoration",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680620,
+    "spellIds": [
+      680620
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31381
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 681448,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680620,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Valkyr's Calling</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Valkyr's Calling by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7640,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Justice",
+    "description": "Spin and strike with both weapons dealing <span class=\"item-number\">40</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">6</span> + <span class=\"item-number\">20% fire SP</span> to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.<br /><br />Your main-hand strike will deal Fire Damage and your off-hand strike will deal Physical Damage.",
+    "descriptionText": "Spin and strike with both weapons dealing 40% Weapon Damage plus 6 + 20% fire SP to up to 5 enemies within 5 yds.\n\nYour main-hand strike will deal Fire Damage and your off-hand strike will deal Physical Damage.",
+    "iconPath": "interface/icons/inv_glaive_1h_artifactaldrochi_d_02dual",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520359,
+    "spellIds": [
+      520359
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520359,
+        "description": "Spin and strike with both weapons dealing <span class=\"item-number\">40</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">6</span> + <span class=\"item-number\">20% fire SP</span> to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.<br /><br />Your main-hand strike will deal Fire Damage and your off-hand strike will deal Physical Damage.",
+        "descriptionText": "Spin and strike with both weapons dealing 40% Weapon Damage plus 6 + 20% fire SP to up to 5 enemies within 5 yds.\n\nYour main-hand strike will deal Fire Damage and your off-hand strike will deal Physical Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7641,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Radiant Halberd",
+    "description": "Direct Physical Damage dealt now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Champion of the Sun</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Direct Physical Damage dealt now reduces the cooldown of Champion of the Sun by -1 sec.",
+    "iconPath": "interface/icons/inv_weapon_halberd15",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681252,
+    "spellIds": [
+      681252
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7639,
+      12639
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681252,
+        "description": "Direct Physical Damage dealt now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Champion of the Sun</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Direct Physical Damage dealt now reduces the cooldown of Champion of the Sun by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7642,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Light's Blessing",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Sunslam</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Pendant of the Sun</span> by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Casting Sunslam now reduces the cooldown of Pendant of the Sun by -10 sec.",
+    "iconPath": "interface/icons/5_paladinskill06_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300318,
+    "spellIds": [
+      300318
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33981
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300318,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Sunslam</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Pendant of the Sun</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Casting Sunslam now reduces the cooldown of Pendant of the Sun by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7644,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Divine Retribution",
+    "description": "Accumulates <span class=\"item-number\">25%</span> of your damage dealt to on the target and unleashes it after <span class=\"item-number\">8</span> seconds, damaging enemies within <span class=\"item-number\">10</span> yds as Holy Damage.",
+    "descriptionText": "Accumulates 25% of your damage dealt to on the target and unleashes it after 8 seconds, damaging enemies within 10 yds as Holy Damage.",
+    "iconPath": "interface/icons/spell_holy_vindication",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680624,
+    "spellIds": [
+      680624
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30681
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680624,
+        "description": "Accumulates <span class=\"item-number\">25%</span> of your damage dealt to on the target and unleashes it after <span class=\"item-number\">8</span> seconds, damaging enemies within <span class=\"item-number\">10</span> yds as Holy Damage.",
+        "descriptionText": "Accumulates 25% of your damage dealt to on the target and unleashes it after 8 seconds, damaging enemies within 10 yds as Holy Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9901,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Valkyr's Grip",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Allows you to dual wield and to wield a Two-Handed Mace or Sword in each hand and your chance to hit is increased by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 10 Passive\nAllows you to dual wield and to wield a Two-Handed Mace or Sword in each hand and your chance to hit is increased by 6%.",
+    "iconPath": "interface/icons/inv_valkiergoldpet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707072,
+    "spellIds": [
+      707072
+    ],
+    "requiredNodeIds": [
+      29510
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707072,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Allows you to dual wield and to wield a Two-Handed Mace or Sword in each hand and your chance to hit is increased by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 10 Passive\nAllows you to dual wield and to wield a Two-Handed Mace or Sword in each hand and your chance to hit is increased by 6%."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11380,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Radiant Power",
+    "description": "Each stack of <span style=\"color: #FFFFFF; display: inline\">Sunwalker</span> now increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Shine</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each stack of Sunwalker now increases the critical strike chance of Shine by 3%.",
+    "iconPath": "interface/icons/spell_holy_powerwordshield",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707613,
+    "spellIds": [
+      707613
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7637
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707613,
+        "description": "Each stack of <span style=\"color: #FFFFFF; display: inline\">Sunwalker</span> now increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Shine</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each stack of Sunwalker now increases the critical strike chance of Shine by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11636,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Arbiter of Light",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Vow of Light</span> is active, your <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> now restores an additional <span class=\"item-number\">100</span><span class=\"item-number\">%</span> health equal to the damage dealt.",
+    "descriptionText": "While Vow of Light is active, your Gavel of Atonement now restores an additional 100% health equal to the damage dealt.",
+    "iconPath": "interface/icons/5_swordsoflight_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 302914,
+    "spellIds": [
+      302914
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31381,
+      34005
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 302914,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302914,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Vow of Light</span> is active, your <span style=\"color: #ffffff; display: inline\">Gavel of Atonement</span> now restores an additional <span class=\"item-number\">100</span><span class=\"item-number\">%</span> health equal to the damage dealt.",
+        "descriptionText": "While Vow of Light is active, your Gavel of Atonement now restores an additional 100% health equal to the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11648,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Leap of the Valkyrie",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sun Stride</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Sun Stride by -4 sec.",
+    "iconPath": "interface/icons/priest_spell_leapoffaith_b",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301295,
+    "spellIds": [
+      301295
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31380
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301313,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301295,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sun Stride</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Sun Stride by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11982,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "It's Always Sunny",
+    "description": "Activating <span style=\"color: #FF9800; display: inline\">Dawn</span> now reduces the cooldowns of <span style=\"color: #ffffff; display: inline\">Radiance</span>, <span style=\"color: #ffffff; display: inline\">Valkyr's Calling</span>, and <span style=\"color: #ffffff; display: inline\">Sunslam</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Activating Dawn now reduces the cooldowns of Radiance, Valkyr's Calling, and Sunslam by 10%.",
+    "iconPath": "interface/icons/spell_holy_healingaura",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707414,
+    "spellIds": [
+      707414
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 105665,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707414,
+        "description": "Activating <span style=\"color: #FF9800; display: inline\">Dawn</span> now reduces the cooldowns of <span style=\"color: #ffffff; display: inline\">Radiance</span>, <span style=\"color: #ffffff; display: inline\">Valkyr's Calling</span>, and <span style=\"color: #ffffff; display: inline\">Sunslam</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Activating Dawn now reduces the cooldowns of Radiance, Valkyr's Calling, and Sunslam by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12639,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Last Call",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Valkyr's Calling</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of Valkyr's Calling by 1 sec.",
+    "iconPath": "interface/icons/spell_holy_retribution",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681448,
+    "spellIds": [
+      681448
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31381
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 681448,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681448,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Valkyr's Calling</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of Valkyr's Calling by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9596,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Light of the Sun",
+    "description": "Parrying an attack now restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum health and increases your chance to parry the next attack by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Parrying an attack now restores 1% of your maximum health and increases your chance to parry the next attack by 30%.",
+    "iconPath": "interface/icons/ability_paladin_artofwar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704941,
+    "spellIds": [
+      704941
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704941,
+        "description": "Parrying an attack now restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum health and increases your chance to parry the next attack by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Parrying an attack now restores 1% of your maximum health and increases your chance to parry the next attack by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9816,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Valorous Champion",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your spell hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 20 Passive\nIncreases your attack power by 20% and your spell hit rating by 3% of your Strength.",
+    "iconPath": "interface/icons/spell_holy_holynova",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804339,
+    "spellIds": [
+      804339
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9901
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804339,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your spell hit rating by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 20 Passive\nIncreases your attack power by 20% and your spell hit rating by 3% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31196,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Glorious Execution",
+    "description": "Strike with both weapons dealing Weapon Damage plus <span class=\"item-number\">8</span> Physical Damage and regenerate mana equal to <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Strike with both weapons dealing Weapon Damage plus 8 Physical Damage and regenerate mana equal to 5% of the damage dealt.",
+    "iconPath": "interface/icons/inv_sword_2h_armyoflight_c_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800626,
+    "spellIds": [
+      800626
+    ],
+    "requiredNodeIds": [
+      9901,
+      29510
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800626,
+        "description": "Strike with both weapons dealing Weapon Damage plus <span class=\"item-number\">8</span> Physical Damage and regenerate mana equal to <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Strike with both weapons dealing Weapon Damage plus 8 Physical Damage and regenerate mana equal to 5% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31380,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Fanaticism",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Gavel of Atonement</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and reduces its mana cost by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Gavel of Atonement by 10% and reduces its mana cost by 10%.",
+    "iconPath": "interface/icons/ability_priest_atonement",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805628,
+    "spellIds": [
+      805628
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7640,
+      9596
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805628,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Gavel of Atonement</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and reduces its mana cost by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Gavel of Atonement by 10% and reduces its mana cost by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33980,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Fervor of the Sun",
+    "description": "Fulfilling a <span style=\"color: #FFFFFF; display: inline\">Vow</span> now increases the damage of your <span style=\"color: #ffffff; display: inline\">Sunslam</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Fulfilling a Vow now increases the damage of your Sunslam by 10% for 20 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/nhi_holywhirlpool_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680622,
+    "spellIds": [
+      680622
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6539,
+      32502
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680622,
+        "description": "Fulfilling a <span style=\"color: #FFFFFF; display: inline\">Vow</span> now increases the damage of your <span style=\"color: #ffffff; display: inline\">Sunslam</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Fulfilling a Vow now increases the damage of your Sunslam by 10% for 20 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33981,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Pendant of the Sun",
+    "description": "Activate your pendant of the sun, refreshing the duration and all charges of <span style=\"color: #FF9800; display: inline\">Dawn</span>.",
+    "descriptionText": "Activate your pendant of the sun, refreshing the duration and all charges of Dawn.",
+    "iconPath": "interface/icons/nhi_holy_amulet_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680630,
+    "spellIds": [
+      680630
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31072
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680630,
+        "description": "Activate your pendant of the sun, refreshing the duration and all charges of <span style=\"color: #FF9800; display: inline\">Dawn</span>.",
+        "descriptionText": "Activate your pendant of the sun, refreshing the duration and all charges of Dawn."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33982,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Atone, Or Else",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Fervor of the Sun</span> now stacks up to <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Fervor of the Sun now stacks up to 3 additional times.",
+    "iconPath": "interface/icons/spell_holy_revivechampion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680619,
+    "spellIds": [
+      680619
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 105665,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680619,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Fervor of the Sun</span> now stacks up to <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Fervor of the Sun now stacks up to 3 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33983,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Sunsworn",
+    "description": "Increases your Physical Damage dealt by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Physical Damage dealt by 6%.",
+    "iconPath": "interface/icons/5_paladinskill25_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802935,
+    "spellIds": [
+      802935
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7638
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802935,
+        "description": "Increases your Physical Damage dealt by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Physical Damage dealt by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33997,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Sunslam",
+    "description": "Slam an enemy every <span class=\"item-number\">1</span> sec with the might of the sun, dealing <span class=\"item-number\">28</span> + <span class=\"item-number\">10% AP</span> Holy Damage and stunning them for <span class=\"item-number\">1</span> seconds. Lasts <span class=\"item-number\">3</span> seconds.<br /><br />Only usable while <span style=\"color: #FF9800; display: inline\">Dawn</span> is active. Usable while moving.",
+    "descriptionText": "Slam an enemy every 1 sec with the might of the sun, dealing 28 + 10% AP Holy Damage and stunning them for 1 seconds. Lasts 3 seconds.\n\nOnly usable while Dawn is active. Usable while moving.",
+    "iconPath": "interface/icons/sunslam",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805629,
+    "spellIds": [
+      805629
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7638
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805629,
+        "description": "Slam an enemy every <span class=\"item-number\">1</span> sec with the might of the sun, dealing <span class=\"item-number\">28</span> + <span class=\"item-number\">10% AP</span> Holy Damage and stunning them for <span class=\"item-number\">1</span> seconds. Lasts <span class=\"item-number\">3</span> seconds.<br /><br />Only usable while <span style=\"color: #FF9800; display: inline\">Dawn</span> is active. Usable while moving.",
+        "descriptionText": "Slam an enemy every 1 sec with the might of the sun, dealing 28 + 10% AP Holy Damage and stunning them for 1 seconds. Lasts 3 seconds.\n\nOnly usable while Dawn is active. Usable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34005,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Vindicator",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Glorious Execution</span> and <span style=\"color: #ffffff; display: inline\">Sunslam</span> now ignores <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> of the target's armor while <span style=\"color: #ffffff; display: inline\">Vow of the Valkyr</span> is active.",
+    "descriptionText": "Your Glorious Execution and Sunslam now ignores -10% of the target's armor while Vow of the Valkyr is active.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactfelomelorn_d_01dual",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704938,
+    "spellIds": [
+      704938,
+      707773
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6336,
+      6548,
+      11648
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704938,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Glorious Execution</span> and <span style=\"color: #ffffff; display: inline\">Sunslam</span> now ignores <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> of the target's armor while <span style=\"color: #ffffff; display: inline\">Vow of the Valkyr</span> is active.",
+        "descriptionText": "Your Glorious Execution and Sunslam now ignores -10% of the target's armor while Vow of the Valkyr is active."
+      },
+      {
+        "rank": 2,
+        "spellId": 707773,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Glorious Execution</span> and <span style=\"color: #ffffff; display: inline\">Sunslam</span> now ignores <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> of the target's armor while <span style=\"color: #ffffff; display: inline\">Vow of the Valkyr</span> is active.",
+        "descriptionText": "Your Glorious Execution and Sunslam now ignores -20% of the target's armor while Vow of the Valkyr is active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30681,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Solar Empowerment",
+    "description": "Fulfilling your <span style=\"color: #FFFFFF; display: inline\">Vow</span> now unleashes a chain of light at your target, dealing <span class=\"item-number\">141</span> + <span class=\"item-number\">23% holy SP</span> + <span class=\"item-number\">10% AP</span> Holy Damage and then bouncing to up to <span class=\"item-number\">5</span> additional enemies, dealing reduced damage with each strike.",
+    "descriptionText": "Fulfilling your Vow now unleashes a chain of light at your target, dealing 141 + 23% holy SP + 10% AP Holy Damage and then bouncing to up to 5 additional enemies, dealing reduced damage with each strike.",
+    "iconPath": "interface/icons/inv_helm_suncrown_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707081,
+    "spellIds": [
+      707081
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7636,
+      11380,
+      11636
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707081,
+        "description": "Fulfilling your <span style=\"color: #FFFFFF; display: inline\">Vow</span> now unleashes a chain of light at your target, dealing <span class=\"item-number\">141</span> + <span class=\"item-number\">23% holy SP</span> + <span class=\"item-number\">10% AP</span> Holy Damage and then bouncing to up to <span class=\"item-number\">5</span> additional enemies, dealing reduced damage with each strike.",
+        "descriptionText": "Fulfilling your Vow now unleashes a chain of light at your target, dealing 141 + 23% holy SP + 10% AP Holy Damage and then bouncing to up to 5 additional enemies, dealing reduced damage with each strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30682,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Sun's Gift",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now deals additional damage scaling with your attack power.",
+    "descriptionText": "Level 30 Passive\nYour Horusath Blast now deals additional damage scaling with your attack power.",
+    "iconPath": "interface/icons/spell_holy_greaterblessingofsalvation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680656,
+    "spellIds": [
+      680656
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9816
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680656,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now deals additional damage scaling with your attack power.",
+        "descriptionText": "Level 30 Passive\nYour Horusath Blast now deals additional damage scaling with your attack power."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30684,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Champion of the Sun",
+    "description": "Become a champion of An'she, causing your melee auto attacks to deal an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt as Holy Damage. Lasts <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Become a champion of An'she, causing your melee auto attacks to deal an additional 50% of the damage dealt as Holy Damage. Lasts 20 seconds.",
+    "iconPath": "interface/icons/inv_ability_heraldofthesunpaladin_dawnlight",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800612,
+    "spellIds": [
+      800612
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6539,
+      9596
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800612,
+        "description": "Become a champion of An'she, causing your melee auto attacks to deal an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt as Holy Damage. Lasts <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Become a champion of An'she, causing your melee auto attacks to deal an additional 50% of the damage dealt as Holy Damage. Lasts 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30690,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Herald of Purity",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Justice</span> now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to reset its own cooldown.",
+    "descriptionText": "Damage dealt by Justice now has an 8% chance to reset its own cooldown.",
+    "iconPath": "interface/icons/spell_holy_purifyingpower",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806058,
+    "spellIds": [
+      806058
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7640
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806058,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Justice</span> now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to reset its own cooldown.",
+        "descriptionText": "Damage dealt by Justice now has an 8% chance to reset its own cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29509,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Knight of Dawn",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Glorious Execution</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">1</span> additional time.",
+    "descriptionText": "Your Glorious Execution now has a 20% chance to strike 1 additional time.",
+    "iconPath": "interface/icons/_d3fanofknives",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805647,
+    "spellIds": [
+      805647
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7641,
+      30681,
+      33981
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805647,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Glorious Execution</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">1</span> additional time.",
+        "descriptionText": "Your Glorious Execution now has a 20% chance to strike 1 additional time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31072,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Blessed Magic",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Execution</span>.",
+    "descriptionText": "Casting Horusath Blast now resets the cooldown of Glorious Execution.",
+    "iconPath": "interface/icons/novart_weapon_(28)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560111,
+    "spellIds": [
+      560111
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4978,
+      6837,
+      31381
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560111,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Horusath Blast</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Glorious Execution</span>.",
+        "descriptionText": "Casting Horusath Blast now resets the cooldown of Glorious Execution."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31381,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Valkyr's Calling",
+    "description": "Target an enemy and leap into the air, becoming immune to all physical attacks and spells for <span class=\"item-number\">2</span> seconds. <br /><br />At the end of the duration, you charge back down, dealing <span class=\"item-number\">494</span> + <span class=\"item-number\">100% AP</span> + <span class=\"item-number\">22.5% SP</span> Holy Damage to all enemies within <span class=\"item-number\">8</span> yds.",
+    "descriptionText": "Target an enemy and leap into the air, becoming immune to all physical attacks and spells for 2 seconds. \n\nAt the end of the duration, you charge back down, dealing 494 + 100% AP + 22.5% SP Holy Damage to all enemies within 8 yds.",
+    "iconPath": "interface/icons/spell_priest_angelicbulwark",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520024,
+    "spellIds": [
+      520024
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6336,
+      6535,
+      7370
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520024,
+        "description": "Target an enemy and leap into the air, becoming immune to all physical attacks and spells for <span class=\"item-number\">2</span> seconds. <br /><br />At the end of the duration, you charge back down, dealing <span class=\"item-number\">494</span> + <span class=\"item-number\">100% AP</span> + <span class=\"item-number\">22.5% SP</span> Holy Damage to all enemies within <span class=\"item-number\">8</span> yds.",
+        "descriptionText": "Target an enemy and leap into the air, becoming immune to all physical attacks and spells for 2 seconds. \n\nAt the end of the duration, you charge back down, dealing 494 + 100% AP + 22.5% SP Holy Damage to all enemies within 8 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 32502,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 90,
+    "tabKey": "27:90",
+    "tabName": "Valkyrie",
+    "name": "Radiant Marks",
+    "description": "Reduces the channel time of <span style=\"color: #ffffff; display: inline\">Sunslam</span> by <span class=\"item-number\">1</span> sec and causes it to channel <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster.",
+    "descriptionText": "Reduces the channel time of Sunslam by 1 sec and causes it to channel -20% faster.",
+    "iconPath": "interface/icons/ability_skyreach_solar_burst",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704947,
+    "spellIds": [
+      704947
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33997
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704947,
+        "description": "Reduces the channel time of <span style=\"color: #ffffff; display: inline\">Sunslam</span> by <span class=\"item-number\">1</span> sec and causes it to channel <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> faster.",
+        "descriptionText": "Reduces the channel time of Sunslam by 1 sec and causes it to channel -20% faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

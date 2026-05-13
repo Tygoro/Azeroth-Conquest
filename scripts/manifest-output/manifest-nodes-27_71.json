@@ -1,0 +1,1867 @@
+[
+  {
+    "nodeId": 4047,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Sunlight",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Fulfilling your <span style=\"color: #FFFFFF; display: inline\">Vow</span> now unleashes <span style=\"color: #ffffff; display: inline\">Sunlight</span> restoring <span class=\"item-number\">235</span> + <span class=\"item-number\">15% healing</span> health to allies within <span class=\"item-number\">40</span> yds, prioritizing the lowest health allies.",
+    "descriptionText": "Level 10 Passive\nFulfilling your Vow now unleashes Sunlight restoring 235 + 15% healing health to allies within 40 yds, prioritizing the lowest health allies.",
+    "iconPath": "interface/icons/item_holyspark",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92136,
+    "spellIds": [
+      92136
+    ],
+    "requiredNodeIds": [
+      29446
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92136,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Fulfilling your <span style=\"color: #FFFFFF; display: inline\">Vow</span> now unleashes <span style=\"color: #ffffff; display: inline\">Sunlight</span> restoring <span class=\"item-number\">235</span> + <span class=\"item-number\">15% healing</span> health to allies within <span class=\"item-number\">40</span> yds, prioritizing the lowest health allies.",
+        "descriptionText": "Level 10 Passive\nFulfilling your Vow now unleashes Sunlight restoring 235 + 15% healing health to allies within 40 yds, prioritizing the lowest health allies."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6285,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Blightbreaker",
+    "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Mercy</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>, but increases its mana cost by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate of Mercy by -50%, but increases its mana cost by 100%.",
+    "iconPath": "interface/icons/spell_holy_harmundeadaura",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707433,
+    "spellIds": [
+      707433
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 500004,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707433,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Mercy</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>, but increases its mana cost by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of Mercy by -50%, but increases its mana cost by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6335,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Touch of Light",
+    "description": "Enemies struck by <span style=\"color: #ffffff; display: inline\">Blessing of Absolution</span> now deal <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> reduced damage for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Enemies struck by Blessing of Absolution now deal -20% reduced damage for 5 seconds.",
+    "iconPath": "interface/icons/spell_holy_holyguidance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572885,
+    "spellIds": [
+      572885
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29186,
+      34038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572885,
+        "description": "Enemies struck by <span style=\"color: #ffffff; display: inline\">Blessing of Absolution</span> now deal <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> reduced damage for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Enemies struck by Blessing of Absolution now deal -20% reduced damage for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6653,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Stalwart",
+    "description": "Melee critical strikes against you prevent you from being critically struck again for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Melee critical strikes against you prevent you from being critically struck again for 4 seconds.",
+    "iconPath": "interface/icons/inv_qirajidol_sun",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300355,
+    "spellIds": [
+      300355
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7714,
+      14001,
+      30213,
+      34001
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300355,
+        "description": "Melee critical strikes against you prevent you from being critically struck again for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Melee critical strikes against you prevent you from being critically struck again for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4546,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Holy Form",
+    "description": "Ascend into a holy form, increasing your healing done by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, increasing your Holy critical strike chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, and reducing your threat generated by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Ascend into a holy form, increasing your healing done by 10%, increasing your Holy critical strike chance by 5%, and reducing your threat generated by -50%.",
+    "iconPath": "interface/icons/spell_holy_auramastery",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805301,
+    "spellIds": [
+      805301
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4547
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805301,
+        "description": "Ascend into a holy form, increasing your healing done by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, increasing your Holy critical strike chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, and reducing your threat generated by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Ascend into a holy form, increasing your healing done by 10%, increasing your Holy critical strike chance by 5%, and reducing your threat generated by -50%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4547,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Sun Worship",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your healing power by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Intellect and your spell haste rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your healing power by 15% of your Intellect and your spell haste rating by 25% of your Intellect.",
+    "iconPath": "interface/icons/ability_paladin_gaurdedbythelight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704910,
+    "spellIds": [
+      704910
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4047
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704910,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your healing power by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Intellect and your spell haste rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your healing power by 15% of your Intellect and your spell haste rating by 25% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4747,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Heaven’s Appraisal",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Fulfillment</span> effects by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.<br /><br />In addition, the <span style=\"color: #ffffff; display: inline\">Fulfillment</span> effect granted by <span style=\"color: #ffffff; display: inline\">Vow of Dawn</span> now triples the amount of targets struck.",
+    "descriptionText": "Level 40 Passive\nIncreases the effectiveness of your Fulfillment effects by 25%.\n\nIn addition, the Fulfillment effect granted by Vow of Dawn now triples the amount of targets struck.",
+    "iconPath": "interface/icons/ability_priest_wordsofmeaning",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300353,
+    "spellIds": [
+      300353
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4546
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300353,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Fulfillment</span> effects by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.<br /><br />In addition, the <span style=\"color: #ffffff; display: inline\">Fulfillment</span> effect granted by <span style=\"color: #ffffff; display: inline\">Vow of Dawn</span> now triples the amount of targets struck.",
+        "descriptionText": "Level 40 Passive\nIncreases the effectiveness of your Fulfillment effects by 25%.\n\nIn addition, the Fulfillment effect granted by Vow of Dawn now triples the amount of targets struck."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7051,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Blazing Chariot",
+    "description": "Increases the healing and damage of <span style=\"color: #FFFFFF; display: inline\">Radiance</span> by <span class=\"item-number\">125</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the healing and damage of Radiance by 125%.",
+    "iconPath": "interface/icons/5_priestskill09_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300350,
+    "spellIds": [
+      300350
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7719,
+      29413,
+      34038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 238453,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300350,
+        "description": "Increases the healing and damage of <span style=\"color: #FFFFFF; display: inline\">Radiance</span> by <span class=\"item-number\">125</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing and damage of Radiance by 125%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12351,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Improved Radiant Cascade",
+    "description": "Increases the healing done and reduces the mana cost of <span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the healing done and reduces the mana cost of Radiant Cascade by -15%.",
+    "iconPath": "interface/icons/spell_nature_slowingtotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807963,
+    "spellIds": [
+      807963
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29413
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807963,
+        "description": "Increases the healing done and reduces the mana cost of <span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing done and reduces the mana cost of Radiant Cascade by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12832,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Pure Heart",
+    "description": "Removes the damage penalty provided by <span style=\"color: #ffffff; display: inline\">Blessing of Purity</span>.",
+    "descriptionText": "Removes the damage penalty provided by Blessing of Purity.",
+    "iconPath": "interface/icons/spell_holy_renew",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582832,
+    "spellIds": [
+      582832
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7714
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 196522,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582832,
+        "description": "Removes the damage penalty provided by <span style=\"color: #ffffff; display: inline\">Blessing of Purity</span>.",
+        "descriptionText": "Removes the damage penalty provided by Blessing of Purity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 14001,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Sun Strength",
+    "description": "<span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> is now guaranteed to critically strike on allies affected by <span style=\"color: #ffffff; display: inline\">Bless</span>.",
+    "descriptionText": "Radiant Cascade is now guaranteed to critically strike on allies affected by Bless.",
+    "iconPath": "interface/icons/spell_holy_holyprotection",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707517,
+    "spellIds": [
+      707517
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29183
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 175490,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707517,
+        "description": "<span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> is now guaranteed to critically strike on allies affected by <span style=\"color: #ffffff; display: inline\">Bless</span>.",
+        "descriptionText": "Radiant Cascade is now guaranteed to critically strike on allies affected by Bless."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7714,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Blessing of Purity",
+    "description": "Protect a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally, making them immune to all damage for <span class=\"item-number\">4</span> seconds but reducing their damage and healing done by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.<br /><br />",
+    "descriptionText": "Protect a Blessed ally, making them immune to all damage for 4 seconds but reducing their damage and healing done by -25%.",
+    "iconPath": "interface/icons/ability_priest_angelicbulwark",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804253,
+    "spellIds": [
+      804253
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29183,
+      33998
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804253,
+        "description": "Protect a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally, making them immune to all damage for <span class=\"item-number\">4</span> seconds but reducing their damage and healing done by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.<br /><br />",
+        "descriptionText": "Protect a Blessed ally, making them immune to all damage for 4 seconds but reducing their damage and healing done by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7718,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Sanctified",
+    "description": "Healing a target affected by <span style=\"color: #FFFFFF; display: inline\">Bless</span> refunds <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the mana cost of the spell.",
+    "descriptionText": "Healing a target affected by Bless refunds 15% of the mana cost of the spell.",
+    "iconPath": "interface/icons/spell_holy_divineintervention",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300344,
+    "spellIds": [
+      300344
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300344,
+        "description": "Healing a target affected by <span style=\"color: #FFFFFF; display: inline\">Bless</span> refunds <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the mana cost of the spell.",
+        "descriptionText": "Healing a target affected by Bless refunds 15% of the mana cost of the spell."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7719,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Blessing of Retribution",
+    "description": "Guard a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally, deflecting the next harmful spell cast on them within <span class=\"item-number\">1</span> minute.<br /><br />",
+    "descriptionText": "Guard a Blessed ally, deflecting the next harmful spell cast on them within 1 minute.",
+    "iconPath": "interface/icons/ability_priest_reflectiveshield",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804254,
+    "spellIds": [
+      804254
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6653,
+      12832,
+      34002,
+      34039
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804254,
+        "description": "Guard a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally, deflecting the next harmful spell cast on them within <span class=\"item-number\">1</span> minute.<br /><br />",
+        "descriptionText": "Guard a Blessed ally, deflecting the next harmful spell cast on them within 1 minute."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11051,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Gateway to Heaven",
+    "description": "Whenever you use <span style=\"color: #FF9800; display: inline\">Dawn</span> you now apply <span style=\"color: #ffffff; display: inline\">Radiance</span> to yourself for <span class=\"item-number\">4</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ability_holyfire_nova\" /><span class=\"name\">Radiance</span></div><span class=\"desc\">Every <span class=\"item-number\">2</span> sec you burst with light, healing nearby allies for <span class=\"item-number\">46</span> + <span class=\"item-number\">20% SP</span> + <span class=\"item-number\">10% AP</span> and damaging nearby enemies for <span class=\"item-number\">47</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">15% AP</span>. Lasts <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Whenever you use Dawn you now apply Radiance to yourself for 4 sec.\n\n---\n\nRadianceEvery 2 sec you burst with light, healing nearby allies for 46 + 20% SP + 10% AP and damaging nearby enemies for 47 + 40% SP + 15% AP. Lasts 10 seconds.",
+    "iconPath": "interface/icons/spell_holy_greaterblessingoflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301301,
+    "spellIds": [
+      301301
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7719,
+      29413,
+      34038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 238453,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301301,
+        "description": "Whenever you use <span style=\"color: #FF9800; display: inline\">Dawn</span> you now apply <span style=\"color: #ffffff; display: inline\">Radiance</span> to yourself for <span class=\"item-number\">4</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_ability_holyfire_nova\" /><span class=\"name\">Radiance</span></div><span class=\"desc\">Every <span class=\"item-number\">2</span> sec you burst with light, healing nearby allies for <span class=\"item-number\">46</span> + <span class=\"item-number\">20% SP</span> + <span class=\"item-number\">10% AP</span> and damaging nearby enemies for <span class=\"item-number\">47</span> + <span class=\"item-number\">40% SP</span> + <span class=\"item-number\">15% AP</span>. Lasts <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Whenever you use Dawn you now apply Radiance to yourself for 4 sec.\n\n---\n\nRadianceEvery 2 sec you burst with light, healing nearby allies for 46 + 20% SP + 10% AP and damaging nearby enemies for 47 + 40% SP + 15% AP. Lasts 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9747,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "The Redeemer",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />When you critically heal your target, they will be healed for <span class=\"item-number\">30%</span> of the amount originally healed the next time they take damage. Lasts <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Level 50 Passive\nWhen you critically heal your target, they will be healed for 30% of the amount originally healed the next time they take damage. Lasts 15 seconds.",
+    "iconPath": "interface/icons/5_priestskill01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300339,
+    "spellIds": [
+      300339
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4747
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300339,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />When you critically heal your target, they will be healed for <span class=\"item-number\">30%</span> of the amount originally healed the next time they take damage. Lasts <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Level 50 Passive\nWhen you critically heal your target, they will be healed for 30% of the amount originally healed the next time they take damage. Lasts 15 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29183,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Divine Vision",
+    "description": "Increases your Holy damage and healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Holy damage and healing done by 4%.",
+    "iconPath": "interface/icons/spell_holy_powerinfusion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706735,
+    "spellIds": [
+      706735,
+      707770
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30214,
+      30817
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706735,
+        "description": "Increases your Holy damage and healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Holy damage and healing done by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707770,
+        "description": "Increases your Holy damage and healing done by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Holy damage and healing done by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29186,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Glaring Rays",
+    "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your spell haste by an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases the spell haste of all party and raid members by 3% and your spell haste by an additional 3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/spell_holy_power",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804257,
+    "spellIds": [
+      804257
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      14001,
+      34001
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804257,
+        "description": "Increases the spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your spell haste by an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases the spell haste of all party and raid members by 3% and your spell haste by an additional 3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29413,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Heat Wave",
+    "description": "Healing with <span style=\"color: #FFFFFF; display: inline\">Illumination</span> and <span style=\"color: #FFFFFF; display: inline\">Shine</span> now additionally heals the target's nearby allies for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the value.",
+    "descriptionText": "Healing with Illumination and Shine now additionally heals the target's nearby allies for 10% of the value.",
+    "iconPath": "interface/icons/spell_holy_holybolt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 534267,
+    "spellIds": [
+      534267
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34039
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 534267,
+        "description": "Healing with <span style=\"color: #FFFFFF; display: inline\">Illumination</span> and <span style=\"color: #FFFFFF; display: inline\">Shine</span> now additionally heals the target's nearby allies for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the value.",
+        "descriptionText": "Healing with Illumination and Shine now additionally heals the target's nearby allies for 10% of the value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30817,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Faith",
+    "description": "Direct healing done now increases the target's Armor by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Direct healing done now increases the target's Armor by 10% for 20 seconds.",
+    "iconPath": "interface/icons/inv_helm_plate_raidpaladinmythic_q_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707077,
+    "spellIds": [
+      707077
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29506
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707077,
+        "description": "Direct healing done now increases the target's Armor by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Direct healing done now increases the target's Armor by 10% for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30818,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Sunbeams",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Radiant Cascade by -15%.",
+    "iconPath": "interface/icons/spell_holy_restoration",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807874,
+    "spellIds": [
+      807874
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29413,
+      30212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807874,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Radiant Cascade by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30840,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Empowered Holy Form",
+    "description": "Doubles the effectiveness of your <span style=\"color: #ffffff; display: inline\">Holy Form</span>.",
+    "descriptionText": "Doubles the effectiveness of your Holy Form.",
+    "iconPath": "interface/icons/spell_priest_divinestar_holy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800602,
+    "spellIds": [
+      800602
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34041
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800602,
+        "description": "Doubles the effectiveness of your <span style=\"color: #ffffff; display: inline\">Holy Form</span>.",
+        "descriptionText": "Doubles the effectiveness of your Holy Form."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30210,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "An'she's Guidance",
+    "description": "Increases your Holy critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Holy critical strike chance by 2% and reduces spell pushback suffered from damaging attacks by 50%.",
+    "iconPath": "interface/icons/spell_holy_summonlightwell",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 681064,
+    "spellIds": [
+      681064,
+      681470
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31195
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681064,
+        "description": "Increases your Holy critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Holy critical strike chance by 2% and reduces spell pushback suffered from damaging attacks by 50%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681470,
+        "description": "Increases your Holy critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Holy critical strike chance by 4% and reduces spell pushback suffered from damaging attacks by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30211,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Blessing of Triumph",
+    "description": "Redeem a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally for <span class=\"item-number\">20</span> seconds, granting <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased haste and <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage.<br /><br />If the ally falls below <span class=\"item-number\">35%</span> maximum health they are healed for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of their direct damage dealt for the remaining duration.<br /><br />",
+    "descriptionText": "Redeem a Blessed ally for 20 seconds, granting 25% increased haste and 10% increased damage.\n\nIf the ally falls below 35% maximum health they are healed for 10% of their direct damage dealt for the remaining duration.",
+    "iconPath": "interface/icons/ability_paladin_holyavenger",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804250,
+    "spellIds": [
+      804250
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34041,
+      34042,
+      34043
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804250,
+        "description": "Redeem a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally for <span class=\"item-number\">20</span> seconds, granting <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased haste and <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage.<br /><br />If the ally falls below <span class=\"item-number\">35%</span> maximum health they are healed for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of their direct damage dealt for the remaining duration.<br /><br />",
+        "descriptionText": "Redeem a Blessed ally for 20 seconds, granting 25% increased haste and 10% increased damage.\n\nIf the ally falls below 35% maximum health they are healed for 10% of their direct damage dealt for the remaining duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30212,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Hope",
+    "description": "Your critical heals now reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-1</span> sec.<br /><br />Can occur only once per sec.",
+    "descriptionText": "Your critical heals now reduce the cooldown of Solar Invocation spells by -1 sec.\n\nCan occur only once per sec.",
+    "iconPath": "interface/icons/spell_holy_prayerofmendingtga",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300349,
+    "spellIds": [
+      300349
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31376
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300349,
+        "description": "Your critical heals now reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Solar Invocation</span> spells by <span class=\"item-number\">-1</span> sec.<br /><br />Can occur only once per sec.",
+        "descriptionText": "Your critical heals now reduce the cooldown of Solar Invocation spells by -1 sec.\n\nCan occur only once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30213,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Savior",
+    "description": "Increases your healing on targets below <span class=\"item-number\">20%</span> health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your healing on targets below 20% health by 30%.",
+    "iconPath": "interface/icons/spell_holy_fanaticism",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300343,
+    "spellIds": [
+      300343
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29183
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300343,
+        "description": "Increases your healing on targets below <span class=\"item-number\">20%</span> health by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your healing on targets below 20% health by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30214,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Blessing of Absolution",
+    "description": "Empower a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally to unleash a burst of holy energy in front of them, dealing <span class=\"item-number\">34</span> + <span class=\"item-number\">150% healing</span> Holy Damage enemies in a <span class=\"item-number\">10</span> yd frontal cone and generating additional threat.<br /><br />",
+    "descriptionText": "Empower a Blessed ally to unleash a burst of holy energy in front of them, dealing 34 + 150% healing Holy Damage enemies in a 10 yd frontal cone and generating additional threat.",
+    "iconPath": "interface/icons/spell_paladin_lightofdawn",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804249,
+    "spellIds": [
+      804249
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29506,
+      30210
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804249,
+        "description": "Empower a <span style=\"color: #ffffff; display: inline\">Blessed</span> ally to unleash a burst of holy energy in front of them, dealing <span class=\"item-number\">34</span> + <span class=\"item-number\">150% healing</span> Holy Damage enemies in a <span class=\"item-number\">10</span> yd frontal cone and generating additional threat.<br /><br />",
+        "descriptionText": "Empower a Blessed ally to unleash a burst of holy energy in front of them, dealing 34 + 150% healing Holy Damage enemies in a 10 yd frontal cone and generating additional threat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31195,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Bless",
+    "description": "Bless an ally, restoring <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of their maximum health every <span class=\"item-number\">10</span> sec for <span class=\"item-number\">5</span> minutes.<br /><br />Can only affect <span class=\"item-number\">1</span> ally at a time.",
+    "descriptionText": "Bless an ally, restoring 5% of their maximum health every 10 sec for 5 minutes.\n\nCan only affect 1 ally at a time.",
+    "iconPath": "interface/icons/ability_priest_ascendance",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804247,
+    "spellIds": [
+      804247
+    ],
+    "requiredNodeIds": [
+      4047,
+      29446
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804247,
+        "description": "Bless an ally, restoring <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of their maximum health every <span class=\"item-number\">10</span> sec for <span class=\"item-number\">5</span> minutes.<br /><br />Can only affect <span class=\"item-number\">1</span> ally at a time.",
+        "descriptionText": "Bless an ally, restoring 5% of their maximum health every 10 sec for 5 minutes.\n\nCan only affect 1 ally at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31376,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Hot Spot",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Daybreak</span> now causes your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Shines</span> within <span class=\"item-number\">10</span> seconds to have a <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> reduced cast time.",
+    "descriptionText": "Casting Daybreak now causes your next 2 Shines within 10 seconds to have a -25% reduced cast time.",
+    "iconPath": "interface/icons/nhi_holy_hand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301256,
+    "spellIds": [
+      301256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33998
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301256,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Daybreak</span> now causes your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Shines</span> within <span class=\"item-number\">10</span> seconds to have a <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> reduced cast time.",
+        "descriptionText": "Casting Daybreak now causes your next 2 Shines within 10 seconds to have a -25% reduced cast time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29506,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Angelic",
+    "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Ilumination</span> by <span class=\"item-number\">0.25</span> sec.",
+    "descriptionText": "Reduces the cast time of Ilumination by 0.25 sec.",
+    "iconPath": "interface/icons/spell-ap-orange",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704582,
+    "spellIds": [
+      704582,
+      707771
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31195
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704582,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Ilumination</span> by <span class=\"item-number\">0.25</span> sec.",
+        "descriptionText": "Reduces the cast time of Ilumination by 0.25 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 707771,
+        "description": "Reduces the cast time of <span style=\"color: #FFFFFF; display: inline\">Ilumination</span> by <span class=\"item-number\">0.25</span> sec.",
+        "descriptionText": "Reduces the cast time of Ilumination by 0.25 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33998,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Daybreak",
+    "description": "Make a prayer, healing an ally for <span class=\"item-number\">117</span> + <span class=\"item-number\">59.5% healing</span>.",
+    "descriptionText": "Make a prayer, healing an ally for 117 + 59.5% healing.",
+    "iconPath": "interface/icons/ability_paladin_lightoftheprotector",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500147,
+    "spellIds": [
+      500147
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7718,
+      30214
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500147,
+        "description": "Make a prayer, healing an ally for <span class=\"item-number\">117</span> + <span class=\"item-number\">59.5% healing</span>.",
+        "descriptionText": "Make a prayer, healing an ally for 117 + 59.5% healing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34001,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Everglow",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> now bounces to <span class=\"item-number\">2</span> additional allies.",
+    "descriptionText": "Your Radiant Cascade now bounces to 2 additional allies.",
+    "iconPath": "interface/icons/inv_artifact_xp04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704565,
+    "spellIds": [
+      704565
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29183
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 175490,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704565,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Radiant Cascade</span> now bounces to <span class=\"item-number\">2</span> additional allies.",
+        "descriptionText": "Your Radiant Cascade now bounces to 2 additional allies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34002,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Lightward",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Blessing of Purity</span> by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Increases the duration of Blessing of Purity by 2 sec.",
+    "iconPath": "interface/icons/ability_priest_soulwarding",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800233,
+    "spellIds": [
+      800233
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7714
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 196522,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800233,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Blessing of Purity</span> by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Increases the duration of Blessing of Purity by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34035,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Solar Priest",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Solar Invigoration</span> by <span class=\"item-number\">-30</span> sec.<br /><br />In addition, whenever allies effectively heal with <span style=\"color: #ffffff; display: inline\">Shine</span> they now cast <span style=\"color: #ffffff; display: inline\">Illumination</span>. Can only occur once every <span class=\"item-number\">6</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_priest_clarityofpurpose\" /><span class=\"name\">Illumination (Rank <span class=\"item-number\">11</span>)</span></div><span class=\"desc\">Illuminate an ally, healing them for <span class=\"item-number\">1483</span> + <span class=\"item-number\">68% healing</span>.</span></div>",
+    "descriptionText": "Reduces the cooldown of Solar Invigoration by -30 sec.\n\nIn addition, whenever allies effectively heal with Shine they now cast Illumination. Can only occur once every 6 sec.\n\n---\n\nIllumination (Rank 11)Illuminate an ally, healing them for 1483 + 68% healing.",
+    "iconPath": "interface/icons/ability_priest_ascension",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300347,
+    "spellIds": [
+      300347
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34042
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300347,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Solar Invigoration</span> by <span class=\"item-number\">-30</span> sec.<br /><br />In addition, whenever allies effectively heal with <span style=\"color: #ffffff; display: inline\">Shine</span> they now cast <span style=\"color: #ffffff; display: inline\">Illumination</span>. Can only occur once every <span class=\"item-number\">6</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_priest_clarityofpurpose\" /><span class=\"name\">Illumination (Rank <span class=\"item-number\">11</span>)</span></div><span class=\"desc\">Illuminate an ally, healing them for <span class=\"item-number\">1483</span> + <span class=\"item-number\">68% healing</span>.</span></div>",
+        "descriptionText": "Reduces the cooldown of Solar Invigoration by -30 sec.\n\nIn addition, whenever allies effectively heal with Shine they now cast Illumination. Can only occur once every 6 sec.\n\n---\n\nIllumination (Rank 11)Illuminate an ally, healing them for 1483 + 68% healing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34036,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Harmonious Bells",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mercy</span> now affects <span class=\"item-number\">4</span> additional allies near the primary target.",
+    "descriptionText": "Your Mercy now affects 4 additional allies near the primary target.",
+    "iconPath": "interface/icons/inv_qirajidol_rebirth_holy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704917,
+    "spellIds": [
+      704917
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 500004,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704917,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mercy</span> now affects <span class=\"item-number\">4</span> additional allies near the primary target.",
+        "descriptionText": "Your Mercy now affects 4 additional allies near the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34037,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Gleaming Light",
+    "description": "Increases healing of <span style=\"color: #ffffff; display: inline\">Illumination</span> and <span style=\"color: #ffffff; display: inline\">Daybreak</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases healing of Illumination and Daybreak by 10%.",
+    "iconPath": "interface/icons/inv_jewelry_necklace_75",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704568,
+    "spellIds": [
+      704568
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33998
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704568,
+        "description": "Increases healing of <span style=\"color: #ffffff; display: inline\">Illumination</span> and <span style=\"color: #ffffff; display: inline\">Daybreak</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases healing of Illumination and Daybreak by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34038,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Mercy",
+    "description": "Grant mercy to an ally, abolishing <span class=\"item-number\">2</span> disease effects, repeating every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Grant mercy to an ally, abolishing 2 disease effects, repeating every 3 sec for 12 seconds.",
+    "iconPath": "interface/icons/ability_paladin_selflesshealer",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504848,
+    "spellIds": [
+      504848
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6653
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504848,
+        "description": "Grant mercy to an ally, abolishing <span class=\"item-number\">2</span> disease effects, repeating every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Grant mercy to an ally, abolishing 2 disease effects, repeating every 3 sec for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34039,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Ancient Rites",
+    "description": "Increases your Intellect by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and causes you to regenerate mana equal to <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum mana every <span class=\"item-number\">20</span> sec.",
+    "descriptionText": "Increases your Intellect by 2% and causes you to regenerate mana equal to 1% of your maximum mana every 20 sec.",
+    "iconPath": "interface/icons/ability_essence_reapingflames",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 300351,
+    "spellIds": [
+      300351,
+      301345,
+      301817
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7714,
+      31376,
+      34037
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300351,
+        "description": "Increases your Intellect by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and causes you to regenerate mana equal to <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum mana every <span class=\"item-number\">20</span> sec.",
+        "descriptionText": "Increases your Intellect by 2% and causes you to regenerate mana equal to 1% of your maximum mana every 20 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 301345,
+        "description": "Increases your Intellect by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and causes you to regenerate mana equal to <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana every <span class=\"item-number\">20</span> sec.",
+        "descriptionText": "Increases your Intellect by 4% and causes you to regenerate mana equal to 2% of your maximum mana every 20 sec."
+      },
+      {
+        "rank": 3,
+        "spellId": 301817,
+        "description": "Increases your Intellect by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and causes you to regenerate mana equal to <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum mana every <span class=\"item-number\">20</span> sec.",
+        "descriptionText": "Increases your Intellect by 6% and causes you to regenerate mana equal to 3% of your maximum mana every 20 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34041,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Cultivate Divinity",
+    "description": "Effectively healing with <span style=\"color: #FFFFFF; display: inline\">Radiant Cascade</span> has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to increase the healing of your next <span style=\"color: #FFFFFF; display: inline\">Illumination</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>. <br /><br />Effectively healing with <span style=\"color: #FFFFFF; display: inline\">Illumination</span> has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to increase the healing of your next <span style=\"color: #FFFFFF; display: inline\">Radiant Cascade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Effectively healing with Radiant Cascade has a 20% chance to increase the healing of your next Illumination by 20%. \n\nEffectively healing with Illumination has a 40% chance to increase the healing of your next Radiant Cascade by 20%.",
+    "iconPath": "interface/icons/ability_priest_bindingprayers",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704920,
+    "spellIds": [
+      704920
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6285,
+      6335,
+      34036
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704920,
+        "description": "Effectively healing with <span style=\"color: #FFFFFF; display: inline\">Radiant Cascade</span> has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to increase the healing of your next <span style=\"color: #FFFFFF; display: inline\">Illumination</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>. <br /><br />Effectively healing with <span style=\"color: #FFFFFF; display: inline\">Illumination</span> has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to increase the healing of your next <span style=\"color: #FFFFFF; display: inline\">Radiant Cascade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Effectively healing with Radiant Cascade has a 20% chance to increase the healing of your next Illumination by 20%. \n\nEffectively healing with Illumination has a 40% chance to increase the healing of your next Radiant Cascade by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34042,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Solar Invigoration",
+    "description": "For <span class=\"item-number\">15</span> seconds, your allies take <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased healing and their direct damage dealt now causes them to cast <span style=\"color: #ffffff; display: inline\">Shine</span>. Can only occur once every <span class=\"item-number\">2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_priest_spiritoftheredeemer\" /><span class=\"name\">Shine (Rank <span class=\"item-number\">8</span>)</span></div><span class=\"desc\">Shine holy light upon an ally, healing for <span class=\"item-number\">214</span> + <span class=\"item-number\">29.47% SP</span>.</span></div>",
+    "descriptionText": "For 15 seconds, your allies take 20% increased healing and their direct damage dealt now causes them to cast Shine. Can only occur once every 2 sec.\n\n---\n\nShine (Rank 8)Shine holy light upon an ally, healing for 214 + 29.47% SP.",
+    "iconPath": "interface/icons/custom_element(fire)_b_01_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806123,
+    "spellIds": [
+      806123
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12351,
+      30818
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806123,
+        "description": "For <span class=\"item-number\">15</span> seconds, your allies take <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased healing and their direct damage dealt now causes them to cast <span style=\"color: #ffffff; display: inline\">Shine</span>. Can only occur once every <span class=\"item-number\">2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_priest_spiritoftheredeemer\" /><span class=\"name\">Shine (Rank <span class=\"item-number\">8</span>)</span></div><span class=\"desc\">Shine holy light upon an ally, healing for <span class=\"item-number\">214</span> + <span class=\"item-number\">29.47% SP</span>.</span></div>",
+        "descriptionText": "For 15 seconds, your allies take 20% increased healing and their direct damage dealt now causes them to cast Shine. Can only occur once every 2 sec.\n\n---\n\nShine (Rank 8)Shine holy light upon an ally, healing for 214 + 29.47% SP."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34043,
+    "classId": 27,
+    "className": "Sun Cleric",
+    "tabId": 71,
+    "tabKey": "27:71",
+    "tabName": "Blessings",
+    "name": "Lead Me Not Astray",
+    "description": "Doubles the healing done by <span style=\"color: #ffffff; display: inline\">Bless</span>.",
+    "descriptionText": "Doubles the healing done by Bless.",
+    "iconPath": "interface/icons/spell_holy_divineprotection",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300357,
+    "spellIds": [
+      300357
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7051,
+      11051
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300357,
+        "description": "Doubles the healing done by <span style=\"color: #ffffff; display: inline\">Bless</span>.",
+        "descriptionText": "Doubles the healing done by Bless."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

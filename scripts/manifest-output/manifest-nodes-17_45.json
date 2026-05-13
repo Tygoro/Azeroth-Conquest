@@ -1,0 +1,1772 @@
+[
+  {
+    "nodeId": 30463,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Screamin' Demon",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> by <span class=\"item-number\">-15</span> sec.",
+    "descriptionText": "Reduces the cooldown of Unleash Pestilence by -15 sec.",
+    "iconPath": "interface/icons/ability_fomor_boss_shout",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804947,
+    "spellIds": [
+      804947
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7408,
+      30694
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804947,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> by <span class=\"item-number\">-15</span> sec.",
+        "descriptionText": "Reduces the cooldown of Unleash Pestilence by -15 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30694,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Fleshcarver",
+    "description": "Damaging abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> now refresh a charge of <span style=\"color: #ffffff; display: inline\">Gore</span>.",
+    "descriptionText": "Damaging abilities that spend Demonfire now refresh a charge of Gore.",
+    "iconPath": "interface/icons/_diablo3_execute_deathknight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706331,
+    "spellIds": [
+      706331
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6936,
+      7881,
+      34127
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706331,
+        "description": "Damaging abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> now refresh a charge of <span style=\"color: #ffffff; display: inline\">Gore</span>.",
+        "descriptionText": "Damaging abilities that spend Demonfire now refresh a charge of Gore."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29519,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Gorged",
+    "description": "<span style=\"color: #ffffff; display: inline\">Gore</span> now heals you for <span class=\"item-number\">50%</span> of the damage dealt over <span class=\"item-number\">3</span> sec and grants a stack of <span style=\"color: #ffffff; display: inline\">Gorged</span> for <span class=\"item-number\">30</span> seconds.<br /><br />At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #ffffff; display: inline\">Sever</span> will consume the stacks to leech an additional <span class=\"item-number\">200%</span> of the damage dealt by it from up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.<br /><br />In addition, <span style=\"color: #ffffff; display: inline\">Sever</span> now strikes an additional time after <span class=\"item-number\">1</span> sec but has a <span class=\"item-number\">2</span> sec increased cooldown.",
+    "descriptionText": "Gore now heals you for 50% of the damage dealt over 3 sec and grants a stack of Gorged for 30 seconds.\n\nAt 3 stacks, your next Sever will consume the stacks to leech an additional 200% of the damage dealt by it from up to 5 enemies within 5 yds.\n\nIn addition, Sever now strikes an additional time after 1 sec but has a 2 sec increased cooldown.",
+    "iconPath": "interface/icons/custom_t_bloodmaw_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680199,
+    "spellIds": [
+      680199
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7891,
+      7892
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680199,
+        "description": "<span style=\"color: #ffffff; display: inline\">Gore</span> now heals you for <span class=\"item-number\">50%</span> of the damage dealt over <span class=\"item-number\">3</span> sec and grants a stack of <span style=\"color: #ffffff; display: inline\">Gorged</span> for <span class=\"item-number\">30</span> seconds.<br /><br />At <span class=\"item-number\">3</span> stacks, your next <span style=\"color: #ffffff; display: inline\">Sever</span> will consume the stacks to leech an additional <span class=\"item-number\">200%</span> of the damage dealt by it from up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">5</span> yds.<br /><br />In addition, <span style=\"color: #ffffff; display: inline\">Sever</span> now strikes an additional time after <span class=\"item-number\">1</span> sec but has a <span class=\"item-number\">2</span> sec increased cooldown.",
+        "descriptionText": "Gore now heals you for 50% of the damage dealt over 3 sec and grants a stack of Gorged for 30 seconds.\n\nAt 3 stacks, your next Sever will consume the stacks to leech an additional 200% of the damage dealt by it from up to 5 enemies within 5 yds.\n\nIn addition, Sever now strikes an additional time after 1 sec but has a 2 sec increased cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29621,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Pestilence of War",
+    "description": "Emanate a pestilence, increasing your critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Emanate a pestilence, increasing your critical damage by 10%.",
+    "iconPath": "interface/icons/inv_helmet_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801054,
+    "spellIds": [
+      801054
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7881
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801054,
+        "description": "Emanate a pestilence, increasing your critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Emanate a pestilence, increasing your critical damage by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30705,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hellfire Carver",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Critical strikes with <span style=\"color: #ffffff; display: inline\">Gore</span> and <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> now generate <span class=\"item-number\">1</span> additional <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+    "descriptionText": "Level 30 Passive\nCritical strikes with Gore and Infernal Strike now generate 1 additional Demonfire.",
+    "iconPath": "interface/icons/polearm_2h_deathwingraiddw_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707390,
+    "spellIds": [
+      707390
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11261
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707390,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Critical strikes with <span style=\"color: #ffffff; display: inline\">Gore</span> and <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> now generate <span class=\"item-number\">1</span> additional <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+        "descriptionText": "Level 30 Passive\nCritical strikes with Gore and Infernal Strike now generate 1 additional Demonfire."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31166,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Gore",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">8</span> sec recharge</span><br /><span style=\"color: #ff9933; display: inline\">Generates <span class=\"item-number\">1</span> Demonfire</span><br />Gore an enemy, dealing <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">15</span>.",
+    "descriptionText": "2 Charges, 8 sec recharge\nGenerates 1 Demonfire\nGore an enemy, dealing 85% Weapon Damage plus 15.",
+    "iconPath": "interface/icons/inv_sword_140",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805555,
+    "spellIds": [
+      805555
+    ],
+    "requiredNodeIds": [
+      4016,
+      30668
+    ],
+    "connectedNodeIds": [
+      12166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805555,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">8</span> sec recharge</span><br /><span style=\"color: #ff9933; display: inline\">Generates <span class=\"item-number\">1</span> Demonfire</span><br />Gore an enemy, dealing <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">15</span>.",
+        "descriptionText": "2 Charges, 8 sec recharge\nGenerates 1 Demonfire\nGore an enemy, dealing 85% Weapon Damage plus 15."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31259,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Murderous Might",
+    "description": "Increases the damage of abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of abilities that spend Demonfire by 10%.",
+    "iconPath": "interface/icons/inv_offhand_1h_artifactskulloferedar_d_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520290,
+    "spellIds": [
+      520290
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7889
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520290,
+        "description": "Increases the damage of abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of abilities that spend Demonfire by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34056,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hook, Line, and Sinker",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Flesh Hook</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Flesh Hook by -5 sec.",
+    "iconPath": "interface/icons/inv_axe_2h_artifactmaw_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680991,
+    "spellIds": [
+      680991
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12817,
+      34125
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680991,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Flesh Hook</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Flesh Hook by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34058,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Pestilence Unbound",
+    "description": "<span style=\"color: #ffffff; display: inline\">Skulltaker</span> and <span style=\"color: #ffffff; display: inline\">Melt</span> used with <span class=\"item-number\">6</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> now unleash your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> at half of their effectiveness.",
+    "descriptionText": "Skulltaker and Melt used with 6 Demonfire now unleash your active Pestilence at half of their effectiveness.",
+    "iconPath": "interface/icons/inv_axe_1h_blacksmithing_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560633,
+    "spellIds": [
+      560633
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6360,
+      6906
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560633,
+        "description": "<span style=\"color: #ffffff; display: inline\">Skulltaker</span> and <span style=\"color: #ffffff; display: inline\">Melt</span> used with <span class=\"item-number\">6</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> now unleash your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> at half of their effectiveness.",
+        "descriptionText": "Skulltaker and Melt used with 6 Demonfire now unleash your active Pestilence at half of their effectiveness."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34059,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Boundless Fury",
+    "description": "Increases the effectiveness of the unleash effect from <span style=\"color: #ffffff; display: inline\">Pestilence of War</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of the unleash effect from Pestilence of War by 30%.",
+    "iconPath": "interface/icons/ability_warlock_improveddemonictactics",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704954,
+    "spellIds": [
+      704954
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29621
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704954,
+        "description": "Increases the effectiveness of the unleash effect from <span style=\"color: #ffffff; display: inline\">Pestilence of War</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of the unleash effect from Pestilence of War by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34061,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Domination",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Torn Flesh</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Hellburn</span>.",
+    "descriptionText": "Damage dealt by Torn Flesh now has a 10% chance to reset the cooldown of Hellburn.",
+    "iconPath": "interface/icons/inv_glaive_1h_artifactazgalor_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704979,
+    "spellIds": [
+      704979
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704979,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Torn Flesh</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Hellburn</span>.",
+        "descriptionText": "Damage dealt by Torn Flesh now has a 10% chance to reset the cooldown of Hellburn."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34104,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Blood Frenzy",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skulltaker</span> and <span style=\"color: #ffffff; display: inline\">Flames of Xoroth</span> now refund <span class=\"item-number\">1</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> when used with at least <span class=\"item-number\">4</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+    "descriptionText": "Your Skulltaker and Flames of Xoroth now refund 1 Demonfire when used with at least 4 stacks of Demonfire.",
+    "iconPath": "interface/icons/spell_shadow_unholyfrenzy",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520008,
+    "spellIds": [
+      520008
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12817,
+      34119,
+      34125
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520008,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skulltaker</span> and <span style=\"color: #ffffff; display: inline\">Flames of Xoroth</span> now refund <span class=\"item-number\">1</span> <span style=\"color: #ff9933; display: inline\">Demonfire</span> when used with at least <span class=\"item-number\">4</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span>.",
+        "descriptionText": "Your Skulltaker and Flames of Xoroth now refund 1 Demonfire when used with at least 4 stacks of Demonfire."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34119,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hand of Doom",
+    "description": "Increases the Weapon Damage dealt by <span style=\"color: #ffffff; display: inline\">Sever</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> you have active.",
+    "descriptionText": "Increases the Weapon Damage dealt by Sever by 10%, increased by 2% for each Demonfire you have active.",
+    "iconPath": "interface/icons/nhi_fireclaw_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704186,
+    "spellIds": [
+      704186
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7810,
+      31259
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704186,
+        "description": "Increases the Weapon Damage dealt by <span style=\"color: #ffffff; display: inline\">Sever</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for each <span style=\"color: #ff9933; display: inline\">Demonfire</span> you have active.",
+        "descriptionText": "Increases the Weapon Damage dealt by Sever by 10%, increased by 2% for each Demonfire you have active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34120,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hellknight",
+    "description": "For the next <span class=\"item-number\">15</span> seconds, any direct Physical Damage dealt will grant a stack of <span style=\"color: #ffffff; display: inline\">Champion of the Legion</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_helm_mail_pvphuntergladiator_o_01\" /><span class=\"name\">Champion of the Legion</span></div><span class=\"desc\">Global cooldowns reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>. Physical Damage increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and critical strike chance increased by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">5</span> times.</span></div><br /><br />Only usable while above <span class=\"item-number\">75%</span> health.",
+    "descriptionText": "For the next 15 seconds, any direct Physical Damage dealt will grant a stack of Champion of the Legion.\n\n---\n\nChampion of the LegionGlobal cooldowns reduced by -5%. Physical Damage increased by 2% and critical strike chance increased by 1% for 8 seconds. Stacks 5 times.\n\nOnly usable while above 75% health.",
+    "iconPath": "interface/icons/inv_helm_mail_pvphuntergladiator_o_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800702,
+    "spellIds": [
+      800702
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34058,
+      34061
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800702,
+        "description": "For the next <span class=\"item-number\">15</span> seconds, any direct Physical Damage dealt will grant a stack of <span style=\"color: #ffffff; display: inline\">Champion of the Legion</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_helm_mail_pvphuntergladiator_o_01\" /><span class=\"name\">Champion of the Legion</span></div><span class=\"desc\">Global cooldowns reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>. Physical Damage increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and critical strike chance increased by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds. Stacks <span class=\"item-number\">5</span> times.</span></div><br /><br />Only usable while above <span class=\"item-number\">75%</span> health.",
+        "descriptionText": "For the next 15 seconds, any direct Physical Damage dealt will grant a stack of Champion of the Legion.\n\n---\n\nChampion of the LegionGlobal cooldowns reduced by -5%. Physical Damage increased by 2% and critical strike chance increased by 1% for 8 seconds. Stacks 5 times.\n\nOnly usable while above 75% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34125,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hellsmelted",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Skulltaker</span> used with at least <span class=\"item-number\">4</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span> now extends the duration of <span style=\"color: #ffffff; display: inline\">Hellburn</span> on your target by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Your Skulltaker used with at least 4 stacks of Demonfire now extends the duration of Hellburn on your target by 3 sec.",
+    "iconPath": "interface/icons/spell_fire_incinerate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705016,
+    "spellIds": [
+      705016
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7889,
+      31259
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707632,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705016,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Skulltaker</span> used with at least <span class=\"item-number\">4</span> stacks of <span style=\"color: #ff9933; display: inline\">Demonfire</span> now extends the duration of <span style=\"color: #ffffff; display: inline\">Hellburn</span> on your target by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Your Skulltaker used with at least 4 stacks of Demonfire now extends the duration of Hellburn on your target by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34127,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Mutilation",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Gore</span> and <span style=\"color: #FFFFFF; display: inline\">Infernal Strike</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Gore and Infernal Strike by 10%.",
+    "iconPath": "interface/icons/ability_skeer_bloodletting",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 3,
+    "spellId": 805695,
+    "spellIds": [
+      805695,
+      807900,
+      807913
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805695,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Gore</span> and <span style=\"color: #FFFFFF; display: inline\">Infernal Strike</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Gore and Infernal Strike by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807900,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Gore</span> and <span style=\"color: #FFFFFF; display: inline\">Infernal Strike</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Gore and Infernal Strike by 20%."
+      },
+      {
+        "rank": 3,
+        "spellId": 807913,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Gore</span> and <span style=\"color: #FFFFFF; display: inline\">Infernal Strike</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Gore and Infernal Strike by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6360,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Chop Shop",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Meatsaw</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against bleeding targets.",
+    "descriptionText": "Increases the critical strike chance of Meatsaw by 15% against bleeding targets.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_40",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704953,
+    "spellIds": [
+      704953
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11890,
+      11212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704953,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Meatsaw</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against bleeding targets.",
+        "descriptionText": "Increases the critical strike chance of Meatsaw by 15% against bleeding targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4016,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Crusher",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases the Weapon Damage dealt by <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 10 Passive\nIncreases the Weapon Damage dealt by Infernal Strike by 50%.",
+    "iconPath": "interface/icons/warrior_skullbanner",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92100,
+    "spellIds": [
+      92100
+    ],
+    "requiredNodeIds": [
+      30668
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92100,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases the Weapon Damage dealt by <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 10 Passive\nIncreases the Weapon Damage dealt by Infernal Strike by 50%."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4217,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Apocalyptic Fighter",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> now triggers no cooldown on it's first use.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Unleash Pestilence</span> can only be reset this way once every <span class=\"item-number\">30</span> sec.",
+    "descriptionText": "Level 50 Passive\nUnleash Pestilence now triggers no cooldown on it's first use.\n\nUnleash Pestilence can only be reset this way once every 30 sec.",
+    "iconPath": "interface/icons/spell_winston_rage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 520296,
+    "spellIds": [
+      520296
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9262
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520296,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Unleash Pestilence</span> now triggers no cooldown on it's first use.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Unleash Pestilence</span> can only be reset this way once every <span class=\"item-number\">30</span> sec.",
+        "descriptionText": "Level 50 Passive\nUnleash Pestilence now triggers no cooldown on it's first use.\n\nUnleash Pestilence can only be reset this way once every 30 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6518,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Bringer of Destruction",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Skulltaker</span> now increases the enemy's Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Damage dealt by Skulltaker now increases the enemy's Physical Damage taken by 4% for 10 seconds.",
+    "iconPath": "interface/icons/spell_nature_reincarnation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681449,
+    "spellIds": [
+      681449
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29621,
+      30694
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706501,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681449,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Skulltaker</span> now increases the enemy's Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Damage dealt by Skulltaker now increases the enemy's Physical Damage taken by 4% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6906,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Knight of Pestilence",
+    "description": "Unleashing a <span style=\"color: #ffffff; display: inline\">Pestilence</span> now increases your Strength by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Unleashing a Pestilence now increases your Strength by 10% for 10 seconds.",
+    "iconPath": "interface/icons/spell_nature_insect_swarm2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704981,
+    "spellIds": [
+      704981
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704981,
+        "description": "Unleashing a <span style=\"color: #ffffff; display: inline\">Pestilence</span> now increases your Strength by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Unleashing a Pestilence now increases your Strength by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6936,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Rampant",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Gore</span> now increases the damage of your next <span style=\"color: #ffffff; display: inline\">Skulltaker</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Casting Gore now increases the damage of your next Skulltaker by 10% for 8 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/sha_ability_warrior_bloodnova_nightmare",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705015,
+    "spellIds": [
+      705015
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705015,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Gore</span> now increases the damage of your next <span style=\"color: #ffffff; display: inline\">Skulltaker</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Casting Gore now increases the damage of your next Skulltaker by 10% for 8 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11890,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hellborn",
+    "description": "Generating a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to unleash your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> at half of their effectiveness.",
+    "descriptionText": "Generating a stack of Demon's Blood now has a 5% chance to unleash your active Pestilence at half of their effectiveness.",
+    "iconPath": "interface/icons/5_druideskill47_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707631,
+    "spellIds": [
+      707631,
+      707840
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7810,
+      7883
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707631,
+        "description": "Generating a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to unleash your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> at half of their effectiveness.",
+        "descriptionText": "Generating a stack of Demon's Blood now has a 5% chance to unleash your active Pestilence at half of their effectiveness."
+      },
+      {
+        "rank": 2,
+        "spellId": 707840,
+        "description": "Generating a stack of <span style=\"color: #ffffff; display: inline\">Demon's Blood</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to unleash your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> at half of their effectiveness.",
+        "descriptionText": "Generating a stack of Demon's Blood now has a 10% chance to unleash your active Pestilence at half of their effectiveness."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12166,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Warbringer",
+    "description": "Transforms your <span style=\"color: #FFFFFF; display: inline\">Flames of Xoroth</span> into <span style=\"color: #FFFFFF; display: inline\">Warbringer</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_mace_2h_pvpcataclysms3_c_01\" /><span class=\"name\">Warbringer</span></div><span class=\"desc\">Slam the ground, dealing <span class=\"item-number\">64</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">2</span> to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds reducing the effectiveness of any healing by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Deals <span class=\"item-number\">18</span><span class=\"item-number\">%</span> increased damage per <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.</span></div>",
+    "descriptionText": "Transforms your Flames of Xoroth into Warbringer.\n\n---\n\nWarbringerSlam the ground, dealing 64% Weapon Damage plus 2 to up to 5 enemies within 8 yds reducing the effectiveness of any healing by -40% for 10 seconds.\n\nDeals 18% increased damage per Demonfire consumed.",
+    "iconPath": "interface/icons/inv_mace_2h_pvpcataclysms3_c_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570727,
+    "spellIds": [
+      570727
+    ],
+    "requiredNodeIds": [
+      4016
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570727,
+        "description": "Transforms your <span style=\"color: #FFFFFF; display: inline\">Flames of Xoroth</span> into <span style=\"color: #FFFFFF; display: inline\">Warbringer</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_mace_2h_pvpcataclysms3_c_01\" /><span class=\"name\">Warbringer</span></div><span class=\"desc\">Slam the ground, dealing <span class=\"item-number\">64</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">2</span> to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds reducing the effectiveness of any healing by <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Deals <span class=\"item-number\">18</span><span class=\"item-number\">%</span> increased damage per <span style=\"color: #ff9933; display: inline\">Demonfire</span> consumed.</span></div>",
+        "descriptionText": "Transforms your Flames of Xoroth into Warbringer.\n\n---\n\nWarbringerSlam the ground, dealing 64% Weapon Damage plus 2 to up to 5 enemies within 8 yds reducing the effectiveness of any healing by -40% for 10 seconds.\n\nDeals 18% increased damage per Demonfire consumed."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12817,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Burning Swings",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Hellburn</span> now affects <span class=\"item-number\">4</span> additional uses of <span style=\"color: #ffffff; display: inline\">Infernal Strike</span>.",
+    "descriptionText": "Your Hellburn now affects 4 additional uses of Infernal Strike.",
+    "iconPath": "interface/icons/spell_fire_enchantweapon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707632,
+    "spellIds": [
+      707632
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7889,
+      31259
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707632,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707632,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Hellburn</span> now affects <span class=\"item-number\">4</span> additional uses of <span style=\"color: #ffffff; display: inline\">Infernal Strike</span>.",
+        "descriptionText": "Your Hellburn now affects 4 additional uses of Infernal Strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7408,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Fiend",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Sever</span> now removes the cost of your next <span style=\"color: #ffffff; display: inline\">Infernal Strike</span>.",
+    "descriptionText": "Casting Sever now removes the cost of your next Infernal Strike.",
+    "iconPath": "interface/icons/inv_mace_1h_pvppandarias1_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705005,
+    "spellIds": [
+      705005
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34127
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705005,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Sever</span> now removes the cost of your next <span style=\"color: #ffffff; display: inline\">Infernal Strike</span>.",
+        "descriptionText": "Casting Sever now removes the cost of your next Infernal Strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11212,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Jagged Edge",
+    "description": "Allows your <span style=\"color: #ffffff; display: inline\">Torn Flesh</span> to stack <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Allows your Torn Flesh to stack 3 additional times.",
+    "iconPath": "interface/icons/inv_axe_07",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707614,
+    "spellIds": [
+      707614
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7883,
+      34059
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707614,
+        "description": "Allows your <span style=\"color: #ffffff; display: inline\">Torn Flesh</span> to stack <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Allows your Torn Flesh to stack 3 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11261,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Flesh Tearing",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Gives Physical Damage dealt a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #ffffff; display: inline\">Torn Flesh</span>, causing the target to bleed for <span class=\"item-number\">27</span> over <span class=\"item-number\">9</span> seconds.",
+    "descriptionText": "Level 20 Passive\nGives Physical Damage dealt a 20% chance to apply Torn Flesh, causing the target to bleed for 27 over 9 seconds.",
+    "iconPath": "interface/icons/_diablo3_execute_deathknight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 573036,
+    "spellIds": [
+      573036
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4016
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573036,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Gives Physical Damage dealt a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #ffffff; display: inline\">Torn Flesh</span>, causing the target to bleed for <span class=\"item-number\">27</span> over <span class=\"item-number\">9</span> seconds.",
+        "descriptionText": "Level 20 Passive\nGives Physical Damage dealt a 20% chance to apply Torn Flesh, causing the target to bleed for 27 over 9 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29280,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Decimation",
+    "description": "Your next <span style=\"color: #ffffff; display: inline\">Skulltaker</span> or <span style=\"color: #ffffff; display: inline\">Warbringer</span> used within <span class=\"item-number\">30</span> seconds is guaranteed to critically strike for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Your next Skulltaker or Warbringer used within 30 seconds is guaranteed to critically strike for 25% increased damage.",
+    "iconPath": "interface/icons/warrior_talent_icon_innerrage",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524913,
+    "spellIds": [
+      524913
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7929,
+      11890,
+      34119
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524913,
+        "description": "Your next <span style=\"color: #ffffff; display: inline\">Skulltaker</span> or <span style=\"color: #ffffff; display: inline\">Warbringer</span> used within <span class=\"item-number\">30</span> seconds is guaranteed to critically strike for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Your next Skulltaker or Warbringer used within 30 seconds is guaranteed to critically strike for 25% increased damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29376,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Brimstone Bludgeon",
+    "description": "Bludgeon the ground around you, dealing <span class=\"item-number\">250</span><span class=\"item-number\">%</span> Weapon Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds.<br /><br />Unleashes your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> to trigger a powerful effect.",
+    "descriptionText": "Bludgeon the ground around you, dealing 250% Weapon Damage to up to 5 enemies within 8 yds.\n\nUnleashes your active Pestilence to trigger a powerful effect.",
+    "iconPath": "interface/icons/inv_mace_1h_pvp410_c_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520005,
+    "spellIds": [
+      520005
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7891,
+      34061
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520005,
+        "description": "Bludgeon the ground around you, dealing <span class=\"item-number\">250</span><span class=\"item-number\">%</span> Weapon Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds.<br /><br />Unleashes your active <span style=\"color: #ffffff; display: inline\">Pestilence</span> to trigger a powerful effect.",
+        "descriptionText": "Bludgeon the ground around you, dealing 250% Weapon Damage to up to 5 enemies within 8 yds.\n\nUnleashes your active Pestilence to trigger a powerful effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7810,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Demonic Frenzy",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Sever</span> now increases your attack speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Gore</span> extends the duration of this effect by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Casting Sever now increases your attack speed by 20% for 6 seconds.\n\nCasting Gore extends the duration of this effect by 2 sec.",
+    "iconPath": "interface/icons/inv_knife_1h_pvppandarias1_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705008,
+    "spellIds": [
+      705008
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6518,
+      30463,
+      7888
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705008,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Sever</span> now increases your attack speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.<br /><br />Casting <span style=\"color: #ffffff; display: inline\">Gore</span> extends the duration of this effect by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Casting Sever now increases your attack speed by 20% for 6 seconds.\n\nCasting Gore extends the duration of this effect by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7881,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Consuming Blade",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gore</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases the critical strike chance of Gore by 25% and your expertise by 5.",
+    "iconPath": "interface/icons/inv_stave_2h_pvppandarias1_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707388,
+    "spellIds": [
+      707388,
+      707839
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31166
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707388,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gore</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases the critical strike chance of Gore by 25% and your expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 707839,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Gore</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases the critical strike chance of Gore by 50% and your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7883,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "To Ashes",
+    "description": "Increases the critical strike chance of abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of abilities that spend Demonfire by 5%.",
+    "iconPath": "interface/icons/spell_fire_volcano",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705000,
+    "spellIds": [
+      705000
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34059
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705000,
+        "description": "Increases the critical strike chance of abilities that spend <span style=\"color: #ff9933; display: inline\">Demonfire</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of abilities that spend Demonfire by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7888,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Absolutism",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Meatsaw</span> now ignores <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> of the target's Armor.",
+    "descriptionText": "Damage dealt by Meatsaw now ignores -10% of the target's Armor.",
+    "iconPath": "interface/icons/inv_axe_1h_draenorraid_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706501,
+    "spellIds": [
+      706501
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29621,
+      30694
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706501,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706501,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Meatsaw</span> now ignores <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> of the target's Armor.",
+        "descriptionText": "Damage dealt by Meatsaw now ignores -10% of the target's Armor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7889,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Hellburn",
+    "description": "Your next <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> within <span class=\"item-number\">15</span> seconds deals <span class=\"item-number\">320</span> + <span class=\"item-number\">62.5% AP</span> additional Fire Damage in a <span class=\"item-number\">12</span> yd line and causes your attacks to bypass <span class=\"item-number\">20</span><span class=\"item-number\">%</span> Armor on affected enemies for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Your next Infernal Strike within 15 seconds deals 320 + 62.5% AP additional Fire Damage in a 12 yd line and causes your attacks to bypass 20% Armor on affected enemies for 15 seconds.",
+    "iconPath": "interface/icons/spell_fire_flameblades",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524920,
+    "spellIds": [
+      524920
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7408
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524920,
+        "description": "Your next <span style=\"color: #ffffff; display: inline\">Infernal Strike</span> within <span class=\"item-number\">15</span> seconds deals <span class=\"item-number\">320</span> + <span class=\"item-number\">62.5% AP</span> additional Fire Damage in a <span class=\"item-number\">12</span> yd line and causes your attacks to bypass <span class=\"item-number\">20</span><span class=\"item-number\">%</span> Armor on affected enemies for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Your next Infernal Strike within 15 seconds deals 320 + 62.5% AP additional Fire Damage in a 12 yd line and causes your attacks to bypass 20% Armor on affected enemies for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7891,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "The Butcher",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Meatsaw</span> now increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Warbringer</span> and <span style=\"color: #ffffff; display: inline\">Brimstone Bludgeon</span> on affected enemies by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Damage dealt by Meatsaw now increases the damage dealt by Warbringer and Brimstone Bludgeon on affected enemies by 10% for 10 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/artifactability_unholydeathknight_flagellation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704952,
+    "spellIds": [
+      704952
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29280
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704952,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Meatsaw</span> now increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Warbringer</span> and <span style=\"color: #ffffff; display: inline\">Brimstone Bludgeon</span> on affected enemies by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Damage dealt by Meatsaw now increases the damage dealt by Warbringer and Brimstone Bludgeon on affected enemies by 10% for 10 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7892,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Demonic Blade",
+    "description": "<span style=\"color: #ffffff; display: inline\">Sever</span> now increases the damage and cost of your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Gores</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.<br /><br />At the end of the duration, or when all stacks are consumed, you cast <span style=\"color: #ffffff; display: inline\">Meatsaw</span> instantly.",
+    "descriptionText": "Sever now increases the damage and cost of your next 2 Gores by 25% for 12 seconds.\n\nAt the end of the duration, or when all stacks are consumed, you cast Meatsaw instantly.",
+    "iconPath": "interface/icons/nhi_blood_blade_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704957,
+    "spellIds": [
+      704957
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34056,
+      34104
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704957,
+        "description": "<span style=\"color: #ffffff; display: inline\">Sever</span> now increases the damage and cost of your next <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Gores</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds.<br /><br />At the end of the duration, or when all stacks are consumed, you cast <span style=\"color: #ffffff; display: inline\">Meatsaw</span> instantly.",
+        "descriptionText": "Sever now increases the damage and cost of your next 2 Gores by 25% for 12 seconds.\n\nAt the end of the duration, or when all stacks are consumed, you cast Meatsaw instantly."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7929,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Conqueror's Will",
+    "description": "Increases the critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your damage dealt by 2%.",
+    "iconPath": "interface/icons/nhi_fireghost_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520372,
+    "spellIds": [
+      520372
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7810
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520372,
+        "description": "Increases the critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your damage dealt by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, increases your damage dealt by 2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9262,
+    "classId": 17,
+    "className": "Knight of Xoroth",
+    "tabId": 45,
+    "tabKey": "17:45",
+    "tabName": "War",
+    "name": "Render",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your melee haste rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Strength.<br /><br />In addition, you now passive regenerate <span class=\"item-number\">3</span> Rage every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Level 40 Passive\nIncreases your melee haste rating by 20% of your Strength.\n\nIn addition, you now passive regenerate 3 Rage every 3 sec.",
+    "iconPath": "interface/icons/inv_axe_104",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704951,
+    "spellIds": [
+      704951
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30705
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704951,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your melee haste rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Strength.<br /><br />In addition, you now passive regenerate <span class=\"item-number\">3</span> Rage every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Level 40 Passive\nIncreases your melee haste rating by 20% of your Strength.\n\nIn addition, you now passive regenerate 3 Rage every 3 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

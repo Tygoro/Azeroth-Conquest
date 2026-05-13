@@ -1,11 +1,24 @@
-import { useLayoutEffect, useMemo, useRef, useState } from 'react';
+import React, { useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { parseWowTooltip, type SectionKind } from '@/data/talent-engine/wow-tooltip-parser';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Lock } from 'lucide-react';
 import type { TalentTree as TalentTreeType, TalentNode } from '@workspace/api-client-react';
 import { validateTree } from '@/data/classes/validate';
-import { getNodeIconUrl } from '@/data/classes/icons';
-import { TIER_POINT_GATES, type NodeState } from '@/hooks/use-talent-tree';
+import { getNodeIconStyle, loadIconManifest } from '@/data/classes/icons';
+import { type NodeState, getRowLevelReq } from '@/hooks/use-talent-tree';
+import { getEdgeOverride, type EdgeFace } from '@/data/talent-engine/edge-overrides';
+import { useShiftKey } from '@/hooks/use-shift-key';
+
+// Kick off the icon sprite manifest fetch as early as possible.
+loadIconManifest();
+
+// ── Debug toggles ─────────────────────────────────────────────────────────────
+// window.DEBUG_TREE = true   → node z-index labels, elementFromPoint logging
+// window.DEBUG_EDGES = true  → edge anchors, direction arrows, midpoint handles
+declare global { interface Window { DEBUG_TREE?: boolean; DEBUG_EDGES?: boolean } }
+function isDebug():      boolean { return typeof window !== 'undefined' && !!window.DEBUG_TREE; }
+function isDebugEdges(): boolean { return typeof window !== 'undefined' && !!window.DEBUG_EDGES; }
 
 interface DualTalentTreeProps {
   tree: TalentTreeType;
@@ -15,7 +28,7 @@ interface DualTalentTreeProps {
   getChoiceSelection: (nodeId: string) => string | undefined;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
-  /** Points spent in this side's tree — drives tier-gate strip */
+  /** Points spent in this side's tree — drives AE/TE cap indicator */
   sideSpent: number;
 }
 
@@ -47,14 +60,21 @@ export function TalentTree({
     : (tree.rightTreeName ?? `Mastery of ${tree.class}`);
 
   return (
-    <div className="flex flex-col items-center w-full h-full pt-6 px-2">
+    <div
+      className="flex flex-col items-center w-full h-full pt-4 px-2"
+      style={{ position: 'relative', overflow: 'visible', pointerEvents: 'none' }}
+    >
       <TreeLabel label={label} color={tree.color} />
-      <div className="flex items-start gap-2">
-        <TierGateStrip color={tree.color} sideSpent={sideSpent} side={side} nodes={nodes} canvasHeight={computeCanvasBounds(nodes).height} />
+      <div
+        className="flex items-start gap-1"
+        style={{ position: 'relative', overflow: 'visible' }}
+      >
         <SingleTree
           nodes={nodes}
           color={tree.color}
           sideSpent={sideSpent}
+          classSlug={tree.class?.toLowerCase() ?? ''}
+          treeSide={side === 'left' ? 'class' : 'spec'}
           getNodeState={getNodeState}
           getChoiceSelection={getChoiceSelection}
           onNodeClick={onNodeClick}
@@ -70,83 +90,13 @@ export function TalentTree({
 function TreeLabel({ label, color }: { label: string; color: string }) {
   return (
     <div
-      className="mb-4 px-5 py-1.5 rounded text-[11px] font-bold uppercase tracking-[0.22em] relative overflow-hidden"
+      className="mb-3 px-4 py-1 rounded-sm text-[10px] font-bold uppercase tracking-[0.28em] select-none pointer-events-none"
       style={{
-        color,
-        border: `1px solid ${color}40`,
-        background: `linear-gradient(90deg, ${color}18 0%, ${color}08 100%)`,
-        boxShadow: `0 0 20px ${color}18, inset 0 1px 0 ${color}20`,
+        color: `${color}BB`,
+        letterSpacing: '0.28em',
       }}
     >
       {label}
-    </div>
-  );
-}
-
-// ── Tree gate strip ─────────────────────────────────────────────────────────
-
-const TREE_GATE_ROWS = [
-  { row: 5, required: 8 },
-  { row: 6, required: 16 },
-  { row: 7, required: 24 },
-  { row: 8, required: 32 },
-  { row: 9, required: 40 },
-  { row: 10, required: 48 },
-];
-
-/** Build a map of gridRow → average Y pixel center from actual node positions. */
-function buildRowYMap(nodes: TalentNode[]): Map<number, number> {
-  const rowSums = new Map<number, { total: number; count: number }>();
-  for (const n of nodes) {
-    const lp = latticePosition(n);
-    if (!lp.gridRow) continue;
-    const { y } = nodePixelCenter(n);
-    const entry = rowSums.get(lp.gridRow);
-    if (entry) { entry.total += y; entry.count++; }
-    else rowSums.set(lp.gridRow, { total: y, count: 1 });
-  }
-  const result = new Map<number, number>();
-  for (const [row, { total, count }] of rowSums) {
-    result.set(row, total / count);
-  }
-  return result;
-}
-
-function TierGateStrip({ color, sideSpent, side, nodes, canvasHeight }: {
-  color: string; sideSpent: number; side: 'left' | 'right';
-  nodes: TalentNode[]; canvasHeight: number;
-}) {
-  const rowYMap = useMemo(() => buildRowYMap(nodes), [nodes]);
-  return (
-    <div
-      className="relative flex-none"
-      style={{ width: 48, height: canvasHeight }}
-    >
-      {TREE_GATE_ROWS.map(({ row, required }) => {
-        // Gate line sits exactly halfway between the Y of row (row-1) and row.
-        const yAbove = rowYMap.get(row - 1) ?? latticeToPixel(row - 1, 1).y;
-        const yBelow = rowYMap.get(row) ?? latticeToPixel(row, 1).y;
-        const y = (yAbove + yBelow) / 2;
-        const met = sideSpent >= required;
-        return (
-          <div
-            key={row}
-            className="absolute flex items-center gap-1 text-[10px] font-mono font-bold whitespace-nowrap"
-            style={{
-              top: y,
-              [side === 'left' ? 'right' : 'left']: 8,
-              transform: 'translateY(-50%)',
-              color: met ? color : '#3a3a4a',
-              opacity: met ? 1 : 0.6,
-              flexDirection: side === 'left' ? 'row' : 'row-reverse',
-            }}
-            title={`Spend ${Math.max(required - sideSpent, 0)} more points to unlock this row`}
-          >
-            {!met && <Lock className="w-2.5 h-2.5" />}
-            <span>{required}</span>
-          </div>
-        );
-      })}
     </div>
   );
 }
@@ -158,11 +108,19 @@ interface SingleTreeProps {
   color: string;
   /** Points spent in THIS tree — drives per-row tier-gate dim treatment. */
   sideSpent: number;
+  /** Lowercase class slug for edge override lookup (e.g. "tinker"). */
+  classSlug: string;
+  /** Which tree this is — determines AE vs TE phrasing in tooltips. */
+  treeSide: 'class' | 'spec';
   getNodeState: (nodeId: string) => NodeState;
   getChoiceSelection: (nodeId: string) => string | undefined;
   onNodeClick: (nodeId: string) => void;
   onNodeContextMenu: (nodeId: string) => void;
 }
+
+// ── Node visual sizes ────────────────────────────────────────────────────────
+const NODE_SIZE     = 48;
+const CAPSTONE_SIZE = 60;
 
 // ── Lattice constants for procedurally generated trees ───────────────────────
 // These are ONLY used for non-extracted (generated) trees. Extracted trees use
@@ -172,9 +130,12 @@ const LATTICE_COLS = 10;
 const CELL_W = 72;            // horizontal pitch per column (px)
 const CELL_H = 70;            // vertical pitch per row (px)
 const LATTICE_PAD_X = 36;     // left/right canvas inset before col 1
-const LATTICE_PAD_Y = 40;     // top canvas inset before row 1
-const SVG_PAD = 20;           // extra SVG overflow room for glows
-const NODE_EDGE_PAD = 3;      // edge-attachment inset from node face
+const LATTICE_PAD_Y = 48;     // top canvas inset before row 1 — must exceed NODE_HALF (26px) to keep top row clickable
+const SVG_PAD = 24;           // extra SVG overflow room for glows
+
+// Half-sizes: terminate edges exactly at the visual node border (no pad).
+const NODE_HALF = NODE_SIZE     / 2;
+const CAP_HALF  = CAPSTONE_SIZE / 2;
 
 // Fallback fixed canvas size for procedurally generated trees.
 const LATTICE_W = LATTICE_PAD_X * 2 + (LATTICE_COLS - 1) * CELL_W + CELL_W;
@@ -263,78 +224,218 @@ function groupByTier(nodes: TalentNode[]): TalentNode[][] {
   return tiers;
 }
 
-function nodeRadius(node: TalentNode): number {
-  return (node.type === 'choice' || node.type === 'capstone' ? CAPSTONE_SIZE : NODE_SIZE) / 2 + NODE_EDGE_PAD;
+function nodeHalf(node: TalentNode): number {
+  return (node.type === 'choice' || node.type === 'capstone') ? CAP_HALF : NODE_HALF;
 }
 
-function edgePoint(from: { x: number; y: number }, to: { x: number; y: number }, node: TalentNode): { x: number; y: number } {
-  const dx = to.x - from.x;
-  const dy = to.y - from.y;
-  const length = Math.hypot(dx, dy) || 1;
-  const radius = nodeRadius(node);
-  return {
-    x: from.x + (dx / length) * radius,
-    y: from.y + (dy / length) * radius,
-  };
+/** Exit the top/bottom face of a node toward a target (vertical attachment). */
+function edgePointV(
+  center: { x: number; y: number },
+  target: { x: number; y: number },
+  node: TalentNode,
+): { x: number; y: number } {
+  const h = nodeHalf(node);
+  return { x: center.x, y: center.y + (target.y >= center.y ? h : -h) };
 }
 
-function branchPath(
-  from: { x: number; y: number },
-  to: { x: number; y: number },
+/** Exit the left/right face of a node toward a target (horizontal attachment). */
+function edgePointH(
+  center: { x: number; y: number },
+  target: { x: number; y: number },
+  node: TalentNode,
+): { x: number; y: number } {
+  const h = nodeHalf(node);
+  return { x: center.x + (target.x >= center.x ? h : -h), y: center.y };
+}
+
+/** Exit the explicit named face of a node (used by edge overrides). */
+function edgePointFace(
+  center: { x: number; y: number },
+  node: TalentNode,
+  face: EdgeFace,
+): { x: number; y: number } {
+  const h = nodeHalf(node);
+  switch (face) {
+    case 'top':    return { x: center.x,     y: center.y - h };
+    case 'bottom': return { x: center.x,     y: center.y + h };
+    case 'left':   return { x: center.x - h, y: center.y     };
+    case 'right':  return { x: center.x + h, y: center.y     };
+  }
+}
+
+interface EdgeResult {
+  d:        string;
+  startPt:  { x: number; y: number };
+  endPt:    { x: number; y: number };
+  pivot:    { x: number; y: number } | null;
+  edgeType: 'vertical' | 'horizontal' | 'elbow' | 'manual';
+}
+
+/**
+ * Build an SVG path + anchor metadata for a prereq→dependent edge.
+ * Checks for a manual override first; falls back to auto-routing.
+ *
+ * Auto-routing rules (in priority order):
+ *   1. Same column              → straight vertical   (top/bottom face)
+ *   2. Same row                 → straight horizontal (left/right face)
+ *   3. Adjacent column (|Δcol|=1) + different row → straight diagonal corner-to-corner
+ *   4. Multi-column off-diagonal  → two-segment: short vertical stub + diagonal run
+ *
+ * Override rules:
+ *   routing:'manual' + path  → return the literal path string unchanged
+ *   routing:'straight'       → straight line using explicit exit/enter faces
+ *   routing:'elbow'          → L-elbow using explicit exit/enter faces and optional midY
+ */
+function edgePathWithAnchors(
+  from:     { x: number; y: number },
+  to:       { x: number; y: number },
   fromNode: TalentNode,
-  toNode: TalentNode,
-): string {
+  toNode:   TalentNode,
+  classSlug: string,
+): EdgeResult {
+  const override = getEdgeOverride(classSlug, fromNode.id, toNode.id);
+  if (isDebugEdges()) {
+    const fromShort = fromNode.id.replace('CoATalentFrameTreeViewSpecTreePoolFrame', 'S:').replace('CoATalentFrameTreeViewClassTreePoolFrame', 'C:');
+    const toShort   = toNode.id.replace('CoATalentFrameTreeViewSpecTreePoolFrame', 'S:').replace('CoATalentFrameTreeViewClassTreePoolFrame', 'C:');
+    if (override) {
+      console.log(`[edge-override] HIT  ${fromShort} → ${toShort} | routing:${override.routing} exit:${override.exit} enter:${override.enter}`);
+    } else {
+      console.log(`[edge-override] MISS ${fromShort} → ${toShort}`);
+    }
+  }
+
+  // ── Manual override: fully custom path ───────────────────────────────
+  if (override?.routing === 'manual' && override.path) {
+    return {
+      d:        override.path,
+      startPt:  from,
+      endPt:    to,
+      pivot:    null,
+      edgeType: 'manual',
+    };
+  }
+
+  // ── Straight override: explicit face-to-face line ─────────────────────
+  if (override?.routing === 'straight') {
+    const s = override.exit  ? edgePointFace(from, fromNode, override.exit)  : edgePointV(from, to, fromNode);
+    const e = override.enter ? edgePointFace(to,   toNode,   override.enter) : edgePointV(to, from, toNode);
+    return {
+      d:        `M ${r(s.x)} ${r(s.y)} L ${r(e.x)} ${r(e.y)}`,
+      startPt:  s,
+      endPt:    e,
+      pivot:    null,
+      edgeType: 'vertical',
+    };
+  }
+
   const fl = latticePosition(fromNode);
   const tl = latticePosition(toNode);
-  const start = edgePoint(from, to, fromNode);
-  const end = edgePoint(to, from, toNode);
-  // Straight line: same column OR missing lattice metadata OR row-gap > 1
-  // (long-range connections should not bezier-curve across rows).
-  const rowDist = (fl.gridRow !== undefined && tl.gridRow !== undefined)
-    ? Math.abs(tl.gridRow - fl.gridRow) : 0;
-  const colDist = (fl.gridColumn !== undefined && tl.gridColumn !== undefined)
-    ? Math.abs(tl.gridColumn - fl.gridColumn) : 0;
-  const useCurve = rowDist === 1 && colDist > 0;
-  if (!useCurve) return `M ${start.x} ${start.y} L ${end.x} ${end.y}`;
-  // Elbow curve: exit vertically from source, arrive vertically at target.
-  const midY = start.y + (end.y - start.y) * 0.5;
-  return `M ${start.x} ${start.y} C ${start.x} ${midY}, ${end.x} ${midY}, ${end.x} ${end.y}`;
+  const colA = fl.gridColumn ?? 0;
+  const colB = tl.gridColumn ?? 0;
+  const rowA = fl.gridRow    ?? 0;
+  const rowB = tl.gridRow    ?? 0;
+
+  // ── Auto primitive 1: same column → straight vertical ────────────────
+  if (!override && colA && colB && colA === colB) {
+    const s = edgePointV(from, to,   fromNode);
+    const e = edgePointV(to,   from, toNode);
+    return {
+      d:        `M ${r(s.x)} ${r(s.y)} L ${r(e.x)} ${r(e.y)}`,
+      startPt:  s,
+      endPt:    e,
+      pivot:    null,
+      edgeType: 'vertical',
+    };
+  }
+
+  // ── Auto primitive 2: same row → straight horizontal ─────────────────
+  if (!override && rowA && rowB && rowA === rowB) {
+    const s = edgePointH(from, to,   fromNode);
+    const e = edgePointH(to,   from, toNode);
+    return {
+      d:        `M ${r(s.x)} ${r(s.y)} L ${r(e.x)} ${r(e.y)}`,
+      startPt:  s,
+      endPt:    e,
+      pivot:    null,
+      edgeType: 'horizontal',
+    };
+  }
+
+  // ── Diagonal routing (auto, no override active) ───────────────────────
+  const goingDown = to.y > from.y;
+  const srcH = nodeHalf(fromNode);
+  const dstH = nodeHalf(toNode);
+
+  // For override elbow: honour explicit faces + optional midY
+  if (override?.routing === 'elbow') {
+    const s = override.exit  ? edgePointFace(from, fromNode, override.exit)
+                             : { x: from.x, y: goingDown ? from.y + srcH : from.y - srcH };
+    const e = override.enter ? edgePointFace(to,   toNode,   override.enter)
+                             : { x: to.x, y: goingDown ? to.y - dstH : to.y + dstH };
+    const rawMid = s.y + (e.y - s.y) * 0.30;
+    const midY = r(override.midY ?? (goingDown
+      ? Math.max(s.y, Math.min(e.y, rawMid))
+      : Math.min(s.y, Math.max(e.y, rawMid))));
+    const sx = r(s.x), sy = r(s.y), ex = r(e.x), ey = r(e.y);
+    return {
+      d: `M ${sx} ${sy} L ${sx} ${midY} L ${ex} ${midY} L ${ex} ${ey}`,
+      startPt: s, endPt: e,
+      pivot: { x: s.x, y: midY },
+      edgeType: 'elbow',
+    };
+  }
+
+  const colDelta = colA && colB ? Math.abs(colB - colA) : 0;
+
+  // ── Auto primitive 3: adjacent columns → pure diagonal ───────────────
+  // Exit from the corner of the source node in the direction of the target,
+  // enter the corner of the target node — one straight diagonal line.
+  if (!override && colDelta === 1 && rowA && rowB && rowA !== rowB) {
+    const goRight = to.x > from.x;
+    // Exit corner: bottom-right or bottom-left of source (top if going up)
+    const sx2 = r(from.x + (goRight ?  srcH : -srcH));
+    const sy2 = r(from.y + (goingDown ?  srcH : -srcH));
+    // Enter corner: top-left or top-right of target
+    const ex2 = r(to.x   + (goRight ? -dstH :  dstH));
+    const ey2 = r(to.y   + (goingDown ? -dstH :  dstH));
+    return {
+      d:        `M ${sx2} ${sy2} L ${ex2} ${ey2}`,
+      startPt:  { x: sx2, y: sy2 },
+      endPt:    { x: ex2, y: ey2 },
+      pivot:    null,
+      edgeType: 'vertical',
+    };
+  }
+
+  // ── Auto primitive 4: multi-column off-diagonal → stub + diagonal ────
+  // A short vertical stub exits the source (20% of row-span), then a
+  // single diagonal line runs to the target corner — no horizontal rail.
+  {
+    const s = { x: from.x, y: goingDown ? from.y + srcH : from.y - srcH };
+    const e = { x: to.x,   y: goingDown ? to.y   - dstH : to.y   + dstH };
+    const stubLen = (e.y - s.y) * 0.18;
+    const stubY = r(s.y + stubLen);
+    const sx2 = r(s.x), sy2 = r(s.y), ex2 = r(e.x), ey2 = r(e.y);
+    return {
+      d:        `M ${sx2} ${sy2} L ${sx2} ${stubY} L ${ex2} ${ey2}`,
+      startPt:  s,
+      endPt:    e,
+      pivot:    { x: s.x, y: stubY },
+      edgeType: 'elbow',
+    };
+  }
 }
 
-function TreeGateBar({ color, sideSpent, rowYMap }: { color: string; sideSpent: number; rowYMap: Map<number, number> }) {
-  return (
-    <>
-      {TREE_GATE_ROWS.map(({ row, required }) => {
-        const yAbove = rowYMap.get(row - 1) ?? latticeToPixel(row - 1, 1).y;
-        const yBelow = rowYMap.get(row) ?? latticeToPixel(row, 1).y;
-        const y = (yAbove + yBelow) / 2;
-        const met = sideSpent >= required;
-        return (
-          <div
-            key={row}
-            className="absolute pointer-events-none"
-            style={{
-              left: 28,
-              top: y,
-              width: 96,
-              height: 1,
-              background: `linear-gradient(90deg, transparent 0%, ${met ? `${color}33` : 'rgba(255,70,70,0.24)'} 25%, ${met ? `${color}77` : 'rgba(255,70,70,0.5)'} 50%, ${met ? `${color}33` : 'rgba(255,70,70,0.24)'} 75%, transparent 100%)`,
-              boxShadow: met ? `0 0 6px ${color}22` : '0 0 6px rgba(255,50,50,0.16)',
-              opacity: met ? 0.48 : 0.72,
-              zIndex: 2,
-            }}
-          />
-        );
-      })}
-    </>
-  );
+/** Round to 2 decimal places for clean SVG output. */
+function r(v: number): number {
+  return Math.round(v * 100) / 100;
 }
 
-function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
+
+function SingleTree({ nodes, color, sideSpent, classSlug, treeSide, getNodeState, getChoiceSelection, onNodeClick, onNodeContextMenu }: SingleTreeProps) {
   const tiers = useMemo(() => groupByTier(nodes), [nodes]);
   // Data-driven canvas size from actual node positions.
   const { width, height } = useMemo(() => computeCanvasBounds(nodes), [nodes]);
-  const rowYMap = useMemo(() => buildRowYMap(nodes), [nodes]);
 
   // ── Centers for SVG connection lines (pure lattice arithmetic) ───────────
   const [centers, setCenters] = useState<Map<string, { x: number; y: number }>>(new Map());
@@ -346,41 +447,72 @@ function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection,
   useLayoutEffect(() => {
     const next = new Map<string, { x: number; y: number }>();
     for (const node of nodes) {
-      next.set(node.id, nodePixelCenter(node));
+      // nodePixelCenter() returns coords in the container div's coordinate space.
+      // The SVG element is placed at left:-SVG_PAD, top:-SVG_PAD, so its
+      // internal coordinate origin is offset by +SVG_PAD from the container.
+      // Add SVG_PAD to each center so paths land on actual node centers.
+      const c = nodePixelCenter(node);
+      next.set(node.id, { x: c.x + SVG_PAD, y: c.y + SVG_PAD });
     }
     setCenters(next);
   }, [nodes]);
 
-  const colorId = color.replace('#', '');
+  const colorId  = color.replace('#', '');
+  const colorHex = color; // used in SVG feFlood — must be a valid CSS color string
 
   return (
-    <div className="relative" style={{ width, height }}>
-      {/* SVG connection lines */}
+    <div
+      className="relative"
+      style={{
+        width,
+        height,
+        background: 'transparent',
+        borderRadius: 0,
+        boxShadow: 'none',
+        overflow: 'visible',
+        // The canvas div itself must not intercept pointer events.
+        // Only the individual node divs (rendered inside this) re-enable auto.
+        pointerEvents: 'none',
+      }}
+    >
+      {/* SVG connection lines — rendered below nodes */}
       <svg
         className="absolute inset-0 pointer-events-none"
-        width="100%"
-        height="100%"
-        style={{ overflow: 'visible' }}
+        width={width + SVG_PAD * 2}
+        height={height + SVG_PAD * 2}
+        style={{
+          overflow: 'visible',
+          left: -SVG_PAD,
+          top: -SVG_PAD,
+          position: 'absolute',
+        }}
       >
         <defs>
-          {/* Glow filter for active lines */}
-          <filter id={`line-glow-${colorId}`} x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="3" result="blur" />
-            <feFlood floodColor={color} floodOpacity="0.6" result="color" />
-            <feComposite in="color" in2="blur" operator="in" result="glow" />
+          {/* Maxed path glow — strong bloom around active lines */}
+          <filter id={`glow-maxed-${colorId}`} x="-60%" y="-60%" width="220%" height="220%" colorInterpolationFilters="sRGB">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur" />
+            <feFlood floodColor={colorHex} floodOpacity="0.8" result="flood" />
+            <feComposite in="flood" in2="blur" operator="in" result="colored" />
             <feMerge>
-              <feMergeNode in="glow" />
+              <feMergeNode in="colored" />
+              <feMergeNode in="colored" />
               <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
-          {/* Dimmer glow for available lines */}
-          <filter id={`line-dim-${colorId}`} x="-30%" y="-30%" width="160%" height="160%">
-            <feGaussianBlur stdDeviation="1.5" result="blur" />
+          {/* Active path — subtle soft glow */}
+          <filter id={`glow-active-${colorId}`} x="-40%" y="-40%" width="180%" height="180%" colorInterpolationFilters="sRGB">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+            <feFlood floodColor={colorHex} floodOpacity="0.55" result="flood" />
+            <feComposite in="flood" in2="blur" operator="in" result="colored" />
             <feMerge>
-              <feMergeNode in="blur" />
+              <feMergeNode in="colored" />
               <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
+          {/* Inactive dash pattern */}
+          <pattern id={`dash-inactive-${colorId}`} patternUnits="userSpaceOnUse" width="12" height="4">
+            <rect width="7" height="4" fill="#3a3a55" />
+          </pattern>
         </defs>
 
         {nodes.map(node =>
@@ -392,101 +524,157 @@ function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection,
             if (!a || !b) return null;
 
             const prereqState = getNodeState(prereqId);
-            const nodeState = getNodeState(node.id);
-            const isMaxed = prereqState.status === 'maxed';
-            const isActive = prereqState.status === 'active' || isMaxed;
-            const isAvailable = nodeState.status === 'available';
+            const nodeState   = getNodeState(node.id);
+
+            const prereqMaxed  = prereqState.status === 'maxed';
+            const prereqActive = prereqState.status === 'active';
+            const targetAvail  = nodeState.status === 'available';
+
+            const edge   = edgePathWithAnchors(a, b, prereq, node, classSlug);
+            const { d: path, startPt, endPt, pivot, edgeType } = edge;
+            const key  = `${prereqId}→${node.id}`;
+
+            const CAP = 'butt' as const;
+            const JOIN = 'miter' as const;
+            const dbgEdge = isDebugEdges();
+
+            // ── Unified edge render ───────────────────────────────────────
+            // Pick stroke params by state, then one return with optional debug.
+            let strokeColor = '#6a6a88';
+            let strokeWidth = 1.4;
+            let strokeOpacity = 0.70;
+            let bloomPath: React.ReactNode = null;
+
+            if (prereqMaxed) {
+              strokeColor   = color;
+              strokeWidth   = 2;
+              strokeOpacity = 1;
+              bloomPath = <path d={path} fill="none" stroke={color} strokeWidth={4}
+                strokeOpacity={0.15} strokeLinecap={CAP} strokeLinejoin={JOIN}
+                filter={`url(#glow-maxed-${colorId})`} />;
+            } else if (prereqActive) {
+              strokeColor   = color;
+              strokeWidth   = 1.6;
+              strokeOpacity = 0.88;
+              bloomPath = <path d={path} fill="none" stroke={color} strokeWidth={2.5}
+                strokeOpacity={0.12} strokeLinecap={CAP} strokeLinejoin={JOIN}
+                filter={`url(#glow-active-${colorId})`} />;
+            } else if (targetAvail) {
+              strokeColor   = color;
+              strokeWidth   = 1.4;
+              strokeOpacity = 0.55;
+            }
 
             return (
-              <g key={`${prereqId}-${node.id}`}>
-                {/* Glow layer — only for active/maxed */}
-                {isMaxed && (
-                  <path
-                    d={branchPath(a, b, prereq, node)}
-                    fill="none"
-                    stroke={color}
-                    strokeWidth={8}
-                    strokeOpacity={0.28}
-                    filter={`url(#line-glow-${colorId})`}
-                  />
-                )}
-                {isActive && !isMaxed && (
-                  <path
-                    d={branchPath(a, b, prereq, node)}
-                    fill="none"
-                    stroke={color}
-                    strokeWidth={6}
-                    strokeOpacity={0.24}
-                    filter={`url(#line-dim-${colorId})`}
-                  />
-                )}
-                {/* Main line */}
-                <path
-                  d={branchPath(a, b, prereq, node)}
-                  fill="none"
-                  stroke={
-                    isMaxed ? color
-                    : isActive ? `${color}CC`
-                    : isAvailable ? `${color}88`
-                    : '#5c5c72'
-                  }
-                  strokeWidth={isMaxed ? 3 : isActive ? 2.5 : 2}
-                  strokeOpacity={isMaxed ? 1 : isActive ? 0.9 : isAvailable ? 0.72 : 0.56}
-                  strokeDasharray={isActive ? undefined : '5 5'}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
+              <g key={key}>
+                {bloomPath}
+                <path d={path} fill="none" stroke={strokeColor}
+                  strokeWidth={strokeWidth} strokeOpacity={strokeOpacity}
+                  strokeLinecap={CAP} strokeLinejoin={JOIN} />
+                {/* ── DEBUG_EDGES overlay ─────────────────────────────── */}
+                {dbgEdge && (() => {
+                  const mx = (startPt.x + endPt.x) / 2;
+                  const my = (startPt.y + endPt.y) / 2;
+                  // Direction arrow at midpoint (pointing from start→end)
+                  const dx = endPt.x - startPt.x;
+                  const dy = endPt.y - startPt.y;
+                  const len = Math.sqrt(dx*dx + dy*dy) || 1;
+                  const arrowLen = 8;
+                  const ax = mx + (dx/len)*arrowLen*0.5;
+                  const ay = my + (dy/len)*arrowLen*0.5;
+                  const perpX = -(dy/len)*3;
+                  const perpY =  (dx/len)*3;
+                  return (
+                    <g>
+                      {/* Anchor dots */}
+                      <circle cx={startPt.x} cy={startPt.y} r={3.5} fill="lime"   opacity={0.95} />
+                      <circle cx={endPt.x}   cy={endPt.y}   r={3.5} fill="cyan"   opacity={0.95} />
+                      {/* Elbow pivot */}
+                      {pivot && <circle cx={pivot.x} cy={pivot.y} r={4} fill="none" stroke="orange" strokeWidth={1.5} opacity={0.9} />}
+                      {/* Midpoint handle (draggable-style visual) */}
+                      <rect x={mx-4} y={my-4} width={8} height={8} fill="#fff" opacity={0.25} stroke="#fff" strokeWidth={0.5} />
+                      {/* Direction arrow */}
+                      <polygon
+                        points={`${r(ax)},${r(ay)} ${r(ax-perpX-dx/len*4)},${r(ay-perpY-dy/len*4)} ${r(ax+perpX-dx/len*4)},${r(ay+perpY-dy/len*4)}`}
+                        fill="yellow" opacity={0.85}
+                      />
+                      {/* Edge type + key label */}
+                      <text x={r(mx)} y={r(Math.min(startPt.y, endPt.y) - 6)}
+                        fontSize="6.5" fill="#ffff80" textAnchor="middle"
+                        style={{ pointerEvents: 'none' }}>
+                        {edgeType}
+                      </text>
+                      <text x={r(mx)} y={r(Math.min(startPt.y, endPt.y) - 14)}
+                        fontSize="5.5" fill="#aaaaff" textAnchor="middle"
+                        style={{ pointerEvents: 'none' }}>
+                        {prereqId.slice(-12)}→{node.id.slice(-12)}
+                      </text>
+                    </g>
+                  );
+                })()}
               </g>
             );
           })
         )}
       </svg>
 
-      <TreeGateBar color={color} sideSpent={sideSpent} rowYMap={rowYMap} />
-
-      {/* Row overlays — y derived from actual node positions per row. */}
-      {Array.from({ length: LATTICE_ROWS }, (_, rowIdx) => {
-        const rowGate = TIER_POINT_GATES[rowIdx] ?? 0;
-        const rowLocked = sideSpent < rowGate;
-        const rowCenterY = rowYMap.get(rowIdx + 1) ?? latticeToPixel(rowIdx + 1, 1).y;
-        return (
-        <div
-          key={rowIdx}
-          data-row-index={rowIdx + 1}
-          data-row-locked={rowLocked || undefined}
-          className="absolute left-0 right-0 pointer-events-none"
-          style={{
-            top: rowCenterY,
-            height: TIER_HEIGHT,
-            transform: 'translateY(-50%)',
-            // Subtle row-level dim only — individual locked nodes already dim
-            // themselves to 0.35, so we keep this multiplier near 1 to avoid
-            // an unreadable ~0.19 effective luminance.
-            opacity: rowLocked ? 0.78 : 1,
-            transition: 'opacity 0.25s ease',
-          }}
-        />
-        );
-      })}
-
       {nodes.map(node => {
         const state = getNodeState(node.id);
         const selectedOptionId = node.type === 'choice' ? getChoiceSelection(node.id) : undefined;
         const { x: px, y: py } = nodePixelCenter(node);
+        const dbg = isDebug();
+        const nodeSize = (node.type === 'choice' || node.type === 'capstone') ? CAPSTONE_SIZE : NODE_SIZE;
         return (
           <div
             key={node.id}
             className="absolute flex items-center justify-center"
+            data-node-id={node.id}
             style={{
               left: px,
               top: py,
               transform: 'translate(-50%, -50%)',
+              zIndex: 5,
+              position: 'absolute',
+              pointerEvents: 'auto',
+              // Debug: bright red outline on the actual hitbox div
+              ...(dbg ? {
+                outline: '2px solid red',
+                outlineOffset: '0px',
+              } : {}),
             }}
+            onPointerEnter={dbg ? (e) => {
+              const el = document.elementFromPoint(e.clientX, e.clientY);
+              console.log('[DEBUG] pointerenter node:', node.id, node.name,
+                '\n  wrapper rect:', e.currentTarget.getBoundingClientRect(),
+                '\n  topmost element at cursor:', el,
+                '\n  topmost tag/class:', el?.tagName, (el as HTMLElement)?.className);
+            } : undefined}
+            onPointerDown={dbg ? (e) => {
+              const el = document.elementFromPoint(e.clientX, e.clientY);
+              console.log('[DEBUG] pointerdown node:', node.id,
+                '\n  topmost element:', el,
+                '\n  tag:', el?.tagName, '\n  class:', (el as HTMLElement)?.className,
+                '\n  is inside this wrapper:', e.currentTarget.contains(el));
+            } : undefined}
+            onClick={dbg ? (e) => {
+              console.log('[DEBUG] click FIRED on node wrapper:', node.id, node.name);
+            } : undefined}
           >
+            {/* Debug: z-index label */}
+            {dbg && (
+              <div style={{
+                position: 'absolute', top: -14, left: 0,
+                fontSize: 8, color: 'yellow', background: 'rgba(0,0,0,0.7)',
+                padding: '0 2px', pointerEvents: 'none', whiteSpace: 'nowrap', zIndex: 100,
+              }}>
+                z5 {Math.round(px)},{Math.round(py)}
+              </div>
+            )}
             <TalentNodeComponent
               node={node}
               state={state}
               color={color}
+              treeSide={treeSide}
               allNodes={nodes}
               selectedOptionId={selectedOptionId}
               getNodeState={getNodeState}
@@ -502,13 +690,11 @@ function SingleTree({ nodes, color, sideSpent, getNodeState, getChoiceSelection,
 
 // ── Talent node ───────────────────────────────────────────────────────────────
 
-const NODE_SIZE = 48;
-const CAPSTONE_SIZE = 60;
-
 interface TalentNodeComponentProps {
   node: TalentNode;
   state: NodeState;
   color: string;
+  treeSide: 'class' | 'spec';
   allNodes: TalentNode[];
   selectedOptionId?: string;
   getNodeState: (nodeId: string) => NodeState;
@@ -517,19 +703,19 @@ interface TalentNodeComponentProps {
 }
 
 function TalentNodeComponent({
-  node, state, color, allNodes, selectedOptionId, getNodeState, onClick, onContextMenu,
+  node, state, color, treeSide, allNodes, selectedOptionId, getNodeState, onClick, onContextMenu,
 }: TalentNodeComponentProps) {
   const [hovered, setHovered] = useState(false);
-  const [imgError, setImgError] = useState(false);
   const { status, currentPoints } = state;
 
-  const isLocked    = status === 'locked';
-  const isAvailable = status === 'available';
-  const isActive    = status === 'active';
-  const isMaxed     = status === 'maxed';
+  const isLocked        = status === 'locked';
+  const isAvailable     = status === 'available';
+  const isActive        = status === 'active';
+  const isMaxed         = status === 'maxed';
 
   const isChoice = node.type === 'choice';
   const isCapstone = node.type === 'capstone';
+  const isAutoGranted = !!node.autoGranted;
   const isLargeNode = isChoice || isCapstone;
   const isPlaceholder = node.id.includes('placeholder') || node.name.startsWith('Unresolved');
   const size = isLargeNode ? CAPSTONE_SIZE : NODE_SIZE;
@@ -541,13 +727,27 @@ function TalentNodeComponent({
     : -1;
   const activeOption = isChoice && selectedIdx >= 0 ? choiceOptions[selectedIdx] : undefined;
 
-  const iconUrl = isChoice
-    ? getNodeIconUrl(node.id, activeOption?.name ?? choiceOptions[0]?.name ?? node.name, node.type, activeOption?.icon ?? node.icon)
-    : getNodeIconUrl(node.id, node.name, node.type, node.icon);
+  const iconData = isChoice
+    ? getNodeIconStyle(node.id, activeOption?.name ?? choiceOptions[0]?.name ?? node.name, node.type, activeOption?.icon ?? node.icon)
+    : getNodeIconStyle(node.id, node.name, node.type, node.icon);
+  const isIconPlaceholder = iconData.type === 'placeholder';
 
-  // Shape per spec: passives circle, actives rounded square, capstones circle, choices octagon
+  // Shape per spec: autoGranted ability-teaching nodes are square, autoGranted
+  // passives are circle, regular passives circle, actives rounded square,
+  // capstones circle, choices octagon.
+  // Primary signal: nodeShape field from extracted data ('square' = ability node).
+  // Fallback: detect "teaches/grants" in stripped description text.
+  const nodeShape = (node as { nodeShape?: string }).nodeShape;
+  const agIsAbilityShape = isAutoGranted && (
+    nodeShape === 'square' ||
+    /teaches you|grants you|\blearn /i.test(
+      (node.description ?? '').replace(/\|c[0-9a-fA-F]{8}/g, '').replace(/\|r/g, '').replace(/\|T[^|]+\|t/g, '')
+    )
+  );
   const shapeStyle: React.CSSProperties =
-    isCapstone
+    isAutoGranted
+      ? (agIsAbilityShape ? { borderRadius: '6px' } : { borderRadius: '50%' })
+      : isCapstone
       ? { borderRadius: '50%' }
       : node.type === 'passive'
       ? { borderRadius: '50%' }
@@ -556,32 +756,60 @@ function TalentNodeComponent({
       : { clipPath: 'polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%)' };
 
   // State-derived visuals
-  const borderColor =
-    isMaxed     ? color
-    : isActive  ? `${color}DD`
-    : isAvailable ? `${color}77`
-    : isPlaceholder ? `${color}66`
-    : '#44445a';
+  // ── Visual hierarchy: 4 clear tiers ────────────────────────────────────
+  //
+  //  locked    → desaturated, dim, dark bg, dark border, no glow
+  //  available → neutral/bright border hint, slight bg lift, no glow
+  //  active    → colored border, colored bg, soft outer glow
+  //  maxed     → full color, bright bloom, saturated bg, breathing ring
+  //
+  // The gap between each tier must be immediately obvious at a glance.
 
+  // ── autoGranted nodes use a teal accent independent of class color ─────
+  const AG_COLOR = '#00e5cc';
+  // For autoGranted nodes: only use the teal accent when the node is actually
+  // unlocked (maxed/active). Locked future milestones use neutral gray so they
+  // don't glow cyan like unlocked ones.
+  const nodeColor = isAutoGranted
+    ? (isLocked ? '#555570' : AG_COLOR)
+    : color;
+
+  // ── Border ───────────────────────────────────────────────────────────────
+  const borderColor =
+    isMaxed         ? nodeColor
+    : isActive      ? `${nodeColor}CC`
+    : isAvailable   ? `${nodeColor}70`
+    : '#454560';    // all locked states: medium gray, readable
+
+  const borderWidth = isMaxed ? 2 : isActive ? 2 : 1.5;
+
+  // ── Opacity ───────────────────────────────────────────────────────────────
+  // Official: all nodes remain clearly visible. Locked = slight desaturation only.
+  const nodeOpacity = isLocked
+    ? (isPlaceholder ? 0.45 : 0.65)
+    : isAvailable ? 0.9
+    : 1;
+
+  // ── Glow ─────────────────────────────────────────────────────────────────
+  // Official: clean, crisp — no heavy bloom. Maxed gets a subtle ring only.
   const boxShadow =
     isMaxed
-      ? `0 0 0 1px ${color}44, 0 0 14px ${color}99, 0 0 40px ${color}44, inset 0 0 12px ${color}33`
+      ? `0 0 0 1px ${nodeColor}77,
+         0 0 6px  ${nodeColor}55,
+         inset 0 0 4px ${nodeColor}18`
       : isActive
-      ? `0 0 0 1px ${color}33, 0 0 10px ${color}66, 0 0 24px ${color}22`
-      : isAvailable
-      ? `0 0 0 1px ${color}22, 0 0 6px ${color}33`
-      : isPlaceholder
-      ? `0 0 0 1px ${color}22, inset 0 0 10px ${color}18`
-      : 'inset 0 0 8px rgba(255,255,255,0.04)';
+      ? `0 0 0 1px ${nodeColor}55,
+         0 0 4px  ${nodeColor}44`
+      : 'none';
 
+  // ── Background ───────────────────────────────────────────────────────────
+  // Official: locked nodes have same dark bg as others — no extra darkness.
   const bgStyle: React.CSSProperties = {
     background: isMaxed
-      ? `radial-gradient(circle at 40% 35%, ${color}44 0%, ${color}18 50%, #0d0d18 100%)`
+      ? `radial-gradient(circle at 38% 28%, ${nodeColor}44 0%, ${nodeColor}18 45%, #0d0c1c 100%)`
       : isActive
-      ? `radial-gradient(circle at 40% 35%, ${color}28 0%, #0d0d18 100%)`
-      : isPlaceholder
-      ? `radial-gradient(circle at 40% 35%, ${color}1F 0%, #191927 62%, #0f0f1b 100%)`
-      : `radial-gradient(circle at 40% 35%, #222232 0%, #10101c 100%)`,
+      ? `radial-gradient(circle at 38% 28%, ${nodeColor}28 0%, #111028 55%, #0b0a1a 100%)`
+      : '#0a0a16',
   };
 
   // Cursor-following tooltip: track the mouse position so the tooltip's arrow
@@ -610,36 +838,36 @@ function TalentNodeComponent({
       onClick={onClick}
       onContextMenu={e => { e.preventDefault(); onContextMenu(); }}
     >
-      {/* Outer glow ring for maxed */}
+      {/* Outer breathing ring — maxed only, very subtle */}
       {isMaxed && (
         <motion.div
-          className="absolute inset-0 pointer-events-none"
-          animate={{ scale: [1, 1.25, 1], opacity: [0.4, 0, 0.4] }}
-          transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
+          className="absolute pointer-events-none"
+          animate={{ scale: [1, 1.14, 1], opacity: [0.28, 0, 0.28] }}
+          transition={{ duration: 3.4, repeat: Infinity, ease: 'easeInOut' }}
           style={{
+            inset: -2,
             ...shapeStyle,
-            border: `1px solid ${color}`,
-            boxShadow: `0 0 20px ${color}`,
+            border: `1px solid ${color}88`,
           }}
         />
       )}
 
       <motion.div
-        whileHover={!isLocked ? { scale: 1.12 } : {}}
-        whileTap={!isLocked ? { scale: 0.88 } : {}}
-        animate={isMaxed ? { scale: [1, 1.03, 1] } : {}}
+        whileHover={!isLocked ? { scale: 1.08 } : {}}
+        whileTap={!isLocked ? { scale: 0.92 } : {}}
+        animate={isMaxed ? { scale: [1, 1.02, 1] } : {}}
         transition={isMaxed
-          ? { duration: 2, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' }
-          : { type: 'spring', stiffness: 300 }
+          ? { duration: 2.6, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' }
+          : { type: 'spring', stiffness: 380, damping: 26 }
         }
-        className="w-full h-full relative overflow-hidden cursor-pointer select-none"
+        className={`w-full h-full relative overflow-hidden select-none ${isAutoGranted ? 'cursor-default' : 'cursor-pointer'}`}
         style={{
           ...shapeStyle,
           ...bgStyle,
-          border: `2px solid ${borderColor}`,
+          border: `${borderWidth}px solid ${borderColor}`,
           boxShadow,
-          opacity: isLocked ? (isPlaceholder ? 0.72 : 0.58) : 1,
-          transition: 'border-color 0.25s, box-shadow 0.25s, opacity 0.25s',
+          opacity: nodeOpacity,
+          transition: 'border-color 0.18s, box-shadow 0.18s, opacity 0.18s',
         }}
       >
         {/* Icon — choice nodes show split halves, others show single icon */}
@@ -653,30 +881,31 @@ function TalentNodeComponent({
             isActive={isActive || isMaxed}
             color={color}
           />
-        ) : !imgError ? (
-          <img
-            src={iconUrl}
-            alt={node.name}
-            className="w-full h-full object-cover"
+        ) : !isIconPlaceholder ? (
+          <div
+            className="w-full h-full"
             style={{
+              backgroundImage: (iconData as { type: 'sprite'; backgroundImage: string; backgroundPosition: string; backgroundSize: string }).backgroundImage,
+              backgroundPosition: (iconData as { type: 'sprite'; backgroundImage: string; backgroundPosition: string; backgroundSize: string }).backgroundPosition,
+              backgroundSize: (iconData as { type: 'sprite'; backgroundImage: string; backgroundPosition: string; backgroundSize: string }).backgroundSize,
+              backgroundRepeat: 'no-repeat',
               filter: isLocked
-                ? `grayscale(1) brightness(${isPlaceholder ? 0.72 : 0.52})`
+                ? `grayscale(0.8) brightness(0.72)`
                 : isMaxed
-                ? `saturate(1.4) brightness(1.1) drop-shadow(0 0 4px ${color}88)`
+                ? `saturate(1.2) brightness(1.08)`
                 : isActive
-                ? `saturate(1.1) brightness(0.95)`
-                : 'saturate(0.8) brightness(0.78)',
+                ? `saturate(1.1) brightness(1.0)`
+                : `saturate(0.8) brightness(0.85)`,
               transition: 'filter 0.25s',
             }}
-            onError={() => setImgError(true)}
-            draggable={false}
           />
         ) : (
-          /* Fallback: initials if image fails */
+          /* Placeholder: initials when icon not in sprite manifest */
           <div
             className="w-full h-full flex items-center justify-center text-[10px] font-bold"
             style={{
               color: isLocked ? (isPlaceholder ? `${color}99` : '#77778c') : isMaxed ? color : isActive ? `${color}CC` : '#8a8aa0',
+              background: 'rgba(0,0,0,0.25)',
             }}
           >
             {node.name.split(' ').map(w => w[0]).join('').slice(0, 3)}
@@ -700,28 +929,56 @@ function TalentNodeComponent({
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
-              background: `linear-gradient(135deg, ${color}18 0%, transparent 60%)`,
+              background: `linear-gradient(135deg, ${nodeColor}18 0%, transparent 60%)`,
             }}
           />
         )}
       </motion.div>
 
-      {/* Points pip — shown below node when not locked */}
-      {!isLocked && (
+      {/* autoGranted badge — replaces all pips */}
+      {isAutoGranted && (
         <div
-          className="absolute -bottom-4 left-1/2 -translate-x-1/2 text-[9px] font-mono font-bold px-1.5 rounded-full select-none whitespace-nowrap"
+          className="absolute -bottom-[16px] left-1/2 -translate-x-1/2 text-[8px] font-bold uppercase tracking-wider px-1.5 rounded-sm select-none whitespace-nowrap"
           style={{
-            background: isMaxed ? color : '#0d0d18',
-            color: isMaxed ? '#000' : isActive ? color : '#55556a',
-            border: `1px solid ${isMaxed ? color : isActive ? `${color}77` : '#252535'}`,
-            lineHeight: '16px',
-            minWidth: '28px',
+            background: isMaxed ? `${AG_COLOR}22` : 'rgba(0,0,0,0.7)',
+            color: isMaxed ? AG_COLOR : isLocked ? `${AG_COLOR}55` : `${AG_COLOR}99`,
+            border: `1px solid ${isMaxed ? `${AG_COLOR}66` : '#252535'}`,
+            lineHeight: '14px',
+            backdropFilter: 'blur(2px)',
+          }}
+        >
+          {isLocked && node.unlockAt !== undefined ? `lv${node.unlockAt}` : 'auto'}
+        </div>
+      )}
+      {/* Points pip — shown below node. Hidden for autoGranted and locked+placeholder. */}
+      {!isAutoGranted && (!isLocked || isAvailable) && node.maxPoints > 1 && (
+        <div
+          className="absolute -bottom-[18px] left-1/2 -translate-x-1/2 text-[9px] font-mono font-bold px-1.5 rounded-sm select-none whitespace-nowrap"
+          style={{
+            background: isMaxed ? `${color}22` : 'rgba(0,0,0,0.7)',
+            color: isMaxed ? color : isActive ? `${color}CC` : '#55556a',
+            border: `1px solid ${isMaxed ? `${color}77` : isActive ? `${color}44` : '#252535'}`,
+            lineHeight: '15px',
+            minWidth: '26px',
             textAlign: 'center',
-            boxShadow: isMaxed ? `0 0 6px ${color}88` : 'none',
+            boxShadow: isMaxed ? `0 0 5px ${color}66` : 'none',
+            backdropFilter: 'blur(2px)',
           }}
         >
           {currentPoints}/{node.maxPoints}
         </div>
+      )}
+      {/* Single-rank pip: just a dot indicator */}
+      {!isAutoGranted && (!isLocked || isAvailable) && node.maxPoints === 1 && (
+        <div
+          className="absolute -bottom-[14px] left-1/2 -translate-x-1/2 select-none"
+          style={{
+            width: 6, height: 6,
+            borderRadius: '50%',
+            background: isMaxed ? color : isActive ? `${color}88` : '#252535',
+            boxShadow: isMaxed ? `0 0 4px ${color}` : 'none',
+          }}
+        />
       )}
 
       {/* WoW-style tooltip — follows the cursor */}
@@ -731,6 +988,7 @@ function TalentNodeComponent({
             node={node}
             state={state}
             color={color}
+            treeSide={treeSide}
             allNodes={allNodes}
             selectedOptionId={selectedOptionId}
             getNodeState={getNodeState}
@@ -763,11 +1021,11 @@ function ChoiceSplitIcon({
       {options.map((opt, i) => {
         const isThisSelected = i === selectedIdx;
         const isThisDim = !isThisSelected && selectedIdx >= 0;
-        const url = getNodeIconUrl(`${nodeId}_${i}`, opt.name, nodeType);
+        const iconData = getNodeIconStyle(`${nodeId}_${i}`, opt.name, nodeType, opt.icon);
         return (
           <ChoiceHalf
             key={opt.id}
-            iconUrl={url}
+            iconData={iconData}
             altText={opt.name}
             color={color}
             isLocked={isLocked}
@@ -782,7 +1040,7 @@ function ChoiceSplitIcon({
 }
 
 interface ChoiceHalfProps {
-  iconUrl: string;
+  iconData: ReturnType<typeof getNodeIconStyle>;
   altText: string;
   color: string;
   isLocked: boolean;
@@ -791,8 +1049,7 @@ interface ChoiceHalfProps {
   side: 'left' | 'right';
 }
 
-function ChoiceHalf({ iconUrl, altText, color, isLocked, isSelected, isDim, side }: ChoiceHalfProps) {
-  const [err, setErr] = useState(false);
+function ChoiceHalf({ iconData, altText, color, isLocked, isSelected, isDim, side }: ChoiceHalfProps) {
   const filter = isLocked
     ? 'grayscale(1) brightness(0.3)'
     : isSelected
@@ -801,37 +1058,32 @@ function ChoiceHalf({ iconUrl, altText, color, isLocked, isSelected, isDim, side
     ? 'grayscale(0.7) brightness(0.5)'
     : 'saturate(0.9) brightness(0.85)';
   const opacity = isLocked ? 0.5 : isDim ? 0.45 : 1;
-  // Each half is 50% wide; we use background-image on the half itself so we can
-  // position the SAME icon offset to "show" the appropriate half of a single icon.
-  // For different per-option icons, we instead show the icon centered in the half.
   return (
     <div
       className="relative h-full overflow-hidden"
       style={{ width: '50%' }}
     >
-      {!err ? (
-        <img
-          src={iconUrl}
-          alt={altText}
+      {iconData.type === 'sprite' ? (
+        <div
           className="absolute top-0 h-full"
           style={{
-            // Render the option icon at the full node size, but only the
-            // appropriate half is visible thanks to the parent's overflow:hidden
             width: '200%',
             left: side === 'left' ? 0 : '-100%',
-            objectFit: 'cover',
+            backgroundImage: iconData.backgroundImage,
+            backgroundPosition: iconData.backgroundPosition,
+            backgroundSize: iconData.backgroundSize,
+            backgroundRepeat: 'no-repeat',
             filter,
             opacity,
             transition: 'filter 0.25s, opacity 0.25s',
           }}
-          onError={() => setErr(true)}
-          draggable={false}
         />
       ) : (
         <div
           className="absolute inset-0 flex items-center justify-center text-[10px] font-bold"
           style={{
             color: isSelected ? color : '#555',
+            background: 'rgba(0,0,0,0.25)',
             opacity,
           }}
         >
@@ -848,6 +1100,7 @@ interface WowTooltipProps {
   node: TalentNode;
   state: NodeState;
   color: string;
+  treeSide: 'class' | 'spec';
   allNodes: TalentNode[];
   selectedOptionId?: string;
   getNodeState: (id: string) => NodeState;
@@ -855,74 +1108,84 @@ interface WowTooltipProps {
   mousePos: { x: number; y: number };
 }
 
-function cleanTooltipText(text: string): string {
-  return text
-    .replace(/\[?Interface\\[^)\]\s]+]?/gi, '')
-    .replace(/\bInterface\\[^\s]+/gi, '')
-    .replace(/\b[A-Z][A-Za-z]+_[A-Za-z0-9_]+\b/g, '')
-    .replace(/\b[a-z0-9-]+_(class|spec|left|right|l|r|sb)_[a-z0-9_-]+\b/gi, '')
-    .replace(/\s+/g, ' ')
-    .trim();
+// ── Section color map ────────────────────────────────────────────────────────
+// Default foreground colors for each semantic section kind.
+// Per-span color overrides from |cRRGGBB| tags are applied on top of these.
+const SECTION_COLORS: Record<SectionKind, string> = {
+  'unlock-header': '#66ddff',
+  'resource':      '#d8d8f0',
+  'cast-time':     '#c8c8dc',
+  'cooldown':      '#ffffff',
+  'description':   '#d2d2df',
+  'spell-header':  '#ffffff',
+  'divider':       'transparent',
+  'shift-hint':    '#00ddff',
+  'junk':          'transparent',
+};
+
+/** Render a sequence of TextSpans, applying per-span color overrides. */
+function SpanText({ spans, defaultColor }: { spans: { text: string; color?: string }[]; defaultColor: string }) {
+  return (
+    <>
+      {spans.map((span, i) =>
+        span.color
+          ? <span key={i} style={{ color: span.color }}>{span.text}</span>
+          : <span key={i} style={{ color: defaultColor }}>{span.text}</span>
+      )}
+    </>
+  );
 }
 
-function formatTooltipText(text: string): string[] {
-  const cleaned = cleanTooltipText(text);
-  if (!cleaned) return [];
-  return cleaned
-    .replace(/\s+(?=(?:\d+\s+(?:Mana|Energy|Rage|Focus|Runic Power)|Instant cast|Channeled|Passive|Melee Range|Ranged Range|Requires|Cooldown|Recharge|Charges)\b)/gi, '\n')
-    .replace(/\s+(?=(?:\d+(?:\.\d+)?\s*(?:sec|min)\s+(?:cooldown|recharge)|\d+\s+Charges?)\b)/gi, '\n')
-    .replace(/\.\s+(?=[A-Z])/g, '.\n')
-    .split('\n')
-    .map(line => line.trim())
-    .filter(Boolean);
-}
+function WowTooltip({ node, state, color, treeSide, allNodes, getNodeState, selectedOptionId, mousePos }: WowTooltipProps) {
+  const { status, currentPoints } = state;
+  const isLocked      = status === 'locked';
+  const isMaxed       = status === 'maxed';
+  const isActive      = status === 'active';
+  const isChoice      = node.type === 'choice';
+  const isAutoGranted = !!node.autoGranted;
+  const shiftHeld     = useShiftKey();
 
-function tooltipLineKind(line: string): 'resource' | 'cast' | 'timing' | 'requirement' | 'description' {
-  if (/^\d+\s+(Mana|Energy|Rage|Focus|Runic Power)\b/i.test(line)) return 'resource';
-  if (/^(Instant cast|Channeled|Passive|Melee Range|Ranged Range)\b/i.test(line)) return 'cast';
-  if (/(cooldown|recharge|charges?)\b/i.test(line)) return 'timing';
-  if (/^(Requires|Spend|Unlocks)\b/i.test(line)) return 'requirement';
-  return 'description';
-}
+  const AG_COLOR = '#00e5cc';
+  const tooltipColor = isAutoGranted ? AG_COLOR : color;
 
-function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOptionId, mousePos }: WowTooltipProps) {
-  const { status, currentPoints, lockReason, tierGateRequired, sideSpent } = state;
-  const isLocked  = status === 'locked';
-  const isMaxed   = status === 'maxed';
-  const isActive  = status === 'active';
-  const isChoice  = node.type === 'choice';
-
-  // Prereqs need ALL (AND logic) to have ≥1 point — show ANY unmet
-  const unmetPrereqs = node.prerequisites.filter(pid => {
-    const pNode = allNodes.find(n => n.id === pid);
-    if (!pNode) return false;
-    const pState = getNodeState(pid);
-    return pState.currentPoints === 0;
-  });
-  const hasUnmetPrereqs = unmetPrereqs.length > 0;
-
-  const prereqNames = unmetPrereqs
+  // Show all prereq names (OR logic — any one satisfies).
+  const prereqNames = node.prerequisites
     .map(pid => allNodes.find(n => n.id === pid)?.name)
-    .filter(Boolean);
+    .filter((n): n is string => Boolean(n));
 
   const selectedOption = isChoice
     ? (node.options ?? []).find(o => o.id === selectedOptionId)
     : undefined;
-  const descriptionLines = formatTooltipText(node.description);
+
+  // Parse the raw description through the WoW markup parser.
+  const parsed = useMemo(() => parseWowTooltip(node.description), [node.description]);
+  const parsedExpanded = useMemo(
+    () => node.expandedDescription != null ? parseWowTooltip(node.expandedDescription) : null,
+    [node.expandedDescription],
+  );
+
+  // Separate metadata sections (resource/cast/cooldown) from description body.
+  const metaSections = parsed.sections.filter(s =>
+    s.kind === 'unlock-header' || s.kind === 'resource' || s.kind === 'cast-time' || s.kind === 'cooldown'
+  );
+  const bodySections = parsed.sections.filter(s =>
+    s.kind !== 'unlock-header' && s.kind !== 'resource' && s.kind !== 'cast-time' && s.kind !== 'cooldown'
+  );
+
+  // Expanded description body (Shift-held). If the field is an empty string we
+  // render a scaffold block so the slot is visible during content authoring.
+  const expandedBodySections = parsedExpanded
+    ? parsedExpanded.sections.filter(s =>
+        s.kind !== 'unlock-header' && s.kind !== 'resource' && s.kind !== 'cast-time' && s.kind !== 'cooldown'
+      )
+    : null;
+  const hasExpandedContent = node.expandedDescription != null;  // field exists (even if empty)
 
   // The tooltip is rendered via a portal to document.body so that
   // `position: fixed` resolves against the viewport — it would otherwise be
   // anchored to the CSS-transformed ScaleStage ancestor and drift.
-  //
-  // Layout strategy: cache the rendered tooltip dimensions in state, then
-  // compute placement inline on every cursor move. The cursor sits at
-  // (mousePos.x, mousePos.y); we place the tooltip so its arrow is centered
-  // on that point. Vertical: prefer above cursor, flip below if it would clip
-  // the top edge. Horizontal: center on cursor, then clamp into the viewport
-  // — and decouple the arrow's x from the tooltip's x so the arrow always
-  // points at the cursor even when the tooltip itself is clamped.
   const tooltipRef = useRef<HTMLDivElement>(null);
-  const [dims, setDims] = useState({ w: 292, h: 0 });
+  const [dims, setDims] = useState({ w: 306, h: 0 });
 
   useLayoutEffect(() => {
     const el = tooltipRef.current;
@@ -955,6 +1218,19 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
   const arrowX = Math.max(10, Math.min(w - 10, mousePos.x - left));
   const isTop = placement === 'top';
 
+  // ── auto-passive description helpers ─────────────────────────────────────
+  const agDescription = bodySections
+    .filter(s => s.kind === 'description')
+    .map(s => s.raw)
+    .join(' ')
+    .replace(/\bLevel:\s*\d+/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+  const agTeachesAbility = /teaches you|grants you|learn /i.test(agDescription);
+  const agAbilityNameMatch = agDescription.match(/(?:teaches|grants) you ([^.]+)\./i);
+  const agAbilityName = agAbilityNameMatch ? agAbilityNameMatch[1].trim() : null;
+  const agNodeTypeLabel = agTeachesAbility ? 'Ability' : 'Passive';
+
   return createPortal(
     <motion.div
       ref={tooltipRef}
@@ -962,12 +1238,10 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.94 }}
       transition={{ duration: 0.12 }}
-      className="fixed z-[100] pointer-events-none w-[292px]"
+      className="fixed z-[100] pointer-events-none w-[306px]"
       style={{
         left,
         top,
-        // Hide on the very first paint (before measure) to avoid a flash at
-        // the cursor's top-left while h is still 0.
         visibility: h === 0 ? 'hidden' : 'visible',
       }}
     >
@@ -976,16 +1250,16 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
         className="rounded-md overflow-hidden"
         style={{
           background: 'linear-gradient(160deg, #171421 0%, #090813 100%)',
-          border: `1px solid ${color}55`,
-          boxShadow: `0 12px 38px rgba(0,0,0,0.9), 0 0 0 1px ${color}18, 0 0 24px ${color}18`,
+          border: `1px solid ${tooltipColor}55`,
+          boxShadow: `0 12px 38px rgba(0,0,0,0.9), 0 0 0 1px ${tooltipColor}18, 0 0 24px ${tooltipColor}18`,
         }}
       >
         {/* Title bar */}
         <div
           className="px-3.5 pt-3 pb-2.5"
           style={{
-            background: `linear-gradient(90deg, ${color}18 0%, ${color}06 100%)`,
-            borderBottom: `1px solid ${color}30`,
+            background: `linear-gradient(90deg, ${tooltipColor}18 0%, ${tooltipColor}06 100%)`,
+            borderBottom: `1px solid ${tooltipColor}30`,
           }}
         >
           {/* Talent name — gold, WoW style */}
@@ -995,164 +1269,347 @@ function WowTooltip({ node, state, color, allNodes, getNodeState, selectedOption
           >
             {node.name}
           </div>
-          {/* Type + rank */}
           <div className="flex items-center gap-2 mt-1.5">
-            <span
-              className="text-[9px] uppercase tracking-[0.15em] font-bold px-1.5 py-0.5 rounded"
-              style={{
-                background: `${color}22`,
-                color: `${color}CC`,
-                border: `1px solid ${color}33`,
-              }}
-            >
-              {node.type}
-            </span>
-            <span className="text-[10px]" style={{ color: '#a8a8bd' }}>
-              Rank {currentPoints} / {node.maxPoints}
-            </span>
+            {isAutoGranted ? (
+              <>
+                <span
+                  className="text-[9px] uppercase tracking-[0.15em] font-bold px-1.5 py-0.5 rounded"
+                  style={{
+                    background: `${AG_COLOR}22`,
+                    color: AG_COLOR,
+                    border: `1px solid ${AG_COLOR}44`,
+                  }}
+                >
+                  auto-passive
+                </span>
+                {node.unlockAt !== undefined && (
+                  <span className="text-[10px]" style={{ color: '#e07820' }}>
+                    Requires Level {node.unlockAt}
+                  </span>
+                )}
+              </>
+            ) : (
+              <>
+                <span
+                  className="text-[9px] uppercase tracking-[0.15em] font-bold px-1.5 py-0.5 rounded"
+                  style={{
+                    background: `${color}22`,
+                    color: `${color}CC`,
+                    border: `1px solid ${color}33`,
+                  }}
+                >
+                  {node.type}
+                </span>
+                <span className="text-[10px]" style={{ color: '#a8a8bd' }}>
+                  Rank {currentPoints} / {node.maxPoints}
+                </span>
+              </>
+            )}
           </div>
         </div>
 
         {/* Body */}
-        <div className="px-3.5 py-3 space-y-3">
-          {descriptionLines.length > 0 && (
-            <div className="space-y-1.5">
-              {descriptionLines.map((line, idx) => {
-                const kind = tooltipLineKind(line);
-                return (
-                  <div
-                    key={`${kind}-${idx}`}
-                    className={kind === 'description' ? 'text-[12px] leading-[1.55]' : 'text-[11px] leading-snug'}
-                    style={{
-                      color:
-                        kind === 'resource' ? '#d8d8ee'
-                        : kind === 'cast' ? '#b8b8cc'
-                        : kind === 'timing' ? '#a8a8bd'
-                        : kind === 'requirement' ? '#ff7070'
-                        : '#d2d2df',
-                      marginTop: idx > 0 && kind === 'description' && tooltipLineKind(descriptionLines[idx - 1]) !== 'description' ? 8 : undefined,
-                    }}
-                  >
-                    {line}
-                  </div>
-                );
-              })}
-            </div>
-          )}
+        <div className="px-3.5 py-2.5 space-y-0">
 
-          {/* Choice node — show both options with selection state */}
-          {isChoice && node.options && node.options.length === 2 && (
-            <div className="pt-1 space-y-2 border-t" style={{ borderColor: `${color}22` }}>
-              {node.options.map((opt, i) => {
-                const isSelected = opt.id === selectedOptionId;
-                return (
-                  <div
-                    key={opt.id}
-                    className="text-[11px] leading-snug px-2.5 py-2 rounded"
-                    style={{
-                      color: isSelected ? '#fff' : '#7a7a90',
-                      background: isSelected ? `${color}22` : 'rgba(255,255,255,0.02)',
-                      border: `1px solid ${isSelected ? `${color}66` : '#252535'}`,
-                    }}
-                  >
-                    <div className="flex items-center gap-1.5 mb-0.5">
-                      <span
-                        className="text-[8px] font-bold uppercase tracking-wider px-1 py-px rounded"
-                        style={{
-                          color: isSelected ? color : '#55556a',
-                          background: isSelected ? `${color}11` : 'transparent',
-                          border: `1px solid ${isSelected ? `${color}44` : '#252535'}`,
-                        }}
-                      >
-                        {String.fromCharCode(65 + i)}
-                      </span>
-                      <span className="font-bold" style={{ color: isSelected ? '#ffd100' : '#7a7a90' }}>
-                        {opt.name}
-                      </span>
-                      {isSelected && (
-                        <span className="ml-auto text-[8px]" style={{ color: `${color}AA` }}>● selected</span>
-                      )}
-                    </div>
-                    <div style={{ color: isSelected ? '#c8c8d8' : '#55556a' }}>
-                      {opt.description}
-                    </div>
-                  </div>
-                );
-              })}
-              {currentPoints > 0 && (
-                <p className="text-[10px] italic pt-0.5" style={{ color: `${color}99` }}>
-                  Click to switch between options
+          {/* ── AUTO-PASSIVE branch: clean minimal layout ── */}
+          {isAutoGranted ? (
+            <>
+              <div className="text-[11px] font-semibold mb-1.5" style={{ color: `${AG_COLOR}CC` }}>
+                Level {node.unlockAt ?? '?'} {agNodeTypeLabel}
+              </div>
+
+              {agDescription && !agTeachesAbility && (
+                <p className="text-[12px] leading-relaxed" style={{ color: '#c8c8d8' }}>
+                  {agDescription}
                 </p>
               )}
-            </div>
-          )}
 
-          {/* Tier gate not met — red */}
-          {isLocked && lockReason === 'tier' && tierGateRequired !== undefined && (
-            <div
-              className="text-[11px] leading-relaxed px-2.5 py-2 rounded"
-              style={{
-                color: '#ff5050',
-                background: 'rgba(255,50,50,0.08)',
-                border: '1px solid rgba(255,50,50,0.2)',
-              }}
-            >
-              Spend <span className="font-bold">{Math.max(tierGateRequired - (sideSpent ?? 0), 0)}</span> more points in this tree to unlock this row
-              {sideSpent !== undefined && (
-                <span className="text-muted-foreground/80"> ({sideSpent}/{tierGateRequired})</span>
+              {agTeachesAbility && (
+                <>
+                  <p className="text-[12px] leading-relaxed mb-2" style={{ color: '#c8c8d8' }}>
+                    Teaches you {agAbilityName ?? node.name}.
+                  </p>
+                  <div
+                    className="my-2"
+                    style={{
+                      height: 1,
+                      background: `linear-gradient(90deg, transparent 0%, ${AG_COLOR}44 20%, ${AG_COLOR}44 80%, transparent 100%)`,
+                    }}
+                  />
+                  <div className="flex items-start gap-2">
+                    <div
+                      className="flex-none rounded"
+                      style={{
+                        width: 36, height: 36,
+                        background: `${AG_COLOR}18`,
+                        border: `1px solid ${AG_COLOR}44`,
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      }}
+                    >
+                      <span className="text-[10px] font-bold" style={{ color: `${AG_COLOR}AA` }}>
+                        {(agAbilityName ?? node.name).split(' ').map((w: string) => w[0]).join('').slice(0, 3)}
+                      </span>
+                    </div>
+                    <div>
+                      <div className="text-[12px] font-bold leading-tight mb-0.5" style={{ color: '#ffd100' }}>
+                        {agAbilityName ?? node.name}
+                      </div>
+                      <p className="text-[11px] leading-relaxed" style={{ color: '#c8c8d8' }}>
+                        {agDescription}
+                      </p>
+                    </div>
+                  </div>
+                </>
               )}
-            </div>
-          )}
 
-          {/* Prereqs unmet — red. AND logic: lists every unmet prereq. */}
-          {isLocked && lockReason === 'prereq' && hasUnmetPrereqs && prereqNames.length > 0 && (
-            <div
-              className="text-[11px] leading-relaxed px-2.5 py-2 rounded"
-              style={{
-                color: '#ff5050',
-                background: 'rgba(255,50,50,0.08)',
-                border: '1px solid rgba(255,50,50,0.2)',
-              }}
-            >
-              <span className="font-bold">Requires</span>{' '}
-              {node.prerequisites.length > 1
-                ? `${prereqNames.join(' AND ')}`
-                : `${prereqNames[0]}`}
-            </div>
-          )}
+            </>
+          ) : (
+            <>
+              {/* ── Normal node: requirement block ── */}
+              {(() => {
+                const pos = node.position as { gridRow?: number };
+                const rowIdx = (pos.gridRow != null && pos.gridRow >= 1) ? pos.gridRow : 1;
+                const rowLvl = getRowLevelReq(rowIdx, treeSide);
+                const essenceName = treeSide === 'class' ? 'Ability Essence in class tree' : 'Talent Essence in spec tree';
+                const hasReqs = rowLvl > 1
+                  || (node.requiredLevel != null && node.requiredLevel > 0)
+                  || metaSections.length > 0
+                  || (node.reqTabPoints != null && node.reqTabPoints > 0)
+                  || prereqNames.length > 0;
+                if (!hasReqs) return null;
+                return (
+                  <div className="pb-1.5 mb-1" style={{ borderBottom: `1px solid ${tooltipColor}1a` }}>
+                    {rowLvl > 1 && (
+                      <div className="text-[11px] leading-snug py-px" style={{ color: '#ff4040' }}>
+                        Requires Level {rowLvl}
+                      </div>
+                    )}
+                    {node.requiredLevel != null && node.requiredLevel > 0 && node.requiredLevel !== rowLvl && (
+                      <div className="text-[11px] leading-snug py-px" style={{ color: '#ff4040' }}>
+                        Requires Level {node.requiredLevel}
+                      </div>
+                    )}
+                    {metaSections.map((sec, idx) => (
+                      <div key={idx} className="text-[11px] leading-snug py-px">
+                        <SpanText spans={sec.spans} defaultColor={SECTION_COLORS[sec.kind]} />
+                      </div>
+                    ))}
+                    {node.reqTabPoints != null && node.reqTabPoints > 0 ? (
+                      <div className="text-[11px] leading-snug py-px" style={{ color: '#ff8040' }}>
+                        requires {node.reqTabPoints} {essenceName}
+                        {prereqNames.length > 0 && (
+                          <span>; requires one connected node: {prereqNames.join(' or ')}</span>
+                        )}
+                      </div>
+                    ) : prereqNames.length > 0 ? (
+                      <div className="text-[11px] leading-snug py-px" style={{ color: '#ff8040' }}>
+                        requires one connected node: {prereqNames.join(' or ')}
+                      </div>
+                    ) : null}
+                  </div>
+                );
+              })()}
 
-          {/* Selected option summary (when choice node has selection) */}
-          {isChoice && selectedOption && !isLocked && (
-            <div
-              className="text-[11px] leading-relaxed px-2.5 py-2 rounded font-bold"
-              style={{
-                color,
-                background: `${color}10`,
-                border: `1px solid ${color}33`,
-              }}
-            >
-              Active: {selectedOption.name}
-            </div>
-          )}
+              {/* Body: description / spell-headers / dividers / shift-hint */}
+              {bodySections.length > 0 && (
+                <div className="py-1.5 space-y-0">
+                  {bodySections.map((sec, idx) => {
+                    if (sec.kind === 'divider') {
+                      return (
+                        <div
+                          key={idx}
+                          className="my-2"
+                          style={{
+                            height: 1,
+                            background: `linear-gradient(90deg, transparent 0%, ${color}44 20%, ${color}44 80%, transparent 100%)`,
+                          }}
+                        />
+                      );
+                    }
+                    if (sec.kind === 'spell-header') {
+                      return (
+                        <div key={idx} className="text-[12px] font-bold leading-snug py-0.5">
+                          <SpanText spans={sec.spans} defaultColor={SECTION_COLORS['spell-header']} />
+                        </div>
+                      );
+                    }
+                    if (sec.kind === 'shift-hint') {
+                      return (
+                        <div key={idx} className="text-[10px] leading-snug italic mt-1" style={{ color: SECTION_COLORS['shift-hint'] }}>
+                          <SpanText spans={sec.spans} defaultColor={SECTION_COLORS['shift-hint']} />
+                        </div>
+                      );
+                    }
+                    const prevSec = bodySections[idx - 1];
+                    const addTopGap = idx > 0 && prevSec?.kind !== 'description' && prevSec?.kind !== 'divider';
+                    return (
+                      <div
+                        key={idx}
+                        className="text-[12px] leading-[1.6]"
+                        style={{ color: SECTION_COLORS['description'], marginTop: addTopGap ? 6 : 2 }}
+                      >
+                        <SpanText spans={sec.spans} defaultColor={SECTION_COLORS['description']} />
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
 
-          {/* Hint text */}
-          <p className="text-[10px] pt-1 border-t" style={{ color: '#5a5a70', borderColor: `${color}18` }}>
-            {isLocked
-              ? 'Complete prerequisites to unlock'
-              : isChoice && currentPoints > 0
-              ? 'Left-click to switch · Right-click to refund'
-              : isChoice
-              ? 'Left-click to spend 1 point and pick option A'
-              : isMaxed
-              ? 'Right-click to refund'
-              : isActive
-              ? 'Left-click to add · Right-click to refund'
-              : 'Left-click to allocate a point'}
-          </p>
+              {/* Choice node */}
+              {isChoice && node.options && node.options.length === 2 && (
+                <div className="pt-1.5 mt-0.5 space-y-2 border-t" style={{ borderColor: `${color}22` }}>
+                  {node.options.map((opt, i) => {
+                    const isSelected = opt.id === selectedOptionId;
+                    const optParsed = parseWowTooltip(opt.description ?? '');
+                    const optDesc = optParsed.sections
+                      .filter(s => s.kind === 'description')
+                      .map(s => s.raw)
+                      .join(' ');
+                    return (
+                      <div
+                        key={opt.id}
+                        className="text-[11px] leading-snug px-2.5 py-2 rounded"
+                        style={{
+                          color: isSelected ? '#fff' : '#7a7a90',
+                          background: isSelected ? `${color}22` : 'rgba(255,255,255,0.02)',
+                          border: `1px solid ${isSelected ? `${color}66` : '#252535'}`,
+                        }}
+                      >
+                        <div className="flex items-center gap-1.5 mb-0.5">
+                          <span
+                            className="text-[8px] font-bold uppercase tracking-wider px-1 py-px rounded"
+                            style={{
+                              color: isSelected ? color : '#55556a',
+                              background: isSelected ? `${color}11` : 'transparent',
+                              border: `1px solid ${isSelected ? `${color}44` : '#252535'}`,
+                            }}
+                          >
+                            {String.fromCharCode(65 + i)}
+                          </span>
+                          <span className="font-bold" style={{ color: isSelected ? '#ffd100' : '#7a7a90' }}>
+                            {opt.name}
+                          </span>
+                          {isSelected && (
+                            <span className="ml-auto text-[8px]" style={{ color: `${color}AA` }}>● selected</span>
+                          )}
+                        </div>
+                        {optDesc && (
+                          <div className="mt-0.5" style={{ color: isSelected ? '#c8c8d8' : '#55556a' }}>
+                            {optDesc}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                  {currentPoints > 0 && (
+                    <p className="text-[10px] italic pt-0.5" style={{ color: `${color}99` }}>
+                      Click to switch between options
+                    </p>
+                  )}
+                </div>
+              )}
+
+              {/* Selected option summary */}
+              {isChoice && selectedOption && !isLocked && (
+                <div
+                  className="text-[11px] leading-relaxed px-2.5 py-2 mt-1 rounded font-bold"
+                  style={{ color, background: `${color}10`, border: `1px solid ${color}33` }}
+                >
+                  Active: {selectedOption.name}
+                </div>
+              )}
+
+              {/* Advanced Details (Shift-held) */}
+              {shiftHeld && (() => {
+                const pos = node.position as { x: number; y: number; gridRow?: number; gridColumn?: number };
+                const row = pos.gridRow ?? null;
+                const col = pos.gridColumn ?? null;
+                const essenceType = (() => {
+                  const idStr = String(node.id);
+                  if (idStr.includes('_l_') || idStr.includes('class')) return 'AE';
+                  if (idStr.includes('_r_') || idStr.includes('spec'))  return 'TE';
+                  return '—';
+                })();
+                const flags: string[] = [];
+                if (isChoice)         flags.push('choice');
+                if (node.type === 'capstone') flags.push('capstone');
+                if (node.maxPoints > 1)       flags.push(`multi-rank (×${node.maxPoints})`);
+                if (node.prerequisites.length === 0) flags.push('no prereqs');
+
+                type Row = { label: string; value: string };
+                const rows: Row[] = [
+                  { label: 'Node ID',    value: String(node.id) },
+                  { label: 'Type',       value: node.type },
+                  { label: 'Essence',    value: essenceType },
+                  { label: 'Max Rank',   value: String(node.maxPoints) },
+                  { label: 'Row',        value: row != null ? String(row) : '—' },
+                  { label: 'Col',        value: col != null ? String(col) : '—' },
+                  { label: 'Prereqs',    value: node.prerequisites.length > 0
+                    ? `${node.prerequisites.length} (OR logic)` : 'none' },
+                  { label: 'Mode',       value: node.prerequisites.length > 1 ? 'OR' : node.prerequisites.length === 1 ? 'Single' : '—' },
+                ];
+                if (flags.length > 0) rows.push({ label: 'Flags', value: flags.join(', ') });
+
+                return (
+                  <div
+                    className="mt-2 rounded overflow-hidden"
+                    style={{ background: 'rgba(0,200,220,0.04)', border: '1px solid rgba(0,200,220,0.18)' }}
+                  >
+                    <div
+                      className="flex items-center gap-1.5 px-2.5 py-1.5"
+                      style={{ borderBottom: '1px solid rgba(0,200,220,0.14)', background: 'rgba(0,200,220,0.07)' }}
+                    >
+                      <div className="w-1 h-1 rounded-full" style={{ background: '#00cce8' }} />
+                      <span className="text-[9px] font-bold uppercase tracking-[0.16em]" style={{ color: '#00cce8' }}>
+                        Advanced Details
+                      </span>
+                    </div>
+                    <div className="px-2.5 py-1.5 grid grid-cols-2 gap-x-3 gap-y-0.5">
+                      {rows.map(({ label, value }) => (
+                        <React.Fragment key={label}>
+                          <span className="text-[9px] uppercase tracking-wide" style={{ color: '#4a6070' }}>{label}</span>
+                          <span className="text-[9px] font-mono text-right" style={{ color: '#9ab8c8' }}>{value}</span>
+                        </React.Fragment>
+                      ))}
+                    </div>
+                    {expandedBodySections && expandedBodySections.length > 0 && (
+                      <div className="px-2.5 pb-1.5 pt-0.5" style={{ borderTop: '1px solid rgba(0,200,220,0.10)' }}>
+                        {expandedBodySections.map((sec, idx) => (
+                          sec.kind === 'divider'
+                            ? <div key={idx} className="my-1" style={{ height: 1, background: 'rgba(0,200,220,0.18)' }} />
+                            : <div key={idx} className="text-[10px] leading-[1.55]" style={{ color: '#8ab0c0', marginTop: idx > 0 ? 2 : 0 }}>
+                                <SpanText spans={sec.spans} defaultColor="#8ab0c0" />
+                              </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
+
+              {/* Hint text */}
+              <p className="text-[10px] pt-2 mt-1 border-t" style={{ color: '#5a5a70', borderColor: `${tooltipColor}18` }}>
+                {isLocked
+                  ? 'Complete prerequisites to unlock'
+                  : isChoice && currentPoints > 0
+                  ? 'Left-click to switch · Right-click to refund'
+                  : isChoice
+                  ? 'Left-click to spend 1 point and pick option A'
+                  : isMaxed
+                  ? 'Right-click to refund'
+                  : isActive
+                  ? 'Left-click to add · Right-click to refund'
+                  : 'Left-click to allocate a point'}
+              </p>
+              <p className="text-[9px] mt-0.5" style={{ color: shiftHeld ? '#00cce840' : '#2a5565' }}>
+                {shiftHeld ? 'Release SHIFT to collapse' : 'HOLD SHIFT for more details'}
+              </p>
+            </>
+          )}
         </div>
       </div>
 
-      {/* Tooltip arrow — always centered on the cursor's actual x. */}
+      {/* Tooltip arrow */}
       <div
         className="absolute"
         style={{

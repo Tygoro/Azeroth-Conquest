@@ -1,0 +1,1708 @@
+[
+  {
+    "nodeId": 5713,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Libram of Fervor",
+    "description": "Read from your <span style=\"color: #ffffff; display: inline\">Libram of Fervor</span>, granting you spell power equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Agility and attack power equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Intellect for <span class=\"item-number\">20</span> seconds.<br /><br />",
+    "descriptionText": "Read from your Libram of Fervor, granting you spell power equal to 30% of your Agility and attack power equal to 30% of your Intellect for 20 seconds.",
+    "iconPath": "interface/icons/_book2motif_tyr",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805423,
+    "spellIds": [
+      805423
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6356
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805423,
+        "description": "Read from your <span style=\"color: #ffffff; display: inline\">Libram of Fervor</span>, granting you spell power equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Agility and attack power equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Intellect for <span class=\"item-number\">20</span> seconds.<br /><br />",
+        "descriptionText": "Read from your Libram of Fervor, granting you spell power equal to 30% of your Agility and attack power equal to 30% of your Intellect for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 4348,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Pious",
+    "description": "Increases all primary attributes by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases all primary attributes by 5%.",
+    "iconPath": "interface/icons/ability_skyreach_fourblades",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706431,
+    "spellIds": [
+      706431
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31314
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706431,
+        "description": "Increases all primary attributes by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases all primary attributes by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5156,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Determined",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> now makes your next ability within <span class=\"item-number\">5</span> seconds free of cost.",
+    "descriptionText": "Your Temple Guardian now makes your next ability within 5 seconds free of cost.",
+    "iconPath": "interface/icons/spell_holy_heroism",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705256,
+    "spellIds": [
+      705256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34345
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705256,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Temple Guardian</span> now makes your next ability within <span class=\"item-number\">5</span> seconds free of cost.",
+        "descriptionText": "Your Temple Guardian now makes your next ability within 5 seconds free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6924,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Interdict",
+    "description": "Forbid an enemy from sinning, silencing them for <span class=\"item-number\">5</span> seconds. If they are an Undead or Demon they are unable to be healed for the duration.",
+    "descriptionText": "Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration.",
+    "iconPath": "interface/icons/spell_priest_vowofunity",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560116,
+    "spellIds": [
+      560116
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34356,
+      34357
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560116,
+        "description": "Forbid an enemy from sinning, silencing them for <span class=\"item-number\">5</span> seconds. If they are an Undead or Demon they are unable to be healed for the duration.",
+        "descriptionText": "Forbid an enemy from sinning, silencing them for 5 seconds. If they are an Undead or Demon they are unable to be healed for the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6354,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Testament of Will",
+    "description": "Break an ally free of worldly constraints, making them immune to all movement impairing effects for <span class=\"item-number\">10</span> seconds.<br /><br />Applies <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> for <span class=\"item-number\">1</span> minute.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_sealoffury\" /><span class=\"name\">Sacred Restraint</span></div><span class=\"desc\">Cannot be targeted by <span style=\"color: #FFFFFF; display: inline\">Testaments</span>.</span></div>",
+    "descriptionText": "Break an ally free of worldly constraints, making them immune to all movement impairing effects for 10 seconds.\n\nApplies Sacred Restraint for 1 minute.\n\n---\n\nSacred RestraintCannot be targeted by Testaments.",
+    "iconPath": "interface/icons/_d3mystically",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801455,
+    "spellIds": [
+      801455
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6355,
+      6375
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801455,
+        "description": "Break an ally free of worldly constraints, making them immune to all movement impairing effects for <span class=\"item-number\">10</span> seconds.<br /><br />Applies <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> for <span class=\"item-number\">1</span> minute.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_sealoffury\" /><span class=\"name\">Sacred Restraint</span></div><span class=\"desc\">Cannot be targeted by <span style=\"color: #FFFFFF; display: inline\">Testaments</span>.</span></div>",
+        "descriptionText": "Break an ally free of worldly constraints, making them immune to all movement impairing effects for 10 seconds.\n\nApplies Sacred Restraint for 1 minute.\n\n---\n\nSacred RestraintCannot be targeted by Testaments."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6355,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Sacred Candle",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Holy Abdication</span> by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of Holy Abdication by -60 sec.",
+    "iconPath": "interface/icons/inv_helm_misc_candle_a_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300501,
+    "spellIds": [
+      300501
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34377
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300501,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Holy Abdication</span> by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of Holy Abdication by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6356,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Deep Meditation",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Oath Chain</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of your Oath Chain by 5 sec.",
+    "iconPath": "interface/icons/nhi_holy_wraith_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300522,
+    "spellIds": [
+      300522
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6358,
+      34341
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300522,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Oath Chain</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of your Oath Chain by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6358,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Spiritual",
+    "description": "Increases your Energy regeneration by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Energy regeneration by 20%.",
+    "iconPath": "interface/icons/ability_paladin_selflesshealer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560833,
+    "spellIds": [
+      560833
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29704,
+      34402
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560833,
+        "description": "Increases your Energy regeneration by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy regeneration by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6375,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Tyr's Guard",
+    "description": "<span style=\"color: #ffffff; display: inline\">Testament of Hope</span> now summons an additional copy of yourself.",
+    "descriptionText": "Testament of Hope now summons an additional copy of yourself.",
+    "iconPath": "interface/icons/inv_jewelry_talisman_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560649,
+    "spellIds": [
+      560649
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34368
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560649,
+        "description": "<span style=\"color: #ffffff; display: inline\">Testament of Hope</span> now summons an additional copy of yourself.",
+        "descriptionText": "Testament of Hope now summons an additional copy of yourself."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29259,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Glory",
+    "description": "$6b",
+    "descriptionText": "$6b",
+    "iconPath": "interface/icons/_d3innersanctuary",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801481,
+    "spellIds": [
+      801481
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7775,
+      7814
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801481,
+        "description": "$6c",
+        "descriptionText": "$6c"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7775,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Pulverizing",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Condemn</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to sunder the earth around you with holy fervor, dealing <span class=\"item-number\">91</span> + <span class=\"item-number\">22.5% holy SP</span> + <span class=\"item-number\">10% AP</span> Holy Damage to enemies within <span class=\"item-number\">5</span> yds.",
+    "descriptionText": "Damage dealt by Condemn now has a 15% chance to sunder the earth around you with holy fervor, dealing 91 + 22.5% holy SP + 10% AP Holy Damage to enemies within 5 yds.",
+    "iconPath": "interface/icons/spell_holy_healingaura",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524620,
+    "spellIds": [
+      524620
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5156,
+      34347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524620,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Condemn</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to sunder the earth around you with holy fervor, dealing <span class=\"item-number\">91</span> + <span class=\"item-number\">22.5% holy SP</span> + <span class=\"item-number\">10% AP</span> Holy Damage to enemies within <span class=\"item-number\">5</span> yds.",
+        "descriptionText": "Damage dealt by Condemn now has a 15% chance to sunder the earth around you with holy fervor, dealing 91 + 22.5% holy SP + 10% AP Holy Damage to enemies within 5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7814,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Sanctify",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Libram</span> spells now grant you <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee haste for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Your Libram spells now grant you 10% increased melee haste for 10 seconds.",
+    "iconPath": "interface/icons/spell_paladin_inquisition",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705274,
+    "spellIds": [
+      705274
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31313,
+      34347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705274,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Libram</span> spells now grant you <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee haste for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Your Libram spells now grant you 10% increased melee haste for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31313,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Courage",
+    "description": "Increases your movement speed by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects on you by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your movement speed by 8% and reduces the duration of movement slowing effects on you by -10%.",
+    "iconPath": "interface/icons/ability_karoz_leap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707754,
+    "spellIds": [
+      707754,
+      712466
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34337
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707754,
+        "description": "Increases your movement speed by <span class=\"item-number\">8</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects on you by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your movement speed by 8% and reduces the duration of movement slowing effects on you by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 712466,
+        "description": "Increases your movement speed by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reduces the duration of movement slowing effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your movement speed by 15% and reduces the duration of movement slowing effects on you by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31314,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Divine Force",
+    "description": "Leap at an enemy with divine force, stunning them for <span class=\"item-number\">6</span> seconds, dealing <span class=\"item-number\">25</span> + <span class=\"item-number\">100% SP</span> + <span class=\"item-number\">55% AP</span> Holy Damage, and interrupting non-player spellcasting for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Leap at an enemy with divine force, stunning them for 6 seconds, dealing 25 + 100% SP + 55% AP Holy Damage, and interrupting non-player spellcasting for 3 seconds.",
+    "iconPath": "interface/icons/spell_priest_pathofdevout",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806153,
+    "spellIds": [
+      806153
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806153,
+        "description": "Leap at an enemy with divine force, stunning them for <span class=\"item-number\">6</span> seconds, dealing <span class=\"item-number\">25</span> + <span class=\"item-number\">100% SP</span> + <span class=\"item-number\">55% AP</span> Holy Damage, and interrupting non-player spellcasting for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Leap at an enemy with divine force, stunning them for 6 seconds, dealing 25 + 100% SP + 55% AP Holy Damage, and interrupting non-player spellcasting for 3 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30611,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Liberty",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Libram</span> spells by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Libram spells by -30 sec.",
+    "iconPath": "interface/icons/inv_inscription_weaponscroll03",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705266,
+    "spellIds": [
+      705266
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5713,
+      34340
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705266,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Libram</span> spells by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Libram spells by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30063,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Profound Enlightenment",
+    "description": "Attain enlightenment, reducing the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Attain enlightenment, reducing the remaining cooldown of Testaments by 50%.",
+    "iconPath": "interface/icons/nhi_corruptionmind_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680953,
+    "spellIds": [
+      680953
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29707,
+      34349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680953,
+        "description": "Attain enlightenment, reducing the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Attain enlightenment, reducing the remaining cooldown of Testaments by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29704,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Blade of Faith",
+    "description": "Unleash a devastating <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> on an enemy dealing <span class=\"item-number\">112000</span> + <span class=\"item-number\">175000% SP</span> + <span class=\"item-number\">105000% AP</span> Holy Damage over <span class=\"item-number\">21</span> seconds.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+    "descriptionText": "Unleash a devastating Oath Breaker on an enemy dealing 112000 + 175000% SP + 105000% AP Holy Damage over 21 seconds.\n\nConsumes your Oaths, dealing additional damage for each consumed.",
+    "iconPath": "interface/icons/holy_blade_templar",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803872,
+    "spellIds": [
+      803872
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803872,
+        "description": "Unleash a devastating <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> on an enemy dealing <span class=\"item-number\">112000</span> + <span class=\"item-number\">175000% SP</span> + <span class=\"item-number\">105000% AP</span> Holy Damage over <span class=\"item-number\">21</span> seconds.<br /><br />Consumes your <span style=\"color: #ffffff; display: inline\">Oaths</span>, dealing additional damage for each consumed.",
+        "descriptionText": "Unleash a devastating Oath Breaker on an enemy dealing 112000 + 175000% SP + 105000% AP Holy Damage over 21 seconds.\n\nConsumes your Oaths, dealing additional damage for each consumed."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29706,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Martyr",
+    "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Gift of Zeal</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Gift of Zeal by 20%.",
+    "iconPath": "interface/icons/spell_holy_fanaticism",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300530,
+    "spellIds": [
+      300530
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6924
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300530,
+        "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Gift of Zeal</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Gift of Zeal by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29707,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Mark of Aggramar",
+    "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Energy cost of your Testaments by -50%.",
+    "iconPath": "interface/icons/spell_holy_holyguidance",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804928,
+    "spellIds": [
+      804928
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6354,
+      34337
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804928,
+        "description": "Reduces the Energy cost of your <span style=\"color: #ffffff; display: inline\">Testaments</span> by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Energy cost of your Testaments by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29714,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Blessed Strikes",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> abilities now refund <span class=\"item-number\">15</span> Energy.",
+    "descriptionText": "Your Oath Breaker abilities now refund 15 Energy.",
+    "iconPath": "interface/icons/spell_holy_vindication",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704180,
+    "spellIds": [
+      704180
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5713,
+      34356,
+      34357
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704180,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Oath Breaker</span> abilities now refund <span class=\"item-number\">15</span> Energy.",
+        "descriptionText": "Your Oath Breaker abilities now refund 15 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34337,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Tenacious Defender",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Libram of Tenacity</span> now also heals you for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum health.",
+    "descriptionText": "Casting Libram of Tenacity now also heals you for 20% of your maximum health.",
+    "iconPath": "interface/icons/spell_holy_sealoffury",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707385,
+    "spellIds": [
+      707385
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707385,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Libram of Tenacity</span> now also heals you for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum health.",
+        "descriptionText": "Casting Libram of Tenacity now also heals you for 20% of your maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34340,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Libram of Tenacity",
+    "description": "Read from your <span style=\"color: #FFFFFF; display: inline\">Libram of Tenacity</span>, reducing your Physical Damage taken by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />",
+    "descriptionText": "Read from your Libram of Tenacity, reducing your Physical Damage taken by -20% for 20 seconds.",
+    "iconPath": "interface/icons/_book2motif_lordaeroncorrupted",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801461,
+    "spellIds": [
+      801461
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6356
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801461,
+        "description": "Read from your <span style=\"color: #FFFFFF; display: inline\">Libram of Tenacity</span>, reducing your Physical Damage taken by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />",
+        "descriptionText": "Read from your Libram of Tenacity, reducing your Physical Damage taken by -20% for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34341,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Finesse",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces the duration of disarm effects against you by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 2% and reduces the duration of disarm effects against you by -15%.",
+    "iconPath": "interface/icons/5_paladinskill18_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705271,
+    "spellIds": [
+      705271,
+      707851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29704,
+      31314
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705271,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces the duration of disarm effects against you by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 2% and reduces the duration of disarm effects against you by -15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707851,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and reduces the duration of disarm effects against you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 4% and reduces the duration of disarm effects against you by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34342,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Holy Crusade",
+    "description": "Increases your damage dealt versus Undead by <span class=\"item-number\">53</span>, scaling with level.",
+    "descriptionText": "Increases your damage dealt versus Undead by 53, scaling with level.",
+    "iconPath": "interface/icons/spell_holy_power",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706323,
+    "spellIds": [
+      706323
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29714
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706323,
+        "description": "Increases your damage dealt versus Undead by <span class=\"item-number\">53</span>, scaling with level.",
+        "descriptionText": "Increases your damage dealt versus Undead by 53, scaling with level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34345,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Sturdy",
+    "description": "Increases your maximum health and Energy by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum health and Energy by 5%.",
+    "iconPath": "interface/icons/spell_monk_envelopingmist",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 681009,
+    "spellIds": [
+      681009,
+      681537
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29706,
+      34342
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681009,
+        "description": "Increases your maximum health and Energy by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health and Energy by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681537,
+        "description": "Increases your maximum health and Energy by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health and Energy by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34347,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Holy Constitution",
+    "description": "Increases your chance to resist disease effects by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to resist disease effects by 30%.",
+    "iconPath": "interface/icons/custom_skill_161_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524767,
+    "spellIds": [
+      524767
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34337,
+      34345
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524767,
+        "description": "Increases your chance to resist disease effects by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to resist disease effects by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34348,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Deep Secrets",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Libram</span> effects by <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Increases the duration of your Libram effects by 10 sec.",
+    "iconPath": "interface/icons/70_inscription_vantus_rune_light",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705263,
+    "spellIds": [
+      705263
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30611
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705263,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Libram</span> effects by <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Increases the duration of your Libram effects by 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34349,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Final Prayer",
+    "description": "Doubles the healing done to you by <span style=\"color: #ffffff; display: inline\">Holy Abdication</span> and <span style=\"color: #ffffff; display: inline\">Ascetic Abdication</span>.",
+    "descriptionText": "Doubles the healing done to you by Holy Abdication and Ascetic Abdication.",
+    "iconPath": "interface/icons/spell_holy_blessedlife",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705268,
+    "spellIds": [
+      705268
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6354
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705268,
+        "description": "Doubles the healing done to you by <span style=\"color: #ffffff; display: inline\">Holy Abdication</span> and <span style=\"color: #ffffff; display: inline\">Ascetic Abdication</span>.",
+        "descriptionText": "Doubles the healing done to you by Holy Abdication and Ascetic Abdication."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34350,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Sacred Defense",
+    "description": "When you take Physical Damage you now strike back at enemies for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the damage dealt as Holy Damage. Can only occur once per sec. <br /><br />",
+    "descriptionText": "When you take Physical Damage you now strike back at enemies for 15% of the damage dealt as Holy Damage. Can only occur once per sec.",
+    "iconPath": "interface/icons/inv_trinket_bastion_01_gold",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705306,
+    "spellIds": [
+      705306
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29707,
+      31313
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705306,
+        "description": "When you take Physical Damage you now strike back at enemies for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the damage dealt as Holy Damage. Can only occur once per sec. <br /><br />",
+        "descriptionText": "When you take Physical Damage you now strike back at enemies for 15% of the damage dealt as Holy Damage. Can only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34352,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Silverhand Incantation",
+    "description": "Chant a silverhand incantation, generating <span class=\"item-number\">100</span> Energy and removing <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> from yourself.",
+    "descriptionText": "Chant a silverhand incantation, generating 100 Energy and removing Sacred Restraint from yourself.",
+    "iconPath": "interface/icons/5_paladinskill06_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801465,
+    "spellIds": [
+      801465
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30063,
+      34350
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801465,
+        "description": "Chant a silverhand incantation, generating <span class=\"item-number\">100</span> Energy and removing <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> from yourself.",
+        "descriptionText": "Chant a silverhand incantation, generating 100 Energy and removing Sacred Restraint from yourself."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34353,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Testament of Hope",
+    "description": "Summons <span class=\"item-number\">2</span> copies of yourself that charge at a nearby enemy and aid you in combat for <span class=\"item-number\">15</span> seconds.<br /><br />While within <span class=\"item-number\">15</span> yds of you, each copy reduces all damage you take by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>. <br /><br />Applies <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> for <span class=\"item-number\">1</span> minute.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_sealoffury\" /><span class=\"name\">Sacred Restraint</span></div><span class=\"desc\">Cannot be targeted by <span style=\"color: #FFFFFF; display: inline\">Testaments</span>.</span></div>",
+    "descriptionText": "Summons 2 copies of yourself that charge at a nearby enemy and aid you in combat for 15 seconds.\n\nWhile within 15 yds of you, each copy reduces all damage you take by -10%. \n\nApplies Sacred Restraint for 1 minute.\n\n---\n\nSacred RestraintCannot be targeted by Testaments.",
+    "iconPath": "interface/icons/spell_holy_prayerofspirit",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 1397742,
+    "spellIds": [
+      1397742
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34379
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 1397742,
+        "description": "Summons <span class=\"item-number\">2</span> copies of yourself that charge at a nearby enemy and aid you in combat for <span class=\"item-number\">15</span> seconds.<br /><br />While within <span class=\"item-number\">15</span> yds of you, each copy reduces all damage you take by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>. <br /><br />Applies <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> for <span class=\"item-number\">1</span> minute.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_sealoffury\" /><span class=\"name\">Sacred Restraint</span></div><span class=\"desc\">Cannot be targeted by <span style=\"color: #FFFFFF; display: inline\">Testaments</span>.</span></div>",
+        "descriptionText": "Summons 2 copies of yourself that charge at a nearby enemy and aid you in combat for 15 seconds.\n\nWhile within 15 yds of you, each copy reduces all damage you take by -10%. \n\nApplies Sacred Restraint for 1 minute.\n\n---\n\nSacred RestraintCannot be targeted by Testaments."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34356,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Holy Crusader",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Divine Force</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Divine Force by -30 sec.",
+    "iconPath": "interface/icons/nhi_holyring_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524747,
+    "spellIds": [
+      524747
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 762711,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524747,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Divine Force</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Divine Force by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34357,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Scarlet Judicator",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Divine Force</span> now strikes <span class=\"item-number\">2</span> additional enemies near the primary target.",
+    "descriptionText": "Your Divine Force now strikes 2 additional enemies near the primary target.",
+    "iconPath": "interface/icons/ability_warrior_challange_yellow",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525024,
+    "spellIds": [
+      525024
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4348
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 762711,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525024,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Divine Force</span> now strikes <span class=\"item-number\">2</span> additional enemies near the primary target.",
+        "descriptionText": "Your Divine Force now strikes 2 additional enemies near the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34368,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Improved Benediction",
+    "description": "<span style=\"color: #ffffff; display: inline\">Benediction</span> now grants your target Armor based on your Agility and Stamina for <span class=\"item-number\">15</span> sec.",
+    "descriptionText": "Benediction now grants your target Armor based on your Agility and Stamina for 15 sec.",
+    "iconPath": "interface/icons/spell_holy_improvedresistanceauras",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705287,
+    "spellIds": [
+      705287
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34353
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705287,
+        "description": "<span style=\"color: #ffffff; display: inline\">Benediction</span> now grants your target Armor based on your Agility and Stamina for <span class=\"item-number\">15</span> sec.",
+        "descriptionText": "Benediction now grants your target Armor based on your Agility and Stamina for 15 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34375,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Binding Scripture",
+    "description": "Healing an ally now redirects <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of their damage taken to you and reduces your damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.<br /><br />",
+    "descriptionText": "Healing an ally now redirects 10% of their damage taken to you and reduces your damage taken by -5% for 10 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/_d3breathofheaven",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801457,
+    "spellIds": [
+      801457
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7814,
+      34350
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801457,
+        "description": "Healing an ally now redirects <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of their damage taken to you and reduces your damage taken by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.<br /><br />",
+        "descriptionText": "Healing an ally now redirects 10% of their damage taken to you and reduces your damage taken by -5% for 10 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34377,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Judicator",
+    "description": "Increases your parry and dodge chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your parry and dodge chance by 2%.",
+    "iconPath": "interface/icons/ability_thunderclap",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706359,
+    "spellIds": [
+      706359
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34340,
+      34353
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706359,
+        "description": "Increases your parry and dodge chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your parry and dodge chance by 2%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34379,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Sacred Style",
+    "description": "Increases your Holy healing received by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Holy healing received by 8%.",
+    "iconPath": "interface/icons/spell_holy_pureofheart",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705278,
+    "spellIds": [
+      705278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34402
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705278,
+        "description": "Increases your Holy healing received by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Holy healing received by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34402,
+    "classId": 19,
+    "className": "Templar",
+    "tabId": 87,
+    "tabKey": "19:87",
+    "tabName": "Class",
+    "name": "Testament of Fortitude",
+    "description": "Meditate for <span class=\"item-number\">15</span> seconds, restoring <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">1</span> sec and reducing damage taken by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.<br /><br />Each second you will also remove <span class=\"item-number\">1</span> disease effect from yourself. <br /><br />Applies <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> for <span class=\"item-number\">1</span> minute.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_sealoffury\" /><span class=\"name\">Sacred Restraint</span></div><span class=\"desc\">Cannot be targeted by <span style=\"color: #FFFFFF; display: inline\">Testaments</span>.</span></div>",
+    "descriptionText": "Meditate for 15 seconds, restoring 5% of your maximum health every 1 sec and reducing damage taken by -50%.\n\nEach second you will also remove 1 disease effect from yourself. \n\nApplies Sacred Restraint for 1 minute.\n\n---\n\nSacred RestraintCannot be targeted by Testaments.",
+    "iconPath": "interface/icons/nhi_holymeditation_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500678,
+    "spellIds": [
+      500678
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500678,
+        "description": "Meditate for <span class=\"item-number\">15</span> seconds, restoring <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">1</span> sec and reducing damage taken by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.<br /><br />Each second you will also remove <span class=\"item-number\">1</span> disease effect from yourself. <br /><br />Applies <span style=\"color: #ffffff; display: inline\">Sacred Restraint</span> for <span class=\"item-number\">1</span> minute.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_holy_sealoffury\" /><span class=\"name\">Sacred Restraint</span></div><span class=\"desc\">Cannot be targeted by <span style=\"color: #FFFFFF; display: inline\">Testaments</span>.</span></div>",
+        "descriptionText": "Meditate for 15 seconds, restoring 5% of your maximum health every 1 sec and reducing damage taken by -50%.\n\nEach second you will also remove 1 disease effect from yourself. \n\nApplies Sacred Restraint for 1 minute.\n\n---\n\nSacred RestraintCannot be targeted by Testaments."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

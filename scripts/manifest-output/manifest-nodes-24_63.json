@@ -1,0 +1,1850 @@
+[
+  {
+    "nodeId": 7821,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Draconic Rage",
+    "description": "Consuming <span style=\"color: #ff7f7f; display: inline\">Embers</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> on all enemies affected by <span style=\"color: #ffffff; display: inline\">Blaze</span>.",
+    "descriptionText": "Consuming Embers now has a 25% chance to trigger Dragon's Wrath on all enemies affected by Blaze.",
+    "iconPath": "interface/icons/achievement_boss_drakkisath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802164,
+    "spellIds": [
+      802164
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7202,
+      7926,
+      7936,
+      11936,
+      33873
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802164,
+        "description": "Consuming <span style=\"color: #ff7f7f; display: inline\">Embers</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> on all enemies affected by <span style=\"color: #ffffff; display: inline\">Blaze</span>.",
+        "descriptionText": "Consuming Embers now has a 25% chance to trigger Dragon's Wrath on all enemies affected by Blaze."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7925,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Destroyer's Maw",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">30</span> Heat</span><br />Unleash a vicious draconic maw on an enemy, dealing <span class=\"item-number\">113</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage that cannot be resisted.",
+    "descriptionText": "Generates 30 Heat\nUnleash a vicious draconic maw on an enemy, dealing 113 + 100% fire SP Fire Damage that cannot be resisted.",
+    "iconPath": "interface/icons/ability_deathwing_cataclysm",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802107,
+    "spellIds": [
+      802107
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7043
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802107,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">30</span> Heat</span><br />Unleash a vicious draconic maw on an enemy, dealing <span class=\"item-number\">113</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage that cannot be resisted.",
+        "descriptionText": "Generates 30 Heat\nUnleash a vicious draconic maw on an enemy, dealing 113 + 100% fire SP Fire Damage that cannot be resisted."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7926,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Soul of the Dragon",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to cast it again free of cost.",
+    "descriptionText": "Casting Flare Bolt now has a 15% chance to cast it again free of cost.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_fire_0008s_0000_breath_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704816,
+    "spellIds": [
+      704816
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704816,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704816,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to cast it again free of cost.",
+        "descriptionText": "Casting Flare Bolt now has a 15% chance to cast it again free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7931,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Wild Magic",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to become unstable, dealing <span class=\"item-number\">50</span> + <span class=\"item-number\">12.5% Intellect</span><span class=\"item-number\">%</span> additional damage as Magic Damage, but <span style=\"color: #ff4500; display: inline\">Burning</span> <span class=\"item-number\">85</span> + <span class=\"item-number\">40% Intellect</span> mana.<br /><br />Both the damage dealt and mana burned scale with your Intellect.",
+    "descriptionText": "Damage dealt by Dragon's Wrath now has a 50% chance to become unstable, dealing 50 + 12.5% Intellect% additional damage as Magic Damage, but Burning 85 + 40% Intellect mana.\n\nBoth the damage dealt and mana burned scale with your Intellect.",
+    "iconPath": "interface/icons/novart_magicspell_(62)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705559,
+    "spellIds": [
+      705559
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7821,
+      33911
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705559,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to become unstable, dealing <span class=\"item-number\">50</span> + <span class=\"item-number\">12.5% Intellect</span><span class=\"item-number\">%</span> additional damage as Magic Damage, but <span style=\"color: #ff4500; display: inline\">Burning</span> <span class=\"item-number\">85</span> + <span class=\"item-number\">40% Intellect</span> mana.<br /><br />Both the damage dealt and mana burned scale with your Intellect.",
+        "descriptionText": "Damage dealt by Dragon's Wrath now has a 50% chance to become unstable, dealing 50 + 12.5% Intellect% additional damage as Magic Damage, but Burning 85 + 40% Intellect mana.\n\nBoth the damage dealt and mana burned scale with your Intellect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7932,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Cinderstorm",
+    "description": "Reduces all threat generated by <span style=\"color: #FFFFFF; display: inline\">Firefall</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and increases its critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces all threat generated by Firefall by -25% and increases its critical strike chance by 10%.",
+    "iconPath": "interface/icons/nhi_fireblast_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706875,
+    "spellIds": [
+      706875
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11964
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706875,
+        "description": "Reduces all threat generated by <span style=\"color: #FFFFFF; display: inline\">Firefall</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and increases its critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces all threat generated by Firefall by -25% and increases its critical strike chance by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7933,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Aspect of Earth",
+    "description": "$91",
+    "descriptionText": "$91",
+    "iconPath": "interface/icons/achievement_dungeon_coablackdragonflight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802780,
+    "spellIds": [
+      802780
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7931,
+      7935,
+      33867
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802780,
+        "description": "$92",
+        "descriptionText": "$92"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7934,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Aspect of Magic",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> now increases your Intellect by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Consuming an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and your critical damage by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Damage dealt by Dragon's Wrath now increases your Intellect by 3% for 20 seconds, stacking 10 times.\n\nConsuming an Ember now increases your critical strike chance by 2% and your critical damage by 4% for 20 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/malygosicon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681334,
+    "spellIds": [
+      681334
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7931
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681334,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> now increases your Intellect by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />Consuming an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and your critical damage by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Damage dealt by Dragon's Wrath now increases your Intellect by 3% for 20 seconds, stacking 10 times.\n\nConsuming an Ember now increases your critical strike chance by 2% and your critical damage by 4% for 20 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7935,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Death From Above",
+    "description": "Root enemies in a <span class=\"item-number\">40</span> yd line for <span class=\"item-number\">3</span> seconds and then soar forward in a blaze of glory, dealing <span class=\"item-number\">926</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage every <span class=\"item-number\">1</span> sec to enemies beneath you for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Root enemies in a 40 yd line for 3 seconds and then soar forward in a blaze of glory, dealing 926 + 100% fire SP Fire Damage every 1 sec to enemies beneath you for 10 seconds.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_firebreath_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520402,
+    "spellIds": [
+      520402
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33911
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520402,
+        "description": "Root enemies in a <span class=\"item-number\">40</span> yd line for <span class=\"item-number\">3</span> seconds and then soar forward in a blaze of glory, dealing <span class=\"item-number\">926</span> + <span class=\"item-number\">100% fire SP</span> Fire Damage every <span class=\"item-number\">1</span> sec to enemies beneath you for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Root enemies in a 40 yd line for 3 seconds and then soar forward in a blaze of glory, dealing 926 + 100% fire SP Fire Damage every 1 sec to enemies beneath you for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7936,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Molten Fury",
+    "description": "Increases the damage and healing provided by <span style=\"color: #ffffff; display: inline\">Eruption</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, but reduces its duration by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and healing provided by Eruption by 15%, but reduces its duration by -50%.",
+    "iconPath": "interface/icons/ability_mount_fireravengodmount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704818,
+    "spellIds": [
+      704818
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29961
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 236782,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704818,
+        "description": "Increases the damage and healing provided by <span style=\"color: #ffffff; display: inline\">Eruption</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>, but reduces its duration by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and healing provided by Eruption by 15%, but reduces its duration by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11145,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Lifebringer's Blessing",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Aspect of Time</span> now heals you equal to <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Damage dealt by Aspect of Time now heals you equal to 100% of the damage dealt.",
+    "iconPath": "interface/icons/5_dragonfirebreath_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707479,
+    "spellIds": [
+      707479
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 458632,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707479,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Aspect of Time</span> now heals you equal to <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Damage dealt by Aspect of Time now heals you equal to 100% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11309,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Blackflight Resurgence",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Legacy of Deathwing</span> now also increases the damage of your next <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> or <span style=\"color: #ffffff; display: inline\">Firefall</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nLegacy of Deathwing now also increases the damage of your next Destroyer's Maw or Firefall by 25%.",
+    "iconPath": "interface/icons/inv_dragonhawkmountshadowlands",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805587,
+    "spellIds": [
+      805587
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2309
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805587,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br /><span style=\"color: #ffffff; display: inline\">Legacy of Deathwing</span> now also increases the damage of your next <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> or <span style=\"color: #ffffff; display: inline\">Firefall</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nLegacy of Deathwing now also increases the damage of your next Destroyer's Maw or Firefall by 25%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11451,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Flames of the Aspects",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> now grants <span class=\"item-number\">2</span> stacks of <span style=\"color: #ffffff; display: inline\">Flamecasting</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Casting Destroyer's Maw now grants 2 stacks of Flamecasting.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_fire_0006s_0000_fire-elemental_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707493,
+    "spellIds": [
+      707493
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7925
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707493,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> now grants <span class=\"item-number\">2</span> stacks of <span style=\"color: #ffffff; display: inline\">Flamecasting</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Casting Destroyer's Maw now grants 2 stacks of Flamecasting.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11874,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Perpetual Burning",
+    "description": "The duration of <span style=\"color: #ffffff; display: inline\">Blaze</span> is now increased by <span class=\"item-number\">1</span> sec for each <span style=\"color: #ff7f7f; display: inline\">Ember</span> you have when you cast it.",
+    "descriptionText": "The duration of Blaze is now increased by 1 sec for each Ember you have when you cast it.",
+    "iconPath": "interface/icons/spell_fire_burnout",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707503,
+    "spellIds": [
+      707503
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29961
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 184590,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707503,
+        "description": "The duration of <span style=\"color: #ffffff; display: inline\">Blaze</span> is now increased by <span class=\"item-number\">1</span> sec for each <span style=\"color: #ff7f7f; display: inline\">Ember</span> you have when you cast it.",
+        "descriptionText": "The duration of Blaze is now increased by 1 sec for each Ember you have when you cast it."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11936,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Blackrock Mountaineer",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Eruption</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Eruption by -30 sec.",
+    "iconPath": "interface/icons/ability_rhyolith_volcano",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707494,
+    "spellIds": [
+      707494
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29961
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 236782,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707494,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Eruption</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Eruption by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11963,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Mad Aspect's Scepter",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Destroyer's Maw by 20%.",
+    "iconPath": "interface/icons/inv_stave_2h_deathwingraid_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706896,
+    "spellIds": [
+      706896,
+      707790
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7925
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706896,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Destroyer's Maw by 20%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707790,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Destroyer's Maw by 40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11964,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Firefall",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">10</span> Heat Per Target</span><br />Call down streaks of fire upon an enemy and up to <span class=\"item-number\">8</span> enemies within <span class=\"item-number\">15</span> yds of them, dealing <span class=\"item-number\">75</span> + <span class=\"item-number\">31.24% fire SP</span> Fire Damage.",
+    "descriptionText": "Generates 10 Heat Per Target\nCall down streaks of fire upon an enemy and up to 8 enemies within 15 yds of them, dealing 75 + 31.24% fire SP Fire Damage.",
+    "iconPath": "interface/icons/ability_ironmaidens_grapeshotblast",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801905,
+    "spellIds": [
+      801905
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29964
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801905,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">10</span> Heat Per Target</span><br />Call down streaks of fire upon an enemy and up to <span class=\"item-number\">8</span> enemies within <span class=\"item-number\">15</span> yds of them, dealing <span class=\"item-number\">75</span> + <span class=\"item-number\">31.24% fire SP</span> Fire Damage.",
+        "descriptionText": "Generates 10 Heat Per Target\nCall down streaks of fire upon an enemy and up to 8 enemies within 15 yds of them, dealing 75 + 31.24% fire SP Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9871,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Ascender",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Dragon Leap</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Dragon Leap by -5 sec.",
+    "iconPath": "interface/icons/5_druideskill25_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807319,
+    "spellIds": [
+      807319
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33864
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807319,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Dragon Leap</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Dragon Leap by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29556,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Aspect's Blessing",
+    "description": "Your next <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> or <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> is guaranteed to critically strike and triggers <span style=\"color: #ffffff; display: inline\">Aspect of Time</span>, casting an additional time for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt. Lasts <span class=\"item-number\">15</span> seconds.<br /><br />Damage dealt in this way can trigger up to <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Your next Echo of Nozdormu or Flames of Neltharion is guaranteed to critically strike and triggers Aspect of Time, casting an additional time for 30% of the damage dealt. Lasts 15 seconds.\n\nDamage dealt in this way can trigger up to 3 additional times.",
+    "iconPath": "interface/icons/ability_deathwing_assualtaspects",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802168,
+    "spellIds": [
+      802168
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802168,
+        "description": "Your next <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> or <span style=\"color: #FFFFFF; display: inline\">Flames of Neltharion</span> is guaranteed to critically strike and triggers <span style=\"color: #ffffff; display: inline\">Aspect of Time</span>, casting an additional time for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt. Lasts <span class=\"item-number\">15</span> seconds.<br /><br />Damage dealt in this way can trigger up to <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Your next Echo of Nozdormu or Flames of Neltharion is guaranteed to critically strike and triggers Aspect of Time, casting an additional time for 30% of the damage dealt. Lasts 15 seconds.\n\nDamage dealt in this way can trigger up to 3 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29558,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Expediting Power",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Aspect's Blessing</span> by an additional <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Echo of Nozdormu now reduces the cooldown of Aspect's Blessing by an additional 5%.",
+    "iconPath": "interface/icons/nhi_orbofdragonscale_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704814,
+    "spellIds": [
+      704814
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33864
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704814,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Aspect's Blessing</span> by an additional <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Echo of Nozdormu now reduces the cooldown of Aspect's Blessing by an additional 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29857,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Echo of Nozdormu",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Explode</span> into <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nozdormuicon\" /><span class=\"name\">Echo of Nozdormu</span></div><span class=\"desc\">Obliterate an enemy, dealing <span class=\"item-number\">157</span> + <span class=\"item-number\">105% SP</span> Chromatic Damage and reducing all spell and ability cooldowns by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Transforms your Explode into Echo of Nozdormu.\n\n---\n\nEcho of NozdormuObliterate an enemy, dealing 157 + 105% SP Chromatic Damage and reducing all spell and ability cooldowns by 5%.",
+    "iconPath": "interface/icons/nozdormuicon",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520937,
+    "spellIds": [
+      520937
+    ],
+    "requiredNodeIds": [
+      29858,
+      4039
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520937,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Explode</span> into <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nozdormuicon\" /><span class=\"name\">Echo of Nozdormu</span></div><span class=\"desc\">Obliterate an enemy, dealing <span class=\"item-number\">157</span> + <span class=\"item-number\">105% SP</span> Chromatic Damage and reducing all spell and ability cooldowns by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Transforms your Explode into Echo of Nozdormu.\n\n---\n\nEcho of NozdormuObliterate an enemy, dealing 157 + 105% SP Chromatic Damage and reducing all spell and ability cooldowns by 5%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29860,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Searing Flames",
+    "description": "Increases the spell bonus scaling of <span style=\"color: #ffffff; display: inline\">Lava Shard</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell bonus scaling of Lava Shard by 30%.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_firerealm_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503863,
+    "spellIds": [
+      503863
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7045,
+      11145
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503863,
+        "description": "Increases the spell bonus scaling of <span style=\"color: #ffffff; display: inline\">Lava Shard</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell bonus scaling of Lava Shard by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29935,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Alexstrasza's Gift",
+    "description": "Increases the damage and healing of your <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and healing of your Ember spenders by 15%.",
+    "iconPath": "interface/icons/inv_misc_firedancer_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300956,
+    "spellIds": [
+      300956
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29857
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300956,
+        "description": "Increases the damage and healing of your <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and healing of your Ember spenders by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29961,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Draconic Invocation",
+    "description": "Invoke all of the Dragon Aspects, instantly generating <span class=\"item-number\">5</span> <span style=\"color: #ff7f7f; display: inline\">Embers</span>.",
+    "descriptionText": "Invoke all of the Dragon Aspects, instantly generating 5 Embers.",
+    "iconPath": "interface/icons/spell_warrior_dragoncharge",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802119,
+    "spellIds": [
+      802119
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29860,
+      33863
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802119,
+        "description": "Invoke all of the Dragon Aspects, instantly generating <span class=\"item-number\">5</span> <span style=\"color: #ff7f7f; display: inline\">Embers</span>.",
+        "descriptionText": "Invoke all of the Dragon Aspects, instantly generating 5 Embers."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29962,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Draconic Aspect",
+    "description": "$93",
+    "descriptionText": "$93",
+    "iconPath": "interface/icons/achievement_boss_generaldrakkisath",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92128,
+    "spellIds": [
+      92128
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31188
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92128,
+        "description": "$94",
+        "descriptionText": "$94"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29964,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Agonizing Burns",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Blaze</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and allows it to benefit from your spell haste.",
+    "descriptionText": "Increases the duration of Blaze by 20% and allows it to benefit from your spell haste.",
+    "iconPath": "interface/icons/spell_fire_immolation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803452,
+    "spellIds": [
+      803452
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803452,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Blaze</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and allows it to benefit from your spell haste.",
+        "descriptionText": "Increases the duration of Blaze by 20% and allows it to benefit from your spell haste."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29966,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Aspect of Eternity",
+    "description": "Allows the periodic damage of <span style=\"color: #ffffff; display: inline\">Blaze</span> to critically strike.<br /><br />In addition, damage dealt by <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> or <span style=\"color: #ffffff; display: inline\">Aspect of Time</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to guarantee your next <span style=\"color: #ffffff; display: inline\">Blaze</span> within <span class=\"item-number\">8</span> seconds to critically strike and increase its critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and duration by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Allows the periodic damage of Blaze to critically strike.\n\nIn addition, damage dealt by Echo of Nozdormu or Aspect of Time now has a 20% chance to guarantee your next Blaze within 8 seconds to critically strike and increase its critical damage by 100% and duration by 25%.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_bronze_nightmare",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520770,
+    "spellIds": [
+      520770
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33867
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520770,
+        "description": "Allows the periodic damage of <span style=\"color: #ffffff; display: inline\">Blaze</span> to critically strike.<br /><br />In addition, damage dealt by <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> or <span style=\"color: #ffffff; display: inline\">Aspect of Time</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to guarantee your next <span style=\"color: #ffffff; display: inline\">Blaze</span> within <span class=\"item-number\">8</span> seconds to critically strike and increase its critical damage by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> and duration by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Allows the periodic damage of Blaze to critically strike.\n\nIn addition, damage dealt by Echo of Nozdormu or Aspect of Time now has a 20% chance to guarantee your next Blaze within 8 seconds to critically strike and increase its critical damage by 100% and duration by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33863,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Critical Pressure",
+    "description": "Increases your Intellect and critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Intellect and critical strike chance by 3%.",
+    "iconPath": "interface/icons/achievement_boss_overlord_wyrmthalak",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704804,
+    "spellIds": [
+      704804,
+      707789
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7045,
+      11145
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704804,
+        "description": "Increases your Intellect and critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect and critical strike chance by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707789,
+        "description": "Increases your Intellect and critical strike chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect and critical strike chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33864,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Earthwarder",
+    "description": "Being struck by a melee attack while <span style=\"color: #ffffff; display: inline\">Draconic Aspect</span> is active now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> within <span class=\"item-number\">8</span> seconds instant cast.",
+    "descriptionText": "Being struck by a melee attack while Draconic Aspect is active now has a 20% chance to make your next Flare Bolt within 8 seconds instant cast.",
+    "iconPath": "interface/icons/inv_voiddredragonmount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706239,
+    "spellIds": [
+      706239
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7932,
+      33863,
+      33870
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706239,
+        "description": "Being struck by a melee attack while <span style=\"color: #ffffff; display: inline\">Draconic Aspect</span> is active now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #ffffff; display: inline\">Flare Bolt</span> within <span class=\"item-number\">8</span> seconds instant cast.",
+        "descriptionText": "Being struck by a melee attack while Draconic Aspect is active now has a 20% chance to make your next Flare Bolt within 8 seconds instant cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33867,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Invocation of Flames",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Draconic Invocation</span> now grants <span class=\"item-number\">5</span> stacks of <span style=\"color: #FFFFFF; display: inline\">Flamecasting</span>.<br /><br />In addition, allows <span style=\"color: #FFFFFF; display: inline\">Flamecasting</span> to stack <span class=\"item-number\">5</span> additional times and increases its duration by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Your Draconic Invocation now grants 5 stacks of Flamecasting.\n\nIn addition, allows Flamecasting to stack 5 additional times and increases its duration by 5 sec.",
+    "iconPath": "interface/icons/spell_shadow_rainoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704809,
+    "spellIds": [
+      704809
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33872,
+      33911
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704809,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Draconic Invocation</span> now grants <span class=\"item-number\">5</span> stacks of <span style=\"color: #FFFFFF; display: inline\">Flamecasting</span>.<br /><br />In addition, allows <span style=\"color: #FFFFFF; display: inline\">Flamecasting</span> to stack <span class=\"item-number\">5</span> additional times and increases its duration by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Your Draconic Invocation now grants 5 stacks of Flamecasting.\n\nIn addition, allows Flamecasting to stack 5 additional times and increases its duration by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33870,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Overwhelming Flames",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Lava Shard</span> now spreads <span style=\"color: #FFFFFF; display: inline\">Blaze</span> to up to <span class=\"item-number\">1</span> additional enemy within <span class=\"item-number\">8</span> yds of the primary target.",
+    "descriptionText": "Your Lava Shard now spreads Blaze to up to 1 additional enemy within 8 yds of the primary target.",
+    "iconPath": "interface/icons/5_normal04firerain_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704813,
+    "spellIds": [
+      704813
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11964
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704813,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Lava Shard</span> now spreads <span style=\"color: #FFFFFF; display: inline\">Blaze</span> to up to <span class=\"item-number\">1</span> additional enemy within <span class=\"item-number\">8</span> yds of the primary target.",
+        "descriptionText": "Your Lava Shard now spreads Blaze to up to 1 additional enemy within 8 yds of the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33872,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Breath of Neltharion",
+    "description": "Breath superheated flames in a cone in front of you that melts the weapons of affected enemies, disarming their melee and ranged weapons for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Breath superheated flames in a cone in front of you that melts the weapons of affected enemies, disarming their melee and ranged weapons for 6 seconds.",
+    "iconPath": "interface/icons/achievment_boss_madnessofdeathwing",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 511109,
+    "spellIds": [
+      511109
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9871,
+      11874,
+      29558,
+      33874
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 511109,
+        "description": "Breath superheated flames in a cone in front of you that melts the weapons of affected enemies, disarming their melee and ranged weapons for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Breath superheated flames in a cone in front of you that melts the weapons of affected enemies, disarming their melee and ranged weapons for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33873,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Inner Flame",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/nhi_fireborn_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301974,
+    "spellIds": [
+      301974
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704816,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301974,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33874,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Flames of Execution",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blaze</span> is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">35%</span> of their maximum health.",
+    "descriptionText": "Damage dealt by Blaze is increased by 25% on enemies below 35% of their maximum health.",
+    "iconPath": "interface/icons/spell_fire_firebolt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706238,
+    "spellIds": [
+      706238
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29961
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 184590,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706238,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blaze</span> is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">35%</span> of their maximum health.",
+        "descriptionText": "Damage dealt by Blaze is increased by 25% on enemies below 35% of their maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33911,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Black Magic",
+    "description": "Generating <span style=\"color: #ff7f7f; display: inline\">Heat</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Draconic Invocation</span> and <span style=\"color: #ffffff; display: inline\">Essence of Malygos</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. <br /><br />Can only occur once per sec.",
+    "descriptionText": "Generating Heat now reduces the cooldown of Draconic Invocation and Essence of Malygos by 3%. \n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/moutn-deathwing",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520381,
+    "spellIds": [
+      520381
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7936,
+      11874,
+      11936,
+      33874
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520381,
+        "description": "Generating <span style=\"color: #ff7f7f; display: inline\">Heat</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Draconic Invocation</span> and <span style=\"color: #ffffff; display: inline\">Essence of Malygos</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. <br /><br />Can only occur once per sec.",
+        "descriptionText": "Generating Heat now reduces the cooldown of Draconic Invocation and Essence of Malygos by 3%. \n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31188,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Aspect of Time",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> and <span style=\"color: #ffffff; display: inline\">Flames of Neltharion</span> now has a <span class=\"item-number\">33</span><span class=\"item-number\">%</span> chance to cast an additional time for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt.<br /><br />Damage dealt in this way can trigger this effect up to <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Level 20 Passive\nDamage dealt by Echo of Nozdormu and Flames of Neltharion now has a 33% chance to cast an additional time for 30% of the damage dealt.\n\nDamage dealt in this way can trigger this effect up to 3 additional times.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_bronze",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 504750,
+    "spellIds": [
+      504750
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4039
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504750,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span> and <span style=\"color: #ffffff; display: inline\">Flames of Neltharion</span> now has a <span class=\"item-number\">33</span><span class=\"item-number\">%</span> chance to cast an additional time for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt.<br /><br />Damage dealt in this way can trigger this effect up to <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Level 20 Passive\nDamage dealt by Echo of Nozdormu and Flames of Neltharion now has a 33% chance to cast an additional time for 30% of the damage dealt.\n\nDamage dealt in this way can trigger this effect up to 3 additional times."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2309,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Legacy of Deathwing",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Consuming <span style=\"color: #ff7f7f; display: inline\">Embers</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> and <span style=\"color: #ffffff; display: inline\">Firefall</span> and grant you <span style=\"color: #ffffff; display: inline\">Legacy of Deathwing</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_emeraldnightmare_dragonsofnightmare\" /><span class=\"name\">Legacy of Deathwing</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> or <span style=\"color: #ffffff; display: inline\">Firefall</span> within <span class=\"item-number\">10</span> seconds is instant cast and free of cost.</span></div>",
+    "descriptionText": "Level 40 Passive\nConsuming Embers now has a 30% chance to reset the cooldown of Destroyer's Maw and Firefall and grant you Legacy of Deathwing.\n\n---\n\nLegacy of DeathwingYour next Destroyer's Maw or Firefall within 10 seconds is instant cast and free of cost.",
+    "iconPath": "interface/icons/achievement_emeraldnightmare_dragonsofnightmare",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707217,
+    "spellIds": [
+      707217
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29962
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707217,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Consuming <span style=\"color: #ff7f7f; display: inline\">Embers</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> and <span style=\"color: #ffffff; display: inline\">Firefall</span> and grant you <span style=\"color: #ffffff; display: inline\">Legacy of Deathwing</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 achievement_emeraldnightmare_dragonsofnightmare\" /><span class=\"name\">Legacy of Deathwing</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Destroyer's Maw</span> or <span style=\"color: #ffffff; display: inline\">Firefall</span> within <span class=\"item-number\">10</span> seconds is instant cast and free of cost.</span></div>",
+        "descriptionText": "Level 40 Passive\nConsuming Embers now has a 30% chance to reset the cooldown of Destroyer's Maw and Firefall and grant you Legacy of Deathwing.\n\n---\n\nLegacy of DeathwingYour next Destroyer's Maw or Firefall within 10 seconds is instant cast and free of cost."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4039,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Dragon's Edge",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Direct critical strikes now generate an additional <span class=\"item-number\">20</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+    "descriptionText": "Level 10 Passive\nDirect critical strikes now generate an additional 20 Heat.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_nexus",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300755,
+    "spellIds": [
+      300755
+    ],
+    "requiredNodeIds": [
+      29858
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300755,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Direct critical strikes now generate an additional <span class=\"item-number\">20</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+        "descriptionText": "Level 10 Passive\nDirect critical strikes now generate an additional 20 Heat."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7043,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Timed Attacks",
+    "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your spell haste by 4%.",
+    "iconPath": "interface/icons/inv_misc_raptortalon_nightmare",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704812,
+    "spellIds": [
+      704812,
+      707803
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29935
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704812,
+        "description": "Increases your spell haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell haste by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707803,
+        "description": "Increases your spell haste by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your spell haste by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7045,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Flames of Fate",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Aspect's Blessing</span> now affects <span class=\"item-number\">2</span> additional casts of <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span>, but its cooldown is doubled, and its mana cost is increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Aspect's Blessing now affects 2 additional casts of Echo of Nozdormu, but its cooldown is doubled, and its mana cost is increased by 50%.",
+    "iconPath": "interface/icons/spell_nature_unleashedrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707325,
+    "spellIds": [
+      707325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 458632,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707325,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Aspect's Blessing</span> now affects <span class=\"item-number\">2</span> additional casts of <span style=\"color: #ffffff; display: inline\">Echo of Nozdormu</span>, but its cooldown is doubled, and its mana cost is increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Aspect's Blessing now affects 2 additional casts of Echo of Nozdormu, but its cooldown is doubled, and its mana cost is increased by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7196,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Fire and Brimstone",
+    "description": "Generating an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now increases the damage and healing of <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Generating an Ember now increases the damage and healing of Ember spenders by 1% for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/nhi_fireball_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704849,
+    "spellIds": [
+      704849
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6451,
+      11451,
+      11963,
+      29860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704849,
+        "description": "Generating an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now increases the damage and healing of <span style=\"color: #ff7f7f; display: inline\">Ember</span> spenders by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Generating an Ember now increases the damage and healing of Ember spenders by 1% for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7202,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 63,
+    "tabKey": "24:63",
+    "tabName": "Draconic",
+    "name": "Draconic Tempest",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> now melts enemies, increasing their chance to be hit by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Your Dragon's Wrath now melts enemies, increasing their chance to be hit by spells by 3% for 10 seconds.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_firetwist_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802170,
+    "spellIds": [
+      802170
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7196
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802170,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Dragon's Wrath</span> now melts enemies, increasing their chance to be hit by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Your Dragon's Wrath now melts enemies, increasing their chance to be hit by spells by 3% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

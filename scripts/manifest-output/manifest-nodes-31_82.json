@@ -1,0 +1,1810 @@
+[
+  {
+    "nodeId": 29296,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Pulverize",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> now trigger the area of effect portion of its damage an additional time.",
+    "descriptionText": "Critical strikes with Totemic Smash now trigger the area of effect portion of its damage an additional time.",
+    "iconPath": "interface/icons/nhi_moltensmash_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301087,
+    "spellIds": [
+      301087
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6261
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301087,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> now trigger the area of effect portion of its damage an additional time.",
+        "descriptionText": "Critical strikes with Totemic Smash now trigger the area of effect portion of its damage an additional time."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29339,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Lacerations",
+    "description": "Melee critical strikes now increase the effectiveness of bleed effects on the target by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Melee critical strikes now increase the effectiveness of bleed effects on the target by 30% for 15 seconds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/custom_warriorskill_28_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560286,
+    "spellIds": [
+      560286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6149
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560286,
+        "description": "Melee critical strikes now increase the effectiveness of bleed effects on the target by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Melee critical strikes now increase the effectiveness of bleed effects on the target by 30% for 15 seconds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29349,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Earthshaker",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and allows their periodic damage to critically strike.",
+    "descriptionText": "Increases the damage dealt by Seismic abilities by 10% and allows their periodic damage to critically strike.",
+    "iconPath": "interface/icons/inv_misc_volatileearth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300698,
+    "spellIds": [
+      300698
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6251,
+      6365,
+      9851,
+      31230
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300698,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and allows their periodic damage to critically strike.",
+        "descriptionText": "Increases the damage dealt by Seismic abilities by 10% and allows their periodic damage to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29357,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Wild Rampage",
+    "description": "Increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your attack power by 5% and your chance to hit by 2%.",
+    "iconPath": "interface/icons/nhi_naturestrike_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504197,
+    "spellIds": [
+      504197,
+      504881
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6251,
+      9851,
+      29339,
+      30971
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504197,
+        "description": "Increases your attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power by 5% and your chance to hit by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504881,
+        "description": "Increases your attack power by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your chance to hit by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your attack power by 10% and your chance to hit by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29382,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Totemic Smash",
+    "description": "Smash an enemy for <span class=\"item-number\">140</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">20</span>. Deals an additional <span class=\"item-number\">14</span> + <span class=\"item-number\">35% AP</span> Physical Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds.",
+    "descriptionText": "Smash an enemy for 140% Weapon Damage plus 20. Deals an additional 14 + 35% AP Physical Damage to up to 5 enemies within 8 yds.",
+    "iconPath": "interface/icons/ability_smash",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800178,
+    "spellIds": [
+      800178
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7109
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800178,
+        "description": "Smash an enemy for <span class=\"item-number\">140</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">20</span>. Deals an additional <span class=\"item-number\">14</span> + <span class=\"item-number\">35% AP</span> Physical Damage to up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds.",
+        "descriptionText": "Smash an enemy for 140% Weapon Damage plus 20. Deals an additional 14 + 35% AP Physical Damage to up to 5 enemies within 8 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29385,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Legacy of Rexxar",
+    "description": "$cb",
+    "descriptionText": "$cb",
+    "iconPath": "interface/icons/inv_rexxar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800184,
+    "spellIds": [
+      800184
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4384,
+      6151
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800184,
+        "description": "$cc",
+        "descriptionText": "$cc"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12430,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Bloody Claws",
+    "description": "Damage dealt by your pet now reduces the enemies periodic healing received by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Damage dealt by your pet now reduces the enemies periodic healing received by -10% for 15 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/5_clawstrike_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504874,
+    "spellIds": [
+      504874
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7332,
+      29349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 504874,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504874,
+        "description": "Damage dealt by your pet now reduces the enemies periodic healing received by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Damage dealt by your pet now reduces the enemies periodic healing received by -10% for 15 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9908,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Spirit Stable",
+    "description": "Call forth a stabled animal spirit to replace your current one. Lasts <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Call forth a stabled animal spirit to replace your current one. Lasts 10 seconds.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_ghostwalk_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573310,
+    "spellIds": [
+      573310
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9208
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573310,
+        "description": "Call forth a stabled animal spirit to replace your current one. Lasts <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Call forth a stabled animal spirit to replace your current one. Lasts 10 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9909,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Empowered Boons",
+    "description": "$cd",
+    "descriptionText": "$cd",
+    "iconPath": "interface/icons/misc_drogbartotem02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706340,
+    "spellIds": [
+      706340
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9908
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706340,
+        "description": "$ce",
+        "descriptionText": "$ce"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11207,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Killer's Path",
+    "description": "Increases the attack power of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the attack power of party and raid members by 5%. Does not stack with similar effects.\n\nIn addition, increases your critical strike chance by 3%.",
+    "iconPath": "interface/icons/novart_magicspell_(27)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706633,
+    "spellIds": [
+      706633
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6202,
+      7330,
+      12430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706633,
+        "description": "Increases the attack power of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the attack power of party and raid members by 5%. Does not stack with similar effects.\n\nIn addition, increases your critical strike chance by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7330,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Sharpened Claws",
+    "description": "Your direct critical strikes now increase your and your pet's Armor penetration by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Your direct critical strikes now increase your and your pet's Armor penetration by 5% for 10 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/nhi_ghostclaw_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504226,
+    "spellIds": [
+      504226
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7332,
+      29349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 504874,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504226,
+        "description": "Your direct critical strikes now increase your and your pet's Armor penetration by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Your direct critical strikes now increase your and your pet's Armor penetration by 5% for 10 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7332,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Savage Frenzy",
+    "description": "Enrage you and your pet for <span class=\"item-number\">18</span> seconds, increasing damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, and attack speed and movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Enrage you and your pet for 18 seconds, increasing damage dealt by 20%, and attack speed and movement speed by 30%.",
+    "iconPath": "interface/icons/ability_hunter_bestialdiscipline",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806549,
+    "spellIds": [
+      806549
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6251,
+      9851
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806549,
+        "description": "Enrage you and your pet for <span class=\"item-number\">18</span> seconds, increasing damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, and attack speed and movement speed by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Enrage you and your pet for 18 seconds, increasing damage dealt by 20%, and attack speed and movement speed by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8006,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Wild Carnage",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Seismic Spike</span> now causes your <span style=\"color: #ffffff; display: inline\">Wildclaws</span> to strike up to <span class=\"item-number\">4</span> additional nearby targets, dealing reduced damage with each additional enemy struck. Lasts <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Seismic Spike now causes your Wildclaws to strike up to 4 additional nearby targets, dealing reduced damage with each additional enemy struck. Lasts 6 seconds.",
+    "iconPath": "interface/icons/ability_demonhunter_demonspikes2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503717,
+    "spellIds": [
+      503717
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7332,
+      29357
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 71147,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503717,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Seismic Spike</span> now causes your <span style=\"color: #ffffff; display: inline\">Wildclaws</span> to strike up to <span class=\"item-number\">4</span> additional nearby targets, dealing reduced damage with each additional enemy struck. Lasts <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Seismic Spike now causes your Wildclaws to strike up to 4 additional nearby targets, dealing reduced damage with each additional enemy struck. Lasts 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8008,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Elemental Berserker",
+    "description": "Increases the area damage dealt by <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>, but it now costs <span class=\"item-number\">5</span> additional Rage.",
+    "descriptionText": "Increases the area damage dealt by Totemic Smash by 30%, but it now costs 5 additional Rage.",
+    "iconPath": "interface/icons/spell_shaman_focusedstrikes",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706338,
+    "spellIds": [
+      706338
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29296
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706338,
+        "description": "Increases the area damage dealt by <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>, but it now costs <span class=\"item-number\">5</span> additional Rage.",
+        "descriptionText": "Increases the area damage dealt by Totemic Smash by 30%, but it now costs 5 additional Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9208,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Tremors",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Periodic damage now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilties and cause your next cast within <span class=\"item-number\">10</span> seconds to be free of cost.",
+    "descriptionText": "Level 30 Passive\nPeriodic damage now has a 10% chance to reset the cooldown of your Seismic abilties and cause your next cast within 10 seconds to be free of cost.",
+    "iconPath": "interface/icons/ability_hunter_mongoosebite",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574323,
+    "spellIds": [
+      574323
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9212
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574323,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Periodic damage now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilties and cause your next cast within <span class=\"item-number\">10</span> seconds to be free of cost.",
+        "descriptionText": "Level 30 Passive\nPeriodic damage now has a 10% chance to reset the cooldown of your Seismic abilties and cause your next cast within 10 seconds to be free of cost."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9212,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Primal Weapons",
+    "description": "$cf",
+    "descriptionText": "$cf",
+    "iconPath": "interface/icons/spell_nature_naturesblessing",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 537218,
+    "spellIds": [
+      537218
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4058
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 537218,
+        "description": "$d0",
+        "descriptionText": "$d0"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9851,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Wild Rage",
+    "description": "Removes the Rage cost of <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span>.",
+    "descriptionText": "Removes the Rage cost of Rylak's Bite.",
+    "iconPath": "interface/icons/ability_bullrush",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301280,
+    "spellIds": [
+      301280
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6201,
+      6831
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 434221,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301280,
+        "description": "Removes the Rage cost of <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span>.",
+        "descriptionText": "Removes the Rage cost of Rylak's Bite."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30969,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Totemic Echoes",
+    "description": "<span style=\"color: #ffffff; display: inline\">Totemic Smash</span> now applies <span style=\"color: #ffffff; display: inline\">Totemic Crash</span> to an enemy for <span class=\"item-number\">2</span> seconds.<br /><br />At the end of the duration, if you are within <span class=\"item-number\">5</span> yds of the target, you cast <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> against them for free.",
+    "descriptionText": "Totemic Smash now applies Totemic Crash to an enemy for 2 seconds.\n\nAt the end of the duration, if you are within 5 yds of the target, you cast Totemic Smash against them for free.",
+    "iconPath": "interface/icons/ability_shaman_totemcooldownrefund",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500937,
+    "spellIds": [
+      500937
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6826,
+      11207
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500937,
+        "description": "<span style=\"color: #ffffff; display: inline\">Totemic Smash</span> now applies <span style=\"color: #ffffff; display: inline\">Totemic Crash</span> to an enemy for <span class=\"item-number\">2</span> seconds.<br /><br />At the end of the duration, if you are within <span class=\"item-number\">5</span> yds of the target, you cast <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> against them for free.",
+        "descriptionText": "Totemic Smash now applies Totemic Crash to an enemy for 2 seconds.\n\nAt the end of the duration, if you are within 5 yds of the target, you cast Totemic Smash against them for free."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30971,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Bring Me Their Bones",
+    "description": "Mark an enemy for <span class=\"item-number\">15</span> seconds, causing damage dealt by your pet's abilities to the target to add a stack of <span style=\"color: #ffffff; display: inline\">Bring Me Their Bones</span>.<br /><br />At <span class=\"item-number\">5</span> stacks, your pet consumes this buff to deal <span class=\"item-number\">644</span> + <span class=\"item-number\">100% AP</span> damage to the target, ignoring Armor.",
+    "descriptionText": "Mark an enemy for 15 seconds, causing damage dealt by your pet's abilities to the target to add a stack of Bring Me Their Bones.\n\nAt 5 stacks, your pet consumes this buff to deal 644 + 100% AP damage to the target, ignoring Armor.",
+    "iconPath": "interface/icons/inv_misc_necklace_bone04",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806552,
+    "spellIds": [
+      806552
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6149,
+      6831
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806552,
+        "description": "Mark an enemy for <span class=\"item-number\">15</span> seconds, causing damage dealt by your pet's abilities to the target to add a stack of <span style=\"color: #ffffff; display: inline\">Bring Me Their Bones</span>.<br /><br />At <span class=\"item-number\">5</span> stacks, your pet consumes this buff to deal <span class=\"item-number\">644</span> + <span class=\"item-number\">100% AP</span> damage to the target, ignoring Armor.",
+        "descriptionText": "Mark an enemy for 15 seconds, causing damage dealt by your pet's abilities to the target to add a stack of Bring Me Their Bones.\n\nAt 5 stacks, your pet consumes this buff to deal 644 + 100% AP damage to the target, ignoring Armor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30972,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Rylak's Blessing",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span> now increases your pet's damage and critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">2</span> times, for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Damage dealt by Rylak's Bite now increases your pet's damage and critical strike chance by 2%, stacking 2 times, for 10 seconds.",
+    "iconPath": "interface/icons/spell_druid_feralchargecat",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802595,
+    "spellIds": [
+      802595
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6206,
+      6367,
+      8006
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802595,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span> now increases your pet's damage and critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">2</span> times, for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Damage dealt by Rylak's Bite now increases your pet's damage and critical strike chance by 2%, stacking 2 times, for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29667,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Rylak's Bite",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">10</span> sec recharge</span><br />You and your pet rush towards an enemy and strike them, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">8</span>.",
+    "descriptionText": "2 Charges, 10 sec recharge\nYou and your pet rush towards an enemy and strike them, dealing 120% Weapon Damage plus 8.",
+    "iconPath": "interface/icons/spell_beastmaster_rylak",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706342,
+    "spellIds": [
+      706342
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706342,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">10</span> sec recharge</span><br />You and your pet rush towards an enemy and strike them, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">8</span>.",
+        "descriptionText": "2 Charges, 10 sec recharge\nYou and your pet rush towards an enemy and strike them, dealing 120% Weapon Damage plus 8."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31207,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Spiritual Frenzy",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Primal Shred</span> now empowers your pet, causing its auto attacks to strike up to <span class=\"item-number\">4</span> nearby enemies for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Casting Primal Shred now empowers your pet, causing its auto attacks to strike up to 4 nearby enemies for 15 seconds.",
+    "iconPath": "interface/icons/custom_71_spirit_wolves_nobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707367,
+    "spellIds": [
+      707367
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29339
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707367,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Primal Shred</span> now empowers your pet, causing its auto attacks to strike up to <span class=\"item-number\">4</span> nearby enemies for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Casting Primal Shred now empowers your pet, causing its auto attacks to strike up to 4 nearby enemies for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31230,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Rips and Tears",
+    "description": "Periodic damage dealt by you or your pet now generates <span class=\"item-number\">2</span> Rage for you and <span class=\"item-number\">5</span> Focus for your pet.",
+    "descriptionText": "Periodic damage dealt by you or your pet now generates 2 Rage for you and 5 Focus for your pet.",
+    "iconPath": "interface/icons/ability_hunter_masterscall",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800141,
+    "spellIds": [
+      800141
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6201,
+      6261
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 300688,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800141,
+        "description": "Periodic damage dealt by you or your pet now generates <span class=\"item-number\">2</span> Rage for you and <span class=\"item-number\">5</span> Focus for your pet.",
+        "descriptionText": "Periodic damage dealt by you or your pet now generates 2 Rage for you and 5 Focus for your pet."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7109,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Fury of the Wild",
+    "description": "When you cast a <span style=\"color: #ffffff; display: inline\">Boon</span>, you cast the same <span style=\"color: #ffffff; display: inline\">Boon</span> on your pet at <span class=\"item-number\">50%</span> effectiveness.",
+    "descriptionText": "When you cast a Boon, you cast the same Boon on your pet at 50% effectiveness.",
+    "iconPath": "interface/icons/druid_stagstatue01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801234,
+    "spellIds": [
+      801234
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29667
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801234,
+        "description": "When you cast a <span style=\"color: #ffffff; display: inline\">Boon</span>, you cast the same <span style=\"color: #ffffff; display: inline\">Boon</span> on your pet at <span class=\"item-number\">50%</span> effectiveness.",
+        "descriptionText": "When you cast a Boon, you cast the same Boon on your pet at 50% effectiveness."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6149,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Torn to Shreds",
+    "description": "<span style=\"color: #ffffff; display: inline\">Totemic Smash</span> and <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span> now causes enemies to bleed for <span class=\"item-number\">155</span> + <span class=\"item-number\">4.5% AP</span> over <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Totemic Smash and Rylak's Bite now causes enemies to bleed for 155 + 4.5% AP over 12 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/inv_misc_bearpaw_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500294,
+    "spellIds": [
+      500294
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6205
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500294,
+        "description": "<span style=\"color: #ffffff; display: inline\">Totemic Smash</span> and <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span> now causes enemies to bleed for <span class=\"item-number\">155</span> + <span class=\"item-number\">4.5% AP</span> over <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Totemic Smash and Rylak's Bite now causes enemies to bleed for 155 + 4.5% AP over 12 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6151,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Rexxar's Might",
+    "description": "Your physical critical strikes now cause your pet's next attack to apply a bleed, dealing <span class=\"item-number\">93</span> + <span class=\"item-number\">15% AP</span> Physical Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Your physical critical strikes now cause your pet's next attack to apply a bleed, dealing 93 + 15% AP Physical Damage every 2 sec for 6 seconds.",
+    "iconPath": "interface/icons/spell_druid_thrash",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806559,
+    "spellIds": [
+      806559
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30972
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806559,
+        "description": "Your physical critical strikes now cause your pet's next attack to apply a bleed, dealing <span class=\"item-number\">93</span> + <span class=\"item-number\">15% AP</span> Physical Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Your physical critical strikes now cause your pet's next attack to apply a bleed, dealing 93 + 15% AP Physical Damage every 2 sec for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6201,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Wild At Heart",
+    "description": "Reduces the global cooldown of <span style=\"color: #ffffff; display: inline\">Wildclaw</span> by <span class=\"item-number\">0</span>.<span class=\"item-number\">-25</span> sec.",
+    "descriptionText": "Reduces the global cooldown of Wildclaw by 0.-25 sec.",
+    "iconPath": "interface/icons/skill_icon_skill61_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524677,
+    "spellIds": [
+      524677
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29382
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524677,
+        "description": "Reduces the global cooldown of <span style=\"color: #ffffff; display: inline\">Wildclaw</span> by <span class=\"item-number\">0</span>.<span class=\"item-number\">-25</span> sec.",
+        "descriptionText": "Reduces the global cooldown of Wildclaw by 0.-25 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6202,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Throat Clamp",
+    "description": "Command your pet to dash forward a short distance towards your target, interrupting spellcasting and preventing any spell in that school from being cast for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Command your pet to dash forward a short distance towards your target, interrupting spellcasting and preventing any spell in that school from being cast for 3 seconds.",
+    "iconPath": "interface/icons/ability_hunter_harass",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500764,
+    "spellIds": [
+      500764
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8008,
+      29349
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500764,
+        "description": "Command your pet to dash forward a short distance towards your target, interrupting spellcasting and preventing any spell in that school from being cast for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Command your pet to dash forward a short distance towards your target, interrupting spellcasting and preventing any spell in that school from being cast for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6205,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Primal Shred",
+    "description": "Command your pet to shred up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds, causing them to bleed, dealing <span class=\"item-number\">52500</span> + <span class=\"item-number\">56000% AP</span> Physical Damage over <span class=\"item-number\">21</span> seconds.",
+    "descriptionText": "Command your pet to shred up to 5 enemies within 8 yds, causing them to bleed, dealing 52500 + 56000% AP Physical Damage over 21 seconds.",
+    "iconPath": "interface/icons/ability_druid_freshwound",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500940,
+    "spellIds": [
+      500940
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7109
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500940,
+        "description": "Command your pet to shred up to <span class=\"item-number\">5</span> enemies within <span class=\"item-number\">8</span> yds, causing them to bleed, dealing <span class=\"item-number\">52500</span> + <span class=\"item-number\">56000% AP</span> Physical Damage over <span class=\"item-number\">21</span> seconds.",
+        "descriptionText": "Command your pet to shred up to 5 enemies within 8 yds, causing them to bleed, dealing 52500 + 56000% AP Physical Damage over 21 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6206,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Rush of the Hunt",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wildclaw</span> and <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against bleeding enemies.",
+    "descriptionText": "Increases the damage of Wildclaw and Rylak's Bite by 15% against bleeding enemies.",
+    "iconPath": "interface/icons/ability_racial_bullrush",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300691,
+    "spellIds": [
+      300691
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29357,
+      31207
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300691,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Wildclaw</span> and <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against bleeding enemies.",
+        "descriptionText": "Increases the damage of Wildclaw and Rylak's Bite by 15% against bleeding enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6251,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Primal Rage",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span>.",
+    "descriptionText": "Casting Totemic Smash now refreshes a charge of Rylak's Bite.",
+    "iconPath": "interface/icons/trade_archaeology_ancientorcshamanheaddress",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300690,
+    "spellIds": [
+      300690
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6201,
+      6831
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 434221,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300690,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Rylak's Bite</span>.",
+        "descriptionText": "Casting Totemic Smash now refreshes a charge of Rylak's Bite."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6261,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Pulverize",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Totemic Smash by 10%.",
+    "iconPath": "interface/icons/custom_bear_paw_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706153,
+    "spellIds": [
+      706153,
+      707811
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29382
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706153,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Totemic Smash by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707811,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Totemic Smash</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Totemic Smash by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6365,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Primal Resurgence",
+    "description": "<span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now generates an additional <span class=\"item-number\">10</span> Rage and <span style=\"color: #ffffff; display: inline\">Seismic Spike</span> now generates <span class=\"item-number\">3</span> additional Rage.",
+    "descriptionText": "Seismic Crash now generates an additional 10 Rage and Seismic Spike now generates 3 additional Rage.",
+    "iconPath": "interface/icons/inv_misc_monsterclaw_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300688,
+    "spellIds": [
+      300688
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6201,
+      6261
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 300688,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300688,
+        "description": "<span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now generates an additional <span class=\"item-number\">10</span> Rage and <span style=\"color: #ffffff; display: inline\">Seismic Spike</span> now generates <span class=\"item-number\">3</span> additional Rage.",
+        "descriptionText": "Seismic Crash now generates an additional 10 Rage and Seismic Spike now generates 3 additional Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6367,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Spinebreaker",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Seismic Grasp</span> now roots enemies for <span class=\"item-number\">3.5</span> seconds.",
+    "descriptionText": "Your Seismic Grasp now roots enemies for 3.5 seconds.",
+    "iconPath": "interface/icons/inv_skeletonspinepet_bone",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 537212,
+    "spellIds": [
+      537212
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7332,
+      29357
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 71147,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 537212,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Seismic Grasp</span> now roots enemies for <span class=\"item-number\">3.5</span> seconds.",
+        "descriptionText": "Your Seismic Grasp now roots enemies for 3.5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4384,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Frenzied Roar",
+    "description": "Roar with bestial fervor, generating <span class=\"item-number\">20</span> Rage and granting you <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased attack speed for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Roar with bestial fervor, generating 20 Rage and granting you 20% increased attack speed for 15 seconds.",
+    "iconPath": "interface/icons/inv_wolfdraenormountrustic",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800133,
+    "spellIds": [
+      800133
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6826,
+      30972
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800133,
+        "description": "Roar with bestial fervor, generating <span class=\"item-number\">20</span> Rage and granting you <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased attack speed for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Roar with bestial fervor, generating 20 Rage and granting you 20% increased attack speed for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5008,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Son of Ursoc",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Savage Frenzy</span> now transforms you into a bear, freeing you of all movement impairing effects.<br /><br />In addition, increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Savage Frenzy</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, and reduces its cooldown by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Your Savage Frenzy now transforms you into a bear, freeing you of all movement impairing effects.\n\nIn addition, increases the effectiveness of Savage Frenzy by 50%, and reduces its cooldown by -60 sec.",
+    "iconPath": "interface/icons/ability_hunter_pet_bear",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706176,
+    "spellIds": [
+      706176
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5151,
+      30969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706176,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Savage Frenzy</span> now transforms you into a bear, freeing you of all movement impairing effects.<br /><br />In addition, increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Savage Frenzy</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, and reduces its cooldown by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Your Savage Frenzy now transforms you into a bear, freeing you of all movement impairing effects.\n\nIn addition, increases the effectiveness of Savage Frenzy by 50%, and reduces its cooldown by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5151,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Totem Warrior",
+    "description": "While you have <span style=\"color: #ffffff; display: inline\">Boon of the Bear</span> active, <span style=\"color: #ffffff; display: inline\">Wildclaw</span> will now strike an additional time for <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt with both weapons.",
+    "descriptionText": "While you have Boon of the Bear active, Wildclaw will now strike an additional time for 40% of the damage dealt with both weapons.",
+    "iconPath": "interface/icons/spell_fire_totemofwrath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704099,
+    "spellIds": [
+      704099
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11207
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704099,
+        "description": "While you have <span style=\"color: #ffffff; display: inline\">Boon of the Bear</span> active, <span style=\"color: #ffffff; display: inline\">Wildclaw</span> will now strike an additional time for <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt with both weapons.",
+        "descriptionText": "While you have Boon of the Bear active, Wildclaw will now strike an additional time for 40% of the damage dealt with both weapons."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6826,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Bestial Wrath",
+    "description": "When you critically strike, your pet restores <span class=\"item-number\">10</span> Focus. <br /><br />When your pet critically strikes, you restore <span class=\"item-number\">2</span><span class=\"item-number\">%</span> maximum mana and increase the target's Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "When you critically strike, your pet restores 10 Focus. \n\nWhen your pet critically strikes, you restore 2% maximum mana and increase the target's Physical Damage taken by 4% for 10 seconds.",
+    "iconPath": "interface/icons/ability_hunter_fervor",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803347,
+    "spellIds": [
+      803347
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6367,
+      7330,
+      8006,
+      12430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803347,
+        "description": "When you critically strike, your pet restores <span class=\"item-number\">10</span> Focus. <br /><br />When your pet critically strikes, you restore <span class=\"item-number\">2</span><span class=\"item-number\">%</span> maximum mana and increase the target's Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "When you critically strike, your pet restores 10 Focus. \n\nWhen your pet critically strikes, you restore 2% maximum mana and increase the target's Physical Damage taken by 4% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6831,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Raptor Talons",
+    "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+    "descriptionText": "Increases your Strength by 5% and your expertise by 4.",
+    "iconPath": "interface/icons/ability_hunter_beastmastery",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704096,
+    "spellIds": [
+      704096,
+      707812
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6205
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704096,
+        "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">4</span>.",
+        "descriptionText": "Increases your Strength by 5% and your expertise by 4."
+      },
+      {
+        "rank": 2,
+        "spellId": 707812,
+        "description": "Increases your Strength by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">8</span>.",
+        "descriptionText": "Increases your Strength by 10% and your expertise by 8."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4058,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 82,
+    "tabKey": "31:82",
+    "tabName": "Primal",
+    "name": "Spirit Beast Master",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You may now tame beasts in Azeroth to aid you as a companion.<br />",
+    "descriptionText": "Level 10 Passive\nYou may now tame beasts in Azeroth to aid you as a companion.",
+    "iconPath": "interface/icons/ability_druid_ripandtear",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92148,
+    "spellIds": [
+      92148
+    ],
+    "requiredNodeIds": [
+      30254
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92148,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You may now tame beasts in Azeroth to aid you as a companion.<br />",
+        "descriptionText": "Level 10 Passive\nYou may now tame beasts in Azeroth to aid you as a companion."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

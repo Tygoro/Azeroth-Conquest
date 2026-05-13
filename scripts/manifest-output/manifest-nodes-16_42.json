@@ -1,0 +1,1678 @@
+[
+  {
+    "nodeId": 6851,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Lightning Rod",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to spread an active <span style=\"color: #ffffff; display: inline\">Volt</span> on your target to each affected enemy.<br /><br />Chance increases based on <span style=\"color: #cc99ff; display: inline\">Static</span> level.",
+    "descriptionText": "Damage dealt by Forked Lightning now has a 20% chance to spread an active Volt on your target to each affected enemy.\n\nChance increases based on Static level.",
+    "iconPath": "interface/icons/inv_rod_enchantedcobalt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300609,
+    "spellIds": [
+      300609
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7769,
+      34674
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300609,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to spread an active <span style=\"color: #ffffff; display: inline\">Volt</span> on your target to each affected enemy.<br /><br />Chance increases based on <span style=\"color: #cc99ff; display: inline\">Static</span> level.",
+        "descriptionText": "Damage dealt by Forked Lightning now has a 20% chance to spread an active Volt on your target to each affected enemy.\n\nChance increases based on Static level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5475,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Never Strikes Twice?",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Electrocute</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike again.",
+    "descriptionText": "Your Electrocute now has a 10% chance to strike again.",
+    "iconPath": "interface/icons/_d3electrocute",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804828,
+    "spellIds": [
+      804828
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34646,
+      34930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804828,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Electrocute</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to strike again.",
+        "descriptionText": "Your Electrocute now has a 10% chance to strike again."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5738,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Voltaic Bursts",
+    "description": "Increases the periodic damage of <span style=\"color: #FFFFFF; display: inline\">Shock</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the periodic damage of Shock by 100%.",
+    "iconPath": "interface/icons/ability_thunderking_balllightning",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705639,
+    "spellIds": [
+      705639
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34646,
+      34937
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705639,
+        "description": "Increases the periodic damage of <span style=\"color: #FFFFFF; display: inline\">Shock</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the periodic damage of Shock by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1930,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Flux Arc",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> and <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> now marks enemies for <span class=\"item-number\">6</span> sec. <br /><br />Your <span style=\"color: #FFFFFF; display: inline\">Call Lightning</span> against marked enemies deals an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of its damage to them and nearby enemies.",
+    "descriptionText": "Your Forked Lightning and Arm of Thorim now marks enemies for 6 sec. \n\nYour Call Lightning against marked enemies deals an additional 15% of its damage to them and nearby enemies.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactvigfus_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705643,
+    "spellIds": [
+      705643
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5738,
+      30408
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705643,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> and <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> now marks enemies for <span class=\"item-number\">6</span> sec. <br /><br />Your <span style=\"color: #FFFFFF; display: inline\">Call Lightning</span> against marked enemies deals an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of its damage to them and nearby enemies.",
+        "descriptionText": "Your Forked Lightning and Arm of Thorim now marks enemies for 6 sec. \n\nYour Call Lightning against marked enemies deals an additional 15% of its damage to them and nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4013,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Electrocutioner",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Dealing spell damage now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Electrocutioner</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_frozenlightning_border\" /><span class=\"name\">Electrocutioner (Proc)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Electrocute</span> within <span class=\"item-number\">8</span> seconds is usable regardless of the target's health percentage and generates <span class=\"item-number\">10</span> additional <span style=\"color: #cc99ff; display: inline\">Static</span>.</span></div><br /><br />Chance increases based on <span style=\"color: #cc99ff; display: inline\">Static</span> level.",
+    "descriptionText": "Level 10 Passive\nDealing spell damage now has a 5% chance to grant you Electrocutioner.\n\n---\n\nElectrocutioner (Proc)Your next Electrocute within 8 seconds is usable regardless of the target's health percentage and generates 10 additional Static.\n\nChance increases based on Static level.",
+    "iconPath": "interface/icons/nhi_frozenlightning_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92096,
+    "spellIds": [
+      92096
+    ],
+    "requiredNodeIds": [
+      29138
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92096,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Dealing spell damage now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Electrocutioner</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_frozenlightning_border\" /><span class=\"name\">Electrocutioner (Proc)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Electrocute</span> within <span class=\"item-number\">8</span> seconds is usable regardless of the target's health percentage and generates <span class=\"item-number\">10</span> additional <span style=\"color: #cc99ff; display: inline\">Static</span>.</span></div><br /><br />Chance increases based on <span style=\"color: #cc99ff; display: inline\">Static</span> level.",
+        "descriptionText": "Level 10 Passive\nDealing spell damage now has a 5% chance to grant you Electrocutioner.\n\n---\n\nElectrocutioner (Proc)Your next Electrocute within 8 seconds is usable regardless of the target's health percentage and generates 10 additional Static.\n\nChance increases based on Static level."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9930,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Wicked Storms",
+    "description": "Increases your Nature Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Nature Damage dealt by 5%.",
+    "iconPath": "interface/icons/nhi_mindblow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705650,
+    "spellIds": [
+      705650
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9641,
+      29290
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705650,
+        "description": "Increases your Nature Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Nature Damage dealt by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10755,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Ascension",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases the duration of your <span style=\"color: #FFFFFF; display: inline\">Storm Ascendance</span> by <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Level 50 Passive\nIncreases the duration of your Storm Ascendance by 10 sec.",
+    "iconPath": "interface/icons/5_druideskill37_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 301260,
+    "spellIds": [
+      301260
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9755
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301260,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases the duration of your <span style=\"color: #FFFFFF; display: inline\">Storm Ascendance</span> by <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Level 50 Passive\nIncreases the duration of your Storm Ascendance by 10 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7473,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Lightning Cage",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Generates <span class=\"item-number\">50</span> Static</span><br />Ascend into the air and cage yourself in lightning for <span class=\"item-number\">15</span> seconds, locking yourself in place.<br /><br />While inside the cage, you deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage with <span style=\"color: #ffffff; display: inline\">Shock</span>, <span style=\"color: #ffffff; display: inline\">Forked Lightning</span>, <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span>, and <span style=\"color: #ffffff; display: inline\">Call Lightning</span> and their range is increased by <span class=\"item-number\">20</span> yds.",
+    "descriptionText": "Generates 50 Static\nAscend into the air and cage yourself in lightning for 15 seconds, locking yourself in place.\n\nWhile inside the cage, you deal 25% increased damage with Shock, Forked Lightning, Arm of Thorim, and Call Lightning and their range is increased by 20 yds.",
+    "iconPath": "interface/icons/ability_thunderking_thunderstruck",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560030,
+    "spellIds": [
+      560030
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7766,
+      30126,
+      34673
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560030,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Generates <span class=\"item-number\">50</span> Static</span><br />Ascend into the air and cage yourself in lightning for <span class=\"item-number\">15</span> seconds, locking yourself in place.<br /><br />While inside the cage, you deal <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage with <span style=\"color: #ffffff; display: inline\">Shock</span>, <span style=\"color: #ffffff; display: inline\">Forked Lightning</span>, <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span>, and <span style=\"color: #ffffff; display: inline\">Call Lightning</span> and their range is increased by <span class=\"item-number\">20</span> yds.",
+        "descriptionText": "Generates 50 Static\nAscend into the air and cage yourself in lightning for 15 seconds, locking yourself in place.\n\nWhile inside the cage, you deal 25% increased damage with Shock, Forked Lightning, Arm of Thorim, and Call Lightning and their range is increased by 20 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29290,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Volt",
+    "description": "Fuse lightning into an enemy, dealing <span class=\"item-number\">104400</span> + <span class=\"item-number\">114000% nature SP</span> Nature Damage over <span class=\"item-number\">18</span> seconds and slowing them by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.<br /><br />Generates <span class=\"item-number\">2</span> <span style=\"color: #cc99ff; display: inline\">Static</span> per tick.<br /><br />",
+    "descriptionText": "Fuse lightning into an enemy, dealing 104400 + 114000% nature SP Nature Damage over 18 seconds and slowing them by -30%.\n\nGenerates 2 Static per tick.",
+    "iconPath": "interface/icons/shaman_pvp_staticcling",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500928,
+    "spellIds": [
+      500928
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29837
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500928,
+        "description": "Fuse lightning into an enemy, dealing <span class=\"item-number\">104400</span> + <span class=\"item-number\">114000% nature SP</span> Nature Damage over <span class=\"item-number\">18</span> seconds and slowing them by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.<br /><br />Generates <span class=\"item-number\">2</span> <span style=\"color: #cc99ff; display: inline\">Static</span> per tick.<br /><br />",
+        "descriptionText": "Fuse lightning into an enemy, dealing 104400 + 114000% nature SP Nature Damage over 18 seconds and slowing them by -30%.\n\nGenerates 2 Static per tick."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9050,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Lord of Lightning",
+    "description": "<span style=\"color: #ffffff; display: inline\">Storm Ascendance</span> now additionally grants you <span style=\"color: #ffffff; display: inline\">Lord of Lightning</span> for <span class=\"item-number\">20</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_1h_artifactstormfist_d_06\" /><span class=\"name\">Lord of Lightning</span></div><span class=\"desc\">Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> and <span style=\"color: #FFFFFF; display: inline\">Electrocute</span> by an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and allows <span style=\"color: #ffffff; display: inline\">Electrocute</span> to strike <span class=\"item-number\">3</span> additional enemies.</span></div>",
+    "descriptionText": "Storm Ascendance now additionally grants you Lord of Lightning for 20 seconds.\n\n---\n\nLord of LightningIncreases the damage dealt by Forked Lightning and Electrocute by an additional 30% and allows Electrocute to strike 3 additional enemies.",
+    "iconPath": "interface/icons/inv_shield_1h_artifactstormfist_d_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707618,
+    "spellIds": [
+      707618
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707618,
+        "description": "<span style=\"color: #ffffff; display: inline\">Storm Ascendance</span> now additionally grants you <span style=\"color: #ffffff; display: inline\">Lord of Lightning</span> for <span class=\"item-number\">20</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_shield_1h_artifactstormfist_d_06\" /><span class=\"name\">Lord of Lightning</span></div><span class=\"desc\">Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> and <span style=\"color: #FFFFFF; display: inline\">Electrocute</span> by an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and allows <span style=\"color: #ffffff; display: inline\">Electrocute</span> to strike <span class=\"item-number\">3</span> additional enemies.</span></div>",
+        "descriptionText": "Storm Ascendance now additionally grants you Lord of Lightning for 20 seconds.\n\n---\n\nLord of LightningIncreases the damage dealt by Forked Lightning and Electrocute by an additional 30% and allows Electrocute to strike 3 additional enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9253,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Piercing Lightning",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Nature spell penetration by <span class=\"item-number\">20</span>, scaling with your level.",
+    "descriptionText": "Level 20 Passive\nIncreases your Nature spell penetration by 20, scaling with your level.",
+    "iconPath": "interface/icons/nhi_lightning_bolt_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 578302,
+    "spellIds": [
+      578302
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4013
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 578302,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Nature spell penetration by <span class=\"item-number\">20</span>, scaling with your level.",
+        "descriptionText": "Level 20 Passive\nIncreases your Nature spell penetration by 20, scaling with your level."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9255,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Fast as Lightning",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />While <span style=\"color: #ffffff; display: inline\">Electrocutioner</span> is active, your <span style=\"color: #ffffff; display: inline\">Electrocute</span> now gains <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage.",
+    "descriptionText": "Level 30 Passive\nWhile Electrocutioner is active, your Electrocute now gains 20% increased damage.",
+    "iconPath": "interface/icons/spell_nature_purge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 570057,
+    "spellIds": [
+      570057
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9253
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570057,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />While <span style=\"color: #ffffff; display: inline\">Electrocutioner</span> is active, your <span style=\"color: #ffffff; display: inline\">Electrocute</span> now gains <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage.",
+        "descriptionText": "Level 30 Passive\nWhile Electrocutioner is active, your Electrocute now gains 20% increased damage."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9641,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Fulmination",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Call Lightning</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against targets affected by your <span style=\"color: #ffffff; display: inline\">Volt</span>.",
+    "descriptionText": "Increases the critical strike chance of Call Lightning by 15% against targets affected by your Volt.",
+    "iconPath": "interface/icons/novart_magicspell_(79)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707055,
+    "spellIds": [
+      707055,
+      707792
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29290
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707055,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Call Lightning</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against targets affected by your <span style=\"color: #ffffff; display: inline\">Volt</span>.",
+        "descriptionText": "Increases the critical strike chance of Call Lightning by 15% against targets affected by your Volt."
+      },
+      {
+        "rank": 2,
+        "spellId": 707792,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Call Lightning</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> against targets affected by your <span style=\"color: #ffffff; display: inline\">Volt</span>.",
+        "descriptionText": "Increases the critical strike chance of Call Lightning by 30% against targets affected by your Volt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9755,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Thunderous",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the critical damage of your spells by <span class=\"item-number\">150</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 40 Passive\nIncreases the critical damage of your spells by 150%.",
+    "iconPath": "interface/icons/inv_leather_raidmonkmythic_r_01_bracer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804827,
+    "spellIds": [
+      804827
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9255
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804827,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the critical damage of your spells by <span class=\"item-number\">150</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 40 Passive\nIncreases the critical damage of your spells by 150%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7763,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Sparks",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Electrocute</span> and <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> now increase the target's chance to be critically hit by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Damage dealt by Electrocute and Arm of Thorim now increase the target's chance to be critically hit by spells by 3% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_arcaneburst_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301298,
+    "spellIds": [
+      301298
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34696,
+      34911
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301298,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Electrocute</span> and <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> now increase the target's chance to be critically hit by spells by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Damage dealt by Electrocute and Arm of Thorim now increase the target's chance to be critically hit by spells by 3% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7766,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Electrifying Aura",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/ability_thunderking_rockfalllow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560568,
+    "spellIds": [
+      560568
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34691
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 732125,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560568,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7768,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Electrical Charge",
+    "description": "Standing still grants you <span style=\"color: #FFFFFF; display: inline\">Electrical Charge</span> every second, increasing your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>. Upon reaching <span class=\"item-number\">20</span> stacks, your spells dont deplete <span style=\"color: #cc99ff; display: inline\">Static</span> for <span class=\"item-number\">10</span> seconds, after which the charges are depleted.",
+    "descriptionText": "Standing still grants you Electrical Charge every second, increasing your haste by 1%. Upon reaching 20 stacks, your spells dont deplete Static for 10 seconds, after which the charges are depleted.",
+    "iconPath": "interface/icons/_d3fistsofthunder",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704149,
+    "spellIds": [
+      704149
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5475,
+      34635
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704149,
+        "description": "Standing still grants you <span style=\"color: #FFFFFF; display: inline\">Electrical Charge</span> every second, increasing your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>. Upon reaching <span class=\"item-number\">20</span> stacks, your spells dont deplete <span style=\"color: #cc99ff; display: inline\">Static</span> for <span class=\"item-number\">10</span> seconds, after which the charges are depleted.",
+        "descriptionText": "Standing still grants you Electrical Charge every second, increasing your haste by 1%. Upon reaching 20 stacks, your spells dont deplete Static for 10 seconds, after which the charges are depleted."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7769,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Stormy Days",
+    "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Conjure Storm</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the tick rate of Conjure Storm by -25%.",
+    "iconPath": "interface/icons/trade_alchemy_ghostironrod",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705655,
+    "spellIds": [
+      705655
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34641
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705655,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Conjure Storm</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the tick rate of Conjure Storm by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29828,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Living Lightning",
+    "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Infuse yourself with lightning and blink forward a long distance, dealing <span class=\"item-number\">588</span> + <span class=\"item-number\">100% SP</span> Nature Damage to all enemies in your path.",
+    "descriptionText": "Depletes 40 Static\nInfuse yourself with lightning and blink forward a long distance, dealing 588 + 100% SP Nature Damage to all enemies in your path.",
+    "iconPath": "interface/icons/spell_shaman_crashlightning",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800099,
+    "spellIds": [
+      800099
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1930,
+      7768,
+      34687
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800099,
+        "description": "<span style=\"color: #cc99ff; display: inline\">Depletes <span class=\"item-number\">40</span> Static</span><br />Infuse yourself with lightning and blink forward a long distance, dealing <span class=\"item-number\">588</span> + <span class=\"item-number\">100% SP</span> Nature Damage to all enemies in your path.",
+        "descriptionText": "Depletes 40 Static\nInfuse yourself with lightning and blink forward a long distance, dealing 588 + 100% SP Nature Damage to all enemies in your path."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29833,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Forked Lightning",
+    "description": "Shoot lightning at an enemy, dealing <span class=\"item-number\">cond(gt(SPA, SPN), 50+5.22+SPA*0.42, 50+5.22+SPN*0.642)</span> Nature Damage, bouncing to up to <span class=\"item-number\">3</span> enemies.<br /><br />Generates <span class=\"item-number\">5</span> <span style=\"color: #cc99ff; display: inline\">Static</span> for each enemy struck.",
+    "descriptionText": "Shoot lightning at an enemy, dealing cond(gt(SPA, SPN), 50+5.22+SPA*0.42, 50+5.22+SPN*0.642) Nature Damage, bouncing to up to 3 enemies.\n\nGenerates 5 Static for each enemy struck.",
+    "iconPath": "interface/icons/spell_nature_lightningoverload",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801851,
+    "spellIds": [
+      801851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29837
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801851,
+        "description": "Shoot lightning at an enemy, dealing <span class=\"item-number\">cond(gt(SPA, SPN), 50+5.22+SPA*0.42, 50+5.22+SPN*0.642)</span> Nature Damage, bouncing to up to <span class=\"item-number\">3</span> enemies.<br /><br />Generates <span class=\"item-number\">5</span> <span style=\"color: #cc99ff; display: inline\">Static</span> for each enemy struck.",
+        "descriptionText": "Shoot lightning at an enemy, dealing cond(gt(SPA, SPN), 50+5.22+SPA*0.42, 50+5.22+SPN*0.642) Nature Damage, bouncing to up to 3 enemies.\n\nGenerates 5 Static for each enemy struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29837,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Superconductor",
+    "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> by an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> per <span style=\"color: #cc99ff; display: inline\">Static</span> depleted.",
+    "descriptionText": "Increases the damage of your Arm of Thorim by an additional 1% per Static depleted.",
+    "iconPath": "interface/icons/ability_siege_engineer_magnetic_crush",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705646,
+    "spellIds": [
+      705646
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31163
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705646,
+        "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> by an additional <span class=\"item-number\">1</span><span class=\"item-number\">%</span> per <span style=\"color: #cc99ff; display: inline\">Static</span> depleted.",
+        "descriptionText": "Increases the damage of your Arm of Thorim by an additional 1% per Static depleted."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34635,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Dark Skies",
+    "description": "When your direct damage spells fail to critically strike, your critical strike chance is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking up to <span class=\"item-number\">5</span> times.<br /><br />Critically striking removes this effect.",
+    "descriptionText": "When your direct damage spells fail to critically strike, your critical strike chance is increased by 2% for 10 seconds, stacking up to 5 times.\n\nCritically striking removes this effect.",
+    "iconPath": "interface/icons/inv_stormsongvalley",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300593,
+    "spellIds": [
+      300593
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7763,
+      34930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300593,
+        "description": "When your direct damage spells fail to critically strike, your critical strike chance is increased by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking up to <span class=\"item-number\">5</span> times.<br /><br />Critically striking removes this effect.",
+        "descriptionText": "When your direct damage spells fail to critically strike, your critical strike chance is increased by 2% for 10 seconds, stacking up to 5 times.\n\nCritically striking removes this effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34641,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Improved Forked Lightning",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> now affects <span class=\"item-number\">1</span> additional enemy.",
+    "descriptionText": "Your Forked Lightning now affects 1 additional enemy.",
+    "iconPath": "interface/icons/5_normal26biglightning_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300597,
+    "spellIds": [
+      300597
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29833,
+      34692
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300597,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Forked Lightning</span> now affects <span class=\"item-number\">1</span> additional enemy.",
+        "descriptionText": "Your Forked Lightning now affects 1 additional enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34646,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Uncaged Lightning",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Lightning Cage</span> by <span class=\"item-number\">-30</span> sec and its movement speed slow reduction on you by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Lightning Cage by -30 sec and its movement speed slow reduction on you by 25%.",
+    "iconPath": "interface/icons/spell_nature_lightningshield",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707204,
+    "spellIds": [
+      707204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7473
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707204,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Lightning Cage</span> by <span class=\"item-number\">-30</span> sec and its movement speed slow reduction on you by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Lightning Cage by -30 sec and its movement speed slow reduction on you by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34673,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Tome of Lightning",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces the duration of interrupt and silence effects against you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 2% and reduces the duration of interrupt and silence effects against you by -20%.",
+    "iconPath": "interface/icons/novart_books_(6)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300606,
+    "spellIds": [
+      300606
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34691
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 732125,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300606,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduces the duration of interrupt and silence effects against you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 2% and reduces the duration of interrupt and silence effects against you by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34674,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Invoking Storms",
+    "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Shock</span>, <span style=\"color: #ffffff; display: inline\">Call Lightning</span>, and <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the spell power scaling of Shock, Call Lightning, and Arm of Thorim by 15%.",
+    "iconPath": "interface/icons/spell_nature_callstorm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705667,
+    "spellIds": [
+      705667,
+      707793
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30126,
+      34641
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705667,
+        "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Shock</span>, <span style=\"color: #ffffff; display: inline\">Call Lightning</span>, and <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Shock, Call Lightning, and Arm of Thorim by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707793,
+        "description": "Increases the spell power scaling of <span style=\"color: #ffffff; display: inline\">Shock</span>, <span style=\"color: #ffffff; display: inline\">Call Lightning</span>, and <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the spell power scaling of Shock, Call Lightning, and Arm of Thorim by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34687,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Crackling Devastation",
+    "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Electrocute</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Electrocute by 30%.",
+    "iconPath": "interface/icons/spell_nature_wispheal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705645,
+    "spellIds": [
+      705645
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5475,
+      5738
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705645,
+        "description": "Increases the critical damage of <span style=\"color: #ffffff; display: inline\">Electrocute</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Electrocute by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34691,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Titanic Thunderbolt",
+    "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> and <span style=\"color: #FFFFFF; display: inline\">Eye of the Storm</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Arm of Thorim and Eye of the Storm by 4%.",
+    "iconPath": "interface/icons/spell_nature_lightning",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705653,
+    "spellIds": [
+      705653,
+      707794
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29290,
+      29833
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705653,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> and <span style=\"color: #FFFFFF; display: inline\">Eye of the Storm</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Arm of Thorim and Eye of the Storm by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707794,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> and <span style=\"color: #FFFFFF; display: inline\">Eye of the Storm</span> by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Arm of Thorim and Eye of the Storm by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34692,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Thorim's Gift",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> now leaves unstable electricity beneath the target, dealing damage equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of its damage dealt to enemies within every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Your Arm of Thorim now leaves unstable electricity beneath the target, dealing damage equal to 10% of its damage dealt to enemies within every 1 sec for 3 seconds.",
+    "iconPath": "interface/icons/achievement_boss_thorim",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570173,
+    "spellIds": [
+      570173
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29833
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570173,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Arm of Thorim</span> now leaves unstable electricity beneath the target, dealing damage equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of its damage dealt to enemies within every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Your Arm of Thorim now leaves unstable electricity beneath the target, dealing damage equal to 10% of its damage dealt to enemies within every 1 sec for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34696,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Titanstorm",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Call Lightning</span> or <span style=\"color: #ffffff; display: inline\">Electrocute</span> now reduces the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">-1.5</span> sec.",
+    "descriptionText": "Casting Call Lightning or Electrocute now reduces the remaining cooldown of Arm of Thorim by -1.5 sec.",
+    "iconPath": "interface/icons/achievement_dungeon_ulduarraid_titan_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801869,
+    "spellIds": [
+      801869
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7766,
+      9930,
+      34673
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801869,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Call Lightning</span> or <span style=\"color: #ffffff; display: inline\">Electrocute</span> now reduces the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">-1.5</span> sec.",
+        "descriptionText": "Casting Call Lightning or Electrocute now reduces the remaining cooldown of Arm of Thorim by -1.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34911,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Jolt",
+    "description": "Increases the damage and critical strike chance of <span style=\"color: #ffffff; display: inline\">Electrocute</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and critical strike chance of Electrocute by 10%.",
+    "iconPath": "interface/icons/novart_magicspell_(74)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707054,
+    "spellIds": [
+      707054,
+      707859
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707054,
+        "description": "Increases the damage and critical strike chance of <span style=\"color: #ffffff; display: inline\">Electrocute</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and critical strike chance of Electrocute by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707859,
+        "description": "Increases the damage and critical strike chance of <span style=\"color: #ffffff; display: inline\">Electrocute</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and critical strike chance of Electrocute by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34930,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Critical Circuit",
+    "description": "Direct critical strikes with <span style=\"color: #cc99ff; display: inline\">Static</span> spenders now refund <span class=\"item-number\">10</span> <span style=\"color: #cc99ff; display: inline\">Static</span>.",
+    "descriptionText": "Direct critical strikes with Static spenders now refund 10 Static.",
+    "iconPath": "interface/icons/5_druideskill39_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807314,
+    "spellIds": [
+      807314
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34696
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807314,
+        "description": "Direct critical strikes with <span style=\"color: #cc99ff; display: inline\">Static</span> spenders now refund <span class=\"item-number\">10</span> <span style=\"color: #cc99ff; display: inline\">Static</span>.",
+        "descriptionText": "Direct critical strikes with Static spenders now refund 10 Static."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34937,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Thundershocker",
+    "description": "While rooted by <span style=\"color: #ffffff; display: inline\">Eye of the Storm</span>, affected enemies now take <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage from you.",
+    "descriptionText": "While rooted by Eye of the Storm, affected enemies now take 30% increased damage from you.",
+    "iconPath": "interface/icons/nhi_manawave_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300610,
+    "spellIds": [
+      300610
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34674
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300610,
+        "description": "While rooted by <span style=\"color: #ffffff; display: inline\">Eye of the Storm</span>, affected enemies now take <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage from you.",
+        "descriptionText": "While rooted by Eye of the Storm, affected enemies now take 30% increased damage from you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31163,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Arm of Thorim",
+    "description": "<span style=\"color: #ffffff; display: inline\">Depletes All Static</span><br />Call down a terrible beam of lightning upon an enemy, dealing <span class=\"item-number\">161</span> + <span class=\"item-number\">120% nature SP</span> Nature Damage and stunning them for <span class=\"item-number\">1</span> seconds.<br /><br />Damage and cast time increased based on <span style=\"color: #cc99ff; display: inline\">Static</span> level.",
+    "descriptionText": "Depletes All Static\nCall down a terrible beam of lightning upon an enemy, dealing 161 + 120% nature SP Nature Damage and stunning them for 1 seconds.\n\nDamage and cast time increased based on Static level.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_wind_icon_0002s_0000_lightning_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801847,
+    "spellIds": [
+      801847
+    ],
+    "requiredNodeIds": [
+      4013,
+      29138
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801847,
+        "description": "<span style=\"color: #ffffff; display: inline\">Depletes All Static</span><br />Call down a terrible beam of lightning upon an enemy, dealing <span class=\"item-number\">161</span> + <span class=\"item-number\">120% nature SP</span> Nature Damage and stunning them for <span class=\"item-number\">1</span> seconds.<br /><br />Damage and cast time increased based on <span style=\"color: #cc99ff; display: inline\">Static</span> level.",
+        "descriptionText": "Depletes All Static\nCall down a terrible beam of lightning upon an enemy, dealing 161 + 120% nature SP Nature Damage and stunning them for 1 seconds.\n\nDamage and cast time increased based on Static level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30126,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Electric Energy",
+    "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Call Lightning</span> and <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of your Call Lightning and Arm of Thorim by 20%.",
+    "iconPath": "interface/icons/5_atom_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804278,
+    "spellIds": [
+      804278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34691
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804278,
+        "description": "Increases the damage of your <span style=\"color: #ffffff; display: inline\">Call Lightning</span> and <span style=\"color: #ffffff; display: inline\">Arm of Thorim</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of your Call Lightning and Arm of Thorim by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30127,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "Thunder Wave",
+    "description": "$4f",
+    "descriptionText": "$4f",
+    "iconPath": "interface/icons/spell_shaman_hightide",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705692,
+    "spellIds": [
+      705692
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7768
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705692,
+        "description": "$50",
+        "descriptionText": "$50"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30408,
+    "classId": 16,
+    "className": "Stormbringer",
+    "tabId": 42,
+    "tabKey": "16:42",
+    "tabName": "Lightning",
+    "name": "High Voltage",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Arm of Thorim's</span> stun effect by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of Arm of Thorim's stun effect by 1 sec.",
+    "iconPath": "interface/icons/inv_eng_electroshockmountmotivator",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570191,
+    "spellIds": [
+      570191
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6851,
+      34937
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570191,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Arm of Thorim's</span> stun effect by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of Arm of Thorim's stun effect by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

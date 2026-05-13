@@ -1,0 +1,1934 @@
+[
+  {
+    "nodeId": 7662,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Night Hunter",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Veinburst</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to not trigger a cooldown when cast.<br /><br />Your <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund half of its Rage cost when cast.",
+    "descriptionText": "Your Veinburst now has a 40% chance to not trigger a cooldown when cast.\n\nYour Bloodbolt now has a 40% chance to refund half of its Rage cost when cast.",
+    "iconPath": "interface/icons/spell_shadow_nethercloak",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704659,
+    "spellIds": [
+      704659
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30420,
+      33746
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704659,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Veinburst</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to not trigger a cooldown when cast.<br /><br />Your <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund half of its Rage cost when cast.",
+        "descriptionText": "Your Veinburst now has a 40% chance to not trigger a cooldown when cast.\n\nYour Bloodbolt now has a 40% chance to refund half of its Rage cost when cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12896,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Shadow Pact",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Shields</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Shields by 50%.",
+    "iconPath": "interface/icons/spell_shadow_blackplague",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561227,
+    "spellIds": [
+      561227
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7318
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 561227,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561227,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Shields</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Shields by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7294,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Dark Frenzy",
+    "description": "Increases spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, while a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> is active, your global cooldowns are reduced by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, while a Cursed Form is active, your global cooldowns are reduced by -25%.",
+    "iconPath": "interface/icons/_warlock_plaiefuneste1",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704644,
+    "spellIds": [
+      704644
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33708
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704644,
+        "description": "Increases spell haste of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, while a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> is active, your global cooldowns are reduced by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases spell haste of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, while a Cursed Form is active, your global cooldowns are reduced by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7295,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Rage",
+    "description": "Increases your Shadow spell damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your attack power.",
+    "descriptionText": "Increases your Shadow spell damage by 15% of your attack power.",
+    "iconPath": "interface/icons/inv_artifact_corruptedbloodofzakajz",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504241,
+    "spellIds": [
+      504241,
+      504895
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7318
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504241,
+        "description": "Increases your Shadow spell damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your attack power.",
+        "descriptionText": "Increases your Shadow spell damage by 15% of your attack power."
+      },
+      {
+        "rank": 2,
+        "spellId": 504895,
+        "description": "Increases your Shadow spell damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your attack power.",
+        "descriptionText": "Increases your Shadow spell damage by 30% of your attack power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7297,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Aortic Assault",
+    "description": "Extend the duration of your active <span style=\"color: #a966f0; display: inline\">Cursed Form</span> by <span class=\"item-number\">3</span> sec and strike an enemy every <span class=\"item-number\">0</span> sec for <span class=\"item-number\">3</span> seconds, each strike causing <span class=\"item-number\">22</span> + <span class=\"item-number\">12% AP</span> Physical Damage.",
+    "descriptionText": "Extend the duration of your active Cursed Form by 3 sec and strike an enemy every 0 sec for 3 seconds, each strike causing 22 + 12% AP Physical Damage.",
+    "iconPath": "interface/icons/achievement_moguraid_06",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806212,
+    "spellIds": [
+      806212
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33709
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806212,
+        "description": "Extend the duration of your active <span style=\"color: #a966f0; display: inline\">Cursed Form</span> by <span class=\"item-number\">3</span> sec and strike an enemy every <span class=\"item-number\">0</span> sec for <span class=\"item-number\">3</span> seconds, each strike causing <span class=\"item-number\">22</span> + <span class=\"item-number\">12% AP</span> Physical Damage.",
+        "descriptionText": "Extend the duration of your active Cursed Form by 3 sec and strike an enemy every 0 sec for 3 seconds, each strike causing 22 + 12% AP Physical Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7303,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Crimson Expedition",
+    "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Bloodbolt</span>, <span style=\"color: #ffffff; display: inline\">Blood Shards</span>, and <span style=\"color: #ffffff; display: inline\">Aortic Assault</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of your Bloodbolt, Blood Shards, and Aortic Assault by 10%.",
+    "iconPath": "interface/icons/ability_criticalstrike",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 523727,
+    "spellIds": [
+      523727
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11419,
+      11444,
+      30294,
+      30419
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 523727,
+        "description": "Increases the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Bloodbolt</span>, <span style=\"color: #ffffff; display: inline\">Blood Shards</span>, and <span style=\"color: #ffffff; display: inline\">Aortic Assault</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of your Bloodbolt, Blood Shards, and Aortic Assault by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7318,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Fang Over Fang",
+    "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Reave</span>.",
+    "descriptionText": "Casting Bloodfang Bite now has a 20% chance to reset the cooldown of Reave.",
+    "iconPath": "interface/icons/inv_misc_monsterfang_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504116,
+    "spellIds": [
+      504116
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33745
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504116,
+        "description": "Casting <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Reave</span>.",
+        "descriptionText": "Casting Bloodfang Bite now has a 20% chance to reset the cooldown of Reave."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7411,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Endure the Curse",
+    "description": "Reduce all damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />While active, taking damage that would reduce your health below <span class=\"item-number\">10%</span> will instantly heal you for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your maximum health. Can only occur once.",
+    "descriptionText": "Reduce all damage taken by -30% for 10 seconds.\n\nWhile active, taking damage that would reduce your health below 10% will instantly heal you for 30% of your maximum health. Can only occur once.",
+    "iconPath": "interface/icons/inv_sulfurelemental_blood",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681190,
+    "spellIds": [
+      681190
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6848,
+      30848,
+      33708
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681190,
+        "description": "Reduce all damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />While active, taking damage that would reduce your health below <span class=\"item-number\">10%</span> will instantly heal you for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your maximum health. Can only occur once.",
+        "descriptionText": "Reduce all damage taken by -30% for 10 seconds.\n\nWhile active, taking damage that would reduce your health below 10% will instantly heal you for 30% of your maximum health. Can only occur once."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11419,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Gore Tome",
+    "description": "For the first <span class=\"item-number\">5</span> sec after activating a <span style=\"color: #a966f0; display: inline\">Cursed Form</span>, your <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> is now guaranteed to critically strike.",
+    "descriptionText": "For the first 5 sec after activating a Cursed Form, your Bloodfang Bite is now guaranteed to critically strike.",
+    "iconPath": "interface/icons/_book2motif_kaelthas",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807788,
+    "spellIds": [
+      807788
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7295,
+      7297
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807788,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807788,
+        "description": "For the first <span class=\"item-number\">5</span> sec after activating a <span style=\"color: #a966f0; display: inline\">Cursed Form</span>, your <span style=\"color: #FFFFFF; display: inline\">Bloodfang Bite</span> is now guaranteed to critically strike.",
+        "descriptionText": "For the first 5 sec after activating a Cursed Form, your Bloodfang Bite is now guaranteed to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11444,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Dark Intent",
+    "description": "When you <span style=\"color: #ffffff; display: inline\">Lunge</span> at an enemy you now heal for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum health.",
+    "descriptionText": "When you Lunge at an enemy you now heal for 5% of your maximum health.",
+    "iconPath": "interface/icons/ability_deathknight_roilingblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707622,
+    "spellIds": [
+      707622
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7297
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707622,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707622,
+        "description": "When you <span style=\"color: #ffffff; display: inline\">Lunge</span> at an enemy you now heal for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum health.",
+        "descriptionText": "When you Lunge at an enemy you now heal for 5% of your maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33701,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Terrorizer",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Taldaram's Torment</span>, <span style=\"color: #ffffff; display: inline\">Sanguine Rupture</span>, and <span style=\"color: #ffffff; display: inline\">Claw Sweep</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Taldaram's Torment, Sanguine Rupture, and Claw Sweep by 25%.",
+    "iconPath": "interface/icons/ability_racial_bloodrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806210,
+    "spellIds": [
+      806210
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30290
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806210,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Taldaram's Torment</span>, <span style=\"color: #ffffff; display: inline\">Sanguine Rupture</span>, and <span style=\"color: #ffffff; display: inline\">Claw Sweep</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Taldaram's Torment, Sanguine Rupture, and Claw Sweep by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33707,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Dark Hunt",
+    "description": "Increases your Shadow Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against bleeding targets.",
+    "descriptionText": "Increases your Shadow Damage dealt by 10% against bleeding targets.",
+    "iconPath": "interface/icons/spell_deathknight_bladedarmor",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705733,
+    "spellIds": [
+      705733
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7295,
+      12896,
+      30291
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705733,
+        "description": "Increases your Shadow Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against bleeding targets.",
+        "descriptionText": "Increases your Shadow Damage dealt by 10% against bleeding targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33708,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Gore Barrage",
+    "description": "Reduces the cost of spells that cost health by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of spells that cost health by -30%.",
+    "iconPath": "interface/icons/custom_t_bloodspikes_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807345,
+    "spellIds": [
+      807345
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11419,
+      30419
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807345,
+        "description": "Reduces the cost of spells that cost health by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of spells that cost health by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33709,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Barely Human",
+    "description": "Increases your armor penetration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your armor penetration by 15% and reduces your spell pushback suffered from damaging attacks by 50%.",
+    "iconPath": "interface/icons/spell_nzinsanity_bloodthirst",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504254,
+    "spellIds": [
+      504254,
+      504894
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33745
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504254,
+        "description": "Increases your armor penetration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from damaging attacks by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your armor penetration by 15% and reduces your spell pushback suffered from damaging attacks by 50%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504894,
+        "description": "Increases your armor penetration by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and reduces your spell pushback suffered from damaging attacks by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your armor penetration by 30% and reduces your spell pushback suffered from damaging attacks by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33741,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Sanguine Scripture",
+    "description": "Upon exiting <span style=\"color: #ffffff; display: inline\">Accursed Form</span>, you gain <span class=\"item-number\">70</span><span class=\"item-number\">%</span> movement speed and spell haste for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Upon exiting Accursed Form, you gain 70% movement speed and spell haste for 5 seconds.",
+    "iconPath": "interface/icons/_book6_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804851,
+    "spellIds": [
+      804851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12896,
+      30290,
+      30291
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804851,
+        "description": "Upon exiting <span style=\"color: #ffffff; display: inline\">Accursed Form</span>, you gain <span class=\"item-number\">70</span><span class=\"item-number\">%</span> movement speed and spell haste for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Upon exiting Accursed Form, you gain 70% movement speed and spell haste for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33742,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Inhumane",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Aortic Assault</span> will now launch <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span>, dealing <span class=\"item-number\">132</span> + <span class=\"item-number\">15% AP</span> + <span class=\"item-number\">35% SP</span> Shadow Damage to your target.",
+    "descriptionText": "Dealing damage with Aortic Assault will now launch 1 Blood Shard, dealing 132 + 15% AP + 35% SP Shadow Damage to your target.",
+    "iconPath": "interface/icons/achievement_boss_breaker_darmac",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807488,
+    "spellIds": [
+      807488
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7294,
+      30293
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807488,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Aortic Assault</span> will now launch <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span>, dealing <span class=\"item-number\">132</span> + <span class=\"item-number\">15% AP</span> + <span class=\"item-number\">35% SP</span> Shadow Damage to your target.",
+        "descriptionText": "Dealing damage with Aortic Assault will now launch 1 Blood Shard, dealing 132 + 15% AP + 35% SP Shadow Damage to your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33744,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Killer Instinct",
+    "description": "Each point of Rage now increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Veinburst</span> and <span style=\"color: #ffffff; display: inline\">Reave</span> by <span class=\"item-number\">0.5</span><span class=\"item-number\">%</span>, up to a maximum of <span class=\"item-number\">50%</span>.",
+    "descriptionText": "Each point of Rage now increases the critical strike chance of Veinburst and Reave by 0.5%, up to a maximum of 50%.",
+    "iconPath": "interface/icons/ability_deathknight_roilingblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704690,
+    "spellIds": [
+      704690
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6848,
+      29878,
+      30292
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704690,
+        "description": "Each point of Rage now increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Veinburst</span> and <span style=\"color: #ffffff; display: inline\">Reave</span> by <span class=\"item-number\">0.5</span><span class=\"item-number\">%</span>, up to a maximum of <span class=\"item-number\">50%</span>.",
+        "descriptionText": "Each point of Rage now increases the critical strike chance of Veinburst and Reave by 0.5%, up to a maximum of 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33745,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Reave",
+    "description": "Lacerate an enemy, dealing <span class=\"item-number\">55</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">11</span>.<br /><br />If the enemy is bleeding, below <span class=\"item-number\">35%</span> health, or if you are behind them, deal <span class=\"item-number\">100</span><span class=\"item-number\">%</span> additional Shadow Damage for each condition met.",
+    "descriptionText": "Lacerate an enemy, dealing 55% Weapon Damage plus 11.\n\nIf the enemy is bleeding, below 35% health, or if you are behind them, deal 100% additional Shadow Damage for each condition met.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_40",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800490,
+    "spellIds": [
+      800490
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29485
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800490,
+        "description": "Lacerate an enemy, dealing <span class=\"item-number\">55</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">11</span>.<br /><br />If the enemy is bleeding, below <span class=\"item-number\">35%</span> health, or if you are behind them, deal <span class=\"item-number\">100</span><span class=\"item-number\">%</span> additional Shadow Damage for each condition met.",
+        "descriptionText": "Lacerate an enemy, dealing 55% Weapon Damage plus 11.\n\nIf the enemy is bleeding, below 35% health, or if you are behind them, deal 100% additional Shadow Damage for each condition met."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33746,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Everlasting Hunt",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blood Shards</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Veinburst</span> and <span style=\"color: #ffffff; display: inline\">Reave</span> by <span class=\"item-number\">-1.5</span> sec.",
+    "descriptionText": "Damage dealt by Blood Shards now reduces the cooldown of Veinburst and Reave by -1.5 sec.",
+    "iconPath": "interface/icons/ability_hunter_rapidkilling",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804686,
+    "spellIds": [
+      804686
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30864,
+      33744
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804686,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Blood Shards</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Veinburst</span> and <span style=\"color: #ffffff; display: inline\">Reave</span> by <span class=\"item-number\">-1.5</span> sec.",
+        "descriptionText": "Damage dealt by Blood Shards now reduces the cooldown of Veinburst and Reave by -1.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30848,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Dark Sigil",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, you now heal for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of all critical Shadow Damage dealt.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, you now heal for 15% of all critical Shadow Damage dealt.",
+    "iconPath": "interface/icons/_hearthstonedark_deathknight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560535,
+    "spellIds": [
+      560535
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33707
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560535,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, you now heal for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of all critical Shadow Damage dealt.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, you now heal for 15% of all critical Shadow Damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30864,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Crimson Feast",
+    "description": "Every <span class=\"item-number\">5</span> second you remain in a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Bloodsurge</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Every 5 second you remain in a Cursed Form now reduces the cooldown of your Bloodsurge by -5 sec.",
+    "iconPath": "interface/icons/nhi_blood_grawl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804602,
+    "spellIds": [
+      804602
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6848
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804602,
+        "description": "Every <span class=\"item-number\">5</span> second you remain in a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Bloodsurge</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Every 5 second you remain in a Cursed Form now reduces the cooldown of your Bloodsurge by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31251,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Blood Scent",
+    "description": "While in <span style=\"color: #ffffff; display: inline\">Accursed Form</span>, you now deal <span class=\"item-number\">15%</span> increased damage to targets below <span class=\"item-number\">35%</span> maximum health.<br /><br />Dealing direct damage to enemies below <span class=\"item-number\">35%</span> maximum health now leeches health equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "While in Accursed Form, you now deal 15% increased damage to targets below 35% maximum health.\n\nDealing direct damage to enemies below 35% maximum health now leeches health equal to 10% of the damage dealt.",
+    "iconPath": "interface/icons/ability_physical_taunt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804223,
+    "spellIds": [
+      804223
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30202,
+      30420
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804223,
+        "description": "While in <span style=\"color: #ffffff; display: inline\">Accursed Form</span>, you now deal <span class=\"item-number\">15%</span> increased damage to targets below <span class=\"item-number\">35%</span> maximum health.<br /><br />Dealing direct damage to enemies below <span class=\"item-number\">35%</span> maximum health now leeches health equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "While in Accursed Form, you now deal 15% increased damage to targets below 35% maximum health.\n\nDealing direct damage to enemies below 35% maximum health now leeches health equal to 10% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29485,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Accursed Form",
+    "description": "$75",
+    "descriptionText": "$75",
+    "iconPath": "interface/icons/achievement_dungeon_hallsofattonement_echelon",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504710,
+    "spellIds": [
+      504710
+    ],
+    "requiredNodeIds": [
+      4026
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504710,
+        "description": "$76",
+        "descriptionText": "$76"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30202,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Battleweaver",
+    "description": "Casting <span style=\"color: #a966f0; display: inline\">Cursed Form</span> abilities now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span> for <span class=\"item-number\">10</span> minutes, up to <span class=\"item-number\">8</span>.<br /><br />Dealing damage with <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> will launch <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span>, dealing <span class=\"item-number\">132</span> + <span class=\"item-number\">15% AP</span> + <span class=\"item-number\">35% SP</span> Shadow Damage to your target.",
+    "descriptionText": "Casting Cursed Form abilities now has a 50% chance to generate 1 Blood Shard for 10 minutes, up to 8.\n\nDealing damage with Bloodbolt will launch 1 Blood Shard, dealing 132 + 15% AP + 35% SP Shadow Damage to your target.",
+    "iconPath": "interface/icons/warlock_charredremains",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801963,
+    "spellIds": [
+      801963
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7294,
+      7411
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801963,
+        "description": "Casting <span style=\"color: #a966f0; display: inline\">Cursed Form</span> abilities now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span> for <span class=\"item-number\">10</span> minutes, up to <span class=\"item-number\">8</span>.<br /><br />Dealing damage with <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> will launch <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span>, dealing <span class=\"item-number\">132</span> + <span class=\"item-number\">15% AP</span> + <span class=\"item-number\">35% SP</span> Shadow Damage to your target.",
+        "descriptionText": "Casting Cursed Form abilities now has a 50% chance to generate 1 Blood Shard for 10 minutes, up to 8.\n\nDealing damage with Bloodbolt will launch 1 Blood Shard, dealing 132 + 15% AP + 35% SP Shadow Damage to your target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30290,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Veinburst",
+    "description": "Requires Mortal Form</span><br />Blast an enemy, dealing <span class=\"item-number\">141</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">85% shadow SP</span> Shadow Damage.<br /><br />Deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage to bleeding targets.",
+    "descriptionText": "Requires Mortal Form\nBlast an enemy, dealing 141 + 25% AP + 85% shadow SP Shadow Damage.\n\nDeals 25% increased damage to bleeding targets.",
+    "iconPath": "interface/icons/ability_ironmaidens_bloodritual",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504260,
+    "spellIds": [
+      504260
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6328
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504260,
+        "description": "Requires Mortal Form</span><br />Blast an enemy, dealing <span class=\"item-number\">141</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">85% shadow SP</span> Shadow Damage.<br /><br />Deals <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage to bleeding targets.",
+        "descriptionText": "Requires Mortal Form\nBlast an enemy, dealing 141 + 25% AP + 85% shadow SP Shadow Damage.\n\nDeals 25% increased damage to bleeding targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30291,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Blood Pact",
+    "description": "Increases your maximum Rage by <span class=\"item-number\">20</span> and you now regenerate <span class=\"item-number\">4</span> Rage every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases your maximum Rage by 20 and you now regenerate 4 Rage every 5 sec.",
+    "iconPath": "interface/icons/ability_revendreth_deathknight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560256,
+    "spellIds": [
+      560256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7318
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 561227,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560256,
+        "description": "Increases your maximum Rage by <span class=\"item-number\">20</span> and you now regenerate <span class=\"item-number\">4</span> Rage every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases your maximum Rage by 20 and you now regenerate 4 Rage every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30292,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Corrupted Blood",
+    "description": "When you use <span style=\"color: #ffffff; display: inline\">Taldaram's Torment</span> on a Humanoid or Beast it now corrupts their blood, increasing your damage dealt against them by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "When you use Taldaram's Torment on a Humanoid or Beast it now corrupts their blood, increasing your damage dealt against them by 10%.",
+    "iconPath": "interface/icons/artifactability_blooddeathknight_umbilicuseternus",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704692,
+    "spellIds": [
+      704692
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33701,
+      33741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707435,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704692,
+        "description": "When you use <span style=\"color: #ffffff; display: inline\">Taldaram's Torment</span> on a Humanoid or Beast it now corrupts their blood, increasing your damage dealt against them by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "When you use Taldaram's Torment on a Humanoid or Beast it now corrupts their blood, increasing your damage dealt against them by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30293,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Clotting",
+    "description": "At the end of <span style=\"color: #ffffff; display: inline\">Aortic Assault</span>'s duration, all enemies in a <span class=\"item-number\">10</span> yd frontal cone suffer <span class=\"item-number\">579</span> + <span class=\"item-number\">100% AP</span> Physical Damage.<br /><br />Damage dealt by this effect is increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> against bleeding targets.",
+    "descriptionText": "At the end of Aortic Assault's duration, all enemies in a 10 yd frontal cone suffer 579 + 100% AP Physical Damage.\n\nDamage dealt by this effect is increased by 50% against bleeding targets.",
+    "iconPath": "interface/icons/inv_hand_1h_pvpdraenors2_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704115,
+    "spellIds": [
+      704115
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7303,
+      33708
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704115,
+        "description": "At the end of <span style=\"color: #ffffff; display: inline\">Aortic Assault</span>'s duration, all enemies in a <span class=\"item-number\">10</span> yd frontal cone suffer <span class=\"item-number\">579</span> + <span class=\"item-number\">100% AP</span> Physical Damage.<br /><br />Damage dealt by this effect is increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> against bleeding targets.",
+        "descriptionText": "At the end of Aortic Assault's duration, all enemies in a 10 yd frontal cone suffer 579 + 100% AP Physical Damage.\n\nDamage dealt by this effect is increased by 50% against bleeding targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30294,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Cruel Intent",
+    "description": "When you <span style=\"color: #ffffff; display: inline\">Lunge</span> at an enemy you now strike them <span class=\"item-number\">5</span> times with auto attacks.",
+    "descriptionText": "When you Lunge at an enemy you now strike them 5 times with auto attacks.",
+    "iconPath": "interface/icons/inv_amalgamofrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704653,
+    "spellIds": [
+      704653
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7297
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707622,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704653,
+        "description": "When you <span style=\"color: #ffffff; display: inline\">Lunge</span> at an enemy you now strike them <span class=\"item-number\">5</span> times with auto attacks.",
+        "descriptionText": "When you Lunge at an enemy you now strike them 5 times with auto attacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30342,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Darkcasting",
+    "description": "$77",
+    "descriptionText": "$77",
+    "iconPath": "interface/icons/_devouringshadow_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706247,
+    "spellIds": [
+      706247
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6510
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706247,
+        "description": "$78",
+        "descriptionText": "$78"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30418,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Final Embrace",
+    "description": "$79",
+    "descriptionText": "$79",
+    "iconPath": "interface/icons/nhi_bloodmaw_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524865,
+    "spellIds": [
+      524865
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6510,
+      7662,
+      31251
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524865,
+        "description": "$7a",
+        "descriptionText": "$7a"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30419,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Leeching Tome",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> now leeches <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more health, but it now costs <span class=\"item-number\">5</span> additional Rage.",
+    "descriptionText": "Your Bloodbolt now leeches 50% more health, but it now costs 5 additional Rage.",
+    "iconPath": "interface/icons/_book1_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807489,
+    "spellIds": [
+      807489
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7295,
+      7297
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807788,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807489,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Bloodbolt</span> now leeches <span class=\"item-number\">50</span><span class=\"item-number\">%</span> more health, but it now costs <span class=\"item-number\">5</span> additional Rage.",
+        "descriptionText": "Your Bloodbolt now leeches 50% more health, but it now costs 5 additional Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30420,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "One Man's Curse...",
+    "description": "Removes the health cost of <span style=\"color: #ffffff; display: inline\">Accursed Form</span> and entering it now instantly restores <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum health.",
+    "descriptionText": "Removes the health cost of Accursed Form and entering it now instantly restores 15% of your maximum health.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_blooddrop_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680661,
+    "spellIds": [
+      680661
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7411,
+      30864
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680661,
+        "description": "Removes the health cost of <span style=\"color: #ffffff; display: inline\">Accursed Form</span> and entering it now instantly restores <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your maximum health.",
+        "descriptionText": "Removes the health cost of Accursed Form and entering it now instantly restores 15% of your maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30421,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Hemoburst",
+    "description": "Requires Mortal Form</span><br />Unleash a powerful burst of blood at an enemy, dealing <span class=\"item-number\">1484</span> + <span class=\"item-number\">65% AP</span> + <span class=\"item-number\">50% SP</span> Shadow Damage. This ability is guaranteed to critically strike against bleeding targets.<br /><br />Extends the duration of your next <span style=\"color: #a966f0; display: inline\">Cursed Form</span> by <span class=\"item-number\">5</span> sec for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Requires Mortal Form\nUnleash a powerful burst of blood at an enemy, dealing 1484 + 65% AP + 50% SP Shadow Damage. This ability is guaranteed to critically strike against bleeding targets.\n\nExtends the duration of your next Cursed Form by 5 sec for 30 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/nhi_bloodbolt_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572855,
+    "spellIds": [
+      572855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7662
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572855,
+        "description": "Requires Mortal Form</span><br />Unleash a powerful burst of blood at an enemy, dealing <span class=\"item-number\">1484</span> + <span class=\"item-number\">65% AP</span> + <span class=\"item-number\">50% SP</span> Shadow Damage. This ability is guaranteed to critically strike against bleeding targets.<br /><br />Extends the duration of your next <span style=\"color: #a966f0; display: inline\">Cursed Form</span> by <span class=\"item-number\">5</span> sec for <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Requires Mortal Form\nUnleash a powerful burst of blood at an enemy, dealing 1484 + 65% AP + 50% SP Shadow Damage. This ability is guaranteed to critically strike against bleeding targets.\n\nExtends the duration of your next Cursed Form by 5 sec for 30 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29878,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Cursed Blood",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Taldaram's Torment</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to internally rupture, causing it to deal its damage an additional time to all enemies near the target.",
+    "descriptionText": "Damage dealt by Taldaram's Torment now has a 20% chance to internally rupture, causing it to deal its damage an additional time to all enemies near the target.",
+    "iconPath": "interface/icons/spell_shadow_curseoftounges",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707435,
+    "spellIds": [
+      707435
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33701,
+      33741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707435,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707435,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Taldaram's Torment</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to internally rupture, causing it to deal its damage an additional time to all enemies near the target.",
+        "descriptionText": "Damage dealt by Taldaram's Torment now has a 20% chance to internally rupture, causing it to deal its damage an additional time to all enemies near the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4306,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "The Hunter and the Hunted",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />When you activate a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> you now charge to your target if they are within <span class=\"item-number\">20</span> yds. If they're an enemy you root them for <span class=\"item-number\">2</span> seconds.<br /><br />Upon expiration, your <span style=\"color: #ffffff; display: inline\">Accursed Form</span> can be reactivated to cause you to erupt in a burst of blood magic, leeching <span class=\"item-number\">33% shadow SP</span> + <span class=\"item-number\">12.5% AP</span> health from nearby enemies and teleporting you backwards.",
+    "descriptionText": "Level 50 Passive\nWhen you activate a Cursed Form you now charge to your target if they are within 20 yds. If they're an enemy you root them for 2 seconds.\n\nUpon expiration, your Accursed Form can be reactivated to cause you to erupt in a burst of blood magic, leeching 33% shadow SP + 12.5% AP health from nearby enemies and teleporting you backwards.",
+    "iconPath": "interface/icons/nhi_blood_aura_border",
+    "nodeType": "SpendHex",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807487,
+    "spellIds": [
+      807487
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4129
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807487,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />When you activate a <span style=\"color: #a966f0; display: inline\">Cursed Form</span> you now charge to your target if they are within <span class=\"item-number\">20</span> yds. If they're an enemy you root them for <span class=\"item-number\">2</span> seconds.<br /><br />Upon expiration, your <span style=\"color: #ffffff; display: inline\">Accursed Form</span> can be reactivated to cause you to erupt in a burst of blood magic, leeching <span class=\"item-number\">33% shadow SP</span> + <span class=\"item-number\">12.5% AP</span> health from nearby enemies and teleporting you backwards.",
+        "descriptionText": "Level 50 Passive\nWhen you activate a Cursed Form you now charge to your target if they are within 20 yds. If they're an enemy you root them for 2 seconds.\n\nUpon expiration, your Accursed Form can be reactivated to cause you to erupt in a burst of blood magic, leeching 33% shadow SP + 12.5% AP health from nearby enemies and teleporting you backwards."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4026,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Unchained",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your damaging <span style=\"color: #ffffff; display: inline\">Mortal Form</span> spells can now be cast while moving.",
+    "descriptionText": "Level 10 Passive\nYour damaging Mortal Form spells can now be cast while moving.",
+    "iconPath": "interface/icons/nhi_foreshadowblood_border",
+    "nodeType": "SpendHex",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92113,
+    "spellIds": [
+      92113
+    ],
+    "requiredNodeIds": [
+      31117
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 10,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92113,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your damaging <span style=\"color: #ffffff; display: inline\">Mortal Form</span> spells can now be cast while moving.",
+        "descriptionText": "Level 10 Passive\nYour damaging Mortal Form spells can now be cast while moving."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4127,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Forbidden Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell critical strike rating by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Agility and spell hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell critical strike rating by 30% of your Agility and spell hit rating by 5% of your Agility.",
+    "iconPath": "interface/icons/5_bull_border",
+    "nodeType": "SpendHex",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500445,
+    "spellIds": [
+      500445
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4026
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500445,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell critical strike rating by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Agility and spell hit rating by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell critical strike rating by 30% of your Agility and spell hit rating by 5% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4128,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Blood Shards",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Bloodmoon Blast</span> now generates <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span>, plus <span class=\"item-number\">1</span> additional if it critically strikes, for <span class=\"item-number\">10</span> minutes, up to <span class=\"item-number\">8</span>.<br /><br />Dealing damage with <span style=\"color: #ffffff; display: inline\">Veinburst</span> will now expend all stacks of <span style=\"color: #ffffff; display: inline\">Blood Shards</span>, each dealing <span class=\"item-number\">132</span> + <span class=\"item-number\">9% AP</span> + <span class=\"item-number\">15% SP</span> Shadow Damage to your target.",
+    "descriptionText": "Level 30 Passive\nDamage dealt by Bloodmoon Blast now generates 1 Blood Shard, plus 1 additional if it critically strikes, for 10 minutes, up to 8.\n\nDealing damage with Veinburst will now expend all stacks of Blood Shards, each dealing 132 + 9% AP + 15% SP Shadow Damage to your target.",
+    "iconPath": "interface/icons/uico_blood_spell_02_border",
+    "nodeType": "SpendHex",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804849,
+    "spellIds": [
+      804849
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4127
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804849,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Bloodmoon Blast</span> now generates <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Blood Shard</span>, plus <span class=\"item-number\">1</span> additional if it critically strikes, for <span class=\"item-number\">10</span> minutes, up to <span class=\"item-number\">8</span>.<br /><br />Dealing damage with <span style=\"color: #ffffff; display: inline\">Veinburst</span> will now expend all stacks of <span style=\"color: #ffffff; display: inline\">Blood Shards</span>, each dealing <span class=\"item-number\">132</span> + <span class=\"item-number\">9% AP</span> + <span class=\"item-number\">15% SP</span> Shadow Damage to your target.",
+        "descriptionText": "Level 30 Passive\nDamage dealt by Bloodmoon Blast now generates 1 Blood Shard, plus 1 additional if it critically strikes, for 10 minutes, up to 8.\n\nDealing damage with Veinburst will now expend all stacks of Blood Shards, each dealing 132 + 9% AP + 15% SP Shadow Damage to your target."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4129,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Relentless",
+    "description": "$7b",
+    "descriptionText": "$7b",
+    "iconPath": "interface/icons/inv_shoulder_mail_pvphunter_g_01",
+    "nodeType": "SpendHex",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704652,
+    "spellIds": [
+      704652
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4128
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704652,
+        "description": "$7c",
+        "descriptionText": "$7c"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6328,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Puncturing Fangs",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Bloodmoon Blast</span> now generates <span class=\"item-number\">3</span> additional Rage per hit.",
+    "descriptionText": "Your Bloodmoon Blast now generates 3 additional Rage per hit.",
+    "iconPath": "interface/icons/ability_deathwing_bloodcorruption_death",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804604,
+    "spellIds": [
+      804604
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33745
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804604,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Bloodmoon Blast</span> now generates <span class=\"item-number\">3</span> additional Rage per hit.",
+        "descriptionText": "Your Bloodmoon Blast now generates 3 additional Rage per hit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6510,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Ultra Instinct",
+    "description": "Direct ability critical strikes now increase your spell and ability critical strike chance and critical damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> sec.<br /><br />Each additional critical strike increases this by an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, but reduces its duration by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Direct ability critical strikes now increase your spell and ability critical strike chance and critical damage by 3% for 10 sec.\n\nEach additional critical strike increases this by an additional 3%, but reduces its duration by -1 sec.",
+    "iconPath": "interface/icons/ability_druid_predatoryinstincts",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704654,
+    "spellIds": [
+      704654
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30202,
+      33742
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704654,
+        "description": "Direct ability critical strikes now increase your spell and ability critical strike chance and critical damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> sec.<br /><br />Each additional critical strike increases this by an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span>, but reduces its duration by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Direct ability critical strikes now increase your spell and ability critical strike chance and critical damage by 3% for 10 sec.\n\nEach additional critical strike increases this by an additional 3%, but reduces its duration by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6848,
+    "classId": 20,
+    "className": "Bloodmage",
+    "tabId": 52,
+    "tabKey": "20:52",
+    "tabName": "Accursed",
+    "name": "Bloodsurge",
+    "description": "$7d",
+    "descriptionText": "$7d",
+    "iconPath": "interface/icons/_skullcurse2_red",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 553267,
+    "spellIds": [
+      553267
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33741
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 553267,
+        "description": "$7e",
+        "descriptionText": "$7e"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

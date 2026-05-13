@@ -1,0 +1,1812 @@
+[
+  {
+    "nodeId": 4038,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Spirit of the Phoenix",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Upon taking damage that would otherwise kill you, you are instead transformed into the <span style=\"color: #FFFFFF; display: inline\">Spirit of the Phoenix</span> for <span class=\"item-number\">15</span> seconds.<br /><br />While transformed, your spells have no mana cost and your Spirit is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>. At the end of the duration, you will be reborn. Can only occur once every <span class=\"item-number\">5</span> min.",
+    "descriptionText": "Level 10 Passive\nUpon taking damage that would otherwise kill you, you are instead transformed into the Spirit of the Phoenix for 15 seconds.\n\nWhile transformed, your spells have no mana cost and your Spirit is increased by 100%. At the end of the duration, you will be reborn. Can only occur once every 5 min.",
+    "iconPath": "interface/icons/custom_t_phoenix_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92126,
+    "spellIds": [
+      92126
+    ],
+    "requiredNodeIds": [
+      30206
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92126,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Upon taking damage that would otherwise kill you, you are instead transformed into the <span style=\"color: #FFFFFF; display: inline\">Spirit of the Phoenix</span> for <span class=\"item-number\">15</span> seconds.<br /><br />While transformed, your spells have no mana cost and your Spirit is increased by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>. At the end of the duration, you will be reborn. Can only occur once every <span class=\"item-number\">5</span> min.",
+        "descriptionText": "Level 10 Passive\nUpon taking damage that would otherwise kill you, you are instead transformed into the Spirit of the Phoenix for 15 seconds.\n\nWhile transformed, your spells have no mana cost and your Spirit is increased by 100%. At the end of the duration, you will be reborn. Can only occur once every 5 min."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6949,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Ashen Priest",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your critical heals now grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<br /><br />In addition, <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your mana regeneration continues while in combat. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Level 30 Passive\nYour critical heals now grant allies Replenishment.\n\nIn addition, 20% of your mana regeneration continues while in combat. \n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds.",
+    "iconPath": "interface/icons/inv_trinket_firelands_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707432,
+    "spellIds": [
+      707432
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9807
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707432,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your critical heals now grant allies <span style=\"color: #ffffff; display: inline\">Replenishment</span>.<br /><br />In addition, <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your mana regeneration continues while in combat. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_drinkable__9__border\" /><span class=\"name\">Replenishment</span></div><span class=\"desc\">Restores <span class=\"item-number\">1</span><span class=\"item-number\">%</span> maximum mana every <span class=\"item-number\">5</span> sec to allies within <span class=\"item-number\">100</span> yds for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Level 30 Passive\nYour critical heals now grant allies Replenishment.\n\nIn addition, 20% of your mana regeneration continues while in combat. \n\n---\n\nReplenishmentRestores 1% maximum mana every 5 sec to allies within 100 yds for 15 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6950,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Kael's Command",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">50</span> Heat</span><br />Command your <span style=\"color: #ffffff; display: inline\">Phoenix</span> to go dormant for <span class=\"item-number\">10</span> seconds. <br /><br />While dormant, it radiates healing to allies within <span class=\"item-number\">15</span> yds of it for <span class=\"item-number\">684</span> + <span class=\"item-number\">100% healing</span> every <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Generates 50 Heat\nCommand your Phoenix to go dormant for 10 seconds. \n\nWhile dormant, it radiates healing to allies within 15 yds of it for 684 + 100% healing every 2 sec.",
+    "iconPath": "interface/icons/spell_nature_unleashedrage",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800816,
+    "spellIds": [
+      800816
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7387,
+      30638
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800816,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">50</span> Heat</span><br />Command your <span style=\"color: #ffffff; display: inline\">Phoenix</span> to go dormant for <span class=\"item-number\">10</span> seconds. <br /><br />While dormant, it radiates healing to allies within <span class=\"item-number\">15</span> yds of it for <span class=\"item-number\">684</span> + <span class=\"item-number\">100% healing</span> every <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Generates 50 Heat\nCommand your Phoenix to go dormant for 10 seconds. \n\nWhile dormant, it radiates healing to allies within 15 yds of it for 684 + 100% healing every 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6951,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Scepter of Fire",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Inferno</span> by <span class=\"item-number\">5</span> sec, causing its end of duration explosion of healing to trigger every <span class=\"item-number\">5</span> sec instead.",
+    "descriptionText": "Increases the duration of Inferno by 5 sec, causing its end of duration explosion of healing to trigger every 5 sec instead.",
+    "iconPath": "interface/icons/novart_passivemastery_(17)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706860,
+    "spellIds": [
+      706860
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30642
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 783433,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706860,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Inferno</span> by <span class=\"item-number\">5</span> sec, causing its end of duration explosion of healing to trigger every <span class=\"item-number\">5</span> sec instead.",
+        "descriptionText": "Increases the duration of Inferno by 5 sec, causing its end of duration explosion of healing to trigger every 5 sec instead."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6501,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Sageweaving",
+    "description": "Consuming an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now reduces the cast time of your next <span style=\"color: #ffffff; display: inline\">Cinderheart</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Consuming an Ember now reduces the cast time of your next Cinderheart by -15% for 12 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/nhi_fire_solar_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503915,
+    "spellIds": [
+      503915
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30666,
+      33918
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503915,
+        "description": "Consuming an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now reduces the cast time of your next <span style=\"color: #ffffff; display: inline\">Cinderheart</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">12</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Consuming an Ember now reduces the cast time of your next Cinderheart by -15% for 12 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6661,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Touched by Fire",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Cinderheart</span>, <span style=\"color: #ffffff; display: inline\">Ember Touch</span>, and <span style=\"color: #ffffff; display: inline\">Kindle</span> now gains an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your bonus healing spell power.",
+    "descriptionText": "Your Cinderheart, Ember Touch, and Kindle now gains an additional 15% of your bonus healing spell power.",
+    "iconPath": "interface/icons/nhi_fire_phoenix_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704848,
+    "spellIds": [
+      704848,
+      704853
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7388,
+      29560
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704848,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Cinderheart</span>, <span style=\"color: #ffffff; display: inline\">Ember Touch</span>, and <span style=\"color: #ffffff; display: inline\">Kindle</span> now gains an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your bonus healing spell power.",
+        "descriptionText": "Your Cinderheart, Ember Touch, and Kindle now gains an additional 15% of your bonus healing spell power."
+      },
+      {
+        "rank": 2,
+        "spellId": 704853,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Cinderheart</span>, <span style=\"color: #ffffff; display: inline\">Ember Touch</span>, and <span style=\"color: #ffffff; display: inline\">Kindle</span> now gains an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your bonus healing spell power.",
+        "descriptionText": "Your Cinderheart, Ember Touch, and Kindle now gains an additional 30% of your bonus healing spell power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7385,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Cauterizing Wounds",
+    "description": "Healing done by <span style=\"color: #ffffff; display: inline\">Ember Touch</span> now grants you <span style=\"color: #ffffff; display: inline\">Flamecasting</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Healing done by Ember Touch now grants you Flamecasting.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/ability_butcher_gushingwounds",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570001,
+    "spellIds": [
+      570001
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6501,
+      33921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 721221,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570001,
+        "description": "Healing done by <span style=\"color: #ffffff; display: inline\">Ember Touch</span> now grants you <span style=\"color: #ffffff; display: inline\">Flamecasting</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Healing done by Ember Touch now grants you Flamecasting.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7386,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Fueling the Fire",
+    "description": "Using <span style=\"color: #ffffff; display: inline\">Ember Touch</span> on your <span style=\"color: #ffffff; display: inline\">Roaring Pyre</span> or <span style=\"color: #ffffff; display: inline\">Phoenix</span> will cause them to erupt in flames, healing <span class=\"item-number\">12</span> allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">232</span> + <span class=\"item-number\">100% Spirit</span>, additionally scaling with Spirit.<br /><br />Allied Pyromancers can also fuel the fire with your <span style=\"color: #ffffff; display: inline\">Roaring Pyre</span> and <span style=\"color: #ffffff; display: inline\">Phoenix</span>.",
+    "descriptionText": "Using Ember Touch on your Roaring Pyre or Phoenix will cause them to erupt in flames, healing 12 allies within 30 yds for 232 + 100% Spirit, additionally scaling with Spirit.\n\nAllied Pyromancers can also fuel the fire with your Roaring Pyre and Phoenix.",
+    "iconPath": "interface/icons/custom_t_fireinourhands_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806747,
+    "spellIds": [
+      806747
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31273
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806747,
+        "description": "Using <span style=\"color: #ffffff; display: inline\">Ember Touch</span> on your <span style=\"color: #ffffff; display: inline\">Roaring Pyre</span> or <span style=\"color: #ffffff; display: inline\">Phoenix</span> will cause them to erupt in flames, healing <span class=\"item-number\">12</span> allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">232</span> + <span class=\"item-number\">100% Spirit</span>, additionally scaling with Spirit.<br /><br />Allied Pyromancers can also fuel the fire with your <span style=\"color: #ffffff; display: inline\">Roaring Pyre</span> and <span style=\"color: #ffffff; display: inline\">Phoenix</span>.",
+        "descriptionText": "Using Ember Touch on your Roaring Pyre or Phoenix will cause them to erupt in flames, healing 12 allies within 30 yds for 232 + 100% Spirit, additionally scaling with Spirit.\n\nAllied Pyromancers can also fuel the fire with your Roaring Pyre and Phoenix."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7387,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Spirit of Fire",
+    "description": "Increases the effectiveness of your absorption effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your absorption effects by 20%.",
+    "iconPath": "interface/icons/novart_magicspell_(33)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 500167,
+    "spellIds": [
+      500167,
+      500644
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30637
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500167,
+        "description": "Increases the effectiveness of your absorption effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your absorption effects by 20%."
+      },
+      {
+        "rank": 2,
+        "spellId": 500644,
+        "description": "Increases the effectiveness of your absorption effects by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your absorption effects by 40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7388,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Rekindle",
+    "description": "Healing done by <span style=\"color: #FFFFFF; display: inline\">Kindle</span> now increases your healing done on the target <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Healing done by Kindle now increases your healing done on the target 10% for 20 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/spell_fire_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805448,
+    "spellIds": [
+      805448
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6950
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805448,
+        "description": "Healing done by <span style=\"color: #FFFFFF; display: inline\">Kindle</span> now increases your healing done on the target <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Healing done by Kindle now increases your healing done on the target 10% for 20 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7389,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Emberheart",
+    "description": "$8b",
+    "descriptionText": "$8b",
+    "iconPath": "interface/icons/nhi_soulburn_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680378,
+    "spellIds": [
+      680378
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7478,
+      30642,
+      31273
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680378,
+        "description": "$8c",
+        "descriptionText": "$8c"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7478,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Veins of Fire",
+    "description": "<span style=\"color: #ffffff; display: inline\">Flamecasting</span> now also grants <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased Spirit per stack.",
+    "descriptionText": "Flamecasting now also grants 3% increased Spirit per stack.",
+    "iconPath": "interface/icons/novart_drinkable_(4)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706859,
+    "spellIds": [
+      706859
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7385,
+      11185,
+      33885,
+      33917
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706859,
+        "description": "<span style=\"color: #ffffff; display: inline\">Flamecasting</span> now also grants <span class=\"item-number\">3</span><span class=\"item-number\">%</span> increased Spirit per stack.",
+        "descriptionText": "Flamecasting now also grants 3% increased Spirit per stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29189,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Phoenix Egg",
+    "description": "Summon a <span style=\"color: #ffffff; display: inline\">Phoenix</span> for <span class=\"item-number\">1</span> minute at the target location that heals nearby party members for <span class=\"item-number\">117</span> + <span class=\"item-number\">15% healing</span> every <span class=\"item-number\">5</span> sec.<br /><br />You may only have <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Phoenix</span> active at a time.",
+    "descriptionText": "Summon a Phoenix for 1 minute at the target location that heals nearby party members for 117 + 15% healing every 5 sec.\n\nYou may only have 1 Phoenix active at a time.",
+    "iconPath": "interface/icons/inv_misc_phoenixegg",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800796,
+    "spellIds": [
+      800796
+    ],
+    "requiredNodeIds": [
+      4038,
+      30206
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800796,
+        "description": "Summon a <span style=\"color: #ffffff; display: inline\">Phoenix</span> for <span class=\"item-number\">1</span> minute at the target location that heals nearby party members for <span class=\"item-number\">117</span> + <span class=\"item-number\">15% healing</span> every <span class=\"item-number\">5</span> sec.<br /><br />You may only have <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Phoenix</span> active at a time.",
+        "descriptionText": "Summon a Phoenix for 1 minute at the target location that heals nearby party members for 117 + 15% healing every 5 sec.\n\nYou may only have 1 Phoenix active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9807,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Flame Bonding",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Inferno Barrier</span> now triggers a <span class=\"item-number\">-15</span> sec reduced cooldown when used on an ally other than yourself.",
+    "descriptionText": "Level 20 Passive\nYour Inferno Barrier now triggers a -15 sec reduced cooldown when used on an ally other than yourself.",
+    "iconPath": "interface/icons/inv_misc_matchbook",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706858,
+    "spellIds": [
+      706858
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4038
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706858,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Inferno Barrier</span> now triggers a <span class=\"item-number\">-15</span> sec reduced cooldown when used on an ally other than yourself.",
+        "descriptionText": "Level 20 Passive\nYour Inferno Barrier now triggers a -15 sec reduced cooldown when used on an ally other than yourself."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9914,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Unfathomably Hot!",
+    "description": "Each tick of <span style=\"color: #ffffff; display: inline\">Cleansing Flames</span> now generates <span class=\"item-number\">5</span> additional <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+    "descriptionText": "Each tick of Cleansing Flames now generates 5 additional Heat.",
+    "iconPath": "interface/icons/spell_fire_selfdestruct",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807404,
+    "spellIds": [
+      807404
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30630
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 1236723,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807404,
+        "description": "Each tick of <span style=\"color: #ffffff; display: inline\">Cleansing Flames</span> now generates <span class=\"item-number\">5</span> additional <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+        "descriptionText": "Each tick of Cleansing Flames now generates 5 additional Heat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9921,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Blessing of the Inferno",
+    "description": "Reduces the healing done by <span style=\"color: #FFFFFF; display: inline\">Inferno</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, but increases its chance to trigger by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the healing done by Inferno by -20%, but increases its chance to trigger by 50%.",
+    "iconPath": "interface/icons/_enslavespell_fire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707451,
+    "spellIds": [
+      707451
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30642
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 783433,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707451,
+        "description": "Reduces the healing done by <span style=\"color: #FFFFFF; display: inline\">Inferno</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>, but increases its chance to trigger by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the healing done by Inferno by -20%, but increases its chance to trigger by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9949,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Fiery Faith",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your spell critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Spirit.",
+    "descriptionText": "Level 40 Passive\nIncreases your spell critical strike rating by 15% of your Spirit.",
+    "iconPath": "interface/icons/nhi_fireshield_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 503913,
+    "spellIds": [
+      503913
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6949
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503913,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your spell critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of your Spirit.",
+        "descriptionText": "Level 40 Passive\nIncreases your spell critical strike rating by 15% of your Spirit."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9964,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Burning Passion",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Effective healing critical strikes now generate <span class=\"item-number\">10</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+    "descriptionText": "Level 50 Passive\nEffective healing critical strikes now generate 10 Heat.",
+    "iconPath": "interface/icons/uico_fire_spell_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 504733,
+    "spellIds": [
+      504733
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9949
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504733,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Effective healing critical strikes now generate <span class=\"item-number\">10</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+        "descriptionText": "Level 50 Passive\nEffective healing critical strikes now generate 10 Heat."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11185,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Brilliance",
+    "description": "<span style=\"color: #ffffff; display: inline\">Flamecasting</span> can now stack <span class=\"item-number\">2</span> additional times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+    "descriptionText": "Flamecasting can now stack 2 additional times.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration.",
+    "iconPath": "interface/icons/spell_nature_brilliance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570207,
+    "spellIds": [
+      570207
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6501,
+      33921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 721221,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570207,
+        "description": "<span style=\"color: #ffffff; display: inline\">Flamecasting</span> can now stack <span class=\"item-number\">2</span> additional times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_fire_playingwithfire\" /><span class=\"name\">Flamecasting</span></div><span class=\"desc\">Increases your spell haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds. Stacks <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh duration.</span></div>",
+        "descriptionText": "Flamecasting can now stack 2 additional times.\n\n---\n\nFlamecastingIncreases your spell haste by 5% for 15 seconds. Stacks 5 times.\n\nAdditional applications do not refresh duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29550,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Phoenix Dive",
+    "description": "Command your <span style=\"color: #ffffff; display: inline\">Phoenix</span> to swoop to the target ally and shield allies in their path with fire, absorbing <span class=\"item-number\">155</span> + <span class=\"item-number\">50% SP</span> damage for <span class=\"item-number\">30</span> seconds, scaling with your Spirit.",
+    "descriptionText": "Command your Phoenix to swoop to the target ally and shield allies in their path with fire, absorbing 155 + 50% SP damage for 30 seconds, scaling with your Spirit.",
+    "iconPath": "interface/icons/novart_magicspell_(37)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706854,
+    "spellIds": [
+      706854
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29189
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706854,
+        "description": "Command your <span style=\"color: #ffffff; display: inline\">Phoenix</span> to swoop to the target ally and shield allies in their path with fire, absorbing <span class=\"item-number\">155</span> + <span class=\"item-number\">50% SP</span> damage for <span class=\"item-number\">30</span> seconds, scaling with your Spirit.",
+        "descriptionText": "Command your Phoenix to swoop to the target ally and shield allies in their path with fire, absorbing 155 + 50% SP damage for 30 seconds, scaling with your Spirit."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29559,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Shielded by Flames",
+    "description": "Healing critical strikes now apply an absorption shield to allies equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the healing done for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Healing critical strikes now apply an absorption shield to allies equal to 30% of the healing done for 8 seconds.",
+    "iconPath": "interface/icons/5_normal03fireball_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704275,
+    "spellIds": [
+      704275
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31276,
+      33916
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704275,
+        "description": "Healing critical strikes now apply an absorption shield to allies equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the healing done for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Healing critical strikes now apply an absorption shield to allies equal to 30% of the healing done for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29560,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Neltharion's Resolve",
+    "description": "Place Neltharion's resolve on all party members, warding them against fear. The next fear effect used against the target will fail, using up the ward. Lasts <span class=\"item-number\">1</span> minute.",
+    "descriptionText": "Place Neltharion's resolve on all party members, warding them against fear. The next fear effect used against the target will fail, using up the ward. Lasts 1 minute.",
+    "iconPath": "interface/icons/inv_misc_head_dragon_black_nightmare",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520488,
+    "spellIds": [
+      520488
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7388,
+      33912
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520488,
+        "description": "Place Neltharion's resolve on all party members, warding them against fear. The next fear effect used against the target will fail, using up the ward. Lasts <span class=\"item-number\">1</span> minute.",
+        "descriptionText": "Place Neltharion's resolve on all party members, warding them against fear. The next fear effect used against the target will fail, using up the ward. Lasts 1 minute."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31273,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Roaring Pyre",
+    "description": "Conjure a <span style=\"color: #ffffff; display: inline\">Roaring Pyre</span> at the target location for <span class=\"item-number\">20</span> seconds. <br /><br />Allies within <span class=\"item-number\">30</span> yds of the bonfire are healed for <span class=\"item-number\">56</span> + <span class=\"item-number\">10% healing</span> + <span class=\"item-number\">50% Spirit</span>, scaling with your Spirit and healing spell power, every <span class=\"item-number\">2</span> sec and their Spirit is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Conjure a Roaring Pyre at the target location for 20 seconds. \n\nAllies within 30 yds of the bonfire are healed for 56 + 10% healing + 50% Spirit, scaling with your Spirit and healing spell power, every 2 sec and their Spirit is increased by 10%.",
+    "iconPath": "interface/icons/inv_summerfest_firespirit",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704278,
+    "spellIds": [
+      704278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6661,
+      33917
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704278,
+        "description": "Conjure a <span style=\"color: #ffffff; display: inline\">Roaring Pyre</span> at the target location for <span class=\"item-number\">20</span> seconds. <br /><br />Allies within <span class=\"item-number\">30</span> yds of the bonfire are healed for <span class=\"item-number\">56</span> + <span class=\"item-number\">10% healing</span> + <span class=\"item-number\">50% Spirit</span>, scaling with your Spirit and healing spell power, every <span class=\"item-number\">2</span> sec and their Spirit is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Conjure a Roaring Pyre at the target location for 20 seconds. \n\nAllies within 30 yds of the bonfire are healed for 56 + 10% healing + 50% Spirit, scaling with your Spirit and healing spell power, every 2 sec and their Spirit is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31274,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Scorching Spirit",
+    "description": "Increases your Spirit by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Spirit by 10%.",
+    "iconPath": "interface/icons/inv_misc_firedancer_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 805552,
+    "spellIds": [
+      805552,
+      807935
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30630
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805552,
+        "description": "Increases your Spirit by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807935,
+        "description": "Increases your Spirit by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Spirit by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31276,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Burn Impurities",
+    "description": "Burn away <span class=\"item-number\">1</span> harmful magic effect and <span class=\"item-number\">1</span> disease effect from an ally.",
+    "descriptionText": "Burn away 1 harmful magic effect and 1 disease effect from an ally.",
+    "iconPath": "interface/icons/uico_fire_spell_04_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520149,
+    "spellIds": [
+      520149
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30666,
+      33916
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520149,
+        "description": "Burn away <span class=\"item-number\">1</span> harmful magic effect and <span class=\"item-number\">1</span> disease effect from an ally.",
+        "descriptionText": "Burn away 1 harmful magic effect and 1 disease effect from an ally."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30096,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Sunstrider Array",
+    "description": "For <span class=\"item-number\">15</span> seconds, you generate <span class=\"item-number\">1</span> <span style=\"color: #ff7f7f; display: inline\">Ember</span> every <span class=\"item-number\">3</span> sec and your <span style=\"color: #ffffff; display: inline\">Cinderheart</span> generates double the amount of <span style=\"color: #ff7f7f; display: inline\">Heat</span> with each cast.",
+    "descriptionText": "For 15 seconds, you generate 1 Ember every 3 sec and your Cinderheart generates double the amount of Heat with each cast.",
+    "iconPath": "interface/icons/inv_ability_sunfurymage_spellfirespheres",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804230,
+    "spellIds": [
+      804230
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30638,
+      31274
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804230,
+        "description": "For <span class=\"item-number\">15</span> seconds, you generate <span class=\"item-number\">1</span> <span style=\"color: #ff7f7f; display: inline\">Ember</span> every <span class=\"item-number\">3</span> sec and your <span style=\"color: #ffffff; display: inline\">Cinderheart</span> generates double the amount of <span style=\"color: #ff7f7f; display: inline\">Heat</span> with each cast.",
+        "descriptionText": "For 15 seconds, you generate 1 Ember every 3 sec and your Cinderheart generates double the amount of Heat with each cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30602,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Burning Crescendo",
+    "description": "Increases the tick rate of your <span style=\"color: #FFFFFF; display: inline\">Phoenix Egg</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Increases the tick rate of your Phoenix Egg by -2 sec.",
+    "iconPath": "interface/icons/ability_siege_engineer_purification_beam",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805378,
+    "spellIds": [
+      805378
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9914,
+      31274,
+      33914
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805378,
+        "description": "Increases the tick rate of your <span style=\"color: #FFFFFF; display: inline\">Phoenix Egg</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Increases the tick rate of your Phoenix Egg by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30630,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Ember Charm",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Cinderheart</span> and <span style=\"color: #ffffff; display: inline\">Kindle</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Cinderheart and Kindle by -15%.",
+    "iconPath": "interface/icons/inv_misc_cat_trinket08",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704861,
+    "spellIds": [
+      704861
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33919
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704861,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Cinderheart</span> and <span style=\"color: #ffffff; display: inline\">Kindle</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Cinderheart and Kindle by -15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30637,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Soothing Flames",
+    "description": "Healing done by <span style=\"color: #FFFFFF; display: inline\">Kindle</span> now additionally heals the target for <span class=\"item-number\">30%</span> of the healing done over <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Healing done by Kindle now additionally heals the target for 30% of the healing done over 3 seconds.",
+    "iconPath": "interface/icons/ability_monk_breathoffire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704855,
+    "spellIds": [
+      704855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29550
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704855,
+        "description": "Healing done by <span style=\"color: #FFFFFF; display: inline\">Kindle</span> now additionally heals the target for <span class=\"item-number\">30%</span> of the healing done over <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Healing done by Kindle now additionally heals the target for 30% of the healing done over 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30638,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "From The Ashes",
+    "description": "Increases your healing done to allies below <span class=\"item-number\">35%</span> health by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your healing done to allies below 35% health by 25%.",
+    "iconPath": "interface/icons/nhi_phoenix_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560561,
+    "spellIds": [
+      560561
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30637
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560561,
+        "description": "Increases your healing done to allies below <span class=\"item-number\">35%</span> health by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your healing done to allies below 35% health by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30642,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Inferno",
+    "description": "Direct healing critical strikes have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to create an <span style=\"color: #ffffff; display: inline\">Inferno</span> around the target. Can only occur once every <span class=\"item-number\">5</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 epic_rpg_icon_pack_brutal_icon_0009s_0000_fire_border\" /><span class=\"name\">Inferno</span></div><span class=\"desc\">Engulf an ally in cleansing flames for <span class=\"item-number\">5</span> seconds, healing them for <span class=\"item-number\">161</span> and party and raid members within <span class=\"item-number\">40</span> yds of them for <span class=\"item-number\">91</span> every <span class=\"item-number\">1</span> sec.<br /><br />At the end of the duration, party and raid members are healed for <span class=\"item-number\">383</span> to <span class=\"item-number\">403</span>.</span></div>",
+    "descriptionText": "Direct healing critical strikes have a 50% chance to create an Inferno around the target. Can only occur once every 5 sec.\n\n---\n\nInfernoEngulf an ally in cleansing flames for 5 seconds, healing them for 161 and party and raid members within 40 yds of them for 91 every 1 sec.\n\nAt the end of the duration, party and raid members are healed for 383 to 403.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0009s_0000_fire_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806736,
+    "spellIds": [
+      806736
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29559,
+      33885
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806736,
+        "description": "Direct healing critical strikes have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to create an <span style=\"color: #ffffff; display: inline\">Inferno</span> around the target. Can only occur once every <span class=\"item-number\">5</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 epic_rpg_icon_pack_brutal_icon_0009s_0000_fire_border\" /><span class=\"name\">Inferno</span></div><span class=\"desc\">Engulf an ally in cleansing flames for <span class=\"item-number\">5</span> seconds, healing them for <span class=\"item-number\">161</span> and party and raid members within <span class=\"item-number\">40</span> yds of them for <span class=\"item-number\">91</span> every <span class=\"item-number\">1</span> sec.<br /><br />At the end of the duration, party and raid members are healed for <span class=\"item-number\">383</span> to <span class=\"item-number\">403</span>.</span></div>",
+        "descriptionText": "Direct healing critical strikes have a 50% chance to create an Inferno around the target. Can only occur once every 5 sec.\n\n---\n\nInfernoEngulf an ally in cleansing flames for 5 seconds, healing them for 161 and party and raid members within 40 yds of them for 91 every 1 sec.\n\nAt the end of the duration, party and raid members are healed for 383 to 403."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30666,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Offering of Executus",
+    "description": "When your <span style=\"color: #ffffff; display: inline\">Phoenix</span> dies or expires, it now heals all allies within <span class=\"item-number\">30</span> yds equal to its maximum health.",
+    "descriptionText": "When your Phoenix dies or expires, it now heals all allies within 30 yds equal to its maximum health.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_infernalmadness_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806779,
+    "spellIds": [
+      806779
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30602
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806779,
+        "description": "When your <span style=\"color: #ffffff; display: inline\">Phoenix</span> dies or expires, it now heals all allies within <span class=\"item-number\">30</span> yds equal to its maximum health.",
+        "descriptionText": "When your Phoenix dies or expires, it now heals all allies within 30 yds equal to its maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33885,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Tender Touch",
+    "description": "Effective healing done by <span style=\"color: #FFFFFF; display: inline\">Ember Touch</span> now heals up to <span class=\"item-number\">3</span> of the lowest health allies near your target for an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the amount healed.",
+    "descriptionText": "Effective healing done by Ember Touch now heals up to 3 of the lowest health allies near your target for an additional 15% of the amount healed.",
+    "iconPath": "interface/icons/inv_misc_firedancer_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704273,
+    "spellIds": [
+      704273,
+      707786
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6501,
+      31276
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704273,
+        "description": "Effective healing done by <span style=\"color: #FFFFFF; display: inline\">Ember Touch</span> now heals up to <span class=\"item-number\">3</span> of the lowest health allies near your target for an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the amount healed.",
+        "descriptionText": "Effective healing done by Ember Touch now heals up to 3 of the lowest health allies near your target for an additional 15% of the amount healed."
+      },
+      {
+        "rank": 2,
+        "spellId": 707786,
+        "description": "Effective healing done by <span style=\"color: #FFFFFF; display: inline\">Ember Touch</span> now heals up to <span class=\"item-number\">3</span> of the lowest health allies near your target for an additional <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the amount healed.",
+        "descriptionText": "Effective healing done by Ember Touch now heals up to 3 of the lowest health allies near your target for an additional 30% of the amount healed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33912,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Lucifron's Rage",
+    "description": "Effective healing done by your <span style=\"color: #ffffff; display: inline\">Phoenix</span> now causes allies to deal additional Fire Damage with all attacks for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Effective healing done by your Phoenix now causes allies to deal additional Fire Damage with all attacks for 6 seconds.",
+    "iconPath": "interface/icons/spell_burningbladeshaman_blazing_radiance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300932,
+    "spellIds": [
+      300932
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6950
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300932,
+        "description": "Effective healing done by your <span style=\"color: #ffffff; display: inline\">Phoenix</span> now causes allies to deal additional Fire Damage with all attacks for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Effective healing done by your Phoenix now causes allies to deal additional Fire Damage with all attacks for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33914,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Concentrated Fire",
+    "description": "Increases the damage and healing of <span style=\"color: #FFFFFF; display: inline\">Cleansing Flames</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and healing of Cleansing Flames by 20%.",
+    "iconPath": "interface/icons/inv_6_2raid_trinket_1c",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704864,
+    "spellIds": [
+      704864
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30630
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 1236723,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704864,
+        "description": "Increases the damage and healing of <span style=\"color: #FFFFFF; display: inline\">Cleansing Flames</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and healing of Cleansing Flames by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33916,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Living Flame",
+    "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Ember Touch</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Ember Touch by 10%.",
+    "iconPath": "interface/icons/inv_belt_leather_firelandsdruid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704851,
+    "spellIds": [
+      704851
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30602
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704851,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Ember Touch</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Ember Touch by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33917,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Invigoration",
+    "description": "Healing done by your <span style=\"color: #ffffff; display: inline\">Phoenix</span> now generates you <span class=\"item-number\">5</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+    "descriptionText": "Healing done by your Phoenix now generates you 5 Heat.",
+    "iconPath": "interface/icons/custom_t_fireworm_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704863,
+    "spellIds": [
+      704863
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29560,
+      33921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704863,
+        "description": "Healing done by your <span style=\"color: #ffffff; display: inline\">Phoenix</span> now generates you <span class=\"item-number\">5</span> <span style=\"color: #ff7f7f; display: inline\">Heat</span>.",
+        "descriptionText": "Healing done by your Phoenix now generates you 5 Heat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33918,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Lifebinder's Fire",
+    "description": "Generating an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now increases your healing done by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Generating an Ember now increases your healing done by 3% for 8 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_jewelry_trinket_09",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704862,
+    "spellIds": [
+      704862
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30096
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704862,
+        "description": "Generating an <span style=\"color: #ff7f7f; display: inline\">Ember</span> now increases your healing done by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Generating an Ember now increases your healing done by 3% for 8 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33919,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Cleansing Flames",
+    "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">10</span> Heat Each Tick</span><br />Spread cleansing flames on <span class=\"item-number\">5</span> allies and enemies in front of you, damaging or healing for <span class=\"item-number\">39000</span> + <span class=\"item-number\">44400% SP</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Generates 10 Heat Each Tick\nSpread cleansing flames on 5 allies and enemies in front of you, damaging or healing for 39000 + 44400% SP every 1 sec for 3 seconds.",
+    "iconPath": "interface/icons/nhi_firebreath_(2)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681145,
+    "spellIds": [
+      681145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29189
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681145,
+        "description": "<span style=\"color: #ff7f7f; display: inline\">Generates <span class=\"item-number\">10</span> Heat Each Tick</span><br />Spread cleansing flames on <span class=\"item-number\">5</span> allies and enemies in front of you, damaging or healing for <span class=\"item-number\">39000</span> + <span class=\"item-number\">44400% SP</span> every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Generates 10 Heat Each Tick\nSpread cleansing flames on 5 allies and enemies in front of you, damaging or healing for 39000 + 44400% SP every 1 sec for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33921,
+    "classId": 24,
+    "className": "Pyromancer",
+    "tabId": 19,
+    "tabKey": "24:19",
+    "tabName": "Flameweaving",
+    "name": "Warmth",
+    "description": "You now radiate warmth to nearby allies, healing the lowest health nearby ally equal to <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your periodic damage dealt.",
+    "descriptionText": "You now radiate warmth to nearby allies, healing the lowest health nearby ally equal to 25% of your periodic damage dealt.",
+    "iconPath": "interface/icons/spell_fire_flameshock",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706464,
+    "spellIds": [
+      706464
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33912,
+      33918
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706464,
+        "description": "You now radiate warmth to nearby allies, healing the lowest health nearby ally equal to <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your periodic damage dealt.",
+        "descriptionText": "You now radiate warmth to nearby allies, healing the lowest health nearby ally equal to 25% of your periodic damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

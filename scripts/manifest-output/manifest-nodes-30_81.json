@@ -1,0 +1,1758 @@
+[
+  {
+    "nodeId": 4272,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Soul Slip",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Avoiding attacks now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to harvest a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span> from the attacker.",
+    "descriptionText": "Level 30 Passive\nAvoiding attacks now has a 50% chance to harvest a Soul Fragment from the attacker.",
+    "iconPath": "interface/icons/nhi_soulrage_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500286,
+    "spellIds": [
+      500286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9271
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500286,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Avoiding attacks now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to harvest a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span> from the attacker.",
+        "descriptionText": "Level 30 Passive\nAvoiding attacks now has a 50% chance to harvest a Soul Fragment from the attacker."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6703,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Jailer's Will",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Soul Strike</span> now deals <span class=\"item-number\">30% Strength</span> increased damage, scaling with Strength.",
+    "descriptionText": "Soul Strike now deals 30% Strength increased damage, scaling with Strength.",
+    "iconPath": "interface/icons/achievement_dungeon_soulboundgoliath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524939,
+    "spellIds": [
+      524939
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6730,
+      12330,
+      34521
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524939,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Soul Strike</span> now deals <span class=\"item-number\">30% Strength</span> increased damage, scaling with Strength.",
+        "descriptionText": "Soul Strike now deals 30% Strength increased damage, scaling with Strength."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6710,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Dark Soldier",
+    "description": "Increases your hit chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and reduces your Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your hit chance by 3% and reduces your Magic Damage taken by -2%.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactthunderfury_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560490,
+    "spellIds": [
+      560490,
+      561338
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30720
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560490,
+        "description": "Increases your hit chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and reduces your Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your hit chance by 3% and reduces your Magic Damage taken by -2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561338,
+        "description": "Increases your hit chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and reduces your Magic Damage taken by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your hit chance by 6% and reduces your Magic Damage taken by -4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6730,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Well of Souls",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Soul Strike</span> and <span style=\"color: #ffffff; display: inline\">Murder</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Damage dealt by Soul Strike and Murder now reduces the cooldown of Spectral Scythe by -1 sec.",
+    "iconPath": "interface/icons/novart_magicspell_(22)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706792,
+    "spellIds": [
+      706792
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706793,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706792,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Soul Strike</span> and <span style=\"color: #ffffff; display: inline\">Murder</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Damage dealt by Soul Strike and Murder now reduces the cooldown of Spectral Scythe by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6768,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Soultaker",
+    "description": "Damage dealt with <span style=\"color: #ffffff; display: inline\">Dreadwake</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Damage dealt with Dreadwake now reduces the cooldown of Tormented Souls by -1 sec.",
+    "iconPath": "interface/icons/inv_soulbarrier",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704356,
+    "spellIds": [
+      704356
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34515
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704356,
+        "description": "Damage dealt with <span style=\"color: #ffffff; display: inline\">Dreadwake</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Damage dealt with Dreadwake now reduces the cooldown of Tormented Souls by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6777,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Siphon Anima",
+    "description": "When you summon a <span style=\"color: #FFFFFF; display: inline\">Spectral Scythe</span>, you now heal for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your damage dealt for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "When you summon a Spectral Scythe, you now heal for 5% of your damage dealt for 10 seconds.",
+    "iconPath": "interface/icons/spell_animabastion_debuff",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504309,
+    "spellIds": [
+      504309
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7784,
+      13784,
+      30116,
+      30119
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504309,
+        "description": "When you summon a <span style=\"color: #FFFFFF; display: inline\">Spectral Scythe</span>, you now heal for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your damage dealt for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "When you summon a Spectral Scythe, you now heal for 5% of your damage dealt for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6779,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Hard Bargain",
+    "description": "While <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> is active on you, your melee attack speed is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and your <span style=\"color: #FFFFFF; display: inline\">Dreadwake</span> costs <span class=\"item-number\">-5</span> less Runic Power.",
+    "descriptionText": "While Tormented Souls is active on you, your melee attack speed is increased by 30% and your Dreadwake costs -5 less Runic Power.",
+    "iconPath": "interface/icons/inv_trinket_mawraid_04_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300569,
+    "spellIds": [
+      300569
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34474
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300569,
+        "description": "While <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> is active on you, your melee attack speed is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and your <span style=\"color: #FFFFFF; display: inline\">Dreadwake</span> costs <span class=\"item-number\">-5</span> less Runic Power.",
+        "descriptionText": "While Tormented Souls is active on you, your melee attack speed is increased by 30% and your Dreadwake costs -5 less Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6839,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Final Requiem",
+    "description": "Increases your critical strike chance with abilities that deal Shadow Damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Increases your critical strike chance with abilities that deal Shadow Damage by 15% against enemies below 20% health.",
+    "iconPath": "interface/icons/ability_argus_soulbombdebuffsmall",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560486,
+    "spellIds": [
+      560486,
+      561358
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4111
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560486,
+        "description": "Increases your critical strike chance with abilities that deal Shadow Damage by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Increases your critical strike chance with abilities that deal Shadow Damage by 15% against enemies below 20% health."
+      },
+      {
+        "rank": 2,
+        "spellId": 561358,
+        "description": "Increases your critical strike chance with abilities that deal Shadow Damage by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Increases your critical strike chance with abilities that deal Shadow Damage by 30% against enemies below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4057,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Tormentor",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Consuming <span style=\"color: #FFFFFF; display: inline\">Soul Infusion</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> by <span class=\"item-number\">-3</span> sec.",
+    "descriptionText": "Level 10 Passive\nConsuming Soul Infusion now reduces the cooldown of Tormented Souls by -3 sec.",
+    "iconPath": "interface/icons/nhi_ghosthand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92147,
+    "spellIds": [
+      92147
+    ],
+    "requiredNodeIds": [
+      30113
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92147,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Consuming <span style=\"color: #FFFFFF; display: inline\">Soul Infusion</span> now reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> by <span class=\"item-number\">-3</span> sec.",
+        "descriptionText": "Level 10 Passive\nConsuming Soul Infusion now reduces the cooldown of Tormented Souls by -3 sec."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4111,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "To The Shadowlands",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Soulslam</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases the duration of Soulslam by 1 sec.",
+    "iconPath": "interface/icons/spell_shadow_nightofthedead",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707909,
+    "spellIds": [
+      707909
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7876,
+      34474
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707909,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Soulslam</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases the duration of Soulslam by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4223,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Warden of the Lost",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Spectral Scythes</span> and <span style=\"color: #ffffff; display: inline\">Spectral Wardens</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Damage dealt by Spectral Scythes and Spectral Wardens now reduces the cooldown of Spectral Warden by -0.5 sec.",
+    "iconPath": "interface/icons/nhi_spiritualskull_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707116,
+    "spellIds": [
+      707116
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30116
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707116,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Spectral Scythes</span> and <span style=\"color: #ffffff; display: inline\">Spectral Wardens</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Damage dealt by Spectral Scythes and Spectral Wardens now reduces the cooldown of Spectral Warden by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5722,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Lifestealer",
+    "description": "Increases the missing health generated by <span style=\"color: #ffffff; display: inline\">Soul Strike</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the missing health generated by Soul Strike by 3%.",
+    "iconPath": "interface/icons/spell_shadow_metamorphosis",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301366,
+    "spellIds": [
+      301366
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6710
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301366,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301366,
+        "description": "Increases the missing health generated by <span style=\"color: #ffffff; display: inline\">Soul Strike</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the missing health generated by Soul Strike by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8293,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Requiem",
+    "description": "Swing at enemies around you in a fury of souls, dealing <span class=\"item-number\">75</span> + <span class=\"item-number\">40% AP</span> Shadowfrost Damage, reducing their melee and ranged attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, and generating Runic Power.",
+    "descriptionText": "Swing at enemies around you in a fury of souls, dealing 75 + 40% AP Shadowfrost Damage, reducing their melee and ranged attack speed by -20% for 15 seconds, and generating Runic Power.",
+    "iconPath": "interface/icons/inv_misc_supersoulash",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805717,
+    "spellIds": [
+      805717
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6710,
+      34515
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805717,
+        "description": "Swing at enemies around you in a fury of souls, dealing <span class=\"item-number\">75</span> + <span class=\"item-number\">40% AP</span> Shadowfrost Damage, reducing their melee and ranged attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, and generating Runic Power.",
+        "descriptionText": "Swing at enemies around you in a fury of souls, dealing 75 + 40% AP Shadowfrost Damage, reducing their melee and ranged attack speed by -20% for 15 seconds, and generating Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9271,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Behemoth",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your Armor penetration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 20 Passive\nIncreases your Stamina by 10% and your Armor penetration by 10% of your Strength.",
+    "iconPath": "interface/icons/_d3spectralblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 573041,
+    "spellIds": [
+      573041
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4057
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573041,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your Armor penetration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 20 Passive\nIncreases your Stamina by 10% and your Armor penetration by 10% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9272,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Dark Soul",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your Stamina equal to your Armor penetration rating.",
+    "descriptionText": "Level 40 Passive\nIncreases your Stamina equal to your Armor penetration rating.",
+    "iconPath": "interface/icons/novart_physical_ability_(26)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706784,
+    "spellIds": [
+      706784
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4272
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706784,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your Stamina equal to your Armor penetration rating.",
+        "descriptionText": "Level 40 Passive\nIncreases your Stamina equal to your Armor penetration rating."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9672,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Decimation",
+    "description": "$c7",
+    "descriptionText": "$c7",
+    "iconPath": "interface/icons/inv_plate_raiddeathknight_o_01buckle",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704193,
+    "spellIds": [
+      704193
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9272
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704193,
+        "description": "$c8",
+        "descriptionText": "$c8"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29249,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Spectral Scythe",
+    "description": "Summons <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span> for each <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> active which attack a nearby enemy for <span class=\"item-number\">20</span> seconds.<br /><br />Striking enemies with <span style=\"color: #ffffff; display: inline\">Soul Strike</span> causes the <span style=\"color: #FFFFFF; display: inline\">Spectral Scythe</span> to attack that enemy and <span class=\"item-number\">5</span> nearby enemies. <br /><br />Consumes <span style=\"color: #5ee2ff; display: inline\">Reaped Souls</span> and <span style=\"color: #5ee2ff; display: inline\">Soul Infusion</span>.<br /><br />",
+    "descriptionText": "Summons 1 Spectral Scythe for each Reaped Soul active which attack a nearby enemy for 20 seconds.\n\nStriking enemies with Soul Strike causes the Spectral Scythe to attack that enemy and 5 nearby enemies. \n\nConsumes Reaped Souls and Soul Infusion.",
+    "iconPath": "interface/icons/inv_archaeology_80_witch_bonescythe",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500484,
+    "spellIds": [
+      500484
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30722,
+      5722
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500484,
+        "description": "Summons <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span> for each <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> active which attack a nearby enemy for <span class=\"item-number\">20</span> seconds.<br /><br />Striking enemies with <span style=\"color: #ffffff; display: inline\">Soul Strike</span> causes the <span style=\"color: #FFFFFF; display: inline\">Spectral Scythe</span> to attack that enemy and <span class=\"item-number\">5</span> nearby enemies. <br /><br />Consumes <span style=\"color: #5ee2ff; display: inline\">Reaped Souls</span> and <span style=\"color: #5ee2ff; display: inline\">Soul Infusion</span>.<br /><br />",
+        "descriptionText": "Summons 1 Spectral Scythe for each Reaped Soul active which attack a nearby enemy for 20 seconds.\n\nStriking enemies with Soul Strike causes the Spectral Scythe to attack that enemy and 5 nearby enemies. \n\nConsumes Reaped Souls and Soul Infusion."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29379,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Soul Knight",
+    "description": "Your successful parries and dodges increase all healing you receive by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduce all Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Your successful parries and dodges increase all healing you receive by 2% and reduce all Magic Damage taken by -2% for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_sword_2h_artifactashbringerlightning_d_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560487,
+    "spellIds": [
+      560487
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6779,
+      6839,
+      30116
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560487,
+        "description": "Your successful parries and dodges increase all healing you receive by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and reduce all Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Your successful parries and dodges increase all healing you receive by 2% and reduce all Magic Damage taken by -2% for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7784,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Life Tap",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> by <span class=\"item-number\">-60</span> sec and it now heals you equal to <span class=\"item-number\">200</span><span class=\"item-number\">%</span> of the damage it deals.",
+    "descriptionText": "Reduces the cooldown of Spectral Warden by -60 sec and it now heals you equal to 200% of the damage it deals.",
+    "iconPath": "interface/icons/novart_physical_ability_(41)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706788,
+    "spellIds": [
+      706788
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30550
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707634,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706788,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> by <span class=\"item-number\">-60</span> sec and it now heals you equal to <span class=\"item-number\">200</span><span class=\"item-number\">%</span> of the damage it deals.",
+        "descriptionText": "Reduces the cooldown of Spectral Warden by -60 sec and it now heals you equal to 200% of the damage it deals."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7876,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Ethereal Guard",
+    "description": "Reduces the damage taken by party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the damage taken by party and raid members by -3%. Does not stack with similar effects.\n\nIn addition, increases your melee haste by 10%.",
+    "iconPath": "interface/icons/ability_racial_etherealconnection",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300969,
+    "spellIds": [
+      300969
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34473
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300969,
+        "description": "Reduces the damage taken by party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases your melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the damage taken by party and raid members by -3%. Does not stack with similar effects.\n\nIn addition, increases your melee haste by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7946,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Dreadknight",
+    "description": "Increases your armor contribution from mail and plate items by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces the chance for spells to hit you by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your armor contribution from mail and plate items by 20% and reduces the chance for spells to hit you by -2%.",
+    "iconPath": "interface/icons/nhi_spiritualarmor_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300560,
+    "spellIds": [
+      300560,
+      301352
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8293
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300560,
+        "description": "Increases your armor contribution from mail and plate items by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reduces the chance for spells to hit you by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your armor contribution from mail and plate items by 20% and reduces the chance for spells to hit you by -2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301352,
+        "description": "Increases your armor contribution from mail and plate items by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> and reduces the chance for spells to hit you by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your armor contribution from mail and plate items by 40% and reduces the chance for spells to hit you by -4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12330,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Well of Eternity",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Spectral Scythes</span> by <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "Increases the duration of your Spectral Scythes by 10 sec.",
+    "iconPath": "interface/icons/nhi_reaperscythe_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706793,
+    "spellIds": [
+      706793
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 706793,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706793,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Spectral Scythes</span> by <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "Increases the duration of your Spectral Scythes by 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13784,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Spirit Army",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> now causes you to summon <span class=\"item-number\">2</span> additional <span style=\"color: #ffffff; display: inline\">Spectral Wardens</span>, but their duration is reduced by <span class=\"item-number\">-8</span> sec.<br /><br />In addition, increases the amount absorbed by the shield granted by <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Spectral Warden now causes you to summon 2 additional Spectral Wardens, but their duration is reduced by -8 sec.\n\nIn addition, increases the amount absorbed by the shield granted by Spectral Warden by 100%.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_death_icon_0000s_0000_spirits_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707634,
+    "spellIds": [
+      707634
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30550
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707634,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707634,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> now causes you to summon <span class=\"item-number\">2</span> additional <span style=\"color: #ffffff; display: inline\">Spectral Wardens</span>, but their duration is reduced by <span class=\"item-number\">-8</span> sec.<br /><br />In addition, increases the amount absorbed by the shield granted by <span style=\"color: #ffffff; display: inline\">Spectral Warden</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Spectral Warden now causes you to summon 2 additional Spectral Wardens, but their duration is reduced by -8 sec.\n\nIn addition, increases the amount absorbed by the shield granted by Spectral Warden by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30116,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Soulstorm",
+    "description": "<span style=\"color: #ffffff; display: inline\">Requiem</span> and <span style=\"color: #FFFFFF; display: inline\">Soulrend</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span>.",
+    "descriptionText": "Requiem and Soulrend now have a 40% chance to refund a Reaped Soul.",
+    "iconPath": "interface/icons/spell_shadow_soulleech_2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705403,
+    "spellIds": [
+      705403
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4111,
+      12516,
+      30550,
+      34516
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705403,
+        "description": "<span style=\"color: #ffffff; display: inline\">Requiem</span> and <span style=\"color: #FFFFFF; display: inline\">Soulrend</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refund a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span>.",
+        "descriptionText": "Requiem and Soulrend now have a 40% chance to refund a Reaped Soul."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30119,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Soul Splinters",
+    "description": "Erupt with ghastly force whenever you harvest a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span>, dealing <span class=\"item-number\">57150</span> + <span class=\"item-number\">10500% Stamina</span> + <span class=\"item-number\">15000% AP</span> Spellshadow Damage to nearby enemies over <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Erupt with ghastly force whenever you harvest a Reaped Soul, dealing 57150 + 10500% Stamina + 15000% AP Spellshadow Damage to nearby enemies over 6 seconds.",
+    "iconPath": "interface/icons/oshugun_crystalfragments",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805719,
+    "spellIds": [
+      805719
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6703
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805719,
+        "description": "Erupt with ghastly force whenever you harvest a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span>, dealing <span class=\"item-number\">57150</span> + <span class=\"item-number\">10500% Stamina</span> + <span class=\"item-number\">15000% AP</span> Spellshadow Damage to nearby enemies over <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Erupt with ghastly force whenever you harvest a Reaped Soul, dealing 57150 + 10500% Stamina + 15000% AP Spellshadow Damage to nearby enemies over 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34472,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Fatesealer",
+    "description": "Generating a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> now reduces damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Generating a Reaped Soul now reduces damage taken by -2% for 15 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/ability_deathknight_hungeringruneblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705442,
+    "spellIds": [
+      705442
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34521
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705442,
+        "description": "Generating a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> now reduces damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Generating a Reaped Soul now reduces damage taken by -2% for 15 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34473,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Essence Binder",
+    "description": "<span style=\"color: #ffffff; display: inline\">Soul Strike</span> now steals some of the target's health and Strength for <span class=\"item-number\">12</span> seconds, granting it to you at increased value.",
+    "descriptionText": "Soul Strike now steals some of the target's health and Strength for 12 seconds, granting it to you at increased value.",
+    "iconPath": "interface/icons/novart_magicspell_(53)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560919,
+    "spellIds": [
+      560919
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7946,
+      31289
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560919,
+        "description": "<span style=\"color: #ffffff; display: inline\">Soul Strike</span> now steals some of the target's health and Strength for <span class=\"item-number\">12</span> seconds, granting it to you at increased value.",
+        "descriptionText": "Soul Strike now steals some of the target's health and Strength for 12 seconds, granting it to you at increased value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34474,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Harnessed Life",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> now has a <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> chance to not consume a stack from damage taken.",
+    "descriptionText": "Your Tormented Souls now has a -25% chance to not consume a stack from damage taken.",
+    "iconPath": "interface/icons/nhi_scrollofsouls_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705406,
+    "spellIds": [
+      705406
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34473,
+      34520
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705406,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Tormented Souls</span> now has a <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> chance to not consume a stack from damage taken.",
+        "descriptionText": "Your Tormented Souls now has a -25% chance to not consume a stack from damage taken."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30720,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Dreadwake",
+    "description": "<span style=\"color: #5ee2ff; display: inline\">Generates <span class=\"item-number\">1</span> Reaped Soul</span><br />Unleash a wave of souls upon enemies in a <span class=\"item-number\">12</span> yd cone, causing <span class=\"item-number\">81</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">5</span> Frost Damage.",
+    "descriptionText": "Generates 1 Reaped Soul\nUnleash a wave of souls upon enemies in a 12 yd cone, causing 81% Weapon Damage plus 5 Frost Damage.",
+    "iconPath": "interface/icons/ability_argus_edgeofobliteration",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803992,
+    "spellIds": [
+      803992
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803992,
+        "description": "<span style=\"color: #5ee2ff; display: inline\">Generates <span class=\"item-number\">1</span> Reaped Soul</span><br />Unleash a wave of souls upon enemies in a <span class=\"item-number\">12</span> yd cone, causing <span class=\"item-number\">81</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">5</span> Frost Damage.",
+        "descriptionText": "Generates 1 Reaped Soul\nUnleash a wave of souls upon enemies in a 12 yd cone, causing 81% Weapon Damage plus 5 Frost Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30722,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Dominator",
+    "description": "Reduces the Runic Power cost of <span style=\"color: #ffffff; display: inline\">Soul Strike</span> by $/10s;s1.",
+    "descriptionText": "Reduces the Runic Power cost of Soul Strike by $/10s;s1.",
+    "iconPath": "interface/icons/5_archerskill33_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301213,
+    "spellIds": [
+      301213
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6710
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301366,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301213,
+        "description": "Reduces the Runic Power cost of <span style=\"color: #ffffff; display: inline\">Soul Strike</span> by $/10s;s1.",
+        "descriptionText": "Reduces the Runic Power cost of Soul Strike by $/10s;s1."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30533,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Eater of Souls",
+    "description": "Reaching <span class=\"item-number\">3</span> <span style=\"color: #5ee2ff; display: inline\">Reaped Souls</span> now reduces your Physical Damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and you regain <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds. This will not trigger while already active.<br /><br />In addition, the healing done by <span style=\"color: #FFFFFF; display: inline\">Deathwind</span> is increased by <span class=\"item-number\">10%</span>.",
+    "descriptionText": "Reaching 3 Reaped Souls now reduces your Physical Damage taken by -10% and you regain 1% of your maximum health every 2 sec for 10 seconds. This will not trigger while already active.\n\nIn addition, the healing done by Deathwind is increased by 10%.",
+    "iconPath": "interface/icons/spell_shadow_devouringplague.",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805181,
+    "spellIds": [
+      805181
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6777
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805181,
+        "description": "Reaching <span class=\"item-number\">3</span> <span style=\"color: #5ee2ff; display: inline\">Reaped Souls</span> now reduces your Physical Damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and you regain <span class=\"item-number\">1</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds. This will not trigger while already active.<br /><br />In addition, the healing done by <span style=\"color: #FFFFFF; display: inline\">Deathwind</span> is increased by <span class=\"item-number\">10%</span>.",
+        "descriptionText": "Reaching 3 Reaped Souls now reduces your Physical Damage taken by -10% and you regain 1% of your maximum health every 2 sec for 10 seconds. This will not trigger while already active.\n\nIn addition, the healing done by Deathwind is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30550,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Spectral Warden",
+    "description": "Summon a spectral guardian to fight along side you for <span class=\"item-number\">20</span> seconds and apply an absorption shield to up to <span class=\"item-number\">8</span> allies within <span class=\"item-number\">20</span> yds, absorbing <span class=\"item-number\">316</span> + <span class=\"item-number\">150% Stamina</span> damage. <br /><br />",
+    "descriptionText": "Summon a spectral guardian to fight along side you for 20 seconds and apply an absorption shield to up to 8 allies within 20 yds, absorbing 316 + 150% Stamina damage.",
+    "iconPath": "interface/icons/custom_t_spiritualarmor_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805716,
+    "spellIds": [
+      805716
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6703,
+      34472
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805716,
+        "description": "Summon a spectral guardian to fight along side you for <span class=\"item-number\">20</span> seconds and apply an absorption shield to up to <span class=\"item-number\">8</span> allies within <span class=\"item-number\">20</span> yds, absorbing <span class=\"item-number\">316</span> + <span class=\"item-number\">150% Stamina</span> damage. <br /><br />",
+        "descriptionText": "Summon a spectral guardian to fight along side you for 20 seconds and apply an absorption shield to up to 8 allies within 20 yds, absorbing 316 + 150% Stamina damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34515,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Empyrean Fortitude",
+    "description": "Increases your parry chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and parrying an attack now generates <span class=\"item-number\">2</span> Runic Power.",
+    "descriptionText": "Increases your parry chance by 5% and parrying an attack now generates 2 Runic Power.",
+    "iconPath": "interface/icons/novart_magicspell_(20)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706795,
+    "spellIds": [
+      706795
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30720
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706795,
+        "description": "Increases your parry chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and parrying an attack now generates <span class=\"item-number\">2</span> Runic Power.",
+        "descriptionText": "Increases your parry chance by 5% and parrying an attack now generates 2 Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34516,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Spirit Realm",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Deathwind</span> now also increases your healing taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while you stand within its radius.",
+    "descriptionText": "Your Deathwind now also increases your healing taken by 10% while you stand within its radius.",
+    "iconPath": "interface/icons/spell_shadow_shadowembrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705404,
+    "spellIds": [
+      705404
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7876,
+      30719,
+      34472
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705404,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Deathwind</span> now also increases your healing taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while you stand within its radius.",
+        "descriptionText": "Your Deathwind now also increases your healing taken by 10% while you stand within its radius."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34520,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Intimidating Presence",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Bolstered Form</span> now increases the damage nearby enemies take from you by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Bolstered Form now increases the damage nearby enemies take from you by 15% for 15 seconds.",
+    "iconPath": "interface/icons/nhi_soulgrave_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560478,
+    "spellIds": [
+      560478
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31289
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560478,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Bolstered Form</span> now increases the damage nearby enemies take from you by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Bolstered Form now increases the damage nearby enemies take from you by 15% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34521,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Soulsight",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, dealing direct damage now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to generate a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span>.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, dealing direct damage now has a 15% chance to generate a Soul Fragment.",
+    "iconPath": "interface/icons/custom_eyes_02_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300565,
+    "spellIds": [
+      300565
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7946,
+      29249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300565,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, dealing direct damage now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to generate a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span>.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%. Does not stack with similar effects.\n\nIn addition, dealing direct damage now has a 15% chance to generate a Soul Fragment."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31262,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Spirit Culling",
+    "description": "For the duration of <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span>, the damage of <span style=\"color: #ffffff; display: inline\">Soul Strike</span> is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />In addition, generating a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span> to fight alongside you for <span class=\"item-number\">10</span> sec.",
+    "descriptionText": "For the duration of Spectral Scythe, the damage of Soul Strike is increased by 20%.\n\nIn addition, generating a Reaped Soul now has a 10% chance to summon a Spectral Scythe to fight alongside you for 10 sec.",
+    "iconPath": "interface/icons/spell_shadow_haunting",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301986,
+    "spellIds": [
+      301986
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4223,
+      6777,
+      29379
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301986,
+        "description": "For the duration of <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span>, the damage of <span style=\"color: #ffffff; display: inline\">Soul Strike</span> is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />In addition, generating a <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #ffffff; display: inline\">Spectral Scythe</span> to fight alongside you for <span class=\"item-number\">10</span> sec.",
+        "descriptionText": "For the duration of Spectral Scythe, the damage of Soul Strike is increased by 20%.\n\nIn addition, generating a Reaped Soul now has a 10% chance to summon a Spectral Scythe to fight alongside you for 10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31289,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Bolstered Form",
+    "description": "Assume a bolstered form for <span class=\"item-number\">15</span> seconds, generating <span class=\"item-number\">30</span> Runic Power, increasing your Armor by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, and increasing your parry chance by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Assume a bolstered form for 15 seconds, generating 30 Runic Power, increasing your Armor by 25%, and increasing your parry chance by 25%.",
+    "iconPath": "interface/icons/achievement_raid_torghast_shadowscourge_prisonofnerzhul",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680337,
+    "spellIds": [
+      680337
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6768
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680337,
+        "description": "Assume a bolstered form for <span class=\"item-number\">15</span> seconds, generating <span class=\"item-number\">30</span> Runic Power, increasing your Armor by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, and increasing your parry chance by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Assume a bolstered form for 15 seconds, generating 30 Runic Power, increasing your Armor by 25%, and increasing your parry chance by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29693,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 81,
+    "tabKey": "30:81",
+    "tabName": "Domination",
+    "name": "Painmail",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Reap</span>, <span style=\"color: #FFFFFF; display: inline\">Dreadwake</span> and <span style=\"color: #FFFFFF; display: inline\">Soul Strike</span> now grants a stack of <span style=\"color: #ffffff; display: inline\">Painmail</span> for <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">8</span> times. Additional applications do not refresh the effect.<br /><br />When <span style=\"color: #ffffff; display: inline\">Painmail</span> stacks expire naturally, you are healed for <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health and reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Bolstered Form</span> by <span class=\"item-number\">-0.5</span> sec for each stack.",
+    "descriptionText": "Dealing damage with Reap, Dreadwake and Soul Strike now grants a stack of Painmail for 15 seconds, stacking up to 8 times. Additional applications do not refresh the effect.\n\nWhen Painmail stacks expire naturally, you are healed for 2% of your maximum health and reduce the cooldown of Bolstered Form by -0.5 sec for each stack.",
+    "iconPath": "interface/icons/inv_shoulder_armor_maw_c_14",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801325,
+    "spellIds": [
+      801325
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29379
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801325,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Reap</span>, <span style=\"color: #FFFFFF; display: inline\">Dreadwake</span> and <span style=\"color: #FFFFFF; display: inline\">Soul Strike</span> now grants a stack of <span style=\"color: #ffffff; display: inline\">Painmail</span> for <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">8</span> times. Additional applications do not refresh the effect.<br /><br />When <span style=\"color: #ffffff; display: inline\">Painmail</span> stacks expire naturally, you are healed for <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health and reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Bolstered Form</span> by <span class=\"item-number\">-0.5</span> sec for each stack.",
+        "descriptionText": "Dealing damage with Reap, Dreadwake and Soul Strike now grants a stack of Painmail for 15 seconds, stacking up to 8 times. Additional applications do not refresh the effect.\n\nWhen Painmail stacks expire naturally, you are healed for 2% of your maximum health and reduce the cooldown of Bolstered Form by -0.5 sec for each stack."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

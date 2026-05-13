@@ -1,0 +1,1669 @@
+[
+  {
+    "nodeId": 9590,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Lifeblood",
+    "description": "Embrace Shadra's lifeblood, reducing your damage taken and pushback from casting spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and causing all damage taken to cast <span style=\"color: #ffffff; display: inline\">Rejuvenating Venom</span>. Lasts for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_alchemy_dpotion_a21\" /><span class=\"name\">Rejuvenating Venom (Heal)</span></div><span class=\"desc\">Heals a nearby ally for <span class=\"item-number\">51</span> over <span class=\"item-number\">6</span> seconds.</span></div>",
+    "descriptionText": "Embrace Shadra's lifeblood, reducing your damage taken and pushback from casting spells by -20% and causing all damage taken to cast Rejuvenating Venom. Lasts for 10 seconds.\n\n---\n\nRejuvenating Venom (Heal)Heals a nearby ally for 51 over 6 seconds.",
+    "iconPath": "interface/icons/inv_misc_volatilelife_green",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804963,
+    "spellIds": [
+      804963
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7231,
+      7247
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804963,
+        "description": "Embrace Shadra's lifeblood, reducing your damage taken and pushback from casting spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and causing all damage taken to cast <span style=\"color: #ffffff; display: inline\">Rejuvenating Venom</span>. Lasts for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_alchemy_dpotion_a21\" /><span class=\"name\">Rejuvenating Venom (Heal)</span></div><span class=\"desc\">Heals a nearby ally for <span class=\"item-number\">51</span> over <span class=\"item-number\">6</span> seconds.</span></div>",
+        "descriptionText": "Embrace Shadra's lifeblood, reducing your damage taken and pushback from casting spells by -20% and causing all damage taken to cast Rejuvenating Venom. Lasts for 10 seconds.\n\n---\n\nRejuvenating Venom (Heal)Heals a nearby ally for 51 over 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7722,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Green Salve",
+    "description": "Rapidly heal an ally for <span class=\"item-number\">30</span> over <span class=\"item-number\">6</span> seconds.<br /><br />At the end of the duration, this will seek another nearby ally with the lowest health and heal them for <span class=\"item-number\">13</span> + <span class=\"item-number\">24.46% healing</span>.",
+    "descriptionText": "Rapidly heal an ally for 30 over 6 seconds.\n\nAt the end of the duration, this will seek another nearby ally with the lowest health and heal them for 13 + 24.46% healing.",
+    "iconPath": "interface/icons/inv_firstaid_healingsalve",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800902,
+    "spellIds": [
+      800902
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800902,
+        "description": "Rapidly heal an ally for <span class=\"item-number\">30</span> over <span class=\"item-number\">6</span> seconds.<br /><br />At the end of the duration, this will seek another nearby ally with the lowest health and heal them for <span class=\"item-number\">13</span> + <span class=\"item-number\">24.46% healing</span>.",
+        "descriptionText": "Rapidly heal an ally for 30 over 6 seconds.\n\nAt the end of the duration, this will seek another nearby ally with the lowest health and heal them for 13 + 24.46% healing."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7453,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Runed Carapace",
+    "description": "Whenever you take Magic Damage, reduce damage taken by that magic school by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Can only occur once every <span class=\"item-number\">30</span> sec per school of magic.",
+    "descriptionText": "Whenever you take Magic Damage, reduce damage taken by that magic school by -10% for 10 seconds.\n\nCan only occur once every 30 sec per school of magic.",
+    "iconPath": "interface/icons/inv_shield_21",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705961,
+    "spellIds": [
+      705961
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6756
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705961,
+        "description": "Whenever you take Magic Damage, reduce damage taken by that magic school by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Can only occur once every <span class=\"item-number\">30</span> sec per school of magic.",
+        "descriptionText": "Whenever you take Magic Damage, reduce damage taken by that magic school by -10% for 10 seconds.\n\nCan only occur once every 30 sec per school of magic."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7953,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Relentless",
+    "description": "Increases your Energy and mana regeneration rate by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Energy and mana regeneration rate by 20%.",
+    "iconPath": "interface/icons/ability_evoker_dreambreath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 578320,
+    "spellIds": [
+      578320
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7147,
+      7453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 33154,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 578320,
+        "description": "Increases your Energy and mana regeneration rate by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy and mana regeneration rate by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30465,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Celerity",
+    "description": "Increases your movement speed by <span class=\"item-number\">60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Leaving <span style=\"color: #ffffff; display: inline\">Spider Form</span> will cancel this effect.<br /><br />Usable while <span style=\"color: #ffffff; display: inline\">Skulking</span>.",
+    "descriptionText": "Increases your movement speed by 60% for 10 seconds.\n\nLeaving Spider Form will cancel this effect.\n\nUsable while Skulking.",
+    "iconPath": "interface/icons/spell_lifegivingspeed",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804962,
+    "spellIds": [
+      804962
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6098,
+      29576
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 111111,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804962,
+        "description": "Increases your movement speed by <span class=\"item-number\">60</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Leaving <span style=\"color: #ffffff; display: inline\">Spider Form</span> will cancel this effect.<br /><br />Usable while <span style=\"color: #ffffff; display: inline\">Skulking</span>.",
+        "descriptionText": "Increases your movement speed by 60% for 10 seconds.\n\nLeaving Spider Form will cancel this effect.\n\nUsable while Skulking."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30482,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Playing With Poison",
+    "description": "Increases your Nature Damage and healing done by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Nature Damage and healing done by 5%.",
+    "iconPath": "interface/icons/spell_nature_nullifydisease",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707563,
+    "spellIds": [
+      707563
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7722,
+      29607
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707563,
+        "description": "Increases your Nature Damage and healing done by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Nature Damage and healing done by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29574,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Ambush Predator",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Burrow</span> will now apply <span style=\"color: #ffffff; display: inline\">Tunnel Below</span> to you.<br /><br />While <span style=\"color: #ffffff; display: inline\">Skulk</span> is active every <span class=\"item-number\">1</span> sec you reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Casting Burrow will now apply Tunnel Below to you.\n\nWhile Skulk is active every 1 sec you reduce the cooldown of Burrow by -1 sec.",
+    "iconPath": "interface/icons/5_assassinskill12_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800878,
+    "spellIds": [
+      800878
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6079
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800878,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Burrow</span> will now apply <span style=\"color: #ffffff; display: inline\">Tunnel Below</span> to you.<br /><br />While <span style=\"color: #ffffff; display: inline\">Skulk</span> is active every <span class=\"item-number\">1</span> sec you reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Burrow</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Casting Burrow will now apply Tunnel Below to you.\n\nWhile Skulk is active every 1 sec you reduce the cooldown of Burrow by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29576,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Empowering Pheromones",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Pheromones</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and their duration by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Pheromones by 20% and their duration by 50%.",
+    "iconPath": "interface/icons/ability_rogue_deadenednerves",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705996,
+    "spellIds": [
+      705996
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7248
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705996,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Pheromones</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and their duration by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Pheromones by 20% and their duration by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29588,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Reinforced Shell",
+    "description": "Increases your total armor by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />In addition, while <span style=\"color: #ffffff; display: inline\">Spider</span> or <span style=\"color: #ffffff; display: inline\">Beetle</span> form is active your attacks are unable to be parried or dodged.",
+    "descriptionText": "Increases your total armor by 20%.\n\nIn addition, while Spider or Beetle form is active your attacks are unable to be parried or dodged.",
+    "iconPath": "interface/icons/inv_misc_leather_shellfragment",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705966,
+    "spellIds": [
+      705966
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7229
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705966,
+        "description": "Increases your total armor by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />In addition, while <span style=\"color: #ffffff; display: inline\">Spider</span> or <span style=\"color: #ffffff; display: inline\">Beetle</span> form is active your attacks are unable to be parried or dodged.",
+        "descriptionText": "Increases your total armor by 20%.\n\nIn addition, while Spider or Beetle form is active your attacks are unable to be parried or dodged."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29607,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Envenomed Weapons",
+    "description": "Envenoms the weapons of all nearby allies for <span class=\"item-number\">30</span> minutes, giving them a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to launch a jet of poison at their target whenever they deal damage, dealing <span class=\"item-number\">9</span> + <span class=\"item-number\">10% nature SP</span> + <span class=\"item-number\">10% AP</span> Nature Damage.",
+    "descriptionText": "Envenoms the weapons of all nearby allies for 30 minutes, giving them a 5% chance to launch a jet of poison at their target whenever they deal damage, dealing 9 + 10% nature SP + 10% AP Nature Damage.",
+    "iconPath": "interface/icons/ability_rogue_creepingvenom",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300855,
+    "spellIds": [
+      300855
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300855,
+        "description": "Envenoms the weapons of all nearby allies for <span class=\"item-number\">30</span> minutes, giving them a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to launch a jet of poison at their target whenever they deal damage, dealing <span class=\"item-number\">9</span> + <span class=\"item-number\">10% nature SP</span> + <span class=\"item-number\">10% AP</span> Nature Damage.",
+        "descriptionText": "Envenoms the weapons of all nearby allies for 30 minutes, giving them a 5% chance to launch a jet of poison at their target whenever they deal damage, dealing 9 + 10% nature SP + 10% AP Nature Damage."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5571,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Enduring Exoskeleton",
+    "description": "Direct damage taken now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">2</span> Rage and <span class=\"item-number\">3</span><span class=\"item-number\">%</span> base mana.<br /><br />Can only occur once per sec.",
+    "descriptionText": "Direct damage taken now has a 30% chance to generate 2 Rage and 3% base mana.\n\nCan only occur once per sec.",
+    "iconPath": "interface/icons/spell_nature_skinofearth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503960,
+    "spellIds": [
+      503960
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7147,
+      7453
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 33154,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503960,
+        "description": "Direct damage taken now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">2</span> Rage and <span class=\"item-number\">3</span><span class=\"item-number\">%</span> base mana.<br /><br />Can only occur once per sec.",
+        "descriptionText": "Direct damage taken now has a 30% chance to generate 2 Rage and 3% base mana.\n\nCan only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6079,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Burrow",
+    "description": "Burrow beneath the ground for <span class=\"item-number\">8</span> seconds, becoming immune to all physical attacks and spells, but unable to move or act for the duration.<br /><br />While burrowed, you can choose a new location within <span class=\"item-number\">30</span> yds to unburrow.",
+    "descriptionText": "Burrow beneath the ground for 8 seconds, becoming immune to all physical attacks and spells, but unable to move or act for the duration.\n\nWhile burrowed, you can choose a new location within 30 yds to unburrow.",
+    "iconPath": "interface/icons/burrow",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806154,
+    "spellIds": [
+      806154
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7147,
+      7244,
+      7247,
+      30465
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806154,
+        "description": "Burrow beneath the ground for <span class=\"item-number\">8</span> seconds, becoming immune to all physical attacks and spells, but unable to move or act for the duration.<br /><br />While burrowed, you can choose a new location within <span class=\"item-number\">30</span> yds to unburrow.",
+        "descriptionText": "Burrow beneath the ground for 8 seconds, becoming immune to all physical attacks and spells, but unable to move or act for the duration.\n\nWhile burrowed, you can choose a new location within 30 yds to unburrow."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6082,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Acute Senses",
+    "description": "Increases your Intellect and Agility by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Intellect and Agility by 5%.",
+    "iconPath": "interface/icons/inv_bonespider2_slate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300664,
+    "spellIds": [
+      300664,
+      300665
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7229,
+      29607
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300664,
+        "description": "Increases your Intellect and Agility by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect and Agility by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 300665,
+        "description": "Increases your Intellect and Agility by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect and Agility by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6086,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Adrenal Venom",
+    "description": "Activate <span style=\"color: #ffffff; display: inline\">Adrenal Venom</span> for <span class=\"item-number\">120</span> minutes, giving your casts a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase your haste by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">3</span> times.<br /><br />You can have a maximum of <span class=\"item-number\">2</span> unique <span style=\"color: #ffffff; display: inline\">Venoms</span> active at a time.",
+    "descriptionText": "Activate Adrenal Venom for 120 minutes, giving your casts a 25% chance to increase your haste by 6% for 6 seconds, stacking 3 times.\n\nYou can have a maximum of 2 unique Venoms active at a time.",
+    "iconPath": "interface/icons/trade_alchemy_dpotion_a26",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805775,
+    "spellIds": [
+      805775
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6096,
+      7235
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805775,
+        "description": "Activate <span style=\"color: #ffffff; display: inline\">Adrenal Venom</span> for <span class=\"item-number\">120</span> minutes, giving your casts a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase your haste by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking <span class=\"item-number\">3</span> times.<br /><br />You can have a maximum of <span class=\"item-number\">2</span> unique <span style=\"color: #ffffff; display: inline\">Venoms</span> active at a time.",
+        "descriptionText": "Activate Adrenal Venom for 120 minutes, giving your casts a 25% chance to increase your haste by 6% for 6 seconds, stacking 3 times.\n\nYou can have a maximum of 2 unique Venoms active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6090,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Avatar of Shadra",
+    "description": "Damage and healing done now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #ffffff; display: inline\">Curse of Shadra</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Dealing damage or healing with <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span>, <span style=\"color: #ffffff; display: inline\">Claw Strike</span>, or <span style=\"color: #ffffff; display: inline\">Venom Fang</span> on an enemy that is cursed will deal damage or heal them for an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of the value and heal you for <span class=\"item-number\">102</span>.",
+    "descriptionText": "Damage and healing done now has a 10% chance to apply Curse of Shadra for 10 seconds.\n\nDealing damage or healing with Serpent's Fang, Claw Strike, or Venom Fang on an enemy that is cursed will deal damage or heal them for an additional 25% of the value and heal you for 102.",
+    "iconPath": "interface/icons/inv_misc_monsterspidercarapace_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503856,
+    "spellIds": [
+      503856
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6097,
+      6331,
+      29574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503856,
+        "description": "Damage and healing done now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #ffffff; display: inline\">Curse of Shadra</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Dealing damage or healing with <span style=\"color: #ffffff; display: inline\">Serpent's Fang</span>, <span style=\"color: #ffffff; display: inline\">Claw Strike</span>, or <span style=\"color: #ffffff; display: inline\">Venom Fang</span> on an enemy that is cursed will deal damage or heal them for an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of the value and heal you for <span class=\"item-number\">102</span>.",
+        "descriptionText": "Damage and healing done now has a 10% chance to apply Curse of Shadra for 10 seconds.\n\nDealing damage or healing with Serpent's Fang, Claw Strike, or Venom Fang on an enemy that is cursed will deal damage or heal them for an additional 25% of the value and heal you for 102."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6095,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Versatile and Deadly",
+    "description": "Reduce all damage taken while in <span style=\"color: #ffffff; display: inline\">Beetle Form</span> by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> and increases your movement speed while in <span style=\"color: #ffffff; display: inline\">Spider Form</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduce all damage taken while in Beetle Form by -3% and increases your movement speed while in Spider Form by 5%.",
+    "iconPath": "interface/icons/inv_fishing_f_seascorpion3",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 681052,
+    "spellIds": [
+      681052,
+      681492
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6116,
+      7252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681052,
+        "description": "Reduce all damage taken while in <span style=\"color: #ffffff; display: inline\">Beetle Form</span> by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> and increases your movement speed while in <span style=\"color: #ffffff; display: inline\">Spider Form</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduce all damage taken while in Beetle Form by -3% and increases your movement speed while in Spider Form by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681492,
+        "description": "Reduce all damage taken while in <span style=\"color: #ffffff; display: inline\">Beetle Form</span> by <span class=\"item-number\">-6</span><span class=\"item-number\">%</span> and increases your movement speed while in <span style=\"color: #ffffff; display: inline\">Spider Form</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduce all damage taken while in Beetle Form by -6% and increases your movement speed while in Spider Form by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6096,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Blightcap Injestion",
+    "description": "Increases your chance to resist poison and disease effects by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to resist poison and disease effects by 30%.",
+    "iconPath": "interface/icons/inv_ascend_mushrooms_14",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560282,
+    "spellIds": [
+      560282
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7249
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560282,
+        "description": "Increases your chance to resist poison and disease effects by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to resist poison and disease effects by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6097,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Fury of Shadra",
+    "description": "Increases your damage and healing against targets below <span class=\"item-number\">35%</span> health by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your damage and healing against targets below 35% health by 15%.",
+    "iconPath": "interface/icons/spell_nature_poisoncleansingtotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503850,
+    "spellIds": [
+      503850
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5571,
+      6079,
+      7953
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503850,
+        "description": "Increases your damage and healing against targets below <span class=\"item-number\">35%</span> health by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your damage and healing against targets below 35% health by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6098,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Fury of Anub'Rekhan",
+    "description": "Increases your maximum mana, Energy, and Rage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum mana, Energy, and Rage by 10%.",
+    "iconPath": "interface/icons/inv_mechanicalspiderpet",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800894,
+    "spellIds": [
+      800894
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7248
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800894,
+        "description": "Increases your maximum mana, Energy, and Rage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum mana, Energy, and Rage by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6116,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Weakening Venom",
+    "description": "Activate <span style=\"color: #ffffff; display: inline\">Weakening Venom</span> for <span class=\"item-number\">120</span> minutes, giving your casts a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to deal <span class=\"item-number\">67</span> + <span class=\"item-number\">12.5% SP</span> Shadow Damage and reduce an enemy's attack power by <span class=\"item-number\">278</span> for <span class=\"item-number\">8</span> seconds.<br /><br />You can have a maximum of <span class=\"item-number\">2</span> unique <span style=\"color: #ffffff; display: inline\">Venoms</span> active at a time.",
+    "descriptionText": "Activate Weakening Venom for 120 minutes, giving your casts a 35% chance to deal 67 + 12.5% SP Shadow Damage and reduce an enemy's attack power by 278 for 8 seconds.\n\nYou can have a maximum of 2 unique Venoms active at a time.",
+    "iconPath": "interface/icons/trade_alchemy_dpotion_a23",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805778,
+    "spellIds": [
+      805778
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6117,
+      29588
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805778,
+        "description": "Activate <span style=\"color: #ffffff; display: inline\">Weakening Venom</span> for <span class=\"item-number\">120</span> minutes, giving your casts a <span class=\"item-number\">35</span><span class=\"item-number\">%</span> chance to deal <span class=\"item-number\">67</span> + <span class=\"item-number\">12.5% SP</span> Shadow Damage and reduce an enemy's attack power by <span class=\"item-number\">278</span> for <span class=\"item-number\">8</span> seconds.<br /><br />You can have a maximum of <span class=\"item-number\">2</span> unique <span style=\"color: #ffffff; display: inline\">Venoms</span> active at a time.",
+        "descriptionText": "Activate Weakening Venom for 120 minutes, giving your casts a 35% chance to deal 67 + 12.5% SP Shadow Damage and reduce an enemy's attack power by 278 for 8 seconds.\n\nYou can have a maximum of 2 unique Venoms active at a time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6117,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Genesis",
+    "description": "Increases your haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your haste by 4%.",
+    "iconPath": "interface/icons/uico_venom_spell_08_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705962,
+    "spellIds": [
+      705962
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6082
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705962,
+        "description": "Increases your haste by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your haste by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6118,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Tranquil Essence",
+    "description": "Reduces the threat generated by your healing spells by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and increases your periodic healing by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the threat generated by your healing spells by -10% and increases your periodic healing by 5%.",
+    "iconPath": "interface/icons/ui_notoriety_thevizier",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504799,
+    "spellIds": [
+      504799,
+      505204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7722
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504799,
+        "description": "Reduces the threat generated by your healing spells by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and increases your periodic healing by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the threat generated by your healing spells by -10% and increases your periodic healing by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 505204,
+        "description": "Reduces the threat generated by your healing spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> and increases your periodic healing by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the threat generated by your healing spells by -20% and increases your periodic healing by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6756,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Pinch",
+    "description": "Disarm an enemy's melee weapons with your claws for <span class=\"item-number\">5</span> seconds and apply <span style=\"color: #ffffff; display: inline\">Weakening Venom</span> to them for <span class=\"item-number\">10</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_alchemy_dpotion_a23\" /><span class=\"name\">Weakening Venom (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">67</span> + <span class=\"item-number\">12.5% SP</span> Shadow Damage and reduces attack power by <span class=\"item-number\">278</span>.</span></div>",
+    "descriptionText": "Disarm an enemy's melee weapons with your claws for 5 seconds and apply Weakening Venom to them for 10 sec.\n\n---\n\nWeakening Venom (Proc)Deals 67 + 12.5% SP Shadow Damage and reduces attack power by 278.",
+    "iconPath": "interface/icons/inv_misc_monsterclaw_10",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704235,
+    "spellIds": [
+      704235
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6095,
+      7237
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704235,
+        "description": "Disarm an enemy's melee weapons with your claws for <span class=\"item-number\">5</span> seconds and apply <span style=\"color: #ffffff; display: inline\">Weakening Venom</span> to them for <span class=\"item-number\">10</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 trade_alchemy_dpotion_a23\" /><span class=\"name\">Weakening Venom (Proc)</span></div><span class=\"desc\">Deals <span class=\"item-number\">67</span> + <span class=\"item-number\">12.5% SP</span> Shadow Damage and reduces attack power by <span class=\"item-number\">278</span>.</span></div>",
+        "descriptionText": "Disarm an enemy's melee weapons with your claws for 5 seconds and apply Weakening Venom to them for 10 sec.\n\n---\n\nWeakening Venom (Proc)Deals 67 + 12.5% SP Shadow Damage and reduces attack power by 278."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6331,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Surprise Strategy",
+    "description": "Critical strikes now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase the healing of your next <span style=\"color: #ffffff; display: inline\">Shadra's Prayer</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and make it instant cast for <span class=\"item-number\">10</span> seconds.<br /><br />Can only occur once per <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Critical strikes now have a 15% chance to increase the healing of your next Shadra's Prayer by 20% and make it instant cast for 10 seconds.\n\nCan only occur once per 5 sec.",
+    "iconPath": "interface/icons/ability_fixated_state_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706035,
+    "spellIds": [
+      706035
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6079,
+      9590
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706035,
+        "description": "Critical strikes now have a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to increase the healing of your next <span style=\"color: #ffffff; display: inline\">Shadra's Prayer</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and make it instant cast for <span class=\"item-number\">10</span> seconds.<br /><br />Can only occur once per <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Critical strikes now have a 15% chance to increase the healing of your next Shadra's Prayer by 20% and make it instant cast for 10 seconds.\n\nCan only occur once per 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6553,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Toxic Stride",
+    "description": "Embrace Shadra's blessing, granting you immunity to all silence and interrupt effects and allowing you to cast your spells while moving for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Embrace Shadra's blessing, granting you immunity to all silence and interrupt effects and allowing you to cast your spells while moving for 15 seconds.",
+    "iconPath": "interface/icons/nhi_naturepoisonedstep_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504347,
+    "spellIds": [
+      504347
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6331
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504347,
+        "description": "Embrace Shadra's blessing, granting you immunity to all silence and interrupt effects and allowing you to cast your spells while moving for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Embrace Shadra's blessing, granting you immunity to all silence and interrupt effects and allowing you to cast your spells while moving for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7147,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Venomancy Expert",
+    "description": "Reduces the cost of all spells and abilities by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of all spells and abilities by -5%.",
+    "iconPath": "interface/icons/ability_warlock_infernogreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706027,
+    "spellIds": [
+      706027
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6098,
+      6756
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706027,
+        "description": "Reduces the cost of all spells and abilities by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of all spells and abilities by -5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7229,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Hive Instinct",
+    "description": "The swarm stirs within you, preparing you for battle, instantly generating <span class=\"item-number\">100</span> Rage and Energy.<br /><br />Usable while <span style=\"color: #ffffff; display: inline\">Skulking</span>.",
+    "descriptionText": "The swarm stirs within you, preparing you for battle, instantly generating 100 Rage and Energy.\n\nUsable while Skulking.",
+    "iconPath": "interface/icons/inv_pet_shalespider",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804968,
+    "spellIds": [
+      804968
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804968,
+        "description": "The swarm stirs within you, preparing you for battle, instantly generating <span class=\"item-number\">100</span> Rage and Energy.<br /><br />Usable while <span style=\"color: #ffffff; display: inline\">Skulking</span>.",
+        "descriptionText": "The swarm stirs within you, preparing you for battle, instantly generating 100 Rage and Energy.\n\nUsable while Skulking."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7231,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Venomizer",
+    "description": "Increases the proc chance of all <span style=\"color: #ffffff; display: inline\">Venoms</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the proc chance of all Venoms by 10%.",
+    "iconPath": "interface/icons/uico_venom_spell_06_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680794,
+    "spellIds": [
+      680794
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6086
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680794,
+        "description": "Increases the proc chance of all <span style=\"color: #ffffff; display: inline\">Venoms</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the proc chance of all Venoms by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7235,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Tome of Ahn'kahet",
+    "description": "Damage and healing done now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to grant <span style=\"color: #ffffff; display: inline\">Tome of Ahn'kahet</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _book4_purple\" /><span class=\"name\">Tome of Ahn&#39;kahet</span></div><span class=\"desc\">The next spell has its costs reduced by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Damage and healing done now has an 8% chance to grant Tome of Ahn'kahet for 15 seconds.\n\n---\n\nTome of Ahn'kahetThe next spell has its costs reduced by -100%.",
+    "iconPath": "interface/icons/_book4_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705993,
+    "spellIds": [
+      705993
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7249,
+      7252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705993,
+        "description": "Damage and healing done now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to grant <span style=\"color: #ffffff; display: inline\">Tome of Ahn'kahet</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _book4_purple\" /><span class=\"name\">Tome of Ahn&#39;kahet</span></div><span class=\"desc\">The next spell has its costs reduced by <span class=\"item-number\">-100</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Damage and healing done now has an 8% chance to grant Tome of Ahn'kahet for 15 seconds.\n\n---\n\nTome of Ahn'kahetThe next spell has its costs reduced by -100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7237,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Chitinous Spikes",
+    "description": "Taking direct damage has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to retaliate for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage taken.",
+    "descriptionText": "Taking direct damage has a 20% chance to retaliate for 5% of the damage taken.",
+    "iconPath": "interface/icons/custom_t_poisonspikes_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504406,
+    "spellIds": [
+      504406
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6116
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504406,
+        "description": "Taking direct damage has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to retaliate for <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of the damage taken.",
+        "descriptionText": "Taking direct damage has a 20% chance to retaliate for 5% of the damage taken."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7241,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Hallucinogenic Venom",
+    "description": "Allows <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your mana to regenerate while in combat.",
+    "descriptionText": "Allows 50% of your mana to regenerate while in combat.",
+    "iconPath": "interface/icons/inv_inscription_pigment_bug07",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560188,
+    "spellIds": [
+      560188
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30482
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560188,
+        "description": "Allows <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of your mana to regenerate while in combat.",
+        "descriptionText": "Allows 50% of your mana to regenerate while in combat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7242,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Shadra's Lair",
+    "description": "Designate the area around you as your <span style=\"color: #FFFFFF; display: inline\">Lair</span> for <span class=\"item-number\">8</span> seconds. <br /><br />Enemies are unable to target into or out of the <span style=\"color: #ffffff; display: inline\">Lair</span> and their movement speed is slowed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Designate the area around you as your Lair for 8 seconds. \n\nEnemies are unable to target into or out of the Lair and their movement speed is slowed by -60%.",
+    "iconPath": "interface/icons/inv_ascend_spiderweb_b_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804978,
+    "spellIds": [
+      804978
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6097
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804978,
+        "description": "Designate the area around you as your <span style=\"color: #FFFFFF; display: inline\">Lair</span> for <span class=\"item-number\">8</span> seconds. <br /><br />Enemies are unable to target into or out of the <span style=\"color: #ffffff; display: inline\">Lair</span> and their movement speed is slowed by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Designate the area around you as your Lair for 8 seconds. \n\nEnemies are unable to target into or out of the Lair and their movement speed is slowed by -60%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7244,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Mamba Mentality",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Venom Bolt</span>, <span style=\"color: #ffffff; display: inline\">Hivebreak</span>, or <span style=\"color: #ffffff; display: inline\">Venom Fang</span> now increase your movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Critical strikes with Venom Bolt, Hivebreak, or Venom Fang now increase your movement speed by 20% for 3 seconds.",
+    "iconPath": "interface/icons/inv_giantsnake_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503976,
+    "spellIds": [
+      503976
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6098,
+      29576
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 111111,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503976,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Venom Bolt</span>, <span style=\"color: #ffffff; display: inline\">Hivebreak</span>, or <span style=\"color: #ffffff; display: inline\">Venom Fang</span> now increase your movement speed by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Critical strikes with Venom Bolt, Hivebreak, or Venom Fang now increase your movement speed by 20% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7247,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Master of Venoms",
+    "description": "Increases the duration of your <span style=\"color: #FFFFFF; display: inline\">Venoms</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of your Venoms by 50%.",
+    "iconPath": "interface/icons/rogue_venomzest",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504326,
+    "spellIds": [
+      504326
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6086,
+      29576
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504326,
+        "description": "Increases the duration of your <span style=\"color: #FFFFFF; display: inline\">Venoms</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of your Venoms by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7248,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Skin Shedder",
+    "description": "Reduces the cost of shapeshift spells by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of shapeshift spells by -50%.",
+    "iconPath": "interface/icons/spell_nature_moonglow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705949,
+    "spellIds": [
+      705949
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705949,
+        "description": "Reduces the cost of shapeshift spells by <span class=\"item-number\">-50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of shapeshift spells by -50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7249,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Shadra's Balm",
+    "description": "Envelop an ally with a restorative balm, healing them for <span class=\"item-number\">28</span> + <span class=\"item-number\">22% healing</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">18</span> seconds.",
+    "descriptionText": "Envelop an ally with a restorative balm, healing them for 28 + 22% healing every 3 sec for 18 seconds.",
+    "iconPath": "interface/icons/nhi_naturepotion_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800901,
+    "spellIds": [
+      800901
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6118,
+      7241
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800901,
+        "description": "Envelop an ally with a restorative balm, healing them for <span class=\"item-number\">28</span> + <span class=\"item-number\">22% healing</span> every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">18</span> seconds.",
+        "descriptionText": "Envelop an ally with a restorative balm, healing them for 28 + 22% healing every 3 sec for 18 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7252,
+    "classId": 29,
+    "className": "Venomancer",
+    "tabId": 87,
+    "tabKey": "29:87",
+    "tabName": "Class",
+    "name": "Spindlebind",
+    "description": "Emit webs at all enemies in a <span class=\"item-number\">10</span> yd cone behind you, rooting them for <span class=\"item-number\">4</span> seconds, and unleashing a beetle on the trapped enemy from below, inflicting <span class=\"item-number\">67</span> + <span class=\"item-number\">40% nature SP</span> Nature Damage.",
+    "descriptionText": "Emit webs at all enemies in a 10 yd cone behind you, rooting them for 4 seconds, and unleashing a beetle on the trapped enemy from below, inflicting 67 + 40% nature SP Nature Damage.",
+    "iconPath": "interface/icons/nhi_poisonweb_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800887,
+    "spellIds": [
+      800887
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6117,
+      7241
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800887,
+        "description": "Emit webs at all enemies in a <span class=\"item-number\">10</span> yd cone behind you, rooting them for <span class=\"item-number\">4</span> seconds, and unleashing a beetle on the trapped enemy from below, inflicting <span class=\"item-number\">67</span> + <span class=\"item-number\">40% nature SP</span> Nature Damage.",
+        "descriptionText": "Emit webs at all enemies in a 10 yd cone behind you, rooting them for 4 seconds, and unleashing a beetle on the trapped enemy from below, inflicting 67 + 40% nature SP Nature Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

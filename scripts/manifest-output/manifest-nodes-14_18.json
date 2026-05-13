@@ -1,0 +1,1947 @@
+[
+  {
+    "nodeId": 4009,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Burning Commander",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Allows you to wield a Two-Handed Axe or Sword in each hand and grants you additional Armor and magic resistance based on your dodge rating.",
+    "descriptionText": "Level 10 Passive\nAllows you to wield a Two-Handed Axe or Sword in each hand and grants you additional Armor and magic resistance based on your dodge rating.",
+    "iconPath": "interface/icons/ability_demonhunter_demonictrample",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92089,
+    "spellIds": [
+      92089
+    ],
+    "requiredNodeIds": [
+      30554
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92089,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Allows you to wield a Two-Handed Axe or Sword in each hand and grants you additional Armor and magic resistance based on your dodge rating.",
+        "descriptionText": "Level 10 Passive\nAllows you to wield a Two-Handed Axe or Sword in each hand and grants you additional Armor and magic resistance based on your dodge rating."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6774,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Outland Slaver",
+    "description": "Reduces the cost of your <span style=\"color: #FFFFFF; display: inline\">Twin Slice</span> and <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> by <span class=\"item-number\">-3</span> and increases their damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of your Twin Slice and Fel Fireball by -3 and increases their damage dealt by 15%.",
+    "iconPath": "interface/icons/ability_felshieldemitter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705123,
+    "spellIds": [
+      705123,
+      707846
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29442
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705123,
+        "description": "Reduces the cost of your <span style=\"color: #FFFFFF; display: inline\">Twin Slice</span> and <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> by <span class=\"item-number\">-3</span> and increases their damage dealt by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of your Twin Slice and Fel Fireball by -3 and increases their damage dealt by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707846,
+        "description": "Reduces the cost of your <span style=\"color: #FFFFFF; display: inline\">Twin Slice</span> and <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> by <span class=\"item-number\">-6</span> and increases their damage dealt by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of your Twin Slice and Fel Fireball by -6 and increases their damage dealt by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6815,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Nether Strength",
+    "description": "Casting <span style=\"color: #32cd32; display: inline\">Felfury</span> spenders now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burning Hatred</span>, <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span>, and <span style=\"color: #ffffff; display: inline\">Demonic Will</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Casting Felfury spenders now reduces the cooldown of Burning Hatred, Hateforged Barrier, and Demonic Will by -1 sec.",
+    "iconPath": "interface/icons/_darkhand_fel",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520240,
+    "spellIds": [
+      520240
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30558
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520240,
+        "description": "Casting <span style=\"color: #32cd32; display: inline\">Felfury</span> spenders now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burning Hatred</span>, <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span>, and <span style=\"color: #ffffff; display: inline\">Demonic Will</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Casting Felfury spenders now reduces the cooldown of Burning Hatred, Hateforged Barrier, and Demonic Will by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6876,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Vengeance Is Mine",
+    "description": "Dodging or parrying an attack now gives you a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to make your next <span class=\"item-number\">10</span> instances of damage with <span style=\"color: #ffffff; display: inline\">Twin Slice</span> deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage and generate <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+    "descriptionText": "Dodging or parrying an attack now gives you a 10% chance to make your next 10 instances of damage with Twin Slice deal 30% increased damage and generate 1 Felfury.",
+    "iconPath": "interface/icons/ability_demonhunter_brandofthehunt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804822,
+    "spellIds": [
+      804822
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6339,
+      11111,
+      30561
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804822,
+        "description": "Dodging or parrying an attack now gives you a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to make your next <span class=\"item-number\">10</span> instances of damage with <span style=\"color: #ffffff; display: inline\">Twin Slice</span> deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage and generate <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+        "descriptionText": "Dodging or parrying an attack now gives you a 10% chance to make your next 10 instances of damage with Twin Slice deal 30% increased damage and generate 1 Felfury."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6877,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Expose",
+    "description": "Direct Fire and Shadow spell damage dealt now applies <span style=\"color: #ffffff; display: inline\">Expose</span> to enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _manaburn_fel\" /><span class=\"name\">Expose (Proc)</span></div><span class=\"desc\">Damage taken from the Felsworn increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and the critical strike chance of all allies against this target is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "Direct Fire and Shadow spell damage dealt now applies Expose to enemies.\n\n---\n\nExpose (Proc)Damage taken from the Felsworn increased by 10% and the critical strike chance of all allies against this target is increased by 3% for 8 seconds.",
+    "iconPath": "interface/icons/_manaburn_fel",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300474,
+    "spellIds": [
+      300474
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30557
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300474,
+        "description": "Direct Fire and Shadow spell damage dealt now applies <span style=\"color: #ffffff; display: inline\">Expose</span> to enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _manaburn_fel\" /><span class=\"name\">Expose (Proc)</span></div><span class=\"desc\">Damage taken from the Felsworn increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and the critical strike chance of all allies against this target is increased by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "Direct Fire and Shadow spell damage dealt now applies Expose to enemies.\n\n---\n\nExpose (Proc)Damage taken from the Felsworn increased by 10% and the critical strike chance of all allies against this target is increased by 3% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6338,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Nether Disciple",
+    "description": "Increases your dodge and parry chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your dodge and parry chance by 3%.",
+    "iconPath": "interface/icons/inv_felhound4_custom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560576,
+    "spellIds": [
+      560576,
+      561343
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29845
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560576,
+        "description": "Increases your dodge and parry chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your dodge and parry chance by 3%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561343,
+        "description": "Increases your dodge and parry chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your dodge and parry chance by 6%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6339,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Doomscarring",
+    "description": "Your melee critical strikes now deal an additional <span class=\"item-number\">1</span> + <span class=\"item-number\">30% AP</span> Physical Damage and scars enemies for <span class=\"item-number\">12</span> seconds, increasing your allies' attack power against them by <span class=\"item-number\">55</span> + <span class=\"item-number\">15% Agility</span>.",
+    "descriptionText": "Your melee critical strikes now deal an additional 1 + 30% AP Physical Damage and scars enemies for 12 seconds, increasing your allies' attack power against them by 55 + 15% Agility.",
+    "iconPath": "interface/icons/inv_shield_mogu_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 685321,
+    "spellIds": [
+      685321
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7870,
+      9218,
+      12170
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 685321,
+        "description": "Your melee critical strikes now deal an additional <span class=\"item-number\">1</span> + <span class=\"item-number\">30% AP</span> Physical Damage and scars enemies for <span class=\"item-number\">12</span> seconds, increasing your allies' attack power against them by <span class=\"item-number\">55</span> + <span class=\"item-number\">15% Agility</span>.",
+        "descriptionText": "Your melee critical strikes now deal an additional 1 + 30% AP Physical Damage and scars enemies for 12 seconds, increasing your allies' attack power against them by 55 + 15% Agility."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9218,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Straight to the Nether",
+    "description": "While <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active, <span style=\"color: #ffffff; display: inline\">Carve</span> and <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span> now leeches <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt from the initial strike as Shadowflame Damage.",
+    "descriptionText": "While Inner Demon is active, Carve and Sargeron Smite now leeches 20% of the damage dealt from the initial strike as Shadowflame Damage.",
+    "iconPath": "interface/icons/spell_shadow_demoniccirclesummon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560503,
+    "spellIds": [
+      560503
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29398
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560503,
+        "description": "While <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active, <span style=\"color: #ffffff; display: inline\">Carve</span> and <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span> now leeches <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt from the initial strike as Shadowflame Damage.",
+        "descriptionText": "While Inner Demon is active, Carve and Sargeron Smite now leeches 20% of the damage dealt from the initial strike as Shadowflame Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9231,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Hulking Demon",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Stamina and your hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 20 Passive\nIncreases your attack power by 30% of your Stamina and your hit rating by 6% of your Agility.",
+    "iconPath": "interface/icons/ability_warlock_avoidance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805246,
+    "spellIds": [
+      805246
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4009
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805246,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Stamina and your hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 20 Passive\nIncreases your attack power by 30% of your Stamina and your hit rating by 6% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9233,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Felblade",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Fel Fireball</span>, <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span>, and <span style=\"color: #ffffff; display: inline\">Sunder</span> now additionally scales with your Agility.",
+    "descriptionText": "Level 40 Passive\nDamage dealt by Fel Fireball, Sargeron Smite, and Sunder now additionally scales with your Agility.",
+    "iconPath": "interface/icons/_monkspecialattack_dodgebloodelf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574146,
+    "spellIds": [
+      574146
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9832
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574146,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Damage dealt by <span style=\"color: #ffffff; display: inline\">Fel Fireball</span>, <span style=\"color: #ffffff; display: inline\">Sargeron Smite</span>, and <span style=\"color: #ffffff; display: inline\">Sunder</span> now additionally scales with your Agility.",
+        "descriptionText": "Level 40 Passive\nDamage dealt by Fel Fireball, Sargeron Smite, and Sunder now additionally scales with your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9832,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Hellfire Carver",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Carve</span> now makes your next <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> instant cast and causes it to strike <span class=\"item-number\">1</span> additional enemy near the primary target based on how long you channeled, up to a maximum of <span class=\"item-number\">10</span> enemies, dealing less damage with each target struck.",
+    "descriptionText": "Level 30 Passive\nCasting Carve now makes your next Fel Fireball instant cast and causes it to strike 1 additional enemy near the primary target based on how long you channeled, up to a maximum of 10 enemies, dealing less damage with each target struck.",
+    "iconPath": "interface/icons/inv_felhound4_custom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707444,
+    "spellIds": [
+      707444
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9231
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707444,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Carve</span> now makes your next <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> instant cast and causes it to strike <span class=\"item-number\">1</span> additional enemy near the primary target based on how long you channeled, up to a maximum of <span class=\"item-number\">10</span> enemies, dealing less damage with each target struck.",
+        "descriptionText": "Level 30 Passive\nCasting Carve now makes your next Fel Fireball instant cast and causes it to strike 1 additional enemy near the primary target based on how long you channeled, up to a maximum of 10 enemies, dealing less damage with each target struck."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12170,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Fel Torpedo",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Chaos Rush</span> into <span style=\"color: #ffffff; display: inline\">Fel Torpedo</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_felspikes_border\" /><span class=\"name\">Fel Torpedo</span></div><span class=\"desc\"><span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Dash forward <span class=\"item-number\">10</span> yds in the direction you're running and deal <span class=\"item-number\">241</span> + <span class=\"item-number\">35% AP</span> Shadowflame Damage to enemies in your path.<br /><br />Generates a large amount of threat. Scales with modifiers to <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span>.</span></div>",
+    "descriptionText": "Transforms your Chaos Rush into Fel Torpedo.\n\n---\n\nFel TorpedoGenerates 1 Felfury\nDash forward 10 yds in the direction you're running and deal 241 + 35% AP Shadowflame Damage to enemies in your path.\n\nGenerates a large amount of threat. Scales with modifiers to Chaos Rush.",
+    "iconPath": "interface/icons/custom_t_felspikes_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520853,
+    "spellIds": [
+      520853
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29398,
+      34219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 500610,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520853,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Chaos Rush</span> into <span style=\"color: #ffffff; display: inline\">Fel Torpedo</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_felspikes_border\" /><span class=\"name\">Fel Torpedo</span></div><span class=\"desc\"><span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Dash forward <span class=\"item-number\">10</span> yds in the direction you're running and deal <span class=\"item-number\">241</span> + <span class=\"item-number\">35% AP</span> Shadowflame Damage to enemies in your path.<br /><br />Generates a large amount of threat. Scales with modifiers to <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span>.</span></div>",
+        "descriptionText": "Transforms your Chaos Rush into Fel Torpedo.\n\n---\n\nFel TorpedoGenerates 1 Felfury\nDash forward 10 yds in the direction you're running and deal 241 + 35% AP Shadowflame Damage to enemies in your path.\n\nGenerates a large amount of threat. Scales with modifiers to Chaos Rush."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11111,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Fel Daze",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Sunder</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and it's damage dealt now reduces the enemy's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Increases the damage dealt by Sunder by 20% and it's damage dealt now reduces the enemy's chance to hit by -3% for 5 seconds.",
+    "iconPath": "interface/icons/spell_shadow_deathcoil",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705131,
+    "spellIds": [
+      705131
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6815,
+      7870,
+      11217,
+      12170,
+      34217
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 237822,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705131,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Sunder</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and it's damage dealt now reduces the enemy's chance to hit by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Increases the damage dealt by Sunder by 20% and it's damage dealt now reduces the enemy's chance to hit by -3% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11121,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Annihilan Rituals",
+    "description": "Fully channeling <span style=\"color: #ffffff; display: inline\">Carve</span> now refunds <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+    "descriptionText": "Fully channeling Carve now refunds 1 Felfury.",
+    "iconPath": "interface/icons/mannoroth",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520831,
+    "spellIds": [
+      520831
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29845
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 791213,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520831,
+        "description": "Fully channeling <span style=\"color: #ffffff; display: inline\">Carve</span> now refunds <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+        "descriptionText": "Fully channeling Carve now refunds 1 Felfury."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11213,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Abyssal Conditioning",
+    "description": "Casting <span style=\"color: #32cd32; display: inline\">Felfury</span> spenders now increases your Energy regeneration by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking up to <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Casting Felfury spenders now increases your Energy regeneration by 5% for 10 seconds, stacking up to 4 times.",
+    "iconPath": "interface/icons/spell_warlock_summonabyssal",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807431,
+    "spellIds": [
+      807431
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34226
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 178321,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807431,
+        "description": "Casting <span style=\"color: #32cd32; display: inline\">Felfury</span> spenders now increases your Energy regeneration by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking up to <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Casting Felfury spenders now increases your Energy regeneration by 5% for 10 seconds, stacking up to 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11217,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Demonic Blood",
+    "description": "Generating <span style=\"color: #32cd32; display: inline\">Felfury</span> now extends the duration of <span style=\"color: #32cd32; display: inline\">Inner Demon</span> by <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Generating Felfury now extends the duration of Inner Demon by 0.5 sec.",
+    "iconPath": "interface/icons/ability_demonhunter_brandofthehunt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807438,
+    "spellIds": [
+      807438
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30557,
+      34229
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 29347,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807438,
+        "description": "Generating <span style=\"color: #32cd32; display: inline\">Felfury</span> now extends the duration of <span style=\"color: #32cd32; display: inline\">Inner Demon</span> by <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Generating Felfury now extends the duration of Inner Demon by 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11233,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Fel Monstrosity",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your Stamina by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and size by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nIncreases your Stamina by 25% and size by 10%.",
+    "iconPath": "interface/icons/achievement_boss_hellfire_felreaver",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500067,
+    "spellIds": [
+      500067
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9233
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500067,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your Stamina by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and size by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nIncreases your Stamina by 25% and size by 10%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29398,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Vengeance",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Twin Slice</span> and <span style=\"color: #ffffff; display: inline\">Felrend</span> now have a <span class=\"item-number\">60</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">1</span> additional <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+    "descriptionText": "Your Twin Slice and Felrend now have a 60% chance to generate 1 additional Felfury.",
+    "iconPath": "interface/icons/inv_polearm_2h_fellord_2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520817,
+    "spellIds": [
+      520817
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6774,
+      30566,
+      34221
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520817,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Twin Slice</span> and <span style=\"color: #ffffff; display: inline\">Felrend</span> now have a <span class=\"item-number\">60</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">1</span> additional <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+        "descriptionText": "Your Twin Slice and Felrend now have a 60% chance to generate 1 additional Felfury."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29407,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Taskmaster's Army",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Infernal Whipcrack</span> by <span class=\"item-number\">-30</span> sec and it now affects all allies and its radius is increased by <span class=\"item-number\">15</span> yds.",
+    "descriptionText": "Reduces the cooldown of Infernal Whipcrack by -30 sec and it now affects all allies and its radius is increased by 15 yds.",
+    "iconPath": "interface/icons/achievement_boss_hellfire_fellord",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800220,
+    "spellIds": [
+      800220
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34224
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800220,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Infernal Whipcrack</span> by <span class=\"item-number\">-30</span> sec and it now affects all allies and its radius is increased by <span class=\"item-number\">15</span> yds.",
+        "descriptionText": "Reduces the cooldown of Infernal Whipcrack by -30 sec and it now affects all allies and its radius is increased by 15 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29442,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Felrend",
+    "description": "<span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Erupt in a whirlwind of felfury, striking all enemies within <span class=\"item-number\">6</span> yds with both weapons, dealing Weapon Damage plus <span class=\"item-number\">5</span>.",
+    "descriptionText": "Generates 1 Felfury\nErupt in a whirlwind of felfury, striking all enemies within 6 yds with both weapons, dealing Weapon Damage plus 5.",
+    "iconPath": "interface/icons/ability_demonhunter_chaosstrike",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800210,
+    "spellIds": [
+      800210
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11121,
+      30567
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800210,
+        "description": "<span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Erupt in a whirlwind of felfury, striking all enemies within <span class=\"item-number\">6</span> yds with both weapons, dealing Weapon Damage plus <span class=\"item-number\">5</span>.",
+        "descriptionText": "Generates 1 Felfury\nErupt in a whirlwind of felfury, striking all enemies within 6 yds with both weapons, dealing Weapon Damage plus 5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7869,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Demon Hide",
+    "description": "Increases your Armor contribution from leather items by <span class=\"item-number\">140</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor contribution from leather items by 140%.",
+    "iconPath": "interface/icons/ability_racial_demonbane",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520252,
+    "spellIds": [
+      520252,
+      520253
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29845
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520252,
+        "description": "Increases your Armor contribution from leather items by <span class=\"item-number\">140</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from leather items by 140%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520253,
+        "description": "Increases your Armor contribution from leather items by <span class=\"item-number\">240</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from leather items by 240%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7870,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Illidan's Favor",
+    "description": "Removes the Energy cost of your <span style=\"color: #ffffff; display: inline\">Felbane</span> and <span style=\"color: #ffffff; display: inline\">Manaburn</span> and your <span style=\"color: #ffffff; display: inline\">Manaburn</span> now strikes <span class=\"item-number\">4</span> additional enemies near the primary target.",
+    "descriptionText": "Removes the Energy cost of your Felbane and Manaburn and your Manaburn now strikes 4 additional enemies near the primary target.",
+    "iconPath": "interface/icons/achievement_boss_illidan",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520592,
+    "spellIds": [
+      520592
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29398,
+      34219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 500610,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520592,
+        "description": "Removes the Energy cost of your <span style=\"color: #ffffff; display: inline\">Felbane</span> and <span style=\"color: #ffffff; display: inline\">Manaburn</span> and your <span style=\"color: #ffffff; display: inline\">Manaburn</span> now strikes <span class=\"item-number\">4</span> additional enemies near the primary target.",
+        "descriptionText": "Removes the Energy cost of your Felbane and Manaburn and your Manaburn now strikes 4 additional enemies near the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31159,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Carve",
+    "description": "<span style=\"color: #32cd32; display: inline\">Consumes <span class=\"item-number\">2</span> Felfury</span><br />Charge up a powerful attack over <span class=\"item-number\">2.5</span> seconds. <br /><br />Upon ending the channel, slash in a <span class=\"item-number\">8</span> yd frontal cone, dealing increased Weapon Damage with both weapons based on how long you channel, dealing less damage with each target struck. <br /><br />",
+    "descriptionText": "Consumes 2 Felfury\nCharge up a powerful attack over 2.5 seconds. \n\nUpon ending the channel, slash in a 8 yd frontal cone, dealing increased Weapon Damage with both weapons based on how long you channel, dealing less damage with each target struck.",
+    "iconPath": "interface/icons/ability_demonhunter_infernalstrike2",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800206,
+    "spellIds": [
+      800206
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800206,
+        "description": "<span style=\"color: #32cd32; display: inline\">Consumes <span class=\"item-number\">2</span> Felfury</span><br />Charge up a powerful attack over <span class=\"item-number\">2.5</span> seconds. <br /><br />Upon ending the channel, slash in a <span class=\"item-number\">8</span> yd frontal cone, dealing increased Weapon Damage with both weapons based on how long you channel, dealing less damage with each target struck. <br /><br />",
+        "descriptionText": "Consumes 2 Felfury\nCharge up a powerful attack over 2.5 seconds. \n\nUpon ending the channel, slash in a 8 yd frontal cone, dealing increased Weapon Damage with both weapons based on how long you channel, dealing less damage with each target struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29845,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Demonic Will",
+    "description": "<span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Strengthen your will, reducing Physical Damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />While active, direct damaging abilities heal you for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum health. Can only occur once every <span class=\"item-number\">0.5</span> sec.",
+    "descriptionText": "Generates 1 Felfury\nStrengthen your will, reducing Physical Damage taken by -30% for 10 seconds.\n\nWhile active, direct damaging abilities heal you for 3% of your maximum health. Can only occur once every 0.5 sec.",
+    "iconPath": "interface/icons/ability_demonhunter_infernalchains",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800209,
+    "spellIds": [
+      800209
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31159
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800209,
+        "description": "<span style=\"color: #32cd32; display: inline\">Generates <span class=\"item-number\">1</span> Felfury</span><br />Strengthen your will, reducing Physical Damage taken by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />While active, direct damaging abilities heal you for <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum health. Can only occur once every <span class=\"item-number\">0.5</span> sec.",
+        "descriptionText": "Generates 1 Felfury\nStrengthen your will, reducing Physical Damage taken by -30% for 10 seconds.\n\nWhile active, direct damaging abilities heal you for 3% of your maximum health. Can only occur once every 0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30556,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Felspill",
+    "description": "Generating <span style=\"color: #32cd32; display: inline\">Felfury</span> now leeches <span class=\"item-number\">10% AP</span> health from <span class=\"item-number\">3</span> nearby enemies within <span class=\"item-number\">6</span> yds, scaling with your attack power.",
+    "descriptionText": "Generating Felfury now leeches 10% AP health from 3 nearby enemies within 6 yds, scaling with your attack power.",
+    "iconPath": "interface/icons/spell_yorsahj_bloodboil_greenoil",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706267,
+    "spellIds": [
+      706267
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34222
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706267,
+        "description": "Generating <span style=\"color: #32cd32; display: inline\">Felfury</span> now leeches <span class=\"item-number\">10% AP</span> health from <span class=\"item-number\">3</span> nearby enemies within <span class=\"item-number\">6</span> yds, scaling with your attack power.",
+        "descriptionText": "Generating Felfury now leeches 10% AP health from 3 nearby enemies within 6 yds, scaling with your attack power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30557,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Tyrant's Gaze",
+    "description": "Set your fiery gaze upon an enemy and all enemies in front of you, intimidating them and causing them to combust, dealing <span class=\"item-number\">384</span> + <span class=\"item-number\">35% AP</span> Shadowflame Damage to them.<br /><br />Damaging an enemy in this way heals you for <span class=\"item-number\">353</span> + <span class=\"item-number\">50% AP</span> and generates <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Set your fiery gaze upon an enemy and all enemies in front of you, intimidating them and causing them to combust, dealing 384 + 35% AP Shadowflame Damage to them.\n\nDamaging an enemy in this way heals you for 353 + 50% AP and generates 1 Felfury.\n\nOnly usable on enemies below 35% health.",
+    "iconPath": "interface/icons/inv_summondemonictyrant",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805240,
+    "spellIds": [
+      805240
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11213,
+      30563,
+      34220
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805240,
+        "description": "Set your fiery gaze upon an enemy and all enemies in front of you, intimidating them and causing them to combust, dealing <span class=\"item-number\">384</span> + <span class=\"item-number\">35% AP</span> Shadowflame Damage to them.<br /><br />Damaging an enemy in this way heals you for <span class=\"item-number\">353</span> + <span class=\"item-number\">50% AP</span> and generates <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Set your fiery gaze upon an enemy and all enemies in front of you, intimidating them and causing them to combust, dealing 384 + 35% AP Shadowflame Damage to them.\n\nDamaging an enemy in this way heals you for 353 + 50% AP and generates 1 Felfury.\n\nOnly usable on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30558,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Burning Hatred",
+    "description": "Enrages you, instantly generating <span class=\"item-number\">6</span> <span style=\"color: #32cd32; display: inline\">Felfury</span> and causing your melee damage to leech health to you equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt as Chaos Damage for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Enrages you, instantly generating 6 Felfury and causing your melee damage to leech health to you equal to 50% of the damage dealt as Chaos Damage for 15 seconds.",
+    "iconPath": "interface/icons/spell_warlock_demonicempowerment",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805239,
+    "spellIds": [
+      805239
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30556
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805239,
+        "description": "Enrages you, instantly generating <span class=\"item-number\">6</span> <span style=\"color: #32cd32; display: inline\">Felfury</span> and causing your melee damage to leech health to you equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt as Chaos Damage for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Enrages you, instantly generating 6 Felfury and causing your melee damage to leech health to you equal to 50% of the damage dealt as Chaos Damage for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30560,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Eye of the Tyrant",
+    "description": "Grant <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds. Does not stack with similar effects.<br /><br />In addition, your attack power is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Grant 10% increased melee and ranged haste to party and raid members within 100 yds. Does not stack with similar effects.\n\nIn addition, your attack power is increased by 5%.",
+    "iconPath": "interface/icons/inv_misc_fel_tainted_cache",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560549,
+    "spellIds": [
+      560549
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6877,
+      11217,
+      34217
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560549,
+        "description": "Grant <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds. Does not stack with similar effects.<br /><br />In addition, your attack power is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Grant 10% increased melee and ranged haste to party and raid members within 100 yds. Does not stack with similar effects.\n\nIn addition, your attack power is increased by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30561,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Dark Lord",
+    "description": "While above <span class=\"item-number\">75%</span> health, your damage taken is reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> and damage dealt is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While above 75% health, your damage taken is reduced by -5% and damage dealt is increased by 5%.",
+    "iconPath": "interface/icons/inv_helm_leather_demonhunter_b_01gold",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300470,
+    "spellIds": [
+      300470
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6815,
+      7870,
+      11217,
+      12170,
+      34217
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 237822,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300470,
+        "description": "While above <span class=\"item-number\">75%</span> health, your damage taken is reduced by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span> and damage dealt is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While above 75% health, your damage taken is reduced by -5% and damage dealt is increased by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30563,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Illidari Training",
+    "description": "Dodging an attack now generates <span class=\"item-number\">3</span> Energy.",
+    "descriptionText": "Dodging an attack now generates 3 Energy.",
+    "iconPath": "interface/icons/spell_fire_elementaldevastation",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805249,
+    "spellIds": [
+      805249
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34226
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 178321,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805249,
+        "description": "Dodging an attack now generates <span class=\"item-number\">3</span> Energy.",
+        "descriptionText": "Dodging an attack now generates 3 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30566,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Battle Finesse",
+    "description": "While channeling <span style=\"color: #ffffff; display: inline\">Carve</span>, your chance to dodge is now increased by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> based on how long you channel, up to a maximum of <span class=\"item-number\">10%</span>.",
+    "descriptionText": "While channeling Carve, your chance to dodge is now increased by 1% based on how long you channel, up to a maximum of 10%.",
+    "iconPath": "interface/icons/warlock_curse_weakness_aura",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704611,
+    "spellIds": [
+      704611
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29442,
+      34222
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704611,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704611,
+        "description": "While channeling <span style=\"color: #ffffff; display: inline\">Carve</span>, your chance to dodge is now increased by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> based on how long you channel, up to a maximum of <span class=\"item-number\">10%</span>.",
+        "descriptionText": "While channeling Carve, your chance to dodge is now increased by 1% based on how long you channel, up to a maximum of 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30567,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Quick Carving",
+    "description": "<span style=\"color: #ffffff; display: inline\">Carve</span> now channels <span class=\"item-number\">1</span> sec faster.",
+    "descriptionText": "Carve now channels 1 sec faster.",
+    "iconPath": "interface/icons/inv_polearm_2h_fellord",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520254,
+    "spellIds": [
+      520254
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29845
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 791213,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520254,
+        "description": "<span style=\"color: #ffffff; display: inline\">Carve</span> now channels <span class=\"item-number\">1</span> sec faster.",
+        "descriptionText": "Carve now channels 1 sec faster."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34217,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Demonic Fortitude",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Demonic Will</span> or <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> are active, all damage taken or avoided now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+    "descriptionText": "While Demonic Will or Hateforged Barrier are active, all damage taken or avoided now has a 20% chance to generate 1 Felfury.",
+    "iconPath": "interface/icons/ability_demonhunter_reversemagic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805245,
+    "spellIds": [
+      805245
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30557,
+      34229
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 29347,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805245,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Demonic Will</span> or <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> are active, all damage taken or avoided now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">1</span> <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+        "descriptionText": "While Demonic Will or Hateforged Barrier are active, all damage taken or avoided now has a 20% chance to generate 1 Felfury."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34219,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Bulwark of Azzinoth",
+    "description": "<span style=\"color: #32cd32; display: inline\">Inner Demon</span> now also reduces your damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Inner Demon now also reduces your damage taken by -10%.",
+    "iconPath": "interface/icons/inv_armor_shield_naxxramas_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705122,
+    "spellIds": [
+      705122
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30556,
+      30566,
+      34221
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705122,
+        "description": "<span style=\"color: #32cd32; display: inline\">Inner Demon</span> now also reduces your damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Inner Demon now also reduces your damage taken by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34220,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Infernal Constitution",
+    "description": "Increases your maximum health by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum health by 10%.",
+    "iconPath": "interface/icons/ability_demonhunter_glide",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805256,
+    "spellIds": [
+      805256
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34222,
+      34226
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805256,
+        "description": "Increases your maximum health by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34221,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Unholy Endurance",
+    "description": "Fully channeling <span style=\"color: #ffffff; display: inline\">Carve</span> now additionally reduces affected enemies melee and ranged haste by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Fully channeling Carve now additionally reduces affected enemies melee and ranged haste by -20% for 10 seconds.",
+    "iconPath": "interface/icons/ability_demonhunter_doublejump",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300466,
+    "spellIds": [
+      300466
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29442,
+      34222
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704611,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300466,
+        "description": "Fully channeling <span style=\"color: #ffffff; display: inline\">Carve</span> now additionally reduces affected enemies melee and ranged haste by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Fully channeling Carve now additionally reduces affected enemies melee and ranged haste by -20% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34222,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Pure Hatred",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> now also scales with your dodge rating.",
+    "descriptionText": "Your Hateforged Barrier now also scales with your dodge rating.",
+    "iconPath": "interface/icons/ability_demonhunter_metamorphasistank",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803478,
+    "spellIds": [
+      803478
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6338
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803478,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> now also scales with your dodge rating.",
+        "descriptionText": "Your Hateforged Barrier now also scales with your dodge rating."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34224,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Infernal Whipcrack",
+    "description": "Enrage up to <span class=\"item-number\">8</span> allies within <span class=\"item-number\">20</span> yds, reducing their damage taken by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and increasing their haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Enrage up to 8 allies within 20 yds, reducing their damage taken by -15% and increasing their haste by 10% for 10 seconds.",
+    "iconPath": "interface/icons/ability_warlock_whiplash",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805243,
+    "spellIds": [
+      805243
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11111,
+      30560,
+      30561
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805243,
+        "description": "Enrage up to <span class=\"item-number\">8</span> allies within <span class=\"item-number\">20</span> yds, reducing their damage taken by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and increasing their haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Enrage up to 8 allies within 20 yds, reducing their damage taken by -15% and increasing their haste by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34226,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Burning Legionnaire",
+    "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Sunder</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Energy cost of Sunder by -10.",
+    "iconPath": "interface/icons/kiljaedan",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520885,
+    "spellIds": [
+      520885
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7869
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520885,
+        "description": "Reduces the Energy cost of <span style=\"color: #ffffff; display: inline\">Sunder</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Energy cost of Sunder by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30404,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Mannoroth's Rage",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burning Hatred</span> by <span class=\"item-number\">-60</span> sec and removes its Energy cost.",
+    "descriptionText": "Reduces the cooldown of Burning Hatred by -60 sec and removes its Energy cost.",
+    "iconPath": "interface/icons/spell_fire_felfirenova",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805255,
+    "spellIds": [
+      805255
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11111,
+      30561
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805255,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Burning Hatred</span> by <span class=\"item-number\">-60</span> sec and removes its Energy cost.",
+        "descriptionText": "Reduces the cooldown of Burning Hatred by -60 sec and removes its Energy cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30405,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Tyrannical Resolve",
+    "description": "Taunt enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">4</span> seconds and ignore <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> of all damage taken for <span class=\"item-number\">30</span> seconds, up to <span class=\"item-number\">100%</span> of your maximum health.<br /><br />When this ends, you unleash a <span style=\"color: #FFFFFF; display: inline\">Felfire Blast</span> that leeches health from nearby enemies based on how many times you took damage with the effect active.",
+    "descriptionText": "Taunt enemies within 8 yds for 4 seconds and ignore -50% of all damage taken for 30 seconds, up to 100% of your maximum health.\n\nWhen this ends, you unleash a Felfire Blast that leeches health from nearby enemies based on how many times you took damage with the effect active.",
+    "iconPath": "interface/icons/ability_demonhunter_immolation",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804823,
+    "spellIds": [
+      804823
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6876
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804823,
+        "description": "Taunt enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">4</span> seconds and ignore <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> of all damage taken for <span class=\"item-number\">30</span> seconds, up to <span class=\"item-number\">100%</span> of your maximum health.<br /><br />When this ends, you unleash a <span style=\"color: #FFFFFF; display: inline\">Felfire Blast</span> that leeches health from nearby enemies based on how many times you took damage with the effect active.",
+        "descriptionText": "Taunt enemies within 8 yds for 4 seconds and ignore -50% of all damage taken for 30 seconds, up to 100% of your maximum health.\n\nWhen this ends, you unleash a Felfire Blast that leeches health from nearby enemies based on how many times you took damage with the effect active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34228,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Grommash's Folly",
+    "description": "While <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active, your melee haste is now increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and you now heal equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of all damage dealt by critical strikes with auto attacks.<br /><br />In addition, critical strikes with <span style=\"color: #ffffff; display: inline\">Carve</span> deal <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased damage, increasing up to <span class=\"item-number\">60%</span> with each strike based on how long you channel.",
+    "descriptionText": "While Inner Demon is active, your melee haste is now increased by 15% and you now heal equal to 50% of all damage dealt by critical strikes with auto attacks.\n\nIn addition, critical strikes with Carve deal 5% increased damage, increasing up to 60% with each strike based on how long you channel.",
+    "iconPath": "interface/icons/_orc_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805236,
+    "spellIds": [
+      805236
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6876,
+      30404,
+      34224
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805236,
+        "description": "While <span style=\"color: #32cd32; display: inline\">Inner Demon</span> is active, your melee haste is now increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and you now heal equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of all damage dealt by critical strikes with auto attacks.<br /><br />In addition, critical strikes with <span style=\"color: #ffffff; display: inline\">Carve</span> deal <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased damage, increasing up to <span class=\"item-number\">60%</span> with each strike based on how long you channel.",
+        "descriptionText": "While Inner Demon is active, your melee haste is now increased by 15% and you now heal equal to 50% of all damage dealt by critical strikes with auto attacks.\n\nIn addition, critical strikes with Carve deal 5% increased damage, increasing up to 60% with each strike based on how long you channel."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34229,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 18,
+    "tabKey": "14:18",
+    "tabName": "Tyrant",
+    "name": "Betrayer",
+    "description": "Dodging attacks causes <span class=\"item-number\">40</span><span class=\"item-number\">%</span> off-hand Weapon Damage to attackers and enrages your party and raid members within <span class=\"item-number\">20</span> yds, increasing their critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Dodging attacks causes 40% off-hand Weapon Damage to attackers and enrages your party and raid members within 20 yds, increasing their critical strike chance by 2% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_unholy_smile_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300476,
+    "spellIds": [
+      300476
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30556,
+      34220
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300476,
+        "description": "Dodging attacks causes <span class=\"item-number\">40</span><span class=\"item-number\">%</span> off-hand Weapon Damage to attackers and enrages your party and raid members within <span class=\"item-number\">20</span> yds, increasing their critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Dodging attacks causes 40% off-hand Weapon Damage to attackers and enrages your party and raid members within 20 yds, increasing their critical strike chance by 2% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

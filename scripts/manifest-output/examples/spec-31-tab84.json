@@ -1,0 +1,2098 @@
+{
+  "meta": {
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 84,
+    "tabName": "Life",
+    "tabKey": "31:84",
+    "treeType": "spec",
+    "nodeCount": 46
+  },
+  "nodes": [
+    {
+      "nodeId": 30020,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Eternally Chosen",
+      "description": "<span style=\"color: #FFFFFF; display: inline\">Spirit Charge</span> and <span style=\"color: #ffffff; display: inline\">Primal Rush</span> now summons <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Spirits of Life</span> that immediately cast a lesser <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> on the nearest ally, healing them for <span class=\"item-number\">487</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> and dealing <span class=\"item-number\">494</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> Nature Damage to nearby enemies.",
+      "descriptionText": "Spirit Charge and Primal Rush now summons 2 Spirits of Life that immediately cast a lesser Spirit Charge on the nearest ally, healing them for 487 + 20% nature SP + 20% AP and dealing 494 + 20% nature SP + 20% AP Nature Damage to nearby enemies.",
+      "iconPath": "interface/icons/inv_ability_monk_jadefirestomp",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 802888,
+      "spellIds": [
+        802888
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        29664
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 23,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 9,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 802888,
+          "description": "<span style=\"color: #FFFFFF; display: inline\">Spirit Charge</span> and <span style=\"color: #ffffff; display: inline\">Primal Rush</span> now summons <span class=\"item-number\">2</span> <span style=\"color: #ffffff; display: inline\">Spirits of Life</span> that immediately cast a lesser <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> on the nearest ally, healing them for <span class=\"item-number\">487</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> and dealing <span class=\"item-number\">494</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> Nature Damage to nearby enemies.",
+          "descriptionText": "Spirit Charge and Primal Rush now summons 2 Spirits of Life that immediately cast a lesser Spirit Charge on the nearest ally, healing them for 487 + 20% nature SP + 20% AP and dealing 494 + 20% nature SP + 20% AP Nature Damage to nearby enemies."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 31209,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Hammer of Life",
+      "description": "Your melee attacks and abilities now heal nearby allies and damage nearby enemies equal to <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt.",
+      "descriptionText": "Your melee attacks and abilities now heal nearby allies and damage nearby enemies equal to 20% of the damage dealt.",
+      "iconPath": "interface/icons/inv_mace_1h_draenorraid_d_04green",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 803973,
+      "spellIds": [
+        803973
+      ],
+      "requiredNodeIds": [
+        4060,
+        30633
+      ],
+      "connectedNodeIds": [],
+      "requiredLevel": 1,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 4,
+      "gridY": 0,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 803973,
+          "description": "Your melee attacks and abilities now heal nearby allies and damage nearby enemies equal to <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt.",
+          "descriptionText": "Your melee attacks and abilities now heal nearby allies and damage nearby enemies equal to 20% of the damage dealt."
+        }
+      ],
+      "flags": 1056772,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30784,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Grove Tender",
+      "description": "While inside your <span style=\"color: #ffffff; display: inline\">Bramblepatch</span> your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities now have a <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> reduced cooldown.<br /><br />In addition, the duration of <span style=\"color: #ffffff; display: inline\">Bramblepatch</span> is doubled.",
+      "descriptionText": "While inside your Bramblepatch your Seismic abilities now have a -80% reduced cooldown.\n\nIn addition, the duration of Bramblepatch is doubled.",
+      "iconPath": "interface/icons/spell_nature_naturetouchgrow",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 706148,
+      "spellIds": [
+        706148
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6230,
+        6654
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 111687,
+      "gridX": 7,
+      "gridY": 6,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 706148,
+          "description": "While inside your <span style=\"color: #ffffff; display: inline\">Bramblepatch</span> your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities now have a <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> reduced cooldown.<br /><br />In addition, the duration of <span style=\"color: #ffffff; display: inline\">Bramblepatch</span> is doubled.",
+          "descriptionText": "While inside your Bramblepatch your Seismic abilities now have a -80% reduced cooldown.\n\nIn addition, the duration of Bramblepatch is doubled."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30785,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Nature's Fury",
+      "description": "Auto attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to deal off-hand Weapon Damage and restore <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana.",
+      "descriptionText": "Auto attacks now have a 20% chance to deal off-hand Weapon Damage and restore 5% of your maximum mana.",
+      "iconPath": "interface/icons/inv_mace_2h_pandariaquest_b_01",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300742,
+      "spellIds": [
+        300742
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        29230,
+        29363
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 4,
+      "gridY": 2,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300742,
+          "description": "Auto attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to deal off-hand Weapon Damage and restore <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana.",
+          "descriptionText": "Auto attacks now have a 20% chance to deal off-hand Weapon Damage and restore 5% of your maximum mana."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30949,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Elemental Cascade",
+      "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> now unleash an <span style=\"color: #FFFFFF; display: inline\">Elemental Cascade</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_waterelementalmount\" /><span class=\"name\">Elemental Cascade</span></div><span class=\"desc\">Restores <span class=\"item-number\">53</span> + <span class=\"item-number\">10% AP</span> + <span class=\"item-number\">10% healing</span> health to allies in a <span class=\"item-number\">12</span> yd radius around you.</span></div>",
+      "descriptionText": "Critical strikes with Wildclaw now unleash an Elemental Cascade.\n\n---\n\nElemental CascadeRestores 53 + 10% AP + 10% healing health to allies in a 12 yd radius around you.",
+      "iconPath": "interface/icons/inv_waterelementalmount",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 504196,
+      "spellIds": [
+        504196
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        9687,
+        30508
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 2,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 504196,
+          "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> now unleash an <span style=\"color: #FFFFFF; display: inline\">Elemental Cascade</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_waterelementalmount\" /><span class=\"name\">Elemental Cascade</span></div><span class=\"desc\">Restores <span class=\"item-number\">53</span> + <span class=\"item-number\">10% AP</span> + <span class=\"item-number\">10% healing</span> health to allies in a <span class=\"item-number\">12</span> yd radius around you.</span></div>",
+          "descriptionText": "Critical strikes with Wildclaw now unleash an Elemental Cascade.\n\n---\n\nElemental CascadeRestores 53 + 10% AP + 10% healing health to allies in a 12 yd radius around you."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30966,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Earth's Guidance",
+      "description": "Damage and healing done by <span style=\"color: #FFFFFF; display: inline\">Seismic</span> spells now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reduce the cooldown of all <span style=\"color: #ffffff; display: inline\">Seismic</span> spells by <span class=\"item-number\">-1</span> sec.",
+      "descriptionText": "Damage and healing done by Seismic spells now has a 20% chance to reduce the cooldown of all Seismic spells by -1 sec.",
+      "iconPath": "interface/icons/spell_nature_protectionformnature",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 706138,
+      "spellIds": [
+        706138
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30346
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 706138,
+          "description": "Damage and healing done by <span style=\"color: #FFFFFF; display: inline\">Seismic</span> spells now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reduce the cooldown of all <span style=\"color: #ffffff; display: inline\">Seismic</span> spells by <span class=\"item-number\">-1</span> sec.",
+          "descriptionText": "Damage and healing done by Seismic spells now has a 20% chance to reduce the cooldown of all Seismic spells by -1 sec."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30967,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Shaman Training",
+      "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Wildclaw</span> now reduces the enemy's armor by <span class=\"item-number\">655</span> for <span class=\"item-number\">8</span> seconds.",
+      "descriptionText": "Damage dealt by Wildclaw now reduces the enemy's armor by 655 for 8 seconds.",
+      "iconPath": "interface/icons/ability_shaman_stormstrike",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 805445,
+      "spellIds": [
+        805445
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6654,
+        11184,
+        30784
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 8,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 805445,
+          "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Wildclaw</span> now reduces the enemy's armor by <span class=\"item-number\">655</span> for <span class=\"item-number\">8</span> seconds.",
+          "descriptionText": "Damage dealt by Wildclaw now reduces the enemy's armor by 655 for 8 seconds."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30968,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Thorns",
+      "description": "Physical Damage dealt or taken now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #ffffff; display: inline\">Thorns</span> on an enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_nature_stranglevines\" /><span class=\"name\">Thorns (Talent)</span></div><span class=\"desc\">Create thorns around an enemy, rooting them and dealing <span class=\"item-number\">270</span> Nature Damage over <span class=\"item-number\">6</span> seconds.</span></div>",
+      "descriptionText": "Physical Damage dealt or taken now has a 10% chance to unleash Thorns on an enemy.\n\n---\n\nThorns (Talent)Create thorns around an enemy, rooting them and dealing 270 Nature Damage over 6 seconds.",
+      "iconPath": "interface/icons/spell_nature_stranglevines",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 504732,
+      "spellIds": [
+        504732
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        7335,
+        9687,
+        30346,
+        30508
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 4,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 504732,
+          "description": "Physical Damage dealt or taken now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to unleash <span style=\"color: #ffffff; display: inline\">Thorns</span> on an enemy.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_nature_stranglevines\" /><span class=\"name\">Thorns (Talent)</span></div><span class=\"desc\">Create thorns around an enemy, rooting them and dealing <span class=\"item-number\">270</span> Nature Damage over <span class=\"item-number\">6</span> seconds.</span></div>",
+          "descriptionText": "Physical Damage dealt or taken now has a 10% chance to unleash Thorns on an enemy.\n\n---\n\nThorns (Talent)Create thorns around an enemy, rooting them and dealing 270 Nature Damage over 6 seconds."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 29664,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Verdant Chase",
+      "description": "Your <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> and <span style=\"color: #ffffff; display: inline\">Primal Rush</span> now cooldown faster.",
+      "descriptionText": "Your Spirit Charge and Primal Rush now cooldown faster.",
+      "iconPath": "interface/icons/ability_evoker_spiritbloom",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 560305,
+      "spellIds": [
+        560305
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6234,
+        11236,
+        14234,
+        30967
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 23,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 8,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 560305,
+          "description": "Your <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> and <span style=\"color: #ffffff; display: inline\">Primal Rush</span> now cooldown faster.",
+          "descriptionText": "Your Spirit Charge and Primal Rush now cooldown faster."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30346,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Ancient Power",
+      "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Increases your Strength by 5% and your hit chance by 3%.",
+      "iconPath": "interface/icons/nhi_naturelighting_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 2,
+      "spellId": 300740,
+      "spellIds": [
+        300740,
+        301354
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6236,
+        30785
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 3,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300740,
+          "description": "Increases your Strength by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases your Strength by 5% and your hit chance by 3%."
+        },
+        {
+          "rank": 2,
+          "spellId": 301354,
+          "description": "Increases your Strength by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases your Strength by 10% and your hit chance by 6%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30508,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Blessing of Neptulon",
+      "description": "Your <span style=\"color: #FFFFFF; display: inline\">Hand of the Earthmother</span> now bounces to <span class=\"item-number\">1</span> ally near the primary target.",
+      "descriptionText": "Your Hand of the Earthmother now bounces to 1 ally near the primary target.",
+      "iconPath": "interface/icons/custom_t_ghostwater_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 560055,
+      "spellIds": [
+        560055
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6509,
+        30785
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 32211,
+      "gridX": 2,
+      "gridY": 3,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 560055,
+          "description": "Your <span style=\"color: #FFFFFF; display: inline\">Hand of the Earthmother</span> now bounces to <span class=\"item-number\">1</span> ally near the primary target.",
+          "descriptionText": "Your Hand of the Earthmother now bounces to 1 ally near the primary target."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 30628,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Verdant Warrior",
+      "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Increases the damage of Wildclaw by 15%.",
+      "iconPath": "interface/icons/ability_druid_cyclone",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 2,
+      "spellId": 301299,
+      "spellIds": [
+        301299,
+        573132
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6230,
+        6246,
+        29350
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 4,
+      "gridY": 6,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 301299,
+          "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases the damage of Wildclaw by 15%."
+        },
+        {
+          "rank": 2,
+          "spellId": 573132,
+          "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases the damage of Wildclaw by 30%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6509,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Tranquil Mind",
+      "description": "Increases your damage and healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Increases your damage and healing done by 4%.",
+      "iconPath": "interface/icons/achievement_zone_nagrand_02",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 2,
+      "spellId": 504223,
+      "spellIds": [
+        504223,
+        504882
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        29230
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 1,
+      "gridY": 2,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 504223,
+          "description": "Increases your damage and healing done by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases your damage and healing done by 4%."
+        },
+        {
+          "rank": 2,
+          "spellId": 504882,
+          "description": "Increases your damage and healing done by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases your damage and healing done by 8%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6651,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Primal Power",
+      "description": "Casting <span style=\"color: #ffffff; display: inline\">Seismic Wave</span> now causes your next <span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> within <span class=\"item-number\">8</span> seconds to cost <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> less Rage.",
+      "descriptionText": "Casting Seismic Wave now causes your next Hand of the Earthmother within 8 seconds to cost -50% less Rage.",
+      "iconPath": "interface/icons/nhi_water_eye_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 706216,
+      "spellIds": [
+        706216
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6238
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 0,
+      "gridY": 5,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 706216,
+          "description": "Casting <span style=\"color: #ffffff; display: inline\">Seismic Wave</span> now causes your next <span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> within <span class=\"item-number\">8</span> seconds to cost <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> less Rage.",
+          "descriptionText": "Casting Seismic Wave now causes your next Hand of the Earthmother within 8 seconds to cost -50% less Rage."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6654,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Running on Instinct",
+      "description": "Passing through allies with <span style=\"color: #ffffff; display: inline\">Primal Rush</span> now heals up to <span class=\"item-number\">5</span> of them for <span class=\"item-number\">206</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">35% SP</span> and grants a stack of <span style=\"color: #FFFFFF; display: inline\">Running on Instinct</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_spiritliquid_border\" /><span class=\"name\">Running on Instinct (Proc)</span></div><span class=\"desc\">Damage of <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> and <span style=\"color: #FFFFFF; display: inline\">Seismic</span> spells is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+      "descriptionText": "Passing through allies with Primal Rush now heals up to 5 of them for 206 + 25% AP + 35% SP and grants a stack of Running on Instinct.\n\n---\n\nRunning on Instinct (Proc)Damage of Wildclaw and Seismic spells is increased by 5% for 20 seconds, stacking 5 times.",
+      "iconPath": "interface/icons/nhi_spiritliquid_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300744,
+      "spellIds": [
+        300744
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        7334,
+        11334
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 8,
+      "gridY": 5,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300744,
+          "description": "Passing through allies with <span style=\"color: #ffffff; display: inline\">Primal Rush</span> now heals up to <span class=\"item-number\">5</span> of them for <span class=\"item-number\">206</span> + <span class=\"item-number\">25% AP</span> + <span class=\"item-number\">35% SP</span> and grants a stack of <span style=\"color: #FFFFFF; display: inline\">Running on Instinct</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_spiritliquid_border\" /><span class=\"name\">Running on Instinct (Proc)</span></div><span class=\"desc\">Damage of <span style=\"color: #FFFFFF; display: inline\">Wildclaw</span> and <span style=\"color: #FFFFFF; display: inline\">Seismic</span> spells is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+          "descriptionText": "Passing through allies with Primal Rush now heals up to 5 of them for 206 + 25% AP + 35% SP and grants a stack of Running on Instinct.\n\n---\n\nRunning on Instinct (Proc)Damage of Wildclaw and Seismic spells is increased by 5% for 20 seconds, stacking 5 times."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6662,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Nature's Blessing",
+      "description": "Healing allies with <span style=\"color: #ffffff; display: inline\">Seismic Wave</span> now heals them for an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the healing done every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">9</span> sec.",
+      "descriptionText": "Healing allies with Seismic Wave now heals them for an additional 20% of the healing done every 3 sec for 9 sec.",
+      "iconPath": "interface/icons/ability_druid_nourish",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 807466,
+      "spellIds": [
+        807466
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6651,
+        7107
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 807466,
+      "gridX": 0,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 807466,
+          "description": "Healing allies with <span style=\"color: #ffffff; display: inline\">Seismic Wave</span> now heals them for an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the healing done every <span class=\"item-number\">3</span> sec for <span class=\"item-number\">9</span> sec.",
+          "descriptionText": "Healing allies with Seismic Wave now heals them for an additional 20% of the healing done every 3 sec for 9 sec."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6230,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Keeper of the Grove",
+      "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Bramblepatch</span> by <span class=\"item-number\">-30</span> sec.",
+      "descriptionText": "Reduces the cooldown of Bramblepatch by -30 sec.",
+      "iconPath": "interface/icons/inv_tradeskillitem_lessersorcerersearth",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 706137,
+      "spellIds": [
+        706137
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        7334,
+        11334,
+        30966
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 5,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 706137,
+          "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Bramblepatch</span> by <span class=\"item-number\">-30</span> sec.",
+          "descriptionText": "Reduces the cooldown of Bramblepatch by -30 sec."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6234,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Earthmother's Empowerment",
+      "description": "<span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> now increases the target's dodge chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+      "descriptionText": "Hand of the Earthmother now increases the target's dodge chance by 15% for 5 seconds.",
+      "iconPath": "interface/icons/nhi_natureambush_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300738,
+      "spellIds": [
+        300738
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30628
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 301306,
+      "gridX": 4,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300738,
+          "description": "<span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> now increases the target's dodge chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+          "descriptionText": "Hand of the Earthmother now increases the target's dodge chance by 15% for 5 seconds."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6235,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Primordial Earth",
+      "description": "Critical strikes with melee attacks now summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Spirit of Life</span> that immediately casts a lesser <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> on a nearby ally, healing them for <span class=\"item-number\">487</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> and dealing <span class=\"item-number\">494</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> Nature Damage to nearby enemies.",
+      "descriptionText": "Critical strikes with melee attacks now summon 1 Spirit of Life that immediately casts a lesser Spirit Charge on a nearby ally, healing them for 487 + 20% nature SP + 20% AP and dealing 494 + 20% nature SP + 20% AP Nature Damage to nearby enemies.",
+      "iconPath": "interface/icons/inv_ore_gold_nugget2",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 806536,
+      "spellIds": [
+        806536
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6234,
+        6240,
+        6242,
+        6662,
+        14234
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 23,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 2,
+      "gridY": 8,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 806536,
+          "description": "Critical strikes with melee attacks now summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Spirit of Life</span> that immediately casts a lesser <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> on a nearby ally, healing them for <span class=\"item-number\">487</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> and dealing <span class=\"item-number\">494</span> + <span class=\"item-number\">20% nature SP</span> + <span class=\"item-number\">20% AP</span> Nature Damage to nearby enemies.",
+          "descriptionText": "Critical strikes with melee attacks now summon 1 Spirit of Life that immediately casts a lesser Spirit Charge on a nearby ally, healing them for 487 + 20% nature SP + 20% AP and dealing 494 + 20% nature SP + 20% AP Nature Damage to nearby enemies."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6236,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Spiritual Warrior",
+      "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Increases the critical strike chance of Spirit Charge by 25%.",
+      "iconPath": "interface/icons/nhi_spiritualarmor_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 504220,
+      "spellIds": [
+        504220
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        29363
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 7,
+      "gridY": 2,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 504220,
+          "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Spirit Charge</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases the critical strike chance of Spirit Charge by 25%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6238,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Battleweaver",
+      "description": "Effective healing now increases your melee haste and damage by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+      "descriptionText": "Effective healing now increases your melee haste and damage by 2% for 5 seconds, stacking 3 times.",
+      "iconPath": "interface/icons/nhi_natureroots_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300733,
+      "spellIds": [
+        300733
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6509,
+        9687,
+        30508
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 1,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300733,
+          "description": "Effective healing now increases your melee haste and damage by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+          "descriptionText": "Effective healing now increases your melee haste and damage by 2% for 5 seconds, stacking 3 times."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6240,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Ride the Wave",
+      "description": "<span style=\"color: #ffffff; display: inline\">Seismic Wave</span> now increases the movement speed of affected allies by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+      "descriptionText": "Seismic Wave now increases the movement speed of affected allies by 30% for 4 seconds.",
+      "iconPath": "interface/icons/nhi_naturewave_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300867,
+      "spellIds": [
+        300867
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6651,
+        7107
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 807466,
+      "gridX": 0,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300867,
+          "description": "<span style=\"color: #ffffff; display: inline\">Seismic Wave</span> now increases the movement speed of affected allies by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4</span> seconds.",
+          "descriptionText": "Seismic Wave now increases the movement speed of affected allies by 30% for 4 seconds."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6242,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Infusion of Neptulon",
+      "description": "Critically healing an ally now increases your attack power by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for your next <span class=\"item-number\">3</span> attacks. Lasts <span class=\"item-number\">12</span> seconds.",
+      "descriptionText": "Critically healing an ally now increases your attack power by 15% for your next 3 attacks. Lasts 12 seconds.",
+      "iconPath": "interface/icons/spell_frost_summonwaterelemental",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300731,
+      "spellIds": [
+        300731
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        7107
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 2,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300731,
+          "description": "Critically healing an ally now increases your attack power by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for your next <span class=\"item-number\">3</span> attacks. Lasts <span class=\"item-number\">12</span> seconds.",
+          "descriptionText": "Critically healing an ally now increases your attack power by 15% for your next 3 attacks. Lasts 12 seconds."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6243,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Vitality Surge",
+      "description": "All effective healing done now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase the haste of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Does not stack with similar effects.",
+      "descriptionText": "All effective healing done now has a 25% chance to increase the haste of party and raid members by 5% for 20 seconds.\n\nDoes not stack with similar effects.",
+      "iconPath": "interface/icons/nhi_chaoshealing_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 504214,
+      "spellIds": [
+        504214
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        4060
+      ],
+      "requiredLevel": 20,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 127887,
+      "gridX": 10,
+      "gridY": 2,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 504214,
+          "description": "All effective healing done now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase the haste of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Does not stack with similar effects.",
+          "descriptionText": "All effective healing done now has a 25% chance to increase the haste of party and raid members by 5% for 20 seconds.\n\nDoes not stack with similar effects."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 6246,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Ring of Life",
+      "description": "Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> increased healing. Does not stack with similar effects.<br /><br />In addition, your Magic Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Allies within 40 yds receive 6% increased healing. Does not stack with similar effects.\n\nIn addition, your Magic Damage taken is reduced by -10%.",
+      "iconPath": "interface/icons/nhi_naturestone_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 804705,
+      "spellIds": [
+        804705
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6238,
+        30949
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 2,
+      "gridY": 5,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 804705,
+          "description": "Allies within <span class=\"item-number\">40</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> increased healing. Does not stack with similar effects.<br /><br />In addition, your Magic Damage taken is reduced by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Allies within 40 yds receive 6% increased healing. Does not stack with similar effects.\n\nIn addition, your Magic Damage taken is reduced by -10%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 7107,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Earthmother's Binding",
+      "description": "Envelop a target in the Earthmother's love, healing them for <span class=\"item-number\">716</span> + <span class=\"item-number\">100% healing</span> + <span class=\"item-number\">100% AP</span>. <br /><br />If used on an ally, <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of their damage taken is redirected to you for <span class=\"item-number\">6</span> seconds.",
+      "descriptionText": "Envelop a target in the Earthmother's love, healing them for 716 + 100% healing + 100% AP. \n\nIf used on an ally, 30% of their damage taken is redirected to you for 6 seconds.",
+      "iconPath": "interface/icons/spell_druid_symbiosis",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 805107,
+      "spellIds": [
+        805107
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6246,
+        6651
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 1,
+      "gridY": 6,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 805107,
+          "description": "Envelop a target in the Earthmother's love, healing them for <span class=\"item-number\">716</span> + <span class=\"item-number\">100% healing</span> + <span class=\"item-number\">100% AP</span>. <br /><br />If used on an ally, <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of their damage taken is redirected to you for <span class=\"item-number\">6</span> seconds.",
+          "descriptionText": "Envelop a target in the Earthmother's love, healing them for 716 + 100% healing + 100% AP. \n\nIf used on an ally, 30% of their damage taken is redirected to you for 6 seconds."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 4060,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Grove Training",
+      "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />All melee damage, or healing done, now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Aftershock</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_earthshock_border\" /><span class=\"name\">Aftershock</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> or <span style=\"color: #ffffff; display: inline\">Earthquake</span> within <span class=\"item-number\">15</span> seconds is now instant cast, costs <span class=\"item-number\">-75</span><span class=\"item-number\">%</span> less, and deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.</span></div>",
+      "descriptionText": "Level 10 Passive\nAll melee damage, or healing done, now has a 10% chance to grant you Aftershock for 15 seconds.\n\n---\n\nAftershockYour next Geode Barrage or Earthquake within 15 seconds is now instant cast, costs -75% less, and deals 50% increased damage.",
+      "iconPath": "interface/icons/ui_darkshore_warfront_alliance_keeper_of_the_grove",
+      "nodeType": "SpendCircle",
+      "entryType": "Ability",
+      "isPassive": true,
+      "maxPoints": 1,
+      "spellId": 92150,
+      "spellIds": [
+        92150
+      ],
+      "requiredNodeIds": [
+        30633
+      ],
+      "connectedNodeIds": [],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 10,
+      "gridY": 0,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 92150,
+          "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />All melee damage, or healing done, now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Aftershock</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_earthshock_border\" /><span class=\"name\">Aftershock</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> or <span style=\"color: #ffffff; display: inline\">Earthquake</span> within <span class=\"item-number\">15</span> seconds is now instant cast, costs <span class=\"item-number\">-75</span><span class=\"item-number\">%</span> less, and deals <span class=\"item-number\">50</span><span class=\"item-number\">%</span> increased damage.</span></div>",
+          "descriptionText": "Level 10 Passive\nAll melee damage, or healing done, now has a 10% chance to grant you Aftershock for 15 seconds.\n\n---\n\nAftershockYour next Geode Barrage or Earthquake within 15 seconds is now instant cast, costs -75% less, and deals 50% increased damage."
+        }
+      ],
+      "flags": 270342,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11134,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Neptulon's Wrath",
+      "description": "Emanate an aura for <span class=\"item-number\">15</span> seconds, causing allied players to deal <span class=\"item-number\">35% AP</span> additional damage as Froststorm Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+      "descriptionText": "Emanate an aura for 15 seconds, causing allied players to deal 35% AP additional damage as Froststorm Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute.",
+      "iconPath": "interface/icons/_liquidstone_water",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 807467,
+      "spellIds": [
+        807467
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        9733,
+        11163
+      ],
+      "requiredLevel": 50,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 856163,
+      "gridX": 10,
+      "gridY": 8,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 807467,
+          "description": "Emanate an aura for <span class=\"item-number\">15</span> seconds, causing allied players to deal <span class=\"item-number\">35% AP</span> additional damage as Froststorm Damage when they deal direct damage.<br /><br />Applies <span style=\"color: #FFFFFF; display: inline\">Exhaustion</span>, preventing you from benefiting from similar effects for <span class=\"item-number\">1</span> minute.",
+          "descriptionText": "Emanate an aura for 15 seconds, causing allied players to deal 35% AP additional damage as Froststorm Damage when they deal direct damage.\n\nApplies Exhaustion, preventing you from benefiting from similar effects for 1 minute."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11153,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Primal Awakening",
+      "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+      "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes.",
+      "iconPath": "interface/icons/ability_shaman_astralshift",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 807560,
+      "spellIds": [
+        807560
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        9733,
+        11163
+      ],
+      "requiredLevel": 50,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 856163,
+      "gridX": 10,
+      "gridY": 8,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 807560,
+          "description": "Enrage all nearby allies, increasing their haste by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.<br /><br />After being affected by this spell, allies cannot benefit from similar effects for <span class=\"item-number\">5</span> minutes.",
+          "descriptionText": "Enrage all nearby allies, increasing their haste by 30% for 20 seconds.\n\nAfter being affected by this spell, allies cannot benefit from similar effects for 5 minutes."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11163,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Flourishing Growth",
+      "description": "Empower party and raid members within <span class=\"item-number\">40</span> yds with verdant strength, increasing their attack or spell power by <span class=\"item-number\">95</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Does not stack with similar effects.",
+      "descriptionText": "Empower party and raid members within 40 yds with verdant strength, increasing their attack or spell power by 95 for 20 seconds.\n\nDoes not stack with similar effects.",
+      "iconPath": "interface/icons/spell_druid_germination",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 805442,
+      "spellIds": [
+        805442
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        9193,
+        11193
+      ],
+      "requiredLevel": 40,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 856162,
+      "gridX": 10,
+      "gridY": 6,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 805442,
+          "description": "Empower party and raid members within <span class=\"item-number\">40</span> yds with verdant strength, increasing their attack or spell power by <span class=\"item-number\">95</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Does not stack with similar effects.",
+          "descriptionText": "Empower party and raid members within 40 yds with verdant strength, increasing their attack or spell power by 95 for 20 seconds.\n\nDoes not stack with similar effects."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11184,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Earthmother's Warden",
+      "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities by <span class=\"item-number\">-2</span> sec.",
+      "descriptionText": "Reduces the cooldown of your Seismic abilities by -2 sec.",
+      "iconPath": "interface/icons/spell_nature_thorns",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 707514,
+      "spellIds": [
+        707514
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6230,
+        6654
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 111687,
+      "gridX": 7,
+      "gridY": 6,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 707514,
+          "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities by <span class=\"item-number\">-2</span> sec.",
+          "descriptionText": "Reduces the cooldown of your Seismic abilities by -2 sec."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11193,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Protector's Hand",
+      "description": "You now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+      "descriptionText": "You now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects.",
+      "iconPath": "interface/icons/inv_60dungeon_ring5b",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 300730,
+      "spellIds": [
+        300730
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6243,
+        11243
+      ],
+      "requiredLevel": 30,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 735421,
+      "gridX": 10,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 300730,
+          "description": "You now emanate an aura around you, increasing the Armor of party and raid members by <span class=\"item-number\">390</span>.<br /><br />Does not stack with similar effects.",
+          "descriptionText": "You now emanate an aura around you, increasing the Armor of party and raid members by 390.\n\nDoes not stack with similar effects."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11236,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Druid Training",
+      "description": "Your <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> now heals all allies within <span class=\"item-number\">20</span> yds equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+      "descriptionText": "Your Geode Barrage now heals all allies within 20 yds equal to 10% of the damage dealt.",
+      "iconPath": "interface/icons/ability_druid_empoweredrejuvination",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 707560,
+      "spellIds": [
+        707560
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        11184,
+        30784
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 707560,
+          "description": "Your <span style=\"color: #ffffff; display: inline\">Geode Barrage</span> now heals all allies within <span class=\"item-number\">20</span> yds equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+          "descriptionText": "Your Geode Barrage now heals all allies within 20 yds equal to 10% of the damage dealt."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11243,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Grovekeeper's Presence",
+      "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+      "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects.",
+      "iconPath": "interface/icons/inv_misc_druidstone01",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 805443,
+      "spellIds": [
+        805443
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        4060
+      ],
+      "requiredLevel": 20,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 127887,
+      "gridX": 10,
+      "gridY": 2,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 805443,
+          "description": "Increases chance to hit with all spells and attacks by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for you and party and raid members.<br /><br />Does not stack with similar effects.",
+          "descriptionText": "Increases chance to hit with all spells and attacks by 1% for you and party and raid members.\n\nDoes not stack with similar effects."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 11334,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Tears of the Earthmother",
+      "description": "Increases the amount of targets hit by <span style=\"color: #ffffff; display: inline\">Seismic Spike</span> by <span class=\"item-number\">4</span>.",
+      "descriptionText": "Increases the amount of targets hit by Seismic Spike by 4.",
+      "iconPath": "interface/icons/5_assassinskill10_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 574326,
+      "spellIds": [
+        574326
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30346
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 123788,
+      "gridX": 7,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 574326,
+          "description": "Increases the amount of targets hit by <span style=\"color: #ffffff; display: inline\">Seismic Spike</span> by <span class=\"item-number\">4</span>.",
+          "descriptionText": "Increases the amount of targets hit by Seismic Spike by 4."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 29230,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Seismic Wave",
+      "description": "Create a seismic wave of healing water around you, healing for <span class=\"item-number\">32</span> + <span class=\"item-number\">60% healing</span> + <span class=\"item-number\">28% AP</span> health to up to <span class=\"item-number\">8</span> allies and dealing <span class=\"item-number\">54</span> + <span class=\"item-number\">28% AP</span> + <span class=\"item-number\">30% healing</span> Nature Damage to enemies in a <span class=\"item-number\">25</span> yd radius.<br /><br />",
+      "descriptionText": "Create a seismic wave of healing water around you, healing for 32 + 60% healing + 28% AP health to up to 8 allies and dealing 54 + 28% AP + 30% healing Nature Damage to enemies in a 25 yd radius.",
+      "iconPath": "interface/icons/seismic_wave",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 805462,
+      "spellIds": [
+        805462
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        31209
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 2,
+      "gridY": 1,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 805462,
+          "description": "Create a seismic wave of healing water around you, healing for <span class=\"item-number\">32</span> + <span class=\"item-number\">60% healing</span> + <span class=\"item-number\">28% AP</span> health to up to <span class=\"item-number\">8</span> allies and dealing <span class=\"item-number\">54</span> + <span class=\"item-number\">28% AP</span> + <span class=\"item-number\">30% healing</span> Nature Damage to enemies in a <span class=\"item-number\">25</span> yd radius.<br /><br />",
+          "descriptionText": "Create a seismic wave of healing water around you, healing for 32 + 60% healing + 28% AP health to up to 8 allies and dealing 54 + 28% AP + 30% healing Nature Damage to enemies in a 25 yd radius."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 29350,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Sacred Grove",
+      "description": "Create a <span style=\"color: #ffffff; display: inline\">Sacred Grove</span> in a <span class=\"item-number\">15</span> yd radius around you for <span class=\"item-number\">16</span> seconds, instantly healing all nearby allies for <span class=\"item-number\">2019</span> + <span class=\"item-number\">150% AP</span>.<br /><br />While active, up to <span class=\"item-number\">12</span> allies in the grove receive <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased healing, and regain <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of their missing health, Rage, and mana every <span class=\"item-number\">2</span> sec.",
+      "descriptionText": "Create a Sacred Grove in a 15 yd radius around you for 16 seconds, instantly healing all nearby allies for 2019 + 150% AP.\n\nWhile active, up to 12 allies in the grove receive 25% increased healing, and regain 3% of their missing health, Rage, and mana every 2 sec.",
+      "iconPath": "interface/icons/achievement_reputation_guardiansofcenarius",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 800180,
+      "spellIds": [
+        800180
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30949,
+        30966,
+        30968
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 4,
+      "gridY": 5,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 800180,
+          "description": "Create a <span style=\"color: #ffffff; display: inline\">Sacred Grove</span> in a <span class=\"item-number\">15</span> yd radius around you for <span class=\"item-number\">16</span> seconds, instantly healing all nearby allies for <span class=\"item-number\">2019</span> + <span class=\"item-number\">150% AP</span>.<br /><br />While active, up to <span class=\"item-number\">12</span> allies in the grove receive <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased healing, and regain <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of their missing health, Rage, and mana every <span class=\"item-number\">2</span> sec.",
+          "descriptionText": "Create a Sacred Grove in a 15 yd radius around you for 16 seconds, instantly healing all nearby allies for 2019 + 150% AP.\n\nWhile active, up to 12 allies in the grove receive 25% increased healing, and regain 3% of their missing health, Rage, and mana every 2 sec."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 29363,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Spirit Charge",
+      "description": "Charge to an ally's aid, healing them for <span class=\"item-number\">76</span> + <span class=\"item-number\">20% healing</span> + <span class=\"item-number\">20% AP</span> and dealing <span class=\"item-number\">74</span> + <span class=\"item-number\">20% healing</span> + <span class=\"item-number\">20% AP</span> Nature Damage to enemies within <span class=\"item-number\">5</span> yds of them.",
+      "descriptionText": "Charge to an ally's aid, healing them for 76 + 20% healing + 20% AP and dealing 74 + 20% healing + 20% AP Nature Damage to enemies within 5 yds of them.",
+      "iconPath": "interface/icons/ability_monk_pathofmists",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 800144,
+      "spellIds": [
+        800144
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        31209
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 6,
+      "gridY": 1,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 800144,
+          "description": "Charge to an ally's aid, healing them for <span class=\"item-number\">76</span> + <span class=\"item-number\">20% healing</span> + <span class=\"item-number\">20% AP</span> and dealing <span class=\"item-number\">74</span> + <span class=\"item-number\">20% healing</span> + <span class=\"item-number\">20% AP</span> Nature Damage to enemies within <span class=\"item-number\">5</span> yds of them.",
+          "descriptionText": "Charge to an ally's aid, healing them for 76 + 20% healing + 20% AP and dealing 74 + 20% healing + 20% AP Nature Damage to enemies within 5 yds of them."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 29383,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Ancient of War",
+      "description": "Funnel nature's fury into yourself, transforming into an <span style=\"color: #FFFFFF; display: inline\">Ancient of War</span> for <span class=\"item-number\">20</span> seconds.<br /><br />While active, your <span style=\"color: #FFFFFF; display: inline\">Hammer of Life</span> effectiveness is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and nearby party members have their critical strike chance increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Funnel nature's fury into yourself, transforming into an Ancient of War for 20 seconds.\n\nWhile active, your Hammer of Life effectiveness is increased by 30% and nearby party members have their critical strike chance increased by 20%.",
+      "iconPath": "interface/icons/ancientofwar",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 504222,
+      "spellIds": [
+        504222
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6235
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 23,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 504222,
+      "gridX": 2,
+      "gridY": 9,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 504222,
+          "description": "Funnel nature's fury into yourself, transforming into an <span style=\"color: #FFFFFF; display: inline\">Ancient of War</span> for <span class=\"item-number\">20</span> seconds.<br /><br />While active, your <span style=\"color: #FFFFFF; display: inline\">Hammer of Life</span> effectiveness is increased by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and nearby party members have their critical strike chance increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Funnel nature's fury into yourself, transforming into an Ancient of War for 20 seconds.\n\nWhile active, your Hammer of Life effectiveness is increased by 30% and nearby party members have their critical strike chance increased by 20%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 9193,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Infused With Power",
+      "description": "Effectively healing allies with <span style=\"color: #FFFFFF; display: inline\">Hammer of Life</span> or <span style=\"color: #FFFFFF; display: inline\">Hand of the Earthmother</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #FFFFFF; display: inline\">Infused With Power</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 epic_rpg_icon_pack_nature_icon_0003s_0000_branch_border\" /><span class=\"name\">Infused With Power</span></div><span class=\"desc\">Increases the critical strike chance of all party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Does not stack with similar effects.</span></div>",
+      "descriptionText": "Effectively healing allies with Hammer of Life or Hand of the Earthmother now has a 20% chance to apply Infused With Power.\n\n---\n\nInfused With PowerIncreases the critical strike chance of all party and raid members by 5% for 10 seconds.\n\nDoes not stack with similar effects.",
+      "iconPath": "interface/icons/epic_rpg_icon_pack_nature_icon_0003s_0000_branch_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 503718,
+      "spellIds": [
+        503718
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6243,
+        11243
+      ],
+      "requiredLevel": 30,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 735421,
+      "gridX": 10,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 503718,
+          "description": "Effectively healing allies with <span style=\"color: #FFFFFF; display: inline\">Hammer of Life</span> or <span style=\"color: #FFFFFF; display: inline\">Hand of the Earthmother</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to apply <span style=\"color: #FFFFFF; display: inline\">Infused With Power</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 epic_rpg_icon_pack_nature_icon_0003s_0000_branch_border\" /><span class=\"name\">Infused With Power</span></div><span class=\"desc\">Increases the critical strike chance of all party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Does not stack with similar effects.</span></div>",
+          "descriptionText": "Effectively healing allies with Hammer of Life or Hand of the Earthmother now has a 20% chance to apply Infused With Power.\n\n---\n\nInfused With PowerIncreases the critical strike chance of all party and raid members by 5% for 10 seconds.\n\nDoes not stack with similar effects."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 9687,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Hand of a God",
+      "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> by <span class=\"item-number\">-5</span>.",
+      "descriptionText": "Reduces the Rage cost of Hand of the Earthmother by -5.",
+      "iconPath": "interface/icons/inv_iceelementalprimal_green",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 561208,
+      "spellIds": [
+        561208
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6509,
+        30785
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 32211,
+      "gridX": 2,
+      "gridY": 3,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 561208,
+          "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> by <span class=\"item-number\">-5</span>.",
+          "descriptionText": "Reduces the Rage cost of Hand of the Earthmother by -5."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 9733,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Douse",
+      "description": "Striking an enemy with <span style=\"color: #ffffff; display: inline\">Seismic</span> spells now deals an additional <span class=\"item-number\">1</span> + <span class=\"item-number\">8% AP</span> Frost Damage and reduces all resistances by <span class=\"item-number\">75</span> and increases their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+      "descriptionText": "Striking an enemy with Seismic spells now deals an additional 1 + 8% AP Frost Damage and reduces all resistances by 75 and increases their Magic Damage taken by -2% for 10 seconds.",
+      "iconPath": "interface/icons/ability_shawaterelemental_reform",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 807558,
+      "spellIds": [
+        807558
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        9193,
+        11193
+      ],
+      "requiredLevel": 40,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 0,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 856162,
+      "gridX": 10,
+      "gridY": 6,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 807558,
+          "description": "Striking an enemy with <span style=\"color: #ffffff; display: inline\">Seismic</span> spells now deals an additional <span class=\"item-number\">1</span> + <span class=\"item-number\">8% AP</span> Frost Damage and reduces all resistances by <span class=\"item-number\">75</span> and increases their Magic Damage taken by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+          "descriptionText": "Striking an enemy with Seismic spells now deals an additional 1 + 8% AP Frost Damage and reduces all resistances by 75 and increases their Magic Damage taken by -2% for 10 seconds."
+        }
+      ],
+      "flags": 8192,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 14234,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Earthmother's Roar",
+      "description": "Your <span style=\"color: #ffffff; display: inline\">Protective Roar</span> now also heals allies equal to <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of their missing health.",
+      "descriptionText": "Your Protective Roar now also heals allies equal to 20% of their missing health.",
+      "iconPath": "interface/icons/nhi_nature_slimeroar_border",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 301306,
+      "spellIds": [
+        301306
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30628
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 301306,
+      "gridX": 4,
+      "gridY": 7,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 301306,
+          "description": "Your <span style=\"color: #ffffff; display: inline\">Protective Roar</span> now also heals allies equal to <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of their missing health.",
+          "descriptionText": "Your Protective Roar now also heals allies equal to 20% of their missing health."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 7333,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Ancient of Lore",
+      "description": "Funnel nature's energies into yourself, transforming into an <span style=\"color: #FFFFFF; display: inline\">Ancient of Lore</span> for <span class=\"item-number\">20</span> seconds.<br /><br />While active, your stats are increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and nearby party members have their costs reduced by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Funnel nature's energies into yourself, transforming into an Ancient of Lore for 20 seconds.\n\nWhile active, your stats are increased by 20% and nearby party members have their costs reduced by -30%.",
+      "iconPath": "interface/icons/ancientoflore",
+      "nodeType": "SpendSquare",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 805105,
+      "spellIds": [
+        805105
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        6235
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 23,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 504222,
+      "gridX": 2,
+      "gridY": 9,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 805105,
+          "description": "Funnel nature's energies into yourself, transforming into an <span style=\"color: #FFFFFF; display: inline\">Ancient of Lore</span> for <span class=\"item-number\">20</span> seconds.<br /><br />While active, your stats are increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and nearby party members have their costs reduced by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Funnel nature's energies into yourself, transforming into an Ancient of Lore for 20 seconds.\n\nWhile active, your stats are increased by 20% and nearby party members have their costs reduced by -30%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 7334,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Crashing Out",
+      "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Seismic Crash</span> by <span class=\"item-number\">1</span> sec, but its damage is reduced by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and its movement slowing effect is reduced by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+      "descriptionText": "Increases the duration of Seismic Crash by 1 sec, but its damage is reduced by -25% and its movement slowing effect is reduced by 40%.",
+      "iconPath": "interface/icons/ability_druid_naturalperfection",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 574313,
+      "spellIds": [
+        574313
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30346
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 8,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": 123788,
+      "gridX": 7,
+      "gridY": 4,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 574313,
+          "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Seismic Crash</span> by <span class=\"item-number\">1</span> sec, but its damage is reduced by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and its movement slowing effect is reduced by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+          "descriptionText": "Increases the duration of Seismic Crash by 1 sec, but its damage is reduced by -25% and its movement slowing effect is reduced by 40%."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    },
+    {
+      "nodeId": 7335,
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabKey": "31:84",
+      "tabName": "Life",
+      "name": "Power Hammer",
+      "description": "You now generate <span class=\"item-number\">10</span><span class=\"item-number\">%</span> more Rage from damage dealt, increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> while a two-handed weapon is equipped.",
+      "descriptionText": "You now generate 10% more Rage from damage dealt, increased by 15% while a two-handed weapon is equipped.",
+      "iconPath": "interface/icons/inv_custom_naaru_hammer_yellow",
+      "nodeType": "SpendCircle",
+      "entryType": "Talent",
+      "isPassive": false,
+      "maxPoints": 1,
+      "spellId": 303014,
+      "spellIds": [
+        303014
+      ],
+      "requiredNodeIds": [],
+      "connectedNodeIds": [
+        30785
+      ],
+      "requiredLevel": 0,
+      "reqTabTE": 0,
+      "reqTabAE": 0,
+      "teCost": 1,
+      "aeCost": 0,
+      "isStartingNode": false,
+      "choiceGroupId": null,
+      "gridX": 4,
+      "gridY": 3,
+      "rankDescriptions": [
+        {
+          "rank": 1,
+          "spellId": 303014,
+          "description": "You now generate <span class=\"item-number\">10</span><span class=\"item-number\">%</span> more Rage from damage dealt, increased by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> while a two-handed weapon is equipped.",
+          "descriptionText": "You now generate 10% more Rage from damage dealt, increased by 15% while a two-handed weapon is equipped."
+        }
+      ],
+      "flags": 0,
+      "sortOrder": 0,
+      "treeType": "spec"
+    }
+  ]
+}

@@ -1,0 +1,1800 @@
+[
+  {
+    "nodeId": 33797,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Stellar Amplification",
+    "description": "Dealing damage with <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> free of cost.",
+    "descriptionText": "Dealing damage with Scattered Stars now has a 15% chance to make your next Astral Blade free of cost.",
+    "iconPath": "interface/icons/ability_demonhunter_soulcleave4",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801143,
+    "spellIds": [
+      801143
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6399,
+      33852
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801143,
+        "description": "Dealing damage with <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> free of cost.",
+        "descriptionText": "Dealing damage with Scattered Stars now has a 15% chance to make your next Astral Blade free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33841,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Astral Finesse",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Astral Blade by -4 sec.",
+    "iconPath": "interface/icons/ability_warrior_challange_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707636,
+    "spellIds": [
+      707636
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7686
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707636,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707636,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Astral Blade by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33844,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Vigil of the Watchers",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_tabard_a_86warden",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680709,
+    "spellIds": [
+      680709
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6399,
+      33852
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680709,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33847,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Rally The Sentinels",
+    "description": "<span style=\"color: #ffffff; display: inline\">Sentinel Glaive</span> now restores <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum mana and applies a <span style=\"color: #66ccff; display: inline\">Scattered Star</span> to the enemy.",
+    "descriptionText": "Sentinel Glaive now restores 20% of your maximum mana and applies a Scattered Star to the enemy.",
+    "iconPath": "interface/icons/inv_staff_2h_warfrontsnightelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704784,
+    "spellIds": [
+      704784
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29492
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704784,
+        "description": "<span style=\"color: #ffffff; display: inline\">Sentinel Glaive</span> now restores <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your maximum mana and applies a <span style=\"color: #66ccff; display: inline\">Scattered Star</span> to the enemy.",
+        "descriptionText": "Sentinel Glaive now restores 20% of your maximum mana and applies a Scattered Star to the enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33849,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Wrath of Elune",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sentinel Glaive</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Sentinel Glaive by -5 sec.",
+    "iconPath": "interface/icons/spell_fire_frostresistancetotem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704786,
+    "spellIds": [
+      704786
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33847
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704786,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Sentinel Glaive</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Sentinel Glaive by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33852,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Maeiv's Guard",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> now strike <span class=\"item-number\">2</span> additional times, one for <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt and the other for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Critical strikes with Astral Blade now strike 2 additional times, one for 40% of the damage dealt and the other for 20% of the damage dealt.",
+    "iconPath": "interface/icons/_maievblade_water",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707635,
+    "spellIds": [
+      707635
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31192
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707635,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707635,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> now strike <span class=\"item-number\">2</span> additional times, one for <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt and the other for <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Critical strikes with Astral Blade now strike 2 additional times, one for 40% of the damage dealt and the other for 20% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33853,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Star Pupil",
+    "description": "Your damaging critical strikes now grant you a stack of <span style=\"color: #ffffff; display: inline\">Star Pupil</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_arcane_starfire\" /><span class=\"name\">Star Pupil</span></div><span class=\"desc\">Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Moonwell Splash</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">4</span> times.<br /><br />While this is active, <span style=\"color: #ffffff; display: inline\">Moonwell Splash</span> is castable while moving.<br /><br /></span></div>",
+    "descriptionText": "Your damaging critical strikes now grant you a stack of Star Pupil.\n\n---\n\nStar PupilReduces the cast time of Moonwell Splash by -25% for 8 seconds, stacking 4 times.\n\nWhile this is active, Moonwell Splash is castable while moving.",
+    "iconPath": "interface/icons/spell_arcane_starfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706575,
+    "spellIds": [
+      706575
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13852
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706575,
+        "description": "Your damaging critical strikes now grant you a stack of <span style=\"color: #ffffff; display: inline\">Star Pupil</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_arcane_starfire\" /><span class=\"name\">Star Pupil</span></div><span class=\"desc\">Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Moonwell Splash</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">4</span> times.<br /><br />While this is active, <span style=\"color: #ffffff; display: inline\">Moonwell Splash</span> is castable while moving.<br /><br /></span></div>",
+        "descriptionText": "Your damaging critical strikes now grant you a stack of Star Pupil.\n\n---\n\nStar PupilReduces the cast time of Moonwell Splash by -25% for 8 seconds, stacking 4 times.\n\nWhile this is active, Moonwell Splash is castable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33860,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Bonds of Justice",
+    "description": "Send forth bonds of justice to an enemy, tethering them to you for <span class=\"item-number\">8</span> seconds.<br /><br />If the tether is broken through expiration or the target runs at least <span class=\"item-number\">10</span> yds from you, they are gripped back towards you, taking <span class=\"item-number\">503</span> + <span class=\"item-number\">120% arcane SP</span> Arcane Damage.",
+    "descriptionText": "Send forth bonds of justice to an enemy, tethering them to you for 8 seconds.\n\nIf the tether is broken through expiration or the target runs at least 10 yds from you, they are gripped back towards you, taking 503 + 120% arcane SP Arcane Damage.",
+    "iconPath": "interface/icons/bondsofjustice",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680705,
+    "spellIds": [
+      680705
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7684
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680705,
+        "description": "Send forth bonds of justice to an enemy, tethering them to you for <span class=\"item-number\">8</span> seconds.<br /><br />If the tether is broken through expiration or the target runs at least <span class=\"item-number\">10</span> yds from you, they are gripped back towards you, taking <span class=\"item-number\">503</span> + <span class=\"item-number\">120% arcane SP</span> Arcane Damage.",
+        "descriptionText": "Send forth bonds of justice to an enemy, tethering them to you for 8 seconds.\n\nIf the tether is broken through expiration or the target runs at least 10 yds from you, they are gripped back towards you, taking 503 + 120% arcane SP Arcane Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31192,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Moonstone",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lunar Lance</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Lunar Lance by 20%.",
+    "iconPath": "interface/icons/inv_holiday_hearthstonelunarfestival",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805503,
+    "spellIds": [
+      805503
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7407,
+      12684,
+      33841
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805503,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Lunar Lance</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Lunar Lance by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31304,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Moonlit Impaler",
+    "description": "Increases your Arcane Damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Arcane Damage by 3% and your hit chance by 2%.",
+    "iconPath": "interface/icons/5_druideskill12_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 561222,
+    "spellIds": [
+      561222,
+      706235
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30669
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561222,
+        "description": "Increases your Arcane Damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Arcane Damage by 3% and your hit chance by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 706235,
+        "description": "Increases your Arcane Damage by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Arcane Damage by 6% and your hit chance by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29492,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Sentinel Glaive",
+    "description": "Throw a sentinel glaive at an enemy, dealing Weapon Damage plus <span class=\"item-number\">108</span> as Arcane Damage, increased further based on your maximum mana, and increasing their resource costs by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Throw a sentinel glaive at an enemy, dealing Weapon Damage plus 108 as Arcane Damage, increased further based on your maximum mana, and increasing their resource costs by 15% for 8 seconds.",
+    "iconPath": "interface/icons/inv_glaive_1h_tyrande_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800506,
+    "spellIds": [
+      800506
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31304
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800506,
+        "description": "Throw a sentinel glaive at an enemy, dealing Weapon Damage plus <span class=\"item-number\">108</span> as Arcane Damage, increased further based on your maximum mana, and increasing their resource costs by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Throw a sentinel glaive at an enemy, dealing Weapon Damage plus 108 as Arcane Damage, increased further based on your maximum mana, and increasing their resource costs by 15% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29644,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Fan of Knives",
+    "description": "<span style=\"color: #66ccff; display: inline\">Applies <span class=\"item-number\">1</span> Scattered Star Per Hit</span><br />Unleash hidden blades upon nearby enemies, dealing <span class=\"item-number\">13</span> + <span class=\"item-number\">30% SP</span> Arcane Damage scaling with maximum mana.<br /><br />Consuming a <span style=\"color: #66ccff; display: inline\">Scattered Star</span> reduces the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Fan of Knives</span> by <span class=\"item-number\">-2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_argus_soulbombdebufflarge\" /><span class=\"name\">Scattered Stars</span></div><span class=\"desc\">Can be consumed by spells to deal additional Arcane Damage. Lasts <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">4</span> times.</span></div>",
+    "descriptionText": "Applies 1 Scattered Star Per Hit\nUnleash hidden blades upon nearby enemies, dealing 13 + 30% SP Arcane Damage scaling with maximum mana.\n\nConsuming a Scattered Star reduces the remaining cooldown of Fan of Knives by -2 sec.\n\n---\n\nScattered StarsCan be consumed by spells to deal additional Arcane Damage. Lasts 30 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/_fanofknives_lightblue",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680703,
+    "spellIds": [
+      680703
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680703,
+        "description": "<span style=\"color: #66ccff; display: inline\">Applies <span class=\"item-number\">1</span> Scattered Star Per Hit</span><br />Unleash hidden blades upon nearby enemies, dealing <span class=\"item-number\">13</span> + <span class=\"item-number\">30% SP</span> Arcane Damage scaling with maximum mana.<br /><br />Consuming a <span style=\"color: #66ccff; display: inline\">Scattered Star</span> reduces the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Fan of Knives</span> by <span class=\"item-number\">-2</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_argus_soulbombdebufflarge\" /><span class=\"name\">Scattered Stars</span></div><span class=\"desc\">Can be consumed by spells to deal additional Arcane Damage. Lasts <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">4</span> times.</span></div>",
+        "descriptionText": "Applies 1 Scattered Star Per Hit\nUnleash hidden blades upon nearby enemies, dealing 13 + 30% SP Arcane Damage scaling with maximum mana.\n\nConsuming a Scattered Star reduces the remaining cooldown of Fan of Knives by -2 sec.\n\n---\n\nScattered StarsCan be consumed by spells to deal additional Arcane Damage. Lasts 30 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30625,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Pulverizing Blade",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> now grants you <span style=\"color: #ffffff; display: inline\">Pulverizing Blade</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _execution_lightblue\" /><span class=\"name\">Pulverizing Blade</span></div><span class=\"desc\">Next <span class=\"item-number\">5</span> <span style=\"color: #ffffff; display: inline\">Starsunders</span> within <span class=\"item-number\">20</span> seconds deal increasing damage, scaling with <span class=\"item-number\">10%</span> of Intellect, with each subsequent use, stacking <span class=\"item-number\">3</span> times.</span></div>",
+    "descriptionText": "Casting Warden's Blade now grants you Pulverizing Blade.\n\n---\n\nPulverizing BladeNext 5 Starsunders within 20 seconds deal increasing damage, scaling with 10% of Intellect, with each subsequent use, stacking 3 times.",
+    "iconPath": "interface/icons/_execution_lightblue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805437,
+    "spellIds": [
+      805437
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7700
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805437,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> now grants you <span style=\"color: #ffffff; display: inline\">Pulverizing Blade</span>.<br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _execution_lightblue\" /><span class=\"name\">Pulverizing Blade</span></div><span class=\"desc\">Next <span class=\"item-number\">5</span> <span style=\"color: #ffffff; display: inline\">Starsunders</span> within <span class=\"item-number\">20</span> seconds deal increasing damage, scaling with <span class=\"item-number\">10%</span> of Intellect, with each subsequent use, stacking <span class=\"item-number\">3</span> times.</span></div>",
+        "descriptionText": "Casting Warden's Blade now grants you Pulverizing Blade.\n\n---\n\nPulverizing BladeNext 5 Starsunders within 20 seconds deal increasing damage, scaling with 10% of Intellect, with each subsequent use, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30626,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Shadowsong's Mandate",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />While active, your damaging critical strikes have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Warden's Blade</span>.",
+    "descriptionText": "Increases your critical strike chance by 15% for 10 seconds.\n\nWhile active, your damaging critical strikes have a 40% chance to trigger Warden's Blade.",
+    "iconPath": "interface/icons/inv_helmet_leather_raiddruid_q_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805439,
+    "spellIds": [
+      805439
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7690,
+      7699
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805439,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />While active, your damaging critical strikes have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to trigger <span style=\"color: #ffffff; display: inline\">Warden's Blade</span>.",
+        "descriptionText": "Increases your critical strike chance by 15% for 10 seconds.\n\nWhile active, your damaging critical strikes have a 40% chance to trigger Warden's Blade."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30653,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Infused Blades",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Astral Blade</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to reset its own cooldown and refund its maximum mana cost.",
+    "descriptionText": "Your Astral Blade now has a 30% chance to reset its own cooldown and refund its maximum mana cost.",
+    "iconPath": "interface/icons/inv_glaive_ardenweald_d_01_temp",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807160,
+    "spellIds": [
+      807160
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6398,
+      33797,
+      33860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807160,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Astral Blade</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to reset its own cooldown and refund its maximum mana cost.",
+        "descriptionText": "Your Astral Blade now has a 30% chance to reset its own cooldown and refund its maximum mana cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30660,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Celestial Glaives",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> can now stack <span class=\"item-number\">2</span> additional times.",
+    "descriptionText": "Level 30 Passive\nYour Scattered Stars can now stack 2 additional times.",
+    "iconPath": "interface/icons/ability_racial_chillofnight",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805524,
+    "spellIds": [
+      805524
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9244
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805524,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> can now stack <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Level 30 Passive\nYour Scattered Stars can now stack 2 additional times."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30669,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Astral Blade",
+    "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">25</span><span class=\"item-number\">%</span> Maximum Mana</span><br />Strike an enemy with precision, dealing <span class=\"item-number\">64</span> + <span class=\"item-number\">100% SP</span> + <span class=\"item-number\">20% AP</span> Arcane Damage, increased further based on your maximum mana.<br /><br />Increases your dealt to the enemy by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Drains 25% Maximum Mana\nStrike an enemy with precision, dealing 64 + 100% SP + 20% AP Arcane Damage, increased further based on your maximum mana.\n\nIncreases your dealt to the enemy by 10% for 5 seconds.",
+    "iconPath": "interface/icons/ability_demonhunter_manabreak",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805563,
+    "spellIds": [
+      805563
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29644
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805563,
+        "description": "<span style=\"color: #ffffff; display: inline\">Drains <span class=\"item-number\">25</span><span class=\"item-number\">%</span> Maximum Mana</span><br />Strike an enemy with precision, dealing <span class=\"item-number\">64</span> + <span class=\"item-number\">100% SP</span> + <span class=\"item-number\">20% AP</span> Arcane Damage, increased further based on your maximum mana.<br /><br />Increases your dealt to the enemy by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Drains 25% Maximum Mana\nStrike an enemy with precision, dealing 64 + 100% SP + 20% AP Arcane Damage, increased further based on your maximum mana.\n\nIncreases your dealt to the enemy by 10% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6317,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Warden Training",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Warden's Blade by -25%.",
+    "iconPath": "interface/icons/inv_pet_wardenowl",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704790,
+    "spellIds": [
+      704790
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7407,
+      29492
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704790,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Warden's Blade by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6398,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Scattering Blades",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> now increases the chance to trigger <span style=\"color: #FFFFFF; display: inline\">Aspect of the Warden</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Your Warden's Blade now increases the chance to trigger Aspect of the Warden by 10% for 8 seconds.",
+    "iconPath": "interface/icons/_maievblade_ice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806738,
+    "spellIds": [
+      806738
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7697
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806738,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> now increases the chance to trigger <span style=\"color: #FFFFFF; display: inline\">Aspect of the Warden</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Your Warden's Blade now increases the chance to trigger Aspect of the Warden by 10% for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6399,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Astral Combatant",
+    "description": "<span style=\"color: #ffffff; display: inline\">Lunar Lance</span> and <span style=\"color: #ffffff; display: inline\">Umbral Blade</span> increase the enemy damage taken from <span style=\"color: #FFFFFF; display: inline\">Scattered Stars</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Lunar Lance and Umbral Blade increase the enemy damage taken from Scattered Stars by 10% for 10 seconds.",
+    "iconPath": "interface/icons/achievement_thenighthold_spellbladealuriel",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706574,
+    "spellIds": [
+      706574
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31192
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707635,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706574,
+        "description": "<span style=\"color: #ffffff; display: inline\">Lunar Lance</span> and <span style=\"color: #ffffff; display: inline\">Umbral Blade</span> increase the enemy damage taken from <span style=\"color: #FFFFFF; display: inline\">Scattered Stars</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Lunar Lance and Umbral Blade increase the enemy damage taken from Scattered Stars by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7684,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Celestial Surge",
+    "description": "Increases the damage dealt by consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by consuming Scattered Stars by 10%.",
+    "iconPath": "interface/icons/5_moon_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680773,
+    "spellIds": [
+      680773
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7407
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680773,
+        "description": "Increases the damage dealt by consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by consuming Scattered Stars by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7685,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Spirit of Vengeance",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Fan of Knives</span> now marks enemies with <span style=\"color: #FFFFFF; display: inline\">Vengeance</span> for <span class=\"item-number\">10</span> seconds. Successfully marking an enemy increases the range of your next <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> by <span class=\"item-number\">25</span> yards.<br /><br />Casting <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> on a marked enemy causes it to deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> more damage.",
+    "descriptionText": "Fan of Knives now marks enemies with Vengeance for 10 seconds. Successfully marking an enemy increases the range of your next Astral Blade by 25 yards.\n\nCasting Astral Blade on a marked enemy causes it to deal 30% more damage.",
+    "iconPath": "interface/icons/nhi_spirittranquility_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680711,
+    "spellIds": [
+      680711
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7384,
+      7690,
+      30653
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680711,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Fan of Knives</span> now marks enemies with <span style=\"color: #FFFFFF; display: inline\">Vengeance</span> for <span class=\"item-number\">10</span> seconds. Successfully marking an enemy increases the range of your next <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> by <span class=\"item-number\">25</span> yards.<br /><br />Casting <span style=\"color: #FFFFFF; display: inline\">Astral Blade</span> on a marked enemy causes it to deal <span class=\"item-number\">30</span><span class=\"item-number\">%</span> more damage.",
+        "descriptionText": "Fan of Knives now marks enemies with Vengeance for 10 seconds. Successfully marking an enemy increases the range of your next Astral Blade by 25 yards.\n\nCasting Astral Blade on a marked enemy causes it to deal 30% more damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7686,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Fury of the Stars",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Astral Blade by 10%.",
+    "iconPath": "interface/icons/inv_sword_156",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704603,
+    "spellIds": [
+      704603,
+      704605
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30669
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704603,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Astral Blade by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 704605,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Astral Blade by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7687,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Lethal Pursuit",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Fan of Knives</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Fan of Knives by -5 sec.",
+    "iconPath": "interface/icons/inv_glaive_1h_warfrontsnightelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680770,
+    "spellIds": [
+      680770
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30669
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680770,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Fan of Knives</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Fan of Knives by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7690,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Warden's Precision",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> now launches an additional <span class=\"item-number\">2</span> blades at the target, dealing <span class=\"item-number\">59</span> + <span class=\"item-number\">24.5% SP</span> Spellstrike Damage.",
+    "descriptionText": "Your Warden's Blade now launches an additional 2 blades at the target, dealing 59 + 24.5% SP Spellstrike Damage.",
+    "iconPath": "interface/icons/inv_weapon_halberd18",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680212,
+    "spellIds": [
+      680212
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6398,
+      7413
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680212,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> now launches an additional <span class=\"item-number\">2</span> blades at the target, dealing <span class=\"item-number\">59</span> + <span class=\"item-number\">24.5% SP</span> Spellstrike Damage.",
+        "descriptionText": "Your Warden's Blade now launches an additional 2 blades at the target, dealing 59 + 24.5% SP Spellstrike Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7692,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Highest Order",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Shadowsong's Mandate</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> by <span class=\"item-number\">60</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Shadowsong's Mandate by -25% and increases the chance to trigger Warden's Blade by 60%.",
+    "iconPath": "interface/icons/achievement_thenighthold",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680771,
+    "spellIds": [
+      680771
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30626
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680771,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Shadowsong's Mandate</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span> and increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Warden's Blade</span> by <span class=\"item-number\">60</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Shadowsong's Mandate by -25% and increases the chance to trigger Warden's Blade by 60%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7697,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Aspect Mastery",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Aspects</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and their chance to trigger by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Aspects by 10% and their chance to trigger by 5%.",
+    "iconPath": "interface/icons/_silence_nightelf_2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704389,
+    "spellIds": [
+      704389,
+      572416
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6317
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704389,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Aspects</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and their chance to trigger by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Aspects by 10% and their chance to trigger by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 572416,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Aspects</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and their chance to trigger by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Aspects by 20% and their chance to trigger by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7699,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Pierce The Night",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Fan of Knives</span> now applies an additional stack of <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> to each enemy struck.",
+    "descriptionText": "Your Fan of Knives now applies an additional stack of Scattered Stars to each enemy struck.",
+    "iconPath": "interface/icons/inv_shield_1h_warfrontsnightelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680708,
+    "spellIds": [
+      680708
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7413,
+      33849
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680708,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Fan of Knives</span> now applies an additional stack of <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> to each enemy struck.",
+        "descriptionText": "Your Fan of Knives now applies an additional stack of Scattered Stars to each enemy struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7700,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Moontouched Weapons",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Aspect of the Warden</span> by <span class=\"item-number\">POWER1*0.01</span>, scaling with maximum mana.",
+    "descriptionText": "Increases the damage of Aspect of the Warden by POWER1*0.01, scaling with maximum mana.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_45",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680777,
+    "spellIds": [
+      680777
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7384,
+      7406
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680777,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Aspect of the Warden</span> by <span class=\"item-number\">POWER1*0.01</span>, scaling with maximum mana.",
+        "descriptionText": "Increases the damage of Aspect of the Warden by POWER1*0.01, scaling with maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9244,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Maeiv's Discipline",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your critical strike rating by <span class=\"item-number\">12</span><span class=\"item-number\">%</span> of your Intellect and expertise by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your critical strike rating by 12% of your Intellect and expertise by 10% of your Intellect.",
+    "iconPath": "interface/icons/inv_polearm_2h_odynspear_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680233,
+    "spellIds": [
+      680233
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9950
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680233,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your critical strike rating by <span class=\"item-number\">12</span><span class=\"item-number\">%</span> of your Intellect and expertise by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your critical strike rating by 12% of your Intellect and expertise by 10% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12684,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Astral Onslaught",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">7</span> sec.",
+    "descriptionText": "Increases the duration of Astral Blade by 7 sec.",
+    "iconPath": "interface/icons/_d3spectralblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704789,
+    "spellIds": [
+      704789
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7686
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707636,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704789,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> by <span class=\"item-number\">7</span> sec.",
+        "descriptionText": "Increases the duration of Astral Blade by 7 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13852,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Halt",
+    "description": "Teleport to a target location, silencing all enemies around you for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Teleport to a target location, silencing all enemies around you for 4 seconds.",
+    "iconPath": "interface/icons/blink",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807741,
+    "spellIds": [
+      807741
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33841,
+      12684
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807741,
+        "description": "Teleport to a target location, silencing all enemies around you for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Teleport to a target location, silencing all enemies around you for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7384,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Wrath of the Moon",
+    "description": "Increases your Arcane critical damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Arcane critical damage dealt by 20%.",
+    "iconPath": "interface/icons/ability_druid_twilightswrath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680775,
+    "spellIds": [
+      680775
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33797,
+      33844
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680775,
+        "description": "Increases your Arcane critical damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Arcane critical damage dealt by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7406,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Lunar Charge",
+    "description": "After using <span style=\"color: #ffffff; display: inline\">Shooting Star</span>, your next <span style=\"color: #FFFFFF; display: inline\">Celestial Strike</span>, <span style=\"color: #FFFFFF; display: inline\">Starsunder</span> or auto attack ends the effect to deal <span class=\"item-number\">102</span> + <span class=\"item-number\">28.75% arcane SP</span> + <span class=\"item-number\">4.65% AP</span> Arcane Damage, increased based on distance travelled.",
+    "descriptionText": "After using Shooting Star, your next Celestial Strike, Starsunder or auto attack ends the effect to deal 102 + 28.75% arcane SP + 4.65% AP Arcane Damage, increased based on distance travelled.",
+    "iconPath": "interface/icons/ability_monk_forcesphere_arcane",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680215,
+    "spellIds": [
+      680215
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33844,
+      33853
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680215,
+        "description": "After using <span style=\"color: #ffffff; display: inline\">Shooting Star</span>, your next <span style=\"color: #FFFFFF; display: inline\">Celestial Strike</span>, <span style=\"color: #FFFFFF; display: inline\">Starsunder</span> or auto attack ends the effect to deal <span class=\"item-number\">102</span> + <span class=\"item-number\">28.75% arcane SP</span> + <span class=\"item-number\">4.65% AP</span> Arcane Damage, increased based on distance travelled.",
+        "descriptionText": "After using Shooting Star, your next Celestial Strike, Starsunder or auto attack ends the effect to deal 102 + 28.75% arcane SP + 4.65% AP Arcane Damage, increased based on distance travelled."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7407,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Umbral Blade",
+    "description": "<span style=\"color: #66ccff; display: inline\">Consumes Scattered Stars</span><br />Slash an enemy, dealing <span class=\"item-number\">116</span> + <span class=\"item-number\">63.5% arcane SP</span> + <span class=\"item-number\">20% AP</span> Arcane Damage to them and nearby enemies. Each additional enemy beyond the first takes <span class=\"item-number\">20</span><span class=\"item-number\">%</span> less damage.",
+    "descriptionText": "Consumes Scattered Stars\nSlash an enemy, dealing 116 + 63.5% arcane SP + 20% AP Arcane Damage to them and nearby enemies. Each additional enemy beyond the first takes 20% less damage.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactelune_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680704,
+    "spellIds": [
+      680704
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7686,
+      7687,
+      31304
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680704,
+        "description": "<span style=\"color: #66ccff; display: inline\">Consumes Scattered Stars</span><br />Slash an enemy, dealing <span class=\"item-number\">116</span> + <span class=\"item-number\">63.5% arcane SP</span> + <span class=\"item-number\">20% AP</span> Arcane Damage to them and nearby enemies. Each additional enemy beyond the first takes <span class=\"item-number\">20</span><span class=\"item-number\">%</span> less damage.",
+        "descriptionText": "Consumes Scattered Stars\nSlash an enemy, dealing 116 + 63.5% arcane SP + 20% AP Arcane Damage to them and nearby enemies. Each additional enemy beyond the first takes 20% less damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7413,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Warrior of Elune",
+    "description": "Increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and movement speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Movement speed granted by this talent stacks with <span style=\"color: #ffffff; display: inline\">Moonwalk</span>.",
+    "descriptionText": "Increases your melee haste by 5% and movement speed by 10%.\n\nMovement speed granted by this talent stacks with Moonwalk.",
+    "iconPath": "interface/icons/inv_polearm_2h_kultirasquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704798,
+    "spellIds": [
+      704798
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7697,
+      33849
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704798,
+        "description": "Increases your melee haste by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and movement speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Movement speed granted by this talent stacks with <span style=\"color: #ffffff; display: inline\">Moonwalk</span>.",
+        "descriptionText": "Increases your melee haste by 5% and movement speed by 10%.\n\nMovement speed granted by this talent stacks with Moonwalk."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7749,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Avatar of Vengeance",
+    "description": "Transform into an <span style=\"color: #ffffff; display: inline\">Avatar of Vengeance</span>, teleporting to your target and increasing your Intellect by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds. <br /><br />For the duration, the range of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> is increased by <span class=\"item-number\">30</span> yards and will teleport you to your target.<br /><br />If your target is an enemy, you strike them dealing <span class=\"item-number\">90</span> + <span class=\"item-number\">22% Intellect</span> + <span class=\"item-number\">6.5% arcane SP</span> Arcane Damage per <span class=\"item-number\">1</span> sec for <span class=\"item-number\">8</span> seconds, scaling with Intellect.",
+    "descriptionText": "Transform into an Avatar of Vengeance, teleporting to your target and increasing your Intellect by 25% for 30 seconds. \n\nFor the duration, the range of Astral Blade is increased by 30 yards and will teleport you to your target.\n\nIf your target is an enemy, you strike them dealing 90 + 22% Intellect + 6.5% arcane SP Arcane Damage per 1 sec for 8 seconds, scaling with Intellect.",
+    "iconPath": "interface/icons/achievement_boss_councilsentinel",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680822,
+    "spellIds": [
+      680822
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7685
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680822,
+        "description": "Transform into an <span style=\"color: #ffffff; display: inline\">Avatar of Vengeance</span>, teleporting to your target and increasing your Intellect by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds. <br /><br />For the duration, the range of <span style=\"color: #ffffff; display: inline\">Astral Blade</span> is increased by <span class=\"item-number\">30</span> yards and will teleport you to your target.<br /><br />If your target is an enemy, you strike them dealing <span class=\"item-number\">90</span> + <span class=\"item-number\">22% Intellect</span> + <span class=\"item-number\">6.5% arcane SP</span> Arcane Damage per <span class=\"item-number\">1</span> sec for <span class=\"item-number\">8</span> seconds, scaling with Intellect.",
+        "descriptionText": "Transform into an Avatar of Vengeance, teleporting to your target and increasing your Intellect by 25% for 30 seconds. \n\nFor the duration, the range of Astral Blade is increased by 30 yards and will teleport you to your target.\n\nIf your target is an enemy, you strike them dealing 90 + 22% Intellect + 6.5% arcane SP Arcane Damage per 1 sec for 8 seconds, scaling with Intellect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9950,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Warden Training",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Critically striking with <span style=\"color: #FFFFFF; display: inline\">Starsunder</span> now applies an additional stack of <span style=\"color: #66ccff; display: inline\">Scattered Stars</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_argus_soulbombdebufflarge\" /><span class=\"name\">Scattered Stars</span></div><span class=\"desc\">Can be consumed by spells to deal additional Arcane Damage. Lasts <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">4</span> times.</span></div>",
+    "descriptionText": "Level 10 Passive\nCritically striking with Starsunder now applies an additional stack of Scattered Stars.\n\n---\n\nScattered StarsCan be consumed by spells to deal additional Arcane Damage. Lasts 30 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/inv_pet_wardenowl",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680725,
+    "spellIds": [
+      680725
+    ],
+    "requiredNodeIds": [
+      30656
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680725,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Critically striking with <span style=\"color: #FFFFFF; display: inline\">Starsunder</span> now applies an additional stack of <span style=\"color: #66ccff; display: inline\">Scattered Stars</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_argus_soulbombdebufflarge\" /><span class=\"name\">Scattered Stars</span></div><span class=\"desc\">Can be consumed by spells to deal additional Arcane Damage. Lasts <span class=\"item-number\">30</span> seconds, stacking <span class=\"item-number\">4</span> times.</span></div>",
+        "descriptionText": "Level 10 Passive\nCritically striking with Starsunder now applies an additional stack of Scattered Stars.\n\n---\n\nScattered StarsCan be consumed by spells to deal additional Arcane Damage. Lasts 30 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11360,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Astral Blessing",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Damaging critical strikes now reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Level 50 Passive\nDamaging critical strikes now reduce the cooldown of Warden's Blade by -1 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_magicstrike_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 801145,
+    "spellIds": [
+      801145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11660
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801145,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Damaging critical strikes now reduce the cooldown of <span style=\"color: #FFFFFF; display: inline\">Warden's Blade</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Level 50 Passive\nDamaging critical strikes now reduce the cooldown of Warden's Blade by -1 sec."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11660,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 89,
+    "tabKey": "26:89",
+    "tabName": "Warden",
+    "name": "Lunar Combatant",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 40 Passive\nIncreases the effectiveness of consuming Scattered Stars by 50%.",
+    "iconPath": "interface/icons/inv_elemental_primal_mana",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 805828,
+    "spellIds": [
+      805828
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30660
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805828,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 40 Passive\nIncreases the effectiveness of consuming Scattered Stars by 50%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

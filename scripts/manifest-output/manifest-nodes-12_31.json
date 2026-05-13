@@ -1,0 +1,1770 @@
+[
+  {
+    "nodeId": 34265,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Hail of Hammers",
+    "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Crush</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of Crush by -25%.",
+    "iconPath": "interface/icons/custom_iron_hammer_b_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807047,
+    "spellIds": [
+      807047
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6739,
+      12739
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807047,
+        "description": "Reduces the cast time of <span style=\"color: #ffffff; display: inline\">Crush</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of Crush by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34266,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Efficient Killer",
+    "description": "Reduces the Energy cost of your spells and abilities by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the Energy cost of your spells and abilities by -10%.",
+    "iconPath": "interface/icons/5_warriorskill41_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803085,
+    "spellIds": [
+      803085
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30760,
+      34265,
+      34271
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803085,
+        "description": "Reduces the Energy cost of your spells and abilities by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the Energy cost of your spells and abilities by -10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34268,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Brutal Swing",
+    "description": "Your next attack causes you to swing violently at an enemy and up to <span class=\"item-number\">2</span> nearby enemies, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">10</span>.",
+    "descriptionText": "Your next attack causes you to swing violently at an enemy and up to 2 nearby enemies, dealing 120% Weapon Damage plus 10.",
+    "iconPath": "interface/icons/5_axe_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500913,
+    "spellIds": [
+      500913
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30792
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500913,
+        "description": "Your next attack causes you to swing violently at an enemy and up to <span class=\"item-number\">2</span> nearby enemies, dealing <span class=\"item-number\">120</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">10</span>.",
+        "descriptionText": "Your next attack causes you to swing violently at an enemy and up to 2 nearby enemies, dealing 120% Weapon Damage plus 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34271,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Battering Ram",
+    "description": "Increases your Armor penetration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while wielding a two-handed mace or axe.",
+    "descriptionText": "Increases your Armor penetration by 10% while wielding a two-handed mace or axe.",
+    "iconPath": "interface/icons/5_engineerskill03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 561326,
+    "spellIds": [
+      561326,
+      561331
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6350,
+      30042
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561326,
+        "description": "Increases your Armor penetration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while wielding a two-handed mace or axe.",
+        "descriptionText": "Increases your Armor penetration by 10% while wielding a two-handed mace or axe."
+      },
+      {
+        "rank": 2,
+        "spellId": 561331,
+        "description": "Increases your Armor penetration by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> while wielding a two-handed mace or axe.",
+        "descriptionText": "Increases your Armor penetration by 20% while wielding a two-handed mace or axe."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34274,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Brutal Spirit",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Spirit</span> spells by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Spirit spells by 25%.",
+    "iconPath": "interface/icons/inv_helmet_08",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706653,
+    "spellIds": [
+      706653
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6737,
+      12737
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706653,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Spirit</span> spells by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Spirit spells by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34313,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Reckful",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Smash</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to not trigger a cooldown.",
+    "descriptionText": "Your Smash now has a 20% chance to not trigger a cooldown.",
+    "iconPath": "interface/icons/ability_warrior_bullrush",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 681063,
+    "spellIds": [
+      681063,
+      681466
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6834,
+      30377
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681063,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Smash</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to not trigger a cooldown.",
+        "descriptionText": "Your Smash now has a 20% chance to not trigger a cooldown."
+      },
+      {
+        "rank": 2,
+        "spellId": 681466,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Smash</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to not trigger a cooldown.",
+        "descriptionText": "Your Smash now has a 40% chance to not trigger a cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34314,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Steel Fury",
+    "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> increases the damage of its subsequent strikes by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times.<br /><br />In addition, the duration of <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> is increased by <span class=\"item-number\">2.5</span> sec.",
+    "descriptionText": "Dealing damage with Storm of Steel increases the damage of its subsequent strikes by 4%, stacking 10 times.\n\nIn addition, the duration of Storm of Steel is increased by 2.5 sec.",
+    "iconPath": "interface/icons/ability_warrior_warbringer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704240,
+    "spellIds": [
+      704240
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29514
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704240,
+        "description": "Dealing damage with <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> increases the damage of its subsequent strikes by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times.<br /><br />In addition, the duration of <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> is increased by <span class=\"item-number\">2.5</span> sec.",
+        "descriptionText": "Dealing damage with Storm of Steel increases the damage of its subsequent strikes by 4%, stacking 10 times.\n\nIn addition, the duration of Storm of Steel is increased by 2.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33958,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Ancestral Trauma",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Ancestral Strike</span> now increases the damage the target takes from <span style=\"color: #ffffff; display: inline\">Ancestral Strike</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Damage dealt by Ancestral Strike now increases the damage the target takes from Ancestral Strike by 5% for 10 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/uico_blood_spell_10_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560446,
+    "spellIds": [
+      560446
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6739,
+      12739
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560446,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Ancestral Strike</span> now increases the damage the target takes from <span style=\"color: #ffffff; display: inline\">Ancestral Strike</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Damage dealt by Ancestral Strike now increases the damage the target takes from Ancestral Strike by 5% for 10 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31151,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Crush",
+    "description": "Crush enemies in a frontal cone, dealing <span class=\"item-number\">210</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">20</span>, knocking them down briefly and stunning them for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Crush enemies in a frontal cone, dealing 210% Weapon Damage plus 20, knocking them down briefly and stunning them for 3 seconds.",
+    "iconPath": "interface/icons/inv_mace_69",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500915,
+    "spellIds": [
+      500915
+    ],
+    "requiredNodeIds": [
+      4001,
+      29783
+    ],
+    "connectedNodeIds": [
+      6742
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500915,
+        "description": "Crush enemies in a frontal cone, dealing <span class=\"item-number\">210</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">20</span>, knocking them down briefly and stunning them for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Crush enemies in a frontal cone, dealing 210% Weapon Damage plus 20, knocking them down briefly and stunning them for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30374,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Symbol of the Warspear",
+    "description": "You are marked by the Warspear symbol, granting <span class=\"item-number\">9</span><span class=\"item-number\">%</span> increased Attack Power to party and raid members within <span class=\"item-number\">100</span> yds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "You are marked by the Warspear symbol, granting 9% increased Attack Power to party and raid members within 100 yds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/inv_banner_warspear",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804730,
+    "spellIds": [
+      804730
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34266
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804730,
+        "description": "You are marked by the Warspear symbol, granting <span class=\"item-number\">9</span><span class=\"item-number\">%</span> increased Attack Power to party and raid members within <span class=\"item-number\">100</span> yds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "You are marked by the Warspear symbol, granting 9% increased Attack Power to party and raid members within 100 yds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30377,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Whirling Assault",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Whirling Advance</span> by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health.",
+    "descriptionText": "Increases the damage of Whirling Advance by 150% on enemies above 80% health.",
+    "iconPath": "interface/icons/ability_butcher_whirl",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560563,
+    "spellIds": [
+      560563
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30760
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560563,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Whirling Advance</span> by <span class=\"item-number\">150</span><span class=\"item-number\">%</span> on enemies above <span class=\"item-number\">80%</span> health.",
+        "descriptionText": "Increases the damage of Whirling Advance by 150% on enemies above 80% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30378,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Steelslinger",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Barbaric Whirl</span> by <span class=\"item-number\">-2</span> sec and increases its damage dealt by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Reduces the cooldown of Barbaric Whirl by -2 sec and increases its damage dealt by 100% on enemies below 35% health.",
+    "iconPath": "interface/icons/ability_warrior_bladestorm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804750,
+    "spellIds": [
+      804750
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6706
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804750,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Barbaric Whirl</span> by <span class=\"item-number\">-2</span> sec and increases its damage dealt by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Reduces the cooldown of Barbaric Whirl by -2 sec and increases its damage dealt by 100% on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29514,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Storm of Steel",
+    "description": "Begin striking your target every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage for <span class=\"item-number\">2.5</span> seconds.",
+    "descriptionText": "Begin striking your target every 1 sec for 100% Weapon Damage for 2.5 seconds.",
+    "iconPath": "interface/icons/custom_warriorskill_21_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800637,
+    "spellIds": [
+      800637
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      13958,
+      30374,
+      34274
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800637,
+        "description": "Begin striking your target every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage for <span class=\"item-number\">2.5</span> seconds.",
+        "descriptionText": "Begin striking your target every 1 sec for 100% Weapon Damage for 2.5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30760,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Rancor",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> now triggers an additional auto attack on the primary target.",
+    "descriptionText": "Your Brutal Swing now triggers an additional auto attack on the primary target.",
+    "iconPath": "interface/icons/trade_archaeology_generalbeauregardslaststand",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704876,
+    "spellIds": [
+      704876
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6750
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704876,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> now triggers an additional auto attack on the primary target.",
+        "descriptionText": "Your Brutal Swing now triggers an additional auto attack on the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30792,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Reckless Movements",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Ancestral Strike</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Ancestral Strike by 10%.",
+    "iconPath": "interface/icons/achievement_boss_blackhand",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705204,
+    "spellIds": [
+      705204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6744
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705204,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Ancestral Strike</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Ancestral Strike by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29791,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Overkill",
+    "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Decapitate</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> against targets below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Increases the critical strike chance of Decapitate by 30% against targets below 20% health.",
+    "iconPath": "interface/icons/novart_magicspell_(16)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560444,
+    "spellIds": [
+      560444
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6742,
+      29281,
+      30792
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560444,
+        "description": "Increases the critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Decapitate</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> against targets below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Increases the critical strike chance of Decapitate by 30% against targets below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30042,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Spiked Weapons",
+    "description": "Increases the critical damage of <span style=\"color: #FFFFFF; display: inline\">Crush</span>, <span style=\"color: #FFFFFF; display: inline\">Brutal Swing</span>, and <span style=\"color: #FFFFFF; display: inline\">Decapitate</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Crush, Brutal Swing, and Decapitate by 20%.",
+    "iconPath": "interface/icons/inv_mace_1h_draenorhonors2_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705186,
+    "spellIds": [
+      705186
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29791
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705186,
+        "description": "Increases the critical damage of <span style=\"color: #FFFFFF; display: inline\">Crush</span>, <span style=\"color: #FFFFFF; display: inline\">Brutal Swing</span>, and <span style=\"color: #FFFFFF; display: inline\">Decapitate</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Crush, Brutal Swing, and Decapitate by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6741,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Sustaining Swings",
+    "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and dealing damage with <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> now generates <span class=\"item-number\">1</span> to <span class=\"item-number\">0</span> Energy and heals you for <span class=\"item-number\">98</span> + <span class=\"item-number\">11% AP</span>.",
+    "descriptionText": "Increases the tick rate of Storm of Steel by -30% and dealing damage with Storm of Steel now generates 1 to 0 Energy and heals you for 98 + 11% AP.",
+    "iconPath": "interface/icons/custom_warriorskill_42_nobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520539,
+    "spellIds": [
+      520539
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29514
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520539,
+        "description": "Increases the tick rate of <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and dealing damage with <span style=\"color: #ffffff; display: inline\">Storm of Steel</span> now generates <span class=\"item-number\">1</span> to <span class=\"item-number\">0</span> Energy and heals you for <span class=\"item-number\">98</span> + <span class=\"item-number\">11% AP</span>.",
+        "descriptionText": "Increases the tick rate of Storm of Steel by -30% and dealing damage with Storm of Steel now generates 1 to 0 Energy and heals you for 98 + 11% AP."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6742,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Pure Power",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Smash</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+    "descriptionText": "Increases the damage of Smash by 15% and your expertise by 5.",
+    "iconPath": "interface/icons/ability_revendreth_rogue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705173,
+    "spellIds": [
+      705173,
+      707761
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6744
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705173,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Smash</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">5</span>.",
+        "descriptionText": "Increases the damage of Smash by 15% and your expertise by 5."
+      },
+      {
+        "rank": 2,
+        "spellId": 707761,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Smash</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and your expertise by <span class=\"item-number\">10</span>.",
+        "descriptionText": "Increases the damage of Smash by 30% and your expertise by 10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6744,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Beheader",
+    "description": "Scoring a kill blow with <span style=\"color: #ffffff; display: inline\">Decapitate</span> now refunds <span class=\"item-number\">100%</span> of your maximum Energy.",
+    "descriptionText": "Scoring a kill blow with Decapitate now refunds 100% of your maximum Energy.",
+    "iconPath": "interface/icons/inv_archaeology_ogres_warmaul_chieftain",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705222,
+    "spellIds": [
+      705222
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5744
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705222,
+        "description": "Scoring a kill blow with <span style=\"color: #ffffff; display: inline\">Decapitate</span> now refunds <span class=\"item-number\">100%</span> of your maximum Energy.",
+        "descriptionText": "Scoring a kill blow with Decapitate now refunds 100% of your maximum Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6750,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Bloody Fighter",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> and <span style=\"color: #ffffff; display: inline\">Smash</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Brutal Swing and Smash by 5%.",
+    "iconPath": "interface/icons/inv_mace_1h_pvpcataclysms3_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705167,
+    "spellIds": [
+      705167,
+      707760
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34268
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705167,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> and <span style=\"color: #ffffff; display: inline\">Smash</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Brutal Swing and Smash by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707760,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> and <span style=\"color: #ffffff; display: inline\">Smash</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Brutal Swing and Smash by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6834,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Anger Issues",
+    "description": "Scoring a critical strike against an enemy now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Carnage</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Scoring a critical strike against an enemy now reduces the cooldown of Carnage by -2 sec.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_brutal_icon_0005s_0000_characterb_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560450,
+    "spellIds": [
+      560450
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6750
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560450,
+        "description": "Scoring a critical strike against an enemy now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Carnage</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Scoring a critical strike against an enemy now reduces the cooldown of Carnage by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6350,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Headlopper",
+    "description": "Your critical strikes with <span style=\"color: #ffffff; display: inline\">Decapitate</span> now cause the enemy to bleed, dealing an additional <span class=\"item-number\">30%</span> of the damage dealt over <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Your critical strikes with Decapitate now cause the enemy to bleed, dealing an additional 30% of the damage dealt over 5 seconds.",
+    "iconPath": "interface/icons/novart_physical_ability_(10)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300499,
+    "spellIds": [
+      300499
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29791
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300499,
+        "description": "Your critical strikes with <span style=\"color: #ffffff; display: inline\">Decapitate</span> now cause the enemy to bleed, dealing an additional <span class=\"item-number\">30%</span> of the damage dealt over <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Your critical strikes with Decapitate now cause the enemy to bleed, dealing an additional 30% of the damage dealt over 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2277,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Incredibly Strong",
+    "description": "Removes the minimum range from <span style=\"color: #ffffff; display: inline\">Maiming Spear</span>, but reduces its maximum range by <span class=\"item-number\">-5</span> yds.",
+    "descriptionText": "Removes the minimum range from Maiming Spear, but reduces its maximum range by -5 yds.",
+    "iconPath": "interface/icons/ability_warrior_devastate",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804749,
+    "spellIds": [
+      804749
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30377
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807863,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804749,
+        "description": "Removes the minimum range from <span style=\"color: #ffffff; display: inline\">Maiming Spear</span>, but reduces its maximum range by <span class=\"item-number\">-5</span> yds.",
+        "descriptionText": "Removes the minimum range from Maiming Spear, but reduces its maximum range by -5 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4001,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Excessive Power",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases your maximum Energy by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 10 Passive\nIncreases your maximum Energy by 100%.",
+    "iconPath": "interface/icons/_orc_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92081,
+    "spellIds": [
+      92081
+    ],
+    "requiredNodeIds": [
+      29783
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92081,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases your maximum Energy by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 10 Passive\nIncreases your maximum Energy by 100%."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5744,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Decapitate",
+    "description": "Attempt to decapitate an injured enemy, dealing <span class=\"item-number\">165</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">15</span>, and converting each extra point of Energy to deal additional damage (up to a maximum cost of <span class=\"item-number\">100</span> Energy).<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Attempt to decapitate an injured enemy, dealing 165% Weapon Damage plus 15, and converting each extra point of Energy to deal additional damage (up to a maximum cost of 100 Energy).\n\nOnly usable on enemies below 35% health.",
+    "iconPath": "interface/icons/novart_physical_ability_(47)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804414,
+    "spellIds": [
+      804414
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804414,
+        "description": "Attempt to decapitate an injured enemy, dealing <span class=\"item-number\">165</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">15</span>, and converting each extra point of Energy to deal additional damage (up to a maximum cost of <span class=\"item-number\">100</span> Energy).<br /><br />Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Attempt to decapitate an injured enemy, dealing 165% Weapon Damage plus 15, and converting each extra point of Energy to deal additional damage (up to a maximum cost of 100 Energy).\n\nOnly usable on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6706,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Maximum Carnage",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unbridled Rage</span> now causes you to begin swinging your weapon around you dealing <span class=\"item-number\">47</span> + <span class=\"item-number\">25% AP</span> Physical Damage to up to <span class=\"item-number\">5</span> nearby enemies over <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Casting Unbridled Rage now causes you to begin swinging your weapon around you dealing 47 + 25% AP Physical Damage to up to 5 nearby enemies over 5 seconds.",
+    "iconPath": "interface/icons/spell_warrior_paintrain",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561359,
+    "spellIds": [
+      561359
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2277,
+      12277,
+      30374,
+      34313
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561359,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unbridled Rage</span> now causes you to begin swinging your weapon around you dealing <span class=\"item-number\">47</span> + <span class=\"item-number\">25% AP</span> Physical Damage to up to <span class=\"item-number\">5</span> nearby enemies over <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Casting Unbridled Rage now causes you to begin swinging your weapon around you dealing 47 + 25% AP Physical Damage to up to 5 nearby enemies over 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6737,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Mounting Fury",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Born in Blood</span> by <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Increases the duration of Born in Blood by 2 sec.",
+    "iconPath": "interface/icons/warrior_talent_icon_furyintheblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805927,
+    "spellIds": [
+      805927
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34265
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 560450,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805927,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Born in Blood</span> by <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Increases the duration of Born in Blood by 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6739,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Horde Breaker",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Crush</span> is now guaranteed to critically strike enemies affected by <span style=\"color: #ffffff; display: inline\">Headbutt</span> and it now applies <span style=\"color: #FFFFFF; display: inline\">Wounded</span> to enemies for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 warrior_wild_strike\" /><span class=\"name\">Wounded (Proc)</span></div><span class=\"desc\">Increases Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Your Crush is now guaranteed to critically strike enemies affected by Headbutt and it now applies Wounded to enemies for 10 seconds.\n\n---\n\nWounded (Proc)Increases Physical Damage taken by 4% for 10 seconds.",
+    "iconPath": "interface/icons/warrior_skullbanner",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804745,
+    "spellIds": [
+      804745
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31151
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707762,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804745,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Crush</span> is now guaranteed to critically strike enemies affected by <span style=\"color: #ffffff; display: inline\">Headbutt</span> and it now applies <span style=\"color: #FFFFFF; display: inline\">Wounded</span> to enemies for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 warrior_wild_strike\" /><span class=\"name\">Wounded (Proc)</span></div><span class=\"desc\">Increases Physical Damage taken by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Your Crush is now guaranteed to critically strike enemies affected by Headbutt and it now applies Wounded to enemies for 10 seconds.\n\n---\n\nWounded (Proc)Increases Physical Damage taken by 4% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6740,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Utter Devastation",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Maximum Carnage</span> by <span class=\"item-number\">1</span> sec and it now grants <span style=\"color: #ffffff; display: inline\">Utter Devastation</span> for <span class=\"item-number\">6</span> seconds. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_warrior_endlessrage\" /><span class=\"name\">Utter Devastation</span></div><span class=\"desc\">Instantly removes all movement impairing effects, increases your movement speed by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, and makes you immune to slows.<br /><br />Can be consumed by <span style=\"color: #ffffff; display: inline\">Decapitate</span> or <span style=\"color: #ffffff; display: inline\">Crush</span> to guarantee them to critically strike.</span></div>",
+    "descriptionText": "Increases the duration of Maximum Carnage by 1 sec and it now grants Utter Devastation for 6 seconds. \n\n---\n\nUtter DevastationInstantly removes all movement impairing effects, increases your movement speed by 25%, and makes you immune to slows.\n\nCan be consumed by Decapitate or Crush to guarantee them to critically strike.",
+    "iconPath": "interface/icons/ability_warrior_endlessrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560910,
+    "spellIds": [
+      560910
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6706
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560910,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Maximum Carnage</span> by <span class=\"item-number\">1</span> sec and it now grants <span style=\"color: #ffffff; display: inline\">Utter Devastation</span> for <span class=\"item-number\">6</span> seconds. <div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_warrior_endlessrage\" /><span class=\"name\">Utter Devastation</span></div><span class=\"desc\">Instantly removes all movement impairing effects, increases your movement speed by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>, and makes you immune to slows.<br /><br />Can be consumed by <span style=\"color: #ffffff; display: inline\">Decapitate</span> or <span style=\"color: #ffffff; display: inline\">Crush</span> to guarantee them to critically strike.</span></div>",
+        "descriptionText": "Increases the duration of Maximum Carnage by 1 sec and it now grants Utter Devastation for 6 seconds. \n\n---\n\nUtter DevastationInstantly removes all movement impairing effects, increases your movement speed by 25%, and makes you immune to slows.\n\nCan be consumed by Decapitate or Crush to guarantee them to critically strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4720,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Thirst for Battle",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Smash</span> now regenerate <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your maximum Energy.",
+    "descriptionText": "Your Smash now regenerate 25% of your maximum Energy.",
+    "iconPath": "interface/icons/ability_racial_bloodrage",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570236,
+    "spellIds": [
+      570236
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9170
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570236,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Smash</span> now regenerate <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your maximum Energy.",
+        "descriptionText": "Your Smash now regenerate 25% of your maximum Energy."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29281,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Killing Spree",
+    "description": "Charge at an enemy, dealing <span class=\"item-number\">25</span> + <span class=\"item-number\">30% AP</span> Physical Damage.<br /><br />Can only be used within <span class=\"item-number\">6</span> seconds of scoring a killing blow or applying <span style=\"color: #ffffff; display: inline\">Born in Blood</span>.",
+    "descriptionText": "Charge at an enemy, dealing 25 + 30% AP Physical Damage.\n\nCan only be used within 6 seconds of scoring a killing blow or applying Born in Blood.",
+    "iconPath": "interface/icons/_d3leapattack",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 850021,
+    "spellIds": [
+      850021
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6744
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 850021,
+        "description": "Charge at an enemy, dealing <span class=\"item-number\">25</span> + <span class=\"item-number\">30% AP</span> Physical Damage.<br /><br />Can only be used within <span class=\"item-number\">6</span> seconds of scoring a killing blow or applying <span style=\"color: #ffffff; display: inline\">Born in Blood</span>.",
+        "descriptionText": "Charge at an enemy, dealing 25 + 30% AP Physical Damage.\n\nCan only be used within 6 seconds of scoring a killing blow or applying Born in Blood."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12277,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Giant Tosser",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Headhunter's Spear</span> now generates <span class=\"item-number\">50</span><span class=\"item-number\">%</span> additional Energy when you strike an enemy that is at least <span class=\"item-number\">20</span> yds away.",
+    "descriptionText": "Your Headhunter's Spear now generates 50% additional Energy when you strike an enemy that is at least 20 yds away.",
+    "iconPath": "interface/icons/inv_ability_packleaderhunter_vicioushunt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807863,
+    "spellIds": [
+      807863
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30377
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807863,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807863,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Headhunter's Spear</span> now generates <span class=\"item-number\">50</span><span class=\"item-number\">%</span> additional Energy when you strike an enemy that is at least <span class=\"item-number\">20</span> yds away.",
+        "descriptionText": "Your Headhunter's Spear now generates 50% additional Energy when you strike an enemy that is at least 20 yds away."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12737,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Savage",
+    "description": "<span style=\"color: #ffffff; display: inline\">Unbridled Rage</span> now also increases your critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Unbridled Rage now also increases your critical damage by 10%.",
+    "iconPath": "interface/icons/ability_rogue_ruthlessness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560441,
+    "spellIds": [
+      560441
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34265
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 560450,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560441,
+        "description": "<span style=\"color: #ffffff; display: inline\">Unbridled Rage</span> now also increases your critical damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Unbridled Rage now also increases your critical damage by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12739,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Power Swings",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Crush</span> by <span class=\"item-number\">-5</span> sec.",
+    "descriptionText": "Reduces the cooldown of Crush by -5 sec.",
+    "iconPath": "interface/icons/ability_warrior_offensivestance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707762,
+    "spellIds": [
+      707762
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31151
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 707762,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707762,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Crush</span> by <span class=\"item-number\">-5</span> sec.",
+        "descriptionText": "Reduces the cooldown of Crush by -5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13958,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Crusher",
+    "description": "Melee auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Crush</span>.",
+    "descriptionText": "Melee auto attacks now have a 10% chance to reset the cooldown of Crush.",
+    "iconPath": "interface/icons/_d3seismicslam",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 803817,
+    "spellIds": [
+      803817,
+      807875
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6737,
+      12737,
+      33958
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803817,
+        "description": "Melee auto attacks now have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Crush</span>.",
+        "descriptionText": "Melee auto attacks now have a 10% chance to reset the cooldown of Crush."
+      },
+      {
+        "rank": 2,
+        "spellId": 807875,
+        "description": "Melee auto attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Crush</span>.",
+        "descriptionText": "Melee auto attacks now have a 20% chance to reset the cooldown of Crush."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 14171,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Ogre's Strength",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Strength.",
+    "descriptionText": "Level 40 Passive\nIncreases your attack power by 30% of your Strength.",
+    "iconPath": "interface/icons/achievement_reputation_ogre",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 561160,
+    "spellIds": [
+      561160
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4720
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561160,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your attack power by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of your Strength.",
+        "descriptionText": "Level 40 Passive\nIncreases your attack power by 30% of your Strength."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9170,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Relentless",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Critical strikes with <span style=\"color: #ffffff; display: inline\">Ancestral Strike</span> and <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> now refund <span class=\"item-number\">10</span> Energy.",
+    "descriptionText": "Level 20 Passive\nCritical strikes with Ancestral Strike and Brutal Swing now refund 10 Energy.",
+    "iconPath": "interface/icons/5_warriorskill07_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 300505,
+    "spellIds": [
+      300505
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4001
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300505,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Critical strikes with <span style=\"color: #ffffff; display: inline\">Ancestral Strike</span> and <span style=\"color: #ffffff; display: inline\">Brutal Swing</span> now refund <span class=\"item-number\">10</span> Energy.",
+        "descriptionText": "Level 20 Passive\nCritical strikes with Ancestral Strike and Brutal Swing now refund 10 Energy."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9171,
+    "classId": 12,
+    "className": "Barbarian",
+    "tabId": 31,
+    "tabKey": "12:31",
+    "tabName": "Brutality",
+    "name": "Body Builder",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your Strength by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your size by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nIncreases your Strength by 25% and your size by 5%.",
+    "iconPath": "interface/icons/spell_nature_strength",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 706481,
+    "spellIds": [
+      706481
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      14171
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706481,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases your Strength by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and your size by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nIncreases your Strength by 25% and your size by 5%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

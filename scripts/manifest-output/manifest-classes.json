@@ -1,0 +1,2002 @@
+{
+  "hero": {
+    "id": 39,
+    "slug": "voljin",
+    "name": "Vol'Jin",
+    "max_level": 70
+  },
+  "meta": {
+    "runtimeBuildProcess": "api/v3 builder CoA parser",
+    "runtimeDescriptionPreference": "pre-rendered builder tooltip HTML"
+  },
+  "classes": [
+    {
+      "classId": 12,
+      "className": "Barbarian",
+      "tabs": [
+        {
+          "tabId": 31,
+          "tabName": "Brutality",
+          "sortOrder": 1,
+          "tabKey": "12:31",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 32,
+          "tabName": "Headhunting",
+          "sortOrder": 2,
+          "tabKey": "12:32",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 33,
+          "tabName": "Ancestry",
+          "sortOrder": 3,
+          "tabKey": "12:33",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "12:87",
+          "treeType": "class",
+          "nodeCount": 41
+        }
+      ]
+    },
+    {
+      "classId": 13,
+      "className": "Witch Doctor",
+      "tabs": [
+        {
+          "tabId": 36,
+          "tabName": "Shadowhunting",
+          "sortOrder": 3,
+          "tabKey": "13:36",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 34,
+          "tabName": "Voodoo",
+          "sortOrder": 1,
+          "tabKey": "13:34",
+          "treeType": "spec",
+          "nodeCount": 37
+        },
+        {
+          "tabId": 35,
+          "tabName": "Brewing",
+          "sortOrder": 2,
+          "tabKey": "13:35",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "13:87",
+          "treeType": "class",
+          "nodeCount": 38
+        }
+      ]
+    },
+    {
+      "classId": 14,
+      "className": "Felsworn",
+      "tabs": [
+        {
+          "tabId": 37,
+          "tabName": "Slayer",
+          "sortOrder": 1,
+          "tabKey": "14:37",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 38,
+          "tabName": "Infernal",
+          "sortOrder": 2,
+          "tabKey": "14:38",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 18,
+          "tabName": "Tyrant",
+          "sortOrder": 3,
+          "tabKey": "14:18",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "14:87",
+          "treeType": "class",
+          "nodeCount": 37
+        }
+      ]
+    },
+    {
+      "classId": 15,
+      "className": "Witch Hunter",
+      "tabs": [
+        {
+          "tabId": 39,
+          "tabName": "Boltslinger",
+          "sortOrder": 1,
+          "tabKey": "15:39",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 40,
+          "tabName": "Houndmaster",
+          "sortOrder": 2,
+          "tabKey": "15:40",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 41,
+          "tabName": "Inquisition",
+          "sortOrder": 3,
+          "tabKey": "15:41",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 94,
+          "tabName": "Black Knight",
+          "sortOrder": 2,
+          "tabKey": "15:94",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "15:87",
+          "treeType": "class",
+          "nodeCount": 36
+        },
+        {
+          "tabId": 1,
+          "tabName": "None",
+          "sortOrder": 0,
+          "tabKey": "15:1",
+          "treeType": "unknown",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "classId": 16,
+      "className": "Stormbringer",
+      "tabs": [
+        {
+          "tabId": 42,
+          "tabName": "Lightning",
+          "sortOrder": 1,
+          "tabKey": "16:42",
+          "treeType": "spec",
+          "nodeCount": 37
+        },
+        {
+          "tabId": 43,
+          "tabName": "Wind",
+          "sortOrder": 2,
+          "tabKey": "16:43",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 44,
+          "tabName": "Maelstrom",
+          "sortOrder": 3,
+          "tabKey": "16:44",
+          "treeType": "spec",
+          "nodeCount": 37
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "16:87",
+          "treeType": "class",
+          "nodeCount": 39
+        }
+      ]
+    },
+    {
+      "classId": 17,
+      "className": "Knight of Xoroth",
+      "tabs": [
+        {
+          "tabId": 46,
+          "tabName": "Hellfire",
+          "sortOrder": 0,
+          "tabKey": "17:46",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 45,
+          "tabName": "War",
+          "sortOrder": 0,
+          "tabKey": "17:45",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 47,
+          "tabName": "Defiance",
+          "sortOrder": 0,
+          "tabKey": "17:47",
+          "treeType": "spec",
+          "nodeCount": 42
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "17:87",
+          "treeType": "class",
+          "nodeCount": 37
+        }
+      ]
+    },
+    {
+      "classId": 18,
+      "className": "Guardian",
+      "tabs": [
+        {
+          "tabId": 7,
+          "tabName": "Vanguard",
+          "sortOrder": 1,
+          "tabKey": "18:7",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 48,
+          "tabName": "Inspiration",
+          "sortOrder": 2,
+          "tabKey": "18:48",
+          "treeType": "spec",
+          "nodeCount": 45
+        },
+        {
+          "tabId": 49,
+          "tabName": "Gladiator",
+          "sortOrder": 3,
+          "tabKey": "18:49",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "18:87",
+          "treeType": "class",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 1,
+          "tabName": "None",
+          "sortOrder": 0,
+          "tabKey": "18:1",
+          "treeType": "unknown",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "classId": 19,
+      "className": "Templar",
+      "tabs": [
+        {
+          "tabId": 50,
+          "tabName": "Zealot",
+          "sortOrder": 1,
+          "tabKey": "19:50",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 16,
+          "tabName": "Oathkeeper",
+          "sortOrder": 2,
+          "tabKey": "19:16",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 51,
+          "tabName": "Crusader",
+          "sortOrder": 3,
+          "tabKey": "19:51",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "19:87",
+          "treeType": "class",
+          "nodeCount": 38
+        }
+      ]
+    },
+    {
+      "classId": 20,
+      "className": "Bloodmage",
+      "tabs": [
+        {
+          "tabId": 26,
+          "tabName": "Sanguine",
+          "sortOrder": 1,
+          "tabKey": "20:26",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 52,
+          "tabName": "Accursed",
+          "sortOrder": 2,
+          "tabKey": "20:52",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 53,
+          "tabName": "Eternal",
+          "sortOrder": 3,
+          "tabKey": "20:53",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 93,
+          "tabName": "Fleshweaver",
+          "sortOrder": 3,
+          "tabKey": "20:93",
+          "treeType": "spec",
+          "nodeCount": 44
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "20:87",
+          "treeType": "class",
+          "nodeCount": 40
+        }
+      ]
+    },
+    {
+      "classId": 21,
+      "className": "Ranger",
+      "tabs": [
+        {
+          "tabId": 55,
+          "tabName": "Brigand",
+          "sortOrder": 2,
+          "tabKey": "21:55",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "21:87",
+          "treeType": "class",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 2,
+          "tabName": "Farstrider",
+          "sortOrder": 3,
+          "tabKey": "21:2",
+          "treeType": "spec",
+          "nodeCount": 45
+        },
+        {
+          "tabId": 54,
+          "tabName": "Archery",
+          "sortOrder": 1,
+          "tabKey": "21:54",
+          "treeType": "spec",
+          "nodeCount": 40
+        }
+      ]
+    },
+    {
+      "classId": 22,
+      "className": "Chronomancer",
+      "tabs": [
+        {
+          "tabId": 56,
+          "tabName": "Infinite",
+          "sortOrder": 1,
+          "tabKey": "22:56",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 57,
+          "tabName": "Artificer",
+          "sortOrder": 3,
+          "tabKey": "22:57",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "22:87",
+          "treeType": "class",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 58,
+          "tabName": "Time",
+          "sortOrder": 2,
+          "tabKey": "22:58",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 71,
+          "tabName": "Blessings",
+          "sortOrder": 0,
+          "tabKey": "22:71",
+          "treeType": "spec",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "classId": 23,
+      "className": "Necromancer",
+      "tabs": [
+        {
+          "tabId": 61,
+          "tabName": "Animation",
+          "sortOrder": 3,
+          "tabKey": "23:61",
+          "treeType": "spec",
+          "nodeCount": 42
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "23:87",
+          "treeType": "class",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 59,
+          "tabName": "Death",
+          "sortOrder": 1,
+          "tabKey": "23:59",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 60,
+          "tabName": "Rime",
+          "sortOrder": 2,
+          "tabKey": "23:60",
+          "treeType": "spec",
+          "nodeCount": 41
+        }
+      ]
+    },
+    {
+      "classId": 24,
+      "className": "Pyromancer",
+      "tabs": [
+        {
+          "tabId": 63,
+          "tabName": "Draconic",
+          "sortOrder": 3,
+          "tabKey": "24:63",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 19,
+          "tabName": "Flameweaving",
+          "sortOrder": 2,
+          "tabKey": "24:19",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 62,
+          "tabName": "Incineration",
+          "sortOrder": 1,
+          "tabKey": "24:62",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "24:87",
+          "treeType": "class",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 1,
+          "tabName": "None",
+          "sortOrder": 0,
+          "tabKey": "24:1",
+          "treeType": "unknown",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "classId": 25,
+      "className": "Cultist",
+      "tabs": [
+        {
+          "tabId": 65,
+          "tabName": "Corruption",
+          "sortOrder": 2,
+          "tabKey": "25:65",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 64,
+          "tabName": "Godblade",
+          "sortOrder": 1,
+          "tabKey": "25:64",
+          "treeType": "spec",
+          "nodeCount": 37
+        },
+        {
+          "tabId": 66,
+          "tabName": "Heretic",
+          "sortOrder": 3,
+          "tabKey": "25:66",
+          "treeType": "spec",
+          "nodeCount": 42
+        },
+        {
+          "tabId": 88,
+          "tabName": "Dreadnought",
+          "sortOrder": 2,
+          "tabKey": "25:88",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "25:87",
+          "treeType": "class",
+          "nodeCount": 40
+        }
+      ]
+    },
+    {
+      "classId": 26,
+      "className": "Starcaller",
+      "tabs": [
+        {
+          "tabId": 67,
+          "tabName": "Moon Guard",
+          "sortOrder": 1,
+          "tabKey": "26:67",
+          "treeType": "spec",
+          "nodeCount": 36
+        },
+        {
+          "tabId": 69,
+          "tabName": "Sentinel",
+          "sortOrder": 2,
+          "tabKey": "26:69",
+          "treeType": "spec",
+          "nodeCount": 38
+        },
+        {
+          "tabId": 68,
+          "tabName": "Moon Priest",
+          "sortOrder": 3,
+          "tabKey": "26:68",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 89,
+          "tabName": "Warden",
+          "sortOrder": 3,
+          "tabKey": "26:89",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "26:87",
+          "treeType": "class",
+          "nodeCount": 39
+        }
+      ]
+    },
+    {
+      "classId": 27,
+      "className": "Sun Cleric",
+      "tabs": [
+        {
+          "tabId": 72,
+          "tabName": "Seraphim",
+          "sortOrder": 3,
+          "tabKey": "27:72",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 70,
+          "tabName": "Piety",
+          "sortOrder": 1,
+          "tabKey": "27:70",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 90,
+          "tabName": "Valkyrie",
+          "sortOrder": 2,
+          "tabKey": "27:90",
+          "treeType": "spec",
+          "nodeCount": 42
+        },
+        {
+          "tabId": 71,
+          "tabName": "Blessings",
+          "sortOrder": 2,
+          "tabKey": "27:71",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "27:87",
+          "treeType": "class",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 1,
+          "tabName": "None",
+          "sortOrder": 0,
+          "tabKey": "27:1",
+          "treeType": "unknown",
+          "nodeCount": 0
+        }
+      ]
+    },
+    {
+      "classId": 28,
+      "className": "Tinker",
+      "tabs": [
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "28:87",
+          "treeType": "class",
+          "nodeCount": 36
+        },
+        {
+          "tabId": 75,
+          "tabName": "Mechanics",
+          "sortOrder": 3,
+          "tabKey": "28:75",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 74,
+          "tabName": "Invention",
+          "sortOrder": 2,
+          "tabKey": "28:74",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 73,
+          "tabName": "Demolition",
+          "sortOrder": 1,
+          "tabKey": "28:73",
+          "treeType": "spec",
+          "nodeCount": 40
+        }
+      ]
+    },
+    {
+      "classId": 31,
+      "className": "Primalist",
+      "tabs": [
+        {
+          "tabId": 84,
+          "tabName": "Life",
+          "sortOrder": 0,
+          "tabKey": "31:84",
+          "treeType": "spec",
+          "nodeCount": 46
+        },
+        {
+          "tabId": 83,
+          "tabName": "Geomancy",
+          "sortOrder": 0,
+          "tabKey": "31:83",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 82,
+          "tabName": "Primal",
+          "sortOrder": 0,
+          "tabKey": "31:82",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 91,
+          "tabName": "Mountain King",
+          "sortOrder": 0,
+          "tabKey": "31:91",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "31:87",
+          "treeType": "class",
+          "nodeCount": 37
+        }
+      ]
+    },
+    {
+      "classId": 30,
+      "className": "Reaper",
+      "tabs": [
+        {
+          "tabId": 79,
+          "tabName": "Harvest",
+          "sortOrder": 1,
+          "tabKey": "30:79",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 80,
+          "tabName": "Soul",
+          "sortOrder": 2,
+          "tabKey": "30:80",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 81,
+          "tabName": "Domination",
+          "sortOrder": 3,
+          "tabKey": "30:81",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "30:87",
+          "treeType": "class",
+          "nodeCount": 35
+        }
+      ]
+    },
+    {
+      "classId": 29,
+      "className": "Venomancer",
+      "tabs": [
+        {
+          "tabId": 92,
+          "tabName": "Vizier",
+          "sortOrder": 0,
+          "tabKey": "29:92",
+          "treeType": "spec",
+          "nodeCount": 40
+        },
+        {
+          "tabId": 76,
+          "tabName": "Venom",
+          "sortOrder": 0,
+          "tabKey": "29:76",
+          "treeType": "spec",
+          "nodeCount": 39
+        },
+        {
+          "tabId": 77,
+          "tabName": "Stalking",
+          "sortOrder": 0,
+          "tabKey": "29:77",
+          "treeType": "spec",
+          "nodeCount": 42
+        },
+        {
+          "tabId": 78,
+          "tabName": "Fortitude",
+          "sortOrder": 0,
+          "tabKey": "29:78",
+          "treeType": "spec",
+          "nodeCount": 43
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "29:87",
+          "treeType": "class",
+          "nodeCount": 37
+        }
+      ]
+    },
+    {
+      "classId": 32,
+      "className": "Runemaster",
+      "tabs": [
+        {
+          "tabId": 85,
+          "tabName": "Runic",
+          "sortOrder": 0,
+          "tabKey": "32:85",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 11,
+          "tabName": "Arcane",
+          "sortOrder": 0,
+          "tabKey": "32:11",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 86,
+          "tabName": "Riftblade",
+          "sortOrder": 0,
+          "tabKey": "32:86",
+          "treeType": "spec",
+          "nodeCount": 41
+        },
+        {
+          "tabId": 87,
+          "tabName": "Class",
+          "sortOrder": 0,
+          "tabKey": "32:87",
+          "treeType": "class",
+          "nodeCount": 37
+        }
+      ]
+    }
+  ],
+  "tabStats": [
+    {
+      "tabKey": "18:7",
+      "classId": 18,
+      "className": "Guardian",
+      "tabId": 7,
+      "tabName": "Vanguard",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "21:2",
+      "classId": 21,
+      "className": "Ranger",
+      "tabId": 2,
+      "tabName": "Farstrider",
+      "treeType": "spec",
+      "nodeCount": 45,
+      "multiRankCount": 3,
+      "choiceNodeCount": 16,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "12:31",
+      "classId": 12,
+      "className": "Barbarian",
+      "tabId": 31,
+      "tabName": "Brutality",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 5,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "12:32",
+      "classId": 12,
+      "className": "Barbarian",
+      "tabId": 32,
+      "tabName": "Headhunting",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 4,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "12:33",
+      "classId": 12,
+      "className": "Barbarian",
+      "tabId": 33,
+      "tabName": "Ancestry",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 4,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "12:87",
+      "classId": 12,
+      "className": "Barbarian",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 41,
+      "multiRankCount": 2,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "13:34",
+      "classId": 13,
+      "className": "Witch Doctor",
+      "tabId": 34,
+      "tabName": "Voodoo",
+      "treeType": "spec",
+      "nodeCount": 37,
+      "multiRankCount": 4,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "13:35",
+      "classId": 13,
+      "className": "Witch Doctor",
+      "tabId": 35,
+      "tabName": "Brewing",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "13:36",
+      "classId": 13,
+      "className": "Witch Doctor",
+      "tabId": 36,
+      "tabName": "Shadowhunting",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 4,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "13:87",
+      "classId": 13,
+      "className": "Witch Doctor",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 38,
+      "multiRankCount": 3,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "14:18",
+      "classId": 14,
+      "className": "Felsworn",
+      "tabId": 18,
+      "tabName": "Tyrant",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 3,
+      "choiceNodeCount": 12,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "14:37",
+      "classId": 14,
+      "className": "Felsworn",
+      "tabId": 37,
+      "tabName": "Slayer",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 4,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "14:38",
+      "classId": 14,
+      "className": "Felsworn",
+      "tabId": 38,
+      "tabName": "Infernal",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "14:87",
+      "classId": 14,
+      "className": "Felsworn",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 37,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "15:39",
+      "classId": 15,
+      "className": "Witch Hunter",
+      "tabId": 39,
+      "tabName": "Boltslinger",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "15:40",
+      "classId": 15,
+      "className": "Witch Hunter",
+      "tabId": 40,
+      "tabName": "Houndmaster",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 4,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "15:41",
+      "classId": 15,
+      "className": "Witch Hunter",
+      "tabId": 41,
+      "tabName": "Inquisition",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 4,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "15:87",
+      "classId": 15,
+      "className": "Witch Hunter",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 36,
+      "multiRankCount": 3,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "15:94",
+      "classId": 15,
+      "className": "Witch Hunter",
+      "tabId": 94,
+      "tabName": "Black Knight",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 4,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "16:42",
+      "classId": 16,
+      "className": "Stormbringer",
+      "tabId": 42,
+      "tabName": "Lightning",
+      "treeType": "spec",
+      "nodeCount": 37,
+      "multiRankCount": 4,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "16:43",
+      "classId": 16,
+      "className": "Stormbringer",
+      "tabId": 43,
+      "tabName": "Wind",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 3,
+      "choiceNodeCount": 12,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "16:44",
+      "classId": 16,
+      "className": "Stormbringer",
+      "tabId": 44,
+      "tabName": "Maelstrom",
+      "treeType": "spec",
+      "nodeCount": 37,
+      "multiRankCount": 5,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "16:87",
+      "classId": 16,
+      "className": "Stormbringer",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 39,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "17:45",
+      "classId": 17,
+      "className": "Knight of Xoroth",
+      "tabId": 45,
+      "tabName": "War",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "17:46",
+      "classId": 17,
+      "className": "Knight of Xoroth",
+      "tabId": 46,
+      "tabName": "Hellfire",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 5,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "17:47",
+      "classId": 17,
+      "className": "Knight of Xoroth",
+      "tabId": 47,
+      "tabName": "Defiance",
+      "treeType": "spec",
+      "nodeCount": 42,
+      "multiRankCount": 2,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "17:87",
+      "classId": 17,
+      "className": "Knight of Xoroth",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 37,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "18:48",
+      "classId": 18,
+      "className": "Guardian",
+      "tabId": 48,
+      "tabName": "Inspiration",
+      "treeType": "spec",
+      "nodeCount": 45,
+      "multiRankCount": 3,
+      "choiceNodeCount": 14,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "18:49",
+      "classId": 18,
+      "className": "Guardian",
+      "tabId": 49,
+      "tabName": "Gladiator",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 8,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "18:87",
+      "classId": 18,
+      "className": "Guardian",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 40,
+      "multiRankCount": 2,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "19:16",
+      "classId": 19,
+      "className": "Templar",
+      "tabId": 16,
+      "tabName": "Oathkeeper",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 3,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "19:50",
+      "classId": 19,
+      "className": "Templar",
+      "tabId": 50,
+      "tabName": "Zealot",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "19:51",
+      "classId": 19,
+      "className": "Templar",
+      "tabId": 51,
+      "tabName": "Crusader",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 5,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "19:87",
+      "classId": 19,
+      "className": "Templar",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 38,
+      "multiRankCount": 3,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "20:26",
+      "classId": 20,
+      "className": "Bloodmage",
+      "tabId": 26,
+      "tabName": "Sanguine",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 5,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "20:52",
+      "classId": 20,
+      "className": "Bloodmage",
+      "tabId": 52,
+      "tabName": "Accursed",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 2,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "20:53",
+      "classId": 20,
+      "className": "Bloodmage",
+      "tabId": 53,
+      "tabName": "Eternal",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 2,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "20:87",
+      "classId": 20,
+      "className": "Bloodmage",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 40,
+      "multiRankCount": 2,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "20:93",
+      "classId": 20,
+      "className": "Bloodmage",
+      "tabId": 93,
+      "tabName": "Fleshweaver",
+      "treeType": "spec",
+      "nodeCount": 44,
+      "multiRankCount": 3,
+      "choiceNodeCount": 12,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "21:54",
+      "classId": 21,
+      "className": "Ranger",
+      "tabId": 54,
+      "tabName": "Archery",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "21:55",
+      "classId": 21,
+      "className": "Ranger",
+      "tabId": 55,
+      "tabName": "Brigand",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "21:87",
+      "classId": 21,
+      "className": "Ranger",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 39,
+      "multiRankCount": 1,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "22:56",
+      "classId": 22,
+      "className": "Chronomancer",
+      "tabId": 56,
+      "tabName": "Infinite",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "22:57",
+      "classId": 22,
+      "className": "Chronomancer",
+      "tabId": 57,
+      "tabName": "Artificer",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 2,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "22:58",
+      "classId": 22,
+      "className": "Chronomancer",
+      "tabId": 58,
+      "tabName": "Time",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "22:87",
+      "classId": 22,
+      "className": "Chronomancer",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 38,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "23:59",
+      "classId": 23,
+      "className": "Necromancer",
+      "tabId": 59,
+      "tabName": "Death",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 2,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "23:60",
+      "classId": 23,
+      "className": "Necromancer",
+      "tabId": 60,
+      "tabName": "Rime",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "23:61",
+      "classId": 23,
+      "className": "Necromancer",
+      "tabId": 61,
+      "tabName": "Animation",
+      "treeType": "spec",
+      "nodeCount": 42,
+      "multiRankCount": 4,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "23:87",
+      "classId": 23,
+      "className": "Necromancer",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 38,
+      "multiRankCount": 4,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "24:19",
+      "classId": 24,
+      "className": "Pyromancer",
+      "tabId": 19,
+      "tabName": "Flameweaving",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 4,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "24:62",
+      "classId": 24,
+      "className": "Pyromancer",
+      "tabId": 62,
+      "tabName": "Incineration",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "24:63",
+      "classId": 24,
+      "className": "Pyromancer",
+      "tabId": 63,
+      "tabName": "Draconic",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 3,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "24:87",
+      "classId": 24,
+      "className": "Pyromancer",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "25:64",
+      "classId": 25,
+      "className": "Cultist",
+      "tabId": 64,
+      "tabName": "Godblade",
+      "treeType": "spec",
+      "nodeCount": 37,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "25:65",
+      "classId": 25,
+      "className": "Cultist",
+      "tabId": 65,
+      "tabName": "Corruption",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 4,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "25:66",
+      "classId": 25,
+      "className": "Cultist",
+      "tabId": 66,
+      "tabName": "Heretic",
+      "treeType": "spec",
+      "nodeCount": 42,
+      "multiRankCount": 5,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "25:87",
+      "classId": 25,
+      "className": "Cultist",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "25:88",
+      "classId": 25,
+      "className": "Cultist",
+      "tabId": 88,
+      "tabName": "Dreadnought",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 3,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "26:67",
+      "classId": 26,
+      "className": "Starcaller",
+      "tabId": 67,
+      "tabName": "Moon Guard",
+      "treeType": "spec",
+      "nodeCount": 36,
+      "multiRankCount": 3,
+      "choiceNodeCount": 0,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "26:68",
+      "classId": 26,
+      "className": "Starcaller",
+      "tabId": 68,
+      "tabName": "Moon Priest",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "26:69",
+      "classId": 26,
+      "className": "Starcaller",
+      "tabId": 69,
+      "tabName": "Sentinel",
+      "treeType": "spec",
+      "nodeCount": 38,
+      "multiRankCount": 4,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "26:87",
+      "classId": 26,
+      "className": "Starcaller",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 39,
+      "multiRankCount": 2,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "26:89",
+      "classId": 26,
+      "className": "Starcaller",
+      "tabId": 89,
+      "tabName": "Warden",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "27:70",
+      "classId": 27,
+      "className": "Sun Cleric",
+      "tabId": 70,
+      "tabName": "Piety",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 4,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "27:71",
+      "classId": 27,
+      "className": "Sun Cleric",
+      "tabId": 71,
+      "tabName": "Blessings",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "27:72",
+      "classId": 27,
+      "className": "Sun Cleric",
+      "tabId": 72,
+      "tabName": "Seraphim",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 2,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "27:87",
+      "classId": 27,
+      "className": "Sun Cleric",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 39,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "27:90",
+      "classId": 27,
+      "className": "Sun Cleric",
+      "tabId": 90,
+      "tabName": "Valkyrie",
+      "treeType": "spec",
+      "nodeCount": 42,
+      "multiRankCount": 3,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "28:73",
+      "classId": 28,
+      "className": "Tinker",
+      "tabId": 73,
+      "tabName": "Demolition",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 1,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "28:74",
+      "classId": 28,
+      "className": "Tinker",
+      "tabId": 74,
+      "tabName": "Invention",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "28:75",
+      "classId": 28,
+      "className": "Tinker",
+      "tabId": 75,
+      "tabName": "Mechanics",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 2,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "28:87",
+      "classId": 28,
+      "className": "Tinker",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 36,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "29:76",
+      "classId": 29,
+      "className": "Venomancer",
+      "tabId": 76,
+      "tabName": "Venom",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "29:77",
+      "classId": 29,
+      "className": "Venomancer",
+      "tabId": 77,
+      "tabName": "Stalking",
+      "treeType": "spec",
+      "nodeCount": 42,
+      "multiRankCount": 2,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "29:78",
+      "classId": 29,
+      "className": "Venomancer",
+      "tabId": 78,
+      "tabName": "Fortitude",
+      "treeType": "spec",
+      "nodeCount": 43,
+      "multiRankCount": 3,
+      "choiceNodeCount": 10,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "29:87",
+      "classId": 29,
+      "className": "Venomancer",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 37,
+      "multiRankCount": 3,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "29:92",
+      "classId": 29,
+      "className": "Venomancer",
+      "tabId": 92,
+      "tabName": "Vizier",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 5,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "30:79",
+      "classId": 30,
+      "className": "Reaper",
+      "tabId": 79,
+      "tabName": "Harvest",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "30:80",
+      "classId": 30,
+      "className": "Reaper",
+      "tabId": 80,
+      "tabName": "Soul",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "30:81",
+      "classId": 30,
+      "className": "Reaper",
+      "tabId": 81,
+      "tabName": "Domination",
+      "treeType": "spec",
+      "nodeCount": 39,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "30:87",
+      "classId": 30,
+      "className": "Reaper",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 35,
+      "multiRankCount": 3,
+      "choiceNodeCount": 2,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "31:82",
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 82,
+      "tabName": "Primal",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "31:83",
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 83,
+      "tabName": "Geomancy",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "31:84",
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 84,
+      "tabName": "Life",
+      "treeType": "spec",
+      "nodeCount": 46,
+      "multiRankCount": 3,
+      "choiceNodeCount": 20,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "31:87",
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 37,
+      "multiRankCount": 4,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "31:91",
+      "classId": 31,
+      "className": "Primalist",
+      "tabId": 91,
+      "tabName": "Mountain King",
+      "treeType": "spec",
+      "nodeCount": 40,
+      "multiRankCount": 4,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "32:11",
+      "classId": 32,
+      "className": "Runemaster",
+      "tabId": 11,
+      "tabName": "Arcane",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 2,
+      "choiceNodeCount": 4,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "32:85",
+      "classId": 32,
+      "className": "Runemaster",
+      "tabId": 85,
+      "tabName": "Runic",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 3,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "32:86",
+      "classId": 32,
+      "className": "Runemaster",
+      "tabId": 86,
+      "tabName": "Riftblade",
+      "treeType": "spec",
+      "nodeCount": 41,
+      "multiRankCount": 3,
+      "choiceNodeCount": 8,
+      "hasConnections": true
+    },
+    {
+      "tabKey": "32:87",
+      "classId": 32,
+      "className": "Runemaster",
+      "tabId": 87,
+      "tabName": "Class",
+      "treeType": "class",
+      "nodeCount": 37,
+      "multiRankCount": 2,
+      "choiceNodeCount": 6,
+      "hasConnections": true
+    }
+  ]
+}

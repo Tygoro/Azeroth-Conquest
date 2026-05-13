@@ -1,0 +1,1665 @@
+[
+  {
+    "nodeId": 5210,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Felguard",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now reduces all damage taken by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Your Chaos Rush now reduces all damage taken by -3% for 5 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/achievement_explore_argus",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704360,
+    "spellIds": [
+      704360
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30565
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 922124,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704360,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now reduces all damage taken by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Your Chaos Rush now reduces all damage taken by -3% for 5 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6423,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Dark Teachings",
+    "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Intuitions</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Intuitions by 20%.",
+    "iconPath": "interface/icons/_book2motif_illidan",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520251,
+    "spellIds": [
+      520251
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520251,
+        "description": "Increases the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Intuitions</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Intuitions by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6868,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Whispers of the Pit",
+    "description": "Unleash fel energy upon enemies at target location, fearing them and slowing their movement speed by <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Damage caused may interrupt the effect.",
+    "descriptionText": "Unleash fel energy upon enemies at target location, fearing them and slowing their movement speed by -80% for 8 seconds.\n\nDamage caused may interrupt the effect.",
+    "iconPath": "interface/icons/ability_bossmannoroth_mannorothsgaze",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805235,
+    "spellIds": [
+      805235
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34205,
+      34211
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805235,
+        "description": "Unleash fel energy upon enemies at target location, fearing them and slowing their movement speed by <span class=\"item-number\">-80</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Damage caused may interrupt the effect.",
+        "descriptionText": "Unleash fel energy upon enemies at target location, fearing them and slowing their movement speed by -80% for 8 seconds.\n\nDamage caused may interrupt the effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6875,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Fel Communion",
+    "description": "Increases your maximum Energy by <span class=\"item-number\">25</span>.",
+    "descriptionText": "Increases your maximum Energy by 25.",
+    "iconPath": "interface/icons/ability_warlock_moltencoregreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705105,
+    "spellIds": [
+      705105
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30565,
+      31294
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705105,
+        "description": "Increases your maximum Energy by <span class=\"item-number\">25</span>.",
+        "descriptionText": "Increases your maximum Energy by 25."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 5685,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Chaotic",
+    "description": "Dealing damage now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to increase your damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Dealing damage now has an 8% chance to increase your damage by 3% for 8 seconds, stacking 3 times.",
+    "iconPath": "interface/icons/nhi_chaosfire_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681376,
+    "spellIds": [
+      681376
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5210,
+      6875,
+      11210,
+      30553
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681376,
+        "description": "Dealing damage now has an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance to increase your damage by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Dealing damage now has an 8% chance to increase your damage by 3% for 8 seconds, stacking 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29367,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Manaburn",
+    "description": "Burn an enemy's mana equal to <span class=\"item-number\">150%</span> of your Stamina.<br /><br />Deals damage equal to the mana drained.",
+    "descriptionText": "Burn an enemy's mana equal to 150% of your Stamina.\n\nDeals damage equal to the mana drained.",
+    "iconPath": "interface/icons/_manaburn_fel",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805248,
+    "spellIds": [
+      805248
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805248,
+        "description": "Burn an enemy's mana equal to <span class=\"item-number\">150%</span> of your Stamina.<br /><br />Deals damage equal to the mana drained.",
+        "descriptionText": "Burn an enemy's mana equal to 150% of your Stamina.\n\nDeals damage equal to the mana drained."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29399,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Legion March",
+    "description": "Adds an additional charge to <span style=\"color: #ffffff; display: inline\">Chaos Rush</span>.",
+    "descriptionText": "Adds an additional charge to Chaos Rush.",
+    "iconPath": "interface/icons/_warlock_rueeardenteverte",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805244,
+    "spellIds": [
+      805244
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29400
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805244,
+        "description": "Adds an additional charge to <span style=\"color: #ffffff; display: inline\">Chaos Rush</span>.",
+        "descriptionText": "Adds an additional charge to Chaos Rush."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29400,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Doomstride",
+    "description": "Using <span style=\"color: #ffffff; display: inline\">Chaos Rush</span> twice in a row now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Chaos Rush</span>.",
+    "descriptionText": "Using Chaos Rush twice in a row now refreshes a charge of Chaos Rush.",
+    "iconPath": "interface/icons/ability_demonhunter_doublejump",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804613,
+    "spellIds": [
+      804613
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33670,
+      30559
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804613,
+        "description": "Using <span style=\"color: #ffffff; display: inline\">Chaos Rush</span> twice in a row now refreshes a charge of <span style=\"color: #ffffff; display: inline\">Chaos Rush</span>.",
+        "descriptionText": "Using Chaos Rush twice in a row now refreshes a charge of Chaos Rush."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29409,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Illidari Barrier",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> now also creates a damage absorption shield on all nearby allies within <span class=\"item-number\">15</span> yds, absorbing <span class=\"item-number\">328</span> + <span class=\"item-number\">100% Stamina</span> + <span class=\"item-number\">20% SP</span> + <span class=\"item-number\">8% AP</span> damage for <span class=\"item-number\">5</span> seconds.<br /><br />",
+    "descriptionText": "Casting Hateforged Barrier now also creates a damage absorption shield on all nearby allies within 15 yds, absorbing 328 + 100% Stamina + 20% SP + 8% AP damage for 5 seconds.",
+    "iconPath": "interface/icons/ability_vehicle_shellshieldgenerator_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300468,
+    "spellIds": [
+      300468
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5685,
+      30301
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300468,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> now also creates a damage absorption shield on all nearby allies within <span class=\"item-number\">15</span> yds, absorbing <span class=\"item-number\">328</span> + <span class=\"item-number\">100% Stamina</span> + <span class=\"item-number\">20% SP</span> + <span class=\"item-number\">8% AP</span> damage for <span class=\"item-number\">5</span> seconds.<br /><br />",
+        "descriptionText": "Casting Hateforged Barrier now also creates a damage absorption shield on all nearby allies within 15 yds, absorbing 328 + 100% Stamina + 20% SP + 8% AP damage for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11210,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Felstrider",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now increases your Energy regeneration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Your Chaos Rush now increases your Energy regeneration by 10% for 5 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/ability_hunter_onewithnature",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707513,
+    "spellIds": [
+      707513
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30565
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 922124,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707513,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> now increases your Energy regeneration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Your Chaos Rush now increases your Energy regeneration by 10% for 5 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 2097152,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 11227,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Suffering",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Skull of Gul'dan</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Skull of Gul'dan by 5 sec.",
+    "iconPath": "interface/icons/ability_hunter_negate",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807430,
+    "spellIds": [
+      807430
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30552
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 178354,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807430,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Skull of Gul'dan</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Skull of Gul'dan by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7860,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Warlock Training",
+    "description": "<span style=\"color: #ffffff; display: inline\">Cripple</span> now causes the enemy target to be unable to critically strike for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Cripple now causes the enemy target to be unable to critically strike for 4 seconds.",
+    "iconPath": "interface/icons/_orc_09",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560641,
+    "spellIds": [
+      560641
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30553,
+      33674
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560641,
+        "description": "<span style=\"color: #ffffff; display: inline\">Cripple</span> now causes the enemy target to be unable to critically strike for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Cripple now causes the enemy target to be unable to critically strike for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7862,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Cruelty",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span> against Demons.",
+    "descriptionText": "Increases your critical strike chance by 2% and an additional 3% against Demons.",
+    "iconPath": "interface/icons/_warlock_imp",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705109,
+    "spellIds": [
+      705109,
+      520249
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29686
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705109,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and an additional <span class=\"item-number\">3</span><span class=\"item-number\">%</span> against Demons.",
+        "descriptionText": "Increases your critical strike chance by 2% and an additional 3% against Demons."
+      },
+      {
+        "rank": 2,
+        "spellId": 520249,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and an additional <span class=\"item-number\">6</span><span class=\"item-number\">%</span> against Demons.",
+        "descriptionText": "Increases your critical strike chance by 4% and an additional 6% against Demons."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7863,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Infernal Armor",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Hateforged Barrier by -10 sec.",
+    "iconPath": "interface/icons/achievement_boss_argus_felreaver",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300467,
+    "spellIds": [
+      300467
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34203
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300467,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Hateforged Barrier by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7865,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Reckoning",
+    "description": "Makes your <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> instant cast, allows it to hit up to <span class=\"item-number\">4</span> targets and grants slow fall for <span class=\"item-number\">8</span> seconds.<br /><br />For the duration, damage dealt by your <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> increases your damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+    "descriptionText": "Makes your Fel Fireball instant cast, allows it to hit up to 4 targets and grants slow fall for 8 seconds.\n\nFor the duration, damage dealt by your Fel Fireball increases your damage dealt by 4% for 15 seconds, stacking 4 times.",
+    "iconPath": "interface/icons/inv__felbarrage",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802058,
+    "spellIds": [
+      802058
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5685,
+      7860
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802058,
+        "description": "Makes your <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> instant cast, allows it to hit up to <span class=\"item-number\">4</span> targets and grants slow fall for <span class=\"item-number\">8</span> seconds.<br /><br />For the duration, damage dealt by your <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> increases your damage dealt by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">4</span> times.",
+        "descriptionText": "Makes your Fel Fireball instant cast, allows it to hit up to 4 targets and grants slow fall for 8 seconds.\n\nFor the duration, damage dealt by your Fel Fireball increases your damage dealt by 4% for 15 seconds, stacking 4 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7868,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Mark of Chaos",
+    "description": "Using <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> increases the next instance of direct spell or ability damage within <span class=\"item-number\">5</span> seconds by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Using Chaos Rush increases the next instance of direct spell or ability damage within 5 seconds by 25%.",
+    "iconPath": "interface/icons/70_inscription_glyph_demonhunter_minor",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524947,
+    "spellIds": [
+      524947
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5685
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524947,
+        "description": "Using <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> increases the next instance of direct spell or ability damage within <span class=\"item-number\">5</span> seconds by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Using Chaos Rush increases the next instance of direct spell or ability damage within 5 seconds by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30301,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Anti-Magic",
+    "description": "When <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> is removed from you, you now reduce <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> of all Magic Damage taken for <span class=\"item-number\">8</span> seconds.<br /><br />In addition, <span style=\"color: #FFFFFF; display: inline\">Hateforged Barrier</span> now heals for an additional <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health each tick.",
+    "descriptionText": "When Hateforged Barrier is removed from you, you now reduce -10% of all Magic Damage taken for 8 seconds.\n\nIn addition, Hateforged Barrier now heals for an additional 2% of your maximum health each tick.",
+    "iconPath": "interface/icons/spell_shadow_antimagicshell",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560822,
+    "spellIds": [
+      560822
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5210,
+      11210,
+      33671
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560822,
+        "description": "When <span style=\"color: #ffffff; display: inline\">Hateforged Barrier</span> is removed from you, you now reduce <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> of all Magic Damage taken for <span class=\"item-number\">8</span> seconds.<br /><br />In addition, <span style=\"color: #FFFFFF; display: inline\">Hateforged Barrier</span> now heals for an additional <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health each tick.",
+        "descriptionText": "When Hateforged Barrier is removed from you, you now reduce -10% of all Magic Damage taken for 8 seconds.\n\nIn addition, Hateforged Barrier now heals for an additional 2% of your maximum health each tick."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29924,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Illidan's Guile",
+    "description": "Gorge on fel energy, becoming immune to all physical attacks and spells for <span class=\"item-number\">8</span> seconds, but during that time you cannot attack, move or cast spells.<br /><br />At the end of the duration, your next <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> within <span class=\"item-number\">5</span> seconds now dashes an additional <span class=\"item-number\">20</span> yds.",
+    "descriptionText": "Gorge on fel energy, becoming immune to all physical attacks and spells for 8 seconds, but during that time you cannot attack, move or cast spells.\n\nAt the end of the duration, your next Chaos Rush within 5 seconds now dashes an additional 20 yds.",
+    "iconPath": "interface/icons/inv_misc_qirajicrystal_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806109,
+    "spellIds": [
+      806109
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33668,
+      34212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806109,
+        "description": "Gorge on fel energy, becoming immune to all physical attacks and spells for <span class=\"item-number\">8</span> seconds, but during that time you cannot attack, move or cast spells.<br /><br />At the end of the duration, your next <span style=\"color: #FFFFFF; display: inline\">Chaos Rush</span> within <span class=\"item-number\">5</span> seconds now dashes an additional <span class=\"item-number\">20</span> yds.",
+        "descriptionText": "Gorge on fel energy, becoming immune to all physical attacks and spells for 8 seconds, but during that time you cannot attack, move or cast spells.\n\nAt the end of the duration, your next Chaos Rush within 5 seconds now dashes an additional 20 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30552,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Felbane",
+    "description": "Curse an enemy, causing the next spell they cast within <span class=\"item-number\">4</span> seconds to be reflected onto them.",
+    "descriptionText": "Curse an enemy, causing the next spell they cast within 4 seconds to be reflected onto them.",
+    "iconPath": "interface/icons/5_warlock42_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525001,
+    "spellIds": [
+      525001
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29400,
+      34213
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525001,
+        "description": "Curse an enemy, causing the next spell they cast within <span class=\"item-number\">4</span> seconds to be reflected onto them.",
+        "descriptionText": "Curse an enemy, causing the next spell they cast within 4 seconds to be reflected onto them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30553,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Magic Fiend",
+    "description": "Increases the amount of beneficial magic effects stolen by your <span style=\"color: #ffffff; display: inline\">Consume Magic</span> by <span class=\"item-number\">1</span>.",
+    "descriptionText": "Increases the amount of beneficial magic effects stolen by your Consume Magic by 1.",
+    "iconPath": "interface/icons/spell_shadow_darksummoning",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704613,
+    "spellIds": [
+      704613
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31294
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704613,
+        "description": "Increases the amount of beneficial magic effects stolen by your <span style=\"color: #ffffff; display: inline\">Consume Magic</span> by <span class=\"item-number\">1</span>.",
+        "descriptionText": "Increases the amount of beneficial magic effects stolen by your Consume Magic by 1."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30554,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Hateforged Barrier",
+    "description": "Manifest a barrier of pure hatred, absorbing <span class=\"item-number\">120</span> + <span class=\"item-number\">200% Stamina</span> damage, scaling with your Stamina, for <span class=\"item-number\">10</span> seconds.<br /><br />While the barrier holds, you regenerate <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Manifest a barrier of pure hatred, absorbing 120 + 200% Stamina damage, scaling with your Stamina, for 10 seconds.\n\nWhile the barrier holds, you regenerate 2% of your maximum health every 2 sec.",
+    "iconPath": "interface/icons/spell_fire_felfireward",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705129,
+    "spellIds": [
+      705129
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705129,
+        "description": "Manifest a barrier of pure hatred, absorbing <span class=\"item-number\">120</span> + <span class=\"item-number\">200% Stamina</span> damage, scaling with your Stamina, for <span class=\"item-number\">10</span> seconds.<br /><br />While the barrier holds, you regenerate <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Manifest a barrier of pure hatred, absorbing 120 + 200% Stamina damage, scaling with your Stamina, for 10 seconds.\n\nWhile the barrier holds, you regenerate 2% of your maximum health every 2 sec."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30559,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Skull of Gul'dan",
+    "description": "Consume the essence of the skull of Gul'dan, increasing your maximum health and Energy by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Consume the essence of the skull of Gul'dan, increasing your maximum health and Energy by 20% for 10 seconds.",
+    "iconPath": "interface/icons/inv_offhand_1h_artifactskulloferedar_d_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800225,
+    "spellIds": [
+      800225
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7863,
+      34205
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800225,
+        "description": "Consume the essence of the skull of Gul'dan, increasing your maximum health and Energy by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Consume the essence of the skull of Gul'dan, increasing your maximum health and Energy by 20% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30565,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Pact Hunter",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Pacts</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Pacts by 50%.",
+    "iconPath": "interface/icons/ability_demonhunter_metamorphasistank",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704612,
+    "spellIds": [
+      704612
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29399,
+      30552
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704612,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Pacts</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Pacts by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33668,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Focused Hatred",
+    "description": "Reduces the cost of <span style=\"color: #ffffff; display: inline\">Manaburn</span> and <span style=\"color: #FFFFFF; display: inline\">Cripple</span> by <span class=\"item-number\">-10</span> Energy.",
+    "descriptionText": "Reduces the cost of Manaburn and Cripple by -10 Energy.",
+    "iconPath": "interface/icons/ability_demonhunter_feldevastation",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560573,
+    "spellIds": [
+      560573
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6868
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560573,
+        "description": "Reduces the cost of <span style=\"color: #ffffff; display: inline\">Manaburn</span> and <span style=\"color: #FFFFFF; display: inline\">Cripple</span> by <span class=\"item-number\">-10</span> Energy.",
+        "descriptionText": "Reduces the cost of Manaburn and Cripple by -10 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33670,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Embracing Evil",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Banes</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Banes by 20%.",
+    "iconPath": "interface/icons/_castercloak_fel",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800352,
+    "spellIds": [
+      800352
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34205
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800352,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Banes</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Banes by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33671,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Armaments of the Legion",
+    "description": "Reduces your chance to be hit by spells by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> and increases the absorption value of <span style=\"color: #FFFFFF; display: inline\">Hateforge Barrier</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces your chance to be hit by spells by -2% and increases the absorption value of Hateforge Barrier by 10%.",
+    "iconPath": "interface/icons/inv_plate_helmet_eredarargus_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706266,
+    "spellIds": [
+      706266,
+      707844
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      11227,
+      34227
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706266,
+        "description": "Reduces your chance to be hit by spells by <span class=\"item-number\">-2</span><span class=\"item-number\">%</span> and increases the absorption value of <span style=\"color: #FFFFFF; display: inline\">Hateforge Barrier</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces your chance to be hit by spells by -2% and increases the absorption value of Hateforge Barrier by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707844,
+        "description": "Reduces your chance to be hit by spells by <span class=\"item-number\">-4</span><span class=\"item-number\">%</span> and increases the absorption value of <span style=\"color: #FFFFFF; display: inline\">Hateforge Barrier</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces your chance to be hit by spells by -4% and increases the absorption value of Hateforge Barrier by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 33674,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Elemental Bane",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> while fighting Elementals.",
+    "descriptionText": "Increases your critical strike chance by 15% while fighting Elementals.",
+    "iconPath": "interface/icons/spell_fel_elementaldevastation",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704607,
+    "spellIds": [
+      704607
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34204
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704607,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> while fighting Elementals.",
+        "descriptionText": "Increases your critical strike chance by 15% while fighting Elementals."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29686,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Annihilation",
+    "description": "Gorge on fel energy, guaranteeing your next direct instance of damage to critically strike, but causing it to consume <span class=\"item-number\">5%</span> of your maximum health. Lasts for <span class=\"item-number\">5</span> attacks or <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Gorge on fel energy, guaranteeing your next direct instance of damage to critically strike, but causing it to consume 5% of your maximum health. Lasts for 5 attacks or 12 seconds.",
+    "iconPath": "interface/icons/ability_boss_lordanthricystgreen",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803904,
+    "spellIds": [
+      803904
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803904,
+        "description": "Gorge on fel energy, guaranteeing your next direct instance of damage to critically strike, but causing it to consume <span class=\"item-number\">5%</span> of your maximum health. Lasts for <span class=\"item-number\">5</span> attacks or <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Gorge on fel energy, guaranteeing your next direct instance of damage to critically strike, but causing it to consume 5% of your maximum health. Lasts for 5 attacks or 12 seconds."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 31294,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Cunning",
+    "description": "Reduces the duration of movement impairing effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the duration of movement impairing effects on you by -20%.",
+    "iconPath": "interface/icons/achievement_boss_hellfire_felreaver",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300465,
+    "spellIds": [
+      300465
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6423,
+      29924
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300465,
+        "description": "Reduces the duration of movement impairing effects on you by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the duration of movement impairing effects on you by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34203,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Demonic Evasion",
+    "description": "Increases your chance to dodge by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to dodge by 5%.",
+    "iconPath": "interface/icons/_monkspecialattack_dodgenightelf",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705108,
+    "spellIds": [
+      705108
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30554
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705108,
+        "description": "Increases your chance to dodge by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to dodge by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34204,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Warden's End",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Mana Burn</span> and <span style=\"color: #ffffff; display: inline\">Illidan's Guile</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Mana Burn and Illidan's Guile by -20%.",
+    "iconPath": "interface/icons/inv_fabric_felcloth_ebon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705125,
+    "spellIds": [
+      705125
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29924
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705125,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Mana Burn</span> and <span style=\"color: #ffffff; display: inline\">Illidan's Guile</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Mana Burn and Illidan's Guile by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34205,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Felwracked",
+    "description": "Every 3rd <span style=\"color: #ffffff; display: inline\">Twin Slice</span> or <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> within <span class=\"item-number\">15</span> seconds now generates <span class=\"item-number\">1</span> additional <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+    "descriptionText": "Every 3rd Twin Slice or Fel Fireball within 15 seconds now generates 1 additional Felfury.",
+    "iconPath": "interface/icons/spell_shadow_demoniccircleteleport",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704374,
+    "spellIds": [
+      704374
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34207
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704374,
+        "description": "Every 3rd <span style=\"color: #ffffff; display: inline\">Twin Slice</span> or <span style=\"color: #ffffff; display: inline\">Fel Fireball</span> within <span class=\"item-number\">15</span> seconds now generates <span class=\"item-number\">1</span> additional <span style=\"color: #32cd32; display: inline\">Felfury</span>.",
+        "descriptionText": "Every 3rd Twin Slice or Fel Fireball within 15 seconds now generates 1 additional Felfury."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34207,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Demonborn",
+    "description": "Increases your Energy regeneration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Energy regeneration by 10%.",
+    "iconPath": "interface/icons/nhi_unholyswing_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705102,
+    "spellIds": [
+      705102,
+      707842
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29367,
+      29686,
+      30554
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705102,
+        "description": "Increases your Energy regeneration by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy regeneration by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707842,
+        "description": "Increases your Energy regeneration by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy regeneration by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34211,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Felgorged",
+    "description": "Direct magical critical strikes now generate <span class=\"item-number\">5</span> Energy.",
+    "descriptionText": "Direct magical critical strikes now generate 5 Energy.",
+    "iconPath": "interface/icons/inv_leather_raiddemonhuntermythic_q_02helm",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704606,
+    "spellIds": [
+      704606
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7862
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704606,
+        "description": "Direct magical critical strikes now generate <span class=\"item-number\">5</span> Energy.",
+        "descriptionText": "Direct magical critical strikes now generate 5 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34212,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Felheart",
+    "description": "Each <span style=\"color: #32cd32; display: inline\">Felfury</span> active now increases your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each Felfury active now increases your haste by 1%.",
+    "iconPath": "interface/icons/inv_dhmount_felsaber",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301287,
+    "spellIds": [
+      301287
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6868,
+      33670
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301287,
+        "description": "Each <span style=\"color: #32cd32; display: inline\">Felfury</span> active now increases your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each Felfury active now increases your haste by 1%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34213,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Demonic Embrace",
+    "description": "Casting <span style=\"color: #32cd32; display: inline\">Inner Demon</span> now restores <span class=\"item-number\">30</span> Energy.",
+    "descriptionText": "Casting Inner Demon now restores 30 Energy.",
+    "iconPath": "interface/icons/ability_mage_worldinflamesgreen",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520257,
+    "spellIds": [
+      520257
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30559
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520257,
+        "description": "Casting <span style=\"color: #32cd32; display: inline\">Inner Demon</span> now restores <span class=\"item-number\">30</span> Energy.",
+        "descriptionText": "Casting Inner Demon now restores 30 Energy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 34227,
+    "classId": 14,
+    "className": "Felsworn",
+    "tabId": 87,
+    "tabKey": "14:87",
+    "tabName": "Class",
+    "name": "Gul'dan's Gift",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Skull of Gul'dan</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, but its cooldown is increased by <span class=\"item-number\">30</span> sec.",
+    "descriptionText": "Increases the effectiveness of your Skull of Gul'dan by 50%, but its cooldown is increased by 30 sec.",
+    "iconPath": "interface/icons/inv_staff_2h_guldan_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804609,
+    "spellIds": [
+      804609
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30552
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 178354,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804609,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Skull of Gul'dan</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, but its cooldown is increased by <span class=\"item-number\">30</span> sec.",
+        "descriptionText": "Increases the effectiveness of your Skull of Gul'dan by 50%, but its cooldown is increased by 30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

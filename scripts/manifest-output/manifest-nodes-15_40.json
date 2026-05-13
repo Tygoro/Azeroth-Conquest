@@ -1,0 +1,1718 @@
+[
+  {
+    "nodeId": 29159,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Houndmaster",
+    "description": "Using <span style=\"color: #ffffff; display: inline\">Houndmaster's Call</span> summons <span class=\"item-number\">1</span> lesser <span style=\"color: #ffffff; display: inline\">Shadow Hound</span> for <span class=\"item-number\">15</span> seconds that leaps at the target and deals <span class=\"item-number\">237</span> Shadow Damage.",
+    "descriptionText": "Using Houndmaster's Call summons 1 lesser Shadow Hound for 15 seconds that leaps at the target and deals 237 Shadow Damage.",
+    "iconPath": "interface/icons/_howlofterror_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705450,
+    "spellIds": [
+      705450
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7416,
+      29984,
+      34527
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705450,
+        "description": "Using <span style=\"color: #ffffff; display: inline\">Houndmaster's Call</span> summons <span class=\"item-number\">1</span> lesser <span style=\"color: #ffffff; display: inline\">Shadow Hound</span> for <span class=\"item-number\">15</span> seconds that leaps at the target and deals <span class=\"item-number\">237</span> Shadow Damage.",
+        "descriptionText": "Using Houndmaster's Call summons 1 lesser Shadow Hound for 15 seconds that leaps at the target and deals 237 Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29161,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Pure Agony",
+    "description": "Increases the critical damage of <span style=\"color: #FFFFFF; display: inline\">Quickdraw</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of Quickdraw by 50%.",
+    "iconPath": "interface/icons/ability_priest_darkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300789,
+    "spellIds": [
+      300789
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30396
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300789,
+        "description": "Increases the critical damage of <span style=\"color: #FFFFFF; display: inline\">Quickdraw</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of Quickdraw by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29162,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Reload",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Quickdraw</span> by <span class=\"item-number\">-4</span> sec.",
+    "descriptionText": "Reduces the cooldown of Quickdraw by -4 sec.",
+    "iconPath": "interface/icons/inv_bountyhunting",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804190,
+    "spellIds": [
+      804190
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29161
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804190,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804190,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Quickdraw</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Quickdraw by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29163,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Expulsion of Evil",
+    "description": "Direct ranged attacks and abilities now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Houndmaster's Call</span>.",
+    "descriptionText": "Direct ranged attacks and abilities now have a 5% chance to reset the cooldown of Houndmaster's Call.",
+    "iconPath": "interface/icons/_darkhand_sha",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 139778,
+    "spellIds": [
+      139778
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6334
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 139778,
+        "description": "Direct ranged attacks and abilities now have a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to reset the cooldown of <span style=\"color: #ffffff; display: inline\">Houndmaster's Call</span>.",
+        "descriptionText": "Direct ranged attacks and abilities now have a 5% chance to reset the cooldown of Houndmaster's Call."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7875,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Expert Shot",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shadowblast</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Shadowblast by 10% and your hit chance by 2%.",
+    "iconPath": "interface/icons/ability_hisek_aim",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705467,
+    "spellIds": [
+      705467,
+      707889
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9414
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705467,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shadowblast</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Shadowblast by 10% and your hit chance by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707889,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Shadowblast</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and your hit chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Shadowblast by 20% and your hit chance by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7414,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Unleash the Hounds",
+    "description": "Summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Lesser Shadow Hound</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Summon 1 Lesser Shadow Hound to aid you in combat for 20 seconds.",
+    "iconPath": "interface/icons/unleashthehounds",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807918,
+    "spellIds": [
+      807918
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807918,
+        "description": "Summon <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Lesser Shadow Hound</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Summon 1 Lesser Shadow Hound to aid you in combat for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7415,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Repulse",
+    "description": "Emit a burst of shadow from your musket that strikes up to <span class=\"item-number\">5</span> enemies in a <span class=\"item-number\">20</span> yd frontal cone, dealing <span class=\"item-number\">59</span> Shadow Damage and knocking all affected targets back.",
+    "descriptionText": "Emit a burst of shadow from your musket that strikes up to 5 enemies in a 20 yd frontal cone, dealing 59 Shadow Damage and knocking all affected targets back.",
+    "iconPath": "interface/icons/novart_magicspell_(26)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680236,
+    "spellIds": [
+      680236
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29162,
+      34527,
+      34528
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680236,
+        "description": "Emit a burst of shadow from your musket that strikes up to <span class=\"item-number\">5</span> enemies in a <span class=\"item-number\">20</span> yd frontal cone, dealing <span class=\"item-number\">59</span> Shadow Damage and knocking all affected targets back.",
+        "descriptionText": "Emit a burst of shadow from your musket that strikes up to 5 enemies in a 20 yd frontal cone, dealing 59 Shadow Damage and knocking all affected targets back."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7416,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Defender of Darkshire",
+    "description": "Critical strikes with ranged auto attacks now increase the melee haste of your <span style=\"color: #FFFFFF; display: inline\">Shadow Hounds</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Critical strikes with ranged auto attacks now increase the melee haste of your Shadow Hounds by 10% for 5 seconds.",
+    "iconPath": "interface/icons/5_shieldnobg_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705531,
+    "spellIds": [
+      705531
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6411,
+      30188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705531,
+        "description": "Critical strikes with ranged auto attacks now increase the melee haste of your <span style=\"color: #FFFFFF; display: inline\">Shadow Hounds</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Critical strikes with ranged auto attacks now increase the melee haste of your Shadow Hounds by 10% for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7417,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Darkflock",
+    "description": "Channel for <span class=\"item-number\">8</span> seconds, commanding a flock of crows to deal <span class=\"item-number\">50</span> + <span class=\"item-number\">15% ranged AP</span> + <span class=\"item-number\">85% SP</span> Shadow Damage to enemies in a wide cone every <span class=\"item-number\">2</span> sec.",
+    "descriptionText": "Channel for 8 seconds, commanding a flock of crows to deal 50 + 15% ranged AP + 85% SP Shadow Damage to enemies in a wide cone every 2 sec.",
+    "iconPath": "interface/icons/custom_13_summon_raven_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520270,
+    "spellIds": [
+      520270
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34540
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520270,
+        "description": "Channel for <span class=\"item-number\">8</span> seconds, commanding a flock of crows to deal <span class=\"item-number\">50</span> + <span class=\"item-number\">15% ranged AP</span> + <span class=\"item-number\">85% SP</span> Shadow Damage to enemies in a wide cone every <span class=\"item-number\">2</span> sec.",
+        "descriptionText": "Channel for 8 seconds, commanding a flock of crows to deal 50 + 15% ranged AP + 85% SP Shadow Damage to enemies in a wide cone every 2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7418,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Trapper",
+    "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Trap</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of your Trap spells by -25%.",
+    "iconPath": "interface/icons/ability_hunter_steeltrap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681180,
+    "spellIds": [
+      681180
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7875
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681180,
+        "description": "Reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Trap</span> spells by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of your Trap spells by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7420,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Low Dawn",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sixfold Shot</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and causes it to channel <span class=\"item-number\">0.5</span> sec quicker.",
+    "descriptionText": "Increases the damage of Sixfold Shot by 25% and causes it to channel 0.5 sec quicker.",
+    "iconPath": "interface/icons/custom_gun_b_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680247,
+    "spellIds": [
+      680247
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31161,
+      34530,
+      34532
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680247,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sixfold Shot</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and causes it to channel <span class=\"item-number\">0.5</span> sec quicker.",
+        "descriptionText": "Increases the damage of Sixfold Shot by 25% and causes it to channel 0.5 sec quicker."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7422,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Rearmament",
+    "description": "Arm yourself against evil, resetting the cooldown of all <span style=\"color: #ffffff; display: inline\">Traps</span> and <span style=\"color: #FFFFFF; display: inline\">Decimate</span>.",
+    "descriptionText": "Arm yourself against evil, resetting the cooldown of all Traps and Decimate.",
+    "iconPath": "interface/icons/nhi_shadowbombs_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805738,
+    "spellIds": [
+      805738
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6379,
+      34532
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805738,
+        "description": "Arm yourself against evil, resetting the cooldown of all <span style=\"color: #ffffff; display: inline\">Traps</span> and <span style=\"color: #FFFFFF; display: inline\">Decimate</span>.",
+        "descriptionText": "Arm yourself against evil, resetting the cooldown of all Traps and Decimate."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7427,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Feast of Talons",
+    "description": "Striking at least <span class=\"item-number\">5</span> enemies with <span style=\"color: #ffffff; display: inline\">Darkflock</span> now causes you to unleash a flock of crows around each enemy struck, dealing <span class=\"item-number\">862875</span> + <span class=\"item-number\">78750% SP</span> + <span class=\"item-number\">45000% ranged AP</span> Twilight Damage over <span class=\"item-number\">9</span> seconds.",
+    "descriptionText": "Striking at least 5 enemies with Darkflock now causes you to unleash a flock of crows around each enemy struck, dealing 862875 + 78750% SP + 45000% ranged AP Twilight Damage over 9 seconds.",
+    "iconPath": "interface/icons/ability_mount_fireravengodmountpurple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500056,
+    "spellIds": [
+      500056
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500056,
+        "description": "Striking at least <span class=\"item-number\">5</span> enemies with <span style=\"color: #ffffff; display: inline\">Darkflock</span> now causes you to unleash a flock of crows around each enemy struck, dealing <span class=\"item-number\">862875</span> + <span class=\"item-number\">78750% SP</span> + <span class=\"item-number\">45000% ranged AP</span> Twilight Damage over <span class=\"item-number\">9</span> seconds.",
+        "descriptionText": "Striking at least 5 enemies with Darkflock now causes you to unleash a flock of crows around each enemy struck, dealing 862875 + 78750% SP + 45000% ranged AP Twilight Damage over 9 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7430,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Anguish",
+    "description": "Your Shadow Damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to reduce the channel time of your next <span style=\"color: #ffffff; display: inline\">Darkflock</span> within until cancelled by <span class=\"item-number\">0</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Shadow Damage dealt now has a 5% chance to reduce the channel time of your next Darkflock within until cancelled by 0%.",
+    "iconPath": "interface/icons/_demonhand_red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504742,
+    "spellIds": [
+      504742
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7417
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504742,
+        "description": "Your Shadow Damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to reduce the channel time of your next <span style=\"color: #ffffff; display: inline\">Darkflock</span> within until cancelled by <span class=\"item-number\">0</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Shadow Damage dealt now has a 5% chance to reduce the channel time of your next Darkflock within until cancelled by 0%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8005,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Lethal Pursuit",
+    "description": "<span style=\"color: #ffffff; display: inline\">Shadow Rage</span> now also grants your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased haste and it now stacks <span class=\"item-number\">3</span> additional times.",
+    "descriptionText": "Shadow Rage now also grants your Shadow Hounds 10% increased haste and it now stacks 3 additional times.",
+    "iconPath": "interface/icons/ability_ironmaidens_darkhunt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572530,
+    "spellIds": [
+      572530
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7420,
+      7422,
+      34531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572530,
+        "description": "<span style=\"color: #ffffff; display: inline\">Shadow Rage</span> now also grants your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased haste and it now stacks <span class=\"item-number\">3</span> additional times.",
+        "descriptionText": "Shadow Rage now also grants your Shadow Hounds 10% increased haste and it now stacks 3 additional times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9306,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Sharpshooter ",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Shadowblast</span> now regenerates <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Level 20 Passive\nCasting Shadowblast now regenerates 5% of your maximum mana.",
+    "iconPath": "interface/icons/spell_shadow_focusedpower",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705456,
+    "spellIds": [
+      705456
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4011
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705456,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Casting <span style=\"color: #ffffff; display: inline\">Shadowblast</span> now regenerates <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Level 20 Passive\nCasting Shadowblast now regenerates 5% of your maximum mana."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9307,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Dark Mind",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your critical strike rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 30 Passive\nIncreases your critical strike rating by 25% of your Intellect.",
+    "iconPath": "interface/icons/achievement_boss_korkrondarkshaman",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574148,
+    "spellIds": [
+      574148
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9306
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574148,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your critical strike rating by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 30 Passive\nIncreases your critical strike rating by 25% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9414,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Houndmaster's Call",
+    "description": "Command your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> to leap upon an enemy target, dealing two strikes for <span class=\"item-number\">1164</span> + <span class=\"item-number\">30% ranged AP</span> Shadow Damage.",
+    "descriptionText": "Command your Shadow Hounds to leap upon an enemy target, dealing two strikes for 1164 + 30% ranged AP Shadow Damage.",
+    "iconPath": "interface/icons/nhi_shadowroar_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802273,
+    "spellIds": [
+      802273
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7414
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802273,
+        "description": "Command your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> to leap upon an enemy target, dealing two strikes for <span class=\"item-number\">1164</span> + <span class=\"item-number\">30% ranged AP</span> Shadow Damage.",
+        "descriptionText": "Command your Shadow Hounds to leap upon an enemy target, dealing two strikes for 1164 + 30% ranged AP Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9967,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Sixfold Shot",
+    "description": "$4b",
+    "descriptionText": "$4b",
+    "iconPath": "interface/icons/custom_32_gun_shot_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500567,
+    "spellIds": [
+      500567
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4367
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500567,
+        "description": "$4c",
+        "descriptionText": "$4c"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31161,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Scent of Magic",
+    "description": "Critical strikes now apply <span style=\"color: #ffffff; display: inline\">Scent of Magic</span> to your <span style=\"color: #ffffff; display: inline\">Shadow Hound</span> for <span class=\"item-number\">15</span> seconds, causing their next <span style=\"color: #FFFFFF; display: inline\">Shadow Leap</span> to incur a <span class=\"item-number\">-10</span> sec reduced cooldown.",
+    "descriptionText": "Critical strikes now apply Scent of Magic to your Shadow Hound for 15 seconds, causing their next Shadow Leap to incur a -10 sec reduced cooldown.",
+    "iconPath": "interface/icons/artifactability_vengeancedemonhunter_painbringer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706260,
+    "spellIds": [
+      706260
+    ],
+    "requiredNodeIds": [
+      4011
+    ],
+    "connectedNodeIds": [
+      29159
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706260,
+        "description": "Critical strikes now apply <span style=\"color: #ffffff; display: inline\">Scent of Magic</span> to your <span style=\"color: #ffffff; display: inline\">Shadow Hound</span> for <span class=\"item-number\">15</span> seconds, causing their next <span style=\"color: #FFFFFF; display: inline\">Shadow Leap</span> to incur a <span class=\"item-number\">-10</span> sec reduced cooldown.",
+        "descriptionText": "Critical strikes now apply Scent of Magic to your Shadow Hound for 15 seconds, causing their next Shadow Leap to incur a -10 sec reduced cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30185,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Loksey's Journal",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Shadow Rage</span> by <span class=\"item-number\">15%</span> of your ranged attack power.",
+    "descriptionText": "Increases the damage of Shadow Rage by 15% of your ranged attack power.",
+    "iconPath": "interface/icons/_book1_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504903,
+    "spellIds": [
+      504903
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7416,
+      7430
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504903,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Shadow Rage</span> by <span class=\"item-number\">15%</span> of your ranged attack power.",
+        "descriptionText": "Increases the damage of Shadow Rage by 15% of your ranged attack power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30186,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Deal With The Devil",
+    "description": "Your and your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> critical damage dealt with Shadow Damage is increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, but the cost of your spells and abilities is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your and your Shadow Hounds critical damage dealt with Shadow Damage is increased by 50%, but the cost of your spells and abilities is increased by 25%.",
+    "iconPath": "interface/icons/custom_06_summon_demon_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680255,
+    "spellIds": [
+      680255
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7422
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680255,
+        "description": "Your and your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> critical damage dealt with Shadow Damage is increased by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>, but the cost of your spells and abilities is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your and your Shadow Hounds critical damage dealt with Shadow Damage is increased by 50%, but the cost of your spells and abilities is increased by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30188,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Decimate",
+    "description": "Empowers your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> for <span class=\"item-number\">20</span> seconds, granting them <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage and haste and allowing them to ignore Armor.",
+    "descriptionText": "Empowers your Shadow Hounds for 20 seconds, granting them 30% increased damage and haste and allowing them to ignore Armor.",
+    "iconPath": "interface/icons/nhi_foreshadowing_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804194,
+    "spellIds": [
+      804194
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7418,
+      29163
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804194,
+        "description": "Empowers your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> for <span class=\"item-number\">20</span> seconds, granting them <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased damage and haste and allowing them to ignore Armor.",
+        "descriptionText": "Empowers your Shadow Hounds for 20 seconds, granting them 30% increased damage and haste and allowing them to ignore Armor."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30396,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Quickdraw",
+    "description": "Unleash a quick shot, dealing <span class=\"item-number\">175</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">18</span> + <span class=\"item-number\">17.5% ranged AP</span> Physical Damage and generates Rage.<br /><br />Only usable after critically striking with an ability.",
+    "descriptionText": "Unleash a quick shot, dealing 175% Ranged Weapon Damage plus 18 + 17.5% ranged AP Physical Damage and generates Rage.\n\nOnly usable after critically striking with an ability.",
+    "iconPath": "interface/icons/custom_gun_b_05_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804193,
+    "spellIds": [
+      804193
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7875
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804193,
+        "description": "Unleash a quick shot, dealing <span class=\"item-number\">175</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">18</span> + <span class=\"item-number\">17.5% ranged AP</span> Physical Damage and generates Rage.<br /><br />Only usable after critically striking with an ability.",
+        "descriptionText": "Unleash a quick shot, dealing 175% Ranged Weapon Damage plus 18 + 17.5% ranged AP Physical Damage and generates Rage.\n\nOnly usable after critically striking with an ability."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29984,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Kennel Master",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash The Hounds</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to summon an additional <span style=\"color: #ffffff; display: inline\">Lesser Shadow Hound</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Casting Unleash The Hounds now has a 25% chance to summon an additional Lesser Shadow Hound for 15 seconds.",
+    "iconPath": "interface/icons/inv_box_petcarrier_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706365,
+    "spellIds": [
+      706365,
+      707891
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706365,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash The Hounds</span> now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to summon an additional <span style=\"color: #ffffff; display: inline\">Lesser Shadow Hound</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Casting Unleash The Hounds now has a 25% chance to summon an additional Lesser Shadow Hound for 15 seconds."
+      },
+      {
+        "rank": 2,
+        "spellId": 707891,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash The Hounds</span> now has a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to summon an additional <span style=\"color: #ffffff; display: inline\">Lesser Shadow Hound</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Casting Unleash The Hounds now has a 50% chance to summon an additional Lesser Shadow Hound for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34524,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Rampaging Hounds",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Shadow Hounds</span> melee attacks now cleave <span class=\"item-number\">1</span> additional nearby enemy.",
+    "descriptionText": "Your Shadow Hounds melee attacks now cleave 1 additional nearby enemy.",
+    "iconPath": "interface/icons/ability_hunter_sickem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 570726,
+    "spellIds": [
+      570726
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30185
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570726,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Shadow Hounds</span> melee attacks now cleave <span class=\"item-number\">1</span> additional nearby enemy.",
+        "descriptionText": "Your Shadow Hounds melee attacks now cleave 1 additional nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34527,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Hail of Gunfire",
+    "description": "Increases your ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your ranged haste by 10%.",
+    "iconPath": "interface/icons/_smallgun_orange",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804187,
+    "spellIds": [
+      804187
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6858,
+      30188
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804187,
+        "description": "Increases your ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your ranged haste by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34528,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Darkhunter",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Quickdraw</span> now additionally causes your next <span style=\"color: #ffffff; display: inline\">Darkslayer</span> within <span class=\"item-number\">15</span> seconds to be instant cast.",
+    "descriptionText": "Your Quickdraw now additionally causes your next Darkslayer within 15 seconds to be instant cast.",
+    "iconPath": "interface/icons/spell_shadow_shadesofdarkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503669,
+    "spellIds": [
+      503669
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29161
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 804190,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503669,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Quickdraw</span> now additionally causes your next <span style=\"color: #ffffff; display: inline\">Darkslayer</span> within <span class=\"item-number\">15</span> seconds to be instant cast.",
+        "descriptionText": "Your Quickdraw now additionally causes your next Darkslayer within 15 seconds to be instant cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34530,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Veiled in Darkness",
+    "description": "A veil of dark magic encircles you at all times, granting <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased Attack Power to party and raid members within <span class=\"item-number\">100</span> yds.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "A veil of dark magic encircles you at all times, granting 5% increased Attack Power to party and raid members within 100 yds.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/ability_priest_surgeofdarkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524854,
+    "spellIds": [
+      524854
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29159
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524854,
+        "description": "A veil of dark magic encircles you at all times, granting <span class=\"item-number\">5</span><span class=\"item-number\">%</span> increased Attack Power to party and raid members within <span class=\"item-number\">100</span> yds.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "A veil of dark magic encircles you at all times, granting 5% increased Attack Power to party and raid members within 100 yds.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34531,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Coordinated Killing",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash the Hounds</span> now casts <span style=\"color: #ffffff; display: inline\">Shadow Rage</span> on you for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_curseofshadow_border\" /><span class=\"name\">Shadow Rage</span></div><span class=\"desc\">Ranged auto attacks deal an additional <span class=\"item-number\">166</span> Shadow Damage.</span></div>",
+    "descriptionText": "Casting Unleash the Hounds now casts Shadow Rage on you for 10 seconds.\n\n---\n\nShadow RageRanged auto attacks deal an additional 166 Shadow Damage.",
+    "iconPath": "interface/icons/ability_revendreth_demonhunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705463,
+    "spellIds": [
+      705463
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31161,
+      34524
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705463,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Unleash the Hounds</span> now casts <span style=\"color: #ffffff; display: inline\">Shadow Rage</span> on you for <span class=\"item-number\">10</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_curseofshadow_border\" /><span class=\"name\">Shadow Rage</span></div><span class=\"desc\">Ranged auto attacks deal an additional <span class=\"item-number\">166</span> Shadow Damage.</span></div>",
+        "descriptionText": "Casting Unleash the Hounds now casts Shadow Rage on you for 10 seconds.\n\n---\n\nShadow RageRanged auto attacks deal an additional 166 Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34532,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Silver Bullets",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Darkslayer</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, increased by an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against Undead.",
+    "descriptionText": "Increases the damage of Darkslayer by 10%, increased by an additional 10% against Undead.",
+    "iconPath": "interface/icons/inv_misc_ammo_bullet_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 574149,
+    "spellIds": [
+      574149,
+      574163
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29159
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574149,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Darkslayer</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, increased by an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against Undead.",
+        "descriptionText": "Increases the damage of Darkslayer by 10%, increased by an additional 10% against Undead."
+      },
+      {
+        "rank": 2,
+        "spellId": 574163,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Darkslayer</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>, increased by an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> against Undead.",
+        "descriptionText": "Increases the damage of Darkslayer by 20%, increased by an additional 20% against Undead."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34540,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Dark Ranger",
+    "description": "Increases the Shadow Damage dealt by your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the Shadow Damage dealt by your Shadow Hounds by 5%.",
+    "iconPath": "interface/icons/achievement_leader_sylvanas",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705465,
+    "spellIds": [
+      705465,
+      707861
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6334
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705465,
+        "description": "Increases the Shadow Damage dealt by your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Shadow Damage dealt by your Shadow Hounds by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707861,
+        "description": "Increases the Shadow Damage dealt by your <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Shadow Damage dealt by your Shadow Hounds by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4367,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Daredevil",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />When you take damage that would reduce your health to <span class=\"item-number\">35%</span> or less, you summon <span class=\"item-number\">3</span> lesser <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> and reset the cooldown of <span style=\"color: #ffffff; display: inline\">Vault</span>.<br /><br />Can only occur once every <span class=\"item-number\">2</span> min.",
+    "descriptionText": "Level 40 Passive\nWhen you take damage that would reduce your health to 35% or less, you summon 3 lesser Shadow Hounds and reset the cooldown of Vault.\n\nCan only occur once every 2 min.",
+    "iconPath": "interface/icons/ability_rogue_bloodyeye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681173,
+    "spellIds": [
+      681173
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9307
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681173,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />When you take damage that would reduce your health to <span class=\"item-number\">35%</span> or less, you summon <span class=\"item-number\">3</span> lesser <span style=\"color: #ffffff; display: inline\">Shadow Hounds</span> and reset the cooldown of <span style=\"color: #ffffff; display: inline\">Vault</span>.<br /><br />Can only occur once every <span class=\"item-number\">2</span> min.",
+        "descriptionText": "Level 40 Passive\nWhen you take damage that would reduce your health to 35% or less, you summon 3 lesser Shadow Hounds and reset the cooldown of Vault.\n\nCan only occur once every 2 min."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6858,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Darkrider",
+    "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Shadowblast</span>, <span style=\"color: #ffffff; display: inline\">Vault</span>, and <span style=\"color: #ffffff; display: inline\">Unleash the Hounds</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Rage cost of Shadowblast, Vault, and Unleash the Hounds by -10.",
+    "iconPath": "interface/icons/inv_skeletalwarhorse_01_brown",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705453,
+    "spellIds": [
+      705453
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7418,
+      30396
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705453,
+        "description": "Reduces the Rage cost of <span style=\"color: #ffffff; display: inline\">Shadowblast</span>, <span style=\"color: #ffffff; display: inline\">Vault</span>, and <span style=\"color: #ffffff; display: inline\">Unleash the Hounds</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Rage cost of Shadowblast, Vault, and Unleash the Hounds by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6334,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Shadow Rage",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Shadowblast</span> now grants <span style=\"color: #ffffff; display: inline\">Shadow Rage</span> to your <span style=\"color: #ffffff; display: inline\">Shadow Hound</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_curseofshadow_border\" /><span class=\"name\">Shadow Rage</span></div><span class=\"desc\">Auto attacks have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to deal an additional <span class=\"item-number\">57*1+AP*0.07t</span> Shadow Damage. Lasts <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Casting Shadowblast now grants Shadow Rage to your Shadow Hound.\n\n---\n\nShadow RageAuto attacks have a 50% chance to deal an additional 57*1+AP*0.07t Shadow Damage. Lasts 15 seconds.",
+    "iconPath": "interface/icons/custom_t_curseofshadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705455,
+    "spellIds": [
+      705455
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9414
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705455,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Shadowblast</span> now grants <span style=\"color: #ffffff; display: inline\">Shadow Rage</span> to your <span style=\"color: #ffffff; display: inline\">Shadow Hound</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_curseofshadow_border\" /><span class=\"name\">Shadow Rage</span></div><span class=\"desc\">Auto attacks have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to deal an additional <span class=\"item-number\">57*1+AP*0.07t</span> Shadow Damage. Lasts <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Casting Shadowblast now grants Shadow Rage to your Shadow Hound.\n\n---\n\nShadow RageAuto attacks have a 50% chance to deal an additional 57*1+AP*0.07t Shadow Damage. Lasts 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6379,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Bringer of Darkness",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Repulse</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Vault</span> and makes your next cast within <span class=\"item-number\">6</span> seconds free of cost.",
+    "descriptionText": "Your Repulse now resets the cooldown of Vault and makes your next cast within 6 seconds free of cost.",
+    "iconPath": "interface/icons/uico_shadow_spell_04_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500101,
+    "spellIds": [
+      500101
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7415
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500101,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Repulse</span> now resets the cooldown of <span style=\"color: #ffffff; display: inline\">Vault</span> and makes your next cast within <span class=\"item-number\">6</span> seconds free of cost.",
+        "descriptionText": "Your Repulse now resets the cooldown of Vault and makes your next cast within 6 seconds free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6411,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Houndfeeder",
+    "description": "Increases the critical strike chance of you and your <span style=\"color: #ffffff; display: inline\">Shadow Hound</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of you and your Shadow Hound by 4%.",
+    "iconPath": "interface/icons/5_sumshadowwolf_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705477,
+    "spellIds": [
+      705477
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29163,
+      34540
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705477,
+        "description": "Increases the critical strike chance of you and your <span style=\"color: #ffffff; display: inline\">Shadow Hound</span> by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of you and your Shadow Hound by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4011,
+    "classId": 15,
+    "className": "Witch Hunter",
+    "tabId": 40,
+    "tabKey": "15:40",
+    "tabName": "Houndmaster",
+    "name": "Houndmaster",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your ranged auto attacks now generate Rage.<br /><br />In addition, teaches you <span style=\"color: #ffffff; display: inline\">Houndmaster's Whistle</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_wolfdraenormountshadow\" /><span class=\"name\">Houndmaster&#39;s Whistle</span></div><span class=\"desc\">Summons a permanent <span style=\"color: #ffffff; display: inline\">Shadowhound</span> companion to aid you in combat.<br /><br />Your <span style=\"color: #FFFFFF; display: inline\">Shadowhound</span> receives <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of healing done to you.</span></div>",
+    "descriptionText": "Level 10 Passive\nYour ranged auto attacks now generate Rage.\n\nIn addition, teaches you Houndmaster's Whistle.\n\n---\n\nHoundmaster's WhistleSummons a permanent Shadowhound companion to aid you in combat.\n\nYour Shadowhound receives 25% of healing done to you.",
+    "iconPath": "interface/icons/custom_14_summon_dogs_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92093,
+    "spellIds": [
+      92093
+    ],
+    "requiredNodeIds": [
+      30187
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92093,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Your ranged auto attacks now generate Rage.<br /><br />In addition, teaches you <span style=\"color: #ffffff; display: inline\">Houndmaster's Whistle</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_wolfdraenormountshadow\" /><span class=\"name\">Houndmaster&#39;s Whistle</span></div><span class=\"desc\">Summons a permanent <span style=\"color: #ffffff; display: inline\">Shadowhound</span> companion to aid you in combat.<br /><br />Your <span style=\"color: #FFFFFF; display: inline\">Shadowhound</span> receives <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of healing done to you.</span></div>",
+        "descriptionText": "Level 10 Passive\nYour ranged auto attacks now generate Rage.\n\nIn addition, teaches you Houndmaster's Whistle.\n\n---\n\nHoundmaster's WhistleSummons a permanent Shadowhound companion to aid you in combat.\n\nYour Shadowhound receives 25% of healing done to you."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

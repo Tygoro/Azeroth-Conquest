@@ -1,0 +1,1619 @@
+[
+  {
+    "nodeId": 6770,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Moonstone Hilt",
+    "description": "Increases your parry chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and block value by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your parry chance by 2% and block value by 15%.",
+    "iconPath": "interface/icons/inv_jewelcrafting_starofelune_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300250,
+    "spellIds": [
+      300250,
+      680757
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29656,
+      30665
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300250,
+        "description": "Increases your parry chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and block value by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your parry chance by 2% and block value by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 680757,
+        "description": "Increases your parry chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> and block value by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your parry chance by 5% and block value by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4043,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Moon Guard",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You now gain Intellect equal to your Strength.",
+    "descriptionText": "Level 10 Passive\nYou now gain Intellect equal to your Strength.",
+    "iconPath": "interface/icons/artifactability_balancedruid_newmoon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92132,
+    "spellIds": [
+      92132
+    ],
+    "requiredNodeIds": [
+      29642
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92132,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />You now gain Intellect equal to your Strength.",
+        "descriptionText": "Level 10 Passive\nYou now gain Intellect equal to your Strength."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7027,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Will of Elune",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Aspect of the Stars</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+    "descriptionText": "Damage dealt by Aspect of the Stars now strikes 2 additional nearby enemies.",
+    "iconPath": "interface/icons/inv_helm_cloth_warfrontsnightelfmythic_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680788,
+    "spellIds": [
+      680788
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33857
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680788,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Aspect of the Stars</span> now strikes <span class=\"item-number\">2</span> additional nearby enemies.",
+        "descriptionText": "Damage dealt by Aspect of the Stars now strikes 2 additional nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7701,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Dance In The Starlight",
+    "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Blanket of Stars</span> by <span class=\"item-number\">-10</span> sec.",
+    "descriptionText": "Reduces the cooldown of Blanket of Stars by -10 sec.",
+    "iconPath": "interface/icons/inv_helm_mask_fittedalpha_b_01_nightborne_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503637,
+    "spellIds": [
+      503637
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29651
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503637,
+        "description": "Reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Blanket of Stars</span> by <span class=\"item-number\">-10</span> sec.",
+        "descriptionText": "Reduces the cooldown of Blanket of Stars by -10 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7702,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Blade of the Moon",
+    "description": "Consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to transform <span style=\"color: #ffffff; display: inline\">Celestial Strike</span> into <span style=\"color: #ffffff; display: inline\">Moonblade</span> for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_artifactelune_d_01\" /><span class=\"name\">Moonblade</span></div><span class=\"desc\">Devastate an enemy, dealing <span class=\"item-number\">130</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">100% Intellect</span> Arcane Damage and regenerating <span class=\"item-number\">15%</span> missing mana.</span></div>",
+    "descriptionText": "Consuming Scattered Stars now has a 15% chance to transform Celestial Strike into Moonblade for 8 seconds.\n\n---\n\nMoonbladeDevastate an enemy, dealing 130% Weapon Damage plus 100% Intellect Arcane Damage and regenerating 15% missing mana.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactelune_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802680,
+    "spellIds": [
+      802680
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7703,
+      7704
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802680,
+        "description": "Consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to transform <span style=\"color: #ffffff; display: inline\">Celestial Strike</span> into <span style=\"color: #ffffff; display: inline\">Moonblade</span> for <span class=\"item-number\">8</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_artifactelune_d_01\" /><span class=\"name\">Moonblade</span></div><span class=\"desc\">Devastate an enemy, dealing <span class=\"item-number\">130</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">100% Intellect</span> Arcane Damage and regenerating <span class=\"item-number\">15%</span> missing mana.</span></div>",
+        "descriptionText": "Consuming Scattered Stars now has a 15% chance to transform Celestial Strike into Moonblade for 8 seconds.\n\n---\n\nMoonbladeDevastate an enemy, dealing 130% Weapon Damage plus 100% Intellect Arcane Damage and regenerating 15% missing mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7703,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Celestial Divination",
+    "description": "Increases your chance to dodge by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your chance to dodge by 5%.",
+    "iconPath": "interface/icons/achievement_faction_celestials",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560319,
+    "spellIds": [
+      560319
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33858
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560319,
+        "description": "Increases your chance to dodge by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your chance to dodge by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7704,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Moonflares",
+    "description": "Avoiding melee attacks will call down a <span style=\"color: #FFFFFF; display: inline\">Moonflare</span> at the attacker, dealing <span class=\"item-number\">66</span> Arcane damage.<br /><br />Can occur only once per second.",
+    "descriptionText": "Avoiding melee attacks will call down a Moonflare at the attacker, dealing 66 Arcane damage.\n\nCan occur only once per second.",
+    "iconPath": "interface/icons/5_moon_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560501,
+    "spellIds": [
+      560501
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29641,
+      33858
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560501,
+        "description": "Avoiding melee attacks will call down a <span style=\"color: #FFFFFF; display: inline\">Moonflare</span> at the attacker, dealing <span class=\"item-number\">66</span> Arcane damage.<br /><br />Can occur only once per second.",
+        "descriptionText": "Avoiding melee attacks will call down a Moonflare at the attacker, dealing 66 Arcane damage.\n\nCan occur only once per second."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7705,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Coalesced Resilience",
+    "description": "Reduces your damage taken by an amount equal to <span class=\"item-number\">1%</span> of your maximum mana.",
+    "descriptionText": "Reduces your damage taken by an amount equal to 1% of your maximum mana.",
+    "iconPath": "interface/icons/inv_belt_armor_nightborne_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680786,
+    "spellIds": [
+      680786
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7027,
+      7706
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680786,
+        "description": "Reduces your damage taken by an amount equal to <span class=\"item-number\">1%</span> of your maximum mana.",
+        "descriptionText": "Reduces your damage taken by an amount equal to 1% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7706,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starbound",
+    "description": "Increases your healing done and received by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, doubled while below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Increases your healing done and received by 10%, doubled while below 20% health.",
+    "iconPath": "interface/icons/ability_socererking_arcanereplication",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704787,
+    "spellIds": [
+      704787
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7713
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704787,
+        "description": "Increases your healing done and received by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, doubled while below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Increases your healing done and received by 10%, doubled while below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7707,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starlight Duelist",
+    "description": "Blocking or parrying an attack now increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "Blocking or parrying an attack now increases your damage dealt by 10% for 6 seconds.",
+    "iconPath": "interface/icons/inv_sword_1h_artifactfelomelorn_d_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805505,
+    "spellIds": [
+      805505
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30241
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805505,
+        "description": "Blocking or parrying an attack now increases your damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "Blocking or parrying an attack now increases your damage dealt by 10% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7712,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Font of Magic",
+    "description": "Each time you spend a cumulative <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your maximum mana, you heal for <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum health.",
+    "descriptionText": "Each time you spend a cumulative 100% of your maximum mana, you heal for 4% of your maximum health.",
+    "iconPath": "interface/icons/inv_gizmo_manasyphon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680742,
+    "spellIds": [
+      680742
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7706,
+      30654
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680742,
+        "description": "Each time you spend a cumulative <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your maximum mana, you heal for <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum health.",
+        "descriptionText": "Each time you spend a cumulative 100% of your maximum mana, you heal for 4% of your maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7713,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Cosmic Crown",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Aegis</span> spells by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of Aegis spells by 3 sec.",
+    "iconPath": "interface/icons/inv_jewelcrafting_70_cutgem03_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 804385,
+    "spellIds": [
+      804385,
+      807936
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33799,
+      33855
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804385,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Aegis</span> spells by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of Aegis spells by 3 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 807936,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Aegis</span> spells by <span class=\"item-number\">6</span> sec.",
+        "descriptionText": "Increases the duration of Aegis spells by 6 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7715,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Lunar Knight",
+    "description": "Increases the damage of your <span style=\"color: #FFFFFF; display: inline\">Moonblade</span> and <span style=\"color: #FFFFFF; display: inline\">Starsweep</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and their chance to critically strike by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of your Moonblade and Starsweep by 50% and their chance to critically strike by 20%.",
+    "iconPath": "interface/icons/inv_helm_plate_raiddeathknight_s_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680791,
+    "spellIds": [
+      680791
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7707,
+      30654
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680791,
+        "description": "Increases the damage of your <span style=\"color: #FFFFFF; display: inline\">Moonblade</span> and <span style=\"color: #FFFFFF; display: inline\">Starsweep</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> and their chance to critically strike by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of your Moonblade and Starsweep by 50% and their chance to critically strike by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7717,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Chosen of the Moon",
+    "description": "Become the chosen of the moon, reducing all Physical Damage taken by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and taunting all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Become the chosen of the moon, reducing all Physical Damage taken by -60% and taunting all enemies within 8 yds for 10 seconds.",
+    "iconPath": "interface/icons/inv_helm_plate_kthirrelic_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680755,
+    "spellIds": [
+      680755
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7705
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680755,
+        "description": "Become the chosen of the moon, reducing all Physical Damage taken by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and taunting all enemies within <span class=\"item-number\">8</span> yds for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Become the chosen of the moon, reducing all Physical Damage taken by -60% and taunting all enemies within 8 yds for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9245,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Asteroid Belt",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Every <span class=\"item-number\">15</span> sec, you now gain <span style=\"color: #ffffff; display: inline\">Asteroid Belt</span>.<br /><br />In addition, your hit rating is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Intellect and your expertise is increased by <span class=\"item-number\">8</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _d3arcaneorb\" /><span class=\"name\">Asteroid Belt</span></div><span class=\"desc\">Block rating, parry rating, and block value increased based on how much mana you had when this was applied for <span class=\"item-number\">15</span> seconds.</span></div>",
+    "descriptionText": "Level 20 Passive\nEvery 15 sec, you now gain Asteroid Belt.\n\nIn addition, your hit rating is increased by 5% of your Intellect and your expertise is increased by 8.\n\n---\n\nAsteroid BeltBlock rating, parry rating, and block value increased based on how much mana you had when this was applied for 15 seconds.",
+    "iconPath": "interface/icons/_d3arcaneorb",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574349,
+    "spellIds": [
+      574349
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4043
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574349,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Every <span class=\"item-number\">15</span> sec, you now gain <span style=\"color: #ffffff; display: inline\">Asteroid Belt</span>.<br /><br />In addition, your hit rating is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your Intellect and your expertise is increased by <span class=\"item-number\">8</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _d3arcaneorb\" /><span class=\"name\">Asteroid Belt</span></div><span class=\"desc\">Block rating, parry rating, and block value increased based on how much mana you had when this was applied for <span class=\"item-number\">15</span> seconds.</span></div>",
+        "descriptionText": "Level 20 Passive\nEvery 15 sec, you now gain Asteroid Belt.\n\nIn addition, your hit rating is increased by 5% of your Intellect and your expertise is increased by 8.\n\n---\n\nAsteroid BeltBlock rating, parry rating, and block value increased based on how much mana you had when this was applied for 15 seconds."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9247,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Lunar Knight",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your attack power.",
+    "descriptionText": "Level 30 Passive\nIncreases your Stamina by 10% and increases your spell damage by 25% of your attack power.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactheartofkure_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680748,
+    "spellIds": [
+      680748
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9245
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680748,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your attack power.",
+        "descriptionText": "Level 30 Passive\nIncreases your Stamina by 10% and increases your spell damage by 25% of your attack power."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9248,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Celestial Guard",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 40 Passive\nIncreases the effectiveness of consuming Scattered Stars by 50%.",
+    "iconPath": "interface/icons/inv_nightborneracialmount",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 574351,
+    "spellIds": [
+      574351
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9247
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574351,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of consuming <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 40 Passive\nIncreases the effectiveness of consuming Scattered Stars by 50%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 19699,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Moonlit Bulwark",
+    "description": "Grants you a shield for an amount equal to your maximum mana for <span class=\"item-number\">10</span> seconds. <br /><br />Usable while stunned.",
+    "descriptionText": "Grants you a shield for an amount equal to your maximum mana for 10 seconds. \n\nUsable while stunned.",
+    "iconPath": "interface/icons/ability_argus_blightorb",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805433,
+    "spellIds": [
+      805433
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7705,
+      7712,
+      7715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805433,
+        "description": "Grants you a shield for an amount equal to your maximum mana for <span class=\"item-number\">10</span> seconds. <br /><br />Usable while stunned.",
+        "descriptionText": "Grants you a shield for an amount equal to your maximum mana for 10 seconds. \n\nUsable while stunned."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 13248,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Dancing in the Moonlight",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Parrying an attack now regenerates <span class=\"item-number\">15</span> of your Energy and deals <span class=\"item-number\">65</span><span class=\"item-number\">%</span> Weapon Damage to the attacker.",
+    "descriptionText": "Level 50 Passive\nParrying an attack now regenerates 15 of your Energy and deals 65% Weapon Damage to the attacker.",
+    "iconPath": "interface/icons/spell_arcane_starfire",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807659,
+    "spellIds": [
+      807659
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9248
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807659,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Parrying an attack now regenerates <span class=\"item-number\">15</span> of your Energy and deals <span class=\"item-number\">65</span><span class=\"item-number\">%</span> Weapon Damage to the attacker.",
+        "descriptionText": "Level 50 Passive\nParrying an attack now regenerates 15 of your Energy and deals 65% Weapon Damage to the attacker."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30654,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Enchanted Aegis",
+    "description": "Your successful blocks now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.",
+    "descriptionText": "Your successful blocks now have a 50% chance to critically block for twice the normal amount.",
+    "iconPath": "interface/icons/spell_arcane_arcaneresilience",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704795,
+    "spellIds": [
+      704795
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29895
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704795,
+        "description": "Your successful blocks now have a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.",
+        "descriptionText": "Your successful blocks now have a 50% chance to critically block for twice the normal amount."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30665,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starsweep",
+    "description": "<span style=\"color: #66ccff; display: inline\">Consumes Scattered Stars</span><br />Sweep an enemy and all nearby enemies with your astral blade, dealing <span class=\"item-number\">33</span> + <span class=\"item-number\">30% AP</span> + <span class=\"item-number\">35% SP</span> Arcane Damage.<br /><br />Every <span style=\"color: #66ccff; display: inline\">Scattered Star</span> consumed reduces the cooldown of this spell by <span class=\"item-number\">-3</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_arcaneshardsfall_border\" /><span class=\"name\">Consume Scattered Stars</span></div><span class=\"desc\">Deals <span class=\"item-number\">85</span> + <span class=\"item-number\">15.22% SP</span> Arcane Damage and restores <span class=\"item-number\">8</span><span class=\"item-number\">%</span> maximum mana for each <span style=\"color: #66ccff; display: inline\">Scattered Star</span>.</span></div>",
+    "descriptionText": "Consumes Scattered Stars\nSweep an enemy and all nearby enemies with your astral blade, dealing 33 + 30% AP + 35% SP Arcane Damage.\n\nEvery Scattered Star consumed reduces the cooldown of this spell by -3 sec.\n\n---\n\nConsume Scattered StarsDeals 85 + 15.22% SP Arcane Damage and restores 8% maximum mana for each Scattered Star.",
+    "iconPath": "interface/icons/inv_sword_1h_warfrontsnightelf_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805550,
+    "spellIds": [
+      805550
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29896
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805550,
+        "description": "<span style=\"color: #66ccff; display: inline\">Consumes Scattered Stars</span><br />Sweep an enemy and all nearby enemies with your astral blade, dealing <span class=\"item-number\">33</span> + <span class=\"item-number\">30% AP</span> + <span class=\"item-number\">35% SP</span> Arcane Damage.<br /><br />Every <span style=\"color: #66ccff; display: inline\">Scattered Star</span> consumed reduces the cooldown of this spell by <span class=\"item-number\">-3</span> sec.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 custom_t_nhance_rpg_icons_arcaneshardsfall_border\" /><span class=\"name\">Consume Scattered Stars</span></div><span class=\"desc\">Deals <span class=\"item-number\">85</span> + <span class=\"item-number\">15.22% SP</span> Arcane Damage and restores <span class=\"item-number\">8</span><span class=\"item-number\">%</span> maximum mana for each <span style=\"color: #66ccff; display: inline\">Scattered Star</span>.</span></div>",
+        "descriptionText": "Consumes Scattered Stars\nSweep an enemy and all nearby enemies with your astral blade, dealing 33 + 30% AP + 35% SP Arcane Damage.\n\nEvery Scattered Star consumed reduces the cooldown of this spell by -3 sec.\n\n---\n\nConsume Scattered StarsDeals 85 + 15.22% SP Arcane Damage and restores 8% maximum mana for each Scattered Star."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29641,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starlit Finesse",
+    "description": "Increases your hit and critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your hit and critical strike chance by 3%.",
+    "iconPath": "interface/icons/inv_staff_2h_artifactelune_d_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 574350,
+    "spellIds": [
+      574350
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6770
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 574350,
+        "description": "Increases your hit and critical strike chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your hit and critical strike chance by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29651,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Improved Eclipse of Fury",
+    "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Eclipse of Fury</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Eclipse of Fury by 40%.",
+    "iconPath": "interface/icons/spell_arcane_arcane01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704793,
+    "spellIds": [
+      704793
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29656
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704793,
+        "description": "Increases the effectiveness of <span style=\"color: #FFFFFF; display: inline\">Eclipse of Fury</span> by <span class=\"item-number\">40</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Eclipse of Fury by 40%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29656,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Blanket of Stars",
+    "description": "Cover your shield in a blanket of stars for <span class=\"item-number\">8</span> seconds, increasing your block chance and block value by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Cover your shield in a blanket of stars for 8 seconds, increasing your block chance and block value by 100%.",
+    "iconPath": "interface/icons/inv_cosmicvoid_orb",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804381,
+    "spellIds": [
+      804381
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29896
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804381,
+        "description": "Cover your shield in a blanket of stars for <span class=\"item-number\">8</span> seconds, increasing your block chance and block value by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Cover your shield in a blanket of stars for 8 seconds, increasing your block chance and block value by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30239,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Astral Reconstitution",
+    "description": "Surround yourself with lunar light, causing <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of damage taken to be converted into mana for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Surround yourself with lunar light, causing 30% of damage taken to be converted into mana for 10 seconds.",
+    "iconPath": "interface/icons/inv_cosmicvoid_buff",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801155,
+    "spellIds": [
+      801155
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29641
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801155,
+        "description": "Surround yourself with lunar light, causing <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of damage taken to be converted into mana for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Surround yourself with lunar light, causing 30% of damage taken to be converted into mana for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30240,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Mooncharged Blades",
+    "description": "Blocking an attack allows your next <span style=\"color: #FFFFFF; display: inline\">Starsunder</span> to hit an additional nearby enemy and cost <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> less mana.",
+    "descriptionText": "Blocking an attack allows your next Starsunder to hit an additional nearby enemy and cost -30% less mana.",
+    "iconPath": "interface/icons/inv_sword_2h_warfrontsnightelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 536216,
+    "spellIds": [
+      536216
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7715
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 536216,
+        "description": "Blocking an attack allows your next <span style=\"color: #FFFFFF; display: inline\">Starsunder</span> to hit an additional nearby enemy and cost <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> less mana.",
+        "descriptionText": "Blocking an attack allows your next Starsunder to hit an additional nearby enemy and cost -30% less mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30241,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Vengeful Inspiration",
+    "description": "Increases your attack speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes critical strikes with melee attacks to apply a <span style=\"color: #66ccff; display: inline\">Scattered Star</span>.",
+    "descriptionText": "Increases your attack speed by 10% and causes critical strikes with melee attacks to apply a Scattered Star.",
+    "iconPath": "interface/icons/achievement_thenighthold_highbotanisttelam",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680784,
+    "spellIds": [
+      680784
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7702,
+      33848
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680784,
+        "description": "Increases your attack speed by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes critical strikes with melee attacks to apply a <span style=\"color: #66ccff; display: inline\">Scattered Star</span>.",
+        "descriptionText": "Increases your attack speed by 10% and causes critical strikes with melee attacks to apply a Scattered Star."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33799,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Shrouded Stars",
+    "description": "Reduces damage taken by all party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Reduces damage taken by all party and raid members by -3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/spell_holy_elunesgrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704785,
+    "spellIds": [
+      704785
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30239
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704785,
+        "description": "Reduces damage taken by all party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Reduces damage taken by all party and raid members by -3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33848,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Moonveil Screen",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Starsunder</span> and <span style=\"color: #FFFFFF; display: inline\">Moonflare</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Starsunder and Moonflare by 20%.",
+    "iconPath": "interface/icons/spell_nature_moonglow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680779,
+    "spellIds": [
+      680779
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7704
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680779,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Starsunder</span> and <span style=\"color: #FFFFFF; display: inline\">Moonflare</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Starsunder and Moonflare by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33851,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starcovered Night",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Blanket of Stars</span> by <span class=\"item-number\">4</span> sec.",
+    "descriptionText": "Increases the duration of Blanket of Stars by 4 sec.",
+    "iconPath": "interface/icons/inv_staff_2h_warfrontsnightelf_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503639,
+    "spellIds": [
+      503639
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7701,
+      33856
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503639,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Blanket of Stars</span> by <span class=\"item-number\">4</span> sec.",
+        "descriptionText": "Increases the duration of Blanket of Stars by 4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33855,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Pulsar Explosion",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Celestial Cleave</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and allows it to affect <span class=\"item-number\">1</span> additional enemies.",
+    "descriptionText": "Increases the damage of Celestial Cleave by 10% and allows it to affect 1 additional enemies.",
+    "iconPath": "interface/icons/inv_sword_121",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 704794,
+    "spellIds": [
+      704794,
+      707894
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33856
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704794,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Celestial Cleave</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and allows it to affect <span class=\"item-number\">1</span> additional enemies.",
+        "descriptionText": "Increases the damage of Celestial Cleave by 10% and allows it to affect 1 additional enemies."
+      },
+      {
+        "rank": 2,
+        "spellId": 707894,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Celestial Cleave</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and allows it to affect <span class=\"item-number\">2</span> additional enemies.",
+        "descriptionText": "Increases the damage of Celestial Cleave by 20% and allows it to affect 2 additional enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33856,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Tyrande's Guidance",
+    "description": "Increases the critical strike chance of your <span style=\"color: #FFFFFF; display: inline\">Starburst</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of your Starburst by 10%.",
+    "iconPath": "interface/icons/inv_weapon_shortblade_79",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704788,
+    "spellIds": [
+      704788
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29641,
+      29651
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704788,
+        "description": "Increases the critical strike chance of your <span style=\"color: #FFFFFF; display: inline\">Starburst</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of your Starburst by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33857,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starburst Invigoration",
+    "description": "Increases your Energy regeneration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Energy regeneration by 15%.",
+    "iconPath": "interface/icons/spell_shadow_manaburn",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704792,
+    "spellIds": [
+      704792
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33851,
+      33855
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704792,
+        "description": "Increases your Energy regeneration by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Energy regeneration by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33858,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Nebula",
+    "description": "Blocking enemy attacks now applies <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> to the attacker.",
+    "descriptionText": "Blocking enemy attacks now applies Scattered Stars to the attacker.",
+    "iconPath": "interface/icons/nhi_manashield_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300992,
+    "spellIds": [
+      300992
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30665
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300992,
+        "description": "Blocking enemy attacks now applies <span style=\"color: #66ccff; display: inline\">Scattered Stars</span> to the attacker.",
+        "descriptionText": "Blocking enemy attacks now applies Scattered Stars to the attacker."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29895,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Enduring Moon",
+    "description": "Critical strikes now increase the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Critical strikes now increase the target's spell damage taken by 10% for 15 seconds.",
+    "iconPath": "interface/icons/ability_racial_magicalresistance",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560440,
+    "spellIds": [
+      560440
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33799,
+      33848
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560440,
+        "description": "Critical strikes now increase the target's spell damage taken by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Critical strikes now increase the target's spell damage taken by 10% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29896,
+    "classId": 26,
+    "className": "Starcaller",
+    "tabId": 67,
+    "tabKey": "26:67",
+    "tabName": "Moon Guard",
+    "name": "Starburst",
+    "description": "<span style=\"color: #66ccff; display: inline\">Applies <span class=\"item-number\">1</span> Scattered Star Per Hit</span><br />Smash up to <span class=\"item-number\">8</span> enemies, dealing <span class=\"item-number\">2</span> + <span class=\"item-number\">30% arcane SP</span> + <span class=\"item-number\">15% AP</span> Arcane Damage, scaling with block value and maximum mana and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Consuming a <span style=\"color: #66ccff; display: inline\">Scattered Star</span> reduces the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Starburst</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Applies 1 Scattered Star Per Hit\nSmash up to 8 enemies, dealing 2 + 30% arcane SP + 15% AP Arcane Damage, scaling with block value and maximum mana and reducing their attack speed by -20% for 10 seconds.\n\nConsuming a Scattered Star reduces the remaining cooldown of Starburst by -2 sec.",
+    "iconPath": "interface/icons/ability_argus_soulburst",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801996,
+    "spellIds": [
+      801996
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801996,
+        "description": "<span style=\"color: #66ccff; display: inline\">Applies <span class=\"item-number\">1</span> Scattered Star Per Hit</span><br />Smash up to <span class=\"item-number\">8</span> enemies, dealing <span class=\"item-number\">2</span> + <span class=\"item-number\">30% arcane SP</span> + <span class=\"item-number\">15% AP</span> Arcane Damage, scaling with block value and maximum mana and reducing their attack speed by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.<br /><br />Consuming a <span style=\"color: #66ccff; display: inline\">Scattered Star</span> reduces the remaining cooldown of <span style=\"color: #ffffff; display: inline\">Starburst</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Applies 1 Scattered Star Per Hit\nSmash up to 8 enemies, dealing 2 + 30% arcane SP + 15% AP Arcane Damage, scaling with block value and maximum mana and reducing their attack speed by -20% for 10 seconds.\n\nConsuming a Scattered Star reduces the remaining cooldown of Starburst by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

@@ -1,0 +1,1760 @@
+[
+  {
+    "nodeId": 10571,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "J27 Upgrade",
+    "description": "Reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Nanobots</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and they now last <span class=\"item-number\">10</span> additional sec.",
+    "descriptionText": "Reduces the mana cost of your Nanobots by -10% and they now last 10 additional sec.",
+    "iconPath": "interface/icons/inv_vwmechanostrider_blue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301322,
+    "spellIds": [
+      301322
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5676
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301322,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301322,
+        "description": "Reduces the mana cost of your <span style=\"color: #ffffff; display: inline\">Nanobots</span> by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> and they now last <span class=\"item-number\">10</span> additional sec.",
+        "descriptionText": "Reduces the mana cost of your Nanobots by -10% and they now last 10 additional sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7402,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Trust the Science!",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Zap!</span> by <span class=\"item-number\">-5</span> sec and increases its healing done by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Zap! by -5 sec and increases its healing done by 20%.",
+    "iconPath": "interface/icons/spell_nature_lightningbolt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300653,
+    "spellIds": [
+      300653
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5989,
+      7918
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300653,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Zap!</span> by <span class=\"item-number\">-5</span> sec and increases its healing done by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Zap! by -5 sec and increases its healing done by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9428,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Improved Graftbolts",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Graftbolts</span> now stacks <span class=\"item-number\">2</span> additional times.",
+    "descriptionText": "Level 50 Passive\nYour Graftbolts now stacks 2 additional times.",
+    "iconPath": "interface/icons/inv_gizmo_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807748,
+    "spellIds": [
+      807748
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9429
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807748,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Your <span style=\"color: #ffffff; display: inline\">Graftbolts</span> now stacks <span class=\"item-number\">2</span> additional times.",
+        "descriptionText": "Level 50 Passive\nYour Graftbolts now stacks 2 additional times."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9429,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Graftbolts",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Effective healing done now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Graftbolts</span><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_engineering_90_toolbox_green\" /><span class=\"name\">Graftbolts</span></div><span class=\"desc\">Restores <span class=\"item-number\">15</span><span class=\"item-number\">%</span> maximum mana to your pet and increases the damage and healing done by your summons by a percentage equal to <span class=\"item-number\">5%</span> of your healing spell power for <span class=\"item-number\">6</span> seconds.</span></div>.",
+    "descriptionText": "Level 40 Passive\nEffective healing done now has a 25% chance to grant you Graftbolts\n\n---\n\nGraftboltsRestores 15% maximum mana to your pet and increases the damage and healing done by your summons by a percentage equal to 5% of your healing spell power for 6 seconds..",
+    "iconPath": "interface/icons/inv_engineering_90_toolbox_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 560785,
+    "spellIds": [
+      560785
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2429
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560785,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Effective healing done now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Graftbolts</span><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_engineering_90_toolbox_green\" /><span class=\"name\">Graftbolts</span></div><span class=\"desc\">Restores <span class=\"item-number\">15</span><span class=\"item-number\">%</span> maximum mana to your pet and increases the damage and healing done by your summons by a percentage equal to <span class=\"item-number\">5%</span> of your healing spell power for <span class=\"item-number\">6</span> seconds.</span></div>.",
+        "descriptionText": "Level 40 Passive\nEffective healing done now has a 25% chance to grant you Graftbolts\n\n---\n\nGraftboltsRestores 15% maximum mana to your pet and increases the damage and healing done by your summons by a percentage equal to 5% of your healing spell power for 6 seconds.."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7918,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Resourceful Tech",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Zap!</span> is now guaranteed to critically strike allies affected by <span style=\"color: #ffffff; display: inline\">Nanobots</span>.",
+    "descriptionText": "Your Zap! is now guaranteed to critically strike allies affected by Nanobots.",
+    "iconPath": "interface/icons/inv_gizmo_felironbomb",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560791,
+    "spellIds": [
+      560791
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5965,
+      29812
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560791,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Zap!</span> is now guaranteed to critically strike allies affected by <span style=\"color: #ffffff; display: inline\">Nanobots</span>.",
+        "descriptionText": "Your Zap! is now guaranteed to critically strike allies affected by Nanobots."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7921,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Field Medic",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance by 5%.",
+    "iconPath": "interface/icons/inv_mechagonspidertank_junker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560789,
+    "spellIds": [
+      560789
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29816
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560789,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7922,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Build: ZIGGI-6K",
+    "description": "Build <span style=\"color: #ffffff; display: inline\">ZIGGI-6K</span>, the latest in regenerative technology, to aid you in healing allies until dismissed.",
+    "descriptionText": "Build ZIGGI-6K, the latest in regenerative technology, to aid you in healing allies until dismissed.",
+    "iconPath": "interface/icons/inv_plate_mechagnome_c_01shoulder",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524840,
+    "spellIds": [
+      524840
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5978,
+      7921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524840,
+        "description": "Build <span style=\"color: #ffffff; display: inline\">ZIGGI-6K</span>, the latest in regenerative technology, to aid you in healing allies until dismissed.",
+        "descriptionText": "Build ZIGGI-6K, the latest in regenerative technology, to aid you in healing allies until dismissed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29812,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Emergency Circumvented",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Emergency Heal</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Emergency Heal by 10%.",
+    "iconPath": "interface/icons/spell_nature_protectionformnature",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805303,
+    "spellIds": [
+      805303
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805303,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Emergency Heal</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Emergency Heal by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29816,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Build: Restorative Beacon",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Throw down a restorative beacon for <span class=\"item-number\">15</span> seconds which projects a field in a <span class=\"item-number\">10</span> yd radius, healing up to <span class=\"item-number\">6</span> allies in the area for <span class=\"item-number\">47</span> every <span class=\"item-number\">3</span> sec.<br /><br />",
+    "descriptionText": "3 Charges, 15 sec recharge\nThrow down a restorative beacon for 15 seconds which projects a field in a 10 yd radius, healing up to 6 allies in the area for 47 every 3 sec.",
+    "iconPath": "interface/icons/spell_mekkatorque_bot_greenspring",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801801,
+    "spellIds": [
+      801801
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801801,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">3</span> Charges, <span class=\"item-number\">15</span> sec recharge</span><br />Throw down a restorative beacon for <span class=\"item-number\">15</span> seconds which projects a field in a <span class=\"item-number\">10</span> yd radius, healing up to <span class=\"item-number\">6</span> allies in the area for <span class=\"item-number\">47</span> every <span class=\"item-number\">3</span> sec.<br /><br />",
+        "descriptionText": "3 Charges, 15 sec recharge\nThrow down a restorative beacon for 15 seconds which projects a field in a 10 yd radius, healing up to 6 allies in the area for 47 every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30422,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Bandage Gun",
+    "description": "Healing from <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> now affects <span class=\"item-number\">2</span> additional allies near the primary target.",
+    "descriptionText": "Healing from Stim Augmentation now affects 2 additional allies near the primary target.",
+    "iconPath": "interface/icons/inv_engineering_pumpactionbandagegun",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705780,
+    "spellIds": [
+      705780
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5972,
+      30572
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 808009,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705780,
+        "description": "Healing from <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> now affects <span class=\"item-number\">2</span> additional allies near the primary target.",
+        "descriptionText": "Healing from Stim Augmentation now affects 2 additional allies near the primary target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30571,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Electromagnetic Resistors",
+    "description": "<span style=\"color: #FFFFFF; display: inline\">Nanobots</span> now grant a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to resist movement impairing effects for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Nanobots now grant a 30% chance to resist movement impairing effects for 15 seconds.",
+    "iconPath": "interface/icons/inv_manaforgedbarrier_yellow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560734,
+    "spellIds": [
+      560734
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5676
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 301322,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560734,
+        "description": "<span style=\"color: #FFFFFF; display: inline\">Nanobots</span> now grant a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to resist movement impairing effects for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Nanobots now grant a 30% chance to resist movement impairing effects for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30572,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Eureka!",
+    "description": "Direct healing critical strikes now reduce the cost of your next <span style=\"color: #FFFFFF; display: inline\">Repair Shot</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Direct healing critical strikes now reduce the cost of your next Repair Shot by -20% for 10 seconds.",
+    "iconPath": "interface/icons/achievement_character_gnome_male",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503552,
+    "spellIds": [
+      503552
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5979,
+      7921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503552,
+        "description": "Direct healing critical strikes now reduce the cost of your next <span style=\"color: #FFFFFF; display: inline\">Repair Shot</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Direct healing critical strikes now reduce the cost of your next Repair Shot by -20% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30573,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Build: Noise Box",
+    "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Noise Box</span> for <span class=\"item-number\">15</span> seconds that periodically unleashes screeching noise on enemies within <span class=\"item-number\">8</span> yds interrupting spellcasts and preventing spells of that school from being cast for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Build a Noise Box for 15 seconds that periodically unleashes screeching noise on enemies within 8 yds interrupting spellcasts and preventing spells of that school from being cast for 3 seconds.",
+    "iconPath": "interface/icons/5_engineerskill23_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807723,
+    "spellIds": [
+      807723
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6967,
+      6974,
+      30422
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807723,
+        "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Noise Box</span> for <span class=\"item-number\">15</span> seconds that periodically unleashes screeching noise on enemies within <span class=\"item-number\">8</span> yds interrupting spellcasts and preventing spells of that school from being cast for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Build a Noise Box for 15 seconds that periodically unleashes screeching noise on enemies within 8 yds interrupting spellcasts and preventing spells of that school from being cast for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30574,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Zap!",
+    "description": "Fires a long range zap of electricity that heals an ally for <span class=\"item-number\">194</span> + <span class=\"item-number\">63% healing</span>.<br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Repair Shot</span>.",
+    "descriptionText": "Fires a long range zap of electricity that heals an ally for 194 + 63% healing.\n\nScales with modifiers to Repair Shot.",
+    "iconPath": "interface/icons/nhi_lightning_empower_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680196,
+    "spellIds": [
+      680196
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6972,
+      30572
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680196,
+        "description": "Fires a long range zap of electricity that heals an ally for <span class=\"item-number\">194</span> + <span class=\"item-number\">63% healing</span>.<br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Repair Shot</span>.",
+        "descriptionText": "Fires a long range zap of electricity that heals an ally for 194 + 63% healing.\n\nScales with modifiers to Repair Shot."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30575,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Build: Battery Recharge Station",
+    "description": "$ab",
+    "descriptionText": "$ab",
+    "iconPath": "interface/icons/inv_engineering_815_uberspanner",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805308,
+    "spellIds": [
+      805308
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5980,
+      6974
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805308,
+        "description": "$ac",
+        "descriptionText": "$ac"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30577,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Cybernetic Revivification",
+    "description": "Allies within <span class=\"item-number\">100</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> more healing. Does not stack with similar effects.<br /><br />In addition, your <span style=\"color: #ffffff; display: inline\">Tremor Beacon</span> now dispels fear, charm, and sleep effects from <span class=\"item-number\">1</span> additional allies.",
+    "descriptionText": "Allies within 100 yds receive 6% more healing. Does not stack with similar effects.\n\nIn addition, your Tremor Beacon now dispels fear, charm, and sleep effects from 1 additional allies.",
+    "iconPath": "interface/icons/ability_racial_skeletonpinkie",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705811,
+    "spellIds": [
+      705811
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5676
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705811,
+        "description": "Allies within <span class=\"item-number\">100</span> yds receive <span class=\"item-number\">6</span><span class=\"item-number\">%</span> more healing. Does not stack with similar effects.<br /><br />In addition, your <span style=\"color: #ffffff; display: inline\">Tremor Beacon</span> now dispels fear, charm, and sleep effects from <span class=\"item-number\">1</span> additional allies.",
+        "descriptionText": "Allies within 100 yds receive 6% more healing. Does not stack with similar effects.\n\nIn addition, your Tremor Beacon now dispels fear, charm, and sleep effects from 1 additional allies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2429,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Beacon Charging",
+    "description": "$ad",
+    "descriptionText": "$ad",
+    "iconPath": "interface/icons/inv_plate_mechagnome_c_01helm",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 524834,
+    "spellIds": [
+      524834
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2609
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524834,
+        "description": "$ae",
+        "descriptionText": "$ae"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2609,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Scientific Nature",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your healing power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of Intellect and your critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your healing power by 20% of Intellect and your critical strike rating by 15% of Intellect.",
+    "iconPath": "interface/icons/nhi_chaoshealing_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705802,
+    "spellIds": [
+      705802
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4050
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705802,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your healing power by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of Intellect and your critical strike rating by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your healing power by 20% of Intellect and your critical strike rating by 15% of Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4050,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Stim Augmentation",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Teaches you <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_engineering_90_wormholegenerator\" /><span class=\"name\">Stim Augmentation</span></div><span class=\"desc\">Add a <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> to your gun for <span class=\"item-number\">1</span> hour, causing your direct healing abilities to heal up to <span class=\"item-number\">3</span> nearby allies for an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the amount healed.</span></div>",
+    "descriptionText": "Level 10 Passive\nTeaches you Stim Augmentation.\n\n---\n\nStim AugmentationAdd a Stim Augmentation to your gun for 1 hour, causing your direct healing abilities to heal up to 3 nearby allies for an additional 20% of the amount healed.",
+    "iconPath": "interface/icons/inv_engineering_reavesmodule",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92140,
+    "spellIds": [
+      92140
+    ],
+    "requiredNodeIds": [
+      29813
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92140,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Teaches you <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_engineering_90_wormholegenerator\" /><span class=\"name\">Stim Augmentation</span></div><span class=\"desc\">Add a <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> to your gun for <span class=\"item-number\">1</span> hour, causing your direct healing abilities to heal up to <span class=\"item-number\">3</span> nearby allies for an additional <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the amount healed.</span></div>",
+        "descriptionText": "Level 10 Passive\nTeaches you Stim Augmentation.\n\n---\n\nStim AugmentationAdd a Stim Augmentation to your gun for 1 hour, causing your direct healing abilities to heal up to 3 nearby allies for an additional 20% of the amount healed."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6966,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Master Builder",
+    "description": "Reduces the mana cost of all <span style=\"color: #ffffff; display: inline\">Build</span> abilities by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost of all Build abilities by -25%.",
+    "iconPath": "interface/icons/spell_frost_frostward",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807966,
+    "spellIds": [
+      807966
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807966,
+        "description": "Reduces the mana cost of all <span style=\"color: #ffffff; display: inline\">Build</span> abilities by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost of all Build abilities by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6967,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Stim Shots",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> now heals for an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the amount healed.",
+    "descriptionText": "Your Stim Augmentation now heals for an additional 10% of the amount healed.",
+    "iconPath": "interface/icons/spell_shadow_soothingkiss",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 808009,
+    "spellIds": [
+      808009
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5972,
+      30572
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 808009,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 808009,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> now heals for an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the amount healed.",
+        "descriptionText": "Your Stim Augmentation now heals for an additional 10% of the amount healed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6969,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Self-Sustaining Technology",
+    "description": "Damage or healing done by your pet or summons now heals you equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the value. <br /><br />In addition, damage or healing done by you now restores health and mana to your pet equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the value. <br /><br />Each of these effects can only occur once per sec.",
+    "descriptionText": "Damage or healing done by your pet or summons now heals you equal to 15% of the value. \n\nIn addition, damage or healing done by you now restores health and mana to your pet equal to 15% of the value. \n\nEach of these effects can only occur once per sec.",
+    "iconPath": "interface/icons/inv_engineering_gunpack",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705817,
+    "spellIds": [
+      705817
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5989,
+      6333
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705817,
+        "description": "Damage or healing done by your pet or summons now heals you equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the value. <br /><br />In addition, damage or healing done by you now restores health and mana to your pet equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the value. <br /><br />Each of these effects can only occur once per sec.",
+        "descriptionText": "Damage or healing done by your pet or summons now heals you equal to 15% of the value. \n\nIn addition, damage or healing done by you now restores health and mana to your pet equal to 15% of the value. \n\nEach of these effects can only occur once per sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6971,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Nanobot Cleanser",
+    "description": "Send <span style=\"color: #ffffff; display: inline\">Nanobots</span> to an ally removing <span class=\"item-number\">1</span> poison and disease effect every <span class=\"item-number\">3</span> sec for up to <span class=\"item-number\">15</span> seconds.<br /><br /><span style=\"color: #ffffff; display: inline\">Nanobot Cleanser</span> can only be sent to <span class=\"item-number\">1</span> target at a time and can't be dispelled.",
+    "descriptionText": "Send Nanobots to an ally removing 1 poison and disease effect every 3 sec for up to 15 seconds.\n\nNanobot Cleanser can only be sent to 1 target at a time and can't be dispelled.",
+    "iconPath": "interface/icons/spell_holy_dizzy",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 502537,
+    "spellIds": [
+      502537
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10571,
+      30571,
+      30577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 502537,
+        "description": "Send <span style=\"color: #ffffff; display: inline\">Nanobots</span> to an ally removing <span class=\"item-number\">1</span> poison and disease effect every <span class=\"item-number\">3</span> sec for up to <span class=\"item-number\">15</span> seconds.<br /><br /><span style=\"color: #ffffff; display: inline\">Nanobot Cleanser</span> can only be sent to <span class=\"item-number\">1</span> target at a time and can't be dispelled.",
+        "descriptionText": "Send Nanobots to an ally removing 1 poison and disease effect every 3 sec for up to 15 seconds.\n\nNanobot Cleanser can only be sent to 1 target at a time and can't be dispelled."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6972,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Improved Emergency Heal",
+    "description": "Increases the healing and reduces the mana cost of <span style=\"color: #ffffff; display: inline\">Emergency Heal</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the healing and reduces the mana cost of Emergency Heal by -20%.",
+    "iconPath": "interface/icons/spell_holy_sealofsacrifice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504918,
+    "spellIds": [
+      504918
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30572
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504918,
+        "description": "Increases the healing and reduces the mana cost of <span style=\"color: #ffffff; display: inline\">Emergency Heal</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing and reduces the mana cost of Emergency Heal by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6973,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Macro Designer",
+    "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Beacons</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of your Beacons by 5 sec.",
+    "iconPath": "interface/icons/5_atom_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 505230,
+    "spellIds": [
+      505230
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5978,
+      6966
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 505230,
+        "description": "Increases the duration of your <span style=\"color: #ffffff; display: inline\">Beacons</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of your Beacons by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6974,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Fine Tuning",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />In addition, not critically healing now increases your critical strike chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times, until your next effective critical heal.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.\n\nIn addition, not critically healing now increases your critical strike chance by 1%, stacking 10 times, until your next effective critical heal.",
+    "iconPath": "interface/icons/uico_mecha_spell_09_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300877,
+    "spellIds": [
+      300877
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5980,
+      6967,
+      30422
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300877,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />In addition, not critically healing now increases your critical strike chance by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times, until your next effective critical heal.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.\n\nIn addition, not critically healing now increases your critical strike chance by 1%, stacking 10 times, until your next effective critical heal."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6975,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Nanobot Swarm",
+    "description": "Send <span style=\"color: #ffffff; display: inline\">Nanobots</span> to an ally, dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">17.1% SP</span> damage to enemies within <span class=\"item-number\">5</span> yds of them every <span class=\"item-number\">4</span> sec for <span class=\"item-number\">1</span> minute. All threat generated by you is redirected to the target.<br /><br /><span style=\"color: #ffffff; display: inline\">Nanobot Swarm</span> can only be sent to <span class=\"item-number\">1</span> target at time and cannot be dispelled.",
+    "descriptionText": "Send Nanobots to an ally, dealing 17 + 17.1% SP damage to enemies within 5 yds of them every 4 sec for 1 minute. All threat generated by you is redirected to the target.\n\nNanobot Swarm can only be sent to 1 target at time and cannot be dispelled.",
+    "iconPath": "interface/icons/inv_eng_miniaturizedplasmashield",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801709,
+    "spellIds": [
+      801709
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6973
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801709,
+        "description": "Send <span style=\"color: #ffffff; display: inline\">Nanobots</span> to an ally, dealing <span class=\"item-number\">17</span> + <span class=\"item-number\">17.1% SP</span> damage to enemies within <span class=\"item-number\">5</span> yds of them every <span class=\"item-number\">4</span> sec for <span class=\"item-number\">1</span> minute. All threat generated by you is redirected to the target.<br /><br /><span style=\"color: #ffffff; display: inline\">Nanobot Swarm</span> can only be sent to <span class=\"item-number\">1</span> target at time and cannot be dispelled.",
+        "descriptionText": "Send Nanobots to an ally, dealing 17 + 17.1% SP damage to enemies within 5 yds of them every 4 sec for 1 minute. All threat generated by you is redirected to the target.\n\nNanobot Swarm can only be sent to 1 target at time and cannot be dispelled."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6976,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Emergency Enhancer",
+    "description": "<span style=\"color: #ffffff; display: inline\">Zap!</span> now causes your active <span style=\"color: #ffffff; display: inline\">Build</span> abilities to zap the lowest health nearby ally within <span class=\"item-number\">30</span> yds of them, healing them for <span class=\"item-number\">515</span> + <span class=\"item-number\">90% healing</span>.",
+    "descriptionText": "Zap! now causes your active Build abilities to zap the lowest health nearby ally within 30 yds of them, healing them for 515 + 90% healing.",
+    "iconPath": "interface/icons/spell_nature_purge",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560787,
+    "spellIds": [
+      560787
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7402
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560787,
+        "description": "<span style=\"color: #ffffff; display: inline\">Zap!</span> now causes your active <span style=\"color: #ffffff; display: inline\">Build</span> abilities to zap the lowest health nearby ally within <span class=\"item-number\">30</span> yds of them, healing them for <span class=\"item-number\">515</span> + <span class=\"item-number\">90% healing</span>.",
+        "descriptionText": "Zap! now causes your active Build abilities to zap the lowest health nearby ally within 30 yds of them, healing them for 515 + 90% healing."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6977,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Epiphany!",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Beacon</span> abilities now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">My Greatest Invention!</span> by <span class=\"item-number\">-20</span> sec.",
+    "descriptionText": "Casting Beacon abilities now reduces the cooldown of My Greatest Invention! by -20 sec.",
+    "iconPath": "interface/icons/nhi_tech_robot_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560782,
+    "spellIds": [
+      560782
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6979
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560782,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Beacon</span> abilities now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">My Greatest Invention!</span> by <span class=\"item-number\">-20</span> sec.",
+        "descriptionText": "Casting Beacon abilities now reduces the cooldown of My Greatest Invention! by -20 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6979,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "My Greatest Invention!",
+    "description": "Show off your <span style=\"color: #ffffff; display: inline\">Greatest Invention</span>, healing party and raid members in a <span class=\"item-number\">30</span> yd radius for <span class=\"item-number\">535</span> + <span class=\"item-number\">65% healing</span> every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">9</span> seconds.",
+    "descriptionText": "Show off your Greatest Invention, healing party and raid members in a 30 yd radius for 535 + 65% healing every 2 sec for 9 seconds.",
+    "iconPath": "interface/icons/achievement_alliedrace_mechagnome",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560744,
+    "spellIds": [
+      560744
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6333,
+      6971
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560744,
+        "description": "Show off your <span style=\"color: #ffffff; display: inline\">Greatest Invention</span>, healing party and raid members in a <span class=\"item-number\">30</span> yd radius for <span class=\"item-number\">535</span> + <span class=\"item-number\">65% healing</span> every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">9</span> seconds.",
+        "descriptionText": "Show off your Greatest Invention, healing party and raid members in a 30 yd radius for 535 + 65% healing every 2 sec for 9 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5676,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Healing Radiator",
+    "description": "Periodic healing done by <span style=\"color: #ffffff; display: inline\">Nanobot Reconstruction</span> now restores <span class=\"item-number\">32</span> + <span class=\"item-number\">4.03% healing</span> health to <span class=\"item-number\">5</span> allied players around the affected target.",
+    "descriptionText": "Periodic healing done by Nanobot Reconstruction now restores 32 + 4.03% healing health to 5 allied players around the affected target.",
+    "iconPath": "interface/icons/ability_monk_chiexplosion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705846,
+    "spellIds": [
+      705846
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6973,
+      6975
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705846,
+        "description": "Periodic healing done by <span style=\"color: #ffffff; display: inline\">Nanobot Reconstruction</span> now restores <span class=\"item-number\">32</span> + <span class=\"item-number\">4.03% healing</span> health to <span class=\"item-number\">5</span> allied players around the affected target.",
+        "descriptionText": "Periodic healing done by Nanobot Reconstruction now restores 32 + 4.03% healing health to 5 allied players around the affected target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5965,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Growth Module",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Zap!</span> now apply <span style=\"color: #FFFFFF; display: inline\">Rejuvenating Gas</span> to up to <span class=\"item-number\">12</span> allies within <span class=\"item-number\">8</span> yards of your target that restores <span class=\"item-number\">15%</span> of the value of the shot as health every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Critical strikes with Zap! now apply Rejuvenating Gas to up to 12 allies within 8 yards of your target that restores 15% of the value of the shot as health every 2 sec for 10 seconds.",
+    "iconPath": "interface/icons/inv_misc_enggizmos_21",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805306,
+    "spellIds": [
+      805306
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805306,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Zap!</span> now apply <span style=\"color: #FFFFFF; display: inline\">Rejuvenating Gas</span> to up to <span class=\"item-number\">12</span> allies within <span class=\"item-number\">8</span> yards of your target that restores <span class=\"item-number\">15%</span> of the value of the shot as health every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Critical strikes with Zap! now apply Rejuvenating Gas to up to 12 allies within 8 yards of your target that restores 15% of the value of the shot as health every 2 sec for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5972,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Module Belt",
+    "description": "Increases your Intellect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and you are now unable to miss your attacks.",
+    "descriptionText": "Increases your Intellect by 10% and you are now unable to miss your attacks.",
+    "iconPath": "interface/icons/inv_belt_83",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560742,
+    "spellIds": [
+      560742
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7922
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560742,
+        "description": "Increases your Intellect by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and you are now unable to miss your attacks.",
+        "descriptionText": "Increases your Intellect by 10% and you are now unable to miss your attacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5978,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Over-Repaired",
+    "description": "Increases the healing done by <span style=\"color: #ffffff; display: inline\">Repair Shot</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the healing done by Repair Shot by 15%.",
+    "iconPath": "interface/icons/ability_repair",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 807498,
+    "spellIds": [
+      807498,
+      807897
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29816
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807498,
+        "description": "Increases the healing done by <span style=\"color: #ffffff; display: inline\">Repair Shot</span> by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing done by Repair Shot by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807897,
+        "description": "Increases the healing done by <span style=\"color: #ffffff; display: inline\">Repair Shot</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing done by Repair Shot by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5979,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Technician",
+    "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span> and increases your critical healing by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces spell pushback suffered from damaging attacks by 35% and increases your critical healing by 10%.",
+    "iconPath": "interface/icons/inv_misc_enggizmos_30",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560735,
+    "spellIds": [
+      560735,
+      561341
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7921
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560735,
+        "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">35</span><span class=\"item-number\">%</span> and increases your critical healing by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces spell pushback suffered from damaging attacks by 35% and increases your critical healing by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561341,
+        "description": "Reduces spell pushback suffered from damaging attacks by <span class=\"item-number\">70</span><span class=\"item-number\">%</span> and increases your critical healing by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces spell pushback suffered from damaging attacks by 70% and increases your critical healing by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5980,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Stim Pack",
+    "description": "Effective healing with <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Med Pack</span> by <span class=\"item-number\">-3</span> sec.",
+    "descriptionText": "Effective healing with Stim Augmentation now reduces the cooldown of Med Pack by -3 sec.",
+    "iconPath": "interface/icons/inv_jewelry_mech_ring_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807531,
+    "spellIds": [
+      807531
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5972,
+      6973
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807531,
+        "description": "Effective healing with <span style=\"color: #ffffff; display: inline\">Stim Augmentation</span> now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Med Pack</span> by <span class=\"item-number\">-3</span> sec.",
+        "descriptionText": "Effective healing with Stim Augmentation now reduces the cooldown of Med Pack by -3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5982,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Combat Symbiosis",
+    "description": "Electrify an allies' body, increasing their haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causing damage dealt by them to heal allies within <span class=\"item-number\">8</span> yds of them for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the value. Lasts for <span class=\"item-number\">15</span> seconds, or <span class=\"item-number\">20</span> attacks.",
+    "descriptionText": "Electrify an allies' body, increasing their haste by 20% and causing damage dealt by them to heal allies within 8 yds of them for 15% of the value. Lasts for 15 seconds, or 20 attacks.",
+    "iconPath": "interface/icons/nhi_lightning_soul_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805305,
+    "spellIds": [
+      805305
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6969,
+      6979,
+      7402
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805305,
+        "description": "Electrify an allies' body, increasing their haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and causing damage dealt by them to heal allies within <span class=\"item-number\">8</span> yds of them for <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the value. Lasts for <span class=\"item-number\">15</span> seconds, or <span class=\"item-number\">20</span> attacks.",
+        "descriptionText": "Electrify an allies' body, increasing their haste by 20% and causing damage dealt by them to heal allies within 8 yds of them for 15% of the value. Lasts for 15 seconds, or 20 attacks."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5989,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Mana Capacitors",
+    "description": "Reduces the cost of <span style=\"color: #FFFFFF; display: inline\">Overcharge</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and reduces its cooldown by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of Overcharge by -15% and reduces its cooldown by -10%.",
+    "iconPath": "interface/icons/ability_siege_engineer_pattern_recognition",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 506818,
+    "spellIds": [
+      506818,
+      506825
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5965,
+      30573
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 506818,
+        "description": "Reduces the cost of <span style=\"color: #FFFFFF; display: inline\">Overcharge</span> by <span class=\"item-number\">-15</span><span class=\"item-number\">%</span> and reduces its cooldown by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of Overcharge by -15% and reduces its cooldown by -10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 506825,
+        "description": "Reduces the cost of <span style=\"color: #FFFFFF; display: inline\">Overcharge</span> by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and reduces its cooldown by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of Overcharge by -30% and reduces its cooldown by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6333,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 74,
+    "tabKey": "28:74",
+    "tabName": "Invention",
+    "name": "Rapid Fire Healing",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Repair Shot</span> or <span style=\"color: #ffffff; display: inline\">Emergency Heal</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to refresh a charge of <span style=\"color: #ffffff; display: inline\">Beacons</span>.",
+    "descriptionText": "Casting Repair Shot or Emergency Heal now has a 15% chance to refresh a charge of Beacons.",
+    "iconPath": "interface/icons/_ingenieurbelt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705803,
+    "spellIds": [
+      705803
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30575,
+      30577
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705803,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Repair Shot</span> or <span style=\"color: #ffffff; display: inline\">Emergency Heal</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to refresh a charge of <span style=\"color: #ffffff; display: inline\">Beacons</span>.",
+        "descriptionText": "Casting Repair Shot or Emergency Heal now has a 15% chance to refresh a charge of Beacons."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

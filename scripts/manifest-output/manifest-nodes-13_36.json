@@ -1,0 +1,1948 @@
+[
+  {
+    "nodeId": 29729,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Strength of Da Loa",
+    "description": "Increases the attack power of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />In addition, health and mana restoration provided by your <span style=\"color: #FFFFFF; display: inline\">Spirits</span> now occurs <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> more often.",
+    "descriptionText": "Increases the attack power of party and raid members by 5%.\n\nDoes not stack with similar effects.\n\nIn addition, health and mana restoration provided by your Spirits now occurs -50% more often.",
+    "iconPath": "interface/icons/ability_racial_embraceoftheloa_bwonsomdi",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300871,
+    "spellIds": [
+      300871
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5303,
+      6983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300871,
+        "description": "Increases the attack power of party and raid members by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.<br /><br />In addition, health and mana restoration provided by your <span style=\"color: #FFFFFF; display: inline\">Spirits</span> now occurs <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> more often.",
+        "descriptionText": "Increases the attack power of party and raid members by 5%.\n\nDoes not stack with similar effects.\n\nIn addition, health and mana restoration provided by your Spirits now occurs -50% more often."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30892,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Call of Sseratus",
+    "description": "Summon <span class=\"item-number\">4</span> <span style=\"color: #FFFFFF; display: inline\">Serpent Wards</span> near you for <span class=\"item-number\">15</span> seconds.<br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Serpent Ward</span>.",
+    "descriptionText": "Summon 4 Serpent Wards near you for 15 seconds.\n\nScales with modifiers to Serpent Ward.",
+    "iconPath": "interface/icons/5_sumsnakearmy_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681222,
+    "spellIds": [
+      681222
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6010,
+      6072
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681222,
+        "description": "Summon <span class=\"item-number\">4</span> <span style=\"color: #FFFFFF; display: inline\">Serpent Wards</span> near you for <span class=\"item-number\">15</span> seconds.<br /><br />Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Serpent Ward</span>.",
+        "descriptionText": "Summon 4 Serpent Wards near you for 15 seconds.\n\nScales with modifiers to Serpent Ward."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30895,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Soul Feeder",
+    "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each active <span style=\"color: #ffffff; display: inline\">Spirit</span> on you.",
+    "descriptionText": "Increases the damage dealt by Malefic Arrow by 5% for each active Spirit on you.",
+    "iconPath": "interface/icons/inv_glaive_1h_warfrontsforsaken_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705894,
+    "spellIds": [
+      705894
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705894,
+        "description": "Increases the damage dealt by <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each active <span style=\"color: #ffffff; display: inline\">Spirit</span> on you.",
+        "descriptionText": "Increases the damage dealt by Malefic Arrow by 5% for each active Spirit on you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29930,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Dambala's Lethality",
+    "description": "After using <span style=\"color: #ffffff; display: inline\">Spirit Eclipse</span>, you reset the cooldown of <span style=\"color: #ffffff; display: inline\">Shadowflare</span> and increase the damage of your next <span style=\"color: #ffffff; display: inline\">Shadowflare</span> within <span class=\"item-number\">15</span> seconds by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "After using Spirit Eclipse, you reset the cooldown of Shadowflare and increase the damage of your next Shadowflare within 15 seconds by 20%.",
+    "iconPath": "interface/icons/ability_hunter_snaketrap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712312,
+    "spellIds": [
+      712312
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6073,
+      7031
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 378215,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712312,
+        "description": "After using <span style=\"color: #ffffff; display: inline\">Spirit Eclipse</span>, you reset the cooldown of <span style=\"color: #ffffff; display: inline\">Shadowflare</span> and increase the damage of your next <span style=\"color: #ffffff; display: inline\">Shadowflare</span> within <span class=\"item-number\">15</span> seconds by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "After using Spirit Eclipse, you reset the cooldown of Shadowflare and increase the damage of your next Shadowflare within 15 seconds by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29977,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spirit Shock",
+    "description": "Shock an enemy's spirit, silencing them for <span class=\"item-number\">4</span> seconds and interrupting non-player spellcasting for <span class=\"item-number\">4</span> seconds.",
+    "descriptionText": "Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds.",
+    "iconPath": "interface/icons/inv_helm_mail_raidshaman_m_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807743,
+    "spellIds": [
+      807743
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4177,
+      5303,
+      11177
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807743,
+        "description": "Shock an enemy's spirit, silencing them for <span class=\"item-number\">4</span> seconds and interrupting non-player spellcasting for <span class=\"item-number\">4</span> seconds.",
+        "descriptionText": "Shock an enemy's spirit, silencing them for 4 seconds and interrupting non-player spellcasting for 4 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29978,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Berserking",
+    "description": "Periodic damage dealt now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase the haste of your <span style=\"color: #ffffff; display: inline\">Serpent Wards</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+    "descriptionText": "Periodic damage dealt now has a 25% chance to increase the haste of your Serpent Wards by 3% for 15 seconds, stacking up to 3 times.",
+    "iconPath": "interface/icons/_troll_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705925,
+    "spellIds": [
+      705925
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5164,
+      11164
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705925,
+        "description": "Periodic damage dealt now has a <span class=\"item-number\">25</span><span class=\"item-number\">%</span> chance to increase the haste of your <span style=\"color: #ffffff; display: inline\">Serpent Wards</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking up to <span class=\"item-number\">3</span> times.",
+        "descriptionText": "Periodic damage dealt now has a 25% chance to increase the haste of your Serpent Wards by 3% for 15 seconds, stacking up to 3 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29981,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Serpent's Guile",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> now deals an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of its damage dealt every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">4</span> seconds as Nature Damage.",
+    "descriptionText": "Your Malefic Arrow now deals an additional 15% of its damage dealt every 1 sec for 4 seconds as Nature Damage.",
+    "iconPath": "interface/icons/inv_waepon_bow_zulgrub_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705928,
+    "spellIds": [
+      705928
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6011,
+      29978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705928,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> now deals an additional <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of its damage dealt every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">4</span> seconds as Nature Damage.",
+        "descriptionText": "Your Malefic Arrow now deals an additional 15% of its damage dealt every 1 sec for 4 seconds as Nature Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 1969,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Improved Malefic Arrow",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Reduces the cooldown of Malefic Arrow by -2 sec.",
+    "iconPath": "interface/icons/inv_misc_herb_arrowbloom",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 707855,
+    "spellIds": [
+      707855,
+      712478
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12086
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707855,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Reduces the cooldown of Malefic Arrow by -2 sec."
+      },
+      {
+        "rank": 2,
+        "spellId": 712478,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">-4</span> sec.",
+        "descriptionText": "Reduces the cooldown of Malefic Arrow by -4 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4006,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Shadowhunter",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Allows you to auto shoot with a ranged weapon.<br /><br />In addition, reduces the mana cost of all spells and abilities by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 10 Passive\nAllows you to auto shoot with a ranged weapon.\n\nIn addition, reduces the mana cost of all spells and abilities by -25%.",
+    "iconPath": "interface/icons/shadowhunter",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92086,
+    "spellIds": [
+      92086
+    ],
+    "requiredNodeIds": [
+      29747
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92086,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Allows you to auto shoot with a ranged weapon.<br /><br />In addition, reduces the mana cost of all spells and abilities by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 10 Passive\nAllows you to auto shoot with a ranged weapon.\n\nIn addition, reduces the mana cost of all spells and abilities by -25%."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4177,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Hex of Death",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> now reduces the targets healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Damage dealt by Malefic Arrow now reduces the targets healing received by -20% for 10 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/nhi_deathbolt_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706557,
+    "spellIds": [
+      706557
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7102
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 164323,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706557,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> now reduces the targets healing received by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Damage dealt by Malefic Arrow now reduces the targets healing received by -20% for 10 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6010,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Mojo High",
+    "description": "<span style=\"color: #ffffff; display: inline\">Mimic</span> now summons <span class=\"item-number\">1</span> additional copy of yourself and your <span style=\"color: #ffffff; display: inline\">Mimics</span> will now also cast <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span>.",
+    "descriptionText": "Mimic now summons 1 additional copy of yourself and your Mimics will now also cast Malefic Arrow.",
+    "iconPath": "interface/icons/spell_shadow_evileye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706488,
+    "spellIds": [
+      706488
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      8574
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706488,
+        "description": "<span style=\"color: #ffffff; display: inline\">Mimic</span> now summons <span class=\"item-number\">1</span> additional copy of yourself and your <span style=\"color: #ffffff; display: inline\">Mimics</span> will now also cast <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span>.",
+        "descriptionText": "Mimic now summons 1 additional copy of yourself and your Mimics will now also cast Malefic Arrow."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6011,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Shadow Enchantments",
+    "description": "Increases the duration and effectiveness of your <span style=\"color: #ffffff; display: inline\">Jinxes</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration and effectiveness of your Jinxes by 25%.",
+    "iconPath": "interface/icons/5_shadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300662,
+    "spellIds": [
+      300662,
+      301361
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29729,
+      29977
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300662,
+        "description": "Increases the duration and effectiveness of your <span style=\"color: #ffffff; display: inline\">Jinxes</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration and effectiveness of your Jinxes by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301361,
+        "description": "Increases the duration and effectiveness of your <span style=\"color: #ffffff; display: inline\">Jinxes</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration and effectiveness of your Jinxes by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6035,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Serpent Handler",
+    "description": "Increases the cooldown of <span style=\"color: #ffffff; display: inline\">Call of Sseratus</span> by <span class=\"item-number\">15</span> sec, but increases the amount of <span style=\"color: #ffffff; display: inline\">Serpent Wards</span> summoned by it by <span class=\"item-number\">2</span>.",
+    "descriptionText": "Increases the cooldown of Call of Sseratus by 15 sec, but increases the amount of Serpent Wards summoned by it by 2.",
+    "iconPath": "interface/icons/5_sumsnake_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705939,
+    "spellIds": [
+      705939
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4572,
+      29978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 783222,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705939,
+        "description": "Increases the cooldown of <span style=\"color: #ffffff; display: inline\">Call of Sseratus</span> by <span class=\"item-number\">15</span> sec, but increases the amount of <span style=\"color: #ffffff; display: inline\">Serpent Wards</span> summoned by it by <span class=\"item-number\">2</span>.",
+        "descriptionText": "Increases the cooldown of Call of Sseratus by 15 sec, but increases the amount of Serpent Wards summoned by it by 2."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6063,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Shadow Avatar",
+    "description": "Become empowered by shadow magic for <span class=\"item-number\">15</span> seconds, increasing Magic Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reducing the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Become empowered by shadow magic for 15 seconds, increasing Magic Damage dealt by 20% and reducing the cooldown of Spirit Glaive by 20% every 1 sec.",
+    "iconPath": "interface/icons/inv_archaeology_80_zandalari_sanguinetotem",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705943,
+    "spellIds": [
+      705943
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6010,
+      30895
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705943,
+        "description": "Become empowered by shadow magic for <span class=\"item-number\">15</span> seconds, increasing Magic Damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and reducing the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Become empowered by shadow magic for 15 seconds, increasing Magic Damage dealt by 20% and reducing the cooldown of Spirit Glaive by 20% every 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6069,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Residual Energy",
+    "description": "At the end of <span style=\"color: #ffffff; display: inline\">Shadow Avatar</span>'s duration you become a <span style=\"color: #ffffff; display: inline\">Lesser Shadow Avatar</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_nethercloak\" /><span class=\"name\">Lesser Shadow Avatar</span></div><span class=\"desc\">Increases magic damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec. Lasts for <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "At the end of Shadow Avatar's duration you become a Lesser Shadow Avatar.\n\n---\n\nLesser Shadow AvatarIncreases magic damage dealt by 10% and reduces the cooldown of Spirit Glaive by 20% every 1 sec. Lasts for 8 seconds.",
+    "iconPath": "interface/icons/spell_shadow_nethercloak",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706543,
+    "spellIds": [
+      706543
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6063
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706543,
+        "description": "At the end of <span style=\"color: #ffffff; display: inline\">Shadow Avatar</span>'s duration you become a <span style=\"color: #ffffff; display: inline\">Lesser Shadow Avatar</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_shadow_nethercloak\" /><span class=\"name\">Lesser Shadow Avatar</span></div><span class=\"desc\">Increases magic damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and reduces the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> every <span class=\"item-number\">1</span> sec. Lasts for <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "At the end of Shadow Avatar's duration you become a Lesser Shadow Avatar.\n\n---\n\nLesser Shadow AvatarIncreases magic damage dealt by 10% and reduces the cooldown of Spirit Glaive by 20% every 1 sec. Lasts for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6072,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spiritual Devotee",
+    "description": "Collecting a <span style=\"color: #ffffff; display: inline\">Spirit</span> now instantly restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Collecting a Spirit now instantly restores 5% of your maximum mana.",
+    "iconPath": "interface/icons/ability_racial_embracetheloa",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503727,
+    "spellIds": [
+      503727
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7086
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503727,
+        "description": "Collecting a <span style=\"color: #ffffff; display: inline\">Spirit</span> now instantly restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Collecting a Spirit now instantly restores 5% of your maximum mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6073,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Fool's Play",
+    "description": "Target an enemy and summon a copy of them for <span class=\"item-number\">20</span> seconds that attacks them and replicates their spells back on them.",
+    "descriptionText": "Target an enemy and summon a copy of them for 20 seconds that attacks them and replicates their spells back on them.",
+    "iconPath": "interface/icons/nhi_raisedspirit_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681007,
+    "spellIds": [
+      681007
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5253,
+      6069,
+      6853
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681007,
+        "description": "Target an enemy and summon a copy of them for <span class=\"item-number\">20</span> seconds that attacks them and replicates their spells back on them.",
+        "descriptionText": "Target an enemy and summon a copy of them for 20 seconds that attacks them and replicates their spells back on them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6074,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Village Wisdom",
+    "description": "Increases your Agility and your hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Agility and your hit chance by 5%.",
+    "iconPath": "interface/icons/achievement_zg_hexxer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680882,
+    "spellIds": [
+      680882
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7086
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680882,
+        "description": "Increases your Agility and your hit chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Agility and your hit chance by 5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6076,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "A Price To Pay",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Spirit Eclipse</span> with <span class=\"item-number\">5</span> <span style=\"color: #ffffff; display: inline\">Spirits</span> now resets the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> and causes your next cast within <span class=\"item-number\">8</span> seconds to be guaranteed to critically strike.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Spirit Glaives</span> used in this way will reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Shadowstalker</span> by <span class=\"item-number\">-15</span> sec.",
+    "descriptionText": "Casting Spirit Eclipse with 5 Spirits now resets the cooldown of Spirit Glaive and causes your next cast within 8 seconds to be guaranteed to critically strike.\n\nSpirit Glaives used in this way will reduce the cooldown of Shadowstalker by -15 sec.",
+    "iconPath": "interface/icons/achievement_raid_laststandzandalari",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705948,
+    "spellIds": [
+      705948
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5235,
+      6035,
+      6388
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705948,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Spirit Eclipse</span> with <span class=\"item-number\">5</span> <span style=\"color: #ffffff; display: inline\">Spirits</span> now resets the cooldown of <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> and causes your next cast within <span class=\"item-number\">8</span> seconds to be guaranteed to critically strike.<br /><br /><span style=\"color: #FFFFFF; display: inline\">Spirit Glaives</span> used in this way will reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Shadowstalker</span> by <span class=\"item-number\">-15</span> sec.",
+        "descriptionText": "Casting Spirit Eclipse with 5 Spirits now resets the cooldown of Spirit Glaive and causes your next cast within 8 seconds to be guaranteed to critically strike.\n\nSpirit Glaives used in this way will reduce the cooldown of Shadowstalker by -15 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6853,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "The True Spirit",
+    "description": "Summoning a <span style=\"color: #ffffff; display: inline\">Serpent Ward</span> or <span style=\"color: #ffffff; display: inline\">Spirit</span> now increases the damage of your next <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Summoning a Serpent Ward or Spirit now increases the damage of your next Spirit Glaive by 6% for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_alchemy_90_combat2_purple",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802268,
+    "spellIds": [
+      802268
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6063
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 345232,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802268,
+        "description": "Summoning a <span style=\"color: #ffffff; display: inline\">Serpent Ward</span> or <span style=\"color: #ffffff; display: inline\">Spirit</span> now increases the damage of your next <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Summoning a Serpent Ward or Spirit now increases the damage of your next Spirit Glaive by 6% for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6983,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Voodoo Fire",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Serpent Ward's</span> attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to shoot <span style=\"color: #FFFFFF; display: inline\">Voodoo Fire</span>, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 73*1+ranged AP*0.03+SPFI*0.12, 73*1+ranged AP*0.03+SPN*0.12)</span> Fire Damage to up to <span class=\"item-number\">3</span> nearby enemies.",
+    "descriptionText": "Your Serpent Ward's attacks now have a 20% chance to shoot Voodoo Fire, dealing cond(gt(SPFI, SPN), 73*1+ranged AP*0.03+SPFI*0.12, 73*1+ranged AP*0.03+SPN*0.12) Fire Damage to up to 3 nearby enemies.",
+    "iconPath": "interface/icons/spell_shaman_firenova",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 802262,
+    "spellIds": [
+      802262,
+      803846
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30892
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802262,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Serpent Ward's</span> attacks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to shoot <span style=\"color: #FFFFFF; display: inline\">Voodoo Fire</span>, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 73*1+ranged AP*0.03+SPFI*0.12, 73*1+ranged AP*0.03+SPN*0.12)</span> Fire Damage to up to <span class=\"item-number\">3</span> nearby enemies.",
+        "descriptionText": "Your Serpent Ward's attacks now have a 20% chance to shoot Voodoo Fire, dealing cond(gt(SPFI, SPN), 73*1+ranged AP*0.03+SPFI*0.12, 73*1+ranged AP*0.03+SPN*0.12) Fire Damage to up to 3 nearby enemies."
+      },
+      {
+        "rank": 2,
+        "spellId": 803846,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Serpent Ward's</span> attacks now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to shoot <span style=\"color: #FFFFFF; display: inline\">Voodoo Fire</span>, dealing <span class=\"item-number\">cond(gt(SPFI, SPN), 73*1+ranged AP*0.03+SPFI*0.12, 73*1+ranged AP*0.03+SPN*0.12)</span> Fire Damage to up to <span class=\"item-number\">3</span> nearby enemies.",
+        "descriptionText": "Your Serpent Ward's attacks now have a 40% chance to shoot Voodoo Fire, dealing cond(gt(SPFI, SPN), 73*1+ranged AP*0.03+SPFI*0.12, 73*1+ranged AP*0.03+SPN*0.12) Fire Damage to up to 3 nearby enemies."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7031,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Darkspear Traditionalist",
+    "description": "Emanate a powerful aura, granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds. Does not stack with similar effects.<br /><br />Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to collect a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Emanate a powerful aura, granting 10% increased melee and ranged haste to party and raid members within 100 yds. Does not stack with similar effects.\n\nPeriodic damage dealt by Hex of Malice now has a 15% chance to collect a Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/ability_demonhunter_empowerwards",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503707,
+    "spellIds": [
+      503707
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6069,
+      6983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503707,
+        "description": "Emanate a powerful aura, granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased melee and ranged haste to party and raid members within <span class=\"item-number\">100</span> yds. Does not stack with similar effects.<br /><br />Periodic damage dealt by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to collect a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Emanate a powerful aura, granting 10% increased melee and ranged haste to party and raid members within 100 yds. Does not stack with similar effects.\n\nPeriodic damage dealt by Hex of Malice now has a 15% chance to collect a Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7086,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spirit Eclipse",
+    "description": "Unleash your <span style=\"color: #ffffff; display: inline\">Spirits</span> on an enemy, dealing <span class=\"item-number\">9</span> + <span class=\"item-number\">7% ranged AP</span> + <span class=\"item-number\">12% shadow SP</span> Shadow Damage every <span class=\"item-number\">0</span> sec for each active <span style=\"color: #ffffff; display: inline\">Spirit</span>.<br /><br />Each <span style=\"color: #ffffff; display: inline\">Spirit</span> explodes on impact, dealing <span class=\"item-number\">52</span> + <span class=\"item-number\">6% shadow SP</span> + <span class=\"item-number\">3.5% ranged AP</span> Shadow Damage to other nearby enemies within <span class=\"item-number\">5</span> yds of the target.",
+    "descriptionText": "Unleash your Spirits on an enemy, dealing 9 + 7% ranged AP + 12% shadow SP Shadow Damage every 0 sec for each active Spirit.\n\nEach Spirit explodes on impact, dealing 52 + 6% shadow SP + 3.5% ranged AP Shadow Damage to other nearby enemies within 5 yds of the target.",
+    "iconPath": "interface/icons/spiriteclipse",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801607,
+    "spellIds": [
+      801607
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7779
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801607,
+        "description": "Unleash your <span style=\"color: #ffffff; display: inline\">Spirits</span> on an enemy, dealing <span class=\"item-number\">9</span> + <span class=\"item-number\">7% ranged AP</span> + <span class=\"item-number\">12% shadow SP</span> Shadow Damage every <span class=\"item-number\">0</span> sec for each active <span style=\"color: #ffffff; display: inline\">Spirit</span>.<br /><br />Each <span style=\"color: #ffffff; display: inline\">Spirit</span> explodes on impact, dealing <span class=\"item-number\">52</span> + <span class=\"item-number\">6% shadow SP</span> + <span class=\"item-number\">3.5% ranged AP</span> Shadow Damage to other nearby enemies within <span class=\"item-number\">5</span> yds of the target.",
+        "descriptionText": "Unleash your Spirits on an enemy, dealing 9 + 7% ranged AP + 12% shadow SP Shadow Damage every 0 sec for each active Spirit.\n\nEach Spirit explodes on impact, dealing 52 + 6% shadow SP + 3.5% ranged AP Shadow Damage to other nearby enemies within 5 yds of the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7102,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Shadowstalker",
+    "description": "Disappear into darkness, entering an improved stealth mode, clearing all harmful effects, and increasing movement speed by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+    "descriptionText": "Disappear into darkness, entering an improved stealth mode, clearing all harmful effects, and increasing movement speed by 50% for 20 seconds.",
+    "iconPath": "interface/icons/custom_t_curseofshadow_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807040,
+    "spellIds": [
+      807040
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6072,
+      6074
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807040,
+        "description": "Disappear into darkness, entering an improved stealth mode, clearing all harmful effects, and increasing movement speed by <span class=\"item-number\">50</span><span class=\"item-number\">%</span> for <span class=\"item-number\">20</span> seconds.",
+        "descriptionText": "Disappear into darkness, entering an improved stealth mode, clearing all harmful effects, and increasing movement speed by 50% for 20 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7103,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Umbral Glaive",
+    "description": "$45",
+    "descriptionText": "$45",
+    "iconPath": "interface/icons/_maievblade_shadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681242,
+    "spellIds": [
+      681242
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4506
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681242,
+        "description": "$46",
+        "descriptionText": "$46"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4423,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Sen'jin's Apprentice",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your ranged attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect and your ranged attack power and spell power by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Agility.",
+    "descriptionText": "Level 40 Passive\nIncreases your ranged attack power by 100% of your Intellect and your ranged attack power and spell power by 25% of your Agility.",
+    "iconPath": "interface/icons/inv_glaive_1h_bloodelfguard_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 681199,
+    "spellIds": [
+      681199
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7103
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681199,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your ranged attack power by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> of your Intellect and your ranged attack power and spell power by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Agility.",
+        "descriptionText": "Level 40 Passive\nIncreases your ranged attack power by 100% of your Intellect and your ranged attack power and spell power by 25% of your Agility."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4505,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Reclamation",
+    "description": "Shoot a quick voodoo arrow at an enemy dealing <span class=\"item-number\">90</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">18</span> as Nature Damage and collecting a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div><br /><br />Usable while moving.",
+    "descriptionText": "Shoot a quick voodoo arrow at an enemy dealing 90% Ranged Weapon Damage plus 18 as Nature Damage and collecting a Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.\n\nUsable while moving.",
+    "iconPath": "interface/icons/nhi_natureshot_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806288,
+    "spellIds": [
+      806288
+    ],
+    "requiredNodeIds": [
+      4006,
+      29747
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806288,
+        "description": "Shoot a quick voodoo arrow at an enemy dealing <span class=\"item-number\">90</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">18</span> as Nature Damage and collecting a <span style=\"color: #ffffff; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div><br /><br />Usable while moving.",
+        "descriptionText": "Shoot a quick voodoo arrow at an enemy dealing 90% Ranged Weapon Damage plus 18 as Nature Damage and collecting a Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.\n\nUsable while moving."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4506,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Loa Spirits",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />For each active <span style=\"color: #ffffff; display: inline\">Spirit</span> on you, you have an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance for your <span style=\"color: #ffffff; display: inline\">Reclamation</span> to cast an additional time.",
+    "descriptionText": "Level 20 Passive\nFor each active Spirit on you, you have an 8% chance for your Reclamation to cast an additional time.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_ragedspirit_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705843,
+    "spellIds": [
+      705843
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4006
+    ],
+    "requiredLevel": 15,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705843,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />For each active <span style=\"color: #ffffff; display: inline\">Spirit</span> on you, you have an <span class=\"item-number\">8</span><span class=\"item-number\">%</span> chance for your <span style=\"color: #ffffff; display: inline\">Reclamation</span> to cast an additional time.",
+        "descriptionText": "Level 20 Passive\nFor each active Spirit on you, you have an 8% chance for your Reclamation to cast an additional time."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4572,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Eye of Kimbul",
+    "description": "Critical strikes now apply <span style=\"color: #ffffff; display: inline\">Eye of Kimbul</span> to enemies for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_monk_prideofthetiger\" /><span class=\"name\">Eye of Kimbul</span></div><span class=\"desc\">Increases damage dealt and critical strike chance against this target by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times.<br /><br />While affected, enemies cannot stealth or turn invisible.</span></div>",
+    "descriptionText": "Critical strikes now apply Eye of Kimbul to enemies for 15 seconds.\n\n---\n\nEye of KimbulIncreases damage dealt and critical strike chance against this target by 1%, stacking 5 times.\n\nWhile affected, enemies cannot stealth or turn invisible.",
+    "iconPath": "interface/icons/ability_monk_prideofthetiger",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503714,
+    "spellIds": [
+      503714
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5164,
+      11164
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503714,
+        "description": "Critical strikes now apply <span style=\"color: #ffffff; display: inline\">Eye of Kimbul</span> to enemies for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_monk_prideofthetiger\" /><span class=\"name\">Eye of Kimbul</span></div><span class=\"desc\">Increases damage dealt and critical strike chance against this target by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times.<br /><br />While affected, enemies cannot stealth or turn invisible.</span></div>",
+        "descriptionText": "Critical strikes now apply Eye of Kimbul to enemies for 15 seconds.\n\n---\n\nEye of KimbulIncreases damage dealt and critical strike chance against this target by 1%, stacking 5 times.\n\nWhile affected, enemies cannot stealth or turn invisible."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5164,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spirit Striker",
+    "description": "Increases the proc chance of <span style=\"color: #ffffff; display: inline\">Voodoo Fire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the proc chance of Voodoo Fire by 10%.",
+    "iconPath": "interface/icons/_warlock_plaiefuneste2",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806286,
+    "spellIds": [
+      806286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807450,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806286,
+        "description": "Increases the proc chance of <span style=\"color: #ffffff; display: inline\">Voodoo Fire</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the proc chance of Voodoo Fire by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5235,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Viper Ward",
+    "description": "Transforms <span style=\"color: #ffffff; display: inline\">Call of Sseratus</span> into <span style=\"color: #ffffff; display: inline\">Viper Ward</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_snakeman_c_01\" /><span class=\"name\">Viper Ward</span></div><span class=\"desc\">Summons a powerful and fast-attacking <span style=\"color: #ffffff; display: inline\">Viper Ward</span> at target location for <span class=\"item-number\">20</span> seconds.<br /><br /><span style=\"color: #ffffff; display: inline\">Viper Wards</span> have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to unleash a <span style=\"color: #ffffff; display: inline\">Hexfire Blast</span>, dealing <span class=\"item-number\">216</span> + <span class=\"item-number\">15% ranged AP</span> Fire Damage to an enemy.<br /><br />Chance increased based on your ranged critical strike rating.</span></div>",
+    "descriptionText": "Transforms Call of Sseratus into Viper Ward.\n\n---\n\nViper WardSummons a powerful and fast-attacking Viper Ward at target location for 20 seconds.\n\nViper Wards have a 10% chance to unleash a Hexfire Blast, dealing 216 + 15% ranged AP Fire Damage to an enemy.\n\nChance increased based on your ranged critical strike rating.",
+    "iconPath": "interface/icons/inv_staff_2h_snakeman_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707329,
+    "spellIds": [
+      707329
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4572,
+      29978
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 783222,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707329,
+        "description": "Transforms <span style=\"color: #ffffff; display: inline\">Call of Sseratus</span> into <span style=\"color: #ffffff; display: inline\">Viper Ward</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_staff_2h_snakeman_c_01\" /><span class=\"name\">Viper Ward</span></div><span class=\"desc\">Summons a powerful and fast-attacking <span style=\"color: #ffffff; display: inline\">Viper Ward</span> at target location for <span class=\"item-number\">20</span> seconds.<br /><br /><span style=\"color: #ffffff; display: inline\">Viper Wards</span> have a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to unleash a <span style=\"color: #ffffff; display: inline\">Hexfire Blast</span>, dealing <span class=\"item-number\">216</span> + <span class=\"item-number\">15% ranged AP</span> Fire Damage to an enemy.<br /><br />Chance increased based on your ranged critical strike rating.</span></div>",
+        "descriptionText": "Transforms Call of Sseratus into Viper Ward.\n\n---\n\nViper WardSummons a powerful and fast-attacking Viper Ward at target location for 20 seconds.\n\nViper Wards have a 10% chance to unleash a Hexfire Blast, dealing 216 + 15% ranged AP Fire Damage to an enemy.\n\nChance increased based on your ranged critical strike rating."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5253,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Godslayer",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> now deals an additional <span class=\"item-number\">61</span> + <span class=\"item-number\">40% shadow SP</span> + <span class=\"item-number\">30% ranged AP</span> Shadow Damage to all enemies within <span class=\"item-number\">8</span> yds at the end of its duration.",
+    "descriptionText": "Your Spirit Glaive now deals an additional 61 + 40% shadow SP + 30% ranged AP Shadow Damage to all enemies within 8 yds at the end of its duration.",
+    "iconPath": "interface/icons/achievement_boss_immerseus",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802714,
+    "spellIds": [
+      802714
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6063
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 345232,
+    "gridX": 0,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802714,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Spirit Glaive</span> now deals an additional <span class=\"item-number\">61</span> + <span class=\"item-number\">40% shadow SP</span> + <span class=\"item-number\">30% ranged AP</span> Shadow Damage to all enemies within <span class=\"item-number\">8</span> yds at the end of its duration.",
+        "descriptionText": "Your Spirit Glaive now deals an additional 61 + 40% shadow SP + 30% ranged AP Shadow Damage to all enemies within 8 yds at the end of its duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5303,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Voodoo Hunger",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Shadowstalker</span> or <span style=\"color: #ffffff; display: inline\">Mirage</span> is active, every <span class=\"item-number\">1</span> sec you now gain a stack of <span style=\"color: #ffffff; display: inline\">Voodoo Hunger</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadowworld_border\" /><span class=\"name\">Voodoo Hunger</span></div><span class=\"desc\">Increases the damage of your next <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times. Lasts <span class=\"item-number\">8</span> seconds.</span></div>",
+    "descriptionText": "While Shadowstalker or Mirage is active, every 1 sec you now gain a stack of Voodoo Hunger.\n\n---\n\nVoodoo HungerIncreases the damage of your next Malefic Arrow by 10%, stacking 10 times. Lasts 8 seconds.",
+    "iconPath": "interface/icons/5_shadowworld_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705942,
+    "spellIds": [
+      705942
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7102
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705942,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Shadowstalker</span> or <span style=\"color: #ffffff; display: inline\">Mirage</span> is active, every <span class=\"item-number\">1</span> sec you now gain a stack of <span style=\"color: #ffffff; display: inline\">Voodoo Hunger</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_shadowworld_border\" /><span class=\"name\">Voodoo Hunger</span></div><span class=\"desc\">Increases the damage of your next <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">10</span> times. Lasts <span class=\"item-number\">8</span> seconds.</span></div>",
+        "descriptionText": "While Shadowstalker or Mirage is active, every 1 sec you now gain a stack of Voodoo Hunger.\n\n---\n\nVoodoo HungerIncreases the damage of your next Malefic Arrow by 10%, stacking 10 times. Lasts 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6388,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Dark Loa's Incantation",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Shadowflare</span> now applies <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span> if it strikes at least <span class=\"item-number\">3</span> enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_warlock_demonwrath\" /><span class=\"name\">Hex of Malice</span></div><span class=\"desc\">Curse an enemy, dealing <span class=\"item-number\">7</span> + <span class=\"item-number\">8% shadow SP</span> + <span class=\"item-number\">10% ranged AP</span> Shadow Damage and an additional <span class=\"item-number\">80</span> Shadow Damage over <span class=\"item-number\">24</span> seconds.<br /><br /></span></div>",
+    "descriptionText": "Dealing damage with Shadowflare now applies Hex of Malice if it strikes at least 3 enemies.\n\n---\n\nHex of MaliceCurse an enemy, dealing 7 + 8% shadow SP + 10% ranged AP Shadow Damage and an additional 80 Shadow Damage over 24 seconds.",
+    "iconPath": "interface/icons/inv_chest_cloth_zandalarquest_b_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525377,
+    "spellIds": [
+      525377
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4572,
+      11330,
+      29930
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525377,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Shadowflare</span> now applies <span style=\"color: #FFFFFF; display: inline\">Hex of Malice</span> if it strikes at least <span class=\"item-number\">3</span> enemies.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_warlock_demonwrath\" /><span class=\"name\">Hex of Malice</span></div><span class=\"desc\">Curse an enemy, dealing <span class=\"item-number\">7</span> + <span class=\"item-number\">8% shadow SP</span> + <span class=\"item-number\">10% ranged AP</span> Shadow Damage and an additional <span class=\"item-number\">80</span> Shadow Damage over <span class=\"item-number\">24</span> seconds.<br /><br /></span></div>",
+        "descriptionText": "Dealing damage with Shadowflare now applies Hex of Malice if it strikes at least 3 enemies.\n\n---\n\nHex of MaliceCurse an enemy, dealing 7 + 8% shadow SP + 10% ranged AP Shadow Damage and an additional 80 Shadow Damage over 24 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12086,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Malefic Arrow",
+    "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Malefic Wrath</span> into <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_naturearrow__2__border\" /><span class=\"name\">Malefic Arrow</span></div><span class=\"desc\">Launch a voodoo arrow at an enemy, dealing <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">25</span> + <span class=\"item-number\">20% ranged AP</span> + <span class=\"item-number\">25% nature SP</span> as Nature Damage, healing you equal to <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt.</span></div>",
+    "descriptionText": "Transforms your Malefic Wrath into Malefic Arrow.\n\n---\n\nMalefic ArrowLaunch a voodoo arrow at an enemy, dealing 85% Ranged Weapon Damage plus 25 + 20% ranged AP + 25% nature SP as Nature Damage, healing you equal to 40% of the damage dealt.",
+    "iconPath": "interface/icons/nhi_naturearrow_(2)_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707854,
+    "spellIds": [
+      707854
+    ],
+    "requiredNodeIds": [
+      4006,
+      29747
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707854,
+        "description": "Transforms your <span style=\"color: #ffffff; display: inline\">Malefic Wrath</span> into <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_naturearrow__2__border\" /><span class=\"name\">Malefic Arrow</span></div><span class=\"desc\">Launch a voodoo arrow at an enemy, dealing <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">25</span> + <span class=\"item-number\">20% ranged AP</span> + <span class=\"item-number\">25% nature SP</span> as Nature Damage, healing you equal to <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt.</span></div>",
+        "descriptionText": "Transforms your Malefic Wrath into Malefic Arrow.\n\n---\n\nMalefic ArrowLaunch a voodoo arrow at an enemy, dealing 85% Ranged Weapon Damage plus 25 + 20% ranged AP + 25% nature SP as Nature Damage, healing you equal to 40% of the damage dealt."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12145,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spirit Volley",
+    "description": "$47",
+    "descriptionText": "$47",
+    "iconPath": "interface/icons/nhi_spiritualblast_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 503712,
+    "spellIds": [
+      503712
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4423
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503712,
+        "description": "$48",
+        "descriptionText": "$48"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 8574,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spirit Glaive",
+    "description": "Toss spectral glaives at an enemy, dealing <span class=\"item-number\">63</span> + <span class=\"item-number\">50% ranged AP</span> + <span class=\"item-number\">50% shadow SP</span> Shadow Damage, and reducing their Shadow Resistance by <span class=\"item-number\">71</span> for <span class=\"item-number\">5</span> seconds.<br /><br />Usable while moving.",
+    "descriptionText": "Toss spectral glaives at an enemy, dealing 63 + 50% ranged AP + 50% shadow SP Shadow Damage, and reducing their Shadow Resistance by 71 for 5 seconds.\n\nUsable while moving.",
+    "iconPath": "interface/icons/godslayer",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806289,
+    "spellIds": [
+      806289
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      1969
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806289,
+        "description": "Toss spectral glaives at an enemy, dealing <span class=\"item-number\">63</span> + <span class=\"item-number\">50% ranged AP</span> + <span class=\"item-number\">50% shadow SP</span> Shadow Damage, and reducing their Shadow Resistance by <span class=\"item-number\">71</span> for <span class=\"item-number\">5</span> seconds.<br /><br />Usable while moving.",
+        "descriptionText": "Toss spectral glaives at an enemy, dealing 63 + 50% ranged AP + 50% shadow SP Shadow Damage, and reducing their Shadow Resistance by 71 for 5 seconds.\n\nUsable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7779,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Loa's Strength",
+    "description": "Increases you Nature and Shadow Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases you Nature and Shadow Damage dealt by 5%.",
+    "iconPath": "interface/icons/nhi_shadoweye_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705936,
+    "spellIds": [
+      705936,
+      705937
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4505
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705936,
+        "description": "Increases you Nature and Shadow Damage dealt by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases you Nature and Shadow Damage dealt by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 705937,
+        "description": "Increases you Nature and Shadow Damage dealt by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases you Nature and Shadow Damage dealt by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7781,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Bwonsamdi's Gift",
+    "description": "While <span style=\"color: #FFFFFF; display: inline\">Mimic Ward</span> is active, you now gain <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased ranged haste and your <span style=\"color: #ffffff; display: inline\">Reclamation</span> transforms into <span style=\"color: #ffffff; display: inline\">Spirit Volley</span>. <br /><br />Each <span style=\"color: #ffffff; display: inline\">Spirit</span> now increases the damage of <span style=\"color: #ffffff; display: inline\">Spirit Volley</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />In addition, direct ranged abilty damage dealt now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Mimic Ward</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "While Mimic Ward is active, you now gain 15% increased ranged haste and your Reclamation transforms into Spirit Volley. \n\nEach Spirit now increases the damage of Spirit Volley by 3%.\n\nIn addition, direct ranged abilty damage dealt now reduces the cooldown of Mimic Ward by -0.5 sec.",
+    "iconPath": "interface/icons/spell_necro_bwonsamdisboon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707650,
+    "spellIds": [
+      707650
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5235,
+      6035,
+      29981
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707650,
+        "description": "While <span style=\"color: #FFFFFF; display: inline\">Mimic Ward</span> is active, you now gain <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased ranged haste and your <span style=\"color: #ffffff; display: inline\">Reclamation</span> transforms into <span style=\"color: #ffffff; display: inline\">Spirit Volley</span>. <br /><br />Each <span style=\"color: #ffffff; display: inline\">Spirit</span> now increases the damage of <span style=\"color: #ffffff; display: inline\">Spirit Volley</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />In addition, direct ranged abilty damage dealt now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Mimic Ward</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "While Mimic Ward is active, you now gain 15% increased ranged haste and your Reclamation transforms into Spirit Volley. \n\nEach Spirit now increases the damage of Spirit Volley by 3%.\n\nIn addition, direct ranged abilty damage dealt now reduces the cooldown of Mimic Ward by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11164,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Hexfire Mass",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #ffffff; display: inline\">Serpent Ward</span> on top of your enemy for <span class=\"item-number\">10</span> seconds to aid you in combat.<br /><br />Can only occur once every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Damage dealt by Hex of Malice now has a 10% chance to summon a Serpent Ward on top of your enemy for 10 seconds to aid you in combat.\n\nCan only occur once every 3 sec.",
+    "iconPath": "interface/icons/spell_fireresistancetotem_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807450,
+    "spellIds": [
+      807450
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6983
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 807450,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807450,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Hex of Malice</span> now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #ffffff; display: inline\">Serpent Ward</span> on top of your enemy for <span class=\"item-number\">10</span> seconds to aid you in combat.<br /><br />Can only occur once every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Damage dealt by Hex of Malice now has a 10% chance to summon a Serpent Ward on top of your enemy for 10 seconds to aid you in combat.\n\nCan only occur once every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11177,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Spirit Hunting",
+    "description": "Each active <span style=\"color: #ffffff; display: inline\">Spirit</span> gives you a <span class=\"item-number\">15%</span> chance when you cast <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> to generate an additional <span style=\"color: #ffffff; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Each active Spirit gives you a 15% chance when you cast Malefic Arrow to generate an additional Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/spell_shaman_feralspirit",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707504,
+    "spellIds": [
+      707504
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7102
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 164323,
+    "gridX": 8,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707504,
+        "description": "Each active <span style=\"color: #ffffff; display: inline\">Spirit</span> gives you a <span class=\"item-number\">15%</span> chance when you cast <span style=\"color: #ffffff; display: inline\">Malefic Arrow</span> to generate an additional <span style=\"color: #ffffff; display: inline\">Spirit</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_elemental_primal_shadow\" /><span class=\"name\">Spirit</span></div><span class=\"desc\">Regenerates <span class=\"item-number\">7</span> health and mana every <span class=\"item-number\">5</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Each active Spirit gives you a 15% chance when you cast Malefic Arrow to generate an additional Spirit.\n\n---\n\nSpiritRegenerates 7 health and mana every 5 sec for 10 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11330,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Bwonsamdi's Edge",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Spirit Eclipse</span> now deals <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased damage when it explodes on impact.",
+    "descriptionText": "Your Spirit Eclipse now deals 40% increased damage when it explodes on impact.",
+    "iconPath": "interface/icons/spell_ice_lament",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 712435,
+    "spellIds": [
+      712435
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6073,
+      7031
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 378215,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 712435,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Spirit Eclipse</span> now deals <span class=\"item-number\">40</span><span class=\"item-number\">%</span> increased damage when it explodes on impact.",
+        "descriptionText": "Your Spirit Eclipse now deals 40% increased damage when it explodes on impact."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7355,
+    "classId": 13,
+    "className": "Witch Doctor",
+    "tabId": 36,
+    "tabKey": "13:36",
+    "tabName": "Shadowhunting",
+    "name": "Frenzied Spirits",
+    "description": "Consumes your <span style=\"color: #ffffff; display: inline\">Spirits</span> to increase your ranged critical strike rating by <span class=\"item-number\">10</span>, critical damage by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, and causing you to heal for <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of all damage dealt for each <span style=\"color: #ffffff; display: inline\">Spirit</span> consumed.<br /><br />In addition, you gain <span class=\"item-number\">1</span> <span style=\"color: #FFFFFF; display: inline\">Spirit</span> every <span class=\"item-number\">1</span> sec while active.<br /><br />Lasts for <span class=\"item-number\">3</span> sec per <span style=\"color: #FFFFFF; display: inline\">Spirit</span> consumed.",
+    "descriptionText": "Consumes your Spirits to increase your ranged critical strike rating by 10, critical damage by 5%, and causing you to heal for 2% of all damage dealt for each Spirit consumed.\n\nIn addition, you gain 1 Spirit every 1 sec while active.\n\nLasts for 3 sec per Spirit consumed.",
+    "iconPath": "interface/icons/ability_warlock_eradication",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560748,
+    "spellIds": [
+      560748
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5235,
+      6035
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560748,
+        "description": "Consumes your <span style=\"color: #ffffff; display: inline\">Spirits</span> to increase your ranged critical strike rating by <span class=\"item-number\">10</span>, critical damage by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, and causing you to heal for <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of all damage dealt for each <span style=\"color: #ffffff; display: inline\">Spirit</span> consumed.<br /><br />In addition, you gain <span class=\"item-number\">1</span> <span style=\"color: #FFFFFF; display: inline\">Spirit</span> every <span class=\"item-number\">1</span> sec while active.<br /><br />Lasts for <span class=\"item-number\">3</span> sec per <span style=\"color: #FFFFFF; display: inline\">Spirit</span> consumed.",
+        "descriptionText": "Consumes your Spirits to increase your ranged critical strike rating by 10, critical damage by 5%, and causing you to heal for 2% of all damage dealt for each Spirit consumed.\n\nIn addition, you gain 1 Spirit every 1 sec while active.\n\nLasts for 3 sec per Spirit consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

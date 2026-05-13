@@ -1,0 +1,73 @@
+{
+  "extractedFrom": "C:\\Users\\tygoro\\Downloads\\voljin",
+  "hero": {
+    "id": 39,
+    "slug": "voljin",
+    "name": "Vol'Jin"
+  },
+  "totalNodes": 3612,
+  "totalTabs": 91,
+  "treeTypeCounts": {
+    "class": 21,
+    "spec": 70,
+    "sidebar": 0,
+    "unknown": 0
+  },
+  "nodeTypes": [
+    "SpendCircle",
+    "SpendSquare",
+    "SpendHex"
+  ],
+  "entryTypes": [
+    "Ability",
+    "Talent"
+  ],
+  "multiRankNodes": 299,
+  "choiceGroupNodes": 576,
+  "nodesWithRequiredIds": 124,
+  "nodesWithConnections": 3404,
+  "nodesWithRequiredLevel": 329,
+  "normalizedNodeSchema": {
+    "nodeId": "number — unique node ID",
+    "classId": "number — owning class",
+    "className": "string",
+    "tabId": "number — owning tab",
+    "tabKey": "string — \"<classId>:<tabId>\"",
+    "tabName": "string",
+    "treeType": "\"class\" | \"spec\" | \"sidebar\" | \"unknown\"",
+    "name": "string — talent display name",
+    "description": "string — pre-rendered HTML tooltip (rich)",
+    "descriptionText": "string — plain text tooltip (stripped HTML)",
+    "iconPath": "string — \"interface/icons/...\" lowercase",
+    "nodeType": "\"SpendCircle\" | \"SpendSquare\" | \"SpendHex\"",
+    "entryType": "\"Ability\" | \"Talent\"",
+    "isPassive": "boolean",
+    "maxPoints": "number — max rank",
+    "spellId": "number — primary spell ID",
+    "spellIds": "number[] — one per rank for multi-rank nodes",
+    "requiredNodeIds": "number[] — prerequisite node IDs (filtered zeros)",
+    "connectedNodeIds": "number[] — adjacent connected nodes (filtered zeros)",
+    "requiredLevel": "number — min player level",
+    "reqTabTE": "number — talent expenditure gate (points needed in tab)",
+    "reqTabAE": "number — ascension expenditure gate",
+    "teCost": "number — talent expenditure cost of this node",
+    "aeCost": "number — ascension expenditure cost of this node",
+    "isStartingNode": "boolean",
+    "choiceGroupId": "number | null — mutual-exclusion group (choice nodes)",
+    "gridX": "number — authored builder x coordinate",
+    "gridY": "number — authored builder y coordinate",
+    "rankDescriptions": "[{ rank, spellId, description, descriptionText }]",
+    "flags": "number — internal flags",
+    "sortOrder": "number — internal sort order"
+  },
+  "addonResponsibility": {
+    "note": "The addon remains authoritative for:",
+    "fields": [
+      "anchorX / anchorY — in-game pixel coordinates",
+      "canonicalRow / canonicalCol — deterministic lattice positions",
+      "hidden / pooled node membership",
+      "connection topology from live client frames",
+      "treeType inference from relativeTo frame names"
+    ]
+  }
+}

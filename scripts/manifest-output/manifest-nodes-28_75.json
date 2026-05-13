@@ -1,0 +1,1942 @@
+[
+  {
+    "nodeId": 2426,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Combat Crafter",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />While in your <span style=\"color: #FFFFFF; display: inline\">Mechsuit</span>, damage dealt by your summons now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to grant you <span class=\"item-number\">5</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span> and <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana.",
+    "descriptionText": "Level 20 Passive\nWhile in your Mechsuit, damage dealt by your summons now has a 20% chance to grant you 5 Scrap and 2% of your maximum mana.",
+    "iconPath": "interface/icons/5_engineerskill01_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807499,
+    "spellIds": [
+      807499
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4051
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807499,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />While in your <span style=\"color: #FFFFFF; display: inline\">Mechsuit</span>, damage dealt by your summons now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to grant you <span class=\"item-number\">5</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span> and <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your maximum mana.",
+        "descriptionText": "Level 20 Passive\nWhile in your Mechsuit, damage dealt by your summons now has a 20% chance to grant you 5 Scrap and 2% of your maximum mana."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2427,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Battle Engineer",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your ranged damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to refresh a charge of <span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span>.",
+    "descriptionText": "Level 30 Passive\nYour ranged damage dealt now has a 20% chance to refresh a charge of Makeshift Dynamite.",
+    "iconPath": "interface/icons/inv_misc_enggizmos_20",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 806629,
+    "spellIds": [
+      806629
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2426
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806629,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Your ranged damage dealt now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to refresh a charge of <span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span>.",
+        "descriptionText": "Level 30 Passive\nYour ranged damage dealt now has a 20% chance to refresh a charge of Makeshift Dynamite."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2428,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Turbo Upgrade!",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 40 Passive\nIncreases the effectiveness of your Mechsuit by 100%.",
+    "iconPath": "interface/icons/uico_mecha_spell_03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 707115,
+    "spellIds": [
+      707115
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2427
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707115,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 40 Passive\nIncreases the effectiveness of your Mechsuit by 100%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4051,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Build: Mechsuit",
+    "description": "$af",
+    "descriptionText": "$af",
+    "iconPath": "interface/icons/inv_engineering_815_uberspanner",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92141,
+    "spellIds": [
+      92141
+    ],
+    "requiredNodeIds": [
+      29203
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 1,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92141,
+        "description": "$b0",
+        "descriptionText": "$b0"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6491,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Junker",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Spanner Smash</span> and <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now increases your pet's attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+    "descriptionText": "Casting Spanner Smash and Scrap Shot now increases your pet's attack power by 5% for 15 seconds, stacking 2 times.",
+    "iconPath": "interface/icons/achievement_dungeon_blackwingdescent_darkironcouncil",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705786,
+    "spellIds": [
+      705786
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7878
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705786,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Spanner Smash</span> and <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> now increases your pet's attack power by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds, stacking <span class=\"item-number\">2</span> times.",
+        "descriptionText": "Casting Spanner Smash and Scrap Shot now increases your pet's attack power by 5% for 15 seconds, stacking 2 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6504,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Mechanical Extender",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities now increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Overload</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />When <span style=\"color: #ffffff; display: inline\">Overload</span> triggers, all stacks are consumed.",
+    "descriptionText": "Casting Scrap Shot and Mechsuit abilities now increases the chance to trigger Overload by 3% for 10 seconds, stacking 10 times.\n\nWhen Overload triggers, all stacks are consumed.",
+    "iconPath": "interface/icons/inv_mechanicalhandpet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681003,
+    "spellIds": [
+      681003
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681003,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities now increases the chance to trigger <span style=\"color: #ffffff; display: inline\">Overload</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.<br /><br />When <span style=\"color: #ffffff; display: inline\">Overload</span> triggers, all stacks are consumed.",
+        "descriptionText": "Casting Scrap Shot and Mechsuit abilities now increases the chance to trigger Overload by 3% for 10 seconds, stacking 10 times.\n\nWhen Overload triggers, all stacks are consumed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6530,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Mechanical Synergy",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosion</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Sticky Bomb Explosion and Mechsuit abilities by 15%.",
+    "iconPath": "interface/icons/inv_eng_mechanicalboomerang",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680200,
+    "spellIds": [
+      680200,
+      681482
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7037,
+      29501
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680200,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosion</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Sticky Bomb Explosion and Mechsuit abilities by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681482,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Sticky Bomb Explosion</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Sticky Bomb Explosion and Mechsuit abilities by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6531,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Overload",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit: Laser Beam</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Damage dealt by Mechsuit: Combustion and Mechsuit: Laser Beam now have a 40% chance to strike 2 additional times for 30% of the damage dealt.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holybeam_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707403,
+    "spellIds": [
+      707403
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5212,
+      5503,
+      29503
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707403,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> and <span style=\"color: #ffffff; display: inline\">Mechsuit: Laser Beam</span> now have a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to strike <span class=\"item-number\">2</span> additional times for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Damage dealt by Mechsuit: Combustion and Mechsuit: Laser Beam now have a 40% chance to strike 2 additional times for 30% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5212,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Mechsuit: Activate Jets",
+    "description": "Launch forward and slow your falling speed. <br /><br />When you hit the ground you blast nearby enemies for <span class=\"item-number\">325</span> Fire Damage based on time in the air.<br /><br />",
+    "descriptionText": "Launch forward and slow your falling speed. \n\nWhen you hit the ground you blast nearby enemies for 325 Fire Damage based on time in the air.",
+    "iconPath": "interface/icons/5_engineerskill10_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801389,
+    "spellIds": [
+      801389
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30979
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801389,
+        "description": "Launch forward and slow your falling speed. <br /><br />When you hit the ground you blast nearby enemies for <span class=\"item-number\">325</span> Fire Damage based on time in the air.<br /><br />",
+        "descriptionText": "Launch forward and slow your falling speed. \n\nWhen you hit the ground you blast nearby enemies for 325 Fire Damage based on time in the air."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5491,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Haywired State!",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities now causes your pet to enter a haywired state for <span class=\"item-number\">6</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_engineerskill21_border\" /><span class=\"name\">Haywired State!</span></div><span class=\"desc\">Auto attacks now zap up to <span class=\"item-number\">10</span> nearby enemies for <span class=\"item-number\">179</span> + <span class=\"item-number\">35% AP</span> Stormstrike Damage and damaged enemies take <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage from your summons.</span></div>",
+    "descriptionText": "Casting Mechsuit abilities now causes your pet to enter a haywired state for 6 seconds.\n\n---\n\nHaywired State!Auto attacks now zap up to 10 nearby enemies for 179 + 35% AP Stormstrike Damage and damaged enemies take 20% increased damage from your summons.",
+    "iconPath": "interface/icons/5_engineerskill21_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707395,
+    "spellIds": [
+      707395
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7018,
+      7021,
+      7394
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707395,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities now causes your pet to enter a haywired state for <span class=\"item-number\">6</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_engineerskill21_border\" /><span class=\"name\">Haywired State!</span></div><span class=\"desc\">Auto attacks now zap up to <span class=\"item-number\">10</span> nearby enemies for <span class=\"item-number\">179</span> + <span class=\"item-number\">35% AP</span> Stormstrike Damage and damaged enemies take <span class=\"item-number\">20</span><span class=\"item-number\">%</span> increased damage from your summons.</span></div>",
+        "descriptionText": "Casting Mechsuit abilities now causes your pet to enter a haywired state for 6 seconds.\n\n---\n\nHaywired State!Auto attacks now zap up to 10 nearby enemies for 179 + 35% AP Stormstrike Damage and damaged enemies take 20% increased damage from your summons."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5503,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Turbo Guns",
+    "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> by <span class=\"item-number\">0.25</span> sec and its damage is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cast time of your Mechsuit: Combustion by 0.25 sec and its damage is increased by 20%.",
+    "iconPath": "interface/icons/spell_fire_firebolt",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520809,
+    "spellIds": [
+      520809
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29500
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 762761,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520809,
+        "description": "Reduces the cast time of your <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> by <span class=\"item-number\">0.25</span> sec and its damage is increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cast time of your Mechsuit: Combustion by 0.25 sec and its damage is increased by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5961,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Cogmaster",
+    "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and gives ranged critical strikes a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">3</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span>.",
+    "descriptionText": "Increases your critical strike chance by 2% and gives ranged critical strikes a 50% chance to generate 3 Scrap.",
+    "iconPath": "interface/icons/_ldacogs",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504525,
+    "spellIds": [
+      504525
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6504,
+      29818
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 234524,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504525,
+        "description": "Increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> and gives ranged critical strikes a <span class=\"item-number\">50</span><span class=\"item-number\">%</span> chance to generate <span class=\"item-number\">3</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span>.",
+        "descriptionText": "Increases your critical strike chance by 2% and gives ranged critical strikes a 50% chance to generate 3 Scrap."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5966,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Regeneration Enhancement",
+    "description": "When you enter your <span style=\"color: #ffffff; display: inline\">Mechsuit</span>, it now refunds <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your base mana, repeating every <span class=\"item-number\">20</span> sec while inside.",
+    "descriptionText": "When you enter your Mechsuit, it now refunds 20% of your base mana, repeating every 20 sec while inside.",
+    "iconPath": "interface/icons/inv_mechagnome_powercell_broken",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807635,
+    "spellIds": [
+      807635
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6530
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807635,
+        "description": "When you enter your <span style=\"color: #ffffff; display: inline\">Mechsuit</span>, it now refunds <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your base mana, repeating every <span class=\"item-number\">20</span> sec while inside.",
+        "descriptionText": "When you enter your Mechsuit, it now refunds 20% of your base mana, repeating every 20 sec while inside."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5970,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Bombs? BOMBS!",
+    "description": "Increases the detonation speed of <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> by <span class=\"item-number\">-1</span> sec and reduces its cooldown by <span class=\"item-number\">-2</span> sec.",
+    "descriptionText": "Increases the detonation speed of Sticky Bomb by -1 sec and reduces its cooldown by -2 sec.",
+    "iconPath": "interface/icons/inv_misc_bomb_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705789,
+    "spellIds": [
+      705789
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29501
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705789,
+        "description": "Increases the detonation speed of <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> by <span class=\"item-number\">-1</span> sec and reduces its cooldown by <span class=\"item-number\">-2</span> sec.",
+        "descriptionText": "Increases the detonation speed of Sticky Bomb by -1 sec and reduces its cooldown by -2 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7013,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Junkyard Loiter",
+    "description": "When you deal damage with <span style=\"color: #ffffff; display: inline\">Mechsuit: Laser Beam</span> or <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> you now launch a <span style=\"color: #ffffff; display: inline\">Lesser Sticky Bomb</span> on each target struck.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_blackironbomb\" /><span class=\"name\">Lesser Sticky Bomb</span></div><span class=\"desc\">Throws a bomb that sticks to the enemy for <span class=\"item-number\">3</span> sec.<br /><br />At the end of the duration the bomb will explode, dealing <span class=\"item-number\">37</span> + <span class=\"item-number\">5% fire SP</span> + <span class=\"item-number\">2.5% AP</span> Fire Damage to the target.</span></div>",
+    "descriptionText": "When you deal damage with Mechsuit: Laser Beam or Mechsuit: Combustion you now launch a Lesser Sticky Bomb on each target struck.\n\n---\n\nLesser Sticky BombThrows a bomb that sticks to the enemy for 3 sec.\n\nAt the end of the duration the bomb will explode, dealing 37 + 5% fire SP + 2.5% AP Fire Damage to the target.",
+    "iconPath": "interface/icons/inv_mechagon_junkyardtinkeringcrafting",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706680,
+    "spellIds": [
+      706680
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6504,
+      29818
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 234524,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706680,
+        "description": "When you deal damage with <span style=\"color: #ffffff; display: inline\">Mechsuit: Laser Beam</span> or <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> you now launch a <span style=\"color: #ffffff; display: inline\">Lesser Sticky Bomb</span> on each target struck.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_misc_blackironbomb\" /><span class=\"name\">Lesser Sticky Bomb</span></div><span class=\"desc\">Throws a bomb that sticks to the enemy for <span class=\"item-number\">3</span> sec.<br /><br />At the end of the duration the bomb will explode, dealing <span class=\"item-number\">37</span> + <span class=\"item-number\">5% fire SP</span> + <span class=\"item-number\">2.5% AP</span> Fire Damage to the target.</span></div>",
+        "descriptionText": "When you deal damage with Mechsuit: Laser Beam or Mechsuit: Combustion you now launch a Lesser Sticky Bomb on each target struck.\n\n---\n\nLesser Sticky BombThrows a bomb that sticks to the enemy for 3 sec.\n\nAt the end of the duration the bomb will explode, dealing 37 + 5% fire SP + 2.5% AP Fire Damage to the target."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7014,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Augmechtation",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> now increases your damage by an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while active.",
+    "descriptionText": "Your Mechsuit now increases your damage by an additional 10% while active.",
+    "iconPath": "interface/icons/nhi_tech_saw_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503568,
+    "spellIds": [
+      503568
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 995990,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503568,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> now increases your damage by an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while active.",
+        "descriptionText": "Your Mechsuit now increases your damage by an additional 10% while active."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7015,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Engine Augmentation",
+    "description": "For <span class=\"item-number\">8</span> seconds after activating your <span style=\"color: #FFFFFF; display: inline\">Mechsuit</span>, all damage dealt will now generate <span class=\"item-number\">3</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span>.",
+    "descriptionText": "For 8 seconds after activating your Mechsuit, all damage dealt will now generate 3 Scrap.",
+    "iconPath": "interface/icons/inv_eng_superchargedengine",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503569,
+    "spellIds": [
+      503569
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6531
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 995990,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503569,
+        "description": "For <span class=\"item-number\">8</span> seconds after activating your <span style=\"color: #FFFFFF; display: inline\">Mechsuit</span>, all damage dealt will now generate <span class=\"item-number\">3</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span>.",
+        "descriptionText": "For 8 seconds after activating your Mechsuit, all damage dealt will now generate 3 Scrap."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7018,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Flame Jets",
+    "description": "While inside your <span style=\"color: #ffffff; display: inline\">Mechsuit</span>, damage dealt by your <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span> now applies <span style=\"color: #ffffff; display: inline\">Living Flame</span> to the target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_siege_engineer_purification_beam\" /><span class=\"name\">Living Flame (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">52</span> Fire Damage every <span class=\"item-number\">2</span> sec and increases the damage the target takes from your <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4.5</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "While inside your Mechsuit, damage dealt by your Scrap Shot and Makeshift Dynamite now applies Living Flame to the target.\n\n---\n\nLiving Flame (Damage)Deals 52 Fire Damage every 2 sec and increases the damage the target takes from your Mechsuit: Combustion by 10% for 4.5 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/ability_siege_engineer_purification_beam",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504523,
+    "spellIds": [
+      504523
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5961,
+      7013,
+      29765
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504523,
+        "description": "While inside your <span style=\"color: #ffffff; display: inline\">Mechsuit</span>, damage dealt by your <span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span> now applies <span style=\"color: #ffffff; display: inline\">Living Flame</span> to the target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_siege_engineer_purification_beam\" /><span class=\"name\">Living Flame (Damage)</span></div><span class=\"desc\">Deals <span class=\"item-number\">52</span> Fire Damage every <span class=\"item-number\">2</span> sec and increases the damage the target takes from your <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">4.5</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "While inside your Mechsuit, damage dealt by your Scrap Shot and Makeshift Dynamite now applies Living Flame to the target.\n\n---\n\nLiving Flame (Damage)Deals 52 Fire Damage every 2 sec and increases the damage the target takes from your Mechsuit: Combustion by 10% for 4.5 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7021,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Master Technician",
+    "description": "<span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #FFFFFF; display: inline\">Mechsuit</span> abilities now grants your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> a stack of <span style=\"color: #ffffff; display: inline\">Master Technician</span>, stacking <span class=\"item-number\">10</span> times.<br /><br />At <span class=\"item-number\">10</span> stacks, your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> will unleash a beam dealing <span class=\"item-number\">755</span> + <span class=\"item-number\">75% fire SP</span> + <span class=\"item-number\">40% AP</span> Fire Damage in a <span class=\"item-number\">25</span> yd line, piercing invulnerabilities.",
+    "descriptionText": "Scrap Shot and Mechsuit abilities now grants your Sentry Turret a stack of Master Technician, stacking 10 times.\n\nAt 10 stacks, your Sentry Turret will unleash a beam dealing 755 + 75% fire SP + 40% AP Fire Damage in a 25 yd line, piercing invulnerabilities.",
+    "iconPath": "interface/icons/nhi_arcanebeam_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520022,
+    "spellIds": [
+      520022
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5961,
+      7013,
+      12532,
+      35000
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520022,
+        "description": "<span style=\"color: #ffffff; display: inline\">Scrap Shot</span> and <span style=\"color: #FFFFFF; display: inline\">Mechsuit</span> abilities now grants your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> a stack of <span style=\"color: #ffffff; display: inline\">Master Technician</span>, stacking <span class=\"item-number\">10</span> times.<br /><br />At <span class=\"item-number\">10</span> stacks, your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> will unleash a beam dealing <span class=\"item-number\">755</span> + <span class=\"item-number\">75% fire SP</span> + <span class=\"item-number\">40% AP</span> Fire Damage in a <span class=\"item-number\">25</span> yd line, piercing invulnerabilities.",
+        "descriptionText": "Scrap Shot and Mechsuit abilities now grants your Sentry Turret a stack of Master Technician, stacking 10 times.\n\nAt 10 stacks, your Sentry Turret will unleash a beam dealing 755 + 75% fire SP + 40% AP Fire Damage in a 25 yd line, piercing invulnerabilities."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7037,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Mechsuit: Laser Beam",
+    "description": "Blast an enemy with a laser, dealing <span class=\"item-number\">130</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">18</span> as Fire Damage and forcing your pet to charge to the enemy for <span class=\"item-number\">24</span> Physical Damage.<br /><br />",
+    "descriptionText": "Blast an enemy with a laser, dealing 130% Ranged Weapon Damage plus 18 as Fire Damage and forcing your pet to charge to the enemy for 24 Physical Damage.",
+    "iconPath": "interface/icons/ability_siege_engineer_superheated",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805372,
+    "spellIds": [
+      805372
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31199
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805372,
+        "description": "Blast an enemy with a laser, dealing <span class=\"item-number\">130</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">18</span> as Fire Damage and forcing your pet to charge to the enemy for <span class=\"item-number\">24</span> Physical Damage.<br /><br />",
+        "descriptionText": "Blast an enemy with a laser, dealing 130% Ranged Weapon Damage plus 18 as Fire Damage and forcing your pet to charge to the enemy for 24 Physical Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6908,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Build: Battle Turret X-13",
+    "description": "Create the latest in turret technology, the <span style=\"color: #ffffff; display: inline\">Battle Turret X-13</span> for <span class=\"item-number\">30</span> seconds that emanates an aura that increases the damage of your summons by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Allies can enter the turret giving them access to unique abilities and the turret's health pool for the duration.",
+    "descriptionText": "Create the latest in turret technology, the Battle Turret X-13 for 30 seconds that emanates an aura that increases the damage of your summons by 10%.\n\nAllies can enter the turret giving them access to unique abilities and the turret's health pool for the duration.",
+    "iconPath": "interface/icons/ability_rogue_cannonballbarrage",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504519,
+    "spellIds": [
+      504519
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9980,
+      30980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504519,
+        "description": "Create the latest in turret technology, the <span style=\"color: #ffffff; display: inline\">Battle Turret X-13</span> for <span class=\"item-number\">30</span> seconds that emanates an aura that increases the damage of your summons by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Allies can enter the turret giving them access to unique abilities and the turret's health pool for the duration.",
+        "descriptionText": "Create the latest in turret technology, the Battle Turret X-13 for 30 seconds that emanates an aura that increases the damage of your summons by 10%.\n\nAllies can enter the turret giving them access to unique abilities and the turret's health pool for the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7878,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Fine Tuned",
+    "description": "Increases the critical strike and hit chance of you and your summons by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike and hit chance of you and your summons by 4%.",
+    "iconPath": "interface/icons/inv_misc_trinket6oog_handeye3",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705792,
+    "spellIds": [
+      705792
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5970,
+      6530
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705792,
+        "description": "Increases the critical strike and hit chance of you and your summons by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike and hit chance of you and your summons by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7394,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Overclocked Machine",
+    "description": "Overclock your pet for for <span class=\"item-number\">20</span> seconds, increasing its damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and allowing it's attacks to trigger <span style=\"color: #ffffff; display: inline\">Hardwired Haymaker</span> on the target enemy. <br /><br />Additionally, your pet will trigger <span style=\"color: #ffffff; display: inline\">Overclocked Smash</span> every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Overclock your pet for for 20 seconds, increasing its damage dealt by 20% and allowing it's attacks to trigger Hardwired Haymaker on the target enemy. \n\nAdditionally, your pet will trigger Overclocked Smash every 5 sec.",
+    "iconPath": "interface/icons/nhi_tech_steammachine_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806757,
+    "spellIds": [
+      806757
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9474,
+      12532,
+      35000
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806757,
+        "description": "Overclock your pet for for <span class=\"item-number\">20</span> seconds, increasing its damage dealt by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> and allowing it's attacks to trigger <span style=\"color: #ffffff; display: inline\">Hardwired Haymaker</span> on the target enemy. <br /><br />Additionally, your pet will trigger <span style=\"color: #ffffff; display: inline\">Overclocked Smash</span> every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Overclock your pet for for 20 seconds, increasing its damage dealt by 20% and allowing it's attacks to trigger Hardwired Haymaker on the target enemy. \n\nAdditionally, your pet will trigger Overclocked Smash every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7395,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Upgrade!",
+    "description": "Upgrade your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to a <span style=\"color: #ffffff; display: inline\">Molten Grenade Turret</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_engineerskill27_border\" /><span class=\"name\">Molten Grenade Turret</span></div><span class=\"desc\">Upgrades the <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to fire grenades, increasing its attack speed significantly and causing it to deal <span class=\"item-number\">209</span> Fire Damage in an <span class=\"item-number\">8</span> yd radius, plus an additional <span class=\"item-number\">115</span> + <span class=\"item-number\">15% fire SP</span> + <span class=\"item-number\">8.5% AP</span> Fire Damage over <span class=\"item-number\">1.5</span> seconds.</span></div>",
+    "descriptionText": "Upgrade your Sentry Turret to a Molten Grenade Turret for 15 seconds.\n\n---\n\nMolten Grenade TurretUpgrades the Sentry Turret to fire grenades, increasing its attack speed significantly and causing it to deal 209 Fire Damage in an 8 yd radius, plus an additional 115 + 15% fire SP + 8.5% AP Fire Damage over 1.5 seconds.",
+    "iconPath": "interface/icons/garrison_upgrade",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800349,
+    "spellIds": [
+      800349
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9980,
+      30980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800349,
+        "description": "Upgrade your <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to a <span style=\"color: #ffffff; display: inline\">Molten Grenade Turret</span> for <span class=\"item-number\">15</span> seconds.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_engineerskill27_border\" /><span class=\"name\">Molten Grenade Turret</span></div><span class=\"desc\">Upgrades the <span style=\"color: #ffffff; display: inline\">Sentry Turret</span> to fire grenades, increasing its attack speed significantly and causing it to deal <span class=\"item-number\">209</span> Fire Damage in an <span class=\"item-number\">8</span> yd radius, plus an additional <span class=\"item-number\">115</span> + <span class=\"item-number\">15% fire SP</span> + <span class=\"item-number\">8.5% AP</span> Fire Damage over <span class=\"item-number\">1.5</span> seconds.</span></div>",
+        "descriptionText": "Upgrade your Sentry Turret to a Molten Grenade Turret for 15 seconds.\n\n---\n\nMolten Grenade TurretUpgrades the Sentry Turret to fire grenades, increasing its attack speed significantly and causing it to deal 209 Fire Damage in an 8 yd radius, plus an additional 115 + 15% fire SP + 8.5% AP Fire Damage over 1.5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7396,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Clockwork Guardians",
+    "description": "$b1",
+    "descriptionText": "$b1",
+    "iconPath": "interface/icons/inv_misc_head_clockworkgnome_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806758,
+    "spellIds": [
+      806758
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7394
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806758,
+        "description": "$b2",
+        "descriptionText": "$b2"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29206,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Build: Scrapmaw",
+    "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Scrapmaw</span> to accompany the Tinker until dismissed.",
+    "descriptionText": "Build a Scrapmaw to accompany the Tinker until dismissed.",
+    "iconPath": "interface/icons/inv_goblinshredderrocketmount",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500242,
+    "spellIds": [
+      500242
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5970
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500242,
+        "description": "Build a <span style=\"color: #FFFFFF; display: inline\">Scrapmaw</span> to accompany the Tinker until dismissed.",
+        "descriptionText": "Build a Scrapmaw to accompany the Tinker until dismissed."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9980,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Offensive Utility",
+    "description": "While in your <span style=\"color: #ffffff; display: inline\">Mechsuit</span>, casting <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> reduces the channel time of your next <span style=\"color: #ffffff; display: inline\">Gatling Gun</span> within <span class=\"item-number\">5</span> seconds by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While in your Mechsuit, casting Sticky Bomb reduces the channel time of your next Gatling Gun within 5 seconds by -30%.",
+    "iconPath": "interface/icons/achievement_alliedrace_mechagnome",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807388,
+    "spellIds": [
+      807388
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6491,
+      29206
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 785347,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807388,
+        "description": "While in your <span style=\"color: #ffffff; display: inline\">Mechsuit</span>, casting <span style=\"color: #ffffff; display: inline\">Sticky Bomb</span> reduces the channel time of your next <span style=\"color: #ffffff; display: inline\">Gatling Gun</span> within <span class=\"item-number\">5</span> seconds by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While in your Mechsuit, casting Sticky Bomb reduces the channel time of your next Gatling Gun within 5 seconds by -30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9474,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Turret Upgrade Z-15",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Sentry Turrets</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause <span class=\"item-number\">47</span> + <span class=\"item-number\">20% AP</span> additional Nature Damage and increase critical strike chance of the turret by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times, for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damage dealt by Sentry Turrets now has a 30% chance to cause 47 + 20% AP additional Nature Damage and increase critical strike chance of the turret by 1%, stacking 5 times, for 8 seconds.",
+    "iconPath": "interface/icons/inv_robotpet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524979,
+    "spellIds": [
+      524979
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6908,
+      7395,
+      9503
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524979,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Sentry Turrets</span> now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause <span class=\"item-number\">47</span> + <span class=\"item-number\">20% AP</span> additional Nature Damage and increase critical strike chance of the turret by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>, stacking <span class=\"item-number\">5</span> times, for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damage dealt by Sentry Turrets now has a 30% chance to cause 47 + 20% AP additional Nature Damage and increase critical strike chance of the turret by 1%, stacking 5 times, for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9503,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Arclight Core",
+    "description": "<span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span> now marks enemies for <span class=\"item-number\">6</span> seconds. <br /><br />The next damaging ability used on this target by your pet consumes the mark to deal <span class=\"item-number\">584</span> + <span class=\"item-number\">20% fire SP</span> + <span class=\"item-number\">20% ranged AP</span> Fire Damage.",
+    "descriptionText": "Makeshift Dynamite now marks enemies for 6 seconds. \n\nThe next damaging ability used on this target by your pet consumes the mark to deal 584 + 20% fire SP + 20% ranged AP Fire Damage.",
+    "iconPath": "interface/icons/inv_gizmo_khoriumpowercore",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704449,
+    "spellIds": [
+      704449
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29206
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704449,
+        "description": "<span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span> now marks enemies for <span class=\"item-number\">6</span> seconds. <br /><br />The next damaging ability used on this target by your pet consumes the mark to deal <span class=\"item-number\">584</span> + <span class=\"item-number\">20% fire SP</span> + <span class=\"item-number\">20% ranged AP</span> Fire Damage.",
+        "descriptionText": "Makeshift Dynamite now marks enemies for 6 seconds. \n\nThe next damaging ability used on this target by your pet consumes the mark to deal 584 + 20% fire SP + 20% ranged AP Fire Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9828,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Gear Grind",
+    "description": "$b3",
+    "descriptionText": "$b3",
+    "iconPath": "interface/icons/inv_misc_gear_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680975,
+    "spellIds": [
+      680975
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2428
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680975,
+        "description": "$b4",
+        "descriptionText": "$b4"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12532,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Augmentor",
+    "description": "While <span style=\"color: #ffffff; display: inline\">Piercing Augmentation</span> or <span style=\"color: #ffffff; display: inline\">Cryo Augmentation</span> is active, your ranged haste is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While Piercing Augmentation or Cryo Augmentation is active, your ranged haste is increased by 10%.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_frost_0000s_0000_figure_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801821,
+    "spellIds": [
+      801821
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7395,
+      29818
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 801821,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801821,
+        "description": "While <span style=\"color: #ffffff; display: inline\">Piercing Augmentation</span> or <span style=\"color: #ffffff; display: inline\">Cryo Augmentation</span> is active, your ranged haste is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While Piercing Augmentation or Cryo Augmentation is active, your ranged haste is increased by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 35000,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Hacking the Enemy",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Piercing Augmentation</span> now ignores an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your target's armor and grants you <span class=\"item-number\">-10</span> increased spell penetration.",
+    "descriptionText": "Your Piercing Augmentation now ignores an additional 10% of your target's armor and grants you -10 increased spell penetration.",
+    "iconPath": "interface/icons/5_engineerskill17_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705796,
+    "spellIds": [
+      705796
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7395,
+      29818
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 801821,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705796,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Piercing Augmentation</span> now ignores an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your target's armor and grants you <span class=\"item-number\">-10</span> increased spell penetration.",
+        "descriptionText": "Your Piercing Augmentation now ignores an additional 10% of your target's armor and grants you -10 increased spell penetration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29500,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Mechsuit: Combustion",
+    "description": "Launch a massive ball of fire at an enemy that also damages nearby enemies, dealing <span class=\"item-number\">78</span> + <span class=\"item-number\">20% ranged AP</span> Fire Damage.<br /><br />Usable while moving.<br /><br />",
+    "descriptionText": "Launch a massive ball of fire at an enemy that also damages nearby enemies, dealing 78 + 20% ranged AP Fire Damage.\n\nUsable while moving.",
+    "iconPath": "interface/icons/ability_siege_engineer_death_from_above",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801387,
+    "spellIds": [
+      801387
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6530,
+      30979
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801387,
+        "description": "Launch a massive ball of fire at an enemy that also damages nearby enemies, dealing <span class=\"item-number\">78</span> + <span class=\"item-number\">20% ranged AP</span> Fire Damage.<br /><br />Usable while moving.<br /><br />",
+        "descriptionText": "Launch a massive ball of fire at an enemy that also damages nearby enemies, dealing 78 + 20% ranged AP Fire Damage.\n\nUsable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29501,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Slam the Cogs!",
+    "description": "Increases the damage dealt by you and your summons by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage dealt by you and your summons by 4%.",
+    "iconPath": "interface/icons/inv_engineering_autohammer",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 520453,
+    "spellIds": [
+      520453,
+      520876
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31199
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520453,
+        "description": "Increases the damage dealt by you and your summons by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by you and your summons by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 520876,
+        "description": "Increases the damage dealt by you and your summons by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage dealt by you and your summons by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29503,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Flak Guns",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> now has <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased critical strike chance and <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased critical damage.",
+    "descriptionText": "Your Mechsuit: Combustion now has 10% increased critical strike chance and 15% increased critical damage.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_holybullet_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520686,
+    "spellIds": [
+      520686
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29500
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 762761,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520686,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mechsuit: Combustion</span> now has <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased critical strike chance and <span class=\"item-number\">15</span><span class=\"item-number\">%</span> increased critical damage.",
+        "descriptionText": "Your Mechsuit: Combustion now has 10% increased critical strike chance and 15% increased critical damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29761,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Scrapper",
+    "description": "Search and rummage through nearby debris, gaining <span class=\"item-number\">10</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span> and <span class=\"item-number\">183</span> mana every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds.<br /><br />Not usable in combat.",
+    "descriptionText": "Search and rummage through nearby debris, gaining 10 Scrap and 183 mana every 1 sec for 5 seconds.\n\nNot usable in combat.",
+    "iconPath": "interface/icons/5_engineerskill32_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525039,
+    "spellIds": [
+      525039
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5503,
+      5966,
+      6491,
+      29503
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525039,
+        "description": "Search and rummage through nearby debris, gaining <span class=\"item-number\">10</span> <span style=\"color: #c7c7c7; display: inline\">Scrap</span> and <span class=\"item-number\">183</span> mana every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds.<br /><br />Not usable in combat.",
+        "descriptionText": "Search and rummage through nearby debris, gaining 10 Scrap and 183 mana every 1 sec for 5 seconds.\n\nNot usable in combat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29765,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Arclight Adept",
+    "description": "Increases the critical damage of your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical damage of your Mechsuit abilities by 15%.",
+    "iconPath": "interface/icons/inv_axe_1h_mechagnome_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705788,
+    "spellIds": [
+      705788
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6504,
+      7014,
+      7015,
+      30399
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705788,
+        "description": "Increases the critical damage of your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical damage of your Mechsuit abilities by 15%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31112,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Blazewrought Titan",
+    "description": "$b5",
+    "descriptionText": "$b5",
+    "iconPath": "interface/icons/inv_ammo_firetar",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681001,
+    "spellIds": [
+      681001
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7018
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681001,
+        "description": "$b6",
+        "descriptionText": "$b6"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31199,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Makeshift Dynamite",
+    "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">8</span> sec recharge</span><br /><span style=\"color: #c7c7c7; display: inline\">Generates <span class=\"item-number\">10</span> Scrap</span><br />Load dynamite into your gun and launch it at an enemy, dealing <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">12</span> as Fire Damage.<br /><br />Usable while moving.",
+    "descriptionText": "2 Charges, 8 sec recharge\nGenerates 10 Scrap\nLoad dynamite into your gun and launch it at an enemy, dealing 100% Ranged Weapon Damage plus 12 as Fire Damage.\n\nUsable while moving.",
+    "iconPath": "interface/icons/custom_engineerskill_49_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504527,
+    "spellIds": [
+      504527
+    ],
+    "requiredNodeIds": [
+      4051,
+      29203
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504527,
+        "description": "<span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges, <span class=\"item-number\">8</span> sec recharge</span><br /><span style=\"color: #c7c7c7; display: inline\">Generates <span class=\"item-number\">10</span> Scrap</span><br />Load dynamite into your gun and launch it at an enemy, dealing <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Ranged Weapon Damage plus <span class=\"item-number\">12</span> as Fire Damage.<br /><br />Usable while moving.",
+        "descriptionText": "2 Charges, 8 sec recharge\nGenerates 10 Scrap\nLoad dynamite into your gun and launch it at an enemy, dealing 100% Ranged Weapon Damage plus 12 as Fire Damage.\n\nUsable while moving."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30399,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Nano-Repair Tech",
+    "description": "You and your pet now regenerate <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">8</span> sec.",
+    "descriptionText": "You and your pet now regenerate 3% of your maximum health every 8 sec.",
+    "iconPath": "interface/icons/inv_misc_desecrated_platechest",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681358,
+    "spellIds": [
+      681358
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5212
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681358,
+        "description": "You and your pet now regenerate <span class=\"item-number\">3</span><span class=\"item-number\">%</span> of your maximum health every <span class=\"item-number\">8</span> sec.",
+        "descriptionText": "You and your pet now regenerate 3% of your maximum health every 8 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30979,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Sprocket Loaded",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span> now resets the cooldown of your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities.",
+    "descriptionText": "Casting Makeshift Dynamite now resets the cooldown of your Mechsuit abilities.",
+    "iconPath": "interface/icons/inv_ascend_rpgloot_167",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807500,
+    "spellIds": [
+      807500
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7037
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807500,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Makeshift Dynamite</span> now resets the cooldown of your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> abilities.",
+        "descriptionText": "Casting Makeshift Dynamite now resets the cooldown of your Mechsuit abilities."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30980,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Defensive Utility",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> will now increase your armor by an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Mechsuit will now increase your armor by an additional 50%.",
+    "iconPath": "interface/icons/inv_plate_mechagnome_c_01shoulder",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806631,
+    "spellIds": [
+      806631
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6491,
+      29206
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 785347,
+    "gridX": 6,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806631,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Mechsuit</span> will now increase your armor by an additional <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Mechsuit will now increase your armor by an additional 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29818,
+    "classId": 28,
+    "className": "Tinker",
+    "tabId": 75,
+    "tabKey": "28:75",
+    "tabName": "Mechanics",
+    "name": "Mechanical Enhancements",
+    "description": "Increases all party and raid member's melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, the range of your offensive ranged abilities and <span style=\"color: #ffffff; display: inline\">Auto Shot</span> is increased by <span class=\"item-number\">10</span> yds.",
+    "descriptionText": "Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects.\n\nIn addition, the range of your offensive ranged abilities and Auto Shot is increased by 10 yds.",
+    "iconPath": "interface/icons/inv_shield_1h_mechagnome_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706632,
+    "spellIds": [
+      706632
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6531,
+      9980,
+      29761,
+      30980
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706632,
+        "description": "Increases all party and raid member's melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, the range of your offensive ranged abilities and <span style=\"color: #ffffff; display: inline\">Auto Shot</span> is increased by <span class=\"item-number\">10</span> yds.",
+        "descriptionText": "Increases all party and raid member's melee and ranged haste by 10%. Does not stack with similar effects.\n\nIn addition, the range of your offensive ranged abilities and Auto Shot is increased by 10 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

@@ -1,0 +1,1682 @@
+[
+  {
+    "nodeId": 7321,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Rock Barrier",
+    "description": "$d5",
+    "descriptionText": "$d5",
+    "iconPath": "interface/icons/inv_holiday_hearthstonemidsummerfirefestival",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503630,
+    "spellIds": [
+      503630
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7326,
+      7844
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503630,
+        "description": "$d6",
+        "descriptionText": "$d6"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7322,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Protector of the Grove",
+    "description": "Dealing direct damage now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Bearskin</span>, <span style=\"color: #FFFFFF; display: inline\">Primal Convergence</span>, and <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> by <span class=\"item-number\">-0.5</span> sec.",
+    "descriptionText": "Dealing direct damage now reduces the cooldown of Bearskin, Primal Convergence, and Boulder Dash by -0.5 sec.",
+    "iconPath": "interface/icons/nhi_nature_growl_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504198,
+    "spellIds": [
+      504198
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7108,
+      30591
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504198,
+        "description": "Dealing direct damage now reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Bearskin</span>, <span style=\"color: #FFFFFF; display: inline\">Primal Convergence</span>, and <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> by <span class=\"item-number\">-0.5</span> sec.",
+        "descriptionText": "Dealing direct damage now reduces the cooldown of Bearskin, Primal Convergence, and Boulder Dash by -0.5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7323,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Mending Touch",
+    "description": "<span style=\"color: #ffffff; display: inline\">Soothing Touch</span> now dispels an additional poison and disease effect.",
+    "descriptionText": "Soothing Touch now dispels an additional poison and disease effect.",
+    "iconPath": "interface/icons/spell_nature_undyingstrength",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524971,
+    "spellIds": [
+      524971
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7798,
+      29233
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 500302,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524971,
+        "description": "<span style=\"color: #ffffff; display: inline\">Soothing Touch</span> now dispels an additional poison and disease effect.",
+        "descriptionText": "Soothing Touch now dispels an additional poison and disease effect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7326,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Keen Senses",
+    "description": "Increases your critical strike chance and haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical strike chance and haste by 3%.",
+    "iconPath": "interface/icons/5_assassinskill31_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806533,
+    "spellIds": [
+      806533
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7105,
+      12208
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806533,
+        "description": "Increases your critical strike chance and haste by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical strike chance and haste by 3%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7327,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Protective Roar",
+    "description": "Roar with noble tenacity, generating <span class=\"item-number\">20</span> Rage and granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased maximum health to allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">12</span> seconds.",
+    "descriptionText": "Roar with noble tenacity, generating 20 Rage and granting 10% increased maximum health to allies within 30 yds for 12 seconds.",
+    "iconPath": "interface/icons/ability_druid_kingofthejungle",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802782,
+    "spellIds": [
+      802782
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6260,
+      12360,
+      12567,
+      30689
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802782,
+        "description": "Roar with noble tenacity, generating <span class=\"item-number\">20</span> Rage and granting <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased maximum health to allies within <span class=\"item-number\">30</span> yds for <span class=\"item-number\">12</span> seconds.",
+        "descriptionText": "Roar with noble tenacity, generating 20 Rage and granting 10% increased maximum health to allies within 30 yds for 12 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7339,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Natural Efficiency",
+    "description": "Whenever you are struck by a root, stun, or incapacitate effect you are now instantly healed for <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum health.",
+    "descriptionText": "Whenever you are struck by a root, stun, or incapacitate effect you are now instantly healed for 4% of your maximum health.",
+    "iconPath": "interface/icons/spell_nature_protectionformnature",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706167,
+    "spellIds": [
+      706167
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29362
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706167,
+        "description": "Whenever you are struck by a root, stun, or incapacitate effect you are now instantly healed for <span class=\"item-number\">4</span><span class=\"item-number\">%</span> of your maximum health.",
+        "descriptionText": "Whenever you are struck by a root, stun, or incapacitate effect you are now instantly healed for 4% of your maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 9843,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Emerald Will",
+    "description": "Successfully dispelling a poison or disease effect with <span style=\"color: #ffffff; display: inline\">Soothing Touch</span> now heals for <span class=\"item-number\">4</span><span class=\"item-number\">%</span> maximum health.",
+    "descriptionText": "Successfully dispelling a poison or disease effect with Soothing Touch now heals for 4% maximum health.",
+    "iconPath": "interface/icons/spell_shaman_earthlivingweapon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500302,
+    "spellIds": [
+      500302
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7798,
+      29233
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 500302,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500302,
+        "description": "Successfully dispelling a poison or disease effect with <span style=\"color: #ffffff; display: inline\">Soothing Touch</span> now heals for <span class=\"item-number\">4</span><span class=\"item-number\">%</span> maximum health.",
+        "descriptionText": "Successfully dispelling a poison or disease effect with Soothing Touch now heals for 4% maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29231,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Fae Presence",
+    "description": "Removes the reagent cost from <span style=\"color: #ffffff; display: inline\">Fae Dust</span> and causes it to increase the target's stealth detection.",
+    "descriptionText": "Removes the reagent cost from Fae Dust and causes it to increase the target's stealth detection.",
+    "iconPath": "interface/icons/ui_darkshore_warfront_alliance_faerie_dragon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681281,
+    "spellIds": [
+      681281
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7798
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681281,
+        "description": "Removes the reagent cost from <span style=\"color: #ffffff; display: inline\">Fae Dust</span> and causes it to increase the target's stealth detection.",
+        "descriptionText": "Removes the reagent cost from Fae Dust and causes it to increase the target's stealth detection."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29233,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Earthmother's Precision",
+    "description": "<span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now increases the chance for allies to hit with all spells against the enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Seismic Crash now increases the chance for allies to hit with all spells against the enemy by 3% for 15 seconds.",
+    "iconPath": "interface/icons/spell_nature_naturetouchdecay",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 555723,
+    "spellIds": [
+      555723
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7327,
+      7843
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 555723,
+        "description": "<span style=\"color: #ffffff; display: inline\">Seismic Crash</span> now increases the chance for allies to hit with all spells against the enemy by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Seismic Crash now increases the chance for allies to hit with all spells against the enemy by 3% for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29252,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Boulder Dash",
+    "description": "Raise a boulder out of the ground and encase yourself within it, preventing you from attacking or casting spells.<br /><br />For <span class=\"item-number\">10</span> seconds, you roll forward at <span class=\"item-number\">70</span><span class=\"item-number\">%</span> increased movement speed, dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">50% AP</span> + <span class=\"item-number\">100% SP</span> Physical Damage to enemies you roll over, and you are immune to crowd control effects.",
+    "descriptionText": "Raise a boulder out of the ground and encase yourself within it, preventing you from attacking or casting spells.\n\nFor 10 seconds, you roll forward at 70% increased movement speed, dealing 1 + 50% AP + 100% SP Physical Damage to enemies you roll over, and you are immune to crowd control effects.",
+    "iconPath": "interface/icons/custom_elementl(earth)_b_01_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500692,
+    "spellIds": [
+      500692
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500692,
+        "description": "Raise a boulder out of the ground and encase yourself within it, preventing you from attacking or casting spells.<br /><br />For <span class=\"item-number\">10</span> seconds, you roll forward at <span class=\"item-number\">70</span><span class=\"item-number\">%</span> increased movement speed, dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">50% AP</span> + <span class=\"item-number\">100% SP</span> Physical Damage to enemies you roll over, and you are immune to crowd control effects.",
+        "descriptionText": "Raise a boulder out of the ground and encase yourself within it, preventing you from attacking or casting spells.\n\nFor 10 seconds, you roll forward at 70% increased movement speed, dealing 1 + 50% AP + 100% SP Physical Damage to enemies you roll over, and you are immune to crowd control effects."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29299,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Bramblepatch",
+    "description": "Grow a patch of brambles at your location for <span class=\"item-number\">12</span> seconds.<br /><br />Allies in the area are immune to grip and knockback effects.<br /><br />Enemies in the area are unable to leap, dash, or charge.",
+    "descriptionText": "Grow a patch of brambles at your location for 12 seconds.\n\nAllies in the area are immune to grip and knockback effects.\n\nEnemies in the area are unable to leap, dash, or charge.",
+    "iconPath": "interface/icons/inv_eng_bombroot",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806415,
+    "spellIds": [
+      806415
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6298,
+      7326
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806415,
+        "description": "Grow a patch of brambles at your location for <span class=\"item-number\">12</span> seconds.<br /><br />Allies in the area are immune to grip and knockback effects.<br /><br />Enemies in the area are unable to leap, dash, or charge.",
+        "descriptionText": "Grow a patch of brambles at your location for 12 seconds.\n\nAllies in the area are immune to grip and knockback effects.\n\nEnemies in the area are unable to leap, dash, or charge."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 29362,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Bearskin",
+    "description": "Reduces all damage taken by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and reduces the duration of root, stun, and incapacitate effects on you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Reduces all damage taken by -60% and reduces the duration of root, stun, and incapacitate effects on you by -30% for 10 seconds.",
+    "iconPath": "interface/icons/spell_druid_primaltenacity",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800094,
+    "spellIds": [
+      800094
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6590
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800094,
+        "description": "Reduces all damage taken by <span class=\"item-number\">-60</span><span class=\"item-number\">%</span> and reduces the duration of root, stun, and incapacitate effects on you by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Reduces all damage taken by -60% and reduces the duration of root, stun, and incapacitate effects on you by -30% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12208,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Environmentalist",
+    "description": "Reduces the cost of your spells and abilities by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cost of your spells and abilities by -5%.",
+    "iconPath": "interface/icons/nhi_natureclover_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300729,
+    "spellIds": [
+      300729
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30254,
+      30633
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300729,
+        "description": "Reduces the cost of your spells and abilities by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cost of your spells and abilities by -5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12360,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Untamed",
+    "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Primal Rush</span> by <span class=\"item-number\">3</span> yds.",
+    "descriptionText": "Increases the range of Primal Rush by 3 yds.",
+    "iconPath": "interface/icons/inv_misc_head_tauren_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681478,
+    "spellIds": [
+      681478
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7796,
+      29299
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 681478,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681478,
+        "description": "Increases the range of <span style=\"color: #ffffff; display: inline\">Primal Rush</span> by <span class=\"item-number\">3</span> yds.",
+        "descriptionText": "Increases the range of Primal Rush by 3 yds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 12567,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Primal Strikes",
+    "description": "Critical strikes with abilities that deal Physical Damage now generate <span class=\"item-number\">3</span> Rage.",
+    "descriptionText": "Critical strikes with abilities that deal Physical Damage now generate 3 Rage.",
+    "iconPath": "interface/icons/spell_shaman_unleashweapon_life",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706171,
+    "spellIds": [
+      706171
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7321,
+      7796
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 706171,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706171,
+        "description": "Critical strikes with abilities that deal Physical Damage now generate <span class=\"item-number\">3</span> Rage.",
+        "descriptionText": "Critical strikes with abilities that deal Physical Damage now generate 3 Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7548,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Earthmother's Blessing",
+    "description": "Attacks which would otherwise kill you now instead reform you in stone, healing for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> maximum health and reducing your Physical Damage taken by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.<br /><br />Can only occur once every <span class=\"item-number\">2</span> min.",
+    "descriptionText": "Attacks which would otherwise kill you now instead reform you in stone, healing for 30% maximum health and reducing your Physical Damage taken by -70% for 3 seconds.\n\nCan only occur once every 2 min.",
+    "iconPath": "interface/icons/inv_archaeology_70_tauren_handsmoothedpyrestone",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560157,
+    "spellIds": [
+      560157
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6211,
+      7339
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560157,
+        "description": "Attacks which would otherwise kill you now instead reform you in stone, healing for <span class=\"item-number\">30</span><span class=\"item-number\">%</span> maximum health and reducing your Physical Damage taken by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.<br /><br />Can only occur once every <span class=\"item-number\">2</span> min.",
+        "descriptionText": "Attacks which would otherwise kill you now instead reform you in stone, healing for 30% maximum health and reducing your Physical Damage taken by -70% for 3 seconds.\n\nCan only occur once every 2 min."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7796,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Primal Convergence",
+    "description": "Ascend into a primal convergence, increasing the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Boons</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds.",
+    "descriptionText": "Ascend into a primal convergence, increasing the effectiveness of your Boons by 100% for 30 seconds.",
+    "iconPath": "interface/icons/5_shamanskill09_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800181,
+    "spellIds": [
+      800181
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7326
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800181,
+        "description": "Ascend into a primal convergence, increasing the effectiveness of your <span style=\"color: #FFFFFF; display: inline\">Boons</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> for <span class=\"item-number\">30</span> seconds.",
+        "descriptionText": "Ascend into a primal convergence, increasing the effectiveness of your Boons by 100% for 30 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7798,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Dreamslip",
+    "description": "Shifts a party member into the <span style=\"color: #FFFFFF; display: inline\">Emerald Dream</span> for <span class=\"item-number\">15</span> seconds, making them immune to damage and unable to attack or cast spells.<br /><br />While active, the target quickly regenerates health and mana and cannot be seen by other players or creatures.<br /><br />Cannot be used on self.",
+    "descriptionText": "Shifts a party member into the Emerald Dream for 15 seconds, making them immune to damage and unable to attack or cast spells.\n\nWhile active, the target quickly regenerates health and mana and cannot be seen by other players or creatures.\n\nCannot be used on self.",
+    "iconPath": "interface/icons/inv_legion_faction_dreamweavers",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805867,
+    "spellIds": [
+      805867
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7843
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805867,
+        "description": "Shifts a party member into the <span style=\"color: #FFFFFF; display: inline\">Emerald Dream</span> for <span class=\"item-number\">15</span> seconds, making them immune to damage and unable to attack or cast spells.<br /><br />While active, the target quickly regenerates health and mana and cannot be seen by other players or creatures.<br /><br />Cannot be used on self.",
+        "descriptionText": "Shifts a party member into the Emerald Dream for 15 seconds, making them immune to damage and unable to attack or cast spells.\n\nWhile active, the target quickly regenerates health and mana and cannot be seen by other players or creatures.\n\nCannot be used on self."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7843,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Nature's Call",
+    "description": "Increases your healing done and received by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your healing done and received by 6%.",
+    "iconPath": "interface/icons/inv_misc_monsterclaw_04",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706150,
+    "spellIds": [
+      706150,
+      707807
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6260,
+      12360
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706150,
+        "description": "Increases your healing done and received by <span class=\"item-number\">6</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your healing done and received by 6%."
+      },
+      {
+        "rank": 2,
+        "spellId": 707807,
+        "description": "Increases your healing done and received by <span class=\"item-number\">12</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your healing done and received by 12%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7844,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Focus",
+    "description": "Increases your Intellect and Stamina by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Intellect and Stamina by 5%.",
+    "iconPath": "interface/icons/ability_druid_primalprecision",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 680936,
+    "spellIds": [
+      680936,
+      681477
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6289,
+      6665,
+      7105
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680936,
+        "description": "Increases your Intellect and Stamina by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect and Stamina by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 681477,
+        "description": "Increases your Intellect and Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Intellect and Stamina by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30591,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Earthmother's Pendant",
+    "description": "With every strike, the Earthmother’s pendant restores what was lost, healing you equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your damage dealt.",
+    "descriptionText": "With every strike, the Earthmother’s pendant restores what was lost, healing you equal to 10% of your damage dealt.",
+    "iconPath": "interface/icons/_hearthstone_necklace_warrior",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504446,
+    "spellIds": [
+      504446
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6211,
+      6262,
+      7323,
+      9843
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504446,
+        "description": "With every strike, the Earthmother’s pendant restores what was lost, healing you equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of your damage dealt.",
+        "descriptionText": "With every strike, the Earthmother’s pendant restores what was lost, healing you equal to 10% of your damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30633,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Soothe",
+    "description": "Soothe an enemy, putting them to sleep for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs. players). Damage dealt will break the effect.<br /><br />While asleep they regenerate health quickly.<br /><br />Does not work on Mechanicals.",
+    "descriptionText": "Soothe an enemy, putting them to sleep for 40 seconds (8 sec vs. players). Damage dealt will break the effect.\n\nWhile asleep they regenerate health quickly.\n\nDoes not work on Mechanicals.",
+    "iconPath": "interface/icons/nhi_natureroots_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800145,
+    "spellIds": [
+      800145
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800145,
+        "description": "Soothe an enemy, putting them to sleep for <span class=\"item-number\">40</span> seconds (<span class=\"item-number\">8</span> sec vs. players). Damage dealt will break the effect.<br /><br />While asleep they regenerate health quickly.<br /><br />Does not work on Mechanicals.",
+        "descriptionText": "Soothe an enemy, putting them to sleep for 40 seconds (8 sec vs. players). Damage dealt will break the effect.\n\nWhile asleep they regenerate health quickly.\n\nDoes not work on Mechanicals."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30689,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Primal Fury",
+    "description": "You now passively generate <span class=\"item-number\">4</span> Rage every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "You now passively generate 4 Rage every 5 sec.",
+    "iconPath": "interface/icons/nhi_earthtranquility_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504193,
+    "spellIds": [
+      504193
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7321,
+      7796
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 706171,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504193,
+        "description": "You now passively generate <span class=\"item-number\">4</span> Rage every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "You now passively generate 4 Rage every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30105,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Wildheart",
+    "description": "The Earthmother marks you as her chosen one, reducing the cooldown of all other non-damaging spells and abilities by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, repeating every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">15</span> seconds.<br /><br />Instantly restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> missing health, mana, and Rage to you, repeating every <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "The Earthmother marks you as her chosen one, reducing the cooldown of all other non-damaging spells and abilities by 5%, repeating every 2 sec for 15 seconds.\n\nInstantly restores 5% missing health, mana, and Rage to you, repeating every 3 sec.",
+    "iconPath": "interface/icons/spell_druid_ironbark",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803980,
+    "spellIds": [
+      803980
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7548,
+      30591
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803980,
+        "description": "The Earthmother marks you as her chosen one, reducing the cooldown of all other non-damaging spells and abilities by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, repeating every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">15</span> seconds.<br /><br />Instantly restores <span class=\"item-number\">5</span><span class=\"item-number\">%</span> missing health, mana, and Rage to you, repeating every <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "The Earthmother marks you as her chosen one, reducing the cooldown of all other non-damaging spells and abilities by 5%, repeating every 2 sec for 15 seconds.\n\nInstantly restores 5% missing health, mana, and Rage to you, repeating every 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 30254,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Primal Rush",
+    "description": "Rush forward <span class=\"item-number\">20</span> yd through enemies in a line, dealing <span class=\"item-number\">48</span> Nature Damage.<br /><br />Generates <span class=\"item-number\">20</span> Rage.",
+    "descriptionText": "Rush forward 20 yd through enemies in a line, dealing 48 Nature Damage.\n\nGenerates 20 Rage.",
+    "iconPath": "interface/icons/ability_druid_berserk",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500696,
+    "spellIds": [
+      500696
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500696,
+        "description": "Rush forward <span class=\"item-number\">20</span> yd through enemies in a line, dealing <span class=\"item-number\">48</span> Nature Damage.<br /><br />Generates <span class=\"item-number\">20</span> Rage.",
+        "descriptionText": "Rush forward 20 yd through enemies in a line, dealing 48 Nature Damage.\n\nGenerates 20 Rage."
+      }
+    ],
+    "flags": 8194,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7105,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Tectonic Flow",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Primal Rush</span> and <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Primal Rush and Boulder Dash by -20%.",
+    "iconPath": "interface/icons/5_assassinskill43_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802494,
+    "spellIds": [
+      802494
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29252,
+      30254
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802494,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Primal Rush</span> and <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Primal Rush and Boulder Dash by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 7108,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Grove Guardian",
+    "description": "Mark a location as your <span style=\"color: #ffffff; display: inline\">Grove</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Allies within gain <span class=\"item-number\">30</span><span class=\"item-number\">%</span> movement speed and are healed for <span class=\"item-number\">404</span> + <span class=\"item-number\">25% AP</span> every <span class=\"item-number\">5</span> sec, removing <span class=\"item-number\">1</span> poison and disease effect.<br /><br />Enemies within are slowed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and take <span class=\"item-number\">504</span> + <span class=\"item-number\">45% AP</span> Nature Damage every <span class=\"item-number\">5</span> sec and are rooted for <span class=\"item-number\">2</span> seconds.",
+    "descriptionText": "Mark a location as your Grove for 20 seconds.\n\nAllies within gain 30% movement speed and are healed for 404 + 25% AP every 5 sec, removing 1 poison and disease effect.\n\nEnemies within are slowed by -30% and take 504 + 45% AP Nature Damage every 5 sec and are rooted for 2 seconds.",
+    "iconPath": "interface/icons/custom_t_naturesguardian_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503721,
+    "spellIds": [
+      503721
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7323,
+      9843,
+      29231
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503721,
+        "description": "Mark a location as your <span style=\"color: #ffffff; display: inline\">Grove</span> for <span class=\"item-number\">20</span> seconds.<br /><br />Allies within gain <span class=\"item-number\">30</span><span class=\"item-number\">%</span> movement speed and are healed for <span class=\"item-number\">404</span> + <span class=\"item-number\">25% AP</span> every <span class=\"item-number\">5</span> sec, removing <span class=\"item-number\">1</span> poison and disease effect.<br /><br />Enemies within are slowed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> and take <span class=\"item-number\">504</span> + <span class=\"item-number\">45% AP</span> Nature Damage every <span class=\"item-number\">5</span> sec and are rooted for <span class=\"item-number\">2</span> seconds.",
+        "descriptionText": "Mark a location as your Grove for 20 seconds.\n\nAllies within gain 30% movement speed and are healed for 404 + 25% AP every 5 sec, removing 1 poison and disease effect.\n\nEnemies within are slowed by -30% and take 504 + 45% AP Nature Damage every 5 sec and are rooted for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6590,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Stone Cold",
+    "description": "Increases your maximum health by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your maximum health by 4%.",
+    "iconPath": "interface/icons/inv_custom_hearthstone_nature",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560158,
+    "spellIds": [
+      560158,
+      560159
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30689,
+      12567
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560158,
+        "description": "Increases your maximum health by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health by 4%."
+      },
+      {
+        "rank": 2,
+        "spellId": 560159,
+        "description": "Increases your maximum health by <span class=\"item-number\">8</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your maximum health by 8%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6665,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Rage Rolling",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> now instantly generates <span class=\"item-number\">50</span> Rage.",
+    "descriptionText": "Casting Boulder Dash now instantly generates 50 Rage.",
+    "iconPath": "interface/icons/inv_ore_blackrock_ore",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561191,
+    "spellIds": [
+      561191
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 680446,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561191,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> now instantly generates <span class=\"item-number\">50</span> Rage.",
+        "descriptionText": "Casting Boulder Dash now instantly generates 50 Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6211,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Mineralization",
+    "description": "While at or below <span class=\"item-number\">35%</span> health, your spells and abilities will increase your healing received by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+    "descriptionText": "While at or below 35% health, your spells and abilities will increase your healing received by 10% for 6 seconds.",
+    "iconPath": "interface/icons/hunter_pvp_diamondice",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 520464,
+    "spellIds": [
+      520464
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6305,
+      29362
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 520464,
+        "description": "While at or below <span class=\"item-number\">35%</span> health, your spells and abilities will increase your healing received by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds.",
+        "descriptionText": "While at or below 35% health, your spells and abilities will increase your healing received by 10% for 6 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6260,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Fury of the Elements",
+    "description": "Your <span style=\"color: #FFFFFF; display: inline\">Primal Rush</span> now generates <span class=\"item-number\">10</span> additional Rage.",
+    "descriptionText": "Your Primal Rush now generates 10 additional Rage.",
+    "iconPath": "interface/icons/monk_ability_fistoffury",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706165,
+    "spellIds": [
+      706165
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7796,
+      29299
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 681478,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706165,
+        "description": "Your <span style=\"color: #FFFFFF; display: inline\">Primal Rush</span> now generates <span class=\"item-number\">10</span> additional Rage.",
+        "descriptionText": "Your Primal Rush now generates 10 additional Rage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6262,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Therazane's Gift",
+    "description": "<span style=\"color: #ffffff; display: inline\">Therazane's Rage</span> now generates an additional <span class=\"item-number\">5</span> Rage and <span class=\"item-number\">5</span><span class=\"item-number\">%</span> additional mana.",
+    "descriptionText": "Therazane's Rage now generates an additional 5 Rage and 5% additional mana.",
+    "iconPath": "interface/icons/spell_shaman_giftearthmother",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504219,
+    "spellIds": [
+      504219
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7327
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504219,
+        "description": "<span style=\"color: #ffffff; display: inline\">Therazane's Rage</span> now generates an additional <span class=\"item-number\">5</span> Rage and <span class=\"item-number\">5</span><span class=\"item-number\">%</span> additional mana.",
+        "descriptionText": "Therazane's Rage now generates an additional 5 Rage and 5% additional mana."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6269,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Primal Totem",
+    "description": "Summon a <span style=\"color: #ffffff; display: inline\">Primal Totem</span> that increases the primary stats of party and raid members by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> within <span class=\"item-number\">40</span> yds for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Summon a Primal Totem that increases the primary stats of party and raid members by 20% within 40 yds for 15 seconds.",
+    "iconPath": "interface/icons/inv_relics_totemofrebirth",
+    "nodeType": "SpendSquare",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504229,
+    "spellIds": [
+      504229
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30591
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 24,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504229,
+        "description": "Summon a <span style=\"color: #ffffff; display: inline\">Primal Totem</span> that increases the primary stats of party and raid members by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> within <span class=\"item-number\">40</span> yds for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Summon a Primal Totem that increases the primary stats of party and raid members by 20% within 40 yds for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6289,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Rolling Momentum",
+    "description": "Increases the movement speed granted by <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the movement speed granted by Boulder Dash by 30%.",
+    "iconPath": "interface/icons/5_assassinskill26_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680446,
+    "spellIds": [
+      680446
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29252
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": 680446,
+    "gridX": 7,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680446,
+        "description": "Increases the movement speed granted by <span style=\"color: #ffffff; display: inline\">Boulder Dash</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the movement speed granted by Boulder Dash by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6298,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Bountiful Boons",
+    "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Boons</span> and <span style=\"color: #FFFFFF; display: inline\">Instincts</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of Boons and Instincts by 10%.",
+    "iconPath": "interface/icons/spell_nature_giftofthewild",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706203,
+    "spellIds": [
+      706203,
+      706204
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6445,
+      12208
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706203,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Boons</span> and <span style=\"color: #FFFFFF; display: inline\">Instincts</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Boons and Instincts by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 706204,
+        "description": "Increases the effectiveness of <span style=\"color: #ffffff; display: inline\">Boons</span> and <span style=\"color: #FFFFFF; display: inline\">Instincts</span> by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of Boons and Instincts by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6305,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Stonefaced",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities now also grants <span class=\"item-number\">2</span> stacks of <span style=\"color: #ffffff; display: inline\">Earth's Rage</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_archaeology_70_tauren_handsmoothedpyrestone\" /><span class=\"name\">Earth&#39;s Rage</span></div><span class=\"desc\">Increases movement speed by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+    "descriptionText": "Casting Seismic abilities now also grants 2 stacks of Earth's Rage.\n\n---\n\nEarth's RageIncreases movement speed by 4% and haste by 2% for 8 seconds, stacking 5 times.",
+    "iconPath": "interface/icons/inv_misc_stonetablet_05",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706201,
+    "spellIds": [
+      706201
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6590,
+      7327
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 9,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706201,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Seismic</span> abilities now also grants <span class=\"item-number\">2</span> stacks of <span style=\"color: #ffffff; display: inline\">Earth's Rage</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_archaeology_70_tauren_handsmoothedpyrestone\" /><span class=\"name\">Earth&#39;s Rage</span></div><span class=\"desc\">Increases movement speed by <span class=\"item-number\">4</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">8</span> seconds, stacking <span class=\"item-number\">5</span> times.</span></div>",
+        "descriptionText": "Casting Seismic abilities now also grants 2 stacks of Earth's Rage.\n\n---\n\nEarth's RageIncreases movement speed by 4% and haste by 2% for 8 seconds, stacking 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  },
+  {
+    "nodeId": 6445,
+    "classId": 31,
+    "className": "Primalist",
+    "tabId": 87,
+    "tabKey": "31:87",
+    "tabName": "Class",
+    "name": "Heavy Handed",
+    "description": "<span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> now increases the Armor of yourself and your target by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+    "descriptionText": "Hand of the Earthmother now increases the Armor of yourself and your target by 10% for 10 seconds.",
+    "iconPath": "interface/icons/achievement_dungeon_ulduarraid_misc_06",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706344,
+    "spellIds": [
+      706344
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30633
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 1,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706344,
+        "description": "<span style=\"color: #ffffff; display: inline\">Hand of the Earthmother</span> now increases the Armor of yourself and your target by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.",
+        "descriptionText": "Hand of the Earthmother now increases the Armor of yourself and your target by 10% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "class"
+  }
+]

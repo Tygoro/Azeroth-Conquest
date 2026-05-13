@@ -1,0 +1,1716 @@
+[
+  {
+    "nodeId": 7404,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Twilight Shieldtoss",
+    "description": "Hurl a cursed shield, dealing <span class=\"item-number\">45</span> Shadow Damage to up to <span class=\"item-number\">3</span> enemies, reduced by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> with each jump.<br /><br />Damage increased by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Hurl a cursed shield, dealing 45 Shadow Damage to up to 3 enemies, reduced by 20% with each jump.\n\nDamage increased by 1% for each stack of Insanity.",
+    "iconPath": "interface/icons/inv_shield_1h_artifactstormfist_d_05",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524876,
+    "spellIds": [
+      524876
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524876,
+        "description": "Hurl a cursed shield, dealing <span class=\"item-number\">45</span> Shadow Damage to up to <span class=\"item-number\">3</span> enemies, reduced by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> with each jump.<br /><br />Damage increased by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for each stack of <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Hurl a cursed shield, dealing 45 Shadow Damage to up to 3 enemies, reduced by 20% with each jump.\n\nDamage increased by 1% for each stack of Insanity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7512,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Dreadnought",
+    "description": "$99",
+    "descriptionText": "$99",
+    "iconPath": "interface/icons/yshaarjicon",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680750,
+    "spellIds": [
+      680750
+    ],
+    "requiredNodeIds": [
+      7608
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680750,
+        "description": "$9a",
+        "descriptionText": "$9a"
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29273,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Eldritch Strength",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> and <span style=\"color: #ffffff; display: inline\">Entropic Slam</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and they now generates a large amount of threat.",
+    "descriptionText": "Increases the damage of Hammer of Twilight and Entropic Slam by 25% and they now generates a large amount of threat.",
+    "iconPath": "interface/icons/sha_ability_rogue_envelopingshadows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680600,
+    "spellIds": [
+      680600
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29882
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680600,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Hammer of Twilight</span> and <span style=\"color: #ffffff; display: inline\">Entropic Slam</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> and they now generates a large amount of threat.",
+        "descriptionText": "Increases the damage of Hammer of Twilight and Entropic Slam by 25% and they now generates a large amount of threat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12219,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Dreadfall",
+    "description": "Raise your shield and charge towards an enemy, dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">200% AP</span> Shadow Damage to enemies you pass through, generating additional threat.",
+    "descriptionText": "Raise your shield and charge towards an enemy, dealing 1 + 200% AP Shadow Damage to enemies you pass through, generating additional threat.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_shadowguard_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806175,
+    "spellIds": [
+      806175
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6275,
+      33893
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806175,
+        "description": "Raise your shield and charge towards an enemy, dealing <span class=\"item-number\">1</span> + <span class=\"item-number\">200% AP</span> Shadow Damage to enemies you pass through, generating additional threat.",
+        "descriptionText": "Raise your shield and charge towards an enemy, dealing 1 + 200% AP Shadow Damage to enemies you pass through, generating additional threat."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9299,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Strength of the Sha",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Strength and your spell hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Intellect.",
+    "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your Strength and your spell hit rating by 6% of your Intellect.",
+    "iconPath": "interface/icons/ability_titankeeper_uncheckedcorruption",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 804286,
+    "spellIds": [
+      804286
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7512
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804286,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Increases your spell damage by <span class=\"item-number\">25</span><span class=\"item-number\">%</span> of your Strength and your spell hit rating by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> of your Intellect.",
+        "descriptionText": "Level 20 Passive\nIncreases your spell damage by 25% of your Strength and your spell hit rating by 6% of your Intellect."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9301,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Deep Secrets",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Each point of <span style=\"color: #cfa6ff; display: inline\">Insanity</span> now reduces mana costs of your instant cast spells and abilities by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 30 Passive\nEach point of Insanity now reduces mana costs of your instant cast spells and abilities by 1%.",
+    "iconPath": "interface/icons/spell_shadow_summonvoidwalker",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 582307,
+    "spellIds": [
+      582307
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9299
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582307,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Each point of <span style=\"color: #cfa6ff; display: inline\">Insanity</span> now reduces mana costs of your instant cast spells and abilities by <span class=\"item-number\">1</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 30 Passive\nEach point of Insanity now reduces mana costs of your instant cast spells and abilities by 1%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9302,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Void Reaver",
+    "description": "Avoiding or absorbing an attack now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> deal <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more damage and hit an additional nearby enemy.",
+    "descriptionText": "Avoiding or absorbing an attack now has a 20% chance to make your next Blade of the Empire deal 20% more damage and hit an additional nearby enemy.",
+    "iconPath": "interface/icons/sha_spell_shadow_shadesofdarkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800463,
+    "spellIds": [
+      800463
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7615,
+      12219
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800463,
+        "description": "Avoiding or absorbing an attack now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> deal <span class=\"item-number\">20</span><span class=\"item-number\">%</span> more damage and hit an additional nearby enemy.",
+        "descriptionText": "Avoiding or absorbing an attack now has a 20% chance to make your next Blade of the Empire deal 20% more damage and hit an additional nearby enemy."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9759,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Y'Shaarj's Enforcer",
+    "description": "Increases the damage dealt by your <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> but it to no longer bounces.",
+    "descriptionText": "Increases the damage dealt by your Twilight Shieldtoss by 100% but it to no longer bounces.",
+    "iconPath": "interface/icons/inv_shield_orgrimmarraid_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803236,
+    "spellIds": [
+      803236
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7620
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 97411,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803236,
+        "description": "Increases the damage dealt by your <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span> but it to no longer bounces.",
+        "descriptionText": "Increases the damage dealt by your Twilight Shieldtoss by 100% but it to no longer bounces."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7606,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Eldritch Bastion",
+    "description": "Increases your Armor contribution from your shield by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your Armor contribution from your shield by 15%.",
+    "iconPath": "interface/icons/nhi_shadowtentacle_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560091,
+    "spellIds": [
+      560091,
+      561336
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7611,
+      29918
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560091,
+        "description": "Increases your Armor contribution from your shield by <span class=\"item-number\">15</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from your shield by 15%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561336,
+        "description": "Increases your Armor contribution from your shield by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your Armor contribution from your shield by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7610,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Voidwarding",
+    "description": "Reduces damage taken by party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases all of your resistances by <span class=\"item-number\">5</span>, scaling with level.",
+    "descriptionText": "Reduces damage taken by party and raid members by -3%. Does not stack with similar effects.\n\nIn addition, increases all of your resistances by 5, scaling with level.",
+    "iconPath": "interface/icons/inv_glyph_primewarlock",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560002,
+    "spellIds": [
+      560002
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7606,
+      7615
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560002,
+        "description": "Reduces damage taken by party and raid members by <span class=\"item-number\">-3</span><span class=\"item-number\">%</span>. Does not stack with similar effects.<br /><br />In addition, increases all of your resistances by <span class=\"item-number\">5</span>, scaling with level.",
+        "descriptionText": "Reduces damage taken by party and raid members by -3%. Does not stack with similar effects.\n\nIn addition, increases all of your resistances by 5, scaling with level."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7611,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Everpresent",
+    "description": "Increases the chance to trigger <span style=\"color: #FFFFFF; display: inline\">Presences</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the chance to trigger Presences by 10%.",
+    "iconPath": "interface/icons/inv_darkmoon_eye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300272,
+    "spellIds": [
+      300272
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9759,
+      29882,
+      33888
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300272,
+        "description": "Increases the chance to trigger <span style=\"color: #FFFFFF; display: inline\">Presences</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the chance to trigger Presences by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7612,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Adaptive Combatant",
+    "description": "Increases your parry chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and dodge chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your parry chance by 3% and dodge chance by 2%.",
+    "iconPath": "interface/icons/inv_sulfurelemental_void",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 300268,
+    "spellIds": [
+      300268,
+      301348
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7404
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300268,
+        "description": "Increases your parry chance by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> and dodge chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your parry chance by 3% and dodge chance by 2%."
+      },
+      {
+        "rank": 2,
+        "spellId": 301348,
+        "description": "Increases your parry chance by <span class=\"item-number\">6</span><span class=\"item-number\">%</span> and dodge chance by <span class=\"item-number\">4</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your parry chance by 6% and dodge chance by 4%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7614,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Bulwark of Y'shaarj",
+    "description": "Increases your block chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while above <span class=\"item-number\">40</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Increases your block chance by 5%, plus an additional 10% while above 40 Insanity.",
+    "iconPath": "interface/icons/inv_shield_73",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680558,
+    "spellIds": [
+      680558
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7612
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680558,
+        "description": "Increases your block chance by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>, plus an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> while above <span class=\"item-number\">40</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Increases your block chance by 5%, plus an additional 10% while above 40 Insanity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7615,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Wavering Hope",
+    "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> and <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span> is reduced by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While above 60 Insanity, the cooldown of your Twilight Shieldtoss and Gaze of C'thun is reduced by -25%.",
+    "iconPath": "interface/icons/achievement_dungeon_grimbatol_drahga_the_shadowburner",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560502,
+    "spellIds": [
+      560502
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6275,
+      29918
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560502,
+        "description": "While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> and <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span> is reduced by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While above 60 Insanity, the cooldown of your Twilight Shieldtoss and Gaze of C'thun is reduced by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7616,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "General of Y'shaarj",
+    "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> now heals you for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Dealing damage with Twilight Shieldtoss now heals you for 10% of the damage dealt.",
+    "iconPath": "interface/icons/inv_voidboss",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680581,
+    "spellIds": [
+      680581
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7610,
+      7619
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680581,
+        "description": "Dealing damage with <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> now heals you for <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Dealing damage with Twilight Shieldtoss now heals you for 10% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7617,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Malignant Armor",
+    "description": "Increases your attack power by <span class=\"item-number\">2</span> for every <span class=\"item-number\">100</span> armor value you have.",
+    "descriptionText": "Increases your attack power by 2 for every 100 armor value you have.",
+    "iconPath": "interface/icons/inv_helm_plate_nzothraidmythic_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680569,
+    "spellIds": [
+      680569
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7404
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680569,
+        "description": "Increases your attack power by <span class=\"item-number\">2</span> for every <span class=\"item-number\">100</span> armor value you have.",
+        "descriptionText": "Increases your attack power by 2 for every 100 armor value you have."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7618,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Void-Enhanced Shield",
+    "description": "Increases your block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, the value of this effect is doubled.",
+    "descriptionText": "Increases your block value by 20%.\n\nWhile above 60 Insanity, the value of this effect is doubled.",
+    "iconPath": "interface/icons/inv_shield_draenei_a_02_uprez",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680555,
+    "spellIds": [
+      680555
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12219,
+      33893
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680555,
+        "description": "Increases your block value by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.<br /><br />While above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, the value of this effect is doubled.",
+        "descriptionText": "Increases your block value by 20%.\n\nWhile above 60 Insanity, the value of this effect is doubled."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7619,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "In And Out of Insanity",
+    "description": "Increases the effectiveness of your damage absorption effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your damage absorption effects by 20%.",
+    "iconPath": "interface/icons/spell_shadow_deathsembrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 582308,
+    "spellIds": [
+      582308
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7606,
+      30520
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 582308,
+        "description": "Increases the effectiveness of your damage absorption effects by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your damage absorption effects by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7620,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Bulwark of Horror",
+    "description": "Avoiding an attack now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refresh a charge of <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span>.",
+    "descriptionText": "Avoiding an attack now has a 40% chance to refresh a charge of Blade of the Empire.",
+    "iconPath": "interface/icons/nhi_shadowcatcher_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300278,
+    "spellIds": [
+      300278
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6771,
+      7612,
+      7617
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300278,
+        "description": "Avoiding an attack now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to refresh a charge of <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span>.",
+        "descriptionText": "Avoiding an attack now has a 40% chance to refresh a charge of Blade of the Empire."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7621,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Blessing of Y'Shaarj",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />While transformed into a void monstrosity your damage dealt is now also increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nWhile transformed into a void monstrosity your damage dealt is now also increased by 20%.",
+    "iconPath": "interface/icons/inv_inscription_80_vantusrune_nyalotha",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 801968,
+    "spellIds": [
+      801968
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33890
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801968,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />While transformed into a void monstrosity your damage dealt is now also increased by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nWhile transformed into a void monstrosity your damage dealt is now also increased by 20%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7622,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Dreadful",
+    "description": "Increases your critical strike rating equal to your block rating.<br /><br />In addition, critical strikes now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Dreadfall</span> and <span style=\"color: #ffffff; display: inline\">Dreadnought</span> by <span class=\"item-number\">1</span> sec.",
+    "descriptionText": "Increases your critical strike rating equal to your block rating.\n\nIn addition, critical strikes now reduce the cooldown of Dreadfall and Dreadnought by 1 sec.",
+    "iconPath": "interface/icons/5_tentacles_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680579,
+    "spellIds": [
+      680579
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6545,
+      7624
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680579,
+        "description": "Increases your critical strike rating equal to your block rating.<br /><br />In addition, critical strikes now reduce the cooldown of <span style=\"color: #ffffff; display: inline\">Dreadfall</span> and <span style=\"color: #ffffff; display: inline\">Dreadnought</span> by <span class=\"item-number\">1</span> sec.",
+        "descriptionText": "Increases your critical strike rating equal to your block rating.\n\nIn addition, critical strikes now reduce the cooldown of Dreadfall and Dreadnought by 1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7624,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Shadowy Symbiosis",
+    "description": "Your successful blocks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.<br /><br />This effect is doubled while above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Your successful blocks now have a 20% chance to critically block for twice the normal amount.\n\nThis effect is doubled while above 60 Insanity.",
+    "iconPath": "interface/icons/spell_nzinsanity_stophittingyourself",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680574,
+    "spellIds": [
+      680574
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7618,
+      9302
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680574,
+        "description": "Your successful blocks now have a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to critically block for twice the normal amount.<br /><br />This effect is doubled while above <span class=\"item-number\">60</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Your successful blocks now have a 20% chance to critically block for twice the normal amount.\n\nThis effect is doubled while above 60 Insanity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7625,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Void Augmentation",
+    "description": "While <span style=\"color: #FFFFFF; display: inline\">Dreadnought</span> is active, your <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> has a <span class=\"item-number\">-3</span> sec reduced cooldown.",
+    "descriptionText": "While Dreadnought is active, your Twilight Shieldtoss has a -3 sec reduced cooldown.",
+    "iconPath": "interface/icons/achievement_alliedrace_voidelf",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680575,
+    "spellIds": [
+      680575
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7627
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680575,
+        "description": "While <span style=\"color: #FFFFFF; display: inline\">Dreadnought</span> is active, your <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> has a <span class=\"item-number\">-3</span> sec reduced cooldown.",
+        "descriptionText": "While Dreadnought is active, your Twilight Shieldtoss has a -3 sec reduced cooldown."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7626,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Embodiment of Y'shaarj",
+    "description": "Increases the amount that <span style=\"color: #ffffff; display: inline\">Void Shield</span> absorbs by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.<br /><br />Absorbing damage grants you <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the absorbed value as spell power for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Increases the amount that Void Shield absorbs by 100%.\n\nAbsorbing damage grants you 20% of the absorbed value as spell power for 8 seconds.",
+    "iconPath": "interface/icons/achievement_thenighthold_chromaticanomaly",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681088,
+    "spellIds": [
+      681088
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29654
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681088,
+        "description": "Increases the amount that <span style=\"color: #ffffff; display: inline\">Void Shield</span> absorbs by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.<br /><br />Absorbing damage grants you <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of the absorbed value as spell power for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Increases the amount that Void Shield absorbs by 100%.\n\nAbsorbing damage grants you 20% of the absorbed value as spell power for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7627,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Twilight Guardian",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> now shields you for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt for <span class=\"item-number\">8</span> seconds.",
+    "descriptionText": "Damage dealt by Twilight Shieldtoss now shields you for 50% of the damage dealt for 8 seconds.",
+    "iconPath": "interface/icons/ability_druid_twilightswrath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704889,
+    "spellIds": [
+      704889
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6545,
+      7616
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704889,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Twilight Shieldtoss</span> now shields you for <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt for <span class=\"item-number\">8</span> seconds.",
+        "descriptionText": "Damage dealt by Twilight Shieldtoss now shields you for 50% of the damage dealt for 8 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7629,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Eldritch Force",
+    "description": "Every 5th critical strike with abilities now transforms your next <span style=\"color: #FFFFFF; display: inline\">Gaze of C'Thun</span> into <span style=\"color: #FFFFFF; display: inline\">Eldritch Force</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_shadowtentacle_border\" /><span class=\"name\">Eldritch Force</span></div><span class=\"desc\"><span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">30</span> Insanity</span><br />Send out a wave of force, dealing <span class=\"item-number\">631</span> + <span class=\"item-number\">76.26% SP</span> + <span class=\"item-number\">12.5% AP</span> Shadow Damage to enemies in front of you and reducing their movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+    "descriptionText": "Every 5th critical strike with abilities now transforms your next Gaze of C'Thun into Eldritch Force.\n\n---\n\nEldritch ForceGenerates 30 Insanity\nSend out a wave of force, dealing 631 + 76.26% SP + 12.5% AP Shadow Damage to enemies in front of you and reducing their movement speed by -30% for 10 seconds.",
+    "iconPath": "interface/icons/nhi_shadowtentacle_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681474,
+    "spellIds": [
+      681474
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7622
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681474,
+        "description": "Every 5th critical strike with abilities now transforms your next <span style=\"color: #FFFFFF; display: inline\">Gaze of C'Thun</span> into <span style=\"color: #FFFFFF; display: inline\">Eldritch Force</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_shadowtentacle_border\" /><span class=\"name\">Eldritch Force</span></div><span class=\"desc\"><span style=\"color: #cfa6ff; display: inline\">Generates <span class=\"item-number\">30</span> Insanity</span><br />Send out a wave of force, dealing <span class=\"item-number\">631</span> + <span class=\"item-number\">76.26% SP</span> + <span class=\"item-number\">12.5% AP</span> Shadow Damage to enemies in front of you and reducing their movement speed by <span class=\"item-number\">-30</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds.</span></div>",
+        "descriptionText": "Every 5th critical strike with abilities now transforms your next Gaze of C'Thun into Eldritch Force.\n\n---\n\nEldritch ForceGenerates 30 Insanity\nSend out a wave of force, dealing 631 + 76.26% SP + 12.5% AP Shadow Damage to enemies in front of you and reducing their movement speed by -30% for 10 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29654,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Void Tolerance",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Abyssal Ward</span> by <span class=\"item-number\">-30</span> sec.",
+    "descriptionText": "Reduces the cooldown of Abyssal Ward by -30 sec.",
+    "iconPath": "interface/icons/inv_legendary_chimeraoffear",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680570,
+    "spellIds": [
+      680570
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7616,
+      29916
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680570,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Abyssal Ward</span> by <span class=\"item-number\">-30</span> sec.",
+        "descriptionText": "Reduces the cooldown of Abyssal Ward by -30 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29882,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Tentacle of Y'shaarj",
+    "description": "Summon a <span style=\"color: #ffffff; display: inline\">Tentacle of Y'shaarj</span> near you for <span class=\"item-number\">30</span> seconds.<br /><br />When summoned and whenever <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span> is used, it slams the ground dealing Physical Damage, scaling with Stamina, to all enemies in a <span class=\"item-number\">10</span> yd frontal cone.<br /><br />",
+    "descriptionText": "Summon a Tentacle of Y'shaarj near you for 30 seconds.\n\nWhen summoned and whenever Gaze of C'thun is used, it slams the ground dealing Physical Damage, scaling with Stamina, to all enemies in a 10 yd frontal cone.",
+    "iconPath": "interface/icons/achievement_boss_yoggsaron_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802044,
+    "spellIds": [
+      802044
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6771
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802044,
+        "description": "Summon a <span style=\"color: #ffffff; display: inline\">Tentacle of Y'shaarj</span> near you for <span class=\"item-number\">30</span> seconds.<br /><br />When summoned and whenever <span style=\"color: #FFFFFF; display: inline\">Gaze of C'thun</span> is used, it slams the ground dealing Physical Damage, scaling with Stamina, to all enemies in a <span class=\"item-number\">10</span> yd frontal cone.<br /><br />",
+        "descriptionText": "Summon a Tentacle of Y'shaarj near you for 30 seconds.\n\nWhen summoned and whenever Gaze of C'thun is used, it slams the ground dealing Physical Damage, scaling with Stamina, to all enemies in a 10 yd frontal cone."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29916,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Eldritch Entities",
+    "description": "Critical strikes with abilities now summon a <span style=\"color: #FFFFFF; display: inline\">Manifestation of Y'shaarj</span> for <span class=\"item-number\">10</span> seconds, which will attack enemies and heal you for <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your base health.",
+    "descriptionText": "Critical strikes with abilities now summon a Manifestation of Y'shaarj for 10 seconds, which will attack enemies and heal you for 2% of your base health.",
+    "iconPath": "interface/icons/spell_shadow_auraofdarkness",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681425,
+    "spellIds": [
+      681425
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7619,
+      33896
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681425,
+        "description": "Critical strikes with abilities now summon a <span style=\"color: #FFFFFF; display: inline\">Manifestation of Y'shaarj</span> for <span class=\"item-number\">10</span> seconds, which will attack enemies and heal you for <span class=\"item-number\">2</span><span class=\"item-number\">%</span> of your base health.",
+        "descriptionText": "Critical strikes with abilities now summon a Manifestation of Y'shaarj for 10 seconds, which will attack enemies and heal you for 2% of your base health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29918,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Twilight Incarnate",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Twilight Shieldtoss</span> now generates <span class=\"item-number\">3</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+    "descriptionText": "Damage dealt by Twilight Shieldtoss now generates 3 Insanity.",
+    "iconPath": "interface/icons/inv_elemental_eternal_shadow",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 681087,
+    "spellIds": [
+      681087
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9759,
+      33888
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 681087,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Twilight Shieldtoss</span> now generates <span class=\"item-number\">3</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>.",
+        "descriptionText": "Damage dealt by Twilight Shieldtoss now generates 3 Insanity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33888,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Bouncing Thoughts",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Twilight Shieldtoss</span> now hits an additional enemy for every <span class=\"item-number\">20</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span> you have.",
+    "descriptionText": "Your Twilight Shieldtoss now hits an additional enemy for every 20 Insanity you have.",
+    "iconPath": "interface/icons/nhi_arcaneshuriken_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680607,
+    "spellIds": [
+      680607
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7620
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 97411,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680607,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Twilight Shieldtoss</span> now hits an additional enemy for every <span class=\"item-number\">20</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span> you have.",
+        "descriptionText": "Your Twilight Shieldtoss now hits an additional enemy for every 20 Insanity you have."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33890,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Strength of the Black Empire",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br /><span style=\"color: #FFFFFF; display: inline\">Dreadnought</span> now sheds your mortal form, transforming you into a void monstrosity, reducing your damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>",
+    "descriptionText": "Level 40 Passive\nDreadnought now sheds your mortal form, transforming you into a void monstrosity, reducing your damage taken by -10%",
+    "iconPath": "interface/icons/achievement_boss_generalvezax_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 680557,
+    "spellIds": [
+      680557
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9301
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680557,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br /><span style=\"color: #FFFFFF; display: inline\">Dreadnought</span> now sheds your mortal form, transforming you into a void monstrosity, reducing your damage taken by <span class=\"item-number\">-10</span><span class=\"item-number\">%</span>",
+        "descriptionText": "Level 40 Passive\nDreadnought now sheds your mortal form, transforming you into a void monstrosity, reducing your damage taken by -10%"
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33893,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Entropic Retaliation",
+    "description": "Blocking an attack now increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking up to <span class=\"item-number\">5</span> times.",
+    "descriptionText": "Blocking an attack now increases your critical strike chance by 2% for 6 seconds, stacking up to 5 times.",
+    "iconPath": "interface/icons/nhi_shadowbarrier_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802043,
+    "spellIds": [
+      802043
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7614
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802043,
+        "description": "Blocking an attack now increases your critical strike chance by <span class=\"item-number\">2</span><span class=\"item-number\">%</span> for <span class=\"item-number\">6</span> seconds, stacking up to <span class=\"item-number\">5</span> times.",
+        "descriptionText": "Blocking an attack now increases your critical strike chance by 2% for 6 seconds, stacking up to 5 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33896,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Bulwark of Shadow",
+    "description": "While above <span class=\"item-number\">80</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, your <span style=\"color: #FFFFFF; display: inline\">Void Shield</span> has <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased value.",
+    "descriptionText": "While above 80 Insanity, your Void Shield has 30% increased value.",
+    "iconPath": "interface/icons/inv_shield_draenorhonor_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301182,
+    "spellIds": [
+      301182
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29273,
+      30520
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301182,
+        "description": "While above <span class=\"item-number\">80</span> <span style=\"color: #cfa6ff; display: inline\">Insanity</span>, your <span style=\"color: #FFFFFF; display: inline\">Void Shield</span> has <span class=\"item-number\">30</span><span class=\"item-number\">%</span> increased value.",
+        "descriptionText": "While above 80 Insanity, your Void Shield has 30% increased value."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30520,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Crushing Dissonance",
+    "description": "Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school from being cast for <span class=\"item-number\">2</span> seconds.",
+    "descriptionText": "Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school from being cast for 2 seconds.",
+    "iconPath": "interface/icons/ability_kaztik_dominatemind",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 804056,
+    "spellIds": [
+      804056
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7611,
+      29273
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 804056,
+        "description": "Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school from being cast for <span class=\"item-number\">2</span> seconds.",
+        "descriptionText": "Unleash a wave of maddening resonance, interrupting the current spell cast of all enemies around you and preventing any spell in that school from being cast for 2 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6275,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Inner Darkness",
+    "description": "Blocking an attack now generates <span style=\"color: #cfa6ff; display: inline\"><span class=\"item-number\">3</span> Insanity</span>.",
+    "descriptionText": "Blocking an attack now generates 3 Insanity.",
+    "iconPath": "interface/icons/ability_racial_entropicembrace",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706182,
+    "spellIds": [
+      706182
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7614,
+      9759,
+      33888
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706182,
+        "description": "Blocking an attack now generates <span style=\"color: #cfa6ff; display: inline\"><span class=\"item-number\">3</span> Insanity</span>.",
+        "descriptionText": "Blocking an attack now generates 3 Insanity."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6545,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Void Strikes",
+    "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> and <span style=\"color: #FFFFFF; display: inline\">Entropic Slam</span> is now increased based on your defense rating.",
+    "descriptionText": "Damage dealt by Blade of the Empire and Entropic Slam is now increased based on your defense rating.",
+    "iconPath": "interface/icons/nhi_void_stab_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 680609,
+    "spellIds": [
+      680609
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7610,
+      9302
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 680609,
+        "description": "Damage dealt by <span style=\"color: #FFFFFF; display: inline\">Blade of the Empire</span> and <span style=\"color: #FFFFFF; display: inline\">Entropic Slam</span> is now increased based on your defense rating.",
+        "descriptionText": "Damage dealt by Blade of the Empire and Entropic Slam is now increased based on your defense rating."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6771,
+    "classId": 25,
+    "className": "Cultist",
+    "tabId": 88,
+    "tabKey": "25:88",
+    "tabName": "Dreadnought",
+    "name": "Boon of Y'shaarj",
+    "description": "You now gain an additional <span class=\"item-number\">2</span> mana per point of Intellect.",
+    "descriptionText": "You now gain an additional 2 mana per point of Intellect.",
+    "iconPath": "interface/icons/inv_wand_1h_430oldgod_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560080,
+    "spellIds": [
+      560080,
+      561335
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7404
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560080,
+        "description": "You now gain an additional <span class=\"item-number\">2</span> mana per point of Intellect.",
+        "descriptionText": "You now gain an additional 2 mana per point of Intellect."
+      },
+      {
+        "rank": 2,
+        "spellId": 561335,
+        "description": "You now gain an additional <span class=\"item-number\">4</span> mana per point of Intellect.",
+        "descriptionText": "You now gain an additional 4 mana per point of Intellect."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

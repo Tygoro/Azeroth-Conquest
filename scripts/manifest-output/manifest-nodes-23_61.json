@@ -1,0 +1,1897 @@
+[
+  {
+    "nodeId": 30487,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Summoner",
+    "description": "Reduces the mana cost and cooldown of <span style=\"color: #ffffff; display: inline\">Sacrifice Undead</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the mana cost and cooldown of Sacrifice Undead by -20%.",
+    "iconPath": "interface/icons/inv_misc_necklacea7",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706953,
+    "spellIds": [
+      706953
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706953,
+        "description": "Reduces the mana cost and cooldown of <span style=\"color: #ffffff; display: inline\">Sacrifice Undead</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the mana cost and cooldown of Sacrifice Undead by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30488,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Anti-Magic Shell",
+    "description": "When you summon a <span style=\"color: #ffffff; display: inline\">Raised</span> minion, it now raises with a shield absorbing Magic Damage equal to <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of their maximum health.",
+    "descriptionText": "When you summon a Raised minion, it now raises with a shield absorbing Magic Damage equal to 40% of their maximum health.",
+    "iconPath": "interface/icons/spell_shadow_antimagicshell",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504866,
+    "spellIds": [
+      504866
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5766,
+      33766
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504866,
+        "description": "When you summon a <span style=\"color: #ffffff; display: inline\">Raised</span> minion, it now raises with a shield absorbing Magic Damage equal to <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of their maximum health.",
+        "descriptionText": "When you summon a Raised minion, it now raises with a shield absorbing Magic Damage equal to 40% of their maximum health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30495,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Animate: Tomb King",
+    "description": "Animate a <span style=\"color: #ffffff; display: inline\">Tomb King</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.<br /><br />While active, all of your Undead minion's attacks deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Plague Damage.",
+    "descriptionText": "Animate a Tomb King to aid you in combat for 20 seconds.\n\nWhile active, all of your Undead minion's attacks deal an additional 10% of the damage dealt as Plague Damage.",
+    "iconPath": "interface/icons/kingoftombs1",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805044,
+    "spellIds": [
+      805044
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 805032,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805044,
+        "description": "Animate a <span style=\"color: #ffffff; display: inline\">Tomb King</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.<br /><br />While active, all of your Undead minion's attacks deal an additional <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt as Plague Damage.",
+        "descriptionText": "Animate a Tomb King to aid you in combat for 20 seconds.\n\nWhile active, all of your Undead minion's attacks deal an additional 10% of the damage dealt as Plague Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30497,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Commander",
+    "description": "Reduces the Runic Power cost of <span style=\"color: #ffffff; display: inline\">Command: Undead</span> and <span style=\"color: #ffffff; display: inline\">Harvest Plague</span> by <span class=\"item-number\">-5</span>.",
+    "descriptionText": "Reduces the Runic Power cost of Command: Undead and Harvest Plague by -5.",
+    "iconPath": "interface/icons/spell_shadow_deathcoil",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 302923,
+    "spellIds": [
+      302923
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30022
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302923,
+        "description": "Reduces the Runic Power cost of <span style=\"color: #ffffff; display: inline\">Command: Undead</span> and <span style=\"color: #ffffff; display: inline\">Harvest Plague</span> by <span class=\"item-number\">-5</span>.",
+        "descriptionText": "Reduces the Runic Power cost of Command: Undead and Harvest Plague by -5."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33748,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Animate: Plaguefather",
+    "description": "Animate a <span style=\"color: #ffffff; display: inline\">Plaguefather</span> to aid you in combat for <span class=\"item-number\">15</span> seconds. <br /><br />Damage dealt by this minion will emit <span style=\"color: #ffffff; display: inline\">Zombie Plague</span>, dealing <span class=\"item-number\">79</span> + <span class=\"item-number\">10% SP</span> Plague Damage to nearby enemies, and reducing their attack power by <span class=\"item-number\">263</span>.",
+    "descriptionText": "Animate a Plaguefather to aid you in combat for 15 seconds. \n\nDamage dealt by this minion will emit Zombie Plague, dealing 79 + 10% SP Plague Damage to nearby enemies, and reducing their attack power by 263.",
+    "iconPath": "interface/icons/inv_helm_leather_maldraxxus_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805048,
+    "spellIds": [
+      805048
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7119,
+      7146,
+      10495,
+      30495
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805048,
+        "description": "Animate a <span style=\"color: #ffffff; display: inline\">Plaguefather</span> to aid you in combat for <span class=\"item-number\">15</span> seconds. <br /><br />Damage dealt by this minion will emit <span style=\"color: #ffffff; display: inline\">Zombie Plague</span>, dealing <span class=\"item-number\">79</span> + <span class=\"item-number\">10% SP</span> Plague Damage to nearby enemies, and reducing their attack power by <span class=\"item-number\">263</span>.",
+        "descriptionText": "Animate a Plaguefather to aid you in combat for 15 seconds. \n\nDamage dealt by this minion will emit Zombie Plague, dealing 79 + 10% SP Plague Damage to nearby enemies, and reducing their attack power by 263."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33749,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Underking",
+    "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now grants you a stack of <span style=\"color: #ffffff; display: inline\">Underking</span> for <span class=\"item-number\">20</span> seconds.<br /><br />At <span class=\"item-number\">10</span> stacks, the cooldown of <span style=\"color: #ffffff; display: inline\">Animate: Tomb King</span>, <span style=\"color: #ffffff; display: inline\">Animate: Bone Wraith</span> or <span style=\"color: #ffffff; display: inline\">Animate: Plaguefather</span> is reduced by <span class=\"item-number\">-15</span> sec at random.",
+    "descriptionText": "Casting Command spells now grants you a stack of Underking for 20 seconds.\n\nAt 10 stacks, the cooldown of Animate: Tomb King, Animate: Bone Wraith or Animate: Plaguefather is reduced by -15 sec at random.",
+    "iconPath": "interface/icons/5_sumzombie_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704701,
+    "spellIds": [
+      704701
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4238
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704701,
+        "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now grants you a stack of <span style=\"color: #ffffff; display: inline\">Underking</span> for <span class=\"item-number\">20</span> seconds.<br /><br />At <span class=\"item-number\">10</span> stacks, the cooldown of <span style=\"color: #ffffff; display: inline\">Animate: Tomb King</span>, <span style=\"color: #ffffff; display: inline\">Animate: Bone Wraith</span> or <span style=\"color: #ffffff; display: inline\">Animate: Plaguefather</span> is reduced by <span class=\"item-number\">-15</span> sec at random.",
+        "descriptionText": "Casting Command spells now grants you a stack of Underking for 20 seconds.\n\nAt 10 stacks, the cooldown of Animate: Tomb King, Animate: Bone Wraith or Animate: Plaguefather is reduced by -15 sec at random."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33766,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Mindless Fury",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Animate</span> or <span style=\"color: #90ee90; display: inline\">Command</span> spells now increases your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Casting Animate or Command spells now increases your haste by 1% for 10 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/ability_fiegndead",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805674,
+    "spellIds": [
+      805674
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6887
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 72342,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805674,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Animate</span> or <span style=\"color: #90ee90; display: inline\">Command</span> spells now increases your haste by <span class=\"item-number\">1</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Casting Animate or Command spells now increases your haste by 1% for 10 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33772,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Lich's Prodigy",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Glacial Tap</span> now generates an additional <span class=\"item-number\">20</span> Runic Power, but its cost is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Your Glacial Tap now generates an additional 20 Runic Power, but its cost is increased by 25%.",
+    "iconPath": "interface/icons/inv_misc_herb_ancientlichen",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 302519,
+    "spellIds": [
+      302519
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29943
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302519,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Glacial Tap</span> now generates an additional <span class=\"item-number\">20</span> Runic Power, but its cost is increased by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Your Glacial Tap now generates an additional 20 Runic Power, but its cost is increased by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33773,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Unstoppable Frenzy",
+    "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Unholy Frenzy</span> by <span class=\"item-number\">-60</span> sec.",
+    "descriptionText": "Reduces the cooldown of your Unholy Frenzy by -60 sec.",
+    "iconPath": "interface/icons/custom_t_nhance_rpg_icons_unholystone_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573426,
+    "spellIds": [
+      573426
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33748
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 561232,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573426,
+        "description": "Reduces the cooldown of your <span style=\"color: #FFFFFF; display: inline\">Unholy Frenzy</span> by <span class=\"item-number\">-60</span> sec.",
+        "descriptionText": "Reduces the cooldown of your Unholy Frenzy by -60 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33774,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Summoning Prodigy",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Skeletal Archers</span> by <span class=\"item-number\">3</span> sec.",
+    "descriptionText": "Increases the duration of Skeletal Archers by 3 sec.",
+    "iconPath": "interface/icons/spell_shadow_requiem",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704682,
+    "spellIds": [
+      704682
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7143
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704682,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Skeletal Archers</span> by <span class=\"item-number\">3</span> sec.",
+        "descriptionText": "Increases the duration of Skeletal Archers by 3 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 33775,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Raise: Ghoul",
+    "description": "Raise a <span style=\"color: #ffffff; display: inline\">Ghoul</span> to aid you in combat occupying <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>. <br /><br />Its auto attacks restore <span class=\"item-number\">25</span> + <span class=\"item-number\">12.5% SP</span> health to you.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Expels leeching plague that strikes up to <span class=\"item-number\">5</span> nearby enemies, dealing <span class=\"item-number\">39</span> + <span class=\"item-number\">37.5% SP</span> + <span class=\"item-number\">50% Intellect</span> Plague Damage, and healing you for <span class=\"item-number\">40</span> + <span class=\"item-number\">22% SP</span> + <span class=\"item-number\">50% Intellect</span> for each <span style=\"color: #ffffff; display: inline\">Ghoul</span>.",
+    "descriptionText": "Raise a Ghoul to aid you in combat occupying 1 Life Force. \n\nIts auto attacks restore 25 + 12.5% SP health to you.\n\nCommand: Expels leeching plague that strikes up to 5 nearby enemies, dealing 39 + 37.5% SP + 50% Intellect Plague Damage, and healing you for 40 + 22% SP + 50% Intellect for each Ghoul.",
+    "iconPath": "interface/icons/ghoul",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500971,
+    "spellIds": [
+      500971
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12165,
+      30497,
+      33774
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500971,
+        "description": "Raise a <span style=\"color: #ffffff; display: inline\">Ghoul</span> to aid you in combat occupying <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Life Force</span>. <br /><br />Its auto attacks restore <span class=\"item-number\">25</span> + <span class=\"item-number\">12.5% SP</span> health to you.<br /><br /><span style=\"color: #90ee90; display: inline\">Command</span>: Expels leeching plague that strikes up to <span class=\"item-number\">5</span> nearby enemies, dealing <span class=\"item-number\">39</span> + <span class=\"item-number\">37.5% SP</span> + <span class=\"item-number\">50% Intellect</span> Plague Damage, and healing you for <span class=\"item-number\">40</span> + <span class=\"item-number\">22% SP</span> + <span class=\"item-number\">50% Intellect</span> for each <span style=\"color: #ffffff; display: inline\">Ghoul</span>.",
+        "descriptionText": "Raise a Ghoul to aid you in combat occupying 1 Life Force. \n\nIts auto attacks restore 25 + 12.5% SP health to you.\n\nCommand: Expels leeching plague that strikes up to 5 nearby enemies, dealing 39 + 37.5% SP + 50% Intellect Plague Damage, and healing you for 40 + 22% SP + 50% Intellect for each Ghoul."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29943,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "March of the Dead",
+    "description": "Beckon the restless dead to rise and march forward.<br /><br />When they reach an enemy they explode, dealing <span class=\"item-number\">854</span> + <span class=\"item-number\">75% SP</span> Plague Damage to nearby enemies and slowing their movement speed by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Beckon the restless dead to rise and march forward.\n\nWhen they reach an enemy they explode, dealing 854 + 75% SP Plague Damage to nearby enemies and slowing their movement speed by -70% for 3 seconds.",
+    "iconPath": "interface/icons/spell_shadow_deadofnight",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707007,
+    "spellIds": [
+      707007
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      2174,
+      7146
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707007,
+        "description": "Beckon the restless dead to rise and march forward.<br /><br />When they reach an enemy they explode, dealing <span class=\"item-number\">854</span> + <span class=\"item-number\">75% SP</span> Plague Damage to nearby enemies and slowing their movement speed by <span class=\"item-number\">-70</span><span class=\"item-number\">%</span> for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Beckon the restless dead to rise and march forward.\n\nWhen they reach an enemy they explode, dealing 854 + 75% SP Plague Damage to nearby enemies and slowing their movement speed by -70% for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30022,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Graverobber",
+    "description": "Increases the Physical Damage dealt by your Undead minions by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the Physical Damage dealt by your Undead minions by 10%.",
+    "iconPath": "interface/icons/ability_deathknight_deathsiphon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503757,
+    "spellIds": [
+      503757
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7345
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503757,
+        "description": "Increases the Physical Damage dealt by your Undead minions by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the Physical Damage dealt by your Undead minions by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30238,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Long March",
+    "description": "Removes the cooldown from <span style=\"color: #ffffff; display: inline\">March of the Dead</span>, but gives it a <span class=\"item-number\">1</span> sec cast time.",
+    "descriptionText": "Removes the cooldown from March of the Dead, but gives it a 1 sec cast time.",
+    "iconPath": "interface/icons/spell_deathknight_iceboundfortitude",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704717,
+    "spellIds": [
+      704717
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5290,
+      6290,
+      7346
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704717,
+        "description": "Removes the cooldown from <span style=\"color: #ffffff; display: inline\">March of the Dead</span>, but gives it a <span class=\"item-number\">1</span> sec cast time.",
+        "descriptionText": "Removes the cooldown from March of the Dead, but gives it a 1 sec cast time."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7112,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Crypt Keeper",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Crypt Swarm</span> now bounces to <span class=\"item-number\">2</span> additional nearby enemies, at <span class=\"item-number\">30</span><span class=\"item-number\">%</span> reduced value per enemy struck.",
+    "descriptionText": "Your Crypt Swarm now bounces to 2 additional nearby enemies, at 30% reduced value per enemy struck.",
+    "iconPath": "interface/icons/_undead_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560596,
+    "spellIds": [
+      560596
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33748
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704718,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560596,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Crypt Swarm</span> now bounces to <span class=\"item-number\">2</span> additional nearby enemies, at <span class=\"item-number\">30</span><span class=\"item-number\">%</span> reduced value per enemy struck.",
+        "descriptionText": "Your Crypt Swarm now bounces to 2 additional nearby enemies, at 30% reduced value per enemy struck."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7117,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Master Animator",
+    "description": "Increases your maximum <span style=\"color: #ffffff; display: inline\">Life Force</span> by <span class=\"item-number\">1</span>.",
+    "descriptionText": "Increases your maximum Life Force by 1.",
+    "iconPath": "interface/icons/epic_rpg_icon_pack_death_icon_0004s_0000_shadow_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504431,
+    "spellIds": [
+      504431
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4238,
+      4619
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504431,
+        "description": "Increases your maximum <span style=\"color: #ffffff; display: inline\">Life Force</span> by <span class=\"item-number\">1</span>.",
+        "descriptionText": "Increases your maximum Life Force by 1."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7119,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Ghoul Mastery",
+    "description": "Damage dealt by your <span style=\"color: #ffffff; display: inline\">Ghouls</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to transform them into a <span style=\"color: #ffffff; display: inline\">Frenzied Ghoul</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_demonhunter_reversemagic\" /><span class=\"name\">Frenzied Ghoul (Proc)</span></div><span class=\"desc\">Transformed into a <span style=\"color: #FFFFFF; display: inline\">Frenzied Ghoul</span>, increasing haste by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds. Immune to movement slowing effects.</span></div>",
+    "descriptionText": "Damage dealt by your Ghouls now has a 15% chance to transform them into a Frenzied Ghoul.\n\n---\n\nFrenzied Ghoul (Proc)Transformed into a Frenzied Ghoul, increasing haste by 40% for 10 seconds. Immune to movement slowing effects.",
+    "iconPath": "interface/icons/ability_demonhunter_reversemagic",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503740,
+    "spellIds": [
+      503740
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33775
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503740,
+        "description": "Damage dealt by your <span style=\"color: #ffffff; display: inline\">Ghouls</span> now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to transform them into a <span style=\"color: #ffffff; display: inline\">Frenzied Ghoul</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_demonhunter_reversemagic\" /><span class=\"name\">Frenzied Ghoul (Proc)</span></div><span class=\"desc\">Transformed into a <span style=\"color: #FFFFFF; display: inline\">Frenzied Ghoul</span>, increasing haste by <span class=\"item-number\">40</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds. Immune to movement slowing effects.</span></div>",
+        "descriptionText": "Damage dealt by your Ghouls now has a 15% chance to transform them into a Frenzied Ghoul.\n\n---\n\nFrenzied Ghoul (Proc)Transformed into a Frenzied Ghoul, increasing haste by 40% for 10 seconds. Immune to movement slowing effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7141,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Summoning Ritual",
+    "description": "Summon a ritual circle at your location for <span class=\"item-number\">1</span> minute. While active, you may cast <span style=\"color: #ffffff; display: inline\">Ritual Return</span> to return to it.<br /><br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_necro_undyingrelentlessness\" /><span class=\"name\">Ritual Return</span></div><span class=\"desc\">Teleport back to the position of your <span style=\"color: #ffffff; display: inline\">Scourge Transporter</span> and remove all movement slowing effects from you.</span></div>",
+    "descriptionText": "Summon a ritual circle at your location for 1 minute. While active, you may cast Ritual Return to return to it.\n\n---\n\nRitual ReturnTeleport back to the position of your Scourge Transporter and remove all movement slowing effects from you.",
+    "iconPath": "interface/icons/nhi_deathgolem_border",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805038,
+    "spellIds": [
+      805038
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5766,
+      33766
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805038,
+        "description": "Summon a ritual circle at your location for <span class=\"item-number\">1</span> minute. While active, you may cast <span style=\"color: #ffffff; display: inline\">Ritual Return</span> to return to it.<br /><br /><div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 spell_necro_undyingrelentlessness\" /><span class=\"name\">Ritual Return</span></div><span class=\"desc\">Teleport back to the position of your <span style=\"color: #ffffff; display: inline\">Scourge Transporter</span> and remove all movement slowing effects from you.</span></div>",
+        "descriptionText": "Summon a ritual circle at your location for 1 minute. While active, you may cast Ritual Return to return to it.\n\n---\n\nRitual ReturnTeleport back to the position of your Scourge Transporter and remove all movement slowing effects from you."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7143,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Bone King",
+    "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #ffffff; display: inline\">Lichfrost</span> within <span class=\"item-number\">5</span> seconds instant cast.",
+    "descriptionText": "Casting Command spells now has a 15% chance to make your next Lichfrost within 5 seconds instant cast.",
+    "iconPath": "interface/icons/inv_custom_bonetattoo_green",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707175,
+    "spellIds": [
+      707175
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7345
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707175,
+        "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now has a <span class=\"item-number\">15</span><span class=\"item-number\">%</span> chance to make your next <span style=\"color: #ffffff; display: inline\">Lichfrost</span> within <span class=\"item-number\">5</span> seconds instant cast.",
+        "descriptionText": "Casting Command spells now has a 15% chance to make your next Lichfrost within 5 seconds instant cast."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7145,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Runic Animation",
+    "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Animate: Skeletal Archers</span> and <span style=\"color: #ffffff; display: inline\">Command: Hook</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the cooldown of Animate: Skeletal Archers and Command: Hook by -20%.",
+    "iconPath": "interface/icons/achievement_dungeon_thenecroticwake_stitchflesh",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707445,
+    "spellIds": [
+      707445
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30497
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707445,
+        "description": "Reduces the cooldown of <span style=\"color: #ffffff; display: inline\">Animate: Skeletal Archers</span> and <span style=\"color: #ffffff; display: inline\">Command: Hook</span> by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the cooldown of Animate: Skeletal Archers and Command: Hook by -20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7146,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Zombifier",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Animate: Skeletal Archers</span> now summons <span class=\"item-number\">1</span> additional <span style=\"color: #FFFFFF; display: inline\">Skeletal Archer</span>.",
+    "descriptionText": "Your Animate: Skeletal Archers now summons 1 additional Skeletal Archer.",
+    "iconPath": "interface/icons/inv_misc_trinket6oog_cyclopianpig1",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 302518,
+    "spellIds": [
+      302518,
+      302921
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7145
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 302518,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Animate: Skeletal Archers</span> now summons <span class=\"item-number\">1</span> additional <span style=\"color: #FFFFFF; display: inline\">Skeletal Archer</span>.",
+        "descriptionText": "Your Animate: Skeletal Archers now summons 1 additional Skeletal Archer."
+      },
+      {
+        "rank": 2,
+        "spellId": 302921,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Animate: Skeletal Archers</span> now summons <span class=\"item-number\">2</span> additional <span style=\"color: #FFFFFF; display: inline\">Skeletal Archer</span>.",
+        "descriptionText": "Your Animate: Skeletal Archers now summons 2 additional Skeletal Archer."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 2174,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Forbidden Technique",
+    "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Animates</span> by <span class=\"item-number\">-1</span> sec.",
+    "descriptionText": "Casting Command spells now reduces the cooldown of your Animates by -1 sec.",
+    "iconPath": "interface/icons/spell_deathknight_empowerruneblade",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 561215,
+    "spellIds": [
+      561215
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7145
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 561215,
+        "description": "Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now reduces the cooldown of your <span style=\"color: #ffffff; display: inline\">Animates</span> by <span class=\"item-number\">-1</span> sec.",
+        "descriptionText": "Casting Command spells now reduces the cooldown of your Animates by -1 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4036,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Summoning Adept",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases your maximum <span style=\"color: #FFFFFF; display: inline\">Life Force</span> by <span class=\"item-number\">1</span>.",
+    "descriptionText": "Level 10 Passive\nIncreases your maximum Life Force by 1.",
+    "iconPath": "interface/icons/_undead_03",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92123,
+    "spellIds": [
+      92123
+    ],
+    "requiredNodeIds": [
+      29364
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92123,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Increases your maximum <span style=\"color: #FFFFFF; display: inline\">Life Force</span> by <span class=\"item-number\">1</span>.",
+        "descriptionText": "Level 10 Passive\nIncreases your maximum Life Force by 1."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4235,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Diabolical",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting spells now grants you <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Diabolical</span>, stacking up to <span class=\"item-number\">15</span> times, for <span class=\"item-number\">20</span> seconds.<br /><br />Damage dealt by your <span style=\"color: #ffffff; display: inline\">Crypt Swarm</span> will consume a stack to deal <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage per stack.",
+    "descriptionText": "Level 40 Passive\nCasting spells now grants you 1 stack of Diabolical, stacking up to 15 times, for 20 seconds.\n\nDamage dealt by your Crypt Swarm will consume a stack to deal 10% increased damage per stack.",
+    "iconPath": "interface/icons/spell_necro_inevitableend",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704723,
+    "spellIds": [
+      704723
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4237
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704723,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Casting spells now grants you <span class=\"item-number\">1</span> stack of <span style=\"color: #ffffff; display: inline\">Diabolical</span>, stacking up to <span class=\"item-number\">15</span> times, for <span class=\"item-number\">20</span> seconds.<br /><br />Damage dealt by your <span style=\"color: #ffffff; display: inline\">Crypt Swarm</span> will consume a stack to deal <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage per stack.",
+        "descriptionText": "Level 40 Passive\nCasting spells now grants you 1 stack of Diabolical, stacking up to 15 times, for 20 seconds.\n\nDamage dealt by your Crypt Swarm will consume a stack to deal 10% increased damage per stack."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4236,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Deadly Bond",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause their next use within <span class=\"item-number\">6</span> seconds to be free of cost.",
+    "descriptionText": "Level 20 Passive\nCasting Command spells now has a 30% chance to cause their next use within 6 seconds to be free of cost.",
+    "iconPath": "interface/icons/inv_qirajidol_death",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 704724,
+    "spellIds": [
+      704724
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4036
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704724,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Casting <span style=\"color: #90ee90; display: inline\">Command</span> spells now has a <span class=\"item-number\">30</span><span class=\"item-number\">%</span> chance to cause their next use within <span class=\"item-number\">6</span> seconds to be free of cost.",
+        "descriptionText": "Level 20 Passive\nCasting Command spells now has a 30% chance to cause their next use within 6 seconds to be free of cost."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4237,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Summoning Expert",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your maximum <span style=\"color: #ffffff; display: inline\">Life Force</span> by <span class=\"item-number\">1</span> and your Undead minion's Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 30 Passive\nIncreases your maximum Life Force by 1 and your Undead minion's Stamina by 10%.",
+    "iconPath": "interface/icons/_beasttaming_undead",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 807494,
+    "spellIds": [
+      807494
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4236
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807494,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Increases your maximum <span style=\"color: #ffffff; display: inline\">Life Force</span> by <span class=\"item-number\">1</span> and your Undead minion's Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 30 Passive\nIncreases your maximum Life Force by 1 and your Undead minion's Stamina by 10%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6887,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Unrelenting Army",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Harvest Plague</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #FFFFFF; display: inline\">Lesser Zombie</span> to aid you in combat for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Damage dealt by Harvest Plague now has a 20% chance to summon a Lesser Zombie to aid you in combat for 15 seconds.",
+    "iconPath": "interface/icons/spell_deathknight_armyofthedead",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 705747,
+    "spellIds": [
+      705747,
+      707880
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      10495,
+      30487,
+      30495
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705747,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Harvest Plague</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #FFFFFF; display: inline\">Lesser Zombie</span> to aid you in combat for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Damage dealt by Harvest Plague now has a 20% chance to summon a Lesser Zombie to aid you in combat for 15 seconds."
+      },
+      {
+        "rank": 2,
+        "spellId": 707880,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Harvest Plague</span> now has a <span class=\"item-number\">40</span><span class=\"item-number\">%</span> chance to summon a <span style=\"color: #FFFFFF; display: inline\">Lesser Zombie</span> to aid you in combat for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Damage dealt by Harvest Plague now has a 40% chance to summon a Lesser Zombie to aid you in combat for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5766,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Depravity",
+    "description": "Increases the melee haste of your Undead minions by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and gives their critical auto attacks have a chance to trigger <span style=\"color: #FFFFFF; display: inline\">Bone Club</span>, dealing <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt as Shadow Damage.",
+    "descriptionText": "Increases the melee haste of your Undead minions by 10% and gives their critical auto attacks have a chance to trigger Bone Club, dealing 40% of the damage dealt as Shadow Damage.",
+    "iconPath": "interface/icons/inv_mace_1h_warfrontsforsaken_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 638403,
+    "spellIds": [
+      638403
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6887
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 72342,
+    "gridX": 1,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 638403,
+        "description": "Increases the melee haste of your Undead minions by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and gives their critical auto attacks have a chance to trigger <span style=\"color: #FFFFFF; display: inline\">Bone Club</span>, dealing <span class=\"item-number\">40</span><span class=\"item-number\">%</span> of the damage dealt as Shadow Damage.",
+        "descriptionText": "Increases the melee haste of your Undead minions by 10% and gives their critical auto attacks have a chance to trigger Bone Club, dealing 40% of the damage dealt as Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6290,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Fetid Mark",
+    "description": "Dealing Shadow Damage now increases the damage the target takes from your <span style=\"color: #ffffff; display: inline\">Skeletal Warriors</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+    "descriptionText": "Dealing Shadow Damage now increases the damage the target takes from your Skeletal Warriors by 3% for 10 seconds, stacking 10 times.",
+    "iconPath": "interface/icons/inv_pet_inquisitoreye",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706948,
+    "spellIds": [
+      706948
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33772
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 72431,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706948,
+        "description": "Dealing Shadow Damage now increases the damage the target takes from your <span style=\"color: #ffffff; display: inline\">Skeletal Warriors</span> by <span class=\"item-number\">3</span><span class=\"item-number\">%</span> for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">10</span> times.",
+        "descriptionText": "Dealing Shadow Damage now increases the damage the target takes from your Skeletal Warriors by 3% for 10 seconds, stacking 10 times."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4238,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Plague Horde",
+    "description": "Damage dealt by your Undead minions now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to cast <span style=\"color: #FFFFFF; display: inline\">Plague Horde</span> on themselves for <span class=\"item-number\">5</span> seconds and emit <span style=\"color: #ffffff; display: inline\">Zombie Plague</span>, dealing <span class=\"item-number\">79</span> + <span class=\"item-number\">10% SP</span> Plague Damage to their target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_belt_pvpwarlock_e_01\" /><span class=\"name\">Plague Horde</span></div><span class=\"desc\">Enrage for <span class=\"item-number\">5</span> seconds, increasing melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.</span></div>",
+    "descriptionText": "Damage dealt by your Undead minions now has a 10% chance to cast Plague Horde on themselves for 5 seconds and emit Zombie Plague, dealing 79 + 10% SP Plague Damage to their target.\n\n---\n\nPlague HordeEnrage for 5 seconds, increasing melee and ranged haste by 10% and critical strike chance by 10%.",
+    "iconPath": "interface/icons/inv_belt_pvpwarlock_e_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 802986,
+    "spellIds": [
+      802986
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7141,
+      7346,
+      7350
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 802986,
+        "description": "Damage dealt by your Undead minions now has a <span class=\"item-number\">10</span><span class=\"item-number\">%</span> chance to cast <span style=\"color: #FFFFFF; display: inline\">Plague Horde</span> on themselves for <span class=\"item-number\">5</span> seconds and emit <span style=\"color: #ffffff; display: inline\">Zombie Plague</span>, dealing <span class=\"item-number\">79</span> + <span class=\"item-number\">10% SP</span> Plague Damage to their target.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 inv_belt_pvpwarlock_e_01\" /><span class=\"name\">Plague Horde</span></div><span class=\"desc\">Enrage for <span class=\"item-number\">5</span> seconds, increasing melee and ranged haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and critical strike chance by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.</span></div>",
+        "descriptionText": "Damage dealt by your Undead minions now has a 10% chance to cast Plague Horde on themselves for 5 seconds and emit Zombie Plague, dealing 79 + 10% SP Plague Damage to their target.\n\n---\n\nPlague HordeEnrage for 5 seconds, increasing melee and ranged haste by 10% and critical strike chance by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4619,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Flesh Symbiosis",
+    "description": "Each <span style=\"color: #ffffff; display: inline\">Abomination</span> or <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span> active now increases your total Armor and magic resistance by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and causes you to periodically regenerate <span class=\"item-number\">2</span><span class=\"item-number\">%</span> maximum health every <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Each Abomination or Decaying Colossus active now increases your total Armor and magic resistance by 30% and causes you to periodically regenerate 2% maximum health every 5 sec.",
+    "iconPath": "interface/icons/reforgedabomination",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 301207,
+    "spellIds": [
+      301207
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7141,
+      30488
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 301207,
+        "description": "Each <span style=\"color: #ffffff; display: inline\">Abomination</span> or <span style=\"color: #ffffff; display: inline\">Decaying Colossus</span> active now increases your total Armor and magic resistance by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> and causes you to periodically regenerate <span class=\"item-number\">2</span><span class=\"item-number\">%</span> maximum health every <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Each Abomination or Decaying Colossus active now increases your total Armor and magic resistance by 30% and causes you to periodically regenerate 2% maximum health every 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5290,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Chomp",
+    "description": "Critical strikes dealt by your <span style=\"color: #ffffff; display: inline\">Abominations</span> and <span style=\"color: #ffffff; display: inline\">Decaying Collosi</span> now <span style=\"color: #FFFFFF; display: inline\">Chomp</span> your target, dealing <span class=\"item-number\">248</span> + <span class=\"item-number\">100% AP</span> damage to them.",
+    "descriptionText": "Critical strikes dealt by your Abominations and Decaying Collosi now Chomp your target, dealing 248 + 100% AP damage to them.",
+    "iconPath": "interface/icons/nhi_necrodrain_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707283,
+    "spellIds": [
+      707283
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33772
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 72431,
+    "gridX": 8,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707283,
+        "description": "Critical strikes dealt by your <span style=\"color: #ffffff; display: inline\">Abominations</span> and <span style=\"color: #ffffff; display: inline\">Decaying Collosi</span> now <span style=\"color: #FFFFFF; display: inline\">Chomp</span> your target, dealing <span class=\"item-number\">248</span> + <span class=\"item-number\">100% AP</span> damage to them.",
+        "descriptionText": "Critical strikes dealt by your Abominations and Decaying Collosi now Chomp your target, dealing 248 + 100% AP damage to them."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7298,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Army of the Dead",
+    "description": "While only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Abomination</span> is active, the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Ghouls</span> is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "While only 1 Abomination is active, the critical strike chance of your Ghouls is increased by 10% and haste by 10%.",
+    "iconPath": "interface/icons/_d3graspofthedead",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 525600,
+    "spellIds": [
+      525600
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33748
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 561232,
+    "gridX": 5,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 525600,
+        "description": "While only <span class=\"item-number\">1</span> <span style=\"color: #ffffff; display: inline\">Abomination</span> is active, the critical strike chance of your <span style=\"color: #ffffff; display: inline\">Ghouls</span> is increased by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "While only 1 Abomination is active, the critical strike chance of your Ghouls is increased by 10% and haste by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7345,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Animate: Skeletal Archer",
+    "description": "Animate <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Skeletal Archers</span> to aid you in combat for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Animate 3 Skeletal Archers to aid you in combat for 15 seconds.",
+    "iconPath": "interface/icons/skeletalarcher",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805040,
+    "spellIds": [
+      805040
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805040,
+        "description": "Animate <span class=\"item-number\">3</span> <span style=\"color: #ffffff; display: inline\">Skeletal Archers</span> to aid you in combat for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Animate 3 Skeletal Archers to aid you in combat for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7346,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Plague Protection",
+    "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Wards</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the effectiveness of your Wards by 25%.",
+    "iconPath": "interface/icons/spell_deathknight_classicon",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 570046,
+    "spellIds": [
+      570046,
+      570226
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33772
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 570046,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Wards</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Wards by 25%."
+      },
+      {
+        "rank": 2,
+        "spellId": 570226,
+        "description": "Increases the effectiveness of your <span style=\"color: #ffffff; display: inline\">Wards</span> by <span class=\"item-number\">50</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the effectiveness of your Wards by 50%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7347,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Scourge Disciple",
+    "description": "Each active <span style=\"color: #ffffff; display: inline\">Skeletal Archer</span> now increases your haste by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Each active Skeletal Archer now increases your haste by -5%.",
+    "iconPath": "interface/icons/nhi_rottenflesh_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 531126,
+    "spellIds": [
+      531126
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33774
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 531126,
+        "description": "Each active <span style=\"color: #ffffff; display: inline\">Skeletal Archer</span> now increases your haste by <span class=\"item-number\">-5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Each active Skeletal Archer now increases your haste by -5%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7350,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Corpse Wagon",
+    "description": "Increases all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases all damage dealt by party and raid members by 3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/spell_shadow_corpseexplode",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 503738,
+    "spellIds": [
+      503738
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7112,
+      7298,
+      11112,
+      33773
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 503738,
+        "description": "Increases all damage dealt by party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases all damage dealt by party and raid members by 3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9934,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Grave Mastery",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Reduces the cost of all <span style=\"color: #FFFFFF; display: inline\">Animates</span>, <span style=\"color: #ffffff; display: inline\">Raises</span>, and <span style=\"color: #90ee90; display: inline\">Command</span> spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nReduces the cost of all Animates, Raises, and Command spells by -20%.",
+    "iconPath": "interface/icons/nhi_deathscythe_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 504439,
+    "spellIds": [
+      504439
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4235
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504439,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Reduces the cost of all <span style=\"color: #FFFFFF; display: inline\">Animates</span>, <span style=\"color: #ffffff; display: inline\">Raises</span>, and <span style=\"color: #90ee90; display: inline\">Command</span> spells by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nReduces the cost of all Animates, Raises, and Command spells by -20%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 10495,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Animate: Bone Wraith",
+    "description": "Animate a <span style=\"color: #ffffff; display: inline\">Bone Wraith</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.<br /><br />While active, it will periodically unleash a <span style=\"color: #ffffff; display: inline\">Bonestorm</span>, striking up to <span class=\"item-number\">5</span> nearby enemies for <span class=\"item-number\">40</span> + <span class=\"item-number\">40% SP</span> Physical Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Animate a Bone Wraith to aid you in combat for 20 seconds.\n\nWhile active, it will periodically unleash a Bonestorm, striking up to 5 nearby enemies for 40 + 40% SP Physical Damage every 1 sec for 5 seconds.",
+    "iconPath": "interface/icons/achievement_boss_lordmarrowgar",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805032,
+    "spellIds": [
+      805032
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7347
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 805032,
+    "gridX": 2,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805032,
+        "description": "Animate a <span style=\"color: #ffffff; display: inline\">Bone Wraith</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.<br /><br />While active, it will periodically unleash a <span style=\"color: #ffffff; display: inline\">Bonestorm</span>, striking up to <span class=\"item-number\">5</span> nearby enemies for <span class=\"item-number\">40</span> + <span class=\"item-number\">40% SP</span> Physical Damage every <span class=\"item-number\">1</span> sec for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Animate a Bone Wraith to aid you in combat for 20 seconds.\n\nWhile active, it will periodically unleash a Bonestorm, striking up to 5 nearby enemies for 40 + 40% SP Physical Damage every 1 sec for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11112,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Unrelenting",
+    "description": "Reduces the channel time of your <span style=\"color: #ffffff; display: inline\">Crypt Swarm</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Reduces the channel time of your Crypt Swarm by -25%.",
+    "iconPath": "interface/icons/spell_deathknight_subversion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704718,
+    "spellIds": [
+      704718
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      33748
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 704718,
+    "gridX": 3,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704718,
+        "description": "Reduces the channel time of your <span style=\"color: #ffffff; display: inline\">Crypt Swarm</span> by <span class=\"item-number\">-25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Reduces the channel time of your Crypt Swarm by -25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11619,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Animate: Bone Construct",
+    "description": "Animate a <span style=\"color: #ffffff; display: inline\">Bone Construct</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.<br /><br />It moves at a slow speed, but upon reaching an enemy, deals <span class=\"item-number\">1760</span> + <span class=\"item-number\">200% SP</span> + <span class=\"item-number\">50% AP</span> Shadow Damage, piercing all invulnerabilities, resistances, and immunities.",
+    "descriptionText": "Animate a Bone Construct to aid you in combat for 20 seconds.\n\nIt moves at a slow speed, but upon reaching an enemy, deals 1760 + 200% SP + 50% AP Shadow Damage, piercing all invulnerabilities, resistances, and immunities.",
+    "iconPath": "interface/icons/bone_construct",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 531130,
+    "spellIds": [
+      531130
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4238,
+      7346
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 531130,
+        "description": "Animate a <span style=\"color: #ffffff; display: inline\">Bone Construct</span> to aid you in combat for <span class=\"item-number\">20</span> seconds.<br /><br />It moves at a slow speed, but upon reaching an enemy, deals <span class=\"item-number\">1760</span> + <span class=\"item-number\">200% SP</span> + <span class=\"item-number\">50% AP</span> Shadow Damage, piercing all invulnerabilities, resistances, and immunities.",
+        "descriptionText": "Animate a Bone Construct to aid you in combat for 20 seconds.\n\nIt moves at a slow speed, but upon reaching an enemy, deals 1760 + 200% SP + 50% AP Shadow Damage, piercing all invulnerabilities, resistances, and immunities."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12165,
+    "classId": 23,
+    "className": "Necromancer",
+    "tabId": 61,
+    "tabKey": "23:61",
+    "tabName": "Animation",
+    "name": "Sepulchral Might",
+    "description": "Increases your Stamina by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Increases your spell damage by an amount equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the total of your <span style=\"color: #ffffff; display: inline\">Raised</span> minion's Stamina.",
+    "descriptionText": "Increases your Stamina by 5%.\n\nIncreases your spell damage by an amount equal to 15% of the total of your Raised minion's Stamina.",
+    "iconPath": "interface/icons/_d3markedfordeath",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 706472,
+    "spellIds": [
+      706472,
+      572638
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7143,
+      30022
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706472,
+        "description": "Increases your Stamina by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.<br /><br />Increases your spell damage by an amount equal to <span class=\"item-number\">15</span><span class=\"item-number\">%</span> of the total of your <span style=\"color: #ffffff; display: inline\">Raised</span> minion's Stamina.",
+        "descriptionText": "Increases your Stamina by 5%.\n\nIncreases your spell damage by an amount equal to 15% of the total of your Raised minion's Stamina."
+      },
+      {
+        "rank": 2,
+        "spellId": 572638,
+        "description": "Increases your Stamina by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.<br /><br />Increases your spell damage by an amount equal to <span class=\"item-number\">30</span><span class=\"item-number\">%</span> of the total of your <span style=\"color: #ffffff; display: inline\">Raised</span> minion's Stamina.",
+        "descriptionText": "Increases your Stamina by 10%.\n\nIncreases your spell damage by an amount equal to 30% of the total of your Raised minion's Stamina."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]

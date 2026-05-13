@@ -1,0 +1,1806 @@
+[
+  {
+    "nodeId": 30038,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Darkrend Scythe",
+    "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Doomrend</span> and <span style=\"color: #ffffff; display: inline\">Crow's Harvest</span> now applies a bleed, dealing <span class=\"item-number\">56</span> + <span class=\"item-number\">8.5% AP</span> Physical Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh the duration.",
+    "descriptionText": "Damage dealt by Doomrend and Crow's Harvest now applies a bleed, dealing 56 + 8.5% AP Physical Damage every 2 sec for 10 seconds, stacking 5 times.\n\nAdditional applications do not refresh the duration.",
+    "iconPath": "interface/icons/inv_staff_114",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805205,
+    "spellIds": [
+      805205
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6762,
+      29247,
+      30545
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805205,
+        "description": "Damage dealt by <span style=\"color: #ffffff; display: inline\">Doomrend</span> and <span style=\"color: #ffffff; display: inline\">Crow's Harvest</span> now applies a bleed, dealing <span class=\"item-number\">56</span> + <span class=\"item-number\">8.5% AP</span> Physical Damage every <span class=\"item-number\">2</span> sec for <span class=\"item-number\">10</span> seconds, stacking <span class=\"item-number\">5</span> times.<br /><br />Additional applications do not refresh the duration.",
+        "descriptionText": "Damage dealt by Doomrend and Crow's Harvest now applies a bleed, dealing 56 + 8.5% AP Physical Damage every 2 sec for 10 seconds, stacking 5 times.\n\nAdditional applications do not refresh the duration."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30715,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Genocide",
+    "description": "Increases the damage and critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Slaughter</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage and critical strike chance of Slaughter by 10%.",
+    "iconPath": "interface/icons/novart_physical_ability_(2)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 560924,
+    "spellIds": [
+      560924
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31371
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560924,
+        "description": "Increases the damage and critical strike chance of <span style=\"color: #FFFFFF; display: inline\">Slaughter</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage and critical strike chance of Slaughter by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31368,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Ruin",
+    "description": "$c3",
+    "descriptionText": "$c3",
+    "iconPath": "interface/icons/ability_rogue_rupture",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805198,
+    "spellIds": [
+      805198
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7266,
+      7267,
+      29604
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805198,
+        "description": "$c4",
+        "descriptionText": "$c4"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31369,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Harvesting Grounds",
+    "description": "Create a harvesting ground at the target location for <span class=\"item-number\">10</span> seconds, enemies inside have their melee and ranged haste and movement speed reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span><br /><br />For the duration, enemies that try to exit the harvesting ground will be pulled back to its center.",
+    "descriptionText": "Create a harvesting ground at the target location for 10 seconds, enemies inside have their melee and ranged haste and movement speed reduced by -20%\n\nFor the duration, enemies that try to exit the harvesting ground will be pulled back to its center.",
+    "iconPath": "interface/icons/inv_shoulder_plate_raiddeathknightmythic_s_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705413,
+    "spellIds": [
+      705413
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31370,
+      31373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705413,
+        "description": "Create a harvesting ground at the target location for <span class=\"item-number\">10</span> seconds, enemies inside have their melee and ranged haste and movement speed reduced by <span class=\"item-number\">-20</span><span class=\"item-number\">%</span><br /><br />For the duration, enemies that try to exit the harvesting ground will be pulled back to its center.",
+        "descriptionText": "Create a harvesting ground at the target location for 10 seconds, enemies inside have their melee and ranged haste and movement speed reduced by -20%\n\nFor the duration, enemies that try to exit the harvesting ground will be pulled back to its center."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31370,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Crimson Wraith",
+    "description": "Increases your critical stike damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your critical stike damage by 10%.",
+    "iconPath": "interface/icons/nhi_arcanewraith_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 504560,
+    "spellIds": [
+      504560,
+      504880
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6766,
+      34476
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504560,
+        "description": "Increases your critical stike damage by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical stike damage by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 504880,
+        "description": "Increases your critical stike damage by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your critical stike damage by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31371,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Slaughter",
+    "description": "Eradicate an enemy with your scythe, dealing <span class=\"item-number\">108</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">14</span>.<br /><br />Generates <span class=\"item-number\">1</span> <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span>. Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Eradicate an enemy with your scythe, dealing 108% Weapon Damage plus 14.\n\nGenerates 1 Reaped Soul. Only usable on enemies below 35% health.",
+    "iconPath": "interface/icons/ability_revendreth_warrior",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 500373,
+    "spellIds": [
+      500373
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9270,
+      29246
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500373,
+        "description": "Eradicate an enemy with your scythe, dealing <span class=\"item-number\">108</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">14</span>.<br /><br />Generates <span class=\"item-number\">1</span> <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span>. Only usable on enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Eradicate an enemy with your scythe, dealing 108% Weapon Damage plus 14.\n\nGenerates 1 Reaped Soul. Only usable on enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 31373,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Harvest Time",
+    "description": "Increases your damage and critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and gives your spells that require <span style=\"color: #5ee2ff; display: inline\">Soul Infusion</span> a <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> to not consume the effect for <span class=\"item-number\">15</span> seconds.",
+    "descriptionText": "Increases your damage and critical strike chance by 15% and gives your spells that require Soul Infusion a -50% to not consume the effect for 15 seconds.",
+    "iconPath": "interface/icons/inv_mace_1h_revendreth_d_01",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 803995,
+    "spellIds": [
+      803995
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6838,
+      30715,
+      34476
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 803995,
+        "description": "Increases your damage and critical strike chance by <span class=\"item-number\">15</span><span class=\"item-number\">%</span> and gives your spells that require <span style=\"color: #5ee2ff; display: inline\">Soul Infusion</span> a <span class=\"item-number\">-50</span><span class=\"item-number\">%</span> to not consume the effect for <span class=\"item-number\">15</span> seconds.",
+        "descriptionText": "Increases your damage and critical strike chance by 15% and gives your spells that require Soul Infusion a -50% to not consume the effect for 15 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34476,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Blood Fueled",
+    "description": "Increases the healing absorbed by <span style=\"color: #FFFFFF; display: inline\">Doomrend</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the healing absorbed by Doomrend by 30%.",
+    "iconPath": "interface/icons/spell_deathknight_bloodtap",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705416,
+    "spellIds": [
+      705416
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5762
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705416,
+        "description": "Increases the healing absorbed by <span style=\"color: #FFFFFF; display: inline\">Doomrend</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the healing absorbed by Doomrend by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34477,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "The Time Has Come",
+    "description": "Your abilities now deal <span class=\"item-number\">10</span><span class=\"item-number\">%</span> more damage against slowed targets.",
+    "descriptionText": "Your abilities now deal 10% more damage against slowed targets.",
+    "iconPath": "interface/icons/spell_deathknight_subversion",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 572879,
+    "spellIds": [
+      572879
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 572879,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 572879,
+        "description": "Your abilities now deal <span class=\"item-number\">10</span><span class=\"item-number\">%</span> more damage against slowed targets.",
+        "descriptionText": "Your abilities now deal 10% more damage against slowed targets."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34480,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Crow's Harvest",
+    "description": "Strike an enemy and up to <span class=\"item-number\">5</span> nearby enemies for <span class=\"item-number\">55</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">6</span>.<br /><br />Damage dealt harvests a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span>, up to a maximum of <span class=\"item-number\">3</span>.",
+    "descriptionText": "Strike an enemy and up to 5 nearby enemies for 55% Weapon Damage plus 6.\n\nDamage dealt harvests a Soul Fragment, up to a maximum of 3.",
+    "iconPath": "interface/icons/inv_polearm_2h_warfrontshorde_c_01red",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504011,
+    "spellIds": [
+      504011
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29246
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504011,
+        "description": "Strike an enemy and up to <span class=\"item-number\">5</span> nearby enemies for <span class=\"item-number\">55</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">6</span>.<br /><br />Damage dealt harvests a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span>, up to a maximum of <span class=\"item-number\">3</span>.",
+        "descriptionText": "Strike an enemy and up to 5 nearby enemies for 55% Weapon Damage plus 6.\n\nDamage dealt harvests a Soul Fragment, up to a maximum of 3."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 34481,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Dark Fate",
+    "description": "Reduces the cost of <span style=\"color: #ffffff; display: inline\">Crow's Harvest</span> by <span class=\"item-number\">-10</span> Runic Power.",
+    "descriptionText": "Reduces the cost of Crow's Harvest by -10 Runic Power.",
+    "iconPath": "interface/icons/uico_blood_spell_10_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504037,
+    "spellIds": [
+      504037
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      34480
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 0,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504037,
+        "description": "Reduces the cost of <span style=\"color: #ffffff; display: inline\">Crow's Harvest</span> by <span class=\"item-number\">-10</span> Runic Power.",
+        "descriptionText": "Reduces the cost of Crow's Harvest by -10 Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29604,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Ravenous Thirst",
+    "description": "Reduces the Runic Power cost of <span style=\"color: #ffffff; display: inline\">Ghastly Screech</span> and <span style=\"color: #ffffff; display: inline\">Soul Strike</span> by <span class=\"item-number\">-10</span>.",
+    "descriptionText": "Reduces the Runic Power cost of Ghastly Screech and Soul Strike by -10.",
+    "iconPath": "interface/icons/_soulharvest2__red",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705409,
+    "spellIds": [
+      705409
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6684,
+      29250
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705409,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705409,
+        "description": "Reduces the Runic Power cost of <span style=\"color: #ffffff; display: inline\">Ghastly Screech</span> and <span style=\"color: #ffffff; display: inline\">Soul Strike</span> by <span class=\"item-number\">-10</span>.",
+        "descriptionText": "Reduces the Runic Power cost of Ghastly Screech and Soul Strike by -10."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29617,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Blood Harvester",
+    "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+    "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects.",
+    "iconPath": "interface/icons/ability_ironmaidens_whirlofblood",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 300889,
+    "spellIds": [
+      300889
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 572879,
+    "gridX": 4,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 300889,
+        "description": "Increases critical strike chance of all party and raid members by <span class=\"item-number\">3</span><span class=\"item-number\">%</span>.<br /><br />Does not stack with similar effects.",
+        "descriptionText": "Increases critical strike chance of all party and raid members by 3%.\n\nDoes not stack with similar effects."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29688,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Blood Frenzy",
+    "description": "Casting <span style=\"color: #ffffff; display: inline\">Harvest Time</span> with an enemy targeted within <span class=\"item-number\">20</span> yds of you now unleashes a <span style=\"color: #ffffff; display: inline\">Blood Frenzy</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _d3mantraofretribution\" /><span class=\"name\">Blood Frenzy</span></div><span class=\"desc\">Deals <span class=\"item-number\">1</span> + <span class=\"item-number\">36% AP</span> Shadow Damage to your target every <span class=\"item-number\">0.75</span> sec for <span class=\"item-number\">7.5</span> seconds. At the end of the duration, the target takes an additional <span class=\"item-number\">457</span> + <span class=\"item-number\">45% AP</span> Shadow Damage.</span></div>",
+    "descriptionText": "Casting Harvest Time with an enemy targeted within 20 yds of you now unleashes a Blood Frenzy.\n\n---\n\nBlood FrenzyDeals 1 + 36% AP Shadow Damage to your target every 0.75 sec for 7.5 seconds. At the end of the duration, the target takes an additional 457 + 45% AP Shadow Damage.",
+    "iconPath": "interface/icons/_d3mantraofretribution",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707899,
+    "spellIds": [
+      707899
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7266,
+      30545
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707899,
+        "description": "Casting <span style=\"color: #ffffff; display: inline\">Harvest Time</span> with an enemy targeted within <span class=\"item-number\">20</span> yds of you now unleashes a <span style=\"color: #ffffff; display: inline\">Blood Frenzy</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _d3mantraofretribution\" /><span class=\"name\">Blood Frenzy</span></div><span class=\"desc\">Deals <span class=\"item-number\">1</span> + <span class=\"item-number\">36% AP</span> Shadow Damage to your target every <span class=\"item-number\">0.75</span> sec for <span class=\"item-number\">7.5</span> seconds. At the end of the duration, the target takes an additional <span class=\"item-number\">457</span> + <span class=\"item-number\">45% AP</span> Shadow Damage.</span></div>",
+        "descriptionText": "Casting Harvest Time with an enemy targeted within 20 yds of you now unleashes a Blood Frenzy.\n\n---\n\nBlood FrenzyDeals 1 + 36% AP Shadow Damage to your target every 0.75 sec for 7.5 seconds. At the end of the duration, the target takes an additional 457 + 45% AP Shadow Damage."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30517,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Sanguine Harvester",
+    "description": "Increases your melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases your melee haste by 10%.",
+    "iconPath": "interface/icons/nhi_bloodhand_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 560892,
+    "spellIds": [
+      560892,
+      561339
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      7259,
+      30551
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 560892,
+        "description": "Increases your melee haste by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your melee haste by 10%."
+      },
+      {
+        "rank": 2,
+        "spellId": 561339,
+        "description": "Increases your melee haste by <span class=\"item-number\">20</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases your melee haste by 20%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30545,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Doomer",
+    "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Doomrend</span> and <span style=\"color: #ffffff; display: inline\">Slaughter</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Doomrend and Slaughter by 30%.",
+    "iconPath": "interface/icons/inv_sword_1h_warfrontshorde_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704556,
+    "spellIds": [
+      704556
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29617,
+      31369,
+      34477
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 3,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704556,
+        "description": "Increases the damage of <span style=\"color: #ffffff; display: inline\">Doomrend</span> and <span style=\"color: #ffffff; display: inline\">Slaughter</span> by <span class=\"item-number\">30</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Doomrend and Slaughter by 30%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30546,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Redshade",
+    "description": "$c5",
+    "descriptionText": "$c5",
+    "iconPath": "interface/icons/inv_sword_2h_blood_c_02",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 524735,
+    "spellIds": [
+      524735
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29688,
+      30038
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 524735,
+        "description": "$c6",
+        "descriptionText": "$c6"
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 30551,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Crimson Death",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Slaughter</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to cast an additional time free of cost.",
+    "descriptionText": "Your Slaughter now has a 20% chance to cast an additional time free of cost.",
+    "iconPath": "interface/icons/ability_revendreth_rogue",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705414,
+    "spellIds": [
+      705414
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31371
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705414,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Slaughter</span> now has a <span class=\"item-number\">20</span><span class=\"item-number\">%</span> chance to cast an additional time free of cost.",
+        "descriptionText": "Your Slaughter now has a 20% chance to cast an additional time free of cost."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5562,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Shudder Scythe",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Murder</span> is transformed into <span style=\"color: #ffffff; display: inline\">Shudder Scythe</span>, which costs additional Runic Power but deals increased damage and generates <span style=\"color: #FFFFFF; display: inline\">Soul Fragments</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_xavius_crushingshadows\" /><span class=\"name\">Shudder Scythe (Transform)</span></div><span class=\"desc\">Strike an enemy <span class=\"item-number\">5</span> times, each dealing <span class=\"item-number\">27</span><span class=\"item-number\">%</span> Weapon Damage, scaling with level, and granting you a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span> with each strike.</span></div>",
+    "descriptionText": "Your Murder is transformed into Shudder Scythe, which costs additional Runic Power but deals increased damage and generates Soul Fragments.\n\n---\n\nShudder Scythe (Transform)Strike an enemy 5 times, each dealing 27% Weapon Damage, scaling with level, and granting you a Soul Fragment with each strike.",
+    "iconPath": "interface/icons/ability_xavius_crushingshadows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 805708,
+    "spellIds": [
+      805708
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29688,
+      31368
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 841112,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805708,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Murder</span> is transformed into <span style=\"color: #ffffff; display: inline\">Shudder Scythe</span>, which costs additional Runic Power but deals increased damage and generates <span style=\"color: #FFFFFF; display: inline\">Soul Fragments</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 ability_xavius_crushingshadows\" /><span class=\"name\">Shudder Scythe (Transform)</span></div><span class=\"desc\">Strike an enemy <span class=\"item-number\">5</span> times, each dealing <span class=\"item-number\">27</span><span class=\"item-number\">%</span> Weapon Damage, scaling with level, and granting you a <span style=\"color: #ffffff; display: inline\">Soul Fragment</span> with each strike.</span></div>",
+        "descriptionText": "Your Murder is transformed into Shudder Scythe, which costs additional Runic Power but deals increased damage and generates Soul Fragments.\n\n---\n\nShudder Scythe (Transform)Strike an enemy 5 times, each dealing 27% Weapon Damage, scaling with level, and granting you a Soul Fragment with each strike."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5762,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Red Wake",
+    "description": "Direct damage critical strikes now generate an additional <span style=\"color: #ffffff; display: inline\">Soul Fragment</span>.",
+    "descriptionText": "Direct damage critical strikes now generate an additional Soul Fragment.",
+    "iconPath": "interface/icons/ability_revendreth_shaman",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707707,
+    "spellIds": [
+      707707
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31371
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707707,
+        "description": "Direct damage critical strikes now generate an additional <span style=\"color: #ffffff; display: inline\">Soul Fragment</span>.",
+        "descriptionText": "Direct damage critical strikes now generate an additional Soul Fragment."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 5767,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Haunter",
+    "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Soulrend</span> by <span class=\"item-number\">5</span> sec.",
+    "descriptionText": "Increases the duration of Soulrend by 5 sec.",
+    "iconPath": "interface/icons/ability_demonhunter_vengefulretreat",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705410,
+    "spellIds": [
+      705410
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9270
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705410,
+        "description": "Increases the duration of <span style=\"color: #FFFFFF; display: inline\">Soulrend</span> by <span class=\"item-number\">5</span> sec.",
+        "descriptionText": "Increases the duration of Soulrend by 5 sec."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6762,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Blood Knight",
+    "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Doomrend</span> now refund a <span style=\"color: #ffffff; display: inline\">Reaped Soul</span>.",
+    "descriptionText": "Critical strikes with Doomrend now refund a Reaped Soul.",
+    "iconPath": "interface/icons/nhi_bloodstrike_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 704552,
+    "spellIds": [
+      704552
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31369,
+      31370
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 723411,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 704552,
+        "description": "Critical strikes with <span style=\"color: #ffffff; display: inline\">Doomrend</span> now refund a <span style=\"color: #ffffff; display: inline\">Reaped Soul</span>.",
+        "descriptionText": "Critical strikes with Doomrend now refund a Reaped Soul."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6765,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Deathbringer",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Blood Frenzy</span> and <span style=\"color: #ffffff; display: inline\">Harvest Time</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the duration of Blood Frenzy and Harvest Time by 100%.",
+    "iconPath": "interface/icons/nhi_bloodsword_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 573040,
+    "spellIds": [
+      573040
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29688
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573040,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Blood Frenzy</span> and <span style=\"color: #ffffff; display: inline\">Harvest Time</span> by <span class=\"item-number\">100</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the duration of Blood Frenzy and Harvest Time by 100%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6766,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Hungering Scythe",
+    "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Deathwind</span> by <span class=\"item-number\">4</span> sec and <span style=\"color: #ffffff; display: inline\">Crow's Harvest</span> now deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> additional damage to enemies inside.",
+    "descriptionText": "Increases the duration of Deathwind by 4 sec and Crow's Harvest now deals 15% additional damage to enemies inside.",
+    "iconPath": "interface/icons/inv_artifact_thalkielsdiscord",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 801335,
+    "spellIds": [
+      801335
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5762,
+      34481
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 1,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 801335,
+        "description": "Increases the duration of <span style=\"color: #ffffff; display: inline\">Deathwind</span> by <span class=\"item-number\">4</span> sec and <span style=\"color: #ffffff; display: inline\">Crow's Harvest</span> now deals <span class=\"item-number\">15</span><span class=\"item-number\">%</span> additional damage to enemies inside.",
+        "descriptionText": "Increases the duration of Deathwind by 4 sec and Crow's Harvest now deals 15% additional damage to enemies inside."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6838,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Hemorrhage",
+    "description": "Increases the damage and critical strike chance of your abilities by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Increases the damage and critical strike chance of your abilities by 10% against enemies below 35% health.",
+    "iconPath": "interface/icons/ability_rogue_bloodsplatter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705432,
+    "spellIds": [
+      705432
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      30551
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705432,
+        "description": "Increases the damage and critical strike chance of your abilities by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Increases the damage and critical strike chance of your abilities by 10% against enemies below 35% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7259,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Callous Soul",
+    "description": "Increases the amount of armor <span style=\"color: #FFFFFF; display: inline\">Soulrend</span> causes you to ignore by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the amount of armor Soulrend causes you to ignore by 10%.",
+    "iconPath": "interface/icons/spell_animarevendreth_orb",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705418,
+    "spellIds": [
+      705418
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      5767
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 8,
+    "gridY": 3,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705418,
+        "description": "Increases the amount of armor <span style=\"color: #FFFFFF; display: inline\">Soulrend</span> causes you to ignore by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the amount of armor Soulrend causes you to ignore by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7266,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Unbound",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Reliquary of the Lost</span> is now guaranteed to critically strike for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage on enemies below <span class=\"item-number\">20%</span> health.",
+    "descriptionText": "Your Reliquary of the Lost is now guaranteed to critically strike for 25% increased damage on enemies below 20% health.",
+    "iconPath": "interface/icons/novart_magicspell_(2)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706785,
+    "spellIds": [
+      706785
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6684,
+      29617,
+      34477
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 5,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706785,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Reliquary of the Lost</span> is now guaranteed to critically strike for <span class=\"item-number\">25</span><span class=\"item-number\">%</span> increased damage on enemies below <span class=\"item-number\">20%</span> health.",
+        "descriptionText": "Your Reliquary of the Lost is now guaranteed to critically strike for 25% increased damage on enemies below 20% health."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 7267,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "The Grim Reaper",
+    "description": "Your <span style=\"color: #ffffff; display: inline\">Ghost Claw</span> transforms into <span style=\"color: #ffffff; display: inline\">Wraith Claw</span> and now has <span class=\"item-number\">2</span> charges.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_ghostclaw_border\" /><span class=\"name\">Wraith Claw</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges,<span class=\"item-number\">15</span> sec recharge</span><br />Chill an enemy with a ghostly claw, slowing and stealing <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> of their movement speed for <span class=\"item-number\">8</span> seconds.<br /><br />Whenever you kill an enemy, refund a charge of this ability. Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Ghost Claw</span>.</span></div>",
+    "descriptionText": "Your Ghost Claw transforms into Wraith Claw and now has 2 charges.\n\n---\n\nWraith Claw2 Charges,15 sec recharge\nChill an enemy with a ghostly claw, slowing and stealing -40% of their movement speed for 8 seconds.\n\nWhenever you kill an enemy, refund a charge of this ability. Scales with modifiers to Ghost Claw.",
+    "iconPath": "interface/icons/nhi_bloodrage_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 504269,
+    "spellIds": [
+      504269
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6684,
+      29250
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 705409,
+    "gridX": 7,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 504269,
+        "description": "Your <span style=\"color: #ffffff; display: inline\">Ghost Claw</span> transforms into <span style=\"color: #ffffff; display: inline\">Wraith Claw</span> and now has <span class=\"item-number\">2</span> charges.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 nhi_ghostclaw_border\" /><span class=\"name\">Wraith Claw</span></div><span class=\"desc\"><span style=\"color: #ffffff; display: inline\"><span class=\"item-number\">2</span> Charges,<span class=\"item-number\">15</span> sec recharge</span><br />Chill an enemy with a ghostly claw, slowing and stealing <span class=\"item-number\">-40</span><span class=\"item-number\">%</span> of their movement speed for <span class=\"item-number\">8</span> seconds.<br /><br />Whenever you kill an enemy, refund a charge of this ability. Scales with modifiers to <span style=\"color: #ffffff; display: inline\">Ghost Claw</span>.</span></div>",
+        "descriptionText": "Your Ghost Claw transforms into Wraith Claw and now has 2 charges.\n\n---\n\nWraith Claw2 Charges,15 sec recharge\nChill an enemy with a ghostly claw, slowing and stealing -40% of their movement speed for 8 seconds.\n\nWhenever you kill an enemy, refund a charge of this ability. Scales with modifiers to Ghost Claw."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 4055,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Harvester",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Physical Damage dealt with abilities now heals you equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+    "descriptionText": "Level 10 Passive\nPhysical Damage dealt with abilities now heals you equal to 10% of the damage dealt.",
+    "iconPath": "interface/icons/ability_revendreth_deathknight",
+    "nodeType": "SpendCircle",
+    "entryType": "Ability",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 92145,
+    "spellIds": [
+      92145
+    ],
+    "requiredNodeIds": [
+      29248
+    ],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 92145,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">10</span> Passive</span><br />Physical Damage dealt with abilities now heals you equal to <span class=\"item-number\">10</span><span class=\"item-number\">%</span> of the damage dealt.",
+        "descriptionText": "Level 10 Passive\nPhysical Damage dealt with abilities now heals you equal to 10% of the damage dealt."
+      }
+    ],
+    "flags": 270342,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 6684,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Sever",
+    "description": "Attempt to drain an enemies vitals, leeching <span class=\"item-number\">22</span> + <span class=\"item-number\">31.03% AP</span> health, interrupting casting and preventing any spell from that school from being cast for <span class=\"item-number\">3</span> seconds.",
+    "descriptionText": "Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from being cast for 3 seconds.",
+    "iconPath": "interface/icons/_virus_red",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 806125,
+    "spellIds": [
+      806125
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29250,
+      31373
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 806125,
+        "description": "Attempt to drain an enemies vitals, leeching <span class=\"item-number\">22</span> + <span class=\"item-number\">31.03% AP</span> health, interrupting casting and preventing any spell from that school from being cast for <span class=\"item-number\">3</span> seconds.",
+        "descriptionText": "Attempt to drain an enemies vitals, leeching 22 + 31.03% AP health, interrupting casting and preventing any spell from that school from being cast for 3 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11262,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Crimson Thirst",
+    "description": "Your Physical Damage dealt to enemies now grants <span style=\"color: #ffffff; display: inline\">Crimson Thirst</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_engineerskill03_border\" /><span class=\"name\">Crimson Thirst (Stacks)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Murder</span> within <span class=\"item-number\">15</span> seconds deals <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage and costs <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> less Runic Power per stack. At <span class=\"item-number\">5</span> stacks, it also heals you equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt.</span></div>",
+    "descriptionText": "Your Physical Damage dealt to enemies now grants Crimson Thirst for 20 seconds, stacking 5 times.\n\n---\n\nCrimson Thirst (Stacks)Your next Murder within 15 seconds deals 10% increased damage and costs -10% less Runic Power per stack. At 5 stacks, it also heals you equal to 50% of the damage dealt.",
+    "iconPath": "interface/icons/5_engineerskill03_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 807415,
+    "spellIds": [
+      807415
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29688,
+      31368
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 23,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 841112,
+    "gridX": 6,
+    "gridY": 9,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 807415,
+        "description": "Your Physical Damage dealt to enemies now grants <span style=\"color: #ffffff; display: inline\">Crimson Thirst</span> for <span class=\"item-number\">20</span> seconds, stacking <span class=\"item-number\">5</span> times.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 _5_engineerskill03_border\" /><span class=\"name\">Crimson Thirst (Stacks)</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Murder</span> within <span class=\"item-number\">15</span> seconds deals <span class=\"item-number\">10</span><span class=\"item-number\">%</span> increased damage and costs <span class=\"item-number\">-10</span><span class=\"item-number\">%</span> less Runic Power per stack. At <span class=\"item-number\">5</span> stacks, it also heals you equal to <span class=\"item-number\">50</span><span class=\"item-number\">%</span> of the damage dealt.</span></div>",
+        "descriptionText": "Your Physical Damage dealt to enemies now grants Crimson Thirst for 20 seconds, stacking 5 times.\n\n---\n\nCrimson Thirst (Stacks)Your next Murder within 15 seconds deals 10% increased damage and costs -10% less Runic Power per stack. At 5 stacks, it also heals you equal to 50% of the damage dealt."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 11268,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "This Is My Domain",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases the amount healed through the <span style=\"color: #FFFFFF; display: inline\">Harvest - Level <span class=\"item-number\">10</span> Passive</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes being in your <span style=\"color: #ffffff; display: inline\">Harvesting Grounds</span> to increase this effect by an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Level 50 Passive\nIncreases the amount healed through the Harvest - Level 10 Passive by 10% and causes being in your Harvesting Grounds to increase this effect by an additional 25%.",
+    "iconPath": "interface/icons/ability_rogue_bloodsplatter",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500584,
+    "spellIds": [
+      500584
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9268
+    ],
+    "requiredLevel": 50,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 8,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500584,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">50</span> Passive</span><br />Increases the amount healed through the <span style=\"color: #FFFFFF; display: inline\">Harvest - Level <span class=\"item-number\">10</span> Passive</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span> and causes being in your <span style=\"color: #ffffff; display: inline\">Harvesting Grounds</span> to increase this effect by an additional <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Level 50 Passive\nIncreases the amount healed through the Harvest - Level 10 Passive by 10% and causes being in your Harvesting Grounds to increase this effect by an additional 25%."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9268,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Executioner",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your critical strike rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Strength.<br /><br />In addition, increases your Armor penetration by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">35%</span> health.",
+    "descriptionText": "Level 40 Passive\nIncreases your critical strike rating by 20% of your Strength.\n\nIn addition, increases your Armor penetration by 30% against enemies below 35% health.",
+    "iconPath": "interface/icons/inv_sword_2h_blood_c_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 500542,
+    "spellIds": [
+      500542
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      12269
+    ],
+    "requiredLevel": 40,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 6,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 500542,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">40</span> Passive</span><br />Increases your critical strike rating by <span class=\"item-number\">20</span><span class=\"item-number\">%</span> of your Strength.<br /><br />In addition, increases your Armor penetration by <span class=\"item-number\">30</span><span class=\"item-number\">%</span> against enemies below <span class=\"item-number\">35%</span> health.",
+        "descriptionText": "Level 40 Passive\nIncreases your critical strike rating by 20% of your Strength.\n\nIn addition, increases your Armor penetration by 30% against enemies below 35% health."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9269,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Extinction",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Direct Physical Damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Extinction</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Chance to trigger this effect is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> active.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_physical_ability__2__border\" /><span class=\"name\">Extinction</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Slaughter</span> is usable regardless of the target's health and costs <span class=\"item-number\">-10</span> less Runic Power.</span></div>",
+    "descriptionText": "Level 20 Passive\nDirect Physical Damage dealt now has a 5% chance to grant you Extinction for 8 seconds.\n\nChance to trigger this effect is increased by 5% for each Reaped Soul active.\n\n---\n\nExtinctionYour next Slaughter is usable regardless of the target's health and costs -10 less Runic Power.",
+    "iconPath": "interface/icons/inv_sword_2h_revendreth_d_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 573039,
+    "spellIds": [
+      573039
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      4055
+    ],
+    "requiredLevel": 20,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 2,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 573039,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">20</span> Passive</span><br />Direct Physical Damage dealt now has a <span class=\"item-number\">5</span><span class=\"item-number\">%</span> chance to grant you <span style=\"color: #ffffff; display: inline\">Extinction</span> for <span class=\"item-number\">8</span> seconds.<br /><br />Chance to trigger this effect is increased by <span class=\"item-number\">5</span><span class=\"item-number\">%</span> for each <span style=\"color: #5ee2ff; display: inline\">Reaped Soul</span> active.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_physical_ability__2__border\" /><span class=\"name\">Extinction</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Slaughter</span> is usable regardless of the target's health and costs <span class=\"item-number\">-10</span> less Runic Power.</span></div>",
+        "descriptionText": "Level 20 Passive\nDirect Physical Damage dealt now has a 5% chance to grant you Extinction for 8 seconds.\n\nChance to trigger this effect is increased by 5% for each Reaped Soul active.\n\n---\n\nExtinctionYour next Slaughter is usable regardless of the target's health and costs -10 less Runic Power."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 9270,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Bountiful Harvest",
+    "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Reap</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the damage of Reap by 25%.",
+    "iconPath": "interface/icons/inv_harvestgolempet",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 706576,
+    "spellIds": [
+      706576
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29378
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 6,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 706576,
+        "description": "Increases the damage of <span style=\"color: #FFFFFF; display: inline\">Reap</span> by <span class=\"item-number\">25</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the damage of Reap by 25%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 12269,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Mortal's End",
+    "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Allows <span style=\"color: #ffffff; display: inline\">Extinction</span> to stack an additional time and allows <span style=\"color: #ffffff; display: inline\">Wraithblade</span> to grant you <span style=\"color: #ffffff; display: inline\">Extinction</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_physical_ability__2__border\" /><span class=\"name\">Extinction</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Slaughter</span> is usable regardless of the target's health and costs <span class=\"item-number\">-10</span> less Runic Power.</span></div>",
+    "descriptionText": "Level 30 Passive\nAllows Extinction to stack an additional time and allows Wraithblade to grant you Extinction.\n\n---\n\nExtinctionYour next Slaughter is usable regardless of the target's health and costs -10 less Runic Power.",
+    "iconPath": "interface/icons/ability_hunter_murderofcrows",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": true,
+    "maxPoints": 1,
+    "spellId": 705437,
+    "spellIds": [
+      705437
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      9269
+    ],
+    "requiredLevel": 30,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 0,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 10,
+    "gridY": 4,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705437,
+        "description": "<span style=\"color: #66DDFF; display: inline\">Level <span class=\"item-number\">30</span> Passive</span><br />Allows <span style=\"color: #ffffff; display: inline\">Extinction</span> to stack an additional time and allows <span style=\"color: #ffffff; display: inline\">Wraithblade</span> to grant you <span style=\"color: #ffffff; display: inline\">Extinction</span>.<div class=\"pop-inline-spell\"><hr class=\"my-2\" style=\"border-color: #2e2e2e\" /><div class=\"d-flex mb-2\"><img class=\"builder-icon pop-icon mr-2 novart_physical_ability__2__border\" /><span class=\"name\">Extinction</span></div><span class=\"desc\">Your next <span style=\"color: #ffffff; display: inline\">Slaughter</span> is usable regardless of the target's health and costs <span class=\"item-number\">-10</span> less Runic Power.</span></div>",
+        "descriptionText": "Level 30 Passive\nAllows Extinction to stack an additional time and allows Wraithblade to grant you Extinction.\n\n---\n\nExtinctionYour next Slaughter is usable regardless of the target's health and costs -10 less Runic Power."
+      }
+    ],
+    "flags": 1056772,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29246,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Maw Knight",
+    "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Doomrend</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+    "descriptionText": "Increases the critical strike chance of Doomrend by 5%.",
+    "iconPath": "interface/icons/inv_helmet_plate_deathknight_m_01",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 2,
+    "spellId": 805204,
+    "spellIds": [
+      805204,
+      807888
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      29378
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 2,
+    "gridY": 1,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 805204,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Doomrend</span> by <span class=\"item-number\">5</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Doomrend by 5%."
+      },
+      {
+        "rank": 2,
+        "spellId": 807888,
+        "description": "Increases the critical strike chance of <span style=\"color: #ffffff; display: inline\">Doomrend</span> by <span class=\"item-number\">10</span><span class=\"item-number\">%</span>.",
+        "descriptionText": "Increases the critical strike chance of Doomrend by 10%."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29247,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Blood Wraith",
+    "description": "<span style=\"color: #ffffff; display: inline\">Wraithblade</span> now deals an additional <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage and its Runic Power cost is reduced by <span class=\"item-number\">-20</span>.",
+    "descriptionText": "Wraithblade now deals an additional 100% Weapon Damage and its Runic Power cost is reduced by -20.",
+    "iconPath": "interface/icons/ability_deathwing_bloodcorruption_death",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 707305,
+    "spellIds": [
+      707305
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      31369,
+      31370
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": 723411,
+    "gridX": 1,
+    "gridY": 7,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 707305,
+        "description": "<span style=\"color: #ffffff; display: inline\">Wraithblade</span> now deals an additional <span class=\"item-number\">100</span><span class=\"item-number\">%</span> Weapon Damage and its Runic Power cost is reduced by <span class=\"item-number\">-20</span>.",
+        "descriptionText": "Wraithblade now deals an additional 100% Weapon Damage and its Runic Power cost is reduced by -20."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29250,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Souls for the Slaughter",
+    "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Slaughter</span> now cause your auto attacks to deal an additional <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Shadow Damage for <span class=\"item-number\">5</span> seconds.",
+    "descriptionText": "Critical strikes with Slaughter now cause your auto attacks to deal an additional 85% Shadow Damage for 5 seconds.",
+    "iconPath": "interface/icons/novart_helmet_(7)_border",
+    "nodeType": "SpendCircle",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 705428,
+    "spellIds": [
+      705428
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [
+      6838,
+      30517
+    ],
+    "requiredLevel": 0,
+    "reqTabTE": 8,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 7,
+    "gridY": 5,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 705428,
+        "description": "Critical strikes with <span style=\"color: #FFFFFF; display: inline\">Slaughter</span> now cause your auto attacks to deal an additional <span class=\"item-number\">85</span><span class=\"item-number\">%</span> Shadow Damage for <span class=\"item-number\">5</span> seconds.",
+        "descriptionText": "Critical strikes with Slaughter now cause your auto attacks to deal an additional 85% Shadow Damage for 5 seconds."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  },
+  {
+    "nodeId": 29378,
+    "classId": 30,
+    "className": "Reaper",
+    "tabId": 79,
+    "tabKey": "30:79",
+    "tabName": "Harvest",
+    "name": "Doomrend",
+    "description": "Rend an enemy dealing <span class=\"item-number\">117</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">17</span> + <span class=\"item-number\">35% AP</span>, causing you to apply a dark shield to them that absorbs the next <span class=\"item-number\">440</span> + <span class=\"item-number\">200% Strength</span> healing done to them for <span class=\"item-number\">5</span> seconds, and generates Runic Power.",
+    "descriptionText": "Rend an enemy dealing 117% Weapon Damage plus 17 + 35% AP, causing you to apply a dark shield to them that absorbs the next 440 + 200% Strength healing done to them for 5 seconds, and generates Runic Power.",
+    "iconPath": "interface/icons/inv_knife_1h_revendrethquest_b_03",
+    "nodeType": "SpendSquare",
+    "entryType": "Talent",
+    "isPassive": false,
+    "maxPoints": 1,
+    "spellId": 800172,
+    "spellIds": [
+      800172
+    ],
+    "requiredNodeIds": [],
+    "connectedNodeIds": [],
+    "requiredLevel": 0,
+    "reqTabTE": 0,
+    "reqTabAE": 0,
+    "teCost": 1,
+    "aeCost": 0,
+    "isStartingNode": false,
+    "choiceGroupId": null,
+    "gridX": 4,
+    "gridY": 0,
+    "rankDescriptions": [
+      {
+        "rank": 1,
+        "spellId": 800172,
+        "description": "Rend an enemy dealing <span class=\"item-number\">117</span><span class=\"item-number\">%</span> Weapon Damage plus <span class=\"item-number\">17</span> + <span class=\"item-number\">35% AP</span>, causing you to apply a dark shield to them that absorbs the next <span class=\"item-number\">440</span> + <span class=\"item-number\">200% Strength</span> healing done to them for <span class=\"item-number\">5</span> seconds, and generates Runic Power.",
+        "descriptionText": "Rend an enemy dealing 117% Weapon Damage plus 17 + 35% AP, causing you to apply a dark shield to them that absorbs the next 440 + 200% Strength healing done to them for 5 seconds, and generates Runic Power."
+      }
+    ],
+    "flags": 0,
+    "sortOrder": 0,
+    "treeType": "spec"
+  }
+]
